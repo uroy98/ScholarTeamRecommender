@@ -1,0 +1,992 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A0B1Z",
+        "name": "Jinzhen Wang",
+        "primary_affiliation": "University of North Carolina at Charlotte",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of North Carolina at Charlotte"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "NC"
+        ],
+        "perf_cities": [
+            "CHARLOTTE"
+        ],
+        "org_names": [
+            "University of North Carolina at Charlotte"
+        ],
+        "org_ueis": [
+            "JB33DT84JNA5"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "jwang96@charlotte.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2451636",
+                "title": "CRII: OAC: Intelligent Error Control for Multi-tier Progressive Data Management",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-03-01",
+                "exp_date": "2027-02-28",
+                "award_amount": 174965.0,
+                "total_amount": 174965.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "CRII CISE Research Initiation"
+                ],
+                "program_codes": [
+                    "026Y00"
+                ],
+                "program_references": [
+                    "CISE Resrch Initiatn Initiatve"
+                ],
+                "program_ref_codes": [
+                    "8228"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "OAC",
+                "nsf_directorate": null,
+                "fund_division": "Office of Advanced Cyberinfrastructure (OAC)",
+                "cfda_num": "47.070",
+                "po_name": "Sharmistha Bagchi-Sen",
+                "keywords": [
+                    "error",
+                    "control",
+                    "management",
+                    "progressive",
+                    "framework",
+                    "factors",
+                    "crii",
+                    "intelligent",
+                    "multi",
+                    "tier"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "CRII CISE Research Initiation"
+        ],
+        "program_codes": [
+            "026Y00"
+        ],
+        "program_references": [
+            "CISE Resrch Initiatn Initiatve"
+        ],
+        "program_ref_codes": [
+            "8228"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "OAC"
+        ],
+        "fund_divisions": [
+            "Office of Advanced Cyberinfrastructure (OAC)"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Sharmistha Bagchi-Sen"
+        ],
+        "keywords": [
+            "error",
+            "control",
+            "management",
+            "progressive",
+            "framework",
+            "factors",
+            "crii",
+            "intelligent",
+            "multi",
+            "tier",
+            "advances",
+            "computing",
+            "scientific",
+            "storage",
+            "designed",
+            "limitations",
+            "develops",
+            "identify",
+            "through",
+            "cise"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.97
+    },
+    "s2_profile": {
+        "s2_author_id": "2110118909",
+        "name": "Jinzhen Wang",
+        "affiliations": [],
+        "paper_count": 16,
+        "citation_count": 155,
+        "h_index": 7,
+        "papers": [
+            {
+                "s2_paper_id": "6cbe04ed32052faac0851a3aa5523d3acaf7a2e4",
+                "title": "Improving Progressive Retrieval for HPC Scientific Data using Deep Neural Network",
+                "year": 2023,
+                "venue": "IEEE International Conference on Data Engineering",
+                "citation_count": 2,
+                "reference_count": 37,
+                "abstract": "As the disparity between compute and I/O on high-performance computing systems has continued to widen, it has become increasingly difficult to perform post-hoc data analytics on full-resolution scientific simulation data due to the high I/O cost. Error-bounded data decomposition and progressive data retrieval framework has recently been developed to address such a challenge by performing data decomposition before storage and reading only part of the decomposed data when necessary. However, the performance of the progressive retrieval framework has been suffering from the over-pessimistic error control theory, such that the achieved maximum error of recomposed data is significantly lower than the required error. Therefore, more data than required is fetched for recomposition, incurring additional I/O overhead. In order to tackle this issue, we propose a DNN-based progressive retrieval framework that can better identify the minimum amount of data to be retrieved. Our contributions are as follows: 1) We provide an in-depth investigation of the recently developed progressive retrieval framework; 2) We propose two designs of prediction models (named D-MGARD and E-MGARD) to estimate the amount of retrieved data size based on error bounds. 3) We evaluate our proposed solutions using scientific datasets generated by real-world simulations from two domains. Evaluation results demonstrate the effectiveness of our solution in accurately predicting the amount of retrieval data size, as well as the advantages of our solution over the traditional approach to reducing the I/O overhead. Based on our evaluation, our solution is shown to read significantly less data (5% - 40% with D-MGARD, 20% - 80% with E-MGARD).",
+                "authors": [
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "143895244",
+                        "name": "Xin Liang"
+                    },
+                    {
+                        "s2_author_id": "47133425",
+                        "name": "Ben Whitney"
+                    },
+                    {
+                        "s2_author_id": "2506582",
+                        "name": "Jieyang Chen"
+                    },
+                    {
+                        "s2_author_id": "2143628677",
+                        "name": "Qian Gong"
+                    },
+                    {
+                        "s2_author_id": "33367879",
+                        "name": "Xubin He"
+                    },
+                    {
+                        "s2_author_id": "39341300",
+                        "name": "Lipeng Wan"
+                    },
+                    {
+                        "s2_author_id": "1736095",
+                        "name": "S. Klasky"
+                    },
+                    {
+                        "s2_author_id": "1734819",
+                        "name": "N. Podhorszki"
+                    },
+                    {
+                        "s2_author_id": "143877362",
+                        "name": "Qing Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ebcc34abbecaae91f662bd226a308f19934f0cc",
+                "title": "High-Ratio Lossy Compression: Exploring the Autoencoder to Compress Scientific Data",
+                "year": 2023,
+                "venue": "IEEE Transactions on Big Data",
+                "citation_count": 60,
+                "reference_count": 49,
+                "abstract": "Scientific simulations on high-performance computing (HPC) systems can generate large amounts of floating-point data per run. To mitigate the data storage bottleneck and lower the data volume, it is common for floating-point compressors to be employed. As compared to lossless compressors, lossy compressors, such as SZ and ZFP, can reduce data volume more aggressively while maintaining the usefulness of the data. However, a reduction ratio of more than two orders of magnitude is almost impossible without seriously distorting the data. In deep learning, the autoencoder technique has shown great potential for data compression, in particular with images. Whether the autoencoder can deliver similar performance on scientific data, however, is unknown. In this article, we for the first time conduct a comprehensive study on the use of autoencoders to compress real-world scientific data and illustrate several key findings on using autoencoders for scientific data reduction. We implement an autoencoder-based compression prototype to reduce floating-point data. Our study shows that the out-of-the-box implementation needs to be further tuned in order to achieve high compression ratios and satisfactory error bounds. Our evaluation results show that, for most of the test datasets, the tuned autoencoder outperforms SZ by up to 4X, and ZFP by up to 50X in compression ratios, respectively. Our practices and lessons learned in this work can direct future optimizations for using autoencoders to compress scientific data.",
+                "authors": [
+                    {
+                        "s2_author_id": "2111149883",
+                        "name": "Tong Liu"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "2154974567",
+                        "name": "Qing Liu"
+                    },
+                    {
+                        "s2_author_id": "117190751",
+                        "name": "Shakeel Alibhai"
+                    },
+                    {
+                        "s2_author_id": "2090424078",
+                        "name": "Tao Lu"
+                    },
+                    {
+                        "s2_author_id": "33367879",
+                        "name": "Xubin He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a59b12ffa905bb88bf1c504e66855a6cf8a0af8c",
+                "title": "Development of Cold Compressors for a 500 W@2 K Superfluid Helium Refrigeration System",
+                "year": 2023,
+                "venue": "Cryogenics (Guildford)",
+                "citation_count": 3,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2057079985",
+                        "name": "Jin Shang"
+                    },
+                    {
+                        "s2_author_id": "152352851",
+                        "name": "Cui-ping Lv"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "2145504327",
+                        "name": "Huaiyu Chen"
+                    },
+                    {
+                        "s2_author_id": "2210715741",
+                        "name": "Sihao Liu"
+                    },
+                    {
+                        "s2_author_id": "2217601934",
+                        "name": "Ziwei Li"
+                    },
+                    {
+                        "s2_author_id": "2093197725",
+                        "name": "L. Gong"
+                    },
+                    {
+                        "s2_author_id": "2109193677",
+                        "name": "Jihao Wu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b6c723b8378c3bf8b39babe7a27271c16be3658d",
+                "title": "zPerf: A Statistical Gray-Box Approach to Performance Modeling and Extrapolation for Scientific Lossy Compression",
+                "year": 2023,
+                "venue": "IEEE transactions on computers",
+                "citation_count": 5,
+                "reference_count": 38,
+                "abstract": "With the scaling up of simulation-based scientific discovery on high-performance computing systems, the disparity between compute and I/O has increased, forcing domain scientists to save only a small amount of simulation data to persistent storage. This can result in the loss of essential physics fields that are needed for data analysis. While error-bounded lossy compression has made tremendous progress in bridging the gap between compute and I/O, the lack of understanding of compression performance remains a key hurdle to its wide adoption. In this work, we present zPerf, a statistical gray-box performance modeling approach for scientific lossy compression. Our contributions are threefold: 1) We develop zPerf to estimate the performance of lossy compression techniques, based on in-depth understanding and statistical modeling for data features and core compression metrics; 2) We demonstrate the in-detailed implementation of zPerf using two case studies, where we derive the performance modeling for SZ and ZFP, two leading lossy compressors; 3) We evaluate the effectiveness of zPerf on real-world datasets across various domains. Based on the evaluation, we demonstrate the efficacy of the zPerf performance model; 4) We further discuss three case studies where zPerf is applied to extrapolate the compression ratio of SZ and ZFP with alternative encoding schemes as well as ZFP with an alternative transform scheme. Through the case studies, we demonstrate the potential of zPerf for exploring the design space of lossy compression, which has hardly been studied in the literature.",
+                "authors": [
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "2115814216",
+                        "name": "Qi Chen"
+                    },
+                    {
+                        "s2_author_id": "2111149883",
+                        "name": "Tong Liu"
+                    },
+                    {
+                        "s2_author_id": "2154974567",
+                        "name": "Qing Liu"
+                    },
+                    {
+                        "s2_author_id": "33367879",
+                        "name": "Xubin He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c064bb2f295c661c276bd7a19bfb66718ea2170c",
+                "title": "Development of Cold Compressors for a Superfluid Helium Refrigeration System in China",
+                "year": 2023,
+                "venue": "Social Science Research Network",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2057079985",
+                        "name": "Jin Shang"
+                    },
+                    {
+                        "s2_author_id": "152352851",
+                        "name": "Cui-ping Lv"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "2145504327",
+                        "name": "Huaiyu Chen"
+                    },
+                    {
+                        "s2_author_id": "2210715741",
+                        "name": "Sihao Liu"
+                    },
+                    {
+                        "s2_author_id": "2180414806",
+                        "name": "Ziwei Li"
+                    },
+                    {
+                        "s2_author_id": "2093197725",
+                        "name": "L. Gong"
+                    },
+                    {
+                        "s2_author_id": "2109193677",
+                        "name": "Jihao Wu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7636650d269041fffbddc36272e72d53a0f1e0d0",
+                "title": "Locality-based transfer learning on compression autoencoder for efficient scientific data lossy compression",
+                "year": 2022,
+                "venue": "Journal of Network and Computer Applications",
+                "citation_count": 10,
+                "reference_count": 61,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144457723",
+                        "name": "Nan Wang"
+                    },
+                    {
+                        "s2_author_id": "2111149883",
+                        "name": "Tong Liu"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "2154974567",
+                        "name": "Qing Liu"
+                    },
+                    {
+                        "s2_author_id": "117190751",
+                        "name": "Shakeel Alibhai"
+                    },
+                    {
+                        "s2_author_id": "33367879",
+                        "name": "Xubin He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b74e5e255d4d6ce9ca29678e446a523854152ac3",
+                "title": "Analyzing the Impact of Lossy Data Reduction on Volume Rendering of Cosmology Data",
+                "year": 2022,
+                "venue": "2022 IEEE/ACM 8th International Workshop on Data Analysis and Reduction for Big Scientific Data (DRBSD)",
+                "citation_count": 5,
+                "reference_count": 41,
+                "abstract": "Cosmology simulations are among some of the largest simulations currently run on supercomputers, generating terabytes to petabytes of data for each run. Consequently, scien-tists are seeking to reduce the amount of storage needed while preserving enough quality for analysis and visualization of the data. One of the most commonly used visualization techniques for cosmology simulations is volume rendering. Here, we investigate how different types of lossy error-bound compression algorithms affect the quality of volume-rendered images generated from reconstructed datasets. We also compute a number of image quality assessment metrics to determine which ones are the most effective at identifying artifacts in the visualizations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "67159137",
+                        "name": "Pascal Grosset"
+                    },
+                    {
+                        "s2_author_id": "3396031",
+                        "name": "Terece L. Turton"
+                    },
+                    {
+                        "s2_author_id": "143773975",
+                        "name": "J. Ahrens"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2fbbd15be73ab493b90c1c18d2b5326159d05a0e",
+                "title": "Reducing the Training Overhead of the HPC Compression Autoencoder via Dataset Proportioning",
+                "year": 2021,
+                "venue": "IEEE International Conference on Networking, Architecture and Storages",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "As the storage overhead of high-performance computing (HPC) data reaches into the petabyte or even exabyte scale, it could be useful to find new methods of compressing such data. The compression autoencoder (CAE) has recently been proposed to compress HPC data with a very high compression ratio. However, this machine learning-based method suffers from the major drawback of lengthy training time. In this paper, we attempt to mitigate this problem by proposing a proportioning scheme to reduce the amount of data that is used for training relative to the amount of data to be compressed. We show that this method drastically reduces the training time without, in most cases, significantly increasing the error. We further explain how this scheme can even improve the accuracy of the CAE on certain datasets. Finally, we provide some guidance on how to determine a suitable proportion of the training dataset to use in order to train the CAE for a given dataset.",
+                "authors": [
+                    {
+                        "s2_author_id": "2111149883",
+                        "name": "Tong Liu"
+                    },
+                    {
+                        "s2_author_id": "117190751",
+                        "name": "Shakeel Alibhai"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "2154974567",
+                        "name": "Qing Liu"
+                    },
+                    {
+                        "s2_author_id": "33367879",
+                        "name": "Xubin He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "84c8d67a35585b10cb1419534c3aeca33f69ca32",
+                "title": "Unbalanced Parallel I/O: An Often-Neglected Side Effect of Lossy Scientific Data Compression",
+                "year": 2021,
+                "venue": "2021 7th International Workshop on Data Analysis and Reduction for Big Scientific Data (DRBSD-7)",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "Lossy compression techniques have demonstrated promising results in significantly reducing the scientific data size while guaranteeing the compression error bounds. However, one important yet often neglected side effect of lossy scientific data compression is its impact on the performance of parallel I/O. Our key observation is that the compressed data size is often highly skewed across processes in lossy scientific compression. To understand this behavior, we conduct extensive experiments where we apply three lossy compressors MGARD, ZFP, and SZ, which are specifically designed and optimized for scientific data, to three real-world scientific applications Gray-Scott simulation, WarpX, and XGC. Our analysis result demonstrates that the size of the compressed data is always skewed even if the original data is evenly decomposed among processes. Such skewness widely exists in different scientific applications using different compressors as long as the information density of the data varies across processes. We then systematically study how this side effect of lossy scientific data compression impacts the performance of parallel I/O. We observe that the skewness in the sizes of the compressed data often leads to I/O imbalance, which can significantly reduce the efficiency of I/O bandwidth utilization if not properly handled. In addition, writing data concurrently to a single shared file through MPI-IO library is more sensitive to the unbalanced I/O loads. Therefore, we believe our research community should pay more attention to the unbalanced parallel I/O caused by lossy scientific data compression.",
+                "authors": [
+                    {
+                        "s2_author_id": "2115553615",
+                        "name": "Xinying Wang"
+                    },
+                    {
+                        "s2_author_id": "39341300",
+                        "name": "Lipeng Wan"
+                    },
+                    {
+                        "s2_author_id": "2506582",
+                        "name": "Jieyang Chen"
+                    },
+                    {
+                        "s2_author_id": "2143628677",
+                        "name": "Qian Gong"
+                    },
+                    {
+                        "s2_author_id": "47133425",
+                        "name": "Ben Whitney"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "1861915",
+                        "name": "Ana Gainaru"
+                    },
+                    {
+                        "s2_author_id": "143877362",
+                        "name": "Qing Liu"
+                    },
+                    {
+                        "s2_author_id": "1734819",
+                        "name": "N. Podhorszki"
+                    },
+                    {
+                        "s2_author_id": "2149225714",
+                        "name": "Dongfang Zhao"
+                    },
+                    {
+                        "s2_author_id": "2067810504",
+                        "name": "Feng Yan"
+                    },
+                    {
+                        "s2_author_id": "1736095",
+                        "name": "S. Klasky"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "30d14d62920a20f4fa406b35c8626756705aae7f",
+                "title": "Compression Ratio Modeling and Estimation across Error Bounds for Lossy Compression",
+                "year": 2020,
+                "venue": "IEEE Transactions on Parallel and Distributed Systems",
+                "citation_count": 19,
+                "reference_count": 42,
+                "abstract": "Scientific simulations on high-performance computing (HPC) systems generate vast amounts of floating-point data that need to be reduced in order to lower the storage and I/O cost. Lossy compressors trade data accuracy for reduction performance and have been demonstrated to be effective in reducing data volume. However, a key hurdle to wide adoption of lossy compressors is that the trade-off between data accuracy and compression performance, particularly the compression ratio, is not well understood. Consequently, domain scientists often need to exhaust many possible error bounds before they can figure out an appropriate setup. The current practice of using lossy compressors to reduce data volume is, therefore, through trial and error, which is not efficient for large datasets which take a tremendous amount of computational resources to compress. This paper aims to analyze and estimate the compression performance of lossy compressors on HPC datasets. In particular, we predict the compression ratios of two modern lossy compressors that achieve superior performance, SZ and ZFP, on HPC scientific datasets at various error bounds, based upon the compressors\u2019 intrinsic metrics collected under a given base error bound. We evaluate the estimation scheme using twenty real HPC datasets and the results confirm the effectiveness of our approach.",
+                "authors": [
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "2111149883",
+                        "name": "Tong Liu"
+                    },
+                    {
+                        "s2_author_id": "2154974567",
+                        "name": "Qing Liu"
+                    },
+                    {
+                        "s2_author_id": "33367879",
+                        "name": "Xubin He"
+                    },
+                    {
+                        "s2_author_id": "144788323",
+                        "name": "Huizhang Luo"
+                    },
+                    {
+                        "s2_author_id": "2153475980",
+                        "name": "Weiming He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e0c9314325364525fc1ac22be1b4cdbe2b7299ae",
+                "title": "Estimating Lossy Compressibility of Scientific Data Using Deep Neural Networks",
+                "year": 2020,
+                "venue": "IEEE Letters of the Computer Society",
+                "citation_count": 8,
+                "reference_count": 9,
+                "abstract": "Simulation based scientific applications generate increasingly large amounts of data on high-performance computing (HPC) systems. To allow data to be stored and analyzed efficiently, data compression is often utilized to reduce the volume and velocity of data. However, a question often raised by domain scientists is the level of compression that can be expected so that they can make more informed decisions, balancing between accuracy and performance. In this letter, we propose a deep neural network based approach for estimating the compressibility of scientific data. To train the neural network, we build both general features as well as compressor-specific features so that the characteristics of both data and lossy compressors are captured in training. Our approach is demonstrated to outperform a prior analytical model as well as a sampling based approach in the case of a biased estimation, i.e., for SZ. However, for the unbiased estimation (i.e., ZFP), the sampling based approach yields the best accuracy, despite the high overhead involved in sampling the target dataset.",
+                "authors": [
+                    {
+                        "s2_author_id": "152179228",
+                        "name": "Zhenlu Qin"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "2154974567",
+                        "name": "Qing Liu"
+                    },
+                    {
+                        "s2_author_id": "2506582",
+                        "name": "Jieyang Chen"
+                    },
+                    {
+                        "s2_author_id": "144034396",
+                        "name": "D. Pugmire"
+                    },
+                    {
+                        "s2_author_id": "1734819",
+                        "name": "N. Podhorszki"
+                    },
+                    {
+                        "s2_author_id": "1736095",
+                        "name": "S. Klasky"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "113cef94ddc5a67b055e6f5021d66820cfce0b72",
+                "title": "Identifying Latent Reduced Models to Precondition Lossy Compression",
+                "year": 2019,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 21,
+                "reference_count": 29,
+                "abstract": "With the high volume and velocity of scientific data produced on high-performance computing systems, it has become increasingly critical to improve the compression performance. Leveraging the general tolerance of reduced accuracy in applications, lossy compressors can achieve much higher compression ratios with a user-prescribed error bound. However, they are still far from satisfying the reduction requirements from applications. In this paper, we propose and evaluate the idea that data need to be preconditioned prior to compression, such that they can better match the design philosophies of a compressor. In particular, we aim to identify a reduced model that can be utilized to transform the original data to a more compressible form. We begin with a case study of Heat3d as a proof of concept, in which we demonstrate that a reduced model can indeed reside in the full model output, and can be utilized to improve compression ratios. We further explore more general dimension reduction techniques to extract the reduced model, including principal component analysis, singular value decomposition, and discrete wavelet transform. After preconditioning, the reduced model in conjunction with delta is stored, which results in higher compression ratios. We evaluate the reduced models on nine scientific datasets, and the results show the effectiveness of our approaches.",
+                "authors": [
+                    {
+                        "s2_author_id": "144788323",
+                        "name": "Huizhang Luo"
+                    },
+                    {
+                        "s2_author_id": "2110406484",
+                        "name": "Dan Huang"
+                    },
+                    {
+                        "s2_author_id": "2154974567",
+                        "name": "Qing Liu"
+                    },
+                    {
+                        "s2_author_id": "51160133",
+                        "name": "Zhenbo Qiao"
+                    },
+                    {
+                        "s2_author_id": "144248618",
+                        "name": "Hong Jiang"
+                    },
+                    {
+                        "s2_author_id": "2344116",
+                        "name": "J. Bi"
+                    },
+                    {
+                        "s2_author_id": "34825854",
+                        "name": "Haitao Yuan"
+                    },
+                    {
+                        "s2_author_id": "143849611",
+                        "name": "Mengchu Zhou"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "152179228",
+                        "name": "Zhenlu Qin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1f29e40a035e2b8b97c0f9b4aeb51be06226ff18",
+                "title": "Exploring Transfer Learning to Reduce Training Overhead of HPC Data in Machine Learning",
+                "year": 2019,
+                "venue": "IEEE International Conference on Networking, Architecture and Storages",
+                "citation_count": 10,
+                "reference_count": 36,
+                "abstract": "Nowadays, scientific simulations on high-performance computing (HPC) systems can generate large amounts of data (in the scale of terabytes or petabytes) per run. When this huge amount of HPC data is processed by machine learning applications, the training overhead will be significant. Typically, the training process for a neural network can take several hours to complete, if not longer. When machine learning is applied to HPC scientific data, the training time can take several days or even weeks. Transfer learning, an optimization usually used to save training time or achieve better performance, has potential for reducing this large training overhead. In this paper, we apply transfer learning to a machine learning HPC application. We find that transfer learning can reduce training time without, in most cases, significantly increasing the error. This indicates transfer learning can be very useful for working with HPC datasets in machine learning applications.",
+                "authors": [
+                    {
+                        "s2_author_id": "2111149883",
+                        "name": "Tong Liu"
+                    },
+                    {
+                        "s2_author_id": "117190751",
+                        "name": "Shakeel Alibhai"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "2154974567",
+                        "name": "Qing Liu"
+                    },
+                    {
+                        "s2_author_id": "33367879",
+                        "name": "Xubin He"
+                    },
+                    {
+                        "s2_author_id": "3070171",
+                        "name": "Chentao Wu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c1a785639f676befdaf612384ec3fe8c30a4aca8",
+                "title": "DuoModel: Leveraging Reduced Model for Data Reduction and Re-Computation on HPC Storage",
+                "year": 2018,
+                "venue": "IEEE Letters of the Computer Society",
+                "citation_count": 2,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144788323",
+                        "name": "Huizhang Luo"
+                    },
+                    {
+                        "s2_author_id": "2154974567",
+                        "name": "Qing Liu"
+                    },
+                    {
+                        "s2_author_id": "51160133",
+                        "name": "Zhenbo Qiao"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "9378450",
+                        "name": "Mengxiao Wang"
+                    },
+                    {
+                        "s2_author_id": "144248618",
+                        "name": "Hong Jiang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e7b99e00ffff54a25c64d9c17bee143b824358b3",
+                "title": "SIRIUS: Enabling Progressive Data Exploration for Extreme-Scale Scientific Data",
+                "year": 2018,
+                "venue": "IEEE Transactions on Multi-Scale Computing Systems",
+                "citation_count": 4,
+                "reference_count": 51,
+                "abstract": "Scientific simulations on high performance computing (HPC) platforms generate large quantities of data. To bridge the widening gap between compute and I/O, and enable data to be more efficiently stored and analyzed, simulation outputs need to be refactored, reduced, and appropriately mapped to storage tiers. However, a systematic solution to support these steps has been lacking in the current HPC software ecosystem. To that end, this paper develops SIRIUS, a progressive JPEG-like data management scheme for storing and analyzing big scientific data. It co-designs data decimation, compression, and data storage, taking the hardware characteristics of each storage tier into considerations. With reasonably low overhead, our approach refactors simulation data, using either topological or uniform decimation, into a much smaller, reduced-accuracy base dataset, and a series of deltas that is used to augment the accuracy if needed. The base dataset and deltas are compressed and written to multiple storage tiers. Data saved on different tiers can then be selectively retrieved to restore the level of accuracy that satisfies data analytics. Thus, SIRIUS provides a paradigm shift towards elastic data analytics and enables end users to make trade-offs between analysis speed and accuracy on-the-fly. This paper further develops algorithms to preserve statistics for data decimation, a common requirement for reducing data. We assess the impact of SIRIUS on unstructured triangular meshes, a pervasive data model used in scientific simulations. In particular, we evaluate two realistic use cases: the blob detection in fusion and high-pressure area extraction in computational fluid dynamics.",
+                "authors": [
+                    {
+                        "s2_author_id": "51160133",
+                        "name": "Zhenbo Qiao"
+                    },
+                    {
+                        "s2_author_id": "2090424078",
+                        "name": "Tao Lu"
+                    },
+                    {
+                        "s2_author_id": "144788323",
+                        "name": "Huizhang Luo"
+                    },
+                    {
+                        "s2_author_id": "2154974567",
+                        "name": "Qing Liu"
+                    },
+                    {
+                        "s2_author_id": "1736095",
+                        "name": "S. Klasky"
+                    },
+                    {
+                        "s2_author_id": "1734819",
+                        "name": "N. Podhorszki"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9626db193c9994c758b2ae4de4a884205e98a796",
+                "title": "Robust and scalable deep learning for X-ray synchrotron image analysis",
+                "year": 2017,
+                "venue": "2017 New York Scientific Data Summit (NYSDS)",
+                "citation_count": 7,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49947642",
+                        "name": "Nicole Meister"
+                    },
+                    {
+                        "s2_author_id": "9192175",
+                        "name": "Ziqiao Guan"
+                    },
+                    {
+                        "s2_author_id": "2110118909",
+                        "name": "Jinzhen Wang"
+                    },
+                    {
+                        "s2_author_id": "48510000",
+                        "name": "Ronald Lashley"
+                    },
+                    {
+                        "s2_author_id": "2108330675",
+                        "name": "Jiliang Liu"
+                    },
+                    {
+                        "s2_author_id": "32145943",
+                        "name": "Julien Lhermitte"
+                    },
+                    {
+                        "s2_author_id": "1780708",
+                        "name": "K. Yager"
+                    },
+                    {
+                        "s2_author_id": "145199626",
+                        "name": "Hong Qin"
+                    },
+                    {
+                        "s2_author_id": "2148384043",
+                        "name": "Bo Sun"
+                    },
+                    {
+                        "s2_author_id": "48217850",
+                        "name": "Dantong Yu"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "143895244",
+                "name": "Xin Liang"
+            },
+            {
+                "s2_author_id": "47133425",
+                "name": "Ben Whitney"
+            },
+            {
+                "s2_author_id": "2506582",
+                "name": "Jieyang Chen"
+            },
+            {
+                "s2_author_id": "2143628677",
+                "name": "Qian Gong"
+            },
+            {
+                "s2_author_id": "33367879",
+                "name": "Xubin He"
+            },
+            {
+                "s2_author_id": "39341300",
+                "name": "Lipeng Wan"
+            },
+            {
+                "s2_author_id": "1736095",
+                "name": "S. Klasky"
+            },
+            {
+                "s2_author_id": "1734819",
+                "name": "N. Podhorszki"
+            },
+            {
+                "s2_author_id": "143877362",
+                "name": "Qing Liu"
+            },
+            {
+                "s2_author_id": "2111149883",
+                "name": "Tong Liu"
+            },
+            {
+                "s2_author_id": "2154974567",
+                "name": "Qing Liu"
+            },
+            {
+                "s2_author_id": "117190751",
+                "name": "Shakeel Alibhai"
+            },
+            {
+                "s2_author_id": "2090424078",
+                "name": "Tao Lu"
+            },
+            {
+                "s2_author_id": "2057079985",
+                "name": "Jin Shang"
+            },
+            {
+                "s2_author_id": "152352851",
+                "name": "Cui-ping Lv"
+            },
+            {
+                "s2_author_id": "2145504327",
+                "name": "Huaiyu Chen"
+            },
+            {
+                "s2_author_id": "2210715741",
+                "name": "Sihao Liu"
+            },
+            {
+                "s2_author_id": "2217601934",
+                "name": "Ziwei Li"
+            },
+            {
+                "s2_author_id": "2093197725",
+                "name": "L. Gong"
+            },
+            {
+                "s2_author_id": "2109193677",
+                "name": "Jihao Wu"
+            },
+            {
+                "s2_author_id": "2115814216",
+                "name": "Qi Chen"
+            },
+            {
+                "s2_author_id": "2180414806",
+                "name": "Ziwei Li"
+            },
+            {
+                "s2_author_id": "144457723",
+                "name": "Nan Wang"
+            },
+            {
+                "s2_author_id": "67159137",
+                "name": "Pascal Grosset"
+            },
+            {
+                "s2_author_id": "3396031",
+                "name": "Terece L. Turton"
+            },
+            {
+                "s2_author_id": "143773975",
+                "name": "J. Ahrens"
+            },
+            {
+                "s2_author_id": "2115553615",
+                "name": "Xinying Wang"
+            },
+            {
+                "s2_author_id": "1861915",
+                "name": "Ana Gainaru"
+            },
+            {
+                "s2_author_id": "2149225714",
+                "name": "Dongfang Zhao"
+            },
+            {
+                "s2_author_id": "2067810504",
+                "name": "Feng Yan"
+            },
+            {
+                "s2_author_id": "144788323",
+                "name": "Huizhang Luo"
+            },
+            {
+                "s2_author_id": "2153475980",
+                "name": "Weiming He"
+            },
+            {
+                "s2_author_id": "152179228",
+                "name": "Zhenlu Qin"
+            },
+            {
+                "s2_author_id": "144034396",
+                "name": "D. Pugmire"
+            },
+            {
+                "s2_author_id": "2110406484",
+                "name": "Dan Huang"
+            },
+            {
+                "s2_author_id": "51160133",
+                "name": "Zhenbo Qiao"
+            },
+            {
+                "s2_author_id": "144248618",
+                "name": "Hong Jiang"
+            },
+            {
+                "s2_author_id": "2344116",
+                "name": "J. Bi"
+            },
+            {
+                "s2_author_id": "34825854",
+                "name": "Haitao Yuan"
+            },
+            {
+                "s2_author_id": "143849611",
+                "name": "Mengchu Zhou"
+            },
+            {
+                "s2_author_id": "3070171",
+                "name": "Chentao Wu"
+            },
+            {
+                "s2_author_id": "9378450",
+                "name": "Mengxiao Wang"
+            },
+            {
+                "s2_author_id": "49947642",
+                "name": "Nicole Meister"
+            },
+            {
+                "s2_author_id": "9192175",
+                "name": "Ziqiao Guan"
+            },
+            {
+                "s2_author_id": "48510000",
+                "name": "Ronald Lashley"
+            },
+            {
+                "s2_author_id": "2108330675",
+                "name": "Jiliang Liu"
+            },
+            {
+                "s2_author_id": "32145943",
+                "name": "Julien Lhermitte"
+            },
+            {
+                "s2_author_id": "1780708",
+                "name": "K. Yager"
+            },
+            {
+                "s2_author_id": "145199626",
+                "name": "Hong Qin"
+            },
+            {
+                "s2_author_id": "2148384043",
+                "name": "Bo Sun"
+            },
+            {
+                "s2_author_id": "48217850",
+                "name": "Dantong Yu"
+            }
+        ],
+        "total_co_authors": 51,
+        "papers_retrieved": 16
+    }
+}

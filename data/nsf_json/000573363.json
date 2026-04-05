@@ -1,0 +1,2907 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000573363",
+        "name": "Michela Becchi",
+        "primary_affiliation": "North Carolina State University",
+        "primary_department": null,
+        "all_affiliations": [
+            "North Carolina State University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "NC"
+        ],
+        "perf_cities": [
+            "RALEIGH"
+        ],
+        "org_names": [
+            "North Carolina State University"
+        ],
+        "org_ueis": [
+            "U3NVH931QJJ3"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "mbecchi@ncsu.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2513767",
+                "title": "Collaborative Research: Elements: A Cyberinfrastructure for Seamlessly Integrating Lossy Compression into Neural Networks for Scientific Applications",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-01",
+                "exp_date": "2028-06-30",
+                "award_amount": 300000.0,
+                "total_amount": 300000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "Software Institutes"
+                ],
+                "program_codes": [
+                    "800400"
+                ],
+                "program_references": [
+                    "Software Institutes"
+                ],
+                "program_ref_codes": [
+                    "8004"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "OAC",
+                "nsf_directorate": null,
+                "fund_division": "Office of Advanced Cyberinfrastructure (OAC)",
+                "cfda_num": "47.070",
+                "po_name": "Sharmistha Bagchi-Sen",
+                "keywords": [
+                    "scientific",
+                    "applications",
+                    "compression",
+                    "learning",
+                    "lossy",
+                    "machine",
+                    "software",
+                    "cyberinfrastructure",
+                    "datasets",
+                    "deep"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "Software Institutes"
+        ],
+        "program_codes": [
+            "800400"
+        ],
+        "program_references": [
+            "Software Institutes"
+        ],
+        "program_ref_codes": [
+            "8004"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "OAC"
+        ],
+        "fund_divisions": [
+            "Office of Advanced Cyberinfrastructure (OAC)"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Sharmistha Bagchi-Sen"
+        ],
+        "keywords": [
+            "scientific",
+            "applications",
+            "compression",
+            "learning",
+            "lossy",
+            "machine",
+            "software",
+            "cyberinfrastructure",
+            "datasets",
+            "deep",
+            "enabling",
+            "seamlessly",
+            "integrating",
+            "neural",
+            "discovery",
+            "range",
+            "biology",
+            "size",
+            "significantly",
+            "computing"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.63
+    },
+    "s2_profile": {
+        "s2_author_id": "2948456",
+        "name": "Michela Becchi",
+        "affiliations": [],
+        "paper_count": 89,
+        "citation_count": 2966,
+        "h_index": 28,
+        "papers": [
+            {
+                "s2_paper_id": "5ebc2bea55fa9d2f3275cb19a00bcbd80a99d62e",
+                "title": "A Portable, Fast, DCT-based Compressor for AI Accelerators",
+                "year": 2024,
+                "venue": "IEEE International Symposium on High-Performance Parallel Distributed Computing",
+                "citation_count": 3,
+                "reference_count": 30,
+                "abstract": "Lossy compression can be an effective tool in AI training and inference to reduce memory requirements, storage footprint, and in some cases, execution time. With the rise of novel architectures designed to accelerate AI workloads, compression can continue to serve these purposes, but must be adapted to the new accelerators. Due to programmability and architectural differences, existing lossy compressors cannot be directly ported to and are not optimized for any AI accelerator, thus requiring new compression designs. In this paper, we propose a novel, portable, DCT-based lossy compressor that can be used across a variety of AI accelerators. More specifically, we make the following contributions: 1) We propose a DCT-based lossy compressor design for training data that uses operators supported across four state-of-the-art AI accelerators: Cerebras CS-2, SambaNova SN30, Groq GroqChip, and Graphcore IPU. 2) We design two optimization techniques to allow for higher resolution compressed data on certain platforms and improved compression ratio on the IPU. 3) We evaluate our compressor's ability to preserve accuracy on four benchmarks, three of which are AI for science benchmarks going beyond image classification. Our experiments show that accuracy degradation can be limited to 3% or less, and sometimes, compression improves accuracy. 4) We study compression/decompression time as a function of resolution and batch size, finding that our compressor can achieve throughputs on the scale of tens of GB/s, depending on the platform.",
+                "authors": [
+                    {
+                        "s2_author_id": "47734538",
+                        "name": "Milan Shah"
+                    },
+                    {
+                        "s2_author_id": "2285061632",
+                        "name": "Xiaodong Yu"
+                    },
+                    {
+                        "s2_author_id": "2315517467",
+                        "name": "Sheng Di"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "2239205420",
+                        "name": "Franck Cappello"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c2575fc1dbbd41ace04125a21ed45f52439a1aa6",
+                "title": "Significantly Improving Fixed-Ratio Compression Framework for Resource-limited Applications",
+                "year": 2024,
+                "venue": "International Conference on Parallel Processing",
+                "citation_count": 2,
+                "reference_count": 26,
+                "abstract": "Scientific simulations running on HPC facilities generate massive amount of data, putting significant pressure onto supercomputers\u2019 storage capacity and network bandwidth. To alleviate this problem, there has been a rich body of work on reducing data volumes via error-controlled lossy compression. However, fixed-ratio compression is not very well-supported, not allowing users to appropriately allocate memory/storage space or know the data transfer time over the network in advance. To address this problem, recent ratio-controlled frameworks, such as FXRZ, have incorporated methods to predict required error bound settings to reach a user-specified compression ratio. However, these approaches fail to achieve fixed-ratio compression in an accurate, efficient and scalable fashion on diverse datasets and compression algorithms. This work proposes an efficient, scalable, ratio-controlled lossy compression framework (CAROL). At the core of CAROL are four optimization strategies that allow for improving the prediction accuracy and runtime efficiency over state-of-the-art solutions. First, CAROL uses surrogate-based compression ratio estimation to generate training data. Second, it includes a novel calibration method to improve prediction accuracy across a variety of compressors. Third, it leverages Bayesian optimization to allow for efficient training and incremental model refinement. Forth, it uses GPU acceleration to speed up prediction. We evaluate CAROL on four compression algorithms and six scientific datasets. On average, when compared to the state-of-the-art FXRZ framework, CAROL achieves 4 \u00d7 speedup in setup time and 36 \u00d7 speedup in inference time, while maintaining less than 1% difference in estimation accuracy.",
+                "authors": [
+                    {
+                        "s2_author_id": "2315789594",
+                        "name": "Tri Nguyen"
+                    },
+                    {
+                        "s2_author_id": "2266440523",
+                        "name": "Md Hasanur Rahman"
+                    },
+                    {
+                        "s2_author_id": "2315517467",
+                        "name": "Sheng Di"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e453e7f2088a510ec7bade30f02983ec38638785",
+                "title": "Picasso: Memory-Efficient Graph Coloring Using Palettes With Applications in Quantum Computing",
+                "year": 2024,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 0,
+                "reference_count": 33,
+                "abstract": "A coloring of a graph is an assignment of colors to vertices such that no two neighboring vertices have the same color. The need for memory-efficient coloring algorithms is motivated by their application in computing clique partitions of graphs arising in quantum computations where the objective is to map a large set of Pauli strings into a compact set of unitaries. We present Picasso, a randomized memory-efficient iterative parallel graph coloring algorithm with theoretical sublinear space guarantees under practical assumptions. The parameters of our algorithm provide a trade-off between coloring quality and resource consumption. To assist the user, we also propose a machine learning model to predict the coloring algorithm\u2019s parameters considering these trade-offs. We provide a sequential and parallel implementation of the proposed algorithm.We perform an experimental evaluation on a 64-core AMD CPU equipped with 512 GB of memory and an Nvidia A100 GPU with 40GB of memory. For a small dataset where existing coloring algorithms can be executed within the 512 GB memory budget, we show up to 68\u00d7 memory savings. On massive datasets, we demonstrate that GPU-accelerated Picasso can process inputs with 49.5\u00d7 more Pauli strings (vertex set in our graph) and 2,478\u00d7 more edges than state-of-the-art parallel approaches.",
+                "authors": [
+                    {
+                        "s2_author_id": "2140766360",
+                        "name": "S. Ferdous"
+                    },
+                    {
+                        "s2_author_id": "2151207503",
+                        "name": "Reece Neff"
+                    },
+                    {
+                        "s2_author_id": "2319410733",
+                        "name": "Bo Peng"
+                    },
+                    {
+                        "s2_author_id": "2279336285",
+                        "name": "Salman Shuvo"
+                    },
+                    {
+                        "s2_author_id": "2139851834",
+                        "name": "Marco Minutoli"
+                    },
+                    {
+                        "s2_author_id": "2301756876",
+                        "name": "Sayak Mukherjee"
+                    },
+                    {
+                        "s2_author_id": "2241310265",
+                        "name": "Karol Kowalski"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "3285377",
+                        "name": "M. Halappanavar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "563c9aaa3ef129fed5713a6c8aa4c61af77d5906",
+                "title": "High-Level Synthesis of Irregular Applications: A Case Study on Influence Maximization",
+                "year": 2023,
+                "venue": "ACM International Conference on Computing Frontiers",
+                "citation_count": 2,
+                "reference_count": 39,
+                "abstract": "FPGAs are promising platforms for accelerating irregular applications due to their ability to implement highly specialized hardware designs for each kernel. However, the design and implementation of FPGA-accelerated kernels can take several months using hardware design languages. High Level Synthesis (HLS) tools provide fast, high quality results for regular applications, but lack the support to effectively accelerate more irregular, complex workloads. This work analyzes the challenges and benefits of using a commercial state-of-the-art HLS tool and its available optimizations to accelerate graph sampling. We evaluate the resulting designs and their effectiveness when deployed in a state-of-the-art heterogeneous framework that implements the Influence Maximization with Martingales (IMM) algorithm, a complex graph analytics algorithm. We discuss future opportunities for improvement in hardware, HLS tools, and hardware/software co-design methodology to better support complex irregular applications such as IMM.",
+                "authors": [
+                    {
+                        "s2_author_id": "2151207503",
+                        "name": "Reece Neff"
+                    },
+                    {
+                        "s2_author_id": "2139851834",
+                        "name": "Marco Minutoli"
+                    },
+                    {
+                        "s2_author_id": "2606269",
+                        "name": "Antonino Tumeo"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ff4ff8f8024915a8fe9521542ecea9dcd7ad48b",
+                "title": "Lightweight Huffman Coding for Efficient GPU Compression",
+                "year": 2023,
+                "venue": "International Conference on Supercomputing",
+                "citation_count": 9,
+                "reference_count": 23,
+                "abstract": "Lossy compression is often deployed in scientific applications to reduce data footprint and improve data transfers and I/O performance. Especially for applications requiring on-the-flight compression, it is essential to minimize compression's runtime. In this paper, we design a scheme to improve the performance of cuSZ, a GPU-based lossy compressor. We observe that Huffman coding - used by cuSZ to compress metadata generated during compression - incurs a performance overhead that can be significant, especially for smaller datasets. Our work seeks to reduce the Huffman coding runtime with minimal-to-no impact on cuSZ's compression efficiency. Our contributions are as follows. First, we examine a variety of probability distributions to determine which distributions closely model the input to cuSZ's Huffman coding stage. From these distributions, we create a dictionary of pre-computed codebooks such that during compression, a codebook is selected from the dictionary instead of computing a custom codebook. Second, we explore three codebook selection criteria to be applied at runtime. Finally, we evaluate our scheme on real-world datasets and in the context of two important application use cases, HDF5 and MPI, using an NVIDIA A100 GPU. Our evaluation shows that our method can reduce the Huffman coding penalty by a factor of 78--92\u00d7, translating to a total speedup of up to 5\u00d7 over baseline cuSZ. Smaller HDF5 chunk sizes enjoy over an 8\u00d7 speedup in compression and MPI messages on the scale of tens of MB have a 1.4--30.5\u00d7 speedup in communication time.",
+                "authors": [
+                    {
+                        "s2_author_id": "47734538",
+                        "name": "Milan Shah"
+                    },
+                    {
+                        "s2_author_id": "2139743487",
+                        "name": "Xiaodong Yu"
+                    },
+                    {
+                        "s2_author_id": "1699598",
+                        "name": "S. Di"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1721552",
+                        "name": "F. Cappello"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9cabe6240f0871eff6d449ec929ccc07a9a113fd",
+                "title": "GPU-Accelerated Error-Bounded Compression Framework for Quantum Circuit Simulations",
+                "year": 2023,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 5,
+                "reference_count": 29,
+                "abstract": "Quantum circuit simulations enable researchers to develop quantum algorithms without the need for a physical quantum computer. Quantum computing simulators, however, all suffer from significant memory footprint requirements, which prevents large circuits from being simulated on classical super-computers. In this paper, we explore different lossy compression strategies to substantially shrink quantum circuit tensors in the QTensor package (a state-of-the-art tensor network quantum circuit simulator) while ensuring the reconstructed data satisfy the user-needed fidelity.Our contribution is fourfold. (1) We propose a series of optimized pre- and post-processing steps to boost the compression ratio of tensors with a very limited performance overhead. (2) We characterize the impact of lossy decompressed data on quantum circuit simulation results, and leverage the analysis to ensure the fidelity of reconstructed data. (3) We propose a configurable compression framework for GPU based on cuSZ and cuSZx, two state-of-the-art GPU-accelerated lossy compressors, to address different use-cases: either prioritizing compression ratios or prioritizing compression speed. (4) We perform a comprehensive evaluation by running 9 state-of-the-art compressors on an NVIDIA A100 GPU based on QTensor-generated tensors of varying sizes. When prioritizing compression ratio, our results show that our strategies can increase the compression ratio nearly 10 times compared to using only cuSZ. When prioritizing throughput, we can perform compression at the comparable speed as cuSZx while achieving 3-4\u00d7 higher compression ratios. Decompressed tensors can be used in QTensor circuit simulation to yield a final energy result within 1-5% of the true energy value.",
+                "authors": [
+                    {
+                        "s2_author_id": "47734538",
+                        "name": "Milan Shah"
+                    },
+                    {
+                        "s2_author_id": "2139743487",
+                        "name": "Xiaodong Yu"
+                    },
+                    {
+                        "s2_author_id": "1699598",
+                        "name": "S. Di"
+                    },
+                    {
+                        "s2_author_id": "102429514",
+                        "name": "Danylo Lykov"
+                    },
+                    {
+                        "s2_author_id": "2143727",
+                        "name": "Y. Alexeev"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1721552",
+                        "name": "F. Cappello"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ada5af2b2d03f486410f7eea6f9a86eda61c18c6",
+                "title": "Runway: In-transit Data Compression on Heterogeneous HPC Systems",
+                "year": 2023,
+                "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",
+                "citation_count": 4,
+                "reference_count": 22,
+                "abstract": "To alleviate bottlenecks in storing and accessing data on high-performance computing (HPC) systems, I/O libraries are enabling computation while data is in-transit, such as HDFS filters. For scientific applications that commonly use floating-point data, error-bounded lossy compression methods are a critical technique to significantly reduce the storage and bandwidth requirements. Thus far, deciding when and where to schedule in-transit data transformations, such as compression, has been outside the scope of I/O libraries. In this paper, we introduce Runway, a runtime framework that enables computation on in-transit data with an object storage abstraction. Runway is designed to be extensible to execute user-defined functions at runtime. In this effort, we focus on studying methods to offload data compression operations to available processing units based on latency and throughput. We compare the performance of running compression on multi-core CPUs, as well as offloading it to a GPU and a Data Processing Unit (DPU). We implement a state-of-the-art error-bounded lossy compression algorithm, SZ3, as a Runway function with a variant optimized for DPUs. We propose dynamic modeling to guide scheduling decisions for in-transit data compression. We evaluate Runway using four scientific datasets from the SDRBench benchmark suite on a the Perlmutter supercomputer at NERSC.",
+                "authors": [
+                    {
+                        "s2_author_id": "103872869",
+                        "name": "J. Ravi"
+                    },
+                    {
+                        "s2_author_id": "1749233",
+                        "name": "S. Byna"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f7606af5297bf2637ffb197040017ee0d8e8ff6b",
+                "title": "Evaluating Asynchronous Parallel I/O on HPC Systems",
+                "year": 2023,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 2,
+                "reference_count": 42,
+                "abstract": "Parallel I/O is an effective method to optimize data movement between memory and storage for many scientific applications. Poor performance of traditional disk-based file systems has led to the design of I/O libraries which take advantage of faster memory layers, such as on-node memory, present in high-performance computing (HPC) systems. By allowing caching and prefetching of data for applications alternating computation and I/O phases, a faster memory layer also provides opportunities for hiding the latency of I/O phases by overlapping them with computation phases, a technique called asynchronous I/O. Since asynchronous parallel I/O in HPC systems is still in the initial stages of development, there hasn't been a systematic study of the factors affecting its performance.In this paper, we perform a systematic study of various factors affecting the performance and efficacy of asynchronous I/O, we develop a performance model to estimate the aggregate I/O bandwidth achievable by iterative applications using synchronous and asynchronous I/O based on past observations, and we evaluate the performance of the recently developed asynchronous I/O feature of a parallel I/O library (HDF5) using benchmarks and real-world science applications. Our study covers parallel file systems on two large-scale HPC systems: Summit and Cori, the former with a GPFS storage and the latter with a Lustre parallel file system.",
+                "authors": [
+                    {
+                        "s2_author_id": "103872869",
+                        "name": "J. Ravi"
+                    },
+                    {
+                        "s2_author_id": "1749233",
+                        "name": "S. Byna"
+                    },
+                    {
+                        "s2_author_id": "3239875",
+                        "name": "Q. Koziol"
+                    },
+                    {
+                        "s2_author_id": "1485370717",
+                        "name": "Houjun Tang"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1455968845c3a4196de3acd10323ac4ae265f855",
+                "title": "A Code Transformation to Improve the Efficiency of OpenCL Code on FPGA through Pipes",
+                "year": 2022,
+                "venue": "ACM International Conference on Computing Frontiers",
+                "citation_count": 1,
+                "reference_count": 34,
+                "abstract": "Over the past few years, there has been an increased interest in using FPGAs alongside CPUs and GPUs in high-performance computing systems and data centers. This trend has led to a push toward the use of high-level programming models and libraries, such as OpenCL, both to lower the barriers to the adoption of FPGAs by programmers unfamiliar with hardware description languages, and to allow to deploy a single code on different devices seamlessly. Today, both Intel and Xilinx offer toolchains to compile OpenCL code onto FPGA. However, using OpenCL on FPGAs is complicated by performance portability issues, since different devices have fundamental differences in architecture and nature of hardware parallelism they offer. Hence, platform-specific optimizations are crucial to achieving good performance across devices. In this paper, we propose a code transformation to improve the performance of OpenCL codes running on FPGA. The proposed method uses pipes to separate the memory accesses and core computation within OpenCL kernels. We analyze the benefits of the approach as well as the restrictions to its applicability. Using OpenCL applications from popular benchmark suites, we show that this code transformation can result in higher utilization of the global memory bandwidth available and increased instruction concurrency, thus improving the overall throughput of OpenCL kernels at the cost of a modest resource utilization overhead. Further concurrency can be achieved by using multiple memory and compute kernels.",
+                "authors": [
+                    {
+                        "s2_author_id": "2051699577",
+                        "name": "Mostafa Eghbali Zarch"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "303ce365ef844f98adc023b74ad1c48f22a5bcce",
+                "title": "Data Transformation Acceleration using Deterministic Finite-State Transducers",
+                "year": 2022,
+                "venue": "2022 IEEE International Conference on Big Data (Big Data)",
+                "citation_count": 4,
+                "reference_count": 36,
+                "abstract": "Data transformation tasks are a critical and costly part of many data processing and analytics applications. A simple computing model that can efficiently represent data transformation and be mapped to different platforms can provide programmers with the flexibility o f u sing different data representations and allow for exploiting different platforms, including general-purpose processors and accelerators.We propose extended Deterministic Finite State Transducers (DFST+s), a computing model that enables the compact expression of data transformations (a significantly terser expression compared to the DFSTs model, a traditional computational abstraction for data transformation), aiding their correct and efficient implementation. We define the TF ORM language to facilitate expressing the DFST+, and the TFORM virtual machine to enable a further compact expression, leading to a high performance and portable implementation. We propose two TFORM VM execution models and evaluate them using a variety of data transformations (from Apache Parquet file format and sparse matrices). Our results show both effective portability across CPU and a hardware accelerator, and performance increases of 1.7\u00d7 and 11.7\u00d7 geometric mean, respectively, over a custom CPU implementation of the same transformations.",
+                "authors": [
+                    {
+                        "s2_author_id": "29359708",
+                        "name": "Marziyeh Nourian"
+                    },
+                    {
+                        "s2_author_id": "2140193253",
+                        "name": "Tri Nguyen"
+                    },
+                    {
+                        "s2_author_id": "2047942244",
+                        "name": "A. Chien"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a070c2e74a13760b597abceae694c23d6ce610cd",
+                "title": "Accelerating Random Forest Classification on GPU and FPGA",
+                "year": 2022,
+                "venue": "International Conference on Parallel Processing",
+                "citation_count": 3,
+                "reference_count": 22,
+                "abstract": "Random Forests (RFs) are a commonly used machine learning method for classification and regression tasks spanning a variety of application domains, including bioinformatics, business analytics, and software optimization. While prior work has focused primarily on improving performance of the training of RFs, many applications, such as malware identification, cancer prediction, and banking fraud detection, require fast RF classification. In this work, we accelerate RF classification on GPU and FPGA. In order to provide efficient support for large datasets, we propose a hierarchical memory layout suitable to the GPU/FPGA memory hierarchy. We design three RF classification code variants based on that layout, and we investigate GPU- and FPGA-specific considerations for these kernels. Our experimental evaluation, performed on an Nvidia Xp GPU and on a Xilinx Alveo U250 FPGA accelerator card using publicly available datasets on the scale of millions of samples and tens of features, covers various aspects. First, we evaluate the performance benefits of our hierarchical data structure over the standard compressed sparse row (CSR) format. Second, we compare our GPU implementation with cuML, a machine learning library targeting Nvidia GPUs. Third, we explore the performance/accuracy tradeoff resulting from the use of different tree depths in the RF. Finally, we perform a comparative performance analysis of our GPU and FPGA implementations. Our evaluation shows that, while reporting the best performance on GPU, our code variants outperform the CSR baseline both on GPU and FPGA. For high accuracy targets, our GPU implementation yields a 5-9 \u00d7 speedup over CSR, and up to a 2 \u00d7 speedup over Nvidia\u2019s cuML library.",
+                "authors": [
+                    {
+                        "s2_author_id": "47734538",
+                        "name": "Milan Shah"
+                    },
+                    {
+                        "s2_author_id": "2151207503",
+                        "name": "Reece Neff"
+                    },
+                    {
+                        "s2_author_id": "2110824",
+                        "name": "Hancheng Wu"
+                    },
+                    {
+                        "s2_author_id": "2139851834",
+                        "name": "Marco Minutoli"
+                    },
+                    {
+                        "s2_author_id": "2606269",
+                        "name": "Antonino Tumeo"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d91231cc2aec6c6346d68d43f197147fe1ed1994",
+                "title": "Enabling The Feed-Forward Design Model in OpenCL Using Pipes",
+                "year": 2022,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2051699577",
+                        "name": "Mostafa Eghbali Zarch"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f6cc6810438ef3c2ff2634a0bacd328a78219e5f",
+                "title": "A GPU-accelerated Data Transformation Framework Rooted in Pushdown Transducers",
+                "year": 2022,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 2,
+                "reference_count": 52,
+                "abstract": "With the rise of machine learning and data analytics, the ability to process large and diverse sets of data efficiently has become crucial. Research has shown that data transformation is a key performance bottleneck for applications across a variety of domains, from data analytics to scientific computing. Custom hardware accelerators and GPU implementations targeting specific data transformation tasks can alleviate the problem, but suffer from narrow applicability and lack of generality.To tackle this problem, we propose a GPU-accelerated data transformation engine grounded on pushdown transducers. We define an extended pushdown transducer abstraction (effPDT) that allows expressing a wide range of data transformations in a memory-efficient fashion, and is thus amenable for GPU deployment. The effPDT execution engine utilizes a data streaming model that reduces the application\u2019s memory requirements significantly, facilitating deployment on high- and low-end systems. We showcase our GPU-accelerated engine on a diverse set of transformation tasks covering data encoding/decoding, parsing and querying of structured data, and matrix transformation, and we evaluate it against publicly available CPU and GPU library implementations of the considered data transformation tasks. To understand the benefits of the effPDT abstraction, we extend our data transformation engine to also support finite state transducers (FSTs), we map the considered data transformation tasks on FSTs, and we compare the performance and resource requirements of the FST-based and the effPDT-based implementations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2140193253",
+                        "name": "Tri Nguyen"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "561684a36a4105a4be9c2bad02c21ef5a21b4129",
+                "title": "Exploring Thread Coarsening on FPGA",
+                "year": 2021,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 2,
+                "reference_count": 16,
+                "abstract": "Over the past few years, there has been an increased interest in including FPGAs in data centers and high-performance computing clusters along with GPUs and other accelerators. As a result, it has become increasingly important to have a unified, high-level programming interface for CPUs, GPUs and FPGAs. This has led to the development of compiler toolchains to deploy OpenCL code on FPGA. However, the fundamental architectural differences between GPUs and FPGAs have led to performance portability issues: it has been shown that OpenCL code optimized for GPU does not necessarily map well to FPGA, often requiring manual optimizations to improve performance. In this paper, we explore the use of thread coarsening - a compiler technique that consolidates the work of multiple threads into a single thread - on OpenCL code running on FPGA. While this optimization has been explored on CPU and GPU, the architectural features of FPGAs and the nature of the parallelism they offer lead to different performance considerations, making an analysis of thread coarsening on FPGA worthwhile. Our evaluation, performed on our microbenchmarks and on a set of applications from open-source benchmark suites, shows that thread coarsening can yield performance benefits (up to 3-4x speedups) to OpenCL code running on FPGA at a limited resource utilization cost.",
+                "authors": [
+                    {
+                        "s2_author_id": "2051699577",
+                        "name": "Mostafa Eghbali Zarch"
+                    },
+                    {
+                        "s2_author_id": "2151207503",
+                        "name": "Reece Neff"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "721765ceb31a7d549a911dac762e69e07f06beec",
+                "title": "PILOT: a Runtime System to Manage Multi-tenant GPU Unified Memory Footprint",
+                "year": 2021,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 2,
+                "reference_count": 21,
+                "abstract": "Concurrent kernel execution on GPU has proven an effective technique to improve system throughput by maximizing the resource utilization. In order to increase programmability and meet the increasing memory requirements of data-intensive applications, current GPUs support Unified Virtual Memory (UVM), which provides a virtual memory abstraction with demand paging. By allowing applications to oversubscribe GPU memory, UVM provides increased opportunities to share GPU resources across applications. However, in the presence of applications with competing memory requirements, GPU sharing can lead to performance degradation due to thrashing. NVIDIA's Multiple Process Service (MPS) offers the capability to space share bare metal GPUs, thereby enabling cluster workload managers, such as Slurm, to share a single GPU across MPI ranks with limited control over resource partitioning. However, it is not possible to preempt, schedule, or throttle a running GPU process through MPS. These features would enable new OS-managed scheduling policies to be implemented for GPU kernels to dynamically handle resource contention and offer consistent performance. The contribution of this paper is two-fold. We first show how memory oversubscription can impact the performance of concurrent GPU applications. Then, we propose three methods to transparently mitigate memory interference through kernel preemption and scheduling policies. To implement our policies, we develop our own runtime system (PILOT) to serve as an alternative to NVIDIA's MPS. In the presence of memory over-subscription, we noticed a dramatic improvement in the overall throughput when using our scheduling policies and runtime hints.",
+                "authors": [
+                    {
+                        "s2_author_id": "103872869",
+                        "name": "J. Ravi"
+                    },
+                    {
+                        "s2_author_id": "2140193253",
+                        "name": "Tri Nguyen"
+                    },
+                    {
+                        "s2_author_id": "38067595",
+                        "name": "Huiyang Zhou"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3f3c97992788103974092bc82096e1f74bdf9919",
+                "title": "A Flexible and Scalable NTT Hardware : Applications from Homomorphically Encrypted Deep Learning to Post-Quantum Cryptography",
+                "year": 2020,
+                "venue": "Design, Automation and Test in Europe",
+                "citation_count": 33,
+                "reference_count": 19,
+                "abstract": "The Number Theoretic Transform (NTT) enables faster polynomial multiplication and is becoming a fundamental component of next-generation cryptographic systems. NTT hardware designs have two prevalent problems related to design-time flexibility. First, algorithms have different arithmetic structures causing the hardware designs to be manually tuned for each setting. Second, applications have diverse throughput/area needs but the hardware have been designed for a fixed, pre-defined number of processing elements.This paper proposes a parametric NTT hardware generator that takes arithmetic configurations and the number of processing elements as inputs to produce an efficient hardware with the desired parameters and throughput. We illustrate the employment of the proposed design in two applications with different needs: A homomorphically encrypted deep neural network inference (CryptoNets) and a post-quantum digital signature scheme (qTESLA). We propose the first NTT hardware acceleration for both applications on FPGAs. Compared to prior software and high-level synthesis solutions, the results show that our hardware can accelerate NTT up to 28\u00d7 and 48\u00d7, respectively. Therefore, our work paves the way for high-level, automated, and modular design of next-generation cryptographic hardware solutions.",
+                "authors": [
+                    {
+                        "s2_author_id": "31429494",
+                        "name": "A. Mert"
+                    },
+                    {
+                        "s2_author_id": "34009638",
+                        "name": "Emre Karabulut"
+                    },
+                    {
+                        "s2_author_id": "2075048835",
+                        "name": "Erdin\u00e7 \u00d6zt\u00fcrk"
+                    },
+                    {
+                        "s2_author_id": "1692440",
+                        "name": "E. Sava\u015f"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "2882043",
+                        "name": "Aydin Aysu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5fbdf5fe5930bbb55ab4036fa4f5cd3936fd3814",
+                "title": "Optimizing Complex OpenCL Code for FPGA: A Case Study on Finite Automata Traversal",
+                "year": 2020,
+                "venue": "International Conference on Parallel and Distributed Systems",
+                "citation_count": 4,
+                "reference_count": 0,
+                "abstract": "While FPGAs have been traditionally considered hard to program, recently there have been efforts aimed to allow the use of high-level programming models and libraries intended for multi-core CPUs and GPUs to program FPGAs. For example, both Intel and Xilinx are now providing toolchains to deploy OpenCL code onto FPGA. However, because the nature of the parallelism offered by GPU and FPGA devices is fundamentally different, OpenCL code optimized for GPU can prove very inefficient on FPGA, in terms of both performance and hardware resource utilization. This paper explores this problem on finite automata traversal. In particular, we consider an OpenCL NFA traversal kernel optimized for GPU but exhibiting FPGA-friendly characteristics, namely: limited memory requirements, lack of synchronization, and SIMD execution. We explore a set of structural code changes, custom and best-practice optimizations to retarget this code to FPGA. We showcase the effect of these optimizations on an Intel Stratix V FPGA board using various NFA topologies from different application domains. Our evaluation shows that, while the resource requirements of the original code exceed the capacity of the FPGA in use, our optimizations lead to significant resource savings and allow the transformed code to fit the FPGA for all considered NFA topologies. In addition, our optimizations lead to speedups up to 4x over an already optimized code-variant aimed to fit the NFA traversal kernel on FPGA. Some of the proposed optimizations can be generalized for other applications and introduced in OpenCL-to-FPGA compiler.",
+                "authors": [
+                    {
+                        "s2_author_id": "29359708",
+                        "name": "Marziyeh Nourian"
+                    },
+                    {
+                        "s2_author_id": "2051699577",
+                        "name": "Mostafa Eghbali Zarch"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "70df36f4088540effe3ef4984a23d0381117e678",
+                "title": "A Loop-Aware Autotuner for High-Precision Floating-Point Applications",
+                "year": 2020,
+                "venue": "IEEE International Symposium on Performance Analysis of Systems and Software",
+                "citation_count": 3,
+                "reference_count": 31,
+                "abstract": "Many scientific applications (e.g., molecular dynamics, climate modeling and astrophysical simulations) rely on floating-point arithmetic. Due to its approximate nature, the use of floating-point arithmetic can lead to inaccuracy and reproducibility issues, which can be particularly significant for long running applications. Indeed, previous work has shown that 64- bit IEEE floating-point arithmetic can be insufficient for many algorithms and applications, such as ill-conditioned linear systems, large summations, long-time or large-scale physical simulations, and experimental mathematics applications. To overcome these issues, existing work has proposed high-precision floating-point libraries (e.g., the GNU multiple precision arithmetic library), but these libraries come at the cost of significant execution time. In this work, we propose an auto-tuner for applications requiring high-precision floating-point arithmetic to deliver a prescribed level of accuracy. Our auto-tuner uses compiler analysis to discriminate operations and variables that require high-precision from those that can be handled using standard IEEE 64-bit floating-point arithmetic, and it generates a mixed precision program that trades off performance and accuracy by selectively using different precisions for different variables and operations. In particular, our auto-tuner leverages loop and data dependences analysis to quickly identify precision-sensitive variables and operations and provide results that are robust to different input datasets. We test our auto-tuner on a mix of applications with different computational patterns.",
+                "authors": [
+                    {
+                        "s2_author_id": "3409865",
+                        "name": "Ruidong Gu"
+                    },
+                    {
+                        "s2_author_id": "2102900675",
+                        "name": "Paul Beata"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9ba921c98d4ef09cec393fb3f976ac49d12b8229",
+                "title": "GPU-FPtuner: Mixed-precision Auto-tuning for Floating-point Applications on GPU",
+                "year": 2020,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 10,
+                "reference_count": 29,
+                "abstract": "GPUs have been extensively used to accelerate scientific applications from a variety of domains: computational fluid dynamics, astronomy and astrophysics, climate modeling, numerical analysis, to name a few. Many of these applications rely on floating-point arithmetic, which is approximate in nature. High-precision libraries have been proposed to mitigate accuracy issues due to the use of floating-point arithmetic. However, these libraries offer increased accuracy at a significant performance cost. Previous work, primarily focusing on CPU code and on standard IEEE floating-point data types, has explored mixed precision as a compromise between performance and accuracy. In this work, we propose a mixed precision autotuner for GPU applications that rely on floating-point arithmetic. Our tool supports standard 32- and 64-bit floating-point arithmetic, as well as high precision through the QD library. Our autotuner relies on compiler analysis to reduce the size of the tuning space. In particular, our tuning strategy takes into account code patterns prone to error propagation and GPU-specific considerations to generate a tuning plan that balances performance and accuracy. Our autotuner pipeline, implemented using the ROSE compiler and Python scripts, is fully automated and the code is available in open source. Our experimental results collected on benchmark applications with various code complexities show performance-accuracy tradeoffs for these applications and the effectiveness of our tool in identifying representative tuning points.",
+                "authors": [
+                    {
+                        "s2_author_id": "3409865",
+                        "name": "Ruidong Gu"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e823ef620a52fb0b83079dd4ec7a6892a908052e",
+                "title": "GPU-Based Static Data-Flow Analysis for Fast and Scalable Android App Vetting",
+                "year": 2020,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 10,
+                "reference_count": 54,
+                "abstract": "Many popular vetting tools for Android applications use static code analysis techniques. In particular, Interprocedural Data-Flow Graph (IDFG) construction is the computation at the core of Android static data-flow analysis and consumes most of the analysis time. Many analysis tools use a worklist algorithm, an iterative fixed-point approach, to construct the IDFG. In this paper, we observe that a straightforward GPU parallelization of the worklist algorithm leads to significant underutilization of the GPU resources. We identify four performance bottlenecks, namely, frequent dynamic memory allocations, high branch divergence, workload imbalance, and irregular memory access patterns. Accordingly, we propose GDroid, a GPU-based worklist algorithm implementation with multiple fine-grained optimizations tailored to common characteristics of Android applications. The optimizations considered are: matrix-based data structure, memory access-based node grouping, and worklist merging. Our experimental evaluation, performed on 1000 Android applications, shows that the proposed optimizations are beneficial to performance, and GDroid can achieve up to 128X speedups against a plain GPU implementation.",
+                "authors": [
+                    {
+                        "s2_author_id": "2139743487",
+                        "name": "Xiaodong Yu"
+                    },
+                    {
+                        "s2_author_id": "3305506",
+                        "name": "Fengguo Wei"
+                    },
+                    {
+                        "s2_author_id": "1932524",
+                        "name": "Xinming Ou"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "2323588",
+                        "name": "Tekin Bicer"
+                    },
+                    {
+                        "s2_author_id": "144805631",
+                        "name": "D. Yao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f1ab3c71a44249eaa22b8aecd927f3af064e33b2",
+                "title": "Evaluating Thread Coarsening and Low-cost Synchronization on Intel Xeon Phi",
+                "year": 2020,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 5,
+                "reference_count": 0,
+                "abstract": "Manycore processors such as GPUs and Intel Xeon Phis have become popular due to their massive parallelism and high power-efficiency. To achieve optimal performance, it is necessary to optimize the use of the compute cores and of the memory system available on these devices. Previous work has proposed techniques to improve the use of the GPU resources. While Intel Phi can provide massive parallelism through their x86 cores and vector units, optimization techniques for these platforms have received less consideration.In this work, we study the benefits of thread coarsening and low-cost synchronization on applications running on Intel Xeon Phi processors and encoded in SIMT fashion. Specifically, we explore thread coarsening as a way to remap the work to the available cores and vector lanes. In addition, we propose low- overhead synchronization primitives, such as atomic operations and barriers, which transparently apply to threads mapped to the same or different VPUs and x86 cores. Finally, we consider the combined use of thread coarsening and our proposed synchronization primitives. We evaluate the effect of these techniques on the performance of two kinds of kernels: collaborative and non-collaborative ones, the former using scratchpad memory to explicitly control data sharing among threads. Our evaluation leads to the following results. First, while not always beneficial for non-collaborative kernels, thread coarsening improves the performance of collaborative kernels consistently by reducing the synchronization overhead. Second, our synchronization primitives outperform standard pthread APIs by a factor up to 8x in real-world benchmarks. Last, the combined use of the proposed techniques leads to performance improvements, especially for collaborative kernels.",
+                "authors": [
+                    {
+                        "s2_author_id": "2110824",
+                        "name": "Hancheng Wu"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1b8669abaa2c80750464879365b87701e426ebcb",
+                "title": "Evaluating High Performance Pattern Matching on the Automata Processor",
+                "year": 2019,
+                "venue": "IEEE transactions on computers",
+                "citation_count": 5,
+                "reference_count": 26,
+                "abstract": "In this paper, we study the acceleration of applications that identify all the occurrences of thousands of string-patterns in an input data-stream using the Automata Processor (AP). For this evaluation, we use two applications from two fields, namely, cybersecurity and bioinformatics. The first application, called Fast-SNAP, scans network data for 4312 signatures of intrusion derived from the popular open-source Snort database. Using the resources of a single AP-board, Fast-SNAP can scan for all these signatures at 1 Gbps. The second application, called PROTOMATA, looks for all the occurrences of 1,309 motifs from the PROSITE database in protein sequences. PROTOMATA is up to 68 times faster than the state-of-the-art CPU implementation. As a comparison, we emulate the execution of the same NFAs by programming FPGAs using state-of-the-art techniques. We find that the performance derived by using the resources of a single AP-board, which houses 32 AP-chips, is comparable to that of the resources of five to six large FPGAs. The design techniques used in this paper are generic and may be applicable to the development of similar applications on the AP.",
+                "authors": [
+                    {
+                        "s2_author_id": "46804898",
+                        "name": "Indranil Roy"
+                    },
+                    {
+                        "s2_author_id": "48294059",
+                        "name": "Ankit Srivastava"
+                    },
+                    {
+                        "s2_author_id": "3086087",
+                        "name": "Matt Grimm"
+                    },
+                    {
+                        "s2_author_id": "29359708",
+                        "name": "Marziyeh Nourian"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "143899699",
+                        "name": "S. Aluru"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "81d111c0738f4d8e12a024c6e48da5d7dfe19ac7",
+                "title": "Characterizing the Performance/Accuracy Tradeoff of High-Precision Applications via Auto-tuning*",
+                "year": 2019,
+                "venue": "IEEE International Symposium on Workload Characterization",
+                "citation_count": 0,
+                "reference_count": 24,
+                "abstract": "Many scientific applications (e.g., molecular dynamics, climate modeling and astrophysical simulations) rely on floating-point arithmetic. Floating-point representation is by definition a finite approximation of real numbers, and thus it can lead to inaccuracy and reproducibility issues. To overcome these issues, existing work has proposed high-precision floating-point libraries to be used in scientific simulations, but they come at the cost of significant additional execution time. In this work we analyze performance and accuracy effects from tuning down groups of variables and operations guided by compile-time considerations. The goal of our tuning approach is to convert existing floating-point programs to mixed precision while balancing accuracy and performance. To this end, the tuner starts by maximizing accuracy through the use of a high-precision library and then achieves performance gains under a given error bound by incrementally tuning down groups of variables and operations from higher to lower precision (e.g., double precision). The approach provides input-data independence in its results by defining tuning strategies based on loop structures and the investigation of floating-point computation patterns. In addition, it has a smaller search space than exhaustive or bitonic search algorithms, leading to a significant reduction in tuning time, especially on larger, long-running applications. We tested our tuning on a computational fluid dynamics (CFD) application.",
+                "authors": [
+                    {
+                        "s2_author_id": "3409865",
+                        "name": "Ruidong Gu"
+                    },
+                    {
+                        "s2_author_id": "2102900675",
+                        "name": "Paul Beata"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "82709f89cc617e3a82e1afe99c530ca459226ab7",
+                "title": "A comparative study of parallel programming frameworks for distributed GPU applications",
+                "year": 2019,
+                "venue": "ACM International Conference on Computing Frontiers",
+                "citation_count": 7,
+                "reference_count": 19,
+                "abstract": "Parallel programming frameworks such as MPI, OpenSHMEM, Charm++ and Legion have been widely used in many scientific domains (from bioinformatics, to computational physics, chemistry, among others) to implement distributed applications. While they have the same purpose, these frameworks differ in terms of programmability, performance, and scalability under different applications and cluster types. Hence, it is important for programmers to select the programming framework that is best suited to the characteristics of their application types (i.e. its computation and communication patterns) and the hardware setup of the target high-performance computing cluster. In this work, we consider several popular parallel programming frameworks for distributed applications. We first analyze their memory model, execution model, synchronization model and GPU support. We then compare their programmability, performance, scalability, and load-balancing capability on homogeneous computing cluster equipped with GPUs.",
+                "authors": [
+                    {
+                        "s2_author_id": "3409865",
+                        "name": "Ruidong Gu"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9944a80a85df8b41587946e39df55c270e403184",
+                "title": "Editorial: Special Issue on Computing Frontiers",
+                "year": 2019,
+                "venue": "Journal of Signal Processing Systems",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2054316081",
+                        "name": "F. Palumbo"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e628a0dc0514e29a90ffcdb3354e712058830685",
+                "title": "A Compiler Framework for Fixed-Topology Non-Deterministic Finite Automata on SIMD Platforms",
+                "year": 2018,
+                "venue": "International Conference on Parallel and Distributed Systems",
+                "citation_count": 5,
+                "reference_count": 29,
+                "abstract": "Automata processing is at the core of many pattern matching applications. Previous efforts have proposed designs to accelerate automata traversal on various parallel platforms. Many existing acceleration methods store the finite automata states and transitions in memory. As a result, for these designs memory size and bandwidth are the main limiting factors to performance and power efficiency. Many applications, however, require processing several fixed-topology automata that differ only in the symbols associated to the transitions. This property enables the design of alternative, memory-efficient solutions. In this work, we target fixed-topology non-deterministic finite automata (NFAs) and propose a memory-efficient design that embeds the automata topology in code and stores only the transition symbols in memory. Our solution is suitable to SIMD architectures. In particular, we propose a compiler framework that, given a set of NFAs with fixed topology and the hardware configuration of the target SIMD platform, deploys the NFAs and the input streams to be processed onto the target device so as to exploit the available parallelism, maximize hardware utilization and optimize the memory access patterns. Our compiler framework performs a combination of platform-agnostic and platform-specific design decisions and optimizations. We showcase our compiler framework on GPU, Intel Xeon Phi and Intel Xeon Skylake platforms.",
+                "authors": [
+                    {
+                        "s2_author_id": "29359708",
+                        "name": "Marziyeh Nourian"
+                    },
+                    {
+                        "s2_author_id": "2110824",
+                        "name": "Hancheng Wu"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fb2c0a96de57b08590cbc6ff59a90dc1d51e59c6",
+                "title": "Compiling SIMT Programs on Multi- and Many-Core Processors with Wide Vector Units: A Case Study with CUDA",
+                "year": 2018,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 1,
+                "reference_count": 16,
+                "abstract": "Manycore processors and coprocessors with wide vector extensions, such as Intel Phi and Skylake devices, have become popular due to their high throughput capability. Performance optimization on these devices requires using both their x86-compatible cores and their vector units. While the x86-compatible cores can be programmed using traditional programming interfaces following the MIMD model, such as POSIX threads, MPI and OpenMP, the SIMD vector units are harder to program. The Intel software stack provides two approaches for code vectorization: automatic vectorization through the Intel compiler and manual vectorization through vector intrinsics. While the Intel compiler often fails to vectorize code with complex control flows and function calls, the manual approach is error-prone and leads to less portable code. Hence, there has been an increasing interest in SIMT programming tools allowing the simultaneous use of x86 cores and vector units while providing programmability and code portability. However, the effective implementation of the SIMT model on these hybrid architectures is not well understood. In this work, we target this problem. First, we propose a set of compiler techniques to transform programs written using a SIMT programming model (a subset of CUDA C) into code that leverages both the x86 cores and the vector units of a hybrid MIMD/SIMD architecture, thus providing programmability, high system utilization and performance. Second, we evaluate the proposed techniques on Xeon Phi and Skylake processors using micro-benchmarks and real-world applications. Third, we compare the resulting performance with that achieved by the same code on GPUs. Based on this analysis, we point out the main challenges in supporting the SIMT model on hybrid MIMD/SIMD architectures, while providing performance comparable to that of SIMT systems (e.g., GPUs).",
+                "authors": [
+                    {
+                        "s2_author_id": "2110824",
+                        "name": "Hancheng Wu"
+                    },
+                    {
+                        "s2_author_id": "103872869",
+                        "name": "J. Ravi"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0db79db13acb0808e3915c771b1147cbc8c8387c",
+                "title": "Demystifying automata processing: GPUs, FPGAs or Micron's AP?",
+                "year": 2017,
+                "venue": "International Conference on Supercomputing",
+                "citation_count": 50,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "29359708",
+                        "name": "Marziyeh Nourian"
+                    },
+                    {
+                        "s2_author_id": "2144796323",
+                        "name": "Xiang Wang"
+                    },
+                    {
+                        "s2_author_id": "2139743487",
+                        "name": "Xiaodong Yu"
+                    },
+                    {
+                        "s2_author_id": "145476815",
+                        "name": "Wu-chun Feng"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1df29e21f4276a48dc11add2f4322dcaee3a0e09",
+                "title": "Fast Integral Histogram Computations on GPU for Real-Time Video Analytics",
+                "year": 2017,
+                "venue": "arXiv.org",
+                "citation_count": 4,
+                "reference_count": 45,
+                "abstract": "In many Multimedia content analytics frameworks feature likelihood maps represented as histograms play a critical role in the overall algorithm. Integral histograms provide an efficient computational framework for extracting multi-scale histogram-based regional descriptors in constant time which are considered as the principle building blocks of many video content analytics frameworks. We evaluate four different mappings of the integral histogram computation onto Graphics Processing Units (GPUs) using different kernel optimization strategies. Our kernels perform cumulative sums on row and column histograms in a cross-weave or wavefront scan order, use different data organization and scheduling methods that is shown to critically affect utilization of GPU resources (cores and shared memory). Tiling the 3-D array into smaller regular data blocks significantly speeds up the efficiency of the computation compared to a strip-based organization. The tiled integral histogram using a diagonal wavefront scan has the best performance of about 300.4 frames/sec for 640 x 480 images and 32 bins with a speedup factor of about 120 using GTX Titan X graphics card compared to a single threaded sequential CPU implementation. Double-buffering has been exploited to overlap computation and communication across sequence of images. Mapping integral histogram bins computations onto multiple GPUs enables us to process 32 giga bytes integral histogram data (of 64MB Image and 128 bins) with a frame rate of 0.73 Hz and speedup factor of 153X over single-threaded CPU implementation and the speedup of 45X over 16-threaded CPU implementation.",
+                "authors": [
+                    {
+                        "s2_author_id": "1919030",
+                        "name": "Mahdieh Poostchi"
+                    },
+                    {
+                        "s2_author_id": "1921638",
+                        "name": "K. Palaniappan"
+                    },
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "2459290",
+                        "name": "F. Bunyak"
+                    },
+                    {
+                        "s2_author_id": "7691720",
+                        "name": "G. Seetharaman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e72d333ad9d5b4c1b00603f1d930f051ca5807f",
+                "title": "A Memory-Efficient GPU Method for Hamming and Levenshtein Distance Similarity",
+                "year": 2017,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 7,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2058648275",
+                        "name": "Andrew Todd"
+                    },
+                    {
+                        "s2_author_id": "29359708",
+                        "name": "Marziyeh Nourian"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "28ace9de4260a966ffefa50b22a7aed271efcd0e",
+                "title": "A Principled Approach to Secure Multi-core Processor Design with ReWire",
+                "year": 2017,
+                "venue": "ACM Transactions on Embedded Computing Systems",
+                "citation_count": 8,
+                "reference_count": 47,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "35456885",
+                        "name": "A. Procter"
+                    },
+                    {
+                        "s2_author_id": "1763268",
+                        "name": "W. Harrison"
+                    },
+                    {
+                        "s2_author_id": "30173150",
+                        "name": "I. Graves"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1759648",
+                        "name": "G. Allwein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3ea1ad4f4067a846e15d5bd94d9455731ff25c3c",
+                "title": "Proceedings of the Computing Frontiers Conference",
+                "year": 2017,
+                "venue": "Conf. Computing Frontiers",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1816975",
+                        "name": "R. Giorgi"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "37010107",
+                        "name": "F. Palumbo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "862602db9b6305082b8448b1b7640524424c179e",
+                "title": "An Analytical Study of Recursive Tree Traversal Patterns on Multi- and Many-Core Platforms",
+                "year": 2017,
+                "venue": "International Conference on Parallel and Distributed Systems",
+                "citation_count": 2,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110824",
+                        "name": "Hancheng Wu"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f11b4441cd98681ee6d1f29444ca5a9d762052c6",
+                "title": "Understanding the performance-accuracy tradeoffs of floating-point arithmetic on GPUs",
+                "year": 2017,
+                "venue": "IEEE International Symposium on Workload Characterization",
+                "citation_count": 4,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30406021",
+                        "name": "Sruthikesh Surineni"
+                    },
+                    {
+                        "s2_author_id": "3409865",
+                        "name": "Ruidong Gu"
+                    },
+                    {
+                        "s2_author_id": "2110493082",
+                        "name": "Huyen Nguyen"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "00076a2bd72451e0804dcfa6f521eb9c4121e89f",
+                "title": "A programming model for reconfigurable computing based in functional concurrency",
+                "year": 2016,
+                "venue": "Reconfigurable Communication-centric Systems-on-Chip",
+                "citation_count": 6,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1763268",
+                        "name": "W. Harrison"
+                    },
+                    {
+                        "s2_author_id": "30173150",
+                        "name": "I. Graves"
+                    },
+                    {
+                        "s2_author_id": "35456885",
+                        "name": "A. Procter"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1759648",
+                        "name": "G. Allwein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1ea083194e5aeaccc987279bf197f901eb676947",
+                "title": "Parallel Gene Upstream Comparison via Multi-Level Hash Tables on GPU",
+                "year": 2016,
+                "venue": "International Conference on Parallel and Distributed Systems",
+                "citation_count": 7,
+                "reference_count": 31,
+                "abstract": "The region of DNA immediately in front of a gene body (also called upstream region) contains short (8-20 base) sequence motifs that help to control when that gene is turned on and off. Unfortunately, these motifs are generally unknown and commonly degenerate. In this work, we propose a motif-finding framework that, given a set of gene upstream regions, performs their all-to-all pairwise comparison and identifies all the motifs of length k (k-mers) that are common to any pair of upstream regions or differ in at most d characters. Our framework stores the k-mers found in each gene in a multi-level hash table. Our hash table design optimizes hash table comparison (rather than hash table insertion or lookup), is highly parallelizable and easily maps onto GPU. We propose four GPU kernels for pairwise hash table comparison, each leveraging a distinct parallelization approach. We study how different factors (the hash function, the number of buckets and the settings of other implementation-specific parameters) affect the performance of our implementation. Experimental results performed using an average-size yeast genome show that our fastest GPU kernel outperforms an 8-thread, cache-efficient CPU implementation by a factor of ~52x.",
+                "authors": [
+                    {
+                        "s2_author_id": "2058648275",
+                        "name": "Andrew Todd"
+                    },
+                    {
+                        "s2_author_id": "39619280",
+                        "name": "Huan Truong"
+                    },
+                    {
+                        "s2_author_id": "20492051",
+                        "name": "J. Deters"
+                    },
+                    {
+                        "s2_author_id": "2117316653",
+                        "name": "John Long"
+                    },
+                    {
+                        "s2_author_id": "2298363",
+                        "name": "G. Conant"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6cd61b00eb6248ead7ea029d2daa9d79e68572cb",
+                "title": "Evaluating the Energy Efficiency of Deep Convolutional Neural Networks on CPUs and GPUs",
+                "year": 2016,
+                "venue": "2016 IEEE International Conferences on Big Data and Cloud Computing (BDCloud), Social Computing and Networking (SocialCom), Sustainable Computing and Communications (SustainCom) (BDCloud-SocialCom-SustainCom)",
+                "citation_count": 168,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "2109059330",
+                        "name": "Xinbo Chen"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "36491005",
+                        "name": "Ziliang Zong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9f634fd29de624626a78c7d4657a28cb5677a5b8",
+                "title": "High Performance Pattern Matching Using the Automata Processor",
+                "year": 2016,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 35,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46804898",
+                        "name": "Indranil Roy"
+                    },
+                    {
+                        "s2_author_id": "48294059",
+                        "name": "Ankit Srivastava"
+                    },
+                    {
+                        "s2_author_id": "29359708",
+                        "name": "Marziyeh Nourian"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "143899699",
+                        "name": "S. Aluru"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b3f6c8c96aedf717dc7b18019db20b5eb6acc353",
+                "title": "O3FA: A scalable finite automata-based pattern-matching engine for out-of-order deep packet inspection",
+                "year": 2016,
+                "venue": "Symposium on Architectures for Networking and Communications Systems",
+                "citation_count": 28,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2139743487",
+                        "name": "Xiaodong Yu"
+                    },
+                    {
+                        "s2_author_id": "145476815",
+                        "name": "Wu-chun Feng"
+                    },
+                    {
+                        "s2_author_id": "144805631",
+                        "name": "D. Yao"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c1482f58d068e016493228f05c75b196b794c4af",
+                "title": "Compiler-Assisted Workload Consolidation for Efficient Dynamic Parallelism on GPU",
+                "year": 2016,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 24,
+                "reference_count": 35,
+                "abstract": "GPUs have been widely used to accelerate computations exhibiting simple patterns of parallelism -- such as flat or two-level parallelism -- and a degree of parallelism that can be statically determined based on the size of the input dataset. However, the effective use of GPUs for algorithms exhibiting complex patterns of parallelism, possibly known only at runtime, is still an open problem. Recently, Nvidia has introduced Dynamic Parallelism (DP) in its GPUs. By making it possible to launch kernels directly from GPU threads, this feature enables nested parallelism at runtime. However, the effective use of DP must still be understood: a nai\u0308ve use of this feature may suffer from significant runtime overhead and lead to GPU underutilization, resulting in poor performance. In this work, we target this problem. First, we demonstrate how a nai\u0308ve use of DP can result in poor performance. Second, we propose three workload consolidation schemes to improve performance and hardware utilization of DP-based codes, and we implement these code transformations in a directive-based compiler. Finally, we evaluate our framework on two categories of applications: algorithms including irregular loops and algorithms exhibiting parallel recursion. Our experiments show that our approach significantly reduces runtime overhead and improves GPU utilization, leading to speedup factors from 90x to 3300x over basic DP-based solutions and speedups from 2x to 6x over flat implementations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2110824",
+                        "name": "Hancheng Wu"
+                    },
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c25d10f18313db9af147e6143ab2c9869b8bdd63",
+                "title": "IVM: a task-based shared memory programming model and runtime system to enable uniform access to CPU-GPU clusters",
+                "year": 2016,
+                "venue": "Conf. Computing Frontiers",
+                "citation_count": 1,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3079326",
+                        "name": "Kittisak Sajjapongse"
+                    },
+                    {
+                        "s2_author_id": "3409865",
+                        "name": "Ruidong Gu"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "21bafcb9220ed58736f8123f44c410587f0117c0",
+                "title": "Hardware Synthesis from Functional Embedded Domain-Specific Languages: A Case Study in Regular Expression Compilation",
+                "year": 2015,
+                "venue": "International Workshop on Applied Reconfigurable Computing",
+                "citation_count": 7,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30173150",
+                        "name": "I. Graves"
+                    },
+                    {
+                        "s2_author_id": "35456885",
+                        "name": "A. Procter"
+                    },
+                    {
+                        "s2_author_id": "1763268",
+                        "name": "W. Harrison"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1759648",
+                        "name": "G. Allwein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4266effa841802ce224c8670a416546f5315f825",
+                "title": "Improving Application Concurrency on GPUs by Managing Implicit and Explicit Synchronizations",
+                "year": 2015,
+                "venue": "International Conference on Parallel and Distributed Systems",
+                "citation_count": 2,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2061524369",
+                        "name": "M. Butler"
+                    },
+                    {
+                        "s2_author_id": "3079326",
+                        "name": "Kittisak Sajjapongse"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7c286184a6ce9c34e853e8f37533154178581df0",
+                "title": "Accelerating regular expression matching over compressed HTTP",
+                "year": 2015,
+                "venue": "IEEE Conference on Computer Communications",
+                "citation_count": 19,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1402908984",
+                        "name": "A. Bremler-Barr"
+                    },
+                    {
+                        "s2_author_id": "150075972",
+                        "name": "David Hay"
+                    },
+                    {
+                        "s2_author_id": "1403986726",
+                        "name": "Omer Kochba"
+                    },
+                    {
+                        "s2_author_id": "1939997",
+                        "name": "Yaron Koral"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "86c8362a6cb76454b8b2ebe030c8525b837e9529",
+                "title": "Semantics Driven Hardware Design, Implementation, and Verification with ReWire",
+                "year": 2015,
+                "venue": "ACM SIGPLAN Conference on Languages, Compilers, and Tools for Embedded Systems",
+                "citation_count": 21,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "35456885",
+                        "name": "A. Procter"
+                    },
+                    {
+                        "s2_author_id": "1763268",
+                        "name": "W. Harrison"
+                    },
+                    {
+                        "s2_author_id": "30173150",
+                        "name": "I. Graves"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1759648",
+                        "name": "G. Allwein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "88c56a078f4228489655750ba28e942be2575b05",
+                "title": "Exploiting Dynamic Parallelism to Efficiently Support Irregular Nested Loops on GPUs",
+                "year": 2015,
+                "venue": "COSMIC@CGO",
+                "citation_count": 6,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "2110824",
+                        "name": "Hancheng Wu"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aada2b75aad73ee8cacd41f8511562e8cde93f71",
+                "title": "Nested Parallelism on GPU: Exploring Parallelization Templates for Irregular Loops and Recursive Computations",
+                "year": 2015,
+                "venue": "International Conference on Parallel Processing",
+                "citation_count": 17,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "2110824",
+                        "name": "Hancheng Wu"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ac5cad637fdbac430b4d245c58d530219e051373",
+                "title": "Fast support for unstructured data processing: The unified automata processor",
+                "year": 2015,
+                "venue": "Micro",
+                "citation_count": 70,
+                "reference_count": 73,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3239866",
+                        "name": "Yuanwei Fang"
+                    },
+                    {
+                        "s2_author_id": "1844581",
+                        "name": "T. Hoang"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1695232",
+                        "name": "A. Chien"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "313aae057e751d8197a1904427610ffb68261a6c",
+                "title": "A flexible scheduling framework for heterogeneous CPU-GPU clusters",
+                "year": 2014,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 4,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3079326",
+                        "name": "Kittisak Sajjapongse"
+                    },
+                    {
+                        "s2_author_id": "2261055",
+                        "name": "Tejaswi Agarwal"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6540a78e25889c57f351055753da67f098a7ad1c",
+                "title": "Large-Scale Pairwise Alignments on GPU Clusters: Exploring the Implementation Space",
+                "year": 2014,
+                "venue": "Journal of Signal Processing Systems",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39619280",
+                        "name": "Huan Truong"
+                    },
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "3079326",
+                        "name": "Kittisak Sajjapongse"
+                    },
+                    {
+                        "s2_author_id": "2242565138",
+                        "name": "Gavin Conant"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7666859ba1c7c9a0bae972cc6e7f04e2a4f728aa",
+                "title": "Revisiting State Blow-Up: Automatically Building Augmented-FA While Preserving Functional Equivalence",
+                "year": 2014,
+                "venue": "IEEE Journal on Selected Areas in Communications",
+                "citation_count": 33,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2139743487",
+                        "name": "Xiaodong Yu"
+                    },
+                    {
+                        "s2_author_id": "145968937",
+                        "name": "Bill Lin"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a5a9036f72f1ff33a933ceb12d31be1c4a553c3f",
+                "title": "Large-Scale Pairwise Alignments on GPU Clusters: Exploring the Implementation Space",
+                "year": 2014,
+                "venue": "Journal of Signal Processing Systems",
+                "citation_count": 7,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39619280",
+                        "name": "Huan Truong"
+                    },
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "3079326",
+                        "name": "Kittisak Sajjapongse"
+                    },
+                    {
+                        "s2_author_id": "2298363",
+                        "name": "G. Conant"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c645af38f97da102299d37ec8a5a7ba96f738c46",
+                "title": "Design of a hybrid MPI-CUDA benchmark suite for CPU-GPU clusters",
+                "year": 2014,
+                "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+                "citation_count": 6,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2261055",
+                        "name": "Tejaswi Agarwal"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "de7e94327f34fb33237af084d33a5cdfe182ab10",
+                "title": "GRapid: A compilation and runtime framework for rapid prototyping of graph applications on many-core processors",
+                "year": 2014,
+                "venue": "International Conference on Parallel and Distributed Systems",
+                "citation_count": 8,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "1752242",
+                        "name": "S. Chakradhar"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "20ee61caa108938c2252dbefafb926f3d481465b",
+                "title": "GPU acceleration of regular expression matching for large datasets: exploring the implementation space",
+                "year": 2013,
+                "venue": "ACM International Conference on Computing Frontiers",
+                "citation_count": 73,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2139743487",
+                        "name": "Xiaodong Yu"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "473414f0074510fccba45abebaca2d65b520bd65",
+                "title": "Semantics-directed machine architecture in ReWire",
+                "year": 2013,
+                "venue": "International Conference on Field-Programmable Technology",
+                "citation_count": 4,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "35456885",
+                        "name": "A. Procter"
+                    },
+                    {
+                        "s2_author_id": "1763268",
+                        "name": "W. Harrison"
+                    },
+                    {
+                        "s2_author_id": "30173150",
+                        "name": "I. Graves"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1759648",
+                        "name": "G. Allwein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4a86a429eaec58daef210b1ef0886baa92650c66",
+                "title": "A distributed CPU-GPU framework for pairwise alignments on large-scale sequence datasets",
+                "year": 2013,
+                "venue": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors",
+                "citation_count": 14,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "3079326",
+                        "name": "Kittisak Sajjapongse"
+                    },
+                    {
+                        "s2_author_id": "39619280",
+                        "name": "Huan Truong"
+                    },
+                    {
+                        "s2_author_id": "2298363",
+                        "name": "G. Conant"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "614bbef4a5f1253c14e5ce17c5bae8ef0be7fa6c",
+                "title": "Deploying Graph Algorithms on GPUs: An Adaptive Solution",
+                "year": 2013,
+                "venue": "2013 IEEE 27th International Symposium on Parallel and Distributed Processing",
+                "citation_count": 48,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a46b4b554b734caf41a164fbc9567ce5bdfd69c2",
+                "title": "A-DFA: A Time- and Space-Efficient DFA Compression Algorithm for Fast Regular Expression Evaluation",
+                "year": 2013,
+                "venue": "TACO",
+                "citation_count": 66,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c31e013f27169c17d9b05a262e27d7f9b13c12b1",
+                "title": "Picking Pesky Parameters: Optimizing Regular Expression Matching in Practice",
+                "year": 2013,
+                "venue": "IEEE Transactions on Parallel and Distributed Systems",
+                "citation_count": 16,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "48283504",
+                        "name": "Xinming Chen"
+                    },
+                    {
+                        "s2_author_id": "153802299",
+                        "name": "Brandon Jones"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1812733",
+                        "name": "T. Wolf"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d807a9baf8a027420b2efb95897cdb35832dcb14",
+                "title": "Exploring different automata representations for efficient regular expression matching on GPUs",
+                "year": 2013,
+                "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+                "citation_count": 21,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2139743487",
+                        "name": "Xiaodong Yu"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fe93a312039f2f95cf54834a454013be22b597fe",
+                "title": "A preemption-based runtime to efficiently schedule multi-process applications on heterogeneous clusters with GPUs",
+                "year": 2013,
+                "venue": "IEEE International Symposium on High-Performance Parallel Distributed Computing",
+                "citation_count": 33,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3079326",
+                        "name": "Kittisak Sajjapongse"
+                    },
+                    {
+                        "s2_author_id": "2144796323",
+                        "name": "Xiang Wang"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0cbbeda3fdafb8ce82129ef393d08fb79e56b754",
+                "title": "Poster: Multiple Pairwise Sequence Alignments with the Needleman-Wunsch Algorithm on GPU",
+                "year": 2012,
+                "venue": "SC Companion",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "404b72fbf63ff8f3f15c26a88384a0d4d7bcfcd7",
+                "title": "A virtual memory based runtime to support multi-tenancy in clusters with GPUs",
+                "year": 2012,
+                "venue": "IEEE International Symposium on High-Performance Parallel Distributed Computing",
+                "citation_count": 63,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "3079326",
+                        "name": "Kittisak Sajjapongse"
+                    },
+                    {
+                        "s2_author_id": "30173150",
+                        "name": "I. Graves"
+                    },
+                    {
+                        "s2_author_id": "35456885",
+                        "name": "A. Procter"
+                    },
+                    {
+                        "s2_author_id": "2447516",
+                        "name": "Vignesh T. Ravi"
+                    },
+                    {
+                        "s2_author_id": "1752242",
+                        "name": "S. Chakradhar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "44aa1a6aacbc40949317e0a468b600809b8a7721",
+                "title": "ValuePack: Value-based scheduling framework for CPU-GPU clusters",
+                "year": 2012,
+                "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "citation_count": 14,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2447516",
+                        "name": "Vignesh T. Ravi"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "145340303",
+                        "name": "G. Agrawal"
+                    },
+                    {
+                        "s2_author_id": "1752242",
+                        "name": "S. Chakradhar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53f0a82495bf6f4d1a265aeeaeee0f11695741ec",
+                "title": "A Massively Parallel, Energy Efficient Programmable Accelerator for Learning and Classification",
+                "year": 2012,
+                "venue": "TACO",
+                "citation_count": 45,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3080400",
+                        "name": "Abhinandan Majumdar"
+                    },
+                    {
+                        "s2_author_id": "2468150",
+                        "name": "S. Cadambi"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1752242",
+                        "name": "S. Chakradhar"
+                    },
+                    {
+                        "s2_author_id": "1775043",
+                        "name": "H. Graf"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "608662cbdaf55afce95e48b8dec9a6eab9887d57",
+                "title": "Accelerating large-scale protein structure alignments with graphics processing units",
+                "year": 2012,
+                "venue": "BMC Research Notes",
+                "citation_count": 32,
+                "reference_count": 41,
+                "abstract": "Large-scale protein structure alignment, an indispensable tool to structural bioinformatics, poses a tremendous challenge on computational resources. To ensure structure alignment accuracy and efficiency, efforts have been made to parallelize traditional alignment algorithms in grid environments. However, these solutions are costly and of limited accessibility. Others trade alignment quality for speedup by using high-level characteristics of structure fragments for structure comparisons. We present ppsAlign, a p arallel p rotein s tructure Align ment framework designed and optimized to exploit the parallelism of Graphics Processing Units (GPUs). As a general-purpose GPU platform, ppsAlign could take many concurrent methods, such as TM-align and Fr-TM-align, into the parallelized algorithm design. We evaluated ppsAlign on an NVIDIA Tesla C2050 GPU card, and compared it with existing software solutions running on an AMD dual-core CPU. We observed a 36-fold speedup over TM-align, a 65-fold speedup over Fr-TM-align, and a 40-fold speedup over MAMMOTH. ppsAlign is a high-performance protein structure alignment tool designed to tackle the computational complexity issues from protein structural data. The solution presented in this paper allows large-scale structure comparisons to be performed using massive parallel computing power of GPU.",
+                "authors": [
+                    {
+                        "s2_author_id": "38724915",
+                        "name": "Bin Pang"
+                    },
+                    {
+                        "s2_author_id": "2055270403",
+                        "name": "Nan Zhao"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "2816958",
+                        "name": "Dmitry Korkin"
+                    },
+                    {
+                        "s2_author_id": "144154559",
+                        "name": "C. Shyu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "641f2c48764a1f3670ff472fcde28bfa7533022e",
+                "title": "Abstract: Multiple Pairwise Sequence Alignments with the Needleman-Wunsch Algorithm on GPU",
+                "year": 2012,
+                "venue": "2012 SC Companion: High Performance Computing, Networking Storage and Analysis",
+                "citation_count": 9,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108338442",
+                        "name": "Da Li"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b705f3539aa6d09f2734ef03cb228811f23fb14a",
+                "title": "Scheduling Concurrent Applications on a Cluster of CPU-GPU Nodes",
+                "year": 2012,
+                "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",
+                "citation_count": 61,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2447516",
+                        "name": "Vignesh T. Ravi"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "30401303",
+                        "name": "Wei Jiang"
+                    },
+                    {
+                        "s2_author_id": "145340303",
+                        "name": "G. Agrawal"
+                    },
+                    {
+                        "s2_author_id": "1752242",
+                        "name": "S. Chakradhar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cbca74f788622e5d4acc19fc2aa5ce841d046d69",
+                "title": "Formal Semantics of Heterogeneous CUDA-C: A Modular Approach with Applications",
+                "year": 2012,
+                "venue": "International Workshop on Systems Software Verification",
+                "citation_count": 8,
+                "reference_count": 14,
+                "abstract": "We extend an off-the-shelf, executable formal semantics of C (Ellison and Rosu's K Framework semantics) with the core features of CUDA-C. The hybrid CPU/GPU computation model of CUDA-C presents challenges not just for programmers, but also for practitioners of formal methods. Our formal semantics helps expose and clarify these issues. We demonstrate the usefulness of our semantics by generating a tool from it capable of detecting some race conditions and deadlocks in CUDA-C programs. We discuss limitations of our model and argue that its extensibility can easily enable a wider range of verification tasks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2852203",
+                        "name": "Chris Hathhorn"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1763268",
+                        "name": "W. Harrison"
+                    },
+                    {
+                        "s2_author_id": "35456885",
+                        "name": "A. Procter"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fd10683c3dcb0e9c283cae6ddeb6721897de2e12",
+                "title": "Efficient GPU Implementation of the Integral Histogram",
+                "year": 2012,
+                "venue": "ACCV Workshops",
+                "citation_count": 16,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1919030",
+                        "name": "Mahdieh Poostchi"
+                    },
+                    {
+                        "s2_author_id": "1921638",
+                        "name": "K. Palaniappan"
+                    },
+                    {
+                        "s2_author_id": "2459290",
+                        "name": "F. Bunyak"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "7691720",
+                        "name": "G. Seetharaman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cc8786711f75e957fbe81e798db07c2fefce644f",
+                "title": "Supporting GPU sharing in cloud environments with a transparent runtime consolidation framework",
+                "year": 2011,
+                "venue": "IEEE International Symposium on High-Performance Parallel Distributed Computing",
+                "citation_count": 131,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2447516",
+                        "name": "Vignesh T. Ravi"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "145340303",
+                        "name": "G. Agrawal"
+                    },
+                    {
+                        "s2_author_id": "1752242",
+                        "name": "S. Chakradhar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04fd80d4d6c6ac5ef94350e3142580f54a66c093",
+                "title": "A programmable parallel accelerator for learning and classification",
+                "year": 2010,
+                "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+                "citation_count": 106,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2468150",
+                        "name": "S. Cadambi"
+                    },
+                    {
+                        "s2_author_id": "3080400",
+                        "name": "Abhinandan Majumdar"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1752242",
+                        "name": "S. Chakradhar"
+                    },
+                    {
+                        "s2_author_id": "1775043",
+                        "name": "H. Graf"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a756312d6a6dfcf0a9e27f91affce6412833a9f",
+                "title": "Data-aware scheduling of legacy kernels on heterogeneous platforms with distributed memory",
+                "year": 2010,
+                "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
+                "citation_count": 60,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "1749233",
+                        "name": "S. Byna"
+                    },
+                    {
+                        "s2_author_id": "2468150",
+                        "name": "S. Cadambi"
+                    },
+                    {
+                        "s2_author_id": "1752242",
+                        "name": "S. Chakradhar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "360fd3f5c065c1c25613f53f155bfc262b173a1a",
+                "title": "Enabling Legacy Applications on Heterogeneous Platforms",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "2468150",
+                        "name": "S. Cadambi"
+                    },
+                    {
+                        "s2_author_id": "1752242",
+                        "name": "S. Chakradhar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dbe12024bea2f1d389276a6edfa5df1dda5569ee",
+                "title": "Session details: Network node implementation",
+                "year": 2010,
+                "venue": "Proceedings of the 6th ACM/IEEE Symposium on Architectures for Networking and Communications Systems",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4510a798d1f3001a6ba82ba27d7809ff6c5b9b6e",
+                "title": "Evaluating regular expression matching engines on network and general purpose processors",
+                "year": 2009,
+                "venue": "Symposium on Architectures for Networking and Communications Systems",
+                "citation_count": 67,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "13283467",
+                        "name": "Charlie Wiseman"
+                    },
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dfdfe633837f689f17e01e9325c712af5af29453",
+                "title": "Data structures, algorithms and architectures for efficient regular expression evaluation",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 26,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0c621bbd45b8a5e0cdac61ac960bc7cc2bdaa0c5",
+                "title": "A workload for evaluating deep packet inspection architectures",
+                "year": 2008,
+                "venue": "IEEE International Symposium on Workload Characterization",
+                "citation_count": 119,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "2285405288",
+                        "name": "M. Franklin"
+                    },
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "62df35de57a1ab8cd4be416f982c8ba11dc801b1",
+                "title": "A remotely accessible network processor-based router for network experimentation",
+                "year": 2008,
+                "venue": "Symposium on Architectures for Networking and Communications Systems",
+                "citation_count": 47,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "13283467",
+                        "name": "Charlie Wiseman"
+                    },
+                    {
+                        "s2_author_id": "145297952",
+                        "name": "J. Turner"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    },
+                    {
+                        "s2_author_id": "3107685",
+                        "name": "J. DeHart"
+                    },
+                    {
+                        "s2_author_id": "2116831",
+                        "name": "Mart Haitjema"
+                    },
+                    {
+                        "s2_author_id": "145134944",
+                        "name": "S. James"
+                    },
+                    {
+                        "s2_author_id": "2334172",
+                        "name": "F. Kuhns"
+                    },
+                    {
+                        "s2_author_id": "145951222",
+                        "name": "Jing Lu"
+                    },
+                    {
+                        "s2_author_id": "2259403",
+                        "name": "Jyoti Parwatikar"
+                    },
+                    {
+                        "s2_author_id": "3191975",
+                        "name": "R. Patney"
+                    },
+                    {
+                        "s2_author_id": "2148458357",
+                        "name": "Michael Wilson"
+                    },
+                    {
+                        "s2_author_id": "3313650",
+                        "name": "Kenneth F. Wong"
+                    },
+                    {
+                        "s2_author_id": "2182328",
+                        "name": "D. Zar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c478da6f4a5abfdeda8f65fe8020f895bce913b4",
+                "title": "Efficient regular expression evaluation: theory to practice",
+                "year": 2008,
+                "venue": "Symposium on Architectures for Networking and Communications Systems",
+                "citation_count": 148,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e4a18606ab654c3be4c91516d8a87e258e283710",
+                "title": "Extending finite automata to efficiently match Perl-compatible regular expressions",
+                "year": 2008,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 86,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3895523a6a82a445ce204c5f7fb0064c097f9032",
+                "title": "An improved algorithm to accelerate regular expression evaluation",
+                "year": 2007,
+                "venue": "Symposium on Architectures for Networking and Communications Systems",
+                "citation_count": 218,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "507acb4a75d74cc6dcca74fd37fbf4b5e064b28d",
+                "title": "Performance/area efficiency in chip multiprocessors with micro-caches",
+                "year": 2007,
+                "venue": "ACM International Conference on Computing Frontiers",
+                "citation_count": 4,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "2285405288",
+                        "name": "M. Franklin"
+                    },
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a3cfc859a48c935bb0751cb76b208e4db49ae87",
+                "title": "Memory-Efficient Regular Expression Search Using State Merging",
+                "year": 2007,
+                "venue": "IEEE INFOCOM 2007 - 26th IEEE International Conference on Computer Communications",
+                "citation_count": 122,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "2468150",
+                        "name": "S. Cadambi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "faf08742e739c35e60155c2432b9f0250aad2fcf",
+                "title": "A hybrid finite automaton for practical deep packet inspection",
+                "year": 2007,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 245,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1fcec27437d40285684aad5c68d2db076b27a195",
+                "title": "Dynamic thread assignment on heterogeneous multiprocessor architectures",
+                "year": 2006,
+                "venue": "ACM International Conference on Computing Frontiers",
+                "citation_count": 292,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5a06ce0ce002b15ae0133aa9e2810ea00073f669",
+                "title": "From Poisson Processes to Self-Similarity: a Survey of Network Traffic Models",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 33,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9bda308af36a764fe93cf485369dae2a315f7022",
+                "title": "CAMP: fast and efficient IP lookup architecture",
+                "year": 2006,
+                "venue": "Symposium on Architectures for Networking and Communications Systems",
+                "citation_count": 64,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46574595",
+                        "name": "S. Sushanth Kumar"
+                    },
+                    {
+                        "s2_author_id": "2948456",
+                        "name": "M. Becchi"
+                    },
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    },
+                    {
+                        "s2_author_id": "145297952",
+                        "name": "J. Turner"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "47734538",
+                "name": "Milan Shah"
+            },
+            {
+                "s2_author_id": "2285061632",
+                "name": "Xiaodong Yu"
+            },
+            {
+                "s2_author_id": "2315517467",
+                "name": "Sheng Di"
+            },
+            {
+                "s2_author_id": "2239205420",
+                "name": "Franck Cappello"
+            },
+            {
+                "s2_author_id": "2315789594",
+                "name": "Tri Nguyen"
+            },
+            {
+                "s2_author_id": "2266440523",
+                "name": "Md Hasanur Rahman"
+            },
+            {
+                "s2_author_id": "2140766360",
+                "name": "S. Ferdous"
+            },
+            {
+                "s2_author_id": "2151207503",
+                "name": "Reece Neff"
+            },
+            {
+                "s2_author_id": "2319410733",
+                "name": "Bo Peng"
+            },
+            {
+                "s2_author_id": "2279336285",
+                "name": "Salman Shuvo"
+            },
+            {
+                "s2_author_id": "2139851834",
+                "name": "Marco Minutoli"
+            },
+            {
+                "s2_author_id": "2301756876",
+                "name": "Sayak Mukherjee"
+            },
+            {
+                "s2_author_id": "2241310265",
+                "name": "Karol Kowalski"
+            },
+            {
+                "s2_author_id": "3285377",
+                "name": "M. Halappanavar"
+            },
+            {
+                "s2_author_id": "2606269",
+                "name": "Antonino Tumeo"
+            },
+            {
+                "s2_author_id": "2139743487",
+                "name": "Xiaodong Yu"
+            },
+            {
+                "s2_author_id": "1699598",
+                "name": "S. Di"
+            },
+            {
+                "s2_author_id": "1721552",
+                "name": "F. Cappello"
+            },
+            {
+                "s2_author_id": "102429514",
+                "name": "Danylo Lykov"
+            },
+            {
+                "s2_author_id": "2143727",
+                "name": "Y. Alexeev"
+            },
+            {
+                "s2_author_id": "103872869",
+                "name": "J. Ravi"
+            },
+            {
+                "s2_author_id": "1749233",
+                "name": "S. Byna"
+            },
+            {
+                "s2_author_id": "3239875",
+                "name": "Q. Koziol"
+            },
+            {
+                "s2_author_id": "1485370717",
+                "name": "Houjun Tang"
+            },
+            {
+                "s2_author_id": "2051699577",
+                "name": "Mostafa Eghbali Zarch"
+            },
+            {
+                "s2_author_id": "29359708",
+                "name": "Marziyeh Nourian"
+            },
+            {
+                "s2_author_id": "2140193253",
+                "name": "Tri Nguyen"
+            },
+            {
+                "s2_author_id": "2047942244",
+                "name": "A. Chien"
+            },
+            {
+                "s2_author_id": "2110824",
+                "name": "Hancheng Wu"
+            },
+            {
+                "s2_author_id": "38067595",
+                "name": "Huiyang Zhou"
+            },
+            {
+                "s2_author_id": "31429494",
+                "name": "A. Mert"
+            },
+            {
+                "s2_author_id": "34009638",
+                "name": "Emre Karabulut"
+            },
+            {
+                "s2_author_id": "2075048835",
+                "name": "Erdin\u00e7 \u00d6zt\u00fcrk"
+            },
+            {
+                "s2_author_id": "1692440",
+                "name": "E. Sava\u015f"
+            },
+            {
+                "s2_author_id": "2882043",
+                "name": "Aydin Aysu"
+            },
+            {
+                "s2_author_id": "3409865",
+                "name": "Ruidong Gu"
+            },
+            {
+                "s2_author_id": "2102900675",
+                "name": "Paul Beata"
+            },
+            {
+                "s2_author_id": "3305506",
+                "name": "Fengguo Wei"
+            },
+            {
+                "s2_author_id": "1932524",
+                "name": "Xinming Ou"
+            },
+            {
+                "s2_author_id": "2323588",
+                "name": "Tekin Bicer"
+            },
+            {
+                "s2_author_id": "144805631",
+                "name": "D. Yao"
+            },
+            {
+                "s2_author_id": "46804898",
+                "name": "Indranil Roy"
+            },
+            {
+                "s2_author_id": "48294059",
+                "name": "Ankit Srivastava"
+            },
+            {
+                "s2_author_id": "3086087",
+                "name": "Matt Grimm"
+            },
+            {
+                "s2_author_id": "143899699",
+                "name": "S. Aluru"
+            },
+            {
+                "s2_author_id": "2054316081",
+                "name": "F. Palumbo"
+            },
+            {
+                "s2_author_id": "2144796323",
+                "name": "Xiang Wang"
+            },
+            {
+                "s2_author_id": "145476815",
+                "name": "Wu-chun Feng"
+            },
+            {
+                "s2_author_id": "1919030",
+                "name": "Mahdieh Poostchi"
+            },
+            {
+                "s2_author_id": "1921638",
+                "name": "K. Palaniappan"
+            },
+            {
+                "s2_author_id": "2108338442",
+                "name": "Da Li"
+            },
+            {
+                "s2_author_id": "2459290",
+                "name": "F. Bunyak"
+            },
+            {
+                "s2_author_id": "7691720",
+                "name": "G. Seetharaman"
+            },
+            {
+                "s2_author_id": "2058648275",
+                "name": "Andrew Todd"
+            },
+            {
+                "s2_author_id": "35456885",
+                "name": "A. Procter"
+            },
+            {
+                "s2_author_id": "1763268",
+                "name": "W. Harrison"
+            },
+            {
+                "s2_author_id": "30173150",
+                "name": "I. Graves"
+            },
+            {
+                "s2_author_id": "1759648",
+                "name": "G. Allwein"
+            },
+            {
+                "s2_author_id": "1816975",
+                "name": "R. Giorgi"
+            },
+            {
+                "s2_author_id": "37010107",
+                "name": "F. Palumbo"
+            },
+            {
+                "s2_author_id": "30406021",
+                "name": "Sruthikesh Surineni"
+            },
+            {
+                "s2_author_id": "2110493082",
+                "name": "Huyen Nguyen"
+            },
+            {
+                "s2_author_id": "39619280",
+                "name": "Huan Truong"
+            },
+            {
+                "s2_author_id": "20492051",
+                "name": "J. Deters"
+            },
+            {
+                "s2_author_id": "2117316653",
+                "name": "John Long"
+            },
+            {
+                "s2_author_id": "2298363",
+                "name": "G. Conant"
+            },
+            {
+                "s2_author_id": "2109059330",
+                "name": "Xinbo Chen"
+            },
+            {
+                "s2_author_id": "36491005",
+                "name": "Ziliang Zong"
+            },
+            {
+                "s2_author_id": "3079326",
+                "name": "Kittisak Sajjapongse"
+            },
+            {
+                "s2_author_id": "2061524369",
+                "name": "M. Butler"
+            },
+            {
+                "s2_author_id": "1402908984",
+                "name": "A. Bremler-Barr"
+            },
+            {
+                "s2_author_id": "150075972",
+                "name": "David Hay"
+            },
+            {
+                "s2_author_id": "1403986726",
+                "name": "Omer Kochba"
+            },
+            {
+                "s2_author_id": "1939997",
+                "name": "Yaron Koral"
+            },
+            {
+                "s2_author_id": "3239866",
+                "name": "Yuanwei Fang"
+            },
+            {
+                "s2_author_id": "1844581",
+                "name": "T. Hoang"
+            },
+            {
+                "s2_author_id": "1695232",
+                "name": "A. Chien"
+            },
+            {
+                "s2_author_id": "2261055",
+                "name": "Tejaswi Agarwal"
+            },
+            {
+                "s2_author_id": "2242565138",
+                "name": "Gavin Conant"
+            },
+            {
+                "s2_author_id": "145968937",
+                "name": "Bill Lin"
+            },
+            {
+                "s2_author_id": "1752242",
+                "name": "S. Chakradhar"
+            },
+            {
+                "s2_author_id": "145792285",
+                "name": "P. Crowley"
+            },
+            {
+                "s2_author_id": "48283504",
+                "name": "Xinming Chen"
+            },
+            {
+                "s2_author_id": "153802299",
+                "name": "Brandon Jones"
+            },
+            {
+                "s2_author_id": "1812733",
+                "name": "T. Wolf"
+            },
+            {
+                "s2_author_id": "2447516",
+                "name": "Vignesh T. Ravi"
+            },
+            {
+                "s2_author_id": "145340303",
+                "name": "G. Agrawal"
+            },
+            {
+                "s2_author_id": "3080400",
+                "name": "Abhinandan Majumdar"
+            },
+            {
+                "s2_author_id": "2468150",
+                "name": "S. Cadambi"
+            },
+            {
+                "s2_author_id": "1775043",
+                "name": "H. Graf"
+            },
+            {
+                "s2_author_id": "38724915",
+                "name": "Bin Pang"
+            },
+            {
+                "s2_author_id": "2055270403",
+                "name": "Nan Zhao"
+            },
+            {
+                "s2_author_id": "2816958",
+                "name": "Dmitry Korkin"
+            },
+            {
+                "s2_author_id": "144154559",
+                "name": "C. Shyu"
+            },
+            {
+                "s2_author_id": "30401303",
+                "name": "Wei Jiang"
+            },
+            {
+                "s2_author_id": "2852203",
+                "name": "Chris Hathhorn"
+            },
+            {
+                "s2_author_id": "13283467",
+                "name": "Charlie Wiseman"
+            },
+            {
+                "s2_author_id": "2285405288",
+                "name": "M. Franklin"
+            },
+            {
+                "s2_author_id": "145297952",
+                "name": "J. Turner"
+            },
+            {
+                "s2_author_id": "3107685",
+                "name": "J. DeHart"
+            },
+            {
+                "s2_author_id": "2116831",
+                "name": "Mart Haitjema"
+            },
+            {
+                "s2_author_id": "145134944",
+                "name": "S. James"
+            },
+            {
+                "s2_author_id": "2334172",
+                "name": "F. Kuhns"
+            },
+            {
+                "s2_author_id": "145951222",
+                "name": "Jing Lu"
+            },
+            {
+                "s2_author_id": "2259403",
+                "name": "Jyoti Parwatikar"
+            },
+            {
+                "s2_author_id": "3191975",
+                "name": "R. Patney"
+            },
+            {
+                "s2_author_id": "2148458357",
+                "name": "Michael Wilson"
+            },
+            {
+                "s2_author_id": "3313650",
+                "name": "Kenneth F. Wong"
+            },
+            {
+                "s2_author_id": "2182328",
+                "name": "D. Zar"
+            },
+            {
+                "s2_author_id": "46574595",
+                "name": "S. Sushanth Kumar"
+            }
+        ],
+        "total_co_authors": 110,
+        "papers_retrieved": 89
+    }
+}

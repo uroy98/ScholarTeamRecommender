@@ -1,0 +1,1017 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000490190",
+        "name": "Raffaele Ferrari",
+        "primary_affiliation": "Massachusetts Institute of Technology",
+        "primary_department": null,
+        "all_affiliations": [
+            "Massachusetts Institute of Technology"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "MA"
+        ],
+        "perf_cities": [
+            "CAMBRIDGE"
+        ],
+        "org_names": [
+            "Massachusetts Institute of Technology"
+        ],
+        "org_ueis": [
+            "E2NYLCDML6V1"
+        ],
+        "inst_types": [
+            "nonprofit"
+        ],
+        "emails": [
+            "rferrari@mit.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2530747",
+                "title": "Collaborative Research: CAIG: Unraveling Aerosol-Cloud Interactions and Sea Ice Thermodynamics with AI and Ensemble Kalman Diffusion Guidance",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-10-01",
+                "exp_date": "2028-09-30",
+                "award_amount": 325000.0,
+                "total_amount": 325000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "GEO CI - GEO Cyberinfrastrctre"
+                ],
+                "program_codes": [
+                    "243Y00"
+                ],
+                "program_references": [
+                    "Artificial Intelligence (AI)"
+                ],
+                "program_ref_codes": [
+                    "075Z"
+                ],
+                "dir_abbr": "GEO",
+                "div_abbr": "RISE",
+                "nsf_directorate": null,
+                "fund_division": "Integrative and Collaborative Education and Research (ICER)",
+                "cfda_num": "47.050",
+                "po_name": "Eric DeWeaver",
+                "keywords": [
+                    "arctic",
+                    "aerosol",
+                    "cloud",
+                    "thermodynamics",
+                    "intelligence",
+                    "simulations",
+                    "improved",
+                    "parameterizations",
+                    "interactions",
+                    "ensemble"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "GEO CI - GEO Cyberinfrastrctre"
+        ],
+        "program_codes": [
+            "243Y00"
+        ],
+        "program_references": [
+            "Artificial Intelligence (AI)"
+        ],
+        "program_ref_codes": [
+            "075Z"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "GEO"
+        ],
+        "div_abbrs": [
+            "RISE"
+        ],
+        "fund_divisions": [
+            "Integrative and Collaborative Education and Research (ICER)"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.050"
+        ],
+        "program_officers": [
+            "Eric DeWeaver"
+        ],
+        "keywords": [
+            "arctic",
+            "aerosol",
+            "cloud",
+            "thermodynamics",
+            "intelligence",
+            "simulations",
+            "improved",
+            "parameterizations",
+            "interactions",
+            "ensemble",
+            "kalman",
+            "diffusion",
+            "guidance",
+            "capabilities",
+            "earth",
+            "driven",
+            "artificial",
+            "effect",
+            "aerosols",
+            "melt"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.38
+    },
+    "s2_profile": {
+        "s2_author_id": "2239201860",
+        "name": "Raffaele Ferrari",
+        "affiliations": [],
+        "paper_count": 11,
+        "citation_count": 79,
+        "h_index": 5,
+        "papers": [
+            {
+                "s2_paper_id": "9b9f65b9cd842694b8a64d33d7cf90bf50ac7b62",
+                "title": "NORi: An ML-Augmented Ocean Boundary Layer Parameterization",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 74,
+                "abstract": "NORi is a machine-learned (ML) parameterization of ocean boundary layer turbulence that is physics-based and augmented with neural networks. NORi stands for neural ordinary differential equations (NODEs) Richardson number (Ri) closure. The physical parameterization is controlled by a Richardson number-dependent diffusivity and viscosity. The NODEs are trained to capture the entrainment through the base of the boundary layer, which cannot be represented with a local diffusive closure. The parameterization is trained using large-eddy simulations in an\"a posteriori\"fashion, where parameters are calibrated with a loss function that explicitly depends on the actual time-integrated variables of interest rather than the instantaneous subgrid fluxes, which are inherently noisy. NORi is designed for the realistic nonlinear equation of state of seawater and demonstrates excellent prediction and generalization capabilities in capturing entrainment dynamics under different convective strengths, oceanic background stratifications, rotation strengths, and surface wind forcings. NORi is numerically stable for at least 100 years of integration time in large-scale simulations, despite only being trained on 2-day horizons, and can be run with time steps as long as one hour. The highly expressive neural networks, combined with a physically-rigorous base closure, prove to be a robust paradigm for designing parameterizations for climate models where data requirements are drastically reduced, inference performance can be directly targeted and optimized, and numerical stability is implicitly encouraged during training.",
+                "authors": [
+                    {
+                        "s2_author_id": "2346322649",
+                        "name": "Xin Kai Lee"
+                    },
+                    {
+                        "s2_author_id": "2261046686",
+                        "name": "Ali Ramadhan"
+                    },
+                    {
+                        "s2_author_id": "2239880670",
+                        "name": "Andre Souza"
+                    },
+                    {
+                        "s2_author_id": "2239202442",
+                        "name": "Gregory L. Wagner"
+                    },
+                    {
+                        "s2_author_id": "2255673925",
+                        "name": "Simone Silvestri"
+                    },
+                    {
+                        "s2_author_id": "2239201407",
+                        "name": "John Marshall"
+                    },
+                    {
+                        "s2_author_id": "2239201860",
+                        "name": "Raffaele Ferrari"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bde84231182d6c1e39c067aa2e12a5da3247232a",
+                "title": "A GPU\u2010Based Ocean Dynamical Core for Routine Mesoscale\u2010Resolving Climate Simulations",
+                "year": 2025,
+                "venue": "Journal of Advances in Modeling Earth Systems",
+                "citation_count": 20,
+                "reference_count": 71,
+                "abstract": "We describe an ocean hydrostatic dynamical core implemented in Oceananigans optimized for Graphical Processing Unit (GPU) architectures. On 64 A100 GPUs, equivalent to 16 computational nodes in current state\u2010of\u2010the\u2010art supercomputers, our dynamical core can simulate a decade of near\u2010global ocean dynamics per wall\u2010clock day at an 8\u2010km horizontal resolution; a resolution adequate to resolve the ocean's mesoscale eddy field. Such efficiency, achieved with relatively modest hardware resources, suggests that climate simulations on GPUs can incorporate fully eddy\u2010resolving ocean models. This removes a major source of systematic bias in current IPCC coupled model projections, the parameterization of ocean eddies, and represents a major advance in climate modeling. We discuss the computational strategies, focusing on GPU\u2010specific optimization and numerical implementation details that enable such high performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "2255673925",
+                        "name": "Simone Silvestri"
+                    },
+                    {
+                        "s2_author_id": "2239202442",
+                        "name": "Gregory L. Wagner"
+                    },
+                    {
+                        "s2_author_id": "2239201402",
+                        "name": "Navid C. Constantinou"
+                    },
+                    {
+                        "s2_author_id": "2239202240",
+                        "name": "Christopher N. Hill"
+                    },
+                    {
+                        "s2_author_id": "97520133",
+                        "name": "J. Campin"
+                    },
+                    {
+                        "s2_author_id": "2299762900",
+                        "name": "Andre N. Souza"
+                    },
+                    {
+                        "s2_author_id": "38963236",
+                        "name": "S. Bishnu"
+                    },
+                    {
+                        "s2_author_id": "2325957503",
+                        "name": "Valentin Churavy"
+                    },
+                    {
+                        "s2_author_id": "2239201407",
+                        "name": "John Marshall"
+                    },
+                    {
+                        "s2_author_id": "2239201860",
+                        "name": "Raffaele Ferrari"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea372d1b308989537ce4ca80784a1f15f7b767fb",
+                "title": "High-level, high-resolution ocean modeling at all scales with Oceananigans",
+                "year": 2025,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 79,
+                "abstract": "We describe the user interface, governing equations, and numerical methods underpinning the community ocean modeling software called\"Oceananigans\". Oceananigans development has been lead by the Climate Modeling Alliance to build a trainable climate model with quantifiable uncertainty. Oceananigans is written in the Julia programming language, which, like similar recent efforts based on modern programming languages, distinguishes it from usual software based on Fortran. Oceananigans can efficiently simulate all scales of ocean motion, ranging from millimeter-scale turbulence in a small box to planetary-scale ocean circulation. Oceananigans design combines (i) a basic structured finite volume algorithm (ii) optimized for high-resolution simulations on GPUs which is (iii) exposed behind a high-level, programmable user interface. This design negotiates a dual mandate for highest-possible performance (to support state-of-the-art applications) and enhanced accessibility (to facilitate adoption and development). The dual mandate aims ultimately to accelerate the progress of Earth system science. Achieving this aim, however, requires a substantial and sustained increase in the collective effort of Oceananigans development.",
+                "authors": [
+                    {
+                        "s2_author_id": "2239202442",
+                        "name": "Gregory L. Wagner"
+                    },
+                    {
+                        "s2_author_id": "2255673925",
+                        "name": "Simone Silvestri"
+                    },
+                    {
+                        "s2_author_id": "2239201402",
+                        "name": "Navid C. Constantinou"
+                    },
+                    {
+                        "s2_author_id": "2261046686",
+                        "name": "Ali Ramadhan"
+                    },
+                    {
+                        "s2_author_id": "97520133",
+                        "name": "J. Campin"
+                    },
+                    {
+                        "s2_author_id": "2239202240",
+                        "name": "Christopher N. Hill"
+                    },
+                    {
+                        "s2_author_id": "2346322640",
+                        "name": "Tomas Chor"
+                    },
+                    {
+                        "s2_author_id": "2346318260",
+                        "name": "Jago Strong-Wright"
+                    },
+                    {
+                        "s2_author_id": "2346322649",
+                        "name": "Xin Kai Lee"
+                    },
+                    {
+                        "s2_author_id": "2346323703",
+                        "name": "Francis Poulin"
+                    },
+                    {
+                        "s2_author_id": "2239880670",
+                        "name": "Andre Souza"
+                    },
+                    {
+                        "s2_author_id": "2333400058",
+                        "name": "Keaton J. Burns"
+                    },
+                    {
+                        "s2_author_id": "38963236",
+                        "name": "S. Bishnu"
+                    },
+                    {
+                        "s2_author_id": "2239201407",
+                        "name": "John Marshall"
+                    },
+                    {
+                        "s2_author_id": "2239201860",
+                        "name": "Raffaele Ferrari"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7ad5730104d99f060b5e3bc50c6ab3cdb58097f1",
+                "title": "Earth system reanalysis in support of climate model improvements",
+                "year": 2024,
+                "venue": "Bulletin of The American Meteorological Society - (BAMS)",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2288304443",
+                        "name": "D. Stammer"
+                    },
+                    {
+                        "s2_author_id": "103266565",
+                        "name": "D. Amrhein"
+                    },
+                    {
+                        "s2_author_id": "3616366",
+                        "name": "M. Balmaseda"
+                    },
+                    {
+                        "s2_author_id": "2263488584",
+                        "name": "Laurent Bertino"
+                    },
+                    {
+                        "s2_author_id": "41195965",
+                        "name": "M. Bonavita"
+                    },
+                    {
+                        "s2_author_id": "2243146794",
+                        "name": "Carlo Buontempo"
+                    },
+                    {
+                        "s2_author_id": "2282668231",
+                        "name": "N. Caltabiano"
+                    },
+                    {
+                        "s2_author_id": "2287014781",
+                        "name": "Fran\u00e7ois Counillon"
+                    },
+                    {
+                        "s2_author_id": "7353365",
+                        "name": "I. Fenty"
+                    },
+                    {
+                        "s2_author_id": "2239201860",
+                        "name": "Raffaele Ferrari"
+                    },
+                    {
+                        "s2_author_id": "2294640496",
+                        "name": "Yosuke Fujii"
+                    },
+                    {
+                        "s2_author_id": "2211006703",
+                        "name": "Shreyas Sunil Gaikwad"
+                    },
+                    {
+                        "s2_author_id": "2258450509",
+                        "name": "P. Gentine"
+                    },
+                    {
+                        "s2_author_id": "2261255044",
+                        "name": "A. Gettelman"
+                    },
+                    {
+                        "s2_author_id": "2355826624",
+                        "name": "Ganesh Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2269354801",
+                        "name": "Patrick Heimbach"
+                    },
+                    {
+                        "s2_author_id": "13392292",
+                        "name": "H. Hersbach"
+                    },
+                    {
+                        "s2_author_id": "2239202240",
+                        "name": "Christopher N. Hill"
+                    },
+                    {
+                        "s2_author_id": "2264815706",
+                        "name": "Shinya Kobayashi"
+                    },
+                    {
+                        "s2_author_id": "2261595529",
+                        "name": "Armin K\u00f6hl"
+                    },
+                    {
+                        "s2_author_id": "2261601546",
+                        "name": "P. J. Kushner"
+                    },
+                    {
+                        "s2_author_id": "22200413",
+                        "name": "M. Mazloff"
+                    },
+                    {
+                        "s2_author_id": "2306100200",
+                        "name": "Hisashi Nakamura"
+                    },
+                    {
+                        "s2_author_id": "2301634154",
+                        "name": "Stephen G. Penny"
+                    },
+                    {
+                        "s2_author_id": "2101507",
+                        "name": "L. Slivinski"
+                    },
+                    {
+                        "s2_author_id": "2304200766",
+                        "name": "S. Tegtmeier"
+                    },
+                    {
+                        "s2_author_id": "2262652454",
+                        "name": "Laure Zanna"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "73bf865cbfa452406d8d566cd5a1c09e109dc788",
+                "title": "Oceananigans.jl: A Julia library that achieves breakthrough resolution, memory and energy efficiency in global ocean simulations",
+                "year": 2023,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 49,
+                "abstract": "Climate models must simulate hundreds of future scenarios for hundreds of years at coarse resolutions, and a handful of high-resolution decadal simulations to resolve localized extreme events. Using Oceananigans.jl, written from scratch in Julia, we report several achievements: First, a global ocean simulation with breakthrough horizontal resolution -- 488m -- reaching 15 simulated days per day (0.04 simulated years per day; SYPD). Second, Oceananigans simulates the global ocean at 488m with breakthrough memory efficiency on just 768 Nvidia A100 GPUs, a fraction of the resources available on current and upcoming exascale supercomputers. Third, and arguably most significant for climate modeling, Oceananigans achieves breakthrough energy efficiency reaching 0.95 SYPD at 1.7 km on 576 A100s and 9.9 SYPD at 10 km on 68 A100s -- the latter representing the highest horizontal resolutions employed by current IPCC-class ocean models. Routine climate simulations with 10 km ocean components are within reach.",
+                "authors": [
+                    {
+                        "s2_author_id": "2255673925",
+                        "name": "Simone Silvestri"
+                    },
+                    {
+                        "s2_author_id": "2239202442",
+                        "name": "Gregory L. Wagner"
+                    },
+                    {
+                        "s2_author_id": "2239202240",
+                        "name": "Christopher N. Hill"
+                    },
+                    {
+                        "s2_author_id": "2151198459",
+                        "name": "Matin Raayai Ardakani"
+                    },
+                    {
+                        "s2_author_id": "2239200500",
+                        "name": "Johannes Blaschke"
+                    },
+                    {
+                        "s2_author_id": "97520133",
+                        "name": "J. Campin"
+                    },
+                    {
+                        "s2_author_id": "2325957503",
+                        "name": "Valentin Churavy"
+                    },
+                    {
+                        "s2_author_id": "2239201402",
+                        "name": "Navid C. Constantinou"
+                    },
+                    {
+                        "s2_author_id": "2239201146",
+                        "name": "Alan Edelman"
+                    },
+                    {
+                        "s2_author_id": "2239201407",
+                        "name": "John Marshall"
+                    },
+                    {
+                        "s2_author_id": "2261046686",
+                        "name": "Ali Ramadhan"
+                    },
+                    {
+                        "s2_author_id": "2239880670",
+                        "name": "Andre Souza"
+                    },
+                    {
+                        "s2_author_id": "2239201860",
+                        "name": "Raffaele Ferrari"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "93fd338fd3d08a5008f9f0dd9e569113c4fb4674",
+                "title": "Oceananigans.jl: A model that achieves breakthrough resolution, memory and energy efficiency in global ocean simulations",
+                "year": 2023,
+                "venue": "arXiv.org",
+                "citation_count": 2,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2255673925",
+                        "name": "Simone Silvestri"
+                    },
+                    {
+                        "s2_author_id": "2239202442",
+                        "name": "Gregory L. Wagner"
+                    },
+                    {
+                        "s2_author_id": "2239202240",
+                        "name": "Christopher N. Hill"
+                    },
+                    {
+                        "s2_author_id": "2151198459",
+                        "name": "Matin Raayai Ardakani"
+                    },
+                    {
+                        "s2_author_id": "2239200500",
+                        "name": "Johannes Blaschke"
+                    },
+                    {
+                        "s2_author_id": "97520133",
+                        "name": "J. Campin"
+                    },
+                    {
+                        "s2_author_id": "3436688",
+                        "name": "Valentin Churavy"
+                    },
+                    {
+                        "s2_author_id": "2239201402",
+                        "name": "Navid C. Constantinou"
+                    },
+                    {
+                        "s2_author_id": "2239201146",
+                        "name": "Alan Edelman"
+                    },
+                    {
+                        "s2_author_id": "2239201407",
+                        "name": "John Marshall"
+                    },
+                    {
+                        "s2_author_id": "2261046686",
+                        "name": "Ali Ramadhan"
+                    },
+                    {
+                        "s2_author_id": "2239880670",
+                        "name": "Andre Souza"
+                    },
+                    {
+                        "s2_author_id": "2239201860",
+                        "name": "Raffaele Ferrari"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8678b8044bb9a79acdbcae94ad984ae2d3600e26",
+                "title": "Circulation and Stirring in the Southeast Pacific Ocean and the Scotia Sea Sectors of the Antarctic Circumpolar Currenta",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 23,
+                "reference_count": 59,
+                "abstract": "AbstractThe large-scale middepth circulation and eddy diffusivities in the southeast Pacific Ocean and Scotia Sea sectors between 110\u00b0 and 45\u00b0W of the Antarctic Circumpolar Current (ACC) are described based on a subsurface quasi-isobaric RAFOS-float-based Lagrangian dataset. These RAFOS float data were collected during the Diapycnal and Isopycnal Mixing Experiment in the Southern Ocean (DIMES). The mean flow, adjusted to a common 1400-m depth, shows the presence of jets in the time-averaged sense with speeds of 6 cm s\u22121 in the southeast Pacific Ocean and upward of 13 cm s\u22121 in the Scotia Sea. These jets appear to be locked to topography in the Scotia Sea but, aside from negotiating a seamount chain, are mostly free of local topographic constraints in the southeast Pacific Ocean. The eddy kinetic energy (EKE) is higher than the mean kinetic energy everywhere in the sampled domain by about 50%. The magnitude of the EKE increases drastically (by a factor of 2 or more) as the current crosses over the Hero and...",
+                "authors": [
+                    {
+                        "s2_author_id": "3303376",
+                        "name": "D. Balwada"
+                    },
+                    {
+                        "s2_author_id": "2249181689",
+                        "name": "K. Speer"
+                    },
+                    {
+                        "s2_author_id": "91663178",
+                        "name": "J. LaCasce"
+                    },
+                    {
+                        "s2_author_id": "2249975366",
+                        "name": "W. B. Owens"
+                    },
+                    {
+                        "s2_author_id": "2277136503",
+                        "name": "John Marshall"
+                    },
+                    {
+                        "s2_author_id": "2239201860",
+                        "name": "Raffaele Ferrari"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "01bae8efe30a9ad632d03f6aa86eb37faf5dbe1a",
+                "title": "Direct Estimate of Lateral Eddy Diffusivity Upstream of the Drake Passage",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2276996210",
+                        "name": "Rosstulloch"
+                    },
+                    {
+                        "s2_author_id": "2239201860",
+                        "name": "Raffaele Ferrari"
+                    },
+                    {
+                        "s2_author_id": "2276996049",
+                        "name": "Oliver Jahn"
+                    },
+                    {
+                        "s2_author_id": "7290061",
+                        "name": "A. Klocker"
+                    },
+                    {
+                        "s2_author_id": "5590100",
+                        "name": "J. Ledwell"
+                    },
+                    {
+                        "s2_author_id": "2277136503",
+                        "name": "John Marshall"
+                    },
+                    {
+                        "s2_author_id": "2276996690",
+                        "name": "Kevin Speer"
+                    },
+                    {
+                        "s2_author_id": "2253568804",
+                        "name": "A. Watson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "19e091c0b89cf146e79c3ed13d467ee0f7df73a3",
+                "title": "Reconciling \ufb02oat-based and tracer-based estimates of lateral diffusivities",
+                "year": null,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7290061",
+                        "name": "A. Klocker"
+                    },
+                    {
+                        "s2_author_id": "2239201860",
+                        "name": "Raffaele Ferrari"
+                    },
+                    {
+                        "s2_author_id": "91663178",
+                        "name": "J. LaCasce"
+                    },
+                    {
+                        "s2_author_id": "2289147250",
+                        "name": "Sophia T. Merri\ufb01eld"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2dcf78a882c57b491deffaa04f169dcdea846538",
+                "title": "High-level, high-resolution ocean modeling at all scales 1 with Oceananigans 2",
+                "year": null,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 130,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2239202442",
+                        "name": "Gregory L. Wagner"
+                    },
+                    {
+                        "s2_author_id": "2255673925",
+                        "name": "Simone Silvestri"
+                    },
+                    {
+                        "s2_author_id": "2239201402",
+                        "name": "Navid C. Constantinou"
+                    },
+                    {
+                        "s2_author_id": "2261046686",
+                        "name": "Ali Ramadhan"
+                    },
+                    {
+                        "s2_author_id": "97520133",
+                        "name": "J. Campin"
+                    },
+                    {
+                        "s2_author_id": "2239202240",
+                        "name": "Christopher N. Hill"
+                    },
+                    {
+                        "s2_author_id": "2346322640",
+                        "name": "Tomas Chor"
+                    },
+                    {
+                        "s2_author_id": "2346318260",
+                        "name": "Jago Strong-Wright"
+                    },
+                    {
+                        "s2_author_id": "2346322649",
+                        "name": "Xin Kai Lee"
+                    },
+                    {
+                        "s2_author_id": "2346323703",
+                        "name": "Francis Poulin"
+                    },
+                    {
+                        "s2_author_id": "2239880670",
+                        "name": "Andre Souza"
+                    },
+                    {
+                        "s2_author_id": "2333400058",
+                        "name": "Keaton J. Burns"
+                    },
+                    {
+                        "s2_author_id": "2239201407",
+                        "name": "John Marshall"
+                    },
+                    {
+                        "s2_author_id": "2239201860",
+                        "name": "Raffaele Ferrari"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a6fa778d0e2badac831944972295846c43fec40d",
+                "title": "CATKE: a turbulent-kinetic-energy-based 1 parameterization for ocean microturbulence with 2 dynamic convective adjustment",
+                "year": null,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 55,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2239202442",
+                        "name": "Gregory L. Wagner"
+                    },
+                    {
+                        "s2_author_id": "2000394285",
+                        "name": "Adeline Hillier"
+                    },
+                    {
+                        "s2_author_id": "2239201402",
+                        "name": "Navid C. Constantinou"
+                    },
+                    {
+                        "s2_author_id": "2255673925",
+                        "name": "Simone Silvestri"
+                    },
+                    {
+                        "s2_author_id": "2239880670",
+                        "name": "Andre Souza"
+                    },
+                    {
+                        "s2_author_id": "2333400058",
+                        "name": "Keaton J. Burns"
+                    },
+                    {
+                        "s2_author_id": "2261046686",
+                        "name": "Ali Ramadhan"
+                    },
+                    {
+                        "s2_author_id": "2239202240",
+                        "name": "Christopher N. Hill"
+                    },
+                    {
+                        "s2_author_id": "97520133",
+                        "name": "J. Campin"
+                    },
+                    {
+                        "s2_author_id": "2239201407",
+                        "name": "John Marshall"
+                    },
+                    {
+                        "s2_author_id": "2239201860",
+                        "name": "Raffaele Ferrari"
+                    },
+                    {
+                        "s2_author_id": "2239202442",
+                        "name": "Gregory L. Wagner"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2346322649",
+                "name": "Xin Kai Lee"
+            },
+            {
+                "s2_author_id": "2261046686",
+                "name": "Ali Ramadhan"
+            },
+            {
+                "s2_author_id": "2239880670",
+                "name": "Andre Souza"
+            },
+            {
+                "s2_author_id": "2239202442",
+                "name": "Gregory L. Wagner"
+            },
+            {
+                "s2_author_id": "2255673925",
+                "name": "Simone Silvestri"
+            },
+            {
+                "s2_author_id": "2239201407",
+                "name": "John Marshall"
+            },
+            {
+                "s2_author_id": "2239201402",
+                "name": "Navid C. Constantinou"
+            },
+            {
+                "s2_author_id": "2239202240",
+                "name": "Christopher N. Hill"
+            },
+            {
+                "s2_author_id": "97520133",
+                "name": "J. Campin"
+            },
+            {
+                "s2_author_id": "2299762900",
+                "name": "Andre N. Souza"
+            },
+            {
+                "s2_author_id": "38963236",
+                "name": "S. Bishnu"
+            },
+            {
+                "s2_author_id": "2325957503",
+                "name": "Valentin Churavy"
+            },
+            {
+                "s2_author_id": "2346322640",
+                "name": "Tomas Chor"
+            },
+            {
+                "s2_author_id": "2346318260",
+                "name": "Jago Strong-Wright"
+            },
+            {
+                "s2_author_id": "2346323703",
+                "name": "Francis Poulin"
+            },
+            {
+                "s2_author_id": "2333400058",
+                "name": "Keaton J. Burns"
+            },
+            {
+                "s2_author_id": "2288304443",
+                "name": "D. Stammer"
+            },
+            {
+                "s2_author_id": "103266565",
+                "name": "D. Amrhein"
+            },
+            {
+                "s2_author_id": "3616366",
+                "name": "M. Balmaseda"
+            },
+            {
+                "s2_author_id": "2263488584",
+                "name": "Laurent Bertino"
+            },
+            {
+                "s2_author_id": "41195965",
+                "name": "M. Bonavita"
+            },
+            {
+                "s2_author_id": "2243146794",
+                "name": "Carlo Buontempo"
+            },
+            {
+                "s2_author_id": "2282668231",
+                "name": "N. Caltabiano"
+            },
+            {
+                "s2_author_id": "2287014781",
+                "name": "Fran\u00e7ois Counillon"
+            },
+            {
+                "s2_author_id": "7353365",
+                "name": "I. Fenty"
+            },
+            {
+                "s2_author_id": "2294640496",
+                "name": "Yosuke Fujii"
+            },
+            {
+                "s2_author_id": "2211006703",
+                "name": "Shreyas Sunil Gaikwad"
+            },
+            {
+                "s2_author_id": "2258450509",
+                "name": "P. Gentine"
+            },
+            {
+                "s2_author_id": "2261255044",
+                "name": "A. Gettelman"
+            },
+            {
+                "s2_author_id": "2355826624",
+                "name": "Ganesh Gopalakrishnan"
+            },
+            {
+                "s2_author_id": "2269354801",
+                "name": "Patrick Heimbach"
+            },
+            {
+                "s2_author_id": "13392292",
+                "name": "H. Hersbach"
+            },
+            {
+                "s2_author_id": "2264815706",
+                "name": "Shinya Kobayashi"
+            },
+            {
+                "s2_author_id": "2261595529",
+                "name": "Armin K\u00f6hl"
+            },
+            {
+                "s2_author_id": "2261601546",
+                "name": "P. J. Kushner"
+            },
+            {
+                "s2_author_id": "22200413",
+                "name": "M. Mazloff"
+            },
+            {
+                "s2_author_id": "2306100200",
+                "name": "Hisashi Nakamura"
+            },
+            {
+                "s2_author_id": "2301634154",
+                "name": "Stephen G. Penny"
+            },
+            {
+                "s2_author_id": "2101507",
+                "name": "L. Slivinski"
+            },
+            {
+                "s2_author_id": "2304200766",
+                "name": "S. Tegtmeier"
+            },
+            {
+                "s2_author_id": "2262652454",
+                "name": "Laure Zanna"
+            },
+            {
+                "s2_author_id": "2151198459",
+                "name": "Matin Raayai Ardakani"
+            },
+            {
+                "s2_author_id": "2239200500",
+                "name": "Johannes Blaschke"
+            },
+            {
+                "s2_author_id": "2239201146",
+                "name": "Alan Edelman"
+            },
+            {
+                "s2_author_id": "3436688",
+                "name": "Valentin Churavy"
+            },
+            {
+                "s2_author_id": "3303376",
+                "name": "D. Balwada"
+            },
+            {
+                "s2_author_id": "2249181689",
+                "name": "K. Speer"
+            },
+            {
+                "s2_author_id": "91663178",
+                "name": "J. LaCasce"
+            },
+            {
+                "s2_author_id": "2249975366",
+                "name": "W. B. Owens"
+            },
+            {
+                "s2_author_id": "2277136503",
+                "name": "John Marshall"
+            },
+            {
+                "s2_author_id": "2276996210",
+                "name": "Rosstulloch"
+            },
+            {
+                "s2_author_id": "2276996049",
+                "name": "Oliver Jahn"
+            },
+            {
+                "s2_author_id": "7290061",
+                "name": "A. Klocker"
+            },
+            {
+                "s2_author_id": "5590100",
+                "name": "J. Ledwell"
+            },
+            {
+                "s2_author_id": "2276996690",
+                "name": "Kevin Speer"
+            },
+            {
+                "s2_author_id": "2253568804",
+                "name": "A. Watson"
+            },
+            {
+                "s2_author_id": "2289147250",
+                "name": "Sophia T. Merri\ufb01eld"
+            },
+            {
+                "s2_author_id": "2000394285",
+                "name": "Adeline Hillier"
+            }
+        ],
+        "total_co_authors": 58,
+        "papers_retrieved": 11
+    }
+}

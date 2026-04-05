@@ -1,0 +1,523 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000436202",
+        "name": "Deming Chen",
+        "primary_affiliation": "University of Illinois at Urbana-Champaign",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Illinois at Urbana-Champaign"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "IL"
+        ],
+        "perf_cities": [
+            "URBANA"
+        ],
+        "org_names": [
+            "University of Illinois at Urbana-Champaign"
+        ],
+        "org_ueis": [
+            "Y8CWNJRCNN91"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "dchen@uiuc.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2535902",
+                "title": "Conference: NSF Workshop on AI + HW 2035: Shaping the Next Decade",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-09-15",
+                "exp_date": "2026-08-31",
+                "award_amount": 100000.0,
+                "total_amount": 100000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "Software & Hardware Foundation",
+                    "NAIRR-Nat AI Research Resource"
+                ],
+                "program_codes": [
+                    "779800",
+                    "296Y00"
+                ],
+                "program_references": [
+                    "CONFERENCE AND WORKSHOPS",
+                    "DES AUTO FOR MICRO & NANO SYST"
+                ],
+                "program_ref_codes": [
+                    "7556",
+                    "7945"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Sankar Basu",
+                "keywords": [
+                    "hardware",
+                    "workshop",
+                    "next",
+                    "decade",
+                    "computing",
+                    "cross",
+                    "conference",
+                    "shaping",
+                    "artificial",
+                    "intelligence"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "Software & Hardware Foundation",
+            "NAIRR-Nat AI Research Resource"
+        ],
+        "program_codes": [
+            "779800",
+            "296Y00"
+        ],
+        "program_references": [
+            "CONFERENCE AND WORKSHOPS",
+            "DES AUTO FOR MICRO & NANO SYST"
+        ],
+        "program_ref_codes": [
+            "7556",
+            "7945"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Sankar Basu"
+        ],
+        "keywords": [
+            "hardware",
+            "workshop",
+            "next",
+            "decade",
+            "computing",
+            "cross",
+            "conference",
+            "shaping",
+            "artificial",
+            "intelligence",
+            "advancement",
+            "challenges",
+            "energy",
+            "national",
+            "vision",
+            "help",
+            "disciplinary",
+            "generation",
+            "working",
+            "model"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.42
+    },
+    "s2_profile": {
+        "s2_author_id": "2157902688",
+        "name": "Deming Chen",
+        "affiliations": [],
+        "paper_count": 5,
+        "citation_count": 669,
+        "h_index": 3,
+        "papers": [
+            {
+                "s2_paper_id": "57e7af0b69325fafb371ef5d502e39ef9c90ef7e",
+                "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+                "year": 2024,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 554,
+                "reference_count": 51,
+                "abstract": "Large Language Models (LLMs) employ auto-regressive decoding that requires sequential computation, with each step reliant on the previous one's output. This creates a bottleneck as each step necessitates moving the full model parameters from High-Bandwidth Memory (HBM) to the accelerator's cache. While methods such as speculative decoding have been suggested to address this issue, their implementation is impeded by the challenges associated with acquiring and maintaining a separate draft model. In this paper, we present Medusa, an efficient method that augments LLM inference by adding extra decoding heads to predict multiple subsequent tokens in parallel. Using a tree-based attention mechanism, Medusa constructs multiple candidate continuations and verifies them simultaneously in each decoding step. By leveraging parallel processing, Medusa substantially reduces the number of decoding steps required. We present two levels of fine-tuning procedures for Medusa to meet the needs of different use cases: Medusa-1: Medusa is directly fine-tuned on top of a frozen backbone LLM, enabling lossless inference acceleration. Medusa-2: Medusa is fine-tuned together with the backbone LLM, enabling better prediction accuracy of Medusa heads and higher speedup but needing a special training recipe that preserves the backbone model's capabilities. Moreover, we propose several extensions that improve or expand the utility of Medusa, including a self-distillation to handle situations where no training data is available and a typical acceptance scheme to boost the acceptance rate while maintaining generation quality. We evaluate Medusa on models of various sizes and training procedures. Our experiments demonstrate that Medusa-1 can achieve over 2.2x speedup without compromising generation quality, while Medusa-2 further improves the speedup to 2.3-3.6x.",
+                "authors": [
+                    {
+                        "s2_author_id": "2280065752",
+                        "name": "Tianle Cai"
+                    },
+                    {
+                        "s2_author_id": "2118293093",
+                        "name": "Yuhong Li"
+                    },
+                    {
+                        "s2_author_id": "2327866541",
+                        "name": "Zhengyang Geng"
+                    },
+                    {
+                        "s2_author_id": "2280098966",
+                        "name": "Hongwu Peng"
+                    },
+                    {
+                        "s2_author_id": "2266491429",
+                        "name": "Jason D. Lee"
+                    },
+                    {
+                        "s2_author_id": "2157902688",
+                        "name": "De-huai Chen"
+                    },
+                    {
+                        "s2_author_id": "2280290462",
+                        "name": "Tri Dao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "240300b1da360f22bf0b82c6817eacebba6deed4",
+                "title": "What Makes Convolutional Models Great on Long Sequence Modeling?",
+                "year": 2022,
+                "venue": "International Conference on Learning Representations",
+                "citation_count": 114,
+                "reference_count": 53,
+                "abstract": "Convolutional models have been widely used in multiple domains. However, most existing models only use local convolution, making the model unable to handle long-range dependency efficiently. Attention overcomes this problem by aggregating global information but also makes the computational complexity quadratic to the sequence length. Recently, Gu et al. [2021] proposed a model called S4 inspired by the state space model. S4 can be efficiently implemented as a global convolutional model whose kernel size equals the input sequence length. S4 can model much longer sequences than Transformers and achieve significant gains over SoTA on several long-range tasks. Despite its empirical success, S4 is involved. It requires sophisticated parameterization and initialization schemes. As a result, S4 is less intuitive and hard to use. Here we aim to demystify S4 and extract basic principles that contribute to the success of S4 as a global convolutional model. We focus on the structure of the convolution kernel and identify two critical but intuitive principles enjoyed by S4 that are sufficient to make up an effective global convolutional model: 1) The parameterization of the convolutional kernel needs to be efficient in the sense that the number of parameters should scale sub-linearly with sequence length. 2) The kernel needs to satisfy a decaying structure that the weights for convolving with closer neighbors are larger than the more distant ones. Based on the two principles, we propose a simple yet effective convolutional model called Structured Global Convolution (SGConv). SGConv exhibits strong empirical performance over several tasks: 1) With faster speed, SGConv surpasses S4 on Long Range Arena and Speech Command datasets. 2) When plugging SGConv into standard language and vision models, it shows the potential to improve both efficiency and performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "2118293093",
+                        "name": "Yuhong Li"
+                    },
+                    {
+                        "s2_author_id": "123970124",
+                        "name": "Tianle Cai"
+                    },
+                    {
+                        "s2_author_id": "2153910406",
+                        "name": "Yi Zhang"
+                    },
+                    {
+                        "s2_author_id": "2157902688",
+                        "name": "De-huai Chen"
+                    },
+                    {
+                        "s2_author_id": "1780951",
+                        "name": "Debadeepta Dey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b5a91dc5b9384071a124ee301c8cd6c060a4c83c",
+                "title": "Physics Community Needs, Tools, and Resources for Machine Learning",
+                "year": 2022,
+                "venue": "arXiv.org",
+                "citation_count": 4,
+                "reference_count": 161,
+                "abstract": "Machine learning (ML) is becoming an increasingly important component of cutting-edge physics research, but its computational requirements present significant challenges. In this white paper, we discuss the needs of the physics community regarding ML across latency and throughput regimes, the tools and resources that offer the possibility of addressing these needs, and how these can be best utilized and accessed in the coming years.",
+                "authors": [
+                    {
+                        "s2_author_id": "144326960",
+                        "name": "P. Harris"
+                    },
+                    {
+                        "s2_author_id": "145234605",
+                        "name": "E. Katsavounidis"
+                    },
+                    {
+                        "s2_author_id": "48448164",
+                        "name": "W. McCormack"
+                    },
+                    {
+                        "s2_author_id": "145881831",
+                        "name": "D. Rankin"
+                    },
+                    {
+                        "s2_author_id": "11722840",
+                        "name": "Yongbin Feng"
+                    },
+                    {
+                        "s2_author_id": "103205573",
+                        "name": "A. Gandrakota"
+                    },
+                    {
+                        "s2_author_id": "150057758",
+                        "name": "C. Herwig"
+                    },
+                    {
+                        "s2_author_id": "3039388",
+                        "name": "B. Holzman"
+                    },
+                    {
+                        "s2_author_id": "66575514",
+                        "name": "K. Pedro"
+                    },
+                    {
+                        "s2_author_id": "1389912827",
+                        "name": "Nhan Tran"
+                    },
+                    {
+                        "s2_author_id": "2160723658",
+                        "name": "Tingjun Yang"
+                    },
+                    {
+                        "s2_author_id": "41016473",
+                        "name": "J. Ngadiuba"
+                    },
+                    {
+                        "s2_author_id": "2160715933",
+                        "name": "Michael W. Coughlin"
+                    },
+                    {
+                        "s2_author_id": "1694228",
+                        "name": "S. Hauck"
+                    },
+                    {
+                        "s2_author_id": "2072776572",
+                        "name": "Shih-Chieh Hsu"
+                    },
+                    {
+                        "s2_author_id": "104208482",
+                        "name": "E. Khoda"
+                    },
+                    {
+                        "s2_author_id": "2157902688",
+                        "name": "De-huai Chen"
+                    },
+                    {
+                        "s2_author_id": "48339925",
+                        "name": "M. Neubauer"
+                    },
+                    {
+                        "s2_author_id": "1389378372",
+                        "name": "Javier Mauricio Duarte"
+                    },
+                    {
+                        "s2_author_id": "6753299",
+                        "name": "G. Karagiorgi"
+                    },
+                    {
+                        "s2_author_id": "47842372",
+                        "name": "Miaoyuan Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fbfdf3281a1e69c720056e85d24575e6c41a319e",
+                "title": "Extensible Proxy for Efficient NAS",
+                "year": 2022,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 66,
+                "abstract": "Neural Architecture Search (NAS) has become a de facto approach in the recent trend of AutoML to design deep neural networks (DNNs). Efficient or near-zero-cost NAS proxies are further proposed to address the demanding computational issues of NAS, where each candidate architecture network only requires one iteration of backpropagation. The values obtained from the proxies are considered the predictions of architecture performance on downstream tasks. However, two significant drawbacks hinder the extended usage of Efficient NAS proxies. (1) Efficient proxies are not adaptive to various search spaces. (2) Efficient proxies are not extensible to multi-modality downstream tasks. Based on the observations, we design a Extensible proxy (Eproxy) that utilizes self-supervised, few-shot training (i.e., 10 iterations of backpropagation) which yields near-zero costs. The key component that makes Eproxy efficient is an untrainable convolution layer termed barrier layer that add the non-linearities to the optimization spaces so that the Eproxy can discriminate the performance of architectures in the early stage. Furthermore, to make Eproxy adaptive to different downstream tasks/search spaces, we propose a Discrete Proxy Search (DPS) to find the optimized training settings for Eproxy with only handful of benchmarked architectures on the target tasks. Our extensive experiments confirm the effectiveness of both Eproxy and Eproxy+DPS. Code is available at https://github.com/leeyeehoo/GenNAS-Zero.",
+                "authors": [
+                    {
+                        "s2_author_id": "2118293093",
+                        "name": "Yuhong Li"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Jiajie Li"
+                    },
+                    {
+                        "s2_author_id": "2134178975",
+                        "name": "Cong Han"
+                    },
+                    {
+                        "s2_author_id": "50492506",
+                        "name": "P. Li"
+                    },
+                    {
+                        "s2_author_id": "145042856",
+                        "name": "Jinjun Xiong"
+                    },
+                    {
+                        "s2_author_id": "2157902688",
+                        "name": "De-huai Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cebdd7231334efa6622e4ce04a470fbf2ad0d7fe",
+                "title": "Long Sequence Biohashing Speech Authentication Based on Biometric Fusion and Modified Logistic Measurement Matrix",
+                "year": 2021,
+                "venue": "International Conference Civil Engineering and Architecture",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": "Based on the speech content authentication algorithm, the biometric of the speech are directly constructed hash and stored it in the cloud, which is easy to cause the leakage of the biometric. At the same time, the short hash sequence generated by the biometric will lead to the lack of authentication accuracy. Aiming at the security of speech biometrics and the discrimination of hash sequences in the process of authentication, this paper proposes a long sequence BioHashing speech authentication algorithm based on biometric fusion and modified logistic measurement matrix. Firstly, the pre-processed speech extracts GFCC biometric and calculates its Euclidean distance in frequency domain and TEOCC biometric is calculated in time domain, and time-frequency biometrics are fused. Then, the modified logistic measurement matrix Schmidt controlled by the key is orthogonalized to construct the orthogonal set matrix. Finally, the biosafety template is constructed by inner product of time-frequency fused biometrics and the orthogonal set matrix and a long sequence BioHashing is generated by the biosafety template of the binarization. In authentication, the Hamming distance is used to match BioHashing. The experimental results show that when the BioHashing length is 798bits, the long sequence can effectively improve the discrimination and effectively balance the robustness and discrimination of the algorithm. At the same time, measurement matrix controlled by the key can effectively reduce the risk of biometric leakage and improve the security of the biometric in the authentication process.",
+                "authors": [
+                    {
+                        "s2_author_id": "2135646045",
+                        "name": "Yuan Yuan-Zhang"
+                    },
+                    {
+                        "s2_author_id": "1470567668",
+                        "name": "Yi-bo Huang"
+                    },
+                    {
+                        "s2_author_id": "2157902688",
+                        "name": "De-huai Chen"
+                    },
+                    {
+                        "s2_author_id": "2168387",
+                        "name": "Qiu-yu Zhang"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2280065752",
+                "name": "Tianle Cai"
+            },
+            {
+                "s2_author_id": "2118293093",
+                "name": "Yuhong Li"
+            },
+            {
+                "s2_author_id": "2327866541",
+                "name": "Zhengyang Geng"
+            },
+            {
+                "s2_author_id": "2280098966",
+                "name": "Hongwu Peng"
+            },
+            {
+                "s2_author_id": "2266491429",
+                "name": "Jason D. Lee"
+            },
+            {
+                "s2_author_id": "2280290462",
+                "name": "Tri Dao"
+            },
+            {
+                "s2_author_id": "123970124",
+                "name": "Tianle Cai"
+            },
+            {
+                "s2_author_id": "2153910406",
+                "name": "Yi Zhang"
+            },
+            {
+                "s2_author_id": "1780951",
+                "name": "Debadeepta Dey"
+            },
+            {
+                "s2_author_id": "144326960",
+                "name": "P. Harris"
+            },
+            {
+                "s2_author_id": "145234605",
+                "name": "E. Katsavounidis"
+            },
+            {
+                "s2_author_id": "48448164",
+                "name": "W. McCormack"
+            },
+            {
+                "s2_author_id": "145881831",
+                "name": "D. Rankin"
+            },
+            {
+                "s2_author_id": "11722840",
+                "name": "Yongbin Feng"
+            },
+            {
+                "s2_author_id": "103205573",
+                "name": "A. Gandrakota"
+            },
+            {
+                "s2_author_id": "150057758",
+                "name": "C. Herwig"
+            },
+            {
+                "s2_author_id": "3039388",
+                "name": "B. Holzman"
+            },
+            {
+                "s2_author_id": "66575514",
+                "name": "K. Pedro"
+            },
+            {
+                "s2_author_id": "1389912827",
+                "name": "Nhan Tran"
+            },
+            {
+                "s2_author_id": "2160723658",
+                "name": "Tingjun Yang"
+            },
+            {
+                "s2_author_id": "41016473",
+                "name": "J. Ngadiuba"
+            },
+            {
+                "s2_author_id": "2160715933",
+                "name": "Michael W. Coughlin"
+            },
+            {
+                "s2_author_id": "1694228",
+                "name": "S. Hauck"
+            },
+            {
+                "s2_author_id": "2072776572",
+                "name": "Shih-Chieh Hsu"
+            },
+            {
+                "s2_author_id": "104208482",
+                "name": "E. Khoda"
+            },
+            {
+                "s2_author_id": "48339925",
+                "name": "M. Neubauer"
+            },
+            {
+                "s2_author_id": "1389378372",
+                "name": "Javier Mauricio Duarte"
+            },
+            {
+                "s2_author_id": "6753299",
+                "name": "G. Karagiorgi"
+            },
+            {
+                "s2_author_id": "47842372",
+                "name": "Miaoyuan Liu"
+            },
+            {
+                "s2_author_id": "2134178975",
+                "name": "Cong Han"
+            },
+            {
+                "s2_author_id": "50492506",
+                "name": "P. Li"
+            },
+            {
+                "s2_author_id": "145042856",
+                "name": "Jinjun Xiong"
+            },
+            {
+                "s2_author_id": "2135646045",
+                "name": "Yuan Yuan-Zhang"
+            },
+            {
+                "s2_author_id": "1470567668",
+                "name": "Yi-bo Huang"
+            },
+            {
+                "s2_author_id": "2168387",
+                "name": "Qiu-yu Zhang"
+            }
+        ],
+        "total_co_authors": 35,
+        "papers_retrieved": 5
+    }
+}

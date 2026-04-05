@@ -1,0 +1,1053 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000479285",
+        "name": "Edward A Lee",
+        "primary_affiliation": "Arizona State University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Arizona State University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "AZ"
+        ],
+        "perf_cities": [
+            "TEMPE"
+        ],
+        "org_names": [
+            "Arizona State University"
+        ],
+        "org_ueis": [
+            "NTLHJXM55KZ6"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "eal@berkeley.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2449200",
+                "title": "POSE: Phase II: An Open-Source Ecosystem to Coordinate Integration of Cyber-Physical Systems",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-09-01",
+                "exp_date": "2027-08-31",
+                "award_amount": 1500000.0,
+                "total_amount": 1500000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000946344"
+                ],
+                "program_elements": [
+                    "POSE"
+                ],
+                "program_codes": [
+                    "211Y00"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "TIP",
+                "div_abbr": "TI",
+                "nsf_directorate": null,
+                "fund_division": "Translational Impacts",
+                "cfda_num": "47.084",
+                "po_name": "Florence Rabanal",
+                "keywords": [
+                    "software",
+                    "systems",
+                    "applications",
+                    "real",
+                    "pose",
+                    "open",
+                    "source",
+                    "time",
+                    "community",
+                    "integration"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000946344"
+        ],
+        "program_elements": [
+            "POSE"
+        ],
+        "program_codes": [
+            "211Y00"
+        ],
+        "program_references": [],
+        "program_ref_codes": [],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "TIP"
+        ],
+        "div_abbrs": [
+            "TI"
+        ],
+        "fund_divisions": [
+            "Translational Impacts"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.084"
+        ],
+        "program_officers": [
+            "Florence Rabanal"
+        ],
+        "keywords": [
+            "software",
+            "systems",
+            "applications",
+            "real",
+            "pose",
+            "open",
+            "source",
+            "time",
+            "community",
+            "integration",
+            "physical",
+            "creating",
+            "distributed",
+            "computing",
+            "framework",
+            "governance",
+            "continuous",
+            "platforms",
+            "ecosystem",
+            "cyber"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.46
+    },
+    "s2_profile": {
+        "s2_author_id": "2258785984",
+        "name": "Edward A Lee",
+        "affiliations": [],
+        "paper_count": 19,
+        "citation_count": 49,
+        "h_index": 3,
+        "papers": [
+            {
+                "s2_paper_id": "0795311371659817bd6401d3b1e47bfe1f945d51",
+                "title": "Quasi-Static Scheduling for Deterministic Timed Concurrent Models on Multi-Core Hardware",
+                "year": 2025,
+                "venue": "ACM Transactions on Embedded Computing Systems",
+                "citation_count": 2,
+                "reference_count": 51,
+                "abstract": "To design performant, expressive, and reliable cyber-physical systems (CPSs), researchers extensively perform quasi-static scheduling for concurrent models of computation (MoCs) on multi-core hardware. However, these quasi-static scheduling approaches are developed independently for their corresponding MoCs, despite commonality in the approaches. To help generalize the use of quasi-static scheduling to new and emerging MoCs, this article proposes a unified approach for a class of deterministic timed concurrent models (DTCMs), including prominent models such as synchronous dataflow (SDF), Boolean-controlled dataflow (BDF), scenario-aware dataflow (SADF), and Logical Execution Time (LET). In contrast to scheduling techniques tailored exclusively to specific MoCs, our unified approach leverages a common intermediate formalism called state space finite automata (SSFA), bridging the gap between high-level MoCs and executable schedules. Once identified as DTCMs, new MoCs can directly adopt SSFA-based scheduling, significantly easing adoption. We show that quasi-static schedules facilitated by SSFA are provably free from timing anomalies and enable straightforward worst-case makespan analysis. We demonstrate the approach using the reactor model\u2014an emerging discrete-event MoC\u2014programmed using the Lingua Franca (LF) language. Experiments show that quasi-statically scheduled LF programs exhibit lower runtime overhead compared to the dynamically scheduled LF programs, and that the analyzable worst-case makespans enable compile-time deadline checking.",
+                "authors": [
+                    {
+                        "s2_author_id": "2115275979",
+                        "name": "S. Lin"
+                    },
+                    {
+                        "s2_author_id": "2184032220",
+                        "name": "E. Jellum"
+                    },
+                    {
+                        "s2_author_id": "52202474",
+                        "name": "Mirco Theile"
+                    },
+                    {
+                        "s2_author_id": "2199668892",
+                        "name": "Tassilo Tanneberger"
+                    },
+                    {
+                        "s2_author_id": "2153220499",
+                        "name": "Binqi Sun"
+                    },
+                    {
+                        "s2_author_id": "1790791",
+                        "name": "Chadlia Jerad"
+                    },
+                    {
+                        "s2_author_id": "2323790678",
+                        "name": "Yimo Xu"
+                    },
+                    {
+                        "s2_author_id": "2305618664",
+                        "name": "Guangyu Feng"
+                    },
+                    {
+                        "s2_author_id": "2351863727",
+                        "name": "Magnus M\u00e6hlum"
+                    },
+                    {
+                        "s2_author_id": "2294518075",
+                        "name": "Jian-Jia Chen"
+                    },
+                    {
+                        "s2_author_id": "2265675155",
+                        "name": "Martin Schoeberl"
+                    },
+                    {
+                        "s2_author_id": "2304052427",
+                        "name": "L. T. X. Phan"
+                    },
+                    {
+                        "s2_author_id": "144195575",
+                        "name": "J. Castrill\u00f3n"
+                    },
+                    {
+                        "s2_author_id": "1775517",
+                        "name": "S. Seshia"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "49775856a88d5be0daf58d1bb54cba1d6d56dcf9",
+                "title": "Improving the Efficiency of Coordinating Timed Events in Distributed Systems",
+                "year": 2025,
+                "venue": "SIGSIM Principles of Advanced Discrete Simulation",
+                "citation_count": 0,
+                "reference_count": 40,
+                "abstract": "For distributed cyber-physical systems (CPS), accurate and precise timing control among distributed nodes helps ensure safety and correctness. Discrete-event (DE) systems serve as an effective model of computation for distributed CPS requiring precise timing control. The high-level architecture (HLA) has been widely used for the simulation of distributed DE (DDE) systems and can be extended for the implementation of distributed CPS. We find that HLA imposes excessive network communication overhead, specifically, through the run-time infrastructure (RTI), for the coordination of timed events for some applications. This paper identifies inefficiencies and proposes a novel approach that reduces the number of messages without compromising control over timing. We evaluate our approach using example patterns of distributed CPS.",
+                "authors": [
+                    {
+                        "s2_author_id": "2216572834",
+                        "name": "Byeonggil Jun"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    },
+                    {
+                        "s2_author_id": "51304485",
+                        "name": "Marten Lohstroh"
+                    },
+                    {
+                        "s2_author_id": "2269748668",
+                        "name": "Hokeun Kim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4f7bae4a9619413675bf64cfa1042c6bf88c4007",
+                "title": "Worst-Case Performance for Real-Time Systems",
+                "year": 2025,
+                "venue": "Research Directions: Cyber-Physical Systems",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": "\n Real-time systems need to be built out of tasks for which the worst-case execution time is known. To enable accurate estimates of worst-case execution time, some researchers propose to build processors that simplify that analysis. These architectures are called precision-timed machines or time-predictable architectures. However, what does this term mean? This paper explores the meaning of time predictability and how it can be quantified. We show that time predictability is hard to quantify. Rather, the worst-case performance as the combination of a processor, a compiler, and a worst-case execution time analysis tool is an important property in the context of real-time systems. Note that the actual software has implications as well on the worst-case performance. We propose to define a standard set of benchmark programs that can be used to evaluate a time-predictable processor, a compiler, and a worst-case execution time analysis tool. We define worst-case performance as the geometric mean of worst-case execution time bounds on a standard set of benchmark programs.",
+                "authors": [
+                    {
+                        "s2_author_id": "2265675155",
+                        "name": "Martin Schoeberl"
+                    },
+                    {
+                        "s2_author_id": "2184032220",
+                        "name": "E. Jellum"
+                    },
+                    {
+                        "s2_author_id": "2115275979",
+                        "name": "S. Lin"
+                    },
+                    {
+                        "s2_author_id": "1790791",
+                        "name": "Chadlia Jerad"
+                    },
+                    {
+                        "s2_author_id": "31063237",
+                        "name": "Emad Jacob Maroun"
+                    },
+                    {
+                        "s2_author_id": "51304485",
+                        "name": "Marten Lohstroh"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5806b23767ccb84f6da8b6a324b59b9d3106c6d6",
+                "title": "Layered Scheduling: Toward Better Real-Time Lingua Franca",
+                "year": 2025,
+                "venue": "IEEE Embedded Systems Letters",
+                "citation_count": 1,
+                "reference_count": 22,
+                "abstract": "Lingua Franca (LF) is a programming paradigm that eases the development of distributed cyber-physical systems and ensures determinism. These systems are subject to stringent timing constraints, generally expressed as task deadlines, and meeting them requires real-time scheduling. This letter presents a layered scheduling strategy for LF for enhanced real-time performance that builds upon any priority-based operating system thread scheduler. The application designers need to specify only the application-specific deadlines, and the LF runtime automatically converts them into appropriate priority values for the OS scheduler to obtain earliest deadline first scheduling.",
+                "authors": [
+                    {
+                        "s2_author_id": "2214352195",
+                        "name": "Francesco Paladino"
+                    },
+                    {
+                        "s2_author_id": "2184032220",
+                        "name": "E. Jellum"
+                    },
+                    {
+                        "s2_author_id": "2212010310",
+                        "name": "Efsane Soyer"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5a1d263c9534caf0e4566d52658728fab2d080c7",
+                "title": "Special Session Predictable Timing Behavior in Distributed Cyber-Physical Systems",
+                "year": 2025,
+                "venue": "International Conference on Embedded Software",
+                "citation_count": 0,
+                "reference_count": 93,
+                "abstract": "Ensuring predictable and deterministic behavior in distributed cyber-physical systems (CPS) is essential for guaranteeing safety, reliability, and real-time behavior. However, achieving this predictability is challenging due to network uncertainties, asynchronous execution, and complex timing interactions. This manuscript is based on a special session at Embedded Systems Week (ESWeek) 2025, which brings together experts to explore in four presentations how this uncertainty can be addressed and how to introduce additional determinism into the system to achieve predictable timing behavior in distributed CPS. We begin by exploring cornerstones of timing analysis techniques to provide end-to-end latency guarantees for distributed systems (Chen and G\u00fcnzel). Next, we discuss design strategies for meeting timing constraints, focusing on how system parameters influence cause-effect chains and how these parameters can be tuned to ensure predictable behavior in industrial automation settings (Dasari and Becker). We then turn to approaches to achieve more predictable system behavior. To that end, we examine deterministic semantic models for distributed systems that enable the design of robust and fault-tolerant systems (Lee). Finally, we discuss how solving constraints for scheduling cause-effect chains can be used to enforce strict timing guarantees and improve predictability (Bourke). \u2022 Computer systems organization \u2192 Embedded and cyberphysical systems; \u2022 Software and its engineering\u2192Real-time systems software. Jian-Jia Chen, Mario G\u00fcnzel, Dakshina Dasari, Matthias Becker, Edward A. Lee, and Timothy Bourke. 2025. Special Session - Predictable Timing Behavior in Distributed Cyber-Physical Systems. In International Conference on Embedded Software (EMSOFT \u201925), September 28-October 3, 2025, Taipei, Taiwan. ACM, NewYork, NY, USA, 10 pages. https://doi.org/10.1145/3742874.3757086",
+                "authors": [
+                    {
+                        "s2_author_id": "2294518075",
+                        "name": "Jian-Jia Chen"
+                    },
+                    {
+                        "s2_author_id": "1491790410",
+                        "name": "Mario G\u00fcnzel"
+                    },
+                    {
+                        "s2_author_id": "2944166",
+                        "name": "Dakshina Dasari"
+                    },
+                    {
+                        "s2_author_id": "2279097170",
+                        "name": "Matthias Becker"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    },
+                    {
+                        "s2_author_id": "2396492225",
+                        "name": "Timothy Bourke"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7993a478864176b928b2610d3088bb6bb6132af3",
+                "title": "Resilient Infrastructures via Digital Unification",
+                "year": 2025,
+                "venue": "Communications of the ACM",
+                "citation_count": 1,
+                "reference_count": 10,
+                "abstract": "Digital transformation: A great science in the making.",
+                "authors": [
+                    {
+                        "s2_author_id": "2397209884",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "2237799626",
+                        "name": "Sylvia Ratnasamy"
+                    },
+                    {
+                        "s2_author_id": "2396392504",
+                        "name": "Mohammad Alizadeh"
+                    },
+                    {
+                        "s2_author_id": "2007380845",
+                        "name": "M. Chowdhury"
+                    },
+                    {
+                        "s2_author_id": "2396380033",
+                        "name": "Seth Guikema"
+                    },
+                    {
+                        "s2_author_id": "2397836520",
+                        "name": "Ryan Huang"
+                    },
+                    {
+                        "s2_author_id": "2396392893",
+                        "name": "Suresh Jaganathann"
+                    },
+                    {
+                        "s2_author_id": "2396390673",
+                        "name": "Branko Kerkez"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    },
+                    {
+                        "s2_author_id": "2396380363",
+                        "name": "Steven Low"
+                    },
+                    {
+                        "s2_author_id": "2394361584",
+                        "name": "Morley Mao"
+                    },
+                    {
+                        "s2_author_id": "2396392102",
+                        "name": "Johanna Mathieu"
+                    },
+                    {
+                        "s2_author_id": "2397375646",
+                        "name": "M. Reiter"
+                    },
+                    {
+                        "s2_author_id": "2345197666",
+                        "name": "Xinyu Wang"
+                    },
+                    {
+                        "s2_author_id": "2262638637",
+                        "name": "Vinton G. Cerf"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8eb728caeb04def94b0c13638588f430999ff7fb",
+                "title": "Software-Defined Watchdog Timers for Cyber-Physical Systems",
+                "year": 2025,
+                "venue": "IEEE Embedded Systems Letters",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": "This letter introduces software-defined watchdogs, a programming model for handling faults that manifest as delayed or missing signals. The programming model is implemented as an extension to the polyglot coordination language Lingua Franca, where it acts as an eager deadline for delayed inputs. The technique is compared against hardware-defined watchdogs and software watchdogs in other reactive languages.",
+                "authors": [
+                    {
+                        "s2_author_id": "2279755312",
+                        "name": "Benjamin Asch"
+                    },
+                    {
+                        "s2_author_id": "2184032220",
+                        "name": "E. Jellum"
+                    },
+                    {
+                        "s2_author_id": "51304485",
+                        "name": "Marten Lohstroh"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "974c8a386a2b636dfe47825838c5948026561500",
+                "title": "Programming Time-Predictable Processors with Lingua Franca",
+                "year": 2025,
+                "venue": "NG-RES@HiPEAC",
+                "citation_count": 0,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2351863727",
+                        "name": "Magnus M\u00e6hlum"
+                    },
+                    {
+                        "s2_author_id": "2184032220",
+                        "name": "E. Jellum"
+                    },
+                    {
+                        "s2_author_id": "2115275979",
+                        "name": "S. Lin"
+                    },
+                    {
+                        "s2_author_id": "51304485",
+                        "name": "Marten Lohstroh"
+                    },
+                    {
+                        "s2_author_id": "2265675155",
+                        "name": "Martin Schoeberl"
+                    },
+                    {
+                        "s2_author_id": "2844638",
+                        "name": "S. Hendseth"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fcd609a38b9610880336bf56ad264cd1a26e387b",
+                "title": "Toward Dynamism in Distributed Lingua Franca Programs",
+                "year": 2025,
+                "venue": "IEEE Embedded Systems Letters",
+                "citation_count": 0,
+                "reference_count": 9,
+                "abstract": "Distributed systems often require dynamic capabilities to ensure adaptability, efficiency, and fault-tolerance. In applications where determinism and timing are crucial, a clear and well-defined approach to deterministic dynamism is much needed, but inherently difficult to define. This letter gives dynamism deterministic semantics, thus enabling precise and repeatable behavior. To this end, we select the Lingua Franca (LF) coordination language that is based on the reactor model, and introduce dynamism to the distributed LF programs, referred to as federations. This letter outlines the challenges associated with incorporating transient federates, which are capable of joining and leaving the federation at arbitrary times, and proposes solutions to the identified problems. A realistic example of an online auction system is used to illustrate the approach. Furthermore, the potential applications of this mechanism are discussed, along with the challenges that need to be addressed.",
+                "authors": [
+                    {
+                        "s2_author_id": "1790791",
+                        "name": "Chadlia Jerad"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "090bfa1c6e409f078af2c6c55b32834e1d92bc9c",
+                "title": "Certainty or Intelligence: Pick One!",
+                "year": 2024,
+                "venue": "Design, Automation and Test in Europe",
+                "citation_count": 1,
+                "reference_count": 10,
+                "abstract": "Mathematical models can yield certainty, as can probabilistic models where the probabilities degenerate. The field of formal methods emphasizes developing such certainty about engineering designs. In safety critical systems, such certainty is highly valued and, in some cases, even required by regulatory bodies. But achieving reasonable performance for sufficiently complex environments appears to require the use of AI technologies, which resist such certainty. This extended abstract suggests that certainty and intelligence may be fundamentally incompatible.",
+                "authors": [
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3ce3c4b3ef19e3f46397693e3cac02f2141983bd",
+                "title": "Strongly-Consistent Distributed Discrete-event Systems",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 31,
+                "abstract": "Discrete-event (DE) systems are concurrent programs where components communicate via tagged events, where tags are drawn from a totally ordered set. Reactors are an emerging model of computation based on DE and realized in the open-source coordination language Lingua Franca. Distributed DE (DDE) systems are DE systems where the components (reactors) communicate over networks. The prior art has required that for DDE systems with cycles, each cycle must contain at least one logical delay, where the tag of events is incremented. Such delays, however, are not required by the elegant fixed-point semantics of DE. The only requirement is that the program be constructive, meaning it is free of causality cycles. This paper gives a way to coordinate the execution of DDE systems that can execute any constructive program, even one with zero-delay cycles. It provides a formal model that exposes exactly the information that must be shared across networks for such execution to be possible. Furthermore, it describes a concrete implementation that is an extension of the coordination mechanisms in Lingua Franca.",
+                "authors": [
+                    {
+                        "s2_author_id": "2199668831",
+                        "name": "Peter Donovan"
+                    },
+                    {
+                        "s2_author_id": "2184032220",
+                        "name": "E. Jellum"
+                    },
+                    {
+                        "s2_author_id": "2216572834",
+                        "name": "Byeonggil Jun"
+                    },
+                    {
+                        "s2_author_id": "2510702",
+                        "name": "Hokeun Kim"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    },
+                    {
+                        "s2_author_id": "2115275979",
+                        "name": "S. Lin"
+                    },
+                    {
+                        "s2_author_id": "51304485",
+                        "name": "Marten Lohstroh"
+                    },
+                    {
+                        "s2_author_id": "2302320194",
+                        "name": "Anirudh Rengarajan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4c974ff22cc5ee3aabb0ce496f80e25e439c8a87",
+                "title": "Efficient Coordination for Distributed Discrete-Event Systems",
+                "year": 2024,
+                "venue": "International Conference on Formal Methods and Models for Co-Design",
+                "citation_count": 0,
+                "reference_count": 17,
+                "abstract": "Timing control while preserving determinism is often a key requirement for ensuring the safety and correctness of distributed cyber-physical systems (CPS). Discrete-event (DE) systems provide a suitable model of computation (MoC) for time-sensitive distributed CPS. The high-level architecture (HLA) is a useful tool for the distributed simulation of DE systems, but its techniques can be adapted for implementing distributed CPS. However, HLA incurs considerable overhead in network messages conveying timing information between the distributed nodes and the centralized run-time infrastructure (RTI). This paper gives a novel approach and implementation that reduces such network messages while preserving DE semantics. An evaluation of our runtime demonstrates that our approach significantly reduces the volume of messages for timing information in HLA.",
+                "authors": [
+                    {
+                        "s2_author_id": "2216572834",
+                        "name": "Byeonggil Jun"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    },
+                    {
+                        "s2_author_id": "51304485",
+                        "name": "Marten Lohstroh"
+                    },
+                    {
+                        "s2_author_id": "2510702",
+                        "name": "Hokeun Kim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c9372e864f46106f7fb923a1f87f8d3ebbde0676",
+                "title": "Codesign of Reactor-Oriented Hardware and Software for Cyber-Physical Systems",
+                "year": 2024,
+                "venue": "ACM Transactions on Reconfigurable Technology and Systems",
+                "citation_count": 1,
+                "reference_count": 46,
+                "abstract": "Modern cyber-physical systems often make use of heterogeneous systems-on-chip with reconfigurable logic to provide adequate computing power and flexible I/O. However, modeling, verifying, and implementing the computations spanning CPUs and reconfigurable logic are still challenging. The hardware and software components are often designed by different teams and at different levels of abstraction, making it hard to reason about the resulting computation. We propose to lift both hardware and software design to the same level of abstraction by using the Lingua Franca coordination language. Lingua Franca is based on a sparse synchronous model that allows modeling concurrency and timing while keeping a sequential model for the actual computation. We define hardware reactors as a subset of the reactor model of computation underlying Lingua Franca. We also present and evaluate reactor-chisel, a hardware runtime implementing the semantics of hardware reactors, and an extension to the Lingua Franca compiler enabling reactor-oriented hardware\u2013software codesign.",
+                "authors": [
+                    {
+                        "s2_author_id": "2184032220",
+                        "name": "E. Jellum"
+                    },
+                    {
+                        "s2_author_id": "2265675155",
+                        "name": "Martin Schoeberl"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    },
+                    {
+                        "s2_author_id": "2588685",
+                        "name": "Milica Orlandi\u0107"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f84c8159cac194d281de786a69acedc41b17a249",
+                "title": "Behavior Trees with Dataflow: Coordinating Reactive Tasks in Lingua Franca",
+                "year": 2024,
+                "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+                "citation_count": 1,
+                "reference_count": 31,
+                "abstract": "Behavior Trees (BTs) provide a lean set of control flow elements that are easily composable in a modular tree structure. They are well established for modeling the high-level behavior of non-player characters in computer games and recently gained popularity in other areas such as industrial automation. While BTs nicely express control, data handling aspects so far must be provided separately, e. g. in the form of blackboards. This may hamper reusability and can be a source of nondeterminism. We here propose a dataflow extension to BTs that explicitly models data relations and communication. We realize and validate that approach in the recently introduced polyglot coordination language Lingua Franca (LF).",
+                "authors": [
+                    {
+                        "s2_author_id": "1412743392",
+                        "name": "Alexander Schulz-Rosengarten"
+                    },
+                    {
+                        "s2_author_id": "2279930611",
+                        "name": "Akash Ahmad"
+                    },
+                    {
+                        "s2_author_id": "2279754597",
+                        "name": "Malte Clement"
+                    },
+                    {
+                        "s2_author_id": "150287006",
+                        "name": "Reinhard von Hanxleden"
+                    },
+                    {
+                        "s2_author_id": "2279755312",
+                        "name": "Benjamin Asch"
+                    },
+                    {
+                        "s2_author_id": "51304485",
+                        "name": "Marten Lohstroh"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    },
+                    {
+                        "s2_author_id": "2305842708",
+                        "name": "Gustavo Quiros"
+                    },
+                    {
+                        "s2_author_id": "2186055750",
+                        "name": "Ankit Shukla"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "43c7139189ea955e7bf99230a9833789e20ce106",
+                "title": "Efficient Parallel Reinforcement Learning Framework Using the Reactor Model",
+                "year": 2023,
+                "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
+                "citation_count": 3,
+                "reference_count": 50,
+                "abstract": "Parallel Reinforcement Learning (RL) frameworks are essential for mapping RL workloads to multiple computational resources, allowing for faster generation of samples, estimation of values, and policy improvement. These computational paradigms require a seamless integration of training, serving, and simulation workloads. Existing frameworks, such as Ray, are not managing this orchestration efficiently, especially in RL tasks that demand intensive input/output and synchronization between actors on a single node. In this study, we have proposed a solution implementing the reactor model, which enforces a set of actors to have a fixed communication pattern. This allows the scheduler to eliminate work needed for synchronization, such as acquiring and releasing locks for each actor or sending and processing coordination-related messages. Our framework, Lingua Franca (LF), a coordination language based on the reactor model, also supports true parallelism in Python and provides a unified interface that allows users to automatically generate dataflow graphs for RL tasks. In comparison to Ray on a single-node multi-core compute platform, LF achieves 1.21x and 11.62x higher simulation throughput in OpenAI Gym and Atari environments, reduces the average training time of synchronized parallel Q-learning by 31.2%, and accelerates multi-agent RL inference by 5.12x.",
+                "authors": [
+                    {
+                        "s2_author_id": "2272531875",
+                        "name": "Jacky Kwok"
+                    },
+                    {
+                        "s2_author_id": "51304485",
+                        "name": "Marten Lohstroh"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "611ffb9043511e627e138c4ded388ac8e9a20f16",
+                "title": "Risk and Mitigation of Nondeterminism in Distributed Cyber-Physical Systems",
+                "year": 2023,
+                "venue": "International Conference on Formal Methods and Models for Co-Design",
+                "citation_count": 13,
+                "reference_count": 53,
+                "abstract": "Asynchronous frameworks for distributed embedded systems, like ROS and MQTT, are increasingly used in safety-critical applications such as autonomous driving, where the cost of unintended behavior is high. The loose coordination between the components in these frameworks gives rise to nondeterminism, where factors such as communication timing can lead to arbitrary ordering in the handling of messages. In this paper, we show that this problem compromises safety and complicates system design in Autoware.Auto 1.0, a popular open-source autonomous driving framework based on ROS 2. We extend the LINGUA FRANCA coordination language to support distributed execution, port Autoware.Auto to LINGUA FRANCA, and show that our solution avoids the identified problems. We assess the performance of our federated runtime implementation and show that it is competitive for this application. We also compare our achievable throughput to ROS 2 and MQTT using microbenchmarks and find that we can match or exceed the throughput of those frameworks while preserving determinism.CCS CONCEPTS\u2022 Computing methodologies \u2192 Distributed programming languages; \u2022 Computer systems organization \u2192 Embedded and cyber-physical systems.",
+                "authors": [
+                    {
+                        "s2_author_id": "51178514",
+                        "name": "S. Bateni"
+                    },
+                    {
+                        "s2_author_id": "51304485",
+                        "name": "Marten Lohstroh"
+                    },
+                    {
+                        "s2_author_id": "2177146941",
+                        "name": "Hou Seng Wong"
+                    },
+                    {
+                        "s2_author_id": "2510702",
+                        "name": "Hokeun Kim"
+                    },
+                    {
+                        "s2_author_id": "2115275979",
+                        "name": "S. Lin"
+                    },
+                    {
+                        "s2_author_id": "2008512095",
+                        "name": "Christian Menard"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eb0b14a983d63b33e4653e4ba05f94db142e4ae9",
+                "title": "Deterministic Coordination across Multiple Timelines",
+                "year": 2023,
+                "venue": "ACM Transactions on Embedded Computing Systems",
+                "citation_count": 7,
+                "reference_count": 73,
+                "abstract": "We discuss a novel approach for constructing deterministic reactive systems that revolves around a temporal model that incorporates a multiplicity of timelines. This model is central to Lingua Franca (LF), a polyglot coordination language and compiler toolchain we are developing for the definition and composition of concurrent components called reactors, which are objects that react to and emit discrete events. Our temporal model differs from existing models like the logical execution time (LET) paradigm and synchronous languages in that it reflects that there are always at least two distinct timelines involved in a reactive system; a logical one and a physical one\u2014and possibly multiple of each kind. This article explains how the relationship between events across timelines facilitates reasoning about consistency and availability across components in cyber-physical systems (CPSs).",
+                "authors": [
+                    {
+                        "s2_author_id": "51304485",
+                        "name": "Marten Lohstroh"
+                    },
+                    {
+                        "s2_author_id": "51178514",
+                        "name": "S. Bateni"
+                    },
+                    {
+                        "s2_author_id": "2008512095",
+                        "name": "Christian Menard"
+                    },
+                    {
+                        "s2_author_id": "1412743392",
+                        "name": "Alexander Schulz-Rosengarten"
+                    },
+                    {
+                        "s2_author_id": "144195575",
+                        "name": "J. Castrill\u00f3n"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b1a6f210fae1ca5e85396636751d8f961e3a79b3",
+                "title": "Actors Revisited for Time-Critical Systems",
+                "year": 2019,
+                "venue": "Design Automation Conference",
+                "citation_count": 15,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "51304485",
+                        "name": "Marten Lohstroh"
+                    },
+                    {
+                        "s2_author_id": "1679533",
+                        "name": "Martin Schoeberl"
+                    },
+                    {
+                        "s2_author_id": "2132535685",
+                        "name": "Andr\u00e9s Goens"
+                    },
+                    {
+                        "s2_author_id": "1724734",
+                        "name": "Armin Wasicek"
+                    },
+                    {
+                        "s2_author_id": "2263385135",
+                        "name": "Christopher D. Gill"
+                    },
+                    {
+                        "s2_author_id": "2254490553",
+                        "name": "Marjan Sirjani"
+                    },
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "78ac42ee3d4c769c8b46d9f4eed76798fc934f79",
+                "title": "Message from the chairs",
+                "year": 2015,
+                "venue": "2015 Workshop on Modeling and Simulation of Cyber-Physical Energy Systems (MSCPES)",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2258785984",
+                        "name": "Edward A. Lee"
+                    },
+                    {
+                        "s2_author_id": "2277552986",
+                        "name": "Peter Palensky"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2115275979",
+                "name": "S. Lin"
+            },
+            {
+                "s2_author_id": "2184032220",
+                "name": "E. Jellum"
+            },
+            {
+                "s2_author_id": "52202474",
+                "name": "Mirco Theile"
+            },
+            {
+                "s2_author_id": "2199668892",
+                "name": "Tassilo Tanneberger"
+            },
+            {
+                "s2_author_id": "2153220499",
+                "name": "Binqi Sun"
+            },
+            {
+                "s2_author_id": "1790791",
+                "name": "Chadlia Jerad"
+            },
+            {
+                "s2_author_id": "2323790678",
+                "name": "Yimo Xu"
+            },
+            {
+                "s2_author_id": "2305618664",
+                "name": "Guangyu Feng"
+            },
+            {
+                "s2_author_id": "2351863727",
+                "name": "Magnus M\u00e6hlum"
+            },
+            {
+                "s2_author_id": "2294518075",
+                "name": "Jian-Jia Chen"
+            },
+            {
+                "s2_author_id": "2265675155",
+                "name": "Martin Schoeberl"
+            },
+            {
+                "s2_author_id": "2304052427",
+                "name": "L. T. X. Phan"
+            },
+            {
+                "s2_author_id": "144195575",
+                "name": "J. Castrill\u00f3n"
+            },
+            {
+                "s2_author_id": "1775517",
+                "name": "S. Seshia"
+            },
+            {
+                "s2_author_id": "2216572834",
+                "name": "Byeonggil Jun"
+            },
+            {
+                "s2_author_id": "51304485",
+                "name": "Marten Lohstroh"
+            },
+            {
+                "s2_author_id": "2269748668",
+                "name": "Hokeun Kim"
+            },
+            {
+                "s2_author_id": "31063237",
+                "name": "Emad Jacob Maroun"
+            },
+            {
+                "s2_author_id": "2214352195",
+                "name": "Francesco Paladino"
+            },
+            {
+                "s2_author_id": "2212010310",
+                "name": "Efsane Soyer"
+            },
+            {
+                "s2_author_id": "1491790410",
+                "name": "Mario G\u00fcnzel"
+            },
+            {
+                "s2_author_id": "2944166",
+                "name": "Dakshina Dasari"
+            },
+            {
+                "s2_author_id": "2279097170",
+                "name": "Matthias Becker"
+            },
+            {
+                "s2_author_id": "2396492225",
+                "name": "Timothy Bourke"
+            },
+            {
+                "s2_author_id": "2397209884",
+                "name": "Ang Chen"
+            },
+            {
+                "s2_author_id": "2237799626",
+                "name": "Sylvia Ratnasamy"
+            },
+            {
+                "s2_author_id": "2396392504",
+                "name": "Mohammad Alizadeh"
+            },
+            {
+                "s2_author_id": "2007380845",
+                "name": "M. Chowdhury"
+            },
+            {
+                "s2_author_id": "2396380033",
+                "name": "Seth Guikema"
+            },
+            {
+                "s2_author_id": "2397836520",
+                "name": "Ryan Huang"
+            },
+            {
+                "s2_author_id": "2396392893",
+                "name": "Suresh Jaganathann"
+            },
+            {
+                "s2_author_id": "2396390673",
+                "name": "Branko Kerkez"
+            },
+            {
+                "s2_author_id": "2396380363",
+                "name": "Steven Low"
+            },
+            {
+                "s2_author_id": "2394361584",
+                "name": "Morley Mao"
+            },
+            {
+                "s2_author_id": "2396392102",
+                "name": "Johanna Mathieu"
+            },
+            {
+                "s2_author_id": "2397375646",
+                "name": "M. Reiter"
+            },
+            {
+                "s2_author_id": "2345197666",
+                "name": "Xinyu Wang"
+            },
+            {
+                "s2_author_id": "2262638637",
+                "name": "Vinton G. Cerf"
+            },
+            {
+                "s2_author_id": "2279755312",
+                "name": "Benjamin Asch"
+            },
+            {
+                "s2_author_id": "2844638",
+                "name": "S. Hendseth"
+            },
+            {
+                "s2_author_id": "2199668831",
+                "name": "Peter Donovan"
+            },
+            {
+                "s2_author_id": "2510702",
+                "name": "Hokeun Kim"
+            },
+            {
+                "s2_author_id": "2302320194",
+                "name": "Anirudh Rengarajan"
+            },
+            {
+                "s2_author_id": "2588685",
+                "name": "Milica Orlandi\u0107"
+            },
+            {
+                "s2_author_id": "1412743392",
+                "name": "Alexander Schulz-Rosengarten"
+            },
+            {
+                "s2_author_id": "2279930611",
+                "name": "Akash Ahmad"
+            },
+            {
+                "s2_author_id": "2279754597",
+                "name": "Malte Clement"
+            },
+            {
+                "s2_author_id": "150287006",
+                "name": "Reinhard von Hanxleden"
+            },
+            {
+                "s2_author_id": "2305842708",
+                "name": "Gustavo Quiros"
+            },
+            {
+                "s2_author_id": "2186055750",
+                "name": "Ankit Shukla"
+            },
+            {
+                "s2_author_id": "2272531875",
+                "name": "Jacky Kwok"
+            },
+            {
+                "s2_author_id": "51178514",
+                "name": "S. Bateni"
+            },
+            {
+                "s2_author_id": "2177146941",
+                "name": "Hou Seng Wong"
+            },
+            {
+                "s2_author_id": "2008512095",
+                "name": "Christian Menard"
+            },
+            {
+                "s2_author_id": "1679533",
+                "name": "Martin Schoeberl"
+            },
+            {
+                "s2_author_id": "2132535685",
+                "name": "Andr\u00e9s Goens"
+            },
+            {
+                "s2_author_id": "1724734",
+                "name": "Armin Wasicek"
+            },
+            {
+                "s2_author_id": "2263385135",
+                "name": "Christopher D. Gill"
+            },
+            {
+                "s2_author_id": "2254490553",
+                "name": "Marjan Sirjani"
+            },
+            {
+                "s2_author_id": "2277552986",
+                "name": "Peter Palensky"
+            }
+        ],
+        "total_co_authors": 60,
+        "papers_retrieved": 19
+    }
+}

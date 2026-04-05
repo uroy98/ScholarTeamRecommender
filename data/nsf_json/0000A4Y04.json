@@ -1,0 +1,487 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A4Y04",
+        "name": "Zev Woodstock",
+        "primary_affiliation": "James Madison University",
+        "primary_department": null,
+        "all_affiliations": [
+            "James Madison University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "VA"
+        ],
+        "perf_cities": [
+            "HARRISONBURG"
+        ],
+        "org_names": [
+            "James Madison University"
+        ],
+        "org_ueis": [
+            "MVTKSCN6NMH3"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "woodstzc@jmu.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2532423",
+                "title": "LEAPS-MPS: Modernizing Frank-Wolfe Splitting Algorithms",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-09-01",
+                "exp_date": "2027-08-31",
+                "award_amount": 224697.0,
+                "total_amount": 224697.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "OFFICE OF MULTIDISCIPLINARY AC"
+                ],
+                "program_codes": [
+                    "125300"
+                ],
+                "program_references": [
+                    "Artificial Intelligence (AI)",
+                    "Machine Learning Theory",
+                    "COMPUTATIONAL SCIENCE & ENGING"
+                ],
+                "program_ref_codes": [
+                    "075Z",
+                    "079Z",
+                    "9263"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "DMS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Mathematical Sciences",
+                "cfda_num": "47.049",
+                "po_name": "Jodi Mead",
+                "keywords": [
+                    "frank",
+                    "wolfe",
+                    "algorithms",
+                    "fwsas",
+                    "splitting",
+                    "optimization",
+                    "computational",
+                    "subproblems",
+                    "potential",
+                    "methods"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "OFFICE OF MULTIDISCIPLINARY AC"
+        ],
+        "program_codes": [
+            "125300"
+        ],
+        "program_references": [
+            "Artificial Intelligence (AI)",
+            "Machine Learning Theory",
+            "COMPUTATIONAL SCIENCE & ENGING"
+        ],
+        "program_ref_codes": [
+            "075Z",
+            "079Z",
+            "9263"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "DMS"
+        ],
+        "fund_divisions": [
+            "Division Of Mathematical Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049"
+        ],
+        "program_officers": [
+            "Jodi Mead"
+        ],
+        "keywords": [
+            "frank",
+            "wolfe",
+            "algorithms",
+            "fwsas",
+            "splitting",
+            "optimization",
+            "computational",
+            "subproblems",
+            "potential",
+            "methods",
+            "many",
+            "artificial",
+            "intelligence",
+            "algorithm",
+            "analyze",
+            "reduced",
+            "improvements",
+            "problems",
+            "larger",
+            "modern"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.46
+    },
+    "s2_profile": {
+        "s2_author_id": "3414766",
+        "name": "Zev Woodstock",
+        "affiliations": [],
+        "paper_count": 13,
+        "citation_count": 121,
+        "h_index": 5,
+        "papers": [
+            {
+                "s2_paper_id": "6e7dca9ae5deb68a675a1bf91bd385ad80eb59df",
+                "title": "High-precision linear minimization is no slower than projection",
+                "year": 2025,
+                "venue": "Optimization Letters",
+                "citation_count": 1,
+                "reference_count": 15,
+                "abstract": "\n \n This note demonstrates that, for all compact convex sets, high-precision linear minimization can be performed via a single evaluation of the projection and a scalar-vector multiplication. In consequence, if\n \n $$\\varepsilon $$\n \n -approximate linear minimization takes at least\n \n $$L(\\varepsilon )$$\n \n real vector-arithmetic operations and projection requires\n P\n operations, then\n \n $$\\mathcal {O}(P)\\ge \\mathcal {O}(L(\\varepsilon ))$$\n \n is guaranteed. This concept is expounded with examples, an explicit error bound, and an exact linear minimization result for polyhedral sets.\n",
+                "authors": [
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3bf08404c279738385027ed6f0dcd34daba0043c",
+                "title": "Flexible block-iterative analysis for the Frank-Wolfe algorithm",
+                "year": 2024,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 37,
+                "abstract": "We prove that the block-coordinate Frank-Wolfe (BCFW) algorithm converges with state-of-the-art rates in both convex and nonconvex settings under a very mild\"block-iterative\"assumption. This appears to be the first result on BCFW addressing the setting of nonconvex objective functions with Lipschitz-continuous gradients and no additional assumptions. This analysis newly allows for (I) progress without activating the most-expensive linear minimization oracle(s), LMO(s), at every iteration, (II) parallelized updates that do not require all LMOs, and therefore (III) deterministic parallel update strategies that take into account the numerical cost of the problem's LMOs. Our results apply for short-step BCFW as well as an adaptive method for convex functions. New relationships between updated coordinates and primal progress are proven, and a favorable speedup is demonstrated using FrankWolfe.jl.",
+                "authors": [
+                    {
+                        "s2_author_id": "51282037",
+                        "name": "G\u00e1bor Braun"
+                    },
+                    {
+                        "s2_author_id": "2342283692",
+                        "name": "Jannis Halbey"
+                    },
+                    {
+                        "s2_author_id": "145729210",
+                        "name": "S. Pokutta"
+                    },
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6d6516c0eae69d2c98069afdd40c7913962c3993",
+                "title": "Splitting the Conditional Gradient Algorithm",
+                "year": 2023,
+                "venue": "SIAM Journal on Optimization",
+                "citation_count": 3,
+                "reference_count": 38,
+                "abstract": "We propose a novel generalization of the conditional gradient (CG / Frank-Wolfe) algorithm for minimizing a smooth function $f$ under an intersection of compact convex sets, using a first-order oracle for $\\nabla f$ and linear minimization oracles (LMOs) for the individual sets. Although this computational framework presents many advantages, there are only a small number of algorithms which require one LMO evaluation per set per iteration; furthermore, these algorithms require $f$ to be convex. Our algorithm appears to be the first in this class which is proven to also converge in the nonconvex setting. Our approach combines a penalty method and a product-space relaxation. We show that one conditional gradient step is a sufficient subroutine for our penalty method to converge, and we provide several analytical results on the product-space relaxation's properties and connections to other problems in optimization. We prove that our average Frank-Wolfe gap converges at a rate of $\\mathcal{O}(\\ln t/\\sqrt{t})$, -- only a log factor worse than the vanilla CG algorithm with one set.",
+                "authors": [
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    },
+                    {
+                        "s2_author_id": "145729210",
+                        "name": "S. Pokutta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d74fa4c782fa9286c999535ce8ca7b37dbf4bd37",
+                "title": "On a Frank-Wolfe approach for abs-smooth functions",
+                "year": 2023,
+                "venue": "Optimization Methods and Software",
+                "citation_count": 3,
+                "reference_count": 45,
+                "abstract": "We propose an algorithm which appears to be the first bridge between the fields of conditional gradient methods and abs-smooth optimization. Our problem setting is motivated by various applications that lead to nonsmoothness, such as $\\ell_1$ regularization, phase retrieval problems, or ReLU activation in machine learning. To handle the nonsmoothness in our problem, we propose a generalization to the traditional Frank-Wolfe gap and prove that first-order minimality is achieved when it vanishes. We derive a convergence rate for our algorithm which is {\\em identical} to the smooth case. Although our algorithm necessitates the solution of a subproblem which is more challenging than the smooth case, we provide an efficient numerical method for its partial solution, and we identify several applications where our approach fully solves the subproblem. Numerical and theoretical convergence is demonstrated, yielding several conjectures.",
+                "authors": [
+                    {
+                        "s2_author_id": "2162871186",
+                        "name": "Timo Kreimeier"
+                    },
+                    {
+                        "s2_author_id": "145729210",
+                        "name": "S. Pokutta"
+                    },
+                    {
+                        "s2_author_id": "143775646",
+                        "name": "A. Walther"
+                    },
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eee74e2c6480ac011e70815eb85d38e8508aff62",
+                "title": "Signal Recovery from Inconsistent Nonlinear Observations",
+                "year": 2022,
+                "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": "We show that many nonlinear observation models in signal recovery can be represented using firmly nonexpansive operators. To address problems with inaccurate measurements, we propose solving a variational inequality relaxation which is guaranteed to possess solutions under mild conditions and which coincides with the original problem if it happens to be consistent. We then present an efficient algorithm for its solution, as well as numerical applications in signal and image recovery, including an experimental operator-theoretic method of promoting sparsity.",
+                "authors": [
+                    {
+                        "s2_author_id": "1783400",
+                        "name": "P. Combettes"
+                    },
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "143d9b3f9b687fea9dde3bfd66f7bbd871c1628f",
+                "title": "Reconstruction of functions from prescribed proximal points",
+                "year": 2021,
+                "venue": "Journal of Approximation Theory",
+                "citation_count": 10,
+                "reference_count": 67,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1783400",
+                        "name": "P. Combettes"
+                    },
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e2f2ead03e2128a37d922afa05e417453009939",
+                "title": "A Variational Inequality Model for the Construction of Signals from Inconsistent Nonlinear Equations",
+                "year": 2021,
+                "venue": "SIAM Journal of Imaging Sciences",
+                "citation_count": 13,
+                "reference_count": 66,
+                "abstract": "Building up on classical linear formulations, we posit that a broad class of problems in signal synthesis and in signal recovery are reducible to the basic task of finding a point in a closed convex subset of a Hilbert space that satisfies a number of nonlinear equations involving firmly nonexpansive operators. We investigate this formalism in the case when, due to inaccurate modeling or perturbations, the nonlinear equations are inconsistent. A relaxed formulation of the original problem is proposed in the form of a variational inequality. The properties of the relaxed problem are investigated and a provenly convergent block-iterative algorithm, whereby only blocks of the underlying firmly nonexpansive operators are activated at a given iteration, is devised to solve it. Numerical experiments illustrate robust recoveries in several signal and image processing applications.",
+                "authors": [
+                    {
+                        "s2_author_id": "1783400",
+                        "name": "P. Combettes"
+                    },
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a752abb70c8837dfdee6c46b4f8754bf17df0d0c",
+                "title": "Block-Activated Algorithms For Multicomponent Fully Nonsmooth Minimization",
+                "year": 2021,
+                "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+                "citation_count": 2,
+                "reference_count": 33,
+                "abstract": "Under consideration are multicomponent minimization problems involving a separable nonsmooth convex function penalizing the components individually, and nonsmooth convex coupling terms penalizing linear mixtures of the components. We investigate the application of block-activated proximal algorithms for solving such problems, i.e., algorithms which, at each iteration, need to use only a block of the underlying functions, as opposed to all of them as in standard methods. For smooth coupling functions, several block-activated algorithms exist and they are well understood. By contrast, in the fully nonsmooth case, few block-activated methods are available and little effort has been devoted to assessing them. Our goal is to shed more light on the implementation, the features, and the behavior of these algorithms, compare their merits, and provide machine learning and image recovery experiments illustrating their performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "2802240",
+                        "name": "Minh N. B\u00f9i"
+                    },
+                    {
+                        "s2_author_id": "1783400",
+                        "name": "P. Combettes"
+                    },
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6782dc5152919694c7d4debebf7374d7ac90451c",
+                "title": "A Fixed Point Framework for Recovering Signals from Nonlinear Transformations",
+                "year": 2020,
+                "venue": "European Signal Processing Conference",
+                "citation_count": 10,
+                "reference_count": 21,
+                "abstract": "We consider the problem of recovering a signal from nonlinear transformations, under convex constraints modeling a priori information. Standard feasibility and optimization methods are ill-suited to tackle this problem due to the nonlinearities. We show that, in many common applications, the transformation model can be associated with fixed point equations involving firmly nonexpansive operators. In turn, the recovery problem is reduced to a tractable common fixed point formulation, which is solved efficiently by a provably convergent, block-iterative algorithm. Applications to signal and image recovery are demonstrated. Inconsistent problems are also addressed.",
+                "authors": [
+                    {
+                        "s2_author_id": "1783400",
+                        "name": "P. Combettes"
+                    },
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5457a0f1ef6338dad2f09dfc01e1b9e67be7a095",
+                "title": "Rocket Launch Noise and the Coanda Effect",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38794759",
+                        "name": "Caroline P. Lubert"
+                    },
+                    {
+                        "s2_author_id": "103475234",
+                        "name": "Jon N. Romero"
+                    },
+                    {
+                        "s2_author_id": "34880380",
+                        "name": "J. Sochacki"
+                    },
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7874ba5be231833b8313ff541da572f257ab118e",
+                "title": "Obstructions to convexity in neural codes",
+                "year": 2015,
+                "venue": "Advances in Applied Mathematics",
+                "citation_count": 64,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5379511",
+                        "name": "Caitlin Lienkaemper"
+                    },
+                    {
+                        "s2_author_id": "4686418",
+                        "name": "Anne Shiu"
+                    },
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec36a426cc5c203a9dcf5cbbaf07ec4a5b6147fc",
+                "title": "Analyzing multistationarity in chemical reaction networks using the determinant optimization method",
+                "year": 2015,
+                "venue": "Applied Mathematics and Computation",
+                "citation_count": 14,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3415112",
+                        "name": "Bryan F\u00e9lix"
+                    },
+                    {
+                        "s2_author_id": "4686418",
+                        "name": "Anne Shiu"
+                    },
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a6442fa86ddd7346b0061accf3925cb583e178e0",
+                "title": "Architectural acoustical oddities",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3414766",
+                        "name": "Zev Woodstock"
+                    },
+                    {
+                        "s2_author_id": "38794759",
+                        "name": "Caroline P. Lubert"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "51282037",
+                "name": "G\u00e1bor Braun"
+            },
+            {
+                "s2_author_id": "2342283692",
+                "name": "Jannis Halbey"
+            },
+            {
+                "s2_author_id": "145729210",
+                "name": "S. Pokutta"
+            },
+            {
+                "s2_author_id": "2162871186",
+                "name": "Timo Kreimeier"
+            },
+            {
+                "s2_author_id": "143775646",
+                "name": "A. Walther"
+            },
+            {
+                "s2_author_id": "1783400",
+                "name": "P. Combettes"
+            },
+            {
+                "s2_author_id": "2802240",
+                "name": "Minh N. B\u00f9i"
+            },
+            {
+                "s2_author_id": "38794759",
+                "name": "Caroline P. Lubert"
+            },
+            {
+                "s2_author_id": "103475234",
+                "name": "Jon N. Romero"
+            },
+            {
+                "s2_author_id": "34880380",
+                "name": "J. Sochacki"
+            },
+            {
+                "s2_author_id": "5379511",
+                "name": "Caitlin Lienkaemper"
+            },
+            {
+                "s2_author_id": "4686418",
+                "name": "Anne Shiu"
+            },
+            {
+                "s2_author_id": "3415112",
+                "name": "Bryan F\u00e9lix"
+            }
+        ],
+        "total_co_authors": 13,
+        "papers_retrieved": 13
+    }
+}

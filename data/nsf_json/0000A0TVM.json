@@ -1,0 +1,1436 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A0TVM",
+        "name": "Andre Bauer",
+        "primary_affiliation": "Illinois Institute of Technology",
+        "primary_department": null,
+        "all_affiliations": [
+            "Illinois Institute of Technology"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "IL"
+        ],
+        "perf_cities": [
+            "Chicago"
+        ],
+        "org_names": [
+            "Illinois Institute of Technology"
+        ],
+        "org_ueis": [
+            "E2NDENMDUEG8"
+        ],
+        "inst_types": [
+            "nonprofit"
+        ],
+        "emails": [
+            "abauer7@iit.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2451392",
+                "title": "CRII: CSR: Co-Simulation-Based Optimization of Container Orchestration Platforms",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-08-15",
+                "exp_date": "2027-07-31",
+                "award_amount": 150000.0,
+                "total_amount": 150000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "CSR-Computer Systems Research"
+                ],
+                "program_codes": [
+                    "735400"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "CSE",
+                "div_abbr": "CNS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Computer and Network Systems",
+                "cfda_num": "47.070",
+                "po_name": "Greg Peterson",
+                "keywords": [
+                    "orchestration",
+                    "platforms",
+                    "simulation",
+                    "optimization",
+                    "applications",
+                    "performance",
+                    "cosimo",
+                    "framework",
+                    "cloud",
+                    "through"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "CSR-Computer Systems Research"
+        ],
+        "program_codes": [
+            "735400"
+        ],
+        "program_references": [],
+        "program_ref_codes": [],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CNS"
+        ],
+        "fund_divisions": [
+            "Division Of Computer and Network Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Greg Peterson"
+        ],
+        "keywords": [
+            "orchestration",
+            "platforms",
+            "simulation",
+            "optimization",
+            "applications",
+            "performance",
+            "cosimo",
+            "framework",
+            "cloud",
+            "through",
+            "container",
+            "software",
+            "code",
+            "containerized",
+            "cost",
+            "efficiency",
+            "tuning",
+            "complex",
+            "configuration",
+            "spaces"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.51
+    },
+    "s2_profile": {
+        "s2_author_id": "2239105163",
+        "name": "Andre Bauer",
+        "affiliations": [],
+        "paper_count": 24,
+        "citation_count": 242,
+        "h_index": 8,
+        "papers": [
+            {
+                "s2_paper_id": "4e2907a9d4ab8d137f44f7babbc36f6a004a37a4",
+                "title": "Addressing Reproducibility Challenges in HPC with Continuous Integration",
+                "year": 2025,
+                "venue": "International Conference on Software Composition",
+                "citation_count": 2,
+                "reference_count": 82,
+                "abstract": "The high-performance computing (HPC) community has adopted incentive structures to motivate reproducible research, with major conferences awarding badges to papers that meet reproducibility requirements. Yet, many papers do not meet such requirements. The uniqueness of HPC infrastructure and software, coupled with strict access requirements, may limit opportunities for reproducibility. In the absence of resource access, we believe that regular documented testing, through continuous integration (CI), coupled with complete provenance information, can be used as a substitute. Here, we argue that better HPC-compliant CI solutions will improve reproducibility of applications. We present a survey of reproducibility initiatives and describe the barriers to reproducibility in HPC. To address existing limitations, we present a GitHub Action, CORRECT, that enables secure execution of tests on remote HPC resources. We evaluate CORRECT\u2019s usability across three different types of HPC applications, demonstrating the effectiveness of using CORRECT for automating and documenting reproducibility evaluations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2308097253",
+                        "name": "Val\u00e9rie Hayot-Sasson"
+                    },
+                    {
+                        "s2_author_id": "2360321272",
+                        "name": "Nathaniel Hudson"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2311500388",
+                        "name": "Maxime Gonthier"
+                    },
+                    {
+                        "s2_author_id": "2303397640",
+                        "name": "Ian T. Foster"
+                    },
+                    {
+                        "s2_author_id": "2267696593",
+                        "name": "Kyle Chard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4f24df956037212992c0885b989c2023e407bfb8",
+                "title": "Quantifying Data Leakage in Failure Prediction Tasks",
+                "year": 2025,
+                "venue": "International Conference on Performance Engineering",
+                "citation_count": 0,
+                "reference_count": 27,
+                "abstract": "With the ever increasing importance of cloud computing and a strong focus on reliable data centers, a high amount of research has been done on failure prediction for hard disk drives. The collection of monitoring data, such as SMART statistics (Self-Monitoring, Analysis, and Reporting Technology) from operational HDDs, enables operators to obtain predictions about the expected remaining useful life. Numerous methods for HDD failure prediction have been published in recent years, and their evaluation has shown decent results. However, a naive splitting into training and test sets can lead to data leakage and, thus, over-optimistic results that cannot be achieved on the data of scientific interest. In this paper, we propose a novel data leakage measure for quantifying the amount of data leakage in training and test datasets. Further, we define four splitting techniques and evaluate our measure in terms of the performance optimism of classification models with respect to these different splitting strategies. Our results consistently show that splitting techniques prone to data leakage induce an overestimation of predictive performance. Overall, we were able to show the usefulness of the defined data leakage measure, as well as its connection with different splitting techniques and the performance optimism of prediction models.",
+                "authors": [
+                    {
+                        "s2_author_id": "2300291704",
+                        "name": "Daniel Grillmeyer"
+                    },
+                    {
+                        "s2_author_id": "2105722669",
+                        "name": "Marius Hadry"
+                    },
+                    {
+                        "s2_author_id": "40929498",
+                        "name": "Veronika Lesch"
+                    },
+                    {
+                        "s2_author_id": "2303462807",
+                        "name": "Vanessa Borst"
+                    },
+                    {
+                        "s2_author_id": "1405453768",
+                        "name": "Robert Leppich"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2137102879",
+                        "name": "S. Kounev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "559cb85440def8e78329e9405add39bbad4269df",
+                "title": "Core Hours and Carbon Credits: Incentivizing Sustainability in HPC",
+                "year": 2025,
+                "venue": "International Conference on Software Composition",
+                "citation_count": 4,
+                "reference_count": 67,
+                "abstract": "Efforts to reduce the environmental impact of HPC often focus on resource providers, but choices made by users, e.g., concerning where to run, can be equally consequential. Here we present evidence that new accounting methods that charge users for energy used can incentivize significantly more efficient behavior. We first survey 300 HPC users and find that fewer than 30% are aware of their energy consumption, and that energy efficiency is a low priority concern. We then propose two new multi-resource accounting methods that charge for computations based on their energy consumption or carbon footprint, respectively. Finally, we conduct both simulation studies and a user study to evaluate the impact of these two methods on user behavior. We find that while only providing users feedback on their energy use had no impact on their behavior, associating energy with cost incentivized users to select more efficient resources, and use 40% less energy.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044357637",
+                        "name": "Alok Kamatar"
+                    },
+                    {
+                        "s2_author_id": "2311500388",
+                        "name": "Maxime Gonthier"
+                    },
+                    {
+                        "s2_author_id": "2308097253",
+                        "name": "Val\u00e9rie Hayot-Sasson"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "3475544",
+                        "name": "Marcin Copik"
+                    },
+                    {
+                        "s2_author_id": "2134891993",
+                        "name": "Raul Castro Fernandez"
+                    },
+                    {
+                        "s2_author_id": "2267726340",
+                        "name": "Torsten Hoefler"
+                    },
+                    {
+                        "s2_author_id": "2267696593",
+                        "name": "Kyle Chard"
+                    },
+                    {
+                        "s2_author_id": "2303397640",
+                        "name": "Ian T. Foster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "88cccdd31430e7cca875bf80a44283908220309e",
+                "title": "HotCloudPerf'25 Workshop Chairs' Welcome",
+                "year": 2025,
+                "venue": "International Conference on Performance Engineering",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": "The HotCloudPerf workshop proposes a meeting venue for academics and practitioners---from experts to trainees---in the field of Cloud computing performance. The new understanding of Cloud computing covers the full computing continuum from data centers to edge to IoT sensors and devices. The workshop aims to engage this community and lead to the development of new methodological aspects for gaining a deeper understanding not only of cloud performance, but also of cloud operation and behavior, through diverse quantitative evaluation tools, including benchmarks, metrics, and workload generators. The workshop focuses on novel cloud properties such as elasticity, performance isolation, dependability, and other non-functional system properties, in addition to classical performance-related metrics such as response time, throughput, scalability, and efficiency. HotCloudPerf 2025, co-located with the 16th ACM/SPEC International Conference on Performance Engineering (ICPE 2025), is held on May 6th, 2025.",
+                "authors": [
+                    {
+                        "s2_author_id": "3409674",
+                        "name": "Klervie Tocz\u00e9"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "1887201",
+                        "name": "Dragi Kimovski"
+                    },
+                    {
+                        "s2_author_id": "2355439673",
+                        "name": "Daniele Bonetta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aa67e450f015014a536626751a9850b8e398d5ae",
+                "title": "Microservice Applications and Their Workloads on GitHub",
+                "year": 2025,
+                "venue": "International Conference on Performance Engineering",
+                "citation_count": 0,
+                "reference_count": 23,
+                "abstract": "Many cloud applications employ a microservice architecture to reap its various benefits, such as independent scalability and development. However, microservices' distributed nature comes with its own challenges, which the literature tries to combat with various approaches in domains, such as autoscaling or service placement. Researchers, especially performance engineers, need representative microservice applications as a basis to develop and evaluate their approaches. While the literature proposes several reference and benchmark applications, the set of commonly used applications is rather limited. Further, the representativeness of reference applications for industry practices has been challenged, raising questions about the applicability of existing approaches. To investigate possible alternatives to and inspirations for microservice testbeds, we conduct an exploratory search of microservice applications and their workloads by mining GitHub repositories. Our work provides two datasets containing 553 applications and 8 workload dataset repositories, respectively. In addition, we provide a first analysis of the collected data that future work can build upon.",
+                "authors": [
+                    {
+                        "s2_author_id": "2300292992",
+                        "name": "Yannik Lubas"
+                    },
+                    {
+                        "s2_author_id": "2069475608",
+                        "name": "Martin Straesser"
+                    },
+                    {
+                        "s2_author_id": "2300312466",
+                        "name": "Ivo Rohwer"
+                    },
+                    {
+                        "s2_author_id": "2137102879",
+                        "name": "S. Kounev"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "caabf3440c5f3de3da8bbd359e40d1482b655433",
+                "title": "Bridging Clusters: A Comparative Look at Multi-Cluster Networking Performance in Kubernetes",
+                "year": 2025,
+                "venue": "International Conference on Performance Engineering",
+                "citation_count": 1,
+                "reference_count": 26,
+                "abstract": "Microservices and containers have transformed the way applications are developed, tested, deployed, scaled, and managed. Several container orchestration platforms, like Kubernetes, have emerged, streamlining container management at scale and providing enterprise-grade support for application modernization. Driven by application, compliance, and end-user requirements, companies opt to deploy multiple Kubernetes clusters across public and private clouds. However, deploying applications in multi-cluster environments presents distinct challenges, especially managing the communication between the microservices spread across clusters. Traditionally, custom configurations, like VPNs or firewall rules, were required to connect such complex setups of clusters spanning the public cloud and on-premise infrastructure. This industry paper presents a comprehensive analysis of network performance characteristics for three popular open-source multi-cluster networking solutions (namely, Skupper, Submariner, and Istio), addressing the challenges of microservices connectivity across clusters. We evaluate key factors such as latency, throughput, and resource utilization using established tools and benchmarks, offering valuable insights for organizations aiming to optimize the network performance of their multi-cluster deployments. Our experiments revealed that each solution involves unique trade-offs in performance and resource efficiency: Submariner offers low latency and consistency, Istio excels in throughput with moderate resource consumption, and Skupper stands out for its ease of configuration while maintaining balanced performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "2300294419",
+                        "name": "Sai Sindhur Malleni"
+                    },
+                    {
+                        "s2_author_id": "2360514750",
+                        "name": "Ra\u00fal Sevilla"
+                    },
+                    {
+                        "s2_author_id": "2359055608",
+                        "name": "Jos\u00e9 Castillo Lema"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ce9faf8e836359bf8cf0f1cad1e341bf2775bce0",
+                "title": "Generating Executable Microservice Applications for Performance Benchmarking",
+                "year": 2025,
+                "venue": "International Conference on Performance Engineering",
+                "citation_count": 0,
+                "reference_count": 31,
+                "abstract": "Microservice applications are the building blocks of modern cloud applications. As such, their performance aspects have been receiving increasing attention in the software engineering community. However, many microservice performance studies use only a small set of popular microservice test applications for experiments, questioning the applicability of their approaches in practice. Researchers currently lack the opportunity to collect large and diverse datasets containing performance metrics of microservices. This is because popular test applications only represent specific technology stacks and often come with custom benchmark tooling (e.g., load generation and monitoring). In this paper, we present Creo, a framework for generating microservice applications that (1) are fully executable, (2) have configurable properties and resource usage profiles, and (3) have built-in support for standardized monitoring, load generation, and deployment. Our approach enables researchers to run experiments with diverse microservice applications with minimal effort. We demonstrate the value of our approach in the context of two use cases. First, we show that using generated applications when training machine learning models for predicting performance degradation can improve the prediction accuracy. Second, we evaluate a recent approach for performance anomaly classification on a set of generated applications highlighting strengths and weaknesses not discussed in the original work.",
+                "authors": [
+                    {
+                        "s2_author_id": "2300292992",
+                        "name": "Yannik Lubas"
+                    },
+                    {
+                        "s2_author_id": "2069475608",
+                        "name": "Martin Straesser"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2137102879",
+                        "name": "S. Kounev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e133b080d4a53ed305d043005c2e7e79533d27f",
+                "title": "Object Proxy Patterns for Accelerating Distributed Applications",
+                "year": 2024,
+                "venue": "IEEE Transactions on Parallel and Distributed Systems",
+                "citation_count": 9,
+                "reference_count": 84,
+                "abstract": "Workflow and serverless frameworks have empowered new approaches to distributed application design by abstracting compute resources. However, their typically limited or one-size-fits-all support for advanced data flow patterns leaves optimization to the application programmer\u2014optimization that becomes more difficult as data become larger. The transparent object proxy, which provides wide-area references that can resolve to data regardless of location, has been demonstrated as an effective low-level building block in such situations. Here we propose three high-level proxy-based programming patterns\u2014distributed futures, streaming, and ownership\u2014that make the power of the proxy pattern usable for more complex and dynamic distributed program structures. We motivate these patterns via careful review of application requirements and describe implementations of each pattern. We evaluate our implementations through a suite of benchmarks and by applying them in three meaningful scientific applications, in which we demonstrate substantial improvements in runtime, throughput, and memory usage.",
+                "authors": [
+                    {
+                        "s2_author_id": "51916788",
+                        "name": "J. G. Pauloski"
+                    },
+                    {
+                        "s2_author_id": "2308097253",
+                        "name": "Val\u00e9rie Hayot-Sasson"
+                    },
+                    {
+                        "s2_author_id": "2256987355",
+                        "name": "Logan Ward"
+                    },
+                    {
+                        "s2_author_id": "2309245702",
+                        "name": "Alexander Brace"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2267696593",
+                        "name": "Kyle Chard"
+                    },
+                    {
+                        "s2_author_id": "2303397640",
+                        "name": "Ian T. Foster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3d50c441a4bcf4713a4e9f4642df2e3c75c701a7",
+                "title": "Enhancing Energy Efficiency with Multi-Site Scheduling Strategies",
+                "year": 2024,
+                "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": "We analyze the energy efficiency of small application components across commodity resources. We demonstrate that 1) no single machine is ideal for all tasks examined, 2) the energy efficiency of an application varies by machine, and 3) runtime is insufficient to approximate energy consumption. These results illustrate that intelligent matching of tasks to machines has the potential to save without impacting performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044357637",
+                        "name": "Alok Kamatar"
+                    },
+                    {
+                        "s2_author_id": "2308097253",
+                        "name": "Val\u00e9rie Hayot-Sasson"
+                    },
+                    {
+                        "s2_author_id": "2115014071",
+                        "name": "Y. Babuji"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "8776771",
+                        "name": "Gourav Rattihalli"
+                    },
+                    {
+                        "s2_author_id": "52141406",
+                        "name": "Ninad Hogade"
+                    },
+                    {
+                        "s2_author_id": "2263733652",
+                        "name": "D. Milojicic"
+                    },
+                    {
+                        "s2_author_id": "2141693724",
+                        "name": "K. Chard"
+                    },
+                    {
+                        "s2_author_id": "2268575237",
+                        "name": "Ian Foster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4ec981ed24911e9f5cf1162930eb19321bcdafcb",
+                "title": "Comprehensive Exploration of Synthetic Data Generation: A Survey",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 88,
+                "reference_count": 0,
+                "abstract": "Recent years have witnessed a surge in the popularity of Machine Learning (ML), applied across diverse domains. However, progress is impeded by the scarcity of training data due to expensive acquisition and privacy legislation. Synthetic data emerges as a solution, but the abundance of released models and limited overview literature pose challenges for decision-making. This work surveys 417 Synthetic Data Generation (SDG) models over the last decade, providing a comprehensive overview of model types, functionality, and improvements. Common attributes are identified, leading to a classification and trend analysis. The findings reveal increased model performance and complexity, with neural network-based approaches prevailing, except for privacy-preserving data generation. Computer vision dominates, with GANs as primary generative models, while diffusion models, transformers, and RNNs compete. Implications from our performance evaluation highlight the scarcity of common metrics and datasets, making comparisons challenging. Additionally, the neglect of training and computational costs in literature necessitates attention in future research. This work serves as a guide for SDG model selection and identifies crucial areas for future exploration.",
+                "authors": [
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2278221653",
+                        "name": "Simon Trapp"
+                    },
+                    {
+                        "s2_author_id": "2248168899",
+                        "name": "Michael Stenger"
+                    },
+                    {
+                        "s2_author_id": "1405453768",
+                        "name": "Robert Leppich"
+                    },
+                    {
+                        "s2_author_id": "2137102879",
+                        "name": "S. Kounev"
+                    },
+                    {
+                        "s2_author_id": "51185014",
+                        "name": "Mark Leznik"
+                    },
+                    {
+                        "s2_author_id": "2267696593",
+                        "name": "Kyle Chard"
+                    },
+                    {
+                        "s2_author_id": "2268575237",
+                        "name": "Ian Foster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "61d1f5c90f2d5415b6b8045314cbf97273a58a6d",
+                "title": "Octopus: Experiences with a Hybrid Event-Driven Architecture for Distributed Scientific Computing",
+                "year": 2024,
+                "venue": "SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "citation_count": 6,
+                "reference_count": 60,
+                "abstract": "Scientific research increasingly relies on distributed computational resources, storage systems, networks, and instruments, ranging from HPC and cloud systems to edge devices. Event-driven architecture (EDA) benefits applications targeting distributed research infrastructures by enabling the organization, communication, processing, reliability, and security of events generated from many sources. To support the development of scientific EDA, we introduce Octopus, a hybrid, cloud-to-edge event fabric designed to link many local event producers and consumers with cloud-hosted brokers, and to provide a fabric for developing resilient applications. Octopus can be scaled to meet demand, permits the deployment of highly available Triggers for automatic event processing, and enforces fine-grained access control. We identify requirements in self-driving laboratories, scientific data automation, online task scheduling, epidemic modeling, and dynamic workflow management use cases, and present results demonstrating Octopus\u2019 ability to meet those requirements. Octopus supports producing and consuming events at a rate of over 4.2 M and 9.6 M events per second, respectively, from distributed clients.",
+                "authors": [
+                    {
+                        "s2_author_id": "1471350193",
+                        "name": "Haochen Pan"
+                    },
+                    {
+                        "s2_author_id": "36319017",
+                        "name": "Ryan Chard"
+                    },
+                    {
+                        "s2_author_id": "2311641474",
+                        "name": "Sicheng Zhou"
+                    },
+                    {
+                        "s2_author_id": "2044357637",
+                        "name": "Alok Kamatar"
+                    },
+                    {
+                        "s2_author_id": "46204073",
+                        "name": "Rafael Vescovi"
+                    },
+                    {
+                        "s2_author_id": "2308097253",
+                        "name": "Val\u00e9rie Hayot-Sasson"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2311500388",
+                        "name": "Maxime Gonthier"
+                    },
+                    {
+                        "s2_author_id": "2267696593",
+                        "name": "Kyle Chard"
+                    },
+                    {
+                        "s2_author_id": "2303397640",
+                        "name": "Ian T. Foster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "76312c5befcc0cc56888fd8618851c1baac83c86",
+                "title": "Thinking in Categories: A Survey on Assessing the Quality for Time Series Synthesis",
+                "year": 2024,
+                "venue": "ACM Journal of Data and Information Quality",
+                "citation_count": 2,
+                "reference_count": 117,
+                "abstract": "Time series data are widely used and provide a wealth of information for countless applications. However, some applications are faced with a limited amount of data, or the data cannot be used due to confidentiality concerns. To overcome these obstacles, time series can be generated synthetically. For example, electrocardiograms can be synthesized to make them available for building models to predict conditions such as cardiac arrhythmia without leaking patient information. Although many different approaches to time series synthesis have been proposed, evaluating the quality of synthetic time series data poses unique challenges and remains an open problem, as there is a lack of a clear definition of what constitutes a \u201cgood\u201d synthesis. To this end, we present a comprehensive literature survey to identify different aspects of synthesis quality and their relationships. Based on this, we propose a definition of synthesis quality and a systematic evaluation procedure for assessing it. With this work, we aim to provide a common language and criteria for evaluating synthetic time series data. Our goal is to promote more rigorous and reproducible research in time series synthesis by enabling researchers and practitioners to generate high-quality synthetic time series data.",
+                "authors": [
+                    {
+                        "s2_author_id": "2248168899",
+                        "name": "Michael Stenger"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2003557403",
+                        "name": "Thomas Prantl"
+                    },
+                    {
+                        "s2_author_id": "1405453768",
+                        "name": "Robert Leppich"
+                    },
+                    {
+                        "s2_author_id": "48808283",
+                        "name": "Nathaniel Hudson"
+                    },
+                    {
+                        "s2_author_id": "2141693724",
+                        "name": "K. Chard"
+                    },
+                    {
+                        "s2_author_id": "2268575237",
+                        "name": "Ian Foster"
+                    },
+                    {
+                        "s2_author_id": "2137102879",
+                        "name": "S. Kounev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a0f94de1a1f09778b6912343665440f005fe29ac",
+                "title": "GreenFaaS: Maximizing Energy Efficiency of HPC Workloads with FaaS",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 7,
+                "reference_count": 53,
+                "abstract": "Application energy efficiency can be improved by executing each application component on the compute element that consumes the least energy while also satisfying time constraints. In principle, the function as a service (FaaS) paradigm should simplify such optimizations by abstracting away compute location, but existing FaaS systems do not provide for user transparency over application energy consumption or task placement. Here we present GreenFaaS, a novel open source framework that bridges this gap between energy-efficient applications and FaaS platforms. GreenFaaS can be deployed by end users or providers across systems to monitor energy use, provide task-specific feedback, and schedule tasks in an energy-aware manner. We demonstrate that intelligent placement of tasks can both reduce energy consumption and improve performance. For a synthetic workload, GreenFaaS reduces the energy-delay product by 45% compared to alternatives. Furthermore, running a molecular design application through GreenFaaS can reduce energy consumption by 21% and runtime by 63% by better matching tasks with machines.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044357637",
+                        "name": "Alok Kamatar"
+                    },
+                    {
+                        "s2_author_id": "2308097253",
+                        "name": "Val\u00e9rie Hayot-Sasson"
+                    },
+                    {
+                        "s2_author_id": "2115014071",
+                        "name": "Y. Babuji"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "8776771",
+                        "name": "Gourav Rattihalli"
+                    },
+                    {
+                        "s2_author_id": "52141406",
+                        "name": "Ninad Hogade"
+                    },
+                    {
+                        "s2_author_id": "2263733652",
+                        "name": "D. Milojicic"
+                    },
+                    {
+                        "s2_author_id": "2267696593",
+                        "name": "Kyle Chard"
+                    },
+                    {
+                        "s2_author_id": "2268575237",
+                        "name": "Ian Foster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bac69316bca4d14e0059faf99366af88d3b2f794",
+                "title": "An Empirical Investigation of Container Building Strategies and Warm Times to Reduce Cold Starts in Scientific Computing Serverless Functions",
+                "year": 2024,
+                "venue": "IEEE International Conference on e-Science",
+                "citation_count": 3,
+                "reference_count": 38,
+                "abstract": "Serverless computing has revolutionized application development and deployment by abstracting infrastructure management, allowing developers to focus on writing code. To do so, serverless platforms dynamically create execution environments, often using containers. The cost to create and deploy these environments is known as \"cold start\" latency, and this cost can be particularly detrimental to scientific computing workloads characterized by sporadic and dynamic demands. We investigate methods to mitigate cold start issues in scientific computing applications by pre-installing Python packages in container images. Using data from Globus Compute and Binder, we empirically analyze cold start behavior and evaluate four strategies for building containers, including fully pre-built environments and dynamic, on-demand installations. Our results show that pre-installing all packages reduces initial cold start time but requires significant storage. Conversely, dynamic installation offers lower storage requirements but incurs repetitive delays. Additionally, we implemented a simulator and assessed the impact of different warm times, finding that moderate warm times significantly reduce cold starts without the excessive overhead of maintaining always-hot states.",
+                "authors": [
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2311500388",
+                        "name": "Maxime Gonthier"
+                    },
+                    {
+                        "s2_author_id": "1471350193",
+                        "name": "Haochen Pan"
+                    },
+                    {
+                        "s2_author_id": "36319017",
+                        "name": "Ryan Chard"
+                    },
+                    {
+                        "s2_author_id": "2239102028",
+                        "name": "Daniel Grzenda"
+                    },
+                    {
+                        "s2_author_id": "2069475608",
+                        "name": "Martin Straesser"
+                    },
+                    {
+                        "s2_author_id": "51916788",
+                        "name": "J. G. Pauloski"
+                    },
+                    {
+                        "s2_author_id": "2044357637",
+                        "name": "Alok Kamatar"
+                    },
+                    {
+                        "s2_author_id": "46202504",
+                        "name": "Matt Baughman"
+                    },
+                    {
+                        "s2_author_id": "48808283",
+                        "name": "Nathaniel Hudson"
+                    },
+                    {
+                        "s2_author_id": "2303397640",
+                        "name": "Ian T. Foster"
+                    },
+                    {
+                        "s2_author_id": "2267696593",
+                        "name": "Kyle Chard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c8786742b239ae47ed4e61f61b9b5914b183db16",
+                "title": "Oil & Water? Diffusion of AI Within and Across Scientific Fields",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 10,
+                "reference_count": 31,
+                "abstract": "This study empirically investigates claims of the increasing ubiquity of artificial intelligence (AI) within roughly 80 million research publications across 20 diverse scientific fields, by examining the change in scholarly engagement with AI from 1985 through 2022. We observe exponential growth, with AI-engaged publications increasing approximately thirteenfold (13x) across all fields, suggesting a dramatic shift from niche to mainstream. Moreover, we provide the first empirical examination of the distribution of AI-engaged publications across publication venues within individual fields, with results that reveal a broadening of AI engagement within disciplines. While this broadening engagement suggests a move toward greater disciplinary integration in every field, increased ubiquity is associated with a semantic tension between AI-engaged research and more traditional disciplinary research. Through an analysis of tens of millions of document embeddings, we observe a complex interplay between AI-engaged and non-AI-engaged research within and across fields, suggesting that increasing ubiquity is something of an oil-and-water phenomenon -- AI-engaged work is spreading out over fields, but not mixing well with non-AI-engaged work.",
+                "authors": [
+                    {
+                        "s2_author_id": "2193109",
+                        "name": "Eamon Duede"
+                    },
+                    {
+                        "s2_author_id": "2303397516",
+                        "name": "William Dolan"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2303397640",
+                        "name": "Ian T. Foster"
+                    },
+                    {
+                        "s2_author_id": "2303397454",
+                        "name": "Karim Lakhani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d25c1338238023be0507a4995833683db126bac7",
+                "title": "Security Analysis of a Decentralized, Revocable and Verifiable Attribute-Based Encryption Scheme",
+                "year": 2024,
+                "venue": "ARES",
+                "citation_count": 2,
+                "reference_count": 32,
+                "abstract": "In recent years, digital services have experienced significant growth, exemplified by platforms like Netflix achieving unprecedented revenue levels. Some of these services employ subscription models, with certain content requiring additional payments or offering third-party products. To ensure the widespread availability of diverse digital services anytime and anywhere, providers must have control over content accessibility. To address the multifaceted challenges in this domain, one promising solution is the adoption of attribute-based encryption (ABE). Over the years, various approaches have been proposed in the literature, offering a wide range of features. In a prior study [18], we assessed the security of one of these proposed approaches and identified one that did not meet its promised security standards. In this research we focuses on conducting a security analysis for another ABE scheme to pinpoint its shortcomings and emphasize the critical importance of evaluating the safety and effectiveness of newly proposed schemes. Specifically, we uncover an attack vector within this ABE scheme, which enables malicious users to decrypt content without the required permissions or attributes. Furthermore, we propose a solution to rectify this identified vulnerability.",
+                "authors": [
+                    {
+                        "s2_author_id": "2003557403",
+                        "name": "Thomas Prantl"
+                    },
+                    {
+                        "s2_author_id": "2313129470",
+                        "name": "Marco Lauer"
+                    },
+                    {
+                        "s2_author_id": "2266763343",
+                        "name": "Lukas Horn"
+                    },
+                    {
+                        "s2_author_id": "2069579835",
+                        "name": "Simon Engel"
+                    },
+                    {
+                        "s2_author_id": "2313218392",
+                        "name": "David Dingel"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2592027",
+                        "name": "Christian Krupitzer"
+                    },
+                    {
+                        "s2_author_id": "2137102879",
+                        "name": "S. Kounev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f8a307ec4c096900b109266529e40c817c2de2d6",
+                "title": "Unveiling Temporal Performance Deviation: Leveraging Clustering in Microservices Performance Analysis",
+                "year": 2024,
+                "venue": "International Conference on Performance Engineering",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": "As the market for cloud computing continues to grow, an increasing number of users are deploying applications as microservices. The shift introduces unique challenges in identifying and addressing performance issues, particularly within large and complex infrastructures. To address this challenge, we propose a methodology that unveils temporal performance deviations in microservices by clustering containers based on their performance characteristics at different time intervals. Showcasing our methodology on the Alibaba dataset, we found both stable and dynamic performance patterns, providing a valuable tool for enhancing overall performance and reliability in modern application landscapes.",
+                "authors": [
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2300292534",
+                        "name": "Timo Dittus"
+                    },
+                    {
+                        "s2_author_id": "2069475608",
+                        "name": "Martin Straesser"
+                    },
+                    {
+                        "s2_author_id": "2044357637",
+                        "name": "Alok Kamatar"
+                    },
+                    {
+                        "s2_author_id": "46202504",
+                        "name": "Matt Baughman"
+                    },
+                    {
+                        "s2_author_id": "74623829",
+                        "name": "Lukas Beierlieb"
+                    },
+                    {
+                        "s2_author_id": "2105722669",
+                        "name": "Marius Hadry"
+                    },
+                    {
+                        "s2_author_id": "2300291704",
+                        "name": "Daniel Grillmeyer"
+                    },
+                    {
+                        "s2_author_id": "2300292992",
+                        "name": "Yannik Lubas"
+                    },
+                    {
+                        "s2_author_id": "2137102879",
+                        "name": "S. Kounev"
+                    },
+                    {
+                        "s2_author_id": "2268575237",
+                        "name": "Ian Foster"
+                    },
+                    {
+                        "s2_author_id": "2267696593",
+                        "name": "Kyle Chard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fe6473bcbb3f44d5cfebee4347dc821a05500684",
+                "title": "Evaluation is key: a survey on evaluation measures for synthetic time series",
+                "year": 2024,
+                "venue": "Journal of Big Data",
+                "citation_count": 22,
+                "reference_count": 34,
+                "abstract": "Synthetic data generation describes the process of learning the underlying distribution of a given real dataset in a model, which is, in turn, sampled to produce new data objects still adhering to the original distribution. This approach often finds application where circumstances limit the availability or usability of real-world datasets, for instance, in health care due to privacy concerns. While image synthesis has received much attention in the past, time series are key for many practical (e.g., industrial) applications. To date, numerous different generative models and measures to evaluate time series syntheses have been proposed. However, regarding the defining features of high-quality synthetic time series and how to quantify quality, no consensus has yet been reached among researchers. Hence, we propose a comprehensive survey on evaluation measures for time series generation to assist users in evaluating synthetic time series. For one, we provide brief descriptions or - where applicable - precise definitions. Further, we order the measures in a taxonomy and examine applicability and usage. To assist in the selection of the most appropriate measures, we provide a concise guide for fast lookup. Notably, our findings reveal a lack of a universally accepted approach for an evaluation procedure, including the selection of appropriate measures. We believe this situation hinders progress and may even erode evaluation standards to a \u201cdo as you like\u201d-approach to synthetic data evaluation. Therefore, this survey is a preliminary step to advance the field of synthetic data evaluation.",
+                "authors": [
+                    {
+                        "s2_author_id": "2248168899",
+                        "name": "Michael Stenger"
+                    },
+                    {
+                        "s2_author_id": "1405453768",
+                        "name": "Robert Leppich"
+                    },
+                    {
+                        "s2_author_id": "2268575237",
+                        "name": "Ian Foster"
+                    },
+                    {
+                        "s2_author_id": "2137102879",
+                        "name": "S. Kounev"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0fec41f1a577513e9bb59a5eb85820eb84771acf",
+                "title": "The globus compute dataset: An open function-as-a-service dataset from the edge to the cloud",
+                "year": 2023,
+                "venue": "Future generations computer systems",
+                "citation_count": 30,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "1471350193",
+                        "name": "Haochen Pan"
+                    },
+                    {
+                        "s2_author_id": "36319017",
+                        "name": "Ryan Chard"
+                    },
+                    {
+                        "s2_author_id": "2115014071",
+                        "name": "Y. Babuji"
+                    },
+                    {
+                        "s2_author_id": "36210910",
+                        "name": "Josh Bryan"
+                    },
+                    {
+                        "s2_author_id": "2274409547",
+                        "name": "Devesh Tiwari"
+                    },
+                    {
+                        "s2_author_id": "2268575237",
+                        "name": "Ian Foster"
+                    },
+                    {
+                        "s2_author_id": "2141693724",
+                        "name": "K. Chard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "306a312c0bae22f30a406187ab18c5724cefb661",
+                "title": "Memory Injections: Correcting Multi-Hop Reasoning Failures During Inference in Transformer-Based Language Models",
+                "year": 2023,
+                "venue": "BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+                "citation_count": 23,
+                "reference_count": 49,
+                "abstract": "Answering multi-hop reasoning questions requires retrieving and synthesizing information from diverse sources. Large Language Models (LLMs) struggle to perform such reasoning consistently. Here we propose an approach to pinpoint and rectify multi-hop reasoning failures through targeted memory injections on LLM attention heads. First, we analyze the per-layer activations of GPT-2 models in response to single and multi-hop prompts. We then propose a mechanism that allows users to inject pertinent prompt-specific information, which we refer to as \u201cmemories,\u201d at critical LLM locations during inference. By thus enabling the LLM to incorporate additional relevant information during inference, we enhance the quality of multi-hop prompt completions. We show empirically that a simple, efficient, and targeted memory injection into a key attention layer can often increase the probability of the desired next token in multi-hop tasks, by up to 424%.",
+                "authors": [
+                    {
+                        "s2_author_id": "2239104574",
+                        "name": "Mansi Sakarvadia"
+                    },
+                    {
+                        "s2_author_id": "144373088",
+                        "name": "Aswathy Ajith"
+                    },
+                    {
+                        "s2_author_id": "2239168709",
+                        "name": "Arham Khan"
+                    },
+                    {
+                        "s2_author_id": "2239102028",
+                        "name": "Daniel Grzenda"
+                    },
+                    {
+                        "s2_author_id": "48808283",
+                        "name": "Nathaniel Hudson"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "3091414",
+                        "name": "K. Chard"
+                    },
+                    {
+                        "s2_author_id": "1698701",
+                        "name": "Ian T Foster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "453d85311169486ad77980db3466677f2b627b9e",
+                "title": "Tournament-Based Pretraining to Accelerate Federated Learning",
+                "year": 2023,
+                "venue": "SC Workshops",
+                "citation_count": 4,
+                "reference_count": 32,
+                "abstract": "Advances in hardware, proliferation of compute at the edge, and data creation at unprecedented scales have made federated learning (FL) necessary for the next leap forward in pervasive machine learning. For privacy and network reasons, large volumes of data remain stranded on endpoints located in geographically austere (or at least austere network-wise) locations. However, challenges exist to the effective use of these data. To solve the system and functional level challenges, we present an three novel variants of a serverless federated learning framework. We also present tournament-based pretraining, which we demonstrate significantly improves model performance in some experiments. Overall, these extensions to FL and our novel training method enable greater focus on science rather than ML development.",
+                "authors": [
+                    {
+                        "s2_author_id": "46202504",
+                        "name": "Matt Baughman"
+                    },
+                    {
+                        "s2_author_id": "48808283",
+                        "name": "Nathaniel Hudson"
+                    },
+                    {
+                        "s2_author_id": "36319017",
+                        "name": "Ryan Chard"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2065944820",
+                        "name": "I. Foster"
+                    },
+                    {
+                        "s2_author_id": "3091414",
+                        "name": "K. Chard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "63ee7188f3b39dd04b511bea60fb3b6727766339",
+                "title": "De Bello Homomorphico: Investigation of the extensibility of the OpenFHE library with basic mathematical functions by means of common approaches using the example of the CKKS cryptosystem",
+                "year": 2023,
+                "venue": "International Journal of Information Security",
+                "citation_count": 3,
+                "reference_count": 67,
+                "abstract": "Cloud computing has become increasingly popular due to its scalability, cost-effectiveness, and ability to handle large volumes of data. However, entrusting (sensitive) data to a third party raises concerns about data security and privacy. Homomorphic encryption is one solution that allows users to store and process data in a public cloud without the cloud provider having access to it. Currently, homomorphic encryption libraries only support addition and multiplication; other mathematical functions must be implemented by the user. To this end, we discuss and implement the division, exponential, square root, logarithm, minimum, and maximum function, using the CKKS cryptosystem of the OpenFHE library. To demonstrate that complex applications can be realized with this extended function set, we have used it to homomorphically realize the Box\u2013Cox transform, which is used in many real-world applications, e.g., time-series forecasts. Our results show how the number of iterations required to achieve a given accuracy varies depending on the function. In addition, the execution time for each function is independent of the input and is in the range of ten seconds on a reference machine. With this work, we provide users with insights on how to extend the original restricted function set of the CKKS cryptosystem of the OpenFHE library with basic mathematical functions.",
+                "authors": [
+                    {
+                        "s2_author_id": "2003557403",
+                        "name": "Thomas Prantl"
+                    },
+                    {
+                        "s2_author_id": "2266763343",
+                        "name": "Lukas Horn"
+                    },
+                    {
+                        "s2_author_id": "2069579835",
+                        "name": "Simon Engel"
+                    },
+                    {
+                        "s2_author_id": "1922157",
+                        "name": "Lukas Iffl\u00e4nder"
+                    },
+                    {
+                        "s2_author_id": "74623829",
+                        "name": "Lukas Beierlieb"
+                    },
+                    {
+                        "s2_author_id": "2592027",
+                        "name": "Christian Krupitzer"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "2239104574",
+                        "name": "Mansi Sakarvadia"
+                    },
+                    {
+                        "s2_author_id": "2268575237",
+                        "name": "Ian Foster"
+                    },
+                    {
+                        "s2_author_id": "2137102879",
+                        "name": "S. Kounev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9d0a535a14de965887ecefb157f9aeb9e39cd1d8",
+                "title": "Attention Lens: A Tool for Mechanistically Interpreting the Attention Head Information Retrieval Mechanism",
+                "year": 2023,
+                "venue": "arXiv.org",
+                "citation_count": 18,
+                "reference_count": 18,
+                "abstract": "Transformer-based Large Language Models (LLMs) are the state-of-the-art for natural language tasks. Recent work has attempted to decode, by reverse engineering the role of linear layers, the internal mechanisms by which LLMs arrive at their final predictions for text completion tasks. Yet little is known about the specific role of attention heads in producing the final token prediction. We propose Attention Lens, a tool that enables researchers to translate the outputs of attention heads into vocabulary tokens via learned attention-head-specific transformations called lenses. Preliminary findings from our trained lenses indicate that attention heads play highly specialized roles in language models. The code for Attention Lens is available at github.com/msakarvadia/AttentionLens.",
+                "authors": [
+                    {
+                        "s2_author_id": "2239104574",
+                        "name": "Mansi Sakarvadia"
+                    },
+                    {
+                        "s2_author_id": "2239168709",
+                        "name": "Arham Khan"
+                    },
+                    {
+                        "s2_author_id": "144373088",
+                        "name": "Aswathy Ajith"
+                    },
+                    {
+                        "s2_author_id": "2239102028",
+                        "name": "Daniel Grzenda"
+                    },
+                    {
+                        "s2_author_id": "48808283",
+                        "name": "Nathaniel Hudson"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "3091414",
+                        "name": "K. Chard"
+                    },
+                    {
+                        "s2_author_id": "2065944820",
+                        "name": "I. Foster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "caa42f52bc3363bc506c07dafb72427af257ea34",
+                "title": "Trillion Parameter AI Serving Infrastructure for Scientific Discovery: A Survey and Vision",
+                "year": 2023,
+                "venue": "BDCAT",
+                "citation_count": 11,
+                "reference_count": 65,
+                "abstract": "Deep learning methods are transforming research, enabling new techniques, and ultimately leading to new discoveries. As the demand for more capable AI models continues to grow, we are now entering an era of Trillion Parameter Models (TPM), or models with more than a trillion parameters---such as Huawei's PanGu-\u03a3. We describe a vision for the ecosystem of TPM users and providers that caters to the specific needs of the scientific community. We then outline the significant technical challenges and open problems in system design for serving TPMs to enable scientific research and discovery. Specifically, we describe the requirements of a comprehensive software stack and interfaces to support the diverse and flexible requirements of researchers.",
+                "authors": [
+                    {
+                        "s2_author_id": "48808283",
+                        "name": "Nathaniel Hudson"
+                    },
+                    {
+                        "s2_author_id": "51916788",
+                        "name": "J. G. Pauloski"
+                    },
+                    {
+                        "s2_author_id": "46202504",
+                        "name": "Matt Baughman"
+                    },
+                    {
+                        "s2_author_id": "2044357637",
+                        "name": "Alok Kamatar"
+                    },
+                    {
+                        "s2_author_id": "2239104574",
+                        "name": "Mansi Sakarvadia"
+                    },
+                    {
+                        "s2_author_id": "2256987355",
+                        "name": "Logan Ward"
+                    },
+                    {
+                        "s2_author_id": "36319017",
+                        "name": "Ryan Chard"
+                    },
+                    {
+                        "s2_author_id": "2239105163",
+                        "name": "Andr\u00e9 Bauer"
+                    },
+                    {
+                        "s2_author_id": "1393706116",
+                        "name": "Maksim Levental"
+                    },
+                    {
+                        "s2_author_id": "2283084886",
+                        "name": "Wenyi Wang"
+                    },
+                    {
+                        "s2_author_id": "2282970112",
+                        "name": "Will Engler"
+                    },
+                    {
+                        "s2_author_id": "2282960209",
+                        "name": "Owen Price Skelly"
+                    },
+                    {
+                        "s2_author_id": "2338072",
+                        "name": "B. Blaiszik"
+                    },
+                    {
+                        "s2_author_id": "2275055526",
+                        "name": "Rick Stevens"
+                    },
+                    {
+                        "s2_author_id": "2267696593",
+                        "name": "Kyle Chard"
+                    },
+                    {
+                        "s2_author_id": "2258049965",
+                        "name": "Ian T. Foster"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2308097253",
+                "name": "Val\u00e9rie Hayot-Sasson"
+            },
+            {
+                "s2_author_id": "2360321272",
+                "name": "Nathaniel Hudson"
+            },
+            {
+                "s2_author_id": "2311500388",
+                "name": "Maxime Gonthier"
+            },
+            {
+                "s2_author_id": "2303397640",
+                "name": "Ian T. Foster"
+            },
+            {
+                "s2_author_id": "2267696593",
+                "name": "Kyle Chard"
+            },
+            {
+                "s2_author_id": "2300291704",
+                "name": "Daniel Grillmeyer"
+            },
+            {
+                "s2_author_id": "2105722669",
+                "name": "Marius Hadry"
+            },
+            {
+                "s2_author_id": "40929498",
+                "name": "Veronika Lesch"
+            },
+            {
+                "s2_author_id": "2303462807",
+                "name": "Vanessa Borst"
+            },
+            {
+                "s2_author_id": "1405453768",
+                "name": "Robert Leppich"
+            },
+            {
+                "s2_author_id": "2137102879",
+                "name": "S. Kounev"
+            },
+            {
+                "s2_author_id": "2044357637",
+                "name": "Alok Kamatar"
+            },
+            {
+                "s2_author_id": "3475544",
+                "name": "Marcin Copik"
+            },
+            {
+                "s2_author_id": "2134891993",
+                "name": "Raul Castro Fernandez"
+            },
+            {
+                "s2_author_id": "2267726340",
+                "name": "Torsten Hoefler"
+            },
+            {
+                "s2_author_id": "3409674",
+                "name": "Klervie Tocz\u00e9"
+            },
+            {
+                "s2_author_id": "1887201",
+                "name": "Dragi Kimovski"
+            },
+            {
+                "s2_author_id": "2355439673",
+                "name": "Daniele Bonetta"
+            },
+            {
+                "s2_author_id": "2300292992",
+                "name": "Yannik Lubas"
+            },
+            {
+                "s2_author_id": "2069475608",
+                "name": "Martin Straesser"
+            },
+            {
+                "s2_author_id": "2300312466",
+                "name": "Ivo Rohwer"
+            },
+            {
+                "s2_author_id": "2300294419",
+                "name": "Sai Sindhur Malleni"
+            },
+            {
+                "s2_author_id": "2360514750",
+                "name": "Ra\u00fal Sevilla"
+            },
+            {
+                "s2_author_id": "2359055608",
+                "name": "Jos\u00e9 Castillo Lema"
+            },
+            {
+                "s2_author_id": "51916788",
+                "name": "J. G. Pauloski"
+            },
+            {
+                "s2_author_id": "2256987355",
+                "name": "Logan Ward"
+            },
+            {
+                "s2_author_id": "2309245702",
+                "name": "Alexander Brace"
+            },
+            {
+                "s2_author_id": "2115014071",
+                "name": "Y. Babuji"
+            },
+            {
+                "s2_author_id": "8776771",
+                "name": "Gourav Rattihalli"
+            },
+            {
+                "s2_author_id": "52141406",
+                "name": "Ninad Hogade"
+            },
+            {
+                "s2_author_id": "2263733652",
+                "name": "D. Milojicic"
+            },
+            {
+                "s2_author_id": "2141693724",
+                "name": "K. Chard"
+            },
+            {
+                "s2_author_id": "2268575237",
+                "name": "Ian Foster"
+            },
+            {
+                "s2_author_id": "2278221653",
+                "name": "Simon Trapp"
+            },
+            {
+                "s2_author_id": "2248168899",
+                "name": "Michael Stenger"
+            },
+            {
+                "s2_author_id": "51185014",
+                "name": "Mark Leznik"
+            },
+            {
+                "s2_author_id": "1471350193",
+                "name": "Haochen Pan"
+            },
+            {
+                "s2_author_id": "36319017",
+                "name": "Ryan Chard"
+            },
+            {
+                "s2_author_id": "2311641474",
+                "name": "Sicheng Zhou"
+            },
+            {
+                "s2_author_id": "46204073",
+                "name": "Rafael Vescovi"
+            },
+            {
+                "s2_author_id": "2003557403",
+                "name": "Thomas Prantl"
+            },
+            {
+                "s2_author_id": "48808283",
+                "name": "Nathaniel Hudson"
+            },
+            {
+                "s2_author_id": "2239102028",
+                "name": "Daniel Grzenda"
+            },
+            {
+                "s2_author_id": "46202504",
+                "name": "Matt Baughman"
+            },
+            {
+                "s2_author_id": "2193109",
+                "name": "Eamon Duede"
+            },
+            {
+                "s2_author_id": "2303397516",
+                "name": "William Dolan"
+            },
+            {
+                "s2_author_id": "2303397454",
+                "name": "Karim Lakhani"
+            },
+            {
+                "s2_author_id": "2313129470",
+                "name": "Marco Lauer"
+            },
+            {
+                "s2_author_id": "2266763343",
+                "name": "Lukas Horn"
+            },
+            {
+                "s2_author_id": "2069579835",
+                "name": "Simon Engel"
+            },
+            {
+                "s2_author_id": "2313218392",
+                "name": "David Dingel"
+            },
+            {
+                "s2_author_id": "2592027",
+                "name": "Christian Krupitzer"
+            },
+            {
+                "s2_author_id": "2300292534",
+                "name": "Timo Dittus"
+            },
+            {
+                "s2_author_id": "74623829",
+                "name": "Lukas Beierlieb"
+            },
+            {
+                "s2_author_id": "36210910",
+                "name": "Josh Bryan"
+            },
+            {
+                "s2_author_id": "2274409547",
+                "name": "Devesh Tiwari"
+            },
+            {
+                "s2_author_id": "2239104574",
+                "name": "Mansi Sakarvadia"
+            },
+            {
+                "s2_author_id": "144373088",
+                "name": "Aswathy Ajith"
+            },
+            {
+                "s2_author_id": "2239168709",
+                "name": "Arham Khan"
+            },
+            {
+                "s2_author_id": "3091414",
+                "name": "K. Chard"
+            },
+            {
+                "s2_author_id": "1698701",
+                "name": "Ian T Foster"
+            },
+            {
+                "s2_author_id": "2065944820",
+                "name": "I. Foster"
+            },
+            {
+                "s2_author_id": "1922157",
+                "name": "Lukas Iffl\u00e4nder"
+            },
+            {
+                "s2_author_id": "1393706116",
+                "name": "Maksim Levental"
+            },
+            {
+                "s2_author_id": "2283084886",
+                "name": "Wenyi Wang"
+            },
+            {
+                "s2_author_id": "2282970112",
+                "name": "Will Engler"
+            },
+            {
+                "s2_author_id": "2282960209",
+                "name": "Owen Price Skelly"
+            },
+            {
+                "s2_author_id": "2338072",
+                "name": "B. Blaiszik"
+            },
+            {
+                "s2_author_id": "2275055526",
+                "name": "Rick Stevens"
+            },
+            {
+                "s2_author_id": "2258049965",
+                "name": "Ian T. Foster"
+            }
+        ],
+        "total_co_authors": 70,
+        "papers_retrieved": 24
+    }
+}

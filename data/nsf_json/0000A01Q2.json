@@ -1,0 +1,1511 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A01Q2",
+        "name": "Pengyi Shi",
+        "primary_affiliation": "Purdue University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Purdue University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "IN"
+        ],
+        "perf_cities": [
+            "WEST LAFAYETTE"
+        ],
+        "org_names": [
+            "Purdue University"
+        ],
+        "org_ueis": [
+            "YRXVL4JYCEF5"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "shi178@purdue.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2453715",
+                "title": "I-Corps: Translation Potential of Stochastic Optimization to Enable  Real-Time Staffing Needs in Hospitals",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-04-01",
+                "exp_date": "2026-03-31",
+                "award_amount": 50000.0,
+                "total_amount": 50000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "I-Corps"
+                ],
+                "program_codes": [
+                    "802300"
+                ],
+                "program_references": [
+                    "Health Care Enterprise Systems"
+                ],
+                "program_ref_codes": [
+                    "8023"
+                ],
+                "dir_abbr": "TIP",
+                "div_abbr": "TI",
+                "nsf_directorate": null,
+                "fund_division": "Translational Impacts",
+                "cfda_num": "47.084",
+                "po_name": "Ruth Shuman",
+                "keywords": [
+                    "workforce",
+                    "potential",
+                    "staffing",
+                    "corps",
+                    "real",
+                    "decision",
+                    "time",
+                    "healthcare",
+                    "across",
+                    "demand"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "I-Corps"
+        ],
+        "program_codes": [
+            "802300"
+        ],
+        "program_references": [
+            "Health Care Enterprise Systems"
+        ],
+        "program_ref_codes": [
+            "8023"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "TIP"
+        ],
+        "div_abbrs": [
+            "TI"
+        ],
+        "fund_divisions": [
+            "Translational Impacts"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.084"
+        ],
+        "program_officers": [
+            "Ruth Shuman"
+        ],
+        "keywords": [
+            "workforce",
+            "potential",
+            "staffing",
+            "corps",
+            "real",
+            "decision",
+            "time",
+            "healthcare",
+            "across",
+            "demand",
+            "efficiency",
+            "technology",
+            "resource",
+            "learning",
+            "translation",
+            "optimization",
+            "needs",
+            "development",
+            "advanced",
+            "allocation"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.88
+    },
+    "s2_profile": {
+        "s2_author_id": "2962774",
+        "name": "Pengyi Shi",
+        "affiliations": [],
+        "paper_count": 41,
+        "citation_count": 770,
+        "h_index": 14,
+        "papers": [
+            {
+                "s2_paper_id": "d39927e2ea6e1bdd631f07aa6bb2a1f76aadeb31",
+                "title": "Inpatient Overflow Management with Proximal Policy Optimization",
+                "year": 2024,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 31,
+                "abstract": "Problem Definition: Managing inpatient flow in large hospital systems is challenging due to the complexity of assigning randomly arriving patients -- either waiting for primary units or being overflowed to alternative units. Current practices rely on ad-hoc rules, while prior analytical approaches struggle with the intractably large state and action spaces inherent in patient-unit matching. Scalable decision support is needed to optimize overflow management while accounting for time-periodic fluctuations in patient flow. Methodology/Results: We develop a scalable decision-making framework using Proximal Policy Optimization (PPO) to optimize overflow decisions in a time-periodic, long-run average cost setting. To address the combinatorial complexity, we introduce atomic actions, which decompose multi-patient routing into sequential assignments. We further enhance computational efficiency through a partially-shared policy network designed to balance parameter sharing with time-specific policy adaptations, and a queueing-informed value function approximation to improve policy evaluation. Our method significantly reduces the need for extensive simulation data, a common limitation in reinforcement learning applications. Case studies on hospital systems with up to twenty patient classes and twenty wards demonstrate that our approach matches or outperforms existing benchmarks, including approximate dynamic programming, which is computationally infeasible beyond five wards. Managerial Implications: Our framework offers a scalable, efficient, and explainable solution for managing patient flow in complex hospital systems. More broadly, our results highlight that domain-aware adaptation is more critical to improving algorithm performance than fine-tuning neural network parameters when applying general-purpose algorithms to specific applications.",
+                "authors": [
+                    {
+                        "s2_author_id": "2326970851",
+                        "name": "Jingjing Sun"
+                    },
+                    {
+                        "s2_author_id": "2326435876",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "11f594d55c88023c793733dcbfd72882204ff112",
+                "title": "Optimal Routing Under Demand Surges: The Value of Future Arrival Rates",
+                "year": 2023,
+                "venue": "Operational Research",
+                "citation_count": 3,
+                "reference_count": 46,
+                "abstract": "When having access to demand forecasts, a crucial question is how to effectively use this information to make better resource allocation decisions, especially during demand surges like the COVID-19 pandemic. Despite the emergence of various advanced prediction models for hospital resources, there has been a lack of prescriptive solutions for hospital managers seeking concrete decision support, for example, guidance on whether to allocate beds from other specialties to meet the surge demand from COVID-19 patients by postponing elective surgeries. In their paper \u201cOptimal Routing under Demand Surge: the Value of Future Arrival Rate,\u201d the authors present a systematic framework to incorporate future demand into routing decisions in parallel server systems with partial flexibility and quantify the benefits of doing so. They propose a simple and interpretable two-stage index-based policy that explicitly incorporates demand forecasts into real-time routing decisions. Their analytical and numerical results demonstrate the policy\u2019s effectiveness, even in the presence of large prediction errors.",
+                "authors": [
+                    {
+                        "s2_author_id": "2144184533",
+                        "name": "Jinsheng Chen"
+                    },
+                    {
+                        "s2_author_id": "2237957744",
+                        "name": "Jing Dong"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "86b2f258ba0a1440e4e01af50eeed4e11431f56c",
+                "title": "Refined mean\u2010field approximation for discrete\u2010time queueing networks with blocking",
+                "year": 2023,
+                "venue": "Naval Research Logistics",
+                "citation_count": 0,
+                "reference_count": 30,
+                "abstract": "We study a discrete\u2010time queueing network with blocking that is primarily motivated by outpatient network management. To tackle the curse of dimensionality in performance analysis, we develop a refined mean\u2010field approximation that deals with changing population size, a nonconventional feature that makes the analysis challenging within the existing literature. We explicitly quantify the convergence rate for this approximation as O(1/N)$$ O\\left(1/N\\right) $$ with N$$ N $$ being the system size. Not only is this convergence better than the O(1/N)$$ O\\left(1/\\sqrt{N}\\right) $$ convergence proven in prior work, but our approximation shows a significant improvement in performance prediction accuracy when the system size is small, compared to the conventional (unrefined) mean\u2010field approximation. This accuracy makes our approximation appealing to support decision\u2010making in practice.",
+                "authors": [
+                    {
+                        "s2_author_id": "2111244847",
+                        "name": "Yangyang Pan"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b4a266f4262712ac02ab385f414b645839949759",
+                "title": "Stopping the Revolving Door: MDP-Based Decision Support for Community Corrections Placement",
+                "year": 2023,
+                "venue": "Social Science Research Network",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2272309874",
+                        "name": "Xiaoquan Gao"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2276912886",
+                        "name": "Nan Kong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "da697d8ade11b40ac150639cf0a8150454baa937",
+                "title": "Interpretable machine learning models for hospital readmission prediction: a two-step extracted regression tree approach",
+                "year": 2023,
+                "venue": "BMC Medical Informatics and Decision Making",
+                "citation_count": 16,
+                "reference_count": 40,
+                "abstract": "Background Advanced machine learning models have received wide attention in assisting medical decision making due to the greater accuracy they can achieve. However, their limited interpretability imposes barriers for practitioners to adopt them. Recent advancements in interpretable machine learning tools allow us to look inside the black box of advanced prediction methods to extract interpretable models while maintaining similar prediction accuracy, but few studies have investigated the specific hospital readmission prediction problem with this spirit. Methods Our goal is to develop a machine-learning (ML) algorithm that can predict 30- and 90- day hospital readmissions as accurately as black box algorithms while providing medically interpretable insights into readmission risk factors. Leveraging a state-of-art interpretable ML model, we use a two-step Extracted Regression Tree approach to achieve this goal. In the first step, we train a black box prediction algorithm. In the second step, we extract a regression tree from the output of the black box algorithm that allows direct interpretation of medically relevant risk factors. We use data from a large teaching hospital in Asia to learn the ML model and verify our two-step approach. Results The two-step method can obtain similar prediction performance as the best black box model, such as Neural Networks, measured by three metrics: accuracy, the Area Under the Curve (AUC) and the Area Under the Precision-Recall Curve (AUPRC), while maintaining interpretability. Further, to examine whether the prediction results match the known medical insights (i.e., the model is truly interpretable and produces reasonable results), we show that key readmission risk factors extracted by the two-step approach are consistent with those found in the medical literature. Conclusions The proposed two-step approach yields meaningful prediction results that are both accurate and interpretable. This study suggests a viable means to improve the trust of machine learning based models in clinical practice for predicting readmissions through the two-step approach.",
+                "authors": [
+                    {
+                        "s2_author_id": "2317369",
+                        "name": "Xiaoquan Gao"
+                    },
+                    {
+                        "s2_author_id": "2004251456",
+                        "name": "S. Alam"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "144441416",
+                        "name": "F. Dexter"
+                    },
+                    {
+                        "s2_author_id": "2136779006",
+                        "name": "Nan Kong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "63c2cc65b68aa5feaefa9565907083c62ad10b1c",
+                "title": "Routing for Fairness and Efficiency in a Queueing Model with Reentry and Continuous Customer Classes",
+                "year": 2022,
+                "venue": "American Control Conference",
+                "citation_count": 6,
+                "reference_count": 12,
+                "abstract": "This paper presents a new framework to study customer routing fairness and efficiency in managing queueing systems with reentry; this framework is motivated by applications in healthcare and criminal justice. Each customer\u2019s reentry probability is captured by a proportional hazard model that depends on the type of service offered and the customer\u2019s continuous risk score, which is drawn from group-dependent distributions. Unlike the machine learning literature that focuses on fairness in classification with group-dependent risk distributions, we account for fairness directly in the resource allocation captured via the routing decisions. We derive an explicit analytical characterization of the system\u2019s efficiency and fairness for two policies: group-unaware and group-aware routing policies. Through the comparison, we quantify the fairness-efficiency trade-off. This trade-off generates useful insights for decision makers into how the cost of fairness depends on different system parameters and when caution should be taken for fairness considerations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2182845132",
+                        "name": "Zhiqiang Zhang"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2457167",
+                        "name": "Amy R. Ward"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a5ccc1a7a763985ce40731b1b2173a2d7df2f770",
+                "title": "Data-pooling Reinforcement Learning for Personalized Healthcare Intervention",
+                "year": 2022,
+                "venue": "arXiv.org",
+                "citation_count": 7,
+                "reference_count": 47,
+                "abstract": "Motivated by the emerging needs of personalized preventative intervention in many healthcare applications, we consider a multi-stage, dynamic decision-making problem in the online setting with unknown model parameters. To deal with the pervasive issue of small sample size in personalized planning, we develop a novel data-pooling reinforcement learning (RL) algorithm based on a general perturbed value iteration framework. Our algorithm adaptively pools historical data, with three main innovations: (i) the weight of pooling ties directly to the performance of decision (measured by regret) as opposed to estimation accuracy in conventional methods; (ii) no parametric assumptions are needed between historical and current data; and (iii) requiring data-sharing only via aggregate statistics, as opposed to patient-level data. Our data-pooling algorithm framework applies to a variety of popular RL algorithms, and we establish a theoretical performance guarantee showing that our pooling version achieves a regret bound strictly smaller than that of the no-pooling counterpart. We substantiate the theoretical development with empirically better performance of our algorithm via a case study in the context of post-discharge intervention to prevent unplanned readmissions, generating practical insights for healthcare management. In particular, our algorithm alleviates privacy concerns about sharing health data, which (i) opens the door for individual organizations to levering public datasets or published studies to better manage their own patients; and (ii) provides the basis for public policy makers to encourage organizations to share aggregate data to improve population health outcomes for the broader community.",
+                "authors": [
+                    {
+                        "s2_author_id": "2000512548",
+                        "name": "Xinyun Chen"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2190959883",
+                        "name": "Shanwen Pu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08b9dec94e4810f1fc3d8a30ac36b86e85078d7d",
+                "title": "A High-Fidelity, Machine-Learning Enhanced Queueing Network Simulation Model For Hospital Ultrasound Operations",
+                "year": 2021,
+                "venue": "Online World Conference on Soft Computing in Industrial Applications",
+                "citation_count": 2,
+                "reference_count": 23,
+                "abstract": "We collaborate with a large teaching hospital in Shenzhen, China and build a high-fidelity simulation model for its ultrasound center to predict key performance metrics, including the distributions of queue length, waiting time and sojourn time, with high accuracy. The key challenge to build an accurate simulation model is to understand the complicated patient routing at the ultrasound center. To address the issue, we propose a novel two-level routing component to the queueing network model and use machine learning tools to calibrate the routing components from data. Our empirical results show that the calibrated model is of high fidelity and yields accurate prediction results for the performance metrics.",
+                "authors": [
+                    {
+                        "s2_author_id": "83741580",
+                        "name": "Yihan Pan"
+                    },
+                    {
+                        "s2_author_id": "2149238629",
+                        "name": "Zhenghang Xu"
+                    },
+                    {
+                        "s2_author_id": "2077432721",
+                        "name": "Jin Guang"
+                    },
+                    {
+                        "s2_author_id": "2156017174",
+                        "name": "Jingjing Sun"
+                    },
+                    {
+                        "s2_author_id": "2109450632",
+                        "name": "Chengwenjian Wang"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Xuanming Zhang"
+                    },
+                    {
+                        "s2_author_id": "1425082935",
+                        "name": "Xinyun Chen"
+                    },
+                    {
+                        "s2_author_id": "145618709",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2111240640",
+                        "name": "Yichuan Ding"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2087362846",
+                        "name": "Hongxin Pan"
+                    },
+                    {
+                        "s2_author_id": "48783128",
+                        "name": "Kairan Yang"
+                    },
+                    {
+                        "s2_author_id": "2108819790",
+                        "name": "Song Wu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3372432f174247c22ba7ad7d2a27c132557107de",
+                "title": "Operations (management) warp speed: Rapid deployment of hospital\u2010focused predictive/prescriptive analytics for the COVID\u201019 pandemic",
+                "year": 2021,
+                "venue": "Production and operations management",
+                "citation_count": 12,
+                "reference_count": 33,
+                "abstract": "At the onset of the COVID\u201019 pandemic, hospitals were in dire need of data\u2010driven analytics to provide support for critical, expensive, and complex decisions. Yet, the majority of analytics being developed were targeted at state\u2010 and national\u2010level policy decisions, with little availability of actionable information to support tactical and operational decision\u2010making and execution at the hospital level. To fill this gap, we developed a multi\u2010method framework leveraging a parsimonious design philosophy that allows for rapid deployment of high\u2010impact predictive and prescriptive analytics in a time\u2010sensitive, dynamic, data\u2010limited environment, such as a novel pandemic. The product of this research is a workload prediction and decision support tool to provide mission\u2010critical, actionable information for individual hospitals. Our framework forecasts time\u2010varying patient workload and demand for critical resources by integrating disease progression models, tailored to data availability during different stages of the pandemic, with a stochastic network model of patient movements among units within individual hospitals. Both components employ adaptive tuning to account for hospital\u2010dependent, time\u2010varying parameters that provide consistently accurate predictions by dynamically learning the impact of latent changes in system dynamics. Our decision support system is designed to be portable and easily implementable across hospital data systems for expeditious expansion and deployment. This work was contextually grounded in close collaboration with IU Health, the largest health system in Indiana, which has 18 hospitals serving over one million residents. Our initial prototype was implemented in April 2020 and has supported managerial decisions, from the operational to the strategic, across multiple functionalities at IU Health.",
+                "authors": [
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "10406245",
+                        "name": "Jonathan E. Helm"
+                    },
+                    {
+                        "s2_author_id": "2124751903",
+                        "name": "Christopher Chen"
+                    },
+                    {
+                        "s2_author_id": "2148577159",
+                        "name": "Jeff Lim"
+                    },
+                    {
+                        "s2_author_id": "32595339",
+                        "name": "Rodney P. Parker"
+                    },
+                    {
+                        "s2_author_id": "49652089",
+                        "name": "T. Tinsley"
+                    },
+                    {
+                        "s2_author_id": "2125109476",
+                        "name": "Jacob Cecil"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "35163f4e4b26b9232661ea9aa29911a465ec15d7",
+                "title": "An Efficient Pessimistic-Optimistic Algorithm for Stochastic Linear Bandits with General Constraints",
+                "year": 2021,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 57,
+                "reference_count": 53,
+                "abstract": "This paper considers stochastic linear bandits with general nonlinear constraints. The objective is to maximize the expected cumulative reward over horizon $T$ subject to a set of constraints in each round $\\tau\\leq T$. We propose a pessimistic-optimistic algorithm for this problem, which is efficient in two aspects. First, the algorithm yields $\\tilde{\\cal O}\\left(\\left(\\frac{K^{0.75}}{\\delta}+d\\right)\\sqrt{\\tau}\\right)$ (pseudo) regret in round $\\tau\\leq T,$ where $K$ is the number of constraints, $d$ is the dimension of the reward feature space, and $\\delta$ is a Slater's constant; and zero constraint violation in any round $\\tau>\\tau',$ where $\\tau'$ is independent of horizon $T.$ Second, the algorithm is computationally efficient. Our algorithm is based on the primal-dual approach in optimization and includes two components. The primal component is similar to unconstrained stochastic linear bandits (our algorithm uses the linear upper confidence bound algorithm (LinUCB)). The computational complexity of the dual component depends on the number of constraints, but is independent of the sizes of the contextual space, the action space, and the feature space. Thus, the overall computational complexity of our algorithm is similar to that of the linear UCB for unconstrained stochastic linear bandits.",
+                "authors": [
+                    {
+                        "s2_author_id": "2146074389",
+                        "name": "Xin Liu"
+                    },
+                    {
+                        "s2_author_id": "2156072132",
+                        "name": "Bin Li"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2345521987",
+                        "name": "Lei Ying"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53742e248c651db4f48eef9e8d0bea51d8b7eada",
+                "title": "Optimal Routing under Demand Surges: The Value of Future Arrival Rates",
+                "year": 2021,
+                "venue": "Social Science Research Network",
+                "citation_count": 6,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2144184533",
+                        "name": "Jinsheng Chen"
+                    },
+                    {
+                        "s2_author_id": "2117143122",
+                        "name": "Jing Dong"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bf903c90a86a577003ff3c4432d43c295941d0e5",
+                "title": "An Efficient Pessimistic-Optimistic Algorithm for Constrained Linear Bandits",
+                "year": 2021,
+                "venue": "arXiv.org",
+                "citation_count": 3,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "89121677",
+                        "name": "Xin Liu"
+                    },
+                    {
+                        "s2_author_id": "2156072132",
+                        "name": "Bin Li"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2345521987",
+                        "name": "Lei Ying"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e245c4fa002395af9e655f9801ed4dfe9de48dc7",
+                "title": "Operations (Management) Warp Speed: Parsimonious Design for Rapid Deployment of Hospital Prediction and Decision Support Framework during a Pandemic",
+                "year": 2021,
+                "venue": "Social Science Research Network",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "At the onset of the COVID-19 pandemic, hospitals were in dire need of data-driven analytics to provide support for critical, expensive, and challenging decisions. Yet, the majority of analytics being developed were targeted toward state- and national-level policy decisions, with little availability of actionable information to support tactical and operational decision making and execution at the hospital level. To fill this gap, we developed a multi-method framework leveraging a parsimonious design philosophy that allows for rapid deployment of high-impact predictive and prescriptive analytics in a time-sensitive, dynamic, limited data environment such as a novel pandemic. Our framework integrates disease progression models tailored to data availability during different stages of the pandemic with a stochastic network model of patient movements among units within individual hospitals to forecast time-varying patient workload and demand for critical resources. Both components employ adaptive tuning to account for hospital-dependent, time-varying parameters that provide consistently accurate predictions as changes in system dynamics are learned over time. The product of this research is a workload prediction and decision support framework customized to individual hospital that specifically targets actionable information based on hospital needs. Yet, by design, our framework is portable across hospital data-systems and easily implementable for expeditious expansion. This work was contextually grounded in close collaboration with IU Health, the largest health system in Indiana with 18 hospitals serving over 1 million residents. Since April 2020, we have implemented our framework to support decisions from operational to strategic made by multiple departments at IU Health as well as the executive leadership team during the course of the COVID-19 pandemic.",
+                "authors": [
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "66318681",
+                        "name": "Jonathan E. Helm"
+                    },
+                    {
+                        "s2_author_id": "2124751903",
+                        "name": "Christopher Chen"
+                    },
+                    {
+                        "s2_author_id": "2148577159",
+                        "name": "Jeff Lim"
+                    },
+                    {
+                        "s2_author_id": "32595339",
+                        "name": "Rodney P. Parker"
+                    },
+                    {
+                        "s2_author_id": "49652089",
+                        "name": "T. Tinsley"
+                    },
+                    {
+                        "s2_author_id": "2125109476",
+                        "name": "Jacob Cecil"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e54e159503498e6744811ceb59de3814c3dbd728",
+                "title": "Proportions of Surgical Patients Discharged Home the Same or the Next Day Are Sufficient Data to Assess Cases\u2019 Contributions to Hospital Occupancy",
+                "year": 2021,
+                "venue": "Cureus",
+                "citation_count": 10,
+                "reference_count": 28,
+                "abstract": "Introduction When the hospital census is high, perioperative medical directors or operating room (OR) managers may need to consider postponing some surgical cases scheduled to be performed within the next three workdays. This scenario has arisen at hospitals in regions with large increases in admissions due to coronavirus disease 2019 (COVID-19). We compare summary measures for hospital length of stay (LOS) to guide the OR manager having to decide which cases may need to be postponed to ensure a sufficient reserve of available inpatient beds. Methods We studied the 1,201,815 ambulatory and 649,962 inpatient elective cases with a major therapeutic procedure performed during 2018 at all 412 non-federal hospitals in Florida. The data were sorted by the hospital, and then by procedure category. Statistical comparisons of LOS were made pairwise among all procedure categories with at least 100 cases at (the) each hospital, using the chi-square test (LOS \u2264 1 day versus LOS > 1 day), Student\u2019s t-test with unequal variances, and the Wilcoxon-Mann-Whitney test. The comparisons among the three tests then were repeated having sorted the data by procedure category and making statistical comparisons among all hospitals with at least 100 cases for the procedure category. Results Whether using a criterion for statistical significance of P < 0.05 or P < 0.01, and whether compared with Student\u2019s t-test with unequal variances or Wilcoxon-Mann-Whitney test, the chi-square test had greater odds (i.e., greater statistical power) to detect differences in LOS (all four with P < 0.0001 and all 95% lower confidence limits for odds ratios \u2265 3.00). The findings were consistent when the data, first sorted by procedure category and then by probability distributions of LOS, were compared between hospitals (all P < 0.0001 and the 95% lower confidence limits for odds ratio \u2265 3.72). Conclusions For purposes of comparing procedure categories pairwise at the same hospital, there was no loss of information by summarizing the probability distributions using single numbers, the percentages of cases among patients staying longer than overnight. This finding substantially simplifies the mathematics for constructing dashboards or summaries of OR information system data to help the perioperative OR manager or medical director decide which cases may need to be postponed, when the hospital census is high, to provide a sufficient reserve of inpatient hospital beds.",
+                "authors": [
+                    {
+                        "s2_author_id": "144441416",
+                        "name": "F. Dexter"
+                    },
+                    {
+                        "s2_author_id": "2703002",
+                        "name": "R. Epstein"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f74d4fa99ccedfea7a2662fe6944d99f34533912",
+                "title": "Group-Aware Threshold Adaptation for Fair Classification",
+                "year": 2021,
+                "venue": "AAAI Conference on Artificial Intelligence",
+                "citation_count": 49,
+                "reference_count": 27,
+                "abstract": "The fairness in machine learning is getting increasing attention, as its applications in different fields continue to expand and diversify. To mitigate the discriminated model behaviors between different demographic groups, we introduce a novel post-processing method to optimize over multiple fairness constraints through group-aware threshold adaptation. We propose to learn adaptive classification thresholds for each demographic group by optimizing the confusion matrix estimated from the probability distribution of a classification model output. As we only need an estimated probability distribution of model output instead of the classification model structure, our post-processing model can be applied to a wide range of classification models and improve fairness in a model-agnostic manner and ensure privacy. This even allows us to post-process existing fairness methods to further improve the trade-off between accuracy and fairness. Moreover, our model has low computational cost. We provide rigorous theoretical analysis on the convergence of our optimization algorithm and the trade-off between accuracy and fairness. Our method theoretically enables a better upper bound in near optimality than previous method under the same condition. Experimental results demonstrate that our method outperforms state-of-the-art methods and obtains the result that is closest to the theoretical accuracy-fairness trade-off boundary.",
+                "authors": [
+                    {
+                        "s2_author_id": "153123367",
+                        "name": "T. Jang"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2108158629",
+                        "name": "Xiaoqian Wang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "026b4de7ef7ab4c2df3bb6ca3ad8a3187a798433",
+                "title": "Proceed with Care: Integrating Predictive Analytics with Patient Decision-Making",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10803100",
+                        "name": "Hamsa Bastani"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3276a58c95303ac0bf8efeb9b7ce5b166c6953c4",
+                "title": "Forecasting the Probability That Each Surgical Case Will Either Be Ambulatory or the Patient Will Remain in the Hospital Overnight Versus Having a Length of Stay of Two or More Days",
+                "year": 2020,
+                "venue": "Cureus",
+                "citation_count": 5,
+                "reference_count": 7,
+                "abstract": "When the hospital census is high, perioperative medical directors or operating room (OR) managers sometimes need to review with surgical departments as to which surgical cases scheduled to be performed within the next three days may need to be postponed. Although distributions of hospital length of stay (LOS) are highly skewed, a surprisingly effective summary measure is the percentage of patients previously undergoing the same category of procedure as that scheduled whose LOS was zero or one day. We evaluated how to forecast each hospital's percentage of cases with LOS of <2 days, segmented by category of surgical procedure. The large teaching hospital studied included several inpatient adult surgical suites, an ambulatory surgery center, and a pediatric surgical suite. We included 98,540 cases in a training dataset to predict 24,338 cases in a test dataset. For each category of procedure, we calculated the cumulative count of cases among quarters, from the most recent quarter, second most recent quarter, and so forth up to the quarter resulting in at least 800 cases. If every quarter combined had fewer than 800 cases for a given category of procedure, we included all cases for that category. For each combination of category and quarter, we used the cumulative counts of cases and cases with LOS of <2 days, excluding the current quarter. Then, for each category of procedure, and for each of the preceding quarters included for the category, we used the cumulative counts to calculate the asymptotic standard error (SE) for the proportion of cases with LOS of <2 days. If all preceding quarters combined provided a sample size such that the estimated SE for the proportion exceeded 1.25%, we included all preceding quarters. The observed absolute percentage error was 0.76% (SE: 0.12%). This error was nearly 100-fold smaller than the percentage of cases to which it would be used (i.e., 0.76% versus 73.1% with LOS of <2 days). The principal weakness of the forecasting methodology was a small bias caused by a progressive reduction in the overall LOS over time. However, this bias is unlikely to be important for predicting cases\u2019 LOS when the hospital census is high. When performing these time series calculations quarterly, a reasonable approach is to perform calculations of both case counts and SEs for each category of procedure. We recommend using the fewest historical quarters, starting with the most recent quarter, either with at least 800 cases or an estimated asymptotic SE for the estimated percentage no greater than 1.25%. Applying our methodology with local LOS data will allow OR managers to estimate the number of patients on the elective OR schedule each day who will be hospitalized for longer than overnight, facilitating communication and decision-making with surgical departments when census considerations constrain the ability to run a full surgical schedule.",
+                "authors": [
+                    {
+                        "s2_author_id": "144441416",
+                        "name": "F. Dexter"
+                    },
+                    {
+                        "s2_author_id": "2703002",
+                        "name": "R. Epstein"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4168ced50c1915a414a71e6d82944852757e1f41",
+                "title": "Coordinated Care: Capacity Allocation to Improve Itinerary Completion in Queueing Networks",
+                "year": 2020,
+                "venue": "Social Science Research Network",
+                "citation_count": 1,
+                "reference_count": 39,
+                "abstract": "Coordinated care is a burgeoning paradigm where patients receive diagnosis and treatment planning involving collaboration between two or more medical specialties to facilitate rapid and effective solutions to complex conditions. \n \nA key service metric for coordinated care organizations is how quickly they can move patients through their sequence of appointments at multiple clinical services in the network. Each patient's care path is uncertain when the appointment capacities are being planned, because information about the patient's condition evolves over the course of the patient's care process. Hence, the planning of root (first) appointments is the primary operational lever, as the other appointments evolve stochastically. In this work, we develop a discrete-time queueing network to optimize this root appointment allocation over a cyclic time horizon to maximize the proportion of patients that can complete their care by a class-dependent deadline. \n \nThe model accounts for several salient features of coordinated care networks, including parallel appointment requests, stochastic paths, and time-varying features. We provide an {exact} characterization of the sojourn time in the network with a doubly-stochastic phase-type distribution and leverage a mean-field model with convergence guarantees to address intractability. We then develop a policy improvement framework that approximates the original stochastic optimization by a sequence of linear programs (LP), where the sojourn time model is parameterized in the policy evaluation step. The LPs are computationally efficient, and our algorithm can solve large-scale stochastic optimization for networks of realistic sizes (e.g., 26 service stations). In a case study of the Mayo Clinic, our solution improves on-time completion to more than 93\\%, from 60\\% under the current plan. We demonstrate that this is a multifaceted problem, and that ignoring any those facets can lead to poor performance. Simultaneously accounting for all these complexities makes manual template design challenging and highlights the practical significance of our optimization algorithm.",
+                "authors": [
+                    {
+                        "s2_author_id": "31138625",
+                        "name": "Yiqiu Liu"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "10406245",
+                        "name": "Jonathan E. Helm"
+                    },
+                    {
+                        "s2_author_id": "1996002",
+                        "name": "M. P. Oyen"
+                    },
+                    {
+                        "s2_author_id": "2345521987",
+                        "name": "Lei Ying"
+                    },
+                    {
+                        "s2_author_id": "3178373",
+                        "name": "T. Huschka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "686af07905dafe9690905230a33b4377545009e9",
+                "title": "An Operational Framework for the Adoption and Integration of New Diagnostic Tests",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "10406245",
+                        "name": "Jonathan E. Helm"
+                    },
+                    {
+                        "s2_author_id": "1883170",
+                        "name": "H. S. Heese"
+                    },
+                    {
+                        "s2_author_id": "49693725",
+                        "name": "A. Mitchell"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dbe4de3a64edc98838d164b4ae2796514a7187d4",
+                "title": "A survey on skill-based routing with applications to service operations management",
+                "year": 2020,
+                "venue": "Queueing systems",
+                "citation_count": 24,
+                "reference_count": 100,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2144184533",
+                        "name": "Jinsheng Chen"
+                    },
+                    {
+                        "s2_author_id": "143689318",
+                        "name": "Jing Dong"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e92ddeba22d47b30fb3910d612151d0e016f4a28",
+                "title": "POND: Pessimistic-Optimistic oNline Dispatch",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 13,
+                "reference_count": 34,
+                "abstract": "This paper considers constrained online dispatch with unknown arrival, reward and constraint distributions. We propose a novel online dispatch algorithm, named POND, standing for Pessimistic-Optimistic oNline Dispatch, which achieves $O(\\sqrt{T})$ regret and $O(1)$ constraint violation. Both bounds are sharp. Our experiments on synthetic and real datasets show that POND achieves low regret with minimal constraint violations.",
+                "authors": [
+                    {
+                        "s2_author_id": "89121677",
+                        "name": "Xin Liu"
+                    },
+                    {
+                        "s2_author_id": "2156072132",
+                        "name": "Bin Li"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2345521987",
+                        "name": "Lei Ying"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4be87f14dfc3d38e156ed12dc901e086308e6940",
+                "title": "An integrated framework for reducing hospital readmissions using risk trajectories characterization and discharge timing optimization",
+                "year": 2019,
+                "venue": "IISE Transactions on Healthcare Systems Engineering",
+                "citation_count": 9,
+                "reference_count": 37,
+                "abstract": "Abstract When patients leave the hospital for lower levels of care, they experience a risk of adverse events on a daily basis. The advent of value-based purchasing among other major initiatives has led to an increasing emphasis on reducing the occurrences of these post-discharge adverse events. This has spurred the development of new prediction technologies to identify which patients are at risk for an adverse event as well as actions to mitigate those risks. Those actions include pre-discharge and post-discharge interventions to reduce risk. However, traditional prediction models have been developed to support only post-discharge actions, predicting risk of adverse events at the time of discharge only. In this article, we develop an integrated framework of risk prediction and discharge optimization that supports both types of interventions: discharge timing and post-discharge monitoring. Our method combines a kernel approach for capturing the nonlinear relationship between length of stay and risk of an adverse event, with a Principle Component Analysis method that makes the resulting estimation tractable. We then demonstrate how this prediction model could be used to support both types of interventions by developing a simple and easily implementable discharge timing optimization.",
+                "authors": [
+                    {
+                        "s2_author_id": "2182218",
+                        "name": "A. Alaeddini"
+                    },
+                    {
+                        "s2_author_id": "10406245",
+                        "name": "Jonathan E. Helm"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "40803596",
+                        "name": "Syed Hasib Akhter Faruqui"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8594397bfec0bfb36bc20587b101bdc998600c48",
+                "title": "Timing it Right: Balancing Inpatient Congestion versus Readmission Risk at Discharge",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 27,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "10406245",
+                        "name": "Jonathan E. Helm"
+                    },
+                    {
+                        "s2_author_id": "1413758755",
+                        "name": "J. Deglise-Hawkinson"
+                    },
+                    {
+                        "s2_author_id": "7589009",
+                        "name": "Julian Pan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8c5d18a6b4bc73b5e8998014b95823f5eed57664",
+                "title": "Off-service Placement in Inpatient Ward Network: Resource Pooling versus Service Slowdown",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 16,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143689318",
+                        "name": "Jing Dong"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "11601264",
+                        "name": "Fanyin Zheng"
+                    },
+                    {
+                        "s2_author_id": "2149170815",
+                        "name": "Xin Jin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "973ea8462a6d6d1bcc3fcfdaf474d53b53a472a0",
+                "title": "Inpatient Overflow: An Approximate Dynamic Programming Approach",
+                "year": 2019,
+                "venue": "Manufacturing & Service Operations Management",
+                "citation_count": 78,
+                "reference_count": 34,
+                "abstract": "Problem definition: Inpatient beds are usually grouped into several wards, and each ward is assigned to serve patients from certain \u201cprimary\u201d specialties. However, when a patient waits excessively ...",
+                "authors": [
+                    {
+                        "s2_author_id": "145618709",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a5195efc14c9dd56d20b57c85d7a7abe6647e0b2",
+                "title": "An Operational Framework for the Adoption and Integration of New Diagnostic Tests into Emergency Department Workflow",
+                "year": 2019,
+                "venue": "Social Science Research Network",
+                "citation_count": 0,
+                "reference_count": 35,
+                "abstract": "The gap between medical research on diagnostic testing and clinical workflow can lead to rejection of valuable medical research in a busy clinical environment due to increased workloads, or rejection of medical research in the lab that may be valuable in practice due to a misunderstanding of the system-level benefits of the new test. This has implications for research organizations, diagnostic test manufacturers, and hospital managers. To bridge this gap, we develop a Markov Decision Process (MDP) from which we create \u201cadoption regions\u201d that specify the combination of test characteristics medical research must achieve for the test to be feasible for adoption in practice. To address the curse of dimensionality from patient risk stratification, we develop a decomposition heuristic along with structural properties that shed light on which patients and when a new diagnostic test should be used. \n \nIn a case study of a partner Emergency Department, we show that the conventional myopic medical criterion can lead to poor decision making in both research development and clinical practice. This myopic approach can lead to overvaluing or undervaluing new medical research. This mismatch is accentuated when a simple (current) policy is used to integrate research into the clinical environment compared with our MDP's policy \u2013 poor implementation of a new test can also lead to unnecessary rejection. Our framework provides easily interpretable guidelines for medical research development and clinical adoption decisions that can guide medical research as to which test characteristics to focus on to improve chances of adoption.",
+                "authors": [
+                    {
+                        "s2_author_id": "10406245",
+                        "name": "Jonathan E. Helm"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "1883170",
+                        "name": "H. S. Heese"
+                    },
+                    {
+                        "s2_author_id": "144372748",
+                        "name": "Li Jin"
+                    },
+                    {
+                        "s2_author_id": "1380890714",
+                        "name": "Alice Mitchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aff51676b454dba766f75e84dcc02165e6897343",
+                "title": "Robustness-Driven Exploration with Probabilistic Metric Temporal Logic",
+                "year": 2019,
+                "venue": "International Conference on Agents and Artificial Intelligence",
+                "citation_count": 2,
+                "reference_count": 27,
+                "abstract": "The ability to perform autonomous exploration is essential for unmanned aerial vehicles (UAV) operating in unstructured or unknown environments where it is hard or even impossible to describe the environment beforehand. However, algorithms for autonomous exploration often focus on optimizing time and coverage in a greedy fashion. That type of exploration can collect irrelevant data and wastes time navigating areas with no important information. In this paper, we propose a method for exploiting the discovered knowledge about the environment while exploring it by relying on a theory of robustness based on Probabilistic Metric Temporal Logic (P-MTL) as applied to offline verification and online control of hybrid systems. By maximizing the satisfaction of the predefined P-MTL specifications of the exploration problem, the robustness values guide the UAV towards areas with more interesting information to gain. We use Markov Chain Monte Carlo to solve the P-MTL constraints. We demonstrate the effectiveness of the proposed approach by simulating autonomous exploration over Amazonian rainforest where our approach is used to detect areas occupied by illegal Artisanal Small-scale Gold Mining (ASGM) activities. The results show that our approach outperform a greedy exploration approach (Autonomous Exploration Planner) by 38% in terms of ASGM coverage.",
+                "authors": [
+                    {
+                        "s2_author_id": "2144485665",
+                        "name": "Xiaotian Liu"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2111150708",
+                        "name": "Tongtong Liu"
+                    },
+                    {
+                        "s2_author_id": "3188181",
+                        "name": "Sarra M. Alqahtani"
+                    },
+                    {
+                        "s2_author_id": "2873829",
+                        "name": "V. P. Pauca"
+                    },
+                    {
+                        "s2_author_id": "2316427671",
+                        "name": "Miles Silman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7d5a85521604488081ea02c5df58e55445bd82ec",
+                "title": "Capacity Management in Inpatient Wards with Off-service Placement and a Network View",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2117142556",
+                        "name": "Jing Dong"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "11601264",
+                        "name": "Fanyin Zheng"
+                    },
+                    {
+                        "s2_author_id": "2149170815",
+                        "name": "Xin Jin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ff5aa08a5641cb9734576a572a79765c90bff1b1",
+                "title": "Recent Modeling and Analytical Advances in Hospital Inpatient Flow Management",
+                "year": 2018,
+                "venue": "Production and operations management",
+                "citation_count": 20,
+                "reference_count": 96,
+                "abstract": "Inpatient flow management plays a critical role in care delivery, patient outcomes, and hospital operational and financial costs. Modeling and performance analysis of inpatient flow present unique features and challenges that differ from operations in other service industries. In this study, we review recent modeling and analytical advances in the setting of inpatient flow management, with a particular focus on service time models motivated from the observations of inpatient discharges. We first compare two new service time models developed to capture the time\u2010of\u2010day inpatient flow dynamics, and reveal interesting connections between the two models. We then review analytical methods developed to analyze systems with the new service time models. Based on one method, which is amenable to a one\u2010dimensional exact analysis under certain conditions, we further introduce its approximations that have explicit analytical forms and enable efficient computations in large systems. In particular, we showcase how to leverage a powerful tool, Stein\u2019s method framework, in the hospital setting for steady\u2010state approximations and characterizing error bounds. We conclude this study by a literature review on other important aspects in inpatient flow management and propose future research directions, from both the modeling and analytical perspectives.",
+                "authors": [
+                    {
+                        "s2_author_id": "145618709",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02d4fe5447a5199da166913c1bf17ba2b816fdc4",
+                "title": "Inpatient Bed Overflow: An Approximate Dynamic Programming Approach",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145618709",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "17c4eef41981a9707f855a40f98634182844543d",
+                "title": "A Two-Time-Scale Approach to Time-Varying Queues in Hospital Inpatient Flow Management",
+                "year": 2017,
+                "venue": "Operational Research",
+                "citation_count": 58,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1966197",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "772d69d4433911e67d5165d3f234f14c1777031c",
+                "title": "A Two-Time-Scale Approach to Time-Varying Queues for Hospital Inpatient Flow Management",
+                "year": 2017,
+                "venue": "Social Science Research Network",
+                "citation_count": 6,
+                "reference_count": 51,
+                "abstract": "We analyze a time-varying Mperi/Geo2timeScale/N queueing system. The arrival process is periodic Poisson. The service time of a customer has components in different time scales: length of stay (LOS) in days and departure time (hdis) in hours. This queueing system has been used to study patient flows from the emergency department (ED) to hospital inpatient wards. In that setting, the LOS of a patient is simply the number of days she spends in a ward and her departure time hdis is the discharge hour on the day of her discharge. We develop a new analytical framework that can perform exact analysis on this novel queueing system. This framework has two steps: first analyze the midnight customer count process and obtain its stationary distribution, then analyze the time-dependent customer count process to compute various performance measures. We also develop approximation tools that can significantly reduce the computational time. In particular, via Stein's method, we derive explicit expressions to approximate the stationary distribution of the midnight count. We provide error bounds for these approximations and numerically demonstrate that they are remarkably accurate for systems with various sizes and load conditions. Our theoretical and numerical analysis have produced a number of insights that can be used to improve hospital inpatient flow management. We find that the LOS term affects the overnight wait caused by the mismatch between daily arrivals and discharges, whereas the hdis term affects the intra-day wait caused by the non-synchronization between the arrival and discharge time patterns. Thus, reducing LOS or increasing capacity can impact the daily average performance significantly; shifting the discharge timing to earlier times of a day can alleviate the peak congestion in the morning and mainly affects the time-dependent performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "145618709",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4bcffa81ed2d4b671eecd5cab40fcf5f5b2434d3",
+                "title": "Comparing Policies for Case Scheduling Within 1 Day of Surgery by Markov Chain Models",
+                "year": 2016,
+                "venue": "Anesthesia and Analgesia",
+                "citation_count": 30,
+                "reference_count": 43,
+                "abstract": "BACKGROUND:In previous studies, hospitals\u2019 operating room (OR) schedules were influenced markedly by decisions made within a few days of surgery. At an academic hospital, 46% of ORs had their last case scheduled or changed within 1 working day of surgery, and a private hospital had 64%. Many of these changes were for patients who were admitted before surgery (i.e., inpatient cases). In this study, we investigate the impact on OR productivity of how cases are scheduled within 1 working day before the day of surgery. METHODS:We consider the case-scheduling choice between 2 ORs. We compare 3 scheduling policies: Best Fit Descending, Worst Fit Descending, and Worst Fit Ascending. \u201cDescending\u201d strategies consider new cases from longest to shortest, whereas \u201cAscending\u201d considers new cases from shortest to longest. Best Fit schedules each new case into the OR with sufficient but the least remaining underutilized OR time for the case. Worst Fit does the same but with the most remaining time. For our application, Best Fit chooses a later start time, whereas Worst Fit chooses an earlier start time. In our computational model, cases are of 2 possible durations, brief or long. Case cancellation is incorporated explicitly, and the number of new cases to schedule depends on the current number of scheduled cases in each OR, both new from previous studies. The number of cases in each OR is modeled as a Markov chain, evolving between 2 periods, corresponding to 1 day and 0 days before the day of surgery. For each scheduling policy, we evaluate the mean overutilized OR time and productivity. Our sensitivity analyses cover many cancellation rates, arrival settings, case durations, and initial conditions (i.e., how cases are scheduled into the 2 ORs preceding 1 workday before the day of surgery). RESULTS:Best Fit Descending and Worst Fit Descending achieved almost the same overutilized time and productivity. Worst Fit Ascending caused greater overutilized time (as much as 6.6 minutes more per OR) and thus lesser productivity (as much as 1.6% less) compared with Best Fit Descending or Worst Fit Descending. When the staff were scheduled for less time than the optimal allocated OR time, there were nearly the same differences between the staff productivity resulting from the use of Worst Fit Ascending rather than Worst Fit Descending or Best Fit Descending. CONCLUSIONS:Scheduling office decision making within 1 day before surgery should be based on statistical forecasts of expected total OR workload (i.e., forecasts that include the addition of non-elective cases and the subtraction of cases that cancel). As long as a case is not scheduled into overutilized time when less overutilized time could be achieved in another OR, and cases are considered in descending sequence of scheduled durations, the differences in overutilized time and productivity among the scheduling policies are small. Cognitive bias in staff scheduling causes a significant reduction in productivity, but the differences among scheduling policies are nearly the same as when there is no bias.",
+                "authors": [
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "144441416",
+                        "name": "F. Dexter"
+                    },
+                    {
+                        "s2_author_id": "2703002",
+                        "name": "R. Epstein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9b6b0958b7e8410cac8aaa1fac4840bf5851ba24",
+                "title": "Steady\u2010state diffusion approximations for discrete\u2010time queue in hospital inpatient flow management",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 10,
+                "reference_count": 32,
+                "abstract": "In this article, we analyze a discrete\u2010time queue that is motivated from studying hospital inpatient flow management, where the customer count process captures the midnight inpatient census. The stationary distribution of the customer count has no explicit form and is difficult to compute in certain parameter regimes. Using the Stein's method framework, we identify a continuous random variable to approximate the steady\u2010state customer count. The continuous random variable corresponds to the stationary distribution of a diffusion process with state\u2010dependent diffusion coefficients. We characterize the error bounds of this approximation under a variety of system load conditions\u2014from lightly loaded to heavily loaded. We also identify the critical role that the service rate plays in the convergence rate of the error bounds. We perform extensive numerical experiments to support the theoretical findings and to demonstrate the approximation quality. In particular, we show that our approximation performs better than those based on constant diffusion coefficients when the number of servers is small, which is relevant to decision making in a single hospital ward.",
+                "authors": [
+                    {
+                        "s2_author_id": "102732208",
+                        "name": "Jiekun Feng"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "161490bc8a72f670d2eae4e72800df2e09d96f7a",
+                "title": "Technical Note for Discrete-Time Diffusion Approximations Motivated from Hospital Inpatient Flow Management",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": "This note details the development of a discrete-time diffusion process to approximate the midnight customer count process in a $M_\\textrm{per}/\\textrm{Geo}_\\textrm{2timeScale}/N$ system. We prove a limit theorem that supports this diffusion approximation, and discuss two methods to compute the stationary distribution of this discrete-time diffusion process.",
+                "authors": [
+                    {
+                        "s2_author_id": "145618709",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "adf6e759abdbcc67db5b335353c7025d358ad062",
+                "title": "Models and Insights for Hospital Inpatient Operations: Time-Dependent ED Boarding Time",
+                "year": 2015,
+                "venue": "Management Sciences",
+                "citation_count": 181,
+                "reference_count": 68,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2225508",
+                        "name": "M. Chou"
+                    },
+                    {
+                        "s2_author_id": "145618709",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2056669987",
+                        "name": "Ding Ding"
+                    },
+                    {
+                        "s2_author_id": "2055645378",
+                        "name": "Joe Sim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "64d7c007e7e70d7827e115a11fdf039451016587",
+                "title": "Patient Flow from Emergency Department to Inpatient Wards: Empirical Observations from a Singaporean Hospital",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 19,
+                "reference_count": 34,
+                "abstract": "This document presents a comprehensive empirical study on the inpatient flow management in a Singaporean hospital. The empirical study uses high resolution patient flow data from 2008 to 2010. This document details the statistics of waiting times for patients admitted from the emergence department (ED) to inpatient wards, bed occupancy rate of the inpatient wards, and overflow proportions (proportions of patients that are admitted to a non-primary ward). The document also reports various statistics related to patient arrival, inpatient discharge, length of stay (LOS), and pre- and post-allocation delays incurred during the bed-assignment process.",
+                "authors": [
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "145618709",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2056669987",
+                        "name": "Ding Ding"
+                    },
+                    {
+                        "s2_author_id": "117569043",
+                        "name": "Soo Keng Ang"
+                    },
+                    {
+                        "s2_author_id": "2225508",
+                        "name": "M. Chou"
+                    },
+                    {
+                        "s2_author_id": "2149170815",
+                        "name": "Xin Jin"
+                    },
+                    {
+                        "s2_author_id": "2055645378",
+                        "name": "Joe Sim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e08ee21cad76278b510d725490a2de6a168c7b8",
+                "title": "Stochastic modeling and decision making in two healthcare applications: inpatient flow management and influenza pandemics",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 151,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2b6cec507e7fbff6f3a54f31d57f33ab478c6954",
+                "title": "Descriptive Study of Case Scheduling and Cancellations Within 1 Week of the Day of Surgery",
+                "year": 2012,
+                "venue": "Anesthesia and Analgesia",
+                "citation_count": 57,
+                "reference_count": 47,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144441416",
+                        "name": "F. Dexter"
+                    },
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2703002",
+                        "name": "R. Epstein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "74f2104a79428906dd39ac225a49a663ce5fd1a5",
+                "title": "Hospital Inpatient Operations : Mathematical Models and Managerial Insights",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 18,
+                "reference_count": 61,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "145618709",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2225508",
+                        "name": "M. Chou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dd0aa60dd9e772c0064b35f75c8318214c2550e7",
+                "title": "Models and Insights for Hospital Inpatient Operations: Time-of-Day Congestion for ED Patients Awaiting Beds *",
+                "year": null,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 60,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2962774",
+                        "name": "P. Shi"
+                    },
+                    {
+                        "s2_author_id": "2383480034",
+                        "name": "H. Milton"
+                    },
+                    {
+                        "s2_author_id": "2383482678",
+                        "name": "Mabel C. Chou"
+                    },
+                    {
+                        "s2_author_id": "2326435876",
+                        "name": "J. Dai"
+                    },
+                    {
+                        "s2_author_id": "2383488191",
+                        "name": "Ding Ding"
+                    },
+                    {
+                        "s2_author_id": "2055645378",
+                        "name": "Joe Sim"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2326970851",
+                "name": "Jingjing Sun"
+            },
+            {
+                "s2_author_id": "2326435876",
+                "name": "J. Dai"
+            },
+            {
+                "s2_author_id": "2144184533",
+                "name": "Jinsheng Chen"
+            },
+            {
+                "s2_author_id": "2237957744",
+                "name": "Jing Dong"
+            },
+            {
+                "s2_author_id": "2111244847",
+                "name": "Yangyang Pan"
+            },
+            {
+                "s2_author_id": "2272309874",
+                "name": "Xiaoquan Gao"
+            },
+            {
+                "s2_author_id": "2276912886",
+                "name": "Nan Kong"
+            },
+            {
+                "s2_author_id": "2317369",
+                "name": "Xiaoquan Gao"
+            },
+            {
+                "s2_author_id": "2004251456",
+                "name": "S. Alam"
+            },
+            {
+                "s2_author_id": "144441416",
+                "name": "F. Dexter"
+            },
+            {
+                "s2_author_id": "2136779006",
+                "name": "Nan Kong"
+            },
+            {
+                "s2_author_id": "2182845132",
+                "name": "Zhiqiang Zhang"
+            },
+            {
+                "s2_author_id": "2457167",
+                "name": "Amy R. Ward"
+            },
+            {
+                "s2_author_id": "2000512548",
+                "name": "Xinyun Chen"
+            },
+            {
+                "s2_author_id": "2190959883",
+                "name": "Shanwen Pu"
+            },
+            {
+                "s2_author_id": "83741580",
+                "name": "Yihan Pan"
+            },
+            {
+                "s2_author_id": "2149238629",
+                "name": "Zhenghang Xu"
+            },
+            {
+                "s2_author_id": "2077432721",
+                "name": "Jin Guang"
+            },
+            {
+                "s2_author_id": "2156017174",
+                "name": "Jingjing Sun"
+            },
+            {
+                "s2_author_id": "2109450632",
+                "name": "Chengwenjian Wang"
+            },
+            {
+                "s2_author_id": "1425082935",
+                "name": "Xinyun Chen"
+            },
+            {
+                "s2_author_id": "145618709",
+                "name": "J. Dai"
+            },
+            {
+                "s2_author_id": "2111240640",
+                "name": "Yichuan Ding"
+            },
+            {
+                "s2_author_id": "2087362846",
+                "name": "Hongxin Pan"
+            },
+            {
+                "s2_author_id": "48783128",
+                "name": "Kairan Yang"
+            },
+            {
+                "s2_author_id": "2108819790",
+                "name": "Song Wu"
+            },
+            {
+                "s2_author_id": "10406245",
+                "name": "Jonathan E. Helm"
+            },
+            {
+                "s2_author_id": "2124751903",
+                "name": "Christopher Chen"
+            },
+            {
+                "s2_author_id": "2148577159",
+                "name": "Jeff Lim"
+            },
+            {
+                "s2_author_id": "32595339",
+                "name": "Rodney P. Parker"
+            },
+            {
+                "s2_author_id": "49652089",
+                "name": "T. Tinsley"
+            },
+            {
+                "s2_author_id": "2125109476",
+                "name": "Jacob Cecil"
+            },
+            {
+                "s2_author_id": "2146074389",
+                "name": "Xin Liu"
+            },
+            {
+                "s2_author_id": "2156072132",
+                "name": "Bin Li"
+            },
+            {
+                "s2_author_id": "2345521987",
+                "name": "Lei Ying"
+            },
+            {
+                "s2_author_id": "2117143122",
+                "name": "Jing Dong"
+            },
+            {
+                "s2_author_id": "89121677",
+                "name": "Xin Liu"
+            },
+            {
+                "s2_author_id": "66318681",
+                "name": "Jonathan E. Helm"
+            },
+            {
+                "s2_author_id": "2703002",
+                "name": "R. Epstein"
+            },
+            {
+                "s2_author_id": "153123367",
+                "name": "T. Jang"
+            },
+            {
+                "s2_author_id": "2108158629",
+                "name": "Xiaoqian Wang"
+            },
+            {
+                "s2_author_id": "10803100",
+                "name": "Hamsa Bastani"
+            },
+            {
+                "s2_author_id": "31138625",
+                "name": "Yiqiu Liu"
+            },
+            {
+                "s2_author_id": "1996002",
+                "name": "M. P. Oyen"
+            },
+            {
+                "s2_author_id": "3178373",
+                "name": "T. Huschka"
+            },
+            {
+                "s2_author_id": "1883170",
+                "name": "H. S. Heese"
+            },
+            {
+                "s2_author_id": "49693725",
+                "name": "A. Mitchell"
+            },
+            {
+                "s2_author_id": "143689318",
+                "name": "Jing Dong"
+            },
+            {
+                "s2_author_id": "2182218",
+                "name": "A. Alaeddini"
+            },
+            {
+                "s2_author_id": "40803596",
+                "name": "Syed Hasib Akhter Faruqui"
+            },
+            {
+                "s2_author_id": "1413758755",
+                "name": "J. Deglise-Hawkinson"
+            },
+            {
+                "s2_author_id": "7589009",
+                "name": "Julian Pan"
+            },
+            {
+                "s2_author_id": "11601264",
+                "name": "Fanyin Zheng"
+            },
+            {
+                "s2_author_id": "2149170815",
+                "name": "Xin Jin"
+            },
+            {
+                "s2_author_id": "144372748",
+                "name": "Li Jin"
+            },
+            {
+                "s2_author_id": "1380890714",
+                "name": "Alice Mitchel"
+            },
+            {
+                "s2_author_id": "2144485665",
+                "name": "Xiaotian Liu"
+            },
+            {
+                "s2_author_id": "2111150708",
+                "name": "Tongtong Liu"
+            },
+            {
+                "s2_author_id": "3188181",
+                "name": "Sarra M. Alqahtani"
+            },
+            {
+                "s2_author_id": "2873829",
+                "name": "V. P. Pauca"
+            },
+            {
+                "s2_author_id": "2316427671",
+                "name": "Miles Silman"
+            },
+            {
+                "s2_author_id": "2117142556",
+                "name": "Jing Dong"
+            },
+            {
+                "s2_author_id": "1966197",
+                "name": "J. Dai"
+            },
+            {
+                "s2_author_id": "102732208",
+                "name": "Jiekun Feng"
+            },
+            {
+                "s2_author_id": "2225508",
+                "name": "M. Chou"
+            },
+            {
+                "s2_author_id": "2056669987",
+                "name": "Ding Ding"
+            },
+            {
+                "s2_author_id": "2055645378",
+                "name": "Joe Sim"
+            },
+            {
+                "s2_author_id": "117569043",
+                "name": "Soo Keng Ang"
+            },
+            {
+                "s2_author_id": "2383480034",
+                "name": "H. Milton"
+            },
+            {
+                "s2_author_id": "2383482678",
+                "name": "Mabel C. Chou"
+            },
+            {
+                "s2_author_id": "2383488191",
+                "name": "Ding Ding"
+            }
+        ],
+        "total_co_authors": 71,
+        "papers_retrieved": 41
+    }
+}

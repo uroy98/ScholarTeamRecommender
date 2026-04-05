@@ -1,0 +1,489 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A4JYP",
+        "name": "Brian D Haymore",
+        "primary_affiliation": "University of Illinois at Urbana-Champaign",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Illinois at Urbana-Champaign"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "IL"
+        ],
+        "perf_cities": [
+            "URBANA"
+        ],
+        "org_names": [
+            "University of Illinois at Urbana-Champaign"
+        ],
+        "org_ueis": [
+            "Y8CWNJRCNN91"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "brian.haymore@utah.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2530195",
+                "title": "Conference: Practice and Experience in Advanced Research Computing 2025 - Student Program",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-06-15",
+                "exp_date": "2026-05-31",
+                "award_amount": 50000.0,
+                "total_amount": 50000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "0000A2TQ5",
+                    "0000A0CYB"
+                ],
+                "program_elements": [
+                    "EDUCATION AND WORKFORCE"
+                ],
+                "program_codes": [
+                    "736100"
+                ],
+                "program_references": [
+                    "CYBERINFRASTRUCTURE",
+                    "CONFERENCE AND WORKSHOPS",
+                    "GRADUATE INVOLVEMENT"
+                ],
+                "program_ref_codes": [
+                    "7231",
+                    "7556",
+                    "9179"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "OAC",
+                "nsf_directorate": null,
+                "fund_division": "Office of Advanced Cyberinfrastructure (OAC)",
+                "cfda_num": "47.070",
+                "po_name": "Sharmistha Bagchi-Sen",
+                "keywords": [
+                    "computing",
+                    "conference",
+                    "advanced",
+                    "experience",
+                    "pearc",
+                    "opportunities",
+                    "students",
+                    "practice",
+                    "series",
+                    "solutions"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "0000A0CYB",
+            "0000A2TQ5"
+        ],
+        "program_elements": [
+            "EDUCATION AND WORKFORCE"
+        ],
+        "program_codes": [
+            "736100"
+        ],
+        "program_references": [
+            "CYBERINFRASTRUCTURE",
+            "CONFERENCE AND WORKSHOPS",
+            "GRADUATE INVOLVEMENT"
+        ],
+        "program_ref_codes": [
+            "7231",
+            "7556",
+            "9179"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "OAC"
+        ],
+        "fund_divisions": [
+            "Office of Advanced Cyberinfrastructure (OAC)"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Sharmistha Bagchi-Sen"
+        ],
+        "keywords": [
+            "computing",
+            "conference",
+            "advanced",
+            "experience",
+            "pearc",
+            "opportunities",
+            "students",
+            "practice",
+            "series",
+            "solutions",
+            "thus",
+            "resources",
+            "facilitate",
+            "year",
+            "power",
+            "collaboration",
+            "community",
+            "workforce",
+            "student",
+            "stakeholders"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.68
+    },
+    "s2_profile": {
+        "s2_author_id": "48580403",
+        "name": "Brian D Haymore",
+        "affiliations": [],
+        "paper_count": 5,
+        "citation_count": 20,
+        "h_index": 3,
+        "papers": [
+            {
+                "s2_paper_id": "9314d1c1c0453ea9e592068f49387b7a2a02b1fb",
+                "title": "Arbiter: Dynamically Limiting Resource Consumption on Login Nodes",
+                "year": 2019,
+                "venue": "Practice and Experience in Advanced Research Computing",
+                "citation_count": 5,
+                "reference_count": 10,
+                "abstract": "In a high-performance computing (HPC) environment, shared resources are often the most capricious and unreliable. The performance of each process is affected by the behavior of all connected users. This applies particularly to the login nodes of HPC clusters, which are used by multiple people at a time. Often, policies govern their use, typically limiting users to small, lightweight tasks such as scripting, compiling, submitting batch jobs, and staging data. If a user is behaving poorly, such as using a significant portion of CPU time or consuming a large fraction of the total memory, processes using the same resources can be slowed or run out of memory. Policies on login nodes that prohibit such behavior, however, may not be enforced automatically because of technical limitations. Arbiter is a service that overcomes such limitations by using cgroups, a feature of the Linux kernel, to monitor and limit usage. It can both enforce default limits---to ensure the server remains responsive---and penalize users who are consuming resources immoderately while still allowing for brief testing of workloads better suited to computational resources. Arbiter tracks the total memory and CPU usage of a user, reduces the quantity available for a period of time if usage is excessive, and sends emails to inform users of policies and potentially impactful behaviors. Throttling performed by Arbiter encourages users to use computational resources for intensive tasks (through the batch system), thereby supporting the reliability and responsiveness of login nodes.",
+                "authors": [
+                    {
+                        "s2_author_id": "47703831",
+                        "name": "D. Gardner"
+                    },
+                    {
+                        "s2_author_id": "151430008",
+                        "name": "Robben E. Migacz"
+                    },
+                    {
+                        "s2_author_id": "48580403",
+                        "name": "Brian Haymore"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b01e31424c39c2c748ce08b92a2120480c7215bc",
+                "title": "Linux Clusters Institute Workshops: Building the HPC and Research Computing Systems Professionals Workforce",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5429888",
+                        "name": "David Akin"
+                    },
+                    {
+                        "s2_author_id": "3155810",
+                        "name": "Mehmet Belgin"
+                    },
+                    {
+                        "s2_author_id": "46894560",
+                        "name": "Timothy Bouvet"
+                    },
+                    {
+                        "s2_author_id": "145207744",
+                        "name": "Neil Bright"
+                    },
+                    {
+                        "s2_author_id": "2139318",
+                        "name": "Stephen Lien Harrell"
+                    },
+                    {
+                        "s2_author_id": "48580403",
+                        "name": "Brian Haymore"
+                    },
+                    {
+                        "s2_author_id": "2060114500",
+                        "name": "Michael Jennings"
+                    },
+                    {
+                        "s2_author_id": "145644329",
+                        "name": "R. Knepper"
+                    },
+                    {
+                        "s2_author_id": "29409894",
+                        "name": "Daniel Lapine"
+                    },
+                    {
+                        "s2_author_id": "40513781",
+                        "name": "F. Liu"
+                    },
+                    {
+                        "s2_author_id": "40644800",
+                        "name": "A. Maji"
+                    },
+                    {
+                        "s2_author_id": "2222258",
+                        "name": "Henry Neeman"
+                    },
+                    {
+                        "s2_author_id": "40274277",
+                        "name": "Resa Reynolds"
+                    },
+                    {
+                        "s2_author_id": "97562374",
+                        "name": "Andrew H. Sherman"
+                    },
+                    {
+                        "s2_author_id": "2870285",
+                        "name": "M. Showerman"
+                    },
+                    {
+                        "s2_author_id": "49631240",
+                        "name": "Jenett Tillotson"
+                    },
+                    {
+                        "s2_author_id": "144129831",
+                        "name": "John Towns"
+                    },
+                    {
+                        "s2_author_id": "70427612",
+                        "name": "George W. Turner"
+                    },
+                    {
+                        "s2_author_id": "2064448275",
+                        "name": "Brett Zimmerman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b1df8be9b624f3b54b93265ceb5a8b961e30bef4",
+                "title": "Design, Implementation and Deployment of a Commodity Cluster for Periodic Comparisons of Gene Sequences",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3058990",
+                        "name": "A. Orendt"
+                    },
+                    {
+                        "s2_author_id": "48580403",
+                        "name": "Brian Haymore"
+                    },
+                    {
+                        "s2_author_id": "2069485194",
+                        "name": "D. Richardson"
+                    },
+                    {
+                        "s2_author_id": "144512926",
+                        "name": "Sofia M. C. Robb"
+                    },
+                    {
+                        "s2_author_id": "38282165",
+                        "name": "A. S. Alvarado"
+                    },
+                    {
+                        "s2_author_id": "1740369",
+                        "name": "J. Facelli"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e5d4577eea8d391795943444554f5a59baa0966b",
+                "title": "REGIONAL SCALE MODELING FOR THE 2002 OLYMPIC WINTER GAMES",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "70542214",
+                        "name": "Daryl J. Onton"
+                    },
+                    {
+                        "s2_author_id": "2096022572",
+                        "name": "J. Siffert"
+                    },
+                    {
+                        "s2_author_id": "2150208544",
+                        "name": "L. Cheng"
+                    },
+                    {
+                        "s2_author_id": "70511359",
+                        "name": "W. J. Steenburgh"
+                    },
+                    {
+                        "s2_author_id": "48580403",
+                        "name": "Brian Haymore"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "faf1df851f576b7364579416ed8020acb1805daa",
+                "title": "Improving cluster utilization through set based allocation policies",
+                "year": 2001,
+                "venue": "Proceedings International Conference on Parallel Processing Workshops",
+                "citation_count": 7,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065116674",
+                        "name": "David B. Jackson"
+                    },
+                    {
+                        "s2_author_id": "48580403",
+                        "name": "Brian Haymore"
+                    },
+                    {
+                        "s2_author_id": "1740369",
+                        "name": "J. Facelli"
+                    },
+                    {
+                        "s2_author_id": "1743210",
+                        "name": "Q. Snell"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "47703831",
+                "name": "D. Gardner"
+            },
+            {
+                "s2_author_id": "151430008",
+                "name": "Robben E. Migacz"
+            },
+            {
+                "s2_author_id": "5429888",
+                "name": "David Akin"
+            },
+            {
+                "s2_author_id": "3155810",
+                "name": "Mehmet Belgin"
+            },
+            {
+                "s2_author_id": "46894560",
+                "name": "Timothy Bouvet"
+            },
+            {
+                "s2_author_id": "145207744",
+                "name": "Neil Bright"
+            },
+            {
+                "s2_author_id": "2139318",
+                "name": "Stephen Lien Harrell"
+            },
+            {
+                "s2_author_id": "2060114500",
+                "name": "Michael Jennings"
+            },
+            {
+                "s2_author_id": "145644329",
+                "name": "R. Knepper"
+            },
+            {
+                "s2_author_id": "29409894",
+                "name": "Daniel Lapine"
+            },
+            {
+                "s2_author_id": "40513781",
+                "name": "F. Liu"
+            },
+            {
+                "s2_author_id": "40644800",
+                "name": "A. Maji"
+            },
+            {
+                "s2_author_id": "2222258",
+                "name": "Henry Neeman"
+            },
+            {
+                "s2_author_id": "40274277",
+                "name": "Resa Reynolds"
+            },
+            {
+                "s2_author_id": "97562374",
+                "name": "Andrew H. Sherman"
+            },
+            {
+                "s2_author_id": "2870285",
+                "name": "M. Showerman"
+            },
+            {
+                "s2_author_id": "49631240",
+                "name": "Jenett Tillotson"
+            },
+            {
+                "s2_author_id": "144129831",
+                "name": "John Towns"
+            },
+            {
+                "s2_author_id": "70427612",
+                "name": "George W. Turner"
+            },
+            {
+                "s2_author_id": "2064448275",
+                "name": "Brett Zimmerman"
+            },
+            {
+                "s2_author_id": "3058990",
+                "name": "A. Orendt"
+            },
+            {
+                "s2_author_id": "2069485194",
+                "name": "D. Richardson"
+            },
+            {
+                "s2_author_id": "144512926",
+                "name": "Sofia M. C. Robb"
+            },
+            {
+                "s2_author_id": "38282165",
+                "name": "A. S. Alvarado"
+            },
+            {
+                "s2_author_id": "1740369",
+                "name": "J. Facelli"
+            },
+            {
+                "s2_author_id": "70542214",
+                "name": "Daryl J. Onton"
+            },
+            {
+                "s2_author_id": "2096022572",
+                "name": "J. Siffert"
+            },
+            {
+                "s2_author_id": "2150208544",
+                "name": "L. Cheng"
+            },
+            {
+                "s2_author_id": "70511359",
+                "name": "W. J. Steenburgh"
+            },
+            {
+                "s2_author_id": "2065116674",
+                "name": "David B. Jackson"
+            },
+            {
+                "s2_author_id": "1743210",
+                "name": "Q. Snell"
+            }
+        ],
+        "total_co_authors": 31,
+        "papers_retrieved": 5
+    }
+}

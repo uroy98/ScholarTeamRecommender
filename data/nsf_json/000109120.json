@@ -1,0 +1,584 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000109120",
+        "name": "Vanja Dukic",
+        "primary_affiliation": "University of Colorado at Boulder",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Colorado at Boulder"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "CO"
+        ],
+        "perf_cities": [
+            "Boulder"
+        ],
+        "org_names": [
+            "University of Colorado at Boulder"
+        ],
+        "org_ueis": [
+            "SPVKK1RC2MZ3"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "Vanja.Dukic@Colorado.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2527532",
+                "title": "Collaborative Research: eMB: Weak Form Scientific Machine Learning of Mechanisms in Disease Ecology",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-09-01",
+                "exp_date": "2028-08-31",
+                "award_amount": 240000.0,
+                "total_amount": 240000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [
+                    "000303252"
+                ],
+                "program_elements": [
+                    "OFFICE OF MULTIDISCIPLINARY AC",
+                    "MATHEMATICAL BIOLOGY"
+                ],
+                "program_codes": [
+                    "125300",
+                    "733400"
+                ],
+                "program_references": [
+                    "Artificial Intelligence (AI)",
+                    "Machine Learning Theory",
+                    "Biotechnology"
+                ],
+                "program_ref_codes": [
+                    "075Z",
+                    "079Z",
+                    "8038"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "DMS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Mathematical Sciences",
+                "cfda_num": "47.049",
+                "po_name": "Zhilan Feng",
+                "keywords": [
+                    "models",
+                    "insect",
+                    "ecology",
+                    "weak",
+                    "form",
+                    "machine",
+                    "learning",
+                    "forests",
+                    "methods",
+                    "discovery"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000303252"
+        ],
+        "program_elements": [
+            "OFFICE OF MULTIDISCIPLINARY AC",
+            "MATHEMATICAL BIOLOGY"
+        ],
+        "program_codes": [
+            "125300",
+            "733400"
+        ],
+        "program_references": [
+            "Artificial Intelligence (AI)",
+            "Machine Learning Theory",
+            "Biotechnology"
+        ],
+        "program_ref_codes": [
+            "075Z",
+            "079Z",
+            "8038"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "DMS"
+        ],
+        "fund_divisions": [
+            "Division Of Mathematical Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049"
+        ],
+        "program_officers": [
+            "Zhilan Feng"
+        ],
+        "keywords": [
+            "models",
+            "insect",
+            "ecology",
+            "weak",
+            "form",
+            "machine",
+            "learning",
+            "forests",
+            "methods",
+            "discovery",
+            "scientific",
+            "disease",
+            "pests",
+            "computational",
+            "investigators",
+            "developed",
+            "mathematical",
+            "host",
+            "pathogen",
+            "wsciml"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.46
+    },
+    "s2_profile": {
+        "s2_author_id": "2261333155",
+        "name": "Vanja Dukic",
+        "affiliations": [],
+        "paper_count": 12,
+        "citation_count": 37,
+        "h_index": 3,
+        "papers": [
+            {
+                "s2_paper_id": "1103a4828b5ebd0867751c0e21de2b8eb3cb3cc0",
+                "title": "Learning structured population models from data with WSINDy",
+                "year": 2025,
+                "venue": "PLoS Comput. Biol.",
+                "citation_count": 0,
+                "reference_count": 49,
+                "abstract": "Characteristics of individuals in a population, such as age and size, play a key role in determining how populations change over time. In contexts of population dynamics, identifying effective model features, such as fecundity and mortality rates, is generally a complex and computationally intensive process, especially when the dynamics are heterogeneous across the population. In this work, we propose a Weak form Scientific Machine Learning-based method for selecting appropriate model ingredients from a library of scientifically feasible functions used to model structured populations. This paper presents extensions of the Weak form Sparse Identification of Nonlinear Dynamics (WSINDy) method to select the best-fitting ingredients from noisy time-series histogram data. This extension includes learning heterogeneous dynamics and also learning the boundary processes (such as birth) of the model directly from the data. We additionally incorporate a cross-validation method which helps fine tune the recovered boundary process hyperparameters to the data. Several test cases are considered, demonstrating the method\u2019s performance for several standard models from population modeling, including age and size-structured models. Through these examples, we examine both the advantages and limitations of the method, with a particular focus on the distinguishability of terms in the library.",
+                "authors": [
+                    {
+                        "s2_author_id": "2372667087",
+                        "name": "Rainey Lyons"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    },
+                    {
+                        "s2_author_id": "2328758395",
+                        "name": "David M. Bortz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1722ad07a332720c62fc85c1f3708991769f6efa",
+                "title": "WENDy for Nonlinear-in-Parameters ODEs",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": "The Weak-form Estimation of Non-linear Dynamics (WENDy) framework is a recently developed approach for parameter estimation and inference of systems of ordinary differential equations (ODEs). Prior work demonstrated WENDy to be robust, computationally efficient, and accurate, but only works for ODEs which are linear-in-parameters. In this work, we derive a novel extension to accommodate systems of a more general class of ODEs that are nonlinear-in-parameters. Our new WENDy-MLE algorithm approximates a maximum likelihood estimator via local non-convex optimization methods. This is made possible by the availability of analytic expressions for the likelihood function and its first and second order derivatives. WENDy-MLE has better accuracy, a substantially larger domain of convergence, and is often faster than other weak form methods and the conventional output error least squares method. Moreover, we extend the framework to accommodate data corrupted by multiplicative log-normal noise. The WENDy.jl algorithm is efficiently implemented in Julia. In order to demonstrate the practical benefits of our approach, we present extensive numerical results comparing our method, other weak form methods, and output error least squares on a suite of benchmark systems of ODEs in terms of accuracy, precision, bias, and coverage.",
+                "authors": [
+                    {
+                        "s2_author_id": "2345185330",
+                        "name": "Nic Rummel"
+                    },
+                    {
+                        "s2_author_id": "102404288",
+                        "name": "D. Messenger"
+                    },
+                    {
+                        "s2_author_id": "2345189485",
+                        "name": "Stephen Becker"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    },
+                    {
+                        "s2_author_id": "2328758395",
+                        "name": "David M. Bortz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "679f9ab586b0158f771c7e8fa0e21b8487bcfca3",
+                "title": "Synthesizing selection mosaic theory and host-pathogen theory to explain large-scale pathogen coexistence",
+                "year": 2025,
+                "venue": "Nature Communications",
+                "citation_count": 0,
+                "reference_count": 74,
+                "abstract": "Selection mosaic theory explains observations of polymorphism in host-pathogen interactions in terms of spatially variable natural selection but does not account for population dynamics. In contrast, classical host-pathogen theory easily explains observations of population cycles, but does not explain the persistence of pathogen polymorphism. Here, we synthesize these two frameworks to understand the effects of population cycles on pathogen polymorphism. We show that geographic variation in the frequency of two morphotypes of a baculovirus that infects the Douglas-fir tussock moth (Orgyia pseudotsugata) depends on the frequency of Douglas-fir (Pseudotsuga menziesii), an important tussock moth host tree. The morphotype frequency data are best explained by host-pathogen models that combine a selection mosaic with population cycles. In our model, population cycles intensify pathogen competition across a selection mosaic, leading to a strong effect of Douglas-fir frequency on morphotype frequency that matches the data. Models without host-pathogen cycles or a selection mosaic project only weak effects of varying Douglas-fir frequency. Our model further projects that a biopesticide made up of both viral morphotypes would be more effective than the current single-morphotype biopesticide, demonstrating that our synthesis of selection mosaic theory and host-pathogen theory provides useful insights into pest management. Animal pathogens often have multiple strains that compete for hosts. A combination of theory and data shows that strain coexistence in an insect virus is determined by the joint effects of population cycles and natural selection on host resistance.",
+                "authors": [
+                    {
+                        "s2_author_id": "2324107355",
+                        "name": "Katherine P Dixon"
+                    },
+                    {
+                        "s2_author_id": "2265498214",
+                        "name": "William Koval"
+                    },
+                    {
+                        "s2_author_id": "146416795",
+                        "name": "C. Polivka"
+                    },
+                    {
+                        "s2_author_id": "2401104831",
+                        "name": "Grace Bird"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    },
+                    {
+                        "s2_author_id": "2265497605",
+                        "name": "Greg Dwyer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "74de1172b55bd5a723a3bbb971006c938ebcdf80",
+                "title": "WEAK FORM LEARNING FOR MEAN-FIELD PARTIAL DIFFERENTIAL EQUATIONS: AN APPLICATION TO INSECT MOVEMENT",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 39,
+                "abstract": "Insect species subject to infection, predation, and anisotropic environmental conditions may exhibit preferential movement patterns. Given the innate stochasticity of exogenous factors driving these patterns over short timescales, individual insect trajectories typically obey overdamped stochastic dynamics. In practice, data-driven modeling approaches designed to learn the underlying Fokker-Planck equations from observed insect distributions serve as ideal tools for understanding and predicting such behavior. Understanding dispersal dynamics of crop and silvicultural pests can lead to a better forecasting of outbreak intensity and location, which can result in better pest management. In this work, we extend weak-form equation learning techniques, coupled with kernel density estimation, to learn effective models for lepidopteran larval population movement from highly sparse experimental data. Galerkin methods such as the Weak form Sparse Identification of Nonlinear Dynamics (WSINDy) algorithm have recently proven useful for learning governing equations in several scientific contexts. We demonstrate the utility of the method on a sparse dataset of position measurements of fall armyworms (Spodoptera frugiperda) obtained in simulated agricultural conditions with varied plant resources and infection status.",
+                "authors": [
+                    {
+                        "s2_author_id": "2338277695",
+                        "name": "Seth Minor"
+                    },
+                    {
+                        "s2_author_id": "6704895",
+                        "name": "B. Elderd"
+                    },
+                    {
+                        "s2_author_id": "2384767776",
+                        "name": "Benjamin Van Allen"
+                    },
+                    {
+                        "s2_author_id": "2328758395",
+                        "name": "David M. Bortz"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "780dfcea295ff56064b846707c0c84ce870e2891",
+                "title": "Climate change drives reduced biocontrol of the invasive spongy moth",
+                "year": 2025,
+                "venue": "Nature Climate Change",
+                "citation_count": 2,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108268000",
+                        "name": "Jiawei Liu"
+                    },
+                    {
+                        "s2_author_id": "2265497432",
+                        "name": "Colin Kyle"
+                    },
+                    {
+                        "s2_author_id": "2339240364",
+                        "name": "Jiali Wang"
+                    },
+                    {
+                        "s2_author_id": "93447231",
+                        "name": "R. Kotamarthi"
+                    },
+                    {
+                        "s2_author_id": "2265498214",
+                        "name": "William Koval"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    },
+                    {
+                        "s2_author_id": "2265497605",
+                        "name": "Greg Dwyer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9aaa7cd26d3f76b8232e33e4706cb464ee5da729",
+                "title": "Bias and Coverage Properties of the WENDy-IRLS Algorithm",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": "The Weak form Estimation of Nonlinear Dynamics (WENDy) method is a recently proposed class of parameter estimation algorithms that exhibits notable noise robustness and computational efficiency. This work examines the coverage and bias properties of the original WENDy-IRLS algorithm's parameter and state estimators in the context of the following differential equations: Logistic, Lotka-Volterra, FitzHugh-Nagumo, Hindmarsh-Rose, and a Protein Transduction Benchmark. The estimators'performance was studied in simulated data examples, under four different noise distributions (normal, log-normal, additive censored normal, and additive truncated normal), and a wide range of noise, reaching levels much higher than previously tested for this algorithm.",
+                "authors": [
+                    {
+                        "s2_author_id": "2384123793",
+                        "name": "Abhi Chawla"
+                    },
+                    {
+                        "s2_author_id": "2328758395",
+                        "name": "David M. Bortz"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d37d4dfde6a7ab59deff19da8800857a19303cbb",
+                "title": "A practical identifiability criterion leveraging weak-form parameter estimation",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 69,
+                "abstract": "In this work, we define a practical identifiability criterion, (e,q)-identifiability, based on a parameter e, reflecting the noise in observed variables, and a parameter q, reflecting the mean-square error of the parameter estimator. This criterion is better able to encompass changes in the quality of the parameter estimate due to increased noise in the data (compared to existing criteria based solely on average relative errors). Furthermore, we leverage a weak-form equation error-based method of parameter estimation for systems with unobserved variables to assess practical identifiability far more quickly in comparison to output error-based parameter estimation. We do so by generating weak-form input-output equations using differential algebra techniques, as previously proposed by Boulier et al [1], and then applying Weak form Estimation of Nonlinear Dynamics (WENDy) to obtain parameter estimates. This method is computationally efficient and robust to noise, as demonstrated through two classical biological modelling examples.",
+                "authors": [
+                    {
+                        "s2_author_id": "2373033661",
+                        "name": "Nora Heitzman-Breen"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    },
+                    {
+                        "s2_author_id": "2328758395",
+                        "name": "David M. Bortz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e0dbc21248674c52edd3bd00414d2b120b8a390b",
+                "title": "Learning Structured Population Models from Data with WSINDy",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 2,
+                "reference_count": 40,
+                "abstract": "In the context of population dynamics, identifying effective model features, such as fecundity and mortality rates, is generally a complex and computationally intensive process, especially when the dynamics are heterogeneous across the population. In this work, we propose a Weak form Scientific Machine Learning-based method for selecting appropriate model ingredients from a library of scientifically feasible functions used to model structured populations. This method uses extensions of the Weak form Sparse Identification of Nonlinear Dynamics (WSINDy) method to select the best-fitting ingredients from noisy time-series histogram data. This extension includes learning heterogeneous dynamics and also learning the boundary process of the model directly from the data. We additionally provide a cross-validation method which helps fine tune the recovered boundary process to the data. Several test cases are considered, demonstrating the method's performance for different previously studied models, including age and size-structured models. Through these examples, we examine both the advantages and limitations of the method, with a particular focus on the distinguishability of terms in the library.",
+                "authors": [
+                    {
+                        "s2_author_id": "2372667087",
+                        "name": "Rainey Lyons"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    },
+                    {
+                        "s2_author_id": "2328758395",
+                        "name": "David M. Bortz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "594f5b6a56b409e6c26e675d734b6f173e24d592",
+                "title": "Learning Physically Interpretable Atmospheric Models From Data With WSINDy",
+                "year": 2024,
+                "venue": "Journal of Geophysical Research",
+                "citation_count": 3,
+                "reference_count": 32,
+                "abstract": "The multiscale and turbulent nature of Earth's atmosphere has historically rendered accurate weather modeling a hard problem. Recently, there has been an explosion of interest surrounding data\u2010driven approaches to weather modeling, which in many cases show improved forecasting accuracy and computational efficiency when compared to traditional methods. However, many of the current data\u2010driven approaches employ highly parameterized neural networks, often resulting in uninterpretable models and limited gains in scientific understanding. In this work, we address the interpretability problem by explicitly discovering partial differential equations governing atmospheric phenomena, identifying symbolic mathematical models with direct physical interpretations. The purpose of this paper is to demonstrate that, in particular, the weak\u2010form sparse identification of nonlinear dynamics (WSINDy) algorithm can learn effective atmospheric models from both simulated and assimilated data. Our approach adapts the standard WSINDy algorithm to work with high\u2010dimensional fluid data of arbitrary spatial dimension.",
+                "authors": [
+                    {
+                        "s2_author_id": "2338277695",
+                        "name": "Seth Minor"
+                    },
+                    {
+                        "s2_author_id": "102404288",
+                        "name": "D. Messenger"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    },
+                    {
+                        "s2_author_id": "2328758395",
+                        "name": "David M. Bortz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9a0cbf8ecc3bc25fb8b08e38edebae8a0251da5f",
+                "title": "The Weak Form Is Stronger Than You Think",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 14,
+                "reference_count": 144,
+                "abstract": "The weak form is a ubiquitous, well-studied, and widely-utilized mathematical tool in modern computational and applied mathematics. In this work we provide a survey of both the history and recent developments for several fields in which the weak form can play a critical role. In particular, we highlight several recent advances in weak form versions of equation learning, parameter estimation, and coarse graining, which offer surprising noise robustness, accuracy, and computational efficiency. We note that this manuscript is a companion piece to our October 2024 SIAM News article of the same name. Here we provide more detailed explanations of mathematical developments as well as a more complete list of references. Lastly, we note that the software with which to reproduce the results in this manuscript is also available on our group's GitHub website https://github.com/MathBioCU .",
+                "authors": [
+                    {
+                        "s2_author_id": "102404288",
+                        "name": "D. Messenger"
+                    },
+                    {
+                        "s2_author_id": "2267724889",
+                        "name": "April Tran"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    },
+                    {
+                        "s2_author_id": "2237802307",
+                        "name": "David M. Bortz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c0f335d5c7687f7a3b910d24d6ffce81129d4ddb",
+                "title": "Weak-form inference for hybrid dynamical systems in ecology",
+                "year": 2024,
+                "venue": "Journal of the Royal Society Interface",
+                "citation_count": 9,
+                "reference_count": 91,
+                "abstract": "Species subject to predation and environmental threats commonly exhibit variable periods of population boom and bust over long timescales. Understanding and predicting such behaviour, especially given the inherent heterogeneity and stochasticity of exogenous driving factors over short timescales, is an ongoing challenge. A modelling paradigm gaining popularity in the ecological sciences for such multi-scale effects is to couple short-term continuous dynamics to long-term discrete updates. We develop a data-driven method utilizing weak-form equation learning to extract such hybrid governing equations for population dynamics and to estimate the requisite parameters using sparse intermittent measurements of the discrete and continuous variables. The method produces a set of short-term continuous dynamical system equations parametrized by long-term variables, and long-term discrete equations parametrized by short-term variables, allowing direct assessment of interdependencies between the two timescales. We demonstrate the utility of the method on a variety of ecological scenarios and provide extensive tests using models previously derived for epizootics experienced by the North American spongy moth (Lymantria dispar dispar).",
+                "authors": [
+                    {
+                        "s2_author_id": "2305682685",
+                        "name": "D. Messenger"
+                    },
+                    {
+                        "s2_author_id": "2265497605",
+                        "name": "Greg Dwyer"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "db79977a5da9bcdf0f55cdd54d2fb2dea0bf676b",
+                "title": "Direct Estimation of Parameters in ODE Models Using WENDy: Weak-form Estimation of Nonlinear Dynamics",
+                "year": 2023,
+                "venue": "arXiv.org",
+                "citation_count": 4,
+                "reference_count": 68,
+                "abstract": "We introduce the Weak-form Estimation of Nonlinear Dynamics (WENDy) method for estimating model parameters for non-linear systems of ODEs. Without relying on any numerical differential equation solvers, WENDy computes accurate estimates and is robust to large (biologically relevant) levels of measurement noise. For low dimensional systems with modest amounts of data, WENDy is competitive with conventional forward solver-based nonlinear least squares methods in terms of speed and accuracy. For both higher dimensional systems and stiff systems, WENDy is typically both faster (often by orders of magnitude) and more accurate than forward solver-based approaches. The core mathematical idea involves an efficient conversion of the strong form representation of a model to its weak form, and then solving a regression problem to perform parameter inference. The core statistical idea rests on the Errors-In-Variables framework, which necessitates the use of the iteratively reweighted least squares algorithm. Further improvements are obtained by using orthonormal test functions, created from a set of C\u221e bump functions of varying support sizes. We demonstrate the high robustness and computational efficiency by applying WENDy to estimate parameters in some common models from population biology, neuroscience, and biochemistry, including logistic growth, Lotka-Volterra, FitzHugh-Nagumo, Hindmarsh-Rose, and a Protein Transduction Benchmark model. Software and code for reproducing the examples is available at https://github.com/MathBioCU/WENDy.",
+                "authors": [
+                    {
+                        "s2_author_id": "2849878",
+                        "name": "D. Bortz"
+                    },
+                    {
+                        "s2_author_id": "102404288",
+                        "name": "D. Messenger"
+                    },
+                    {
+                        "s2_author_id": "2261333155",
+                        "name": "Vanja Dukic"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2372667087",
+                "name": "Rainey Lyons"
+            },
+            {
+                "s2_author_id": "2328758395",
+                "name": "David M. Bortz"
+            },
+            {
+                "s2_author_id": "2345185330",
+                "name": "Nic Rummel"
+            },
+            {
+                "s2_author_id": "102404288",
+                "name": "D. Messenger"
+            },
+            {
+                "s2_author_id": "2345189485",
+                "name": "Stephen Becker"
+            },
+            {
+                "s2_author_id": "2324107355",
+                "name": "Katherine P Dixon"
+            },
+            {
+                "s2_author_id": "2265498214",
+                "name": "William Koval"
+            },
+            {
+                "s2_author_id": "146416795",
+                "name": "C. Polivka"
+            },
+            {
+                "s2_author_id": "2401104831",
+                "name": "Grace Bird"
+            },
+            {
+                "s2_author_id": "2265497605",
+                "name": "Greg Dwyer"
+            },
+            {
+                "s2_author_id": "2338277695",
+                "name": "Seth Minor"
+            },
+            {
+                "s2_author_id": "6704895",
+                "name": "B. Elderd"
+            },
+            {
+                "s2_author_id": "2384767776",
+                "name": "Benjamin Van Allen"
+            },
+            {
+                "s2_author_id": "2108268000",
+                "name": "Jiawei Liu"
+            },
+            {
+                "s2_author_id": "2265497432",
+                "name": "Colin Kyle"
+            },
+            {
+                "s2_author_id": "2339240364",
+                "name": "Jiali Wang"
+            },
+            {
+                "s2_author_id": "93447231",
+                "name": "R. Kotamarthi"
+            },
+            {
+                "s2_author_id": "2384123793",
+                "name": "Abhi Chawla"
+            },
+            {
+                "s2_author_id": "2373033661",
+                "name": "Nora Heitzman-Breen"
+            },
+            {
+                "s2_author_id": "2267724889",
+                "name": "April Tran"
+            },
+            {
+                "s2_author_id": "2237802307",
+                "name": "David M. Bortz"
+            },
+            {
+                "s2_author_id": "2305682685",
+                "name": "D. Messenger"
+            },
+            {
+                "s2_author_id": "2849878",
+                "name": "D. Bortz"
+            }
+        ],
+        "total_co_authors": 23,
+        "papers_retrieved": 12
+    }
+}

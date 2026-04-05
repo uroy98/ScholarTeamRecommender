@@ -1,0 +1,2929 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000572912",
+        "name": "Damian Dechev",
+        "primary_affiliation": "The University of Central Florida Board of Trustees",
+        "primary_department": null,
+        "all_affiliations": [
+            "The University of Central Florida Board of Trustees"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "FL"
+        ],
+        "perf_cities": [
+            "ORLANDO"
+        ],
+        "org_names": [
+            "The University of Central Florida Board of Trustees"
+        ],
+        "org_ueis": [
+            "RD7MXJV7DKT9"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "dechev@cs.ucf.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2532766",
+                "title": "EAGER: Intelligent Memory Management",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-15",
+                "exp_date": "2027-06-30",
+                "award_amount": 299212.0,
+                "total_amount": 299212.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "CSR-Computer Systems Research"
+                ],
+                "program_codes": [
+                    "735400"
+                ],
+                "program_references": [
+                    "EAGER"
+                ],
+                "program_ref_codes": [
+                    "7916"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CNS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Computer and Network Systems",
+                "cfda_num": "47.070",
+                "po_name": "Greg Peterson",
+                "keywords": [
+                    "memory",
+                    "management",
+                    "types",
+                    "security",
+                    "computing",
+                    "systems",
+                    "learning",
+                    "centers",
+                    "time",
+                    "machine"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "CSR-Computer Systems Research"
+        ],
+        "program_codes": [
+            "735400"
+        ],
+        "program_references": [
+            "EAGER"
+        ],
+        "program_ref_codes": [
+            "7916"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CNS"
+        ],
+        "fund_divisions": [
+            "Division Of Computer and Network Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Greg Peterson"
+        ],
+        "keywords": [
+            "memory",
+            "management",
+            "types",
+            "security",
+            "computing",
+            "systems",
+            "learning",
+            "centers",
+            "time",
+            "machine",
+            "consistency",
+            "through",
+            "eager",
+            "intelligent",
+            "heterogeneous",
+            "often",
+            "various",
+            "transferring",
+            "multiple",
+            "access"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.59
+    },
+    "s2_profile": {
+        "s2_author_id": "1778664",
+        "name": "Damian Dechev",
+        "affiliations": [],
+        "paper_count": 103,
+        "citation_count": 809,
+        "h_index": 16,
+        "papers": [
+            {
+                "s2_paper_id": "9a2411e3e65c2f4108f4d5e904c425a758ca017e",
+                "title": "Lock-Free Concurrent Smart Contracts",
+                "year": 2024,
+                "venue": "International Conference on Blockchain",
+                "citation_count": 1,
+                "reference_count": 22,
+                "abstract": "Smart contracts are commonly used on blockchains to define complex behaviors not possible with simple transactions. Miners and validators could achieve significant performance gains by executing smart contracts in parallel, but validators must be able to re-execute the proposed block deterministically. Existing works capture the execution order of concurrently executed transactions using locks, or Software Transactional Memory, enabling validators to re-execute the block deterministically. These approaches can introduce a costly overhead for large blocks, in which many transactions must be compared to deduce their ordering. In this paper, we present a methodology for executing smart contracts concurrently without locks by associating each smart contract state variable with a descriptor, and updating these descriptors with Compare-And-Swap (CAS). Whenever a descriptor is updated, we create a reference to the previous descriptor within the new one. The resulting graph represents all conflicts between transactions, and can be used to deterministically re-execute the transactions in parallel. Our approach captures the ordering between transactions whenever a semantic conflict is detected, eliminating the need to compare lock acquisitions, or timestamps. Additionally, our approach provides a guarantee of Lock-Free progress. In our experimental evaluation, our approach achieves a maximum speedup of 70x against related work when tested on block sizes similar to that of Bitcoin, or Ethereum.",
+                "authors": [
+                    {
+                        "s2_author_id": "52579447",
+                        "name": "Zachary Painter"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "74d73e64a5b258ba2397217c06b39f32f15ec17e",
+                "title": "Evaluating HPC Job Run Time Predictions Using Application Input Parameters",
+                "year": 2023,
+                "venue": "Distributed Event-Based Systems",
+                "citation_count": 13,
+                "reference_count": 21,
+                "abstract": "It is difficult to accurately predict application run times in high performance computing (HPC), yet these predictions have useful applications in job scheduling and user feedback. User-led predictions can be inaccurate for a variety of factors, including inexperience, user burden, and an incentive to overpredict. Most automated efforts consider standardized job inputs from submission scripts but ignore application input parameters. Application input parameters can greatly enhance run time prediction accuracy but have typically been avoided due to the need for manual, per-application parameter collection. In this paper, we evaluate and compare the trade-offs between conventional, job script-based predictors and specialized, application input-based predictors. This is accomplished by testing 20 machine learning model variants and four traditional predictors against a suite of five applications. This suite includes four commonly used and representative proxy applications and one real-world application. For reproducibility and extensibility, we provide the source code of our testing framework and our data set, which, to the best of our knowledge, is the first known publicized data set to include application input parameters alongside standard job parameters. We determine that the random forest regressor offers the best trade-off between accuracy and training time among all tested model variants. We show that job parameters alone are insufficient to produce adequate predictions while application input parameters provide excellent results, as high as 99% R2, and typically outperform the use of job parameters alone.",
+                "authors": [
+                    {
+                        "s2_author_id": "121066200",
+                        "name": "Kenneth Lamar"
+                    },
+                    {
+                        "s2_author_id": "3581914",
+                        "name": "A. Goponenko"
+                    },
+                    {
+                        "s2_author_id": "3100474",
+                        "name": "O. Aaziz"
+                    },
+                    {
+                        "s2_author_id": "1745812",
+                        "name": "B. Allan"
+                    },
+                    {
+                        "s2_author_id": "39920348",
+                        "name": "J. Brandt"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "db8beb39171493b9c9b4ba4bda1a0f4efc7b75fb",
+                "title": "Compiler\u2010driven approach for automating nonblocking synchronization in concurrent data abstractions",
+                "year": 2023,
+                "venue": "Concurrency and Computation",
+                "citation_count": 0,
+                "reference_count": 67,
+                "abstract": "This paper presents an extended version of our previous work on using compiler technology to automatically convert sequential C++ data abstractions, for example, queues, stacks, maps, and trees, to concurrent lock\u2010free implementations. A key difference between our work and existing research in software transactional memory (STM) is that our compiler\u2010based approach automatically selects the best state\u2010of\u2010the\u2010practice nonblocking synchronization method for the underlying sequential implementation of the data structure. The extended material includes a broader collection of the state\u2010of\u2010the\u2010practice lock\u2010free synchronization techniques, additional formal correctness proofs of the overall integration of the different synchronizations in our system, and a more comprehensive experimental study of the integrated techniques. We evaluate our compiler\u2010generated nonblocking data structures both by using a collection of micro\u2010benchmarks, including the Synchrobench suite, and by using a multi\u2010threaded application Dedup from PARSEC. Our automatically synchronized code attains performance competitive to that of concurrent data structures manually\u2010written by experts and much better performance than heavier\u2010weight support by STM.",
+                "authors": [
+                    {
+                        "s2_author_id": "2261890824",
+                        "name": "Jiange Zhang"
+                    },
+                    {
+                        "s2_author_id": "1486417982",
+                        "name": "Qing Yi"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1820e904ae57c648fe3be437bd19059cf2c5a372",
+                "title": "Metrics for Packing Efficiency and Fairness of HPC Cluster Batch Job Scheduling",
+                "year": 2022,
+                "venue": "Symposium on Computer Architecture and High Performance Computing",
+                "citation_count": 10,
+                "reference_count": 49,
+                "abstract": "Development of job scheduling algorithms, which directly influence High-Performance Computing (HPC) clusters performance, is hindered because popular scheduling quality metrics, such as Bounded Slowdown, poorly correlate with global scheduling objectives that include job packing efficiency and fairness. This report proposes Area Weighted Response Time, a metric that offers an unbiased representation of job packing efficiency, and presents a class of new metrics, Priority Weighted Specific Response Time, that assess both packing efficiency and fairness of schedules. The provided examples of simulation of scheduling of real workload traces and analysis of the resulting schedules with the help of these metrics and conventional metrics, demonstrate that although Bounded Slowdown can be readily improved by modifying the standard First Come First Served backfilling algorithm and by using existing techniques of estimating job runtime, these improvements are accompanied by significant degradation of job packing efficiency and fairness. In contrast, improving job packing efficiency and fairness over the standard backfilling algorithm, which is designed to target those objectives, is difficult. It requires further algorithm development and more accurate runtime estimation techniques that reduce frequency of underpredictions.",
+                "authors": [
+                    {
+                        "s2_author_id": "3581914",
+                        "name": "A. Goponenko"
+                    },
+                    {
+                        "s2_author_id": "121066200",
+                        "name": "Kenneth Lamar"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1745812",
+                        "name": "B. Allan"
+                    },
+                    {
+                        "s2_author_id": "2065401510",
+                        "name": "Jim M. Brandt"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9bdd6e9dffc5ca8603838c78c47bb47db6c671d5",
+                "title": "Quantifiability: a concurrent correctness condition modeled in vector space",
+                "year": 2022,
+                "venue": "Computing",
+                "citation_count": 0,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144623563",
+                        "name": "Victor Cook"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "52579447",
+                        "name": "Zachary Painter"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1a92a13a7d86111fd64e1b2047d25932fa7e58ef",
+                "title": "Design and Implementation of Highly Scalable Quantifiable Data Structures",
+                "year": 2021,
+                "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+                "citation_count": 1,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144623563",
+                        "name": "Victor Cook"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "52579447",
+                        "name": "Zachary Painter"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1d825e32b2cf93183057afbb4d56b8ba110b19c5",
+                "title": "Descriptor based consensus for blockchain transactions",
+                "year": 2021,
+                "venue": "Distributed Event-Based Systems",
+                "citation_count": 2,
+                "reference_count": 50,
+                "abstract": "Blockchain networks use consensus mechanisms so participants can exchange transactions without the need to rely on a trusted third party. Consensus mechanisms using Proof of Work burn significant energy to select a block miner and the delay limits performance. Other consensus mechanisms such as Proof of Stake or Practical Byzantine Fault Tolerance still designate a single validator to append a block to the chain, preventing blocks from being built and published in parallel. In this paper we introduce a new consensus mechanism, Proof of Descriptor, enabling clients to work together to publish blockchain transactions using a descriptor object which stores information on the cooperative parallel execution of transactions. Proof of Descriptor consensus allows commutative transactions to be mined individually. It does not require a leader to propose the next block, enabling clients to cooperate on completing transactions, assembling blocks and publishing them. We demonstrate that our approach is less prone to attack since it is not vulnerable to a malicious leader, while simulations show a potential 20x improvement over the fastest sequential blockchain, Solana.",
+                "authors": [
+                    {
+                        "s2_author_id": "52579447",
+                        "name": "Zachary Painter"
+                    },
+                    {
+                        "s2_author_id": "144623563",
+                        "name": "Victor Cook"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2869bef35d00117bac787ec5acd21784ad86b2ac",
+                "title": "PMap: A Non-volatile Lock-free Hash Map with Open Addressing",
+                "year": 2021,
+                "venue": "IEEE Non-Volatile Memory System and Applications Symposium",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": "Non-volatile memory (NVM) is an emerging memory technology that provides data persistence and higher densities than conventional DRAM. The release of Intel Optane DC memory makes NVM a practical and testable technology. Hash maps are fundamental data structures that associatively map keys to values, offering constant time lookup. In this work, we designed a scalable, persistent hash map, PMap, optimized around large graph processing workloads. PMap is a lock-free non-volatile hash map with open addressing. Open addressing offers low memory overhead and improved cache locality when compared with node-based alternatives. Lock-freedom ensures scalable performance, and its nonblocking nature enables log-free persistence. Our hash map is supported by a non-blocking, parallel resize, which allows operations to be performed by other threads during a resize. In our performance tests, we found that our design outperformed state-of-the-art alternatives, averaging 3122x faster under Optane DC.",
+                "authors": [
+                    {
+                        "s2_author_id": "121066200",
+                        "name": "Kenneth Lamar"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "2157171",
+                        "name": "R. Pearce"
+                    },
+                    {
+                        "s2_author_id": "2558910",
+                        "name": "Keita Iwabuchi"
+                    },
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4ba53fb3177d9b64e9e431c6ec9ce78ad1f46abe",
+                "title": "An Efficient Dynamic Analysis Tool for Checking Durable Linearizability",
+                "year": 2021,
+                "venue": "2021 International Conference on Code Quality (ICCQ)",
+                "citation_count": 1,
+                "reference_count": 69,
+                "abstract": "Designing efficient and correct durable data structures is indispensable because Non-Volatile Memory (NVM) is positioned as a successor to DRAM due to its energy efficiency and reliability. The challenge with ensuring correctness for efficient durable data structures is that caches and registers are expected to remain volatile, and the explicit cache line flush and barrier instructions are expensive. As a result cache line flushes and barriers are used sparingly, leading to potential inconsistencies in the recoverable state of the data structure. Crash consistency tools are available to ensure recoverability to a consistent state, but these tools are not able to check correctness of data structure semantics. Furthermore, the formal logic proposed to verify correctness conditions such as durable linearizability involve labor intensive mechanical proofs using a theorem prover. In this paper, we present the first dynamic analysis tool that checks durable linearizability at runtime. Our proposed tool, VSV-D, uses a vector space analysis to achieve a worst-case $O(n^{2})$ time complexity. We extend the analysis to transactional correctness to enable VSV-D to check durable transactional data structures. Our experimental evaluation applies VSV-D to check the correctness of a large variety of durable data structures including log-free data structures, link-free data structures, Romulus, OneFile, PMDK, and PETRA.",
+                "authors": [
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "558d094f34d004f7bf6878ff4baf13a223e1a3e1",
+                "title": "Concurrent Correctness in Vector Space",
+                "year": 2021,
+                "venue": "International Conference on Verification, Model Checking and Abstract Interpretation",
+                "citation_count": 6,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "144623563",
+                        "name": "Victor Cook"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "687d69433af86f68eb057ba994ab7f80d94e3de2",
+                "title": "Quantifiability: Correctness of Concurrent Programs in Vector Space",
+                "year": 2021,
+                "venue": "International Euromicro Conference on Parallel, Distributed and Network-Based Processing",
+                "citation_count": 1,
+                "reference_count": 18,
+                "abstract": "Architectural imperatives due to the slowing of Moore\u2019s Law, the broad acceptance of relaxed semantics and the $\\mathrm{O}(n!)$ worst case verification complexity of generating sequential histories motivate a new approach to concurrent correctness. Desiderata for a new correctness condition are that it be independent of sequential histories, compositional, flexible as to timing, modular as to semantics and free of inherent locking or waiting. We propose Quantifiability, a novel correctness condition that models a system in vector space to launch a new mathematical analysis of concurrency. The vector space model is suitable for a wide range of concurrent systems and their associated data structures. This paper formally defines quantifiability and demonstrates that quantifiability is compositional and non-blocking. Analysis is facilitated with linear algebra, better supported and of much more efficient time complexity than traditional combinatorial methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "144623563",
+                        "name": "Victor Cook"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "52579447",
+                        "name": "Zachary Painter"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9bb5b082d5cd34490ed4732254fc39806117c84c",
+                "title": "PETRA",
+                "year": 2021,
+                "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+                "citation_count": 1,
+                "reference_count": 90,
+                "abstract": "Emerging byte-addressable Non-Volatile Memories (NVMs) enable persistent memory where process state can be recovered after crashes. To enable applications to rely on persistent data, durable data structures with failure-atomic operations have been proposed. However, they lack the ability to allow users to execute a sequence of operations as transactions. Meanwhile, persistent transactional memory (PTM) has been proposed by adding durability to Software Transactional Memory (STM). However, PTM suffers from high performance overheads and low scalability due to false aborts, logging, and ordering constraints on persistence. In this article, we propose PETRA, a new approach for constructing persistent transactional linked data structures. PETRA natively supports transactions, but unlike PTM, relies on the high-level information from the data structure semantics. This gives PETRA unique advantages in the form of high performance and high scalability. Our experimental results using various benchmarks demonstrate the scalability of PETRA in all workloads and transaction sizes. PETRA outperforms the state-of-the-art PTMs by an order of magnitude in transactions of size greater than one, and demonstrates superior performance in transactions of size one.",
+                "authors": [
+                    {
+                        "s2_author_id": "46782206",
+                        "name": "Ramin Izadpanah"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1717365",
+                        "name": "Yan Solihin"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c27dc4d56898bdcf14feceb8405d7375e873092d",
+                "title": "Backfilling HPC Jobs with a Multimodal-Aware Predictor",
+                "year": 2021,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 7,
+                "reference_count": 0,
+                "abstract": "Job scheduling aims to minimize the turnaround time on the submitted jobs while catering to the resource constraints of High Performance Computing (HPC) systems. The challenge with scheduling is that it must honor job requirements and priorities while actual job run times are unknown. Although approaches have been proposed that use classification techniques or machine learning to predict job run times for scheduling purposes, these approaches do not provide a technique for reducing underprediction, which has a negative impact on scheduling quality. A common cause of underprediction is that the distribution of the duration for a job class is multimodal, causing the average job duration to fall below the expected duration of longer jobs. In this work, we propose the Top Percent predictor, which uses a hierarchical classification scheme to provide better accuracy for job run time predictions than the user-requested time. Our predictor addresses multimodal job distributions by making a prediction that is higher than a specified percentage of the observed job run times. We integrate the Top Percent predictor into scheduling algorithms and evaluate the performance using schedule quality metrics found in literature. To accommodate the user policies of HPC systems, we propose priority metrics that account for job flow time, job resource requirements, and job priority. The experiments demonstrate that the Top Percent predictor outperforms the related approaches when evaluated using our proposed priority metrics.",
+                "authors": [
+                    {
+                        "s2_author_id": "121066200",
+                        "name": "Kenneth Lamar"
+                    },
+                    {
+                        "s2_author_id": "3581914",
+                        "name": "A. Goponenko"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1745812",
+                        "name": "B. Allan"
+                    },
+                    {
+                        "s2_author_id": "39920348",
+                        "name": "J. Brandt"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "207aa4d924244e99cd6ec2e30086da6ebf20df1a",
+                "title": "Lock-free transactional vector",
+                "year": 2020,
+                "venue": "PMAM@PPoPP",
+                "citation_count": 3,
+                "reference_count": 27,
+                "abstract": "The vector is a fundamental data structure, offering constant-time traversal to elements and a dynamically resizable range of indices. While several concurrent vectors exist, a composition of concurrent vector operations dependent on each other can lead to undefined behavior. Techniques for providing transactional capabilities for data structure operations include Software Transactional Memory (STM) and transactional transformation methodologies. Transactional transformations convert concurrent data structures into their transactional equivalents at an operation level, rather than STM's object or memory level. To the best of our knowledge, existing STMs do not support dynamic read/write sets in a lock-free manner, and transactional transformation methodologies are unsuitable for the vector's contiguous memory layout. In this work, we present the first lock-free transactional vector. It integrates the fast lock-free resizing and instant logical status changes from related works. Our approach pre-processes transactions to reduce shared memory access and simplify access logic. This can be done without locking elements or verifying conflicts between transactions. We compare our design against state-of-the-art transactional designs, GCC STM, Transactional Boosting, and STO. All data structures are tested on four different platforms, including x86_64 and ARM architectures. We find that our lock-free transactional vector generally offers better scalability than STM and STO, and competitive performance with Transactional Boosting, but with additional lock-free guarantees. In scenarios with only reads and writes, our vector is as much as 47% faster than Transactional Boosting.",
+                "authors": [
+                    {
+                        "s2_author_id": "121066200",
+                        "name": "Kenneth Lamar"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f5ffbbdfc1d84ff8379f065ecf0f31bbc607891",
+                "title": "Dynamic Transactional Transformation",
+                "year": 2020,
+                "venue": "Concurrency and Computation",
+                "citation_count": 0,
+                "reference_count": 37,
+                "abstract": "Transactional data structures support threads executing a sequence of operations atomically. Dynamic transactions allow operands to be generated on the fly and allows threads to execute code in between the operations of a transaction, in contrast to static transactions which need to know the operands in advance. A framework called lock\u2010free transactional transformation (LFTT) allows data structures to run high\u2010performance transactions, but it only supports static transactions. We present dynamic transactional transformation, an extension to LFTT to add support for dynamic transactions and wait\u2010free progress while retaining its speed. The thread\u2010helping scheme of LFTT presents a unique challenge to dynamic transactions. We overcome this challenge by changing the input of LFTT from a list of operations to a function, forcing helping threads to always start at the beginning of the transaction, and allowing threads to skip completed operations through the use of a list of return values. We thoroughly evaluate the performance impact of support for dynamic transactions and wait\u2010free progress and find that these features do not hurt the performance of LFTT for our test cases.",
+                "authors": [
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "51409510",
+                        "name": "Lance Lebanoff"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "78245b31b1902c1efb76e02228c745b01f2a205b",
+                "title": "Parallel Hash-Mark-Set on the Ethereum Blockchain",
+                "year": 2020,
+                "venue": "International Conference on Blockchain",
+                "citation_count": 1,
+                "reference_count": 14,
+                "abstract": "Popular blockchains such as Bitcoin or Ethereum provide a transaction isolation level of READ-COMMITTED. This provides difficulties when state changes many times per block interval. Hash-Mark-Set (HMS) alleviates this problem by enabling READ-UNCOMMITTED transactions for state variables. However, the current HMS implementation relies on a sequential algorithm and is susceptible to redundant calculations. As modern processors rely more heavily on parallel algorithms to leverage multiple cores for speedup, sequential algorithms see less benefit from hardware improvements. This paper proposes a lock-free HMS to make use of thread-safe techniques and other optimizations to improve the performance of the HMS algorithm and reduce the latency of read-uncommitted state variable accesses. In our experiments, the proposed algorithm experiences an average 6.4x increase in performance up to 128 go-routines, and a maximum 11.1x increase.",
+                "authors": [
+                    {
+                        "s2_author_id": "52579447",
+                        "name": "Zachary Painter"
+                    },
+                    {
+                        "s2_author_id": "1904357794",
+                        "name": "Pradeep Kumar Gayam"
+                    },
+                    {
+                        "s2_author_id": "144623563",
+                        "name": "Victor Cook"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7d601bf3b7b899e6a67b2b276bcc2969ac1d4958",
+                "title": "The CAS\u2010extended model",
+                "year": 2020,
+                "venue": "Concurrency and Computation",
+                "citation_count": 0,
+                "reference_count": 22,
+                "abstract": "Wait\u2010freedom guarantees that all processes complete their operations in a finite number of steps regardless of the delay of any process. Combinatorial topology has been proposed in the literature as a formal verification technique to prove the wait\u2010free computability of decision tasks. Wait\u2010freedom is proved through the properties of a static topological structure that expresses all possible combinations of execution paths of the protocol solving the decision task. The practical application of combinatorial topology as a formal verification technique is limited because the existing theory only considers protocols in which the manner of communication between processes is through read\u2010write memory. This research proposes an extension to the existing theory, called the CAS\u2010extended model. The extended theory includes Compare\u2010And\u2010Swap (CAS) and Load\u2010Link/Store\u2010Conditional (LL/SC), which are atomic primitives used to achieve wait\u2010freedom in state\u2010of\u2010the\u2010art protocols. The CAS\u2010extended model theory can be used to formally verify wait\u2010free algorithms used in practice, such as concurrent data structures. We present new definitions detailing the construction of a protocol complex in the CAS\u2010extended model. As a proof\u2010of\u2010concept, we formally verify a wait\u2010free queue with three processes using the CAS\u2010extended combinatorial topology.",
+                "authors": [
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aa31b94c86659897682a85e097d2ca38831d3150",
+                "title": "Extending FreeCompilerCamp.org as an Online Self-Learning Platform for Compiler Development",
+                "year": 2020,
+                "venue": "Workshop on Education for High Performance Computing",
+                "citation_count": 1,
+                "reference_count": 32,
+                "abstract": "Compilers and compiler-based tools have become increasingly critical for optimizing high-performance computing workloads; however, compiler development remains difficult and time consuming due to the complex nature of compilers. FreeCompilerCamp.org is an online training framework for compiler development that allows users to complete hands-on tutorials with a Linux environment that is directly embedded in the web browser. It provides an effective and convenient training platform for both new and experienced compiler developers. In this paper, we present our enhancements to the framework to support self-evaluation and learning outcome feedback for trainees. We extend FreeCompilerCamp to support a fully contained self-learning environment with exercises and examinations providing immediate and automatic feedback via server-side grading. We achieve this through two forms of evaluation: openbook practicals and closed-book exams. To facilitate learning, we design several new tutorials and improve the framework to support both CPU and GPU servers and docker images, optimize resource utilization, and enhance usability. Our extended platform, FreeCompilerCamp v1.1, follows the same extensibility design goals as the original to allow for new practicals and exams, providing an effective method to reduce the barrier of entry to compiler development.",
+                "authors": [
+                    {
+                        "s2_author_id": "30280801",
+                        "name": "Justin Gosselin"
+                    },
+                    {
+                        "s2_author_id": "30960477",
+                        "name": "Anjia Wang"
+                    },
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    },
+                    {
+                        "s2_author_id": "7604095",
+                        "name": "C. Liao"
+                    },
+                    {
+                        "s2_author_id": "144338840",
+                        "name": "Yonghong Yan"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b36d705ca8a70de93da945b8d382195226aab22d",
+                "title": "Towards workload-adaptive scheduling for HPC clusters",
+                "year": 2020,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 5,
+                "reference_count": 20,
+                "abstract": "The performance of HPC clusters depends on efficient scheduling of jobs. However, modern schedulers generally lack real-time information about resource utilization and require users to provide information, which is seldom accurate, on job requirements. The problem is exacerbated as HPC systems become increasingly more complicated and heterogeneous, which gives rise to new resource constraints (GPU, parallel file system, network bandwidth, burst buffers, etc.) In this work, we integrated data from LDMS, the Lightweight Distributed Metric Service, with Slurm, a popular job scheduler. To demonstrate the capabilities of such integration, we enabled scheduling based on the Lustre file system throughput. We demonstrated benefits of measurement of real-time utilization, prediction of applications requirements from historical data, and finer control of resources, in a preliminary evaluation of scheduling on a cluster of virtual machines. We also identified the possibility of further improving the scheduling efficiency through workload-adaptive scheduling, by adjusting the scheduling based on characteristics of the pending job. We validated the feasibility of this strategy by simulating job executions in our custom-made HPC cluster simulator.",
+                "authors": [
+                    {
+                        "s2_author_id": "3581914",
+                        "name": "A. Goponenko"
+                    },
+                    {
+                        "s2_author_id": "46782206",
+                        "name": "Ramin Izadpanah"
+                    },
+                    {
+                        "s2_author_id": "39920348",
+                        "name": "J. Brandt"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c5b893e3a8235786ca17a1187ee463b1e8991994",
+                "title": "Optimized Transactional Data Structure Approach to Concurrency Control for In-Memory Databases",
+                "year": 2020,
+                "venue": "Symposium on Computer Architecture and High Performance Computing",
+                "citation_count": 1,
+                "reference_count": 33,
+                "abstract": "The optimistic concurrency control (OCC) utilized by in-memory databases performs writes on thread-local copies and makes the writes visible upon passing validation. However, high contention workloads suffer from failure of the validation step due to non-semantic memory access conflicts, leading to frequent transaction aborts. In this work, we improve the commit rate of in-memory databases by replacing OCC and the underlying indexing of key-value entries in the Silo database with a lock-free transactional dictionary. To further optimize the transactional commit rate, we present transactional merging, a technique that relaxes the semantic conflict resolution of transactional data structures by merging conflicting operations to reduce aborts. Transactional merging guarantees strict serializability through a strategy that recovers the correct abstract state given that a transaction attempting to merge operations aborts. The experimental evaluation demonstrates that the lock-free transactional dictionary with transactional merging achieves an average speedup of 175% over OCC and the Masstree indexing used in the Silo database for write-dominated workloads on a non-uniform memory access system.",
+                "authors": [
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "48678816",
+                        "name": "Amalee Wilson"
+                    },
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ecaaf13a3de47248e111435e4fca2b72c50fe40a",
+                "title": "Entropy Measurement of Concurrent Disorder",
+                "year": 2020,
+                "venue": "International Conference on Quantitative Evaluation of Systems",
+                "citation_count": 1,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144623563",
+                        "name": "Victor Cook"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "52579447",
+                        "name": "Zachary Painter"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e60c8a65596983822387e6ae55c8e60da38c7e8",
+                "title": "Production Application Performance Data Streaming for System Monitoring",
+                "year": 2019,
+                "venue": "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
+                "citation_count": 3,
+                "reference_count": 49,
+                "abstract": "In this article, we present an approach to streaming collection of application performance data. Practical application performance tuning and troubleshooting in production high-performance computing (HPC) environments requires an understanding of how applications interact with the platform, including (but not limited to) parallel programming libraries such as Message Passing Interface (MPI). Several profiling and tracing tools exist that collect heavy runtime data traces either in memory (released only at application exit) or on a file system (imposing an I/O load that may interfere with the performance being measured). Although these approaches are beneficial in development stages and post-run analysis, a systemwide and low-overhead method is required to monitor deployed applications continuously. This method must be able to collect information at both the application and system levels to yield a complete performance picture. In our approach, an application profiler collects application event counters. A sampler uses an efficient inter-process communication method to periodically extract the application counters and stream them into an infrastructure for performance data collection. We implement a tool-set based on our approach and integrate it with the Lightweight Distributed Metric Service (LDMS) system, a monitoring system used on large-scale computational platforms. LDMS provides the infrastructure to create and gather streams of performance data in a low overhead manner. We demonstrate our approach using applications implemented with MPI, as it is one of the most common standards for the development of large-scale scientific applications. We utilize our tool-set to study the impact of our approach on an open source HPC application, Nalu. Our tool-set enables us to efficiently identify patterns in the behavior of the application without source-level knowledge. We leverage LDMS to collect system-level performance data and explore the correlation between the system and application events. Also, we demonstrate how our tool-set can help detect anomalies with a low latency. We run tests on two different architectures: a system enabled with Intel Xeon Phi and another system equipped with Intel Xeon processor. Our overhead study shows our method imposes at most 0.5% CPU usage overhead on the application in realistic deployment scenarios.",
+                "authors": [
+                    {
+                        "s2_author_id": "46782206",
+                        "name": "Ramin Izadpanah"
+                    },
+                    {
+                        "s2_author_id": "1745812",
+                        "name": "B. Allan"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "39920348",
+                        "name": "J. Brandt"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "13e5d1565c7e707432cec7c47b3961d6bfca61b7",
+                "title": "Formal Verification through Combinatorial Topology: the CAS-Extended Model",
+                "year": 2019,
+                "venue": "PMAM@PPoPP",
+                "citation_count": 1,
+                "reference_count": 18,
+                "abstract": "Wait-freedom guarantees that all processes complete their operations in a finite number of steps regardless of the delay of any process. Combinatorial topology has been proposed in the literature as a formal verification technique to prove the wait-free computability of decision tasks. Wait-freedom is proved through the properties of a static topological structure that expresses all possible combinations of execution paths of the protocol solving the decision task. The practical application of combinatorial topology as a formal verification technique is limited because the existing theory only considers protocols in which the manner of communication between processes is through read-write memory. This research proposes an extension to the existing theory, called the CAS-extended model. The extended theory includes Compare-And-Swap (CAS) and Load-Linked/Store-Conditional (LL/SC) which are atomic primitives used to achieve wait-freedom in state-of-the-art protocols. The CAS-extended model theory can be used to formally verify wait-free algorithms used in practice, such as concurrent data structures. We present new definitions detailing the construction of a protocol complex in the CAS-extended model. As a proof-of-concept, we formally verify a wait-free queue with three processes using the CAS-extended combinatorial topology.",
+                "authors": [
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1de3ab622187993ac9bc559a48d58b492a829bf9",
+                "title": "CCSpec: A Correctness Condition Specification Tool",
+                "year": 2019,
+                "venue": "IEEE International Conference on Program Comprehension",
+                "citation_count": 5,
+                "reference_count": 26,
+                "abstract": "Concurrent libraries provide data structures whose operations appear to execute atomically when invoked individually. Although these libraries guarantee safety for the data structure operations, the composition of operations may be vulnerable to undefined behavior. The difficulty of reasoning about safety properties in a concurrent environment has led to the development of tools to verify that a concurrent data structure meets a correctness condition. The disadvantage of these tools is that they cannot verify that the composition of concurrent data structure operations respects the intended semantics of the algorithm. Formal logic has been proposed to enable the verification of correctness specifications for a concurrent algorithm. However, a large amount of manual labor is required to fully mechanize the correctness proofs of the concurrent algorithm and each concurrent data structure invoked in the algorithm. In this research, we propose Correctness Condition Specification (CCSpec), the first tool that automatically checks the correctness of a composition of concurrent multi-container operations performed in a non-atomic manner. In addition to checking the correctness of a composition of data structure operations in a concurrent algorithm, CCSpec also checks the correctness of each concurrent data structure utilized in the algorithm. A reference to a container is associated with each method called in a concurrent history to enable the evaluation of correctness for a composition of multiple containers. We develop a lightweight custom specification language that allows the user to define a correctness condition associated with the concurrent algorithm and a correctness condition associated with the concurrent data structures. We demonstrate the practical application of CCSpec by checking the correctness of a concurrent depth-first search utilizing a non-blocking stack, a concurrent breadth-first search utilizing a non-blocking queue, a concurrent shortest path algorithm utilizing a non-blocking priority queue, and a concurrent adjacency list utilizing non-blocking sets.",
+                "authors": [
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c0a78efe215be024431c7a56ef280b5fd252b9a",
+                "title": "Analysis of Commutativity with State-Chart Graph Representation of Concurrent Programs",
+                "year": 2019,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 24,
+                "abstract": "We present a new approach to check for commutativity in concurrent programs from their state-chart graphs. A set of operations are commutative if changing the order of their execution on an object does not affect the abstract state of the object and returns the same response. Concurrent operations that commute at object-level can be executed concurrently at transaction-level, which boosts performance while preserving the appearance of atomicity and isolation. Utilizing object-level commutativity in transactional execution enables the reuse of existing non-blocking programming techniques for thread-level synchronization. In our approach, we generate state-chart graphs by tracking data on the atomic instructions invoked on the concurrent object during model checking and represent the atomic instructions as states in a state-transition representation. Considering the non-deterministic nature of concurrent programs, we determine commutativity by exhaustively searching for identical object states captured at a thread-level granularity across all thread interleavings. With this methodology, a user can not only verify commutativity among operations, but also can visually check ways in which methods commute at object-level, which is an edge over current state-of-the-art tools. The object-level commutative information helps in identifying faulty implementations and performance improvement considerations. We use the graph database, Neo4j, to represent object states as nodes that further assists the user to check for concurrency properties using Cypher queries.",
+                "authors": [
+                    {
+                        "s2_author_id": "2060098252",
+                        "name": "Kishore Debnath"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5fb4d9985b3484c9205ef10309cc5b1427e7adda",
+                "title": "Wait-free Dynamic Transactions for Linked Data Structures",
+                "year": 2019,
+                "venue": "PMAM@PPoPP",
+                "citation_count": 15,
+                "reference_count": 32,
+                "abstract": "Transactional data structures support threads executing a sequence of operations atomically. Dynamic transactions allow operands to be generated on the fly and allows threads to execute code in between the operations of a transaction, in contrast to static transactions which need to know the operands in advance. A framework called Lock-free Transactional Transformation (LFTT) allows data structures to run high-performance transactions, but it only supports static transactions. We extend LFTT to add support for dynamic transactions and wait-free progress while retaining its speed. The thread-helping scheme of LFTT presents a unique challenge to dynamic transactions. We overcome this challenge by changing the input of LFTT from a list of operations to a function, forcing helping threads to always start at the beginning of the transaction, and allowing threads to skip completed operations through the use of a list of return values. We thoroughly evaluate the performance impact of support for dynamic transactions and wait-free progress and find that these features do not hurt the performance of LFTT for our test cases.",
+                "authors": [
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "51409510",
+                        "name": "Lance Lebanoff"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7fdb1d3efa5abae4b36a1095fa7480d9a90166c2",
+                "title": "Blaze-Tasks",
+                "year": 2019,
+                "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+                "citation_count": 1,
+                "reference_count": 52,
+                "abstract": "Compared to threads, tasks are a more fine-grained alternative. The task parallel programming model offers benefits in terms of better performance portability and better load-balancing for problems that exhibit nonuniform workloads. A common scenario of task parallel programming is that a task is recursively decomposed into smaller sub-tasks. Depending on the problem domain, the number of created sub-tasks may be nonuniform, thereby creating potential for significant load imbalances in the system. Dynamic load-balancing mechanisms will distribute the tasks across available threads. The final result of a computation may be modeled as a reduction over the results of all sub-tasks. This article describes a simple, yet effective prototype framework, Blaze-Tasks, for task scheduling and task reductions on shared memory architectures. The framework has been designed with lock-free techniques and generic programming principles in mind. Blaze-Tasks is implemented entirely in C++17 and is thus portable. To load-balance the computation, Blaze-Tasks uses task stealing. To manage contention on a task pool, the number of lock-free attempts to steal a task depends on the distance between thief and pool owner and the estimated number of tasks in a victim\u2019s pool. This article evaluates the Blaze framework on Intel and IBM dual-socket systems using nine benchmarks and compares its performance with other task parallel frameworks. While Cilk outperforms Blaze on Intel on most benchmarks, the evaluation shows that Blaze is competitive with OpenMP and other library-based implementations. On IBM, the experiments show that Blaze outperforms other approaches on most benchmarks.",
+                "authors": [
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    },
+                    {
+                        "s2_author_id": "48678816",
+                        "name": "Amalee Wilson"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9b208e802fdfabd7962f3557c5caaae94c3ab9f5",
+                "title": "Check-Wait-Pounce: Increasing Transactional Data Structure Throughput by Delaying Transactions",
+                "year": 2019,
+                "venue": "IFIP International Conference on Distributed Applications and Interoperable Systems",
+                "citation_count": 7,
+                "reference_count": 18,
+                "abstract": "Transactional data structures allow data structures to support transactional execution, in which a sequence of operations appears to execute atomically. We consider a paradigm in which a transaction commits its changes to the data structure only if all of its operations succeed; if one operation fails, then the transaction aborts. In this work, we introduce an optimization technique called Check-Wait-Pounce that increases performance by avoiding aborts that occur due to failed operations. Check-Wait-Pounce improves upon existing methodologies by delaying the execution of transactions until they are expected to succeed, using a thread-unsafe representation of the data structure as a heuristic. Our evaluation reveals that Check-Wait-Pounce reduces the number of aborts by an average of 49.0%. Because of this reduction in aborts, the tested transactional linked lists achieve average gains in throughput of 2.5x, while some achieve gains as high as 4x.",
+                "authors": [
+                    {
+                        "s2_author_id": "51409510",
+                        "name": "Lance Lebanoff"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aae41fe48eebe979598c5ebf2161296087b6e815",
+                "title": "Practical Progress Verification of Descriptor-Based Non-Blocking Data Structures",
+                "year": 2019,
+                "venue": "IEEE/ACM International Symposium on Modeling, Analysis, and Simulation On Computer and Telecommunication Systems",
+                "citation_count": 1,
+                "reference_count": 32,
+                "abstract": "The difficulty of designing non-blocking data structures has motivated techniques to verify that progress will always be made. Existing lock-free verification techniques assume that the ability of a thread to exit a CompareAndSwap-based loop implies lock-freedom. Wait-free verification techniques prove wait-freedom by showing that all loops terminate in a fixed number of iterations despite interference from other threads. Previous progress verification techniques do not accommodate loops whose termination is dependent on complex behaviors of the interfering threads, making these approaches unsuitable. We overcome these challenges by presenting the first progress verification technique for non-blocking algorithms that are dependent on descriptor-based helping mechanisms. Many practical lock-free data structures, wait-free data structures, and algorithms to facilitate non-blocking programming all incorporate descriptor objects to ensure that an operation comprising multiple atomic steps is completed according to the progress guarantee. We define algorithms for the communication through descriptor objects with interfering threads and define a loop invariant specification to prove progress of descriptor-based non-blocking data structures. To verify that all loops in a non-blocking data structure terminate according to the specification, we implement a practical framework that enables the semi-automatic verification of concurrent programs written in the C programming language. We demonstrate the application of our methodology on practical non-blocking data structures including a lock-free transactional list and a wait-free queue.",
+                "authors": [
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "144623563",
+                        "name": "Victor Cook"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b6dbaaadf72f6d369c4219df223aa92a77588a41",
+                "title": "Automating Non-Blocking Synchronization In Concurrent Data Abstractions",
+                "year": 2019,
+                "venue": "International Conference on Automated Software Engineering",
+                "citation_count": 2,
+                "reference_count": 61,
+                "abstract": "This paper investigates using compiler technology to automatically convert sequential C++ data abstractions, e.g., queues, stacks, maps, and trees, to concurrent lock-free implementations. By automatically tailoring a number of state-of-the-practice synchronization methods to the underlying sequential implementations of different data structures, our automatically synchronized code can attain performance competitive to that of manually-written concurrent data structures by experts and much better performance than heavier-weight support by software transactional memory (STM).",
+                "authors": [
+                    {
+                        "s2_author_id": "47538851",
+                        "name": "Jiange Zhang"
+                    },
+                    {
+                        "s2_author_id": "49030677",
+                        "name": "Qing Yi"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c3173227f5585bea989b496c760304901fcd0de4",
+                "title": "Read-Uncommitted Transactions for Smart Contract Performance",
+                "year": 2019,
+                "venue": "IEEE International Conference on Distributed Computing Systems",
+                "citation_count": 11,
+                "reference_count": 39,
+                "abstract": "Smart contract transactions demonstrate issues of performance and correctness that application programmers must work around. Although the blockchain consensus mechanism approaches ACID compliance, use cases that rely on frequent state changes are impractical due to the block publishing interval of O(10^1) seconds. The effective isolation level is Read-Committed, only revealing state transitions at the end of the block interval. Values read may be stale and not match program order, causing many transactions to fail when a block is committed. This paper perceives the blockchain as a transactional data structure, using this analogy in the development of a new algorithm, Hash-Mark-Set (HMS), that improves transaction throughput by providing a Read-Uncommitted view of state variables. HMS creates a directed acyclic graph (DAG) from the pending transaction pool. The transaction order derived from the DAG is used to provide a Read-Uncommitted view of the data for new transactions, which enter the DAG as they are received. An implementation of HMS is provided, interoperable with Ethereum and ready for use in smart contracts. Over a wide range of transaction mixes, HMS is demonstrated to improve throughput. A side product of the implementation is a new technique, Runtime Argument Augmentation (RAA), that allows smart contracts to communicate with external data services before submitting a transaction. RAA has use cases beyond HMS and can serve as a lightweight replacement for blockchain oracles.",
+                "authors": [
+                    {
+                        "s2_author_id": "144623563",
+                        "name": "Victor Cook"
+                    },
+                    {
+                        "s2_author_id": "52579447",
+                        "name": "Zachary Painter"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eee572b8a4d54b1d034efd4bf0b4cfd67dcfe5b7",
+                "title": "Quantifiability: Concurrent Correctness from First Principles",
+                "year": 2019,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 94,
+                "abstract": "Architectural imperatives due to the slowing of Moore's Law, the broad acceptance of relaxed semantics and the O(n!) worst case verification complexity of generating sequential histories motivate a new approach to concurrent correctness. Desiderata for a new correctness condition are that it be independent of sequential histories, composable over objects, flexible as to timing, modular as to semantics and free of inherent locking or waiting. We propose Quantifiability, a novel correctness condition based on intuitive first principles. Quantifiability models a system in vector space to launch a new mathematical analysis of concurrency. The vector space model is suitable for a wide range of concurrent systems and their associated data structures. This paper formally defines quantifiablity with its system model and demonstrates useful properties such as compositionality. Analysis is facilitated with linear algebra, better supported and of much more efficient time complexity than traditional combinatorial methods. We present results showing that quantifiable data structures are highly scalable due to the usage of relaxed semantics, an explicit implementation trade-off that is permitted by quantifiability.",
+                "authors": [
+                    {
+                        "s2_author_id": "144623563",
+                        "name": "Victor Cook"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "52579447",
+                        "name": "Zachary Painter"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1549276cc617c000c8940b263a43d28eaec16799",
+                "title": "Lock-Free Transactional Transformation for Linked Data Structures",
+                "year": 2018,
+                "venue": "ACM Transactions on Parallel Computing",
+                "citation_count": 14,
+                "reference_count": 46,
+                "abstract": "Nonblocking data structures allow scalable and thread-safe access to shared data. They provide individual operations that appear to execute atomically. However, it is often desirable to execute multiple operations atomically in a transactional manner. Previous solutions, such as Software Transactional Memory (STM) and transactional boosting, manage transaction synchronization separately from the underlying data structure\u2019s thread synchronization. Although this reduces programming effort, it leads to overhead associated with additional synchronization and the need to rollback aborted transactions. In this work, we present a new methodology for transforming high-performance lock-free linked data structures into high-performance lock-free transactional linked data structures without revamping the data structures\u2019 original synchronization design. Our approach leverages the semantic knowledge of the data structure to eliminate the overhead of false conflicts and rollbacks. We encapsulate all operations, operands, and transaction status in a transaction descriptor, which is shared among the nodes accessed by the same transaction. We coordinate threads to help finish the remaining operations of delayed transactions based on their transaction descriptors. When a transaction fails, we recover the correct abstract state by reversely interpreting the logical status of a node. We also present an obstruction-free version of our algorithm that can be applied to dynamic execution scenarios and an example of our approach applied to a hash map. In our experimental evaluation using transactions with randomly generated operations, our lock-free transactional data structures outperform the transactional boosted ones by 70% on average. They also outperform the alternative STM-based approaches by a factor of 2 to 13 across all scenarios. More importantly, we achieve 4,700 to 915,000 times fewer spurious aborts than the alternatives.",
+                "authors": [
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "51409510",
+                        "name": "Lance Lebanoff"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ac03ec3c8644ea993d376b53ea2e41aa0048eca7",
+                "title": "An Efficient Latch-free Database Index Based on Multi-dimensional Lists",
+                "year": 2018,
+                "venue": "IEEE International Performance, Computing, and Communications Conference",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": "In the interests of improving database performance, researchers have considered lock-free data structures for their attractive progress guarantees and scalability. This paper considers the performance of a recently developed lock-free structure, multi-dimensional list (MDList), used as a database index in SOS, a high-performance, object-oriented database. In our tests, we find that MDList outperforms the existing locking structures in multi-threaded workloads. This is the first known use of MDList as an index structure in databases.",
+                "authors": [
+                    {
+                        "s2_author_id": "121066200",
+                        "name": "Kenneth Lamar"
+                    },
+                    {
+                        "s2_author_id": "46782206",
+                        "name": "Ramin Izadpanah"
+                    },
+                    {
+                        "s2_author_id": "39920348",
+                        "name": "J. Brandt"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d8dbe95687383f9e22bfec3021a137ff97590bf1",
+                "title": "Integrating Low-latency Analysis into HPC System Monitoring",
+                "year": 2018,
+                "venue": "International Conference on Parallel Processing",
+                "citation_count": 18,
+                "reference_count": 34,
+                "abstract": "The growth of High Performance Computer (HPC) systems increases the complexity with respect to understanding resource utilization, system management, and performance issues. While raw performance data is increasingly exposed at the component level, the usefulness of the data is dependent on the ability to do meaningful analysis on actionable timescales. However, current system monitoring infrastructures largely focus on data collection, with analysis performed off-system in post-processing mode. This increases the time required to provide analysis and feedback to a variety of consumers. In this work, we enhance the architecture of a monitoring system used on large-scale computational platforms, to integrate streaming analysis capabilities at arbitrary locations within its data collection, transport, and aggregation facilities. We leverage the flexible communication topology of the monitoring system to enable placement of transformations based on overhead concerns, while still enabling low-latency exposure on node. Our design internally supports and exposes the raw and transformed data uniformly for both node level and off-system consumers. We show the viability of our implementation for a case with production-relevance: run-time determination of the relative per-node files system demands.",
+                "authors": [
+                    {
+                        "s2_author_id": "46782206",
+                        "name": "Ramin Izadpanah"
+                    },
+                    {
+                        "s2_author_id": "2409871",
+                        "name": "Nichamon Naksinehaboon"
+                    },
+                    {
+                        "s2_author_id": "39920348",
+                        "name": "J. Brandt"
+                    },
+                    {
+                        "s2_author_id": "39076226",
+                        "name": "A. Gentile"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9935d4f2ff53d3c3f1c2ce70e177ebf51ad7b8cc",
+                "title": "Lock-Free Transactional Adjacency List",
+                "year": 2017,
+                "venue": "International Workshop on Languages and Compilers for Parallel Computing",
+                "citation_count": 1,
+                "reference_count": 26,
+                "abstract": "Adjacency lists are frequently used in graphing or map based applications. Although efficient concurrent linked-list algorithms are well known, it can be difficult to adapt these approaches to build a high-performance adjacency list. Furthermore, it can often be desirable to execute operations in these data structures transactionally, or perform a sequence of operations in one atomic step. In this paper, we present a lock-free transactional adjacency list based on a multi-dimensional list (MDList). We are able to combine known linked list strategies with the capability of the MDList in order to efficiently organize graph vertexes and their edges. We design our underlying data structure to be node-based and linearizable, then use the Lock-Free Transactional Transformation (LFTT) methodology to efficiently enable transactional execution. In our performance evaluation, our lock-free transactional adjacency list achieves an average of 50% speedup over a transactional boosting implementation.",
+                "authors": [
+                    {
+                        "s2_author_id": "52579447",
+                        "name": "Zachary Painter"
+                    },
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e1bc4591ba477f756701f33904491e60dc52a75b",
+                "title": "A Transactional Correctness Tool for Abstract Data Types",
+                "year": 2017,
+                "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+                "citation_count": 11,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "48634606",
+                        "name": "Christina L. Peterson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f858e2f7567c3e4a74d5170d8b74d17af216bf2d",
+                "title": "A Wait-Free Hash Map",
+                "year": 2017,
+                "venue": "International journal of parallel programming",
+                "citation_count": 17,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e75afd5ce7753eaf86e8f3d8b28ec5ef8ae6daa",
+                "title": "A Methodology for Performance Analysis of Non-blocking Algorithms Using Hardware and Software Metrics",
+                "year": 2016,
+                "venue": "IEEE International Symposium on Real-Time Distributed Computing",
+                "citation_count": 10,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46782206",
+                        "name": "Ramin Izadpanah"
+                    },
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "397bad00f65c36d7015afa8c52a8a3862e6cf4ab",
+                "title": "An Efficient Lock-Free Logarithmic Search Data Structure Based on Multi-dimensional List",
+                "year": 2016,
+                "venue": "IEEE International Conference on Distributed Computing Systems",
+                "citation_count": 17,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6261748cf3c225c89ccaeca15349bec7e5eaca4d",
+                "title": "An Efficient Wait-Free Vector",
+                "year": 2016,
+                "venue": "IEEE Transactions on Parallel and Distributed Systems",
+                "citation_count": 26,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "1405821684",
+                        "name": "Carlos Valera-Leon"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9b683da844e2c92f1125ed3fc289cebe3e7416f4",
+                "title": "Lock-free Transactions without Rollbacks for Linked Data Structures",
+                "year": 2016,
+                "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
+                "citation_count": 37,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9ebabac6947747d24b4cee2cb1741412f8dec7ff",
+                "title": "Validating the Simulation of Large-Scale Parallel Applications Using Statistical Characteristics",
+                "year": 2016,
+                "venue": "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
+                "citation_count": 1,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "3312441",
+                        "name": "Jeremiah J. Wilke"
+                    },
+                    {
+                        "s2_author_id": "46492679",
+                        "name": "G. Hendry"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02d47ff9fda3009e61edc42ec51106a07f07cb34",
+                "title": "A scalable multi-producer multi-consumer wait-free ring buffer",
+                "year": 2015,
+                "venue": "ACM Symposium on Applied Computing",
+                "citation_count": 17,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39284529",
+                        "name": "A. Barrington"
+                    },
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0866e996823e2d63f5558925fed31f4877ad71cb",
+                "title": "A Wait-Free Multi-Word Compare-and-Swap Operation",
+                "year": 2015,
+                "venue": "International journal of parallel programming",
+                "citation_count": 32,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "113510bc1073e9d68a474beb6553c16ba54ebeb8",
+                "title": "Static Analysis Techniques for Semiautomatic Synthesis of Message Passing Software Skeletons",
+                "year": 2015,
+                "venue": "TOMC",
+                "citation_count": 3,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1691250",
+                        "name": "M. Sottile"
+                    },
+                    {
+                        "s2_author_id": "2154191",
+                        "name": "Jason Dagit"
+                    },
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "46492679",
+                        "name": "G. Hendry"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f0fb129d06410cfb74d09b36f2cf83e713490fa",
+                "title": "Application Modeling for Scalable Simulation of Massively Parallel Systems",
+                "year": 2015,
+                "venue": "2015 IEEE 17th International Conference on High Performance Computing and Communications, 2015 IEEE 7th International Symposium on Cyberspace Safety and Security, and 2015 IEEE 12th International Conference on Embedded Software and Systems",
+                "citation_count": 6,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34220013",
+                        "name": "E. Anger"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "46492679",
+                        "name": "G. Hendry"
+                    },
+                    {
+                        "s2_author_id": "3312441",
+                        "name": "Jeremiah J. Wilke"
+                    },
+                    {
+                        "s2_author_id": "2933334",
+                        "name": "S. Yalamanchili"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "36599003c0a86f71e804afd5053f0bafa5a5d6b6",
+                "title": "Design and application of distributed containers in a CPS software control library",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "372ae14491f409109a158cead1db5cb2bcc89689",
+                "title": "Designing energy-efficient approximate adders using parallel genetic algorithms",
+                "year": 2015,
+                "venue": "SoutheastCon",
+                "citation_count": 16,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50743077",
+                        "name": "Adnan Aquib Naseer"
+                    },
+                    {
+                        "s2_author_id": "34599673",
+                        "name": "Rizwan A. Ashraf"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1727179",
+                        "name": "R. Demara"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "412328cad630383c12e34d4ede48c8ddfe9497b2",
+                "title": "Queue-Based and Adaptive Lock Algorithms for Scalable Resource Allocation on Shared-Memory Multiprocessors",
+                "year": 2015,
+                "venue": "International journal of parallel programming",
+                "citation_count": 2,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "2067847104",
+                        "name": "Brendan Lynch"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "58332be9fdb56cf29fa1266024ebc1a774144c0f",
+                "title": "A wait-free multi-producer multi-consumer ring buffer",
+                "year": 2015,
+                "venue": "SIAP",
+                "citation_count": 23,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7533e208e8206ea186296f5a32571cd3622fc859",
+                "title": "A Wait-Free Hash Map",
+                "year": 2015,
+                "venue": "International journal of parallel programming",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b11e0bb0a77ade0991a94236b17ce91d4735480b",
+                "title": "Extending LDMS to Enable Performance Monitoring in Multi-core Applications",
+                "year": 2015,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 7,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "39920348",
+                        "name": "J. Brandt"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e0cbf2495e4cb7f6c82a4f9d2f809829ad1c2c68",
+                "title": "Tervel: A unification of descriptor-based techniques for non-blocking programming",
+                "year": 2015,
+                "venue": "International Conference / Workshop on Embedded Computer Systems: Architectures, Modeling and Simulation",
+                "citation_count": 14,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2bd6daa3b1939b479937f34c4fdf8db58d7bcf3d",
+                "title": "Tools for Enabling Automatic Validation of Large-Scale Parallel Application Simulations",
+                "year": 2014,
+                "venue": "IEEE International Conference on Software Maintenance and Evolution",
+                "citation_count": 2,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "46492679",
+                        "name": "G. Hendry"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53e24818b5c6a328da821d4d16294f4e400b07b8",
+                "title": "Queue-Based and Adaptive Lock Algorithms for Scalable Resource Allocation on Shared-Memory Multiprocessors",
+                "year": 2014,
+                "venue": "International journal of parallel programming",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "2067847104",
+                        "name": "Brendan Lynch"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "adc008dfb539d0a9d318d9409cf43c84cb7edf39",
+                "title": "Preliminary results for neuroevolutionary optimization phase order generation for static compilation",
+                "year": 2014,
+                "venue": "ODES '14",
+                "citation_count": 13,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2652940",
+                        "name": "Gene I. Sher"
+                    },
+                    {
+                        "s2_author_id": "2069280619",
+                        "name": "K. Martin"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ccaf130cad7d3a1727b8c4ade78af6578501ffb3",
+                "title": "A Wait-Free Multi-Word Compare-and-Swap Operation",
+                "year": 2014,
+                "venue": "International journal of parallel programming",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "022d80469ba2abe78857e6683fbf50f9f486b0eb",
+                "title": "Semi-automatic extraction of software skeletons for benchmarking large-scale parallel applications",
+                "year": 2013,
+                "venue": "SIGSIM Principles of Advanced Discrete Simulation",
+                "citation_count": 12,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1691250",
+                        "name": "M. Sottile"
+                    },
+                    {
+                        "s2_author_id": "34710974",
+                        "name": "A. Dakshinamurthy"
+                    },
+                    {
+                        "s2_author_id": "46492679",
+                        "name": "G. Hendry"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1df068fa7dd353b3ce3f2ff87c9a21c5aae011ef",
+                "title": "Fast and Scalable Queue-Based Resource Allocation Lock on Shared-Memory Multiprocessors",
+                "year": 2013,
+                "venue": "International Conference on Principles of Distributed Systems",
+                "citation_count": 4,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "2067847104",
+                        "name": "Brendan Lynch"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5956201ade4c9f3efb9f6fe927cd693b54e9e7e3",
+                "title": "Using SST/Macro for Effective Analysis of MPI-Based Applications: Evaluating Large-Scale Genomic Sequence Search",
+                "year": 2013,
+                "venue": "IEEE Access",
+                "citation_count": 3,
+                "reference_count": 38,
+                "abstract": "Future and current high-performance computing applications will have to change and adapt as node architectures evolve. The application of advanced architecture simulators will play a crucial role for the design and optimization of future data intensive applications. In this paper, we present our simulation-based framework for analyzing the scalability and performance of a number of critical optimizations of a massively parallel genomic search application, mpiBLAST, using an advanced macroscale simulator (SST/macro). We report the use of our framework for the evaluation of three potential improvements of mpiBLAST: 1) enabling high-performance parallel output; 2) an approach for caching database fragments in memory; and 3) a methodology for pre-distributing database segments. In our experimental setup, we performed query sequence matching on the genome of the yellow fever mosquito, Aedes aegypti.",
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "2059002659",
+                        "name": "Tae-Hyuk Ahn"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "792d8e14f6202736c4c8dc0ddaff82c793d178ba",
+                "title": "Building Fast Concurrent Data Structures through Data Structure Families.",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "2067847104",
+                        "name": "Brendan Lynch"
+                    },
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "90aff973925770922eddef5e891a81742cd12f23",
+                "title": "Effective use of non-blocking data structures in a deduplication application",
+                "year": 2013,
+                "venue": "ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity",
+                "citation_count": 12,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "144541451",
+                        "name": "Akshatha Bhat"
+                    },
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "49030677",
+                        "name": "Qing Yi"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "98695a3640952940b0fc346fea733850dd6612b4",
+                "title": "Accelerating Convolutional Neural Networks on the GPU.",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "2089488702",
+                        "name": "Michael Semeniuk"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9c88637fc55717a576309c9382414dc82a50361b",
+                "title": "A Macroscale Simulator for Exascale Software/Hardware Co-Design",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 22,
+                "abstract": "The next decade will see a rapid evolution of HPC node architectures as power and cooling constraints are limiting increases in microprocessor clock speeds and constraining data movement. Future and current HPC applications will have to change and adapt as node architectures evolve. The application of advanced exascale architecture simulators will play a crucial role for the design and optimization of future data intensive applications. In this paper, we present our imulation-based framework for analyzing the scalability and performance of massive interconnected networks.",
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "46492679",
+                        "name": "G. Hendry"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a3c0bcd9fa940181561473beb6b69e731bd3c1a1",
+                "title": "A Practical Wait-Free Multi-Word Compare-and-Swap Operation.",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cdcc704ae359000d90cbbb492db815912bee7c6b",
+                "title": "Concurrent multi-level arrays: Wait-free extensible hash maps",
+                "year": 2013,
+                "venue": "International Conference / Workshop on Embedded Computer Systems: Architectures, Modeling and Simulation",
+                "citation_count": 19,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d60833e27609dccf685f97a9aab0b9a73fc99cd0",
+                "title": "LC/DC: Lockless Containers and Data Concurrency a Novel Nonblocking Container Library for Multicore Applications",
+                "year": 2013,
+                "venue": "IEEE Access",
+                "citation_count": 13,
+                "reference_count": 32,
+                "abstract": "Exploiting the parallelism in multiprocessor systems is a major challenge in modern computer science. Multicore programming demands a change in the way we design and use fundamental data structures. The standard collection of data structures and algorithms in C++11 is the sequential standard template library (STL). In this paper, we present their vision for the theory and practice for the design and implementation of a collection of highly concurrent fundamental data structures for multiprocessor application development with associated programming interface and advanced optimization support. Specifically, the proposed approach will provide a familiar, easy-to-use, and composable interface, similar to that of C++ STL. Each container type will be enhanced with internal support for nonblocking synchronization of its data access, thereby providing better safety and performance than traditional blocking synchronization by: 1) eliminating hazards such as deadlock, livelock, and priority inversion and 2) by being highly scalable in supporting large numbers of threads. The new library, lockless containers/data concurrency, will provide algorithms for handling fundamental computations in multithreaded contexts, and will incorporate these into libraries with familiar look and feel. The proposed approach will provide an immense boost in performance and software reuse, consequently productivity, for developers of scientific and systems applications, which are predominantly in C/C++. STL is widely used and a concurrent replacement library will have an immediate practical relevance and a significant impact on a variety of parallel programming domains including simulation, massive data mining, computational biology, financial engineering, and embedded control systems. As a proof-of-concept, this paper discusses the first design and implementation of a wait-free hash table.",
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    },
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f095fdb565317558626664f5da59fad3e89807b8",
+                "title": "Making Exascale Computing Tractable by Enabling Effective Data Communication and Synchronization",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "006948947372bfb02e3035b7d959c11307af66b2",
+                "title": "A Compiler-based Framework for Automatic Extraction of Software Models for Exascale Hardware/Software Co-Design.",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "34710974",
+                        "name": "A. Dakshinamurthy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "162bc0543f1e25054166f037cb23e87563833c54",
+                "title": "Evaluation of Two Acceleration Techniques in a Multithreaded 2D Poisson Equation Solver",
+                "year": 2012,
+                "venue": "International Conference on Conceptual Structures",
+                "citation_count": 2,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145967797",
+                        "name": "Andr\u00e9s Vidal"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1989768",
+                        "name": "A. Kassab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "489ad8d857c7e6a71e95222cac9eaf0fa251ddb2",
+                "title": "Effective software design and development for the new graph architecture HPC machines.",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 64,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4f5df576c156211c781eda8eb4c6d588b683e76a",
+                "title": "Scalable n-body event prediction",
+                "year": 2012,
+                "venue": "Central European Journal of Computer Science",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": "The general simulation of n-body systems often requires the simulation of pairwise interaction events between the objects. The naive method of simulating these events is an algorithm that polls each pair of objects for an interaction every time step. This algorithm has O(n2)operations per time step in the number of objects. However, this method scales very well to multiple cores. In this paper, we propose a novel method of pairwise simulation that saves a significant amount of computation time by predicting possible future outcomes rather than reacting to them. We demonstrate the implementation of this method, as well as demonstrate that it has amortized O(n) complexity per time step. We also demonstrate an implementation to allow this algorithm to scale comparably well to multiple cores of a shared memory machine.",
+                "authors": [
+                    {
+                        "s2_author_id": "2236128",
+                        "name": "S. Braeger"
+                    },
+                    {
+                        "s2_author_id": "2071366120",
+                        "name": "Nicholas Arnold"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "517cf26d36a4ac81c5bd8df9432c9ed2dbfa8eb6",
+                "title": "Parallel particle swarm optimization (PPSO) on the coverage problem in pursuit-evasion games",
+                "year": 2012,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8130227",
+                        "name": "Shiyuan Jin"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "145850537",
+                        "name": "Z. Qu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "865fc4cb95dad6d81a0adc095e5079298ba9f444",
+                "title": "Using parallelization to improve the efficiency of an automated taxi route generation algorithm",
+                "year": 2012,
+                "venue": "Central European Journal of Computer Science",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": "As part of the Federal Aviation Administration\u2019s (FAA) Next Generation Air Transportation System (NextGen) concept, surface support tools that generate taxi routes and monitor pilot conformance against those routes have been designed and implemented by Mosaic ATM and tested in simulations conducted by The Mitre Corporation\u2019s Center for Advanced Aviation System Development(CAASD). The purpose of these tools is to increase the overall safety of the airport\u2019s surface by detecting aircraft movement that is not in conformance with the taxi route assigned to that aircraft. Additionally, the tools aim to increase the overall efficiency of airport operations by ensuring that aircraft taxi in compliance with their assigned routes. One of the keys to providing a reliable conformance monitoring system is to produce reliable taxi routes against which to monitor compliance. The tools provided by Mosaic ATM generate these taxi routes via a set of predefined routes commonly used at an airport. In the simulations conducted by CAASD, it was found that the routes provided were found to be reliable and trustworthy. In addition to the predefined routes, Mosaic ATM provided an ad hoc route capability. This capability uses an algorithm that finds a route based on the taxiways assigned by a user through the ad hoc route tool. However, in the simulations conducted by CAASD, this tool was not used extensively by the users. In this paper, we describe our efforts to verify the correctness of the ad hoc taxi route generation algorithm as well as our efforts to increase the speed of the algorithm by implementing a lock-free parallelized version.",
+                "authors": [
+                    {
+                        "s2_author_id": "153429252",
+                        "name": "A. Hall"
+                    },
+                    {
+                        "s2_author_id": "2485309",
+                        "name": "M. Gabilondo"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ac401dc19a61190888f12e38931c55b53637ea2b",
+                "title": "Multiprocessor Programming in the Undergraduate Program NSF/TCPP Curriculum: 2nd Year of Early Adoption at the University of Central Florida.",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1700725",
+                        "name": "N. Deo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c4b1dc6f513841ddc4f2618a6d92b372e5bd6c33",
+                "title": "A Lock-Free Concurrent Hash Table Design for Effective Information Storage and Retrieval on Large Data Sets.",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "32379972",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "38751840",
+                        "name": "P. Laborde"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e1103880e5c3366996e7816885f8f4b543cec0e8",
+                "title": "Designing digital circuits for FPGAs using parallel genetic algorithms (WIP)",
+                "year": 2012,
+                "venue": "Spring Simulation Multiconference",
+                "citation_count": 10,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34599673",
+                        "name": "Rizwan A. Ashraf"
+                    },
+                    {
+                        "s2_author_id": "48826483",
+                        "name": "Francis Luna"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1727179",
+                        "name": "R. Demara"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e82980843f06d64ea074358a983d6315765cd23e",
+                "title": "CuNeuQuant: A CUDA Implementation of the NeuQuant Image Quantization Algorithm",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "70293005",
+                        "name": "David Bottisti"
+                    },
+                    {
+                        "s2_author_id": "1712496",
+                        "name": "L. M\u00e9ndez"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fc7dd1ca14f305e95b1b17d85bb6b38b5d0a2880",
+                "title": "A multithreaded solver for the 2D Poisson equation",
+                "year": 2012,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 3,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145967797",
+                        "name": "Andr\u00e9s Vidal"
+                    },
+                    {
+                        "s2_author_id": "1989768",
+                        "name": "A. Kassab"
+                    },
+                    {
+                        "s2_author_id": "2067394688",
+                        "name": "Daniel Mota"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "278ee2491da3b6353aff706185f7bc4858a1a9a4",
+                "title": "Facilitating Efficient Parallelization of Information Storage and Retrieval on Large Data Sets.",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3caf534c7004e75f9495a3f2a054c5aa433c42f6",
+                "title": "The ABA problem in multicore data structures with collaborating operations",
+                "year": 2011,
+                "venue": "International Conference on Collaborative Computing",
+                "citation_count": 28,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7b4a358d990408a7bf0e285d9e9a745d1cd24092",
+                "title": "SST/macro: The Structural Simulation Toolkit macroscale components for coarse-grained architecture simulation.",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2113922669",
+                        "name": "A. P\u0131nar"
+                    },
+                    {
+                        "s2_author_id": "145930646",
+                        "name": "C. Janssen"
+                    },
+                    {
+                        "s2_author_id": "2515233",
+                        "name": "H. Adalsteinsson"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "2493105",
+                        "name": "D. A. Evensky"
+                    },
+                    {
+                        "s2_author_id": "48128357",
+                        "name": "J. Kenny"
+                    },
+                    {
+                        "s2_author_id": "2440073",
+                        "name": "N. Slattengren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e58ff759406ad7b3972d3f012528fddf66073992",
+                "title": "Evaluating Performance Optimizations of Large-scale Genomic Sequence Search Applications using SST/macro",
+                "year": 2011,
+                "venue": "International Conference on Simulation and Modeling Methodologies, Technologies and Applications",
+                "citation_count": 6,
+                "reference_count": 28,
+                "abstract": "\u2014The next decade will see a rapid evolution of HPC node architectures as power and cooling constraints are limiting increases in microprocessor clock speeds and constraining data movement. Future and current HPC applications will have to change and adapt as node architectures evolve. The application of advanced cycle accurate node architecture simulators will play a crucial role for the design and optimization of future data intensive applications. In this paper, we present our simulation-based framework for analyzing the scalability and performance of a number of critical optimizations of a massively parallel genomic search application, mpiBLAST, using an advanced macroscale simulator (SST/macro). In this paper we report the use of our framework for the evaluation of three potential improvements of mpiBLAST: enabling high-performance parallel output, an approach for caching database fragments in memory, and a methodology for pre-distributing database segments. In our experimental setup, we performed query sequence matching on the genome of the yellow fever mosquito, Aedes aegypti .",
+                "authors": [
+                    {
+                        "s2_author_id": "2059002659",
+                        "name": "Tae-Hyuk Ahn"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "3143746",
+                        "name": "Heshan Lin"
+                    },
+                    {
+                        "s2_author_id": "2515233",
+                        "name": "H. Adalsteinsson"
+                    },
+                    {
+                        "s2_author_id": "145930646",
+                        "name": "C. Janssen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f598d40fcbd7c0c6d447ac0eda47276c217b5cd9",
+                "title": "Automatic Extraction of SST/macro Skeleton Models.",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2fe159422eab95c284b6a9b3e9fef52a310c4527",
+                "title": "Understanding and Effectively Preventing the ABA Problem in Descriptor-Based Lock-Free Designs",
+                "year": 2010,
+                "venue": "IEEE International Symposium on Object/Component/Service-Oriented Real-Time Distributed Computing",
+                "citation_count": 68,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a005b52922ebb34ed6edf7f44a6305cddf50ddc6",
+                "title": "Support for the Evolution of C++ Generic Functions",
+                "year": 2010,
+                "venue": "Software Language Engineering",
+                "citation_count": 4,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c21a4e332b7db0494d70810744da97fff4c7bb94",
+                "title": "Programming and Validation Techniques for Reliable Goal-driven Autonomic Software",
+                "year": 2010,
+                "venue": "Autonomic Communication",
+                "citation_count": 3,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "2158900",
+                        "name": "N. Rouquette"
+                    },
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c5c59412dee41f1329090a4f2d693b98cf5e064f",
+                "title": "A Concurrency and Time Centered Framework for Autonomous Space Systems: Design and application of nonblocking programming techniques, static analysis of C++, and formal methods",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dcf7c27e04989581df89c2110458f47712a640a6",
+                "title": "A concurrency and time centered framework for certification of autonomous space systems",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 85,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0b553242f822c4a7443bc3fd0d6b378276465f7c",
+                "title": "Reliable and Efficient Concurrent Synchronization for Embedded Real-Time Software",
+                "year": 2009,
+                "venue": "2009 Third IEEE International Conference on Space Mission Challenges for Information Technology",
+                "citation_count": 7,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "18968c4b1879ff1a84fcb64b0619264c00fb2f75",
+                "title": "Source Code Rejuvenation Is Not Refactoring",
+                "year": 2009,
+                "venue": "Conference on Current Trends in Theory and Practice of Informatics",
+                "citation_count": 28,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4cd6b68ec9a2ffd18834b1750e64c670bc7b01da",
+                "title": "Semantically Enhanced Containers for Concurrent Real-Time Systems",
+                "year": 2009,
+                "venue": "European Conference on the Engineering of Computer-Based Systems",
+                "citation_count": 8,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    },
+                    {
+                        "s2_author_id": "2158900",
+                        "name": "N. Rouquette"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "51f9449505dfcd8525e026d5aa345754ff05c526",
+                "title": "Scalable nonblocking concurrent objects for mission critical code",
+                "year": 2009,
+                "venue": "OOPSLA Companion",
+                "citation_count": 16,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e2e096fad3938c426a886c32853e04f24fbcdf55",
+                "title": "Model-Based Product-Oriented Certification",
+                "year": 2009,
+                "venue": "European Conference on the Engineering of Computer-Based Systems",
+                "citation_count": 4,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "67a7239fca42015fa4e7f59f894239e2b40d01b0",
+                "title": "C++ Dynamic Cast in Autonomous Space Systems",
+                "year": 2008,
+                "venue": "IEEE International Symposium on Real-Time Distributed Computing",
+                "citation_count": 1,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "38933347",
+                        "name": "R. Mahapatra"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    },
+                    {
+                        "s2_author_id": "2150584325",
+                        "name": "D. Wagner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "86e1515db53dcca67d1d9f62f26b8d5449ab0d60",
+                "title": "Practical and Verifiable C++ Dynamic Cast for Hard Real-Time Systems",
+                "year": 2008,
+                "venue": "Journal of Computing Science and Engineering",
+                "citation_count": 4,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "38933347",
+                        "name": "R. Mahapatra"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e8cfacb4856a73be75118525fa394177b669bae6",
+                "title": "Verification and semantic parallelization of goal-driven autonomous software",
+                "year": 2008,
+                "venue": "Autonomic Computing and Communication Systems",
+                "citation_count": 9,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "2158900",
+                        "name": "N. Rouquette"
+                    },
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ecbcfc899df265f6c993302f70fef25efd12ed35",
+                "title": "for Hard Real-Time Systems",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "38933347",
+                        "name": "R. Mahapatra"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a2975daae9ad05d9b1e084021ccb153d35cdf8dc",
+                "title": "Lock-Free Dynamically Resizable Arrays",
+                "year": 2006,
+                "venue": "International Conference on Principles of Distributed Systems",
+                "citation_count": 67,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "1707965",
+                        "name": "P. Pirkelbauer"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4cfbf4f1ae68e3bb39b6eee5f3da69e5263f301f",
+                "title": "Automatic Extraction of Software Models for Exascale Hardware/Software Co-Design",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "34710974",
+                        "name": "A. Dakshinamurthy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a6f3943e23ee9e19c1a5c88174034ea3091af21d",
+                "title": "Macaroni properties of the sorts \"Zagorka\" and \"Progres\" durum",
+                "year": 1994,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    },
+                    {
+                        "s2_author_id": "2075537045",
+                        "name": "P. Koleva"
+                    },
+                    {
+                        "s2_author_id": "103060678",
+                        "name": "I. Arzhanova"
+                    },
+                    {
+                        "s2_author_id": "2084386902",
+                        "name": "G. Medvedev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ed8ba75e7599dc1c4cdd0ba9a5fc54c6091f7970",
+                "title": "Ieee Transactions on Parallel and Distributed Systems a Lock-free Priority Queue Design Based on Multi-dimensional Linked Lists",
+                "year": null,
+                "venue": "",
+                "citation_count": 43,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2013381067",
+                        "name": "Deli Zhang"
+                    },
+                    {
+                        "s2_author_id": "1778664",
+                        "name": "D. Dechev"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "52579447",
+                "name": "Zachary Painter"
+            },
+            {
+                "s2_author_id": "121066200",
+                "name": "Kenneth Lamar"
+            },
+            {
+                "s2_author_id": "3581914",
+                "name": "A. Goponenko"
+            },
+            {
+                "s2_author_id": "3100474",
+                "name": "O. Aaziz"
+            },
+            {
+                "s2_author_id": "1745812",
+                "name": "B. Allan"
+            },
+            {
+                "s2_author_id": "39920348",
+                "name": "J. Brandt"
+            },
+            {
+                "s2_author_id": "2261890824",
+                "name": "Jiange Zhang"
+            },
+            {
+                "s2_author_id": "1486417982",
+                "name": "Qing Yi"
+            },
+            {
+                "s2_author_id": "48634606",
+                "name": "Christina L. Peterson"
+            },
+            {
+                "s2_author_id": "2065401510",
+                "name": "Jim M. Brandt"
+            },
+            {
+                "s2_author_id": "144623563",
+                "name": "Victor Cook"
+            },
+            {
+                "s2_author_id": "2157171",
+                "name": "R. Pearce"
+            },
+            {
+                "s2_author_id": "2558910",
+                "name": "Keita Iwabuchi"
+            },
+            {
+                "s2_author_id": "1707965",
+                "name": "P. Pirkelbauer"
+            },
+            {
+                "s2_author_id": "46782206",
+                "name": "Ramin Izadpanah"
+            },
+            {
+                "s2_author_id": "1717365",
+                "name": "Yan Solihin"
+            },
+            {
+                "s2_author_id": "38751840",
+                "name": "P. Laborde"
+            },
+            {
+                "s2_author_id": "51409510",
+                "name": "Lance Lebanoff"
+            },
+            {
+                "s2_author_id": "2013381067",
+                "name": "Deli Zhang"
+            },
+            {
+                "s2_author_id": "1904357794",
+                "name": "Pradeep Kumar Gayam"
+            },
+            {
+                "s2_author_id": "30280801",
+                "name": "Justin Gosselin"
+            },
+            {
+                "s2_author_id": "30960477",
+                "name": "Anjia Wang"
+            },
+            {
+                "s2_author_id": "7604095",
+                "name": "C. Liao"
+            },
+            {
+                "s2_author_id": "144338840",
+                "name": "Yonghong Yan"
+            },
+            {
+                "s2_author_id": "48678816",
+                "name": "Amalee Wilson"
+            },
+            {
+                "s2_author_id": "2060098252",
+                "name": "Kishore Debnath"
+            },
+            {
+                "s2_author_id": "47538851",
+                "name": "Jiange Zhang"
+            },
+            {
+                "s2_author_id": "49030677",
+                "name": "Qing Yi"
+            },
+            {
+                "s2_author_id": "2409871",
+                "name": "Nichamon Naksinehaboon"
+            },
+            {
+                "s2_author_id": "39076226",
+                "name": "A. Gentile"
+            },
+            {
+                "s2_author_id": "32379972",
+                "name": "S. Feldman"
+            },
+            {
+                "s2_author_id": "1405821684",
+                "name": "Carlos Valera-Leon"
+            },
+            {
+                "s2_author_id": "3312441",
+                "name": "Jeremiah J. Wilke"
+            },
+            {
+                "s2_author_id": "46492679",
+                "name": "G. Hendry"
+            },
+            {
+                "s2_author_id": "39284529",
+                "name": "A. Barrington"
+            },
+            {
+                "s2_author_id": "1691250",
+                "name": "M. Sottile"
+            },
+            {
+                "s2_author_id": "2154191",
+                "name": "Jason Dagit"
+            },
+            {
+                "s2_author_id": "34220013",
+                "name": "E. Anger"
+            },
+            {
+                "s2_author_id": "2933334",
+                "name": "S. Yalamanchili"
+            },
+            {
+                "s2_author_id": "50743077",
+                "name": "Adnan Aquib Naseer"
+            },
+            {
+                "s2_author_id": "34599673",
+                "name": "Rizwan A. Ashraf"
+            },
+            {
+                "s2_author_id": "1727179",
+                "name": "R. Demara"
+            },
+            {
+                "s2_author_id": "2067847104",
+                "name": "Brendan Lynch"
+            },
+            {
+                "s2_author_id": "2652940",
+                "name": "Gene I. Sher"
+            },
+            {
+                "s2_author_id": "2069280619",
+                "name": "K. Martin"
+            },
+            {
+                "s2_author_id": "34710974",
+                "name": "A. Dakshinamurthy"
+            },
+            {
+                "s2_author_id": "2059002659",
+                "name": "Tae-Hyuk Ahn"
+            },
+            {
+                "s2_author_id": "144541451",
+                "name": "Akshatha Bhat"
+            },
+            {
+                "s2_author_id": "2089488702",
+                "name": "Michael Semeniuk"
+            },
+            {
+                "s2_author_id": "145967797",
+                "name": "Andr\u00e9s Vidal"
+            },
+            {
+                "s2_author_id": "1989768",
+                "name": "A. Kassab"
+            },
+            {
+                "s2_author_id": "2236128",
+                "name": "S. Braeger"
+            },
+            {
+                "s2_author_id": "2071366120",
+                "name": "Nicholas Arnold"
+            },
+            {
+                "s2_author_id": "8130227",
+                "name": "Shiyuan Jin"
+            },
+            {
+                "s2_author_id": "145850537",
+                "name": "Z. Qu"
+            },
+            {
+                "s2_author_id": "153429252",
+                "name": "A. Hall"
+            },
+            {
+                "s2_author_id": "2485309",
+                "name": "M. Gabilondo"
+            },
+            {
+                "s2_author_id": "1700725",
+                "name": "N. Deo"
+            },
+            {
+                "s2_author_id": "48826483",
+                "name": "Francis Luna"
+            },
+            {
+                "s2_author_id": "70293005",
+                "name": "David Bottisti"
+            },
+            {
+                "s2_author_id": "1712496",
+                "name": "L. M\u00e9ndez"
+            },
+            {
+                "s2_author_id": "2067394688",
+                "name": "Daniel Mota"
+            },
+            {
+                "s2_author_id": "2113922669",
+                "name": "A. P\u0131nar"
+            },
+            {
+                "s2_author_id": "145930646",
+                "name": "C. Janssen"
+            },
+            {
+                "s2_author_id": "2515233",
+                "name": "H. Adalsteinsson"
+            },
+            {
+                "s2_author_id": "2493105",
+                "name": "D. A. Evensky"
+            },
+            {
+                "s2_author_id": "48128357",
+                "name": "J. Kenny"
+            },
+            {
+                "s2_author_id": "2440073",
+                "name": "N. Slattengren"
+            },
+            {
+                "s2_author_id": "3143746",
+                "name": "Heshan Lin"
+            },
+            {
+                "s2_author_id": "1706320",
+                "name": "B. Stroustrup"
+            },
+            {
+                "s2_author_id": "2158900",
+                "name": "N. Rouquette"
+            },
+            {
+                "s2_author_id": "38933347",
+                "name": "R. Mahapatra"
+            },
+            {
+                "s2_author_id": "2150584325",
+                "name": "D. Wagner"
+            },
+            {
+                "s2_author_id": "2075537045",
+                "name": "P. Koleva"
+            },
+            {
+                "s2_author_id": "103060678",
+                "name": "I. Arzhanova"
+            },
+            {
+                "s2_author_id": "2084386902",
+                "name": "G. Medvedev"
+            }
+        ],
+        "total_co_authors": 76,
+        "papers_retrieved": 103
+    }
+}

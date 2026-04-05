@@ -1,0 +1,4041 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000086759",
+        "name": "Jeremy G Siek",
+        "primary_affiliation": "Indiana University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Indiana University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "IN"
+        ],
+        "perf_cities": [
+            "BLOOMINGTON"
+        ],
+        "org_names": [
+            "Indiana University"
+        ],
+        "org_ueis": [
+            "YH86RTW2YVJ4"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "jsiek@indiana.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2445902",
+                "title": "SHF: Small: Gradual Information Flow Control",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-10-01",
+                "exp_date": "2028-09-30",
+                "award_amount": 449727.0,
+                "total_amount": 449727.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "Software & Hardware Foundation"
+                ],
+                "program_codes": [
+                    "779800"
+                ],
+                "program_references": [
+                    "SMALL PROJECT",
+                    "PROGRAMMING LANGUAGES"
+                ],
+                "program_ref_codes": [
+                    "7923",
+                    "7943"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Anindya Banerjee",
+                "keywords": [
+                    "gradual",
+                    "information",
+                    "security",
+                    "flow",
+                    "software",
+                    "static",
+                    "dynamic",
+                    "theoretical",
+                    "practical",
+                    "efficient"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "Software & Hardware Foundation"
+        ],
+        "program_codes": [
+            "779800"
+        ],
+        "program_references": [
+            "SMALL PROJECT",
+            "PROGRAMMING LANGUAGES"
+        ],
+        "program_ref_codes": [
+            "7923",
+            "7943"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Anindya Banerjee"
+        ],
+        "keywords": [
+            "gradual",
+            "information",
+            "security",
+            "flow",
+            "software",
+            "static",
+            "dynamic",
+            "theoretical",
+            "practical",
+            "efficient",
+            "applications",
+            "performance",
+            "lambdaifcstar",
+            "compiler",
+            "small",
+            "control",
+            "sensitive",
+            "like",
+            "parts",
+            "developers"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.38
+    },
+    "s2_profile": {
+        "s2_author_id": "2274043",
+        "name": "Jeremy G Siek",
+        "affiliations": [],
+        "paper_count": 155,
+        "citation_count": 4940,
+        "h_index": 32,
+        "papers": [
+            {
+                "s2_paper_id": "38735759fc2c954b59d6722f4d5ccc6fba124c5a",
+                "title": "Verified Nanopasses for Compiling Conditionals",
+                "year": 2025,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9dc81767e74c8aec84981315677c945ffbd3cf12",
+                "title": "Gradual Metaprogramming",
+                "year": 2025,
+                "venue": "Proceedings of the 10th ACM SIGPLAN International Workshop on Type-Driven Development",
+                "citation_count": 0,
+                "reference_count": 30,
+                "abstract": "Data engineers increasingly use domain-specific languages (DSLs) to generate the code for data pipelines. Such DSLs are often embedded in Python. Unfortunately, there are challenges in debugging the generation of data pipelines: an error in a Python DSL script is often detected too late, after the execution of the script, and the source code location that triggers the error is hard to pinpoint. In this paper, we focus on the scenario where a DSL embedded in Python (so it is dynamically-typed) generates data pipeline description code that is statically-typed. We propose gradual metaprogramming to (1) provide a migration path toward statically typed DSLs, (2) immediately provide earlier detection of code generation type errors, and (3) report the source code location responsible for the type error. Gradual metaprogramming accomplishes this by type checking code fragments and incrementally performing runtime checks as they are spliced together. We define MetaGTLC, a metaprogramming calculus in which a gradually-typed metalanguage manipulates a statically-typed object language, and give semantics to it by translation to the cast calculus MetaCC. We prove that successful metaevaluation always generates a well-typed object program and mechanize the proof in Agda.",
+                "authors": [
+                    {
+                        "s2_author_id": "2270652495",
+                        "name": "Tianyu Chen"
+                    },
+                    {
+                        "s2_author_id": "2366154061",
+                        "name": "Darshal Shetty"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2366160960",
+                        "name": "Chao-Hong Chen"
+                    },
+                    {
+                        "s2_author_id": "72542153",
+                        "name": "Weixi Ma"
+                    },
+                    {
+                        "s2_author_id": "2318290052",
+                        "name": "Arnaud Venet"
+                    },
+                    {
+                        "s2_author_id": "2318641951",
+                        "name": "Rocky Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "46c61094a836fc7576f4c3471fea629b91053120",
+                "title": "Quest Complete: The Holy Grail of Gradual Security",
+                "year": 2023,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 4,
+                "reference_count": 37,
+                "abstract": "Languages with gradual information-flow control combine static and dynamic techniques to prevent security leaks. Gradual languages should satisfy the gradual guarantee: programs that only differ in the precision of their type annotations should behave the same modulo cast errors. Unfortunately, Toro et al. [2018] identify a tension between the gradual guarantee and information security; they were unable to satisfy both properties in the language GSLRef and had to settle for only satisfying information-flow security. Azevedo de Amorim et al. [2020] show that by sacrificing type-guided classification, one obtains a language that satisfies both noninterference and the gradual guarantee. Bichhawat et al. [2021] show that both properties can be satisfied by sacrificing the no-sensitive-upgrade mechanism, replacing it with a static analysis. In this paper we present a language design, \u03bbIFC\u2605, that satisfies both noninterference and the gradual guarantee without making any sacrifices. We keep the type-guided classification of GSLRef and use the standard no-sensitive-upgrade mechanism to prevent implicit flows through mutable references. The key to the design of \u03bbIFC\u2605 is to walk back the decision in GSLRef to include the unknown label \u2605 among the runtime security labels. We give a formal definition of \u03bbIFC\u2605, prove the gradual guarantee, and prove noninterference. Of technical note, the semantics of \u03bbIFC\u2605 is the first gradual information-flow control language to be specified using coercion calculi (a la Henglein), thereby expanding the coercion-based theory of gradual typing.",
+                "authors": [
+                    {
+                        "s2_author_id": "2270652495",
+                        "name": "Tianyu Chen"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4a3ad2927f0083cf49ff6dbbfadee788ec1b3246",
+                "title": "The Metatheory of Gradual Typing: State of the Art and Challenges (Invited Talk)",
+                "year": 2023,
+                "venue": "Conference on Algebra and Coalgebra in Computer Science",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "41d68501f3e4dd67394541f1ae1034756e934a7a",
+                "title": "Mechanized Noninterference for Gradual Security",
+                "year": 2022,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 38,
+                "abstract": "This paper presents the first machine-checked proof of noninterference for a language with gradual information-flow control, thereby establishing a rock solid foundation for secure programming languages that give programmers the choice between runtime versus compile-time enforcement. Along the way we uncovered a flaw in one of the noninterference proofs in the literature, and give a counterexample for one of the main lemmas. The particular language studied in this paper, $\\lambda_{\\mathtt{SEC}}^\\star$, is based on the GLIO language of Azevedo de Amorim et al. [2020]. To make the design more accessible to other researchers, this paper contributes the first traditional semantics for the language, that is, we define compilation from $\\lambda_{\\mathtt{SEC}}^\\star$ to a cast calculus and design a reduction semantics for the latter that includes blame tracking. In addition to the proof of noninterference, we also mechanize proofs of type safety, determinism, and that compilation preserves types.",
+                "authors": [
+                    {
+                        "s2_author_id": "2117180359",
+                        "name": "Tianyu Chen"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d035926810af2e4a7a96217f9f04313d9d5d0d1b",
+                "title": "Mechanized Type Safety for Gradual Information Flow",
+                "year": 2021,
+                "venue": "2021 IEEE Security and Privacy Workshops (SPW)",
+                "citation_count": 0,
+                "reference_count": 34,
+                "abstract": "We model a security-typed language with gradual information flow labels in a proof assistant, demonstrate its potential application to parsing and securing sensitive user input data, present the semantics as a definitional interpreter, and prove type safety. We compare the language features and properties of various existing gradual security-typed languages, shedding light on future designs.",
+                "authors": [
+                    {
+                        "s2_author_id": "7934278",
+                        "name": "Tianyu Chen"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0ac2cc8b939a6c20328daa319e0611fdd1f9b62c",
+                "title": "Parameterized cast calculi and reusable meta-theory for gradually typed lambda calculi",
+                "year": 2020,
+                "venue": "Journal of functional programming",
+                "citation_count": 4,
+                "reference_count": 70,
+                "abstract": "Abstract The research on gradual typing has led to many variations on the Gradually Typed Lambda Calculus (GTLC) of Siek & Taha (2006) and its underlying cast calculus. For example, Wadler and Findler (2009) added blame tracking, Siek et al. (2009) investigated alternate cast evaluation strategies, and Herman et al. (2010) replaced casts with coercions for space efficiency. The meta-theory for the GTLC has also expanded beyond type safety to include blame safety (Tobin-Hochstadt & Felleisen, 2006), space consumption (Herman et al., 2010), and the gradual guarantees (Siek et al., 2015). These results have been proven for some variations of the GTLC but not others. Furthermore, researchers continue to develop variations on the GTLC, but establishing all of the meta-theory for new variations is time-consuming. This article identifies abstractions that capture similarities between many cast calculi in the form of two parameterized cast calculi, one for the purposes of language specification and the other to guide space-efficient implementations. The article then develops reusable meta-theory for these two calculi, proving type safety, blame safety, the gradual guarantees, and space consumption. Finally, the article instantiates this meta-theory for eight cast calculi including five from the literature and three new calculi. All of these definitions and theorems, including the two parameterized calculi, the reusable meta-theory, and the eight instantiations, are mechanized in Agda making extensive use of module parameters and dependent records to define the abstractions.",
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2117180359",
+                        "name": "Tianyu Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "65ec015330c9777360b2e8075969af78c288d5a6",
+                "title": "Extrinsically typed operational semantics for functional languages",
+                "year": 2020,
+                "venue": "Software Language Engineering",
+                "citation_count": 7,
+                "reference_count": 49,
+                "abstract": "We present a type system over language definitions that classifies parts of the operational semantics of a language in input, and models a common language design organization. The resulting typing discipline guarantees that the language at hand is automatically type sound. Thanks to the use of types to model language design, our type checker has a high-level view on the language being analyzed and can report messages using the same jargon of language designers. We have implemented our type system in the lang-n-check tool, and we have applied it to derive the type soundness of several functional languages, including those with recursive types, polymorphism, exceptions, lists, sums, and several common types and operators.",
+                "authors": [
+                    {
+                        "s2_author_id": "144426834",
+                        "name": "M. Cimini"
+                    },
+                    {
+                        "s2_author_id": "145547269",
+                        "name": "D. Miller"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "85017138f63413d7a953e0073859e829b07804d9",
+                "title": "Toward a Mechanized Compendium of Gradual Typing",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02d62b29838395487fa1faade7ffc5f48d6f6d72",
+                "title": "Optimizing and evaluating transient gradual typing",
+                "year": 2019,
+                "venue": "Dynamic Languages Symposium",
+                "citation_count": 25,
+                "reference_count": 86,
+                "abstract": "Gradual typing enables programmers to combine static and dynamic typing in the same language. However, ensuring sound interaction between the static and dynamic parts can incur runtime cost. In this paper, we analyze the performance of the transient design for gradual typing in Reticulated Python, a gradually typed variant of Python. This approach inserts lightweight checks throughout a program rather than installing proxies on higher order values. We show that, when using CPython as a host, performance decreases as programs evolve from dynamic to static types, up to a 6x slowdown compared to equivalent Python programs. To reduce this overhead, we design a static analysis and optimization that removes redundant runtime checks, employing a type inference algorithm that solves traditional subtyping constraints and also a new kind of check constraint. We evaluate the resulting performance and find that for many programs, the efficiency of partially typed programs is close to their untyped counterparts, removing most of the cost of transient checks. Finally, we measure the efficiency of Reticulated Python programs when running on PyPy, a tracing JIT. We find that combining PyPy with our type inference algorithm results in an average overhead of less than 1%.",
+                "authors": [
+                    {
+                        "s2_author_id": "1920500",
+                        "name": "Michael M. Vitousek"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "36635262",
+                        "name": "A. Chaudhuri"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "06412cf0a526c59726e0e5d7bb3fcbbf04f9d223",
+                "title": "Gradual typing: a new perspective",
+                "year": 2019,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 49,
+                "reference_count": 60,
+                "abstract": "We define a new, more semantic interpretation of gradual types and use it to ``gradualize'' two forms of polymorphism: subtyping polymorphism and implicit parametric polymorphism. In particular, we use the new interpretation to define three gradual type systems ---Hindley-Milner, with subtyping, and with union and intersection types--- in terms of two preorders, subtyping and materialization. We define these systems both declaratively ---by adding two subsumption-like rules--- which yields clearer, more intelligible, and streamlined definitions, and algorithmically by reusing existing techniques such as unification and tallying.",
+                "authors": [
+                    {
+                        "s2_author_id": "1747025",
+                        "name": "Giuseppe Castagna"
+                    },
+                    {
+                        "s2_author_id": "24005571",
+                        "name": "Victor Lanvin"
+                    },
+                    {
+                        "s2_author_id": "3422143",
+                        "name": "T. Petrucciani"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "086beeb672dff99fa3f97f98ff59387d94a97cd3",
+                "title": "A space-efficient call-by-value virtual machine for gradual set-theoretic types",
+                "year": 2019,
+                "venue": "International Symposium on Implementation and Application of Functional Languages",
+                "citation_count": 3,
+                "reference_count": 29,
+                "abstract": "We describe the design and implementation of a virtual machine for programming languages that use gradual typing with set-theoretic types focusing on practical issues such as runtime space efficiency, and efficient implementation of tail recursive calls.",
+                "authors": [
+                    {
+                        "s2_author_id": "1747025",
+                        "name": "Giuseppe Castagna"
+                    },
+                    {
+                        "s2_author_id": "1753077876",
+                        "name": "G. Duboc"
+                    },
+                    {
+                        "s2_author_id": "24005571",
+                        "name": "Victor Lanvin"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7468b75e5e29ef610ecf494a8c07e74bfaf5ffd5",
+                "title": "Transitivity of Subtyping for Intersection Types",
+                "year": 2019,
+                "venue": "arXiv.org",
+                "citation_count": 3,
+                "reference_count": 44,
+                "abstract": "The subtyping relation for intersection type systems traditionally employs a transitivity rule (Barendregt et al. 1983), which means that the subtyping judgment does not enjoy the subformula property. Laurent develops a sequent-style subtyping judgment, without transitivity, and proves transitivity via a sequence of six lemmas that culminate in cut-elimination (2018). This article presents a subtyping judgment, in regular style, that satisfies the subformula property, and presents a direct proof of transitivity. Borrowing from Laurent's system, the rule for function types is essentially the $\\beta$-soundness property. The main lemma required for the transitivity proof is one that has been used to prove the inversion principle for subtyping of function types. The choice of induction principle for the proof of transitivity is subtle: we use well-founded induction on the lexicographical ordering of the sum of the depths of the first and last type followed by the sum of the sizes of the middle and last type. The article concludes with a proof that the new subtyping judgment is equivalent to that of Barendregt, Coppo, and Dezani-Ciancaglini.",
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a2e5c0d7b1f42866ead100a3a267f3575f1f56cb",
+                "title": "Benchmarks Replication for Toward Efficient Gradual Typing for Structural Types via Coercions",
+                "year": 2019,
+                "venue": "Artifact Digital Object Group",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "35931546",
+                        "name": "Andre Kuhlenschmidt"
+                    },
+                    {
+                        "s2_author_id": "35842006",
+                        "name": "Deyaaeldeen Almahallawi"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b19f167b180728156b1a051cc510b1a0a7e48466",
+                "title": "Toward efficient gradual typing for structural types via coercions",
+                "year": 2019,
+                "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+                "citation_count": 30,
+                "reference_count": 68,
+                "abstract": "Gradual typing combines static and dynamic typing in the same program. Siek et al. (2015) describe five criteria for gradually typed languages, including type soundness and the gradual guarantee. A significant number of languages have been developed in academia and industry that support some of these criteria (TypeScript, Typed Racket, Safe TypeScript, Transient Reticulated Python, Thorn, etc.) but relatively few support all the criteria (Nom, Gradualtalk, Guarded Reticulated Python). Of those that do, only Nom does so efficiently. The Nom experiment shows that one can achieve efficient gradual typing in languages with only nominal types, but many languages have structural types: function types, tuples, record and object types, generics, etc. In this paper we present a compiler, named Grift, that addresses the difficult challenge of efficient gradual typing for structural types. The input language includes a selection of difficult features: first-class functions, mutable arrays, and recursive types. We show that a close-to-the-metal implementation of run-time casts inspired by Henglein's coercions eliminates all of the catastrophic slowdowns without introducing significant average-case overhead. As a result, Grift exhibits lower overheads than those of Typed Racket.",
+                "authors": [
+                    {
+                        "s2_author_id": "35931546",
+                        "name": "Andre Kuhlenschmidt"
+                    },
+                    {
+                        "s2_author_id": "35842006",
+                        "name": "Deyaaeldeen Almahallawi"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1f0710b1dfcc2e5da3a1cd2aa94bc762db107d82",
+                "title": "Efficient Gradual Typing",
+                "year": 2018,
+                "venue": "arXiv.org",
+                "citation_count": 13,
+                "reference_count": 59,
+                "abstract": "Gradual typing combines static and dynamic typing in the same program. One would hope that the performance in a gradually typed language would range between that of a dynamically typed language and a statically typed language. Existing implementations of gradually typed languages have not achieved this goal due to overheads associated with runtime casts. Takikawa et al. (2016) report up to 100$\\times$ slowdowns for partially typed programs. In this paper we present a compiler, named Grift, for evaluating implementation techniques for gradual typing. We take a straightforward but surprisingly unexplored implementation approach for gradual typing, that is, ahead-of-time compilation to native assembly code with carefully chosen runtime representations and space-efficient coercions. \nOur experiments show that this approach achieves performance on par with OCaml on statically typed programs and performance between that of Gambit and Racket on untyped programs. On partially typed code, the geometric mean ranges from 0.42$\\times$ to 2.36$\\times$ that of (untyped) Racket across the benchmarks. We implement casts using the coercions of Siek, Thiemann, and Wadler (2015). This technique eliminates all catastrophic slowdowns without introducing significant overhead. Across the benchmarks, coercions range from 15% slower (fft) to almost 2$\\times$ faster (matmult) than regular casts. We also implement the monotonic references of Siek et al. (2015). Monotonic references eliminate all overhead in statically typed code, and for partially typed code, they are faster than proxied references, sometimes up to 1.48$\\times$.",
+                "authors": [
+                    {
+                        "s2_author_id": "35931546",
+                        "name": "Andre Kuhlenschmidt"
+                    },
+                    {
+                        "s2_author_id": "35842006",
+                        "name": "Deyaaeldeen Almahallawi"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3445d1bf3d2fd555ed42ce429d83c713306d10b0",
+                "title": "Explorer Theorems for Free for Free",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "24034681",
+                        "name": "Dustin Jamner"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1781875",
+                        "name": "P. Wadler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "abc54090552e3a6d223aa02ccbaa4621f75d08e1",
+                "title": "Polymorphic Gradual Typing: A Set-Theoretic Perspective",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1747025",
+                        "name": "Giuseppe Castagna"
+                    },
+                    {
+                        "s2_author_id": "24005571",
+                        "name": "Victor Lanvin"
+                    },
+                    {
+                        "s2_author_id": "3422143",
+                        "name": "T. Petrucciani"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b405c8759263968dba1e5ce2f792298eda56ccd1",
+                "title": "Efficiency of a good but not linear nominal unification algorithm",
+                "year": 2018,
+                "venue": "EasyChair Preprints",
+                "citation_count": 1,
+                "reference_count": 26,
+                "abstract": "We present a nominal unification algorithm that runs in $O(n \\times log(n) \\times G(n))$ time, where $G$ is the functional inverse of Ackermann's function. Nominal unification generates a set of variable assignments if there exists one, that makes terms involving binding operations $\\alpha$-equivalent. We preserve names while using special representations of de Bruijn numbers to enable efficient name management. We use Martelli-Montanari style multi-equation reduction to generate these name management problems from arbitrary unification terms.\u00a0",
+                "authors": [
+                    {
+                        "s2_author_id": "72542153",
+                        "name": "Weixi Ma"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "47871214",
+                        "name": "D. Christiansen"
+                    },
+                    {
+                        "s2_author_id": "2314738",
+                        "name": "Daniel P. Friedman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05b2549823df254b567e0568068df72dcaaeb5f6",
+                "title": "Declarative semantics for functional languages: compositional, extensional, and elementary",
+                "year": 2017,
+                "venue": "Arch. Formal Proofs",
+                "citation_count": 2,
+                "reference_count": 86,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1024c003384196959ebd71005917685582b4e1c0",
+                "title": "Revisiting Elementary Denotational Semantics",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 76,
+                "abstract": "Operational semantics have been enormously successful, in large part due to its flexibility and simplicity, but they are not compositional. Denotational semantics, on the other hand, are compositional but the lattice-theoretic models are complex and difficult to scale to large languages. However, there are elementary models of the $\\lambda$-calculus that are much less complex: by Coppo, Dezani-Ciancaglini, and Salle (1979), Engeler (1981), and Plotkin (1993). \nThis paper takes first steps toward answering the question: can elementary models be good for the day-to-day work of language specification, mechanization, and compiler correctness? The elementary models in the literature are simple, but they are not as intuitive as they could be. To remedy this, we create a new model that represents functions literally as finite graphs. Regarding mechanization, we give the first machine-checked proof of soundness and completeness of an elementary model with respect to an operational semantics. Regarding compiler correctness, we define a polyvariant inliner for the call-by-value $\\lambda$-calculus and prove that its output is contextually equivalent to its input. Toward scaling elementary models to larger languages, we formulate our semantics in a monadic style, give a semantics for System F with general recursion, and mechanize the proof of type soundness.",
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "31e38caa20c122cdcd0838398ffb3321331d213d",
+                "title": "Big types in little runtime: open-world soundness and collaborative blame for gradual type systems",
+                "year": 2017,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 57,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1920500",
+                        "name": "Michael M. Vitousek"
+                    },
+                    {
+                        "s2_author_id": "1977295",
+                        "name": "Cameron Swords"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4261e50b407355c9dfc0394741a2fae78fea3d43",
+                "title": "Sound gradual typing: only mostly dead",
+                "year": 2017,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 39,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50320086",
+                        "name": "Spenser Bauman"
+                    },
+                    {
+                        "s2_author_id": "1414855404",
+                        "name": "C. F. Bolz-Tereick"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1403708876",
+                        "name": "Sam Tobin-Hochstadt"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "68a430f3b7e64c9586217c0cdf9dd6f6d69a22b7",
+                "title": "Gradually typed symbolic expressions",
+                "year": 2017,
+                "venue": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+                "citation_count": 8,
+                "reference_count": 87,
+                "abstract": "Embedding a domain-specific language (DSL) in a general purpose host language is an efficient way to develop a new DSL. Various kinds of languages and paradigms can be used as host languages, including object-oriented, functional, statically typed, and dynamically typed variants, all having their pros and cons. For deep embedding, statically typed languages enable early checking and potentially good DSL error messages, instead of reporting runtime errors. Dynamically typed languages, on the other hand, enable flexible transformations, thus avoiding extensive boilerplate code. In this paper, we introduce the concept of gradually typed symbolic expressions that mix static and dynamic typing for symbolic data. The key idea is to combine the strengths of dynamic and static typing in the context of deep embedding of DSLs. We define a gradually typed calculus \u03bb<\u22c6>, formalize its type system and dynamic semantics, and prove type safety. We introduce a host language called Modelyze that is based on \u03bb<\u22c6>, and evaluate the approach by embedding a series of equation-based domain-specific modeling languages, all within the domain of physical modeling and simulation.",
+                "authors": [
+                    {
+                        "s2_author_id": "1715714",
+                        "name": "David Broman"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7832a0ee478887aa48ccd1183b30bd46993ed655",
+                "title": "Challenges and progress toward efficient gradual typing (invited talk)",
+                "year": 2017,
+                "venue": "Dynamic Languages Symposium",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7cb68f5d304d6d20c1f649457bc112125b39e8f5",
+                "title": "Theorems for free for free: parametricity, with and without types",
+                "year": 2017,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 63,
+                "reference_count": 68,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145146300",
+                        "name": "Amal J. Ahmed"
+                    },
+                    {
+                        "s2_author_id": "24034681",
+                        "name": "Dustin Jamner"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1781875",
+                        "name": "P. Wadler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "82ec0638120e0ae6ad4d6f2d90427b7c4295dd36",
+                "title": "Automatically generating the dynamic semantics of gradually typed languages",
+                "year": 2017,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 28,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144426834",
+                        "name": "M. Cimini"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1aecf30f879f6c5cd7a612f2b304e6a2919600c2",
+                "title": "From Optional to Gradual Typing via Transient Checks",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1920500",
+                        "name": "Michael M. Vitousek"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2162d71dd527f888dbc76b596b7fea2a1dada05b",
+                "title": "Fractional Permissions for Race-Free Mutable References in a Dataflow Intermediate Language",
+                "year": 2016,
+                "venue": "PMLDC@ECOOP",
+                "citation_count": 0,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144426834",
+                        "name": "M. Cimini"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "21d50ae6f7a12124acd906cbd4821397fc592d60",
+                "title": "Supplement to : The key to blame : Gradual typing meets cryptography",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1781875",
+                        "name": "P. Wadler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2e880c722c2b419501ff3c60f5a057d54db217b0",
+                "title": "The gradualizer: a methodology and algorithm for generating gradual type systems",
+                "year": 2016,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 54,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144426834",
+                        "name": "M. Cimini"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "400a344abc9fdab523dc23949fbe79e5c9300310",
+                "title": "The Recursive Union of Some Gradual Types",
+                "year": 2016,
+                "venue": "A List of Successes That Can Change the World",
+                "citation_count": 21,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1403708876",
+                        "name": "Sam Tobin-Hochstadt"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8210bbb06ac72f2606810d426c36ec240b577b11",
+                "title": "Well-Typed Languages are Sound",
+                "year": 2016,
+                "venue": "arXiv.org",
+                "citation_count": 4,
+                "reference_count": 24,
+                "abstract": "Type soundness is an important property of modern programming languages. In this paper we explore the idea that \"well-typed languages are sound\": the idea that the appropriate typing discipline over language specifications guarantees that the language is type sound. We instantiate this idea for a certain class of languages defined using small step operational semantics by ensuring the progress and preservation theorems. Our first contribution is a syntactic discipline for organizing and restricting language specifications so that they automatically satisfy the progress theorem. This discipline is not novel but makes explicit the way expert language designers have been organizing a certain class of languages for long time. We give a formal account of this discipline by representing language specifications as (higher-order) logic programs and by giving a meta type system over that collection of formulas. Our second contribution is a methodology and meta type system for guaranteeing that languages satisfy the preservation theorem. Ultimately, we proved that language specifications that conform to our meta type systems are guaranteed to be type sound. We have implemented these ideas in the TypeSoundnessCertifier, a tool that takes language specifications in the form of logic programs and type checks them according to our meta type systems. For those languages that pass our type checker, our tool automatically produces a proof of type soundness that can be machine-checked by the Abella proof assistant. For those languages that fail our type checker, the tool pinpoints the design mistakes that hinder type soundness. We have applied the TypeSoundnessCertifier to a large number of programming languages, including those with recursive types, polymorphism, letrec, exceptions, lists and other common types and operators.",
+                "authors": [
+                    {
+                        "s2_author_id": "144426834",
+                        "name": "M. Cimini"
+                    },
+                    {
+                        "s2_author_id": "145547269",
+                        "name": "D. Miller"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e3befd3aea28395ed9b16e15248b60d03e320849",
+                "title": "Gradual Typing in an Open World",
+                "year": 2016,
+                "venue": "arXiv.org",
+                "citation_count": 3,
+                "reference_count": 41,
+                "abstract": "Gradual typing combines static and dynamic typing in the same language, offering the benefits of both to programmers. Static typing provides error detection and strong guarantees while dynamic typing enables rapid prototyping and flexible programming idioms. For programmers to fully take advantage of a gradual type system, however, they must be able to trust their type annotations, and so runtime checks must be performed at the boundaries of static and dynamic code to ensure that static types are respected. Higher order and mutable values cannot be completely checked at these boundaries, and so additional checks must be performed at their use sites. Traditionally, this has been achieved by installing wrappers or proxies on such values that moderate the flow of data between static and dynamic, but these can cause problems if the language supports comparison of object identity or has a foreign function interface. \nReticulated Python is a gradually typed variant of Python implemented via a source-to-source translator for Python 3. It implements a proxy-free alternative design named transient casts. This paper presents a formal semantics for transient casts and shows that not only are they sound, but they work in an open-world setting in which the Reticulated translator has only been applied to some of the program; the rest is untranslated Python. We formalize this open world soundness property and use Coq to prove that it holds for Anthill Python, a calculus that models Reticulated Python.",
+                "authors": [
+                    {
+                        "s2_author_id": "1920500",
+                        "name": "Michael M. Vitousek"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "182746761bb3b3789c33592738ca5126955d217d",
+                "title": "Fall 10-1-2008 Exploring the Design Space of Higher-Order Casts ; CU-CS-1047-08",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "145817825",
+                        "name": "Ronald Garcia"
+                    },
+                    {
+                        "s2_author_id": "143841082",
+                        "name": "Walid Taha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "32182ca93296200d9a9129b3243fdcf3a3969c34",
+                "title": "Blame and coercion: together again for the first time",
+                "year": 2015,
+                "venue": "Journal of functional programming",
+                "citation_count": 38,
+                "reference_count": 76,
+                "abstract": "C#, Dart, Pyret, Racket, TypeScript, VB: many recent languages integrate dynamic and static types via gradual typing. We systematically develop three calculi for gradual typing and the relations between them, building on and strengthening previous work. The calculi are: \u03bbB, based on the blame calculus of Wadler and Findler (2009); \u03bbC, inspired by the coercion calculus of Henglein (1994); \u03bbS inspired by the space-efficient calculus of Herman, Tomb, and Flanagan (2006) and the threesome calculus of Siek and Wadler (2010). While \u03bbB is little changed from previous work, \u03bbC and \u03bbS are new. Together, \u03bbB, \u03bbC, and \u03bbS provide a coherent foundation for design, implementation, and optimisation of gradual types. We define translations from \u03bbB to \u03bbC and from \u03bbC to \u03bbS. Much previous work lacked proofs of correctness or had weak correctness criteria; here we demonstrate the strongest correctness criterion one could hope for, that each of the translations is fully abstract. Each of the calculi reinforces the design of the others: \u03bbC has a particularly simple definition, and the subtle definition of blame safety for \u03bbB is justified by the simple definition of blame safety for \u03bbC. Our calculus \u03bbS is implementation-ready: the first space-efficient calculus that is both straightforward to implement and easy to understand. We give two applications: first, using full abstraction from \u03bbC to \u03bbS to validate the challenging part of full abstraction between \u03bbB and \u03bbC; and, second, using full abstraction from \u03bbB to \u03bbS to easily establish the Fundamental Property of Casts, which required a custom bisimulation and six lemmas in earlier work.",
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1702178",
+                        "name": "Peter Thiemann"
+                    },
+                    {
+                        "s2_author_id": "1781875",
+                        "name": "P. Wadler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "554558b662909b628292e56f016549eaeacd2cc8",
+                "title": "276 Refined Criteria for Gradual Typing 2",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 64,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1920500",
+                        "name": "Michael M. Vitousek"
+                    },
+                    {
+                        "s2_author_id": "144426834",
+                        "name": "M. Cimini"
+                    },
+                    {
+                        "s2_author_id": "1776345",
+                        "name": "J. Boyland"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "64d1901319f2a36c9b57c18ff818d18abbb7f204",
+                "title": "Refined Criteria for Gradual Typing",
+                "year": 2015,
+                "venue": "Summit on Advances in Programming Languages",
+                "citation_count": 175,
+                "reference_count": 71,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1920500",
+                        "name": "Michael M. Vitousek"
+                    },
+                    {
+                        "s2_author_id": "144426834",
+                        "name": "M. Cimini"
+                    },
+                    {
+                        "s2_author_id": "1776345",
+                        "name": "J. Boyland"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "84fe29b8bc984a326febd4057ed9060ee4c12ab9",
+                "title": "Pycket: a tracing JIT for a functional language",
+                "year": 2015,
+                "venue": "ACM SIGPLAN International Conference on Functional Programming",
+                "citation_count": 57,
+                "reference_count": 63,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50320086",
+                        "name": "Spenser Bauman"
+                    },
+                    {
+                        "s2_author_id": "1756829",
+                        "name": "Carl Friedrich Bolz-Tereick"
+                    },
+                    {
+                        "s2_author_id": "1741504",
+                        "name": "R. Hirschfeld"
+                    },
+                    {
+                        "s2_author_id": "2295517",
+                        "name": "Vasily Kirilichev"
+                    },
+                    {
+                        "s2_author_id": "38776779",
+                        "name": "Tobias Pape"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1403708876",
+                        "name": "Sam Tobin-Hochstadt"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9906d3bbb3061954c38914cebeccae6a80ef9c42",
+                "title": "Monotonic References for Efficient Gradual Typing",
+                "year": 2015,
+                "venue": "European Symposium on Programming",
+                "citation_count": 61,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1920500",
+                        "name": "Michael M. Vitousek"
+                    },
+                    {
+                        "s2_author_id": "144426834",
+                        "name": "M. Cimini"
+                    },
+                    {
+                        "s2_author_id": "1403708876",
+                        "name": "Sam Tobin-Hochstadt"
+                    },
+                    {
+                        "s2_author_id": "145817825",
+                        "name": "Ronald Garcia"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0494baa3543f9aa2134f1f8cd79eddd406d585be",
+                "title": "Region-based memory management for GPU programming languages",
+                "year": 2014,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 18,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2987047",
+                        "name": "Eric Holk"
+                    },
+                    {
+                        "s2_author_id": "145470158",
+                        "name": "Ryan Newton"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "057180a32ccddc8d6c3b2eb599be5a2613667174",
+                "title": "Staging and high-performance computing: theory and practice (NII Shonan Meeting 2014-7).",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2252561656",
+                        "name": "Oleg Kiselyov"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "35198898",
+                        "name": "Yukiyoshi Kameyama"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "333ea43ab30ae453d6bd847360cd475275e0acbf",
+                "title": "Meta-tracing makes a fast Racket",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 19,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1756829",
+                        "name": "Carl Friedrich Bolz-Tereick"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1403708876",
+                        "name": "Sam Tobin-Hochstadt"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "58b8f2c89aec01b2686569ee769bbaf42e71556c",
+                "title": "Staging and high-performance computing: theory and practice (NII Shonan Meeting 2014-7)",
+                "year": 2014,
+                "venue": "NII Shonan Meeting Report",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144774224",
+                        "name": "O. Kiselyov"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "35198898",
+                        "name": "Yukiyoshi Kameyama"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7de154cd7b6d59ab119f6af3390d23d9f68561d2",
+                "title": "Compile-time reflection and metaprogramming for Java",
+                "year": 2014,
+                "venue": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+                "citation_count": 8,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2653510",
+                        "name": "Weiyu Miao"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bddcfa17175f871b0f7bae7de36862760c9f5007",
+                "title": "A Blame for All ( revised )",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145146300",
+                        "name": "Amal J. Ahmed"
+                    },
+                    {
+                        "s2_author_id": "2376830",
+                        "name": "James T. Perconti"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1781875",
+                        "name": "P. Wadler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c566238750eebb10cfb2ab041d65ef794c762420",
+                "title": "Blame, coercions, and threesomes, precisely",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1702178",
+                        "name": "Peter Thiemann"
+                    },
+                    {
+                        "s2_author_id": "1781875",
+                        "name": "P. Wadler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c89e0b45c089b8dc9cd46c752ae121a2da8260ee",
+                "title": "Editing Functional Programs Without Breaking Them",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2018902",
+                        "name": "Edward Amsden"
+                    },
+                    {
+                        "s2_author_id": "145470158",
+                        "name": "Ryan Newton"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e3b581cd563f7243531f9274c32ba2db18f5fdce",
+                "title": "Design and evaluation of gradual typing for python",
+                "year": 2014,
+                "venue": "Dynamic Languages Symposium",
+                "citation_count": 142,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1920500",
+                        "name": "Michael M. Vitousek"
+                    },
+                    {
+                        "s2_author_id": "50111962",
+                        "name": "A. Kent"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "48634537",
+                        "name": "J. Baker"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "804e50f156ff6a3918985ce5ecfcea34bae767e1",
+                "title": "Session details: Session 2",
+                "year": 2013,
+                "venue": "Proceedings of the ACM SIGPLAN 2013 workshop on Partial evaluation and program manipulation",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "de66683dcc99c4b6ba613eab91b423e04159026f",
+                "title": "Modular type-safety proofs in Agda",
+                "year": 2013,
+                "venue": "Programming Languages meets Program Verification",
+                "citation_count": 20,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49536096",
+                        "name": "Christopher Schwaab"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fc37daab7031bc4159c0fe9ca39e602cfae74311",
+                "title": "Monotonic References for Gradual Typing",
+                "year": 2013,
+                "venue": "arXiv.org",
+                "citation_count": 4,
+                "reference_count": 50,
+                "abstract": "Gradual typing enables both static and dynamic typing in the same program, and makes it convenient to migrate code between the two typing disciplines. We have had a satisfactory static semantics for gradual typing for some time but the dynamic semantics has proved much more difficult, raising numerous research challenges. Ongoing efforts to integrate gradual typing into existing functional and object-oriented languages revealed problems regarding space efficiency, run-time overhead, and object identity. While the first problem has been solved, the later two problems remain open. The essence of these problems is best studied in the context of the gradually-typed lambda calculus with mutable references. In this paper we present a new dynamic semantics called monotonic references, which does not require proxies, thereby solving the object identity problem, and is the first to completely eliminate run-time overhead in statically typed code while maintaining the flexibility of gradual typing. With our design, casting a reference may cause a heap cell to become less dynamically typed (but not more). However, retaining type safety is challenging in a semantics such as this that allows strong updates to the heap. Nevertheless, we present a mechanized proof that monotonic references are type safe. We also present a blame tracking strategy for monotonic references and prove the blame theorem.",
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1920500",
+                        "name": "Michael M. Vitousek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2ed09ce69ec5e46e55c44e894aed20022bc97772",
+                "title": "Reliable Generation of High-Performance Matrix Algebra",
+                "year": 2012,
+                "venue": "ACM Transactions on Mathematical Software",
+                "citation_count": 17,
+                "reference_count": 51,
+                "abstract": "Scientific programmers often turn to vendor-tuned Basic Linear Algebra Subprograms (BLAS) to obtain portable high performance. However, many numerical algorithms require several BLAS calls in sequence, and those successive calls do not achieve optimal performance. The entire sequence needs to be optimized in concert. Instead of vendor-tuned BLAS, a programmer could start with source code in Fortran or C (e.g., based on the Netlib BLAS) and use a state-of-the-art optimizing compiler. However, our experiments show that optimizing compilers often attain only one-quarter of the performance of hand-optimized code. In this article, we present a domain-specific compiler for matrix kernels, the Build to Order BLAS (BTO), that reliably achieves high performance using a scalable search algorithm for choosing the best combination of loop fusion, array contraction, and multithreading for data parallelism. The BTO compiler generates code that is between 16% slower and 39% faster than hand-optimized code.",
+                "authors": [
+                    {
+                        "s2_author_id": "2066288670",
+                        "name": "T. Nelson"
+                    },
+                    {
+                        "s2_author_id": "2746645",
+                        "name": "Geoffrey Belter"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2047797",
+                        "name": "E. Jessup"
+                    },
+                    {
+                        "s2_author_id": "1763308",
+                        "name": "Boyana Norris"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "377faf941529f7bf68c75594e225c1c73347a33d",
+                "title": "Efficient generation of sequences of dense linear algebra through auto-tuning",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 76,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2746645",
+                        "name": "Geoffrey Belter"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "46e6e83a89ed54174c4054f796e37f2158c242a2",
+                "title": "Visualizing transactional memory",
+                "year": 2012,
+                "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+                "citation_count": 18,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2672873",
+                        "name": "Justin Emile Gottschlich"
+                    },
+                    {
+                        "s2_author_id": "1744502",
+                        "name": "Maurice Herlihy"
+                    },
+                    {
+                        "s2_author_id": "10019813",
+                        "name": "Gilles A. Pokam"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7cd1c18da9690683c2d9c73adb8c5655c91052c0",
+                "title": "19th international workshop on foundations of object-oriented languages (FOOL'12)",
+                "year": 2012,
+                "venue": "ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2715034",
+                        "name": "Jonathan Aldrich"
+                    },
+                    {
+                        "s2_author_id": "1776345",
+                        "name": "J. Boyland"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "80d9d0239d8e5a0d5b8d5f7d72a6a5f80edbcc31",
+                "title": "Modular Type-Safety Proofs using Dependant Types",
+                "year": 2012,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 7,
+                "abstract": "While methods of code abstraction and reuse are widespread and well researched, methods of proof abstraction and reuse are still emerging. We consider the use of dependent types for this purpose, introducing a completely mechanical approach to proof composition. We show that common techniques for abstracting algorithms over data structures naturally translate to abstractions over proofs. We first introduce a language composed of a series of smaller language components tied together by standard techniques from Malcom [2]. We proceed by giving proofs of type preservation for each language component and show that the basic ideas used in composing the syntactic data structures can be applied to their semantics as well.",
+                "authors": [
+                    {
+                        "s2_author_id": "49536096",
+                        "name": "Christopher Schwaab"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9136a95fedf4acbc913b92235937742298a016ba",
+                "title": "Pattern-based traits",
+                "year": 2012,
+                "venue": "ACM Symposium on Applied Computing",
+                "citation_count": 4,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2653510",
+                        "name": "Weiyu Miao"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a6072bab7fd9add1b9bb994fa33ed1f82e750060",
+                "title": "Interpretations of the gradually-typed lambda calculus",
+                "year": 2012,
+                "venue": "Scheme and Functional Programming",
+                "citation_count": 21,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "145817825",
+                        "name": "Ronald Garcia"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be8cddb4b869d40b04ba72b849aec70fc452a095",
+                "title": "Modelyze : a Gradually Typed Host Language for Embedding Equation-Based Modeling Languages",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 32,
+                "reference_count": 129,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1715714",
+                        "name": "David Broman"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e40148e0e5c1caf57634c7c7bc28dfafede2b683",
+                "title": "Measuring enforcement windows with symbolic trace interpretation: what well-behaved programs say",
+                "year": 2012,
+                "venue": "International Symposium on Software Testing and Analysis",
+                "citation_count": 4,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "40585759",
+                        "name": "Devin Coughlin"
+                    },
+                    {
+                        "s2_author_id": "1759442",
+                        "name": "B. E. Chang"
+                    },
+                    {
+                        "s2_author_id": "145497691",
+                        "name": "Amer Diwan"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e53a907e0dcd58638f02fdefd3ed219ffa84af83",
+                "title": "Gradual Typing with Ef\ufb01cient Object Casts",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1920500",
+                        "name": "Michael M. Vitousek"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ee57c9455ab96a0463487dc9140c599a436e57d2",
+                "title": "Measuring Enforcement Windows with Symbolic Trace Interpretation : What Well-Behaved Programs Say ( Extended Version )",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "40585759",
+                        "name": "Devin Coughlin"
+                    },
+                    {
+                        "s2_author_id": "2286583079",
+                        "name": "Bor-Yuh Evan Chang"
+                    },
+                    {
+                        "s2_author_id": "145497691",
+                        "name": "Amer Diwan"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1110e3d1fccb2e304b248de41b5107e9c844c2fd",
+                "title": "Parallel memory prediction for fused linear algebra kernels",
+                "year": 2011,
+                "venue": "PERV",
+                "citation_count": 7,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33950551",
+                        "name": "I. Karlin"
+                    },
+                    {
+                        "s2_author_id": "2047797",
+                        "name": "E. Jessup"
+                    },
+                    {
+                        "s2_author_id": "2746645",
+                        "name": "Geoffrey Belter"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4831f39936fbca570a4734bfe0d30baeae03407b",
+                "title": "2011 international workshop on foundations of object-oriented languages (fool'11): splash/oopsla '11 workshop summary",
+                "year": 2011,
+                "venue": "OOPSLA Companion",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2715034",
+                        "name": "Jonathan Aldrich"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "153723425",
+                        "name": "E. Zucca"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "89fce7215617dc0f8b066f133ae0a75c1d2e30e8",
+                "title": "Proposal for Constrained Generics and Module Extensions for Chapel",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "996fd9ece8941d7d63c5093e7a9026be77e0dc63",
+                "title": "Effects for Funargs",
+                "year": 2011,
+                "venue": "arXiv.org",
+                "citation_count": 4,
+                "reference_count": 30,
+                "abstract": "Stack allocation and first-class functions don't naturally mix together. In this paper we show that a type and effect system can be the detergent that helps these features form a nice emulsion. Our interest in this problem comes from our work on the Chapel language, but this problem is also relevant to lambda expressions in C++ and blocks in Objective C. The difficulty in mixing first-class functions and stack allocation is a tension between safety, efficiency, and simplicity. To preserve safety, one must worry about functions outliving the variables they reference: the classic upward funarg problem. There are systems which regain safety but lose programmer-predictable efficiency, and ones that provide both safety and efficiency, but give up simplicity by exposing regions to the programmer. In this paper we present a simple design that combines a type and effect system, for safety, with function-local storage, for control over efficiency.",
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1920500",
+                        "name": "Michael M. Vitousek"
+                    },
+                    {
+                        "s2_author_id": "2115151277",
+                        "name": "Jonathan D. Turner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a342664273fe1e1313390198f162a791b0e06f44",
+                "title": "Exploring the Optimization Space for Build to Order Matrix Algebra",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aad103c487f886528f62901ad13a8593dbafcf70",
+                "title": "Blame for all",
+                "year": 2011,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 139,
+                "reference_count": 47,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145146300",
+                        "name": "Amal J. Ahmed"
+                    },
+                    {
+                        "s2_author_id": "2014879",
+                        "name": "R. Findler"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1781875",
+                        "name": "P. Wadler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "afd4ea3be85a6b0a89b616d2c9296bb62775abf1",
+                "title": "Invalidating transactions: optimizations, theory, guarantees, and unification",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 87,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2672873",
+                        "name": "Justin Emile Gottschlich"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b8dacbb7622f0b9a18b57aa59d804fe891a78fba",
+                "title": "Well-Typed Islands Parse Faster",
+                "year": 2011,
+                "venue": "Symposium on Trends in Functional Programming",
+                "citation_count": 6,
+                "reference_count": 41,
+                "abstract": "This paper addresses the problem of specifying and parsing the syntax of domain-specific languages DSLs in a modular, user-friendly way. We want to enable the design of composable DSLs that combine the natural syntax of external DSLs with the easy implementation of internal DSLs. The challenge in parsing these DSLs is that the composition of several languages is likely to contain ambiguities. We present the design of a system that uses a type-oriented variant of island parsing to efficiently parse the syntax of composable DSLs. In particular, we argue that the running time of type-oriented island parsing doesn't depend on the number of DSLs imported. We also show how to use our tool to implement DSLs on top of a host language such as Typed Racket.",
+                "authors": [
+                    {
+                        "s2_author_id": "2827414",
+                        "name": "Erik Silkensen"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d6fe48fe8c500fd93d07160d611279f75ff75401",
+                "title": "Extensible Syntax",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "144556096",
+                        "name": "E. Chang"
+                    },
+                    {
+                        "s2_author_id": "1741190",
+                        "name": "S. Sankaranarayanan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d7e60111bd185adb5424088e94378bcdc51599d9",
+                "title": "Proceedings of the 20th ACM SIGPLAN workshop on Partial evaluation and program manipulation",
+                "year": 2011,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144195334",
+                        "name": "Siau-cheng Khoo"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d862737c50e54fbe0e540fad8c5fd90cef70ed8d",
+                "title": "Special issue on library-centric software design (LCSD 2006)",
+                "year": 2011,
+                "venue": "Science of Computer Programming",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec278a8dec977e2119da0f38a48f1b3aed0e7812",
+                "title": "The C + + 0 x \u201c Concepts \u201d Effort ( Draft )",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 90,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "00df9c7d8216c7acec580edd8a6a8400fe684463",
+                "title": "Understanding memory effects in the automated generation of optimized matrix algebra kernels",
+                "year": 2010,
+                "venue": "International Conference on Conceptual Structures",
+                "citation_count": 4,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2047797",
+                        "name": "E. Jessup"
+                    },
+                    {
+                        "s2_author_id": "33950551",
+                        "name": "I. Karlin"
+                    },
+                    {
+                        "s2_author_id": "2827414",
+                        "name": "Erik Silkensen"
+                    },
+                    {
+                        "s2_author_id": "2746645",
+                        "name": "Geoffrey Belter"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1b7e2783d526d9c4e67d7bd9de6f03bca164db26",
+                "title": "General purpose languages should be metalanguages",
+                "year": 2010,
+                "venue": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+                "citation_count": 12,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1dff72203083369b83fa770de54b80e1b3df6d3d",
+                "title": "Discrete mathematics : proceedings of the International Conference on Discrete Mathematics, Indian Institute of Science, Bangalore, December 2006",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 19,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2665639ef56f6b42a00964958c6ba878952cd96c",
+                "title": "Incremental type-checking for type-reflective metaprograms",
+                "year": 2010,
+                "venue": "International Conference on Generative Programming: Concepts and Experiences",
+                "citation_count": 16,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2653510",
+                        "name": "Weiyu Miao"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4dd47fbb44a5365de966c2802318a5c1a0e3ddc2",
+                "title": "2010 international workshop on foundations of object-oriented languages (FOOL'10): SPLASH/OOPSLA'10 workshop summary",
+                "year": 2010,
+                "venue": "SPLASH/OOPSLA Companion",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2715034",
+                        "name": "Jonathan Aldrich"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "59d44795e65938a959485856c259b8277d978455",
+                "title": "Session details: Session 1: Java/Scala types",
+                "year": 2010,
+                "venue": "Proceedings of the 2010 ACM SIGPLAN workshop on Partial evaluation and program manipulation",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5e4648ab6b119d0435b6b9112962e8d898f49129",
+                "title": "Proving Conflict Serializability for Full Invalidation",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2672873",
+                        "name": "Justin Emile Gottschlich"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1706392",
+                        "name": "Manish Vachharajani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5e5c94f0fb8da78691db0ff3b4264a7aa00d3b17",
+                "title": "Automatic Generation of Tiled and Parallel Linear Algebra Routines A partitioning framework for the BTO Compiler",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2746645",
+                        "name": "Geoffrey Belter"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "33950551",
+                        "name": "I. Karlin"
+                    },
+                    {
+                        "s2_author_id": "2047797",
+                        "name": "E. Jessup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6bee908ba94825f6aa042b567ec77acffba83b2c",
+                "title": "Session details: Separation of concerns 2",
+                "year": 2010,
+                "venue": "Proceedings of the ninth international conference on Generative programming and component engineering",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7441c778c6326209309bd0148524c8d2d51d48d0",
+                "title": "An efficient software transactional memory using commit-time invalidation",
+                "year": 2010,
+                "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+                "citation_count": 59,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2672873",
+                        "name": "Justin Emile Gottschlich"
+                    },
+                    {
+                        "s2_author_id": "1706392",
+                        "name": "Manish Vachharajani"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a7c8ac66510294156f1561a357f45c9b60c37591",
+                "title": "The C++0x \"Concepts\" Effort",
+                "year": 2010,
+                "venue": "International Spring School on Generic and Indexed Programming",
+                "citation_count": 8,
+                "reference_count": 108,
+                "abstract": "C++0x is the working title for the revision of the ISO standard of the C++ programming language that was originally planned for release in 2009 but that was delayed to 2011. The largest language extension in C++0x was \"concepts\", that is, a collection of features for constraining template parameters. In September of 2008, the C++ standards committee voted the concepts extension into C++0x, but then in July of 2009, the committee voted the concepts extension back out of C++0x. \n \nThis article is my account of the technical challenges and debates within the \"concepts\" effort in the years 2003 to 2009. To provide some background, the article also describes the design space for constrained parametric polymorphism, or what is colloquially know as constrained generics. While this article is meant to be generally accessible, the writing is aimed toward readers with background in functional programming and programming language theory. This article grew out of a lecture at the Spring School on Generic and Indexed Programming at the University of Oxford, March 2010.",
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cae142e324ce213f3a420630d171560eb79b2b67",
+                "title": "Threesomes, with and without blame",
+                "year": 2010,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 26,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1781875",
+                        "name": "P. Wadler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1b8185f45469a4e9379f0960c0a0fc2f4c02cf49",
+                "title": "In Pursuit of Real Answers",
+                "year": 2009,
+                "venue": "International Conference on Embedded Software and Systems",
+                "citation_count": 0,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2054793762",
+                        "name": "A. Zhu"
+                    },
+                    {
+                        "s2_author_id": "143841082",
+                        "name": "Walid Taha"
+                    },
+                    {
+                        "s2_author_id": "144712933",
+                        "name": "Robert Cartwright"
+                    },
+                    {
+                        "s2_author_id": "14854742",
+                        "name": "M. Martel"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2204f16fa378fdddc8d8e149849d8bf42c51b0d5",
+                "title": "Threesomes, with and without blame",
+                "year": 2009,
+                "venue": "STOP@ECOOP",
+                "citation_count": 94,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1781875",
+                        "name": "P. Wadler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "293c64739ee19621bc37825c0076077a9833e61f",
+                "title": "Edinburgh Research Explorer Threesomes, with and without blame",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1781875",
+                        "name": "P. Wadler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "49124cd6c07720d8eb4698e9421680cc64c3658e",
+                "title": "Proceedings of the eighth international conference on Generative programming and component engineering",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "144261728",
+                        "name": "B. Fischer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5b5cf1c9913867ecd3fd17e4087901ea1fd291c6",
+                "title": "Generating Empirically Optimized Composed Matrix Kernels from MATLAB Prototypes",
+                "year": 2009,
+                "venue": "International Conference on Conceptual Structures",
+                "citation_count": 10,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1763308",
+                        "name": "Boyana Norris"
+                    },
+                    {
+                        "s2_author_id": "1763408",
+                        "name": "Albert Hartono"
+                    },
+                    {
+                        "s2_author_id": "2047797",
+                        "name": "E. Jessup"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6789da8b3e834d1eb6c4e8ba33184940677f2084",
+                "title": "Generative Programming and Component Engineering, 8th International Conference, GPCE 2009, Denver, Colorado, USA, October 4-5, 2009, Proceedings",
+                "year": 2009,
+                "venue": "International Conference on Generative Programming: Concepts and Experiences",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "144261728",
+                        "name": "B. Fischer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "83ceea0006e3d1438f4ab50682b76afb8081b23b",
+                "title": "Automating the generation of composed linear algebra kernels",
+                "year": 2009,
+                "venue": "Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis",
+                "citation_count": 70,
+                "reference_count": 68,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2746645",
+                        "name": "Geoffrey Belter"
+                    },
+                    {
+                        "s2_author_id": "2047797",
+                        "name": "E. Jessup"
+                    },
+                    {
+                        "s2_author_id": "33950551",
+                        "name": "I. Karlin"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9cfc3a88d640e529ed6cd3fc2246f1e06484666b",
+                "title": "Toward Simplified Parallel Support in C",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2672873",
+                        "name": "Justin Emile Gottschlich"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2059089561",
+                        "name": "P. Rogers"
+                    },
+                    {
+                        "s2_author_id": "1706392",
+                        "name": "Manish Vachharajani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b875889c49963c61683db1f3c22d72677d6dba2b",
+                "title": "Shifting the Parallel Programming Paradigm",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2672873",
+                        "name": "Justin Emile Gottschlich"
+                    },
+                    {
+                        "s2_author_id": "3054184",
+                        "name": "Dwight Y. Winkler"
+                    },
+                    {
+                        "s2_author_id": "2054926303",
+                        "name": "Mark W. Holmes"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1706392",
+                        "name": "Manish Vachharajani"
+                    },
+                    {
+                        "s2_author_id": "38328499",
+                        "name": "R. Company"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c8b746f02591f28b633360aec1f20ed8c215b5c6",
+                "title": "Exploring the Design Space of Higher-Order Casts",
+                "year": 2009,
+                "venue": "European Symposium on Programming",
+                "citation_count": 73,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "145817825",
+                        "name": "Ronald Garcia"
+                    },
+                    {
+                        "s2_author_id": "143841082",
+                        "name": "Walid Taha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f775e75bfbd8692934a75806abb0afa152853c83",
+                "title": "An efficient lock-aware transactional memory implementation",
+                "year": 2009,
+                "venue": "ICOOOLPS@ECOOP",
+                "citation_count": 7,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2672873",
+                        "name": "Justin Emile Gottschlich"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1706392",
+                        "name": "Manish Vachharajani"
+                    },
+                    {
+                        "s2_author_id": "3054184",
+                        "name": "Dwight Y. Winkler"
+                    },
+                    {
+                        "s2_author_id": "1695951",
+                        "name": "D. Connors"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08571cb2a36cfee19e77e36ffb688055df4f780e",
+                "title": "An Intentional Library Approach to Lock-Aware Transactional Memory ; CU-CS-1048-08",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2672873",
+                        "name": "Justin Emile Gottschlich"
+                    },
+                    {
+                        "s2_author_id": "1695951",
+                        "name": "D. Connors"
+                    },
+                    {
+                        "s2_author_id": "3054184",
+                        "name": "Dwight Y. Winkler"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "29f71231fb1d6caa219d391a392309209654e037",
+                "title": "Gradual Typing with Unification-Based Inference ; CU-CS-1039-08",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1706392",
+                        "name": "Manish Vachharajani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2e6f83aef523307adfe1b87ec7710552beca2b4c",
+                "title": "Proceedings of the 7th international conference on Generative programming and component engineering",
+                "year": 2008,
+                "venue": "International Conference on Generative Programming: Concepts and Experiences",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2726878",
+                        "name": "Y. Smaragdakis"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "416f182c9381667aac8e650733f0c47301d9e13a",
+                "title": "A Consistency Checking Optimization Algorithm for Memory-Intensive Transactions ; CU-CS-1049-08",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2672873",
+                        "name": "Justin Emile Gottschlich"
+                    },
+                    {
+                        "s2_author_id": "1695951",
+                        "name": "D. Connors"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5669a31c5e7e3f4c2457fc96e29106ce2c3a2b7c",
+                "title": "Lock-Aware Transactional Memory",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2672873",
+                        "name": "Justin Emile Gottschlich"
+                    },
+                    {
+                        "s2_author_id": "1695951",
+                        "name": "D. Connors"
+                    },
+                    {
+                        "s2_author_id": "3054184",
+                        "name": "Dwight Y. Winkler"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1706392",
+                        "name": "Manish Vachharajani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9dca4013423f95c17dcdcaa9189429288da3f40b",
+                "title": "Build to order linear algebra kernels",
+                "year": 2008,
+                "venue": "2008 IEEE International Symposium on Parallel and Distributed Processing",
+                "citation_count": 57,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "33950551",
+                        "name": "I. Karlin"
+                    },
+                    {
+                        "s2_author_id": "2047797",
+                        "name": "E. Jessup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9e940aaa2d70f07a8c4b02aa23b87ec353642451",
+                "title": "Gradual typing with unification-based inference",
+                "year": 2008,
+                "venue": "Dynamic Languages Symposium",
+                "citation_count": 81,
+                "reference_count": 60,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1706392",
+                        "name": "Manish Vachharajani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e226bce815cbe5e8690b988c6bf3c1f07a4eca10",
+                "title": "Space-Efficient Blame Tracking for Gradual Types",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 48,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ede3a022d2f16cb6becf741190ce6ab1bf4ba786",
+                "title": "Generative Programming and Component Engineering, 7th International Conference, GPCE 2008, Nashville, TN, USA, October 19-23, 2008, Proceedings",
+                "year": 2008,
+                "venue": "International Conference on Generative Programming: Concepts and Experiences",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2726878",
+                        "name": "Y. Smaragdakis"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "193650be355e7e112527fe4b36c6e76eeb6cf518",
+                "title": "A language for generic programming in the large",
+                "year": 2007,
+                "venue": "Science of Computer Programming",
+                "citation_count": 24,
+                "reference_count": 100,
+                "abstract": "Generic programming is an effective methodology for developing reusable software libraries. Many programming languages provide generics and have features for describing interfaces, but none completely support the idioms used in generic programming. To address this need we developed the language G. The central feature of G is the concept, a mechanism for organizing constraints on generics that is inspired by the needs of modern C++ libraries. G provides modular type checking and separate compilation (even of generics). These characteristics support modular software development, especially the smooth integration of independently developed components. In this article we present the rationale for the design of G and demonstrate the expressiveness of G with two case studies: porting the Standard Template Library and the Boost Graph Library from C++ to G. The design of G shares much in common with the concept extension proposed for the next C++ Standard (the authors participated in its design) but there are important differences described in this article.",
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3fef6743a9fd76a8a84ac11f893549ac61eabcb8",
+                "title": "Concoqtion: indexed types now!",
+                "year": 2007,
+                "venue": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+                "citation_count": 61,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110303",
+                        "name": "Seth Fogarty"
+                    },
+                    {
+                        "s2_author_id": "20241092",
+                        "name": "E. Pasalic"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143841082",
+                        "name": "Walid Taha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5830631a81d12a36f4e2e0e71eae5b6ce8e3a62c",
+                "title": "Gradual Typing for Objects",
+                "year": 2007,
+                "venue": "European Conference on Object-Oriented Programming",
+                "citation_count": 434,
+                "reference_count": 74,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143841082",
+                        "name": "Walid Taha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "682f7ea24c6e3d0c43f00fd900704d6f53696480",
+                "title": "Proposed Wording for Concepts (Revision 3)",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 28,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2956177",
+                        "name": "Douglas P. Gregor"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "48824718",
+                        "name": "J. Widman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8b9e1549e8cd1234d3c11cd366df4e374c09eeae",
+                "title": "Proceedings of the 2007 Symposium on Library-Centric Software Design",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1746015",
+                        "name": "F. Tip"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "baf7762cf002df8ce9a88ebbf9ca5b4e4f03636e",
+                "title": "Improving the lazy Krivine machine",
+                "year": 2007,
+                "venue": "High. Order Symb. Comput.",
+                "citation_count": 24,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2314738",
+                        "name": "Daniel P. Friedman"
+                    },
+                    {
+                        "s2_author_id": "2716127",
+                        "name": "Abdulaziz Ghuloum"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2385146",
+                        "name": "Onnie Lynn Winebarger"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "184c4b971f48e6f7362b84e3cde5cb24fef41f60",
+                "title": "Concoqtion : Mixing Dependent Types and Hindley-Milner Type Inference ( Technical Report )",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "20241092",
+                        "name": "E. Pasalic"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143841082",
+                        "name": "Walid Taha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2a8b9214961bb0d8d789854ecd19dd465cbede30",
+                "title": "Algorithm specialization in generic programming: challenges of constrained generics in C++",
+                "year": 2006,
+                "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+                "citation_count": 42,
+                "reference_count": 50,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2832673",
+                        "name": "Jaakko J\u00e4rvi"
+                    },
+                    {
+                        "s2_author_id": "2956177",
+                        "name": "Douglas P. Gregor"
+                    },
+                    {
+                        "s2_author_id": "144233173",
+                        "name": "Jeremiah Willcock"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "43913a70c2226c853b1e0a45bcb87c7b711d7212",
+                "title": "Concepts: linguistic support for generic programming in C++",
+                "year": 2006,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 243,
+                "reference_count": 71,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2956177",
+                        "name": "Douglas P. Gregor"
+                    },
+                    {
+                        "s2_author_id": "2832673",
+                        "name": "Jaakko J\u00e4rvi"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "1706320",
+                        "name": "B. Stroustrup"
+                    },
+                    {
+                        "s2_author_id": "145668248",
+                        "name": "G. D. Reis"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "71120b14dd2cb5b0f3c5c030e4767ab945fe59b9",
+                "title": "Library-Centric Software Design",
+                "year": 2006,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2003938",
+                        "name": "Joshua J. Bloch"
+                    },
+                    {
+                        "s2_author_id": "2832673",
+                        "name": "Jaakko J\u00e4rvi"
+                    },
+                    {
+                        "s2_author_id": "1778346",
+                        "name": "D. Musser"
+                    },
+                    {
+                        "s2_author_id": "1706338",
+                        "name": "S. Schupp"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "89d6e086b8300839a2a917e375d9a70c78a610d4",
+                "title": "Concoqtion: Mixing Indexed Types and Hindley-Milner Type Inference",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143841082",
+                        "name": "Walid Taha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b7ca4b0e6d3119aa341af73964dbe38d341061dd",
+                "title": "Gradual Typing for Functional Languages",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 461,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2261047781",
+                        "name": "Walid Taha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c23a07f82101f9853066723f4e356bdb27fa71c5",
+                "title": "New Iterator Concepts",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 15,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145001406",
+                        "name": "David Abrahams"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "119323186",
+                        "name": "Thomas Witt"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d01f130fd2ec1c66d7bba10c1543a3b5319fcbfe",
+                "title": "LCSD: library-centric software design",
+                "year": 2006,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2003938",
+                        "name": "Joshua J. Bloch"
+                    },
+                    {
+                        "s2_author_id": "2832673",
+                        "name": "Jaakko J\u00e4rvi"
+                    },
+                    {
+                        "s2_author_id": "1778346",
+                        "name": "D. Musser"
+                    },
+                    {
+                        "s2_author_id": "1706338",
+                        "name": "S. Schupp"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d7abd4dc3f6a17523f03b3b5056924d45157ea12",
+                "title": "Gradual Typing: Isabelle/Isar Formalization",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143841082",
+                        "name": "Walid Taha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e48b38ba086b375f506651351c256fd12eba32fd",
+                "title": "A Semantic Analysis of C++ Templates",
+                "year": 2006,
+                "venue": "European Conference on Object-Oriented Programming",
+                "citation_count": 30,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143841082",
+                        "name": "Walid Taha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "faf1699ed0a4043f25e0bb4740c49c8007b1c5f4",
+                "title": "Proc. First Internat. Workshop on Library-Centric Software Design (LCSD'05)",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    },
+                    {
+                        "s2_author_id": "1778346",
+                        "name": "D. Musser"
+                    },
+                    {
+                        "s2_author_id": "1706338",
+                        "name": "S. Schupp"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3e129e2eb227fea2873fb2b67611dfd50032035b",
+                "title": "C++.T Formalization in Isar",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143841082",
+                        "name": "Walid Taha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55e13ff7593a05ecf8d2675cfb052e03db5b5422",
+                "title": "Concepts for C++0x Revision 1",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2956177",
+                        "name": "Douglas P. Gregor"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "144233173",
+                        "name": "Jeremiah Willcock"
+                    },
+                    {
+                        "s2_author_id": "2286300242",
+                        "name": "Jaakko J\u00a8arvi"
+                    },
+                    {
+                        "s2_author_id": "145817825",
+                        "name": "Ronald Garcia"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5f073d0e62f4340d01fbbf832fe9a0980200246c",
+                "title": "A language for generic programming",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 31,
+                "reference_count": 188,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "842552f101d375c692ed86d069210abaac7d7d6b",
+                "title": "Language requirements for large-scale generic libraries",
+                "year": 2005,
+                "venue": "International Conference on Generative Programming: Concepts and Experiences",
+                "citation_count": 12,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "988bcfc415f14feb9fa9c52c42bb69a0aae19151",
+                "title": "Concepts for C++0x",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 23,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2956177",
+                        "name": "Douglas P. Gregor"
+                    },
+                    {
+                        "s2_author_id": "145817825",
+                        "name": "Ronald Garcia"
+                    },
+                    {
+                        "s2_author_id": "144233173",
+                        "name": "Jeremiah Willcock"
+                    },
+                    {
+                        "s2_author_id": "2832673",
+                        "name": "Jaakko J\u00e4rvi"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c1a21e43717b713cc92c2eb8a37788ba42b80024",
+                "title": "Essential language support for generic programming",
+                "year": 2005,
+                "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+                "citation_count": 66,
+                "reference_count": 71,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cda9495efb9f3426fa11fe8168f29727c37d879e",
+                "title": "Concepts for C + + 0 x",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2956177",
+                        "name": "Douglas P. Gregor"
+                    },
+                    {
+                        "s2_author_id": "145817825",
+                        "name": "Ronald Garcia"
+                    },
+                    {
+                        "s2_author_id": "144233173",
+                        "name": "Jeremiah Willcock"
+                    },
+                    {
+                        "s2_author_id": "2832673",
+                        "name": "Jaakko J\u00e4rvi"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d390e4d056f46103019165ec64a176833427e82",
+                "title": "Generic Programming for High Performance Numerical Linear Algebra",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8001a7e5ff2f33f6fc24b03ee275b1bdf3053e25",
+                "title": "Iterator Facade and Adaptor",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145001406",
+                        "name": "David Abrahams"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "119323186",
+                        "name": "Thomas Witt"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8dcab8495cf4c6e7e0f6ad3bfb936c25a646c4ec",
+                "title": "Modular generics",
+                "year": 2004,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 3,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "213c460d622f48d3156d3c4ab200c845018f304f",
+                "title": "A comparative study of language support for generic programming",
+                "year": 2003,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 178,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145817825",
+                        "name": "Ronald Garcia"
+                    },
+                    {
+                        "s2_author_id": "2832673",
+                        "name": "Jaakko J\u00e4rvi"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "144233173",
+                        "name": "Jeremiah Willcock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "31deaa7e3664e1727cb5c17e539e3ad0ac07bbac",
+                "title": "Combining Optimizations , Combining Theories",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1918653",
+                        "name": "Todd L. Veldhuizen"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f262b61f8a9729216d009c5bc9af15a0b078d219",
+                "title": "An Analysis of Constrained Polymorphism for Generic Programming",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2832673",
+                        "name": "Jaakko J\u00e4rvi"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "144233173",
+                        "name": "Jeremiah Willcock"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f6c5e07f3f2005d6f2ea628c4fb24c6e4e0084f3",
+                "title": "On combining program improvers",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1918653",
+                        "name": "Todd L. Veldhuizen"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "081202280ee2683bd4f67a07b33f3a605d7a221e",
+                "title": "Concept-based component libraries and optimizing compilers",
+                "year": 2002,
+                "venue": "Proceedings 16th International Parallel and Distributed Processing Symposium",
+                "citation_count": 5,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706338",
+                        "name": "S. Schupp"
+                    },
+                    {
+                        "s2_author_id": "2956177",
+                        "name": "Douglas P. Gregor"
+                    },
+                    {
+                        "s2_author_id": "2080452660",
+                        "name": "B. Osman"
+                    },
+                    {
+                        "s2_author_id": "1778346",
+                        "name": "D. Musser"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2064217",
+                        "name": "Lie-Quan Lee"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2dc9fa1aee50e5cbad91206fd0f6a27683433fb1",
+                "title": "C++ concept checking",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "90a3c82e4b513d204572b203c111d25eec5ed248",
+                "title": "Caramel: A Concept Representation System for Generic Programming",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144233173",
+                        "name": "Jeremiah Willcock"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bd014331774ef7becae11a3c8af5005b3a75630d",
+                "title": "The Boost Graph Library - User Guide and Reference Manual",
+                "year": 2001,
+                "venue": "C++ in-depth series",
+                "citation_count": 795,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2064217",
+                        "name": "Lie-Quan Lee"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dc64db2f438a8e4ded94273f535188e305bafe52",
+                "title": "An Implementation of Graph Isomorphism Testing",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1977df2429d4d8a993c11dc714b0fffc4883c0d7",
+                "title": "Concept Checking: Binding Parametric Polymorphism in C++",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 115,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1ea5e5c5beced39fbafc7c701dcde1c42899246d",
+                "title": "The Generic Graph Component Library (GGCL) User Manual",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2064217",
+                        "name": "Lie-Quan Lee"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "790ef626e1ca896380ad12efc30731eb83dfe9dd",
+                "title": "Generic programming for graph algorithms",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2064217",
+                        "name": "Lie-Quan Lee"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea191d0bfb6beb0dc4f132f6910640a03912bead",
+                "title": "A Modern Framework for Portable High-Performance Numerical Linear Algebra",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 48,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "36e1eae2a62575cc8d03b1a470b4783111791a13",
+                "title": "The Matrix Template Library: generic components for high-performance scientific computing",
+                "year": 1999,
+                "venue": "Comput. Sci. Eng.",
+                "citation_count": 64,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "2240199715",
+                        "name": "Andrew Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "63f574baa31fd31b8b28f817b0db1972628349b7",
+                "title": "Mayfly A Pattern for Lightweight Generic Interfaces",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7454e3e5e30df69f4ed839ecca145c5e011f5ec7",
+                "title": "Generic Graph Algorithms for Sparse Matrix Ordering",
+                "year": 1999,
+                "venue": "International Symposium on Computing in Object-Oriented Parallel Environments",
+                "citation_count": 15,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2064217",
+                        "name": "Lie-Quan Lee"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dbd9ba69819191a21f8fadaf8d1217811e5f470e",
+                "title": "The generic graph component library",
+                "year": 1999,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 66,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2064217",
+                        "name": "Lie-Quan Lee"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e6afa634d7b1c1b8efc83dd294ef403876c062e",
+                "title": "The Matrix Template Library: A Unifying Framework for Numerical Linear Algebra",
+                "year": 1998,
+                "venue": "ECOOP Workshops",
+                "citation_count": 34,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "25ff4dce965e4dcf8203e92ebc5b98892f3060ff",
+                "title": "A Rational Approach to Portable High Performance: The Basic Linear Algebra Instruction Set (BLAIS) and the Fixed Algorithm Size Template (FAST) Library",
+                "year": 1998,
+                "venue": "ECOOP Workshops",
+                "citation_count": 29,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "300fc8ecdb55771a893abd03f598582e933cf746",
+                "title": "The Matrix Template Library: A Generic Programming Approach to High Performance Numerical Linear Algebra",
+                "year": 1998,
+                "venue": "International Symposium on Computing in Object-Oriented Parallel Environments",
+                "citation_count": 120,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e5fbcfb07adfbdd0e035b2f6ac020e51cd562dfe",
+                "title": "Under Consideration for Publication in J. Functional Programming an Extended Comparative Study of Language Support for Generic Programming",
+                "year": null,
+                "venue": "",
+                "citation_count": 83,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145817825",
+                        "name": "Ronald Garcia"
+                    },
+                    {
+                        "s2_author_id": "2271783072",
+                        "name": "Jaakko J Arvi"
+                    },
+                    {
+                        "s2_author_id": "143962909",
+                        "name": "A. Lumsdaine"
+                    },
+                    {
+                        "s2_author_id": "2274043",
+                        "name": "Jeremy G. Siek"
+                    },
+                    {
+                        "s2_author_id": "144233173",
+                        "name": "Jeremiah Willcock"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2270652495",
+                "name": "Tianyu Chen"
+            },
+            {
+                "s2_author_id": "2366154061",
+                "name": "Darshal Shetty"
+            },
+            {
+                "s2_author_id": "2366160960",
+                "name": "Chao-Hong Chen"
+            },
+            {
+                "s2_author_id": "72542153",
+                "name": "Weixi Ma"
+            },
+            {
+                "s2_author_id": "2318290052",
+                "name": "Arnaud Venet"
+            },
+            {
+                "s2_author_id": "2318641951",
+                "name": "Rocky Liu"
+            },
+            {
+                "s2_author_id": "2117180359",
+                "name": "Tianyu Chen"
+            },
+            {
+                "s2_author_id": "7934278",
+                "name": "Tianyu Chen"
+            },
+            {
+                "s2_author_id": "144426834",
+                "name": "M. Cimini"
+            },
+            {
+                "s2_author_id": "145547269",
+                "name": "D. Miller"
+            },
+            {
+                "s2_author_id": "1920500",
+                "name": "Michael M. Vitousek"
+            },
+            {
+                "s2_author_id": "36635262",
+                "name": "A. Chaudhuri"
+            },
+            {
+                "s2_author_id": "1747025",
+                "name": "Giuseppe Castagna"
+            },
+            {
+                "s2_author_id": "24005571",
+                "name": "Victor Lanvin"
+            },
+            {
+                "s2_author_id": "3422143",
+                "name": "T. Petrucciani"
+            },
+            {
+                "s2_author_id": "1753077876",
+                "name": "G. Duboc"
+            },
+            {
+                "s2_author_id": "35931546",
+                "name": "Andre Kuhlenschmidt"
+            },
+            {
+                "s2_author_id": "35842006",
+                "name": "Deyaaeldeen Almahallawi"
+            },
+            {
+                "s2_author_id": "24034681",
+                "name": "Dustin Jamner"
+            },
+            {
+                "s2_author_id": "1781875",
+                "name": "P. Wadler"
+            },
+            {
+                "s2_author_id": "47871214",
+                "name": "D. Christiansen"
+            },
+            {
+                "s2_author_id": "2314738",
+                "name": "Daniel P. Friedman"
+            },
+            {
+                "s2_author_id": "1977295",
+                "name": "Cameron Swords"
+            },
+            {
+                "s2_author_id": "50320086",
+                "name": "Spenser Bauman"
+            },
+            {
+                "s2_author_id": "1414855404",
+                "name": "C. F. Bolz-Tereick"
+            },
+            {
+                "s2_author_id": "1403708876",
+                "name": "Sam Tobin-Hochstadt"
+            },
+            {
+                "s2_author_id": "1715714",
+                "name": "David Broman"
+            },
+            {
+                "s2_author_id": "145146300",
+                "name": "Amal J. Ahmed"
+            },
+            {
+                "s2_author_id": "145817825",
+                "name": "Ronald Garcia"
+            },
+            {
+                "s2_author_id": "143841082",
+                "name": "Walid Taha"
+            },
+            {
+                "s2_author_id": "1702178",
+                "name": "Peter Thiemann"
+            },
+            {
+                "s2_author_id": "1776345",
+                "name": "J. Boyland"
+            },
+            {
+                "s2_author_id": "1756829",
+                "name": "Carl Friedrich Bolz-Tereick"
+            },
+            {
+                "s2_author_id": "1741504",
+                "name": "R. Hirschfeld"
+            },
+            {
+                "s2_author_id": "2295517",
+                "name": "Vasily Kirilichev"
+            },
+            {
+                "s2_author_id": "38776779",
+                "name": "Tobias Pape"
+            },
+            {
+                "s2_author_id": "2987047",
+                "name": "Eric Holk"
+            },
+            {
+                "s2_author_id": "145470158",
+                "name": "Ryan Newton"
+            },
+            {
+                "s2_author_id": "143962909",
+                "name": "A. Lumsdaine"
+            },
+            {
+                "s2_author_id": "2252561656",
+                "name": "Oleg Kiselyov"
+            },
+            {
+                "s2_author_id": "35198898",
+                "name": "Yukiyoshi Kameyama"
+            },
+            {
+                "s2_author_id": "144774224",
+                "name": "O. Kiselyov"
+            },
+            {
+                "s2_author_id": "2653510",
+                "name": "Weiyu Miao"
+            },
+            {
+                "s2_author_id": "2376830",
+                "name": "James T. Perconti"
+            },
+            {
+                "s2_author_id": "2018902",
+                "name": "Edward Amsden"
+            },
+            {
+                "s2_author_id": "50111962",
+                "name": "A. Kent"
+            },
+            {
+                "s2_author_id": "48634537",
+                "name": "J. Baker"
+            },
+            {
+                "s2_author_id": "49536096",
+                "name": "Christopher Schwaab"
+            },
+            {
+                "s2_author_id": "2066288670",
+                "name": "T. Nelson"
+            },
+            {
+                "s2_author_id": "2746645",
+                "name": "Geoffrey Belter"
+            },
+            {
+                "s2_author_id": "2047797",
+                "name": "E. Jessup"
+            },
+            {
+                "s2_author_id": "1763308",
+                "name": "Boyana Norris"
+            },
+            {
+                "s2_author_id": "2672873",
+                "name": "Justin Emile Gottschlich"
+            },
+            {
+                "s2_author_id": "1744502",
+                "name": "Maurice Herlihy"
+            },
+            {
+                "s2_author_id": "10019813",
+                "name": "Gilles A. Pokam"
+            },
+            {
+                "s2_author_id": "2715034",
+                "name": "Jonathan Aldrich"
+            },
+            {
+                "s2_author_id": "40585759",
+                "name": "Devin Coughlin"
+            },
+            {
+                "s2_author_id": "1759442",
+                "name": "B. E. Chang"
+            },
+            {
+                "s2_author_id": "145497691",
+                "name": "Amer Diwan"
+            },
+            {
+                "s2_author_id": "2286583079",
+                "name": "Bor-Yuh Evan Chang"
+            },
+            {
+                "s2_author_id": "33950551",
+                "name": "I. Karlin"
+            },
+            {
+                "s2_author_id": "153723425",
+                "name": "E. Zucca"
+            },
+            {
+                "s2_author_id": "2115151277",
+                "name": "Jonathan D. Turner"
+            },
+            {
+                "s2_author_id": "2014879",
+                "name": "R. Findler"
+            },
+            {
+                "s2_author_id": "2827414",
+                "name": "Erik Silkensen"
+            },
+            {
+                "s2_author_id": "144556096",
+                "name": "E. Chang"
+            },
+            {
+                "s2_author_id": "1741190",
+                "name": "S. Sankaranarayanan"
+            },
+            {
+                "s2_author_id": "144195334",
+                "name": "Siau-cheng Khoo"
+            },
+            {
+                "s2_author_id": "1706392",
+                "name": "Manish Vachharajani"
+            },
+            {
+                "s2_author_id": "2054793762",
+                "name": "A. Zhu"
+            },
+            {
+                "s2_author_id": "144712933",
+                "name": "Robert Cartwright"
+            },
+            {
+                "s2_author_id": "14854742",
+                "name": "M. Martel"
+            },
+            {
+                "s2_author_id": "144261728",
+                "name": "B. Fischer"
+            },
+            {
+                "s2_author_id": "1763408",
+                "name": "Albert Hartono"
+            },
+            {
+                "s2_author_id": "2059089561",
+                "name": "P. Rogers"
+            },
+            {
+                "s2_author_id": "3054184",
+                "name": "Dwight Y. Winkler"
+            },
+            {
+                "s2_author_id": "2054926303",
+                "name": "Mark W. Holmes"
+            },
+            {
+                "s2_author_id": "38328499",
+                "name": "R. Company"
+            },
+            {
+                "s2_author_id": "1695951",
+                "name": "D. Connors"
+            },
+            {
+                "s2_author_id": "2726878",
+                "name": "Y. Smaragdakis"
+            },
+            {
+                "s2_author_id": "2110303",
+                "name": "Seth Fogarty"
+            },
+            {
+                "s2_author_id": "20241092",
+                "name": "E. Pasalic"
+            },
+            {
+                "s2_author_id": "2956177",
+                "name": "Douglas P. Gregor"
+            },
+            {
+                "s2_author_id": "1706320",
+                "name": "B. Stroustrup"
+            },
+            {
+                "s2_author_id": "48824718",
+                "name": "J. Widman"
+            },
+            {
+                "s2_author_id": "1746015",
+                "name": "F. Tip"
+            },
+            {
+                "s2_author_id": "2716127",
+                "name": "Abdulaziz Ghuloum"
+            },
+            {
+                "s2_author_id": "2385146",
+                "name": "Onnie Lynn Winebarger"
+            },
+            {
+                "s2_author_id": "2832673",
+                "name": "Jaakko J\u00e4rvi"
+            },
+            {
+                "s2_author_id": "144233173",
+                "name": "Jeremiah Willcock"
+            },
+            {
+                "s2_author_id": "145668248",
+                "name": "G. D. Reis"
+            },
+            {
+                "s2_author_id": "2003938",
+                "name": "Joshua J. Bloch"
+            },
+            {
+                "s2_author_id": "1778346",
+                "name": "D. Musser"
+            },
+            {
+                "s2_author_id": "1706338",
+                "name": "S. Schupp"
+            },
+            {
+                "s2_author_id": "2261047781",
+                "name": "Walid Taha"
+            },
+            {
+                "s2_author_id": "145001406",
+                "name": "David Abrahams"
+            },
+            {
+                "s2_author_id": "119323186",
+                "name": "Thomas Witt"
+            },
+            {
+                "s2_author_id": "2286300242",
+                "name": "Jaakko J\u00a8arvi"
+            },
+            {
+                "s2_author_id": "1918653",
+                "name": "Todd L. Veldhuizen"
+            },
+            {
+                "s2_author_id": "2080452660",
+                "name": "B. Osman"
+            },
+            {
+                "s2_author_id": "2064217",
+                "name": "Lie-Quan Lee"
+            },
+            {
+                "s2_author_id": "2240199715",
+                "name": "Andrew Lumsdaine"
+            },
+            {
+                "s2_author_id": "2271783072",
+                "name": "Jaakko J Arvi"
+            }
+        ],
+        "total_co_authors": 103,
+        "papers_retrieved": 155
+    }
+}

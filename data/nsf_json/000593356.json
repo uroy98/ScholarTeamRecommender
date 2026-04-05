@@ -1,0 +1,2647 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000593356",
+        "name": "Gerd Heber",
+        "primary_affiliation": "The HDF Group",
+        "primary_department": null,
+        "all_affiliations": [
+            "The HDF Group"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "IL"
+        ],
+        "perf_cities": [
+            "CHAMPAIGN"
+        ],
+        "org_names": [
+            "The HDF Group"
+        ],
+        "org_ueis": [
+            "HKAXEDY58N79"
+        ],
+        "inst_types": [
+            "unknown"
+        ],
+        "emails": [
+            "gheber@hdfgroup.org"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2534078",
+                "title": "NSF-Safe-OSE: Strengthening HDF5 for Science, Industry, and National Security Applications",
+                "type": "Cooperative Agreement",
+                "tran_type": "CoopAgrmnt",
+                "start_date": "2025-10-01",
+                "exp_date": "2027-09-30",
+                "award_amount": 1500000.0,
+                "total_amount": 1500000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "SafeOSE"
+                ],
+                "program_codes": [
+                    "324Y00"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "TIP",
+                "div_abbr": "TI",
+                "nsf_directorate": null,
+                "fund_division": "Translational Impacts",
+                "cfda_num": "47.084",
+                "po_name": "Florence Rabanal",
+                "keywords": [
+                    "security",
+                    "national",
+                    "through",
+                    "management",
+                    "scientific",
+                    "vulnerabilities",
+                    "strengthening",
+                    "safety",
+                    "privacy",
+                    "format"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "SafeOSE"
+        ],
+        "program_codes": [
+            "324Y00"
+        ],
+        "program_references": [],
+        "program_ref_codes": [],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "TIP"
+        ],
+        "div_abbrs": [
+            "TI"
+        ],
+        "fund_divisions": [
+            "Translational Impacts"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.084"
+        ],
+        "program_officers": [
+            "Florence Rabanal"
+        ],
+        "keywords": [
+            "security",
+            "national",
+            "through",
+            "management",
+            "scientific",
+            "vulnerabilities",
+            "strengthening",
+            "safety",
+            "privacy",
+            "format",
+            "critical",
+            "community",
+            "practices",
+            "safe",
+            "industry",
+            "applications",
+            "enhances",
+            "healthcare",
+            "across",
+            "within"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.38
+    },
+    "s2_profile": {
+        "s2_author_id": "2806754",
+        "name": "Gerd Heber",
+        "affiliations": [],
+        "paper_count": 73,
+        "citation_count": 2113,
+        "h_index": 20,
+        "papers": [
+            {
+                "s2_paper_id": "626376d17ef83b32b6330f38e0c94d1e88bc8726",
+                "title": "A Vision for Managing Extreme-Scale Data Hoards",
+                "year": 2019,
+                "venue": "IEEE International Conference on Distributed Computing Systems",
+                "citation_count": 6,
+                "reference_count": 43,
+                "abstract": "Scientific data collections grow ever larger, both in terms of the size of individual data items and of the number and complexity of items. To use and manage them, it is important to directly address issues of robust and actionable provenance. We identify three key drivers as our focus: managing the size and complexity of metadata, lack of a priori information to match usage intents between publishers and consumers of data, and support for campaigns over collections of data driven by multi-disciplinary, collaborating teams. We introduce the Hoarde abstraction as an attempt to formalize a way of looking at collections of data to make them more tractable for later use. Hoarde leverages middleware and systems infrastructures for scientific and technical data management. Through the lens of a select group of challenging data usage scenarios, we discuss some of the aspects of implementation, usage, and forward portability of this new view on data management.",
+                "authors": [
+                    {
+                        "s2_author_id": "1730909",
+                        "name": "Jeremy S. Logan"
+                    },
+                    {
+                        "s2_author_id": "37112455",
+                        "name": "Kshitij Mehta"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "1736095",
+                        "name": "S. Klasky"
+                    },
+                    {
+                        "s2_author_id": "1753288",
+                        "name": "T. Kur\u00e7"
+                    },
+                    {
+                        "s2_author_id": "1734819",
+                        "name": "N. Podhorszki"
+                    },
+                    {
+                        "s2_author_id": "2946172",
+                        "name": "Patrick M. Widener"
+                    },
+                    {
+                        "s2_author_id": "143910836",
+                        "name": "M. Wolf"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f5a84e8fa50ba8c584b50053cb17d2950dc9a776",
+                "title": "Sparse Data Management in HDF5",
+                "year": 2019,
+                "venue": "Annual Workshop on Large-scale Experiment-in-the-Loop Computing",
+                "citation_count": 6,
+                "reference_count": 5,
+                "abstract": "The importance of sparse data management is growing with data produced by large-scale experimental and observational facilities that contain small amounts of non-zero values. In this document, we explore different design options to support sparse data in HDF5, one of the most popular high-performance I/O libraries and file formats used for scientific data. We discuss several use cases and requirements. Our main hard design constraint is that any changes to the HDF5 dataset API would be a burden on users and not acceptable. The remaining options are discussed below. We provide a rationale for what we believe is the strongest candidate and describe how its potential benefits can be simulated with the existing HDF5 library. We have conducted a set of computational experiments the results of which are reported here. They show that our candidate meets all relevant requirements and gives us a certain degree of confidence for an HDF5 library-native implementation.",
+                "authors": [
+                    {
+                        "s2_author_id": "69412308",
+                        "name": "J. Mainzer"
+                    },
+                    {
+                        "s2_author_id": "1474591874",
+                        "name": "Neil Fortner"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2333282",
+                        "name": "Elena Pourmal"
+                    },
+                    {
+                        "s2_author_id": "3239875",
+                        "name": "Q. Koziol"
+                    },
+                    {
+                        "s2_author_id": "1749233",
+                        "name": "S. Byna"
+                    },
+                    {
+                        "s2_author_id": "31888471",
+                        "name": "M. Paterno"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c4109bde361bf1c7c2fd58c3e944027d252aa686",
+                "title": "Parallel I/O for 3-D Global FDTD Earth\u2013Ionosphere Waveguide Models at Resolutions on the Order of ~1 km and Higher Using HDF5",
+                "year": 2018,
+                "venue": "IEEE Transactions on Antennas and Propagation",
+                "citation_count": 21,
+                "reference_count": 20,
+                "abstract": "3-D finite-difference time-domain (FDTD) models of the global Earth\u2013ionosphere waveguide have reached grid resolutions on the order of <inline-formula> <tex-math notation=\"LaTeX\">$1\\times 1 \\times 1$ </tex-math></inline-formula> km and higher. At these high resolutions, efficient parallel input\u2013output (I/O) schemes are required to keep the simulation run times reasonable. However, generating optimal parallel I/O schemes is challenging due to the spherical-coordinate global mesh that includes merging of cells in the east\u2013west direction as either pole is approached. Hierarchical Data Format 5 (HDF5) is applied and optimized for a global latitude\u2013longitude FDTD model. The performance of the parallel HDF5 approach is compared with a message passing interface-based approach and a brute-force approach. The methodology presented here may be simplified to Cartesian-based grids in a straightforward manner.",
+                "authors": [
+                    {
+                        "s2_author_id": "46488054",
+                        "name": "S. Pokhrel"
+                    },
+                    {
+                        "s2_author_id": "2115264554",
+                        "name": "Miguel Rodriguez"
+                    },
+                    {
+                        "s2_author_id": "39518518",
+                        "name": "A. Samimi"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "3037888",
+                        "name": "J. Simpson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "198bdb2cf04ff80f4bebd1f7f69bbe22281b81ec",
+                "title": "Scalable Implementation of Finite Elements by NASA _ Implicit (ScIFEi)",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "11211397",
+                        "name": "J. Warner"
+                    },
+                    {
+                        "s2_author_id": "29979092",
+                        "name": "G. F. Bomarito"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "29947633",
+                        "name": "J. D. Hochhalter"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "18f9c45570649ff47783d17a9857ed15d9ba51bf",
+                "title": "ITERDB\u2014The Data Archiving System for ITER",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 22,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2722924",
+                        "name": "G. Abla"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "35162855",
+                        "name": "D. Schissel"
+                    },
+                    {
+                        "s2_author_id": "2115106063",
+                        "name": "Dana Robinson"
+                    },
+                    {
+                        "s2_author_id": "1732183",
+                        "name": "L. Abadie"
+                    },
+                    {
+                        "s2_author_id": "83709381",
+                        "name": "A. Wallander"
+                    },
+                    {
+                        "s2_author_id": "48033487",
+                        "name": "S. Flanagan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b99b2b33038e72fec702b86187bea6aab751f1d3",
+                "title": "On the Effects of Modeling As-Manufactured Geometry: Toward Digital Twin",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 115,
+                "reference_count": 16,
+                "abstract": "A simple, nonstandardized material test specimen, which fails along one of two different likely crack paths, is considered herein. The result of deviations in geometry on the order of tenths of a millimeter, this ambiguity in crack path motivates the consideration of as-manufactured component geometry in the design, assessment, and certification of structural systems. Herein, finite element models of as-manufactured specimens are generated and subsequently analyzed to resolve the crack-path ambiguity. The consequence and benefit of such a \u201cpersonalized\u201d methodology is the prediction of a crack path for each specimen based on its as-manufactured geometry, rather than a distribution of possible specimen geometries or nominal geometry. The consideration of as-manufactured characteristics is central to the Digital Twin concept. Therefore, this work is also intended to motivate its development.",
+                "authors": [
+                    {
+                        "s2_author_id": "2255548887",
+                        "name": "Albert Cerrone"
+                    },
+                    {
+                        "s2_author_id": "2364450032",
+                        "name": "Jacob Hochhalter"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "1967710",
+                        "name": "A. Ingraffea"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "de9fa8d6be0c01c212a1ae99c2b894d4e5da83cd",
+                "title": "Big HDF FAQs",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "50215269",
+                        "name": "M. Folk"
+                    },
+                    {
+                        "s2_author_id": "3239875",
+                        "name": "Q. Koziol"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d342b132d96e3f505b1802119efff0b400b19d68",
+                "title": "The Feasibility of Adaptive Unstructured Computations on Petaflops Systems",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144637418",
+                        "name": "R. Biswas"
+                    },
+                    {
+                        "s2_author_id": "1757847",
+                        "name": "L. Oliker"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    },
+                    {
+                        "s2_author_id": "38885699",
+                        "name": "S. Saini"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8ab8aa1ab1cc31b7c1e01d3ce6d7d413de156a1e",
+                "title": "The AstroHDF Effort",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "113082668",
+                        "name": "J. Masters"
+                    },
+                    {
+                        "s2_author_id": "101594274",
+                        "name": "A. Alexov"
+                    },
+                    {
+                        "s2_author_id": "50215269",
+                        "name": "M. Folk"
+                    },
+                    {
+                        "s2_author_id": "1777806",
+                        "name": "R. Hanisch"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "10259009",
+                        "name": "M. Wise"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "069498d13212a6f77ecddb4a72c8eb53661b9998",
+                "title": "An overview of the HDF5 technology suite and its applications",
+                "year": 2011,
+                "venue": "AD '11",
+                "citation_count": 533,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50215269",
+                        "name": "M. Folk"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "3239875",
+                        "name": "Q. Koziol"
+                    },
+                    {
+                        "s2_author_id": "2333282",
+                        "name": "Elena Pourmal"
+                    },
+                    {
+                        "s2_author_id": "2115106063",
+                        "name": "Dana Robinson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7c50f57c28b8451ff13ad42fbfd4c6bac7f92f4d",
+                "title": "A STANDARDS-BASED DYNAMIC DISTRIBUTED DATA INFRASTRUCTURE FOR EARTH SCIENCES",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2497814",
+                        "name": "S. Achleitner"
+                    },
+                    {
+                        "s2_author_id": "1722483",
+                        "name": "W. Benger"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "49372457",
+                        "name": "Hartmut Kaiser"
+                    },
+                    {
+                        "s2_author_id": "2898752",
+                        "name": "Nayong Kim"
+                    },
+                    {
+                        "s2_author_id": "36852961",
+                        "name": "Marcel Ritter"
+                    },
+                    {
+                        "s2_author_id": "47060792",
+                        "name": "Jian Tao"
+                    },
+                    {
+                        "s2_author_id": "1693678",
+                        "name": "S. Jha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a343f357b01b077d704d8c6f6c506d38e91aef70",
+                "title": "Putting on a Good Show with HDF5, ILNumerics, and PowerShell",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "98736728",
+                        "name": "H. Kutschbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3c85b9329e27d41feecd01e864165e0d30df4606",
+                "title": "DDSim: A hierarchical, probabilistic, multiscale damage and durability simulation system \u2013 Part I: Methodology and Level I",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 23,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2928752",
+                        "name": "J. Emery"
+                    },
+                    {
+                        "s2_author_id": "2364450020",
+                        "name": "J. Hochhalter"
+                    },
+                    {
+                        "s2_author_id": "2906555",
+                        "name": "P. Wawrzynek"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "1967710",
+                        "name": "A. Ingraffea"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e2da324f004974990080a1a40d42f4364fa2bd91",
+                "title": "A geometric approach to modeling microstructurally small fatigue crack formation: I. Probabilistic simulation of constituent particle cracking in AA 7075-T651",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 94,
+                "reference_count": 61,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "98160204",
+                        "name": "J. E. Bozek"
+                    },
+                    {
+                        "s2_author_id": "2364450020",
+                        "name": "J. Hochhalter"
+                    },
+                    {
+                        "s2_author_id": "36221661",
+                        "name": "M. Veilleux"
+                    },
+                    {
+                        "s2_author_id": "2155765909",
+                        "name": "M. Liu"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "95499638",
+                        "name": "S. Sintay"
+                    },
+                    {
+                        "s2_author_id": "94180602",
+                        "name": "A. Rollett"
+                    },
+                    {
+                        "s2_author_id": "145991867",
+                        "name": "D. Littlewood"
+                    },
+                    {
+                        "s2_author_id": "2963215",
+                        "name": "A. Maniatty"
+                    },
+                    {
+                        "s2_author_id": "2122710038",
+                        "name": "H. Weiland"
+                    },
+                    {
+                        "s2_author_id": "31825141",
+                        "name": "R. Christ"
+                    },
+                    {
+                        "s2_author_id": "145271820",
+                        "name": "J. Payne"
+                    },
+                    {
+                        "s2_author_id": "144997655",
+                        "name": "G. Welsh"
+                    },
+                    {
+                        "s2_author_id": "37210727",
+                        "name": "D. Harlow"
+                    },
+                    {
+                        "s2_author_id": "2906555",
+                        "name": "P. Wawrzynek"
+                    },
+                    {
+                        "s2_author_id": "118571657",
+                        "name": "A. Ingraffea"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3289df4c643afca5e52157b2deb61cee5bbda03f",
+                "title": "Supporting Finite Element Analysis with a Relational Database Backend, Part II: Database Design and Access",
+                "year": 2007,
+                "venue": "arXiv.org",
+                "citation_count": 21,
+                "reference_count": 19,
+                "abstract": "This is Part II of a three article series on using databases for Finite Element Analysis (FEA). It discusses (1) db design, (2) data loading, (3) typical use cases during grid building, (4) typical use cases during simulation (get and put), (5) typical use cases during analysis (also done in Part III) and some performance measures of these cases. It argues that using a database is simpler to implement than custom data schemas, has better performance because it can use data parallelism, and better supports FEA modularity and tool evolution because database schema evolution, data independence, and self-defining data.",
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "39941882",
+                        "name": "J. Gray"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dc67f861b847ebc3582272f5c5f1bb5d196f3ad9",
+                "title": "Supporting Finite Element Analysis with a Relational Database Backend, Part I: There is Life beyond Files",
+                "year": 2007,
+                "venue": "arXiv.org",
+                "citation_count": 29,
+                "reference_count": 49,
+                "abstract": "In this paper, we show how to use a Relational Database Management System in support of Finite Element Analysis. We believe it is a new way of thinking about data management in well-understood applications to prepare them for two major challenges, - size and integration (globalization). Neither extreme size nor integration (with other applications over the Web) was a design concern 30 years ago when the paradigm for FEA implementation first was formed. On the other hand, database technology has come a long way since its inception and it is past time to highlight its usefulness to the field of scientific computing and computer based engineering. This series aims to widen the list of applications for database designers and for FEA users and application developers to reap some of the benefits of database development.",
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "39941882",
+                        "name": "J. Gray"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "54da26532db848df2709625a07cc61474c02beec",
+                "title": "Challenges in continuum modeling of intergranular fracture",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 3,
+                "abstract": "Intergranular fracture in polycrystals is often simulated by finite elements coupled to a cohesive-zone model for the interfaces, requiring cohesive laws for grain boundaries as a function of their geometry. We discuss three challenges in understanding intergranular fracture in polycrystals. First, 3D grain boundary geometries comprise a five dimensional space. Second, the energy and peak stress of grain boundaries have singularities for all commensurate grain boundaries, especially those with short repeat distances. Thirdly, fracture nucleation and growth depends not only upon the properties of grain boundaries, but in crucial ways on edges, corners, and triple junctions of even greater geometrical complexity. To address the first two challenges, we explore the physical underpinnings for creating functional forms to capture the heirarchical commensurability structure in the grain boundary properties. To address the last challenge, we demonstrate a method for atomistically extracting the fracture properties of geometrically complex local regions on the fly from within a finite element simulation.",
+                "authors": [
+                    {
+                        "s2_author_id": "40067642",
+                        "name": "V. Coffman"
+                    },
+                    {
+                        "s2_author_id": "2367283",
+                        "name": "J. Sethna"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "47842472",
+                        "name": "Mu Liu"
+                    },
+                    {
+                        "s2_author_id": "1967710",
+                        "name": "A. Ingraffea"
+                    },
+                    {
+                        "s2_author_id": "2135919",
+                        "name": "N. Bailey"
+                    },
+                    {
+                        "s2_author_id": "36117339",
+                        "name": "E. Barker"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a1b03ab5c64a978869f14dcbf121996f3ec622f",
+                "title": "Efficient query processing on unstructured tetrahedral meshes",
+                "year": 2006,
+                "venue": "SIGMOD Conference",
+                "citation_count": 47,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3246265",
+                        "name": "Stratos Papadomanolakis"
+                    },
+                    {
+                        "s2_author_id": "1728318",
+                        "name": "A. Ailamaki"
+                    },
+                    {
+                        "s2_author_id": "11118377",
+                        "name": "Julio C. L\u00f3pez"
+                    },
+                    {
+                        "s2_author_id": "47332435",
+                        "name": "Tiankai Tu"
+                    },
+                    {
+                        "s2_author_id": "1398754433",
+                        "name": "D. O'Hallaron"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "10849db3ecc117e9004e341ed2f9abd2820924ad",
+                "title": "Three-dimensional, parallel, finite element simulation of fatigue crack growth in a spiral bevel pinion gear",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 117,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34671101",
+                        "name": "A. Ural"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2906555",
+                        "name": "P. Wawrzynek"
+                    },
+                    {
+                        "s2_author_id": "1967710",
+                        "name": "A. Ingraffea"
+                    },
+                    {
+                        "s2_author_id": "32634851",
+                        "name": "D. Lewicki"
+                    },
+                    {
+                        "s2_author_id": "1870162",
+                        "name": "J. Neto"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3a31e91357b9fe0f2ba3a62a3e8ec592a9a24427",
+                "title": "Scientific data management in the coming decade",
+                "year": 2005,
+                "venue": "SGMD",
+                "citation_count": 549,
+                "reference_count": 6,
+                "abstract": "Scientific instruments and computer simulations are creating vast data stores that require new scientific methods to analyze and organize the data. Data volumes are approximately doubling each year. Since these new instruments have extraordinary precision, the data quality is also rapidly improving. Analyzing this data to find the subtle effects missed by previous studies requires algorithms that can simultaneously deal with huge datasets and that can find very subtle effects --- finding both needles in the haystack and finding very small haystacks that were undetected in previous measurements.",
+                "authors": [
+                    {
+                        "s2_author_id": "39941882",
+                        "name": "J. Gray"
+                    },
+                    {
+                        "s2_author_id": "3026835",
+                        "name": "David T. Liu"
+                    },
+                    {
+                        "s2_author_id": "1389942725",
+                        "name": "M. Nieto-Santisteban"
+                    },
+                    {
+                        "s2_author_id": "7934073",
+                        "name": "A. Szalay"
+                    },
+                    {
+                        "s2_author_id": "1765659",
+                        "name": "D. DeWitt"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e80b4bad65b6ccacd54ce21980858d31fd943ab8",
+                "title": "Supporting Finite Element Analysis with a Relational Database Backend Part III: OpenDX \u2013 Where the Numbers Come Alive",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "69531751",
+                        "name": "C. Pelkie"
+                    },
+                    {
+                        "s2_author_id": "2334819",
+                        "name": "A. Dolgert"
+                    },
+                    {
+                        "s2_author_id": "39941882",
+                        "name": "J. Gray"
+                    },
+                    {
+                        "s2_author_id": "2107258051",
+                        "name": "D. Thompson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4fea028093477d7dd29f31fb24e75ab21cf3f5f6",
+                "title": "A fine-grain load-adaptive algorithm of the 2D discrete wavelet transform for multithreaded architectures",
+                "year": 2004,
+                "venue": "J. Parallel Distributed Comput.",
+                "citation_count": 12,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692320",
+                        "name": "P. Thulasiraman"
+                    },
+                    {
+                        "s2_author_id": "34368324",
+                        "name": "A. Khokhar"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7876d9448174ddb646b7c2b2796e1648f2649d53",
+                "title": "There Goes the Neighborhood: Relational Algebra for Spatial Data Search",
+                "year": 2004,
+                "venue": "arXiv.org",
+                "citation_count": 35,
+                "reference_count": 11,
+                "abstract": "We explored ways of doing spatial search within a relational database: (1) hierarchical triangular mesh (a tessellation of the sphere), (2) a zoned bucketing system, and (3) representing areas as disjunctive-normal form constraints. Each of these approaches has merits. They all allow efficient point-in-region queries. A relational representation for regions allows Boolean operations among them and allows quick tests for point-in-region, regions-containing-point, and region-overlap. The speed of these algorithms is much improved by a zone and multi-scale zone-pyramid scheme. The approach has the virtue that the zone mechanism works well on B-Trees native to all SQL systems and integrates naturally with current query optimizers - rather than requiring a new spatial access method and concomitant query optimizer extensions. Over the last 5 years, we have used these techniques extensively in our work on SkyServer.sdss.org, and SkyQuery.net.",
+                "authors": [
+                    {
+                        "s2_author_id": "39941882",
+                        "name": "J. Gray"
+                    },
+                    {
+                        "s2_author_id": "7934073",
+                        "name": "A. Szalay"
+                    },
+                    {
+                        "s2_author_id": "6937339",
+                        "name": "Anirudha Thakar"
+                    },
+                    {
+                        "s2_author_id": "9035218",
+                        "name": "G. Fekete"
+                    },
+                    {
+                        "s2_author_id": "69497760",
+                        "name": "W. O'Mullane"
+                    },
+                    {
+                        "s2_author_id": "1389942725",
+                        "name": "M. Nieto-Santisteban"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2528241",
+                        "name": "A. Rots"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b44276e323ffa119e6dab68b36ca2f7adbb6d54d",
+                "title": "Performance Analysis of the Pipe Problem, a Multi-Physics Simulation Based on Web Services",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3223763",
+                        "name": "Paul V. Stodghill"
+                    },
+                    {
+                        "s2_author_id": "40325008",
+                        "name": "R. Cronin"
+                    },
+                    {
+                        "s2_author_id": "1776186",
+                        "name": "K. Pingali"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4deac0631574a51486fb4c9e03d5f01e6af90657",
+                "title": "Computational Science Simulations Based on Web Services",
+                "year": 2003,
+                "venue": "International Conference on Conceptual Structures",
+                "citation_count": 11,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2257901081",
+                        "name": "Paul Chew"
+                    },
+                    {
+                        "s2_author_id": "1768988",
+                        "name": "Nikos Chrisochoides"
+                    },
+                    {
+                        "s2_author_id": "2121126",
+                        "name": "S. Gopalsamy"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2300203041",
+                        "name": "Tony Ingraffea"
+                    },
+                    {
+                        "s2_author_id": "3021436",
+                        "name": "E. Luke"
+                    },
+                    {
+                        "s2_author_id": "1870162",
+                        "name": "J. Neto"
+                    },
+                    {
+                        "s2_author_id": "1776186",
+                        "name": "K. Pingali"
+                    },
+                    {
+                        "s2_author_id": "1866428",
+                        "name": "A. Shih"
+                    },
+                    {
+                        "s2_author_id": "13566574",
+                        "name": "B. Soni"
+                    },
+                    {
+                        "s2_author_id": "3223763",
+                        "name": "Paul V. Stodghill"
+                    },
+                    {
+                        "s2_author_id": "2296447340",
+                        "name": "D. Thompson"
+                    },
+                    {
+                        "s2_author_id": "2300203039",
+                        "name": "Steve Vavasis"
+                    },
+                    {
+                        "s2_author_id": "2906555",
+                        "name": "P. Wawrzynek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4edae99a0b2989983ac4d16d37bffaa7a5c87acf",
+                "title": "Parallel FEM Simulation of Crack Propagation on the AC 3 Velocity Cluster \u2217",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3332113",
+                        "name": "G. Coulouris"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "3334123",
+                        "name": "D. Lifka"
+                    },
+                    {
+                        "s2_author_id": "1776186",
+                        "name": "K. Pingali"
+                    },
+                    {
+                        "s2_author_id": "2064959601",
+                        "name": "D. Schneider"
+                    },
+                    {
+                        "s2_author_id": "3223763",
+                        "name": "Paul V. Stodghill"
+                    },
+                    {
+                        "s2_author_id": "2906555",
+                        "name": "P. Wawrzynek"
+                    },
+                    {
+                        "s2_author_id": "40657738",
+                        "name": "J. Zollweg"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a4039944b06355018c312ae2edf7aa54f378541",
+                "title": "A MULTISCALE MODELING APPROACH TO CRACK INITIATION IN METALLIC POLYCRYSTALS",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "102680871",
+                        "name": "E. Iesulauro"
+                    },
+                    {
+                        "s2_author_id": "1967710",
+                        "name": "A. Ingraffea"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2906555",
+                        "name": "P. Wawrzynek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9ecb927f64607905b4ef29666f65747ef940364b",
+                "title": "Simulating 3 D HF in a Parallel Computing Environment",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31865442",
+                        "name": "B. J. Carter"
+                    },
+                    {
+                        "s2_author_id": "1967710",
+                        "name": "A. Ingraffea"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d52abc54cebb835b764608225da6cb06021e7874",
+                "title": "Cluster Computing Supported by Relational Database Management Systems ( A Case Study )",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "3223763",
+                        "name": "Paul V. Stodghill"
+                    },
+                    {
+                        "s2_author_id": "3334123",
+                        "name": "D. Lifka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "09ef6207ddd3fd3c25a37c6741dedc0d1d4e0603",
+                "title": "Food web complexity and chaotic population dynamics",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 122,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5228302",
+                        "name": "G. Fussmann"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c37985ce0523b2941270ff153c5fef3e81edaf5",
+                "title": "Post-Cluster Computing and the Next Generation of Scientific Applications",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "3334123",
+                        "name": "D. Lifka"
+                    },
+                    {
+                        "s2_author_id": "3223763",
+                        "name": "Paul V. Stodghill"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c46276e8ceec8450e0a6a153db40d714ae62f74f",
+                "title": "Implementation and evaluation of a communication intensive application on the EARTH multithreaded system",
+                "year": 2002,
+                "venue": "Concurrency and Computation",
+                "citation_count": 8,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1736848",
+                        "name": "K. Theobald"
+                    },
+                    {
+                        "s2_author_id": "2143908646",
+                        "name": "Rishi Kumar"
+                    },
+                    {
+                        "s2_author_id": "145340303",
+                        "name": "G. Agrawal"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "1701145",
+                        "name": "R. Thulasiram"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e77171bcb3b9f75eb9e936ea932d689bef4bc72",
+                "title": "Developing a Communication Intensive Application on the EARTH Multithreaded Architecture (Distinguished Paper)",
+                "year": 2000,
+                "venue": "European Conference on Parallel Processing",
+                "citation_count": 16,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1736848",
+                        "name": "K. Theobald"
+                    },
+                    {
+                        "s2_author_id": "2143908646",
+                        "name": "Rishi Kumar"
+                    },
+                    {
+                        "s2_author_id": "145340303",
+                        "name": "G. Agrawal"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "1701145",
+                        "name": "R. Thulasiram"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "253d21a71ba5ad82941c79d654ba181e38e5cda5",
+                "title": "Landing CG on EARTH: A Case Study of Fine-Grained Multithreading on an Evolutionary Path",
+                "year": 2000,
+                "venue": "International Conference on Software Composition",
+                "citation_count": 17,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1736848",
+                        "name": "K. Theobald"
+                    },
+                    {
+                        "s2_author_id": "145340303",
+                        "name": "G. Agrawal"
+                    },
+                    {
+                        "s2_author_id": "2143908646",
+                        "name": "Rishi Kumar"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    },
+                    {
+                        "s2_author_id": "3223763",
+                        "name": "Paul V. Stodghill"
+                    },
+                    {
+                        "s2_author_id": "1776186",
+                        "name": "K. Pingali"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "446b79cb00c0ebc094986800ee42b16cee0c59b4",
+                "title": "Parallel FEM Simulation of Crack Propagation - Challenges, Status, and Perspectives",
+                "year": 2000,
+                "venue": "IPDPS Workshops",
+                "citation_count": 24,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2055628729",
+                        "name": "Bruce Carter"
+                    },
+                    {
+                        "s2_author_id": "153246581",
+                        "name": "Chuin\u2010Shan Chen"
+                    },
+                    {
+                        "s2_author_id": "144543680",
+                        "name": "L. Chew"
+                    },
+                    {
+                        "s2_author_id": "1768988",
+                        "name": "Nikos Chrisochoides"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2244562784",
+                        "name": "Antony R. Ingraffea"
+                    },
+                    {
+                        "s2_author_id": "33913600",
+                        "name": "R. Krause"
+                    },
+                    {
+                        "s2_author_id": "1995516",
+                        "name": "C. Myers"
+                    },
+                    {
+                        "s2_author_id": "3274748",
+                        "name": "D\u00e9mian Nave"
+                    },
+                    {
+                        "s2_author_id": "1776186",
+                        "name": "K. Pingali"
+                    },
+                    {
+                        "s2_author_id": "3223763",
+                        "name": "Paul V. Stodghill"
+                    },
+                    {
+                        "s2_author_id": "1692336",
+                        "name": "S. Vavasis"
+                    },
+                    {
+                        "s2_author_id": "2906555",
+                        "name": "P. Wawrzynek"
+                    },
+                    {
+                        "s2_author_id": "2244567898",
+                        "name": "Rhodes Hall"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7ee556f0f6e8bf38a6ce0cd78a7ebd46ab997774",
+                "title": "Ordering Unstructured Meshes for Sparse Matrix Computations on Leading Parallel Systems",
+                "year": 2000,
+                "venue": "IPDPS Workshops",
+                "citation_count": 15,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1757847",
+                        "name": "L. Oliker"
+                    },
+                    {
+                        "s2_author_id": "10685934",
+                        "name": "X. Li"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "144637418",
+                        "name": "R. Biswas"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e676452265331f5ee5ee6c973d2360dcae204978",
+                "title": "Self\u2010avoiding walks over adaptive unstructured grids",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 32,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "144637418",
+                        "name": "R. Biswas"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3d9867549d9bb16fe2a0522cea83c9350a5b5fc5",
+                "title": "Load adaptive algorithms and implementations for the 2D discrete wavelet transform on fine-grain multithreaded architectures",
+                "year": 1999,
+                "venue": "Proceedings 13th International Parallel Processing Symposium and 10th Symposium on Parallel and Distributed Processing. IPPS/SPDP 1999",
+                "citation_count": 17,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34368324",
+                        "name": "A. Khokhar"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "1692320",
+                        "name": "P. Thulasiraman"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b357479b33e44daa255d524feb2dc977b82b2a75",
+                "title": "Self-Avoiding Walks Over Adaptive Triangular Grids",
+                "year": 1999,
+                "venue": "PP",
+                "citation_count": 0,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "144637418",
+                        "name": "R. Biswas"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bbb44e1a1dadfbcc2dff02f266fc40a45ec0610e",
+                "title": "A new approach to parallel dynamic partitioning for adaptive unstructured meshes",
+                "year": 1999,
+                "venue": "Proceedings 13th International Parallel Processing Symposium and 10th Symposium on Parallel and Distributed Processing. IPPS/SPDP 1999",
+                "citation_count": 4,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    },
+                    {
+                        "s2_author_id": "144637418",
+                        "name": "R. Biswas"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cd72d0c50d51b15cad59e03151d1b4a3a598087e",
+                "title": "Self-Avoiding Walks over Adaptive Unstructured Grids",
+                "year": 1999,
+                "venue": "Concurrency Practice and Experience",
+                "citation_count": 26,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "144637418",
+                        "name": "R. Biswas"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "07e952c5643d84e0a2c8eab0909b8f90eabbc13b",
+                "title": "Using Multi-threading for the Automatic Load Balancing of 2D Adaptive Finite Element Meshes",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "144637418",
+                        "name": "R. Biswas"
+                    },
+                    {
+                        "s2_author_id": "1692320",
+                        "name": "P. Thulasiraman"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    },
+                    {
+                        "s2_author_id": "2082481941",
+                        "name": "D. Bailey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "44a2ec9e7de42fc694830380970ab95b41804887",
+                "title": "Parallel scientific computing in PROMOTER: on the interface between appliction modelling and language design",
+                "year": 1998,
+                "venue": "ACM Symposium on Applied Computing",
+                "citation_count": 2,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2671106",
+                        "name": "M. Besch"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2077143818",
+                        "name": "Matthias Wilhelmi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d42b930e09ee81adbd6167afd01c5d6a58ed32ec",
+                "title": "Overview of the Threaded-C Language",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 22,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1736848",
+                        "name": "K. Theobald"
+                    },
+                    {
+                        "s2_author_id": "1694548",
+                        "name": "J. N. Amaral"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2414809",
+                        "name": "O. Maquelin"
+                    },
+                    {
+                        "s2_author_id": "2109887887",
+                        "name": "Xinan Tang"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dc12b31eb107610a2f19c0720d16b4fdf616c30f",
+                "title": "Self-avoiding Walks over Two-dimensional Adaptive Unstructured Grids",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2098087247",
+                        "name": "Rupak Biswasy"
+                    },
+                    {
+                        "s2_author_id": "50318619",
+                        "name": "G. Gao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "290f748c8ac2c97a6323810085f83e2602025093",
+                "title": "Fundamentals of Natural Indexing for Simplex Finite Elements in Two and Three Dimensions",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49087008",
+                        "name": "Jens Gerlach"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c5c06107731fbe397ddc6e734330116b49d6394",
+                "title": "The configuration space of gauge theory on open manifolds of bounded geometry",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 11,
+                "abstract": "We define suitable Sobolev topologies on the space CP (Bk, f) of connections of bounded geometry and finite Yang\u2013Mills action and the gauge group and show that the corresponding configuration space is a stratified space. The underlying open manifold is assumed to have bounded geometry.",
+                "authors": [
+                    {
+                        "s2_author_id": "50393618",
+                        "name": "J. Eichhorn"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6f3794a948476782f5088bbd96d975171a6a44e4",
+                "title": "Parallel Numerical Solution of a Class of Volterra Integro\u2014Differential Equations",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "1792619",
+                        "name": "C. Lindemann"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8b3744cb11b8ca3dfb25bda84b24d8607035f4ba",
+                "title": "High-level data parallel programming in Promoter",
+                "year": 1997,
+                "venue": "Proceedings Second International Workshop on High-Level Parallel Programming Models and Supportive Environments",
+                "citation_count": 25,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2671106",
+                        "name": "M. Besch"
+                    },
+                    {
+                        "s2_author_id": "49325569",
+                        "name": "H. Bi"
+                    },
+                    {
+                        "s2_author_id": "102384501",
+                        "name": "P. Enskonatus"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2077143818",
+                        "name": "Matthias Wilhelmi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e0ac1b4e3da637e3ab82fcaf7ffdc0585921d6b3",
+                "title": "An Object-Oriented Approach to the Implementation of a High-Level Data Parallel Language",
+                "year": 1997,
+                "venue": "International Symposium on Computing in Object-Oriented Parallel Environments",
+                "citation_count": 3,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2671106",
+                        "name": "M. Besch"
+                    },
+                    {
+                        "s2_author_id": "49325569",
+                        "name": "H. Bi"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "46585870",
+                        "name": "M. Kessler"
+                    },
+                    {
+                        "s2_author_id": "2077143818",
+                        "name": "Matthias Wilhelmi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6d7e9982c5f8a208b7f1b562e2d330013cf027d8",
+                "title": "Finite element methods in the PROMOTOR programming model",
+                "year": 1996,
+                "venue": "EUROSIM International Conference",
+                "citation_count": 0,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49087008",
+                        "name": "Jens Gerlach"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "144880706",
+                        "name": "A. Schramm"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7be052e197775c7c24eaae782b26de25349b6b7e",
+                "title": "Derek W. Robinson, The thermodynamic Pressure in Quantum Statistical Mechanics. (Lecture Notes in Physics, Vol. 9). V + 115 S. Berlin/Heidelberg/New York 1971. Springer\u2010Verlag. Preis brosch. DM 14,\u2014",
+                "year": 1973,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ada630850657ac4bc5e4c97452ba1562d1a7f580",
+                "title": "E. Prugovecki, Quantum Mechanics in Hilbert Space. (Pure and Applied Mathematics, Vol. 41). XV + 648 S. m. Fig. New York/London 1971. Academic Press. Preis geb. $ 29,50",
+                "year": 1972,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "09439779101f306517b06a8930a1b55e616f1c49",
+                "title": "O. Penrose, Foundations of Statistical Mechanics. (International Series of Monographs in Natural Philosophy, Volume 22). IX + 260 S. Oxford/London/Edinburgh/New York/Toronto/Sydney/Paris/Braunschweig 1970. Pergamon Press. Preis geb. $ 11.50",
+                "year": 1971,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e290d20a754c78821d8b0ed97799903b575db43b",
+                "title": "P. C. Martin, Measurements and correlation functions. VII + 98 S. m. Abb. New York/London/Paris 1970. Gordon and Breach Science Publishers Ltd. 12 Bloomsbury Way. London WCI. Preis geb. $ 11.40",
+                "year": 1971,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0ccba6738f1a49b38d6482ee6a668675dd7d2ba4",
+                "title": "B. Renner, Current Algebras and their Applications. (International Series of Monographs in Natural Philosophy, Volume 12). XIV + 177 S. Oxford/London/Edinburgh/New York/Toronto/Sydney/Paris/Braunschweig 1968. Pergamon Press. Preis geb. 70 s. net",
+                "year": 1969,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "27d78be057686f203f7b4682131c3c87504e2b6b",
+                "title": "R. L. Ingraham, Renormalization Theory of Quantum Field Theory with a Cut\u2010off. XV + 181 S. New York/London 1967. Gordon and Breach. Preis geb. $ 11.50",
+                "year": 1969,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5248e26bdf8a9c6ad9435d60fa5c0a9efb66b911",
+                "title": "P. H. E. Meijer, Quantum Statistical Mechanics. (Documents on Modern Physics Series). IX + 172 S. m. Fig. New York/London/Paris 1966. Gordon and Breach. Preis geb. $ 9.75",
+                "year": 1969,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "77220dc4d77cf90b474eb37ae17aeeccba32ad95",
+                "title": "N. H. March, Liquid Metals. (International Series of Monographs in Natural Philosophy, Volume 15). VII + 133 S. m. Fig. Oxford/London/Edinburgh/New York/Toronto/Sydney/Paris/Braunschweig 1968. Pergamon Press. Preis geb. 50,\u2013 s. net",
+                "year": 1969,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "70dae864a81177255dde9918f0a1971f18109efd",
+                "title": "Advances in applied Mechanics, Vol. 10, 112 S. m. Fig. New York/London 1967. Academic Press. Preis brosch. 38 s.net",
+                "year": 1968,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "09c807e48106c3140a25fe60b08423ee51c9bc18",
+                "title": "K. L. Nagy, State Vector Spaces with Indefinite Metric in Quantum Field Theory. X + 131 S. m. 2 Fig. Budapest 1966. Akad\u00e9miai Kiad\u00f3",
+                "year": 1967,
+                "venue": "",
+                "citation_count": 26,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75183f0b61d318441c11672b85a91f092153a433",
+                "title": "A. Katz, Classical Mechanics, Quantum Mechanics, Field Theory. X + 207 S. New York/London 1965. Academic Press. Preis geb. $ 7.50",
+                "year": 1967,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9d052261b3b07078ffea1d2450a99a0dd27490dd",
+                "title": "H. Pollard, Mathematical Introduction to Celestial Mechanics. X + 111 S. m. 13 Fig. London 1966. Prentice-Hall, Inc. Preis geb. 40 s",
+                "year": 1967,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "84472f6f6ceffdeafa65f771df325e23814e4911",
+                "title": "On the calculation of the two-point function for the thirring-model by the method of functional integration",
+                "year": 1966,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2113529344",
+                        "name": "M. Hoffmann"
+                    },
+                    {
+                        "s2_author_id": "6745363",
+                        "name": "G. R\u00f6pke"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1a5c360096af532838d096fbc86c21f784b3306",
+                "title": "E. Leimanis, The General Problem of the Motion of Coupled Rigid Bodies about a Fixed Point. (Springer Tracts in Natural Philosophy. Vol. 7) XVI + 337 S. m. 66 Fig. Berlin/Heidelberg/New York 1965. Springer-Verlag. Preis geb. DM 48,\u2013",
+                "year": 1966,
+                "venue": "",
+                "citation_count": 58,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6b73b449b77ca9e76334aad0d05738d01d2896a8",
+                "title": "V. Fock, The Theory of Space, Time and Gravitation. XII + 448 S. Oxford/London/New York/Paris 1964. Pergamon Press. Preis geb. \u00a3 5 net",
+                "year": 1965,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ed94e27fa06dbe582e2d0c85f1ce7f17c6a15702",
+                "title": "Relativistic calculations of the Green\u2019s functions by means of the continuous integration in the case of strong coupling",
+                "year": 1965,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4dac7323c3f963ef8e0690affcb9aae424cb3bba",
+                "title": "On a slight modification of Hori\u2019s strong-coupling method",
+                "year": 1964,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6bce93e8f3bee100ced6581951c9dd0e85d39533",
+                "title": "UNCERTAIN SPACE-TIME-CONTINUUM, UNCERTAIN MASS, AND PAULI-VILLARS- REGULATION",
+                "year": 1961,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "03de06618e969578116d18a8c13904067f0a4eb2",
+                "title": "V. Fock, The Theory of Space, Time and Gravitation. XVIII + 411 S. London 1959. Pergamon Press. Preis geb. \u00a3 5 net",
+                "year": 1960,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a25cbfba8d2f042ed700c966c39ef869d99a345b",
+                "title": "MEASUREMENT PROCESS AND ALGEBRAIC PROPERTIES OF THE FIELD MAGNITUDES IN A SIMPLE MODEL FIELD THEORY",
+                "year": 1958,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fdd6e5a79258702e589f46f1087bb22149cef4a9",
+                "title": "Remarks on the measurability of electromagnetic fields",
+                "year": 1958,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "62c6d008d6b5356aa8926b5d62e5c711fc93e1c4",
+                "title": "On the Interface between Application Modelling and Language Design",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2671106",
+                        "name": "M. Besch"
+                    },
+                    {
+                        "s2_author_id": "2806754",
+                        "name": "G. Heber"
+                    },
+                    {
+                        "s2_author_id": "2077143818",
+                        "name": "Matthias Wilhelmi"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "1730909",
+                "name": "Jeremy S. Logan"
+            },
+            {
+                "s2_author_id": "37112455",
+                "name": "Kshitij Mehta"
+            },
+            {
+                "s2_author_id": "1736095",
+                "name": "S. Klasky"
+            },
+            {
+                "s2_author_id": "1753288",
+                "name": "T. Kur\u00e7"
+            },
+            {
+                "s2_author_id": "1734819",
+                "name": "N. Podhorszki"
+            },
+            {
+                "s2_author_id": "2946172",
+                "name": "Patrick M. Widener"
+            },
+            {
+                "s2_author_id": "143910836",
+                "name": "M. Wolf"
+            },
+            {
+                "s2_author_id": "69412308",
+                "name": "J. Mainzer"
+            },
+            {
+                "s2_author_id": "1474591874",
+                "name": "Neil Fortner"
+            },
+            {
+                "s2_author_id": "2333282",
+                "name": "Elena Pourmal"
+            },
+            {
+                "s2_author_id": "3239875",
+                "name": "Q. Koziol"
+            },
+            {
+                "s2_author_id": "1749233",
+                "name": "S. Byna"
+            },
+            {
+                "s2_author_id": "31888471",
+                "name": "M. Paterno"
+            },
+            {
+                "s2_author_id": "46488054",
+                "name": "S. Pokhrel"
+            },
+            {
+                "s2_author_id": "2115264554",
+                "name": "Miguel Rodriguez"
+            },
+            {
+                "s2_author_id": "39518518",
+                "name": "A. Samimi"
+            },
+            {
+                "s2_author_id": "3037888",
+                "name": "J. Simpson"
+            },
+            {
+                "s2_author_id": "11211397",
+                "name": "J. Warner"
+            },
+            {
+                "s2_author_id": "29979092",
+                "name": "G. F. Bomarito"
+            },
+            {
+                "s2_author_id": "29947633",
+                "name": "J. D. Hochhalter"
+            },
+            {
+                "s2_author_id": "2722924",
+                "name": "G. Abla"
+            },
+            {
+                "s2_author_id": "35162855",
+                "name": "D. Schissel"
+            },
+            {
+                "s2_author_id": "2115106063",
+                "name": "Dana Robinson"
+            },
+            {
+                "s2_author_id": "1732183",
+                "name": "L. Abadie"
+            },
+            {
+                "s2_author_id": "83709381",
+                "name": "A. Wallander"
+            },
+            {
+                "s2_author_id": "48033487",
+                "name": "S. Flanagan"
+            },
+            {
+                "s2_author_id": "2255548887",
+                "name": "Albert Cerrone"
+            },
+            {
+                "s2_author_id": "2364450032",
+                "name": "Jacob Hochhalter"
+            },
+            {
+                "s2_author_id": "1967710",
+                "name": "A. Ingraffea"
+            },
+            {
+                "s2_author_id": "50215269",
+                "name": "M. Folk"
+            },
+            {
+                "s2_author_id": "144637418",
+                "name": "R. Biswas"
+            },
+            {
+                "s2_author_id": "1757847",
+                "name": "L. Oliker"
+            },
+            {
+                "s2_author_id": "50318619",
+                "name": "G. Gao"
+            },
+            {
+                "s2_author_id": "38885699",
+                "name": "S. Saini"
+            },
+            {
+                "s2_author_id": "113082668",
+                "name": "J. Masters"
+            },
+            {
+                "s2_author_id": "101594274",
+                "name": "A. Alexov"
+            },
+            {
+                "s2_author_id": "1777806",
+                "name": "R. Hanisch"
+            },
+            {
+                "s2_author_id": "10259009",
+                "name": "M. Wise"
+            },
+            {
+                "s2_author_id": "2497814",
+                "name": "S. Achleitner"
+            },
+            {
+                "s2_author_id": "1722483",
+                "name": "W. Benger"
+            },
+            {
+                "s2_author_id": "49372457",
+                "name": "Hartmut Kaiser"
+            },
+            {
+                "s2_author_id": "2898752",
+                "name": "Nayong Kim"
+            },
+            {
+                "s2_author_id": "36852961",
+                "name": "Marcel Ritter"
+            },
+            {
+                "s2_author_id": "47060792",
+                "name": "Jian Tao"
+            },
+            {
+                "s2_author_id": "1693678",
+                "name": "S. Jha"
+            },
+            {
+                "s2_author_id": "98736728",
+                "name": "H. Kutschbach"
+            },
+            {
+                "s2_author_id": "2928752",
+                "name": "J. Emery"
+            },
+            {
+                "s2_author_id": "2364450020",
+                "name": "J. Hochhalter"
+            },
+            {
+                "s2_author_id": "2906555",
+                "name": "P. Wawrzynek"
+            },
+            {
+                "s2_author_id": "98160204",
+                "name": "J. E. Bozek"
+            },
+            {
+                "s2_author_id": "36221661",
+                "name": "M. Veilleux"
+            },
+            {
+                "s2_author_id": "2155765909",
+                "name": "M. Liu"
+            },
+            {
+                "s2_author_id": "95499638",
+                "name": "S. Sintay"
+            },
+            {
+                "s2_author_id": "94180602",
+                "name": "A. Rollett"
+            },
+            {
+                "s2_author_id": "145991867",
+                "name": "D. Littlewood"
+            },
+            {
+                "s2_author_id": "2963215",
+                "name": "A. Maniatty"
+            },
+            {
+                "s2_author_id": "2122710038",
+                "name": "H. Weiland"
+            },
+            {
+                "s2_author_id": "31825141",
+                "name": "R. Christ"
+            },
+            {
+                "s2_author_id": "145271820",
+                "name": "J. Payne"
+            },
+            {
+                "s2_author_id": "144997655",
+                "name": "G. Welsh"
+            },
+            {
+                "s2_author_id": "37210727",
+                "name": "D. Harlow"
+            },
+            {
+                "s2_author_id": "118571657",
+                "name": "A. Ingraffea"
+            },
+            {
+                "s2_author_id": "39941882",
+                "name": "J. Gray"
+            },
+            {
+                "s2_author_id": "40067642",
+                "name": "V. Coffman"
+            },
+            {
+                "s2_author_id": "2367283",
+                "name": "J. Sethna"
+            },
+            {
+                "s2_author_id": "47842472",
+                "name": "Mu Liu"
+            },
+            {
+                "s2_author_id": "2135919",
+                "name": "N. Bailey"
+            },
+            {
+                "s2_author_id": "36117339",
+                "name": "E. Barker"
+            },
+            {
+                "s2_author_id": "3246265",
+                "name": "Stratos Papadomanolakis"
+            },
+            {
+                "s2_author_id": "1728318",
+                "name": "A. Ailamaki"
+            },
+            {
+                "s2_author_id": "11118377",
+                "name": "Julio C. L\u00f3pez"
+            },
+            {
+                "s2_author_id": "47332435",
+                "name": "Tiankai Tu"
+            },
+            {
+                "s2_author_id": "1398754433",
+                "name": "D. O'Hallaron"
+            },
+            {
+                "s2_author_id": "34671101",
+                "name": "A. Ural"
+            },
+            {
+                "s2_author_id": "32634851",
+                "name": "D. Lewicki"
+            },
+            {
+                "s2_author_id": "1870162",
+                "name": "J. Neto"
+            },
+            {
+                "s2_author_id": "3026835",
+                "name": "David T. Liu"
+            },
+            {
+                "s2_author_id": "1389942725",
+                "name": "M. Nieto-Santisteban"
+            },
+            {
+                "s2_author_id": "7934073",
+                "name": "A. Szalay"
+            },
+            {
+                "s2_author_id": "1765659",
+                "name": "D. DeWitt"
+            },
+            {
+                "s2_author_id": "69531751",
+                "name": "C. Pelkie"
+            },
+            {
+                "s2_author_id": "2334819",
+                "name": "A. Dolgert"
+            },
+            {
+                "s2_author_id": "2107258051",
+                "name": "D. Thompson"
+            },
+            {
+                "s2_author_id": "1692320",
+                "name": "P. Thulasiraman"
+            },
+            {
+                "s2_author_id": "34368324",
+                "name": "A. Khokhar"
+            },
+            {
+                "s2_author_id": "6937339",
+                "name": "Anirudha Thakar"
+            },
+            {
+                "s2_author_id": "9035218",
+                "name": "G. Fekete"
+            },
+            {
+                "s2_author_id": "69497760",
+                "name": "W. O'Mullane"
+            },
+            {
+                "s2_author_id": "2528241",
+                "name": "A. Rots"
+            },
+            {
+                "s2_author_id": "3223763",
+                "name": "Paul V. Stodghill"
+            },
+            {
+                "s2_author_id": "40325008",
+                "name": "R. Cronin"
+            },
+            {
+                "s2_author_id": "1776186",
+                "name": "K. Pingali"
+            },
+            {
+                "s2_author_id": "2257901081",
+                "name": "Paul Chew"
+            },
+            {
+                "s2_author_id": "1768988",
+                "name": "Nikos Chrisochoides"
+            },
+            {
+                "s2_author_id": "2121126",
+                "name": "S. Gopalsamy"
+            },
+            {
+                "s2_author_id": "2300203041",
+                "name": "Tony Ingraffea"
+            },
+            {
+                "s2_author_id": "3021436",
+                "name": "E. Luke"
+            },
+            {
+                "s2_author_id": "1866428",
+                "name": "A. Shih"
+            },
+            {
+                "s2_author_id": "13566574",
+                "name": "B. Soni"
+            },
+            {
+                "s2_author_id": "2296447340",
+                "name": "D. Thompson"
+            },
+            {
+                "s2_author_id": "2300203039",
+                "name": "Steve Vavasis"
+            },
+            {
+                "s2_author_id": "3332113",
+                "name": "G. Coulouris"
+            },
+            {
+                "s2_author_id": "3334123",
+                "name": "D. Lifka"
+            },
+            {
+                "s2_author_id": "2064959601",
+                "name": "D. Schneider"
+            },
+            {
+                "s2_author_id": "40657738",
+                "name": "J. Zollweg"
+            },
+            {
+                "s2_author_id": "102680871",
+                "name": "E. Iesulauro"
+            },
+            {
+                "s2_author_id": "31865442",
+                "name": "B. J. Carter"
+            },
+            {
+                "s2_author_id": "5228302",
+                "name": "G. Fussmann"
+            },
+            {
+                "s2_author_id": "1736848",
+                "name": "K. Theobald"
+            },
+            {
+                "s2_author_id": "2143908646",
+                "name": "Rishi Kumar"
+            },
+            {
+                "s2_author_id": "145340303",
+                "name": "G. Agrawal"
+            },
+            {
+                "s2_author_id": "1701145",
+                "name": "R. Thulasiram"
+            },
+            {
+                "s2_author_id": "2055628729",
+                "name": "Bruce Carter"
+            },
+            {
+                "s2_author_id": "153246581",
+                "name": "Chuin\u2010Shan Chen"
+            },
+            {
+                "s2_author_id": "144543680",
+                "name": "L. Chew"
+            },
+            {
+                "s2_author_id": "2244562784",
+                "name": "Antony R. Ingraffea"
+            },
+            {
+                "s2_author_id": "33913600",
+                "name": "R. Krause"
+            },
+            {
+                "s2_author_id": "1995516",
+                "name": "C. Myers"
+            },
+            {
+                "s2_author_id": "3274748",
+                "name": "D\u00e9mian Nave"
+            },
+            {
+                "s2_author_id": "1692336",
+                "name": "S. Vavasis"
+            },
+            {
+                "s2_author_id": "2244567898",
+                "name": "Rhodes Hall"
+            },
+            {
+                "s2_author_id": "10685934",
+                "name": "X. Li"
+            },
+            {
+                "s2_author_id": "2082481941",
+                "name": "D. Bailey"
+            },
+            {
+                "s2_author_id": "2671106",
+                "name": "M. Besch"
+            },
+            {
+                "s2_author_id": "2077143818",
+                "name": "Matthias Wilhelmi"
+            },
+            {
+                "s2_author_id": "1694548",
+                "name": "J. N. Amaral"
+            },
+            {
+                "s2_author_id": "2414809",
+                "name": "O. Maquelin"
+            },
+            {
+                "s2_author_id": "2109887887",
+                "name": "Xinan Tang"
+            },
+            {
+                "s2_author_id": "2098087247",
+                "name": "Rupak Biswasy"
+            },
+            {
+                "s2_author_id": "49087008",
+                "name": "Jens Gerlach"
+            },
+            {
+                "s2_author_id": "50393618",
+                "name": "J. Eichhorn"
+            },
+            {
+                "s2_author_id": "1792619",
+                "name": "C. Lindemann"
+            },
+            {
+                "s2_author_id": "49325569",
+                "name": "H. Bi"
+            },
+            {
+                "s2_author_id": "102384501",
+                "name": "P. Enskonatus"
+            },
+            {
+                "s2_author_id": "46585870",
+                "name": "M. Kessler"
+            },
+            {
+                "s2_author_id": "144880706",
+                "name": "A. Schramm"
+            },
+            {
+                "s2_author_id": "2113529344",
+                "name": "M. Hoffmann"
+            },
+            {
+                "s2_author_id": "6745363",
+                "name": "G. R\u00f6pke"
+            }
+        ],
+        "total_co_authors": 138,
+        "papers_retrieved": 73
+    }
+}

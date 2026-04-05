@@ -1,0 +1,2415 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000112756",
+        "name": "Marten H Wegkamp",
+        "primary_affiliation": "Cornell University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Cornell University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "NY"
+        ],
+        "perf_cities": [
+            "ITHACA"
+        ],
+        "org_names": [
+            "Cornell University"
+        ],
+        "org_ueis": [
+            "G56PUALJ3KT5"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "marten.wegkamp@cornell.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2515156",
+                "title": "Softmax mixture ensembles for leveraging LLM output",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-08-15",
+                "exp_date": "2028-07-31",
+                "award_amount": 250000.0,
+                "total_amount": 250000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000431503"
+                ],
+                "program_elements": [
+                    "STATISTICS"
+                ],
+                "program_codes": [
+                    "126900"
+                ],
+                "program_references": [
+                    "Machine Learning Theory",
+                    "Artificial Intelligence (AI)",
+                    "STATISTICS"
+                ],
+                "program_ref_codes": [
+                    "079Z",
+                    "075Z",
+                    "1269"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "DMS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Mathematical Sciences",
+                "cfda_num": "47.049",
+                "po_name": "Tapabrata Maiti",
+                "keywords": [
+                    "softmax",
+                    "models",
+                    "mixture",
+                    "ensemble",
+                    "questions",
+                    "generated",
+                    "tools",
+                    "statistics",
+                    "parameter",
+                    "output"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000431503"
+        ],
+        "program_elements": [
+            "STATISTICS"
+        ],
+        "program_codes": [
+            "126900"
+        ],
+        "program_references": [
+            "Machine Learning Theory",
+            "Artificial Intelligence (AI)",
+            "STATISTICS"
+        ],
+        "program_ref_codes": [
+            "079Z",
+            "075Z",
+            "1269"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "DMS"
+        ],
+        "fund_divisions": [
+            "Division Of Mathematical Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049"
+        ],
+        "program_officers": [
+            "Tapabrata Maiti"
+        ],
+        "keywords": [
+            "softmax",
+            "models",
+            "mixture",
+            "ensemble",
+            "questions",
+            "generated",
+            "tools",
+            "statistics",
+            "parameter",
+            "output",
+            "evaluation",
+            "language",
+            "llms",
+            "statistical",
+            "parameters",
+            "corpus",
+            "summaries",
+            "between",
+            "develop",
+            "interpretable"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.51
+    },
+    "s2_profile": {
+        "s2_author_id": "2417924",
+        "name": "Marten H Wegkamp",
+        "affiliations": [],
+        "paper_count": 77,
+        "citation_count": 4035,
+        "h_index": 28,
+        "papers": [
+            {
+                "s2_paper_id": "556285a03dd6c0361741123ab18ae2a29ffc339c",
+                "title": "Linear Discriminant Regularized Regression",
+                "year": 2024,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 57,
+                "abstract": "Linear Discriminant Analysis (LDA) is an important classification approach. Its simple linear form makes it easy to interpret, and it is well-suited for handling multi-class responses. It is closely related to other classical multivariate statistical techniques, such as Fisher's discriminant analysis, canonical correlation analysis and linear regression. In this paper we strengthen its connection to multivariate response regression by characterizing the explicit relationship between discriminant directions and regression coefficients. This key characterization leads to a new regression-based multi-class classification procedure that is flexible enough to deploy any existing structured, regularized, and even non-parametric, regression methods. In contrast with the existing regression-based approaches, our new formulation is particularly amenable to establish provable guarantees: we establish a general strategy of analyzing the excess misclassification risk of the proposed classifier for all aforementioned regression techniques. As applications, we provide complete theoretical guarantees for using the widely used $\\ell_1$-regularization as well as for using the reduced-rank regression, neither of which has yet been fully analyzed in the LDA context. Our theoretical findings are corroborated by extensive simulation studies and real data analysis.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2285028514",
+                        "name": "Bingqing Li"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ee3e6a9ae76d191a405e98f0af13a359e34536a4",
+                "title": "Learning large softmax mixtures with warm start EM",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": "Softmax mixture models (SMMs) are discrete $K$-mixtures introduced to model the probability of choosing an attribute $x_j \\in \\RR^L$ from $p$ candidates, in heterogeneous populations. They have been known as mixed multinomial logits in the econometrics literature, and are gaining traction in the LLM literature, where single softmax models are routinely used in the final layer of a neural network. This paper provides a comprehensive analysis of the EM algorithm for SMMs in high dimensions. Its population-level theoretical analysis forms the basis for proving (i) local identifiability, in SSMs with generic features and, further, via a stochastic argument, (ii) full identifiability in SSMs with random features, when $p$ is large enough. These are the first results in this direction for SSMs with $L>1$. The population-level EM analysis characterizes the initialization radius for algorithmic convergence. This also guides the construction of warm starts of the sample level EM. Under suitable initialization, the EM algorithm is shown to recover the mixture atoms of the SSM at near-parametric rate. We provide two main directions for warm start construction, both based on a new method for estimating the moments of the mixing measure underlying an SSM with random design. First, we construct a method of moments (MoM) estimator of the mixture parameters, and provide its first theoretical analysis. While MoM can enjoy parametric rates of convergence, and thus can serve as a warm-start, the estimator's quality degrades exponentially in $K$. Our recommendation, when $K$ is not small, is to run the EM algorithm several times with random initializations. We again make use of the novel latent moments estimation method to estimate the $K$-dimensional subspace of the mixture atoms. Sampling from this subspace reduces substantially the number of required draws.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2294718239",
+                        "name": "Jonathan Niles-Weed"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f925a37b98fab49120d11930904f93ea6da99a0",
+                "title": "Interpolating Discriminant Functions in High-Dimensional Gaussian Latent Mixtures",
+                "year": 2022,
+                "venue": "Biometrika",
+                "citation_count": 2,
+                "reference_count": 28,
+                "abstract": "\n This paper considers binary classification of high-dimensional features under a postulated model with a low-dimensional latent Gaussian mixture structure and nonvanishing noise. A generalized least squares estimator is used to estimate the direction of the optimal separating hyperplane. The estimated hyperplane is shown to interpolate on the training data. While the direction vector can be consistently estimated as could be expected from recent results in linear regression, a naive plug-in estimate fails to consistently estimate the intercept. A simple correction, that requires an independent hold-out sample, renders the procedure minimax optimal in many scenarios. The interpolation property of the latter procedure can be retained, but surprisingly depends on the way the labels are encoded.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b9bfac830753ff51920cbb43b04d361fd57aca9e",
+                "title": "Optimal discriminant analysis in high-dimensional latent factor models",
+                "year": 2022,
+                "venue": "Annals of Statistics",
+                "citation_count": 3,
+                "reference_count": 57,
+                "abstract": "In high-dimensional classification problems, a commonly used approach is to first project the high-dimensional features into a lower dimensional space, and base the classification on the resulting lower dimensional projections. In this paper, we formulate a latent-variable model with a hidden low-dimensional structure to justify this two-step procedure and to guide which projection to choose. We propose a computationally efficient classifier that takes certain principal components (PCs) of the observed features as projections, with the number of retained PCs selected in a data-driven way. A general theory is established for analyzing such two-step classifiers based on any projections. We derive explicit rates of convergence of the excess risk of the proposed PC-based classifier. The obtained rates are further shown to be optimal up to logarithmic factors in the minimax sense. Our theory allows the lower-dimension to grow with the sample size and is also valid even when the feature dimension (greatly) exceeds the sample size. Extensive simulations corroborate our theoretical findings. The proposed method also performs favorably relative to other existing discriminant methods on three real data examples.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bfdc4dfacaf543092cf97896c9260c3eee33f0b4",
+                "title": "Interpolating Predictors in High-Dimensional Factor Regression",
+                "year": 2022,
+                "venue": "Journal of machine learning research",
+                "citation_count": 13,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "1451789216",
+                        "name": "Seth Strimas-Mackey"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cfdf91aba755e16219907cd125fa414b78330156",
+                "title": "Inference in latent factor regression with clusterable features",
+                "year": 2022,
+                "venue": "Bernoulli",
+                "citation_count": 6,
+                "reference_count": 62,
+                "abstract": "Regression models, in which the observed features X \u2208 R p and the response Y \u2208 R depend, jointly, on a lower dimensional, unobserved, latent vector Z \u2208 R K , with K (cid:3) p , are popular in a large array of applications, and mainly used for predicting a response from correlated features. In contrast, methodology and theory for inference on the regression coef\ufb01cient \u03b2 \u2208 R K relating Y to Z are scarce, since typically the un-observable factor Z is hard to interpret. Furthermore, the determination of the asymptotic variance of an estimator of \u03b2 is a long-standing problem, with solutions known only in a few particular cases. To address some of these outstanding questions, we develop inferential tools for \u03b2 in a class of factor regression models in which the observed features are signed mixtures of the latent factors. The model speci\ufb01cations are both practically desirable, in a large array of applications, render interpretability to the components of Z , and are suf\ufb01cient for parameter identi\ufb01ability. Without assuming that the number of latent factors K or the structure of the mixture is known in advance, we construct computationally ef\ufb01cient estimators of \u03b2 , along with estimators of other important model parameters. We benchmark the rate of convergence of \u03b2 by \ufb01rst establishing its (cid:3) 2 -norm minimax lower bound, and show that our proposed estimator (cid:2) \u03b2 is minimax-rate adaptive. Our main contribution is the provision of a uni\ufb01ed analysis of the component-wise Gaussian asymptotic distribution of (cid:2) \u03b2 and, especially, the derivation of a closed form expression of its asymptotic variance, together with consistent variance estimators. The resulting inferential tools can be used when both K and p are independent of the sample size n , and also when both, or either, p and K vary with n , while allowing for p > n . This complements the only asymptotic normality results obtained for a particular case of the model under consideration, in the regime K = O( 1 ) and p \u2192 \u221e , but without a variance estimate. As an application, we provide, within our model speci\ufb01cations, a statistical platform for inference in regression on latent cluster centers, thereby increasing the scope of our theoretical results. We benchmark the newly developed methodology on a recently collected data set for the study of the effectiveness of a new SIV vaccine. Our analysis enables the determination of the top latent antibody-centric mechanisms associated with the vaccine response.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d9d96a3c242befcda415f31d3c1e0cc56a9f0fd5",
+                "title": "Essential Regression: A generalizable framework for inferring causal latent factors from multi-omic datasets",
+                "year": 2022,
+                "venue": "Patterns",
+                "citation_count": 9,
+                "reference_count": 60,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "12645812",
+                        "name": "T. Lovelace"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "6164736",
+                        "name": "S. Kasturi"
+                    },
+                    {
+                        "s2_author_id": "144048574",
+                        "name": "Harinder Singh"
+                    },
+                    {
+                        "s2_author_id": "1943359",
+                        "name": "P. Benos"
+                    },
+                    {
+                        "s2_author_id": "40661396",
+                        "name": "Jishnu Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e545e7e65107c36b1478f540cf33597f35a90456",
+                "title": "SLIDE: Significant Latent Factor Interaction Discovery and Exploration across biological domains",
+                "year": 2022,
+                "venue": "bioRxiv",
+                "citation_count": 19,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2192612181",
+                        "name": "Javad Rahimikollu"
+                    },
+                    {
+                        "s2_author_id": "2143611027",
+                        "name": "Han Xiao"
+                    },
+                    {
+                        "s2_author_id": "2192613623",
+                        "name": "Anna E. Rosengart"
+                    },
+                    {
+                        "s2_author_id": "50400608",
+                        "name": "T. Tabib"
+                    },
+                    {
+                        "s2_author_id": "114773889",
+                        "name": "Paul M. Zdinak"
+                    },
+                    {
+                        "s2_author_id": "2190820519",
+                        "name": "Kun He"
+                    },
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "6465000",
+                        "name": "Amanda C. Poholek"
+                    },
+                    {
+                        "s2_author_id": "11594583",
+                        "name": "Alok V. Joglekar"
+                    },
+                    {
+                        "s2_author_id": "48603265",
+                        "name": "R. Lafyatis"
+                    },
+                    {
+                        "s2_author_id": "2177519938",
+                        "name": "Jishnu Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "43bf3ae9f51f4a6efc3e80cb8a9d8ab0a9075004",
+                "title": "CausER - a framework for inferring causal latent factors using multi-omic human datasets",
+                "year": 2021,
+                "venue": "bioRxiv",
+                "citation_count": 0,
+                "reference_count": 53,
+                "abstract": "High-dimensional cellular and molecular profiling of human samples highlights the need for analytical approaches that can integrate multi-omic datasets to generate predictive biomarkers that are in turn accompanied with strong causal inferences. Current methodologies are challenged by the high dimensionality of the combined datasets, the differences in distributions across the datasets, and their integration in a plausible causal framework, beyond merely correlative biomarkers. Here we present CausER, a first-in-class two-step interpretable machine learning approach for high-dimensional multi-omic datasets, that addresses these problems by identifying latent factors and their cause-effect relationships with the system-wide outcome/property of interest. The first step consists of Essential Regression (ER), a novel data-distribution-free regression model that integrates multi-omic datasets and identifies latent factors significantly associated with an outcome. The second involves probabilistic graphical modeling of the significant latent factors to infer plausible causal associations between them and mechanisms that affect outcomes, thereby significantly moving beyond predictive associative markers. By analyzing varied human immunological multi-omic datasets, we demonstrate that CausER significantly outperforms a wide range of state-of-the-art approaches. It generates novel cellular and molecular predictions in a range of contexts, including immunosenescence and sustained immune dysregulation associated with pre-term birth, that are corroborated by biological findings in model systems.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "12645812",
+                        "name": "T. Lovelace"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "144048574",
+                        "name": "Harinder Singh"
+                    },
+                    {
+                        "s2_author_id": "1943359",
+                        "name": "P. Benos"
+                    },
+                    {
+                        "s2_author_id": "40661396",
+                        "name": "Jishnu Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6f7751664f89b4dfb857340a8f3052784895bfcb",
+                "title": "Prediction Under Latent Factor Regression: Adaptive PCR, Interpolating Predictors and Beyond",
+                "year": 2021,
+                "venue": "Journal of machine learning research",
+                "citation_count": 17,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "1451789216",
+                        "name": "Seth Strimas-Mackey"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9bc59c7ccf2a6b0fc6ecfdd859734dcc903f0bcd",
+                "title": "Likelihood estimation of sparse topic distributions in topic models and its applications to Wasserstein document distance calculations",
+                "year": 2021,
+                "venue": "Annals of Statistics",
+                "citation_count": 5,
+                "reference_count": 47,
+                "abstract": "This paper studies the estimation of high-dimensional, discrete, possibly sparse, mixture models in topic models. The data consists of observed multinomial counts of $p$ words across $n$ independent documents. In topic models, the $p\\times n$ expected word frequency matrix is assumed to be factorized as a $p\\times K$ word-topic matrix $A$ and a $K\\times n$ topic-document matrix $T$. Since columns of both matrices represent conditional probabilities belonging to probability simplices, columns of $A$ are viewed as $p$-dimensional mixture components that are common to all documents while columns of $T$ are viewed as the $K$-dimensional mixture weights that are document specific and are allowed to be sparse. The main interest is to provide sharp, finite sample, $\\ell_1$-norm convergence rates for estimators of the mixture weights $T$ when $A$ is either known or unknown. For known $A$, we suggest MLE estimation of $T$. Our non-standard analysis of the MLE not only establishes its $\\ell_1$ convergence rate, but reveals a remarkable property: the MLE, with no extra regularization, can be exactly sparse and contain the true zero pattern of $T$. We further show that the MLE is both minimax optimal and adaptive to the unknown sparsity in a large class of sparse topic distributions. When $A$ is unknown, we estimate $T$ by optimizing the likelihood function corresponding to a plug in, generic, estimator $\\hat{A}$ of $A$. For any estimator $\\hat{A}$ that satisfies carefully detailed conditions for proximity to $A$, the resulting estimator of $T$ is shown to retain the properties established for the MLE. The ambient dimensions $K$ and $p$ are allowed to grow with the sample sizes. Our application is to the estimation of 1-Wasserstein distances between document generating distributions. We propose, estimate and analyze new 1-Wasserstein distances between two probabilistic document representations.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "1451789216",
+                        "name": "Seth Strimas-Mackey"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "136d0a4c37e1fd573c059b00937267fb7f6c4160",
+                "title": "Optimal estimation of sparse topic models",
+                "year": 2020,
+                "venue": "Journal of machine learning research",
+                "citation_count": 10,
+                "reference_count": 21,
+                "abstract": "Topic models have become popular tools for dimension reduction and exploratory analysis of text data which consists in observed frequencies of a vocabulary of $p$ words in $n$ documents, stored in a $p\\times n$ matrix. The main premise is that the mean of this data matrix can be factorized into a product of two non-negative matrices: a $p\\times K$ word-topic matrix $A$ and a $K\\times n$ topic-document matrix $W$. This paper studies the estimation of $A$ that is possibly element-wise sparse, and the number of topics $K$ is unknown. In this under-explored context, we derive a new minimax lower bound for the estimation of such $A$ and propose a new computationally efficient algorithm for its recovery. We derive a finite sample upper bound for our estimator, and show that it matches the minimax lower bound in many scenarios. Our estimate adapts to the unknown sparsity of $A$ and our analysis is valid for any finite $n$, $p$, $K$ and document lengths. Empirical results on both synthetic data and semi-synthetic data show that our proposed estimator is a strong competitor of the existing state-of-the-art algorithms for both non-sparse $A$ and sparse $A$, and has superior performance is many scenarios of interest.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "33a4b3a67fb9c3a827a0c6502eacf448d6be2ae0",
+                "title": "Prediction in latent factor regression: Adaptive PCR and beyond",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 2,
+                "reference_count": 36,
+                "abstract": "This work is devoted to the finite sample prediction risk analysis of a class of linear predictors of a response $Y\\in \\mathbb{R}$ from a high-dimensional random vector $X\\in \\mathbb{R}^p$ when $(X,Y)$ follows a latent factor regression model generated by a unobservable latent vector $Z$ of dimension less than $p$. Our primary contribution is in establishing finite sample risk bounds for prediction with the ubiquitous Principal Component Regression (PCR) method, under the factor regression model, with the number of principal components adaptively selected from the data---a form of theoretical guarantee that is surprisingly lacking from the PCR literature. To accomplish this, we prove a master theorem that establishes a risk bound for a large class of predictors, including the PCR predictor as a special case. This approach has the benefit of providing a unified framework for the analysis of a wide range of linear prediction methods, under the factor regression setting. In particular, we use our main theorem to recover known risk bounds for the minimum-norm interpolating predictor, which has received renewed attention in the past two years, and a prediction method tailored to a subclass of factor regression models with identifiable parameters. This model-tailored method can be interpreted as prediction via clusters with latent centers. To address the problem of selecting among a set of candidate predictors, we analyze a simple model selection procedure based on data-splitting, providing an oracle inequality under the factor model to prove that the performance of the selected predictor is close to the optimal candidate. We conclude with a detailed simulation study to support and complement our theoretical results.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "1451789216",
+                        "name": "Seth Strimas-Mackey"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "af1b4160ac425f515b633240719557a308bd3cd9",
+                "title": "Detecting approximate replicate components of a high-dimensional random vector with latent structure",
+                "year": 2020,
+                "venue": "Bernoulli",
+                "citation_count": 5,
+                "reference_count": 46,
+                "abstract": "High-dimensional feature vectors are likely to contain sets of measurements that are approximate replicates of one another. In complex applications, or automated data collection, these feature sets are not known a priori, and need to be determined. This work proposes a class of latent factor models on the observed high-dimensional random vector $X \\in \\mathbb{R}^p$, for defining, identifying and estimating the index set of its approximately replicate components. The model class is parametrized by a $p \\times K$ loading matrix $A$ that contains a hidden sub-matrix whose rows can be partitioned into groups of parallel vectors. Under this model class, a set of approximate replicate components of $X$ corresponds to a set of parallel rows in $A$: these entries of $X$ are, up to scale and additive error, the same linear combination of the $K$ latent factors; the value of $K$ is itself unknown. The problem of finding approximate replicates in $X$ reduces to identifying, and estimating, the location of the hidden sub-matrix within $A$, and of the partition of its row index set $H$. Both $H$ and its partiton can be fully characterized in terms of a new family of criteria based on the correlation matrix of $X$, and their identifiability, as well as that of the unknown latent dimension $K$, are obtained as consequences. The constructive nature of the identifiability arguments enables computationally efficient procedures, with consistency guarantees. When $A$ has the errors-in-variable parametrization, the difficulty of the problem is elevated. The task becomes that of separating out groups of parallel rows that are proportional to canonical basis vectors from other dense parallel rows in $A$. This is met under a scale assumption, via a principled way of selecting the target row indices, guided by the succesive maximization of Schur complements of appropriate covariance matrices.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fcb18184b6e2020de95e5d3231d5f77b5b8009e6",
+                "title": "Interpolation under latent factor regression models",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 12,
+                "reference_count": 41,
+                "abstract": "This work studies finite-sample properties of the risk of the minimum-norm interpolating predictor in high-dimensional regression models. If the effective rank of the covariance matrix $\\Sigma$ of the $p$ regression features is much larger than the sample size $n$, we show that the min-norm interpolating predictor is not desirable, as its risk approaches the risk of trivially predicting the response by $0$. However, our detailed finite sample analysis reveals, surprisingly, that this behavior is not present when the regression response and the features are jointly low-dimensional, and follow a widely used factor regression model. Within this popular model class, and when the effective rank of $\\Sigma$ is smaller than $n$, while still allowing for $p \\gg n$, both the bias and the variance terms of the excess risk can be controlled, and the risk of the minimum-norm interpolating predictor approaches optimal benchmarks. Moreover, through a detailed analysis of the bias term, we exhibit model classes under which our upper bound on the excess risk approaches zero, while the corresponding upper bound in the recent work arXiv:1906.11300v3 diverges. Furthermore, we show that minimum-norm interpolating predictors analyzed under factor regression models, despite being model-agnostic, can have similar risk to model-assisted predictors based on principal components regression, in the high-dimensional regime.",
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "1451789216",
+                        "name": "Seth Strimas-Mackey"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "925c29e32afb1f3fa9594771c25839d0c3cfa309",
+                "title": "SUPPLEMENT: ADAPTIVE ESTIMATION IN STRUCTURED FACTOR MODELS WITH APPLICATIONS TO OVERLAPPING CLUSTERING By Xin Bing and Florentina Bunea and Yang Ning",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9aa3211c4e8763cabad172abaebc2ee63aab5866",
+                "title": "Inference in Interpretable Latent Factor Regression Models",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fa6b5fc74bc1bb985ffd5ea522af7c4b5dcfedc4",
+                "title": "Essential regression",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 56,
+                "abstract": "Essential Regression is a new type of latent factor regression model, where unobserved factors $Z\\in \\R^K$ influence linearly both the response $Y\\in\\R $ and the covariates $X\\in\\R^p$ with $K\\ll p$. Its novelty consists in the conditions that give $Z$ interpretable meaning and render the regression coefficients $\\beta\\in \\R^K$ relating $Y$ to $Z$ -- along with other important parameters of the model -- identifiable. It provides tools for high dimensional regression modelling that are especially powerful when the relationship between a response and {\\it essential representatives} $Z$ of the $X$-variables is of interest. Since in classical factor regression models $Z$ is often not identifiable, nor practically interpretable, inference for $\\beta$ is not of direct interest and has received little attention. We bridge this gap in E-Regressions models: we develop a computationally efficient estimator of $\\beta$, show that it is minimax-rate optimal (in Euclidean norm) and component-wise asymptotically normal, with small asymptotic variance. Inference in Essential Regression is performed {\\it after} consistently estimating the unknown dimension $K$, and all the $K$ subsets of the $X$-variables that explain, respectively, the individual components of $Z$. It is valid uniformly in $\\beta\\in\\R^K$, in contrast with existing results on inference in sparse regression after consistent support recovery, which are not valid for regression coefficients of $Y$ on $X$ near zero. Prediction of $Y$ from $X$ under Essential Regression complements, in a low signal-to-noise ratio regime, the battery of methods developed for prediction under different factor regression model specifications. Similarly to other methods, it is particularly powerful when $p$ is large, with further refinements made possible by our model specifications.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "1451789216",
+                        "name": "Seth Strimas-Mackey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "de6b56b0b87342f5d7066ee18f36818c63eec4b2",
+                "title": "A fast algorithm with minimax optimal guarantees for topic models with an unknown number of topics",
+                "year": 2018,
+                "venue": "Bernoulli",
+                "citation_count": 25,
+                "reference_count": 27,
+                "abstract": "We propose a new method of estimation in topic models, that is not a variation on the existing simplex finding algorithms, and that estimates the number of topics K from the observed data. We derive new finite sample minimax lower bounds for the estimation of A, as well as new upper bounds for our proposed estimator. We describe the scenarios where our estimator is minimax adaptive. Our finite sample analysis is valid for any number of documents (n), individual document length (N_i), dictionary size (p) and number of topics (K), and both p and K are allowed to increase with n, a situation not handled well by previous analyses. We complement our theoretical results with a detailed simulation study. We illustrate that the new algorithm is faster and more accurate than the current ones, although we start out with a computational and theoretical disadvantage of not knowing the correct number of topics K, while we provide the competing methods with the correct value in our simulations.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e55314bb5a59f452fccab3deac999577996c449",
+                "title": "Overlapping Variable Clustering with Statistical Guarantees",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "50318386",
+                        "name": "Y. Ning"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4b838f1d935988de35c3de243c86c39b60490a65",
+                "title": "Weak Convergence of Stationary Empirical Processes",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 26,
+                "abstract": "We offer an umbrella type result which extends weak convergence of the classical empirical process on the line to that of more general processes indexed by functions of bounded variation. This extension is not contingent on the type of dependence of the underlying sequence of random variables. As a consequence we establish weak convergence for stationary empirical processes indexed by general classes of functions under alpha mixing conditions.",
+                "authors": [
+                    {
+                        "s2_author_id": "39306444",
+                        "name": "D. Radulovic"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4c418dfaa2ad2a3ddcef7ab9a3d98fd545ed4efe",
+                "title": "Adaptive estimation of the rank of the coefficient matrix in high-dimensional multivariate response regression models",
+                "year": 2017,
+                "venue": "Annals of Statistics",
+                "citation_count": 24,
+                "reference_count": 38,
+                "abstract": "We consider the multivariate response regression problem with a regression coefficient matrix of low, unknown rank. In this setting, we analyze a new criterion for selecting the optimal reduced rank. This criterion differs notably from the one proposed in Bunea, She and Wegkamp [7] in that it does not require estimation of the unknown variance of the noise, nor depends on a delicate choice of a tuning parameter. We develop an iterative, fully data-driven procedure, that adapts to the optimal signal to noise ratio. This procedure finds the true rank in a few steps with overwhelming probability. At each step, our estimate increases, while at the same time it does not exceed the true rank. Our finite sample results hold for any sample size and any dimension, even when the number of responses and of covariates grow much faster than the number of observations. We perform an extensive simulation study that confirms our theoretical findings. The new method performs better and more stable than that in [7] in both low- and high-dimensional settings.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "59ac5fac8ddb7e127a4fe3b408ae15a258a22b6a",
+                "title": "Adaptive estimation in structured factor models with applications to overlapping clustering",
+                "year": 2017,
+                "venue": "Annals of Statistics",
+                "citation_count": 43,
+                "reference_count": 58,
+                "abstract": "This work introduces a novel estimation method, called LOVE, of the entries and structure of a loading matrix A in a sparse latent factor model X = AZ + E, for an observable random vector X in Rp, with correlated unobservable factors Z \\in RK, with K unknown, and independent noise E. Each row of A is scaled and sparse. In order to identify the loading matrix A, we require the existence of pure variables, which are components of X that are associated, via A, with one and only one latent factor. Despite the fact that the number of factors K, the number of the pure variables, and their location are all unknown, we only require a mild condition on the covariance matrix of Z, and a minimum of only two pure variables per latent factor to show that A is uniquely defined, up to signed permutations. Our proofs for model identifiability are constructive, and lead to our novel estimation method of the number of factors and of the set of pure variables, from a sample of size n of observations on X. This is the first step of our LOVE algorithm, which is optimization-free, and has low computational complexity of order p2. The second step of LOVE is an easily implementable linear program that estimates A. We prove that the resulting estimator is minimax rate optimal up to logarithmic factors in p. The model structure is motivated by the problem of overlapping variable clustering, ubiquitous in data science. We define the population level clusters as groups of those components of X that are associated, via the sparse matrix A, with the same unobservable latent factor, and multi-factor association is allowed. Clusters are respectively anchored by the pure variables, and form overlapping sub-groups of the p-dimensional random vector X. The Latent model approach to OVErlapping clustering is reflected in the name of our algorithm, LOVE.",
+                "authors": [
+                    {
+                        "s2_author_id": "47139710",
+                        "name": "Xin Bing"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "50318386",
+                        "name": "Y. Ning"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ed0fc136bfed3f289578e4673806adb90dfdeca0",
+                "title": "Index of authors, volume 79, 2017",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 47,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2107317871",
+                        "name": "C. Cheng"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "P. Contreras"
+                    },
+                    {
+                        "s2_author_id": "2777059",
+                        "name": "F. Critchley"
+                    },
+                    {
+                        "s2_author_id": "2218268181",
+                        "name": "Y. Feng"
+                    },
+                    {
+                        "s2_author_id": "2060553976",
+                        "name": "F. Fortunato"
+                    },
+                    {
+                        "s2_author_id": "16180446",
+                        "name": "L. Frattarolo"
+                    },
+                    {
+                        "s2_author_id": "3350586",
+                        "name": "P. Fryzlewicz"
+                    },
+                    {
+                        "s2_author_id": "3190972",
+                        "name": "M. Gataric"
+                    },
+                    {
+                        "s2_author_id": "1839473",
+                        "name": "T. Gneiting"
+                    },
+                    {
+                        "s2_author_id": "97507451",
+                        "name": "C. Hennig"
+                    },
+                    {
+                        "s2_author_id": "2160020003",
+                        "name": "H. Jamil"
+                    },
+                    {
+                        "s2_author_id": "2160019825",
+                        "name": "L. Janson"
+                    },
+                    {
+                        "s2_author_id": "4758284",
+                        "name": "C. Leng"
+                    },
+                    {
+                        "s2_author_id": "2160019752",
+                        "name": "S. Lerch"
+                    },
+                    {
+                        "s2_author_id": "2107746237",
+                        "name": "B. Li"
+                    },
+                    {
+                        "s2_author_id": "2093175665",
+                        "name": "Y. Ling"
+                    },
+                    {
+                        "s2_author_id": "2107809798",
+                        "name": "M. Liu"
+                    },
+                    {
+                        "s2_author_id": "2233744074",
+                        "name": "W. Lu"
+                    },
+                    {
+                        "s2_author_id": "2107155159",
+                        "name": "X. Lu"
+                    },
+                    {
+                        "s2_author_id": "1736679",
+                        "name": "P. McNicholas"
+                    },
+                    {
+                        "s2_author_id": "78961632",
+                        "name": "A. Montanari"
+                    },
+                    {
+                        "s2_author_id": "1721235",
+                        "name": "F. Murtagh"
+                    },
+                    {
+                        "s2_author_id": "2399788332",
+                        "name": "L. Rossini"
+                    },
+                    {
+                        "s2_author_id": "2613424",
+                        "name": "R. Sabolova"
+                    },
+                    {
+                        "s2_author_id": "2788351",
+                        "name": "R. Samworth"
+                    },
+                    {
+                        "s2_author_id": "2113917117",
+                        "name": "C. Shi"
+                    },
+                    {
+                        "s2_author_id": "2067622383",
+                        "name": "R. Song"
+                    },
+                    {
+                        "s2_author_id": "100570597",
+                        "name": "M. Stehl\u00edk"
+                    },
+                    {
+                        "s2_author_id": "2221880",
+                        "name": "L. St\u0159elec"
+                    },
+                    {
+                        "s2_author_id": "90267326",
+                        "name": "P. Switzer"
+                    },
+                    {
+                        "s2_author_id": "90751081",
+                        "name": "M. Thulin"
+                    },
+                    {
+                        "s2_author_id": "3408290",
+                        "name": "J. Tomal"
+                    },
+                    {
+                        "s2_author_id": "48541231",
+                        "name": "H. Tong"
+                    },
+                    {
+                        "s2_author_id": "8628404",
+                        "name": "X. Tong"
+                    },
+                    {
+                        "s2_author_id": "2745817",
+                        "name": "C. Viroli"
+                    },
+                    {
+                        "s2_author_id": "51263839",
+                        "name": "X. Wang"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "145228938",
+                        "name": "W. Welch"
+                    },
+                    {
+                        "s2_author_id": "1575953520",
+                        "name": "Y. Wu"
+                    },
+                    {
+                        "s2_author_id": "2067731542",
+                        "name": "J. Xue"
+                    },
+                    {
+                        "s2_author_id": "2107541714",
+                        "name": "X. Yang"
+                    },
+                    {
+                        "s2_author_id": "2724170",
+                        "name": "Y. Yatracos"
+                    },
+                    {
+                        "s2_author_id": "2149445606",
+                        "name": "K. Yu"
+                    },
+                    {
+                        "s2_author_id": "1977240",
+                        "name": "R. Zamar"
+                    },
+                    {
+                        "s2_author_id": "81322699",
+                        "name": "W. Zhang"
+                    },
+                    {
+                        "s2_author_id": "49904691",
+                        "name": "C. Zheng"
+                    },
+                    {
+                        "s2_author_id": "2107187868",
+                        "name": "Z. Zhu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1929d36a4e920a25ca3b4f558b621af91a7bf218",
+                "title": "An elementary proof of the weak convergence of empirical processes",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39306444",
+                        "name": "D. Radulovic"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ef044c9324f21105921dc627a14040881281777",
+                "title": "Asymptotic total variation tests for copulas",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46259133",
+                        "name": "J. Fermanian"
+                    },
+                    {
+                        "s2_author_id": "39306444",
+                        "name": "D. Radulovic"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a10f97b75d57397dd22a147f7108f115693da70e",
+                "title": "ENCAPP: elastic-net-based prognosis prediction and biomarker discovery for human cancers",
+                "year": 2015,
+                "venue": "BMC Genomics",
+                "citation_count": 39,
+                "reference_count": 50,
+                "abstract": "With the explosion of genomic data over the last decade, there has been a tremendous amount of effort to understand the molecular basis of cancer using informatics approaches. However, this has proven to be extremely difficult primarily because of the varied etiology and vast genetic heterogeneity of different cancers and even within the same cancer. One particularly challenging problem is to predict prognostic outcome of the disease for different patients. Here, we present ENCAPP, an elastic-net-based approach that combines the reference human protein interactome network with gene expression data to accurately predict prognosis for different human cancers. Our method identifies functional modules that are differentially expressed between patients with good and bad prognosis and uses these to fit a regression model that can be used to predict prognosis for breast, colon, rectal, and ovarian cancers. Using this model, ENCAPP can also identify prognostic biomarkers with a high degree of confidence, which can be used to generate downstream mechanistic and therapeutic insights. ENCAPP is a robust method that can accurately predict prognostic outcome and identify biomarkers for different human cancers.",
+                "authors": [
+                    {
+                        "s2_author_id": "40661396",
+                        "name": "Jishnu Das"
+                    },
+                    {
+                        "s2_author_id": "3938312",
+                        "name": "Kaitlyn M. Gayvert"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "145339878",
+                        "name": "Haiyuan Yu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "64e9209ef0455bb4f7a17a52a2f246c382dd2cac",
+                "title": "Weak convergence of empirical copula processes indexed by functions",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 25,
+                "reference_count": 44,
+                "abstract": "Weak convergence of the empirical copula process indexed by a class of functions is established. Two scenarios are considered in which either some smoothness of these functions or smoothness of the underlying copula function is required. \nA novel integration by parts formula for multivariate, right continuous functions of bounded variation, which is perhaps of independent interest, is proved. It is a key ingredient in proving weak convergence of a general empirical process indexed by functions of bounded variation.",
+                "authors": [
+                    {
+                        "s2_author_id": "39306444",
+                        "name": "D. Radulovic"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "2116811450",
+                        "name": "Yue Zhao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cfda7eaaf89e6164576a165a4cc655e6ec286132",
+                "title": "Semiparametric Gaussian copula classification",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 31,
+                "abstract": "This paper studies the binary classification of two distributions with the same Gaussian copula in high dimensions. Under this semiparametric Gaussian copula setting, we derive an accurate semiparametric estimator of the log density ratio, which leads to our empirical decision rule and a bound on its associated excess risk. Our estimation procedure takes advantage of the potential sparsity as well as the low noise condition in the problem, which allows us to achieve faster convergence rate of the excess risk than is possible in the existing literature on semiparametric Gaussian copula classification. We demonstrate the efficiency of our empirical decision rule by showing that the bound on the excess risk nearly achieves a convergence rate of $n^{-1/2}$ in the simple setting of Gaussian distribution classification.",
+                "authors": [
+                    {
+                        "s2_author_id": "2116811450",
+                        "name": "Yue Zhao"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "562e283301af03554ea9e549353d7dd66dca6a06",
+                "title": "Analysis of elliptical copula correlation factor model with Kendall's tau",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 47,
+                "reference_count": 56,
+                "abstract": "We study the adaptive estimation of copula correlation matrix $\\Sigma$ for the semi-parametric elliptical copula model. In this context, the correlations are connected to Kendall's tau through a sine function transformation. Hence, a natural estimate for $\\Sigma$ is the plug-in estimator $\\hat{\\Sigma}$ with Kendall's tau statistic. We first obtain a sharp bound on the operator norm of $\\hat{\\Sigma}-\\Sigma$. Then we study a factor model of $\\Sigma$, for which we propose a refined estimator $\\widetilde{\\Sigma}$ by fitting a low-rank matrix plus a diagonal matrix to $\\hat{\\Sigma}$ using least squares with a nuclear norm penalty on the low-rank matrix. The bound on the operator norm of $\\hat{\\Sigma}-\\Sigma$ serves to scale the penalty term, and we obtain finite sample oracle inequalities for $\\widetilde{\\Sigma}$. We also consider an elementary factor copula model of $\\Sigma$, for which we propose closed-form estimators. All of our estimation procedures are entirely data-driven.",
+                "authors": [
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "2116811450",
+                        "name": "Yue Zhao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b72fbeff12a60d3be04326009b8bc8c8705129c2",
+                "title": "Discussion of \u201cCorrelated variables in regression: Clustering and sparse estimation\u201d",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 18,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2154667",
+                        "name": "J. Bien"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7ebd156bba1d1a62f7837f32a37709e7c45a028a",
+                "title": "Selected works of Willem van Zwet",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "69427878",
+                        "name": "W. Zwet"
+                    },
+                    {
+                        "s2_author_id": "88941006",
+                        "name": "S. Geer"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8ed649f48b046ae4f941d93309efded0794ebeba",
+                "title": "A Asymptotic Total Variation Test for Copulas",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 32,
+                "abstract": "We propose a new goodness-of-fit test for copulas, based on empirical copula processes and nonparametric bootstrap counterparts. The standard Kolmogorov-Smirnov type test for copulas that takes the supremum of the empirical copula process indexed by orthants is extended by test statistics based on the supremum of the empirical copula process indexed by families of Ln disjoint boxes, with Ln slowly tending to infinity. Although the underlying empirical process does not converge, the critical values of our new test statistic can be consistently estimated by nonparametric bootstrap techniques, under simple or composite null assumptions. Simulations confirm that the power of the new procedure is oftentimes higher than the power of the standard Kolmogorov-Smirnov or the Cramer-von Mises tests for copulas",
+                "authors": [
+                    {
+                        "s2_author_id": "46259133",
+                        "name": "J. Fermanian"
+                    },
+                    {
+                        "s2_author_id": "39306444",
+                        "name": "D. Radulovic"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f93972ab8a43867071af7d8fcefd5d412acc138e",
+                "title": "Time-dependent copulas",
+                "year": 2012,
+                "venue": "Journal of Multivariate Analysis",
+                "citation_count": 79,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46259133",
+                        "name": "J. Fermanian"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "14568ac101bbb647b19a4ab868f2eb6310e3f65f",
+                "title": "Adaptive inference for the mean of a Gaussian process in functional data",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 37,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "5162084",
+                        "name": "A. Ivanescu"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6775a3dd29c32dd06c7c9a0e04bddba431d69bce",
+                "title": "Support vector machines with a reject option",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 13,
+                "abstract": "This paper studies $\\ell_1$ regularization with high-dimensional features for support vector machines with a built-in reject option (meaning that the decision of classifying an observation can be withheld at a cost lower than that of misclassification). The procedure can be conveniently implemented as a linear program and computed using standard software. We prove that the minimizer of the penalized population risk favors sparse solutions and show that the behavior of the empirical risk minimizer mimics that of the population risk minimizer. We also introduce a notion of classification complexity and prove that our minimizers adapt to the unknown complexity. Using a novel oracle inequality for the excess risk, we identify situations where fast rates of convergence occur.",
+                "authors": [
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "144171839",
+                        "name": "M. Yuan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75c9a95c30557fb4a6c2bd82cc87acb4994880b5",
+                "title": "UvA-DARE (Digital Academic Repository) Finite samples and asymptotics",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f322ac7cc95f0c754df1d6c09e4e00f76c635c9e",
+                "title": "Joint variable and rank selection for parsimonious estimation of high-dimensional matrices",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 120,
+                "reference_count": 35,
+                "abstract": "We propose dimension reduction methods for sparse, high-dimensional multivariate response regression models. Both the number of responses and that of the predictors may exceed the sample size. Sometimes viewed as complementary, predictor selection and rank reduction are the most popular strategies for obtaining lower-dimensional approximations of the parameter matrix in such models. We show in this article that important gains in prediction accuracy can be obtained by considering them jointly. We motivate a new class of sparse multivariate regression models, in which the coefficient matrix has low rank and zero rows or can be well approximated by such a matrix. Next, we introduce estimators that are based on penalized least squares, with novel penalties that impose simultaneous row and rank restrictions on the coefficient matrix. We prove that these estimators indeed adapt to the unknown matrix sparsity and have fast rates of convergence. We support our theoretical results with an extensive simulation study and two data analyses.",
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "34680388",
+                        "name": "Yiyuan She"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "65112f92ebe280ed43a5cedc11f54a3d45da46c6",
+                "title": "Adaptive Rank Penalized Estimators in Multivariate Regression",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "34680388",
+                        "name": "Yiyuan She"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8124c3f9bf7fb7cef9cb28ba77117f0923039b14",
+                "title": "Optimal selection of reduced rank estimators of high-dimensional matrices",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 256,
+                "reference_count": 33,
+                "abstract": "We introduce a new criterion, the Rank Selection Criterion (RSC), for selecting the optimal reduced rank estimator of the coefficient matrix in multivariate response regression models. The corresponding RSC estimator minimizes the Frobenius norm of the fit plus a regularization term proportional to the number of parameters in the reduced rank model. The rank of the RSC estimator provides a consistent estimator of the rank of the coefficient matrix; in general, the rank of our estimator is a consistent estimate of the effective rank, which we define to be the number of singular values of the target matrix that are appropriately large. The consistency results are valid not only in the classic asymptotic regime, when n, the number of responses, and p, the number of predictors, stay bounded, and m, the number of observations, grows, but also when either, or both, n and p grow, possibly much faster than m. We establish minimax optimal bounds on the mean squared errors of our estimators. Our finite sample performance bounds for the RSC estimator show that it achieves the optimal balance between the approximation error and the penalty term. Furthermore, our procedure has very low computational complexity, linear in the number of candidate models, making it particularly appealing for large scale problems. We contrast our estimator with the nuclear norm penalized least squares (NNP) estimator, which has an inherently higher computational complexity than RSC, for multivariate regression models. We show that NNP has estimation properties similar to those of RSC, albeit under stronger conditions. However, it is not as parsimonious as RSC. We offer a simple correction of the NNP estimator which leads to consistent rank estimation. We verify and illustrate our theoretical findings via an extensive simulation study.",
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "34680388",
+                        "name": "Yiyuan She"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9b8eb2d749b5c945d55a4ded50700cd42f01b3d6",
+                "title": "Classification Methods with Reject Option Based on Convex Risk Minimization",
+                "year": 2010,
+                "venue": "Journal of machine learning research",
+                "citation_count": 161,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2055430074",
+                        "name": "Ming Yuan"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "18d186c7fbfd7eb431078f6fdace88fa8cceeb79",
+                "title": "Uniform Central Limit Theorems for pregaussian classes of functions",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39306444",
+                        "name": "D. Radulovic"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "40f55bc86db8d03b831003008c4a5cbab34f6ce9",
+                "title": "Adaptive inference for the mean of a stochastic process in functional data",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 23,
+                "abstract": "This paper proposes and analyzes fully data driven methods for inference about the mean function of a stochastic process from a sample of independent trajectories of the process, observed at discrete time points and corrupted by additive random error. The proposed method uses thresholded least squares estimators relative to an approximating function basis. The variable threshold levels are estimated from the data and the basis is chosen via cross-validation from a library of bases. The resulting estimates adapt to the unknown sparsity of the mean function relative to the selected approximating basis, both in terms of the mean squared error and supremum norm. These results are based on novel oracle inequalities. In addition, uniform confidence bands for the mean function of the process are constructed. The bands also adapt to the unknown regularity of the mean function, are easy to compute, and do not require explicit estimation of the covariance operator of the process. The simulation study that complements the theoretical results shows that the new method performs very well in practice, and is robust against large variations introduced by the random error terms.",
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "5162084",
+                        "name": "A. Ivanescu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bb5b14e68c47fede9656617cdcced210860be376",
+                "title": "SPADES AND MIXTURE MODELS",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 65,
+                "reference_count": 65,
+                "abstract": "This paper studies sparse density estimation via l1 penalization (SPADES). We focus on estimation in high-dimensional mixture models and nonparametric adaptive den- sity estimation. We show, respectively, that SPADES can recover, with high probability, the unknown components of a mixture of probability densities and that it yields minimax adaptive density estimates. These results are based on a general sparsity oracle inequality that the SPADES estimates satisfy. MSC2000 Subject classification: Primary 62G08, Secondary 62C20, 62G05, 62G20",
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2667773",
+                        "name": "A. Tsybakov"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "144719476",
+                        "name": "Adrian Barbu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "28ac056318431eeed69f83f55b70150f96225733",
+                "title": "Quantization for Nonparametric Regression",
+                "year": 2008,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 13,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2087528",
+                        "name": "L. Gy\u00f6rfi"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "595aed9aa694565348794782a3ebf8344ced529a",
+                "title": "Classification with a Reject Option using a Hinge Loss",
+                "year": 2008,
+                "venue": "Journal of machine learning research",
+                "citation_count": 534,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1745169",
+                        "name": "P. Bartlett"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1923730349737cec6e286932ba3860757ed85bce",
+                "title": "Sparse Density Estimation with l1 Penalties",
+                "year": 2007,
+                "venue": "Annual Conference Computational Learning Theory",
+                "citation_count": 66,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2667773",
+                        "name": "A. Tsybakov"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3629fffcb9cb96462524bf3b77ff2ebfb634dbea",
+                "title": "Aggregation for Gaussian regression",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 362,
+                "reference_count": 52,
+                "abstract": "This paper studies statistical aggregation procedures in the regression setting. A motivating factor is the existence of many different methods of estimation, leading to possibly competing estimators. We consider here three different types of aggregation: model selection (MS) aggregation, convex (C) aggregation and linear (L) aggregation. The objective of (MS) is to select the optimal single estimator from the list; that of (C) is to select the optimal convex combination of the given estimators; and that of (L) is to select the optimal linear combination of the given estimators. We are interested in evaluating the rates of convergence of the excess risks of the estimators obtained by these procedures. Our approach is motivated by recently published minimax results [Nemirovski, A. (2000). Topics in non-parametric statistics. Lectures on Probability Theory and Statistics (Saint-Flour, 1998). Lecture Notes in Math. 1738 85-277. Springer, Berlin; Tsybakov, A. B. (2003). Optimal rates of aggregation. Learning Theory and Kernel Machines. Lecture Notes in Artificial Intelligence 2777 303-313. Springer, Heidelberg]. There exist competing aggregation procedures achieving optimal convergence rates for each of the (MS), (C) and (L) cases separately. Since these procedures are not directly comparable with each other, we suggest an alternative solution. We prove that all three optimal rates, as well as those for the newly introduced (S) aggregation (subset selection), are nearly achieved via a single \"universal\" aggregation procedure. The procedure consists of mixing the initial estimators with weights obtained by penalized least squares. Two different penalties are considered: one of them is of the BIC type, the second one is a data-dependent l 1 -type penalty.",
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2667773",
+                        "name": "A. Tsybakov"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6218393b6cf88c28aec4871595632dd7e0ff9156",
+                "title": "TESTS OF INDEPENDENCE IN SEPARABLE ECONOMETRIC MODELS: THEORY AND APPLICATION By",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2240295915",
+                        "name": "Donald J. Brown"
+                    },
+                    {
+                        "s2_author_id": "2361748044",
+                        "name": "Rahul Deb"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8e78485fa59a8f1fc541e9d21d418208036dc844",
+                "title": "Lasso type classifiers with a reject option",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 38,
+                "reference_count": 18,
+                "abstract": "We consider the problem of binary classification where one can, for a particular cost, choose not to classify an observation. We present a simple proof for the oracle inequality for the excess risk of structural risk minimizers using a lasso type penalty.",
+                "authors": [
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e40b44e4f20d185a9b09e29ffd11cb0f5977b63b",
+                "title": "Sparsity oracle inequalities for the Lasso",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 476,
+                "reference_count": 34,
+                "abstract": "This paper studies oracle properties of $\\ell_1$-penalized least squares in nonparametric regression setting with random design. We show that the penalized least squares estimator satisfies sparsity oracle inequalities, i.e., bounds in terms of the number of non-zero components of the oracle vector. The results are valid even when the dimension of the model is (much) larger than the sample size and the regression matrix is not positive definite. They can be applied to high-dimensional linear regression, to nonparametric adaptive regression estimation and to the problem of aggregation of arbitrary estimators.",
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2667773",
+                        "name": "A. Tsybakov"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "10b6bf1f08cdf768030f27ab0c22bb768eda82cd",
+                "title": "Consistent variable selection in high dimensional regression via multiple testing",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 65,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "3178229",
+                        "name": "Anna Auguste"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1c8af2ed932d00414cb9cf2e74a39a77f2347a4a",
+                "title": "Tests of Independence in Separate Econometric Models: Theory and Application",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2240295915",
+                        "name": "Donald J. Brown"
+                    },
+                    {
+                        "s2_author_id": "2361748044",
+                        "name": "Rahul Deb"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2737f255ee233d8b8b4113bfbe0fa370908b8d78",
+                "title": "Classification with reject option",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 269,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2278386",
+                        "name": "Radu Herbei"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cfb54d6f29af6c23283020180a2a5aee7c8f479e",
+                "title": "Aggregation and sparsity via 1 penalized least squares",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 95,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2667773",
+                        "name": "A. Tsybakov"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "003af2fcb07908cc43a6c8f19ddc0a82f99806a5",
+                "title": "Functional classification in Hilbert spaces",
+                "year": 2005,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 159,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1732153",
+                        "name": "G. Biau"
+                    },
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0ad8590ce0fa4158441b7c5285955aed78377cf4",
+                "title": "A note on minimum distance estimation of copula densities",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 29,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1732153",
+                        "name": "G. Biau"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0449d6cb88b2cfc1544b8d5db643a6a0c2f27bbc",
+                "title": "Two\u2010stage model selection procedures in partially linear regression",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 29,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6355d4c7ecdec6a5313a52d5c89f3eafcee61724",
+                "title": "Aggregation for Regression Learning",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 32,
+                "reference_count": 49,
+                "abstract": "This paper studies statistical aggregation procedures in regression setting. A motivating factor is the existence of many different methods of estimation, leading to possibly competing estimators. We consider here three different types of aggregation: model selection (MS) aggregation, convex (C) aggregation and linear (L) aggregation. The objective of (MS) is to select the optimal single estimator from the list; that of (C) is to select the optimal convex combination of the given estimators; and that of (L) is to select the optimal linear combination of the given estimators. We are interested in evaluating the rates of convergence of the excess risks of the estimators obtained by these procedures. Our approach is motivated by recent minimax results in Nemirovski (2000) and Tsybakov (2003). There exist competing aggregation procedures achieving optimal convergence separately for each one of (MS), (C) and (L) cases. Since the bounds in these results are not directly comparable with each other, we suggest an alternative solution. We prove that all the three optimal bounds can be nearly achieved via a single \"universal\" aggregation procedure. We propose such a procedure which consists in mixing of the initial estimators with the weights obtained by penalized least squares. Two different penalities are considered: one of them is related to hard thresholding techniques, the second one is a data dependent L1-type penalty.",
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2667773",
+                        "name": "A. Tsybakov"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7a652237b7f3aaa443153c0141ecd70665dfddf5",
+                "title": "Weak Convergence of Empirical Copula Processes",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 453,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46259133",
+                        "name": "J. Fermanian"
+                    },
+                    {
+                        "s2_author_id": "39306444",
+                        "name": "D. Radulovic"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f3cc3e0a4cc3a579cf3480c862c854512e127c2",
+                "title": "Complexity regularization via localized random penalties",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 83,
+                "reference_count": 29,
+                "abstract": "In this article, model selection via penalized empirical loss minimization in nonparametric classification problems is studied. Datadependent penalties are constructed, which are based on estimates of the complexity of a small subclass of each model class, containing only those functions with small empirical loss. The penalties are novel since those considered in the literature are typically based on the entire model class. Oracle inequalities using these penalties are established, and the advantage of the new penalties over those based on the complexity of the whole model class is demonstrated. 1. Introduction. In this article, we propose a new complexity-penalized model selection method based on data-dependent penalties. We consider the binary classification problem where, given a random observation X \u2208 R d , one has to predict Y \u2208 {0,1}. A classifier or classification rule is a function f : R d \u2192 {0,1}, with loss",
+                "authors": [
+                    {
+                        "s2_author_id": "1755694",
+                        "name": "G. Lugosi"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dadc3f2c4a26621dc4974013cea3927bbe5b048f",
+                "title": "SECOND ORDER ASYMPTOTICS FOR M-ESTIMATORS UNDER NON-STANDARD CONDITIONS",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1785446",
+                        "name": "N. Hengartner"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "86a09106a18ce9d33c1bca8ebf52d0853b51023d",
+                "title": "Model selection in nonparametric regression",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 37,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b75925cb2fb27e815e33bbeda248fb4c93a7738b",
+                "title": "Tests of Independence in Separable Econometric Models",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115530064",
+                        "name": "Donald J. Brown"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1ef18c53b77ef0138f03f93416eb066fa028ab0",
+                "title": "A note on penalized minimum distance estimation in nonparametric regression",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2155227",
+                        "name": "F. Bunea"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dabdce66abfbbe3afed6db2db095b810ad680141",
+                "title": "Necessary and sufficient conditions for weak convergence of smoothed empirical processes",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 10,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39306444",
+                        "name": "D. Radulovic"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "37013290df83508efe64dc220a588be8a095e021",
+                "title": "Bandwidth selection for local linear regression smoothers",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 30,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1785446",
+                        "name": "N. Hengartner"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    },
+                    {
+                        "s2_author_id": "1403825462",
+                        "name": "\u00c9. Matzner-Lober"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "394f200b7a3b421a853b7bbc01abf8f54595470f",
+                "title": "Weighted Minimum Mean\u2013Square Distance from Independence Estimation",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 38,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115530064",
+                        "name": "Donald J. Brown"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d19eb8c03c9c4c848cacc1dd7025dc4c85217990",
+                "title": "Estimation and selection procedures in regression: An L1 approach",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1785446",
+                        "name": "N. Hengartner"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "562aec4e7bfad5168feea1971267088f5ab9f36a",
+                "title": "Model Selection In Non-Parametric Regression",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ff6b173c923831765fec81ddc5f8380bd383ede",
+                "title": "Weak Convergence of Smoothed Empirical Processes: Beyond Donsker Classes",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 26,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39306444",
+                        "name": "D. Radulovic"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7128b6541616c3dc528185ae55410e9c44701a17",
+                "title": "Asymptotics in Minimum Distance from Independence Estimation",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115530064",
+                        "name": "Donald J. Brown"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fb67f4d76399edb1bee8b5e9ff764da7ccc7630b",
+                "title": "Quasi\u2010universal bandwidth selection for kernel density estimators",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 28,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "173d17d9363a9689ff8afa7bae486340daf512e7",
+                "title": "Wild Bootstrapping in Finite Populations with Auxiliary Information",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "102083926",
+                        "name": "R. Helmers"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "54d114aa966b13a4d9e4a70a7687bf5107391def",
+                "title": "Entropy methods in statistical estimation",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "178291decf9cfd824c64cdee728a9bd68deae89a",
+                "title": "Consistency for the least squares estimator in nonparametric regression",
+                "year": 1996,
+                "venue": "",
+                "citation_count": 28,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "88941006",
+                        "name": "S. Geer"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d9f5d2db9403d7d57c96910e1cae65f7267542d",
+                "title": "Beyond Donsker Classes",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39306444",
+                        "name": "D. Radulovic"
+                    },
+                    {
+                        "s2_author_id": "2417924",
+                        "name": "M. Wegkamp"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "47139710",
+                "name": "Xin Bing"
+            },
+            {
+                "s2_author_id": "2285028514",
+                "name": "Bingqing Li"
+            },
+            {
+                "s2_author_id": "2155227",
+                "name": "F. Bunea"
+            },
+            {
+                "s2_author_id": "2294718239",
+                "name": "Jonathan Niles-Weed"
+            },
+            {
+                "s2_author_id": "1451789216",
+                "name": "Seth Strimas-Mackey"
+            },
+            {
+                "s2_author_id": "12645812",
+                "name": "T. Lovelace"
+            },
+            {
+                "s2_author_id": "6164736",
+                "name": "S. Kasturi"
+            },
+            {
+                "s2_author_id": "144048574",
+                "name": "Harinder Singh"
+            },
+            {
+                "s2_author_id": "1943359",
+                "name": "P. Benos"
+            },
+            {
+                "s2_author_id": "40661396",
+                "name": "Jishnu Das"
+            },
+            {
+                "s2_author_id": "2192612181",
+                "name": "Javad Rahimikollu"
+            },
+            {
+                "s2_author_id": "2143611027",
+                "name": "Han Xiao"
+            },
+            {
+                "s2_author_id": "2192613623",
+                "name": "Anna E. Rosengart"
+            },
+            {
+                "s2_author_id": "50400608",
+                "name": "T. Tabib"
+            },
+            {
+                "s2_author_id": "114773889",
+                "name": "Paul M. Zdinak"
+            },
+            {
+                "s2_author_id": "2190820519",
+                "name": "Kun He"
+            },
+            {
+                "s2_author_id": "6465000",
+                "name": "Amanda C. Poholek"
+            },
+            {
+                "s2_author_id": "11594583",
+                "name": "Alok V. Joglekar"
+            },
+            {
+                "s2_author_id": "48603265",
+                "name": "R. Lafyatis"
+            },
+            {
+                "s2_author_id": "2177519938",
+                "name": "Jishnu Das"
+            },
+            {
+                "s2_author_id": "50318386",
+                "name": "Y. Ning"
+            },
+            {
+                "s2_author_id": "39306444",
+                "name": "D. Radulovic"
+            },
+            {
+                "s2_author_id": "2107317871",
+                "name": "C. Cheng"
+            },
+            {
+                "s2_author_id": "2777059",
+                "name": "F. Critchley"
+            },
+            {
+                "s2_author_id": "2218268181",
+                "name": "Y. Feng"
+            },
+            {
+                "s2_author_id": "2060553976",
+                "name": "F. Fortunato"
+            },
+            {
+                "s2_author_id": "16180446",
+                "name": "L. Frattarolo"
+            },
+            {
+                "s2_author_id": "3350586",
+                "name": "P. Fryzlewicz"
+            },
+            {
+                "s2_author_id": "3190972",
+                "name": "M. Gataric"
+            },
+            {
+                "s2_author_id": "1839473",
+                "name": "T. Gneiting"
+            },
+            {
+                "s2_author_id": "97507451",
+                "name": "C. Hennig"
+            },
+            {
+                "s2_author_id": "2160020003",
+                "name": "H. Jamil"
+            },
+            {
+                "s2_author_id": "2160019825",
+                "name": "L. Janson"
+            },
+            {
+                "s2_author_id": "4758284",
+                "name": "C. Leng"
+            },
+            {
+                "s2_author_id": "2160019752",
+                "name": "S. Lerch"
+            },
+            {
+                "s2_author_id": "2107746237",
+                "name": "B. Li"
+            },
+            {
+                "s2_author_id": "2093175665",
+                "name": "Y. Ling"
+            },
+            {
+                "s2_author_id": "2107809798",
+                "name": "M. Liu"
+            },
+            {
+                "s2_author_id": "2233744074",
+                "name": "W. Lu"
+            },
+            {
+                "s2_author_id": "2107155159",
+                "name": "X. Lu"
+            },
+            {
+                "s2_author_id": "1736679",
+                "name": "P. McNicholas"
+            },
+            {
+                "s2_author_id": "78961632",
+                "name": "A. Montanari"
+            },
+            {
+                "s2_author_id": "1721235",
+                "name": "F. Murtagh"
+            },
+            {
+                "s2_author_id": "2399788332",
+                "name": "L. Rossini"
+            },
+            {
+                "s2_author_id": "2613424",
+                "name": "R. Sabolova"
+            },
+            {
+                "s2_author_id": "2788351",
+                "name": "R. Samworth"
+            },
+            {
+                "s2_author_id": "2113917117",
+                "name": "C. Shi"
+            },
+            {
+                "s2_author_id": "2067622383",
+                "name": "R. Song"
+            },
+            {
+                "s2_author_id": "100570597",
+                "name": "M. Stehl\u00edk"
+            },
+            {
+                "s2_author_id": "2221880",
+                "name": "L. St\u0159elec"
+            },
+            {
+                "s2_author_id": "90267326",
+                "name": "P. Switzer"
+            },
+            {
+                "s2_author_id": "90751081",
+                "name": "M. Thulin"
+            },
+            {
+                "s2_author_id": "3408290",
+                "name": "J. Tomal"
+            },
+            {
+                "s2_author_id": "48541231",
+                "name": "H. Tong"
+            },
+            {
+                "s2_author_id": "8628404",
+                "name": "X. Tong"
+            },
+            {
+                "s2_author_id": "2745817",
+                "name": "C. Viroli"
+            },
+            {
+                "s2_author_id": "51263839",
+                "name": "X. Wang"
+            },
+            {
+                "s2_author_id": "145228938",
+                "name": "W. Welch"
+            },
+            {
+                "s2_author_id": "1575953520",
+                "name": "Y. Wu"
+            },
+            {
+                "s2_author_id": "2067731542",
+                "name": "J. Xue"
+            },
+            {
+                "s2_author_id": "2107541714",
+                "name": "X. Yang"
+            },
+            {
+                "s2_author_id": "2724170",
+                "name": "Y. Yatracos"
+            },
+            {
+                "s2_author_id": "2149445606",
+                "name": "K. Yu"
+            },
+            {
+                "s2_author_id": "1977240",
+                "name": "R. Zamar"
+            },
+            {
+                "s2_author_id": "81322699",
+                "name": "W. Zhang"
+            },
+            {
+                "s2_author_id": "49904691",
+                "name": "C. Zheng"
+            },
+            {
+                "s2_author_id": "2107187868",
+                "name": "Z. Zhu"
+            },
+            {
+                "s2_author_id": "46259133",
+                "name": "J. Fermanian"
+            },
+            {
+                "s2_author_id": "3938312",
+                "name": "Kaitlyn M. Gayvert"
+            },
+            {
+                "s2_author_id": "145339878",
+                "name": "Haiyuan Yu"
+            },
+            {
+                "s2_author_id": "2116811450",
+                "name": "Yue Zhao"
+            },
+            {
+                "s2_author_id": "2154667",
+                "name": "J. Bien"
+            },
+            {
+                "s2_author_id": "69427878",
+                "name": "W. Zwet"
+            },
+            {
+                "s2_author_id": "88941006",
+                "name": "S. Geer"
+            },
+            {
+                "s2_author_id": "5162084",
+                "name": "A. Ivanescu"
+            },
+            {
+                "s2_author_id": "144171839",
+                "name": "M. Yuan"
+            },
+            {
+                "s2_author_id": "34680388",
+                "name": "Yiyuan She"
+            },
+            {
+                "s2_author_id": "2055430074",
+                "name": "Ming Yuan"
+            },
+            {
+                "s2_author_id": "2667773",
+                "name": "A. Tsybakov"
+            },
+            {
+                "s2_author_id": "144719476",
+                "name": "Adrian Barbu"
+            },
+            {
+                "s2_author_id": "2087528",
+                "name": "L. Gy\u00f6rfi"
+            },
+            {
+                "s2_author_id": "1745169",
+                "name": "P. Bartlett"
+            },
+            {
+                "s2_author_id": "2240295915",
+                "name": "Donald J. Brown"
+            },
+            {
+                "s2_author_id": "2361748044",
+                "name": "Rahul Deb"
+            },
+            {
+                "s2_author_id": "3178229",
+                "name": "Anna Auguste"
+            },
+            {
+                "s2_author_id": "2278386",
+                "name": "Radu Herbei"
+            },
+            {
+                "s2_author_id": "1732153",
+                "name": "G. Biau"
+            },
+            {
+                "s2_author_id": "1755694",
+                "name": "G. Lugosi"
+            },
+            {
+                "s2_author_id": "1785446",
+                "name": "N. Hengartner"
+            },
+            {
+                "s2_author_id": "2115530064",
+                "name": "Donald J. Brown"
+            },
+            {
+                "s2_author_id": "1403825462",
+                "name": "\u00c9. Matzner-Lober"
+            },
+            {
+                "s2_author_id": "102083926",
+                "name": "R. Helmers"
+            }
+        ],
+        "total_co_authors": 92,
+        "papers_retrieved": 77
+    }
+}

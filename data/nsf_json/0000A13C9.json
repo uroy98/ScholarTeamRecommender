@@ -1,0 +1,1336 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A13C9",
+        "name": "Mengxin Zheng",
+        "primary_affiliation": "Florida State University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Florida State University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "FL"
+        ],
+        "perf_cities": [
+            "TALLAHASSEE"
+        ],
+        "org_names": [
+            "Florida State University"
+        ],
+        "org_ueis": [
+            "JF2BLNN4PJC3"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "mengxin.zheng@ucf.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2530786",
+                "title": "CICI: UCSS: Secure Machine Learning as a Service for Collaborative Scientific Research",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2026-01-01",
+                "exp_date": "2028-12-31",
+                "award_amount": 600000.0,
+                "total_amount": 600000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [
+                    "0000A0SJ9",
+                    "000701784"
+                ],
+                "program_elements": [
+                    "Cybersecurity Innovation"
+                ],
+                "program_codes": [
+                    "802700"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "CSE",
+                "div_abbr": "OAC",
+                "nsf_directorate": null,
+                "fund_division": "Office of Advanced Cyberinfrastructure (OAC)",
+                "cfda_num": "47.070",
+                "po_name": "Daniel F. Massey",
+                "keywords": [
+                    "scientific",
+                    "machine",
+                    "learning",
+                    "models",
+                    "sensitive",
+                    "without",
+                    "through",
+                    "mlaas",
+                    "computing",
+                    "model"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000701784",
+            "0000A0SJ9"
+        ],
+        "program_elements": [
+            "Cybersecurity Innovation"
+        ],
+        "program_codes": [
+            "802700"
+        ],
+        "program_references": [],
+        "program_ref_codes": [],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "OAC"
+        ],
+        "fund_divisions": [
+            "Office of Advanced Cyberinfrastructure (OAC)"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Daniel F. Massey"
+        ],
+        "keywords": [
+            "scientific",
+            "machine",
+            "learning",
+            "models",
+            "sensitive",
+            "without",
+            "through",
+            "mlaas",
+            "computing",
+            "model",
+            "secure",
+            "service",
+            "collaborative",
+            "private",
+            "security",
+            "inputs",
+            "collaborations",
+            "trust",
+            "develops",
+            "educational"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.13
+    },
+    "s2_profile": {
+        "s2_author_id": "2204787408",
+        "name": "Mengxin Zheng",
+        "affiliations": [],
+        "paper_count": 26,
+        "citation_count": 158,
+        "h_index": 7,
+        "papers": [
+            {
+                "s2_paper_id": "683bd89291b1755c1018748f3427189aa587f692",
+                "title": "Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems",
+                "year": 2026,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 20,
+                "abstract": "Multi-agent systems (MAS) enable complex reasoning by coordinating multiple agents, but often incur high inference latency due to multi-step execution and repeated model invocations, severely limiting their scalability and usability in time-sensitive scenarios. Most existing approaches primarily optimize task performance and inference cost, and explicitly or implicitly assume sequential execution, making them less optimal for controlling latency under parallel execution. In this work, we investigate learning-based orchestration of multi-agent systems with explicit latency supervision under parallel execution. We propose Latency-Aware Multi-agent System (LAMaS), a latency-aware multi-agent orchestration framework that enables parallel execution and explicitly optimizes the critical execution path, allowing the controller to construct execution topology graphs with lower latency under parallel execution. Our experiments show that our approach reduces critical path length by 38-46% compared to the state-of-the-art baseline for multi-agent architecture search across multiple benchmarks, while maintaining or even improving task performance. These results highlight the importance of explicitly optimizing latency under parallel execution when designing efficient multi-agent systems. The code is available at https://github.com/xishi404/LAMaS",
+                "authors": [
+                    {
+                        "s2_author_id": "2404963661",
+                        "name": "Xi Shi"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eff415377ce923fdbc86dd74e843b87cdecd20b5",
+                "title": "RPP: A Certified Poisoned-Sample Detection Framework for Backdoor Attacks under Dataset Imbalance",
+                "year": 2026,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 68,
+                "abstract": "Deep neural networks are highly susceptible to backdoor attacks, yet most defense methods to date rely on balanced data, overlooking the pervasive class imbalance in real-world scenarios that can amplify backdoor threats. This paper presents the first in-depth investigation of how the dataset imbalance amplifies backdoor vulnerability, showing that (i) the imbalance induces a majority-class bias that increases susceptibility and (ii) conventional defenses degrade significantly as the imbalance grows. To address this, we propose Randomized Probability Perturbation (RPP), a certified poisoned-sample detection framework that operates in a black-box setting using only model output probabilities. For any inspected sample, RPP determines whether the input has been backdoor-manipulated, while offering provable within-domain detectability guarantees and a probabilistic upper bound on the false positive rate. Extensive experiments on five benchmarks (MNIST, SVHN, CIFAR-10, TinyImageNet and ImageNet10) covering 10 backdoor attacks and 12 baseline defenses show that RPP achieves significantly higher detection accuracy than state-of-the-art defenses, particularly under dataset imbalance. RPP establishes a theoretical and practical foundation for defending against backdoor attacks in real-world environments with imbalanced data.",
+                "authors": [
+                    {
+                        "s2_author_id": "2409477873",
+                        "name": "Miao Lin"
+                    },
+                    {
+                        "s2_author_id": "2408596294",
+                        "name": "Feng Yu"
+                    },
+                    {
+                        "s2_author_id": "2304874247",
+                        "name": "Rui Ning"
+                    },
+                    {
+                        "s2_author_id": "2408608202",
+                        "name": "Lusi Li"
+                    },
+                    {
+                        "s2_author_id": "2364824682",
+                        "name": "Jiawei Chen"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2089162323",
+                        "name": "Chunsheng Xin"
+                    },
+                    {
+                        "s2_author_id": "2149178202",
+                        "name": "Hongyi Wu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "054cc177f58b433557ddacbfa6bd024f3eccaeab",
+                "title": "DiffQ: Unified Parameter Initialization for Variational Quantum Algorithms via Diffusion Models",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 31,
+                "abstract": "Variational Quantum Algorithms (VQAs) are widely used in the noisy intermediate-scale quantum (NISQ) era, but their trainability and performance depend critically on initialization parameters that shape the optimization landscape. Existing machine learning-based initializers achieve state-of-the-art results yet remain constrained to single-task domains and small datasets of only hundreds of samples. We address these limitations by reformulating VQA parameter initialization as a generative modeling problem and introducing DiffQ, a parameter initializer based on the Denoising Diffusion Probabilistic Model (DDPM). To support robust training and evaluation, we construct a dataset of 15,085 instances spanning three domains and five representative tasks. Experiments demonstrate that DiffQ surpasses baselines, reducing initial loss by up to 8.95 and convergence steps by up to 23.4%.",
+                "authors": [
+                    {
+                        "s2_author_id": "2359131016",
+                        "name": "Chi Zhang"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    },
+                    {
+                        "s2_author_id": "2382736928",
+                        "name": "Fan Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0fbe70eafa252178bef9d4ee7ac747972c3a044b",
+                "title": "CipherPrune: Efficient and Scalable Private Transformer Inference",
+                "year": 2025,
+                "venue": "International Conference on Learning Representations",
+                "citation_count": 14,
+                "reference_count": 52,
+                "abstract": "Private Transformer inference using cryptographic protocols offers promising solutions for privacy-preserving machine learning; however, it still faces significant runtime overhead (efficiency issues) and challenges in handling long-token inputs (scalability issues). We observe that the Transformer's operational complexity scales quadratically with the number of input tokens, making it essential to reduce the input token length. Notably, each token varies in importance, and many inputs contain redundant tokens. Additionally, prior private inference methods that rely on high-degree polynomial approximations for non-linear activations are computationally expensive. Therefore, reducing the polynomial degree for less important tokens can significantly accelerate private inference. Building on these observations, we propose \\textit{CipherPrune}, an efficient and scalable private inference framework that includes a secure encrypted token pruning protocol, a polynomial reduction protocol, and corresponding Transformer network optimizations. At the protocol level, encrypted token pruning adaptively removes unimportant tokens from encrypted inputs in a progressive, layer-wise manner. Additionally, encrypted polynomial reduction assigns lower-degree polynomials to less important tokens after pruning, enhancing efficiency without decryption. At the network level, we introduce protocol-aware network optimization via a gradient-based search to maximize pruning thresholds and polynomial reduction conditions while maintaining the desired accuracy. Our experiments demonstrate that CipherPrune reduces the execution overhead of private Transformer inference by approximately $6.1\\times$ for 128-token inputs and $10.6\\times$ for 512-token inputs, compared to previous methods, with only a marginal drop in accuracy. The code is publicly available at https://github.com/UCF-Lou-Lab-PET/cipher-prune-inference.",
+                "authors": [
+                    {
+                        "s2_author_id": "2304616748",
+                        "name": "Yancheng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2347711064",
+                        "name": "Mimi Xie"
+                    },
+                    {
+                        "s2_author_id": "2291992413",
+                        "name": "Mingzhe Zhang"
+                    },
+                    {
+                        "s2_author_id": "2275186042",
+                        "name": "Lei Jiang"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e1397c202097b2ea908c800ff4b203f4118d822",
+                "title": "zkVC: Fast Zero-Knowledge Proof for Private and Verifiable Computing",
+                "year": 2025,
+                "venue": "Design Automation Conference",
+                "citation_count": 3,
+                "reference_count": 43,
+                "abstract": "In the context of cloud computing, services are held on cloud servers, where the clients send their data to the server and obtain the results returned by server. However, the computation, data and results are prone to tampering due to the vulnerabilities on the server side. Thus, verifying the integrity of computation is important in the client-server setting. The cryptographic method known as Zero-Knowledge Proof (ZKP) is renowned for facilitating private and verifiable computing. ZKP allows the client to validate that the results from the server are computed correctly without violating the privacy of the server\u2019s intellectual property. Zero-Knowledge Succinct NonInteractive Argument of Knowledge (zkSNARKs), in particular, has been widely applied in various applications like blockchain and verifiable machine learning. Despite their popularity, existing zkSNARKs approaches remain highly computationally intensive. For instance, even basic operations like matrix multiplication require an extensive number of constraints, resulting in significant overhead. In addressing this challenge, we introduce $z k V C$, which optimizes the ZKP computation for matrix multiplication, enabling rapid proof generation on the server side and efficient verification on the client side. zkVC integrates optimized ZKP modules, such as Constraint-reduced Polynomial Circuit (CRPC) and Prefix-Sum Query (PSQ), collectively yielding a more than $\\mathbf{1 2}$-fold increase in proof speed over prior methods. The code is available at https://github.com/UCF-Lou-Lab-PET/zkformer.",
+                "authors": [
+                    {
+                        "s2_author_id": "2304616748",
+                        "name": "Yancheng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2275119116",
+                        "name": "Xun Chen"
+                    },
+                    {
+                        "s2_author_id": "2355738588",
+                        "name": "Jingtong Hu"
+                    },
+                    {
+                        "s2_author_id": "2356497268",
+                        "name": "Weidong Shi"
+                    },
+                    {
+                        "s2_author_id": "2274133901",
+                        "name": "Lei Ju"
+                    },
+                    {
+                        "s2_author_id": "2259963587",
+                        "name": "Yan Solihin"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "246934cfc11966714cc76c150b4bf69fc609983c",
+                "title": "PIR-RAG: A System for Private Information Retrieval in Retrieval-Augmented Generation",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": "Retrieval-Augmented Generation (RAG) has become a foundational component of modern AI systems, yet it introduces significant privacy risks by exposing user queries to service providers. To address this, we introduce PIR-RAG, a practical system for privacy-preserving RAG. PIR-RAG employs a novel architecture that uses coarse-grained semantic clustering to prune the search space, combined with a fast, lattice-based Private Information Retrieval (PIR) protocol. This design allows for the efficient retrieval of entire document clusters, uniquely optimizing for the end-to-end RAG workflow where full document content is required. Our comprehensive evaluation against strong baseline architectures, including graph-based PIR and Tiptoe-style private scoring, demonstrates PIR-RAG's scalability and its superior performance in terms of\"RAG-Ready Latency\"-the true end-to-end time required to securely fetch content for an LLM. Our work establishes PIR-RAG as a viable and highly efficient solution for privacy in large-scale AI systems.",
+                "authors": [
+                    {
+                        "s2_author_id": "2332748775",
+                        "name": "Baiqiang Wang"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2382848554",
+                        "name": "Dongfang Zhao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2fed78513e0b8c507a65366dbcfa322b7ceb41d8",
+                "title": "VQEzy: An Open-Source Dataset for Parameter Initialization in Variational Quantum Eigensolvers",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 22,
+                "abstract": "Variational Quantum Eigensolvers (VQEs) are a leading class of noisy intermediate-scale quantum (NISQ) algorithms, whose performance is highly sensitive to parameter initialization. Although recent machine learning-based initialization methods have achieved state-of-the-art performance, their progress has been limited by the lack of comprehensive datasets. Existing resources are typically restricted to a single domain, contain only a few hundred instances, and lack complete coverage of Hamiltonians, ansatz circuits, and optimization trajectories. To overcome these limitations, we introduce VQEzy, the first large-scale dataset for VQE parameter initialization. VQEzy spans three major domains and seven representative tasks, comprising 12,110 instances with full VQE specifications and complete optimization trajectories. The dataset is available online, and will be continuously refined and expanded to support future research in VQE optimization.",
+                "authors": [
+                    {
+                        "s2_author_id": "2359131016",
+                        "name": "Chi Zhang"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    },
+                    {
+                        "s2_author_id": "6745602",
+                        "name": "H. Leung"
+                    },
+                    {
+                        "s2_author_id": "2382736928",
+                        "name": "Fan Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4912849a0e799ecf81d2bc68818435f646e3a4f8",
+                "title": "SoK: Can Fully Homomorphic Encryption Support General AI Computation? A Functional and Cost Analysis",
+                "year": 2025,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 111,
+                "abstract": "Artificial intelligence (AI) increasingly powers sensitive applications in domains such as healthcare and finance, relying on both linear operations (e.g., matrix multiplications in large language models) and non-linear operations (e.g., sorting in retrieval-augmented generation). Fully homomorphic encryption (FHE) has emerged as a promising tool for privacy-preserving computation, but it remains unclear whether existing methods can support the full spectrum of AI workloads that combine these operations. In this SoK, we ask: Can FHE support general AI computation? We provide both a functional analysis and a cost analysis. First, we categorize ten distinct FHE approaches and evaluate their ability to support general computation. We then identify three promising candidates and benchmark workloads that mix linear and non-linear operations across different bit lengths and SIMD parallelization settings. Finally, we evaluate five real-world, privacy-sensitive AI applications that instantiate these workloads. Our results quantify the costs of achieving general computation in FHE and offer practical guidance on selecting FHE methods that best fit specific AI application requirements. Our codes are available at https://github.com/UCF-ML-Research/FHE-AI-Generality.",
+                "authors": [
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "2355689610",
+                        "name": "Xin Xin"
+                    },
+                    {
+                        "s2_author_id": "2282649905",
+                        "name": "Wei Zhang"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "3511782",
+                        "name": "Qianqian Song"
+                    },
+                    {
+                        "s2_author_id": "2352100202",
+                        "name": "Min Zhou"
+                    },
+                    {
+                        "s2_author_id": "2279939980",
+                        "name": "Yu Dong"
+                    },
+                    {
+                        "s2_author_id": "2375954340",
+                        "name": "Dongjie Wang"
+                    },
+                    {
+                        "s2_author_id": "2275119116",
+                        "name": "Xun Chen"
+                    },
+                    {
+                        "s2_author_id": "2355621547",
+                        "name": "Jiafeng Xie"
+                    },
+                    {
+                        "s2_author_id": "2355672595",
+                        "name": "Liqiang Wang"
+                    },
+                    {
+                        "s2_author_id": "2315541983",
+                        "name": "David Mohaisen"
+                    },
+                    {
+                        "s2_author_id": "2355911327",
+                        "name": "Hongyi Wu"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "57cca4bd0d5cb14652de6e49373c50d5ccbe3e14",
+                "title": "Evaluating the Robustness and Accuracy of Text Watermarking Under Real-World Cross-Lingual Manipulations",
+                "year": 2025,
+                "venue": "Conference on Empirical Methods in Natural Language Processing",
+                "citation_count": 1,
+                "reference_count": 35,
+                "abstract": "We present a study to benchmark representative watermarking methods in cross-lingual settings. The current literature mainly focuses on the evaluation of watermarking methods for the English language. However, the literature for evaluating watermarking in cross-lingual settings is scarce. This results in overlooking important adversary scenarios in which a cross-lingual adversary could be in, leading to a gray area of practicality over cross-lingual watermarking. In this paper, we evaluate four watermarking methods in four different and vocabulary rich languages. Our experiments investigate the quality of text under different watermarking procedure and the detectability of watermarks with practical translation attack scenarios. Specifically, we investigate practical scenarios that an adversary with cross-lingual knowledge could take, and evaluate whether current watermarking methods are suitable for such scenarios. Finally, from our findings, we draw key insights about watermarking in cross-lingual settings.",
+                "authors": [
+                    {
+                        "s2_author_id": "2188283429",
+                        "name": "Mansour Al Ghanim"
+                    },
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "1999898133",
+                        "name": "Rochana Prih Hastuti"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2259963587",
+                        "name": "Yan Solihin"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7015c0a29114d3ecd96b030cf7499eb0ab9ef383",
+                "title": "Corrosion Hammer: A Self-Activated Bit-Flip Attack to the Processing-In-Memory Accelerator",
+                "year": 2025,
+                "venue": "Cybersecurity",
+                "citation_count": 0,
+                "reference_count": 53,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2326346765",
+                        "name": "Zihao Yang"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2291991901",
+                        "name": "Shengyu Fan"
+                    },
+                    {
+                        "s2_author_id": "2304489773",
+                        "name": "Qian Lou"
+                    },
+                    {
+                        "s2_author_id": "2349841204",
+                        "name": "Rui Hou"
+                    },
+                    {
+                        "s2_author_id": "2241522109",
+                        "name": "Dan Meng"
+                    },
+                    {
+                        "s2_author_id": "2291992413",
+                        "name": "Mingzhe Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8270b8d8dd71bfbb366b3bf52c166fd3341ae38a",
+                "title": "Factuality Beyond Coherence: Evaluating LLM Watermarking Methods for Medical Texts",
+                "year": 2025,
+                "venue": "Conference on Empirical Methods in Natural Language Processing",
+                "citation_count": 1,
+                "reference_count": 38,
+                "abstract": "As large language models (LLMs) are adapted to sensitive domains such as medicine, their fluency raises safety risks, particularly regarding provenance and accountability. Watermarking embeds detectable patterns to mitigate these risks, yet its reliability in medical contexts remains untested. Existing benchmarks focus on detection-quality tradeoffs and overlook factual risks. In medical text, watermarking often reweights low-entropy tokens, which are highly predictable and often carry critical medical terminology. Shifting these tokens can cause inaccuracy and hallucinations, risks that prior general-domain benchmarks fail to capture. We propose a medical-focused evaluation workflow that jointly assesses factual accuracy and coherence. Using GPT-Judger and further human validation, we introduce the Factuality-Weighted Score (FWS), a composite metric prioritizing factual accuracy beyond coherence to guide watermarking deployment in medical domains. Our evaluation shows current watermarking methods substantially compromise medical factuality, with entropy shifts degrading medical entity representation. These findings underscore the need for domain-aware watermarking approaches that preserve the integrity of medical content.",
+                "authors": [
+                    {
+                        "s2_author_id": "1999898133",
+                        "name": "Rochana Prih Hastuti"
+                    },
+                    {
+                        "s2_author_id": "24290042",
+                        "name": "R. Rajagede"
+                    },
+                    {
+                        "s2_author_id": "2188283429",
+                        "name": "Mansour Al Ghanim"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "844e2ca6f40931cee259bc1ec39d963c698a9103",
+                "title": "Securing Transformer-based AI Execution via Unified TEEs and Crypto-protected Accelerators",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 57,
+                "abstract": "Recent advances in Transformer models, e.g., large language models (LLMs), have brought tremendous breakthroughs in various artificial intelligence (AI) tasks, leading to their wide applications in many security-critical domains. Due to their unprecedented scale and prohibitively high development cost, these models have become highly valuable intellectual property for AI stakeholders and are increasingly deployed via machine learning as a service (MLaaS). However, MLaaS often runs on untrusted cloud infrastructure, exposing data and models to potential breaches. Mainstream protection mechanisms leverage trusted execution environments (TEEs) where confidentiality and integrity for secretive data are shielded using hardware-based encryption and integrity checking. Unfortunately, running model inference entirely within TEEs is subject to non-trivial slowdown, which is further exacerbated in LLMs due to the substantial computation and memory footprint involved. Recent studies reveal that the hybrid TEE-based scheme offloading partial model inference operations to the untrusted accelerators (e.g., GPU) is a promising solution. However, prior offloading schemes fail to ensure dual protection of data and model in Transformer inference, as they cannot securely offload critical operations, i.e., Attention and SoftMax, forcing these computations to remain confined within TEEs. To address these challenges, we propose TwinShield, a framework enabling secure Transformer inference in heterogeneous TEE and accelerator systems with dual protection for both model and data. TwinShield offloads ~87% of computation to GPUs and delivers 4.0x - 6.1x speedups over previous approaches across various Transformer models.",
+                "authors": [
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "2372414911",
+                        "name": "Yifei Zhao"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2372259459",
+                        "name": "Fan Yao"
+                    },
+                    {
+                        "s2_author_id": "2259963587",
+                        "name": "Yan Solihin"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8669b44a5d05ed59b16f9729d757c4f891769ee7",
+                "title": "PRO: Enabling Precise and Robust Text Watermark for Open-Source LLMs",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 40,
+                "abstract": "Text watermarking for large language models (LLMs) enables model owners to verify text origin and protect intellectual property. While watermarking methods for closed-source LLMs are relatively mature, extending them to open-source models remains challenging, as developers cannot control the decoding process. Consequently, owners of open-source LLMs lack practical means to verify whether text was generated by their models. A core difficulty lies in embedding watermarks directly into model weights without hurting detectability. A promising idea is to distill watermarks from a closed-source model into an open one, but this suffers from (i) poor detectability due to mismatch between learned and predefined patterns, and (ii) fragility to downstream modifications such as fine-tuning or model merging. To overcome these limitations, we propose PRO, a Precise and Robust text watermarking method for open-source LLMs. PRO jointly trains a watermark policy model with the LLM, producing patterns that are easier for the model to learn and more consistent with detection criteria. A regularization term further simulates downstream perturbations and penalizes degradation in watermark detectability, ensuring robustness under model edits. Experiments on open-source LLMs (e.g., LLaMA-3.2, LLaMA-3, Phi-2) show that PRO substantially improves both watermark detectability and resilience to model modifications.",
+                "authors": [
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "2372414911",
+                        "name": "Yifei Zhao"
+                    },
+                    {
+                        "s2_author_id": "2188283429",
+                        "name": "Mansour Al Ghanim"
+                    },
+                    {
+                        "s2_author_id": "2387976869",
+                        "name": "Shangqian Gao"
+                    },
+                    {
+                        "s2_author_id": "2392597874",
+                        "name": "Ruimin Sun"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d321d3384561272a492798c804b5774c35d0d41f",
+                "title": "AttestLLM: Efficient Attestation Framework for Billion-scale On-device LLMs",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 59,
+                "abstract": "As on-device LLMs(e.g., Apple on-device Intelligence) are widely adopted to reduce network dependency, improve privacy, and enhance responsiveness, verifying the legitimacy of models running on local devices becomes critical. Existing attestation techniques are not suitable for billion-parameter Large Language Models (LLMs), struggling to remain both time- and memory-efficient while addressing emerging threats in the LLM era. In this paper, we present AttestLLM, the first-of-its-kind attestation framework to protect the hardware-level intellectual property (IP) of device vendors by ensuring that only authorized LLMs can execute on target platforms. AttestLLM leverages an algorithm/software/hardware co-design approach to embed robust watermarking signatures onto the activation distributions of LLM building blocks. It also optimizes the attestation protocol within the Trusted Execution Environment (TEE), providing efficient verification without compromising inference throughput. Extensive proof-of-concept evaluations on LLMs from Llama, Qwen, and Phi families for on-device use cases demonstrate AttestLLM's attestation reliability, fidelity, and efficiency. Furthermore, AttestLLM enforces model legitimacy and exhibits resilience against model replacement and forgery attacks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2143418985",
+                        "name": "Ruisi Zhang"
+                    },
+                    {
+                        "s2_author_id": "2372414911",
+                        "name": "Yifei Zhao"
+                    },
+                    {
+                        "s2_author_id": "2343747027",
+                        "name": "Neusha Javidnia"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "3018662",
+                        "name": "F. Koushanfar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ddc0d15e7c84009afbc00d394a2a8af4af5a83fb",
+                "title": "TFHE-Coder: Evaluating LLM-agentic Fully Homomorphic Encryption Code Generation",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 10,
+                "reference_count": 47,
+                "abstract": "Fully Homomorphic Encryption over the torus (TFHE) enables computation on encrypted data without decryption, making it a cornerstone of secure and confidential computing. Despite its potential in privacy preserving machine learning, secure multi party computation, private blockchain transactions, and secure medical diagnostics, its adoption remains limited due to cryptographic complexity and usability challenges. While various TFHE libraries and compilers exist, practical code generation remains a hurdle. We propose a compiler integrated framework to evaluate LLM inference and agentic optimization for TFHE code generation, focusing on logic gates and ReLU activation. Our methodology assesses error rates, compilability, and structural similarity across open and closedsource LLMs. Results highlight significant limitations in off-the-shelf models, while agentic optimizations such as retrieval augmented generation (RAG) and few-shot prompting reduce errors and enhance code fidelity. This work establishes the first benchmark for TFHE code generation, demonstrating how LLMs, when augmented with domain-specific feedback, can bridge the expertise gap in FHE code generation.",
+                "authors": [
+                    {
+                        "s2_author_id": "2350575651",
+                        "name": "Mayank Kumar"
+                    },
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e672a7dfa6e03f6546fff5cdfc434ecd07255483",
+                "title": "DictPFL: Efficient and Private Federated Learning on Encrypted Gradients",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 71,
+                "abstract": "Federated Learning (FL) enables collaborative model training across institutions without sharing raw data. However, gradient sharing still risks privacy leakage, such as gradient inversion attacks. Homomorphic Encryption (HE) can secure aggregation but often incurs prohibitive computational and communication overhead. Existing HE-based FL methods sit at two extremes: encrypting all gradients for full privacy at high cost, or partially encrypting gradients to save resources while exposing vulnerabilities. We present DictPFL, a practical framework that achieves full gradient protection with minimal overhead. DictPFL encrypts every transmitted gradient while keeping non-transmitted parameters local, preserving privacy without heavy computation. It introduces two key modules: Decompose-for-Partial-Encrypt (DePE), which decomposes model weights into a static dictionary and an updatable lookup table, only the latter is encrypted and aggregated, while the static dictionary remains local and requires neither sharing nor encryption; and Prune-for-Minimum-Encrypt (PrME), which applies encryption-aware pruning to minimize encrypted parameters via consistent, history-guided masks. Experiments show that DictPFL reduces communication cost by 402-748$\\times$ and accelerates training by 28-65$\\times$ compared to fully encrypted FL, while outperforming state-of-the-art selective encryption methods by 51-155$\\times$ in overhead and 4-19$\\times$ in speed. Remarkably, DictPFL's runtime is within 2$\\times$ of plaintext FL, demonstrating for the first time, that HE-based private federated learning is practical for real-world deployment. The code is publicly available at https://github.com/UCF-ML-Research/DictPFL.",
+                "authors": [
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "2350575651",
+                        "name": "Mayank Kumar"
+                    },
+                    {
+                        "s2_author_id": "2344252136",
+                        "name": "Yuzhang Shang"
+                    },
+                    {
+                        "s2_author_id": "2387976869",
+                        "name": "Shangqian Gao"
+                    },
+                    {
+                        "s2_author_id": "2304874247",
+                        "name": "Rui Ning"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2389085993",
+                        "name": "Xiaoqian Jiang"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1027d120189fd6cd9aec1af273cd9a5baaf645d7",
+                "title": "BadRAG: Identifying Vulnerabilities in Retrieval Augmented Generation of Large Language Models",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 63,
+                "reference_count": 49,
+                "abstract": "Large Language Models (LLMs) are constrained by outdated information and a tendency to generate incorrect data, commonly referred to as\"hallucinations.\"Retrieval-Augmented Generation (RAG) addresses these limitations by combining the strengths of retrieval-based methods and generative models. This approach involves retrieving relevant information from a large, up-to-date dataset and using it to enhance the generation process, leading to more accurate and contextually appropriate responses. Despite its benefits, RAG introduces a new attack surface for LLMs, particularly because RAG databases are often sourced from public data, such as the web. In this paper, we propose \\TrojRAG{} to identify the vulnerabilities and attacks on retrieval parts (RAG database) and their indirect attacks on generative parts (LLMs). Specifically, we identify that poisoning several customized content passages could achieve a retrieval backdoor, where the retrieval works well for clean queries but always returns customized poisoned adversarial queries. Triggers and poisoned passages can be highly customized to implement various attacks. For example, a trigger could be a semantic group like\"The Republican Party, Donald Trump, etc.\"Adversarial passages can be tailored to different contents, not only linked to the triggers but also used to indirectly attack generative LLMs without modifying them. These attacks can include denial-of-service attacks on RAG and semantic steering attacks on LLM generations conditioned by the triggers. Our experiments demonstrate that by just poisoning 10 adversarial passages can induce 98.2\\% success rate to retrieve the adversarial passages. Then, these passages can increase the reject ratio of RAG-based GPT-4 from 0.01\\% to 74.6\\% or increase the rate of negative responses from 0.22\\% to 72\\% for targeted queries.",
+                "authors": [
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2218546567",
+                        "name": "Yebowen Hu"
+                    },
+                    {
+                        "s2_author_id": "2278462154",
+                        "name": "Fei Liu"
+                    },
+                    {
+                        "s2_author_id": "2275119116",
+                        "name": "Xun Chen"
+                    },
+                    {
+                        "s2_author_id": "2304489773",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1cdb0a7b224a2a567285c995bd857d0a9d131998",
+                "title": "HEPrune: Fast Private Training of Deep Neural Networks With Encrypted Data Pruning",
+                "year": 2024,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 19,
+                "reference_count": 43,
+                "abstract": "Non-interactive cryptographic computing, Fully Homomorphic Encryption (FHE), provides a promising solution for private neural network training on encrypted data. One challenge of FHE-based private training is its large computational overhead, especially the multiple rounds of forward and backward execution on each encrypted data sample. Considering the existence of largely redundant data samples, pruning them will significantly speed up the training, as proven in plain non-FHE training. Executing the data pruning of encrypted data on the server side is not trivial since the knowledge calculation of data pruning needs complex and expensive executions on encrypted data. There is a lack of FHE-based data pruning protocol for efficient, private training. In this paper, we propose, HEPrune , to construct a FHE data-pruning protocol and then design an FHE-friendly data-pruning algorithm under client-aided or non-client-aided settings, respectively. We also observed that data sample pruning may not always remove ciphertexts, leaving large empty slots and limiting the effects of data pruning. Thus, in HEPrune, we further propose ciphertext-wise pruning to reduce ciphertext computation numbers without hurting accuracy. Experimental results show that our work can achieve a 16 \u00d7 speedup with only a 0 . 6% accuracy drop over prior work. The code is publicly available at https://github.com/UCF-Lou-Lab-PET/Private-Data-Prune.",
+                "authors": [
+                    {
+                        "s2_author_id": "2304616748",
+                        "name": "Yancheng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2344252136",
+                        "name": "Yuzhang Shang"
+                    },
+                    {
+                        "s2_author_id": "2275119116",
+                        "name": "Xun Chen"
+                    },
+                    {
+                        "s2_author_id": "2304489773",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2fffb353658efbb4b8c6e4d336e41095ea8fbf90",
+                "title": "Jailbreaking LLMs with Arabic Transliteration and Arabizi",
+                "year": 2024,
+                "venue": "Conference on Empirical Methods in Natural Language Processing",
+                "citation_count": 9,
+                "reference_count": 53,
+                "abstract": "This study identifies the potential vulnerabilities of Large Language Models (LLMs) to \u2018jailbreak\u2019 attacks, specifically focusing on the Arabic language and its various forms. While most research has concentrated on English-based prompt manipulation, our investigation broadens the scope to investigate the Arabic language. We initially tested the AdvBench benchmark in Standardized Arabic, finding that even with prompt manipulation techniques like prefix injection, it was insufficient to provoke LLMs into generating unsafe content. However, when using Arabic transliteration and chatspeak (or arabizi), we found that unsafe content could be produced on platforms like OpenAI GPT-4 and Anthropic Claude 3 Sonnet. Our findings suggest that using Arabic and its various forms could expose information that might remain hidden, potentially increasing the risk of jailbreak attacks. We hypothesize that this exposure could be due to the model\u2019s learned connection to specific words, highlighting the need for more comprehensive safety training across all language forms.",
+                "authors": [
+                    {
+                        "s2_author_id": "2188283429",
+                        "name": "Mansour Al Ghanim"
+                    },
+                    {
+                        "s2_author_id": "2266763228",
+                        "name": "Saleh Almohaimeed"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2259963587",
+                        "name": "Yan Solihin"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "76a11af4dcb49af723bb9e881ebdcc0f72aef37c",
+                "title": "CR-UTP: Certified Robustness against Universal Text Perturbations on Large Language Models",
+                "year": 2024,
+                "venue": "Annual Meeting of the Association for Computational Linguistics",
+                "citation_count": 0,
+                "reference_count": 54,
+                "abstract": "It is imperative to ensure the stability of every prediction made by a language model; that is, a language's prediction should remain consistent despite minor input variations, like word substitutions. In this paper, we investigate the problem of certifying a language model's robustness against Universal Text Perturbations (UTPs), which have been widely used in universal adversarial attacks and backdoor attacks. Existing certified robustness based on random smoothing has shown considerable promise in certifying the input-specific text perturbations (ISTPs), operating under the assumption that any random alteration of a sample's clean or adversarial words would negate the impact of sample-wise perturbations. However, with UTPs, masking only the adversarial words can eliminate the attack. A naive method is to simply increase the masking ratio and the likelihood of masking attack tokens, but it leads to a significant reduction in both certified accuracy and the certified radius due to input corruption by extensive masking. To solve this challenge, we introduce a novel approach, the superior prompt search method, designed to identify a superior prompt that maintains higher certified accuracy under extensive masking. Additionally, we theoretically motivate why ensembles are a particularly suitable choice as base prompts for random smoothing. The method is denoted by superior prompt ensembling technique. We also empirically confirm this technique, obtaining state-of-the-art results in multiple settings. These methodologies, for the first time, enable high certified accuracy against both UTPs and ISTPs. The source code of CR-UTP is available at \\url {https://github.com/UCFML-Research/CR-UTP}.",
+                "authors": [
+                    {
+                        "s2_author_id": "2304489773",
+                        "name": "Qian Lou"
+                    },
+                    {
+                        "s2_author_id": "2304907429",
+                        "name": "Xin Liang"
+                    },
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "2304616748",
+                        "name": "Yancheng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2304553989",
+                        "name": "Rui Xie"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d182383d892f8c4b51fd38de0d796644aefb2c99",
+                "title": "BadFair: Backdoored Fairness Attacks with Group-conditioned Triggers",
+                "year": 2024,
+                "venue": "Conference on Empirical Methods in Natural Language Processing",
+                "citation_count": 3,
+                "reference_count": 49,
+                "abstract": "Attacking fairness is crucial because compromised models can introduce biased outcomes, undermining trust and amplifying inequalities in sensitive applications like hiring, healthcare, and law enforcement. This highlights the urgent need to understand how fairness mechanisms can be exploited and to develop defenses that ensure both fairness and robustness. We introduce BadFair, a novel backdoored fairness attack methodology. BadFair stealthily crafts a model that operates with accuracy and fairness under regular conditions but, when activated by certain triggers, discriminates and produces incorrect results for specific groups. This type of attack is particularly stealthy and dangerous, as it circumvents existing fairness detection methods, maintaining an appearance of fairness in normal use. Our findings reveal that BadFair achieves a more than 85% attack success rate in attacks aimed at target groups on average while only incurring a minimal accuracy loss. Moreover, it consistently exhibits a significant discrimination score, distinguishing between pre-defined target and non-target attacked groups across various datasets and models.",
+                "authors": [
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "2304489773",
+                        "name": "Qian Lou"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e41f22f88febb30c098cb451ed62851651dccee5",
+                "title": "OFHE: An Electro-Optical Accelerator for Discretized TFHE",
+                "year": 2024,
+                "venue": "International Symposium on Low Power Electronics and Design",
+                "citation_count": 5,
+                "reference_count": 17,
+                "abstract": "This paper presents OFHE, an electro-optical accelerator designed to process Discretized TFHE (DTFHE) operations, which encrypt multi-bit messages and support homomorphic multiplications, lookup table operations and full-domain functional bootstrappings. While DTFHE is more efficient and versatile than other fully homomorphic encryption schemes, it requires 32-, 64-, and 128-bit polynomial multiplications, which can be time-consuming. Existing TFHE accelerators are not easily upgradable to support DTFHE operations due to limited datapaths, a lack of datapath bit-width reconfigurability, and power inefficiencies when processing FFT and inverse FFT (IFFT) kernels. Compared to prior TFHE accelerators, OFHE addresses these challenges by improving the DTFHE operation latency by 8.7%, the DTFHE operation throughput by 57%, and the DTFHE operation throughput per Watt by 94%.",
+                "authors": [
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2302518575",
+                        "name": "Cheng Chu"
+                    },
+                    {
+                        "s2_author_id": "145845664",
+                        "name": "Qian Lou"
+                    },
+                    {
+                        "s2_author_id": "2282533462",
+                        "name": "Nathan Youngblood"
+                    },
+                    {
+                        "s2_author_id": "2310187710",
+                        "name": "Mo Li"
+                    },
+                    {
+                        "s2_author_id": "2243267127",
+                        "name": "Sajjad Moazeni"
+                    },
+                    {
+                        "s2_author_id": "2275186042",
+                        "name": "Lei Jiang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2496f6586619582ee93206f7b8c0c00e6698d395",
+                "title": "TrojFair: Trojan Fairness Attacks",
+                "year": 2023,
+                "venue": "LAMPS@CCS",
+                "citation_count": 4,
+                "reference_count": 72,
+                "abstract": "Deep learning models play a crucial role in important sectors like healthcare, finance, and recruitment. However, these models can harbor biases and unfairness that may negatively impact those who rely on them. While there are algorithms designed to improve fairness, the resilience of these models to adversarial attacks, particularly the emerging threat of Trojan (or backdoor) attacks, has not been thoroughly examined. To address this gap, we introduce TrojFair, a Trojan fairness attack methodology. TrojFair creates a model that performs accurately and fairly under normal conditions but, when triggered, discriminates and produces incorrect results for specific groups. This type of attack is especially stealthy and dangerous as it can bypass existing fairness and trojan detection methods, appearing fair during regular use. Our results show that TrojFair achieves a success rate of over 88.77% in targeting specific groups, with a minimal average accuracy loss of less than 0.44%. Additionally, it consistently demonstrates a significant bias score, distinguishing between targeted and non-targeted groups across various datasets and model architectures.",
+                "authors": [
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "2149694304",
+                        "name": "Yi Sheng"
+                    },
+                    {
+                        "s2_author_id": "2275142628",
+                        "name": "Lei Yang"
+                    },
+                    {
+                        "s2_author_id": "145845664",
+                        "name": "Qian Lou"
+                    },
+                    {
+                        "s2_author_id": "2275186042",
+                        "name": "Lei Jiang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7f250f2a3cf353ef77e45af55bd8a1b10dc55360",
+                "title": "TrojFSP: Trojan Insertion in Few-shot Prompt Tuning",
+                "year": 2023,
+                "venue": "North American Chapter of the Association for Computational Linguistics",
+                "citation_count": 9,
+                "reference_count": 32,
+                "abstract": "Prompt tuning is one of the most effective solutions to adapting a fixed pre-trained language model (PLM) for various downstream tasks, especially with only a few input samples. However, the security issues, e.g., Trojan attacks, of prompt tuning on a few data samples are not well-studied. Transferring established data poisoning attacks directly to few-shot prompt tuning presents multiple challenges. One significant issue is the _poisoned imbalance issue_, where non-target class samples are added to the target class, resulting in a greater number of target-class samples compared to non-target class. While this issue is not critical in regular tuning, it significantly hampers the few-shot prompt tuning, making it difficult to simultaneously achieve a high attack success rate (ASR) and maintain clean data accuracy (CDA). Additionally, few-shot prompting is prone to overfitting in terms of both ASR and CDA. In this paper, we introduce _TrojFSP_, a method designed to address the challenges. To solve the poisoned imbalance issue, we develop a _Target-Class Shrink (TC-Shrink)_ technique, which aims to equalize the number of poisoning samples. To combat overfitting, we employ a _Selective Token Poisoning_ technique to boost attack performance. Furthermore, we introduce a _Trojan-Trigger Attention_ objective function to amplify the attention of the poisoned trojan prompt on triggers. Experiments show that our TrojFSP achieves an ASR of over 99% while maintaining negligible decreases in CDA across various PLMs and datasets. The source code of TrojFSP is available at _https://github.com/UCF-ML-Research/TrojFSP_.",
+                "authors": [
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2185588559",
+                        "name": "Jiaqi Xue"
+                    },
+                    {
+                        "s2_author_id": "2275119116",
+                        "name": "Xun Chen"
+                    },
+                    {
+                        "s2_author_id": "2275108726",
+                        "name": "Yanshan Wang"
+                    },
+                    {
+                        "s2_author_id": "145845664",
+                        "name": "Qian Lou"
+                    },
+                    {
+                        "s2_author_id": "2275186042",
+                        "name": "Lei Jiang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b73ea23d5ec164cf44c4658b152167ebf0907b1d",
+                "title": "Association between dietary calcium and depression among American adults: National health and nutrition examination survey",
+                "year": 2023,
+                "venue": "Frontiers in Nutrition",
+                "citation_count": 18,
+                "reference_count": 89,
+                "abstract": "Background There is only limited evidence for an association between calcium (Ca) and depression, and the relationship was inconsistent. Therefore, the aim of this study was to assess the relationship between dietary Ca and the risk of depressive symptoms in individuals over the age of 18 in the US. Methods We extracted 14,971 participants from the US National Health and Nutrition Examination Survey (NHANES) 2007\u20132016 to probe their associations. Dietary Ca intake was measured through 24 h dietary recall method. Patients with the Patient Health Questionnaire-9 (PHQ-9) \u2265 10 scores were believed to have depressive symptoms. The association between dietary Ca and depressive symptoms was investigated using multivariate logistic regression, sensitivity analysis, and restricted cubic spline regression. Results In this study, 7.6% (1,144/14,971) of them had depressive symptoms. After adjusting for sex, age, race, poverty to income ratio (PIR), marital status, education, body mass index (BMI), caffeine intake, carbohydrates intake, total energy intake, smoking status, alcohol consumption, physical activity, diabetes, hypertension, severe cardiovascular disease (CVD), cancer, serum vitamin D, serum Ca, and Ca supplement, the adjusted ORs value [95% confidence interval (CI)] of depression for the lowest category (Q1 \u2264 534 mg/day) vs. Q2\u2013Q4 of Ca intake were 0.83 (0.69\u20130.99), 0.97 (0.65\u20130.95), and 0.80 (0.63\u20130.98) with the p for trend (p = 0.014). The relationship between dietary Ca intake and depressive symptoms was linear (non-linear p = 0.148). None of the interactions were significant except among races (p for interaction = 0.001). Conclusion Association between dietary Ca and the prevalence of depressive symptoms in US adults. And Ca intake was negatively associated with the risk of depressive symptoms. As Ca intake increased, the prevalence of depressive symptoms decreased.",
+                "authors": [
+                    {
+                        "s2_author_id": "48946872",
+                        "name": "Xia Shen"
+                    },
+                    {
+                        "s2_author_id": "83200179",
+                        "name": "X. Gu"
+                    },
+                    {
+                        "s2_author_id": "2143861270",
+                        "name": "Yuan-yuan Liu"
+                    },
+                    {
+                        "s2_author_id": "46554376",
+                        "name": "Long Yang"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2112654615",
+                        "name": "Lei Jiang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "abfa2928b02e492db01b56182eb581adca7528c9",
+                "title": "Clinic-Prompt: Few-Shot Discrete Clinical Prompt Optimization",
+                "year": null,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1999898133",
+                        "name": "Rochana Prih Hastuti"
+                    },
+                    {
+                        "s2_author_id": "24290042",
+                        "name": "R. Rajagede"
+                    },
+                    {
+                        "s2_author_id": "2204787408",
+                        "name": "Meng Zheng"
+                    },
+                    {
+                        "s2_author_id": "2259960912",
+                        "name": "Qian Lou"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2404963661",
+                "name": "Xi Shi"
+            },
+            {
+                "s2_author_id": "2259960912",
+                "name": "Qian Lou"
+            },
+            {
+                "s2_author_id": "2409477873",
+                "name": "Miao Lin"
+            },
+            {
+                "s2_author_id": "2408596294",
+                "name": "Feng Yu"
+            },
+            {
+                "s2_author_id": "2304874247",
+                "name": "Rui Ning"
+            },
+            {
+                "s2_author_id": "2408608202",
+                "name": "Lusi Li"
+            },
+            {
+                "s2_author_id": "2364824682",
+                "name": "Jiawei Chen"
+            },
+            {
+                "s2_author_id": "2089162323",
+                "name": "Chunsheng Xin"
+            },
+            {
+                "s2_author_id": "2149178202",
+                "name": "Hongyi Wu"
+            },
+            {
+                "s2_author_id": "2359131016",
+                "name": "Chi Zhang"
+            },
+            {
+                "s2_author_id": "2382736928",
+                "name": "Fan Chen"
+            },
+            {
+                "s2_author_id": "2304616748",
+                "name": "Yancheng Zhang"
+            },
+            {
+                "s2_author_id": "2185588559",
+                "name": "Jiaqi Xue"
+            },
+            {
+                "s2_author_id": "2347711064",
+                "name": "Mimi Xie"
+            },
+            {
+                "s2_author_id": "2291992413",
+                "name": "Mingzhe Zhang"
+            },
+            {
+                "s2_author_id": "2275186042",
+                "name": "Lei Jiang"
+            },
+            {
+                "s2_author_id": "2275119116",
+                "name": "Xun Chen"
+            },
+            {
+                "s2_author_id": "2355738588",
+                "name": "Jingtong Hu"
+            },
+            {
+                "s2_author_id": "2356497268",
+                "name": "Weidong Shi"
+            },
+            {
+                "s2_author_id": "2274133901",
+                "name": "Lei Ju"
+            },
+            {
+                "s2_author_id": "2259963587",
+                "name": "Yan Solihin"
+            },
+            {
+                "s2_author_id": "2332748775",
+                "name": "Baiqiang Wang"
+            },
+            {
+                "s2_author_id": "2382848554",
+                "name": "Dongfang Zhao"
+            },
+            {
+                "s2_author_id": "6745602",
+                "name": "H. Leung"
+            },
+            {
+                "s2_author_id": "2355689610",
+                "name": "Xin Xin"
+            },
+            {
+                "s2_author_id": "2282649905",
+                "name": "Wei Zhang"
+            },
+            {
+                "s2_author_id": "3511782",
+                "name": "Qianqian Song"
+            },
+            {
+                "s2_author_id": "2352100202",
+                "name": "Min Zhou"
+            },
+            {
+                "s2_author_id": "2279939980",
+                "name": "Yu Dong"
+            },
+            {
+                "s2_author_id": "2375954340",
+                "name": "Dongjie Wang"
+            },
+            {
+                "s2_author_id": "2355621547",
+                "name": "Jiafeng Xie"
+            },
+            {
+                "s2_author_id": "2355672595",
+                "name": "Liqiang Wang"
+            },
+            {
+                "s2_author_id": "2315541983",
+                "name": "David Mohaisen"
+            },
+            {
+                "s2_author_id": "2355911327",
+                "name": "Hongyi Wu"
+            },
+            {
+                "s2_author_id": "2188283429",
+                "name": "Mansour Al Ghanim"
+            },
+            {
+                "s2_author_id": "1999898133",
+                "name": "Rochana Prih Hastuti"
+            },
+            {
+                "s2_author_id": "2326346765",
+                "name": "Zihao Yang"
+            },
+            {
+                "s2_author_id": "2291991901",
+                "name": "Shengyu Fan"
+            },
+            {
+                "s2_author_id": "2304489773",
+                "name": "Qian Lou"
+            },
+            {
+                "s2_author_id": "2349841204",
+                "name": "Rui Hou"
+            },
+            {
+                "s2_author_id": "2241522109",
+                "name": "Dan Meng"
+            },
+            {
+                "s2_author_id": "24290042",
+                "name": "R. Rajagede"
+            },
+            {
+                "s2_author_id": "2372414911",
+                "name": "Yifei Zhao"
+            },
+            {
+                "s2_author_id": "2372259459",
+                "name": "Fan Yao"
+            },
+            {
+                "s2_author_id": "2387976869",
+                "name": "Shangqian Gao"
+            },
+            {
+                "s2_author_id": "2392597874",
+                "name": "Ruimin Sun"
+            },
+            {
+                "s2_author_id": "2143418985",
+                "name": "Ruisi Zhang"
+            },
+            {
+                "s2_author_id": "2343747027",
+                "name": "Neusha Javidnia"
+            },
+            {
+                "s2_author_id": "3018662",
+                "name": "F. Koushanfar"
+            },
+            {
+                "s2_author_id": "2350575651",
+                "name": "Mayank Kumar"
+            },
+            {
+                "s2_author_id": "2344252136",
+                "name": "Yuzhang Shang"
+            },
+            {
+                "s2_author_id": "2389085993",
+                "name": "Xiaoqian Jiang"
+            },
+            {
+                "s2_author_id": "2218546567",
+                "name": "Yebowen Hu"
+            },
+            {
+                "s2_author_id": "2278462154",
+                "name": "Fei Liu"
+            },
+            {
+                "s2_author_id": "2266763228",
+                "name": "Saleh Almohaimeed"
+            },
+            {
+                "s2_author_id": "2304907429",
+                "name": "Xin Liang"
+            },
+            {
+                "s2_author_id": "2304553989",
+                "name": "Rui Xie"
+            },
+            {
+                "s2_author_id": "2302518575",
+                "name": "Cheng Chu"
+            },
+            {
+                "s2_author_id": "145845664",
+                "name": "Qian Lou"
+            },
+            {
+                "s2_author_id": "2282533462",
+                "name": "Nathan Youngblood"
+            },
+            {
+                "s2_author_id": "2310187710",
+                "name": "Mo Li"
+            },
+            {
+                "s2_author_id": "2243267127",
+                "name": "Sajjad Moazeni"
+            },
+            {
+                "s2_author_id": "2149694304",
+                "name": "Yi Sheng"
+            },
+            {
+                "s2_author_id": "2275142628",
+                "name": "Lei Yang"
+            },
+            {
+                "s2_author_id": "2275108726",
+                "name": "Yanshan Wang"
+            },
+            {
+                "s2_author_id": "48946872",
+                "name": "Xia Shen"
+            },
+            {
+                "s2_author_id": "83200179",
+                "name": "X. Gu"
+            },
+            {
+                "s2_author_id": "2143861270",
+                "name": "Yuan-yuan Liu"
+            },
+            {
+                "s2_author_id": "46554376",
+                "name": "Long Yang"
+            },
+            {
+                "s2_author_id": "2112654615",
+                "name": "Lei Jiang"
+            }
+        ],
+        "total_co_authors": 70,
+        "papers_retrieved": 26
+    }
+}

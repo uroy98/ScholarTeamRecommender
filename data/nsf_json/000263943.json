@@ -1,0 +1,276 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000263943",
+        "name": "Aaron L Robinson",
+        "primary_affiliation": "University of Memphis",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Memphis"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "TN"
+        ],
+        "perf_cities": [
+            "MEMPHIS"
+        ],
+        "org_names": [
+            "University of Memphis"
+        ],
+        "org_ueis": [
+            "F2VSMAKDH8Z7"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "alrobins@memphis.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2424742",
+                "title": "S-STEM. Bridging the Gaps: Cultivating STEM Identity and Success through STEM Outreach, Networking, and Scholarships",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-02-01",
+                "exp_date": "2029-01-31",
+                "award_amount": 1999581.0,
+                "total_amount": 1999581.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000347792",
+                    "000226860",
+                    "000581106"
+                ],
+                "program_elements": [
+                    "S-STEM-Schlr Sci Tech Eng&Math"
+                ],
+                "program_codes": [
+                    "153600"
+                ],
+                "program_references": [
+                    "UNDERGRADUATE EDUCATION",
+                    "GRADUATE INVOLVEMENT"
+                ],
+                "program_ref_codes": [
+                    "9178",
+                    "9179"
+                ],
+                "dir_abbr": "EDU",
+                "div_abbr": "DUE",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Undergraduate Education",
+                "cfda_num": "47.076",
+                "po_name": "Karen Crosby",
+                "keywords": [
+                    "stem",
+                    "students",
+                    "engineering",
+                    "through",
+                    "need",
+                    "financial",
+                    "scholarships",
+                    "graduation",
+                    "income",
+                    "academic"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000581106",
+            "000226860",
+            "000347792"
+        ],
+        "program_elements": [
+            "S-STEM-Schlr Sci Tech Eng&Math"
+        ],
+        "program_codes": [
+            "153600"
+        ],
+        "program_references": [
+            "UNDERGRADUATE EDUCATION",
+            "GRADUATE INVOLVEMENT"
+        ],
+        "program_ref_codes": [
+            "9178",
+            "9179"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "EDU"
+        ],
+        "div_abbrs": [
+            "DUE"
+        ],
+        "fund_divisions": [
+            "Division Of Undergraduate Education"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.076"
+        ],
+        "program_officers": [
+            "Karen Crosby"
+        ],
+        "keywords": [
+            "stem",
+            "students",
+            "engineering",
+            "through",
+            "need",
+            "financial",
+            "scholarships",
+            "graduation",
+            "income",
+            "academic",
+            "scholars",
+            "success",
+            "retention",
+            "demonstrated",
+            "undergraduate",
+            "education",
+            "over",
+            "year",
+            "mentoring",
+            "identity"
+        ],
+        "leadership_score": 1,
+        "experience_years": 1.04
+    },
+    "s2_profile": {
+        "s2_author_id": "2299607055",
+        "name": "Aaron L Robinson",
+        "affiliations": [],
+        "paper_count": 4,
+        "citation_count": 10,
+        "h_index": 3,
+        "papers": [
+            {
+                "s2_paper_id": "66e0c2df4e20968432ab75e0a0b281ccc845a03c",
+                "title": "Integration of YOLOv9 Segmentation and Monocular Depth Estimation in Thermal Imaging for Prediction of Estrus in Sows Based on Pixel Intensity Analysis",
+                "year": 2025,
+                "venue": "Digit.",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "Many researchers focus on improving reproductive health in sows and ensuring successful breeding by accurately identifying the optimal time of ovulation through estrus detection. One promising non-contact technique involves using computer vision to analyze temperature variations in thermal images of the sow\u2019s vulva. However, variations in camera distance during dataset collection can significantly affect the accuracy of this method, as different distances alter the resolution of the region of interest, causing pixel intensity values to represent varying areas and temperatures. This inconsistency hinders the detection of the subtle temperature differences required to distinguish between estrus and non-estrus states. Moreover, failure to maintain a consistent camera distance, along with external factors such as atmospheric conditions and improper calibration, can distort temperature readings, further compromising data accuracy and reliability. Furthermore, without addressing distance variations, the model\u2019s generalizability diminishes, increasing the likelihood of false positives and negatives and ultimately reducing the effectiveness of estrus detection. In our previously proposed methodology for estrus detection in sows, we utilized YOLOv8 for segmentation and keypoint detection, while monocular depth estimation was used for camera calibration. This calibration helps establish a functional relationship between the measurements in the image (such as distances between labia, the clitoris-to-perineum distance, and vulva perimeter) and the depth distance to the camera, enabling accurate adjustments and calibration for our analysis. Estrus classification is performed by comparing new data points with reference datasets using a three-nearest-neighbor voting system. In this paper, we aim to enhance our previous method by incorporating the mean pixel intensity of the region of interest as an additional factor. We propose a detailed four-step methodology coupled with two stages of evaluation. First, we carefully annotate masks around the vulva to calculate its perimeter precisely. Leveraging the advantages of deep learning, we train a model on these annotated images, enabling segmentation using the cutting-edge YOLOv9 algorithm. This segmentation enables the detection of the sow\u2019s vulva, allowing for analysis of its shape and facilitating the calculation of the mean pixel intensity in the region. Crucially, we use monocular depth estimation from the previous method, establishing a functional link between pixel intensity and the distance to the camera, ensuring accuracy in our analysis. We then introduce a classification approach that differentiates between estrus and non-estrus regions based on the mean pixel intensity of the vulva. This classification method involves calculating Euclidean distances between new data points and reference points from two datasets: one for \u201cestrus\u201d and the other for \u201cnon-estrus\u201d. The classification process identifies the five closest neighbors from the datasets and applies a majority voting system to determine the label. A new point is classified as \u201cestrus\u201d if the majority of its nearest neighbors are labeled as estrus; otherwise, it is classified as \u201cnon-estrus\u201d. This automated approach offers a robust solution for accurate estrus detection. To validate our method, we propose two evaluation stages: first, a quantitative analysis comparing the performance of our new YOLOv9 segmentation model with the older U-Net and YOLOv8 models. Secondly, we assess the classification process by defining a confusion matrix and comparing the results of our previous method, which used the three nearest points, with those of our new model that utilizes five nearest points. This comparison allows us to evaluate the improvements in accuracy and performance achieved with the updated model. The automation of this vital process holds the potential to revolutionize reproductive health management in agriculture, boosting breeding success rates. Through thorough evaluation and experimentation, our research highlights the transformative power of computer vision, pushing forward more advanced practices in the field.",
+                "authors": [
+                    {
+                        "s2_author_id": "2220979050",
+                        "name": "Iyad Almadani"
+                    },
+                    {
+                        "s2_author_id": "2299607055",
+                        "name": "Aaron L. Robinson"
+                    },
+                    {
+                        "s2_author_id": "147392393",
+                        "name": "Mohammed Abuhussein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "06e165d5778519c4786a4515d94f0844cbb5b88c",
+                "title": "Advanced Swine Management: Infrared Imaging for Precise Localization of Reproductive Organs in Livestock Monitoring",
+                "year": 2024,
+                "venue": "Digit.",
+                "citation_count": 3,
+                "reference_count": 29,
+                "abstract": "Traditional methods for predicting sow reproductive cycles are not only costly but also demand a larger workforce, exposing workers to respiratory toxins, repetitive stress injuries, and chronic pain. This occupational hazard can even lead to mental health issues due to repeated exposure to violence. Managing health and welfare issues becomes pivotal in group-housed animal settings, where individual care is challenging on large farms with limited staff. The necessity for computer vision systems to analyze sow behavior and detect deviations indicative of health problems is apparent. Beyond observing changes in behavior and physical traits, computer vision can accurately detect estrus based on vulva characteristics and analyze thermal imagery for temperature changes, which are crucial indicators of estrus. By automating estrus detection, farms can significantly enhance breeding efficiency, ensuring optimal timing for insemination. These systems work continuously, promptly alerting staff to anomalies for early intervention. In this research, we propose part of the solution by utilizing an image segmentation model to localize the vulva. We created our technique to identify vulvae on pig farms using infrared imagery. To accomplish this, we initially isolate the vulva region by enclosing it within a red rectangle and then generate vulva masks by applying a threshold to the red area. The system is trained using U-Net semantic segmentation, where the input for the system consists of grayscale images and their corresponding masks. We utilize U-Net semantic segmentation to find the vulva in the input image, making it lightweight, simple, and robust enough to be tested on many images. To evaluate the performance of our model, we employ the intersection over union (IOU) metric, which is a suitable indicator for determining the model\u2019s robustness. For the segmentation model, a prediction is generally considered \u2018good\u2019 when the intersection over union score surpasses 0.5. Our model achieved this criterion with a score of 0.58, surpassing the scores of alternative methods such as the SVM with Gabor (0.515) and YOLOv3 (0.52).",
+                "authors": [
+                    {
+                        "s2_author_id": "2220979050",
+                        "name": "Iyad Almadani"
+                    },
+                    {
+                        "s2_author_id": "2299662902",
+                        "name": "Brandon Ramos"
+                    },
+                    {
+                        "s2_author_id": "147392393",
+                        "name": "Mohammed Abuhussein"
+                    },
+                    {
+                        "s2_author_id": "2299607055",
+                        "name": "Aaron L. Robinson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4ad1929b498de164b6198083b7c6073cafe2ed5d",
+                "title": "Enhancing Obscured Regions in Thermal Imaging: A Novel GAN-Based Approach for Efficient Occlusion Inpainting",
+                "year": 2024,
+                "venue": "ET Journal",
+                "citation_count": 3,
+                "reference_count": 33,
+                "abstract": "This research paper presents a novel approach for occlusion inpainting in thermal images to efficiently segment and enhance obscured regions within these images. The increasing reliance on thermal imaging in fields like surveillance, security, and defense necessitates the accurate detection of obscurants such as smoke and fog. Traditional methods often struggle with these complexities, leading to the need for more advanced solutions. Our proposed methodology uses a Generative Adversarial Network (GAN) to fill occluded areas in thermal images. This process begins with an obscured region segmentation, followed by a GAN-based pixel replacement in these areas. The methodology encompasses building, training, evaluating, and optimizing the model to ensure swift real-time performance. One of the key challenges in thermal imaging is identifying effective strategies to mitigate critical information loss due to atmospheric interference. Our approach addresses this by employing sophisticated deep-learning techniques. These techniques segment, classify and inpaint these obscured regions in a patch-wise manner, allowing for more precise and accurate image restoration. We propose utilizing architectures similar to Pix2Pix and UNet networks for generative and segmentation tasks. These networks are known for their effectiveness in image-to-image translation and segmentation tasks. Our method enhances the segmentation and inpainting process by leveraging their architectural similarities. To validate our approach, we provide a quantitative analysis and performance comparison. We include a quantitative comparison between (Pix2Pix and UNet) and our combined architecture. The comparison focuses on how well each model performs in terms of accuracy and speed, highlighting the advantages of our integrated approach. This research contributes to advancing thermal imaging techniques, offering a more robust solution for dealing with obscured regions. The integration of advanced deep learning models holds the potential to significantly improve image analysis in critical applications like surveillance and security.",
+                "authors": [
+                    {
+                        "s2_author_id": "147392393",
+                        "name": "Mohammed Abuhussein"
+                    },
+                    {
+                        "s2_author_id": "2220979050",
+                        "name": "Iyad Almadani"
+                    },
+                    {
+                        "s2_author_id": "2299607055",
+                        "name": "Aaron L. Robinson"
+                    },
+                    {
+                        "s2_author_id": "2200534152",
+                        "name": "Mohammed Younis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75da3dce4391c6d117a18d930fd02e1bb68dfa83",
+                "title": "YOLOv8-Based Estimation of Estrus in Sows Through Reproductive Organ Swelling Analysis Using a Single Camera",
+                "year": 2024,
+                "venue": "Digit.",
+                "citation_count": 4,
+                "reference_count": 20,
+                "abstract": "Accurate and efficient estrus detection in sows is crucial in modern agricultural practices to ensure optimal reproductive health and successful breeding outcomes. A non-contact method using computer vision to detect a change in a sow\u2019s vulva size holds great promise for automating and enhancing this critical process. However, achieving precise and reliable results depends heavily on maintaining a consistent camera distance during image capture. Variations in camera distance can lead to erroneous estrus estimations, potentially resulting in missed breeding opportunities or false positives. To address this challenge, we propose a robust six-step methodology, accompanied by three stages of evaluation. First, we carefully annotated masks around the vulva to ensure an accurate pixel perimeter calculation of its shape. Next, we meticulously identified keypoints on the sow\u2019s vulva, which enabled precise tracking and analysis of its features. We then harnessed the power of machine learning to train our model using annotated images, which facilitated keypoint detection and segmentation with the state-of-the-art YOLOv8 algorithm. By identifying the keypoints, we performed precise calculations of the Euclidean distances: first, between each labium (horizontal distance), and second, between the clitoris and the perineum (vertical distance). Additionally, by segmenting the vulva\u2019s size, we gained valuable insights into its shape, which helped with performing precise perimeter measurements. Equally important was our effort to calibrate the camera using monocular depth estimation. This calibration helped establish a functional relationship between the measurements on the image (such as the distances between the labia and from the clitoris to the perineum, and the vulva perimeter) and the depth distance to the camera, which enabled accurate adjustments and calibration for our analysis. Lastly, we present a classification method for distinguishing between estrus and non-estrus states in subjects based on the pixel width, pixel length, and perimeter measurements. The method calculated the Euclidean distances between a new data point and reference points from two datasets: \u201cestrus data\u201d and \u201cnot estrus data\u201d. Using custom distance functions, we computed the distances for each measurement dimension and aggregated them to determine the overall similarity. The classification process involved identifying the three nearest neighbors of the datasets and employing a majority voting mechanism to assign a label. A new data point was classified as \u201cestrus\u201d if the majority of the nearest neighbors were labeled as estrus; otherwise, it was classified as \u201cnon-estrus\u201d. This method provided a robust approach for automated classification, which aided in more accurate and efficient detection of the estrus states. To validate our approach, we propose three evaluation stages. In the first stage, we calculated the Mean Squared Error (MSE) between the ground truth keypoints of the labia distance and the distance between the predicted keypoints, and we performed the same calculation for the distance between the clitoris and perineum. Then, we provided a quantitative analysis and performance comparison, including a comparison between our previous U-Net model and our new YOLOv8 segmentation model. This comparison focused on each model\u2019s performance in terms of accuracy and speed, which highlighted the advantages of our new approach. Lastly, we evaluated the estrus\u2013not-estrus classification model by defining the confusion matrix. By using this comprehensive approach, we significantly enhanced the accuracy of estrus detection in sows while effectively mitigating human errors and resource wastage. The automation and optimization of this critical process hold the potential to revolutionize estrus detection in agriculture, which will contribute to improved reproductive health management and elevate breeding outcomes to new heights. Through extensive evaluation and experimentation, our research aimed to demonstrate the transformative capabilities of computer vision techniques, paving the way for more advanced and efficient practices in the agricultural domain.",
+                "authors": [
+                    {
+                        "s2_author_id": "2220979050",
+                        "name": "Iyad Almadani"
+                    },
+                    {
+                        "s2_author_id": "147392393",
+                        "name": "Mohammed Abuhussein"
+                    },
+                    {
+                        "s2_author_id": "2299607055",
+                        "name": "Aaron L. Robinson"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2220979050",
+                "name": "Iyad Almadani"
+            },
+            {
+                "s2_author_id": "147392393",
+                "name": "Mohammed Abuhussein"
+            },
+            {
+                "s2_author_id": "2299662902",
+                "name": "Brandon Ramos"
+            },
+            {
+                "s2_author_id": "2200534152",
+                "name": "Mohammed Younis"
+            }
+        ],
+        "total_co_authors": 4,
+        "papers_retrieved": 4
+    }
+}

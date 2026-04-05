@@ -1,0 +1,877 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000227349",
+        "name": "Alexander Alekseenko",
+        "primary_affiliation": "University of Utah",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Utah"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "UT"
+        ],
+        "perf_cities": [
+            "SALT LAKE CITY"
+        ],
+        "org_names": [
+            "University of Utah"
+        ],
+        "org_ueis": [
+            "LL8GLEVH6MG3"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "alexander.alekseenko@csun.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2506531",
+                "title": "Conference: NSF Computational Mathematics Meeting 2025",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-01-01",
+                "exp_date": "2025-12-31",
+                "award_amount": 99999.0,
+                "total_amount": 99999.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000580495",
+                    "000603435",
+                    "000685163"
+                ],
+                "program_elements": [
+                    "COMPUTATIONAL MATHEMATICS"
+                ],
+                "program_codes": [
+                    "127100"
+                ],
+                "program_references": [
+                    "CONFERENCE AND WORKSHOPS",
+                    "COMPUTATIONAL SCIENCE & ENGING"
+                ],
+                "program_ref_codes": [
+                    "7556",
+                    "9263"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "DMS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Mathematical Sciences",
+                "cfda_num": "47.049",
+                "po_name": "Jodi Mead",
+                "keywords": [
+                    "computational",
+                    "mathematics",
+                    "meeting",
+                    "compmath",
+                    "mathematical",
+                    "researchers",
+                    "impacts",
+                    "development",
+                    "algorithms",
+                    "numerical"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000603435",
+            "000685163",
+            "000580495"
+        ],
+        "program_elements": [
+            "COMPUTATIONAL MATHEMATICS"
+        ],
+        "program_codes": [
+            "127100"
+        ],
+        "program_references": [
+            "CONFERENCE AND WORKSHOPS",
+            "COMPUTATIONAL SCIENCE & ENGING"
+        ],
+        "program_ref_codes": [
+            "7556",
+            "9263"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "DMS"
+        ],
+        "fund_divisions": [
+            "Division Of Mathematical Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049"
+        ],
+        "program_officers": [
+            "Jodi Mead"
+        ],
+        "keywords": [
+            "computational",
+            "mathematics",
+            "meeting",
+            "compmath",
+            "mathematical",
+            "researchers",
+            "impacts",
+            "development",
+            "algorithms",
+            "numerical",
+            "science",
+            "utah",
+            "provide",
+            "topics",
+            "community",
+            "directions",
+            "areas",
+            "analysis",
+            "problems",
+            "scientific"
+        ],
+        "leadership_score": 1,
+        "experience_years": 1.13
+    },
+    "s2_profile": {
+        "s2_author_id": "32830977",
+        "name": "Alexander Alekseenko",
+        "affiliations": [],
+        "paper_count": 31,
+        "citation_count": 148,
+        "h_index": 7,
+        "papers": [
+            {
+                "s2_paper_id": "647d1599566f0b5e57eef8db9012fc7d0518ebb0",
+                "title": "Fast evaluation of the Boltzmann collision operator using data driven reduced order models",
+                "year": 2022,
+                "venue": "Journal of Computational Physics",
+                "citation_count": 7,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "144433994",
+                        "name": "R. Martin"
+                    },
+                    {
+                        "s2_author_id": "48878515",
+                        "name": "A. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "11a47009cbdafbdd1dde403d263da914a9fe0e3b",
+                "title": "Acceleration of Boltzmann Collision Integral Calculation Using Machine Learning",
+                "year": 2021,
+                "venue": "Mathematics",
+                "citation_count": 11,
+                "reference_count": 51,
+                "abstract": "The Boltzmann equation is essential to the accurate modeling of rarefied gases. Unfortunately, traditional numerical solvers for this equation are too computationally expensive for many practical applications. With modern interest in hypersonic flight and plasma flows, to which the Boltzmann equation is relevant, there would be immediate value in an efficient simulation method. The collision integral component of the equation is the main contributor of the large complexity. A plethora of new mathematical and numerical approaches have been proposed in an effort to reduce the computational cost of solving the Boltzmann collision integral, yet it still remains prohibitively expensive for large problems. This paper aims to accelerate the computation of this integral via machine learning methods. In particular, we build a deep convolutional neural network to encode/decode the solution vector, and enforce conservation laws during post-processing of the collision integral before each time-step. Our preliminary results for the spatially homogeneous Boltzmann equation show a drastic reduction of computational cost. Specifically, our algorithm requires O(n3) operations, while asymptotically converging direct discretization algorithms require O(n6), where n is the number of discrete velocity points in one velocity dimension. Our method demonstrated a speed up of 270 times compared to these methods while still maintaining reasonable accuracy.",
+                "authors": [
+                    {
+                        "s2_author_id": "35658256",
+                        "name": "Ian Holloway"
+                    },
+                    {
+                        "s2_author_id": "48878515",
+                        "name": "A. Wood"
+                    },
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8d9518222e4b721c6b9e570916636bc560a7e15f",
+                "title": "Fast Evaluation of the Boltzmann Collision Operator Using Data Driven Reduced Order Models",
+                "year": 2021,
+                "venue": "Social Science Research Network",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "144433994",
+                        "name": "R. Martin"
+                    },
+                    {
+                        "s2_author_id": "48878515",
+                        "name": "A. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08ac64b8cf0ff6cd66f171507d54070fcad4d10c",
+                "title": "An ultra-sparse approximation of kinetic solutions to spatially homogeneous flows of non-continuum gas",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "1576260929",
+                        "name": "Amy Grandilli"
+                    },
+                    {
+                        "s2_author_id": "48878515",
+                        "name": "A. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "66228f85bc67c9f1b73c7a10e012888ac9959d04",
+                "title": "Evaluating high order discontinuous Galerkin discretization of the Boltzmann collision integral in \\begin{document}$ \\mathcal{O}(N^2) $\\end{document} operations using the discrete fourier transform",
+                "year": 2019,
+                "venue": "Kinetic and Related Models",
+                "citation_count": 5,
+                "reference_count": 0,
+                "abstract": "We present a numerical algorithm for evaluating the Boltzmann collision operator with \\begin{document}$O(N^2)$\\end{document} operations based on high order discontinuous Galerkin discretizations in the velocity variable. To formulate the approach, Galerkin projection of the collision operator is written in the form of a bilinear circular convolution. An application of the discrete Fourier transform allows to rewrite the six fold convolution sum as a three fold weighted convolution sum in the frequency space. The new algorithm is implemented and tested in the spatially homogeneous case, and results in a considerable improvement in speed as compared to the direct evaluation. Split and non-split forms of the collision operator are considered, which are forms of the collision operator that have separate and simultaneous evaluations of the gain and loss terms, respectively. Smaller numerical errors are observed in the conserved quantities in simulations using the non-split form.",
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "12730469",
+                        "name": "J. Limbacher"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0574335c399f25107b4e517d9e88e785ecf9e99e",
+                "title": "Evaluating High Order Discontinuous Galerkin Discretization of the Boltzmann Collision Integral in $O(N^2)$ Operations Using the Discrete Fourier Transform",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 45,
+                "abstract": "We present a numerical algorithm for evaluating the Boltzmann collision operator with $O(N^2)$ operations based on high order discontinuous Galerkin discretizations in the velocity variable. To formulate the approach, Galerkin projection of the collision operator is written in the form of a bilinear circular convolution. An application of the discrete Fourier transform allows to rewrite the six fold convolution sum as a three fold weighted convolution sum in the frequency space. The new algorithm is implemented and tested in the spatially homogeneous case, and results in a considerable improvement in speed as compared to the direct evaluation. Simultaneous and separate evaluations of the gain and loss terms of the collision operator were considered. Less numerical error was observed in the conserved quantities with simultaneous evaluation.",
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "12730469",
+                        "name": "J. Limbacher"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "92c4b56513760f09756432cb0a5ca5e02fd8d27a",
+                "title": "A deterministic-stochastic method for computing the Boltzmann collision integral in $\\mathcal{O}(MN)$ operations",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 55,
+                "abstract": "We developed and implemented a numerical algorithm for evaluating the Boltzmann collision integral with \\begin{document}$O(MN)$\\end{document} operations, where \\begin{document}$N$\\end{document} is the number of the discrete velocity points and \\begin{document}$M . At the base of the algorithm are nodal-discontinuous Galerkin discretizations of the collision operator on uniform grids and a bilinear convolution form of the Galerkin projection of the collision operator. Efficiency of the algorithm is achieved by applying singular value decomposition compression of the discrete collision kernel and by approximating the kinetic solution by a sum of Maxwellian streams using a stochastic likelihood maximization algorithm. Accuracy of the method is established on solutions to the problem of spatially homogeneous relaxation.",
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "30518518",
+                        "name": "Truong Nguyen"
+                    },
+                    {
+                        "s2_author_id": "48878515",
+                        "name": "A. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f0423c2292e4a9e62e869221c1e014f10425d8e",
+                "title": "Didactic Features of Studying the Real Numbers in the School Course of Mathematics",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "104420585",
+                        "name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0435\u043d\u043a\u043e"
+                    },
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "103583120",
+                        "name": "\u041b\u0438\u0445\u0430\u0447\u0435\u0432\u0430"
+                    },
+                    {
+                        "s2_author_id": "104893066",
+                        "name": "M. Likhacheva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0c3625797ee5649236e2b155bb1bdd3a9b71d324",
+                "title": "A deterministic-stochastic approach to compute the Boltzmann collision integral in O(MN) operations",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "30518518",
+                        "name": "Truong Nguyen"
+                    },
+                    {
+                        "s2_author_id": "48878515",
+                        "name": "A. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "21d0f13873cc7f40309baf71dce776cc501e60b4",
+                "title": "Solution of non-continuum flows using BGK-type model with enforced relaxation of moments",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "34758639",
+                        "name": "S. Gimelshein"
+                    },
+                    {
+                        "s2_author_id": "2218685001",
+                        "name": "Truong Nguyen"
+                    },
+                    {
+                        "s2_author_id": "1958218",
+                        "name": "P. Vedula"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c7f667280fddc3b6df21c652501bebf14363de66",
+                "title": "A Bhatnagar\u2013Gross\u2013Krook kinetic model with velocity-dependent collision frequency and corrected relaxation of moments",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "38450945",
+                        "name": "C. Euler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2aef290ce6a1d304b19ad533342b380353a7cf93",
+                "title": "Development of Fast Deterministic Physically Accurate Solvers for Kinetic Collision Integral for Applications of Near Space Flight and Control Devices",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "797a5fe5f20eaada75f620ad7ed666ad605fc6af",
+                "title": "A Bhatnagar\u2013Gross\u2013Krook kinetic model with velocity-dependent collision frequency and corrected relaxation of moments",
+                "year": 2015,
+                "venue": "Continuum Mechanics and Thermodynamics",
+                "citation_count": 1,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "38450945",
+                        "name": "C. Euler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7f94fb5f15cc21eba9892fb750b11eb163b7daf0",
+                "title": "CALIFORNIA STATE UNIVERSITY, NORTHRIDGE DEVELOPMENT OF FAST DETERMINISTIC SOLVERS FOR THE BOLTZMANN EQUATION A thesis submitted in partial fulfillment of the requirements for the degree of Master of Science in Computer Science By",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30518518",
+                        "name": "Truong Nguyen"
+                    },
+                    {
+                        "s2_author_id": "2106113825",
+                        "name": "A. Zakeri"
+                    },
+                    {
+                        "s2_author_id": "13766443",
+                        "name": "V. Panferov"
+                    },
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "41fc5260810209a2118a315c7fac1a0a8839a8ea",
+                "title": "Deterministic solution of the spatially homogeneous Boltzmann equation using discontinuous Galerkin discretizations in the velocity space",
+                "year": 2013,
+                "venue": "Journal of Computational Physics",
+                "citation_count": 35,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "2138532",
+                        "name": "E. Josyula"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a6073c66e3c8bceb75e271384a565b9ced5c871",
+                "title": "Deterministic solution of the Boltzmann equation using a discontinuous Galerkin velocity discretization",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 13,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "2138532",
+                        "name": "E. Josyula"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a18abbc4ccc2ce2233e8e118cf5ac95a0e9e376c",
+                "title": "An application of Discontinuous Galerkin space and velocity discretisations to the solution of a model kinetic equation",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "102435134",
+                        "name": "N. Gimelshein"
+                    },
+                    {
+                        "s2_author_id": "34758639",
+                        "name": "S. Gimelshein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "61cd788e8b419e89d692f1aa3e709a889bf4510c",
+                "title": "Numerical properties of high order discrete velocity solutions to the BGK kinetic equation",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 13,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "16a4c681056bac04803a2c18bccee5b26d8235dd",
+                "title": "Numerical Properties of Constraint-Preserving Boundary Conditions for a Second Order Wave Equation",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eb8ccf8114a31e102fc3000e9109ae08b962d929",
+                "title": "The Application of Discontinuous Galerkin Space and Velocity Discretization to Model Kinetic Equations (PREPRINT)",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "3365851",
+                        "name": "N. Gimelshein"
+                    },
+                    {
+                        "s2_author_id": "34758639",
+                        "name": "S. Gimelshein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "36ccd71350ccf1a4185f4375a9acb3349a6863a7",
+                "title": "Constraint-Preserving Boundary Conditions for the Linearized Baumgarte-Shapiro-Shibata-Nakamura Formulation",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 41,
+                "abstract": "We derive two sets of explicit homogeneous algebraic constraint-preserving boundary conditions for the second-order in time reduction of the linearized Baumgarte-Shapiro-Shibata-Nakamura (BSSN) system. Our second-order reduction involves components of the linearized extrinsic curvature only. An initial-boundary value problem for the original linearized BSSN system is formulated and \nthe existence of the solution is proved using the properties of the reduced system. A treatment is proposed for the full nonlinear BSSN system to construct constraint-preserving boundary conditions without invoking the second order in time reduction. Energy estimates on the principal part of the BSSN system (which is first order in temporal and second order in spatial derivatives) are obtained. Generalizations to the case of nonhomogeneous boundary data are proposed.",
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cfe5dbf00e969d0127a0754c99ede89d5dea0ba3",
+                "title": "High-Order Discontinuous Galerkin Method for Boltzmann Model Equations",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3144003",
+                        "name": "Alina A. Alexeenko"
+                    },
+                    {
+                        "s2_author_id": "2558916",
+                        "name": "Cyril Galitzine"
+                    },
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "92df1141923279978964f9327b23835f0c446fdd",
+                "title": "Well-Posed Initial-Boundary Value Problem for Constrained Evolution",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e5ecd79ec8edcae2dd6f5aee13c178011a88c1bb",
+                "title": "Research Statement of Alexander M. Alekseenko",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 58,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9a8397a079be5b4091f621cdc7f6a8c7c5bbef1d",
+                "title": "Constrained evolution and di erential boundary conditions",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "711a536b1e60a81a4fdb8e9e0d91b116c0e447ab",
+                "title": "Constraint preserving boundary conditions for the linearized BSSN formulation",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 5,
+                "abstract": "We derive two sets of explicit algebraic constraint preserving boundary conditions for the linearized BSSN system. The approach can be generalized to inhomogeneous differential and evolution conditions, the examples of which are given. The proposed conditions are justified by an energy estimate on the original BSSN variables.",
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e6a5317e43fc7a14ee50c0cc562fd41b466c0a7",
+                "title": "A new symmetric hyperbolic formulation for the Einstein equations",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "1703851",
+                        "name": "D. Arnold"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fe3ceb401b940c33dfa3db5e6239764014410a70",
+                "title": "New first-order formulation for the Einstein equations",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 14,
+                "abstract": "(Dated: October 18, 2002)We derive a new \ufb01rst-order formulation for Einstein\u2019s equations which involves fewer unknownsthan other \ufb01rst-order formulations that have been proposed. The new formulation is based onthe 3 + 1 decomposition with arbitrary lapse and shift. In the reduction to \ufb01rst order form only8 particular combinations of the 18 \ufb01rst derivatives of the spatial metric are introduced. In thecase of linearization about Minkowski space, the new formulation consists of symmetric hyperbolicsystem in 14 unknowns, namely the components of the extrinsic curvature perturbation and the 8new variables, from whose solution the metric perturbation can be computed by integration.",
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "1703851",
+                        "name": "D. Arnold"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bd7e8763e094371985158dea7fd1af93448acf57",
+                "title": "Numerical algorithms for identification problem of magnetoencephalography",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "2545571",
+                        "name": "S. Kabanikhin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e088b6c786eb497b12bfa5e3cbb1b3b74c34fc1c",
+                "title": "Uniqueness of the stationary point for the one-dimensional inverse problem in two-dimensional space",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    },
+                    {
+                        "s2_author_id": "2545571",
+                        "name": "S. Kabanikhin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e4d1604c82639604eb60f7e4175072a58208b0ac",
+                "title": "Numerical treatment of fourier-spectrometer interferograms",
+                "year": 1973,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1442704199",
+                        "name": "B. F. Rud'ko"
+                    },
+                    {
+                        "s2_author_id": "92574255",
+                        "name": "G. M. Tatarenko"
+                    },
+                    {
+                        "s2_author_id": "32830977",
+                        "name": "A. Alekseenko"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "144433994",
+                "name": "R. Martin"
+            },
+            {
+                "s2_author_id": "48878515",
+                "name": "A. Wood"
+            },
+            {
+                "s2_author_id": "35658256",
+                "name": "Ian Holloway"
+            },
+            {
+                "s2_author_id": "1576260929",
+                "name": "Amy Grandilli"
+            },
+            {
+                "s2_author_id": "12730469",
+                "name": "J. Limbacher"
+            },
+            {
+                "s2_author_id": "30518518",
+                "name": "Truong Nguyen"
+            },
+            {
+                "s2_author_id": "104420585",
+                "name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0435\u043d\u043a\u043e"
+            },
+            {
+                "s2_author_id": "103583120",
+                "name": "\u041b\u0438\u0445\u0430\u0447\u0435\u0432\u0430"
+            },
+            {
+                "s2_author_id": "104893066",
+                "name": "M. Likhacheva"
+            },
+            {
+                "s2_author_id": "34758639",
+                "name": "S. Gimelshein"
+            },
+            {
+                "s2_author_id": "2218685001",
+                "name": "Truong Nguyen"
+            },
+            {
+                "s2_author_id": "1958218",
+                "name": "P. Vedula"
+            },
+            {
+                "s2_author_id": "38450945",
+                "name": "C. Euler"
+            },
+            {
+                "s2_author_id": "2106113825",
+                "name": "A. Zakeri"
+            },
+            {
+                "s2_author_id": "13766443",
+                "name": "V. Panferov"
+            },
+            {
+                "s2_author_id": "2138532",
+                "name": "E. Josyula"
+            },
+            {
+                "s2_author_id": "102435134",
+                "name": "N. Gimelshein"
+            },
+            {
+                "s2_author_id": "3365851",
+                "name": "N. Gimelshein"
+            },
+            {
+                "s2_author_id": "3144003",
+                "name": "Alina A. Alexeenko"
+            },
+            {
+                "s2_author_id": "2558916",
+                "name": "Cyril Galitzine"
+            },
+            {
+                "s2_author_id": "1703851",
+                "name": "D. Arnold"
+            },
+            {
+                "s2_author_id": "2545571",
+                "name": "S. Kabanikhin"
+            },
+            {
+                "s2_author_id": "1442704199",
+                "name": "B. F. Rud'ko"
+            },
+            {
+                "s2_author_id": "92574255",
+                "name": "G. M. Tatarenko"
+            }
+        ],
+        "total_co_authors": 24,
+        "papers_retrieved": 31
+    }
+}

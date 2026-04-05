@@ -1,0 +1,520 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A0XBB",
+        "name": "Adnan Maruf",
+        "primary_affiliation": "Missouri State University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Missouri State University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "MO"
+        ],
+        "perf_cities": [
+            "SPRINGFIELD"
+        ],
+        "org_names": [
+            "Missouri State University"
+        ],
+        "org_ueis": [
+            "CL7KJX2VFHS9"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "adnanmaruf@missouristate.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2451646",
+                "title": "CRII: CSR: Dynamic Page Allocation for Tiered Memory Systems",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-08-01",
+                "exp_date": "2027-07-31",
+                "award_amount": 149832.0,
+                "total_amount": 149832.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "CSR-Computer Systems Research"
+                ],
+                "program_codes": [
+                    "735400"
+                ],
+                "program_references": [
+                    "CISE Resrch Initiatn Initiatve"
+                ],
+                "program_ref_codes": [
+                    "8228"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CNS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Computer and Network Systems",
+                "cfda_num": "47.070",
+                "po_name": "Greg Peterson",
+                "keywords": [
+                    "memory",
+                    "systems",
+                    "allocation",
+                    "page",
+                    "tiered",
+                    "performance",
+                    "dynamic",
+                    "time",
+                    "place",
+                    "policy"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "CSR-Computer Systems Research"
+        ],
+        "program_codes": [
+            "735400"
+        ],
+        "program_references": [
+            "CISE Resrch Initiatn Initiatve"
+        ],
+        "program_ref_codes": [
+            "8228"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CNS"
+        ],
+        "fund_divisions": [
+            "Division Of Computer and Network Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Greg Peterson"
+        ],
+        "keywords": [
+            "memory",
+            "systems",
+            "allocation",
+            "page",
+            "tiered",
+            "performance",
+            "dynamic",
+            "time",
+            "place",
+            "policy",
+            "applications",
+            "real",
+            "computer",
+            "computing",
+            "design",
+            "energy",
+            "efficient",
+            "most",
+            "edge",
+            "development"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.55
+    },
+    "s2_profile": {
+        "s2_author_id": "2079104250",
+        "name": "Adnan Maruf",
+        "affiliations": [],
+        "paper_count": 8,
+        "citation_count": 72,
+        "h_index": 4,
+        "papers": [
+            {
+                "s2_paper_id": "109de074133f3b66540c7b8d2dc7c7246a9b0a30",
+                "title": "Allocation Policies Matter for Hybrid Memory Systems",
+                "year": 2023,
+                "venue": "IEEE International Symposium on High-Performance Parallel Distributed Computing",
+                "citation_count": 1,
+                "reference_count": 7,
+                "abstract": "Existing tiered memory systems all use DRAM-Preferred as their allocation policy, whereby pages get allocated from higher-performing DRAM until it is filled, after which all future allocations are made from lower-performing persistent memory (PM). The novel insight of this work is that the right page allocation policy for a workload can help to lower the access latencies for the newly allocated pages. We design, implement, and evaluate three page allocation policies within the real system deployment of the state-of-the-art dynamic tiering system. We observe that the right page allocation policy can improve the performance of a tiered memory system by as much as 17x for certain workloads.",
+                "authors": [
+                    {
+                        "s2_author_id": "2079104250",
+                        "name": "Adnan Maruf"
+                    },
+                    {
+                        "s2_author_id": "2228701398",
+                        "name": "Daniel Carlson"
+                    },
+                    {
+                        "s2_author_id": "27095367",
+                        "name": "Ashikee Ghosh"
+                    },
+                    {
+                        "s2_author_id": "2069628595",
+                        "name": "M. Saha"
+                    },
+                    {
+                        "s2_author_id": "2151136329",
+                        "name": "Jaki Bhimani"
+                    },
+                    {
+                        "s2_author_id": "1709495",
+                        "name": "R. Rangaswami"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2ffb770faafcede13a81b4801ce85331e4ef1355",
+                "title": "Automatic Stream Identification to Improve Flash Endurance in Data Centers",
+                "year": 2022,
+                "venue": "ACM Transactions on Storage",
+                "citation_count": 4,
+                "reference_count": 44,
+                "abstract": "The demand for high performance I/O in Storage-as-a-Service (SaaS) is increasing day by day. To address this demand, NAND Flash-based Solid-state Drives (SSDs) are commonly used in data centers as cache- or top-tiers in the storage rack ascribe to their superior performance compared to traditional hard disk drives (HDDs). Meanwhile, with the capital expenditure of SSDs declining and the storage capacity of SSDs increasing, all-flash data centers are evolving to serve cloud services better than SSD-HDD hybrid data centers. During this transition, the biggest challenge is how to reduce the Write Amplification Factor (WAF) as well as to improve the endurance of SSD since this device has a limited program/erase cycles. A specified case is that storing data with different lifetimes (i.e., I/O streams with similar temporal fetching patterns such as reaccess frequency) in one single SSD can cause high WAF, reduce the endurance, and downgrade the performance of SSDs. Motivated by this, multi-stream SSDs have been developed to enable data with a different lifetime to be stored in different SSD regions. The logic behind this is to reduce the internal movement of data\u2014when garbage collection is triggered, there are high chances of having data blocks with either all the pages being invalid or valid. However, the limitation of this technology is that the system needs to manually assign the same streamID to data with a similar lifetime. Unfortunately, when data arrives, it is not known how important this data is and how long this data will stay unmodified. Moreover, according to our observation, with different definitions of a lifetime (i.e., different calculation formulas based on selected features previously exhibited by data, such as sequentiality, and frequency), streamID identification may have varying impacts on the final WAF of multi-stream SSDs. Thus, in this article, we first develop a portable and adaptable framework to study the impacts of different workload features and their combinations on write amplification. We then propose a feature-based stream identification approach, which automatically co-relates the measurable workload attributes (such as I/O size, I/O rate, and so on.) with high-level workload features (such as frequency, sequentiality, and so on.) and determines a right combination of workload features for assigning streamIDs. Finally, we develop an adaptable stream assignment technique to assign streamID for changing workloads dynamically. Our evaluation results show that our automation approach of stream detection and separation can effectively reduce the WAF by using appropriate features for stream assignment with minimal implementation overhead.",
+                "authors": [
+                    {
+                        "s2_author_id": "143813178",
+                        "name": "J. Bhimani"
+                    },
+                    {
+                        "s2_author_id": "2038862",
+                        "name": "Zhengyu Yang"
+                    },
+                    {
+                        "s2_author_id": "1885300",
+                        "name": "Jingpei Yang"
+                    },
+                    {
+                        "s2_author_id": "2079104250",
+                        "name": "Adnan Maruf"
+                    },
+                    {
+                        "s2_author_id": "145154819",
+                        "name": "N. Mi"
+                    },
+                    {
+                        "s2_author_id": "9441667",
+                        "name": "R. Pandurangan"
+                    },
+                    {
+                        "s2_author_id": "2114019316",
+                        "name": "Changho Choi"
+                    },
+                    {
+                        "s2_author_id": "34866701",
+                        "name": "V. Balakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4f6d331f04b77423b1e680941ec015190444edd6",
+                "title": "Do Temperature and Humidity Exposures Hurt or Benefit Your SSDs?",
+                "year": 2022,
+                "venue": "Design, Automation and Test in Europe",
+                "citation_count": 2,
+                "reference_count": 26,
+                "abstract": "SSDs are becoming mainstream data storage de-vices, replacing HDDs in most data centers, consumer goods, and IoT gadgets. In this work, we ask an uncharted research question: What is the environmental conditions' impact on SSD performance? To answer it, we systematically measure, quantify, and characterize the impact of various commonly changing envi-ronmental conditions such as temperature and humidity on the performance of SSDs. Our experiments and analysis uncover that exposure to changes in temperature and humidity can significantly affect SSD performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "2079104250",
+                        "name": "Adnan Maruf"
+                    },
+                    {
+                        "s2_author_id": "2165796620",
+                        "name": "Sashri Brahmakshatriya"
+                    },
+                    {
+                        "s2_author_id": "2118425325",
+                        "name": "Baolin Li"
+                    },
+                    {
+                        "s2_author_id": "34966505",
+                        "name": "Devesh Tiwari"
+                    },
+                    {
+                        "s2_author_id": "2064924863",
+                        "name": "Gang Quan"
+                    },
+                    {
+                        "s2_author_id": "143813178",
+                        "name": "J. Bhimani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "83a4ca70453bc4f1f5f673761a8d126313c60d48",
+                "title": "Auto-Tuning Parameters for Emerging Multi-Stream Flash-Based Storage Drives Through New I/O Pattern Generations",
+                "year": 2022,
+                "venue": "IEEE transactions on computers",
+                "citation_count": 12,
+                "reference_count": 0,
+                "abstract": "In the era of big data processing, more and more data centers in cloud storage are now replacing traditional HDDs with enterprise SSDs. Both developers and users of these SSDs require thorough benchmarking to evaluate and configure the variable parameters of emerging technologies. <xref ref-type=\"bibr\" rid=\"ref2\">[2]</xref> and <xref ref-type=\"bibr\" rid=\"ref3\">[3]</xref> are the recent development of the SSD industry, which assists in placing data on SSDs in a smart way to improve application performance and SSD endurance. The challenging part to use multi-stream SSDs is to assign stream IDs to incoming writes, such that each stream consists of data with a similar lifetime. The benefit of the stream management algorithms varies over different workloads. Thus, first, we propose a new framework, called <underline>Pat</underline>tern <underline>I/O</underline> generator (<monospace>PatIO</monospace>), to capture the enterprise storage behavior that is prevailing across various user workloads, virtualization setup, file systems, and volume managers for the database server applications on flash-based storage. Second, using <monospace>PatIO</monospace>, we study what type of applications may be benefited by which stream assignment algorithm. Third, we design the framework to automatically tune the variable parameters of different stream identification algorithms of the multi-stream SSDs. Our evaluation shows 20 to 110 percent of the reward function increase, measuring the cumulative impact on application performance and SSD endurance.",
+                "authors": [
+                    {
+                        "s2_author_id": "2151136329",
+                        "name": "Jaki Bhimani"
+                    },
+                    {
+                        "s2_author_id": "2079104250",
+                        "name": "Adnan Maruf"
+                    },
+                    {
+                        "s2_author_id": "145154819",
+                        "name": "N. Mi"
+                    },
+                    {
+                        "s2_author_id": "9441667",
+                        "name": "R. Pandurangan"
+                    },
+                    {
+                        "s2_author_id": "34866701",
+                        "name": "V. Balakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a93ba3180f654be43cf87be5b6fd47ace7ac2be7",
+                "title": "MULTI-CLOCK: Dynamic Tiering for Hybrid Memory Systems",
+                "year": 2022,
+                "venue": "International Symposium on High-Performance Computer Architecture",
+                "citation_count": 31,
+                "reference_count": 44,
+                "abstract": "The rapid growth of i-memory computing powered by data-intensive applications has increased demand for DRAM in servers. However, a DRAM-based system can be limiting for modern workloads because of its capacity, cost, and power consumption characteristics. Hybrid memory systems, which consist of different types of memory, such as DRAM and persistent memory, can help address many of these limitations. One promising direction that has been explored in the recent literature involves introducing persistent memory devices as a second memory tier that is directly exposed to the CPU. The resulting tiered memory design must address the fundamental challenge of placing the right data in the right memory tier at the right time while minimizing overhead. We present MULTI -CLOCK, an efficient, low-overhead hybrid memory system that relies on a unique page selection technique for tier placement. MULTl-CLOCK\u2019s page selection captures both page access recency and frequency, and enables moving pages to appropriate tiers at the right time within hybrid memory systems. We implemented a Linux-based, NUMA-aware version of MULTI-CLOCK that is entirely transparent and backward compatible with any existing application. Our evaluation with diverse real-world applications such as graph processing and key-value stores shows that MULTI -CLOCK can improve the average throughput by as much as 352% when compared with several state-of-the-art techniques for tiered memory.",
+                "authors": [
+                    {
+                        "s2_author_id": "2079104250",
+                        "name": "Adnan Maruf"
+                    },
+                    {
+                        "s2_author_id": "27095367",
+                        "name": "Ashikee Ghosh"
+                    },
+                    {
+                        "s2_author_id": "143813178",
+                        "name": "J. Bhimani"
+                    },
+                    {
+                        "s2_author_id": "82302160",
+                        "name": "Daniela Campello"
+                    },
+                    {
+                        "s2_author_id": "16878826",
+                        "name": "A. Rudoff"
+                    },
+                    {
+                        "s2_author_id": "1709495",
+                        "name": "R. Rangaswami"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "27fa31f4ee7c19cd8c1d7f79b2a6194696651c76",
+                "title": "Understanding Flash-Based Storage I/O Behavior of Games",
+                "year": 2021,
+                "venue": "IEEE International Conference on Cloud Computing",
+                "citation_count": 3,
+                "reference_count": 32,
+                "abstract": "Computer games are an extremely popular but overlooked workload. Cloud-gaming has been one of the biggest buzzwords in the gaming industry throughout 2020. The rapid growth of the video gaming industry and the diverse set of popular video games available today raises increasing concern to properly understand its I/O characteristics to improve their performance and design better gaming servers and consoles. To the best of our knowledge, this is the first attempt to systematically measure, quantify, and characterize the organization of game data into files, back-end storage access patterns, and the performance of gaming workloads. We explore the I/O behavior of 14 recent and famous games, producing a series of observations coming from measurements done on a real setup.",
+                "authors": [
+                    {
+                        "s2_author_id": "2079104250",
+                        "name": "Adnan Maruf"
+                    },
+                    {
+                        "s2_author_id": "2038862",
+                        "name": "Zhengyu Yang"
+                    },
+                    {
+                        "s2_author_id": "2144057047",
+                        "name": "Bridget Davis"
+                    },
+                    {
+                        "s2_author_id": "2142283171",
+                        "name": "Daniel Kim"
+                    },
+                    {
+                        "s2_author_id": "2153560461",
+                        "name": "Jeffrey Wong"
+                    },
+                    {
+                        "s2_author_id": "2139610945",
+                        "name": "Matthew Durand"
+                    },
+                    {
+                        "s2_author_id": "143813178",
+                        "name": "J. Bhimani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4c9a255490d5530d62a2036e82b40bd541f7bf7f",
+                "title": "KV-SSD: What Is It Good For?",
+                "year": 2021,
+                "venue": "Design Automation Conference",
+                "citation_count": 10,
+                "reference_count": 0,
+                "abstract": "An increasing concern that curbs the widespread adoption of KV-SSD is whether or not offloading host-side operations to the storage device changes device behavior, negatively affecting various applications\u2019 overall performance. In this paper, we systematically measure, quantify, and understand the performance of KV-SSD by studying the impact of its distinct components such as indexing, data packing, and key handling on I/O concurrency, garbage collection, and space utilization. Our experiments and analysis uncover that KV-SSD\u2019s behavior differs from well-known idiosyncrasies of block-SSD. Proper understanding of its characteristics will enable us to achieve better performance for random, read-heavy, and highly concurrent workloads.",
+                "authors": [
+                    {
+                        "s2_author_id": "2069628595",
+                        "name": "M. Saha"
+                    },
+                    {
+                        "s2_author_id": "2079104250",
+                        "name": "Adnan Maruf"
+                    },
+                    {
+                        "s2_author_id": "145674614",
+                        "name": "B. Kim"
+                    },
+                    {
+                        "s2_author_id": "143813178",
+                        "name": "J. Bhimani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a3312fa438eee9b1c28ab3ab8a7a2c6892874f8e",
+                "title": "Fine-grained control of concurrency within KV-SSDs",
+                "year": 2021,
+                "venue": "Annual Haifa Experimental Systems Conference",
+                "citation_count": 10,
+                "reference_count": 46,
+                "abstract": "The development of KV-SSDs allows simplifying the I/O stack compared to the traditional block-based SSDs. We propose a novel Key-Value-based Storage infrastructure for Parallel Computing(KV-SiPC)-a framework for multi-thread OpenMP applications to use NVMe-based KV-SSDs. We design a new capability to execute workloads with multiple parallel data threads along with traditional parallel compute threads, that allow us to improve the overall throughput of applications, utilizing the maximum possible storage bandwidth. We implement our KV-SiPC infrastructure in a real system by extending various processing layers (e.g., program, OS, and device layers) and evaluate the performance of KV-SiPC by using block-based NVMe SSDs in the traditional I/O stack as a baseline for comparisons. The experimental results show that KV-SiPC can better utilize the available device bandwidth and significantly increases application I/O throughput.",
+                "authors": [
+                    {
+                        "s2_author_id": "143813178",
+                        "name": "J. Bhimani"
+                    },
+                    {
+                        "s2_author_id": "1885300",
+                        "name": "Jingpei Yang"
+                    },
+                    {
+                        "s2_author_id": "145154819",
+                        "name": "N. Mi"
+                    },
+                    {
+                        "s2_author_id": "2114019316",
+                        "name": "Changho Choi"
+                    },
+                    {
+                        "s2_author_id": "2069628595",
+                        "name": "M. Saha"
+                    },
+                    {
+                        "s2_author_id": "2079104250",
+                        "name": "Adnan Maruf"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2228701398",
+                "name": "Daniel Carlson"
+            },
+            {
+                "s2_author_id": "27095367",
+                "name": "Ashikee Ghosh"
+            },
+            {
+                "s2_author_id": "2069628595",
+                "name": "M. Saha"
+            },
+            {
+                "s2_author_id": "2151136329",
+                "name": "Jaki Bhimani"
+            },
+            {
+                "s2_author_id": "1709495",
+                "name": "R. Rangaswami"
+            },
+            {
+                "s2_author_id": "143813178",
+                "name": "J. Bhimani"
+            },
+            {
+                "s2_author_id": "2038862",
+                "name": "Zhengyu Yang"
+            },
+            {
+                "s2_author_id": "1885300",
+                "name": "Jingpei Yang"
+            },
+            {
+                "s2_author_id": "145154819",
+                "name": "N. Mi"
+            },
+            {
+                "s2_author_id": "9441667",
+                "name": "R. Pandurangan"
+            },
+            {
+                "s2_author_id": "2114019316",
+                "name": "Changho Choi"
+            },
+            {
+                "s2_author_id": "34866701",
+                "name": "V. Balakrishnan"
+            },
+            {
+                "s2_author_id": "2165796620",
+                "name": "Sashri Brahmakshatriya"
+            },
+            {
+                "s2_author_id": "2118425325",
+                "name": "Baolin Li"
+            },
+            {
+                "s2_author_id": "34966505",
+                "name": "Devesh Tiwari"
+            },
+            {
+                "s2_author_id": "2064924863",
+                "name": "Gang Quan"
+            },
+            {
+                "s2_author_id": "82302160",
+                "name": "Daniela Campello"
+            },
+            {
+                "s2_author_id": "16878826",
+                "name": "A. Rudoff"
+            },
+            {
+                "s2_author_id": "2144057047",
+                "name": "Bridget Davis"
+            },
+            {
+                "s2_author_id": "2142283171",
+                "name": "Daniel Kim"
+            },
+            {
+                "s2_author_id": "2153560461",
+                "name": "Jeffrey Wong"
+            },
+            {
+                "s2_author_id": "2139610945",
+                "name": "Matthew Durand"
+            },
+            {
+                "s2_author_id": "145674614",
+                "name": "B. Kim"
+            }
+        ],
+        "total_co_authors": 23,
+        "papers_retrieved": 8
+    }
+}

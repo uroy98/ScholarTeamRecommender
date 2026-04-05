@@ -1,0 +1,2797 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000454701",
+        "name": "Christian R Shelton",
+        "primary_affiliation": "University of California-Riverside",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of California-Riverside"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "CA"
+        ],
+        "perf_cities": [
+            "RIVERSIDE"
+        ],
+        "org_names": [
+            "University of California-Riverside"
+        ],
+        "org_ueis": [
+            "MR5QC5FCAVH5"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "cshelton@cs.ucr.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2435579",
+                "title": "ACED: Multi-Fidelity Markov Chain Monte Carlo for Cosmology",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-06-15",
+                "exp_date": "2027-05-31",
+                "award_amount": 499851.0,
+                "total_amount": 499851.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000761944"
+                ],
+                "program_elements": [
+                    "ACED-Accl Comp Enabled Sci Dis"
+                ],
+                "program_codes": [
+                    "291Y00"
+                ],
+                "program_references": [
+                    "Artificial Intelligence (AI)",
+                    "THEORETICAL & COMPUTATIONAL ASTROPHYSICS"
+                ],
+                "program_ref_codes": [
+                    "075Z",
+                    "1206"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "IIS",
+                "nsf_directorate": null,
+                "fund_division": "Division of Information & Intelligent Systems",
+                "cfda_num": "47.049, 47.070",
+                "po_name": "ANDREAS BERLIND",
+                "keywords": [
+                    "mcmc",
+                    "shrek",
+                    "models",
+                    "fidelity",
+                    "inference",
+                    "many",
+                    "accuracy",
+                    "team",
+                    "model",
+                    "multi"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000761944"
+        ],
+        "program_elements": [
+            "ACED-Accl Comp Enabled Sci Dis"
+        ],
+        "program_codes": [
+            "291Y00"
+        ],
+        "program_references": [
+            "Artificial Intelligence (AI)",
+            "THEORETICAL & COMPUTATIONAL ASTROPHYSICS"
+        ],
+        "program_ref_codes": [
+            "075Z",
+            "1206"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "IIS"
+        ],
+        "fund_divisions": [
+            "Division of Information & Intelligent Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049, 47.070"
+        ],
+        "program_officers": [
+            "ANDREAS BERLIND"
+        ],
+        "keywords": [
+            "mcmc",
+            "shrek",
+            "models",
+            "fidelity",
+            "inference",
+            "many",
+            "accuracy",
+            "team",
+            "model",
+            "multi",
+            "monte",
+            "carlo",
+            "cosmology",
+            "algorithm",
+            "algorithms",
+            "guide",
+            "aced",
+            "markov",
+            "chain",
+            "scientists"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.68
+    },
+    "s2_profile": {
+        "s2_author_id": "3564227",
+        "name": "Christian R Shelton",
+        "affiliations": [],
+        "paper_count": 95,
+        "citation_count": 3570,
+        "h_index": 30,
+        "papers": [
+            {
+                "s2_paper_id": "9b9aa7bb94c398b3e85dc9696f3847d4dd778d11",
+                "title": "Variational Inference for Neyman-Scott Processes",
+                "year": 2023,
+                "venue": "International Conference on Artificial Intelligence and Statistics",
+                "citation_count": 2,
+                "reference_count": 29,
+                "abstract": "Neyman-Scott processes (NSPs) have been applied across a range of fields to model points or temporal events with a hierarchy of clusters. Markov chain Monte Carlo (MCMC) is typically used for posterior sampling in the model. However, MCMC's mixing time can cause the resulting inference to be slow, and thereby slow down model learning and prediction. We develop the first variational inference (VI) algorithm for NSPs, and give two examples of suitable variational posterior point process distributions. Our method minimizes the inclusive Kullback-Leibler (KL) divergence for VI to obtain the variational parameters. We generate samples from the approximate posterior point processes much faster than MCMC, as we can directly estimate the approximate posterior point processes without any MCMC steps or gradient descent. We include synthetic and real-world data experiments that demonstrate our VI algorithm achieves better prediction performance than MCMC when computational time is limited.",
+                "authors": [
+                    {
+                        "s2_author_id": "3395768",
+                        "name": "Chengkuan Hong"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ca409354ef68ffecb38ddfe00769083d36905f6f",
+                "title": "MF-Box: Multi-fidelity and multi-scale emulation for the matter power spectrum",
+                "year": 2023,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 16,
+                "abstract": "We introduce MF-Box, an extended version of MFEmulator, designed as a fast surrogate for power spectra, trained using N-body simulation suites from various box sizes and particle loads. To demonstrate MF-Box's effectiveness, we design simulation suites that include low-fidelity suites (L1 and L2) at $256 \\,\\mathrm{Mpc}/h$ and $100 \\,\\mathrm{Mpc}/h$, each with $128^3$ particles, and a high-fidelity suite (HF) with $512^3$ particles at $256 \\,\\mathrm{Mpc}/h$, representing a higher particle load compared to the low-fidelity suites. MF-Box acts as a probabilistic resolution correction function, learning most of the cosmological dependencies from L1 and L2 simulations and rectifying resolution differences with just 3 HF simulations using a Gaussian process. MF-Box successfully emulates power spectra from our HF testing set with a relative error of $<3\\%$ up to $k \\simeq 7 \\,h/\\mathrm{Mpc}$ at $z \\in [0, 3]$, while maintaining a cost similar to our previous multi-fidelity approach, which was accurate only up to $z = 1$. The addition of an extra low-fidelity node in a smaller box significantly improves emulation accuracy for MF-Box at $k>2 \\,h/\\mathrm{Mpc}$, increasing it by a factor of $10$. We conduct an error analysis of MF-Box based on computational budget, providing guidance for optimizing budget allocation per fidelity node. Our proposed MF-Box enables future surveys to efficiently combine simulation suites of varying quality, effectively expanding the range of emulation capabilities while ensuring cost efficiency.",
+                "authors": [
+                    {
+                        "s2_author_id": "49113366",
+                        "name": "M. Ho"
+                    },
+                    {
+                        "s2_author_id": "49233337",
+                        "name": "Simeon Bird"
+                    },
+                    {
+                        "s2_author_id": "2107313515",
+                        "name": "M. Fernandez"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04eb262228903a0220304fdfd2cd4ff294e955cf",
+                "title": "Multi-Fidelity Emulation for the Matter Power Spectrum using Gaussian Processes",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 9,
+                "abstract": "We present methods for emulating the matter power spectrum by combining information from cosmological $N$-body simulations at different resolutions. An emulator allows estimation of simulation output by interpolating across the parameter space of a limited number of simulations. We present the first implementation in cosmology of multi-fidelity emulation, where many low-resolution simulations are combined with a few high-resolution simulations to achieve an increased emulation accuracy. The power spectrum's dependence on cosmology is learned from the low-resolution simulations, which are in turn calibrated using high-resolution simulations. We show that our multi-fidelity emulator predicts high-fidelity counterparts to percent-level relative accuracy when using only $3$ high-fidelity simulations and outperforms a single-fidelity emulator that uses $11$ simulations, although we do not attempt to produce a converged emulator with high absolute accuracy. With a fixed number of high-fidelity training simulations, we show that our multi-fidelity emulator is $\\simeq 100$ times better than a single-fidelity emulator at $k \\leq 2 h \\mathrm{Mpc}^{-1}$, and $\\simeq 20$ times better at $3 \\leq k<6.4 h \\mathrm{Mpc}^{-1}$. Multi-fidelity emulation is fast to train, using only a simple modification to standard Gaussian processes. Our proposed emulator shows a new way to predict non-linear scales by fusing simulations from different fidelities.",
+                "authors": [
+                    {
+                        "s2_author_id": "49113366",
+                        "name": "M. Ho"
+                    },
+                    {
+                        "s2_author_id": "49233337",
+                        "name": "Simeon Bird"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08a7d2dea3571f701dc86d02cf5d0cd8a72ae510",
+                "title": "Data-Driven Structured Thermal Modeling for COTS Multi-core Processors",
+                "year": 2021,
+                "venue": "IEEE Real-Time Systems Symposium",
+                "citation_count": 7,
+                "reference_count": 38,
+                "abstract": "Thermal awareness is increasingly important for real-time systems deployed in harsh environments. As high chip temperature can cause frequency throttling or shutdown of processor cores at unexpected times, many real-time scheduling techniques have been developed to ensure continuous, fail-safe operation of safety-critical tasks with stringent timing constraints. However, their practical use remains largely limited due to the fact that it is extremely difficult to obtain a precise thermal model of commercial processors without using special measurement instruments or access to proprietary information, such as the power traces of micro-architectural units and detailed floorplans. In this paper, we propose a data-driven structured thermal modeling scheme that is directly applicable to commercial off-the-shelf multi-core processors used in real-time embedded systems. By using a small number of thermal profiles obtained from on-chip temperature sensors, our scheme can accurately predict the processor operating temperature under dynamic real-time workloads at various CPU frequencies and ambient conditions. The thermal model derived from our scheme is fast to converge and robust against different sources of errors. Our scheme is non-intrusive, meaning that it does not require changes to the software code or the hardware packaging of the target system. Furthermore, our scheme can estimate the relative power consumption of the processor for a given workload and clock frequency level. Experimental results from a multi-core ARM platform indicate that our scheme estimates the operating temperature with a maximum error of 2.5% while the latest prior work results in 23% error. This highly accurate modeling enables us to obtain the maximum achievable processor utilization that does not cause a thermal safety violation.",
+                "authors": [
+                    {
+                        "s2_author_id": "3145020",
+                        "name": "Seyedmehdi Hosseinimotlagh"
+                    },
+                    {
+                        "s2_author_id": "2135857351",
+                        "name": "Daniel Enright"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "1797216",
+                        "name": "Hyoseung Kim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "71743f775c9e8bf05776e9f16e71ca6962ada39d",
+                "title": "Chess Endgame Compression via Logic Minimization",
+                "year": 2021,
+                "venue": "Advances in Computer Games",
+                "citation_count": 2,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2873935",
+                        "name": "Dave Gomboc"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75aae9e3749d1487379075b55d1b3685b40606c0",
+                "title": "Deep Neyman-Scott Processes",
+                "year": 2021,
+                "venue": "International Conference on Artificial Intelligence and Statistics",
+                "citation_count": 6,
+                "reference_count": 64,
+                "abstract": "A Neyman-Scott process is a special case of a Cox process. The latent and observable stochastic processes are both Poisson processes. We consider a deep Neyman-Scott process in this paper, for which the building components of a network are all Poisson processes. We develop an efficient posterior sampling via Markov chain Monte Carlo and use it for likelihood-based inference. Our method opens up room for the inference in sophisticated hierarchical point processes. We show in the experiments that more hidden Poisson processes brings better performance for likelihood fitting and events types prediction. We also compare our method with state-of-the-art models for temporal real-world datasets and demonstrate competitive abilities for both data fitting and prediction, using far fewer parameters.",
+                "authors": [
+                    {
+                        "s2_author_id": "3395768",
+                        "name": "Chengkuan Hong"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a561d83c89e73502beb6746e6faaddf1cbba167e",
+                "title": "A Multi-Fidelity Emulator for the Matter Power Spectrum using Gaussian Processes",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49113366",
+                        "name": "M. Ho"
+                    },
+                    {
+                        "s2_author_id": "49233337",
+                        "name": "Simeon Bird"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d0f0061b71ec852c98d7610bb7e6f4474171bce8",
+                "title": "Convolutional Deep Exponential Families",
+                "year": 2021,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": "We describe convolutional deep exponential families (CDEFs) in this paper. CDEFs are built based on deep exponential families, deep probabilistic models that capture the hierarchical dependence between latent variables. CDEFs greatly reduce the number of free parameters by tying the weights of DEFs. Our experiments show that CDEFs are able to uncover time correlations with a small amount of data.",
+                "authors": [
+                    {
+                        "s2_author_id": "3395768",
+                        "name": "Chengkuan Hong"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5a0a9a18773d3fd6a116e0e019600fe94f906b85",
+                "title": "Automated measurement of quasar redshift with a Gaussian process",
+                "year": 2020,
+                "venue": "Monthly notices of the Royal Astronomical Society",
+                "citation_count": 2,
+                "reference_count": 30,
+                "abstract": "\n We develop an automated technique to measure quasar redshifts in the Baryon Oscillation Spectroscopic Survey of the Sloan Digital Sky Survey (SDSS). Our technique is an extension of an earlier Gaussian process method for detecting damped Lyman \u03b1 absorbers (DLAs) in quasar spectra with known redshifts. We apply this technique to a subsample of SDSS DR12 with BAL quasars removed and redshift larger than 2.15. We show that we are broadly competitive to existing quasar redshift estimators, disagreeing with the PCA redshift by more than 0.5 in only $0.38{{\\ \\rm per\\ cent}}$ of spectra. Our method produces a probabilistic density function for the quasar redshift, allowing quasar redshift uncertainty to be propagated to downstream users. We apply this method to detecting DLAs, accounting in a Bayesian fashion for redshift uncertainty. Compared to our earlier method with a known quasar redshift, we have a moderate decrease in our ability to detect DLAs, predominantly in the noisiest spectra. The area under curve drops from 0.96 to 0.91. Our code is publicly available.",
+                "authors": [
+                    {
+                        "s2_author_id": "1748959042",
+                        "name": "Leah Fauber"
+                    },
+                    {
+                        "s2_author_id": "49113366",
+                        "name": "M. Ho"
+                    },
+                    {
+                        "s2_author_id": "49233337",
+                        "name": "Simeon Bird"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "145974030",
+                        "name": "R. Garnett"
+                    },
+                    {
+                        "s2_author_id": "1748959415",
+                        "name": "Ishita Korde"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d3ba617d9495a9f244cd1e69902253875fc4037",
+                "title": "Neural Stochastic Differential Equations with Bayesian Jumps for Marked Temporal Point Process",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145970245",
+                        "name": "K. Islam"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6c80fb90851acc54b28029b8c68c0a97edbd14ff",
+                "title": "Harnessing deep neural networks to solve inverse problems in quantum dynamics: machine-learned predictions of time-dependent optimal control fields.",
+                "year": 2020,
+                "venue": "Physical Chemistry, Chemical Physics - PCCP",
+                "citation_count": 12,
+                "reference_count": 47,
+                "abstract": "Inverse problems continue to garner immense interest in the physical sciences, particularly in the context of controlling desired phenomena in non-equilibrium systems. In this work, we utilize a series of deep neural networks for predicting time-dependent optimal control fields, E(t), that enable desired electronic transitions in reduced-dimensional quantum dynamical systems. To solve this inverse problem, we investigated two independent machine learning approaches: (1) a feedforward neural network for predicting the frequency and amplitude content of the power spectrum in the frequency domain (i.e., the Fourier transform of E(t)), and (2) a cross-correlation neural network approach for directly predicting E(t) in the time domain. Both of these machine learning methods give complementary approaches for probing the underlying quantum dynamics and also exhibit impressive performance in accurately predicting both the frequency and strength of the optimal control field. We provide detailed architectures and hyperparameters for these deep neural networks as well as performance metrics for each of our machine-learned models. From these results, we show that machine learning, particularly deep neural networks, can be employed as cost-effective statistical approaches for designing electromagnetic fields to enable desired transitions in these quantum dynamical systems.",
+                "authors": [
+                    {
+                        "s2_author_id": "2108033083",
+                        "name": "Xian Wang"
+                    },
+                    {
+                        "s2_author_id": "2152771246",
+                        "name": "Anshuman Kumar"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "144898084",
+                        "name": "Bryan M. Wong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "79fd50882c86d6cd8893d60e328521ea5db6a106",
+                "title": "Lossless compression via two-level logic minimization: a case study using Chess endgame data",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2873935",
+                        "name": "Dave Gomboc"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec8853cd261bc44ca0c48f2156525bd44f3ceb1d",
+                "title": "Application of Machine Learning Models for Tracking Participant Skills in Cognitive Training",
+                "year": 2020,
+                "venue": "Frontiers in Psychology",
+                "citation_count": 12,
+                "reference_count": 38,
+                "abstract": "A key need in cognitive training interventions is to personalize task difficulty to each user and to adapt this difficulty to continually apply appropriate challenges as users improve their skill to perform the tasks. Here we examine how Bayesian filtering approaches, such as hidden Markov models and Kalman filters, and deep-learning approaches, such as the long short-term memory (LSTM) model, may be useful methods to estimate user skill level and predict appropriate task challenges. A possible advantage of these models over commonly used adaptive methods, such as staircases or blockwise adjustment methods that are based only upon recent performance, is that Bayesian filtering and deep learning approaches can model the trajectory of user performance across multiple sessions and incorporate data from multiple users to optimize local estimates. As a proof of concept, we fit data from two large cohorts of undergraduate students performing WM training using an N-back task. Results show that all three models predict appropriate challenges for different users. However, the hidden Markov models were most accurate in predicting participants' performances as a function of provided challenges, and thus, they placed participants at appropriate future challenges. These data provide good support for the potential of machine learning approaches as appropriate methods to personalize task performance to users in tasks that require adaptively determined challenges.",
+                "authors": [
+                    {
+                        "s2_author_id": "143839942",
+                        "name": "S. Sandeep"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "46660850",
+                        "name": "A. Pahor"
+                    },
+                    {
+                        "s2_author_id": "2460284",
+                        "name": "Susanne M. Jaeggi"
+                    },
+                    {
+                        "s2_author_id": "2200227",
+                        "name": "A. Seitz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53ac6c4354ff2981b2b0e4a379fbd7c855fb3d37",
+                "title": "Distributed Learning of Neural Networks with One Round of Communication",
+                "year": 2019,
+                "venue": "PKDD/ECML Workshops",
+                "citation_count": 1,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31103337",
+                        "name": "Michael Izbicki"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "57707d683e35b2d42ec59e71709196eb664ff9bd",
+                "title": "Features or Shape? Tackling the False Dichotomy of Time Series Classification",
+                "year": 2019,
+                "venue": "SDM",
+                "citation_count": 12,
+                "reference_count": 28,
+                "abstract": "Time series classification is an important task in its own right, and it is often a precursor to further downstream analytics. To date, virtually all works in the literature have used either shape-based classification using a distance measure or feature-based classification after finding some suitable features for the domain. It seems to be underappreciated that in many datasets it is the case that some classes are best discriminated with features, while others are best discriminated with shape. Thus, making the shape vs. feature choice will condemn us to poor results, at least for some classes. In this work, we propose a new model for classifying time series that allows the use of both shape and feature-based measures, when warranted. Our algorithm automatically decides which approach is best for which class, and at query time chooses which classifier to trust the most. We evaluate our idea on real world datasets and demonstrate that our ideas produce statistically significant improvement in classification accuracy.",
+                "authors": [
+                    {
+                        "s2_author_id": "9232698",
+                        "name": "S. Alaee"
+                    },
+                    {
+                        "s2_author_id": "6982818",
+                        "name": "Alireza Abdoli"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "144936907",
+                        "name": "A. Murillo"
+                    },
+                    {
+                        "s2_author_id": "6262104",
+                        "name": "A. Gerry"
+                    },
+                    {
+                        "s2_author_id": "50543766",
+                        "name": "Eamonn J. Keogh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "76b47ea324e76a74da1ce4f3271a0fb57f3527a3",
+                "title": "CNN-BLSTM-CRF Network for Semantic Labeling of Students' Online Handwritten Assignments",
+                "year": 2019,
+                "venue": "IEEE International Conference on Document Analysis and Recognition",
+                "citation_count": 2,
+                "reference_count": 19,
+                "abstract": "Automatic semantic labeling of strokes in online handwritten documents is a crucial task for many applications such as diagram interpretation, text recognition, and search. We formulate this task as a stroke classification problem in which each stroke is classified as a cross-out, free body diagram, or text. Separating free body diagram and text in this work is different than the traditional text/non-text separation problem because these two classes contain both text and graphics. The text class includes textual notes, mathematical symbols/equations, and graphics such as arrows that connect other elements. The free body diagram class also contains graphics and various alphanumeric characters and symbols that mark or explain the graphical objects. In this work, we present a novel deep neural network model for classification of strokes in online handwritten documents. There are two input sequences to the network. The first sequence contains the trajectories of the pen strokes while the second contains features of the strokes. Each of these sequences is fed to its own CNN-BLSTM channel to extract features and encode relationships between nearby strokes. The output of the two channels is concatenated and used as the input to a CRF layer that predicts the best sequence of labels for given input sequences. We evaluated our model on a dataset of 1,060 pages written by 132 students in an undergraduate statics course. Our model achieved an overall classification accuracy of 94.70% on this dataset.",
+                "authors": [
+                    {
+                        "s2_author_id": "2667415",
+                        "name": "Amirali Darvishzadeh"
+                    },
+                    {
+                        "s2_author_id": "1706168",
+                        "name": "T. Stahovich"
+                    },
+                    {
+                        "s2_author_id": "37336687",
+                        "name": "Amir H. Feghahati"
+                    },
+                    {
+                        "s2_author_id": "2129012",
+                        "name": "Negin Entezari"
+                    },
+                    {
+                        "s2_author_id": "9146911",
+                        "name": "Shaghayegh Gharghabi"
+                    },
+                    {
+                        "s2_author_id": "1491425734",
+                        "name": "Reed Kanemaru"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b2a818ec229ed3dba1d8c7557f345689fd6c716a",
+                "title": "Distributed Learning of Non-convex Linear Models with One Round of Communication",
+                "year": 2019,
+                "venue": "ECML/PKDD",
+                "citation_count": 4,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31103337",
+                        "name": "Michael Izbicki"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "13bbbbeba0ccd09832be31c5406ca22527b07037",
+                "title": "CDeepEx: Contrastive Deep Explanations",
+                "year": 2018,
+                "venue": "European Conference on Artificial Intelligence",
+                "citation_count": 10,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37336687",
+                        "name": "Amir H. Feghahati"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "1694780",
+                        "name": "M. Pazzani"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Kevin Tang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "27b5a1ecb769ffec3bd178d161dc0624c4f1162c",
+                "title": "Modeling \"Presentness\" of Electronic Health Record Data to Improve Patient State Estimation",
+                "year": 2018,
+                "venue": "Machine Learning in Health Care",
+                "citation_count": 3,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "113217651",
+                        "name": "Jacob Fauber"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d78407feee4e4267059f7aaed77aed88f4d8428c",
+                "title": "Hawkes Process Inference With Missing Data",
+                "year": 2018,
+                "venue": "AAAI Conference on Artificial Intelligence",
+                "citation_count": 32,
+                "reference_count": 37,
+                "abstract": "\n \n A multivariate Hawkes process is a class of marked point processes: A sample consists of a finite set of events of unbounded random size; each event has a real-valued time and a discrete-valued label (mark). It is self-excitatory: Each event causes an increase in the rate of other events (of either the same or a different label) in the (near) future. Prior work has developed methods for parameter estimation from complete samples. However, just as unobserved variables can increase the modeling power of other probabilistic models, allowing unobserved events can increase the modeling power of point processes. In this paper we develop a method to sample over the posterior distribution of unobserved events in a multivariate Hawkes process. We demonstrate the efficacy of our approach, and its utility in improving predictive power and identifying latent structure in real-world data.\n \n",
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "145144957",
+                        "name": "Zhen Qin"
+                    },
+                    {
+                        "s2_author_id": "41036607",
+                        "name": "Chandini Shetty"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d9492632d9575d2dcbec8f3a05dcef5fe93b1d08",
+                "title": "Explaining Contrasting Categories",
+                "year": 2018,
+                "venue": "IUI Workshops",
+                "citation_count": 3,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1694780",
+                        "name": "M. Pazzani"
+                    },
+                    {
+                        "s2_author_id": "37336687",
+                        "name": "Amir H. Feghahati"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "2200227",
+                        "name": "A. Seitz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "251e20403c015a3b7d799f7acf16444b1ec8ca60",
+                "title": "Event Detection in Continuous Video: An Inference in Point Process Approach",
+                "year": 2017,
+                "venue": "IEEE Transactions on Image Processing",
+                "citation_count": 17,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50502362",
+                        "name": "Zhen Qin"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2ca3790a32b8108e657a846bc43f3de007007ad1",
+                "title": "Marked Point Process for Severity of Illness Assessment",
+                "year": 2017,
+                "venue": "Machine Learning in Health Care",
+                "citation_count": 17,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145970245",
+                        "name": "K. Islam"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "3089190",
+                        "name": "Juan I. Casse"
+                    },
+                    {
+                        "s2_author_id": "144616817",
+                        "name": "R. Wetzel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3635f9ff735b0966a3a9c61eb0630d7da97b8d25",
+                "title": "Identification of destabilizing attacks in power systems",
+                "year": 2017,
+                "venue": "American Control Conference",
+                "citation_count": 17,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31103337",
+                        "name": "Michael Izbicki"
+                    },
+                    {
+                        "s2_author_id": "2140133",
+                        "name": "Sajjad Amini"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "2076612",
+                        "name": "Hamed Mohsenian Rad"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "90de85765124ed14cdf196f1a4a352e2f5a08422",
+                "title": "Hawkes Process Inference with Missing Data : Supplementary Material",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "50502362",
+                        "name": "Zhen Qin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dbb3cd03227614e8b1f0d9900ebf946886b4c212",
+                "title": "Inference for Continuous-Time Probabilistic Programming",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "476382aafe41753807fe71ebaee9c1a566f138d0",
+                "title": "Social Grouping for Multi-Target Tracking and Head Pose Estimation in Video",
+                "year": 2016,
+                "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+                "citation_count": 31,
+                "reference_count": 53,
+                "abstract": "Many computer vision tasks are more difficult when tackled without contextual information. For example, in multi-camera tracking, pedestrians may look very different in different cameras with varying pose and lighting conditions. Similarly, head direction estimation in high-angle surveillance video in which human head images are low resolution is challenging. Even humans can have trouble without contextual information. In this work, we couple novel contextual information, social grouping, with two important computer vision tasks: multi-target tracking and head pose/direction estimation in surveillance video. These three components are modeled in a probabilistic formulation and we provide effective solvers.We show that social grouping effectively helps to mitigate visual ambiguities in multi-camera tracking and head pose estimation. We further notice that in single-camera multi-target tracking, social grouping provides a natural high-order association cue that avoids existing complex algorithms for high-order track association. In experiments, we demonstrate improvements with our model over models without social grouping context and several state-of-art approaches on a number of publicly available datasets on tracking, head pose estimation, and group discovery.",
+                "authors": [
+                    {
+                        "s2_author_id": "145144957",
+                        "name": "Zhen Qin"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4e748b630babb9c365c234c66b07224eb9153083",
+                "title": "Faster cover trees",
+                "year": 2015,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 34,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31103337",
+                        "name": "Michael Izbicki"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d301fd49b18ad036be64672403247a7206d80620",
+                "title": "Auxiliary Gibbs Sampling for Inference in Piecewise-Constant Conditional Intensity Models",
+                "year": 2015,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 14,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145144957",
+                        "name": "Zhen Qin"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7aa841327aafc1098772ce488186c59faa742931",
+                "title": "Tutorial on Structured Continuous-Time Markov Processes",
+                "year": 2014,
+                "venue": "Journal of Artificial Intelligence Research",
+                "citation_count": 22,
+                "reference_count": 75,
+                "abstract": "A continuous-time Markov process (CTMP) is a collection of variables indexed by a continuous quantity, time. It obeys the Markov property that the distribution over a future variable is independent of past variables given the state at the present time. We introduce continuous-time Markov process representations and algorithms for filtering, smoothing, expected sufficient statistics calculations, and model estimation, assuming no prior knowledge of continuous-time processes but some basic knowledge of probability and statistics. We begin by describing \"flat\" or unstructured Markov processes and then move to structured Markov processes (those arising from state spaces consisting of assignments to variables) including Kronecker, decision-diagram, and continuous-time Bayesian network representations. We provide the first connection between decision-diagrams and continuous- time Bayesian networks.",
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "1725110",
+                        "name": "Gianfranco Ciardo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fbf7f020614f919b8f820ed63554c1f8dd516a94",
+                "title": "Deterministic Anytime Inference for Stochastic Continuous-Time Markov Processes",
+                "year": 2014,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 5,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5332318",
+                        "name": "E. B. Celikkaya"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1783fa9ea908af123477cdc10a63d6760a339f7f",
+                "title": "A new criterion function for exploratory blockmodeling for structural and regular equivalence",
+                "year": 2013,
+                "venue": "Soc. Networks",
+                "citation_count": 5,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3089190",
+                        "name": "Juan I. Casse"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "15536409",
+                        "name": "R. Hanneman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b752d21b026976c87443593dcf3212ea780fd65d",
+                "title": "Social grouping for target handover in multi-view video",
+                "year": 2013,
+                "venue": "IEEE International Conference on Multimedia and Expo",
+                "citation_count": 11,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145144957",
+                        "name": "Zhen Qin"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "21442132",
+                        "name": "Lunshao Chai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "38b5a83f7941fea5fd82466f8ce1ce4ed7749f59",
+                "title": "Improving multi-target tracking via social grouping",
+                "year": 2012,
+                "venue": "2012 IEEE Conference on Computer Vision and Pattern Recognition",
+                "citation_count": 150,
+                "reference_count": 28,
+                "abstract": "We address the problem of multi-person data-association-based tracking (DAT) in semi-crowded environments from a single camera. Existing tracklet-association-based methods using purely visual cues (like appearance and motion information) show impressive results but rely on heavy training, a number of tuned parameters, and sophisticated detectors to cope with visual ambiguities within the video and low-level processing errors. In this work, we consider clustering dynamics to mitigate such ambiguities. This leads to a general optimization framework that adds social grouping behavior (SGB) to any basic affinity model. We formulate this as a nonlinear global optimization problem to maximize the consistency of visual and grouping cues for trajectories in both tracklet-tracklet linking space and tracklet-grouping assignment space. We formulate the Lagrange dual and solve it using a two-stage iterative algorithm, employing the Hungarian algorithm and K-means clustering. We build SGB upon a simple affinity model and show very promising performance on two publicly available real-world datasets with different tracklet extraction methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "145144957",
+                        "name": "Zhen Qin"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6978c2d0b5a5de048f6f849a0ab8f95eeab39c91",
+                "title": "Re-ranking using compression-based distance measure for Content-based Commercial Product Image Retrieval",
+                "year": 2012,
+                "venue": "2012 19th IEEE International Conference on Image Processing",
+                "citation_count": 12,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "21442132",
+                        "name": "Lunshao Chai"
+                    },
+                    {
+                        "s2_author_id": "145144957",
+                        "name": "Zhen Qin"
+                    },
+                    {
+                        "s2_author_id": "2108970782",
+                        "name": "Honggang Zhang"
+                    },
+                    {
+                        "s2_author_id": "1818225240",
+                        "name": "Jun Guo"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6fe0df37aae7246f485d4dc50a8cb7447487c567",
+                "title": "Continuous Time Bayesian Networks",
+                "year": 2012,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 337,
+                "reference_count": 17,
+                "abstract": "In this paper we present a language for finite state continuous time Bayesian networks (CTBNs), which describe structured stochastic processes that evolve over continuous time. The state of the system is decomposed into a set of local variables whose values change over time. The dynamics of the system are described by specifying the behavior of each local variable as a function of its parents in a directed (possibly cyclic) graph. The model specifies, at any given point in time, the distribution over two aspects: when a local variable changes its value and the next value it takes. These distributions are determined by the variable's current value and the current values of its parents in the graph. More formally, each variable is modelled as a finite state continuous time Markov process whose transition intensities are functions of its parents. We present a probabilistic semantics for the language in terms of the generative model a CTBN defines over sequences of events. We list types of queries one might ask of a CTBN, discuss the conceptual and computational difficulties associated with exact inference, and provide an algorithm for approximate inference which takes advantage of the structure within the process.",
+                "authors": [
+                    {
+                        "s2_author_id": "2687250",
+                        "name": "Uri Nodelman"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "1736370",
+                        "name": "D. Koller"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "21b7983fa2c06d7d245638650aaa416b22a48683",
+                "title": "Factored Filtering of Continuous-Time Systems",
+                "year": 2011,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 6,
+                "reference_count": 19,
+                "abstract": "We consider filtering for a continuous-time, or asynchronous, stochastic system where the full distribution over states is too large to be stored or calculated. We assume that the rate matrix of the system can be compactly represented and that the belief distribution is to be approximated as a product of marginals. The essential computation is the matrix exponential. We look at two different methods for its computation: ODE integration and uniformization of the Taylor expansion. For both we consider approximations in which only a factored belief state is maintained. For factored uniformization we demonstrate that the KL-divergence of the filtering is bounded. Our experimental results confirm our factored uniformization performs better than previously suggested uniformization methods and the mean field algorithm.",
+                "authors": [
+                    {
+                        "s2_author_id": "5332318",
+                        "name": "E. B. Celikkaya"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "144397685",
+                        "name": "William Lam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "61d3b224b025a98534f7ec9a915aa93ee04323b7",
+                "title": "Alternating Optimization Algorithm for Blockmodeling Two-way Two-mode Data with Unknown Numbers of Clusters",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "15536409",
+                        "name": "R. Hanneman"
+                    },
+                    {
+                        "s2_author_id": "3089190",
+                        "name": "Juan I. Casse"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9da70aa6c1c93f03077ac4cce54f514091cf7fd7",
+                "title": "A particle filter for monocular vision-aided odometry",
+                "year": 2011,
+                "venue": "IEEE International Conference on Robotics and Automation",
+                "citation_count": 30,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34786535",
+                        "name": "Teddy N. Yap"
+                    },
+                    {
+                        "s2_author_id": "50652064",
+                        "name": "Mingyang Li"
+                    },
+                    {
+                        "s2_author_id": "1751869",
+                        "name": "Anastasios I. Mourikis"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "06db31f88a98783bc41648b448c5231454ab8702",
+                "title": "Interactive Event Search through Transfer Learning",
+                "year": 2010,
+                "venue": "Asian Conference on Computer Vision",
+                "citation_count": 11,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2079047705",
+                        "name": "Antony Lam"
+                    },
+                    {
+                        "s2_author_id": "1404727582",
+                        "name": "A. Roy-Chowdhury"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5a882d567f0143f92fff23db35828e50e9ac42b5",
+                "title": "Intrusion Detection using Continuous Time Bayesian Networks",
+                "year": 2010,
+                "venue": "Journal of Artificial Intelligence Research",
+                "citation_count": 95,
+                "reference_count": 49,
+                "abstract": "Intrusion detection systems (IDSs) fall into two high-level categories: network-based systems (NIDS) that monitor network behaviors, and host-based systems (HIDS) that monitor system calls. In this work, we present a general technique for both systems. We use anomaly detection, which identifies patterns not conforming to a historic norm. In both types of systems, the rates of change vary dramatically over time (due to burstiness) and over components (due to service difference). To efficiently model such systems, we use continuous time Bayesian networks (CTBNs) and avoid specifying a fixed update interval common to discrete-time models. We build generative models from the normal training data, and abnormal behaviors are flagged based on their likelihood under this norm. For NIDS, we construct a hierarchical CTBN model for the network packet traces and use Rao-Blackwellized particle filtering to learn the parameters. We illustrate the power of our method through experiments on detecting real worms and identifying hosts on two publicly available network traces, the MAWI dataset and the LBNL dataset. For HIDS, we develop a novel learning method to deal with the finite resolution of system log file time stamps, without losing the benefits of our continuous time model. We demonstrate the method by detecting intrusions in the DARPA 1998 BSM dataset.",
+                "authors": [
+                    {
+                        "s2_author_id": "2212230074",
+                        "name": "Jing Xu"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "80e101c8e47d49d5dc04948449e502a2462eeacb",
+                "title": "Importance Sampling for Continuous Time Bayesian Networks",
+                "year": 2010,
+                "venue": "Journal of machine learning research",
+                "citation_count": 53,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118166363",
+                        "name": "Yu Fan"
+                    },
+                    {
+                        "s2_author_id": "2212230074",
+                        "name": "Jing Xu"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "95036927b1011d3aedaf2f14dea32b9870b0e749",
+                "title": "Automated , Highly-accurate Bug Triaging Using Machine Learning",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9771c34ea7a5a1b621069a5e6cf81911e98e9847",
+                "title": "Applying modality and equivalence concepts to pattern finding in social process-produced data",
+                "year": 2010,
+                "venue": "Social Network Analysis and Mining",
+                "citation_count": 10,
+                "reference_count": 44,
+                "abstract": "Large amounts of detailed transactional information are generated by ongoing social processes. For managing and mining such data, we treat them as \u201cobjects\u201d and \u201crelations\u201d. These ideas strongly parallel the way that social network analysts conceive of social structure. Modality (roughly, distinguishing multiple classes of social actors or nodes in networks) and equivalence classes (roughly, distinguishing general patterns in the ways that objects in classes are related to one another or to objects in other classes) have proven to be very useful in helping social network analysts to think about complex relational structures among social objects. Dimensional and generalized \u201cblock models\u201d of multi-modal social networks provide tools for designing searches to identify patterns. The ideas are illustrated by descriptions of how a number of social process-produced data might be approached, including bibliographic databases, communications logs, virtual communities, and economic transactions.",
+                "authors": [
+                    {
+                        "s2_author_id": "15536409",
+                        "name": "R. Hanneman"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b77bbc60d4d7d02ec9dd35ecce121e1b444a8f16",
+                "title": "Continuous Time Bayesian Network Reasoning and Learning Engine",
+                "year": 2010,
+                "venue": "Journal of machine learning research",
+                "citation_count": 40,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "2118166363",
+                        "name": "Yu Fan"
+                    },
+                    {
+                        "s2_author_id": "144397685",
+                        "name": "William Lam"
+                    },
+                    {
+                        "s2_author_id": "2116660877",
+                        "name": "Joon Lee"
+                    },
+                    {
+                        "s2_author_id": "2212230074",
+                        "name": "Jing Xu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "048226efed1e6bd6fcc438be9e8c3893db850a76",
+                "title": "Learning Continuous-Time Social Network Dynamics",
+                "year": 2009,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 69,
+                "reference_count": 17,
+                "abstract": "We demonstrate that a number of sociology models for social network dynamics can be viewed as continuous time Bayesian networks (CTBNs). A sampling-based approximate inference method for CTBNs can be used as the basis of an expectation-maximization procedure that achieves better accuracy in estimating the parameters of the model than the standard method of moments algorithmfromthe sociology literature. We extend the existing social network models to allow for indirect and asynchronous observations of the links. A Markov chain Monte Carlo sampling algorithm for this new model permits estimation and inference. We provide results on both a synthetic network (for verification) and real social network data.",
+                "authors": [
+                    {
+                        "s2_author_id": "2118166363",
+                        "name": "Yu Fan"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "72200ed8e9c4b0b18c6866c97ea0022d60a7d7f5",
+                "title": "Momentum control for balance",
+                "year": 2009,
+                "venue": "ACM Transactions on Graphics",
+                "citation_count": 222,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3033227",
+                        "name": "Adriano Macchietto"
+                    },
+                    {
+                        "s2_author_id": "1746234",
+                        "name": "Victor B. Zordan"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "de701f013da67b01ffbac193877db6787883fa5e",
+                "title": "SLAM in large indoor environments with low-cost, noisy, and sparse sonars",
+                "year": 2009,
+                "venue": "IEEE International Conference on Robotics and Automation",
+                "citation_count": 50,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34786535",
+                        "name": "Teddy N. Yap"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e8010e9ffc5eb8e85f4118458ebb97a8f26851c",
+                "title": "Continuous Time Bayesian Networks for Host Level Network Intrusion Detection",
+                "year": 2008,
+                "venue": "ECML/PKDD",
+                "citation_count": 49,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2212230074",
+                        "name": "Jing Xu"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "289bef8ef3c18214d1e23b24b7815b50fab87946",
+                "title": "Simultaneous learning of motion and sensor model parameters for mobile robots",
+                "year": 2008,
+                "venue": "IEEE International Conference on Robotics and Automation",
+                "citation_count": 9,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34786535",
+                        "name": "Teddy N. Yap"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5fcc3fc485fcb439c5f76c39a5360d2e21af60ca",
+                "title": "Face recognition and alignment using support vector machines",
+                "year": 2008,
+                "venue": "IEEE International Conference on Automatic Face & Gesture Recognition",
+                "citation_count": 6,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2079047705",
+                        "name": "Antony Lam"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "92ff6b28726187f06b6ba20bd14e3e8190b0d413",
+                "title": "Catenary Support Vector Machines",
+                "year": 2008,
+                "venue": "ECML/PKDD",
+                "citation_count": 1,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2102705",
+                        "name": "K. Kan"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9b849a7892a9fc4c03d112835815925c6af53670",
+                "title": "Solving Structured Continuous-Time Markov Decision Processes",
+                "year": 2008,
+                "venue": "International Symposium on Artificial Intelligence and Mathematics",
+                "citation_count": 14,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2102705",
+                        "name": "K. Kan"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a333fbbadbbf7cacc826e641f2a9f1abf765588b",
+                "title": "Annotating Genes of Known and Unknown Function by Large-Scale Coexpression Analysis1[W][OA]",
+                "year": 2008,
+                "venue": "Plant Physiology",
+                "citation_count": 185,
+                "reference_count": 74,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1923754",
+                        "name": "K. Horan"
+                    },
+                    {
+                        "s2_author_id": "4052276",
+                        "name": "Charles J. H. Jang"
+                    },
+                    {
+                        "s2_author_id": "1398040803",
+                        "name": "J. Bailey-Serres"
+                    },
+                    {
+                        "s2_author_id": "5718945",
+                        "name": "R. Mittler"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "121609569",
+                        "name": "J. Harper"
+                    },
+                    {
+                        "s2_author_id": "12072827",
+                        "name": "Jian\u2010Kang Zhu"
+                    },
+                    {
+                        "s2_author_id": "2964156",
+                        "name": "J. Cushman"
+                    },
+                    {
+                        "s2_author_id": "2926048",
+                        "name": "Martin Gollery"
+                    },
+                    {
+                        "s2_author_id": "3325302",
+                        "name": "T. Girke"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "af729d4e5fa9796e39ad03f7c61b290d1d45c14e",
+                "title": "Unsupervised image embedding using nonparametric statistics",
+                "year": 2008,
+                "venue": "International Conference on Pattern Recognition",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3187820",
+                        "name": "G. Mei"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b4e960a3a2f3e353a62d10a93a3094ba685f18e3",
+                "title": "Dimensionality reduction algorithms with applications to collaborative data and images",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 59,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "3187820",
+                        "name": "G. Mei"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b90b7df51c17268084788602fd12d2653ad5674c",
+                "title": "Annotating historical archives of images",
+                "year": 2008,
+                "venue": "International Journal of Digital Library Systems",
+                "citation_count": 24,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118775979",
+                        "name": "Xiaoyue Wang"
+                    },
+                    {
+                        "s2_author_id": "2981943",
+                        "name": "Lexiang Ye"
+                    },
+                    {
+                        "s2_author_id": "50543766",
+                        "name": "Eamonn J. Keogh"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f94081168a801b04ee324d7e8561b56097d5c283",
+                "title": "Sampling for Approximate Inference in Continuous Time Bayesian Networks",
+                "year": 2008,
+                "venue": "International Symposium on Artificial Intelligence and Mathematics",
+                "citation_count": 63,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118166363",
+                        "name": "Yu Fan"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1717e3d3848b5e44b0e38930da0b50f525c216c3",
+                "title": "Importance Sampling Estimates for Policies with Memory",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6e39d37f5ba72961f4a72525d96bc25f8eb1bf93",
+                "title": "Model performance on a more \u201c natural \u201d object class",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "db32f7cff721f01cf3277e9314284262c0238465",
+                "title": "Kernel-Based Feature Extraction and Speech Technology Applications",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1717941",
+                        "name": "J. Csirik"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e20359bee74167679004ef8807609a78bf1ba15d",
+                "title": "First International Workshop and Challenge on Time Series Classification",
+                "year": 2007,
+                "venue": "Knowledge Discovery and Data Mining",
+                "citation_count": 7,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "73301439",
+                        "name": "E. Keogh"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "70237874",
+                        "name": "Fabian Moerchen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eae36e73d0f7d8b08abcced4f764aac519757d6f",
+                "title": "Investigating Generative Factors of Score Matrices",
+                "year": 2007,
+                "venue": "International Conference on Artificial Intelligence in Education",
+                "citation_count": 6,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "36517601",
+                        "name": "Titus Winters"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "47424931",
+                        "name": "Tom Payne"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "415dae363449d399141d07941424b057a26716aa",
+                "title": "Fast time series classification using numerosity reduction",
+                "year": 2006,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 654,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1703267",
+                        "name": "X. Xi"
+                    },
+                    {
+                        "s2_author_id": "50543766",
+                        "name": "Eamonn J. Keogh"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "2218312146",
+                        "name": "Li Wei"
+                    },
+                    {
+                        "s2_author_id": "145043192",
+                        "name": "C. Ratanamahatana"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b497219b523850a4d1724742edbd13f852423db6",
+                "title": "Predicting Missing Entries in Score Matrices",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "36517601",
+                        "name": "Titus Winters"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "47424931",
+                        "name": "Tom Payne"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c603c598beb448adc87bcd750dd81ddd6abce8fb",
+                "title": "Chained Boosting",
+                "year": 2006,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 4,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "2060949127",
+                        "name": "Wesley Huie"
+                    },
+                    {
+                        "s2_author_id": "2102705",
+                        "name": "K. Kan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "591b6d0dcc177b72446701bf638b99151cf44bf3",
+                "title": "Expectation Propagation for Continuous Time Bayesian Networks",
+                "year": 2005,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 83,
+                "reference_count": 11,
+                "abstract": "Continuous time Bayesian networks (CTBNs) describe structured stochastic processes with finitely many states that evolve over continuous time. A CTBN is a directed (possibly cyclic) dependency graph over a set of variables, each of which represents a finite state continuous time Markov process whose transition model is a function of its parents. As shown previously, exact inference in CTBNs is intractable. We address the problem of approximate inference, allowing for general queries conditioned on evidence over continuous time intervals and at discrete time points. We show how CTBNs can be parameterized within the exponential family, and use that insight to develop a message passing scheme in cluster graphs and allows us to apply expectation propagation to CTBNs. The clusters in our cluster graph do not contain distributions over the cluster variables at individual time points, but distributions over trajectories of the variables throughout a duration. Thus, unlike discrete time temporal models such as dynamic Bayesian networks, we can adapt the time granularity at which we reason for different variables and in different conditions.",
+                "authors": [
+                    {
+                        "s2_author_id": "2687250",
+                        "name": "Uri Nodelman"
+                    },
+                    {
+                        "s2_author_id": "1736370",
+                        "name": "D. Koller"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "730702fe297e4297f0f69fd5ea65998ed899e94b",
+                "title": "Extraction from Item-Level Grades",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "36517601",
+                        "name": "Titus Winters"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "47424931",
+                        "name": "Tom Payne"
+                    },
+                    {
+                        "s2_author_id": "3187820",
+                        "name": "G. Mei"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab7fbb84ce7a1bcd2cd967291566c31aba9d62aa",
+                "title": "Expectation Maximization and Complex Duration Distributions for Continuous Time Bayesian Networks",
+                "year": 2005,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 86,
+                "reference_count": 21,
+                "abstract": "Continuous time Bayesian networks (CTBNs) describe structured stochastic processes with finitely many states that evolve over continuous time. A CTBN is a directed (possibly cyclic) dependency graph over a set of variables, each of which represents a finite state continuous time Markov process whose transition model is a function of its parents. We address the problem of learning the parameters and structure of a CTBN from partially observed data. We show how to apply expectation maximization (EM) and structural expectation maximization (SEM) to CTBNs. The availability of the EM algorithm allows us to extend the representation of CTBNs to allow a much richer class of transition durations distributions, known as phase distributions. This class is a highly expressive semi-parametric representation, which can approximate any duration distribution arbitrarily closely. This extension to the CTBN framework addresses one of the main limitations of both CTBNs and DBNs \u2014 the restriction to exponentially / geometrically distributed duration. We present experimental results on a real data set of people's life spans, showing that our algorithm learns reasonable models \u2014 structure and parameters \u2014 from partially observed data, and, with the use of phase distributions, achieves better performance than DBNs.",
+                "authors": [
+                    {
+                        "s2_author_id": "2687250",
+                        "name": "Uri Nodelman"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "1736370",
+                        "name": "D. Koller"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b7e882f67a8b88143e0d582ba22a53b02ecfe673",
+                "title": "A Continuation Method for Nash Equilibria in Structured Games",
+                "year": 2003,
+                "venue": "Journal of Artificial Intelligence Research",
+                "citation_count": 90,
+                "reference_count": 35,
+                "abstract": "Structured game representations have recently attracted interest as models for multi-agent artificial intelligence scenarios, with rational behavior most commonly characterized by Nash equilibria. This paper presents efficient, exact algorithms for computing Nash equilibria in structured game representations, including both graphical games and multi-agent influence diagrams (MAIDs). The algorithms are derived from a continuation method for normal-form and extensive-form games due to Govindan and Wilson; they follow a trajectory through a space of perturbed games and their equilibria, exploiting game structure through fast computation of the Jacobian of the payoff function. They are theoretically guaranteed to find at least one equilibrium of the game, and may find more. Our approach provides the first efficient algorithm for computing exact equilibria in graphical games with arbitrary topology, and the first algorithm to exploit fine-grained structural properties of MAIDs. Experimental results are presented demonstrating the effectiveness of the algorithms and comparing them to predecessors. The running time of the graphical game algorithm is similar to, and often better than, the running time of previous approximate algorithms. The algorithm for MAIDs can effectively solve games that are much larger than those solvable by previous methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "2070236635",
+                        "name": "Ben Blum"
+                    },
+                    {
+                        "s2_author_id": "1736370",
+                        "name": "D. Koller"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1112ca9237b37ac6318bb1795555d30a763f65c6",
+                "title": "Reinforcement Learning with Partially Known World Dynamics",
+                "year": 2002,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 2,
+                "reference_count": 20,
+                "abstract": "Reinforcement learning would enjoy better success on real-world problems if domain knowledge could be imparted to the algorithm by the modelers. Most problems have both hidden state and unknown dynamics. Partially observable Markov decision processes (POMDPs) allow for the modeling of both. Unfortunately, they do not provide a natural framework in which to specify knowledge about the domain dynamics. The designer must either admit to knowing nothing about the dynamics or completely specify the dynamics (thereby turning it into a planning problem). We propose a new framework called a partially known Markov decision process (PKMDP) which allows the designer to specify known dynamics while still leaving portions of the environment s dynamics unknown.The model represents NOT ONLY the environment dynamics but also the agents knowledge of the dynamics. We present a reinforcement learning algorithm for this model based on importance sampling. The algorithm incorporates planning based on the known dynamics and learning about the unknown dynamics. Our results clearly demonstrate the ability to add domain knowledge and the resulting benefits for learning.",
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "411558b7f9488c79a199ab302b93bd8fd58efd3b",
+                "title": "Modeling Stock Order Flows and Learning Market-Making from Data",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 24,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10800713",
+                        "name": "A. Kim"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "1685292",
+                        "name": "T. Poggio"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9c874cfd63d0aab6a47d126dc75ef2dd26344b02",
+                "title": "Learning Continuous Time Bayesian Networks",
+                "year": 2002,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 148,
+                "reference_count": 9,
+                "abstract": "Continuous time Bayesian networks (CTBNs) describe structured stochastic processes with finitely many states that evolve over continuous time. A CTBN is a directed (possibly cyclic) dependency graph over a set of variables, each of which represents a finite state continuous time Markov process whose transition model is a function of its parents. We address the problem of learning parameters and structure of a CTBN from fully observed data. We define a conjugate prior for CTBNs, and show how it can be used both for Bayesian parameter estimation and as the basis of a Bayesian score for structure learning. Because acyclicity is not a constraint in CTBNs, we can show that the structure learning problem is significantly easier, both in theory and in practice, than structure learning for dynamic Bayesian networks (DBNs). Furthermore, as CTBNs can tailor the parameters and dependency structure to the different time granularities of the evolution of different variables, they can provide a better fit to continuous-time processes than DBNs with a fixed time granularity.",
+                "authors": [
+                    {
+                        "s2_author_id": "2687250",
+                        "name": "Uri Nodelman"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "1736370",
+                        "name": "D. Koller"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fa50cb361cef1a89c370a9f4434a3f33fe33febd",
+                "title": "Learning from Scarce Experience",
+                "year": 2002,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 75,
+                "reference_count": 30,
+                "abstract": "Searching the space of policies directly for the optimal policy has been one popular method for solving partially observable reinforcement learning problems. Typically, with each change of the target policy, its value is estimated from the results of following that very policy. This requires a large number of interactions with the environment as different polices are considered. We present a family of algorithms based on likelihood ratio estimation that use data gathered when executing one policy (or collection of policies) to estimate the value of a different policy. The algorithms combine estimation and optimization stages. The former utilizes experience to build a non-parametric representation of an optimized function. The latter performs optimization on this estimate. We show positive empirical results and provide the sample complexity bound.",
+                "authors": [
+                    {
+                        "s2_author_id": "1714319",
+                        "name": "L. Peshkin"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "109186b81a0575936297ae3a0ff41491124a4bf2",
+                "title": "A social reinforcement learning agent",
+                "year": 2001,
+                "venue": "International Conference on Autonomous Agents",
+                "citation_count": 166,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1787816",
+                        "name": "C. Isbell"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "81338045",
+                        "name": "Michael Kearns"
+                    },
+                    {
+                        "s2_author_id": "1699868",
+                        "name": "Satinder Singh"
+                    },
+                    {
+                        "s2_author_id": "144848112",
+                        "name": "P. Stone"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3c1d0b29b2c2217d9e17b38043fb73033d3efa49",
+                "title": "Cobot: A Social Reinforcement Learning Agent",
+                "year": 2001,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 40,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1787816",
+                        "name": "C. Isbell"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "81338045",
+                        "name": "Michael Kearns"
+                    },
+                    {
+                        "s2_author_id": "1699868",
+                        "name": "Satinder Singh"
+                    },
+                    {
+                        "s2_author_id": "144848112",
+                        "name": "P. Stone"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "87f7db0398f7504d33f9f4a86cf87bc8a09d28fd",
+                "title": "Reinforcement Learning with Multiple Objectives",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e6195d827d5cd9692f789ee7fd5bc73baab9350a",
+                "title": "Policy Improvement for POMDPs Using Normalized Importance Sampling",
+                "year": 2001,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 57,
+                "reference_count": 14,
+                "abstract": "We present a new method for estimating the expected return of a POMDP from experience. The estimator does not assume any knowledge of the POMDP, can estimate the returns for finite state controllers, allows experience to be gathered from arbitrary sequences of policies, and estimates the return for any new policy. We motivate the estimator from function-approximation and importance sampling points-of-view and derive its bias and variance. Although the estimator is biased, it has low variance and the bias is often irrelevant when the estimator is used for pair-wise comparisons. We conclude by extending the estimator to policies with memory and compare its performance in a greedy search algorithm to the REINFORCE algorithm showing an order of magnitude reduction in the number of trials required.",
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ee2c379e8124d8dd58dd1f0272fc45d32c7d1d36",
+                "title": "Importance sampling for reinforcement learning with multiple objectives",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 84,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "012defb5c4f088ca0c3ae14c24e20f92214775d7",
+                "title": "Balancing Multiple Sources of Reward in Reinforcement Learning",
+                "year": 2000,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 50,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d21d226a89204bcf9e6261f5f29e2b46a5251bd",
+                "title": "The Mount Wilson Adaptive Optics Coronagraph",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2107424396",
+                        "name": "C. Gao"
+                    },
+                    {
+                        "s2_author_id": "11372314",
+                        "name": "C. Ftaclas"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "78426649",
+                        "name": "N. Turner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f505c5231e5461366f608673eb967305429bf2b5",
+                "title": "Learning in brains and machines.",
+                "year": 2000,
+                "venue": "Spatial Vision",
+                "citation_count": 3,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1685292",
+                        "name": "T. Poggio"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1350c1bc90bc1f8cadc52fddf0c2a8f8c00f1245",
+                "title": "The Keck Natural Guide Star Adaptive Optics Facility: capabilities and early science",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "51978407",
+                        "name": "D. S. Acton"
+                    },
+                    {
+                        "s2_author_id": "6613822",
+                        "name": "P. Wizinowich"
+                    },
+                    {
+                        "s2_author_id": "40648318",
+                        "name": "O. Lai"
+                    },
+                    {
+                        "s2_author_id": "50456673",
+                        "name": "P. Stomski"
+                    },
+                    {
+                        "s2_author_id": "95226188",
+                        "name": "J. Gathright"
+                    },
+                    {
+                        "s2_author_id": "145031163",
+                        "name": "W. Lupton"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "40371087",
+                        "name": "E. Johansson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b44928816cf5afec15613315749f0a0114be8704",
+                "title": "Machine Learning, Machine Vision, and the Brain",
+                "year": 1999,
+                "venue": "The AI Magazine",
+                "citation_count": 40,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1685292",
+                        "name": "T. Poggio"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1ba850e2a62bb1b58aa6b5f0596aa70a6040c0be",
+                "title": "Memo No . 167 December 1998 Three-Dimensional Correspondence",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55efd3fd17eeb1daee20578982775e5eb1a6de28",
+                "title": "Three-Dimensional Correspondence",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0660fc86679c1db56aba2fe66a5fde159913b563",
+                "title": "RAPID: randomized pharmacophore identification for drug design",
+                "year": 1997,
+                "venue": "SCG '97",
+                "citation_count": 64,
+                "reference_count": 54,
+                "abstract": "This paper describes a randomized approach for finding invariants in a set of flexible ligands (drug molecules) that underlies an integrated software system called RAPID currently under development. An invariant is a collection of features embedded in 3 which is present in one or more of the possible low-energy conformations of each ligand. Such invariants of chemically distinct molecules are useful for computational chemists since they may represent candidate pharmacophores. A pharmacophore contains the parts of the ligand that are primarily responsible for its interaction and binding with a specific receptor. It is regarded as an inverse image of a receptor and is used as a template for building more effective pharmaceutical drugs. The identification of pharmacophores is crucial in drug design since the structure of the targeted receptor is frequently unknown, but a number of molecules that interact with the receptor have been discovered by experiments. It is expected that our techniques and the results produced by our system will prove useful in other applications such as molecular database screening and comparative molecular field analysis.",
+                "authors": [
+                    {
+                        "s2_author_id": "39707157",
+                        "name": "P. Finn"
+                    },
+                    {
+                        "s2_author_id": "1780248",
+                        "name": "L. Kavraki"
+                    },
+                    {
+                        "s2_author_id": "1694248",
+                        "name": "J. Latombe"
+                    },
+                    {
+                        "s2_author_id": "84095744",
+                        "name": "R. Motwani"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "1747652",
+                        "name": "Suresh Venkatasubramanian"
+                    },
+                    {
+                        "s2_author_id": "1770729",
+                        "name": "A. Yao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "758020f093045a1e4ecf70e44a71537400876ec4",
+                "title": "Correspondence of 3 D polygonal shapes",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8366133e8c6048e1a62d5b5981f6f88e1bec511a",
+                "title": "A perturbation scheme for spherical arrangements with application to molecular modeling",
+                "year": 1997,
+                "venue": "SCG '97",
+                "citation_count": 82,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145793888",
+                        "name": "D. Halperin"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1f8bdf1939ef546f615222ba0745c519de37826f",
+                "title": "of Flexible Ligands",
+                "year": 1996,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145793888",
+                        "name": "D. Halperin"
+                    },
+                    {
+                        "s2_author_id": "1780248",
+                        "name": "L. Kavraki"
+                    },
+                    {
+                        "s2_author_id": "1694248",
+                        "name": "J. Latombe"
+                    },
+                    {
+                        "s2_author_id": "84095744",
+                        "name": "R. Motwani"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "1747652",
+                        "name": "Suresh Venkatasubramanian"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5b767355edc3a96dfb929f08c8266fb472145ff3",
+                "title": "Three-dimensional Correspondence Three-dimensional Correspondence Three-dimensional Correspondence",
+                "year": 1996,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9ab862e76f9dd2c2e8b67c28ee38c9575e61b8fd",
+                "title": "Geometric Manipulation of Flexible Ligands",
+                "year": 1996,
+                "venue": "Workshop on Applied Computational Geometry",
+                "citation_count": 35,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39707157",
+                        "name": "P. Finn"
+                    },
+                    {
+                        "s2_author_id": "145793888",
+                        "name": "D. Halperin"
+                    },
+                    {
+                        "s2_author_id": "1780248",
+                        "name": "L. Kavraki"
+                    },
+                    {
+                        "s2_author_id": "1694248",
+                        "name": "J. Latombe"
+                    },
+                    {
+                        "s2_author_id": "84095744",
+                        "name": "R. Motwani"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "1747652",
+                        "name": "Suresh Venkatasubramanian"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9e0768d48ec6dd24261743201751759cf9e8bda4",
+                "title": "Geometric Manipulation of F Lexible Ligands ?",
+                "year": 1996,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39707157",
+                        "name": "P. Finn"
+                    },
+                    {
+                        "s2_author_id": "145793888",
+                        "name": "D. Halperin"
+                    },
+                    {
+                        "s2_author_id": "1780248",
+                        "name": "L. Kavraki"
+                    },
+                    {
+                        "s2_author_id": "1694248",
+                        "name": "J. Latombe"
+                    },
+                    {
+                        "s2_author_id": "84095744",
+                        "name": "R. Motwani"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "1747652",
+                        "name": "Suresh Venkatasubramanian"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4dde90cec5fabfae24d5ec518905fbb6a557a944",
+                "title": "The Mount Wilson Story",
+                "year": 1994,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33052777",
+                        "name": "M. Bester"
+                    },
+                    {
+                        "s2_author_id": "8351940",
+                        "name": "S. Baliunas"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "28028767",
+                        "name": "Leonard Webster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "94835f9b9f41ad94fff732e963e2ec756c0d1b37",
+                "title": "Open Access Research Article Predicting Conserved Protein Motifs with Sub-hmms",
+                "year": null,
+                "venue": "",
+                "citation_count": 16,
+                "reference_count": 47,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1923754",
+                        "name": "K. Horan"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    },
+                    {
+                        "s2_author_id": "3325302",
+                        "name": "T. Girke"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "3395768",
+                "name": "Chengkuan Hong"
+            },
+            {
+                "s2_author_id": "49113366",
+                "name": "M. Ho"
+            },
+            {
+                "s2_author_id": "49233337",
+                "name": "Simeon Bird"
+            },
+            {
+                "s2_author_id": "2107313515",
+                "name": "M. Fernandez"
+            },
+            {
+                "s2_author_id": "3145020",
+                "name": "Seyedmehdi Hosseinimotlagh"
+            },
+            {
+                "s2_author_id": "2135857351",
+                "name": "Daniel Enright"
+            },
+            {
+                "s2_author_id": "1797216",
+                "name": "Hyoseung Kim"
+            },
+            {
+                "s2_author_id": "2873935",
+                "name": "Dave Gomboc"
+            },
+            {
+                "s2_author_id": "1748959042",
+                "name": "Leah Fauber"
+            },
+            {
+                "s2_author_id": "145974030",
+                "name": "R. Garnett"
+            },
+            {
+                "s2_author_id": "1748959415",
+                "name": "Ishita Korde"
+            },
+            {
+                "s2_author_id": "145970245",
+                "name": "K. Islam"
+            },
+            {
+                "s2_author_id": "2108033083",
+                "name": "Xian Wang"
+            },
+            {
+                "s2_author_id": "2152771246",
+                "name": "Anshuman Kumar"
+            },
+            {
+                "s2_author_id": "144898084",
+                "name": "Bryan M. Wong"
+            },
+            {
+                "s2_author_id": "143839942",
+                "name": "S. Sandeep"
+            },
+            {
+                "s2_author_id": "46660850",
+                "name": "A. Pahor"
+            },
+            {
+                "s2_author_id": "2460284",
+                "name": "Susanne M. Jaeggi"
+            },
+            {
+                "s2_author_id": "2200227",
+                "name": "A. Seitz"
+            },
+            {
+                "s2_author_id": "31103337",
+                "name": "Michael Izbicki"
+            },
+            {
+                "s2_author_id": "9232698",
+                "name": "S. Alaee"
+            },
+            {
+                "s2_author_id": "6982818",
+                "name": "Alireza Abdoli"
+            },
+            {
+                "s2_author_id": "144936907",
+                "name": "A. Murillo"
+            },
+            {
+                "s2_author_id": "6262104",
+                "name": "A. Gerry"
+            },
+            {
+                "s2_author_id": "50543766",
+                "name": "Eamonn J. Keogh"
+            },
+            {
+                "s2_author_id": "2667415",
+                "name": "Amirali Darvishzadeh"
+            },
+            {
+                "s2_author_id": "1706168",
+                "name": "T. Stahovich"
+            },
+            {
+                "s2_author_id": "37336687",
+                "name": "Amir H. Feghahati"
+            },
+            {
+                "s2_author_id": "2129012",
+                "name": "Negin Entezari"
+            },
+            {
+                "s2_author_id": "9146911",
+                "name": "Shaghayegh Gharghabi"
+            },
+            {
+                "s2_author_id": "1491425734",
+                "name": "Reed Kanemaru"
+            },
+            {
+                "s2_author_id": "1694780",
+                "name": "M. Pazzani"
+            },
+            {
+                "s2_author_id": "113217651",
+                "name": "Jacob Fauber"
+            },
+            {
+                "s2_author_id": "145144957",
+                "name": "Zhen Qin"
+            },
+            {
+                "s2_author_id": "41036607",
+                "name": "Chandini Shetty"
+            },
+            {
+                "s2_author_id": "50502362",
+                "name": "Zhen Qin"
+            },
+            {
+                "s2_author_id": "3089190",
+                "name": "Juan I. Casse"
+            },
+            {
+                "s2_author_id": "144616817",
+                "name": "R. Wetzel"
+            },
+            {
+                "s2_author_id": "2140133",
+                "name": "Sajjad Amini"
+            },
+            {
+                "s2_author_id": "2076612",
+                "name": "Hamed Mohsenian Rad"
+            },
+            {
+                "s2_author_id": "1725110",
+                "name": "Gianfranco Ciardo"
+            },
+            {
+                "s2_author_id": "5332318",
+                "name": "E. B. Celikkaya"
+            },
+            {
+                "s2_author_id": "15536409",
+                "name": "R. Hanneman"
+            },
+            {
+                "s2_author_id": "21442132",
+                "name": "Lunshao Chai"
+            },
+            {
+                "s2_author_id": "2108970782",
+                "name": "Honggang Zhang"
+            },
+            {
+                "s2_author_id": "1818225240",
+                "name": "Jun Guo"
+            },
+            {
+                "s2_author_id": "2687250",
+                "name": "Uri Nodelman"
+            },
+            {
+                "s2_author_id": "1736370",
+                "name": "D. Koller"
+            },
+            {
+                "s2_author_id": "144397685",
+                "name": "William Lam"
+            },
+            {
+                "s2_author_id": "34786535",
+                "name": "Teddy N. Yap"
+            },
+            {
+                "s2_author_id": "50652064",
+                "name": "Mingyang Li"
+            },
+            {
+                "s2_author_id": "1751869",
+                "name": "Anastasios I. Mourikis"
+            },
+            {
+                "s2_author_id": "2079047705",
+                "name": "Antony Lam"
+            },
+            {
+                "s2_author_id": "1404727582",
+                "name": "A. Roy-Chowdhury"
+            },
+            {
+                "s2_author_id": "2212230074",
+                "name": "Jing Xu"
+            },
+            {
+                "s2_author_id": "2118166363",
+                "name": "Yu Fan"
+            },
+            {
+                "s2_author_id": "33559727",
+                "name": "P. Bhattacharya"
+            },
+            {
+                "s2_author_id": "145722649",
+                "name": "Iulian Neamtiu"
+            },
+            {
+                "s2_author_id": "2116660877",
+                "name": "Joon Lee"
+            },
+            {
+                "s2_author_id": "3033227",
+                "name": "Adriano Macchietto"
+            },
+            {
+                "s2_author_id": "1746234",
+                "name": "Victor B. Zordan"
+            },
+            {
+                "s2_author_id": "2102705",
+                "name": "K. Kan"
+            },
+            {
+                "s2_author_id": "1923754",
+                "name": "K. Horan"
+            },
+            {
+                "s2_author_id": "4052276",
+                "name": "Charles J. H. Jang"
+            },
+            {
+                "s2_author_id": "1398040803",
+                "name": "J. Bailey-Serres"
+            },
+            {
+                "s2_author_id": "5718945",
+                "name": "R. Mittler"
+            },
+            {
+                "s2_author_id": "121609569",
+                "name": "J. Harper"
+            },
+            {
+                "s2_author_id": "12072827",
+                "name": "Jian\u2010Kang Zhu"
+            },
+            {
+                "s2_author_id": "2964156",
+                "name": "J. Cushman"
+            },
+            {
+                "s2_author_id": "2926048",
+                "name": "Martin Gollery"
+            },
+            {
+                "s2_author_id": "3325302",
+                "name": "T. Girke"
+            },
+            {
+                "s2_author_id": "3187820",
+                "name": "G. Mei"
+            },
+            {
+                "s2_author_id": "2118775979",
+                "name": "Xiaoyue Wang"
+            },
+            {
+                "s2_author_id": "2981943",
+                "name": "Lexiang Ye"
+            },
+            {
+                "s2_author_id": "1717941",
+                "name": "J. Csirik"
+            },
+            {
+                "s2_author_id": "73301439",
+                "name": "E. Keogh"
+            },
+            {
+                "s2_author_id": "70237874",
+                "name": "Fabian Moerchen"
+            },
+            {
+                "s2_author_id": "36517601",
+                "name": "Titus Winters"
+            },
+            {
+                "s2_author_id": "47424931",
+                "name": "Tom Payne"
+            },
+            {
+                "s2_author_id": "1703267",
+                "name": "X. Xi"
+            },
+            {
+                "s2_author_id": "2218312146",
+                "name": "Li Wei"
+            },
+            {
+                "s2_author_id": "145043192",
+                "name": "C. Ratanamahatana"
+            },
+            {
+                "s2_author_id": "2060949127",
+                "name": "Wesley Huie"
+            },
+            {
+                "s2_author_id": "2070236635",
+                "name": "Ben Blum"
+            },
+            {
+                "s2_author_id": "10800713",
+                "name": "A. Kim"
+            },
+            {
+                "s2_author_id": "1685292",
+                "name": "T. Poggio"
+            },
+            {
+                "s2_author_id": "1714319",
+                "name": "L. Peshkin"
+            },
+            {
+                "s2_author_id": "1787816",
+                "name": "C. Isbell"
+            },
+            {
+                "s2_author_id": "81338045",
+                "name": "Michael Kearns"
+            },
+            {
+                "s2_author_id": "1699868",
+                "name": "Satinder Singh"
+            },
+            {
+                "s2_author_id": "144848112",
+                "name": "P. Stone"
+            },
+            {
+                "s2_author_id": "2107424396",
+                "name": "C. Gao"
+            },
+            {
+                "s2_author_id": "11372314",
+                "name": "C. Ftaclas"
+            },
+            {
+                "s2_author_id": "78426649",
+                "name": "N. Turner"
+            },
+            {
+                "s2_author_id": "51978407",
+                "name": "D. S. Acton"
+            },
+            {
+                "s2_author_id": "6613822",
+                "name": "P. Wizinowich"
+            },
+            {
+                "s2_author_id": "40648318",
+                "name": "O. Lai"
+            },
+            {
+                "s2_author_id": "50456673",
+                "name": "P. Stomski"
+            },
+            {
+                "s2_author_id": "95226188",
+                "name": "J. Gathright"
+            },
+            {
+                "s2_author_id": "145031163",
+                "name": "W. Lupton"
+            },
+            {
+                "s2_author_id": "40371087",
+                "name": "E. Johansson"
+            },
+            {
+                "s2_author_id": "39707157",
+                "name": "P. Finn"
+            },
+            {
+                "s2_author_id": "1780248",
+                "name": "L. Kavraki"
+            },
+            {
+                "s2_author_id": "1694248",
+                "name": "J. Latombe"
+            },
+            {
+                "s2_author_id": "84095744",
+                "name": "R. Motwani"
+            },
+            {
+                "s2_author_id": "1747652",
+                "name": "Suresh Venkatasubramanian"
+            },
+            {
+                "s2_author_id": "1770729",
+                "name": "A. Yao"
+            },
+            {
+                "s2_author_id": "145793888",
+                "name": "D. Halperin"
+            },
+            {
+                "s2_author_id": "33052777",
+                "name": "M. Bester"
+            },
+            {
+                "s2_author_id": "8351940",
+                "name": "S. Baliunas"
+            },
+            {
+                "s2_author_id": "28028767",
+                "name": "Leonard Webster"
+            }
+        ],
+        "total_co_authors": 111,
+        "papers_retrieved": 95
+    }
+}

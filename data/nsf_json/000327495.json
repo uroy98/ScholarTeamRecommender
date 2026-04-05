@@ -1,0 +1,545 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000327495",
+        "name": "Alfredo A Garcia",
+        "primary_affiliation": "Texas A&M Engineering Experiment Station",
+        "primary_department": null,
+        "all_affiliations": [
+            "Texas A&M Engineering Experiment Station"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "TX"
+        ],
+        "perf_cities": [
+            "COLLEGE STATION"
+        ],
+        "org_names": [
+            "Texas A&M Engineering Experiment Station"
+        ],
+        "org_ueis": [
+            "QD1MX6N5YTN4"
+        ],
+        "inst_types": [
+            "unknown"
+        ],
+        "emails": [
+            "alfredo.garcia@tamu.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2414373",
+                "title": "Collaborative Research: CIF: Small: Inverse Reinforcement Learning with Heterogeneous Data: Estimation Algorithms with Finite Time and Sample Guarantees",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2024-12-01",
+                "exp_date": "2027-11-30",
+                "award_amount": 300000.0,
+                "total_amount": 300000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "Comm & Information Foundations"
+                ],
+                "program_codes": [
+                    "779700"
+                ],
+                "program_references": [
+                    "Machine Learning Theory",
+                    "SMALL PROJECT",
+                    "NETWORK CODING AND INFO THEORY"
+                ],
+                "program_ref_codes": [
+                    "079Z",
+                    "7923",
+                    "7937"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Phillip Regalia",
+                "keywords": [
+                    "learning",
+                    "structural",
+                    "models",
+                    "control",
+                    "agent",
+                    "behavior",
+                    "decision",
+                    "machine",
+                    "preferences",
+                    "systems"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "Comm & Information Foundations"
+        ],
+        "program_codes": [
+            "779700"
+        ],
+        "program_references": [
+            "Machine Learning Theory",
+            "SMALL PROJECT",
+            "NETWORK CODING AND INFO THEORY"
+        ],
+        "program_ref_codes": [
+            "079Z",
+            "7923",
+            "7937"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Phillip Regalia"
+        ],
+        "keywords": [
+            "learning",
+            "structural",
+            "models",
+            "control",
+            "agent",
+            "behavior",
+            "decision",
+            "machine",
+            "preferences",
+            "systems",
+            "autonomous",
+            "observed",
+            "small",
+            "reinforcement",
+            "algorithms",
+            "time",
+            "model",
+            "dynamic",
+            "making",
+            "make"
+        ],
+        "leadership_score": 1,
+        "experience_years": 1.21
+    },
+    "s2_profile": {
+        "s2_author_id": "2140833946",
+        "name": "Alfredo A Garcia",
+        "affiliations": [],
+        "paper_count": 11,
+        "citation_count": 142,
+        "h_index": 7,
+        "papers": [
+            {
+                "s2_paper_id": "615e827e9bfea05caa31b656f62af39b3c6e9a9d",
+                "title": "A Bayesian Approach to Robust Inverse Reinforcement Learning",
+                "year": 2023,
+                "venue": "Conference on Robot Learning",
+                "citation_count": 7,
+                "reference_count": 68,
+                "abstract": "We consider a Bayesian approach to offline model-based inverse reinforcement learning (IRL). The proposed framework differs from existing offline model-based IRL approaches by performing simultaneous estimation of the expert's reward function and subjective model of environment dynamics. We make use of a class of prior distributions which parameterizes how accurate the expert's model of the environment is to develop efficient algorithms to estimate the expert's reward and subjective dynamics in high-dimensional settings. Our analysis reveals a novel insight that the estimated policy exhibits robust performance when the expert is believed (a priori) to have a highly accurate model of the environment. We verify this observation in the MuJoCo environments and show that our algorithms outperform state-of-the-art offline IRL algorithms.",
+                "authors": [
+                    {
+                        "s2_author_id": "145064542",
+                        "name": "Ran Wei"
+                    },
+                    {
+                        "s2_author_id": "46975510",
+                        "name": "Siliang Zeng"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Chenliang Li"
+                    },
+                    {
+                        "s2_author_id": "2140833946",
+                        "name": "Alfredo Garcia"
+                    },
+                    {
+                        "s2_author_id": "2143389347",
+                        "name": "Anthony D. McDonald"
+                    },
+                    {
+                        "s2_author_id": "2243026280",
+                        "name": "Mingyi Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "84ee7a3279ede07c7904fe6ae9b9b472e3dcf36b",
+                "title": "When Demonstrations meet Generative World Models: A Maximum Likelihood Framework for Offline Inverse Reinforcement Learning",
+                "year": 2023,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 25,
+                "reference_count": 71,
+                "abstract": "Offline inverse reinforcement learning (Offline IRL) aims to recover the structure of rewards and environment dynamics that underlie observed actions in a fixed, finite set of demonstrations from an expert agent. Accurate models of expertise in executing a task has applications in safety-sensitive applications such as clinical decision making and autonomous driving. However, the structure of an expert's preferences implicit in observed actions is closely linked to the expert's model of the environment dynamics (i.e. the ``world'' model). Thus, inaccurate models of the world obtained from finite data with limited coverage could compound inaccuracy in estimated rewards. To address this issue, we propose a bi-level optimization formulation of the estimation task wherein the upper level is likelihood maximization based upon a conservative model of the expert's policy (lower level). The policy model is conservative in that it maximizes reward subject to a penalty that is increasing in the uncertainty of the estimated model of the world. We propose a new algorithmic framework to solve the bi-level optimization problem formulation and provide statistical and computational guarantees of performance for the associated optimal reward estimator. Finally, we demonstrate that the proposed algorithm outperforms the state-of-the-art offline IRL and imitation learning benchmarks by a large margin, over the continuous control tasks in MuJoCo and different datasets in the D4RL benchmark.",
+                "authors": [
+                    {
+                        "s2_author_id": "46975510",
+                        "name": "Siliang Zeng"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Chenliang Li"
+                    },
+                    {
+                        "s2_author_id": "2140833946",
+                        "name": "Alfredo Garcia"
+                    },
+                    {
+                        "s2_author_id": "66603575",
+                        "name": "Min-Fong Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f9cc867f1ec5ffaff9327691036ae22322124cb1",
+                "title": "Learning an Active Inference Model of Driver Perception and Control: Application to Vehicle Car-Following",
+                "year": 2023,
+                "venue": "IEEE transactions on intelligent transportation systems (Print)",
+                "citation_count": 3,
+                "reference_count": 78,
+                "abstract": "In this paper we introduce a general estimation methodology for learning a model of human perception and control in a sensorimotor control task based upon a finite set of demonstrations. The model\u2019s structure consists of (i) the agent\u2019s internal representation of how the environment and associated observations evolve as a result of control actions and (ii) the agent\u2019s preferences over observable outcomes. We consider a model\u2019s structure specification consistent with active inference, a theory of human perception and behavior from cognitive science. According to active inference, the agent acts upon the world so as to minimize surprise defined as a measure of the extent to which an agent\u2019s current sensory observations differ from its preferred sensory observations. We propose a bi-level optimization approach to estimation which relies on a structural assumption on prior distributions that parameterize the statistical accuracy of the human agent\u2019s model of the environment. To illustrate the proposed methodology, we present the estimation of a model for car-following behavior based upon a naturalistic dataset. Overall, the results indicate that learning active inference models of human perception and control from data is a promising alternative to closed-box models of driving.",
+                "authors": [
+                    {
+                        "s2_author_id": "145064542",
+                        "name": "Ran Wei"
+                    },
+                    {
+                        "s2_author_id": "144808726",
+                        "name": "Anthony D. McDonald"
+                    },
+                    {
+                        "s2_author_id": "2140833946",
+                        "name": "Alfredo Garcia"
+                    },
+                    {
+                        "s2_author_id": "3189420",
+                        "name": "G. Markkula"
+                    },
+                    {
+                        "s2_author_id": "2076946315",
+                        "name": "J. Engstrom"
+                    },
+                    {
+                        "s2_author_id": "1389853689",
+                        "name": "Matthew O'Kelly"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "095ec1ebe3bf69b8db5f6e9429ddeecd03198698",
+                "title": "Maximum-Likelihood Inverse Reinforcement Learning with Finite-Time Guarantees",
+                "year": 2022,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 51,
+                "reference_count": 64,
+                "abstract": "Inverse reinforcement learning (IRL) aims to recover the reward function and the associated optimal policy that best fits observed sequences of states and actions implemented by an expert. Many algorithms for IRL have an inherently nested structure: the inner loop finds the optimal policy given parametrized rewards while the outer loop updates the estimates towards optimizing a measure of fit. For high dimensional environments such nested-loop structure entails a significant computational burden. To reduce the computational burden of a nested loop, novel methods such as SQIL [1] and IQ-Learn [2] emphasize policy estimation at the expense of reward estimation accuracy. However, without accurate estimated rewards, it is not possible to do counterfactual analysis such as predicting the optimal policy under different environment dynamics and/or learning new tasks. In this paper we develop a novel single-loop algorithm for IRL that does not compromise reward estimation accuracy. In the proposed algorithm, each policy improvement step is followed by a stochastic gradient step for likelihood maximization. We show that the proposed algorithm provably converges to a stationary solution with a finite-time guarantee. If the reward is parameterized linearly, we show the identified solution corresponds to the solution of the maximum entropy IRL problem. Finally, by using robotics control problems in MuJoCo and their transfer settings, we show that the proposed algorithm achieves superior performance compared with other IRL and imitation learning benchmarks.",
+                "authors": [
+                    {
+                        "s2_author_id": "46975510",
+                        "name": "Siliang Zeng"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Chenliang Li"
+                    },
+                    {
+                        "s2_author_id": "2140833946",
+                        "name": "Alfredo Garcia"
+                    },
+                    {
+                        "s2_author_id": "66603575",
+                        "name": "Min-Fong Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e5c181d1517055f9fbae41c3517cf85a42aca677",
+                "title": "World Model Learning from Demonstrations with Active Inference: Application to Driving Behavior",
+                "year": 2022,
+                "venue": "International Workshop on Affective Interactions",
+                "citation_count": 11,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145064542",
+                        "name": "Ran Wei"
+                    },
+                    {
+                        "s2_author_id": "2140833946",
+                        "name": "Alfredo Garcia"
+                    },
+                    {
+                        "s2_author_id": "144808726",
+                        "name": "Anthony D. McDonald"
+                    },
+                    {
+                        "s2_author_id": "3189420",
+                        "name": "G. Markkula"
+                    },
+                    {
+                        "s2_author_id": "26908946",
+                        "name": "J. Engstr\u00f6m"
+                    },
+                    {
+                        "s2_author_id": "2057102",
+                        "name": "Isaac Supeene"
+                    },
+                    {
+                        "s2_author_id": "1389853689",
+                        "name": "Matthew O'Kelly"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f0ed5b0dab830b39487bd84c10a277bf62d76c2c",
+                "title": "Structural Estimation of Markov Decision Processes in High-Dimensional State Space with Finite-Time Guarantees",
+                "year": 2022,
+                "venue": "Operational Research",
+                "citation_count": 16,
+                "reference_count": 53,
+                "abstract": "Researchers have introduced a new algorithm to estimate structural models of dynamic decisions by human agents, addressing the challenge of high computational complexity. Traditionally, this task involves a nested structure: an inner problem identifying an optimal policy and an outer problem maximizing a measure of fit. Previous methods have struggled with large discrete state spaces or high-dimensional continuous state spaces, often sacrificing reward estimation accuracy. The new approach combines policy improvement with a stochastic gradient step for likelihood maximization, ensuring accurate reward estimation without compromising computational efficiency. This single-loop algorithm, designed to handle high-dimensional state spaces, converges to a stationary solution with finite-time guarantees. When the reward is linearly parameterized, it approximates the maximum likelihood estimator sublinearly, offering a robust solution for complex decision modeling tasks.",
+                "authors": [
+                    {
+                        "s2_author_id": "46975510",
+                        "name": "Siliang Zeng"
+                    },
+                    {
+                        "s2_author_id": "1793717",
+                        "name": "Mingyi Hong"
+                    },
+                    {
+                        "s2_author_id": "2140833946",
+                        "name": "Alfredo Garcia"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c3cd4020651b827d6b2730579eb66d70ca0675b6",
+                "title": "The effects of mental fatigue on effort allocation: Modeling and estimation.",
+                "year": 2021,
+                "venue": "Psychology Review",
+                "citation_count": 7,
+                "reference_count": 0,
+                "abstract": "Mental fatigue is usually accompanied by drops in task performance and reduced willingness for further exertion. A value-based theoretical account may help to explain such negative effects. In this view, mental fatigue influences perceived costs and rewards of exerting effort. However, no formal mathematical framework has yet been proposed to model and quantitatively estimate the effects of mental fatigue on subjective evaluations of effort expenditure, under possibly imperfect self-perceptions of internal fatigue states. We proposed a mathematical framework to model human cognitive effort allocations, assuming mental fatigue states are partially observable with semi-Markov dynamics. We modeled effort allocation decisions as a means to the goal of maximizing cumulative subjective values over a given time horizon. We developed an estimation method to identify subjective values and the hidden dynamics of mental fatigue, which can in future work be applied to self-reports, psychophysiological indices, and behavioral outcomes associated with fatigue. The modeling and estimation method was tested using a simulated n-back task under a free-choice paradigm, with model parameters fine-tuned from past studies. The proposed approach was able to recapitulate task performance and task engagement patterns observed under mental fatigue. This work advances a reward/cost trade-off account for explaining the exertion of mental effort and suggests new avenues for both theoretically and empirically relevant understandings of how cognitive operations are affected by mental fatigue. (PsycInfo Database Record (c) 2022 APA, all rights reserved).",
+                "authors": [
+                    {
+                        "s2_author_id": "2155204349",
+                        "name": "Zhide Wang"
+                    },
+                    {
+                        "s2_author_id": "2339513",
+                        "name": "Yanling Chang"
+                    },
+                    {
+                        "s2_author_id": "4555303",
+                        "name": "B. Schmeichel"
+                    },
+                    {
+                        "s2_author_id": "2140833946",
+                        "name": "Alfredo Garcia"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e820bc98e95dcb3ac0d3fd3df13b22f30160a339",
+                "title": "Disease spread coupled with evolutionary social distancing dynamics can lead to growing oscillations",
+                "year": 2021,
+                "venue": "IEEE Conference on Decision and Control",
+                "citation_count": 20,
+                "reference_count": 24,
+                "abstract": "If the public\u2019s adherence to social distance measures remained steady during an outbreak, the number of cases would have a single peak followed by a sharp decline according to standard epidemiological models. Nonetheless, during COVID-19 the initial rise and fall in the number of cases followed new waves of cases in many localities. In this paper, we explore a standard susceptible-exposed-infected-recovered (SEIR) epidemiological model coupled with an individual be-havior response model that modulates the contact rate. A game with payoffs determined by the state of the disease captures the public\u2019s incentive to comply with the social distancing measures. We use replicator dynamics to model the response to changes in incentives. Using SEIR dynamics coupled with replicator dynamics, we identify a set of dynamics that can lead to growing oscillations in the number of cases until herd immunity is reached. According to the dynamics, an increase in the number of infected individuals changes the payoffs such that the public\u2019s cooperation level eventually increases. Increased cooperation levels is followed by a reduced number of cases in the community, which then reduces the public\u2019s incentive to cooperate. The decrease in the cooperation levels causes the number of cases to rise again. These waves correspond to cycles between cooperation and defection behavior, and the rise and fall of the number of the infected individuals. The proposed model also provides a proper tool to study the effects of the public health policies that aim to curb the growth in number of cases by providing incentives to cooperate.",
+                "authors": [
+                    {
+                        "s2_author_id": "50046436",
+                        "name": "Hossein Khazaei"
+                    },
+                    {
+                        "s2_author_id": "2266766970",
+                        "name": "Keith Paarporn"
+                    },
+                    {
+                        "s2_author_id": "2140833946",
+                        "name": "Alfredo Garcia"
+                    },
+                    {
+                        "s2_author_id": "2361021",
+                        "name": "Ceyhun Eksin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "58d5a0bafa98490b585103c7e725b443ddfd8b08",
+                "title": "Dynamic Discrete Choice Estimation with Partially Observable States and Hidden Dynamics",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2339513",
+                        "name": "Yanling Chang"
+                    },
+                    {
+                        "s2_author_id": "2140833946",
+                        "name": "Alfredo Garcia"
+                    },
+                    {
+                        "s2_author_id": "2155204349",
+                        "name": "Zhide Wang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6b337003560421d17af9c979bb8def2472fbca1c",
+                "title": "Structural Estimation of Partially Observable Markov Decision Processes",
+                "year": 2020,
+                "venue": "IEEE Transactions on Automatic Control",
+                "citation_count": 2,
+                "reference_count": 41,
+                "abstract": "Partially observable Markov decision processes (POMDPs) is a well-developed framework for sequential decision-making under uncertainty and partial information. This article considers the (inverse) structural estimation of the primitives of a POMDP based upon data in the form of sequences of observables and implemented actions. We analyze the structural properties of an entropy regularized POMDP and specify conditions under which the model is identifiable without knowledge of the state dynamics. We consider a soft policy gradient algorithm to compute a maximum likelihood estimator, and illustrate the approach with an equipment replacement problem.",
+                "authors": [
+                    {
+                        "s2_author_id": "2339513",
+                        "name": "Yanling Chang"
+                    },
+                    {
+                        "s2_author_id": "2140833946",
+                        "name": "Alfredo Garcia"
+                    },
+                    {
+                        "s2_author_id": "2155204349",
+                        "name": "Zhide Wang"
+                    },
+                    {
+                        "s2_author_id": "2110786006",
+                        "name": "Lu Sun"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8bc157acecb3f4892e5a62724f830ff5ea8545b7",
+                "title": "Interactive model-based search with reactive resource allocation",
+                "year": 2016,
+                "venue": "Journal of Global Optimization",
+                "citation_count": 0,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2116970595",
+                        "name": "Yue Sun"
+                    },
+                    {
+                        "s2_author_id": "2140833946",
+                        "name": "Alfredo Garcia"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "145064542",
+                "name": "Ran Wei"
+            },
+            {
+                "s2_author_id": "46975510",
+                "name": "Siliang Zeng"
+            },
+            {
+                "s2_author_id": "2143389347",
+                "name": "Anthony D. McDonald"
+            },
+            {
+                "s2_author_id": "2243026280",
+                "name": "Mingyi Hong"
+            },
+            {
+                "s2_author_id": "66603575",
+                "name": "Min-Fong Hong"
+            },
+            {
+                "s2_author_id": "144808726",
+                "name": "Anthony D. McDonald"
+            },
+            {
+                "s2_author_id": "3189420",
+                "name": "G. Markkula"
+            },
+            {
+                "s2_author_id": "2076946315",
+                "name": "J. Engstrom"
+            },
+            {
+                "s2_author_id": "1389853689",
+                "name": "Matthew O'Kelly"
+            },
+            {
+                "s2_author_id": "26908946",
+                "name": "J. Engstr\u00f6m"
+            },
+            {
+                "s2_author_id": "2057102",
+                "name": "Isaac Supeene"
+            },
+            {
+                "s2_author_id": "1793717",
+                "name": "Mingyi Hong"
+            },
+            {
+                "s2_author_id": "2155204349",
+                "name": "Zhide Wang"
+            },
+            {
+                "s2_author_id": "2339513",
+                "name": "Yanling Chang"
+            },
+            {
+                "s2_author_id": "4555303",
+                "name": "B. Schmeichel"
+            },
+            {
+                "s2_author_id": "50046436",
+                "name": "Hossein Khazaei"
+            },
+            {
+                "s2_author_id": "2266766970",
+                "name": "Keith Paarporn"
+            },
+            {
+                "s2_author_id": "2361021",
+                "name": "Ceyhun Eksin"
+            },
+            {
+                "s2_author_id": "2110786006",
+                "name": "Lu Sun"
+            },
+            {
+                "s2_author_id": "2116970595",
+                "name": "Yue Sun"
+            }
+        ],
+        "total_co_authors": 20,
+        "papers_retrieved": 11
+    }
+}

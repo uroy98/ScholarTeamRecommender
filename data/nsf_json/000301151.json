@@ -1,0 +1,848 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000301151",
+        "name": "Jason Cong",
+        "primary_affiliation": "Massachusetts Institute of Technology",
+        "primary_department": null,
+        "all_affiliations": [
+            "Massachusetts Institute of Technology"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "MA"
+        ],
+        "perf_cities": [
+            "CAMBRIDGE"
+        ],
+        "org_names": [
+            "Massachusetts Institute of Technology"
+        ],
+        "org_ueis": [
+            "E2NYLCDML6V1"
+        ],
+        "inst_types": [
+            "nonprofit"
+        ],
+        "emails": [
+            "cong@cs.ucla.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2533041",
+                "title": "NQVL:QSTD:Design: Open-Stack Rydberg Atom Quantum Computing Laboratory (ORAQL)",
+                "type": "Cooperative Agreement",
+                "tran_type": "CoopAgrmnt",
+                "start_date": "2025-09-01",
+                "exp_date": "2027-08-31",
+                "award_amount": 2750000.0,
+                "total_amount": 4000000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000550729",
+                    "000353433",
+                    "000491068",
+                    "000721893"
+                ],
+                "program_elements": [
+                    "QISET-Quan Info Sci Eng & Tech",
+                    "TIP-CHIPS KTA-3 Quantum"
+                ],
+                "program_codes": [
+                    "105Y00",
+                    "315Y00"
+                ],
+                "program_references": [
+                    "QUANTUM INFORMATION SCIENCE"
+                ],
+                "program_ref_codes": [
+                    "7203"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "OSI",
+                "nsf_directorate": null,
+                "fund_division": "Office of Strategic Initiatives (OSI)",
+                "cfda_num": "47.049, 47.084",
+                "po_name": "Bogdan Mihaila",
+                "keywords": [
+                    "quantum",
+                    "stack",
+                    "oraql",
+                    "atom",
+                    "logical",
+                    "development",
+                    "computing",
+                    "laboratory",
+                    "science",
+                    "neutral"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000550729",
+            "000353433",
+            "000721893",
+            "000491068"
+        ],
+        "program_elements": [
+            "QISET-Quan Info Sci Eng & Tech",
+            "TIP-CHIPS KTA-3 Quantum"
+        ],
+        "program_codes": [
+            "105Y00",
+            "315Y00"
+        ],
+        "program_references": [
+            "QUANTUM INFORMATION SCIENCE"
+        ],
+        "program_ref_codes": [
+            "7203"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "OSI"
+        ],
+        "fund_divisions": [
+            "Office of Strategic Initiatives (OSI)"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049, 47.084"
+        ],
+        "program_officers": [
+            "Bogdan Mihaila"
+        ],
+        "keywords": [
+            "quantum",
+            "stack",
+            "oraql",
+            "atom",
+            "logical",
+            "development",
+            "computing",
+            "laboratory",
+            "science",
+            "neutral",
+            "technology",
+            "cross",
+            "disciplinary",
+            "digital",
+            "twin",
+            "circuit",
+            "hardware",
+            "efforts",
+            "qubit",
+            "open"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.46
+    },
+    "s2_profile": {
+        "s2_author_id": "2066032921",
+        "name": "Jason Cong",
+        "affiliations": [],
+        "paper_count": 18,
+        "citation_count": 243,
+        "h_index": 8,
+        "papers": [
+            {
+                "s2_paper_id": "1a79e1d8ea7651de9b7efd3d029de7168f3d8148",
+                "title": "TARO: Automatic Optimization for Free-Running Kernels in FPGA High-Level Synthesis",
+                "year": 2023,
+                "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+                "citation_count": 2,
+                "reference_count": 22,
+                "abstract": "Streaming applications have become one of the key application domains for high-level synthesis (HLS) tools. For a streaming application, there is a potential to simplify the control logic by regulating each task with a stream of input and output data. This is called free-running optimization. But it is difficult to understand when such optimization can be applied without changing the functionality of the original design. Moreover, it takes a large effort to manually apply the optimization across legacy codes. In this article, we present the TARO framework which automatically applies the free-running optimization on HLS-based streaming applications. TARO simplifies the control logic without degrading the clock frequency or the performance. Experiments on Alveo U250 shows that we can obtain an average of 16% LUT and 45% FF reduction for streaming-based systolic array designs.",
+                "authors": [
+                    {
+                        "s2_author_id": "2167589948",
+                        "name": "Young-kyu Choi"
+                    },
+                    {
+                        "s2_author_id": "153850982",
+                        "name": "Yuze Chi"
+                    },
+                    {
+                        "s2_author_id": "147099359",
+                        "name": "Jason Lau"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "22b5ebc94d0f312f4fe18599e31d7371b804a015",
+                "title": "A Comprehensive Automated Exploration Framework for Systolic Array Designs",
+                "year": 2023,
+                "venue": "Design Automation Conference",
+                "citation_count": 5,
+                "reference_count": 24,
+                "abstract": "Many researchers studying the performance tuning of systolic arrays have based their works on oversimplified assumptions like considering only divisors for loop tiling or pruning based on off-chip data communication to reduce the design space. In this paper, we present a comprehensive design space exploration tool named Odyssey for systolic array optimization. Odyssey results show that limiting tiling factors to only divisors of the problem size can cause up to 39% performance loss, and pruning the design space based on off-chip data movement can miss optimal designs. We tested Odyssey using various matrix multiplication and convolution kernels and validated the results with FPGA implementations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047246081",
+                        "name": "Suhail Basalama"
+                    },
+                    {
+                        "s2_author_id": "2146041652",
+                        "name": "Jie Wang"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "244ab847aee80cc3d0ab96f836f9e83630f5537d",
+                "title": "NeSSA: Near-Storage Data Selection for Accelerated Machine Learning Training",
+                "year": 2023,
+                "venue": "USENIX Workshop on Hot Topics in Storage and File Systems",
+                "citation_count": 10,
+                "reference_count": 54,
+                "abstract": "Large-scale machine learning (ML) models rely on extremely large datasets to learn their exponentially growing number of parameters. While these models achieve unprecedented success, the increase in training time and hardware resources required is unsustainable. Further, we find that as dataset sizes increase, data movement becomes a significant component of overall training time. We propose NeSSA, a novel SmartSSD+GPU training architecture to intelligently select important subsets of large datasets near-storage, such that training on the subset mimics training on the full dataset with a very small loss in accuracy. To the best of our knowledge, this is the first work to propose such a near-storage data selection model for efficient ML training. We have evaluated our method for the CIFAR-10, SVHN, CINIC-10, CIFAR-100, TinyImageNet, and ImageNet-100 datasets. We also test across ResNet-20, ResNet-18, and ResNet-50 models.",
+                "authors": [
+                    {
+                        "s2_author_id": "2090207616",
+                        "name": "Neha Prakriya"
+                    },
+                    {
+                        "s2_author_id": "2116468252",
+                        "name": "Yu Yang"
+                    },
+                    {
+                        "s2_author_id": "2389094",
+                        "name": "Baharan Mirzasoleiman"
+                    },
+                    {
+                        "s2_author_id": "1793529",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "456f471ee207a451b87741f94fdc6fc58d39bec2",
+                "title": "PASTA: Programming and Automation Support for Scalable Task-Parallel HLS Programs on Modern Multi-Die FPGAs",
+                "year": 2023,
+                "venue": "IEEE Symposium on Field-Programmable Custom Computing Machines",
+                "citation_count": 15,
+                "reference_count": 67,
+                "abstract": "In recent years, there has been increasing adoption of FPGAs in datacenters as hardware accelerators, where a large population of end users are software developers. While high-level synthesis (HLS) facilitates software programming, it is still challenging to scale large accelerator designs on modern datacenter FPGAs that often consist of multiple dies and memory banks. More specifically, routing congestion and extra delays on these multi-die FPGAs often cause timing closure issues and severe frequency degradation at the physical design level, which are difficult to digest and optimize for high-level programmers using HLS. One promising approach to mitigate such issues is to develop a high-level task-parallel programming model with HLS and physical design co-optimization. Unfortunately, existing studies only support a programming model where tasks communicate with each other via FIFOs, while many applications are not streaming friendly and many existing accelerator designs heavily rely on buffer based communication between tasks. In this paper, we take a step further to support a task-parallel programming model where tasks can communicate via both FIFOs and buffers. To achieve this goal, we design and implement the PASTA framework, which takes a large task-parallel HLS design as input and automatically generates a high-frequency FPGA accelerator via HLS and physical design co-optimization. First, we design a decoupled latency-insensitive buffer channel that supports memory partitioning and ping-pong buffering, which is compatible with the vendor Vitis HLS compiler. In the frontend, we develop an easy-to-use programming interface to allow end users to use our buffer channel in their applications. In the backend, we provide automatic coarse-grained floorplanning and pipelining for designs that use our proposed buffer channel. We test PASTA on a set of task-parallel HLS designs that use buffers for task communication and show an average of 36% (up to 54%) frequency improvement for large design configurations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2184145208",
+                        "name": "Moazin Khatti"
+                    },
+                    {
+                        "s2_author_id": "73427792",
+                        "name": "Xingyu Tian"
+                    },
+                    {
+                        "s2_author_id": "153850982",
+                        "name": "Yuze Chi"
+                    },
+                    {
+                        "s2_author_id": "150187567",
+                        "name": "Licheng Guo"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    },
+                    {
+                        "s2_author_id": "3331952",
+                        "name": "Zhenman Fang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "849f8ecdca0b351ea10650ebc84b3b12a29b67c0",
+                "title": "HMLib: Efficient Data Transfer for HLS Using Host Memory",
+                "year": 2023,
+                "venue": "Symposium on Field Programmable Gate Arrays",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": "Streaming applications compose an important portion of the workloads that FPGAs may accelerate but suffer from inefficient data movement. The inefficiency stems from copying data indirectly into the FPGA DRAM rather than directly into its on-chip memory, substantially diminishing the end-to-end speedup, especially for small workloads (hundreds of kilobytes). AMD Xilinx's Host Memory IP (HMI) aims to address the data movement problem by exposing to the developer an High-Level Synthesis (HLS) interface that moves the data from the host directly to the FPGA's on-chip memory. However, using HMI purely for its interface without additional code changes incurred a 3.3x slowdown in comparison with the current programming model. The slowdown mainly originates from OpenCL call overhead and the kernel control logic unnecessarily switching states. To overcome these issues, we propose Host Memory Library (HMLib), an efficient HLS-based library that facilitates data transfer on behalf of the user. HMLib not only optimizes the runtime stack for efficient data transfer, but also provides HLS compatible and user-friendly interfaces. We demonstrate HMLib's effectiveness for streaming applications (Deflate compression and CRC32) with improvements of up to up to 36.2X over OpenCL-DDR and up to 79.5X over raw HMI for small-scale data while maintaining little-to-no performance loss for large scale inputs. We plan to open source our work in the future.",
+                "authors": [
+                    {
+                        "s2_author_id": "50653562",
+                        "name": "Michael Lo"
+                    },
+                    {
+                        "s2_author_id": "2167589948",
+                        "name": "Young-kyu Choi"
+                    },
+                    {
+                        "s2_author_id": "35492800",
+                        "name": "W. Qiao"
+                    },
+                    {
+                        "s2_author_id": "1396393101",
+                        "name": "Mau-Chung Frank Chang"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "894d61c709ec6f61899703458d90b09c663d7b11",
+                "title": "A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware",
+                "year": 2023,
+                "venue": "arXiv.org",
+                "citation_count": 32,
+                "reference_count": 172,
+                "abstract": "Graph neural networks (GNNs) are emerging for machine learning research on graph-structured data. GNNs achieve state-of-the-art performance on many tasks, but they face scalability challenges when it comes to real-world applications that have numerous data and strict latency requirements. Many studies have been conducted on how to accelerate GNNs in an effort to address these challenges. These acceleration techniques touch on various aspects of the GNN pipeline, from smart training and inference algorithms to efficient systems and customized hardware. As the amount of research on GNN acceleration has grown rapidly, there lacks a systematic treatment to provide a unified view and address the complexity of relevant works. In this survey, we provide a taxonomy of GNN acceleration, review the existing approaches, and suggest future research directions. Our taxonomic treatment of GNN acceleration connects the existing works and sets the stage for further development in this area.",
+                "authors": [
+                    {
+                        "s2_author_id": "2145408511",
+                        "name": "Shichang Zhang"
+                    },
+                    {
+                        "s2_author_id": "2242000525",
+                        "name": "Atefeh Sohrabizadeh"
+                    },
+                    {
+                        "s2_author_id": "2158998114",
+                        "name": "Cheng Wan"
+                    },
+                    {
+                        "s2_author_id": "12318198",
+                        "name": "Zijie Huang"
+                    },
+                    {
+                        "s2_author_id": "3407296",
+                        "name": "Ziniu Hu"
+                    },
+                    {
+                        "s2_author_id": "27035995",
+                        "name": "Yewen Wang"
+                    },
+                    {
+                        "s2_author_id": "3138925",
+                        "name": "Yingyan Lin"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    },
+                    {
+                        "s2_author_id": "2279734673",
+                        "name": "Yizhou Sun"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dd48c82be3b23b1b39f20acf54ae067c8c4096c9",
+                "title": "TAPA-CS: Enabling Scalable Accelerator Design on Distributed HBM-FPGAs",
+                "year": 2023,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 4,
+                "reference_count": 57,
+                "abstract": "Despite the increasing adoption of FPGAs in compute clouds, there remains a significant gap in programming tools and abstractions which can leverage network-connected, cloud-scale, multi-die FPGAs to generate accelerators with high frequency and throughput. We propose TAPA-CS, a task-parallel dataflow programming framework which automatically partitions and compiles a large design across a cluster of FPGAs while achieving high frequency and throughput. TAPA-CS has three main contributions. First, it is an open-source framework which allows users to leverage virtually \"unlimited\" accelerator fabric, high-bandwidth memory (HBM), and on-chip memory. Second, given as input a large design, TAPA-CS automatically partitions the design to map to multiple FPGAs, while ensuring congestion control, resource balancing, and overlapping of communication and computation. Third, TAPA-CS couples coarse-grained floor-planning with interconnect pipelining at the inter- and intra-FPGA levels to ensure high frequency. FPGAs in our multi-FPGA testbed communicate through a high-speed 100Gbps Ethernet infrastructure. We have evaluated the performance of TAPA-CS on designs, including systolic-array based CNNs, graph processing workloads such as page rank, stencil applications, and KNN. On average, the 2-, 3-, and 4-FPGA designs are 2.1\u00d7, 3.2\u00d7, and 4.4\u00d7 faster than the single FPGA baselines generated through Vitis HLS. TAPA-CS also achieves a frequency improvement between 11%-116% compared with Vitis HLS.",
+                "authors": [
+                    {
+                        "s2_author_id": "2090207616",
+                        "name": "Neha Prakriya"
+                    },
+                    {
+                        "s2_author_id": "2267240169",
+                        "name": "Yuze Chi"
+                    },
+                    {
+                        "s2_author_id": "2047246081",
+                        "name": "Suhail Basalama"
+                    },
+                    {
+                        "s2_author_id": "2268184590",
+                        "name": "Linghao Song"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d02890defb6b5bd0d6aa63519bdfadd98e09c3b",
+                "title": "Accelerating SSSP for Power-Law Graphs",
+                "year": 2022,
+                "venue": "Symposium on Field Programmable Gate Arrays",
+                "citation_count": 25,
+                "reference_count": 18,
+                "abstract": "The single-source shortest path (SSSP) problem is one of the most important and well-studied graph problems widely used in many application domains, such as road navigation, neural image reconstruction, and social network analysis. Although we have known various SSSP algorithms for decades, implementing one for large-scale power-law graphs efficiently is still highly challenging today, because - a work-efficient SSSP algorithm requires priority-order traversal of graph data, - the priority queue needs to be scalable both in throughput and capacity, and - priority-order traversal requires extensive random memory accesses on graph data. In this paper, we present SPLAG to accelerate SSSP for power-law graphs on FPGAs. SPLAG uses a coarse-grained priority queue (CGPQ) to enable high-throughput priority-order graph traversal with a large frontier. To mitigate the high-volume random accesses, SPLAG employs a customized vertex cache (CVC) to reduce off-chip memory access and improve the throughput to read and update vertex data. Experimental results on various synthetic and real-world datasets show up to a 4.9\u00d7 speedup over state-of-the-art SSSP accelerators, a 2.6\u00d7 speedup over 32-thread CPU running at 4.4 GHz, and a 0.9\u00d7 speedup over an A100 GPU that has 4.1\u00d7 power budget and 3.4\u00d7 HBM bandwidth. Such a high performance would place SPLAG in the 14th position of the Graph 500 benchmark for data intensive applications (the highest using a single FPGA) with only a 45 W power budget. SPLAG is written in high-level synthesis C++ and is fully parameterized, which means it can be easily ported to various different FPGAs with different configurations. SPLAG is open-source at https://github.com/UCLA-VAST/splag.",
+                "authors": [
+                    {
+                        "s2_author_id": "153850982",
+                        "name": "Yuze Chi"
+                    },
+                    {
+                        "s2_author_id": "150187567",
+                        "name": "Licheng Guo"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f4007c7559b6eee846578f60d1ec2a9392bdfa8",
+                "title": "Democratizing Domain-Specific Computing",
+                "year": 2022,
+                "venue": "Communications of the ACM",
+                "citation_count": 26,
+                "reference_count": 56,
+                "abstract": "Creating a programming environment and compilation flow that empowers programmers to create their own DSAs efficiently and affordably on FPGAs.",
+                "authors": [
+                    {
+                        "s2_author_id": "153850982",
+                        "name": "Yuze Chi"
+                    },
+                    {
+                        "s2_author_id": "35492800",
+                        "name": "W. Qiao"
+                    },
+                    {
+                        "s2_author_id": "1508161146",
+                        "name": "Atefeh Sohrabizadeh"
+                    },
+                    {
+                        "s2_author_id": "2146041652",
+                        "name": "Jie Wang"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "94fef6739674959775057fb2f5972e34518fba4a",
+                "title": "StreamGCN: Accelerating Graph Convolutional Networks with Streaming Processing",
+                "year": 2022,
+                "venue": "IEEE Custom Integrated Circuits Conference",
+                "citation_count": 8,
+                "reference_count": 0,
+                "abstract": "While there have been many studies on hardware acceleration for deep learning on images, there has been a rather limited focus on accelerating deep learning applications involving graphs. The unique characteristics of graphs, such as the irregular memory access and dynamic parallelism, impose several challenges when the algorithm is mapped to a CPU or GPU. To address these challenges while exploiting all the available sparsity, we propose a flexible architecture called StreamGCN for accelerating Graph Convolutional Networks (GCN), the core computation unit in deep learning algorithms on graphs. The architecture is specialized for streaming processing of many small graphs for graph search and similarity computation. The experimental results demonstrate that StreamGCN can deliver a high speedup compared to a multi-core CPU and a GPU implementation, showing the efficiency of our design.",
+                "authors": [
+                    {
+                        "s2_author_id": "1508161146",
+                        "name": "Atefeh Sohrabizadeh"
+                    },
+                    {
+                        "s2_author_id": "153850982",
+                        "name": "Yuze Chi"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "abfe970ef231bfe66ef867749530cb5740c3a842",
+                "title": "Callipepla: Stream Centric Instruction Set and Mixed Precision for Accelerating Conjugate Gradient Solver",
+                "year": 2022,
+                "venue": "Symposium on Field Programmable Gate Arrays",
+                "citation_count": 14,
+                "reference_count": 53,
+                "abstract": "The continued growth in the processing power of FPGAs coupled with high bandwidth memories (HBM), makes systems like the Xilinx U280 credible platforms for linear solvers which often dominate the run time of scientific and engineering applications. In this paper, we present Callipepla, an accelerator for a preconditioned conjugate gradient linear solver (CG). FPGA acceleration of CG faces three challenges: (1) how to support an arbitrary problem and terminate acceleration processing on the fly, (2) how to coordinate long-vector data flow among processing modules, and (3) how to save off-chip memory bandwidth and maintain double (FP64) precision accuracy. To tackle the three challenges, we present (1) a stream-centric instruction set for efficient streaming processing and control, (2) vector streaming reuse (VSR) and decentralized vector flow scheduling to coordinate vector data flow among modules and further reduce off-chip memory access latency with a double memory channel design, and (3) a mixed precision scheme to save bandwidth yet still achieve effective double precision quality solutions. To the best of our knowledge, this is the first work to introduce the concept of VSR for data reusing between on-chip modules to reduce unnecessary off-chip accesses and enable modules working in parallel for FPGA accelerators. We prototype the accelerator on a Xilinx U280 HBM FPGA. Our evaluation shows that compared to the Xilinx HPC product, the XcgSolver, Callipepla achieves a speedup of 3.94x, 3.36x higher throughput, and 2.94x better energy efficiency. Compared to an NVIDIA A100 GPU which has 4x the memory bandwidth of Callipepla, we still achieve 77% of its throughput with 3.34x higher energy efficiency. The code is available at https://github.com/UCLA-VAST/Callipepla.",
+                "authors": [
+                    {
+                        "s2_author_id": "2719313",
+                        "name": "Linghao Song"
+                    },
+                    {
+                        "s2_author_id": "150187567",
+                        "name": "Licheng Guo"
+                    },
+                    {
+                        "s2_author_id": "2047246081",
+                        "name": "Suhail Basalama"
+                    },
+                    {
+                        "s2_author_id": "153850982",
+                        "name": "Yuze Chi"
+                    },
+                    {
+                        "s2_author_id": "2768344",
+                        "name": "R. Lucas"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b3c1eaa20b27cc089e26d8833948ba01c2d945cb",
+                "title": "FlexCNN: An End-to-end Framework for Composing CNN Accelerators on FPGA",
+                "year": 2022,
+                "venue": "ACM Transactions on Reconfigurable Technology and Systems",
+                "citation_count": 55,
+                "reference_count": 66,
+                "abstract": "With reduced data reuse and parallelism, recent convolutional neural networks (CNNs) create new challenges for FPGA acceleration. Systolic arrays (SAs) are efficient, scalable architectures for convolutional layers, but without proper optimizations, their efficiency drops dramatically for reasons: (1) the different dimensions within same-type layers, (2) the different convolution layers especially transposed and dilated convolutions, and (3) CNN\u2019s complex dataflow graph. Furthermore, significant overheads arise when integrating FPGAs into machine learning frameworks. Therefore, we present a flexible, composable architecture called FlexCNN, which delivers high computation efficiency by employing dynamic tiling, layer fusion, and data layout optimizations. Additionally, we implement a novel versatile SA to process normal, transposed, and dilated convolutions efficiently. FlexCNN also uses a fully pipelined software-hardware integration that alleviates the software overheads. Moreover, with an automated compilation flow, FlexCNN takes a CNN in the ONNX1 representation, performs a design space exploration, and generates an FPGA accelerator. The framework is tested using three complex CNNs: OpenPose, U-Net, and E-Net. The architecture optimizations achieve 2.3\u00d7 performance improvement. Compared to a standard SA, the versatile SA achieves close-to-ideal speedups, with up to 5.98\u00d7 and 13.42\u00d7 for transposed and dilated convolutions, with a 6% average area overhead. The pipelined integration leads to a 5\u00d7 speedup for OpenPose.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047246081",
+                        "name": "Suhail Basalama"
+                    },
+                    {
+                        "s2_author_id": "1508161146",
+                        "name": "Atefeh Sohrabizadeh"
+                    },
+                    {
+                        "s2_author_id": "2146041652",
+                        "name": "Jie Wang"
+                    },
+                    {
+                        "s2_author_id": "150187567",
+                        "name": "Licheng Guo"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d2ef7fa75124d0f892681ebd8071c9e354c38425",
+                "title": "TAPA: A Scalable Task-parallel Dataflow Programming Framework for Modern FPGAs with Co-optimization of HLS and Physical Design",
+                "year": 2022,
+                "venue": "ACM Transactions on Reconfigurable Technology and Systems",
+                "citation_count": 43,
+                "reference_count": 98,
+                "abstract": "In this article, we propose TAPA, an end-to-end framework that compiles a C++ task-parallel dataflow program into a high-frequency FPGA accelerator. Compared to existing solutions, TAPA has two major advantages. First, TAPA provides a set of convenient APIs that allows users to easily express flexible and complex inter-task communication structures. Second, TAPA adopts a coarse-grained floorplanning step during HLS compilation for accurate pipelining of potential critical paths. In addition, TAPA implements several optimization techniques specifically tailored for modern HBM-based FPGAs. In our experiments with a total of 43 designs, we improve the average frequency from 147 MHz to 297 MHz (a 102% improvement) with no loss of throughput and a negligible change in resource utilization. Notably, in 16 experiments, we make the originally unroutable designs achieve 274 MHz, on average. The framework is available at https://github.com/UCLA-VAST/tapa and the core floorplan module is available at https://github.com/UCLA-VAST/AutoBridge",
+                "authors": [
+                    {
+                        "s2_author_id": "150187567",
+                        "name": "Licheng Guo"
+                    },
+                    {
+                        "s2_author_id": "153850982",
+                        "name": "Yuze Chi"
+                    },
+                    {
+                        "s2_author_id": "147099359",
+                        "name": "Jason Lau"
+                    },
+                    {
+                        "s2_author_id": "2719313",
+                        "name": "Linghao Song"
+                    },
+                    {
+                        "s2_author_id": "73427792",
+                        "name": "Xingyu Tian"
+                    },
+                    {
+                        "s2_author_id": "2184145208",
+                        "name": "Moazin Khatti"
+                    },
+                    {
+                        "s2_author_id": "35492800",
+                        "name": "W. Qiao"
+                    },
+                    {
+                        "s2_author_id": "2146041652",
+                        "name": "Jie Wang"
+                    },
+                    {
+                        "s2_author_id": "33129536",
+                        "name": "Ecenur Ustun"
+                    },
+                    {
+                        "s2_author_id": "3331952",
+                        "name": "Zhenman Fang"
+                    },
+                    {
+                        "s2_author_id": "50316001",
+                        "name": "Zhiru Zhang"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "41ae4a14f3590e1a1d62818e506f52d18d08c9df",
+                "title": "Recut: a Concurrent Framework for Sparse Reconstruction of Neuronal Morphology",
+                "year": 2021,
+                "venue": "bioRxiv",
+                "citation_count": 2,
+                "reference_count": 35,
+                "abstract": "Advancement in modern neuroscience is bottlenecked by neural reconstruction, a process that extracts 3D neuron morphology (typically in tree structures) from image volumes at the scale of hundreds of GBs. We introduce Recut, an automated and accelerated neural reconstruction pipeline, which provides a unified, and domain specific sparse data representation with 79\u00d7 reduction in the memory footprint. Recut\u2019s reconstruction can process 111 Kneurons/day or 79 TB/day on a 24-core workstation, placing the throughput bottleneck back on microscopic imaging time. Recut allows the full brain of a mouse to be processed in memory on a single server, at 89.5\u00d7 higher throughput over existing I/O-bounded methods. Recut is also the first fully parallelized end-to-end automated reconstruction pipeline for light microscopy, yielding tree morphologies closer to ground truth than the state-of-the-art while removing involved manual steps and disk I/O overheads. We also optimized pipeline stages to linear algorithmic complexity for scalability in dense settings and allow the most timing-critical stages to optionally run on accelerated hardware.",
+                "authors": [
+                    {
+                        "s2_author_id": "2291279086",
+                        "name": "Karl Marrett"
+                    },
+                    {
+                        "s2_author_id": "31913758",
+                        "name": "Muye Zhu"
+                    },
+                    {
+                        "s2_author_id": "153850982",
+                        "name": "Yuze Chi"
+                    },
+                    {
+                        "s2_author_id": "2150789578",
+                        "name": "Chris Choi"
+                    },
+                    {
+                        "s2_author_id": "2117036962",
+                        "name": "Zhe Chen"
+                    },
+                    {
+                        "s2_author_id": "1792048",
+                        "name": "Hong-wei Dong"
+                    },
+                    {
+                        "s2_author_id": "8593132",
+                        "name": "Chang Sin Park"
+                    },
+                    {
+                        "s2_author_id": "2107540947",
+                        "name": "X. W. Yang"
+                    },
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ea4f49f4bd1c60add027322b349a515e6c794d7",
+                "title": "From Parallelization to Customization \u2013 Challenges and Opportunities",
+                "year": 2021,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": "With large-scale deployment of FPGAs in both private and public clouds in the past a few years, customizable computing is transitioning from advanced research into mainstream computing. In this talk, I shall first showcase a few big data and machine learning applications that benefit significantly from customization. Next, I shall discuss the challenges of FPGA programming for the efficient accelerator designs, which presents a significant barrier to many software programmers, despite the recent advances in high-level synthesis. Then, I shall highlight our recent progress on automated compilation for customized archictectures, such as systolic arrays, stencils, and more general CPPs (composable parallel and pipelined) architectures. I shall also present our ongoing work on HeteroCL, a highly productive multi-paradigm programming framework targeting accelerator-rich heterogeneous architectures, and is being used as a focal point to integrate various optimizaiton techniques and support high-level domain-specific languages (DSL) such as Halide and Pytorch. Our goal is to \u201cdemacratize customizable computing\u201d so that most (if not all) software programmers can design optimized accelerators on FPGAs.",
+                "authors": [
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "df0c54da42a1f2aa89db82ea6e543a887bc61b6d",
+                "title": "Session details: Machine Learning",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "975c9806697be90e02af0d8aa0fa8315d02dca41",
+                "title": "Session details: Session 10: Regular Circuit Fabrics (invited)",
+                "year": 2003,
+                "venue": "ACM International Symposium on Physical Design",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a89a7ff923665f02283ace209f322aca0a383dfa",
+                "title": "Session details: Synthesis, Verification and Test",
+                "year": 2002,
+                "venue": "Proceedings of the 2002 ACM/SIGDA tenth international symposium on Field-programmable gate arrays",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2066032921",
+                        "name": "J. Cong"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2167589948",
+                "name": "Young-kyu Choi"
+            },
+            {
+                "s2_author_id": "153850982",
+                "name": "Yuze Chi"
+            },
+            {
+                "s2_author_id": "147099359",
+                "name": "Jason Lau"
+            },
+            {
+                "s2_author_id": "2047246081",
+                "name": "Suhail Basalama"
+            },
+            {
+                "s2_author_id": "2146041652",
+                "name": "Jie Wang"
+            },
+            {
+                "s2_author_id": "2090207616",
+                "name": "Neha Prakriya"
+            },
+            {
+                "s2_author_id": "2116468252",
+                "name": "Yu Yang"
+            },
+            {
+                "s2_author_id": "2389094",
+                "name": "Baharan Mirzasoleiman"
+            },
+            {
+                "s2_author_id": "1793529",
+                "name": "Cho-Jui Hsieh"
+            },
+            {
+                "s2_author_id": "2184145208",
+                "name": "Moazin Khatti"
+            },
+            {
+                "s2_author_id": "73427792",
+                "name": "Xingyu Tian"
+            },
+            {
+                "s2_author_id": "150187567",
+                "name": "Licheng Guo"
+            },
+            {
+                "s2_author_id": "3331952",
+                "name": "Zhenman Fang"
+            },
+            {
+                "s2_author_id": "50653562",
+                "name": "Michael Lo"
+            },
+            {
+                "s2_author_id": "35492800",
+                "name": "W. Qiao"
+            },
+            {
+                "s2_author_id": "1396393101",
+                "name": "Mau-Chung Frank Chang"
+            },
+            {
+                "s2_author_id": "2145408511",
+                "name": "Shichang Zhang"
+            },
+            {
+                "s2_author_id": "2242000525",
+                "name": "Atefeh Sohrabizadeh"
+            },
+            {
+                "s2_author_id": "2158998114",
+                "name": "Cheng Wan"
+            },
+            {
+                "s2_author_id": "12318198",
+                "name": "Zijie Huang"
+            },
+            {
+                "s2_author_id": "3407296",
+                "name": "Ziniu Hu"
+            },
+            {
+                "s2_author_id": "27035995",
+                "name": "Yewen Wang"
+            },
+            {
+                "s2_author_id": "3138925",
+                "name": "Yingyan Lin"
+            },
+            {
+                "s2_author_id": "2279734673",
+                "name": "Yizhou Sun"
+            },
+            {
+                "s2_author_id": "2267240169",
+                "name": "Yuze Chi"
+            },
+            {
+                "s2_author_id": "2268184590",
+                "name": "Linghao Song"
+            },
+            {
+                "s2_author_id": "1508161146",
+                "name": "Atefeh Sohrabizadeh"
+            },
+            {
+                "s2_author_id": "2719313",
+                "name": "Linghao Song"
+            },
+            {
+                "s2_author_id": "2768344",
+                "name": "R. Lucas"
+            },
+            {
+                "s2_author_id": "33129536",
+                "name": "Ecenur Ustun"
+            },
+            {
+                "s2_author_id": "50316001",
+                "name": "Zhiru Zhang"
+            },
+            {
+                "s2_author_id": "2291279086",
+                "name": "Karl Marrett"
+            },
+            {
+                "s2_author_id": "31913758",
+                "name": "Muye Zhu"
+            },
+            {
+                "s2_author_id": "2150789578",
+                "name": "Chris Choi"
+            },
+            {
+                "s2_author_id": "2117036962",
+                "name": "Zhe Chen"
+            },
+            {
+                "s2_author_id": "1792048",
+                "name": "Hong-wei Dong"
+            },
+            {
+                "s2_author_id": "8593132",
+                "name": "Chang Sin Park"
+            },
+            {
+                "s2_author_id": "2107540947",
+                "name": "X. W. Yang"
+            }
+        ],
+        "total_co_authors": 38,
+        "papers_retrieved": 18
+    }
+}

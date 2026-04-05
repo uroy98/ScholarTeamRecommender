@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scholar Team Recommender</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-area">
+      <div class="brand-logo">Scholar<span>Team</span></div>
+      <div class="brand-subtitle">Google-Scholar-style team recommendation UI</div>
+    </div>
+    <div class="user-badge">{{ user_name }}</div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <h1>Find a scholar team from natural-language project needs</h1>
+      <p>
+        This interface ranks and selects scholars from your NSF-funded PI dataset
+        using scholar profile text and optional <code>.npy</code> embeddings.
+      </p>
+
+      <div class="search-panel">
+        <textarea id="queryInput" placeholder="Example: Build a team for graph neural networks, topological machine learning, geometric deep learning, and NSF-funded collaborative AI projects."></textarea>
+        <div class="controls-row">
+          <label>
+            Team size
+            <select id="teamSize">
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+          </label>
+          <button id="recommendBtn">Recommend Team</button>
+        </div>
+      </div>
+
+      <div class="meta-row">
+        <span class="pill">Indexed scholars: {{ scholar_count }}</span>
+        <span class="pill">Backend: Flask</span>
+        <span class="pill">Ranking: Hybrid / Lexical fallback</span>
+      </div>
+
+      {% if startup_error %}
+      <div class="warning-box">
+        <strong>Startup error:</strong>
+        <pre>{{ startup_error }}</pre>
+      </div>
+      {% endif %}
+    </section>
+
+    <section id="statusBox" class="status-box hidden"></section>
+
+    <section id="teamSection" class="results-section hidden">
+      <div class="section-header">
+        <h2>Recommended Team</h2>
+        <div id="rankingMode" class="mode-badge"></div>
+      </div>
+      <div id="resultsContainer" class="results-container"></div>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

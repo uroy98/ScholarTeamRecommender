@@ -1,0 +1,1942 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000503857",
+        "name": "Sudarshan K Srinivasan",
+        "primary_affiliation": "North Dakota State University Fargo",
+        "primary_department": null,
+        "all_affiliations": [
+            "North Dakota State University Fargo"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "ND"
+        ],
+        "perf_cities": [
+            "FARGO"
+        ],
+        "org_names": [
+            "North Dakota State University Fargo"
+        ],
+        "org_ueis": [
+            "EZ4WPGRE1RD5"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "sudarshan.srinivasan@ndsu.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2513276",
+                "title": "EAGER: Formal Verification For Quantum Software: 1,000 Qubits and Beyond",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-02-15",
+                "exp_date": "2027-01-31",
+                "award_amount": 119159.0,
+                "total_amount": 119159.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "FET-Fndtns of Emerging Tech"
+                ],
+                "program_codes": [
+                    "089Y00"
+                ],
+                "program_references": [
+                    "EAGER",
+                    "QUANTUM COMPUTING",
+                    "EXP PROG TO STIM COMP RES"
+                ],
+                "program_ref_codes": [
+                    "7916",
+                    "7928",
+                    "9150"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Elizabeth Behrman",
+                "keywords": [
+                    "quantum",
+                    "verification",
+                    "software",
+                    "space",
+                    "formal",
+                    "computing",
+                    "superposition",
+                    "critical",
+                    "scalable",
+                    "abstractions"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "FET-Fndtns of Emerging Tech"
+        ],
+        "program_codes": [
+            "089Y00"
+        ],
+        "program_references": [
+            "EAGER",
+            "QUANTUM COMPUTING",
+            "EXP PROG TO STIM COMP RES"
+        ],
+        "program_ref_codes": [
+            "7916",
+            "7928",
+            "9150"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Elizabeth Behrman"
+        ],
+        "keywords": [
+            "quantum",
+            "verification",
+            "software",
+            "space",
+            "formal",
+            "computing",
+            "superposition",
+            "critical",
+            "scalable",
+            "abstractions",
+            "abstraction",
+            "applications",
+            "security",
+            "errors",
+            "develop",
+            "methods",
+            "hilbert",
+            "rotational",
+            "eager",
+            "potential"
+        ],
+        "leadership_score": 1,
+        "experience_years": 1.0
+    },
+    "s2_profile": {
+        "s2_author_id": "2621542",
+        "name": "Sudarshan K Srinivasan",
+        "affiliations": [],
+        "paper_count": 70,
+        "citation_count": 918,
+        "h_index": 18,
+        "papers": [
+            {
+                "s2_paper_id": "3daf71f06318ee33b7d2f184b10b34d00b6bd777",
+                "title": "Superposition-Based Abstractions for Quantum Data Encoding Verification",
+                "year": 2025,
+                "venue": "IET Quantum Communication",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": "Many quantum algorithms operate on classical data, by first encoding classical data into the quantum domain using quantum data encoding circuits. To be effective for large data sets, encoding circuits that operate on large data sets are required. However, as the size of the data sets increases, the encoding circuits quickly become large, complex and error prone. Errors in the encoding circuit will provide incorrect inputs to quantum algorithms, making them ineffective. To address this problem, a formal method is proposed for verification of encoding circuits. The key idea to address scalability is the use of abstractions that reduce the verification problem to bit\u2010vector space. The major outcome of this work is that using this approach, the authors have been able to verify encoding circuits with up to 8191 qubits with very low memory (85\u00a0MB) and time (0.29s), demonstrating that the proposed approach can easily be employed to verify even much larger encoding circuits. The results are very significant because, traditional verification approaches that rely on modelling quantum circuits in Hilbert space have only demonstrated verification scalability up to 250 qubits. Also, this is the first approach to tackle the verification of quantum encoding circuits.",
+                "authors": [
+                    {
+                        "s2_author_id": "2188155756",
+                        "name": "Arun Govindankutty"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7121f942e909969aa66f54b114f626a5d77262fd",
+                "title": "Invulnerability invariants for software controlled speculation",
+                "year": 2024,
+                "venue": "Electronics Letters",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "Spectre class of transient execution security attacks on modern microprocessors rely on speculative execution. Software Controlled Speculation (SCS) was proposed as a microarchitecture\u2010level defense in the original Spectre paper and has also been adopted by ARM. The idea with SCS is to allow a mode in the microarchitecture, where instructions that read from memory are not allowed to execute speculatively. Errors or malicious fault\u2010injections in the implementation of SCS can still render the microarchitecture vulnerable to Spectre attacks. A formal verification method is proposed that can check the correctness of the implementation of SCS and detect any faults. The method has been demonstrated to be very efficient on two sets of benchmarks and provides accurate detection of implementation faults in\u00a0SCS.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eb0e053d282c2433431e4f9d99ad7670b97ac449",
+                "title": "Formal Verification For Cyclic Quantum Walk Circuits",
+                "year": 2024,
+                "venue": "International Symposium on Circuits and Systems",
+                "citation_count": 0,
+                "reference_count": 12,
+                "abstract": "To fully utilize the advances in quantum computing, it is critical to develop verification techniques that can scale and ensure the design of reliable and error-free quantum circuits. In this work, we propose a formal verification approach for a popular subset of quantum walk circuits, which are those that traverse cycles. Quantum walks are the quantum mechanical analog of random walks and as such have many safety- critical and security-critical applications. The proposed approach incorporates abstractions for quantum gates used in quantum walk circuits and correctness properties. Experimental results demonstrated that the verification approach is very efficient and is able to scale up to quantum walk circuits with as many as 5,000 qubits.",
+                "authors": [
+                    {
+                        "s2_author_id": "2311677479",
+                        "name": "Benedicto James Sitou Campbell"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1b6358bddd40d7dc2a4be29f74e4c41d470a306f",
+                "title": "Hardware Mitigation and Verification For Rogue In-Flight Data Load Attacks",
+                "year": 2023,
+                "venue": "International Conference on Electronics, Circuits, and Systems",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": "Rogue In-Flight Data Load (RIDL) is a microarchitecture security attack that exploits store-to-load forwarding in the line fill buffer. Several microarchitecture-level mitigations have been proposed for defense against RIDL. However, errors and/or Trojans in the implementations of these mitigations can be exploited to render the microarchitecture vulnerable to RIDL. We propose a formal verification methodology that can be used to guarantee that line fill buffer implementations are immune to RIDL attacks. We also propose a hardware-mitigation for RIDL, inspired by our verification approach, that allows the use of store-to-load forwarding. We have demonstrated the efficacy of our approach using several memory pipeline benchmarks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2188155756",
+                        "name": "Arun Govindankutty"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a86de114750c9606f5b26772cdc940da54b1b779",
+                "title": "Verification of serialising instructions for security against transient execution attacks",
+                "year": 2023,
+                "venue": "IET Computers & Digital Techniques",
+                "citation_count": 5,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c8a891d80343056eecf6bf53f10724c7ee3dab96",
+                "title": "Rotational Abstractions for Verification of Quantum Fourier Transform Circuits",
+                "year": 2023,
+                "venue": "IET Quantum Communication",
+                "citation_count": 3,
+                "reference_count": 32,
+                "abstract": "With the race to build large-scale quantum computers and efforts to exploit quantum algorithms for efficient problem solving in science and engineering disciplines, the requirement to have efficient and scalable verification methods are of vital importance. We propose a novel formal verification method that is targeted at Quantum Fourier Transform (QFT) circuits. QFT is a fundamental quantum algorithm that forms the basis of many quantum computing applications. The verification method employs abstractions of quantum gates used in QFT that leads to a reduction of the verification problem from Hilbert space to the quantifier free logic of bit-vectors. Very efficient decision procedures are available to reason about bit-vectors. Therefore, our method is able to scale up to the verification of QFT circuits with 10,000 qubits and 50 million quantum gates, providing a meteoric advance in the size of QFT circuits thus far verified using formal verification methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "2188155756",
+                        "name": "Arun Govindankutty"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4e35957eb8627df4f4a554d2cadacbd002110afe",
+                "title": "Illegal Trojan design and detection in asynchronous NULL Convention Logic and Sleep Convention Logic circuits",
+                "year": 2022,
+                "venue": "IET Computers & Digital Techniques",
+                "citation_count": 4,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    },
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fe22f896cf4470f8b49c03034d5f81e829f34042",
+                "title": "A Refinement-Based Approach to Spectre Invulnerability Verification",
+                "year": 2022,
+                "venue": "IEEE Access",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": "Several mitigations to thwart Spectre attacks have been proposed. However, design errors or trojans can be exploited to circumvent these mitigations. We have developed a highly-automated formal verification methodology that can detect if modern microprocessor designs are vulnerable to Spectre and its variants or prove otherwise. The methodology comprises of a refinement-based formal Spectre invulnerability property, and refinement maps, abstractions and invariants required to efficiently check the property. The methodology was evaluated on 29 benchmarks based on the RSD, which is an open source RISC-V based out-of-order superscalar processor. The benchmarks incorporated two Spectre defenses including software-controlled speculation and data track. Also incorporated were various implementation errors and hardware Trojans such as internally-triggered, rare-circuit-state and time-bombs that induce Spectre. What was evaluated was if the methodology could efficiently prove that an implementation is not vulnerable to Spectre and provide a counterexample otherwise. The methodology provided accurate classification for all benchmarks. The verification times were very efficient, ranging from 30 seconds to 1,500 seconds.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "816106c387e2ff9facfdcceb800158702387f4ea",
+                "title": "Formal Verification Approach to Detect Always-On Denial of Service Trojans in Pipelined Circuits",
+                "year": 2021,
+                "venue": "International Conference on Electronics, Circuits, and Systems",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": "Always-On Denial of Service (DoS) Trojans with power drain payload can be disastrous in systems where on-chip power resources are limited. These Trojans are designed so that they have no impact on system behavior and hence, harder to detect. A formal verification method is presented to detect sequential always-on DoS Trojans in pipelined circuits and pipelined microprocessors. Since the method is proof-based, it provides a 100% accurate classification of sequential Trojan components. Another benefit of the approach is that it does not require a reference model, which is one of the requirements of many Trojan detection techniques (often a bottleneck to practical application). The efficiency and scalability of the proposed method have been evaluated on 36 benchmark circuits. The most complex of these benchmarks has as many as 135,898 gates. Detection times are very efficient with a 100% rate of detection, i.e., all Trojan sequential elements were detected and all non-trojan sequential elements were classified as such.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0418bb0f05b7e826c4493b9c32c87e8d29c48bb2",
+                "title": "Exploiting Dual-Rail Register Invariants for Equivalence Verification of NCL Circuits",
+                "year": 2020,
+                "venue": "Midwest Symposium on Circuits and Systems",
+                "citation_count": 1,
+                "reference_count": 8,
+                "abstract": "Equivalence checking is one of the most scalable and useful verification techniques in industry. NULL Convention Logic (NCL) circuits utilize dual-rail signals (i.e., two wires to represent one bit of DATA), where the wires are inverses of each other during a DATA wavefront. In this paper, a technique that exploits this invariant at NCL register boundaries is proposed to improve the efficiency of equivalence verification of NCL circuits.",
+                "authors": [
+                    {
+                        "s2_author_id": "150300782",
+                        "name": "S. Le"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a5a334b754a394162b61ff4d3653a429f7f1650",
+                "title": "Formal Verification of Completion-Completeness for NCL Circuits",
+                "year": 2020,
+                "venue": "Midwest Symposium on Circuits and Systems",
+                "citation_count": 2,
+                "reference_count": 9,
+                "abstract": "Ensuring completion-completeness is required for delay-insensitivity when utilizing bit-wise completion to pipeline NCL circuits comprised of input-incomplete logic functions. Hence, this work presents an automated formal method to detect NCL circuits that are not completion-complete.",
+                "authors": [
+                    {
+                        "s2_author_id": "150300782",
+                        "name": "S. Le"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2ca2698b44a574b0c4c40f01e84696dc1b25b612",
+                "title": "Improved Efficiency of Object Code Verification Using Statically Abstracted Object Code",
+                "year": 2020,
+                "venue": "Scientific Programming",
+                "citation_count": 0,
+                "reference_count": 31,
+                "abstract": "One of the major challenges in the formal verification of embedded system software is the complexity and substantially large size of the implementation. The problem becomes crucial when the embedded system is a complex medical device that is executing convoluted algorithms. In refinement-based verification, both specification and implementation are expressed as transition systems. Each behavior of the implementation transition system is matched to the specification transition system with the help of a refinement map. The refinement map can only project those values from the implementation which are responsible for labeling the current state of the system. When the refinement map is applied at the object code level, numerous instructions map to a single state in the specification transition system called stuttering instructions. We use the concept of Static Stuttering Abstraction (SSA) that filters the common multiple segments of stuttering instructions and replaces each segment with a merger. SSA algorithm reduces the implementation state space in embedded software, subsequently decreasing the efforts involved in manual verification with WEB refinement. The algorithm is formally proven for correctness. SSA is implemented on the pacemaker object code to evaluate the effectiveness of abstracted code in verification process. The results helped to establish the fact that, despite code size reduction, the bugs and errors can still be found. We implemented the SSA technique on two different platforms and it has been proven to be consistent in decreasing the code size significantly and hence the complexity of the implementation transition system. The results illustrate that there is considerable reduction in time and effort required for the verification of a complex software control, i.e., pacemaker when statically stuttering abstracted code is employed.",
+                "authors": [
+                    {
+                        "s2_author_id": "2005936898",
+                        "name": "N. Shaukat"
+                    },
+                    {
+                        "s2_author_id": "39611507",
+                        "name": "Sana Shuja"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2061624376",
+                        "name": "Shaista Jabeen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3bfb76f812d0fff2ff4a3ca92515baa9a96caf4d",
+                "title": "Synthesis of Re\ufb01nement Maps for Real-Time Object Code Veri\ufb01cation",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1413778772",
+                        "name": "Eman Al-qtiemat"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1411344781",
+                        "name": "Zeyad A. Al-Odat"
+                    },
+                    {
+                        "s2_author_id": "39611507",
+                        "name": "Sana Shuja"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5c20d164b49025ba63d336e6949ba9a9c50d7584",
+                "title": "A Formal Verification Approach for Detecting Opcode Trojans",
+                "year": 2020,
+                "venue": "International Conference on Electronics, Circuits, and Systems",
+                "citation_count": 1,
+                "reference_count": 13,
+                "abstract": "Hardware Trojans are malicious circuit modifications and are a rising threat to the integrated circuit supply chain. There are a number of trojans directed specifically at microprocessor designs. This paper examines the threat of invalid opcodes being used as trigger mechanism for trojans in microprocessors. We demonstrate the effect of such trojans and propose an automated formal verification methodology to detect such trojans. The methodology was tested on processor models based on MIPS and RISC-V architecture. Processor benchmark circuits with as many as 400,000 gates were verified using our approach.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2044360140",
+                        "name": "Akansha Malik"
+                    },
+                    {
+                        "s2_author_id": "2044357569",
+                        "name": "Samuel Quanbeck"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c6c1a1995d1f2a176a3679783cf85becba4b86f9",
+                "title": "Hardware Trojan Design and Detection in Asynchronous NCL Circuits",
+                "year": 2020,
+                "venue": "International Conference on Electronics, Circuits, and Systems",
+                "citation_count": 4,
+                "reference_count": 14,
+                "abstract": "Hardware Trojans that degrade performance, change functionality, leak information, or halt service, have been problematic in synchronous circuits. Asynchronous circuits are gaining popularity due to their lower power consumption, and better immunity against PVT (process, voltage, temperature) variations. In this paper, we show some designs to realize hardware Trojans in NULL Convention Logic (NCL), which is a Quasi-Delay Insensitive (QDI) asynchronous digital circuit paradigm. We also present a formal verification methodology to detect such Trojans, and validate our technique on an RSA decryption circuit.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0c1c25dbe127be0a1c8d06305ef221e699d49d84",
+                "title": "Formal verification of NCL circuits",
+                "year": 2019,
+                "venue": "Asynchronous Circuit Applications",
+                "citation_count": 6,
+                "reference_count": 0,
+                "abstract": "In this chapter, the author describe an equivalence checking methodology for NULL Convention Logic (NCL) circuits. Note that currently, there are no commercial equivalence checkers for quasi-delay insensitive (QDI) circuits. For commercial applications, NCL circuits, and QDI circuits in general, are often synthesized from synchronous intellectual property designs. The resulting NCL design may then be further optimized and tinkered with. Therefore, the author have designed an equivalence checker that can be used in two ways: (1) to verify the functional equivalence of two NCL designs and (2) to verify the equivalence between an NCL design and a synchronous design.",
+                "authors": [
+                    {
+                        "s2_author_id": "31250165",
+                        "name": "Ashiq A. Sakib"
+                    },
+                    {
+                        "s2_author_id": "150300782",
+                        "name": "S. Le"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "15547ecd251be1f3ff4b5e570b967cbbe20a9ba5",
+                "title": "Formal Modeling and Verification of PCHB Asynchronous Circuits",
+                "year": 2019,
+                "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+                "citation_count": 8,
+                "reference_count": 24,
+                "abstract": "Precharge half buffer (PCHB) is one of the major quasi-delay insensitive (QDI) asynchronous design paradigms, which has been utilized in several commercial applications due to its low power and inherent robustness. In industry, QDI circuits are often synthesized from a synchronous specification using custom synthesis tools. Design validation of the implemented QDI circuits mostly relies on extensive simulation, which may fail to detect corner-case bugs, especially in complex designs. Hence, a formal verification scheme for PCHB circuits is much needed. In this article, we present a formal verification methodology for PCHB circuits synthesized from a Boolean/synchronous specification, which is based on equivalence checking and can guarantee both safety (full functional correctness) and liveness (absence of deadlock). The approach is fast, scalable, and applicable to combinational as well as sequential PCHB circuits. We demonstrate the method using several multipliers, multiply and accumulate circuits (MACs), and IEEE International Symposium on Circuits and Systems (ISCAS) benchmarks.",
+                "authors": [
+                    {
+                        "s2_author_id": "31250165",
+                        "name": "Ashiq A. Sakib"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5c64cb83ea90f783b62fb7c441a0e357d754a216",
+                "title": "A Secure Storage Scheme for Healthcare Data Over the Cloud Based on Multiple Authorizations",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1411344781",
+                        "name": "Zeyad A. Al-Odat"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1413778772",
+                        "name": "Eman Al-qtiemat"
+                    },
+                    {
+                        "s2_author_id": "39611507",
+                        "name": "Sana Shuja"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a58aa1df5549538059c51fdc47511f6a64b595f",
+                "title": "FORMAL VERIFICATION METHODOLOGY FOR ASYNCHRONOUS SLEEP CONVENTION LOGIC CIRCUITS BASED ON EQUIVALENCE VERIFICATION",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2350515235",
+                        "name": "Mousam Hossain"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    },
+                    {
+                        "s2_author_id": "2118798549",
+                        "name": "Ying Huang"
+                    },
+                    {
+                        "s2_author_id": "39111538",
+                        "name": "Benjamin O. Braaten"
+                    },
+                    {
+                        "s2_author_id": "2086988152",
+                        "name": "Shabnam Banu"
+                    },
+                    {
+                        "s2_author_id": "31250165",
+                        "name": "Ashiq A. Sakib"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "964e77f0b13d557b3d2b69d5c376e8608690e178",
+                "title": "Synthesis of Formal Speci\ufb01cations From Requirements for Re\ufb01nement-based Real Time Object Code Veri\ufb01cation",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1413778772",
+                        "name": "Eman Al-qtiemat"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1411344781",
+                        "name": "Zeyad A. Al-Odat"
+                    },
+                    {
+                        "s2_author_id": "2287665222",
+                        "name": "Mohana Asha"
+                    },
+                    {
+                        "s2_author_id": "2287644455",
+                        "name": "Latha Dubasi"
+                    },
+                    {
+                        "s2_author_id": "39611507",
+                        "name": "Sana Shuja"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a1f6759b4a87203afbf18bd12396897c5123ed1e",
+                "title": "An Equivalence Verification Methodology for Asynchronous Sleep Convention Logic Circuits",
+                "year": 2019,
+                "venue": "International Symposium on Circuits and Systems",
+                "citation_count": 4,
+                "reference_count": 17,
+                "abstract": "Sleep Convention Logic (SCL) is an emerging ultra-low power Quasi-Delay Insensitive (QDI) asynchronous design paradigm with enormous potential for industrial applications. Design validation is a critical concern before commercialization. Unlike other QDI paradigms, such as NULL Convention Logic (NCL) and Pre-Charge Half Buffers (PCHB), there exists no formal verification methods for SCL. In this paper, we propose a unified formal verification scheme for combinational as well as sequential SCL circuits, based on equivalence checking, which verifies both safety and liveness. The method is demonstrated using several multipliers, MACs, and ISCAS benchmarks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2350515235",
+                        "name": "Mousam Hossain"
+                    },
+                    {
+                        "s2_author_id": "31250165",
+                        "name": "Ashiq A. Sakib"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be90e42ff7c4312e916f6c7d2c46795d5294779e",
+                "title": "Re\ufb01nement Maps for Insulin Pump Control Software Safety Veri\ufb01cation",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1413778772",
+                        "name": "Eman Al-qtiemat"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1411344781",
+                        "name": "Zeyad A. Al-Odat"
+                    },
+                    {
+                        "s2_author_id": "39611507",
+                        "name": "Sana Shuja"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ce80c8be3d249d02156a147e63fc81e6ce5a9d64",
+                "title": "A Reliable IoT-Based Embedded Health Care System for Diabetic Patients",
+                "year": 2019,
+                "venue": "arXiv.org",
+                "citation_count": 10,
+                "reference_count": 38,
+                "abstract": "This paper introduces a reliable health care system for diabetic patients based on the Internet of Things technology. A diabetic health care system with a hardware implementation is presented. The proposed work employs Alaris 8100 infusion pump, Keil LPC-1768 board, and IoT-cloud to monitor the diabetic patients. The security of diabetic data over the cloud and the communication channel between health care system components are considered as part of the main contributions of this work. Moreover, an easy way to control and monitor the diabetic insulin pump is implemented. The \\mbox{patient\\textquotesingle s} records are stored in the cloud using the Keil board that is connected to the infusion pump. The reliability of the proposed scheme is accomplished by testing the system for five performance characteristics (availability, confidentiality, integrity, authentication, and authorization). The Kiel board is embedded with Ethernet port and Cortex-M3 micro-controller that controls the insulin infusion pump. The secure hash algorithm and secure socket shell are employed to achieve the reliability components of the proposed scheme. The results show that the proposed design is reliable, secure and authentic according to different test experiments and a case study of the Markov model. Moreover, a 99.3\\% availability probability has been achieved after analyzing the case study.",
+                "authors": [
+                    {
+                        "s2_author_id": "1411344781",
+                        "name": "Zeyad A. Al-Odat"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1413778772",
+                        "name": "Eman Al-qtiemat"
+                    },
+                    {
+                        "s2_author_id": "39611507",
+                        "name": "Sana Shuja"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e60a093422fe957b4f3b95a744e99935580c2aad",
+                "title": "Re\ufb01nement Checker for Embedded Object Code Veri\ufb01cation",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2287665222",
+                        "name": "Mohana Asha"
+                    },
+                    {
+                        "s2_author_id": "2287644455",
+                        "name": "Latha Dubasi"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2288529108",
+                        "name": "\u2021. SanaShuja"
+                    },
+                    {
+                        "s2_author_id": "1411344781",
+                        "name": "Zeyad A. Al-Odat"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "50aa8a8e3cfa391e48c306e63ec42ed30cc7ec28",
+                "title": "Automated verification of input completeness for NCL circuits",
+                "year": 2018,
+                "venue": "Electronics Letters",
+                "citation_count": 2,
+                "reference_count": 14,
+                "abstract": "An automated formal verification approach for ensuring input completeness of NULL Convention Logic (NCL) circuits is proposed. NCL circuits have the benefit that they can operate in extreme environments where traditional synchronous circuits fail due to significant fluctuations in circuit timing. Input completeness is a critical property to ensure correct functioning of NCL circuits in extreme environments and therefore is required to be verified. Note that an NCL circuit can be functionally correct and still not be input complete, which could cause the circuit to operate correctly under normal conditions, but malfunction only when the circuit timing is substantially changed (e.g. operating in a very hot or cold environment such as outer space).",
+                "authors": [
+                    {
+                        "s2_author_id": "150300782",
+                        "name": "S. Le"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "93bac2693313c5a26ac27e30340da4d9b91808b0",
+                "title": "An Equivalence Verification Methodology for Combinational Asynchronous PCHB Circuits",
+                "year": 2018,
+                "venue": "Midwest Symposium on Circuits and Systems",
+                "citation_count": 2,
+                "reference_count": 11,
+                "abstract": "Pre-Charge Half Buffer (PCHB) is a Quasi-Delay Insensitive (QDI) asynchronous design paradigm that has found commercial applications in the semiconductor industry. PCHB circuits use dual-rail signals instead of Boolean logic and are unique in that PCHB gates incorporate both registration and a handshaking scheme for synchronization. We have developed a methodology for formal equivalence verification of combinational PCHB circuits against their corresponding Boolean specification circuits. The methodology transforms the PCHB circuit into a Boolean circuit, which can then be checked against a Boolean specification circuit using an existing combinational equivalence checker. The methodology also checks for liveness and handshaking correctness of the original PCHB circuit. The proposed methodology has been demonstrated using several multipliers and ISCAS circuit benchmarks.",
+                "authors": [
+                    {
+                        "s2_author_id": "31250165",
+                        "name": "Ashiq A. Sakib"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d4dcdd041d04c2e425ec93ec91190e2882c6af7d",
+                "title": "IoT-Based Secure Embedded Scheme for Insulin Pump Data Acquisition and Monitoring",
+                "year": 2018,
+                "venue": "arXiv.org",
+                "citation_count": 14,
+                "reference_count": 15,
+                "abstract": "This paper introduces an Internet of Things (IoT)-based data acquisition and monitoring scheme for insulin pumps. The proposed work employs embedded system hardware (Keil LPC1768-board) for data acquisition and monitoring. The hardware is used as an abstract layer between the insulin pump and the cloud. Diabetes data are secured before they are sent to the cloud for storage. Each patient's record is digitally signed using a secure hash algorithm mechanism. The proposed work will protect the patient's records from being breached from unauthorized entities, and authenticates them from improper modifications. The design is tested and verified using $\\mu$Vision studio, the Keil board mentioned above, and an ALARIS 8100 infusion pump. Moreover, a test case for a real cloud example is presented with the help of the Center of Computationally Assisted System and Technology. This center provided the infrastructure service to test our work.",
+                "authors": [
+                    {
+                        "s2_author_id": "1411344781",
+                        "name": "Zeyad A. Al-Odat"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1413778772",
+                        "name": "Eman Al-qtiemat"
+                    },
+                    {
+                        "s2_author_id": "2155592",
+                        "name": "Mohana Asha Latha Dubasi"
+                    },
+                    {
+                        "s2_author_id": "39611507",
+                        "name": "Sana Shuja"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ebb7f9bb7c2085f2ec235c64d76fa2bd247238b4",
+                "title": "A Methodology for Synthesizing Formal Speci\ufb01cation Models From Requirements for Re\ufb01nement-based Object Code Veri\ufb01cation",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1413778772",
+                        "name": "Eman Al-qtiemat"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2287665222",
+                        "name": "Mohana Asha"
+                    },
+                    {
+                        "s2_author_id": "2287644455",
+                        "name": "Latha Dubasi"
+                    },
+                    {
+                        "s2_author_id": "39611507",
+                        "name": "Sana Shuja"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "26c29d4ad3ca263d7a2d1994ae4429628b8bd0ef",
+                "title": "Formal verification methodology for real-time Field Programmable Gate Array",
+                "year": 2017,
+                "venue": "IET Computers & Digital Techniques",
+                "citation_count": 6,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2061624376",
+                        "name": "Shaista Jabeen"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "39611507",
+                        "name": "Sana Shuja"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "886e478dd2deeb2afd64263e7f73d69976aca305",
+                "title": "Formal modeling and verification for pre-charge half buffer gates and circuits",
+                "year": 2017,
+                "venue": "Midwest Symposium on Circuits and Systems",
+                "citation_count": 4,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31250165",
+                        "name": "Ashiq A. Sakib"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ac5d1bdd6296ac3c0a7b811d3ff2fcf291d58d80",
+                "title": "Abstraction techniques to improve scalability of equivalence verification for NCL circuits",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1854138",
+                        "name": "Vidura Wijayasekara"
+                    },
+                    {
+                        "s2_author_id": "2079421633",
+                        "name": "A. T. Rollie"
+                    },
+                    {
+                        "s2_author_id": "2071865112",
+                        "name": "R. G. Hodges"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6df4eed9b139ab5a95d509f1f8da088ba0642ae4",
+                "title": "A Formal Verification Methodology for DDD Mode Pacemaker Control Programs",
+                "year": 2015,
+                "venue": "Journal of Electrical and Computer Engineering",
+                "citation_count": 11,
+                "reference_count": 32,
+                "abstract": "Pacemakers are safety-critical devices whose faulty behaviors can cause harm or even death. Often these faulty behaviors are caused due to bugs in programs used for digital control of pacemakers. We present a formal verification methodology that can be used to check the correctness of object code programs that implement the safety-critical control functions of DDD mode pacemakers. Our methodology is based on the theory of Well-Founded Equivalence Bisimulation (WEB) refinement, where both formal specifications and implementation are treated as transition systems. We develop a simple and general formal specification for DDD mode pacemakers. We also develop correctness proof obligations that can be applied to validate object code programs used for pacemaker control. Using our methodology, we were able to verify a control program with millions of transitions against the simple specification with only 10 transitions. Our method also found several bugs during the verification process.",
+                "authors": [
+                    {
+                        "s2_author_id": "39611507",
+                        "name": "Sana Shuja"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2061624376",
+                        "name": "Shaista Jabeen"
+                    },
+                    {
+                        "s2_author_id": "2086860",
+                        "name": "D. Nawarathna"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fc5e0deafcfce6eb8dbb93e022550601e0b28e7d",
+                "title": "A Formal Verification Methodology for FPGA-Based Stepper Motor Control",
+                "year": 2015,
+                "venue": "IEEE Embedded Systems Letters",
+                "citation_count": 14,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2061624376",
+                        "name": "Shaista Jabeen"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "39611507",
+                        "name": "Sana Shuja"
+                    },
+                    {
+                        "s2_author_id": "2155592",
+                        "name": "Mohana Asha Latha Dubasi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "693db4f9b22cfa398b42a9aee8147e1640d6dc22",
+                "title": "Equivalence verification for NULL Convention Logic (NCL) circuits",
+                "year": 2014,
+                "venue": "ICCD",
+                "citation_count": 8,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1854138",
+                        "name": "Vidura Wijayasekara"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6d1a537dae5633c83c51a9d21f623b88bee9092e",
+                "title": "Timed Refinement for Verification of Real-Time Object Code Programs",
+                "year": 2014,
+                "venue": "Verified Software: Theories, Tools, Experiments",
+                "citation_count": 10,
+                "reference_count": 64,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2155592",
+                        "name": "Mohana Asha Latha Dubasi"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1854138",
+                        "name": "Vidura Wijayasekara"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e57b31ee999bab0a8463a3bec91818ec96947748",
+                "title": "A systematic approach to transforming system requirements into model checking specifications",
+                "year": 2014,
+                "venue": "ICSE Companion",
+                "citation_count": 12,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1864455",
+                        "name": "Daniel Aceituna"
+                    },
+                    {
+                        "s2_author_id": "1679280",
+                        "name": "Hyunsook Do"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "089933660f901d791da086b4b5282dba9d48c50b",
+                "title": "Modeling and Analysis of State-of-the-art VM-based Cloud Management Platforms",
+                "year": 2013,
+                "venue": "IEEE Transactions on Cloud Computing",
+                "citation_count": 92,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2952538",
+                        "name": "S. Malik"
+                    },
+                    {
+                        "s2_author_id": "1740261",
+                        "name": "S. Khan"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "24986090444f89dc5fa27d5efeea21404e02225f",
+                "title": "Equivalence checking for synchronous elastic circuits",
+                "year": 2013,
+                "venue": "International Conference on Formal Methods and Models for Co-Design",
+                "citation_count": 2,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1854138",
+                        "name": "Vidura Wijayasekara"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "10060a42b3c3e08783a5e8fba33c26cf86e685c3",
+                "title": "A Methodology for OSPF Routing Protocol Verification",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 31,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2952538",
+                        "name": "S. Malik"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1740261",
+                        "name": "S. Khan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "622ff01982e42ae33c4ad785d3520a91cd6d22bd",
+                "title": "Refinement-based verification of elastic pipelined systems",
+                "year": 2012,
+                "venue": "IET Computers & Digital Techniques",
+                "citation_count": 1,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2281718765",
+                        "name": "Y. Cai"
+                    },
+                    {
+                        "s2_author_id": "2065173645",
+                        "name": "Koushik Sarker"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d2037e3f760db34328d8ed77156e4e56cd51178c",
+                "title": "Convergence time analysis of open shortest path first routing protocol in internet scale networks",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 20,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2952538",
+                        "name": "S. Malik"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1740261",
+                        "name": "S. Khan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "12f5b5cedb21215cd66e324a041cb7460ce471cc",
+                "title": "Joint Placement of Phasor and Power Flow Measurements for Observability of Power Systems",
+                "year": 2011,
+                "venue": "IEEE Transactions on Power Systems",
+                "citation_count": 98,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1739143",
+                        "name": "R. Kavasseri"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "413e4b5ca77cf646ac967a2b7e53405813583bd0",
+                "title": "Sub-optimal data compression and the subset sum problem",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692745",
+                        "name": "R. Katti"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "48f14bcaf4c02f1e723c068a60366aa1ef025cd4",
+                "title": "Desynchronization: Design for verification",
+                "year": 2011,
+                "venue": "Formal Methods in Computer-Aided Design",
+                "citation_count": 6,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1692745",
+                        "name": "R. Katti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8182ba4b28051fb718eabb9a917e62b4b876b383",
+                "title": "Joint placement of phasor and conventional power flow measurements for fault observability of power systems",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 62,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1739143",
+                        "name": "R. Kavasseri"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "97dc0b8f852d0902fa16e7c7ea41d6ff7092dcff",
+                "title": "On the Security of Randomized Arithmetic Codes Against Ciphertext-Only Attacks",
+                "year": 2011,
+                "venue": "IEEE Transactions on Information Forensics and Security",
+                "citation_count": 38,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692745",
+                        "name": "R. Katti"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2561142",
+                        "name": "Aida Vosoughi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1f87f436cf33664cbafd47051f625341da31eacf",
+                "title": "Automatic Refinement Checking of Pipelines with Out-of-Order Execution",
+                "year": 2010,
+                "venue": "IEEE transactions on computers",
+                "citation_count": 5,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2dda140c5931d5e4f0bf5dacdaa5f696119660ae",
+                "title": "Optimization Techniques for Verification of Out-of-Order Execution Machines",
+                "year": 2010,
+                "venue": "Journal of Electrical and Computer Engineering",
+                "citation_count": 0,
+                "reference_count": 20,
+                "abstract": "We develop two optimization techniques, flush-machine and collapsed flushing, to improve the efficiency of automatic refinementabased verification of out-of-order (ooo) processor models. Refinement is a notion of equivalence that can be used to check that an ooo processor correctly implements all behaviors of its instruction set architecture (ISA), including deadlock detection. The optimization techniques work by reducing the computational complexity of the refinement map, a function central to refinement proofs that maps ooo processor model states to ISA states. This has a direct impact on the efficiency of verification, which is studied using 23 ooo processor models. Flush-machine, is a novel optimization technique. Collapsed flushing has been employed previously in the context of in-order processors. We show how to apply collapsed flushing for ooo processor models. Using both the optimizations together, we can handle 9 ooo models that could not be verified using standard flushing. Also, the optimizations provided a speed up of 23.29 over standard flushing.",
+                "authors": [
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7da547d0c3cdf7d292dfa9ed8e34f0d141b44c78",
+                "title": "Verifying Pipelines with BAT",
+                "year": 2010,
+                "venue": "Design and Verification of Microprocessor Systems for High-Assurance Applications",
+                "citation_count": 0,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ccb9a21300f62dea3b21764b721ec4ff53382f1f",
+                "title": "Joint optimal placement of PMU and conventional measurements in power systems",
+                "year": 2010,
+                "venue": "Proceedings of 2010 IEEE International Symposium on Circuits and Systems",
+                "citation_count": 24,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1739143",
+                        "name": "R. Kavasseri"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0363af3e070fa345489161e018abd8f1f0f817f9",
+                "title": "Verification of Synchronous Elastic Processors",
+                "year": 2009,
+                "venue": "IEEE Embedded Systems Letters",
+                "citation_count": 3,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2065173645",
+                        "name": "Koushik Sarker"
+                    },
+                    {
+                        "s2_author_id": "1692745",
+                        "name": "R. Katti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "12e6f2903931a57123a86bbf82db83160318846c",
+                "title": "Token-Aware Completion Functions for Elastic Processor Verification",
+                "year": 2009,
+                "venue": "Journal of Electrical and Computer Engineering",
+                "citation_count": 4,
+                "reference_count": 10,
+                "abstract": "We develop a formal verification procedure to check that elastic pipelined processor designs correctly implement their instruction set architecture (ISA) specifications. The notion of correctness we use is based on refinement. Refinement proofs are based on refinement maps, which\u2014in the context of this problem\u2014are functions that map elastic processor states to states of the ISA specification model. Data flow in elastic architectures is complicated by the insertion of any number of buffers in any place in the design, making it hard to construct refinement maps for elastic systems in a systematic manner. We introduce token-aware completion functions, which incorporate a mechanism to track the flow of data in elastic pipelines, as a highly automated and systematic approach to construct refinement maps. We demonstrate the efficiency of the overall verification procedure based on token-aware completion functions using six elastic pipelined processor models based on the DLX architecture.",
+                "authors": [
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2065173645",
+                        "name": "Koushik Sarker"
+                    },
+                    {
+                        "s2_author_id": "1692745",
+                        "name": "R. Katti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f710c68ec387c77882ae4ae464cc5be8abd8db5",
+                "title": "Efficient hardware implementation of a new pseudo-random bit sequence generator",
+                "year": 2009,
+                "venue": "2009 IEEE International Symposium on Circuits and Systems",
+                "citation_count": 49,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692745",
+                        "name": "R. Katti"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f734f017706f231d9953cfa3d7dc394bf68b8694",
+                "title": "Verification of desynchronized circuits",
+                "year": 2009,
+                "venue": "2009 IEEE International Symposium on Circuits and Systems",
+                "citation_count": 1,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1692745",
+                        "name": "R. Katti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "151e5dbce6a5931dc4665f87bb418c8cb2ce879c",
+                "title": "Automatic verification of safety and liveness for pipelined machines using WEB refinement",
+                "year": 2008,
+                "venue": "TODE",
+                "citation_count": 11,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fce600a59c8732ec17f4e6dd9b6548b49fc0bb95",
+                "title": "A Refinement-Based Compositional Reasoning Framework for Pipelined Machine Verification",
+                "year": 2008,
+                "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+                "citation_count": 24,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5bef4efc915495e9a0a5a4fc4734a0ac908bda11",
+                "title": "BAT: The Bit-Level Analysis Tool",
+                "year": 2007,
+                "venue": "International Conference on Computer Aided Verification",
+                "citation_count": 31,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2196788",
+                        "name": "D. Vroon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f8725f50df6464d194f1f69beace67f25aa9c6a7",
+                "title": "Efficient Verification of Bit-Level Pipelined Machines Using Refinement",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 84,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "15fc9999936e72d20d745dffb0e0f861c20bfff5",
+                "title": "Automatic Memory Reductions for RTL Model Verification",
+                "year": 2006,
+                "venue": "IEEE/ACM International Conference on Computer-Aided Design",
+                "citation_count": 37,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2196788",
+                        "name": "D. Vroon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1eee9fadc37664f86611caf5e8a7090983c8f82d",
+                "title": "A Framework for Verifying Bit-Level Pipelined Machines Based on Automated Deduction and Decision Procedures",
+                "year": 2006,
+                "venue": "Journal of automated reasoning",
+                "citation_count": 18,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "48a6ac791ec6c8e48ae15fe1c205b322303f0e1c",
+                "title": "Monolithic Verification of Deep Pipelines with Collapsed Flushing",
+                "year": 2006,
+                "venue": "Proceedings of the Design Automation & Test in Europe Conference",
+                "citation_count": 10,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30324378",
+                        "name": "R. Kane"
+                    },
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "27362108d1aced3bc85c859f0ca4afe821a23d45",
+                "title": "A complete compositional reasoning framework for the efficient verification of pipelined machines",
+                "year": 2005,
+                "venue": "ICCAD. IEEE/ACM International Conference on Computer-Aided Design",
+                "citation_count": 30,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52cd93ef5f42768b7c192debe10d9f6864790357",
+                "title": "Verification of executable pipelined machines with bit-level interfaces",
+                "year": 2005,
+                "venue": "ICCAD. IEEE/ACM International Conference on Computer-Aided Design",
+                "citation_count": 19,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75649d8f42001e5796c9cff3b17ab00552e1f05c",
+                "title": "A computationally ef~cient method based on commitment re~nement maps for verifying pipelined machines.",
+                "year": 2005,
+                "venue": "Proceedings. Second ACM and IEEE International Conference on Formal Methods and Models for Co-Design, 2005. MEMOCODE '05.",
+                "citation_count": 19,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7c8a490a21342cb05e04906e5351d934bf511fea",
+                "title": "A Parameterized Benchmark Suite of Hard Pipelined-Machine-Verification Problems",
+                "year": 2005,
+                "venue": "Conference on Correct Hardware Design and Verification Methods",
+                "citation_count": 15,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a8b6373e5685a5002b417a698eef0a47c46da14a",
+                "title": "Refinement maps for efficient verification of processor models",
+                "year": 2005,
+                "venue": "Design, Automation and Test in Europe",
+                "citation_count": 35,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "778e8f46da2a86165faae3e0b67e69d7c00a3586",
+                "title": "Automatic verification of safety and liveness for XScale-like processor models using WEB refinements",
+                "year": 2004,
+                "venue": "Proceedings Design, Automation and Test in Europe Conference and Exhibition",
+                "citation_count": 45,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786747",
+                        "name": "P. Manolios"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2359abeb93acd59125775718d54f5dbceba220c7",
+                "title": "Combining data remapping and voltage/frequency scaling of second level memory for energy reduction in embedded systems",
+                "year": 2003,
+                "venue": "Microelectronics Journal",
+                "citation_count": 5,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2109125411",
+                        "name": "Jun-Cheol Park"
+                    },
+                    {
+                        "s2_author_id": "34779934",
+                        "name": "V. Mooney"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8d177cd9c113fb6c25ac8910f2b3ea39fd36065b",
+                "title": "Formal verification of an Intel XScale processor model with scoreboarding, specialized execution pipelines, and impress data-memory exceptions",
+                "year": 2003,
+                "venue": "First ACM and IEEE International Conference on Formal Methods and Models for Co-Design, 2003. MEMOCODE '03. Proceedings.",
+                "citation_count": 27,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "1888350",
+                        "name": "M. Velev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c3752411b2f028b19c3958cda7c245652ae97cd5",
+                "title": "Analytical Solution of Simultaneous Faults in Power Systems Using R, S and T Components",
+                "year": 1967,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "17044884",
+                        "name": "V. N. Sujeer"
+                    },
+                    {
+                        "s2_author_id": "143780567",
+                        "name": "M. Murthy"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2188155756",
+                "name": "Arun Govindankutty"
+            },
+            {
+                "s2_author_id": "2044362890",
+                "name": "Nimish Mathure"
+            },
+            {
+                "s2_author_id": "2044352974",
+                "name": "Kushal K. Ponugoti"
+            },
+            {
+                "s2_author_id": "2311677479",
+                "name": "Benedicto James Sitou Campbell"
+            },
+            {
+                "s2_author_id": "38514571",
+                "name": "S. Smith"
+            },
+            {
+                "s2_author_id": "150300782",
+                "name": "S. Le"
+            },
+            {
+                "s2_author_id": "2005936898",
+                "name": "N. Shaukat"
+            },
+            {
+                "s2_author_id": "39611507",
+                "name": "Sana Shuja"
+            },
+            {
+                "s2_author_id": "2061624376",
+                "name": "Shaista Jabeen"
+            },
+            {
+                "s2_author_id": "1413778772",
+                "name": "Eman Al-qtiemat"
+            },
+            {
+                "s2_author_id": "1411344781",
+                "name": "Zeyad A. Al-Odat"
+            },
+            {
+                "s2_author_id": "2044360140",
+                "name": "Akansha Malik"
+            },
+            {
+                "s2_author_id": "2044357569",
+                "name": "Samuel Quanbeck"
+            },
+            {
+                "s2_author_id": "31250165",
+                "name": "Ashiq A. Sakib"
+            },
+            {
+                "s2_author_id": "2350515235",
+                "name": "Mousam Hossain"
+            },
+            {
+                "s2_author_id": "2118798549",
+                "name": "Ying Huang"
+            },
+            {
+                "s2_author_id": "39111538",
+                "name": "Benjamin O. Braaten"
+            },
+            {
+                "s2_author_id": "2086988152",
+                "name": "Shabnam Banu"
+            },
+            {
+                "s2_author_id": "2287665222",
+                "name": "Mohana Asha"
+            },
+            {
+                "s2_author_id": "2287644455",
+                "name": "Latha Dubasi"
+            },
+            {
+                "s2_author_id": "2288529108",
+                "name": "\u2021. SanaShuja"
+            },
+            {
+                "s2_author_id": "2155592",
+                "name": "Mohana Asha Latha Dubasi"
+            },
+            {
+                "s2_author_id": "1854138",
+                "name": "Vidura Wijayasekara"
+            },
+            {
+                "s2_author_id": "2079421633",
+                "name": "A. T. Rollie"
+            },
+            {
+                "s2_author_id": "2071865112",
+                "name": "R. G. Hodges"
+            },
+            {
+                "s2_author_id": "2086860",
+                "name": "D. Nawarathna"
+            },
+            {
+                "s2_author_id": "1864455",
+                "name": "Daniel Aceituna"
+            },
+            {
+                "s2_author_id": "1679280",
+                "name": "Hyunsook Do"
+            },
+            {
+                "s2_author_id": "2952538",
+                "name": "S. Malik"
+            },
+            {
+                "s2_author_id": "1740261",
+                "name": "S. Khan"
+            },
+            {
+                "s2_author_id": "2281718765",
+                "name": "Y. Cai"
+            },
+            {
+                "s2_author_id": "2065173645",
+                "name": "Koushik Sarker"
+            },
+            {
+                "s2_author_id": "1739143",
+                "name": "R. Kavasseri"
+            },
+            {
+                "s2_author_id": "1692745",
+                "name": "R. Katti"
+            },
+            {
+                "s2_author_id": "2561142",
+                "name": "Aida Vosoughi"
+            },
+            {
+                "s2_author_id": "1786747",
+                "name": "P. Manolios"
+            },
+            {
+                "s2_author_id": "2196788",
+                "name": "D. Vroon"
+            },
+            {
+                "s2_author_id": "30324378",
+                "name": "R. Kane"
+            },
+            {
+                "s2_author_id": "2109125411",
+                "name": "Jun-Cheol Park"
+            },
+            {
+                "s2_author_id": "34779934",
+                "name": "V. Mooney"
+            },
+            {
+                "s2_author_id": "1888350",
+                "name": "M. Velev"
+            },
+            {
+                "s2_author_id": "17044884",
+                "name": "V. N. Sujeer"
+            },
+            {
+                "s2_author_id": "143780567",
+                "name": "M. Murthy"
+            }
+        ],
+        "total_co_authors": 43,
+        "papers_retrieved": 70
+    }
+}

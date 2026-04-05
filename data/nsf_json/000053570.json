@@ -1,0 +1,1397 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000053570",
+        "name": "Duane Q Nykamp",
+        "primary_affiliation": "University of Minnesota-Twin Cities",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Minnesota-Twin Cities"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "MN"
+        ],
+        "perf_cities": [
+            "MINNEAPOLIS"
+        ],
+        "org_names": [
+            "University of Minnesota-Twin Cities"
+        ],
+        "org_ueis": [
+            "KABJZBBJ4B54"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "nykamp@umn.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2449139",
+                "title": "POSE: Phase I: An Open-Source Ecosystem for Interactive Mathematics Curricula",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-08-15",
+                "exp_date": "2026-07-31",
+                "award_amount": 319885.0,
+                "total_amount": 299917.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000794342"
+                ],
+                "program_elements": [
+                    "POSE"
+                ],
+                "program_codes": [
+                    "211Y00"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "TIP",
+                "div_abbr": "TI",
+                "nsf_directorate": null,
+                "fund_division": "Translational Impacts",
+                "cfda_num": "47.084",
+                "po_name": "Florence Rabanal",
+                "keywords": [
+                    "doenet",
+                    "developing",
+                    "pose",
+                    "open",
+                    "ecosystem",
+                    "mathematics",
+                    "source",
+                    "interactive",
+                    "curricula",
+                    "development"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000794342"
+        ],
+        "program_elements": [
+            "POSE"
+        ],
+        "program_codes": [
+            "211Y00"
+        ],
+        "program_references": [],
+        "program_ref_codes": [],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "TIP"
+        ],
+        "div_abbrs": [
+            "TI"
+        ],
+        "fund_divisions": [
+            "Translational Impacts"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.084"
+        ],
+        "program_officers": [
+            "Florence Rabanal"
+        ],
+        "keywords": [
+            "doenet",
+            "developing",
+            "pose",
+            "open",
+            "ecosystem",
+            "mathematics",
+            "source",
+            "interactive",
+            "curricula",
+            "development",
+            "education",
+            "facilitate",
+            "activities",
+            "through",
+            "platform",
+            "tools",
+            "learning",
+            "researchers",
+            "while",
+            "allows"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.51
+    },
+    "s2_profile": {
+        "s2_author_id": "2706322",
+        "name": "Duane Q Nykamp",
+        "affiliations": [],
+        "paper_count": 43,
+        "citation_count": 1480,
+        "h_index": 14,
+        "papers": [
+            {
+                "s2_paper_id": "5a6b5afc9ea63bdb9b24cd01d89e66051a4c894f",
+                "title": "Permitted Sets and Convex Coding in Nonthreshold Linear Networks",
+                "year": 2022,
+                "venue": "Neural Computation",
+                "citation_count": 0,
+                "reference_count": 16,
+                "abstract": "Abstract Hebbian theory proposes that ensembles of neurons form a basis for neural processing. It is possible to gain insight into the activity patterns of these neural ensembles through a binary analysis, regarding neurons as either active or inactive. The framework of permitted and forbidden sets, introduced by Hahnloser, Seung, and Slotine (2003), is a mathematical model of such a binary analysis: groups of coactive neurons can be permitted or forbidden depending on the network's structure. In order to widen the applicability of the framework of permitted sets, we extend the permitted set analysis from the original threshold-linear regime. Specifically, we generalize permitted sets to firing rate models in which \u03a6 is a nonnegative continuous piecewise C1 activation function. In our framework, the focus is shifted from a neuron's firing rate to its responsiveness to inputs; if a neuron's firing rate is sufficiently sensitive to changes in its input, we say that the neuron is responsive. The algorithm for categorizing a neuron as responsive depends on thresholds that a user can select arbitrarily and that are independent of the dynamics. Given a synaptic weight matrix W, we say that a set of neurons is permitted if it is possible to find a stimulus where those neurons, and no others, remain responsive. The main coding property we establish about P\u03a6(W), the collection of all permitted sets of the network, is that P\u03a6(W) is a convex code when W is almost rank one. This means that P\u03a6(W) in the low-rank regime can be realized as a neural code resulting from the pattern of overlaps of receptive fields that are convex.",
+                "authors": [
+                    {
+                        "s2_author_id": "22555214",
+                        "name": "Steven Collazos"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "96eeaebfe1c21ec260fc53a51db0957a3c92dfff",
+                "title": "Mean-field equations for neuronal networks with arbitrary degree distributions",
+                "year": 2017,
+                "venue": "bioRxiv",
+                "citation_count": 4,
+                "reference_count": 17,
+                "abstract": "The emergent dynamics in networks of recurrently coupled spiking neurons depends on the interplay between single-cell dynamics and network topology. Most theoretical studies on network dynamics have assumed simple topologies, such as connections which are made randomly and independently with a fixed probability (Erd\u00f6s-R\u00e9nyi network) (ER), or all-to-all connected networks. However, recent findings from slice experiments suggest that the actual patterns of connectivity between cortical neurons are more structured than in the ER random network. Here we explore how introducing additional higher-order statistical structure into the connectivity can affect the dynamics in neuronal networks. Specifically, we consider networks in which the number of pre-synaptic and post-synaptic contacts for each neuron, the degrees, are drawn from a joint degree distribution. We derive mean-field equations for a single population of homogeneous neurons and for a network of excitatory and inhibitory neurons, where the neurons can have arbitrary degree distributions. Through analysis of the mean-field equations and simulation of networks of integrate-and-fire neurons, we show that such networks have potentially much richer dynamics than an equivalent ER network. Finally, we relate the degree distributions to so-called cortical motifs.",
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "48722431",
+                        "name": "D. Friedman"
+                    },
+                    {
+                        "s2_author_id": "143769275",
+                        "name": "Sammy Shaker"
+                    },
+                    {
+                        "s2_author_id": "31642970",
+                        "name": "Maxwell Shinn"
+                    },
+                    {
+                        "s2_author_id": "1861760",
+                        "name": "Michael Vella"
+                    },
+                    {
+                        "s2_author_id": "143824062",
+                        "name": "A. Compte"
+                    },
+                    {
+                        "s2_author_id": "145055728",
+                        "name": "Alex Roxin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e32ad72c05c03323037614ac9df209ec67d83b92",
+                "title": "Mean-field equations for neuronal networks with arbitrary degree distributions.",
+                "year": 2017,
+                "venue": "Physical Review E",
+                "citation_count": 13,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "48722431",
+                        "name": "D. Friedman"
+                    },
+                    {
+                        "s2_author_id": "143769275",
+                        "name": "Sammy Shaker"
+                    },
+                    {
+                        "s2_author_id": "31642970",
+                        "name": "Maxwell Shinn"
+                    },
+                    {
+                        "s2_author_id": "1861760",
+                        "name": "Michael Vella"
+                    },
+                    {
+                        "s2_author_id": "143824062",
+                        "name": "A. Compte"
+                    },
+                    {
+                        "s2_author_id": "145055728",
+                        "name": "Alex Roxin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f11ef304d124910d31366154f957d0a6a10f62cc",
+                "title": "The influence of depolarization block on seizure-like activity in networks of excitatory and inhibitory neurons",
+                "year": 2017,
+                "venue": "Journal of Computational Neuroscience",
+                "citation_count": 19,
+                "reference_count": 50,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50320626",
+                        "name": "Christopher M. Kim"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a05508a317d256086d0550d7cc959cc40f2626f0",
+                "title": "learning in a cortical pattern generator Directed functional connectivity matures with motor",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 62,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "4837149",
+                        "name": "Kyle L. Terleski"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "7583543",
+                        "name": "T. Nick"
+                    },
+                    {
+                        "s2_author_id": "6804960",
+                        "name": "Arij Daou"
+                    },
+                    {
+                        "s2_author_id": "39274682",
+                        "name": "Matthew T Ross"
+                    },
+                    {
+                        "s2_author_id": "143932486",
+                        "name": "F. Johnson"
+                    },
+                    {
+                        "s2_author_id": "5733114",
+                        "name": "R. L. Hyson"
+                    },
+                    {
+                        "s2_author_id": "144208645",
+                        "name": "R. Bertram"
+                    },
+                    {
+                        "s2_author_id": "38145704",
+                        "name": "Mark J. Basista"
+                    },
+                    {
+                        "s2_author_id": "47007555",
+                        "name": "K. C. Elliott"
+                    },
+                    {
+                        "s2_author_id": "2144356270",
+                        "name": "Wei Wu"
+                    },
+                    {
+                        "s2_author_id": "4634776",
+                        "name": "T. Roberts"
+                    },
+                    {
+                        "s2_author_id": "144250602",
+                        "name": "R. Mooney"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e2485ca00d19089a26f3030e04e25e589e263a7a",
+                "title": "Glutamate Receptor Activation of GIRK Channels Slow Synaptic Inhibition Mediated by Metabotropic",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "48790308",
+                        "name": "J. Petrozzino"
+                    },
+                    {
+                        "s2_author_id": "145193208",
+                        "name": "Huan M. Vu"
+                    },
+                    {
+                        "s2_author_id": "2066564311",
+                        "name": "J. David"
+                    },
+                    {
+                        "s2_author_id": "2035546969",
+                        "name": "Charles C Lee"
+                    },
+                    {
+                        "s2_author_id": "143980134",
+                        "name": "S. Sherman"
+                    },
+                    {
+                        "s2_author_id": "39048517",
+                        "name": "Stephen D. Shea"
+                    },
+                    {
+                        "s2_author_id": "50435515",
+                        "name": "H. Koch"
+                    },
+                    {
+                        "s2_author_id": "4184961",
+                        "name": "Daniel D. Baleckaitis"
+                    },
+                    {
+                        "s2_author_id": "144860167",
+                        "name": "J. Ramirez"
+                    },
+                    {
+                        "s2_author_id": "3027096",
+                        "name": "D. Margoliash"
+                    },
+                    {
+                        "s2_author_id": "5452377",
+                        "name": "B. \u00d6lveczky"
+                    },
+                    {
+                        "s2_author_id": "4889126",
+                        "name": "T. M. Otchy"
+                    },
+                    {
+                        "s2_author_id": "4542876",
+                        "name": "J. Goldberg"
+                    },
+                    {
+                        "s2_author_id": "6118256",
+                        "name": "D. Aronov"
+                    },
+                    {
+                        "s2_author_id": "2200355",
+                        "name": "M. Fee"
+                    },
+                    {
+                        "s2_author_id": "6783224",
+                        "name": "N. Day"
+                    },
+                    {
+                        "s2_author_id": "4837149",
+                        "name": "Kyle L. Terleski"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "7583543",
+                        "name": "T. Nick"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05c473aca3151811f307fdc30c6150caa118bdbd",
+                "title": "Bump attractor dynamics in prefrontal cortex explains behavioral precision in spatial working memory",
+                "year": 2014,
+                "venue": "Nature Neuroscience",
+                "citation_count": 419,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144458278",
+                        "name": "K. Wimmer"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "5298155",
+                        "name": "C. Constantinidis"
+                    },
+                    {
+                        "s2_author_id": "143824062",
+                        "name": "A. Compte"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "168f5e29fd3fbe76ef2b0ce95be5024633402d68",
+                "title": "Dynamics of a network of excitatory and inhibitory neurons induced by depolarization block",
+                "year": 2014,
+                "venue": "BMC Neuroscience",
+                "citation_count": 3,
+                "reference_count": 3,
+                "abstract": "The balance of excitation and inhibition is important in regulating the network activity. Under pathological conditions the interaction of excitatory and inhibitory neurons can become unbalanced, leading to seizure-like activity in the network. The interplay between excitatory and inhibitory neurons has been studied in rat hippocampal CA1, where spontaneous seizure-like activity was produced by blocking potassium ion channels and decreasing magnesium [1]. One of the main findings is that the excitatory neurons exhibit runaway excitation as the inhibitory neurons enter long-lasting depolarization block. \n \nIn this study, we employ a modified Wilson-Cowan (WC) model [2] to examine the dynamics of an EI network under similar pathological conditions. To model depolarization block, we modified the inhibitory population's activation function so that large input silences the population. Phase plane analysis shows that the network can be in as many as three different states, rest state, active state, and seizure state, where the inhibitory population enters depolarization block in the seizure state. If both populations receive a similar amount of external input, the Wilson-Cowan model predicts that the network is bistable. In this case, the network can be in either the rest state or the seizure state, where the transition to the seizure state occurs as the inhibitory population enters depolarization block. Alternatively, if the external input to the inhibitory population is small, the network can become tristable, where all three state coexist for the same parameters. The network now has to pass the intermediate state (i.e. active state) before it enters the seizure state. Such network transitions can be either oscillatory or monotonic. \n \nWe test the predictions of Wilson-Cowan model with a network of Morris-Lecar (ML) neurons. We find that the bistable state is present in the ML network, where the inhibitory neuron's firing rate peaks just before entering depolarization block (Figure \u200b(Figure1A).1A). This type of network dynamics has been reported in [1]. Tristability can also be observed in a ML network when the external input to the inhibitory population is reduced. The transition dynamics of the active state can be oscillatory (Figures 1B and 1C) or monotonic (data not shown) depending on the synaptic time constants as predicted by the Wilson-Cowan model. Hysteresis is observed at the transitions between different states (Figures 1A and 1B), providing evidence that the emergence of three states is a network phenomenon. \n \n \n \nFigure 1 \n \n(A,B) Firing rates of excitatory (blue) and inhibitory (red) neurons. Current injection to the excitatory neurons is increased and decreased slowly as shown by the dotted lines. The network is bistable in (A) and tristable in (B). Note that the network ...",
+                "authors": [
+                    {
+                        "s2_author_id": "50320626",
+                        "name": "Christopher M. Kim"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2883f68642010d8c649161daebb91c8cdf93ac7d",
+                "title": "Dynamics of a network of excitatory and inhibitory neurons induced by depolarization block",
+                "year": 2014,
+                "venue": "BMC Neuroscience",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50320626",
+                        "name": "Christopher M. Kim"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "79c7a5f95f09236429d284c47435a3116de70be8",
+                "title": "Directed functional connectivity matures with motor learning in a cortical pattern generator.",
+                "year": 2013,
+                "venue": "Journal of Neurophysiology",
+                "citation_count": 20,
+                "reference_count": 67,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "6783224",
+                        "name": "N. Day"
+                    },
+                    {
+                        "s2_author_id": "4837149",
+                        "name": "Kyle L. Terleski"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "7583543",
+                        "name": "T. Nick"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aacc92ab44da5346090cc76b7079e1b2b3f59d58",
+                "title": "The influence of network structure on neuronal dynamics",
+                "year": 2013,
+                "venue": "BMC Neuroscience",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "Understanding the influence of network structure on neural dynamics is a fundamental step toward deciphering brain function, yet presents many challenges. We show how networks may be described in terms of the occurrences of certain patterns of edges, and how the frequency of these motifs (see Figure \u200bFigure1)1) impacts global dynamics. Through analysis and simulation of neuronal networks, we have found that two edge directed paths (two-chains) have the most dramatic effect on dynamics. Our analytic results are based on equations for mean population activity and correlations that we derive using path integrals and moment hierarchy expansions. These equations reveal the primary ways in which the network motifs influence dynamics. For example, the equations indicate that the propensity of a network to globally synchronize increases with the prevalence of two-chains, and we verify this result with network simulations. Finally, we present ongoing work investigating when these second-order equations break down, and how they might be corrected by higher order approximations to the network structure, such as the prevalence of three edge chains beyond that predicted by the two-chains. \n \n \n \nFigure 1 \n \nThe four second order edge motifs of reciprocal, convergent, divergent, and causal connections. The frequency of these motifs determine the second order statistics, or correlations, among the network connections.",
+                "authors": [
+                    {
+                        "s2_author_id": "6060480",
+                        "name": "Patrick Campbell"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "40171074",
+                        "name": "M. Buice"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "31f4d0f9cf1c289eb5a4a9e5205e4f1e9ba2e162",
+                "title": "Searching for optimal stimuli: ascending a neuron\u2019s response function",
+                "year": 2012,
+                "venue": "Journal of Computational Neuroscience",
+                "citation_count": 9,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2555307",
+                        "name": "M. Koelling"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3435cf72f0e944ab135369c37a0dda2b6c7958eb",
+                "title": "Directed functional connectivity matures with motor learning in a cortical pattern 1 generator 2 Running head : Development of directed functional connectivity 3",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "6783224",
+                        "name": "N. Day"
+                    },
+                    {
+                        "s2_author_id": "4837149",
+                        "name": "Kyle L. Terleski"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "7583543",
+                        "name": "T. Nick"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4ecc77e8e6c412424a5912abee40d05c3b93d724",
+                "title": "The influence of network structure on neuronal network dynamics",
+                "year": 2012,
+                "venue": "BMC Neuroscience",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": "We investigate the influence of network structure on the dynamics of neuronal networks, with a focus on the emergence of synchronous oscillations. Network structure is specified using the framework of second order networks, a network model that captures second order statistics (correlations) among the connections between neurons. We demonstrate that the frequency of a chain motif in the network plays a crucial role in influencing network dynamics, not only modulating the emergence of synchrony but also possibly increasing the range of possible network behaviors. \n \n \n \nFigure 1 \n \nThe four second order edge motifs of reciprocal, convergent, divergent, and causal connections. The frequency of these motifs determine the second order statistics, or correlations, among the network connections.",
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a3578eb9e8e1d9b37710580115f642afb54d151",
+                "title": "Synchronization from Second Order Network Connectivity Statistics",
+                "year": 2011,
+                "venue": "Frontiers in Computational Neuroscience",
+                "citation_count": 105,
+                "reference_count": 57,
+                "abstract": "We investigate how network structure can influence the tendency for a neuronal network to synchronize, or its synchronizability, independent of the dynamical model for each neuron. The synchrony analysis takes advantage of the framework of second order networks, which defines four second order connectivity statistics based on the relative frequency of two-connection network motifs. The analysis identifies two of these statistics, convergent connections, and chain connections, as highly influencing the synchrony. Simulations verify that synchrony decreases with the frequency of convergent connections and increases with the frequency of chain connections. These trends persist with simulations of multiple models for the neuron dynamics and for different types of networks. Surprisingly, divergent connections, which determine the fraction of shared inputs, do not strongly influence the synchrony. The critical role of chains, rather than divergent connections, in influencing synchrony can be explained by their increasing the effective coupling strength. The decrease of synchrony with convergent connections is primarily due to the resulting heterogeneity in firing rates.",
+                "authors": [
+                    {
+                        "s2_author_id": "3068153",
+                        "name": "Liqiong Zhao"
+                    },
+                    {
+                        "s2_author_id": "2296502",
+                        "name": "Bryce Beverlin"
+                    },
+                    {
+                        "s2_author_id": "1762805",
+                        "name": "T. Netoff"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4067cdd4c4a34a3718f3802d56fe4ed6f1396756",
+                "title": "Dynamical changes in neurons during seizures determine tonic to clonic shift",
+                "year": 2011,
+                "venue": "Journal of Computational Neuroscience",
+                "citation_count": 25,
+                "reference_count": 47,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2296502",
+                        "name": "Bryce Beverlin"
+                    },
+                    {
+                        "s2_author_id": "2139125",
+                        "name": "J. Kakalios"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "1762805",
+                        "name": "T. Netoff"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c014fe069f2e8529f79453cb853675ca8362bdf4",
+                "title": "The influence of network topology on synchrony and oscillations in networks of spiking neurons",
+                "year": 2011,
+                "venue": "BMC Neuroscience",
+                "citation_count": 2,
+                "reference_count": 4,
+                "abstract": "We use the recently developed framework of second order networks[1] to study the influence of network topology on synchrony and oscillations in networks of integrate-and-fire neurons. Second order networks are generalizations of Erd\u0151s\u2013Renyi random networks [2], where one can specify the second order statistics among the network connections, i.e., the relative frequency of second order edge motifs that are embedded in the larger network. The second order edge motifs are the reciprocal, convergent, divergent, and chain connections diagrammed in Figure \u200bFigure1.1. Using the small number of parameters of the second order network framework, one can manipulate global network statistics such as the variance of the in- and out-degree distributions (through convergent and divergent connections) as well as the covariance between in- and out-degree (through chain connections). \n \n \n \nFigure 1 \n \nThe four second order edge motifs of reciprocal, convergent, divergent, and causal connections. \n \n \n \nOur previous work has identified motifs involving excitatory neurons that strongly influence the dynamical state of the network. In recurrent excitatory networks where the mean current caused neurons to fire, increasing chain connections led to higher network synchrony while increasing convergent connections decreased synchrony [1]. In networks of excitatory and inhibitory neurons where neuron firing was due to fluctuations of the membrane potential (the fluctuation-driven regime), broadening the excitatory incoming degree distribution onto excitatory neurons led to increased oscillations [3]. Since incoming degree distribution is tightly linked with convergent connections, this latter result demonstrated a strong effect of excitatory convergent connections on the network state. In both studies, the divergent connection motif (or the common input motif) did not have a large qualitative influence on the dynamics. \n \nIn the present study, we systematically investigate the influence of second order network motifs on the dynamical state of recurrent networks of excitatory and inhibitory neurons in the fluctuation-driven regime. We simulate networks of sparsely coupled integrate-and-fire neurons, where the connection probabilities are given by the second order network model. We allow the probability of each second order motif to depend on the populations (excitatory versus inhibitory) of the neurons involved in the motif. We again find that divergent connections alone have little qualitative effect on the dynamics. However, both convergent connections and chain connections dramatically affect the onset and magnitude of synchronous network oscillations, either increasing or decreasing oscillations depending on the populations of the neurons in the motif. We explain these results through analysis of a mean-field model of the coupled populations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "145055728",
+                        "name": "Alex Roxin"
+                    },
+                    {
+                        "s2_author_id": "143824062",
+                        "name": "A. Compte"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "120cae04fb81a3d48988d99b490ae49390675a6f",
+                "title": "Network structure predicted by second order motifs",
+                "year": 2010,
+                "venue": "BMC Neuroscience",
+                "citation_count": 0,
+                "reference_count": 3,
+                "abstract": "We present a model of directed networks that is based on the relative frequency of second order edge motifs, which are patterns of two network edges. The four second order motifs are reciprocal, convergent, divergent, and causal connections (Figure \u200b(Figure1),1), and our goal is to understand the network structure that one can predict just from these motifs. To describe a network ensemble that is determined by a particular distribution of second order motifs, one must infer a probability distribution that characterizes the full network. There are many possible network probability distributions consistent with a given distribution of second order motifs, and we select the one with minimal additional structure, i.e., the maximum entropy network [1]. We determine a probability distribution on networks connecting N neurons that is parametrized by five quantities: the probability of a single edge and the relative occurrence of each of the four second order edge motifs. We refer to the resulting network models as second order networks. \n \n \n \nFigure 1 \n \nThe four second order edge motifs of reciprocal, convergent, divergent, and causal connections. \n \n \n \nWe examine the extent to which the second order networks predict the distribution of edges in neuronal networks. Using the data from simultaneous whole cell recordings of three neurons published by Song et al. [2], we calculate the second order network determined from the data and demonstrate that the network predicts most of the higher order structure. The one exception is that three edge cycles were more prevalent than predicted by the second order network. We discuss the properties of the second order networks and compare them to other network models.",
+                "authors": [
+                    {
+                        "s2_author_id": "2064597006",
+                        "name": "David J Nichols"
+                    },
+                    {
+                        "s2_author_id": "15576468",
+                        "name": "D. R. Sandler"
+                    },
+                    {
+                        "s2_author_id": "32346304",
+                        "name": "Maxwell J Schlatter"
+                    },
+                    {
+                        "s2_author_id": "3068153",
+                        "name": "Liqiong Zhao"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4f3f2329aafeb579bca3b7c8891a424eda5d3ff5",
+                "title": "A Fokker-Planck neuronal network model to capture mean firing rate and pair-wise correlations in large-scale neuronal networks",
+                "year": 2010,
+                "venue": "BMC Neuroscience",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "A Fokker-Planck neuronal network model is presented. This model can be efficiently implemented to investigate how the mean firing rate and pair-wise correlations in each population depend on certain first and second order statistical patterns of connectivity. To capture pair-wise correlations among neurons in each population, we derive the evolution equations of the joint population density \u03c1(v1,v2,t) of the voltage of any pair of neurons in the population. By assuming that the input to any pair of neurons is a multivariate Poisson point process, we obtain partial differential-integral equations for each population, but closure of this system of equations requires inferring higher order statistics of activity. We simplify the framework by applying a diffusion approximation and obtain Fokker-Planck equations for each population. We prove that, under some assumptions, the coupling scheme to derive network equations can be based on only the first and second order statistics of activity and connectivity, without the need to infer higher order statistics. Also, fast numerical methods can be devised to solve this simple network model. We test the validity of our network model by comparing the numerical solutions to Monte Carlo simulations under various network configurations. Finally, we discuss the success and failure of our Fokker-Planck neuronal network model.",
+                "authors": [
+                    {
+                        "s2_author_id": "2116361421",
+                        "name": "Chin-Yueh Liu"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3bb391708f56ea90d694aaa483038f7c4c7b0d7f",
+                "title": "A kinetic theory network model to capture first and second order statistics of population activity in large-scale neuronal networks",
+                "year": 2009,
+                "venue": "BMC Neuroscience",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "We present a kinetic theory neuronal network model that captures how first and second order statistics of population activity depend on certain statistical patterns of connectivity. To capture pairwise correlations among neurons in each population, we model the activity of each population by a joint population density \u03c1(x1, x2, t), where (x1, x2) represents the state of any pair of neurons in the population. We derive the evolution equations of \u03c1(x1, x2, t) using the Chapman-Kolmolgorov formalism based on the assumption that the input to any pair of neurons is a multivariate Poisson point process. We then derive the network equations by coupling population equations. The coupling scheme is based on (1) the first and second order statistics of connectivity, (2) the approximation of delayed correlation as instantaneous correlation in each population activity, and (3) the inference of higher order statistics of population activity from lower order statistics via a conditional independence method. We test the validity of our network equations by comparing the numerical solutions to the Monte Carlo simulation under various network configurations. Finally, we discuss the success and failure of the implementation of our kinetic theory network model. from Eighteenth Annual Computational Neuroscience Meeting: CNS*2009 Berlin, Germany. 18\u201323 July 2009",
+                "authors": [
+                    {
+                        "s2_author_id": "2116361421",
+                        "name": "Chin-Yueh Liu"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d5b3ea116ec84643a5c5ede1bbe92adf4169f828",
+                "title": "Toward a second order description of neuronal networks",
+                "year": 2009,
+                "venue": "BMC Neuroscience",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "The complexity of the activity of large numbers of neurons and their interconnectivity creates a challenge for understanding computations within the brain. The high dimensionality of the activity patterns and connectivity patterns, combined with the difficulty of estimating them from limited data sets, is a tremendous obstacle to an analysis of the relationships between the connectivity and the behavior of the network.",
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e07a25f79ea8621dedfc3501f19a72de39e37623",
+                "title": "A stimulus-dependent connectivity analysis of neuronal networks",
+                "year": 2009,
+                "venue": "Journal of Mathematical Biology",
+                "citation_count": 5,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6d2c6ce91994f122dc41eef015362a75395f6ecd",
+                "title": "Pinpointing connectivity despite hidden nodes within stimulus-driven networks.",
+                "year": 2008,
+                "venue": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+                "citation_count": 13,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bb220e6f158ab2efcd83d1dcb3ebb415fbcb2892",
+                "title": "A kinetic theory approach to capturing interneuronal correlation: the feed-forward case",
+                "year": 2008,
+                "venue": "Journal of Computational Neuroscience",
+                "citation_count": 11,
+                "reference_count": 65,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2116361421",
+                        "name": "Chin-Yueh Liu"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e8e957aedaf2c9314ec0fadc2aa470d3814595e1",
+                "title": "Capturing correlation structure within a simplified population density framework",
+                "year": 2008,
+                "venue": "BMC Neuroscience",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": "We have developed a population density framework that captures correlations between any pair of neurons in the population. Completely representing the correlation structure among neurons would require high-dimensional densities. Hence, we developed a method to simplify the correlation structure by approximating the input to each population of neurons as correlated Poisson processes. The key challenge we address is that of capturing the effect of delayed correlation with such simplified input. We demonstrate the ability of this approach to capture how correlations propagate through networks by comparing our results with Monte-Carlo simulations. from Seventeenth Annual Computational Neuroscience Meeting: CNS*2008 Portland, OR, USA. 19\u201324 July 2008",
+                "authors": [
+                    {
+                        "s2_author_id": "2116361421",
+                        "name": "Chin-Yueh Liu"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e9b612932f704e136537e2a10223d752def535db",
+                "title": "Computing linear approximations to nonlinear neuronal responses",
+                "year": 2008,
+                "venue": "BMC Neuroscience",
+                "citation_count": 7,
+                "reference_count": 29,
+                "abstract": "We present an approach to obtain nonlinear information about neuronal response by computing multiple linear approximations. By calculating local linear approximations centered around particular stimuli, one can obtain insight into stimulus features that drive the response of highly nonlinear neurons, such as neurons highly selective to a small set of stimuli. We implement this approach based on stimulus\u2013spike correlation (i.e., reverse correlation or spike-triggered average) methods. We illustrate the benefits of these linear approximations with a simplified two-dimensional model and a model of an auditory neuron that is highly selective to particular features of a song.",
+                "authors": [
+                    {
+                        "s2_author_id": "2555307",
+                        "name": "M. Koelling"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "20067742584696d3e4988fbeec31b4fa30960147",
+                "title": "Exploiting History-Dependent Effects to Infer Network Connectivity",
+                "year": 2007,
+                "venue": "SIAM Journal on Applied Mathematics",
+                "citation_count": 11,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2149b210c9fabef7b30968cf2870e0c9fef199c0",
+                "title": "A mathematical framework for inferring connectivity in probabilistic neuronal networks.",
+                "year": 2007,
+                "venue": "Mathematical Biosciences",
+                "citation_count": 53,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "92d7b48d7a9af3c6a34d073e70b1d8fa6a27127f",
+                "title": "A population density framework that captures interneuronal correlations",
+                "year": 2007,
+                "venue": "BMC Neuroscience",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": "We have developed a population density framework that captures correlations between any pair of neurons in the population. We model each population of integrate-and-fire neurons as receiving input in the form of correlated Poisson processes. The evolution equation for the probability density of any pair of neurons within the population is a multivariate integro-differential equation which we solve numerically. We demonstrate the numerical method and compare the numerical solutions with Monte-Carlo simulations. Traditional population density approaches assume all neurons within a population are independent. However, correlations that are missed by these approaches can significantly alter network dynamics. Hence, the correlated population density method developed here could provide a framework to analyze how correlations propagate through networks and could be a computationally efficient method to accurately simulate large scale networks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2116361421",
+                        "name": "Chin-Yueh Liu"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b505f138de50bfa547d24b00d800853f257a280d",
+                "title": "Network reconstruction in the presence of unmeasured neurons",
+                "year": 2007,
+                "venue": "BMC Neuroscience",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "We present a method to determine whether a correlation in the spikes of two neurons is due to a causal connection between the neurons or due to common input originating from unmeasured neurons. The distinction is based on a point-process model of how a neuron's spiking probability can depend on both its own spiking history and a stimulus (or other external variables). Although the results depend on selecting a parametric model that captures essential features of the neural response, a large class of models can be used with the network analysis. Hence, the analysis could be applied to probe circuitry in a large range of neuronal systems.",
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "86e58de9c4a80c08d3bce197c9d3a7cfaba68944",
+                "title": "Persistent sodium currents in mesencephalic v neurons participate in burst generation and control of membrane excitability.",
+                "year": 2005,
+                "venue": "Journal of Neurophysiology",
+                "citation_count": 153,
+                "reference_count": 63,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2068343173",
+                        "name": "Nanping Wu"
+                    },
+                    {
+                        "s2_author_id": "4793749",
+                        "name": "A. Enomoto"
+                    },
+                    {
+                        "s2_author_id": "2111256436",
+                        "name": "Susumu Tanaka"
+                    },
+                    {
+                        "s2_author_id": "11231548",
+                        "name": "C. Hsiao"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "1754233",
+                        "name": "E. Izhikevich"
+                    },
+                    {
+                        "s2_author_id": "18563654",
+                        "name": "S. H. Chandler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d7155f28d1ee2c5a56422830438f9df14d72827c",
+                "title": "Revealing Pairwise Coupling in Linear-Nonlinear Networks",
+                "year": 2005,
+                "venue": "SIAM Journal on Applied Mathematics",
+                "citation_count": 36,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "089a9007f0c8a0831f333f00ea1a6f47334ec028",
+                "title": "A Population Density Approach That Facilitates Large-Scale Modeling of Neural Networks: Analysis and an Application to Orientation Tuning",
+                "year": 2004,
+                "venue": "Journal of Computational Neuroscience",
+                "citation_count": 241,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "1768682",
+                        "name": "D. Tranchina"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "96623d8e4f7cd5f9ac64bdd796dd5312ca8364e3",
+                "title": "White Noise Analysis of Coupled Linear-Nonlinear Systems",
+                "year": 2003,
+                "venue": "SIAM Journal on Applied Mathematics",
+                "citation_count": 7,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b5a50a5cb3b784ce7c5909bb3f509b60c577a8f7",
+                "title": "Measuring linear and quadratic contributions to neuronal response",
+                "year": 2003,
+                "venue": "Network",
+                "citation_count": 12,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7ab6a27fdfa619a544e37333399b6c71cc0310f6",
+                "title": "Reconstructing Stimulus-Driven Neural Networks from Spike Times",
+                "year": 2002,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 10,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bfc291ab6414533f9f850802f3888a54167ed172",
+                "title": "Full identification of a linear-nonlinear system via cross-correlation analysis.",
+                "year": 2002,
+                "venue": "Journal of Vision",
+                "citation_count": 66,
+                "reference_count": 20,
+                "abstract": "A statistical model used extensively in vision research consists of a cascade of a linear operator followed by a static (memoryless) nonlinearity. Common applications include the measurement of simple-cell receptive fields in primary visual cortex and the modeling of human performance in various psychophysical tasks. It is well known that the front-end linear filter of the model can readily be recovered, up to a multiplicative constant, using reverse-correlation techniques. However, a full identification of the model also requires an estimation of the output nonlinearity. Here, we show that for a large class of static nonlinearities, one can obtain analytical expressions for the estimates. The technique works with both Gaussian and binary noise stimuli. The applicability of the method in physiology and psychophysics is demonstrated. Finally, the proposed technique is shown to converge much faster than the currently used linear-reconstruction method.",
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "3355277",
+                        "name": "D. Ringach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d805d98b3715191a28aacf1da0013c13ff872c4a",
+                "title": "Spike Correlation Measures that Eliminate Stimulus Effects in Response to White Noise",
+                "year": 2002,
+                "venue": "Journal of Computational Neuroscience",
+                "citation_count": 6,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "09257495fedf3a2474f9e7046144ec7407dadf26",
+                "title": "Population density methods for large-scale modelling of neuronal networks with realistic synaptic kinetics: cutting the dimension down to size",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 55,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143656285",
+                        "name": "E. Haskell"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "1768682",
+                        "name": "D. Tranchina"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "26b33dc575d9e30cf65dc692a972e1687df53599",
+                "title": "Population density methods for large-scale modelling of neuronal networks with realistic synaptic kinetics: cutting the dimension down to size.",
+                "year": 2001,
+                "venue": "Network",
+                "citation_count": 77,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143656285",
+                        "name": "E. Haskell"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "1768682",
+                        "name": "D. Tranchina"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8e6affe5b2eab0f397b9609588ad21ee823eecf9",
+                "title": "A population density method for large-scale modeling of neuronal networks with realistic synaptic kinetics",
+                "year": 2001,
+                "venue": "Neurocomputing",
+                "citation_count": 19,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143656285",
+                        "name": "E. Haskell"
+                    },
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "1768682",
+                        "name": "D. Tranchina"
+                    },
+                    {
+                        "s2_author_id": "1768682",
+                        "name": "D. Tranchina"
+                    },
+                    {
+                        "s2_author_id": "1768682",
+                        "name": "D. Tranchina"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cb6d451f70c674b77f963c631a11c2978ff80b68",
+                "title": "A Population Density Approach That Facilitates Large-Scale Modeling of Neural Networks: Extension to Slow Inhibitory Synapses",
+                "year": 2001,
+                "venue": "Neural Computation",
+                "citation_count": 72,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "1768682",
+                        "name": "D. Tranchina"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "09f9c425bae15adf54176ee6d395940367a12181",
+                "title": "Fast neural network simulations with population density methods",
+                "year": 2000,
+                "venue": "Neurocomputing",
+                "citation_count": 4,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2706322",
+                        "name": "D. Nykamp"
+                    },
+                    {
+                        "s2_author_id": "1768682",
+                        "name": "D. Tranchina"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "22555214",
+                "name": "Steven Collazos"
+            },
+            {
+                "s2_author_id": "48722431",
+                "name": "D. Friedman"
+            },
+            {
+                "s2_author_id": "143769275",
+                "name": "Sammy Shaker"
+            },
+            {
+                "s2_author_id": "31642970",
+                "name": "Maxwell Shinn"
+            },
+            {
+                "s2_author_id": "1861760",
+                "name": "Michael Vella"
+            },
+            {
+                "s2_author_id": "143824062",
+                "name": "A. Compte"
+            },
+            {
+                "s2_author_id": "145055728",
+                "name": "Alex Roxin"
+            },
+            {
+                "s2_author_id": "50320626",
+                "name": "Christopher M. Kim"
+            },
+            {
+                "s2_author_id": "4837149",
+                "name": "Kyle L. Terleski"
+            },
+            {
+                "s2_author_id": "7583543",
+                "name": "T. Nick"
+            },
+            {
+                "s2_author_id": "6804960",
+                "name": "Arij Daou"
+            },
+            {
+                "s2_author_id": "39274682",
+                "name": "Matthew T Ross"
+            },
+            {
+                "s2_author_id": "143932486",
+                "name": "F. Johnson"
+            },
+            {
+                "s2_author_id": "5733114",
+                "name": "R. L. Hyson"
+            },
+            {
+                "s2_author_id": "144208645",
+                "name": "R. Bertram"
+            },
+            {
+                "s2_author_id": "38145704",
+                "name": "Mark J. Basista"
+            },
+            {
+                "s2_author_id": "47007555",
+                "name": "K. C. Elliott"
+            },
+            {
+                "s2_author_id": "2144356270",
+                "name": "Wei Wu"
+            },
+            {
+                "s2_author_id": "4634776",
+                "name": "T. Roberts"
+            },
+            {
+                "s2_author_id": "144250602",
+                "name": "R. Mooney"
+            },
+            {
+                "s2_author_id": "48790308",
+                "name": "J. Petrozzino"
+            },
+            {
+                "s2_author_id": "145193208",
+                "name": "Huan M. Vu"
+            },
+            {
+                "s2_author_id": "2066564311",
+                "name": "J. David"
+            },
+            {
+                "s2_author_id": "2035546969",
+                "name": "Charles C Lee"
+            },
+            {
+                "s2_author_id": "143980134",
+                "name": "S. Sherman"
+            },
+            {
+                "s2_author_id": "39048517",
+                "name": "Stephen D. Shea"
+            },
+            {
+                "s2_author_id": "50435515",
+                "name": "H. Koch"
+            },
+            {
+                "s2_author_id": "4184961",
+                "name": "Daniel D. Baleckaitis"
+            },
+            {
+                "s2_author_id": "144860167",
+                "name": "J. Ramirez"
+            },
+            {
+                "s2_author_id": "3027096",
+                "name": "D. Margoliash"
+            },
+            {
+                "s2_author_id": "5452377",
+                "name": "B. \u00d6lveczky"
+            },
+            {
+                "s2_author_id": "4889126",
+                "name": "T. M. Otchy"
+            },
+            {
+                "s2_author_id": "4542876",
+                "name": "J. Goldberg"
+            },
+            {
+                "s2_author_id": "6118256",
+                "name": "D. Aronov"
+            },
+            {
+                "s2_author_id": "2200355",
+                "name": "M. Fee"
+            },
+            {
+                "s2_author_id": "6783224",
+                "name": "N. Day"
+            },
+            {
+                "s2_author_id": "144458278",
+                "name": "K. Wimmer"
+            },
+            {
+                "s2_author_id": "5298155",
+                "name": "C. Constantinidis"
+            },
+            {
+                "s2_author_id": "6060480",
+                "name": "Patrick Campbell"
+            },
+            {
+                "s2_author_id": "40171074",
+                "name": "M. Buice"
+            },
+            {
+                "s2_author_id": "2555307",
+                "name": "M. Koelling"
+            },
+            {
+                "s2_author_id": "3068153",
+                "name": "Liqiong Zhao"
+            },
+            {
+                "s2_author_id": "2296502",
+                "name": "Bryce Beverlin"
+            },
+            {
+                "s2_author_id": "1762805",
+                "name": "T. Netoff"
+            },
+            {
+                "s2_author_id": "2139125",
+                "name": "J. Kakalios"
+            },
+            {
+                "s2_author_id": "2064597006",
+                "name": "David J Nichols"
+            },
+            {
+                "s2_author_id": "15576468",
+                "name": "D. R. Sandler"
+            },
+            {
+                "s2_author_id": "32346304",
+                "name": "Maxwell J Schlatter"
+            },
+            {
+                "s2_author_id": "2116361421",
+                "name": "Chin-Yueh Liu"
+            },
+            {
+                "s2_author_id": "2068343173",
+                "name": "Nanping Wu"
+            },
+            {
+                "s2_author_id": "4793749",
+                "name": "A. Enomoto"
+            },
+            {
+                "s2_author_id": "2111256436",
+                "name": "Susumu Tanaka"
+            },
+            {
+                "s2_author_id": "11231548",
+                "name": "C. Hsiao"
+            },
+            {
+                "s2_author_id": "1754233",
+                "name": "E. Izhikevich"
+            },
+            {
+                "s2_author_id": "18563654",
+                "name": "S. H. Chandler"
+            },
+            {
+                "s2_author_id": "1768682",
+                "name": "D. Tranchina"
+            },
+            {
+                "s2_author_id": "3355277",
+                "name": "D. Ringach"
+            },
+            {
+                "s2_author_id": "143656285",
+                "name": "E. Haskell"
+            }
+        ],
+        "total_co_authors": 58,
+        "papers_retrieved": 43
+    }
+}

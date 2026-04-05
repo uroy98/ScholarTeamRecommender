@@ -1,0 +1,2382 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000264334",
+        "name": "Stephen F Siegel",
+        "primary_affiliation": "University of Delaware",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Delaware"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "DE"
+        ],
+        "perf_cities": [
+            "NEWARK"
+        ],
+        "org_names": [
+            "University of Delaware"
+        ],
+        "org_ueis": [
+            "T72NHKM259N3"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "siegel@udel.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2446130",
+                "title": "CS2: Modular Verification of Scientific Software using Model Checking, Symbolic Execution, and Abstraction",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-06-01",
+                "exp_date": "2029-05-31",
+                "award_amount": 400000.0,
+                "total_amount": 400000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000349899",
+                    "0000A0QV7",
+                    "0000A0QVJ"
+                ],
+                "program_elements": [
+                    "Correct SciComp Systems (CS2)"
+                ],
+                "program_codes": [
+                    "307Y00"
+                ],
+                "program_references": [
+                    "EXP PROG TO STIM COMP RES"
+                ],
+                "program_ref_codes": [
+                    "9150"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Anindya Banerjee",
+                "keywords": [
+                    "software",
+                    "scientific",
+                    "techniques",
+                    "model",
+                    "code",
+                    "abstract",
+                    "verification",
+                    "symbolic",
+                    "defects",
+                    "verify"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "0000A0QVJ",
+            "000349899",
+            "0000A0QV7"
+        ],
+        "program_elements": [
+            "Correct SciComp Systems (CS2)"
+        ],
+        "program_codes": [
+            "307Y00"
+        ],
+        "program_references": [
+            "EXP PROG TO STIM COMP RES"
+        ],
+        "program_ref_codes": [
+            "9150"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Anindya Banerjee"
+        ],
+        "keywords": [
+            "software",
+            "scientific",
+            "techniques",
+            "model",
+            "code",
+            "abstract",
+            "verification",
+            "symbolic",
+            "defects",
+            "verify",
+            "modular",
+            "checking",
+            "execution",
+            "science",
+            "disciplines",
+            "assumptions",
+            "developers",
+            "debugging",
+            "even",
+            "defect"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.71
+    },
+    "s2_profile": {
+        "s2_author_id": "1867844",
+        "name": "Stephen F Siegel",
+        "affiliations": [],
+        "paper_count": 74,
+        "citation_count": 1293,
+        "h_index": 21,
+        "papers": [
+            {
+                "s2_paper_id": "30f0fde2d757e4a0a1d90e431753109f787d6589",
+                "title": "Model Checking Race-freedom When \"Sequential Consistency for Data-race-free Programs\" is Guaranteed",
+                "year": 2023,
+                "venue": "International Conference on Computer Aided Verification",
+                "citation_count": 3,
+                "reference_count": 45,
+                "abstract": "Many parallel programming models guarantee that if all sequentially consistent (SC) executions of a program are free of data races, then all executions of the program will appear to be sequentially consistent. This greatly simplifies reasoning about the program, but leaves open the question of how to verify that all SC executions are race-free. In this paper, we show that with a few simple modifications, model checking can be an effective tool for verifying race-freedom. We explore this technique on a suite of C programs parallelized with OpenMP.",
+                "authors": [
+                    {
+                        "s2_author_id": "2143794593",
+                        "name": "Wen-Jer Wu"
+                    },
+                    {
+                        "s2_author_id": "144574385",
+                        "name": "J. H\u00fcckelheim"
+                    },
+                    {
+                        "s2_author_id": "49950609",
+                        "name": "P. Hovland"
+                    },
+                    {
+                        "s2_author_id": "2071929",
+                        "name": "Ziqing Luo"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9e2cd99a6566a05a189a980ebc9d2f656390b82a",
+                "title": "DataRaceBench V1.4.1 and DataRaceBench-ML V0.1: Benchmark Suites for Data Race Detection",
+                "year": 2023,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 3,
+                "abstract": "Data races pose a significant threat in multi-threaded parallel applications due to their negative impact on program correctness. DataRaceBench, an open-source benchmark suite, is specifically crafted to assess these data race detection tools in a systematic and measurable manner. Machine learning techniques have recently demonstrated considerable potential in high-performance computing (HPC) program analysis and optimization. However, these techniques require specialized data formats for training and refinement. This paper presents the latest update to DataRaceBench, incorporating new data race contributions from Wu et al. \\cite{wu2023model}, and introduces a derived dataset named DataRaceBench-ML (DRB-ML) \\cite{drbml}. DRB-ML aligns with the emerging trend of machine learning and large language models. Originating from DataRaceBench, this dataset includes detailed labels that denote the presence of a data race and provides comprehensive details of associated variables, such as variable names, line numbers, and the operation (read/write). Unique to DRB-ML, we have also integrated a series of tailored prompt-response pairs specifically designed for LLM fine-tuning.",
+                "authors": [
+                    {
+                        "s2_author_id": "2180538661",
+                        "name": "Le Chen"
+                    },
+                    {
+                        "s2_author_id": "2139644290",
+                        "name": "Wenhao Wu"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1905021",
+                        "name": "Pei-Hung Lin"
+                    },
+                    {
+                        "s2_author_id": "7604095",
+                        "name": "C. Liao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5b5e33d7a28a5ca4c8a77d8924745f34ed9d04fb",
+                "title": "Verifying Fortran Programs with CIVL",
+                "year": 2022,
+                "venue": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
+                "citation_count": 0,
+                "reference_count": 32,
+                "abstract": ". Fortran is widely used in computational science, engineering, and high performance computing. This paper presents an extension to the CIVL veri\ufb01cation framework to check correctness properties of Fortran programs. Unlike previous work that translates Fortran to C, LLVM IR, or other intermediate formats before veri\ufb01cation, our work allows CIVL to directly consume Fortran source \ufb01les. We extended the parsing, translation, and analysis phases to support Fortran-speci\ufb01c features such as array slicing and reshaping, and to \ufb01nd program violations that are speci\ufb01c to Fortran, such as argument aliasing rule violations, in-valid use of variable and function attributes, or defects due to Fortran\u2019s unspeci\ufb01ed expression evaluation order. We demonstrate the usefulness of our tool on a veri\ufb01cation benchmark suite and kernels extracted from a real world application.",
+                "authors": [
+                    {
+                        "s2_author_id": "2139644290",
+                        "name": "Wenhao Wu"
+                    },
+                    {
+                        "s2_author_id": "144574385",
+                        "name": "J. H\u00fcckelheim"
+                    },
+                    {
+                        "s2_author_id": "49950609",
+                        "name": "P. Hovland"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "38d9700325fbf1bbd170dd6ce5440a5f6239956f",
+                "title": "Action-Based Model Checking: Logic, Automata, and Reduction",
+                "year": 2020,
+                "venue": "International Conference on Computer Aided Verification",
+                "citation_count": 2,
+                "reference_count": 43,
+                "abstract": "Stutter invariant properties play a special role in state-based model checking: they are the properties that can be checked using partial order reduction (POR), an indispensable optimization. There are algorithms to decide whether an LTL formula or B\u00fcchi automaton (BA) specifies a stutter-invariant property, and to convert such a BA to a form that is appropriate for on-the-fly POR-based model checking. The interruptible properties play the same role in action-based model checking that stutter-invariant properties play in the state-based case. These are the properties that are invariant under the insertion or deletion of \u201cinvisible\u201d actions. We present algorithms to decide whether an LTL formula or BA specifies an interruptible property, and show how a BA can be transformed to an interrupt normal form that can be used in an on-the-fly POR algorithm. We have implemented these algorithms in a new model checker named McRERS, and demonstrate their effectiveness using the RERS 2019 benchmark suite.",
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2115249209",
+                        "name": "Yihao Yan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b449e5d04919f0e12f92d2fec981d77b6e9e36b3",
+                "title": "Program Verification for Extreme-Scale Applications. Final Scientific/Technical Report",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8301839d58efb68b57e777b928e2d6ab5b7cda32",
+                "title": "What's Wrong with On-the-Fly Partial Order Reduction",
+                "year": 2019,
+                "venue": "International Conference on Computer Aided Verification",
+                "citation_count": 13,
+                "reference_count": 18,
+                "abstract": "Partial order reduction and on-the-fly model checking are well-known approaches for improving model checking performance. The two optimizations interact in subtle ways, so care must be taken when using them in combination. A standard algorithm combining the two optimizations, published over twenty years ago, has been widely studied and deployed in popular model checking tools. Yet the algorithm is incorrect. Counterexamples were discovered using the Alloy analyzer. A fix for a restricted class of property automata is proposed.",
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0c03c1d56af8f122fbdbe4bcf53324c5ad17939f",
+                "title": "Ample Set Partial Order Reduction for Actions",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115249209",
+                        "name": "Yihao Yan"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1f902c5ede369aaa1a092eebeee5b1e66895e249",
+                "title": "Towards Deductive Verification of Message-Passing Parallel Programs",
+                "year": 2018,
+                "venue": "International Workshop on Software Correctness for HPC Applications",
+                "citation_count": 3,
+                "reference_count": 30,
+                "abstract": "Program verification techniques based on deductive reasoning can provide a very high level of assurance of correctness. These techniques are capable of proving correctness without placing artificial bounds on program parameters or on the sizes of inputs. While there are a number of mature frameworks for deductive verification of sequential programs, there is much less for parallel programs, and very little for message-passing. We propose a method for the deductive verification of message-passing programs that involves transforming the program into an annotated sequential program that can be verified with off-the-shelf deductive tools, such as Frama-C. The method can prove user-specified correctness properties without any bounds on the number of processes or other parameters. We illustrate this method on a toy example, and analyze its strengths and weaknesses.",
+                "authors": [
+                    {
+                        "s2_author_id": "2071929",
+                        "name": "Ziqing Luo"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "24542116d434157d896b7a80e336ce4a09a5293a",
+                "title": "Symbolic Execution and Deductive Verification Approaches to VerifyThis 2017 Challenges",
+                "year": 2018,
+                "venue": "Leveraging Applications of Formal Methods",
+                "citation_count": 2,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2071929",
+                        "name": "Ziqing Luo"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "38527de57f9729d5f436501ce4a134be29167edb",
+                "title": "Evaluating Tools for Software Verification (Track Introduction)",
+                "year": 2018,
+                "venue": "Leveraging Applications of Formal Methods",
+                "citation_count": 1,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1736921",
+                        "name": "M. Schordan"
+                    },
+                    {
+                        "s2_author_id": "20973083",
+                        "name": "Dirk Beyer"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7df19f69f9ff98e9ae957e52e6d9c24011e165bb",
+                "title": "Verifying Properties of Differentiable Programs",
+                "year": 2018,
+                "venue": "Sensors Applications Symposium",
+                "citation_count": 6,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144574385",
+                        "name": "J. H\u00fcckelheim"
+                    },
+                    {
+                        "s2_author_id": "2071929",
+                        "name": "Ziqing Luo"
+                    },
+                    {
+                        "s2_author_id": "70142350",
+                        "name": "S. Narayanan"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "49950609",
+                        "name": "P. Hovland"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "25c549b48d60cb0dcffcb5799e68762695de114a",
+                "title": "Towards Self-Verification in Finite Difference Code Generation",
+                "year": 2017,
+                "venue": "CORRECTNESS@SC",
+                "citation_count": 4,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144574385",
+                        "name": "J. H\u00fcckelheim"
+                    },
+                    {
+                        "s2_author_id": "2071929",
+                        "name": "Ziqing Luo"
+                    },
+                    {
+                        "s2_author_id": "2518519",
+                        "name": "F. Luporini"
+                    },
+                    {
+                        "s2_author_id": "38565345",
+                        "name": "Navjot Kukreja"
+                    },
+                    {
+                        "s2_author_id": "49609182",
+                        "name": "Michael Lange"
+                    },
+                    {
+                        "s2_author_id": "145299521",
+                        "name": "G. Gorman"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "145738070",
+                        "name": "Matthew B. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "49950609",
+                        "name": "P. Hovland"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3a143321e6d2d9fc7ef017a1111202e637d36184",
+                "title": "CIVL solutions to verifythis 2016 challenges",
+                "year": 2017,
+                "venue": "SIGL",
+                "citation_count": 5,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a394204b1bb11a108fe2f414e8652f1741e7042b",
+                "title": "The RERS 2017 challenge and workshop (invited paper)",
+                "year": 2017,
+                "venue": "SPIN",
+                "citation_count": 21,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "12697509",
+                        "name": "Marc Jasper"
+                    },
+                    {
+                        "s2_author_id": "16013720",
+                        "name": "Maximilian Fecke"
+                    },
+                    {
+                        "s2_author_id": "2113938930",
+                        "name": "B. Steffen"
+                    },
+                    {
+                        "s2_author_id": "1736921",
+                        "name": "M. Schordan"
+                    },
+                    {
+                        "s2_author_id": "145820147",
+                        "name": "J. Meijer"
+                    },
+                    {
+                        "s2_author_id": "1700370",
+                        "name": "J. Pol"
+                    },
+                    {
+                        "s2_author_id": "1802871",
+                        "name": "F. Howar"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b61de44b99962335193090bd92f15afd90f055aa",
+                "title": "Verification of MPI programs using CIVL",
+                "year": 2017,
+                "venue": "EuroMPI/USA",
+                "citation_count": 22,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2071929",
+                        "name": "Ziqing Luo"
+                    },
+                    {
+                        "s2_author_id": "2446568",
+                        "name": "Manchun Zheng"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c44adaaa00360d30ee44de2646d540b32a055633",
+                "title": "Report of the HPC Correctness Summit, Jan 25-26, 2017, Washington, DC",
+                "year": 2017,
+                "venue": "arXiv.org",
+                "citation_count": 34,
+                "reference_count": 110,
+                "abstract": "Maintaining leadership in HPC requires the ability to support simulations at large scales and fidelity. In this study, we detail one of the most significant productivity challenges in achieving this goal, namely the increasing proclivity to bugs, especially in the face of growing hardware and software heterogeneity and sheer system scale. We identify key areas where timely new research must be proactively begun to address these challenges, and create new correctness tools that must ideally play a significant role even while ramping up toward exacale. We close with the proposal for a two-day workshop in which the problems identified in this report can be more broadly discussed, and specific plans to launch these new research thrusts identified.",
+                "authors": [
+                    {
+                        "s2_author_id": "143859594",
+                        "name": "G. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "49950609",
+                        "name": "P. Hovland"
+                    },
+                    {
+                        "s2_author_id": "1702354",
+                        "name": "Costin Iancu"
+                    },
+                    {
+                        "s2_author_id": "144497869",
+                        "name": "S. Krishnamoorthy"
+                    },
+                    {
+                        "s2_author_id": "144756867",
+                        "name": "I. Laguna"
+                    },
+                    {
+                        "s2_author_id": "1802881",
+                        "name": "R. Lethin"
+                    },
+                    {
+                        "s2_author_id": "145741786",
+                        "name": "Koushik Sen"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1389870240",
+                        "name": "Armando Solar-Lezama"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "393e5f97e9b8b1410c75ca4b0de7b576dda9c9fa",
+                "title": "Connecting and Serving the Software Engineering Community",
+                "year": 2016,
+                "venue": "IEEE Trans. Software Eng.",
+                "citation_count": 1,
+                "reference_count": 1,
+                "abstract": "Presents an editorial discusses the current status and activities supported by this publication.",
+                "authors": [
+                    {
+                        "s2_author_id": "145738070",
+                        "name": "Matthew B. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "1752222",
+                        "name": "E. Bodden"
+                    },
+                    {
+                        "s2_author_id": "145623071",
+                        "name": "Brian Fitzgerald"
+                    },
+                    {
+                        "s2_author_id": "35710133",
+                        "name": "Miryung Kim"
+                    },
+                    {
+                        "s2_author_id": "1455997882",
+                        "name": "Sunghun Kim"
+                    },
+                    {
+                        "s2_author_id": "2063965686",
+                        "name": "A. Ko"
+                    },
+                    {
+                        "s2_author_id": "144414111",
+                        "name": "E. Mendes"
+                    },
+                    {
+                        "s2_author_id": "1806346",
+                        "name": "R. Mirandola"
+                    },
+                    {
+                        "s2_author_id": "2118248808",
+                        "name": "Ana Moreira"
+                    },
+                    {
+                        "s2_author_id": "1723491",
+                        "name": "F. Shull"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "145906750",
+                        "name": "Tao Xie"
+                    },
+                    {
+                        "s2_author_id": "2142109054",
+                        "name": "Charles Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e3f88cbf1b3cc445a7c651a84669c60ea14d82d8",
+                "title": "CIVL: Applying a General Concurrency Verification Framework to C/Pthreads Programs (Competition Contribution)",
+                "year": 2016,
+                "venue": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
+                "citation_count": 6,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2446568",
+                        "name": "Manchun Zheng"
+                    },
+                    {
+                        "s2_author_id": "2509306",
+                        "name": "John G. Edenhofner"
+                    },
+                    {
+                        "s2_author_id": "2071929",
+                        "name": "Ziqing Luo"
+                    },
+                    {
+                        "s2_author_id": "3362760",
+                        "name": "Mitchell J. Gerrard"
+                    },
+                    {
+                        "s2_author_id": "2068098115",
+                        "name": "Michael S. Rogers"
+                    },
+                    {
+                        "s2_author_id": "145738070",
+                        "name": "Matthew B. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "000d8e04b4874e3969fc374e44e05385d4fd6a77",
+                "title": "Noise-Tolerant Explicit Stencil Computations for Nonuniform Process Execution Rates",
+                "year": 2015,
+                "venue": "ACM Transactions on Parallel Computing",
+                "citation_count": 12,
+                "reference_count": 73,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3323313",
+                        "name": "Adam Hammouda"
+                    },
+                    {
+                        "s2_author_id": "2833877",
+                        "name": "A. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0f0fa4f9f61d59a8bbaa939639d0af631fae7a7d",
+                "title": "The Need for a Common Concurrency Language",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2446568",
+                        "name": "Manchun Zheng"
+                    },
+                    {
+                        "s2_author_id": "49950609",
+                        "name": "P. Hovland"
+                    },
+                    {
+                        "s2_author_id": "145738070",
+                        "name": "Matthew B. Dwyer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1793e7ed2e397456393a8492f716111e2751591f",
+                "title": "CIVL: the concurrency intermediate verification language",
+                "year": 2015,
+                "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "citation_count": 82,
+                "reference_count": 57,
+                "abstract": "There are many ways to express parallel programs: message-passing libraries (MPI) and multithreading/GPU language extensions such as OpenMP, Pthreads, and CUDA, are but a few. This multitude creates a serious challenge for developers of software verification tools: it takes enormous effort to develop such tools, but each development effort typically targets one small part of the concurrency landscape, with little sharing of techniques and code among efforts. To address this problem, we present CIVL: the Concurrency Intermediate Verification Language. CIVL provides a general concurrency model capable of representing programs in a variety of concurrency dialects, including those listed above. The CIVL framework currently includes front-ends for the four dialects, and a back-end verifier which uses model checking and symbolic execution to check a number of properties, including the absence of deadlocks, race conditions, assertion violations, illegal pointer dereferences and arithmetic, memory leaks, divisions by zero, and out-of-bound array indexing; it can also check that two programs are functionally equivalent.",
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2446568",
+                        "name": "Manchun Zheng"
+                    },
+                    {
+                        "s2_author_id": "2071929",
+                        "name": "Ziqing Luo"
+                    },
+                    {
+                        "s2_author_id": "2111943",
+                        "name": "Timothy K. Zirkel"
+                    },
+                    {
+                        "s2_author_id": "3067791",
+                        "name": "Andre V. Marianiello"
+                    },
+                    {
+                        "s2_author_id": "2509306",
+                        "name": "John G. Edenhofner"
+                    },
+                    {
+                        "s2_author_id": "145738070",
+                        "name": "Matthew B. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "2068098115",
+                        "name": "Michael S. Rogers"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "66a3c6e7b81ab1ed195ec510a73838ca55a5169b",
+                "title": "CIVL: Formal Verification of Parallel Programs",
+                "year": 2015,
+                "venue": "International Conference on Automated Software Engineering",
+                "citation_count": 31,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2446568",
+                        "name": "Manchun Zheng"
+                    },
+                    {
+                        "s2_author_id": "2068098115",
+                        "name": "Michael S. Rogers"
+                    },
+                    {
+                        "s2_author_id": "2071929",
+                        "name": "Ziqing Luo"
+                    },
+                    {
+                        "s2_author_id": "145738070",
+                        "name": "Matthew B. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "414c414c167ed777ae63bf645bb708cdda052b2b",
+                "title": "Overcoming Asynchrony: An Analysis of the Effects of Asynchronous Noise on Nearest Neighbor Synchronizations",
+                "year": 2014,
+                "venue": "Exascale Applications and Software Conference",
+                "citation_count": 2,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3323313",
+                        "name": "Adam Hammouda"
+                    },
+                    {
+                        "s2_author_id": "2833877",
+                        "name": "A. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b3588e29b1d22a6be804a61d306bbf6493d330b0",
+                "title": "Title : CIVL : The Concurrency Intermediate Verification Language",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "145738070",
+                        "name": "Matthew B. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "143859594",
+                        "name": "G. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2071929",
+                        "name": "Ziqing Luo"
+                    },
+                    {
+                        "s2_author_id": "2050160",
+                        "name": "Zvonimir Rakamari\u0107"
+                    },
+                    {
+                        "s2_author_id": "143994696",
+                        "name": "R. Thakur"
+                    },
+                    {
+                        "s2_author_id": "2446568",
+                        "name": "Manchun Zheng"
+                    },
+                    {
+                        "s2_author_id": "2111943",
+                        "name": "Timothy K. Zirkel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab3d61bcf5bab68d67814c101e13e68777008f18",
+                "title": "Automated Verification of Chapel Programs Using Model Checking and Symbolic Execution",
+                "year": 2013,
+                "venue": "NASA Formal Methods",
+                "citation_count": 13,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2111943",
+                        "name": "Timothy K. Zirkel"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "3183602",
+                        "name": "Timothy McClory"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e7aa7cff5cb78855aaa3b366a7fe5511314415c3",
+                "title": "Optimizing Memory Constrained Environments in Monte Carlo Nuclear Reactor Simulations",
+                "year": 2013,
+                "venue": "The international journal of high performance computing applications",
+                "citation_count": 8,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3133955",
+                        "name": "K. Felker"
+                    },
+                    {
+                        "s2_author_id": "2833877",
+                        "name": "A. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ee39d3e83e8b96a9eb08c0c85c3860034c79af68",
+                "title": "Title : Dynamic Barrier Relaxations for Explicit Stencil Computations",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 61,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3323313",
+                        "name": "Adam Hammouda"
+                    },
+                    {
+                        "s2_author_id": "2833877",
+                        "name": "A. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0f195764cbbcb80cff87e59dea044c7b69eb5c04",
+                "title": "Loop Invariant Symbolic Execution for Parallel Programs",
+                "year": 2012,
+                "venue": "International Conference on Verification, Model Checking and Abstract Interpretation",
+                "citation_count": 21,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2111943",
+                        "name": "Timothy K. Zirkel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "145bcedcc4761ca7606b48ad7729f16ea4f0b272",
+                "title": "FEVS: A Functional Equivalence Verification Suite for High-Performance Scientific Computing",
+                "year": 2011,
+                "venue": "Mathematics and Computer Science",
+                "citation_count": 29,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2111943",
+                        "name": "Timothy K. Zirkel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "252fb16fb1609003a06e29ddb616f13d240e7ec2",
+                "title": "Formal analysis of MPI-based parallel programs",
+                "year": 2011,
+                "venue": "Communications of the ACM",
+                "citation_count": 75,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143859594",
+                        "name": "G. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "6682167",
+                        "name": "R. Kirby"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "143994696",
+                        "name": "R. Thakur"
+                    },
+                    {
+                        "s2_author_id": "1703559",
+                        "name": "W. Gropp"
+                    },
+                    {
+                        "s2_author_id": "1695428",
+                        "name": "E. Lusk"
+                    },
+                    {
+                        "s2_author_id": "144348312",
+                        "name": "B. Supinski"
+                    },
+                    {
+                        "s2_author_id": "1772965",
+                        "name": "M. Schulz"
+                    },
+                    {
+                        "s2_author_id": "1791426",
+                        "name": "G. Bronevetsky"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6fa28182a6449b6537d48735adfe849dacbc2926",
+                "title": "Formal Analysis of Message Passing - (Invited Talk)",
+                "year": 2011,
+                "venue": "International Conference on Verification, Model Checking and Abstract Interpretation",
+                "citation_count": 15,
+                "reference_count": 61,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "143859594",
+                        "name": "G. Gopalakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "72380d9f15c13a6b2794a69e071f96b26acc8ad0",
+                "title": "Development Of A Multicolor Sub/millimeter Camera Using Microwave Kinetic Inductance Detectors",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31515554",
+                        "name": "J. Schlaerth"
+                    },
+                    {
+                        "s2_author_id": "98165093",
+                        "name": "N. Czakon"
+                    },
+                    {
+                        "s2_author_id": "144804943",
+                        "name": "P. Day"
+                    },
+                    {
+                        "s2_author_id": "120049551",
+                        "name": "T. Downes"
+                    },
+                    {
+                        "s2_author_id": "46585727",
+                        "name": "R. Duan"
+                    },
+                    {
+                        "s2_author_id": "49079545",
+                        "name": "J. Glenn"
+                    },
+                    {
+                        "s2_author_id": "5760976",
+                        "name": "S. Golwala"
+                    },
+                    {
+                        "s2_author_id": "33787194",
+                        "name": "M. Hollister"
+                    },
+                    {
+                        "s2_author_id": "49317953",
+                        "name": "H. Leduc"
+                    },
+                    {
+                        "s2_author_id": "34638011",
+                        "name": "P. Maloney"
+                    },
+                    {
+                        "s2_author_id": "5656807",
+                        "name": "B. Mazin"
+                    },
+                    {
+                        "s2_author_id": "9227929",
+                        "name": "O. Noroozian"
+                    },
+                    {
+                        "s2_author_id": "36661767",
+                        "name": "J. Sayers"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "3602577",
+                        "name": "A. Vayonakis"
+                    },
+                    {
+                        "s2_author_id": "4714867",
+                        "name": "J. Zmuidzinas"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7bfeb3994982a67e612c72b9863ec83a943bbc60",
+                "title": "Formal Analysis of MPI-Based Parallel Programs : Present and Future \u2217",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143859594",
+                        "name": "G. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "6682167",
+                        "name": "R. Kirby"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "143994696",
+                        "name": "R. Thakur"
+                    },
+                    {
+                        "s2_author_id": "1703559",
+                        "name": "W. Gropp"
+                    },
+                    {
+                        "s2_author_id": "1695428",
+                        "name": "E. Lusk"
+                    },
+                    {
+                        "s2_author_id": "144348312",
+                        "name": "B. Supinski"
+                    },
+                    {
+                        "s2_author_id": "1772965",
+                        "name": "M. Schulz"
+                    },
+                    {
+                        "s2_author_id": "1791426",
+                        "name": "G. Bronevetsky"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "896ceace6977e377acf74136987b2dee678b4138",
+                "title": "The goal is reliable parallel simulations , helping scientists understand nature , from how foams compress to how ribosomes construct proteins",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143859594",
+                        "name": "G. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "6682167",
+                        "name": "R. Kirby"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "143994696",
+                        "name": "R. Thakur"
+                    },
+                    {
+                        "s2_author_id": "1703559",
+                        "name": "W. Gropp"
+                    },
+                    {
+                        "s2_author_id": "1695428",
+                        "name": "E. Lusk"
+                    },
+                    {
+                        "s2_author_id": "144348312",
+                        "name": "B. Supinski"
+                    },
+                    {
+                        "s2_author_id": "1772965",
+                        "name": "M. Schulz"
+                    },
+                    {
+                        "s2_author_id": "1791426",
+                        "name": "G. Bronevetsky"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "93b2aaf674084f51ccdc10c0a7f232ace8d9191d",
+                "title": "Automatic formal verification of MPI-based parallel programs",
+                "year": 2011,
+                "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+                "citation_count": 51,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2111943",
+                        "name": "Timothy K. Zirkel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a04e53fd435773862f6ff29513498b81bba8764d",
+                "title": "TASS: The Toolkit for Accurate Scientific Software",
+                "year": 2011,
+                "venue": "Mathematics and Computer Science",
+                "citation_count": 35,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2111943",
+                        "name": "Timothy K. Zirkel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b7036e9c2d987e6f3a7c7da089873d4a941a1cef",
+                "title": "Collective Assertions",
+                "year": 2011,
+                "venue": "International Conference on Verification, Model Checking and Abstract Interpretation",
+                "citation_count": 18,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2111943",
+                        "name": "Timothy K. Zirkel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b81787f5f0c294aaa6ec9a7be4121078a91d11f1",
+                "title": "Title : Reexamining Two Results in Partial Order Reduction",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b835c128dfafedc6bcd15317ab5d2826e6fb99af",
+                "title": "Symbolic Execution for Sequential and Multi-Process Programs with Unbounded Loops",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2111943",
+                        "name": "Timothy K. Zirkel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e6895c011e8f8a1eeca2cfaf5367028589e64dcc",
+                "title": "Transparent partial order reduction",
+                "year": 2011,
+                "venue": "Formal methods in system design",
+                "citation_count": 6,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ede0cede1c09bc941bd96e781eec2fe607e2ce44",
+                "title": "The Toolkit for Accurate Scientific Software",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 17,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2111943",
+                        "name": "Timothy K. Zirkel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "774bfb5cf108331aa6e61ff788018fd74b09b2b5",
+                "title": "Errata \u201d Principles of Model Checking \u201d ( July 2010 ) Thanks to the Model Checking",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1684327",
+                        "name": "D. Jansen"
+                    },
+                    {
+                        "s2_author_id": "1678787",
+                        "name": "F. Vaandrager"
+                    },
+                    {
+                        "s2_author_id": "143797080",
+                        "name": "H. Hermanns"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1781310",
+                        "name": "Ren\u00e9 Thiemann"
+                    },
+                    {
+                        "s2_author_id": "143640201",
+                        "name": "M. Lange"
+                    },
+                    {
+                        "s2_author_id": "2054483",
+                        "name": "A. Khademzadeh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2651eafee5d88292b970d6b80e33d50917c7c15a",
+                "title": "Formal Verification for Scientific Computing: Trends and Progress",
+                "year": 2009,
+                "venue": "PVM/MPI",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a7ddd737490f1504e927a98ccafa57cc49ac75e0",
+                "title": "A Memory-Efficient Data Redistribution Algorithm",
+                "year": 2009,
+                "venue": "PVM/MPI",
+                "citation_count": 3,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2833877",
+                        "name": "A. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "06c8ff71b01dc81c4158cd53895ddeb84048482d",
+                "title": "Combining symbolic execution with model checking to verify parallel numerical programs",
+                "year": 2008,
+                "venue": "TSEM",
+                "citation_count": 80,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "145673852",
+                        "name": "Anastasia Mironova"
+                    },
+                    {
+                        "s2_author_id": "1728954",
+                        "name": "G. Avrunin"
+                    },
+                    {
+                        "s2_author_id": "1712081",
+                        "name": "L. Clarke"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2121645dd8db66f0aef506c394ad297e0baca57a",
+                "title": "Madre: the Memory-Aware Data Redistribution Engine",
+                "year": 2008,
+                "venue": "The international journal of high performance computing applications",
+                "citation_count": 22,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2833877",
+                        "name": "A. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "83bc6224358e365c5fa591a435b5d903bef70f19",
+                "title": "UNIC Code: Algorithmic Specification of the Method of Long Characteristics",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2833877",
+                        "name": "A. Siegel"
+                    },
+                    {
+                        "s2_author_id": "3397946",
+                        "name": "C. Rabiti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f8915ed7be8c73adacba2c6c8402ccb9e1e7402b",
+                "title": "Verification of MPI-based Computations",
+                "year": 2008,
+                "venue": "Distributed Verification and Grid Computing",
+                "citation_count": 0,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "feddbeb981f76ed280bb40ad57f17e576aeee95d",
+                "title": "Analyzing BlobFlow: A Case Study Using Model Checking to Verify Parallel Scientific Software",
+                "year": 2008,
+                "venue": "PVM/MPI",
+                "citation_count": 20,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1858903",
+                        "name": "L. Rossi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "33d9f943d9787126bb691a367e0996835722a32a",
+                "title": "Verifying Parallel Programs with MPI-Spin",
+                "year": 2007,
+                "venue": "PVM/MPI",
+                "citation_count": 51,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4fb189128dcce9e7ae9c2c7d0dcadc986a5529fd",
+                "title": "Model Checking Nonblocking MPI Programs",
+                "year": 2007,
+                "venue": "International Conference on Verification, Model Checking and Abstract Interpretation",
+                "citation_count": 80,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "693d41c74b900fed8614d145900a2cabe49abd4a",
+                "title": "Verification of Halting Properties for MPI Programs Using Nonblocking Operations",
+                "year": 2007,
+                "venue": "PVM/MPI",
+                "citation_count": 21,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1728954",
+                        "name": "G. Avrunin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a5dca6c96105231de9d03d542a81e8a2161306f7",
+                "title": "A Case Study in the Use of Model Checking to Verify Parallel Scientific Software",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1739817",
+                        "name": "Samuel E. Moelius"
+                    },
+                    {
+                        "s2_author_id": "1858903",
+                        "name": "L. Rossi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aa8ffd062d2cd891fa51bf3337948b3b0e5c8f2a",
+                "title": "Using model checking with symbolic execution to verify parallel numerical programs",
+                "year": 2006,
+                "venue": "International Symposium on Software Testing and Analysis",
+                "citation_count": 76,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "145673852",
+                        "name": "Anastasia Mironova"
+                    },
+                    {
+                        "s2_author_id": "1728954",
+                        "name": "G. Avrunin"
+                    },
+                    {
+                        "s2_author_id": "1712081",
+                        "name": "L. Clarke"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "077ed05464376b70c4b9ea46e03f27c21fe82990",
+                "title": "Quillen stratification for Hochschild cohomology of blocks",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2120867",
+                        "name": "Jonathan Pakianathan"
+                    },
+                    {
+                        "s2_author_id": "31986097",
+                        "name": "S. Witherspoon"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "abea7cd36363e28d25c520ac28338fe7f5717412",
+                "title": "Modeling wildcard-free MPI programs for verification",
+                "year": 2005,
+                "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+                "citation_count": 43,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1728954",
+                        "name": "G. Avrunin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ad88b8a513233c95e5fea6008812fc9086c98a29",
+                "title": "Finite-state verification for high performance computing",
+                "year": 2005,
+                "venue": "SE-HPCS '05",
+                "citation_count": 6,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1728954",
+                        "name": "G. Avrunin"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "2833877",
+                        "name": "A. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bb93d5e53497320386ba244fccb440d6c3b57316",
+                "title": "Efficient Verification of Halting Properties for MPI Programs with Wildcard Receives",
+                "year": 2005,
+                "venue": "International Conference on Verification, Model Checking and Abstract Interpretation",
+                "citation_count": 42,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2fdf184c8fb5a360350e81d8c8af6b4078ca4903",
+                "title": "MODELING MPI PROGRAMS FOR VERIFICATION",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1728954",
+                        "name": "G. Avrunin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e5319546ade674aea7e1b8a2ebc4c2e1af8e561e",
+                "title": "Verification of MPI-Based Software for Scientific Computation",
+                "year": 2004,
+                "venue": "SPIN",
+                "citation_count": 58,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1728954",
+                        "name": "G. Avrunin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3b010dc59de4357c601090ccbed75dac2c8c8f70",
+                "title": "THE INCA QUERY LANGUAGE",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e299d156b0c888ebd0c27d57f0abe2d87edc877a",
+                "title": "ANALYSIS OF MPI PROGRAMS",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "38ed82285df9c04b31dc767164b93fcdef40481b",
+                "title": "Improving the Precision of INCA by Eliminating Solutions with Spurious Cycles",
+                "year": 2002,
+                "venue": "IEEE Trans. Software Eng.",
+                "citation_count": 14,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1728954",
+                        "name": "G. Avrunin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52c0311338f30686105756a7a155b75af66ef03a",
+                "title": "The cohomology of split extensions of elementary abelian 2-groups and Totaro's example",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e61c8d52638bf33ba69ec43fbe40722d7d483761",
+                "title": "Improving the precision of INCA by preventing spurious cycles",
+                "year": 2000,
+                "venue": "International Symposium on Software Testing and Analysis",
+                "citation_count": 1,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1728954",
+                        "name": "G. Avrunin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ed0de71b433f614f55d72446adc2d3a473e38146",
+                "title": "The Hochschild cohomology ring of a cyclic block",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "31986097",
+                        "name": "S. Witherspoon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cc2f403151118abf09d4684228707e6fcb4a9211",
+                "title": "The Hochschild Cohomology Ring of a Group Algebra",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 99,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "31986097",
+                        "name": "S. Witherspoon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d15883b9ded93ffe23837c3d818ee11803cbd2ef",
+                "title": "Comparing Finite-State Verification Techniques for Concurrent Software",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 34,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1728954",
+                        "name": "G. Avrunin"
+                    },
+                    {
+                        "s2_author_id": "143962122",
+                        "name": "J. Corbett"
+                    },
+                    {
+                        "s2_author_id": "145738070",
+                        "name": "Matthew B. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "1723381",
+                        "name": "C. P\u0103s\u0103reanu"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dc9e13a33c70d4162b8b7362dfda5fa1117445f4",
+                "title": "The cohomology of the Morava stabilizer group \u2082 at the prime 3",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "41126857",
+                        "name": "V. Gorbounov"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "152774958",
+                        "name": "P. Symonds"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39f49c250c8473837a6b2671dc072b05070a736d",
+                "title": "On the cohomology of split extensions of finite groups",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "88d53962e0c91f80419f22840328804b60a7380e",
+                "title": "The spectral sequence of a split extension and the cohomology of an extraspecial group of order p3 and exponent p",
+                "year": 1996,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bfbf085a4af7edec469cbf2ab2af97aec51df3f2",
+                "title": "Generalized Benson\u2013Carlson Duality",
+                "year": 1996,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2097115492",
+                        "name": "L. Evens"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "499b7d6a71b56753815e8e4895f42d551a199b45",
+                "title": "Projective modules for A9 in characteristic three",
+                "year": 1991,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0fd7d8e076bb73fdeb0e882edbefbf519ee5c7bb",
+                "title": "The strategic use of expert systems for risk management in the insurance industry",
+                "year": 1990,
+                "venue": "Conference on Trends and Directions in Expert Systems",
+                "citation_count": 26,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2251055773",
+                        "name": "M. Meyer"
+                    },
+                    {
+                        "s2_author_id": "2580049",
+                        "name": "A. DeTore"
+                    },
+                    {
+                        "s2_author_id": "1867844",
+                        "name": "Stephen F. Siegel"
+                    },
+                    {
+                        "s2_author_id": "1974838",
+                        "name": "K. Curley"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2143794593",
+                "name": "Wen-Jer Wu"
+            },
+            {
+                "s2_author_id": "144574385",
+                "name": "J. H\u00fcckelheim"
+            },
+            {
+                "s2_author_id": "49950609",
+                "name": "P. Hovland"
+            },
+            {
+                "s2_author_id": "2071929",
+                "name": "Ziqing Luo"
+            },
+            {
+                "s2_author_id": "2180538661",
+                "name": "Le Chen"
+            },
+            {
+                "s2_author_id": "2139644290",
+                "name": "Wenhao Wu"
+            },
+            {
+                "s2_author_id": "1905021",
+                "name": "Pei-Hung Lin"
+            },
+            {
+                "s2_author_id": "7604095",
+                "name": "C. Liao"
+            },
+            {
+                "s2_author_id": "2115249209",
+                "name": "Yihao Yan"
+            },
+            {
+                "s2_author_id": "1736921",
+                "name": "M. Schordan"
+            },
+            {
+                "s2_author_id": "20973083",
+                "name": "Dirk Beyer"
+            },
+            {
+                "s2_author_id": "70142350",
+                "name": "S. Narayanan"
+            },
+            {
+                "s2_author_id": "2518519",
+                "name": "F. Luporini"
+            },
+            {
+                "s2_author_id": "38565345",
+                "name": "Navjot Kukreja"
+            },
+            {
+                "s2_author_id": "49609182",
+                "name": "Michael Lange"
+            },
+            {
+                "s2_author_id": "145299521",
+                "name": "G. Gorman"
+            },
+            {
+                "s2_author_id": "145738070",
+                "name": "Matthew B. Dwyer"
+            },
+            {
+                "s2_author_id": "12697509",
+                "name": "Marc Jasper"
+            },
+            {
+                "s2_author_id": "16013720",
+                "name": "Maximilian Fecke"
+            },
+            {
+                "s2_author_id": "2113938930",
+                "name": "B. Steffen"
+            },
+            {
+                "s2_author_id": "145820147",
+                "name": "J. Meijer"
+            },
+            {
+                "s2_author_id": "1700370",
+                "name": "J. Pol"
+            },
+            {
+                "s2_author_id": "1802871",
+                "name": "F. Howar"
+            },
+            {
+                "s2_author_id": "2446568",
+                "name": "Manchun Zheng"
+            },
+            {
+                "s2_author_id": "143859594",
+                "name": "G. Gopalakrishnan"
+            },
+            {
+                "s2_author_id": "1702354",
+                "name": "Costin Iancu"
+            },
+            {
+                "s2_author_id": "144497869",
+                "name": "S. Krishnamoorthy"
+            },
+            {
+                "s2_author_id": "144756867",
+                "name": "I. Laguna"
+            },
+            {
+                "s2_author_id": "1802881",
+                "name": "R. Lethin"
+            },
+            {
+                "s2_author_id": "145741786",
+                "name": "Koushik Sen"
+            },
+            {
+                "s2_author_id": "1389870240",
+                "name": "Armando Solar-Lezama"
+            },
+            {
+                "s2_author_id": "1752222",
+                "name": "E. Bodden"
+            },
+            {
+                "s2_author_id": "145623071",
+                "name": "Brian Fitzgerald"
+            },
+            {
+                "s2_author_id": "35710133",
+                "name": "Miryung Kim"
+            },
+            {
+                "s2_author_id": "1455997882",
+                "name": "Sunghun Kim"
+            },
+            {
+                "s2_author_id": "2063965686",
+                "name": "A. Ko"
+            },
+            {
+                "s2_author_id": "144414111",
+                "name": "E. Mendes"
+            },
+            {
+                "s2_author_id": "1806346",
+                "name": "R. Mirandola"
+            },
+            {
+                "s2_author_id": "2118248808",
+                "name": "Ana Moreira"
+            },
+            {
+                "s2_author_id": "1723491",
+                "name": "F. Shull"
+            },
+            {
+                "s2_author_id": "145906750",
+                "name": "Tao Xie"
+            },
+            {
+                "s2_author_id": "2142109054",
+                "name": "Charles Zhang"
+            },
+            {
+                "s2_author_id": "2509306",
+                "name": "John G. Edenhofner"
+            },
+            {
+                "s2_author_id": "3362760",
+                "name": "Mitchell J. Gerrard"
+            },
+            {
+                "s2_author_id": "2068098115",
+                "name": "Michael S. Rogers"
+            },
+            {
+                "s2_author_id": "3323313",
+                "name": "Adam Hammouda"
+            },
+            {
+                "s2_author_id": "2833877",
+                "name": "A. Siegel"
+            },
+            {
+                "s2_author_id": "2111943",
+                "name": "Timothy K. Zirkel"
+            },
+            {
+                "s2_author_id": "3067791",
+                "name": "Andre V. Marianiello"
+            },
+            {
+                "s2_author_id": "2050160",
+                "name": "Zvonimir Rakamari\u0107"
+            },
+            {
+                "s2_author_id": "143994696",
+                "name": "R. Thakur"
+            },
+            {
+                "s2_author_id": "3183602",
+                "name": "Timothy McClory"
+            },
+            {
+                "s2_author_id": "3133955",
+                "name": "K. Felker"
+            },
+            {
+                "s2_author_id": "6682167",
+                "name": "R. Kirby"
+            },
+            {
+                "s2_author_id": "1703559",
+                "name": "W. Gropp"
+            },
+            {
+                "s2_author_id": "1695428",
+                "name": "E. Lusk"
+            },
+            {
+                "s2_author_id": "144348312",
+                "name": "B. Supinski"
+            },
+            {
+                "s2_author_id": "1772965",
+                "name": "M. Schulz"
+            },
+            {
+                "s2_author_id": "1791426",
+                "name": "G. Bronevetsky"
+            },
+            {
+                "s2_author_id": "31515554",
+                "name": "J. Schlaerth"
+            },
+            {
+                "s2_author_id": "98165093",
+                "name": "N. Czakon"
+            },
+            {
+                "s2_author_id": "144804943",
+                "name": "P. Day"
+            },
+            {
+                "s2_author_id": "120049551",
+                "name": "T. Downes"
+            },
+            {
+                "s2_author_id": "46585727",
+                "name": "R. Duan"
+            },
+            {
+                "s2_author_id": "49079545",
+                "name": "J. Glenn"
+            },
+            {
+                "s2_author_id": "5760976",
+                "name": "S. Golwala"
+            },
+            {
+                "s2_author_id": "33787194",
+                "name": "M. Hollister"
+            },
+            {
+                "s2_author_id": "49317953",
+                "name": "H. Leduc"
+            },
+            {
+                "s2_author_id": "34638011",
+                "name": "P. Maloney"
+            },
+            {
+                "s2_author_id": "5656807",
+                "name": "B. Mazin"
+            },
+            {
+                "s2_author_id": "9227929",
+                "name": "O. Noroozian"
+            },
+            {
+                "s2_author_id": "36661767",
+                "name": "J. Sayers"
+            },
+            {
+                "s2_author_id": "3602577",
+                "name": "A. Vayonakis"
+            },
+            {
+                "s2_author_id": "4714867",
+                "name": "J. Zmuidzinas"
+            },
+            {
+                "s2_author_id": "1684327",
+                "name": "D. Jansen"
+            },
+            {
+                "s2_author_id": "1678787",
+                "name": "F. Vaandrager"
+            },
+            {
+                "s2_author_id": "143797080",
+                "name": "H. Hermanns"
+            },
+            {
+                "s2_author_id": "1781310",
+                "name": "Ren\u00e9 Thiemann"
+            },
+            {
+                "s2_author_id": "143640201",
+                "name": "M. Lange"
+            },
+            {
+                "s2_author_id": "2054483",
+                "name": "A. Khademzadeh"
+            },
+            {
+                "s2_author_id": "145673852",
+                "name": "Anastasia Mironova"
+            },
+            {
+                "s2_author_id": "1728954",
+                "name": "G. Avrunin"
+            },
+            {
+                "s2_author_id": "1712081",
+                "name": "L. Clarke"
+            },
+            {
+                "s2_author_id": "3397946",
+                "name": "C. Rabiti"
+            },
+            {
+                "s2_author_id": "1858903",
+                "name": "L. Rossi"
+            },
+            {
+                "s2_author_id": "1739817",
+                "name": "Samuel E. Moelius"
+            },
+            {
+                "s2_author_id": "2120867",
+                "name": "Jonathan Pakianathan"
+            },
+            {
+                "s2_author_id": "31986097",
+                "name": "S. Witherspoon"
+            },
+            {
+                "s2_author_id": "143962122",
+                "name": "J. Corbett"
+            },
+            {
+                "s2_author_id": "1723381",
+                "name": "C. P\u0103s\u0103reanu"
+            },
+            {
+                "s2_author_id": "41126857",
+                "name": "V. Gorbounov"
+            },
+            {
+                "s2_author_id": "152774958",
+                "name": "P. Symonds"
+            },
+            {
+                "s2_author_id": "2097115492",
+                "name": "L. Evens"
+            },
+            {
+                "s2_author_id": "2251055773",
+                "name": "M. Meyer"
+            },
+            {
+                "s2_author_id": "2580049",
+                "name": "A. DeTore"
+            },
+            {
+                "s2_author_id": "1974838",
+                "name": "K. Curley"
+            }
+        ],
+        "total_co_authors": 96,
+        "papers_retrieved": 74
+    }
+}

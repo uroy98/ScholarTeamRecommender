@@ -1,0 +1,2221 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000097717",
+        "name": "Zena M Ariola",
+        "primary_affiliation": "University of Oregon Eugene",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Oregon Eugene"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "OR"
+        ],
+        "perf_cities": [
+            "EUGENE"
+        ],
+        "org_names": [
+            "University of Oregon Eugene"
+        ],
+        "org_ueis": [
+            "Z3FGN9MF92U2"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "ariola@cs.uoregon.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2526419",
+                "title": "Travel: Oregon Programming Languages Summer School 2025: Types, Logic, and Formal Methods",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-01",
+                "exp_date": "2026-03-31",
+                "award_amount": 20000.0,
+                "total_amount": 20000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "Software & Hardware Foundation"
+                ],
+                "program_codes": [
+                    "779800"
+                ],
+                "program_references": [
+                    "CONFERENCE AND WORKSHOPS",
+                    "PROGRAMMING LANGUAGES"
+                ],
+                "program_ref_codes": [
+                    "7556",
+                    "7943"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Anindya Banerjee",
+                "keywords": [
+                    "school",
+                    "programming",
+                    "languages",
+                    "summer",
+                    "oregon",
+                    "students",
+                    "travel",
+                    "types",
+                    "logic",
+                    "formal"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "Software & Hardware Foundation"
+        ],
+        "program_codes": [
+            "779800"
+        ],
+        "program_references": [
+            "CONFERENCE AND WORKSHOPS",
+            "PROGRAMMING LANGUAGES"
+        ],
+        "program_ref_codes": [
+            "7556",
+            "7943"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Anindya Banerjee"
+        ],
+        "keywords": [
+            "school",
+            "programming",
+            "languages",
+            "summer",
+            "oregon",
+            "students",
+            "travel",
+            "types",
+            "logic",
+            "formal",
+            "methods",
+            "provides",
+            "foundational",
+            "researchers",
+            "foundation",
+            "student",
+            "oplss",
+            "held",
+            "university",
+            "important"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.63
+    },
+    "s2_profile": {
+        "s2_author_id": "1706685",
+        "name": "Zena M Ariola",
+        "affiliations": [],
+        "paper_count": 83,
+        "citation_count": 1338,
+        "h_index": 23,
+        "papers": [
+            {
+                "s2_paper_id": "51367773274e8a4538c917769f1fd2c3777e9d7a",
+                "title": "A contextual formalization of structural coinduction",
+                "year": 2025,
+                "venue": "Journal of functional programming",
+                "citation_count": 0,
+                "reference_count": 24,
+                "abstract": "Abstract Structural induction is pervasively used by functional programmers and researchers for both informal reasoning as well as formal methods for program verification and semantics. In this paper, we promote its dual\u2014structural coinduction\u2014as a technique for understanding corecursive programs only in terms of the logical structure of their context. We illustrate this technique as an informal method of proofs which closely match the style of informal inductive proofs, where it is straightforward to check that all cases are covered and the coinductive hypotheses are used correctly. This intuitive idea is then formalized through a syntactic theory for deriving program equalities, which is justified purely in terms of the computational behavior of abstract machines and proved sound with respect to observational equivalence.",
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d643c9fa0fc7e234fb9b50ca3f777af62e101fd7",
+                "title": "Closure Conversion in Little Pieces",
+                "year": 2023,
+                "venue": "ACM-SIGPLAN International Conference on Principles and Practice of Declarative Programming",
+                "citation_count": 3,
+                "reference_count": 31,
+                "abstract": "Closure conversion, an essential step in compiling functional programs, is traditionally presented as a global transformation from a language with higher-order functions to one without. Optimizing this transformation can be done at any of its three stages with various tradeoffs. After conversion, optimizations will be in the target language at the cost of a weaker equational theory. During conversion, optimizations may be embedded into the transformation itself at the cost of increasing its complexity and correctness. And before conversion, optimizations may be planned and anticipated in a specialized intermediate language (IL) where all the properties of the source program are still known, with the hope that they will survive the rest of the compilation process. By building on the notion of abstract closures, we blur the distinctions between these three approaches to closure conversion and optimizations thereof, by combining all of their strengths and avoiding their weaknesses. Specifically, we develop an IL that includes closures alongside unclosed higher-order code, even inhabiting the same type. The IL comes equipped with an equational theory that is shown sound and complete with respect to an environment abstract machine. Thereby, a baseline closure conversion and common optimizations become provable equalities and thus are correct by construction. Moreover, the transformation and its correctness proof are broken down into little steps\u2014as instances of the \u03b2 and \u03b7 axioms\u2014instead of being expressed in terms of a recursive procedure. Our proposed IL is based on call-by-push-value which we extend with sharing in order to capture closure conversion for both strict and lazy languages.",
+                "authors": [
+                    {
+                        "s2_author_id": "51135694",
+                        "name": "Zachary J. Sullivan"
+                    },
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1cecf186743c67f36b831feabcc108bb70cdaa74",
+                "title": "6th International Conference on Formal Structures for Computation and Deduction, FSCD 2021, Buenos Aires, Argentina (Virtual Conference), July 17-24, 2021",
+                "year": 2021,
+                "venue": "International Conference on Formal Structures for Computation and Deduction",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3cfa235b54bc11f9189bb8d73a0e103197debeae",
+                "title": "Classical (co)recursion: Mechanics",
+                "year": 2021,
+                "venue": "Journal of functional programming",
+                "citation_count": 0,
+                "reference_count": 74,
+                "abstract": "Abstract Recursion is a mature, well-understood topic in the theory and practice of programming. Yet its dual, corecursion is underappreciated and still seen as exotic. We aim to put them both on equal footing by giving a foundation for primitive corecursion based on computation, giving a terminating calculus analogous to the original computational foundation of recursion. We show how the implementation details in an abstract machine strengthens their connection, syntactically deriving corecursion from recursion via logical duality. We also observe the impact of evaluation strategy on the computational complexity of primitive (co)recursive combinators: call-by-name allows for more efficient recursion, but call-by-value allows for more efficient corecursion.",
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4435e500f59a918b5c3d7c334e5e5b744f2841cb",
+                "title": "Classical (Co)Recursion: Programming",
+                "year": 2021,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 23,
+                "abstract": "Our aim here is to illustrate how the benefits of structural corecursion can be found in a broader swath of the programming landscape than previously thought. Beginning from a tutorial on structural corecursion in the total, pure functional language Agda, we show how these same ideas are mapped to familiar concepts in a variety of different languages. We show how corecursion can be done in strict functional languages like Scheme, and even escapes the functional paradigm entirely, showing up in the natural expression of common object-oriented features found in languages like Python and Java. Opening up structural corecursion to a much wider selection of languages and paradigms -- and therefore, also to a much larger audience of programmers -- lets us also ask how corecursion interacts with computational effects. Of note, we demonstrate that combining structural corecursion with effects can increase its expressive power. We show a classical version of corecursion -- using first-class control made possible by Scheme's classical call/cc -- that enables us to write some new stream-processing algorithms that aren't possible in effect-free languages.",
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52d4fefd920182654298c8c241d37e5a7b4bff4d",
+                "title": "Duality in Action (Invited Talk)",
+                "year": 2021,
+                "venue": "International Conference on Formal Structures for Computation and Deduction",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "61c8905770bd62039e2f90832bc3a9cd611b791c",
+                "title": "Duality in Action 1",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e1e07e40a80993015ac29e8331fe25e93605b42a",
+                "title": "Strictly capturing non-strict closures",
+                "year": 2021,
+                "venue": "PEPM@POPL",
+                "citation_count": 2,
+                "reference_count": 31,
+                "abstract": "All functional languages need closures. Closure-conversion is a compiler transformation that embeds static code into the program for creating and manipulating closures, avoiding the need for special run-time closure support. For call-by-value languages, closure-conversion has been the focus of extensive studies concerning correctness, such as type preservation and contextual equivalence, and performance, such as space usage. Unfortunately, non-strict languages have been neglected in these studies. This paper aims to fill this gap. We begin with both a call-by-name and a call-by-need source language whose semantics automatically generates closures at run-time. Next, we give type-preserving closure-conversions for these two non-strict languages into a lower-level target language without automatic closure generation at run-time. Despite the fact that our source languages are non-strict, we show that closures must be created eagerly, which requires a strict notion of product in the target language. We extend logical relation techniques used to prove compiler correctness for call-by-value languages, to apply to non-strict languages too. In doing so, we identify some important properties for reasoning about memoization with a heap.",
+                "authors": [
+                    {
+                        "s2_author_id": "51135694",
+                        "name": "Zachary J. Sullivan"
+                    },
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08498afa5711a472f3dbda56024e7e1dfaa0ca18",
+                "title": "A Computational Understanding of Classical\u00a0(Co)Recursion",
+                "year": 2020,
+                "venue": "ACM-SIGPLAN International Conference on Principles and Practice of Declarative Programming",
+                "citation_count": 1,
+                "reference_count": 54,
+                "abstract": "Recursion and induction are mature, well-understood topics in programming. Yet their duals, corecursion and coinduction, are still exotic and underdeveloped programming features. We aim to put them on equal footing by giving a foundation for corecursion based on computation, analogous to the original computational foundation of recursion. At the lower level, we show how the connection between the two can be strengthened through their implementation details in an abstract machine. At the higher level, we develop a syntactic equational theory for inductive and coinductive reasoning based on control flow. We also observe the impact of evaluation strategy: call-by-name has efficient recursion and strong coinductive reasoning, but call-by-value has efficient corecursion and strong inductive reasoning.",
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5f26e15eb215386b81d89c44c735e0cecffe5510",
+                "title": "Abstracting models of strong normalization for classical calculi",
+                "year": 2020,
+                "venue": "J. Log. Algebraic Methods Program.",
+                "citation_count": 7,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1405606666",
+                        "name": "Philip Johnson-Freyd"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7b73204ff890e6b2fe5f24946e79aecd6b2e80e7",
+                "title": "Kinds are calling conventions",
+                "year": 2020,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 10,
+                "reference_count": 53,
+                "abstract": "A language supporting polymorphism is a boon to programmers: they can express complex ideas once and reuse functions in a variety of situations. However, polymorphism is pain for compilers tasked with producing efficient code that manipulates concrete values. This paper presents a new intermediate language that allows for efficient static compilation, while still supporting flexible polymorphism. Specifically, it permits polymorphism over not only the types of values, but also the representation of values, the arity of primitive machine functions, and the evaluation order of arguments---all three of which are useful in practice. The key insight is to encode information about a value's calling convention in the kind of its type, rather than in the type itself.",
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "144689023",
+                        "name": "S. Jones"
+                    },
+                    {
+                        "s2_author_id": "35238735",
+                        "name": "R. Eisenberg"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "12fa9bea6dbd3546fd0367bbf300d2b50a810969",
+                "title": "Compiling With Classical Connectives",
+                "year": 2019,
+                "venue": "Log. Methods Comput. Sci.",
+                "citation_count": 10,
+                "reference_count": 51,
+                "abstract": "The study of polarity in computation has revealed that an \"ideal\" programming language combines both call-by-value and call-by-name evaluation; the two calling conventions are each ideal for half the types in a programming language. But this binary choice leaves out call-by-need which is used in practice to implement lazy-by-default languages like Haskell. We show how the notion of polarity can be extended beyond the value/name dichotomy to include call-by-need by adding a mechanism for sharing which is enough to compile a Haskell-like functional language with user-defined types. The key to capturing sharing in this mixed-evaluation setting is to generalize the usual notion of polarity \"shifts:\" rather than just two shifts (between positive and negative) we have a family of four dual shifts. We expand on this idea of logical duality -- \"and\" is dual to \"or;\" proof is dual to refutation -- for the purpose of compiling a variety of types. Based on a general notion of data and codata, we show how classical connectives can be used to encode a wide range of built-in and user-defined types. In contrast with an intuitionistic logic corresponding to pure functional programming, these classical connectives bring more of the pleasant symmetries of classical logic to the computationally-relevant, constructive setting. In particular, an involutive pair of negations bridges the gulf between the wide-spread notions of parametric polymorphism and abstract data types in programming languages. To complete the study of duality in compilation, we also consider the dual to call-by-need evaluation, which shares the computation within the control flow of a program instead of computation within the information flow.",
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2181ee885d480c8b4a26982f3bc0f0e5adab8fc3",
+                "title": "Codata in Action",
+                "year": 2019,
+                "venue": "European Symposium on Programming",
+                "citation_count": 13,
+                "reference_count": 48,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "51135694",
+                        "name": "Zachary J. Sullivan"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "144689023",
+                        "name": "S. Jones"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4db7429a7d44e234d20f7f3e8c1b9c05d5d5da4b",
+                "title": "Con uent Rewriting of Bisimilar Term Graphs 1",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1696872",
+                        "name": "J. Klop"
+                    },
+                    {
+                        "s2_author_id": "2968742",
+                        "name": "D. Plump"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6b417c896e34b6687d186eb619d23beb291c03b9",
+                "title": "The Duality of Classical Intersection and Union Types",
+                "year": 2019,
+                "venue": "Fundamenta Informaticae",
+                "citation_count": 5,
+                "reference_count": 51,
+                "abstract": "For a long time, intersection types have been admired for their surprising ability to complete the simply typed lambda calculus. Intersection types are an example of an implicit typing feature which can describe program behavior without manifesting itself within the syntax of a program. Dual to intersections, union types are another implicit typing feature which extends the completeness property of intersection types in the lambda calculus to full-fledged programming languages. However, the formalization of union types can easily break other desirable meta-theoretical properties of the type system. But why should unions be troublesome when their dual, intersections, are not? We look at the issues surrounding the design of type systems for both intersection and union types through the lens of duality by formalizing them within the symmetric language of the classical sequent calculus. In order to formulate type systems which have all of our properties of interest\u2014soundness, completeness, and type safety\u2014we also look at the impact of evaluation strategy on typing. As a result, we present two dual type systems\u2014one for call-by-value and one for call-by-name evaluation\u2014which have all three properties. We also consider the possibility of classical non-deterministic evaluation, for which there is a choice between two different systems depending on which properties are desired: a full type system which is complete, and a simplified type system which is sound and type safe.",
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "2395704",
+                        "name": "S. Ghilezan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ef5c4ffb7a7b1f2046ec021a2d244b61ade54f45",
+                "title": "Making a faster Curry with extensional types",
+                "year": 2019,
+                "venue": "Haskell@ICFP",
+                "citation_count": 8,
+                "reference_count": 27,
+                "abstract": "Curried functions apparently take one argument at a time, which is slow. So optimizing compilers for higher-order languages invariably have some mechanism for working around currying by passing several arguments at once, as many as the function can handle, which is known as its arity. But such mechanisms are often ad-hoc, and do not work at all in higher-order functions. We show how extensional, call-by-name functions have the correct behavior for directly expressing the arity of curried functions. And these extensional functions can stand side-by-side with functions native to practical programming languages, which do not use call-by-name evaluation. Integrating call-by-name with other evaluation strategies in the same intermediate language expresses the arity of a function in its type and gives a principled and compositional account of multi-argument curried functions. An unexpected, but significant, bonus is that our approach is equally suitable for a call-by-value language and a call-by-need language, and it can be readily integrated into an existing compilation framework.",
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "51135694",
+                        "name": "Zachary J. Sullivan"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "144689023",
+                        "name": "S. Jones"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52824c8f490165e4188c2c11fcfe74ed7cdf7b23",
+                "title": "A tutorial on computational classical logic and the sequent calculus",
+                "year": 2018,
+                "venue": "Journal of functional programming",
+                "citation_count": 13,
+                "reference_count": 59,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b13e952a51469b6f756efc3fd4fceb0d7333c09d",
+                "title": "Uniform Strong Normalization for Multi-discipline Calculi",
+                "year": 2018,
+                "venue": "Workshop on Rewriting Logic and Its Applications",
+                "citation_count": 2,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1405606666",
+                        "name": "Philip Johnson-Freyd"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fed1e97a0c6b05dd2359902bcb663fc4150e0f1d",
+                "title": "Beyond Polarity: Towards a Multi-Discipline Intermediate Language with Sharing",
+                "year": 2018,
+                "venue": "Annual Conference for Computer Science Logic",
+                "citation_count": 15,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "18344f8daf595f91f18fdd6d2b2dff99423087b6",
+                "title": "Compiling without continuations",
+                "year": 2017,
+                "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+                "citation_count": 45,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38504194",
+                        "name": "Luke Maurer"
+                    },
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "2057877925",
+                        "name": "Simon Peyton Jones"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "33191d6b7a8f2b60750400d90fbb03dee89d2c97",
+                "title": "Call-by-name extensionality and confluence",
+                "year": 2017,
+                "venue": "Journal of functional programming",
+                "citation_count": 2,
+                "reference_count": 29,
+                "abstract": "Abstract Designing rewriting systems that respect functional extensionality for call-by-name languages with effects turns out to be surprisingly challenging. Simply interpreting extensional laws like \u03b7 as reduction rules easily breaks confluence. We explore these issues in the setting of a sequent calculus. Building on an insight that appears in different aspects of the theory of call-by-name functional languages\u2014confluent rewriting for two independent control calculi and sound continuation-passing style transformations\u2014we give a confluent reduction system for lazy extensional functions. Finally, we consider limitations to this approach when used for strict evaluation and types beyond functions.",
+                "authors": [
+                    {
+                        "s2_author_id": "1405606666",
+                        "name": "Philip Johnson-Freyd"
+                    },
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0976f25d7bb577e486bf4f43d98c8724254120dd",
+                "title": "Sequent calculus as a compiler intermediate language",
+                "year": 2016,
+                "venue": "ACM SIGPLAN International Conference on Functional Programming",
+                "citation_count": 22,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "38504194",
+                        "name": "Luke Maurer"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "2057877925",
+                        "name": "Simon Peyton Jones"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5eb2ab6cff9da0214e51631005eb49b9b5e5a5ad",
+                "title": "Sequent Calculus as a Compiler Intermediate Language Appendix",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "38504194",
+                        "name": "Luke Maurer"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "2288354965",
+                        "name": "Simon Peyton Jones"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7e6826cea7462fe33f91b30d7b9102cdcc7b0a20",
+                "title": "Sharing control in direct style",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38504194",
+                        "name": "Luke Maurer"
+                    },
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9d945c48027e4a9c41b9510c5849f7e362ec7e97",
+                "title": "First Class Call Stacks: Exploring Head Reduction",
+                "year": 2016,
+                "venue": "IASTED International Multi-Conference on Wireless and Optical Communications",
+                "citation_count": 3,
+                "reference_count": 21,
+                "abstract": "Weak-head normalization is inconsistent with functional extensionality in the call-by-name $\\lambda$-calculus. We explore this problem from a new angle via the conflict between extensionality and effects. Leveraging ideas from work on the $\\lambda$-calculus with control, we derive and justify alternative operational semantics and a sequence of abstract machines for performing head reduction. Head reduction avoids the problems with weak-head reduction and extensionality, while our operational semantics and associated abstract machines show us how to retain weak-head reduction's ease of implementation.",
+                "authors": [
+                    {
+                        "s2_author_id": "1405606666",
+                        "name": "Philip Johnson-Freyd"
+                    },
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ed6a9ee07d55e7b39dfe34f55e35135be627cd11",
+                "title": "Verification by Way of Refinement: A Case Study in the Use of Coq and TLA in the Design of a Safety Critical System",
+                "year": 2016,
+                "venue": "FMICS-AVoCS",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1405606666",
+                        "name": "Philip Johnson-Freyd"
+                    },
+                    {
+                        "s2_author_id": "1731859",
+                        "name": "G. Hulette"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "32bfee060b0a29ad6cba6ba9bb35945d666c3ba1",
+                "title": "Control Controls Extensional Execution",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1405606666",
+                        "name": "Philip Johnson-Freyd"
+                    },
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "626a968c9b3ac5b04c6ec1fde87cc4f76797af9e",
+                "title": "Structures for structural recursion",
+                "year": 2015,
+                "venue": "ACM SIGPLAN International Conference on Functional Programming",
+                "citation_count": 10,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1405606666",
+                        "name": "Philip Johnson-Freyd"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0715d40b6a77766c76c623f9f10ecf4727734100",
+                "title": "Delimited control with multiple prompts in theory and practice",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "119d29be70fe5e8954c5ee6211ea3a96a94e1e1e",
+                "title": "Continuations, Processes, and Sharing",
+                "year": 2014,
+                "venue": "ACM-SIGPLAN International Conference on Principles and Practice of Declarative Programming",
+                "citation_count": 6,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "38504194",
+                        "name": "Luke Maurer"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "2024083",
+                        "name": "Daniele Varacca"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "44861d5d95476640eb30518242d3190e3662804d",
+                "title": "The Duality of Construction",
+                "year": 2014,
+                "venue": "European Symposium on Programming",
+                "citation_count": 22,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "74a9d0473906d89764bf1b9a7b7c0eb1d43b498a",
+                "title": "Compositional semantics for composable continuations",
+                "year": 2014,
+                "venue": "ACM SIGPLAN International Conference on Functional Programming",
+                "citation_count": 7,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1d5727e55fa37dd9dd4c124e0172c774de21d027",
+                "title": "A Systematic Approach to Delimited Control with Multiple Prompts",
+                "year": 2012,
+                "venue": "European Symposium on Programming",
+                "citation_count": 7,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2089b59b20453359b138a181ae10254f2dfa8979",
+                "title": "Classical Call-by-Need Sequent Calculi: The Unity of Semantic Artifacts",
+                "year": 2012,
+                "venue": "Fuji International Symposium on Functional and Logic Programming",
+                "citation_count": 32,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1745154",
+                        "name": "Hugo Herbelin"
+                    },
+                    {
+                        "s2_author_id": "1741156",
+                        "name": "Keiko Nakata"
+                    },
+                    {
+                        "s2_author_id": "2817696",
+                        "name": "A. Saurin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0dbb28fd4cdaf3cfee76e0e18c67ed91a2a7ac8d",
+                "title": "A robust implementation of delimited control",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "952564bbb5b7d060ddafcaf1a87445b5d42c0707",
+                "title": "Classical Call-by-Need and Duality",
+                "year": 2011,
+                "venue": "International Conference on Typed Lambda Calculus and Applications",
+                "citation_count": 29,
+                "reference_count": 53,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1745154",
+                        "name": "Hugo Herbelin"
+                    },
+                    {
+                        "s2_author_id": "2817696",
+                        "name": "A. Saurin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bfce015374fb798fa98e37e646db524ba47b5835",
+                "title": "Classical Call-by-need and duality , extended version ?",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1745154",
+                        "name": "Hugo Herbelin"
+                    },
+                    {
+                        "s2_author_id": "2817696",
+                        "name": "A. Saurin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "65c5b702acdd3646028c60506103c298eb9f35c0",
+                "title": "An overview of the Oregon programming languages summer school",
+                "year": 2010,
+                "venue": "SIGP",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "115223366",
+                        "name": "J.P.B. Allen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1733826",
+                        "name": "P. Curien"
+                    },
+                    {
+                        "s2_author_id": "1730262",
+                        "name": "M. Fluet"
+                    },
+                    {
+                        "s2_author_id": "1775508",
+                        "name": "J. Foster"
+                    },
+                    {
+                        "s2_author_id": "8319903",
+                        "name": "D. Grossman"
+                    },
+                    {
+                        "s2_author_id": "144141297",
+                        "name": "R. Harper"
+                    },
+                    {
+                        "s2_author_id": "1745154",
+                        "name": "Hugo Herbelin"
+                    },
+                    {
+                        "s2_author_id": "2726878",
+                        "name": "Y. Smaragdakis"
+                    },
+                    {
+                        "s2_author_id": "2116409695",
+                        "name": "David Walker"
+                    },
+                    {
+                        "s2_author_id": "1751798",
+                        "name": "Steve Zdancewic"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b0f88cbcfdf792229804619e5d734c6dc923a8ca",
+                "title": "Sequent calculi and abstract machines",
+                "year": 2009,
+                "venue": "TOPL",
+                "citation_count": 25,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1800043",
+                        "name": "A. Bohannon"
+                    },
+                    {
+                        "s2_author_id": "145919330",
+                        "name": "A. Sabry"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eccfc075d5ea0a4be47327e3110c275f92f960f1",
+                "title": "A type-theoretic foundation of delimited continuations",
+                "year": 2009,
+                "venue": "High. Order Symb. Comput.",
+                "citation_count": 39,
+                "reference_count": 64,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1745154",
+                        "name": "Hugo Herbelin"
+                    },
+                    {
+                        "s2_author_id": "145919330",
+                        "name": "A. Sabry"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "16e8dbd871ad6109c8d9a1d3e860d5e6083388c8",
+                "title": "Computational Content of Unique Decomposition Proofs",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2091375475",
+                        "name": "ProofsAmr Sabry"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c2e4f52eaadbfc5c59ffcbf5659906faca03e0f",
+                "title": "A proof-theoretic foundation of abortive continuations",
+                "year": 2007,
+                "venue": "High. Order Symb. Comput.",
+                "citation_count": 27,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1745154",
+                        "name": "Hugo Herbelin"
+                    },
+                    {
+                        "s2_author_id": "145919330",
+                        "name": "A. Sabry"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea2cc0f79052ae4a916704ed9b00bf39d6646c92",
+                "title": "From Syntactic Theories to Interpreters: Automating the Proof of Unique Decomposition",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2265923018",
+                        "name": "Yong Xiao"
+                    },
+                    {
+                        "s2_author_id": "145919330",
+                        "name": "A. Sabry"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fa7c98e0b347a4f3bb1b32aff41fe54044a7d5ba",
+                "title": "New Results - New Computation Paradigms",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1745154",
+                        "name": "Hugo Herbelin"
+                    },
+                    {
+                        "s2_author_id": "1678299",
+                        "name": "Sylvain Lebresne"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "145919330",
+                        "name": "A. Sabry"
+                    },
+                    {
+                        "s2_author_id": "3100550",
+                        "name": "Mircea Dan Hernest"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "32444031262a7ec694214f44717f91ebbd09e695",
+                "title": "Skew and \u03c9-Skew Confluence and Abstract B\u00f6hm Semantics",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "8232657",
+                        "name": "S. Blom"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39f55ec72ce1b4f1c661eed257bb224506fcffd5",
+                "title": "Skew and omega-Skew Confluence and Abstract B\u00f6hm Semantics",
+                "year": 2005,
+                "venue": "Processes, Terms and Cycles",
+                "citation_count": 5,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "8232657",
+                        "name": "S. Blom"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8428009a33ad311b6ad8c5e472c1b9cf59e63984",
+                "title": "A Typed Calculus Supporting Shallow Embeddings of Abstract Machines",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1800043",
+                        "name": "A. Bohannon"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "145919330",
+                        "name": "A. Sabry"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e04e3e1c894760a7f465f5e0d34ccfdf67b60224",
+                "title": "Skew and \u03c9-Skew Confluence and Infinite Normal Forms",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "8232657",
+                        "name": "S. Blom"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e8a1110eb4dba27ecf31ef58a6eec019feb99fb",
+                "title": "From syntactic theories to interpreters: specifying and proving properties",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "2115888479",
+                        "name": "Yong Xiao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5b138c24b52af471121c73a6c1ef6944b725f747",
+                "title": "A type-theoretic foundation of continuations and prompts",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "2259330541",
+                        "name": "Hugo Herbelin"
+                    },
+                    {
+                        "s2_author_id": "2272703010",
+                        "name": "Amr Sabry"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6090f9f43453b8d32cf0f22b6a21283e6f7d6909",
+                "title": "A type-theoretic foundation of continuations and prompts",
+                "year": 2004,
+                "venue": "ACM SIGPLAN International Conference on Functional Programming",
+                "citation_count": 40,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1745154",
+                        "name": "Hugo Herbelin"
+                    },
+                    {
+                        "s2_author_id": "145919330",
+                        "name": "A. Sabry"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d9dfa9d7a63741dffee7b476be7e516402ac45f4",
+                "title": "Minimal Classical Logic and Control Operators",
+                "year": 2003,
+                "venue": "International Colloquium on Automata, Languages and Programming",
+                "citation_count": 92,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1745154",
+                        "name": "Hugo Herbelin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "756ab77fe3cf3ddb511587b8c2daecc1126e363d",
+                "title": "Skew confluence and the lambda calculus with letrec",
+                "year": 2002,
+                "venue": "Annals of Pure and Applied Logic",
+                "citation_count": 50,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "8232657",
+                        "name": "S. Blom"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0b9a1695f7041234572f5e7caf82257d536de8a6",
+                "title": "From Syntactic Theories to Interpreters: Automating the Proof of Unique Decomposition",
+                "year": 2001,
+                "venue": "High. Order Symb. Comput.",
+                "citation_count": 33,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115888479",
+                        "name": "Yong Xiao"
+                    },
+                    {
+                        "s2_author_id": "145919330",
+                        "name": "A. Sabry"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5c006aa0b23267795118084f95cce85890811e0f",
+                "title": "From Synta ti Theories to Interpreters : A Spe i ation Language and Its",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2075320325",
+                        "name": "CompilationYong Xiao"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d42ed4f18d7348b7368399328ef7586cab4627b2",
+                "title": "From Syntactic Theories to Interpreters: A Specification Language and Its Compilation",
+                "year": 2000,
+                "venue": "arXiv.org",
+                "citation_count": 11,
+                "reference_count": 23,
+                "abstract": "Recent years have seen an increasing need of high-level specification languages and tools generating code from specifications. In this paper, we introduce a specification language, {\\splname}, which is tailored to the writing of syntactic theories of language semantics. More specifically, the language supports specifying primitive notions such as dynamic constraints, contexts, axioms, and inference rules. We also introduce a system which generates interpreters from {\\splname} specifications. A prototype system is implemented and has been tested on a number of examples, including a syntactic theory for Verilog.",
+                "authors": [
+                    {
+                        "s2_author_id": "2115888479",
+                        "name": "Yong Xiao"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "2283760",
+                        "name": "Michel Mauny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fb4b66343814eda80f2f3155f03b54f1c12b7044",
+                "title": "Bisimilarity in Term Graph Rewriting",
+                "year": 2000,
+                "venue": "Information and Computation",
+                "citation_count": 24,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1696872",
+                        "name": "J. Klop"
+                    },
+                    {
+                        "s2_author_id": "2968742",
+                        "name": "D. Plump"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "31865befa8db49333d04c26310ec060fe9df2667",
+                "title": "Correctness of monadic state: an imperative call-by-need calculus",
+                "year": 1998,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 30,
+                "reference_count": 38,
+                "abstract": "The extension of Haskell with a built-in state monad combines mathematical elegance with operational efficiency: \u00bfSemantically, at the source language level, constructs that act on the state are viewed as functions that pass an explicit store data structure around. \u00bfOperationally, at the implementation level, constructs that act on the state are viewed as statements whose evaluation has the side-effect of updating the implicit global store in place.There are several unproven conjectures that the two views are consistent.Recently, we have noted that the consistency of the two views is far from obvious: all it takes for the implementation to become unsound is one judiciously-placed beta-step in the optimization phase of the compiler. This discovery motivates the current paper in which we formalize and show the correctness of the implementation of monadic state.For the proof, we first design a typed call-by-need language that models the intermediate language of the compiler, together with a type-preserving compilation map. Second, we show that the compilation is semantics-preserving by proving that the compilation of every source axiom yields an observational equivalence of the target language. Because of the wide semantic gap between the source and target languages, we perform this last step using an additional intermediate language.The imperative call-by-need \u00bf-Calculus is of independent interest for reasoning about system-level Haskell code providing services such as memo-functions, generation of new names, etc., and is the starting point for reasoning about the space usage of Haskell programs.",
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "145919330",
+                        "name": "A. Sabry"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7af7d25927401fa84ed9bc903423f1ebf14c12d4",
+                "title": "Bisimilarity in Term Graph Rewriting Bisimilarity in Term Graph Rewriting",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1696872",
+                        "name": "J. Klop"
+                    },
+                    {
+                        "s2_author_id": "2968742",
+                        "name": "D. Plump"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1696872",
+                        "name": "J. Klop"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e5416351a9ce571fae90ec1d009103560c7a76e",
+                "title": "Cyclic Lambda Calculi",
+                "year": 1997,
+                "venue": "Theoretical Aspects of Computer Software",
+                "citation_count": 67,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "8232657",
+                        "name": "S. Blom"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4cf70cd3ac3a26969e6b62a3df1b8fc145dbb24e",
+                "title": "Confluent rewriting of bisimilar term graphs",
+                "year": 1997,
+                "venue": "International Workshop on Expressiveness in Concurrency",
+                "citation_count": 12,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1696872",
+                        "name": "J. Klop"
+                    },
+                    {
+                        "s2_author_id": "2968742",
+                        "name": "D. Plump"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7a4b36b82abb40a61acb381a53c15f3bb181e7e4",
+                "title": "The call-by-need lambda calculus",
+                "year": 1997,
+                "venue": "Journal of functional programming",
+                "citation_count": 23,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "2247039857",
+                        "name": "M. Felleisen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8e5c517db2428365c35afcbf9f42f4a97a86b36c",
+                "title": "Lambda Calculus with Explicit Recursion",
+                "year": 1997,
+                "venue": "Information and Computation",
+                "citation_count": 71,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1696872",
+                        "name": "J. Klop"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab1178111795458fd560f4d34b31064f4bf2667c",
+                "title": "Narrowing the Narrowing Spa e ?",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1720626",
+                        "name": "S. Antoy"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f27e38f31536ad2b48ee4c6488b310532c160a9f",
+                "title": "Narrowing the Narrowing Space",
+                "year": 1997,
+                "venue": "Symposium on Programming Language Implementation and Logic Programming",
+                "citation_count": 13,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1720626",
+                        "name": "S. Antoy"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f326cc2f27e1da8c47b384259978553028ebe04",
+                "title": "A common intermediate language and its use in partitioning concurrent declarative programs",
+                "year": 1996,
+                "venue": "New generation computing",
+                "citation_count": 2,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "35027886",
+                        "name": "Barton C. Massey"
+                    },
+                    {
+                        "s2_author_id": "1751779",
+                        "name": "M. Sami"
+                    },
+                    {
+                        "s2_author_id": "2986992",
+                        "name": "E. Tick"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "85f9880822e3b54b4ca97bd624a6437d987f8573",
+                "title": "Lambda Calculus with Explicit Recursion Lambda Calculus with Explicit Recursion",
+                "year": 1996,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1696872",
+                        "name": "J. Klop"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1696872",
+                        "name": "J. Klop"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ac155123212a22d84767e8c4545f150c43c226e5",
+                "title": "EQUATIONAL TERM GRAPH REWRITING",
+                "year": 1996,
+                "venue": "Fundamenta Informaticae",
+                "citation_count": 147,
+                "reference_count": 57,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1696872",
+                        "name": "J. Klop"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "13096389fb4dd637f29a63abb1178bbba029f66b",
+                "title": "Properties of a First-Order Functional Language with Sharing",
+                "year": 1995,
+                "venue": "Theoretical Computer Science",
+                "citation_count": 30,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a0966bd36fe2e898eff82283aad17ee360e6f154",
+                "title": "A call-by-need lambda calculus",
+                "year": 1995,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 81,
+                "reference_count": 48,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "2247039857",
+                        "name": "M. Felleisen"
+                    },
+                    {
+                        "s2_author_id": "1746534",
+                        "name": "J. Maraist"
+                    },
+                    {
+                        "s2_author_id": "1795826",
+                        "name": "Martin Odersky"
+                    },
+                    {
+                        "s2_author_id": "2239571954",
+                        "name": "Philip Wadler"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "14528a722c9ed5f5aa961746ae5f2ec0d8c74951",
+                "title": "Syntactic Definitions of Undefined: On Defining the Undefined",
+                "year": 1994,
+                "venue": "Theoretical Aspects of Computer Software",
+                "citation_count": 17,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "7250309",
+                        "name": "R. Kennaway"
+                    },
+                    {
+                        "s2_author_id": "2285844695",
+                        "name": "Jan Willem Kop"
+                    },
+                    {
+                        "s2_author_id": "145557915",
+                        "name": "M. Sleep"
+                    },
+                    {
+                        "s2_author_id": "2093554",
+                        "name": "F. D. Vries"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "260c74600bb7f04dd66b519404b0c076a9e9e1c2",
+                "title": "Compilation of Concurrent Declarative Languages",
+                "year": 1994,
+                "venue": "ICLP Workshop: Integration of Declarative Paradigms",
+                "citation_count": 2,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "35027886",
+                        "name": "Barton C. Massey"
+                    },
+                    {
+                        "s2_author_id": "1751779",
+                        "name": "M. Sami"
+                    },
+                    {
+                        "s2_author_id": "2986992",
+                        "name": "E. Tick"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7cb37c6c95dd92e43c85f7f51e725f9a1fe6083f",
+                "title": "Cyclic lambda graph rewriting",
+                "year": 1994,
+                "venue": "Proceedings Ninth Annual IEEE Symposium on Logic in Computer Science",
+                "citation_count": 62,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1696872",
+                        "name": "J. Klop"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9c57ac9b86af2b58a4d7aba8c3c083d67d3b6c1f",
+                "title": "Graph Rewriting Systems for Eecient Compilation",
+                "year": 1993,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "3285866",
+                        "name": "Arvind"
+                    },
+                    {
+                        "s2_author_id": "2329089869",
+                        "name": "Introduction"
+                    },
+                    {
+                        "s2_author_id": "1979060647",
+                        "name": "E. M. Sleep"
+                    },
+                    {
+                        "s2_author_id": "2093097",
+                        "name": "M. J. Plasmeijer"
+                    },
+                    {
+                        "s2_author_id": "36165989",
+                        "name": "M. van Eekelen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a0d1dbf92abacbcf1dc492962f480c09bbbbb79f",
+                "title": "Order-of-evaluation analysis for destructive updates in strict functional languages with flat aggregates",
+                "year": 1993,
+                "venue": "Conference on Functional Programming Languages and Computer Architecture",
+                "citation_count": 40,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38382205",
+                        "name": "A. V. S. Sastry"
+                    },
+                    {
+                        "s2_author_id": "2827519",
+                        "name": "William D. Clinger"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ce6098f0a7a36e6e061571e3ec7d4f6d09d04454",
+                "title": "Relating graph and term rewriting via B\u00f6hm models",
+                "year": 1993,
+                "venue": "Applicable Algebra in Engineering, Communication and Computing",
+                "citation_count": 6,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "efa8ff35ba512836b774202a8b6e21896699015f",
+                "title": "Graph rewriting systems for efficient compilation",
+                "year": 1993,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "3285866",
+                        "name": "Arvind"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f699994cdc39af7619fe1cb3a24b1226f3801f59",
+                "title": "An algebraic approach to the compilation and operational semantics of functional languages with I-structures",
+                "year": 1992,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8a5cbecae353fbb08bfc9768384168fc015811e0",
+                "title": "Compilation of Id",
+                "year": 1991,
+                "venue": "International Workshop on Languages and Compilers for Parallel Computing",
+                "citation_count": 7,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "3285866",
+                        "name": "Arvind"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e734102cb7a4f07e12b512d78afcbe515048f364",
+                "title": "A syntactic approach to program transformations",
+                "year": 1991,
+                "venue": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+                "citation_count": 26,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "3285866",
+                        "name": "Arvind"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a0bdeabf9f13b26cb9900c72669023675290df84",
+                "title": "P-TAC: a parallel intermediate language",
+                "year": 1989,
+                "venue": "Conference on Functional Programming Languages and Computer Architecture",
+                "citation_count": 23,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "3285866",
+                        "name": "Arvind"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1cb3a558ddf4b686ca0f8f82dac03a443b9b2e7d",
+                "title": "Under Consideration for Publication in J. Functional Programming Delimited Control and Computational Effects",
+                "year": null,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065311",
+                        "name": "P. Downen"
+                    },
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cdcf1cf81659c28712a6f1723fc3e54925b91943",
+                "title": "Under Consideration for Publication in J. Functional Programming Control Reduction Theories: the Benefit of Structural Substitution",
+                "year": null,
+                "venue": "",
+                "citation_count": 22,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1706685",
+                        "name": "Z. Ariola"
+                    },
+                    {
+                        "s2_author_id": "1745154",
+                        "name": "Hugo Herbelin"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2065311",
+                "name": "P. Downen"
+            },
+            {
+                "s2_author_id": "51135694",
+                "name": "Zachary J. Sullivan"
+            },
+            {
+                "s2_author_id": "1405606666",
+                "name": "Philip Johnson-Freyd"
+            },
+            {
+                "s2_author_id": "144689023",
+                "name": "S. Jones"
+            },
+            {
+                "s2_author_id": "35238735",
+                "name": "R. Eisenberg"
+            },
+            {
+                "s2_author_id": "1696872",
+                "name": "J. Klop"
+            },
+            {
+                "s2_author_id": "2968742",
+                "name": "D. Plump"
+            },
+            {
+                "s2_author_id": "2395704",
+                "name": "S. Ghilezan"
+            },
+            {
+                "s2_author_id": "38504194",
+                "name": "Luke Maurer"
+            },
+            {
+                "s2_author_id": "2057877925",
+                "name": "Simon Peyton Jones"
+            },
+            {
+                "s2_author_id": "2288354965",
+                "name": "Simon Peyton Jones"
+            },
+            {
+                "s2_author_id": "1731859",
+                "name": "G. Hulette"
+            },
+            {
+                "s2_author_id": "2024083",
+                "name": "Daniele Varacca"
+            },
+            {
+                "s2_author_id": "1745154",
+                "name": "Hugo Herbelin"
+            },
+            {
+                "s2_author_id": "1741156",
+                "name": "Keiko Nakata"
+            },
+            {
+                "s2_author_id": "2817696",
+                "name": "A. Saurin"
+            },
+            {
+                "s2_author_id": "115223366",
+                "name": "J.P.B. Allen"
+            },
+            {
+                "s2_author_id": "1733826",
+                "name": "P. Curien"
+            },
+            {
+                "s2_author_id": "1730262",
+                "name": "M. Fluet"
+            },
+            {
+                "s2_author_id": "1775508",
+                "name": "J. Foster"
+            },
+            {
+                "s2_author_id": "8319903",
+                "name": "D. Grossman"
+            },
+            {
+                "s2_author_id": "144141297",
+                "name": "R. Harper"
+            },
+            {
+                "s2_author_id": "2726878",
+                "name": "Y. Smaragdakis"
+            },
+            {
+                "s2_author_id": "2116409695",
+                "name": "David Walker"
+            },
+            {
+                "s2_author_id": "1751798",
+                "name": "Steve Zdancewic"
+            },
+            {
+                "s2_author_id": "1800043",
+                "name": "A. Bohannon"
+            },
+            {
+                "s2_author_id": "145919330",
+                "name": "A. Sabry"
+            },
+            {
+                "s2_author_id": "2091375475",
+                "name": "ProofsAmr Sabry"
+            },
+            {
+                "s2_author_id": "2265923018",
+                "name": "Yong Xiao"
+            },
+            {
+                "s2_author_id": "1678299",
+                "name": "Sylvain Lebresne"
+            },
+            {
+                "s2_author_id": "3100550",
+                "name": "Mircea Dan Hernest"
+            },
+            {
+                "s2_author_id": "8232657",
+                "name": "S. Blom"
+            },
+            {
+                "s2_author_id": "2115888479",
+                "name": "Yong Xiao"
+            },
+            {
+                "s2_author_id": "2259330541",
+                "name": "Hugo Herbelin"
+            },
+            {
+                "s2_author_id": "2272703010",
+                "name": "Amr Sabry"
+            },
+            {
+                "s2_author_id": "2075320325",
+                "name": "CompilationYong Xiao"
+            },
+            {
+                "s2_author_id": "2283760",
+                "name": "Michel Mauny"
+            },
+            {
+                "s2_author_id": "2247039857",
+                "name": "M. Felleisen"
+            },
+            {
+                "s2_author_id": "1720626",
+                "name": "S. Antoy"
+            },
+            {
+                "s2_author_id": "35027886",
+                "name": "Barton C. Massey"
+            },
+            {
+                "s2_author_id": "1751779",
+                "name": "M. Sami"
+            },
+            {
+                "s2_author_id": "2986992",
+                "name": "E. Tick"
+            },
+            {
+                "s2_author_id": "1746534",
+                "name": "J. Maraist"
+            },
+            {
+                "s2_author_id": "1795826",
+                "name": "Martin Odersky"
+            },
+            {
+                "s2_author_id": "2239571954",
+                "name": "Philip Wadler"
+            },
+            {
+                "s2_author_id": "7250309",
+                "name": "R. Kennaway"
+            },
+            {
+                "s2_author_id": "2285844695",
+                "name": "Jan Willem Kop"
+            },
+            {
+                "s2_author_id": "145557915",
+                "name": "M. Sleep"
+            },
+            {
+                "s2_author_id": "2093554",
+                "name": "F. D. Vries"
+            },
+            {
+                "s2_author_id": "3285866",
+                "name": "Arvind"
+            },
+            {
+                "s2_author_id": "2329089869",
+                "name": "Introduction"
+            },
+            {
+                "s2_author_id": "1979060647",
+                "name": "E. M. Sleep"
+            },
+            {
+                "s2_author_id": "2093097",
+                "name": "M. J. Plasmeijer"
+            },
+            {
+                "s2_author_id": "36165989",
+                "name": "M. van Eekelen"
+            },
+            {
+                "s2_author_id": "38382205",
+                "name": "A. V. S. Sastry"
+            },
+            {
+                "s2_author_id": "2827519",
+                "name": "William D. Clinger"
+            }
+        ],
+        "total_co_authors": 56,
+        "papers_retrieved": 83
+    }
+}

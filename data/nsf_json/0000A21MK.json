@@ -1,0 +1,547 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A21MK",
+        "name": "Teodora Baluta",
+        "primary_affiliation": "Georgia Institute of Technology",
+        "primary_department": null,
+        "all_affiliations": [
+            "Georgia Institute of Technology"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "GA"
+        ],
+        "perf_cities": [
+            "ATLANTA"
+        ],
+        "org_names": [
+            "Georgia Tech Research Corporation"
+        ],
+        "org_ueis": [
+            "EMW9FC8J3HN4"
+        ],
+        "inst_types": [
+            "nonprofit"
+        ],
+        "emails": [
+            "teobaluta@gatech.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2531010",
+                "title": "CICI:IPAAI: SCRYPTS-AI: Systems and CRYPtographic Tools for Scientific AI",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2026-01-01",
+                "exp_date": "2028-12-31",
+                "award_amount": 899838.0,
+                "total_amount": 899838.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000119295",
+                    "000704877"
+                ],
+                "program_elements": [
+                    "Cybersecurity Innovation"
+                ],
+                "program_codes": [
+                    "802700"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "CSE",
+                "div_abbr": "OAC",
+                "nsf_directorate": null,
+                "fund_division": "Office of Advanced Cyberinfrastructure (OAC)",
+                "cfda_num": "47.070, 47.083",
+                "po_name": "Daniel F. Massey",
+                "keywords": [
+                    "scientific",
+                    "techniques",
+                    "systems",
+                    "cryptographic",
+                    "models",
+                    "collaborative",
+                    "time",
+                    "applications",
+                    "cryptography",
+                    "provenance"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000119295",
+            "000704877"
+        ],
+        "program_elements": [
+            "Cybersecurity Innovation"
+        ],
+        "program_codes": [
+            "802700"
+        ],
+        "program_references": [],
+        "program_ref_codes": [],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "OAC"
+        ],
+        "fund_divisions": [
+            "Office of Advanced Cyberinfrastructure (OAC)"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070, 47.083"
+        ],
+        "program_officers": [
+            "Daniel F. Massey"
+        ],
+        "keywords": [
+            "scientific",
+            "techniques",
+            "systems",
+            "cryptographic",
+            "models",
+            "collaborative",
+            "time",
+            "applications",
+            "cryptography",
+            "provenance",
+            "enable",
+            "extensions",
+            "tools",
+            "discovery",
+            "sensitive",
+            "reproducibility",
+            "training",
+            "learning",
+            "systematic",
+            "toolchains"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.13
+    },
+    "s2_profile": {
+        "s2_author_id": "31512983",
+        "name": "Teodora Baluta",
+        "affiliations": [],
+        "paper_count": 11,
+        "citation_count": 324,
+        "h_index": 8,
+        "papers": [
+            {
+                "s2_paper_id": "e2691aa28954a7cf890cfa27e90f69622e45efa1",
+                "title": "Model Provenance Testing for Large Language Models",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 9,
+                "reference_count": 57,
+                "abstract": "Large language models are increasingly customized through fine-tuning and other adaptations, creating challenges in enforcing licensing terms and managing downstream impacts. Tracking model origins is crucial both for protecting intellectual property and for identifying derived models when biases or vulnerabilities are discovered in foundation models. We address this challenge by developing a framework for testing model provenance: Whether one model is derived from another. Our approach is based on the key observation that real-world model derivations preserve significant similarities in model outputs that can be detected through statistical analysis. Using only black-box access to models, we employ multiple hypothesis testing to compare model similarities against a baseline established by unrelated models. On two comprehensive real-world benchmarks spanning models from 30M to 4B parameters and comprising over 600 models, our tester achieves 90-95% precision and 80-90% recall in identifying derived models. These results demonstrate the viability of systematic provenance verification in production environments even when only API access is available.",
+                "authors": [
+                    {
+                        "s2_author_id": "2202700503",
+                        "name": "Ivica Nikoli\u0107"
+                    },
+                    {
+                        "s2_author_id": "31512983",
+                        "name": "Teodora Baluta"
+                    },
+                    {
+                        "s2_author_id": "1996183398",
+                        "name": "Prateek Saxena"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5fe638d3b11dd41117b0ae6ebcddec5504360e89",
+                "title": "Explaining SAT Solving Using Causal Reasoning",
+                "year": 2023,
+                "venue": "International Conference on Theory and Applications of Satisfiability Testing",
+                "citation_count": 2,
+                "reference_count": 55,
+                "abstract": "The past three decades have witnessed notable success in designing efficient SAT solvers, with modern solvers capable of solving industrial benchmarks containing millions of variables in just a few seconds. The success of modern SAT solvers owes to the widely-used CDCL algorithm, which lacks comprehensive theoretical investigation. Furthermore, it has been observed that CDCL solvers still struggle to deal with specific classes of benchmarks comprising only hundreds of variables, which contrasts with their widespread use in real-world applications. Consequently, there is an urgent need to uncover the inner workings of these seemingly weak yet powerful black boxes. In this paper, we present a first step towards this goal by introducing an approach called CausalSAT, which employs causal reasoning to gain insights into the functioning of modern SAT solvers. CausalSAT initially generates observational data from the execution of SAT solvers and learns a structured graph representing the causal relationships between the components of a SAT solver. Subsequently, given a query such as whether a clause with low literals blocks distance (LBD) has a higher clause utility, CausalSAT calculates the causal effect of LBD on clause utility and provides an answer to the question. We use CausalSAT to quantitatively verify hypotheses previously regarded as\"rules of thumb\"or empirical findings such as the query above. Moreover, CausalSAT can address previously unexplored questions, like which branching heuristic leads to greater clause utility in order to study the relationship between branching and clause management. Experimental evaluations using practical benchmarks demonstrate that CausalSAT effectively fits the data, verifies four\"rules of thumb\", and provides answers to three questions closely related to implementing modern solvers.",
+                "authors": [
+                    {
+                        "s2_author_id": "2144561369",
+                        "name": "Jiong Yang"
+                    },
+                    {
+                        "s2_author_id": "40881410",
+                        "name": "Arijit Shaw"
+                    },
+                    {
+                        "s2_author_id": "31512983",
+                        "name": "Teodora Baluta"
+                    },
+                    {
+                        "s2_author_id": "2917457",
+                        "name": "M. Soos"
+                    },
+                    {
+                        "s2_author_id": "2065685010",
+                        "name": "Kuldeep S. Meel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7d1ec348e56f3bb2df0f81aa08a61de99238d15a",
+                "title": "User-Customizable Transpilation of Scripting Languages",
+                "year": 2023,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 10,
+                "reference_count": 57,
+                "abstract": "A transpiler converts code from one programming language to another. Many practical uses of transpilers require the user to be able to guide or customize the program produced from a given input program. This customizability is important for satisfying many application-specific goals for the produced code such as ensuring performance, readability, ease of exposition or maintainability, compatibility with external environment or analysis tools, and so on. Conventional transpilers are deterministic rule-driven systems often written without offering customizability per user and per program. Recent advances in transpilers based on neural networks offer some customizability to users, e.g. through interactive prompts, but they are still difficult to precisely control the production of a desired output. Both conventional and neural transpilation also suffer from the \"last mile\" problem: they produce correct code on average, i.e., on most parts of a given program, but not necessarily for all parts of it. We propose a new transpilation approach that offers fine-grained customizability and reusability of transpilation rules created by others, without burdening the user to understand the global semantics of the given source program. Our approach is mostly automatic and incremental, i.e., constructs translation rules needed to transpile the given program as per the user's guidance piece-by-piece. Users can rely on existing transpilation rules to translate most of the program correctly while focusing their effort locally, only on parts that are incorrect or need customization. This improves the correctness of the end result. We implement the transpiler as a tool called DuoGlot, which translates Python to Javascript programs, and evaluate it on the popular GeeksForGeeks benchmarks. DuoGlot achieves 90% translation accuracy and so it outperforms all existing translators (both handcrafted and neural-based), while it produces readable code. We evaluate DuoGlot on two additional benchmarks, containing more challenging and longer programs, and similarly observe improved accuracy compared to the other transpilers.",
+                "authors": [
+                    {
+                        "s2_author_id": "2153213445",
+                        "name": "Bo Wang"
+                    },
+                    {
+                        "s2_author_id": "35761740",
+                        "name": "Aashish Kolluri"
+                    },
+                    {
+                        "s2_author_id": "2202700503",
+                        "name": "Ivica Nikoli\u0107"
+                    },
+                    {
+                        "s2_author_id": "31512983",
+                        "name": "Teodora Baluta"
+                    },
+                    {
+                        "s2_author_id": "1996183398",
+                        "name": "Prateek Saxena"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e0c5699a21c4d1464a61823fb2c5525787bb820f",
+                "title": "Unforgeability in Stochastic Gradient Descent",
+                "year": 2023,
+                "venue": "Conference on Computer and Communications Security",
+                "citation_count": 4,
+                "reference_count": 55,
+                "abstract": "Stochastic Gradient Descent (SGD) is a popular training algorithm, a cornerstone of modern machine learning systems. Several security applications benefit from determining if SGD executions are forgeable, i.e., whether the model parameters seen at a given step are obtainable by more than one distinct set of data samples. In this paper, we present the first attempt at proving impossibility of such forgery. We furnish a set of conditions, which are efficiently checkable on concrete checkpoints seen during training runs, under which checkpoints are provably unforgeable at that step. Our experiments show that the conditions are somewhat mild and hence always satisfied at checkpoints sampled in our experiments. Our results sharply contrast prior findings at a high level: We show that checkpoints we find to be provably unforgeable have been deemed to be forgeable using the same methodology and experimental setup suggested in prior work. This discrepancy arises because of unspecified subtleties in definitions. We experimentally confirm that the distinction matters, i.e., small errors amplify during training to produce significantly observable difference in final models trained. We hope our results serve as a cautionary note on the role of algebraic precision in forgery definitions and related security arguments.",
+                "authors": [
+                    {
+                        "s2_author_id": "31512983",
+                        "name": "Teodora Baluta"
+                    },
+                    {
+                        "s2_author_id": "2202700503",
+                        "name": "Ivica Nikoli\u0107"
+                    },
+                    {
+                        "s2_author_id": "2254472775",
+                        "name": "Racchit Jain"
+                    },
+                    {
+                        "s2_author_id": "2267734148",
+                        "name": "Divesh Aggarwal"
+                    },
+                    {
+                        "s2_author_id": "1996183398",
+                        "name": "Prateek Saxena"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "41284c49f521d60eec3b4db6e32878cbdd7ea632",
+                "title": "LPGNet: Link Private Graph Networks for Node Classification",
+                "year": 2022,
+                "venue": "Conference on Computer and Communications Security",
+                "citation_count": 33,
+                "reference_count": 72,
+                "abstract": "Classification tasks on labeled graph-structured data have many important applications ranging from social recommendation to financial modeling. Deep neural networks are increasingly being used for node classification on graphs, wherein nodes with similar features have to be given the same label. Graph convolutional networks (GCNs) are one such widely studied neural network architecture that perform well on this task. However, powerful link-stealing attacks on GCNs have recently shown that even with black-box access to the trained model, inferring which links (or edges) are present in the training graph is practical. In this paper, we present a new neural network architecture called LPGNet for training on graphs with privacy-sensitive edges. LPGNet provides differential privacy (DP) guarantees for edges using a novel design for how graph edge structure is used during training. We empirically show that LPGNet models often lie in the sweet spot between providing privacy and utility: They can offer better utility than \"trivially\" private architectures which use no edge information (e.g., vanilla MLPs) and better resilience against existing link-stealing attacks than vanilla GCNs which use the full edge structure. LPGNet also offers consistently better privacy-utility tradeoffs than DPGCN, which is the state-of-the-art mechanism for retrofitting differential privacy into conventional GCNs, in most of our evaluated datasets.",
+                "authors": [
+                    {
+                        "s2_author_id": "35761740",
+                        "name": "Aashish Kolluri"
+                    },
+                    {
+                        "s2_author_id": "31512983",
+                        "name": "Teodora Baluta"
+                    },
+                    {
+                        "s2_author_id": "2325153717",
+                        "name": "Bryan Hooi"
+                    },
+                    {
+                        "s2_author_id": "1996183398",
+                        "name": "Prateek Saxena"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aaa691fc7db4f725845b9d01e91b40bd675a110b",
+                "title": "Membership Inference Attacks and Generalization: A Causal Perspective",
+                "year": 2022,
+                "venue": "Conference on Computer and Communications Security",
+                "citation_count": 29,
+                "reference_count": 72,
+                "abstract": "Membership inference (MI) attacks highlight a privacy weakness in present stochastic training methods for neural networks. It is not well understood, however, why they arise. Are they a natural consequence of imperfect generalization only? Which underlying causes should we address during training to mitigate these attacks? Towards answering such questions, we propose the first approach to explain MI attacks and their connection to generalization based on principled causal reasoning. We offer causal graphs that quantitatively explain the observed MI attack performance achieved for 6 attack variants. We refute several prior non-quantitative hypotheses that over-simplify or over-estimate the influence of underlying causes, thereby failing to capture the complex interplay between several factors. Our causal models also show a new connection between generalization and MI attacks via their shared causal factors. Our causal models have high predictive power (0.90), i.e., their analytical predictions match with observations in unseen experiments often, which makes analysis via them a pragmatic alternative.",
+                "authors": [
+                    {
+                        "s2_author_id": "31512983",
+                        "name": "Teodora Baluta"
+                    },
+                    {
+                        "s2_author_id": "2072819932",
+                        "name": "Shiqi Shen"
+                    },
+                    {
+                        "s2_author_id": "2386016513",
+                        "name": "S. Hitarth"
+                    },
+                    {
+                        "s2_author_id": "2855848",
+                        "name": "Shruti Tople"
+                    },
+                    {
+                        "s2_author_id": "1996183398",
+                        "name": "Prateek Saxena"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1a57556c6ef814f049f6be69640d5ed33a68a65a",
+                "title": "Private Hierarchical Clustering in Federated Networks",
+                "year": 2021,
+                "venue": "Conference on Computer and Communications Security",
+                "citation_count": 17,
+                "reference_count": 100,
+                "abstract": "Analyzing structural properties of social networks, such as identifying their clusters or finding their central nodes, has many applications. However, these applications are not supported by federated social networks that allow users to store their social contacts locally on their end devices. In the federated regime, users want access to personalized services while also keeping their social contacts private. In this paper, we take a step towards enabling analytics on federated networks with differential privacy guarantees about protecting the user's social contacts. Specifically, we present the first work to compute hierarchical cluster trees using local differential privacy. Our algorithms for computing them are novel and come with theoretical bounds on the quality of the trees learned. Empirically, our differentially private algorithms learn trees that are of comparable quality (with at most about 10% utility loss) to the trees obtained from the non-private algorithms, while having reasonable privacy (0.5 \u0142eq \u03b5 \u0142eq 2). Private hierarchical cluster trees enable new application setups where a service provider can query the community structure around a target user without having their social contacts. We show the utility of such queries by redesigning two state-of-the-art social recommendation algorithms for the federated social network setup. Our recommendation algorithms significantly outperform the baselines that do not use social contacts.",
+                "authors": [
+                    {
+                        "s2_author_id": "35761740",
+                        "name": "Aashish Kolluri"
+                    },
+                    {
+                        "s2_author_id": "31512983",
+                        "name": "Teodora Baluta"
+                    },
+                    {
+                        "s2_author_id": "1996183398",
+                        "name": "Prateek Saxena"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ce76d6d14abdbe0a98b593098e3402733ecc1584",
+                "title": "SynGuar: guaranteeing generalization in programming by example",
+                "year": 2021,
+                "venue": "ESEC/SIGSOFT FSE",
+                "citation_count": 1,
+                "reference_count": 64,
+                "abstract": "Programming by Example (PBE) is a program synthesis paradigm in which the synthesizer creates a program that matches a set of given examples. In many applications of such synthesis (e.g., program repair or reverse engineering), we are to reconstruct a program that is close to a specific target program, not merely to produce some program that satisfies the seen examples. In such settings, we wish that the synthesized program generalizes well, i.e., has as few errors as possible on the unobserved examples capturing the target function behavior. In this paper, we propose the first framework (called SynGuar) for PBE synthesizers that guarantees to achieve low generalization error with high probability. Our main contribution is a procedure to dynamically calculate how many additional examples suffice to theoretically guarantee generalization. We show how our techniques can be used in 2 well-known synthesis approaches: PROSE and STUN (synthesis through unification), for common string-manipulation program benchmarks. We find that often a few hundred examples suffice to provably bound generalization error below 5% with high (\u2265 98%) probability on these benchmarks. Further, we confirm this empirically: SynGuar significantly improves the accuracy of existing synthesizers in generating the right target programs. But with fewer examples chosen arbitrarily, the same baseline synthesizers (without SynGuar) overfit and lose accuracy.",
+                "authors": [
+                    {
+                        "s2_author_id": "2153213445",
+                        "name": "Bo Wang"
+                    },
+                    {
+                        "s2_author_id": "31512983",
+                        "name": "Teodora Baluta"
+                    },
+                    {
+                        "s2_author_id": "35761740",
+                        "name": "Aashish Kolluri"
+                    },
+                    {
+                        "s2_author_id": "1996183398",
+                        "name": "Prateek Saxena"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "46ef96b178f0393f5d01998d7179f347d2e3bbfd",
+                "title": "Scalable Quantitative Verification for Deep Neural Networks",
+                "year": 2020,
+                "venue": "International Conference on Software Engineering",
+                "citation_count": 65,
+                "reference_count": 74,
+                "abstract": "Despite the functional success of deep Neural Networks, their trustworthiness remains a crucial open challenge. To address this challenge, both testing and verification techniques have been proposed. But these existing techniques provide either scalability to large networks or formal guarantees, not both. In this paper, we propose a scalable quantitative verification framework for deep Neural Networks, i.e., a test-driven approach that comes with formal guarantees that a desired probabilistic property is satisfied. Our technique performs enough tests until soundness of a formal probabilistic property can be proven. It can be used to certify properties of both deterministic and randomized DNNs. We implement our approach in a tool called PROVERO and apply it in the context of certifying adversarial robustness of DNNs. In this context, we first show a new attack-agnostic measure of robustness which offers an alternative to purely attack-based methodology of evaluating robustness being reported today. Second, PROVERO provides certificates of robustness for large DNNs, where existing state-of-the-art verification tools fail to produce conclusive results. Our work paves the way forward for verifying properties of distributions captured by real-world deep Neural Networks, with provable guarantees, even where testers only have black-box access to the neural network.",
+                "authors": [
+                    {
+                        "s2_author_id": "31512983",
+                        "name": "Teodora Baluta"
+                    },
+                    {
+                        "s2_author_id": "2775791",
+                        "name": "Zheng Leong Chua"
+                    },
+                    {
+                        "s2_author_id": "3207775",
+                        "name": "Kuldeep S. Meel"
+                    },
+                    {
+                        "s2_author_id": "1750032",
+                        "name": "P. Saxena"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "909f5472713158613f97e10357c69a24cd7e428d",
+                "title": "One Engine To Serve 'em All: Inferring Taint Rules Without Architectural Semantics",
+                "year": 2019,
+                "venue": "Network and Distributed System Security Symposium",
+                "citation_count": 40,
+                "reference_count": 55,
+                "abstract": "Dynamic binary taint analysis has wide applications in the security analysis of commercial-off-the-shelf (COTS) binaries. One of the key challenges in dynamic binary analysis is to specify the taint rules that capture how taint information propagates for each instruction on an architecture. Most of the existing solutions specify taint rules using a deductive approach by summarizing the rules manually after analyzing the instruction semantics. Intuitively, taint propagation reflects on how an instruction input affects its output, and thus can be observed from instruction executions. In this work, we propose an inductive method for taint propagation and develop a universal taint tracking engine that is architecture-agnostic. Our taint engine, TAINTINDUCE, can learn taint rules with minimal architectural knowledge by observing the execution behavior of instructions. To measure its correctness and guide taint rule generation, we define the precise notion of soundness for bit-level taint tracking in this novel setup. In our evaluation, we show that TAINTINDUCE automatically learns rules for 4 widely used architectures: x86, x64, AArch64, and MIPS-I. It can detect vulnerabilities for 24 CVEs in 15 applications on both Linux and Windows over millions of instructions and is comparable with other mature existing tools (TEMU [51], libdft [32], Triton [42]). TAINTINDUCE can be used as a stand-alone taint engine or be used to complement existing taint engines for unhandled instructions. Further, it can be used as a cross-referencing tool to uncover bugs in taint engines, emulation implementations and ISA documentations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2775791",
+                        "name": "Zheng Leong Chua"
+                    },
+                    {
+                        "s2_author_id": "2115638078",
+                        "name": "Yanhao Wang"
+                    },
+                    {
+                        "s2_author_id": "31512983",
+                        "name": "Teodora Baluta"
+                    },
+                    {
+                        "s2_author_id": "1750032",
+                        "name": "P. Saxena"
+                    },
+                    {
+                        "s2_author_id": "2728022",
+                        "name": "Zhenkai Liang"
+                    },
+                    {
+                        "s2_author_id": "3113509",
+                        "name": "Purui Su"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "df7cf6689ae3e851d7f202510fd8ffb28b069274",
+                "title": "Quantitative Verification of Neural Networks and Its Security Applications",
+                "year": 2019,
+                "venue": "Conference on Computer and Communications Security",
+                "citation_count": 114,
+                "reference_count": 119,
+                "abstract": "Neural networks are increasingly employed in safety-critical domains. This has prompted interest in verifying or certifying logically encoded properties of neural networks. Prior work has largely focused on checking existential properties, wherein the goal is to check whether there exists any input that violates a given property of interest. However, neural network training is a stochastic process, and many questions arising in their analysis require probabilistic and quantitative reasoning, i.e., estimating how many inputs satisfy a given property. To this end, our paper proposes a novel and principled framework to quantitative verification of logical properties specified over neural networks. Our framework is the first to provide PAC-style soundness guarantees, in that its quantitative estimates are within a controllable and bounded error from the true count. We instantiate our algorithmic framework by building a prototype tool called NPAQ that enables checking rich properties over binarized neural networks. We show how emerging security analyses can utilize our framework in 3 applications: quantifying robustness to adversarial inputs, efficacy of trojan attacks, and fairness/bias of given neural networks.",
+                "authors": [
+                    {
+                        "s2_author_id": "31512983",
+                        "name": "Teodora Baluta"
+                    },
+                    {
+                        "s2_author_id": "2072819932",
+                        "name": "Shiqi Shen"
+                    },
+                    {
+                        "s2_author_id": "32939696",
+                        "name": "Shweta Shinde"
+                    },
+                    {
+                        "s2_author_id": "3207775",
+                        "name": "Kuldeep S. Meel"
+                    },
+                    {
+                        "s2_author_id": "1750032",
+                        "name": "P. Saxena"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2202700503",
+                "name": "Ivica Nikoli\u0107"
+            },
+            {
+                "s2_author_id": "1996183398",
+                "name": "Prateek Saxena"
+            },
+            {
+                "s2_author_id": "2144561369",
+                "name": "Jiong Yang"
+            },
+            {
+                "s2_author_id": "40881410",
+                "name": "Arijit Shaw"
+            },
+            {
+                "s2_author_id": "2917457",
+                "name": "M. Soos"
+            },
+            {
+                "s2_author_id": "2065685010",
+                "name": "Kuldeep S. Meel"
+            },
+            {
+                "s2_author_id": "2153213445",
+                "name": "Bo Wang"
+            },
+            {
+                "s2_author_id": "35761740",
+                "name": "Aashish Kolluri"
+            },
+            {
+                "s2_author_id": "2254472775",
+                "name": "Racchit Jain"
+            },
+            {
+                "s2_author_id": "2267734148",
+                "name": "Divesh Aggarwal"
+            },
+            {
+                "s2_author_id": "2325153717",
+                "name": "Bryan Hooi"
+            },
+            {
+                "s2_author_id": "2072819932",
+                "name": "Shiqi Shen"
+            },
+            {
+                "s2_author_id": "2386016513",
+                "name": "S. Hitarth"
+            },
+            {
+                "s2_author_id": "2855848",
+                "name": "Shruti Tople"
+            },
+            {
+                "s2_author_id": "2775791",
+                "name": "Zheng Leong Chua"
+            },
+            {
+                "s2_author_id": "3207775",
+                "name": "Kuldeep S. Meel"
+            },
+            {
+                "s2_author_id": "1750032",
+                "name": "P. Saxena"
+            },
+            {
+                "s2_author_id": "2115638078",
+                "name": "Yanhao Wang"
+            },
+            {
+                "s2_author_id": "2728022",
+                "name": "Zhenkai Liang"
+            },
+            {
+                "s2_author_id": "3113509",
+                "name": "Purui Su"
+            },
+            {
+                "s2_author_id": "32939696",
+                "name": "Shweta Shinde"
+            }
+        ],
+        "total_co_authors": 21,
+        "papers_retrieved": 11
+    }
+}

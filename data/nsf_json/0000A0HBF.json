@@ -1,0 +1,3035 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A0HBF",
+        "name": "Rocky Chang",
+        "primary_affiliation": "Calvin University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Calvin University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "MI"
+        ],
+        "perf_cities": [
+            "GRAND RAPIDS"
+        ],
+        "org_names": [
+            "Calvin University"
+        ],
+        "org_ueis": [
+            "NNLQK7LNGL93"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "rocky.chang@calvin.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2519418",
+                "title": "Collaborative Research: CyberTraining: Implementation: Medium: Engaging Scholars in Cybersecurity Analysis: A Laboratory for Teaching and Education (ESCALATE)",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-01",
+                "exp_date": "2028-06-30",
+                "award_amount": 163803.0,
+                "total_amount": 163803.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "CyberTraining - Training-based"
+                ],
+                "program_codes": [
+                    "044Y00"
+                ],
+                "program_references": [
+                    "CI Training and Professionals"
+                ],
+                "program_ref_codes": [
+                    "122Z"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "OAC",
+                "nsf_directorate": null,
+                "fund_division": "Office of Advanced Cyberinfrastructure (OAC)",
+                "cfda_num": "47.070",
+                "po_name": "Sheikh Ghafoor",
+                "keywords": [
+                    "cybersecurity",
+                    "training",
+                    "education",
+                    "through",
+                    "community",
+                    "platform",
+                    "cybertraining",
+                    "teaching",
+                    "network",
+                    "professionals"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "CyberTraining - Training-based"
+        ],
+        "program_codes": [
+            "044Y00"
+        ],
+        "program_references": [
+            "CI Training and Professionals"
+        ],
+        "program_ref_codes": [
+            "122Z"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "OAC"
+        ],
+        "fund_divisions": [
+            "Office of Advanced Cyberinfrastructure (OAC)"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Sheikh Ghafoor"
+        ],
+        "keywords": [
+            "cybersecurity",
+            "training",
+            "education",
+            "through",
+            "community",
+            "platform",
+            "cybertraining",
+            "teaching",
+            "network",
+            "professionals",
+            "hands",
+            "real",
+            "world",
+            "science",
+            "resources",
+            "course",
+            "materials",
+            "national",
+            "educators",
+            "practices"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.63
+    },
+    "s2_profile": {
+        "s2_author_id": "144685860",
+        "name": "Rocky Chang",
+        "affiliations": [],
+        "paper_count": 109,
+        "citation_count": 3392,
+        "h_index": 24,
+        "papers": [
+            {
+                "s2_paper_id": "4337db5e4e68910fdd7091cd4529996e7384cf4c",
+                "title": "When Program Analysis Meets Bytecode Search: Targeted and Efficient Inter-procedural Analysis of Modern Android Apps in BackDroid",
+                "year": 2020,
+                "venue": "Dependable Systems and Networks",
+                "citation_count": 18,
+                "reference_count": 78,
+                "abstract": "Widely-used Android static program analysis tools, e.g., Amandroid and FlowDroid, perform the whole-app inter-procedural analysis that is comprehensive but fundamentally difficult to handle modern (large) apps. The average app size has increased three to four times over five years. In this paper, we explore a new paradigm of targeted inter-procedural analysis that can skip irrelevant code and focus only on the flows of security-sensitive sink APIs. To this end, we propose a technique called on-the-fly bytecode search, which searches the disassembled app bytecode text just in time when a caller needs to be located. In this way, it guides targeted (and backward) inter-procedural analysis step by step until reaching entry points, without relying on a whole-app graph. Such search-based inter-procedural analysis, however, is challenging due to Java polymorphism, callbacks, asynchronous flows, static initializers, and inter-component communication in Android apps. We overcome these unique obstacles in our context by proposing a set of bytecode search mechanisms that utilize flexible searches and forward object taint analysis. Atop this new inter-procedural analysis, we further adjust the traditional backward slicing and forward constant propagation to provide the complete dataflow tracking of sink API calls. We have implemented a prototype called BackDroid and compared it with Amandroid in analyzing 3,178 modern popular apps for crypto and SSL misconfigurations. The evaluation shows that for such sink-based problems, BackDroid is 37 times faster (2.13v.s. 78.15 minutes) and has no timed-out failure (v.s. 35% in Amandroid) while maintaining close or even better detection effectiveness.",
+                "authors": [
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "38580953",
+                        "name": "Debin Gao"
+                    },
+                    {
+                        "s2_author_id": "1713669",
+                        "name": "R. Deng"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e4b5b3567c989525a72992177e23295f10a955d",
+                "title": "Understanding Open Ports in Android Applications: Discovery, Diagnosis, and Security Assessment",
+                "year": 2019,
+                "venue": "Network and Distributed System Security Symposium",
+                "citation_count": 25,
+                "reference_count": 85,
+                "abstract": "\u2014Open TCP/UDP ports are traditionally used by servers to provide application services, but they are also found in many Android apps. In this paper, we present the \ufb01rst open-port analysis pipeline, covering the discovery, diagnosis, and security assessment, to systematically understand open ports in Android apps and their threats. We design and deploy a novel on-device crowdsourcing app and its server-side analytic engine to continuously monitor open ports in the wild. Over a period of ten months, we have collected over 40 million port monitoring records from 3,293 users in 136 countries worldwide, which allow us to observe the actual execution of open ports in 925 popular apps and 725 built-in system apps. The crowdsourcing also provides us a more accurate view of the pervasiveness of open ports in Android apps at 15.3%, much higher than the previous estimation of 6.8%. We also develop a new static diagnostic tool to reveal that 61.8% of the open-port apps are solely due to embedded SDKs, and 20.7% suffer from insecure API usages. Finally, we perform three security assessments of open ports: (i) vulnerability analysis revealing \ufb01ve vulnerability patterns in open ports of popular apps, e.g., Instagram, Samsung Gear, Skype, and the widely-embedded Facebook SDK, (ii) inter-device connectivity measurement in 224 cellular networks and 2,181 WiFi networks through crowdsourced network scans, and (iii) experimental demonstration of effective denial-of-service attacks against mobile open ports.",
+                "authors": [
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "38580953",
+                        "name": "Debin Gao"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2057802027",
+                        "name": "En He"
+                    },
+                    {
+                        "s2_author_id": "2065661591",
+                        "name": "E. Cheng"
+                    },
+                    {
+                        "s2_author_id": "1713669",
+                        "name": "R. Deng"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "77b9d8828b61b4ac9e43657d3520269f5be0216f",
+                "title": "An Empirical Study of Mobile Network Behavior and Application Performance in the Wild",
+                "year": 2019,
+                "venue": "International Workshop on Quality of Service",
+                "citation_count": 3,
+                "reference_count": 56,
+                "abstract": "Monitoring mobile network performance is critical for optimizing the QoE of mobile apps. Until now, few studies have considered the actual network performance that mobile apps experience in a per-app or per-server granularity. In this paper, we analyze a two-year-long dataset collected by a crowdsourcing per-app measurement tool to gain new insights into mobile network behavior and application performance. We observe that only a small portion of WiFi networks can work in high-speed mode, and more than one-third of the observed ISPs still have not deployed 4G networks. For cellular networks, the DNS settings on smartphones can have a significant impact on mobile app network performance. Moreover, we notice that instant messaging (IM) and voice over IP (VoIP) services nowadays are not as performant as Web services, because the traffic using XMPP experiences longer latencies than HTTPS. We propose an automatic performance degradation detection and localization method for finding possible network problems in our huge, imbalanced and sparse dataset. Our evaluation and case studies show that our method is effective and the running time is acceptable.",
+                "authors": [
+                    {
+                        "s2_author_id": "2145405109",
+                        "name": "Shiwei Zhang"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "1629141170",
+                        "name": "Bo Jin"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "38580953",
+                        "name": "Debin Gao"
+                    },
+                    {
+                        "s2_author_id": "2154459245",
+                        "name": "Yi Wang"
+                    },
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2e666b698494db673801d11098180a8e135052c7",
+                "title": "Magic Train: Design of Measurement Methods against Bandwidth Inflation Attacks",
+                "year": 2018,
+                "venue": "IEEE Transactions on Dependable and Secure Computing",
+                "citation_count": 6,
+                "reference_count": 48,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2087089712",
+                        "name": "Peng Zhou"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "3341801",
+                        "name": "Xiaojing Gu"
+                    },
+                    {
+                        "s2_author_id": "143750306",
+                        "name": "M. Fei"
+                    },
+                    {
+                        "s2_author_id": "49640041",
+                        "name": "Jianying Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4ef7bda1225d86eb0cc12a116ae3b24ca3a1d115",
+                "title": "Toward Accurate Network Delay Measurement on Android Phones",
+                "year": 2018,
+                "venue": "IEEE Transactions on Mobile Computing",
+                "citation_count": 12,
+                "reference_count": 57,
+                "abstract": "Measuring and understanding the performance of mobile networks is becoming very important for end users and operators. Despite the availability of many measurement apps, their measurement accuracy has not received sufficient scrutiny. In this paper, we appraise the accuracy of smartphone-based network performance measurement using the Android platform and the network round-trip time (RTT) as the metric. We show that two of the most popular measurement apps\u2014Ookla Speedtest and MobiPerf\u2014have their RTT measurements inflated. We build three test apps for three common measurement methods and evaluate them in a testbed. We overcome the main challenge of obtaining a complete trace of packets and their timestamps using multiple sniffers and frame-based synchronization. Our multi-layer analysis reveals that the delay inflation can be introduced both in the user space and kernel space. The long path of subfunction invocations accounts for the majority of the delay overhead in the Android runtime (both Dalvik VM and ART), and the sleeping functions in the drivers are the major source of the delay overhead between the kernel and physical layer. We propose and implement a native measurement app to mitigate the delay overhead in the Android runtime, and the resulted delay inflation in the user space can be kept under 1.5 ms for almost all cases.",
+                "authors": [
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "853e982655e28283d91697418c5e341f07369a36",
+                "title": "Enhancing the experience of multiplayer shooter games via advanced lag compensation",
+                "year": 2018,
+                "venue": "ACM SIGMM Conference on Multimedia Systems",
+                "citation_count": 17,
+                "reference_count": 30,
+                "abstract": "In multiplayer shooter games, lag compensation is used to mitigate the effects of network latency, or lag. Traditional lag compensation (TLC), however, introduces an inconsistency known as \"shot behind covers\" (SBC), especially to less lagged players. A few recent games ameliorate this problem by compensating only players with lag below a certain limit. This forces sufficiently lagged players to aim ahead of their targets, which is difficult and unrealistic. In this paper, we present a novel advanced lag compensation (ALC) algorithm. Based on TLC, this new algorithm retains the benefits of lag compensation but without compromising less lagged players or compensating only certain players. To evaluate ALC, we have invited players to play an FPS game we build from scratch and answer questions after each match. Comparing with TLC, ALC reduces the number of SBC by 94.1%, and a significant drop in the number of SBC reported by players during matches (p < .05) and the perceived SBC frequency collected at the end of each match (p < .05). ALC and TLC also share a similar hit registration accuracy (p = .158 and p = .18) and responsiveness (p = .317).",
+                "authors": [
+                    {
+                        "s2_author_id": "2108322382",
+                        "name": "Steven W. K. Lee"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "066020c02faed82d7dc1ff768ef06842fb129f78",
+                "title": "Detecting Low-Quality Workers in QoE Crowdtesting: A Worker Behavior-Based Approach",
+                "year": 2017,
+                "venue": "IEEE transactions on multimedia",
+                "citation_count": 30,
+                "reference_count": 50,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d2ace0093bca0748a5d4941b105ccd022efbca9",
+                "title": "MopEye: Opportunistic Monitoring of Per-app Mobile Network Performance",
+                "year": 2017,
+                "venue": "USENIX Annual Technical Conference",
+                "citation_count": 24,
+                "reference_count": 47,
+                "abstract": "Crowdsourcing mobile user's network performance has become an effective way of understanding and improving mobile network performance and user quality-of-experience. However, the current measurement method is still based on the landline measurement paradigm in which a measurement app measures the path to fixed (measurement or web) servers. In this work, we introduce a new paradigm of measuring per-app mobile network performance. We design and implement Mop-Eye, an Android app to measure network round-trip delay for each app whenever there is app traffic. This opportunistic measurement can be conducted automatically without user intervention. Therefore, it can facilitate a large-scale and long-term crowdsourcing of mobile network performance. In the course of implementing Mop-Eye, we have overcome a suite of challenges to make the continuous latency monitoring lightweight and accurate. We have deployed MopEye to Google Play for an IRB-approved crowdsourcing study in a period of ten months, which obtains over five million measurements from 6,266 Android apps on 2,351 smartphones. The analysis reveals a number of new findings on the per-app network performance and mobile DNS performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "2065661591",
+                        "name": "E. Cheng"
+                    },
+                    {
+                        "s2_author_id": "38580953",
+                        "name": "Debin Gao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9c871c3e4633bd686a08776d008acd6c418b7389",
+                "title": "On \"shot around a corner\" in first-person shooter games",
+                "year": 2017,
+                "venue": "2017 15th Annual Workshop on Network and Systems Support for Games (NetGames)",
+                "citation_count": 17,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108322382",
+                        "name": "Steven W. K. Lee"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04a23d7dbd3d1ebbaa974c40181c6df2843afc28",
+                "title": "IRate: Initial Video Bitrate Selection System for HTTP Streaming",
+                "year": 2016,
+                "venue": "IEEE Journal on Selected Areas in Communications",
+                "citation_count": 23,
+                "reference_count": 59,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "14c1ff71c426ec15ce6035463b7c5b4c57d6a8ea",
+                "title": "How Smooth is an ISP Changeover Process",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "1746454",
+                        "name": "W. Fok"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3d02fb47f5def0adef2482181ef5fe62ff7c49bd",
+                "title": "ACM CoNEXT 2016 Student Workshop",
+                "year": 2016,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "145991708",
+                        "name": "H. Seferoglu"
+                    },
+                    {
+                        "s2_author_id": "2562998",
+                        "name": "Laurent Vanbever"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4b9bcd6bbad8ae56d147a5ba933f6dd29d60f0fb",
+                "title": "Harvesting File Download Exploits in the Web: A Hacker's View",
+                "year": 2016,
+                "venue": "Computer/law journal",
+                "citation_count": 1,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2087089712",
+                        "name": "Peng Zhou"
+                    },
+                    {
+                        "s2_author_id": "3341801",
+                        "name": "Xiaojing Gu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75324c08d87287bb549456eb716f20b2baae1102",
+                "title": "MopEye: Monitoring Per-app Network Performance with Zero Measurement Traffic",
+                "year": 2016,
+                "venue": "arXiv.org",
+                "citation_count": 3,
+                "reference_count": 11,
+                "abstract": "Mobile network performance measurement is important for understanding mobile user experience, problem diagnosis, and service comparison. A number of crowdsourcing measurement apps (e.g., MobiPerf [4, 6] and Netalyzr [5, 7]) have been embarked for the last few years. Unlike existing apps that use active measurement methods, we employ a novel passive-active approach to continuously monitor per-app network performance on unrooted smartphones without injecting additional network trac. By leveraging the VpnService API on Android, MopEye, our measurement app, intercepts all network trac and then relays them to their destinations using socket APIs. Therefore, not only MopEye can measure the round-trip time accurately, it can do so without injecting additional trac. As a result, the bandwidth cost (and monetary cost of data usage) for conducting such a measurement is eliminated, and the measurement can be conducted free of user intervention. Our evaluation shows that MopEye\u2019s RTT measurement is very close to result of tcpdump and is more accurate than MobiPerf. We have used MopEye to conduct a one-week measurement revealing multiple interesting ndings on dierent apps\u2019 performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "38580953",
+                        "name": "Debin Gao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8729fa0c0217d6a5984e7d1778313e392685fc43",
+                "title": "Demystifying and Puncturing the Inflated Delay in Smartphone-based WiFi Network Measurement",
+                "year": 2016,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 8,
+                "reference_count": 39,
+                "abstract": "Using network measurement apps has become a very effective approach to crowdsourcing WiFi network performance data. However, these apps usually measure the user-level performance metrics instead of the network-level performance which is important for diagnosing performance problems. In this paper we report for the first time that a major source of measurement noises comes from the periodical SDIO (Secure Digital Input Output) bus sleep inside the phone. The additional latency introduced by SDIO and Power Saving Mode can inflate and unstablize network delay measurement significantly. We carefully design and implement a scheme to wake up the phone for delay measurement by sending just enough warm-up and background traffic. Our evaluation results show that the overall median delay overheads can be kept within 3ms, regardless of the actual network delay.",
+                "authors": [
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cd481dc621a8f52ed2b777b4498a8afd25343ce5",
+                "title": "Time to Measure the Pi",
+                "year": 2016,
+                "venue": "ACM/SIGCOMM Internet Measurement Conference",
+                "citation_count": 11,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2689118",
+                        "name": "Peter Membrey"
+                    },
+                    {
+                        "s2_author_id": "144572469",
+                        "name": "D. Veitch"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1a62e5cc29fd5e0dfea5602f9812e43ad7057025",
+                "title": "Evaluation of lag-related configurations in first-person shooter games",
+                "year": 2015,
+                "venue": "Network and System Support for Games",
+                "citation_count": 17,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "120531007",
+                        "name": "W. Lee"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2b8455c7e74c0692039080a6beedefce8853c4b6",
+                "title": "Indirect File Leaks in Mobile Applications",
+                "year": 2015,
+                "venue": "arXiv.org",
+                "citation_count": 23,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "47982276be9f0354cf7e69f83a47b3844f965748",
+                "title": "On the accuracy of smartphone-based mobile network measurement",
+                "year": 2015,
+                "venue": "IEEE Conference on Computer Communications",
+                "citation_count": 26,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5c7e6e90b5a2c1d532199a853eedf6f7831553b8",
+                "title": "Detecting low-quality crowdtesting workers",
+                "year": 2015,
+                "venue": "International Workshop on Quality of Service",
+                "citation_count": 10,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6928661f779e1831eef00f36c72348aa8ffdc657",
+                "title": "Improving the Packet Send-Time Accuracy in Embedded Devices",
+                "year": 2015,
+                "venue": "Passive and Active Network Measurement Conference",
+                "citation_count": 4,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b66244e1f65fa68d31f119376d8aca627dd82fee",
+                "title": "Cross-Platform Analysis of Indirect File Leaks in Android and iOS Applications",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 54,
+                "abstract": "Today, much of our sensitive information is stored inside mobile applications (apps), such as the browsing histories and chatting logs. To safeguard these privacy files, modern mobile systems, notably Android and iOS, use sandboxes to isolate apps' file zones from one another. However, we show in this paper that these private files can still be leaked by indirectly exploiting components that are trusted by the victim apps. In particular, we devise new indirect file leak (IFL) attacks that exploit browser interfaces, command interpreters, and embedded app servers to leak data from very popular apps, such as Evernote and QQ. Unlike the previous attacks, we demonstrate that these IFLs can affect both Android and iOS. Moreover, our IFL methods allow an adversary to launch the attacks remotely, without implanting malicious apps in victim's smartphones. We finally compare the impacts of four different types of IFL attacks on Android and iOS, and propose several mitigation methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c2c8cd272cc27f8c599aa01198397f28bf953b06",
+                "title": "An automated testbed for profiling the packet send-time accuracy of embedded devices",
+                "year": 2015,
+                "venue": "IoT",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": "Embedded devices, such as home routers and single-board computers, are becoming more powerful and affordable. Many of the existing Linux-based network measurement tools can also be run on these devices through cross-compilation. These features provide more incentive for network administrators and researchers to employ them as network measurement probes. Large-scale measurement projects, such as BISMark and RIPE, have already deployed more than hundreds of these devices to measure the Internet from the edge. Our previous work shows that these embedded devices have much lower packet send-time accuracy compared to commodity PC. The lower accuracy limits their ability to acquire sound measurement results in high-speed networks. In this poster, we present an automated testbed to systematically benchmark the performance of four popular embedded devices (Raspberry Pi I & II, ECS LIVA, and TP-LINK Travel Router) and determine the network types that they can accurately measure. We employ OMware, a kernel-space module, to measure their performance in the testbed. The results can be visualized through a web interface, thus enabling users to compare various devices easily.",
+                "authors": [
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "123372377",
+                        "name": "Kwok-Wun Yung"
+                    },
+                    {
+                        "s2_author_id": "71775098",
+                        "name": "Ching-ho Chan"
+                    },
+                    {
+                        "s2_author_id": "122099989",
+                        "name": "Yat-Sing Poon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "54d94349862e583b6dc51e3633be35eaed1edc25",
+                "title": "Modeling the Vulnerability of Feedback-Control Based Internet Services to Low-Rate DoS Attacks",
+                "year": 2014,
+                "venue": "IEEE Transactions on Information Forensics and Security",
+                "citation_count": 51,
+                "reference_count": 53,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39270544",
+                        "name": "Yajuan Tang"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1701100",
+                        "name": "Qing Hui"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8bf8435c5bd2fdb7d67dc00e00fdc5956296d834",
+                "title": "A Sink-driven Approach to Detecting Exposed Component Vulnerabilities in Android Apps",
+                "year": 2014,
+                "venue": "arXiv.org",
+                "citation_count": 14,
+                "reference_count": 39,
+                "abstract": "Android apps could expose their components for cooperating with other apps. This convenience, however, makes apps susceptible to the exposed component vulnerability (ECV), in which a dangerous API (commonly known as sink) inside its component can be triggered by other (malicious) apps. In the prior works, detecting these ECVs use a set of sinks pertaining to the ECVs under detection. In this paper, we argue that a more comprehensive and effective approach should start by a systematic selection and classification of vulnerability-specific sinks (VSinks). The set of VSinks is much larger than those used in the previous works. Based on these VSinks, our sink-driven approach can detect different kinds of ECVs in an app in two steps. First, VSinks and their categories are identified through a typical forward reachability analysis. Second, based on each VSink's category, a corresponding detection method is used to identify the ECV via a customized backward dataflow analysis. We also design a semi-auto guided analysis and validation capability for system-only broadcast checking to remove some false positives. We implement our sink-driven approach in a tool called ECVDetector and evaluate it with the top 1K Android apps. Using ECVDetector we successfully identify a total of 49 vulnerable apps across all four ECV categories we have defined. To our knowledge, most of them are previously undisclosed, such as the very popular Go SMS Pro and Clean Master. Moreover, the performance of ECVDetector is high, requiring only 9.257 seconds on average to process each component.",
+                "authors": [
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a79b792468ec35bfda4b3d42e1739a3ca97085b3",
+                "title": "A user behavior based cheat detection mechanism for crowdtesting",
+                "year": 2014,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 2,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e6b3b3a81e5d865d6883fb2cf3bb8f11a8e9bfdf",
+                "title": "Analyzing Android Browser Apps for file: // Vulnerabilities",
+                "year": 2014,
+                "venue": "Information Security Conference",
+                "citation_count": 33,
+                "reference_count": 29,
+                "abstract": "Securing browsers in mobile devices is very challenging, because these browser apps usually provide browsing services to other apps in the same device. A malicious app installed in a device can potentially obtain sensitive information through a browser app. In this paper, we identify four types of attacks in Android, collectively known as FileCross, that exploits the vulnerable file:// to obtain users\u2019 private files, such as cookies, bookmarks, and browsing histories. We design an automated system to dynamically test 115 browser apps collected from Google Play and find that 64 of them are vulnerable to the attacks. Among them are the popular Firefox, Baidu and Maxthon browsers, and the more application-specific ones, including UC Browser HD for tablet users, Wikipedia Browser, and Kids Safe Browser. A detailed analysis of these browsers further shows that 26 browsers (23%) expose their browsing interfaces unintentionally. In response to our reports, the developers concerned promptly patched their browsers by forbidding file:// access to private file zones, disabling JavaScript execution in file:// URLs, or even blocking external file:// URLs. We employ the same system to validate the ten patches received from the developers and find one still failing to block the vulnerability.",
+                "authors": [
+                    {
+                        "s2_author_id": "2436656",
+                        "name": "Daoyuan Wu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08ec4f13226237e55c80f80651f91d8473b5c656",
+                "title": "SGor: Trust graph based onion routing",
+                "year": 2013,
+                "venue": "Comput. Networks",
+                "citation_count": 13,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2087089678",
+                        "name": "Peng Zhou"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "11c696a2c0a03997fe2c76d1d220ba492d924e8f",
+                "title": "OMware: an open measurement ware for stable residential broadband measurement",
+                "year": 2013,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 1,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49449002",
+                        "name": "Lei Xue"
+                    },
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "265eb20913ef58c783289ab40a6e0d89329679bd",
+                "title": "MonoScope: Automating network faults diagnosis based on active measurements",
+                "year": 2013,
+                "venue": "IFIP/IEEE Symposium on Integrated Network Management",
+                "citation_count": 15,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1746454",
+                        "name": "W. Fok"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "46399196",
+                        "name": "Yujing Liu"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3528f48a2b110168a2a9d180485300aa20f94815",
+                "title": "An efficient approach to multi-level route analytics",
+                "year": 2013,
+                "venue": "IFIP/IEEE Symposium on Integrated Network Management",
+                "citation_count": 2,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1746454",
+                        "name": "W. Fok"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "36bd5ec0416ad2dd93df31bf9a1050004ee93439",
+                "title": "Passive and Active Measurement",
+                "year": 2013,
+                "venue": "Lecture Notes in Computer Science",
+                "citation_count": 12,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1751891",
+                        "name": "M. Roughan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6b01d225144c0deea5105f6d444174cfa333c417",
+                "title": "Proceedings of the 14th international conference on Passive and Active Measurement",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1751891",
+                        "name": "M. Roughan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6dca1080f9dd498bf353e18c02d9116020b446df",
+                "title": "Characterizing Inter-Domain Rerouting by Betweenness Centrality after Disruptive Events",
+                "year": 2013,
+                "venue": "IEEE Journal on Selected Areas in Communications",
+                "citation_count": 23,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46399196",
+                        "name": "Yujing Liu"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "39363506",
+                        "name": "Jinshu Su"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e030fd0a610ff8bd1b5816dae6a33e41c74af326",
+                "title": "Inference attacks against trust-based onion routing: Trust degree to the rescue",
+                "year": 2013,
+                "venue": "Computers & security",
+                "citation_count": 9,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2087089678",
+                        "name": "Peng Zhou"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "104a80c701b4041b3d8e99e0438e3f71dec2632e",
+                "title": "Robust Network Covert Communications Based on TCP and Enumerative Combinatorics",
+                "year": 2012,
+                "venue": "IEEE Transactions on Dependable and Secure Computing",
+                "citation_count": 34,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "2087089678",
+                        "name": "Peng Zhou"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4cd707847d943b7faf319500d20e52ad495d56eb",
+                "title": "Characterizing Inter-domain Rerouting after Japan Earthquake",
+                "year": 2012,
+                "venue": "Networking",
+                "citation_count": 13,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46399196",
+                        "name": "Yujing Liu"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "39363506",
+                        "name": "Jinshu Su"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9750007ec312b8512a644d2be8923bfb984d5944",
+                "title": "QDASH: a QoE-aware DASH system",
+                "year": 2012,
+                "venue": "ACM SIGMM Conference on Multimedia Systems",
+                "citation_count": 377,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9db79cb92c991c0065534ad2622ed625741fbcb5",
+                "title": "LDC: Detecting BGP Prefix Hijacking by Load Distribution Change",
+                "year": 2012,
+                "venue": "2012 IEEE 26th International Parallel and Distributed Processing Symposium Workshops & PhD Forum",
+                "citation_count": 5,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46399196",
+                        "name": "Yujing Liu"
+                    },
+                    {
+                        "s2_author_id": "39363506",
+                        "name": "Jinshu Su"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b80c5c442703f38bdf11654b94065545ed8123de",
+                "title": "More Anonymity through Trust Degree in Trust-Based Onion Routing",
+                "year": 2012,
+                "venue": "Security and Privacy in Communication Networks",
+                "citation_count": 3,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2087089678",
+                        "name": "Peng Zhou"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02160860e66ac561530f7339ad343781a055147b",
+                "title": "Measuring the quality of experience of HTTP video streaming",
+                "year": 2011,
+                "venue": "IFIP/IEEE Symposium on Integrated Network Management",
+                "citation_count": 525,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05b7750cbdd316e1041fbb6c4b589688b378eb95",
+                "title": "A combinatorial approach to network covert communications with applications in Web Leaks",
+                "year": 2011,
+                "venue": "Dependable Systems and Networks",
+                "citation_count": 20,
+                "reference_count": 47,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "2087089678",
+                        "name": "Peng Zhou"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "1738428",
+                        "name": "Wenke Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "10780c4544be5ba3baa5e1f712117411f7fb7c43",
+                "title": "An integrative multi-level analysis of internet path changes",
+                "year": 2011,
+                "venue": "CoNEXT '11 Student",
+                "citation_count": 0,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2b4373169bab1114d5bde52c269d392b74225fb9",
+                "title": "Inferring the QoE of HTTP video streaming from user-viewing activities",
+                "year": 2011,
+                "venue": "W-MUST '11",
+                "citation_count": 164,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3b00ce776aa36ae4cdcb9d96d219bad61d5d510e",
+                "title": "HTTPOS: Sealing Information Leaks with Browser-side Obfuscation of Encrypted Flows",
+                "year": 2011,
+                "venue": "Network and Distributed System Security Symposium",
+                "citation_count": 194,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "2087089678",
+                        "name": "Peng Zhou"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "1738428",
+                        "name": "Wenke Lee"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2822260",
+                        "name": "R. Perdisci"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3cf27f6ffe95c1f215eda90bbfd2d37f8ad89786",
+                "title": "STor: Social Network based Anonymous Communication in Tor",
+                "year": 2011,
+                "venue": "arXiv.org",
+                "citation_count": 9,
+                "reference_count": 71,
+                "abstract": "Anonymity networks hide user identities with the help of relayed anonymity routers. However, the state-of-the-art anonymity networks do not provide an effective trust model. As a result, users cannot circumvent malicious or vulnerable routers, thus making them susceptible to malicious router based attacks (e.g., correlation attacks). In this paper, we propose a novel social network based trust model to help anonymity networks circumvent malicious routers and obtain secure anonymity. In particular, we design an input independent fuzzy model to determine trust relationships between friends based on qualitative and quantitative social attributes, both of which can be readily obtained from existing social networks. Moreover, we design an algorithm for propagating trust over an anonymity network. We integrate these two elements in STor, a novel social network based Tor. We have implemented STor by modifying the Tor's source code and conducted experiments on PlanetLab to evaluate the effectiveness of STor. Both simulation and PlanetLab experiment results have demonstrated that STor can achieve secure anonymity by establishing trust-based circuits in a distributed way. Although the design of STor is based on Tor network, the social network based trust model can be adopted by other anonymity networks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2087089712",
+                        "name": "Peng Zhou"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4758089fa45b33d1350b9165af71adcc2e4955a3",
+                "title": "TRIO: measuring asymmetric capacity with three minimum round-trip times",
+                "year": 2011,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 15,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699710",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "58933b4b036037b06cea33621d89fc49e11c083c",
+                "title": "Non-cooperative Diagnosis of Submarine Cable Faults",
+                "year": 2011,
+                "venue": "Passive and Active Network Measurement Conference",
+                "citation_count": 19,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1746454",
+                        "name": "W. Fok"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "67c44980f9dce36f89be1cc69e71d8da4ff69990",
+                "title": "Centralizing the Power Saving Mode for 802.11 Infrastructure Networks",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 38,
+                "abstract": "With the rapid development of wireless networks, efficient energy management for wireless LAN (WLAN) has become an important problem, because mobile devices\u2019 availability is determined by their stringent batteries power. Quite a few sources of energy consumption have been identified (Narseo et al., 2010), among which the wireless communication component uses up a significant amount of energy. For instance, the Motorola Droid phone consumes around 200mW with the backlight off, close to 400mW with the backlight on, and over 800mW when the Wi-Fi radio is active (Zeng et al., 2011). This chapter focuses on improving the energy efficiency of wireless communication component, because they may consume up to 50% of the total energy. Various mechanisms have been proposed to balance between communication quality and energy consumption for wireless devices, for example, power saving mode (PSM) that puts an idle client into a low-power mode (Gast, 2005), transmission power control (Nuggehalli et al., 2002), packet transmission scheduling (Qiao et al., 2003; Tarello et al., 2005), and some cross-layer methods (Anastasi et al., 2007). They investigate the trade-off between energy consumption and throughput (Gao et al., 2010; Zhang & Chanson, 2003), delay (Guha et al., 2010; Nuggehalli et al., 2002; 2006), or network utility (Chiang & Bell, 2004). In this chapter, we propose a centralized PSM (C-PSM), an AP-centric deployment of the IEEE 802.11 PSM, to optimize power saving and multiple performance metrics for infrastructure networks which are widely deployed in enterprise, campus, and metropolitan networks. In these networks, wireless clients (e.g., laptops, PDAs and mobile phones) using the IEEE 802.11 infrastructure mode connect to the Internet through an access point (AP). The experiment results show that significant improvements can be obtained from the new deployment of C-PSM. The IEEE 802.11 PSM, widely used in WLAN, allows an idle client to go into a sleep mode. Hereafter, we use PSM to refer to the IEEE 802.11 PSM. The clients save energy by sleeping while wakes up periodically to receive beacon frames from AP. The beacon frame, sent by an access point (AP) every beacon interval (BI), indicates whether clients have frames buffered at the AP. Each client\u2019s wake-up frequency is determined by a PSM parameter listen interval (LI). Both BI and LI are configurable, and their settings directly influence the PSM\u2019s performance shown by the analysis of section 4. Unfortunately, the protocol does not prescribe how the BI 1",
+                "authors": [
+                    {
+                        "s2_author_id": "2149182273",
+                        "name": "Yi Xie"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "89b20c2685762b3b31616299ae36a19b30f35caf",
+                "title": "Planetopus: A system for facilitating collaborative network monitoring",
+                "year": 2011,
+                "venue": "IFIP/IEEE Symposium on Integrated Network Management",
+                "citation_count": 3,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "1746454",
+                        "name": "W. Fok"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9d9cf7a34bf575c8e623c203779691d9e651f811",
+                "title": "Exposing invisible timing-based traffic watermarks with BACKLIT",
+                "year": 2011,
+                "venue": "Asia-Pacific Computer Systems Architecture Conference",
+                "citation_count": 41,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "2087089678",
+                        "name": "Peng Zhou"
+                    },
+                    {
+                        "s2_author_id": "2108072666",
+                        "name": "Junjie Zhang"
+                    },
+                    {
+                        "s2_author_id": "2822260",
+                        "name": "R. Perdisci"
+                    },
+                    {
+                        "s2_author_id": "1738428",
+                        "name": "Wenke Lee"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3a50cf9df0596c35c888450410e394eb53d26655",
+                "title": "Measurement of loss pairs in network paths",
+                "year": 2010,
+                "venue": "ACM/SIGCOMM Internet Measurement Conference",
+                "citation_count": 8,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "1746454",
+                        "name": "W. Fok"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b247509f3efac507f65f4edc61570c65e194bc0f",
+                "title": "Neighbor-Cooperative Measurement of Network Path Quality",
+                "year": 2010,
+                "venue": "2010 IEEE Global Telecommunications Conference GLOBECOM 2010",
+                "citation_count": 3,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "1746454",
+                        "name": "W. Fok"
+                    },
+                    {
+                        "s2_author_id": "1958847412",
+                        "name": "Weichao Li"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "03b348559fd088483ed73e90fc79389fcbe41042",
+                "title": "On generalized low-rate denial-of-quality attack against Internet services",
+                "year": 2009,
+                "venue": "International Workshop on Quality of Service",
+                "citation_count": 7,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39270544",
+                        "name": "Yajuan Tang"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1701100",
+                        "name": "Qing Hui"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a3fca04b3b988eeeacf01315c1b132d9aa79c6d",
+                "title": "A minimum-delay-difference method for mitigating cross-traffic impact on capacity measurement",
+                "year": 2009,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 9,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c5744a1cc223c561c5e6a8f1a580a905b69ad7c",
+                "title": "Design and Implementation of TCP Data Probes for Reliable and Metric-Rich Network Path Monitoring",
+                "year": 2009,
+                "venue": "USENIX Annual Technical Conference",
+                "citation_count": 49,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "48cd935c9545bd711715a108c7354b48757cb5d0",
+                "title": "Relative stability analysis of multiple queueing systems",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2056427905",
+                        "name": "Sum Lam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "741083d589f049ebde7db601ef856b244a2534e4",
+                "title": "CLACK: A Network Covert Channel Based on Partial Acknowledgment Encoding",
+                "year": 2009,
+                "venue": "IEEE International Conference on Communications",
+                "citation_count": 27,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "879395d3a436fe4dad9dcdb6ac81f512d19cd3a9",
+                "title": "Reliable asymmetric path capacity measurement",
+                "year": 2009,
+                "venue": "Co-Next Student Workshop '09",
+                "citation_count": 1,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1b792dde3b9d9009ed8783406f78f4c0f320e3b",
+                "title": "Detecting Pulsing Denial-of-Service Attacks with Nondeterministic Attack Intervals",
+                "year": 2009,
+                "venue": "EURASIP Journal on Advances in Signal Processing",
+                "citation_count": 41,
+                "reference_count": 24,
+                "abstract": "This paper addresses the important problem of detecting pulsing denial of service (PDoS) attacks which send a sequence of attack pulses to reduce TCP throughput. Unlike previous works which focused on a restricted form of attacks, we consider a very broad class of attacks. In particular, our attack model admits any attack interval between two adjacent pulses, whether deterministic or not. It also includes the traditional flooding-based attacks as a limiting case (i.e., zero attack interval). Our main contribution is Vanguard, a new anomaly-based detection scheme for this class of PDoS attacks. The Vanguard detection is based on three traffic anomalies induced by the attacks, and it detects them using a CUSUM algorithm. We have prototyped Vanguard and evaluated it on a testbed. The experiment results show that Vanguard is more effective than the previous methods that are based on other traffic anomalies (after a transformation using wavelet transform, Fourier transform, and autocorrelation) and detection algorithms (e.g., dynamic time warping).",
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "df1fd3d40d33af2af07486e6034da84c2ecafcc5",
+                "title": "Signal Processing Applications in Network Intrusion Detection Systems",
+                "year": 2009,
+                "venue": "EURASIP Journal on Advances in Signal Processing",
+                "citation_count": 24,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110520959",
+                        "name": "Chin-Tser Huang"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2148833734",
+                        "name": "Polly Huang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e97cca237ad1d4ddf5e3a7453a9e0f3b329f302e",
+                "title": "Centralized PSM: An AP-centric power saving Mode for 802.11 infrastructure networks",
+                "year": 2009,
+                "venue": "IEEE Sarnoff Symposium",
+                "citation_count": 41,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149182273",
+                        "name": "Yi Xie"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f0016bd0dedd9a5ec168b4dec9f5028849aa6a59",
+                "title": "Sampling TCP data-path quality with TCP data probes",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "1746454",
+                        "name": "W. Fok"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3ae50b668b640a8cbde4656f2317b8c2488d4384",
+                "title": "Energy efficiency in 802.11 wireless networks",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2149182273",
+                        "name": "Yi Xie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "69411961f1ff3371948aa321cbbff9a6d3f73b0c",
+                "title": "TCP covert timing channels: Design and detection",
+                "year": 2008,
+                "venue": "Dependable Systems and Networks",
+                "citation_count": 90,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e145caf166fa86bc5ae14809649cea67d0ca66dd",
+                "title": "CALL FOR PARTICIPATION The 11 th Asia-Pacific Network Operations and Management Symposium (APNOMS 2008) \"Challenges for Next Generation Network Operations and Service Management\" Sponsored by KICS KNOM, IEICE ICM Technically Co-Sponsored by IEEE Communications Society",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1742539",
+                        "name": "M. Murata"
+                    },
+                    {
+                        "s2_author_id": "2108501137",
+                        "name": "Lintao Jiang"
+                    },
+                    {
+                        "s2_author_id": "1689966",
+                        "name": "J. Strassner"
+                    },
+                    {
+                        "s2_author_id": "2124828693",
+                        "name": "Xingchen Lu"
+                    },
+                    {
+                        "s2_author_id": "34744214",
+                        "name": "M. Ejiri"
+                    },
+                    {
+                        "s2_author_id": "2114873323",
+                        "name": "Ping Zhao"
+                    },
+                    {
+                        "s2_author_id": "2108081826",
+                        "name": "Zhi-li Wang"
+                    },
+                    {
+                        "s2_author_id": "2110708359",
+                        "name": "Hyun-il Lim"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2306185181",
+                        "name": "Chung-Hua Hu"
+                    },
+                    {
+                        "s2_author_id": "2152202705",
+                        "name": "Q. Zhu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "027a9d3744a6f8751c3d32d6992b7d04ebf4e5ea",
+                "title": "Inter-AS Inbound Traffic Engineering via ASPP",
+                "year": 2007,
+                "venue": "IEEE Transactions on Network and Service Management",
+                "citation_count": 15,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110221410",
+                        "name": "Jessie Hui Wang"
+                    },
+                    {
+                        "s2_author_id": "144770850",
+                        "name": "D. Chiu"
+                    },
+                    {
+                        "s2_author_id": "145462046",
+                        "name": "John C.S. Lui"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1d5c21d60417306c7752a90b708d79f2cb99685f",
+                "title": "An active approach to measuring routing dynamics induced by autonomous systems",
+                "year": 2007,
+                "venue": "ExpCS '07",
+                "citation_count": 2,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806198",
+                        "name": "S. Lo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2580442",
+                        "name": "L. Colitti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2cf907356cc3bc6c32744b2082fa0bc444d1f22a",
+                "title": "Session details: Wireless I",
+                "year": 2007,
+                "venue": "Proceedings of the 7th ACM SIGCOMM conference on Internet measurement",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b81b264a161138bc886a80e59e8f5fdd2940fdae",
+                "title": "Crafting Web Counters into Covert Channels",
+                "year": 2007,
+                "venue": "IFIP International Information Security Conference",
+                "citation_count": 8,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d27e23f004638a996ad6bd1239ec4078130e33d8",
+                "title": "Cloak: A Ten-Fold Way for Reliable Covert Communications",
+                "year": 2007,
+                "venue": "European Symposium on Research in Computer Security",
+                "citation_count": 45,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec1683c98fc87dc3d031e1cefa73210b6ac84c93",
+                "title": "Protecting Internet Services from Low-Rate DoS Attacks",
+                "year": 2007,
+                "venue": "Critical Infrastructure Protection",
+                "citation_count": 3,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39270544",
+                        "name": "Yajuan Tang"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "051808c6c65be416b9b852132c775e5aeab016ad",
+                "title": "WLC35-4: Optimizing Energy Efficiency in Polling-Based Wireless Networks with Stability Constraints",
+                "year": 2006,
+                "venue": "IEEE Globecom 2006",
+                "citation_count": 0,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149182273",
+                        "name": "Yi Xie"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4dabb150726830a7a353e1b3a90faea641450ea9",
+                "title": "Vanguard: A New Detection Scheme for a Class of TCP-targeted Denial-of-Service Attacks",
+                "year": 2006,
+                "venue": "2006 IEEE/IFIP Network Operations and Management Symposium NOMS 2006",
+                "citation_count": 47,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "576f44711bbc040563870983be9d52fe9128ad16",
+                "title": "Relative stability analysis of multiple queues",
+                "year": 2006,
+                "venue": "ValueTools",
+                "citation_count": 2,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2056427905",
+                        "name": "Sum Lam"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2149182273",
+                        "name": "Yi Xie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "595d0868eec1114b98d3578d6a1f83efa04d50ab",
+                "title": "Auto-Selecting the Rate Adaptation Algorithm in Wireless Networks",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46874377",
+                        "name": "Pamela X. Pan"
+                    },
+                    {
+                        "s2_author_id": "2087369969",
+                        "name": "Leo L. K. Yung"
+                    },
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "70e4e27b894feaa6f1bfc358448e5fe774ff5d44",
+                "title": "Stability-constrained optimization for energy efficiency in polling-based wireless networks",
+                "year": 2006,
+                "venue": "ValueTools",
+                "citation_count": 2,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149182273",
+                        "name": "Yi Xie"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "25d22180a2d9cc1aad6fa98f0f2476dd7ffec1c7",
+                "title": "Optimizing the pulsing denial-of-service attacks",
+                "year": 2005,
+                "venue": "Dependable Systems and Networks",
+                "citation_count": 25,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4a5485325c5998dbe22e43139aaa2b0bb4781a7c",
+                "title": "Novel approaches to end-to-end packet reordering measurement",
+                "year": 2005,
+                "venue": "ACM/SIGCOMM Internet Measurement Conference",
+                "citation_count": 20,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "54d2b6d076e707a53ce4674623c1c24d917650ec",
+                "title": "Performance analysis of TCP/AQM under denial-of-service attacks",
+                "year": 2005,
+                "venue": "13th IEEE International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
+                "citation_count": 29,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "1699464",
+                        "name": "Edmond W. W. Chan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8972083ff96e9cfda3b004d78e0f8fcbe5e0209c",
+                "title": "On a New Class of Pulsing Denial-of-Service Attacks and the Defense",
+                "year": 2005,
+                "venue": "Network and Distributed System Security Symposium",
+                "citation_count": 220,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708419",
+                        "name": "Xiapu Luo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b6b076ee5531ad35340f0a24274511bbf65628ce",
+                "title": "Active Measurement of the AS Path Prepending Method",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2806198",
+                        "name": "S. Lo"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dd3ebe7a922e6c84d5f82b5290c2c1fc9be736d1",
+                "title": "Forwarding state scalability-aware multicast routing",
+                "year": 2005,
+                "venue": "International Symposium on Computers and Communications",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2114117672",
+                        "name": "Guangming Hu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0bfd0a021c17349f1b64d79ff45939ca0c38b02c",
+                "title": "Teaching computer networking with the help of personal computer networks",
+                "year": 2004,
+                "venue": "Annual Conference on Innovation and Technology in Computer Science Education",
+                "citation_count": 22,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "17c759fbd34b6d64f529b4e2e75f0079d5df2211",
+                "title": "Characterizing the Performance and Stability Issues of the AS Path Prepending Method : Taxonomy , Measurement Study and Analysis \u2217",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 20,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2155655855",
+                        "name": "Hui Wang"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "69052498",
+                        "name": "D. Chiu"
+                    },
+                    {
+                        "s2_author_id": "145462046",
+                        "name": "John C.S. Lui"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "208d8acf8f1fad9eb557ec9738ac1637cea69d9e",
+                "title": "Deadlock-Free TCP Over High- Speed Internet",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2068272693",
+                        "name": "H. Y. Chan"
+                    },
+                    {
+                        "s2_author_id": "2064046025",
+                        "name": "Adam W. Yeung"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b95560d7cba399dc732e624b1071424e8a0b257c",
+                "title": "Strifeshadow Fantasy: a massive multi-player online game",
+                "year": 2004,
+                "venue": "First IEEE Consumer Communications and Networking Conference, 2004. CCNC 2004.",
+                "citation_count": 7,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2205990695",
+                        "name": "Hang T. Chan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e132d23fd8849b7f810f0b59a2176c8ff07e13a9",
+                "title": "Inbound traffic engineering for multihomed ASs using AS path prepending",
+                "year": 2004,
+                "venue": "IEEE Network",
+                "citation_count": 51,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2093070249",
+                        "name": "M. Lo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cf7cb0341302168274f2110989466a79ccd03309",
+                "title": "Per-queue stability analysis of a dynamic quota sharing scheme for wireless networks",
+                "year": 2003,
+                "venue": "PERV",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2056427905",
+                        "name": "Sum Lam"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e44648752231c0025605eef73a0f3e1ee9b7bcd5",
+                "title": "A Multicast-On-Large-Demand Approach to the Flash Crowd Problem",
+                "year": 2003,
+                "venue": "The Web Conference",
+                "citation_count": 0,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1d7247483ae831224a9f1ce61ad52bad583427fb",
+                "title": "Effectiveness of optimal node assignments in wavelength division multiplexing networks with fixed regular virtual topologies",
+                "year": 2002,
+                "venue": "Comput. Networks",
+                "citation_count": 17,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "122743380",
+                        "name": "Fai Siu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "85ac5887344eda4bfe297b58896b17edf1845a9c",
+                "title": "Transport layer proxy for stateful UDP packet filtering",
+                "year": 2002,
+                "venue": "Proceedings ISCC 2002 Seventh International Symposium on Computers and Communications",
+                "citation_count": 6,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "48581864",
+                        "name": "King P. Fung"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9755c98a562243d19e5755ebd6163a51419498c4",
+                "title": "Engineering of a global defense infrastructure for DDoS attacks",
+                "year": 2002,
+                "venue": "ICON",
+                "citation_count": 41,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2055652693",
+                        "name": "Kalman K. K. Wan"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b5ef1a9faedd5f2ea6bf1d2b1ccb40dc1e1a66a7",
+                "title": "Defending against flooding-based distributed denial-of-service attacks: a tutorial",
+                "year": 2002,
+                "venue": "IEEE Communications Magazine",
+                "citation_count": 553,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "db6e9ccdc3e186ca4b7cabb0c0ff066e52f0efcd",
+                "title": "Robust Forwarding in Structured Peer-to-Peer Overlay Networks",
+                "year": 2002,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 6,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "35155181",
+                        "name": "Wang-kee Poon"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "37be3f7c6f7acc876b2b2fd53090c72bd4b7a63a",
+                "title": "Routing Properties of a Recursive Interconnection Network",
+                "year": 2001,
+                "venue": "J. Parallel Distributed Comput.",
+                "citation_count": 6,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "49528487",
+                        "name": "Hong Wang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b1451b8b95492d019e213a667dc65b3c87f39f86",
+                "title": "Per-queue stability analysis of a random access system",
+                "year": 2001,
+                "venue": "IEEE Transactions on Automatic Control",
+                "citation_count": 6,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2056427905",
+                        "name": "Sum Lam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b49a85b3bf9db3699dfe6294519f591e5dcae400",
+                "title": "A simulation study on the throughput fairness of TCP Vegas",
+                "year": 2001,
+                "venue": "Proceedings. Ninth IEEE International Conference on Networks, ICON 2001.",
+                "citation_count": 11,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10681056",
+                        "name": "EsteUa C. M. Tsang"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fe891c38f1d7269ce0da39ba99e7e99a6ab3ec38",
+                "title": "Stability comparison in single-server-multiple-queue systems",
+                "year": 2001,
+                "venue": "PERV",
+                "citation_count": 1,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2056427905",
+                        "name": "Sum Lam"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0f50298ce335f470aea064b6929b73b89ad47177",
+                "title": "A novel approach to queue stability analysis of polling models",
+                "year": 2000,
+                "venue": "Performance evaluation (Print)",
+                "citation_count": 12,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2056427905",
+                        "name": "Sum Lam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7c1a17733a469cde39f09f7a728a4c6e725cedca",
+                "title": "A tree switching protocol for multicast state reduction",
+                "year": 2000,
+                "venue": "Proceedings ISCC 2000. Fifth IEEE Symposium on Computers and Communications",
+                "citation_count": 8,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2057583290",
+                        "name": "Filli Y. Y. Cheng"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a461682ab7ed1f22e11acd17e8d8d80024f84b09",
+                "title": "A throughput deadlock-free TCP for high-speed Internet",
+                "year": 2000,
+                "venue": "ICON",
+                "citation_count": 1,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    },
+                    {
+                        "s2_author_id": "2068272693",
+                        "name": "H. Y. Chan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cdef2c2f96b1437db206393868e0c302682b2ff7",
+                "title": "A Transport-Level Proxy for Secure Multimedia Streams",
+                "year": 2000,
+                "venue": "IEEE Internet Computing",
+                "citation_count": 10,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "48581864",
+                        "name": "King P. Fung"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f58dac0310262c755b5a76a4bb4a0657b5336d0",
+                "title": "An optimal end-to-end bypass configuration algorithm for self-heating VP-based ATM networks",
+                "year": 1998,
+                "venue": "Proceedings Third IEEE Symposium on Computers and Communications. ISCC'98. (Cat. No.98EX166)",
+                "citation_count": 1,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2111124581",
+                        "name": "Simon Wong"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "493fe89769de53e34e6fb8b282b971ae18ddf330",
+                "title": "Design and analysis of scalable source-based Internet multicast routing protocols",
+                "year": 1998,
+                "venue": "Other Conferences",
+                "citation_count": 0,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2057583290",
+                        "name": "Filli Y. Y. Cheng"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "61c475b208309c8cd41927aee4dc4dec45992c89",
+                "title": "Improving TCP throughput performance on high-speed networks with a receiver-side adaptive acknowledgment algorithm",
+                "year": 1998,
+                "venue": "Other Conferences",
+                "citation_count": 2,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2105907102",
+                        "name": "Wing-Keung Yeung"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "74bf322cd36901536a70f216c9dad08169f8afdc",
+                "title": "Improving the performance of reconfigurable WDM lightwave networks with deflection routing via node reassignment",
+                "year": 1998,
+                "venue": "Proceedings Third IEEE Symposium on Computers and Communications. ISCC'98. (Cat. No.98EX166)",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "122743380",
+                        "name": "Fai Siu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9fecb097dd534cd6c1dfc539a2ad6add6b621513",
+                "title": "Optimal node assignment in reconfigurable WDM lightwave networks with regular virtual topologies",
+                "year": 1998,
+                "venue": "Proceedings Third IEEE Symposium on Computers and Communications. ISCC'98. (Cat. No.98EX166)",
+                "citation_count": 1,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "122743380",
+                        "name": "Fai Siu"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b2a9bc9811119e87bab9bb9c7ac8a5b29f63ec90",
+                "title": "Novel approach to the queue stability analysis of polling models",
+                "year": 1998,
+                "venue": "Other Conferences",
+                "citation_count": 0,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2056427905",
+                        "name": "Sum Lam"
+                    },
+                    {
+                        "s2_author_id": "144685860",
+                        "name": "R. Chang"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2436656",
+                "name": "Daoyuan Wu"
+            },
+            {
+                "s2_author_id": "38580953",
+                "name": "Debin Gao"
+            },
+            {
+                "s2_author_id": "1713669",
+                "name": "R. Deng"
+            },
+            {
+                "s2_author_id": "2057802027",
+                "name": "En He"
+            },
+            {
+                "s2_author_id": "2065661591",
+                "name": "E. Cheng"
+            },
+            {
+                "s2_author_id": "2145405109",
+                "name": "Shiwei Zhang"
+            },
+            {
+                "s2_author_id": "1958847412",
+                "name": "Weichao Li"
+            },
+            {
+                "s2_author_id": "1629141170",
+                "name": "Bo Jin"
+            },
+            {
+                "s2_author_id": "2154459245",
+                "name": "Yi Wang"
+            },
+            {
+                "s2_author_id": "1699710",
+                "name": "Ricky K. P. Mok"
+            },
+            {
+                "s2_author_id": "2087089712",
+                "name": "Peng Zhou"
+            },
+            {
+                "s2_author_id": "3341801",
+                "name": "Xiaojing Gu"
+            },
+            {
+                "s2_author_id": "143750306",
+                "name": "M. Fei"
+            },
+            {
+                "s2_author_id": "49640041",
+                "name": "Jianying Zhou"
+            },
+            {
+                "s2_author_id": "2108322382",
+                "name": "Steven W. K. Lee"
+            },
+            {
+                "s2_author_id": "1746454",
+                "name": "W. Fok"
+            },
+            {
+                "s2_author_id": "145991708",
+                "name": "H. Seferoglu"
+            },
+            {
+                "s2_author_id": "2562998",
+                "name": "Laurent Vanbever"
+            },
+            {
+                "s2_author_id": "2689118",
+                "name": "Peter Membrey"
+            },
+            {
+                "s2_author_id": "144572469",
+                "name": "D. Veitch"
+            },
+            {
+                "s2_author_id": "120531007",
+                "name": "W. Lee"
+            },
+            {
+                "s2_author_id": "123372377",
+                "name": "Kwok-Wun Yung"
+            },
+            {
+                "s2_author_id": "71775098",
+                "name": "Ching-ho Chan"
+            },
+            {
+                "s2_author_id": "122099989",
+                "name": "Yat-Sing Poon"
+            },
+            {
+                "s2_author_id": "39270544",
+                "name": "Yajuan Tang"
+            },
+            {
+                "s2_author_id": "1708419",
+                "name": "Xiapu Luo"
+            },
+            {
+                "s2_author_id": "1701100",
+                "name": "Qing Hui"
+            },
+            {
+                "s2_author_id": "2087089678",
+                "name": "Peng Zhou"
+            },
+            {
+                "s2_author_id": "30894196",
+                "name": "Ang Chen"
+            },
+            {
+                "s2_author_id": "49449002",
+                "name": "Lei Xue"
+            },
+            {
+                "s2_author_id": "46399196",
+                "name": "Yujing Liu"
+            },
+            {
+                "s2_author_id": "1699464",
+                "name": "Edmond W. W. Chan"
+            },
+            {
+                "s2_author_id": "1751891",
+                "name": "M. Roughan"
+            },
+            {
+                "s2_author_id": "39363506",
+                "name": "Jinshu Su"
+            },
+            {
+                "s2_author_id": "1738428",
+                "name": "Wenke Lee"
+            },
+            {
+                "s2_author_id": "2822260",
+                "name": "R. Perdisci"
+            },
+            {
+                "s2_author_id": "2149182273",
+                "name": "Yi Xie"
+            },
+            {
+                "s2_author_id": "2108072666",
+                "name": "Junjie Zhang"
+            },
+            {
+                "s2_author_id": "2056427905",
+                "name": "Sum Lam"
+            },
+            {
+                "s2_author_id": "2110520959",
+                "name": "Chin-Tser Huang"
+            },
+            {
+                "s2_author_id": "2148833734",
+                "name": "Polly Huang"
+            },
+            {
+                "s2_author_id": "1742539",
+                "name": "M. Murata"
+            },
+            {
+                "s2_author_id": "2108501137",
+                "name": "Lintao Jiang"
+            },
+            {
+                "s2_author_id": "1689966",
+                "name": "J. Strassner"
+            },
+            {
+                "s2_author_id": "2124828693",
+                "name": "Xingchen Lu"
+            },
+            {
+                "s2_author_id": "34744214",
+                "name": "M. Ejiri"
+            },
+            {
+                "s2_author_id": "2114873323",
+                "name": "Ping Zhao"
+            },
+            {
+                "s2_author_id": "2108081826",
+                "name": "Zhi-li Wang"
+            },
+            {
+                "s2_author_id": "2110708359",
+                "name": "Hyun-il Lim"
+            },
+            {
+                "s2_author_id": "2306185181",
+                "name": "Chung-Hua Hu"
+            },
+            {
+                "s2_author_id": "2152202705",
+                "name": "Q. Zhu"
+            },
+            {
+                "s2_author_id": "2110221410",
+                "name": "Jessie Hui Wang"
+            },
+            {
+                "s2_author_id": "144770850",
+                "name": "D. Chiu"
+            },
+            {
+                "s2_author_id": "145462046",
+                "name": "John C.S. Lui"
+            },
+            {
+                "s2_author_id": "2806198",
+                "name": "S. Lo"
+            },
+            {
+                "s2_author_id": "2580442",
+                "name": "L. Colitti"
+            },
+            {
+                "s2_author_id": "46874377",
+                "name": "Pamela X. Pan"
+            },
+            {
+                "s2_author_id": "2087369969",
+                "name": "Leo L. K. Yung"
+            },
+            {
+                "s2_author_id": "2114117672",
+                "name": "Guangming Hu"
+            },
+            {
+                "s2_author_id": "2155655855",
+                "name": "Hui Wang"
+            },
+            {
+                "s2_author_id": "69052498",
+                "name": "D. Chiu"
+            },
+            {
+                "s2_author_id": "2068272693",
+                "name": "H. Y. Chan"
+            },
+            {
+                "s2_author_id": "2064046025",
+                "name": "Adam W. Yeung"
+            },
+            {
+                "s2_author_id": "2205990695",
+                "name": "Hang T. Chan"
+            },
+            {
+                "s2_author_id": "2093070249",
+                "name": "M. Lo"
+            },
+            {
+                "s2_author_id": "122743380",
+                "name": "Fai Siu"
+            },
+            {
+                "s2_author_id": "48581864",
+                "name": "King P. Fung"
+            },
+            {
+                "s2_author_id": "2055652693",
+                "name": "Kalman K. K. Wan"
+            },
+            {
+                "s2_author_id": "35155181",
+                "name": "Wang-kee Poon"
+            },
+            {
+                "s2_author_id": "49528487",
+                "name": "Hong Wang"
+            },
+            {
+                "s2_author_id": "10681056",
+                "name": "EsteUa C. M. Tsang"
+            },
+            {
+                "s2_author_id": "2057583290",
+                "name": "Filli Y. Y. Cheng"
+            },
+            {
+                "s2_author_id": "2111124581",
+                "name": "Simon Wong"
+            },
+            {
+                "s2_author_id": "2105907102",
+                "name": "Wing-Keung Yeung"
+            }
+        ],
+        "total_co_authors": 74,
+        "papers_retrieved": 109
+    }
+}

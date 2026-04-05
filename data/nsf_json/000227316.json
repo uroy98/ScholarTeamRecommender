@@ -1,0 +1,3456 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000227316",
+        "name": "Sanjay G Rao",
+        "primary_affiliation": "Purdue University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Purdue University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "IN"
+        ],
+        "perf_cities": [
+            "WEST LAFAYETTE"
+        ],
+        "org_names": [
+            "Purdue University"
+        ],
+        "org_ueis": [
+            "YRXVL4JYCEF5"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "sanjay@purdue.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2504819",
+                "title": "NeTS: Medium: Self-correcting ML-driven Resource Allocation in Networked Systems",
+                "type": "Continuing Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-15",
+                "exp_date": "2029-06-30",
+                "award_amount": 1080000.0,
+                "total_amount": 1080000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000295915",
+                    "000572779"
+                ],
+                "program_elements": [
+                    "Networking Technology and Syst"
+                ],
+                "program_codes": [
+                    "736300"
+                ],
+                "program_references": [
+                    "MEDIUM PROJECT"
+                ],
+                "program_ref_codes": [
+                    "7924"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CNS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Computer and Network Systems",
+                "cfda_num": "47.070",
+                "po_name": "Abraham Matta",
+                "keywords": [
+                    "network",
+                    "allocation",
+                    "resource",
+                    "wide",
+                    "optimization",
+                    "neural",
+                    "real",
+                    "networking",
+                    "results",
+                    "traffic"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000572779",
+            "000295915"
+        ],
+        "program_elements": [
+            "Networking Technology and Syst"
+        ],
+        "program_codes": [
+            "736300"
+        ],
+        "program_references": [
+            "MEDIUM PROJECT"
+        ],
+        "program_ref_codes": [
+            "7924"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CNS"
+        ],
+        "fund_divisions": [
+            "Division Of Computer and Network Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Abraham Matta"
+        ],
+        "keywords": [
+            "network",
+            "allocation",
+            "resource",
+            "wide",
+            "optimization",
+            "neural",
+            "real",
+            "networking",
+            "results",
+            "traffic",
+            "training",
+            "developing",
+            "models",
+            "world",
+            "medium",
+            "self",
+            "correcting",
+            "driven",
+            "systems",
+            "cloud"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.59
+    },
+    "s2_profile": {
+        "s2_author_id": "32782897",
+        "name": "Sanjay G Rao",
+        "affiliations": [],
+        "paper_count": 94,
+        "citation_count": 4267,
+        "h_index": 29,
+        "papers": [
+            {
+                "s2_paper_id": "02c1ef561b24ad16b72875e4dce14c4d3b502b98",
+                "title": "A microscopic view of bursts, buffer contention, and loss in data centers",
+                "year": 2022,
+                "venue": "ACM/SIGCOMM Internet Measurement Conference",
+                "citation_count": 39,
+                "reference_count": 49,
+                "abstract": "Managing data center networks with low loss requires understanding traffic dynamics at short (millisecond) time-scales, especially the burstiness of traffic, and to what extent bursts contend for switch buffer resources. Yet, monitoring traffic over such intervals is a challenge at scale. We make two contributions. First, we present Millisampler, a lightweight traffic characterization tool deployed across all Meta hosts. Millisampler takes a host-centric perspective to data collection, which is scalable and allows for correlating traffic patterns with transport layer statistics. Further, simultaneous collection of Millisampler data across servers in a rack enables analysis of how synchronized traffic interacts in rack buffers. In particular, we study contention, which occurs when multiple bursts arrive simultaneously at the dynamically shared rack buffer. Second, we present a data-center-scale analysis of contention, including a unique joint analysis of burstiness, contention, and loss. Our results show (i) contention characteristics vary widely across and within a region and is influenced by service placement; (ii) contention varies significantly over short time-scales; (iii) bursts are likely to encounter some contention; and (iv) higher contention need not lead to more loss, and the interplay with workload and burst properties matters. We discuss implications for data center design including service placement, buffer sharing algorithms and congestion control.",
+                "authors": [
+                    {
+                        "s2_author_id": "9441837",
+                        "name": "Ehab Ghabashneh"
+                    },
+                    {
+                        "s2_author_id": "9980069",
+                        "name": "Yimeng Zhao"
+                    },
+                    {
+                        "s2_author_id": "2470254",
+                        "name": "C. Lumezanu"
+                    },
+                    {
+                        "s2_author_id": "145106967",
+                        "name": "N. Spring"
+                    },
+                    {
+                        "s2_author_id": "71857571",
+                        "name": "S. Sundaresan"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b3e20d6f056e1a1d614f5f1a8e09c231f4eab2ad",
+                "title": "Xatu: Richer Neural Network Based Prediction for Video Streaming",
+                "year": 2022,
+                "venue": "Measurement and Modeling of Computer Systems",
+                "citation_count": 0,
+                "reference_count": 16,
+                "abstract": "The performance of Adaptive Bitrate (ABR) algorithms for video streaming depends on accurately predicting the download time of video chunks. Existing prediction approaches (i) assume chunk download times are dominated by network throughput; and (ii) apriori cluster sessions (e.g., based on ISP and CDN) and only learn from sessions in the same cluster. We make three contributions. First, through analysis of data from real-world video streaming sessions, we show (i) apriori clustering prevents learning from related clusters; and (ii) factors such as the Time to First Byte (TTFB) are key components of chunk download times but not easily incorporated into existing prediction approaches. Second, we propose Xatu, a new prediction approach that jointly learns a neural network sequence model with an interpretable automatic session clustering method. Xatu learns clustering rules across all sessions it deems relevant, and models sequences with multiple chunk-dependent features (e.g., TTFB) rather than just throughput. Third, evaluations using the above datasets and emulation experiments show that Xatu significantly improves prediction accuracies by 23.8% relative to CS2P (a state-of-the-art predictor). We show Xatu provides substantial performance benefits when integrated with multiple ABR algorithms including MPC (a well studied ABR algorithm), and FuguABR (a recent algorithm using stochastic control) relative to their default predictors (CS2P and a fully connected neural network respectively). Further, Xatu combined with MPC outperforms Pensieve, an ABR based on deep reinforcement learning.",
+                "authors": [
+                    {
+                        "s2_author_id": "2061153585",
+                        "name": "Yun Seong Nam"
+                    },
+                    {
+                        "s2_author_id": "2149257579",
+                        "name": "Jianfei Gao"
+                    },
+                    {
+                        "s2_author_id": "1420114727",
+                        "name": "Chandan Bothra"
+                    },
+                    {
+                        "s2_author_id": "9441837",
+                        "name": "Ehab Ghabashneh"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2106943452",
+                        "name": "Bruno Ribeiro"
+                    },
+                    {
+                        "s2_author_id": "2282109",
+                        "name": "Jibin Zhan"
+                    },
+                    {
+                        "s2_author_id": "2153730132",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b7854ec84b88ea279907d4fa362792f59ec32d08",
+                "title": "Veritas: Answering Causal Queries from Video Streaming Traces",
+                "year": 2022,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 11,
+                "reference_count": 53,
+                "abstract": "In this paper, we consider the task of answering what-if questions in the context of adaptive bit rate (ABR) video streaming without access to randomized control trials (RCTs) (e.g., no A/B testing) - i.e., given recorded data of an existing deployed system, what would be the performance impact if we changed its design. Our work makes three contributions. First, we show the problem is challenging since data may only be available for a single ABR algorithm without RCTs, and since it is necessary to deal with the cascading effects that past ABR decisions have on future decisions. Next we present Veritas, the first framework that tackles causal reasoning for video streaming without requiring data collected through RCTs. Integral to Veritas is an easy-to-interpret domain-specific ML model that relates the latent stochastic process (intrinsic bandwidth that the video session can achieve) to actual observations (download times), while exploiting counterfactual queries via abduction using the observed TCP states (e.g., congestion window) for blocking the cascading dependencies. Third, we evaluate Veritas's ability to accurately answer a wide range of what-if questions using emulation experiments, and data of real video sessions from Puffer. The results show that (i) Veritas accurately tackles a wider range of what-if questions (e.g., change of buffer size or video quality) that existing approaches cannot; (ii) Veritas without RCT training data achieves performance comparable or better than a recent parallel approach that requires RCT data; and (iii) in many scenarios Veritas achieves accuracy close to an ideal oracle.",
+                "authors": [
+                    {
+                        "s2_author_id": "1420114727",
+                        "name": "Chandan Bothra"
+                    },
+                    {
+                        "s2_author_id": "2149257579",
+                        "name": "Jianfei Gao"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2106943452",
+                        "name": "Bruno Ribeiro"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "051dc3655c0ac95f9fcf1ed2631227c7217a2441",
+                "title": "FloMore: Meeting bandwidth requirements of flows",
+                "year": 2021,
+                "venue": "arXiv.org",
+                "citation_count": 2,
+                "reference_count": 43,
+                "abstract": "Wide-area cloud provider networks must support the bandwidth requirements of diverse services (e.g., applications, product groups, customers) despite failures. Existing traffic engineering (TE) schemes operate at much coarser granularity than services, which we show necessitates unduly conservative decisions. To tackle this, we present FloMore, which directly considers the bandwidth needs of individual services and ensures they are met a desired percentage of time. Rather than meet the requirements for all services over the same set of failure states, FloMore exploits a key opportunity that each service could meet its bandwidth requirements over a different set of failure states. FloMore consists of an offline phase that identifies the critical failure states of each service, and on failure allocates traffic in a manner that prioritizes those services for which that failure state is critical. We present a novel decomposition scheme to handle FloMore's offline phase in a tractable manner. Our evaluations show that FloMore outperforms state-of-the-art TE schemes including SMORE and Teavar, and also out-performs extensions of these schemes that we devise. The results also show FloMore's decomposition approach allows it to scale well to larger network topologies.",
+                "authors": [
+                    {
+                        "s2_author_id": "46274042",
+                        "name": "Chuan Jiang"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1749225",
+                        "name": "Mohit Tawarmalani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "34447140354273976b03f03f235998ddcdf306ac",
+                "title": "Xatu: Richer Neural Network Based Prediction for Video Streaming",
+                "year": 2021,
+                "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+                "citation_count": 9,
+                "reference_count": 61,
+                "abstract": "The performance of Adaptive Bitrate (ABR) algorithms for video streaming depends on accurately predicting the download time of video chunks. Existing prediction approaches (i) assume chunk download times are dominated by network throughput; and (ii) apriori cluster sessions (e.g., based on ISP and CDN) and only learn from sessions in the same cluster. We make three contributions. First, through analysis of data from real-world video streaming sessions, we show (i) apriori clustering prevents learning from related clusters; and (ii) factors such as the Time to First Byte (TTFB) are key components of chunk download times but not easily incorporated into existing prediction approaches. Second, we propose Xatu, a new prediction approach that jointly learns a neural network sequence model with an interpretable automatic session clustering method. Xatu learns clustering rules across all sessions it deems relevant, and models sequences with multiple chunk-dependent features (e.g., TTFB) rather than just throughput. Third, evaluations using the above datasets and emulation experiments show that Xatu significantly improves prediction accuracies by 23.8% relative to CS2P (a state-of-the-art predictor). We show Xatu provides substantial performance benefits when integrated with multiple ABR algorithms including MPC (a well studied ABR algorithm), and FuguABR (a recent algorithm using stochastic control) relative to their default predictors (CS2P and a fully connected neural network respectively). Further, Xatu combined with MPC outperforms Pensieve, an ABR based on deep reinforcement learning.",
+                "authors": [
+                    {
+                        "s2_author_id": "2061153585",
+                        "name": "Yun Seong Nam"
+                    },
+                    {
+                        "s2_author_id": "2149257579",
+                        "name": "Jianfei Gao"
+                    },
+                    {
+                        "s2_author_id": "1420114727",
+                        "name": "Chandan Bothra"
+                    },
+                    {
+                        "s2_author_id": "9441837",
+                        "name": "Ehab Ghabashneh"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "145617731",
+                        "name": "Bruno Ribeiro"
+                    },
+                    {
+                        "s2_author_id": "2282109",
+                        "name": "Jibin Zhan"
+                    },
+                    {
+                        "s2_author_id": "2153727867",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4039fce4cf46843ea723a2d4036741d325474c66",
+                "title": "A Comparative Synthesis Approach to Optimal Network Designs with Indeterminate Objectives",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 63,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108945467",
+                        "name": "Yanjun Wang"
+                    },
+                    {
+                        "s2_author_id": "46947005",
+                        "name": "Zixuan Li"
+                    },
+                    {
+                        "s2_author_id": "46274042",
+                        "name": "Chuan Jiang"
+                    },
+                    {
+                        "s2_author_id": "2948429",
+                        "name": "Xiaokang Qiu"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "67ca19a19bf8a56b45ccaae0f003d6f2263dbc88",
+                "title": "Comparative Synthesis: Learning Optimal Programs with Indeterminate Objectives",
+                "year": 2021,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 63,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108945467",
+                        "name": "Yanjun Wang"
+                    },
+                    {
+                        "s2_author_id": "46947005",
+                        "name": "Zixuan Li"
+                    },
+                    {
+                        "s2_author_id": "2948429",
+                        "name": "Xiaokang Qiu"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "702128fa341d44adb17b7d5d8ee0b0a56e210cdd",
+                "title": "Chimera: exploiting UAS flight path information to optimize heterogeneous data transmission",
+                "year": 2021,
+                "venue": "IEEE International Conference on Network Protocols",
+                "citation_count": 1,
+                "reference_count": 65,
+                "abstract": "Unmanned Aerial Systems (UAS) collect and transmit data such as live video and radar images, which have different latency and reliability requirements, over wireless links that exhibit much performance variability. In this paper, we make three contributions. First, we show through a characterization of two real-world UAS flight datasets that there is significant opportunity to optimize data transmission in UAS settings by exploiting knowledge of UAS flight paths. Second, we developed Chimera, a system that taps into this opportunity while transmitting heterogeneous data streams over UAS networks. Chimera learns a model online that relates UAS network throughput to the flight path, and combines the model with a control framework that optimizes transmissions based on long-range throughput prediction. Third, with a combination of emulation and simulation experiments using real-world flight traces, we show Chimera\u2019s effectiveness. Specifically, Chimera reduces penalties related to dropped radar images by 72.4%\u2212100% compared to an algorithm agnostic to flight path information, and achieves an average bitrate of 90.5% compared to an optimal scheme that knows the exact future throughput, with only a minimal increase in radar images dropped.",
+                "authors": [
+                    {
+                        "s2_author_id": "50647449",
+                        "name": "Russell Shirey"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "144882686",
+                        "name": "S. Sundaram"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8774be0752aa362847512cb7744abb835153c9fe",
+                "title": "Optimizing Quality of Experience for Long-Range UAS Video Streaming",
+                "year": 2021,
+                "venue": "International Workshop on Quality of Service",
+                "citation_count": 8,
+                "reference_count": 46,
+                "abstract": "There is much emerging interest in operating Unmanned Aerial Systems (UAS) at long-range distances. Unfortunately, it is unclear whether network connectivity at these distances is sufficient to enable applications with stringent performance needs. In this paper, we consider this question in the context of video streaming, an important UAS use-case. We make three contributions. First, we characterize network data collected from real-world UAS flight tests. Our results show that while dropouts (i.e., extended periods of poor performance) present challenges, there is potential to enable video streaming with modest delays, and correlation of throughput with flight path (both distance and orientation) provides new opportunities. Second, we present Proteus, the first system for video streaming targeted at long-range UAS settings. Proteus is distinguished from Adaptive Bit Rate (ABR) algorithms developed for Internet settings by explicitly accounting for dropouts, and leveraging flight path information. Third, through experiments with real-world flight traces on an emulation test-bed, we show that at distances of around 4 miles, Proteus reduces the fraction of a viewing session encountering rebuffering from 14.33% to 1.57%, while also significantly improving well-accepted composite video delivery metrics. Overall, our results show promise for enabling video streaming with dynamic UAS networks at long-range distances.",
+                "authors": [
+                    {
+                        "s2_author_id": "50647449",
+                        "name": "Russell Shirey"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "144882686",
+                        "name": "S. Sundaram"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9e1db4bd7c01aad02849966068e0d74d36e603c9",
+                "title": "Hey, Lumi! Using Natural Language for Intent-Based Network Management",
+                "year": 2021,
+                "venue": "USENIX Annual Technical Conference",
+                "citation_count": 116,
+                "reference_count": 60,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37177373",
+                        "name": "A. Jacobs"
+                    },
+                    {
+                        "s2_author_id": "51110498",
+                        "name": "R. Pfitscher"
+                    },
+                    {
+                        "s2_author_id": "1602295467",
+                        "name": "Rafael Hengen Ribeiro"
+                    },
+                    {
+                        "s2_author_id": "40238585",
+                        "name": "R. Ferreira"
+                    },
+                    {
+                        "s2_author_id": "1736224",
+                        "name": "L. Granville"
+                    },
+                    {
+                        "s2_author_id": "1744426",
+                        "name": "W. Willinger"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c358b9baf791f2f140dacbb389d2d3107f1c16ab",
+                "title": "Karma: Cost-Effective Geo-Replicated Cloud Storage with Dynamic Enforcement of Causal Consistency",
+                "year": 2021,
+                "venue": "IEEE Transactions on Cloud Computing",
+                "citation_count": 16,
+                "reference_count": 53,
+                "abstract": "Causal consistency has emerged as an attractive middle-ground to architecting cloud storage systems, as it allows for high availability and low latency, while supporting semantics stronger than eventual consistency. However, causally-consistent cloud storage systems have seen limited deployment in practice. A key factor is these systems employ full replication of all the data in all the data centers (DCs), incurring high cost. A simple extension of current causal systems to support partial replication by clustering DCs into rings incurs availability and latency problems. We propose Karma, the first system to enable causal consistency for partitioned data stores while achieving the cost advantages of partial replication without the availability and latency problems of the simple extension. Our evaluation with 64 servers emulating 8 geo-distributed DCs shows that Karma (i) incurs much lower cost than a fully-replicated causal store (obviously due to the lower replication factor); and (ii) offers higher availability and better performance than the above partial-replication extension at similar costs.",
+                "authors": [
+                    {
+                        "s2_author_id": "143961700",
+                        "name": "Tariq Mahmood"
+                    },
+                    {
+                        "s2_author_id": "3232007",
+                        "name": "S. Narayanan"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1717864",
+                        "name": "T. N. Vijaykumar"
+                    },
+                    {
+                        "s2_author_id": "1790166",
+                        "name": "Mithuna Thottethodi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e0653ef4cf4d4434e29f8e0da327d087fd7c85da",
+                "title": "Comparative Synthesis: Learning Near-Optimal Network Designs by Query",
+                "year": 2021,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 1,
+                "reference_count": 67,
+                "abstract": "When managing wide-area networks, network architects must decide how to balance multiple conflicting metrics, and ensure fair allocations to competing traffic while prioritizing critical traffic. The state of practice poses challenges since architects must precisely encode their intent into formal optimization models using abstract notions such as utility functions, and ad-hoc manually tuned knobs. In this paper, we present the first effort to synthesize optimal network designs with indeterminate objectives using an interactive program-synthesis-based approach. We make three contributions. First, we present comparative synthesis, an interactive synthesis framework which produces near-optimal programs (network designs) through two kinds of queries (Validate and Compare), without an objective explicitly given. Second, we develop the first learning algorithm for comparative synthesis in which a voting-guided learner picks the most informative query in each iteration. We present theoretical analysis of the convergence rate of the algorithm. Third, we implemented Net10Q, a system based on our approach, and demonstrate its effectiveness on four real-world network case studies using black-box oracles and simulation experiments, as well as a pilot user study comprising network researchers and practitioners. Both theoretical and experimental results show the promise of our approach.",
+                "authors": [
+                    {
+                        "s2_author_id": "2108945467",
+                        "name": "Yanjun Wang"
+                    },
+                    {
+                        "s2_author_id": "2051534953",
+                        "name": "Zixuan Li"
+                    },
+                    {
+                        "s2_author_id": "46274042",
+                        "name": "Chuan Jiang"
+                    },
+                    {
+                        "s2_author_id": "2948429",
+                        "name": "Xiaokang Qiu"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "138387dffe19d428fad242f6ebe6c340a28fe851",
+                "title": "Measuring fixed wing UAS networks at long range",
+                "year": 2020,
+                "venue": "DroNet@MobiSys",
+                "citation_count": 3,
+                "reference_count": 20,
+                "abstract": "In recent years, we have seen significant growth in Unmanned Aerial Systems (UAS), or drones, with many applications involving extensive communication from the UAS to the ground (e.g., sensor data transmission from the UAS). Despite being a different, and significantly more challenging environment than traditional networks, there exists limited understanding of UAS networking today, and the implications for applications. In this work, we conduct a long range measurement study of modern UAS over a 2-day period collected from a fixed wing UAS system. We consider both directional and omnidirectional antennas operating with Tactical Radios at long range distances. We pay particular attention to the edge cases, where performance is more challenging. Our results provide insights into how the dynamic nature of flight, plane orientation with fixed wing UAS, and the variability of wireless networks, impacts network performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "50647449",
+                        "name": "Russell Shirey"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "144882686",
+                        "name": "S. Sundaram"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1873dc70fe435c71fd4fa3374f439badc9067011",
+                "title": "PCF: Provably Resilient Flexible Routing",
+                "year": 2020,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 29,
+                "reference_count": 43,
+                "abstract": "Recently, traffic engineering mechanisms have been developed that guarantee that a network (cloud provider WAN, or ISP) does not experience congestion under failures. In this paper, we show that existing congestion-free mechanisms, notably FFC, achieve performance far short of the network's intrinsic capability. We propose PCF, a set of novel congestion-free mechanisms to bridge this gap. PCF achieves these goals by better modeling network structure, and by carefully enhancing the flexibility of network response while ensuring that the performance under failures can be tractably modeled. All of PCF's schemes involve relatively light-weight operations on failures, and many of them can be realized using a local proportional routing scheme similar to FFC. We show PCF's effectiveness through formal theoretical results, and empirical experiments over 21 Internet topologies. PCF's schemes provably out-perform FFC, and in practice, can sustain higher throughput than FFC by a factor of 1.11X to 1.5X on average across the topologies, while providing a benefit of 2.6X in some cases.",
+                "authors": [
+                    {
+                        "s2_author_id": "46274042",
+                        "name": "Chuan Jiang"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1749225",
+                        "name": "Mohit Tawarmalani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c11526f7c715054bc429f1a3ccb8969a35346501",
+                "title": "Exploring the interplay between CDN caching and video streaming performance",
+                "year": 2020,
+                "venue": "IEEE Conference on Computer Communications",
+                "citation_count": 27,
+                "reference_count": 27,
+                "abstract": "Content Delivery Networks (CDNs) are critical for optimizing Internet video delivery. In this paper, we characterize how CDNs serve video content, and the implications for video performance, especially emerging 4K video streaming. Our work is based on measurements of multiple well known video publishers served by top CDNs. Our results show that (i) video chunks in a session often see heterogeneous behavior in terms of whether they hit in the CDN, and which layer they are served from; and (ii) application throughput can vary significantly even across chunks in a session based on where they are served from. The differences while sensitive to client location and CDN can sometimes be significant enough to impact the viability of 4K streaming. We consider the implications for Adaptive bit rate (ABR) algorithms given they rely on throughput prediction, and are agnostic to whether objects hit in the CDN and where. We evaluate the potential benefits of exposing where a video chunk is served from to the client ABR algorithm in the context of the widely studied model predictive control (MPC) algorithm. Emulation experiments show the approach has the potential to reduce prediction inaccuracies, and enhance video streaming performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "9441837",
+                        "name": "Ehab Ghabashneh"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "de9a361ac2b6ca2db9a34e540dac894668441e58",
+                "title": "Pitfalls of data-driven networking: A case study of latent causal confounders in video streaming",
+                "year": 2020,
+                "venue": "NetAI@SIGCOMM",
+                "citation_count": 12,
+                "reference_count": 26,
+                "abstract": "This paper motivates the need to support counterfactual reasoning (i.e., answer \"what-if \" questions about events that did not occur) when collecting network data. We focus on video streaming - e.g., given logs of a video session, a video publisher may ask whether a user would continue to experience no rebuffering events if the lowest quality video choice were eliminated. We discuss potential pitfalls related to counterfactual reasoning, and argue that dynamic network state (e.g., bandwidth) serves as a confounding yet hidden (latent) feature that complicates such analyses. We illustrate the challenges, and present preliminary methods to address them using concrete examples. Our evaluations show that existing approaches, including randomized trials (collecting data from an algorithm that selects bitrates randomly), are by themselves inadequate for counterfactual reasoning related to video streaming, and must be supplemented by techniques that explicitly infer latent features.",
+                "authors": [
+                    {
+                        "s2_author_id": "2330874233",
+                        "name": "P. C. Sruthi"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "145617731",
+                        "name": "Bruno Ribeiro"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "25cc3eee678e9199bc2ef369c90f19af46c6ff67",
+                "title": "Deploying Natural Language Intents with Lumi",
+                "year": 2019,
+                "venue": "SIGCOMM Posters and Demos",
+                "citation_count": 16,
+                "reference_count": 8,
+                "abstract": "Deploying policies in large heterogeneous networks forces network operators to learn several vendor-speciic languages to conigure the diferent network elements, making this a complex and error-prone task. Intent-based networking (IBN) promises to solve this problem by allowing operators to specify high-level policies that dictate how the network should behave\u00d0e.g., deining goals for quality of service, security, and performance\u00d0without worrying how it is programmed to achieve the desired goals. Ideally, IBN should allow operators to express their intents in natural language without requiring knowledge of low-level conigurations, eliminating the need for learning new languages. Network intent reinement from natural language imposes two key challenges for correct deployment: (i) reliable information extraction and (ii) accurate contradiction detection. Reliable information extraction is challenging because of the many distinct forms an operator can express one intent",
+                "authors": [
+                    {
+                        "s2_author_id": "37177373",
+                        "name": "A. Jacobs"
+                    },
+                    {
+                        "s2_author_id": "51110498",
+                        "name": "R. Pfitscher"
+                    },
+                    {
+                        "s2_author_id": "1602295467",
+                        "name": "Rafael Hengen Ribeiro"
+                    },
+                    {
+                        "s2_author_id": "40238585",
+                        "name": "R. Ferreira"
+                    },
+                    {
+                        "s2_author_id": "1736224",
+                        "name": "L. Granville"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a760303b2d92f89e1555729d18746be42e1f31c",
+                "title": "Learning Network Design Objectives Using A Program Synthesis Approach",
+                "year": 2019,
+                "venue": "ACM Workshop on Hot Topics in Networks",
+                "citation_count": 5,
+                "reference_count": 26,
+                "abstract": "While the networking community has extensively tackled network design problems using optimization or other techniques (e.g., in areas such as traffic-engineering, and resource allocation), much of this work focuses on efficiently generating designs assuming well-defined objectives. In this paper, we argue that in practice, the objectives of a network design task may not be easy to specify for an architect. We argue for, and present a structured approach where the objectives of a network design task are learnt through iterative interactions with the architect. Our approach is inspired by a programming-by-examples approach that has seen success in the programming languages community. However, conventional program synthesis techniques do not apply because in our context a user can only provide a relative comparison between multiple choices on which one is more desirable, rather than provide an exact output for a given input. We propose a novel comparative synthesis approach to tackle these challenges. We sketch the approach, present promising preliminary results, and discuss future research questions.",
+                "authors": [
+                    {
+                        "s2_author_id": "2108945467",
+                        "name": "Yanjun Wang"
+                    },
+                    {
+                        "s2_author_id": "46274042",
+                        "name": "Chuan Jiang"
+                    },
+                    {
+                        "s2_author_id": "2948429",
+                        "name": "Xiaokang Qiu"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "91ef9226ddbd36864ec188cdcc2c32b7d822b98c",
+                "title": "Lancet: Better Network Resilience by Designing for Pruned Failure Sets",
+                "year": 2019,
+                "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+                "citation_count": 30,
+                "reference_count": 43,
+                "abstract": "Recently, researchers have started exploring the design of route protection schemes that ensure networks can sustain traffic demand without congestion under failures. Existing approaches focus on ensuring worst-case performance over simultaneous f-failure scenarios is acceptable. Unfortunately, even a single bad scenario may render the schemes unable to protect against any f-failure scenario. In this paper, we present Lancet, a system designed to handle most failures when not all can be tackled. Lancet comprises three components: (i) an algorithm to analyze which failure scenarios the network can intrinsically handle which provides a benchmark for any protection routing scheme, and guides the design of new schemes; (ii) an approach to efficiently design a protection schemes for more general failure sets than all f-failure scenarios; and (iii) techniques to determine which of combinatorially many scenarios to design for. Our evaluations with real topologies and validations on an emulation testbed show that Lancet outperforms a worst-case approach by protecting against many more scenarios, and can even match the scenarios that can be handled by optimal network response.",
+                "authors": [
+                    {
+                        "s2_author_id": "2629017",
+                        "name": "Yiyang Chang"
+                    },
+                    {
+                        "s2_author_id": "46274042",
+                        "name": "Chuan Jiang"
+                    },
+                    {
+                        "s2_author_id": "1739130588",
+                        "name": "Ashish Chandra"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1749225",
+                        "name": "Mohit Tawarmalani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d34a773f318443db6d51c403fa55c50ba036fc36",
+                "title": "Improving Adaptive Video Streaming through Session Classification",
+                "year": 2019,
+                "venue": "ACM Journal of Data and Information Quality",
+                "citation_count": 1,
+                "reference_count": 24,
+                "abstract": "With internet video gaining increasing popularity and soaring to dominate network traffic, extensive studies are being carried out on how to achieve higher Quality of Experience (QoE) with the delivery of video content. Associated with the chunk-based streaming protocol, Adaptive Bitrate (ABR) algorithms have recently emerged to cope with the diverse and fluctuating network conditions by dynamically adjusting bitrates for future chunks. This inevitably involves predicting the future throughput of a video session. Some of the session features like Internet Service Provider (ISP), geographical location, and so on, could affect network conditions and contain helpful information for this throughput prediction. In this article, we consider how our knowledge about the session features can be utilized to improve ABR quality via customized parameter settings. We present our ABR-independent, QoE-driven, feature-based partition method to classify the logged video sessions so that different parameter settings could be adopted in different situations to reach better quality. A variation of Decision Tree is developed for the classification and has been applied to a sample ABR for evaluation. The experiment shows that our approach can improve the average bitrate of the sample ABR by 36.1% without causing the increase of the rebuffering ratio where 99% of the sessions can get improvement. It can also improve the rebuffering ratio by 87.7% without causing the decrease of the average bitrate, where, among those sessions involved in rebuffering, 82% receives improvement and 18% remains the same.",
+                "authors": [
+                    {
+                        "s2_author_id": "2829476",
+                        "name": "Zahaib Akhtar"
+                    },
+                    {
+                        "s2_author_id": "2146172158",
+                        "name": "Anh Minh Le"
+                    },
+                    {
+                        "s2_author_id": "2061153585",
+                        "name": "Yun Seong Nam"
+                    },
+                    {
+                        "s2_author_id": "1815343",
+                        "name": "Jessica Chen"
+                    },
+                    {
+                        "s2_author_id": "1747970",
+                        "name": "R. Govindan"
+                    },
+                    {
+                        "s2_author_id": "1403173666",
+                        "name": "Ethan Katz-Bassett"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2282109",
+                        "name": "Jibin Zhan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "da155b08c830605f0022351b086246cdc7fbebec",
+                "title": "Cost-aware Multi Data-Center Bulk Transfers in the Cloud from a Customer-Side Perspective",
+                "year": 2019,
+                "venue": "IEEE Transactions on Cloud Computing",
+                "citation_count": 34,
+                "reference_count": 27,
+                "abstract": "Many cloud applications (e.g., data backup and replication, video distribution) require dissemination of large volumes of data from a source data-center to multiple geographically distributed data-centers. Given the high costs of wide-area bandwidth, the overall cost of inter-data-center communication is a major concern in such scenarios. While previous works have focused on optimizing the costs of bulk transfer, most of them use the charging models of Internet service providers, typically based on the 95th percentile of bandwidth consumption. However, public Cloud Service Providers (CSP) follow very different models to charge their customers. First, the cost for transmission is flat and depends on the location of the source and receiver data-centers. Second, CSPs offer discounts once customer transfers exceed certain volume thresholds per data-center. We present a systematic framework, CloudMPcast, that exploits these two aspects of cloud pricing schemes. CloudMPcast constructs overlay distribution trees for bulk-data transfer that both optimizes dollar costs of distribution, and ensures end-to-end data transfer times are not affected. CloudMPCast monitors TCP throughputs between data-centers and only proposes alternative trees that respect original transfer times. After an extensive measurement study, the cost savings range from 10 to 60 percent for both Azure and EC2 infrastructures, which potentially translates to millions of dollars a year assuming realistic demands.",
+                "authors": [
+                    {
+                        "s2_author_id": "1401030877",
+                        "name": "J. Garc\u00eda-Dorado"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c7f089788e0b44e4c6f52515e4d53197cd27054",
+                "title": "Understanding Video Management Planes",
+                "year": 2018,
+                "venue": "ACM/SIGCOMM Internet Measurement Conference",
+                "citation_count": 6,
+                "reference_count": 70,
+                "abstract": "While Internet video control and data planes have received much research attention, little is known about the video management plane. In this paper, using data from more than a hundred video publishers spanning two years, we characterize the video management plane and its evolution. The management plane shows significant diversity with respect to video packaging, playback device support, and CDN use, and current trends suggest increasing diversity in some of these dimensions. This diversity adds complexity to management, and we show that the complexity of many management tasks is sub-linearly correlated with the number of hours a publisher's content is viewed. Moreover, today each publisher runs an independent management plane, and this practice can lead to sub-optimal outcomes for syndicated content, such as redundancies in CDN storage and loss of control for content owners over delivery quality.",
+                "authors": [
+                    {
+                        "s2_author_id": "2829476",
+                        "name": "Zahaib Akhtar"
+                    },
+                    {
+                        "s2_author_id": "2061153585",
+                        "name": "Yun Seong Nam"
+                    },
+                    {
+                        "s2_author_id": "1815343",
+                        "name": "Jessica Chen"
+                    },
+                    {
+                        "s2_author_id": "1747970",
+                        "name": "R. Govindan"
+                    },
+                    {
+                        "s2_author_id": "1403173666",
+                        "name": "Ethan Katz-Bassett"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2282109",
+                        "name": "Jibin Zhan"
+                    },
+                    {
+                        "s2_author_id": "2153727867",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "72161d53cf86a28b734492e6755477c5d40c32e0",
+                "title": "ACCORD: Automated Change Coordination across Independently Administered Cloud Services",
+                "year": 2018,
+                "venue": "IEEE International Conference on Cloud Computing",
+                "citation_count": 1,
+                "reference_count": 31,
+                "abstract": "It is very hard to coordinate changes across independently administered cloud services in a dependable manner due to several features of its service-oriented architecture: (i) services are often unaware of how a change will affect other services; (ii) impacted services may respond to changes in diverse ways; and (iii) the asynchronous nature of cross-service communication can introduce subtle errors. To tackle these challenges, our major contribution in this paper is a platform for Automated Change COoRDination (ACCORD) across independently administered cloud services. ACCORD (i) provides the abstractions and protocols for services to explicitly register direct dependencies on shared resources and automatically tracks cross-service transitive dependencies; (ii) allows each service to specify custom change coordination policies; and (iii) enables dependable change coordination in several real-world use-cases with minimal overhead to cloud administrators.",
+                "authors": [
+                    {
+                        "s2_author_id": "143961700",
+                        "name": "Tariq Mahmood"
+                    },
+                    {
+                        "s2_author_id": "34859745",
+                        "name": "Bharath Balasubramanian"
+                    },
+                    {
+                        "s2_author_id": "1790166",
+                        "name": "Mithuna Thottethodi"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "144010921",
+                        "name": "Kaustubh R. Joshi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7a4777371a4a993445bddb3d4ac6721e93654402",
+                "title": "Oboe: auto-tuning video ABR algorithms to network conditions",
+                "year": 2018,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 330,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2829476",
+                        "name": "Zahaib Akhtar"
+                    },
+                    {
+                        "s2_author_id": "2061153585",
+                        "name": "Yun Seong Nam"
+                    },
+                    {
+                        "s2_author_id": "1747970",
+                        "name": "R. Govindan"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1815343",
+                        "name": "Jessica Chen"
+                    },
+                    {
+                        "s2_author_id": "1403173666",
+                        "name": "Ethan Katz-Bassett"
+                    },
+                    {
+                        "s2_author_id": "145617731",
+                        "name": "Bruno Ribeiro"
+                    },
+                    {
+                        "s2_author_id": "2282109",
+                        "name": "Jibin Zhan"
+                    },
+                    {
+                        "s2_author_id": "2153727867",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "12418c86dee2ce9b95b0bf46d40fe66c762d0410",
+                "title": "Robust Validation of Network Designs under Uncertain Demands and Failures",
+                "year": 2017,
+                "venue": "Symposium on Networked Systems Design and Implementation",
+                "citation_count": 51,
+                "reference_count": 53,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2629017",
+                        "name": "Yiyang Chang"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1749225",
+                        "name": "Mohit Tawarmalani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d748a0e5637ec1b2a91af6ea790e7272a7437f6",
+                "title": "Exploring Functional Slicing in the Design of Distributed SDN Controllers",
+                "year": 2017,
+                "venue": "International Conference on Communication Systems and Networks",
+                "citation_count": 2,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2629017",
+                        "name": "Yiyang Chang"
+                    },
+                    {
+                        "s2_author_id": "22127871",
+                        "name": "Ashkan Rezaei"
+                    },
+                    {
+                        "s2_author_id": "2775019",
+                        "name": "Balajee Vamanan"
+                    },
+                    {
+                        "s2_author_id": "31567969",
+                        "name": "Jahangir Hasan"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1717864",
+                        "name": "T. N. Vijaykumar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4e8d494ee26da700e2cf490fe22a59bb1eb6ca00",
+                "title": "NutShell: Scalable Whittled Proxy Execution for Low-Latency Web over Cellular Networks",
+                "year": 2017,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 17,
+                "reference_count": 60,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2467321",
+                        "name": "A. Sivakumar"
+                    },
+                    {
+                        "s2_author_id": "46274042",
+                        "name": "Chuan Jiang"
+                    },
+                    {
+                        "s2_author_id": "2061153585",
+                        "name": "Yun Seong Nam"
+                    },
+                    {
+                        "s2_author_id": "3232007",
+                        "name": "S. Narayanan"
+                    },
+                    {
+                        "s2_author_id": "34945576",
+                        "name": "V. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    },
+                    {
+                        "s2_author_id": "1790166",
+                        "name": "Mithuna Thottethodi"
+                    },
+                    {
+                        "s2_author_id": "1717864",
+                        "name": "T. N. Vijaykumar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5b9e0338a8cb023919cebf7e68f0de94ae883df2",
+                "title": "Composing middlebox and traffic engineering policies in SDNs",
+                "year": 2017,
+                "venue": "Conference on Computer Communications Workshops",
+                "citation_count": 2,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2629017",
+                        "name": "Yiyang Chang"
+                    },
+                    {
+                        "s2_author_id": "34715212",
+                        "name": "G. Petri"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1712987",
+                        "name": "Tiark Rompf"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9afd7546d70f058c629a8857cca5c62d98b53077",
+                "title": "Alpaca: Compact Network Policies With Attribute-Encoded Addresses",
+                "year": 2017,
+                "venue": "IEEE/ACM Transactions on Networking",
+                "citation_count": 6,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39759628",
+                        "name": "Nanxi Kang"
+                    },
+                    {
+                        "s2_author_id": "1702296",
+                        "name": "Ori Rottenstreich"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1730356",
+                        "name": "J. Rexford"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8a65f81563c1c6be9cc9d8de08a32580900aa6c1",
+                "title": "Hydra: Leveraging functional slicing for efficient distributed SDN controllers",
+                "year": 2016,
+                "venue": "International Conference on Communication Systems and Networks",
+                "citation_count": 10,
+                "reference_count": 22,
+                "abstract": "The conventional approach to scaling Software-Defined Networking (SDN) controllers today is to partition switches based on network topology, with each partition being controlled by a single physical controller, running all SDN applications. However, topological partitioning is limited by the fact that (i) performance of latency-sensitive (e.g., monitoring) SDN applications associated with a given partition may be impacted by co-located compute-intensive (e.g., route computation) applications; (ii) simultaneously achieving low convergence time and response times might be challenging; and (iii) communication between instances of an application across partitions may increase latencies. To tackle these issues, in this paper, we explore functional slicing, a complementary approach to scaling, where multiple SDN applications belonging to the same topological partition may be placed in physically distinct servers. We present Hydra, a framework for distributed SDN controllers based on functional slicing. Hydra chooses partitions based on convergence time as the primary metric, but places application instances across partitions in a manner that keeps response times low while considering communication between applications of a partition, and instances of an application across partitions. Evaluations using the Floodlight controller show the importance and effectiveness of Hydra in simultaneously keeping convergence times on failures small, while sustaining higher throughput per partition and ensuring responsiveness to latency sensitive applications.",
+                "authors": [
+                    {
+                        "s2_author_id": "2629017",
+                        "name": "Yiyang Chang"
+                    },
+                    {
+                        "s2_author_id": "22127871",
+                        "name": "Ashkan Rezaei"
+                    },
+                    {
+                        "s2_author_id": "2775019",
+                        "name": "Balajee Vamanan"
+                    },
+                    {
+                        "s2_author_id": "31567969",
+                        "name": "Jahangir Hasan"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1717864",
+                        "name": "T. N. Vijaykumar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8a9c6e2b7ba481e0ab43fb6b55dbc05b013e00b9",
+                "title": "Achieving Causal Consistency under Partial Replication for Geo-distributed Cloud Storage",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143961700",
+                        "name": "Tariq Mahmood"
+                    },
+                    {
+                        "s2_author_id": "3232007",
+                        "name": "S. Narayanan"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1717864",
+                        "name": "T. N. Vijaykumar"
+                    },
+                    {
+                        "s2_author_id": "1790166",
+                        "name": "Mithuna Thottethodi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dc2727306ae2a1328da3595598a1cfe773d0442e",
+                "title": "Reducing Latency Through Page-aware Management of Web Objects by Content Delivery Networks",
+                "year": 2016,
+                "venue": "Measurement and Modeling of Computer Systems",
+                "citation_count": 23,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3232007",
+                        "name": "S. Narayanan"
+                    },
+                    {
+                        "s2_author_id": "2061153585",
+                        "name": "Yun Seong Nam"
+                    },
+                    {
+                        "s2_author_id": "2467321",
+                        "name": "A. Sivakumar"
+                    },
+                    {
+                        "s2_author_id": "2102739",
+                        "name": "B. Chandrasekaran"
+                    },
+                    {
+                        "s2_author_id": "1711252",
+                        "name": "B. Maggs"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "368df1b2390ee959b3b7bca6c90cc4aa2da7cbcc",
+                "title": "Application-specific configuration selection in the cloud: Impact of provider policy and potential of systematic testing",
+                "year": 2015,
+                "venue": "IEEE Conference on Computer Communications",
+                "citation_count": 19,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2100661",
+                        "name": "Mohammad Y. Hajjat"
+                    },
+                    {
+                        "s2_author_id": "2186804120",
+                        "name": "Ruiqi Liu"
+                    },
+                    {
+                        "s2_author_id": "2629017",
+                        "name": "Yiyang Chang"
+                    },
+                    {
+                        "s2_author_id": "2285009039",
+                        "name": "T. S. Eugene Ng"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9bba824cb7eb7b5b5fc19353468dc0e62878bd89",
+                "title": "Alpaca: compact network policies with attribute-carrying addresses",
+                "year": 2015,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 11,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39759628",
+                        "name": "Nanxi Kang"
+                    },
+                    {
+                        "s2_author_id": "1702296",
+                        "name": "Ori Rottenstreich"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1730356",
+                        "name": "J. Rexford"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a33abcc933c7c442656a3781805ce784473e423c",
+                "title": "A flow measurement architecture to preserve application structure",
+                "year": 2015,
+                "venue": "Comput. Networks",
+                "citation_count": 3,
+                "reference_count": 47,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3936016",
+                        "name": "Myungjin Lee"
+                    },
+                    {
+                        "s2_author_id": "2100661",
+                        "name": "Mohammad Y. Hajjat"
+                    },
+                    {
+                        "s2_author_id": "2828296",
+                        "name": "R. Kompella"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b9257dcc3426b5169ed4a490acc6e918e969534a",
+                "title": "VIDalizer: An energy efficient video streamer",
+                "year": 2015,
+                "venue": "IEEE Wireless Communications and Networking Conference",
+                "citation_count": 1,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2221949",
+                        "name": "Arnab Raha"
+                    },
+                    {
+                        "s2_author_id": "145789403",
+                        "name": "S. Mitra"
+                    },
+                    {
+                        "s2_author_id": "144032862",
+                        "name": "V. Raghunathan"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c1303ecc8b20eee8f92931f21a0e356401711687",
+                "title": "Measuring and characterizing the performance of interactive multi-tier cloud applications",
+                "year": 2015,
+                "venue": "The 21st IEEE International Workshop on Local and Metropolitan Area Networks",
+                "citation_count": 4,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2100661",
+                        "name": "Mohammad Y. Hajjat"
+                    },
+                    {
+                        "s2_author_id": "69521455",
+                        "name": "N. ShankaranarayananP."
+                    },
+                    {
+                        "s2_author_id": "2467321",
+                        "name": "A. Sivakumar"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "103eef2be0295f4a26e0d5043c95b9a5c8323975",
+                "title": "PARCEL: Proxy Assisted BRowsing in Cellular networks for Energy and Latency reduction",
+                "year": 2014,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 62,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2467321",
+                        "name": "A. Sivakumar"
+                    },
+                    {
+                        "s2_author_id": "3232007",
+                        "name": "S. Narayanan"
+                    },
+                    {
+                        "s2_author_id": "34945576",
+                        "name": "V. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1742883",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "95b4e1e1447e059cefbfe55efc72895217964cdd",
+                "title": "Cloud is not a silver bullet: a case study of cloud-based mobile browsing",
+                "year": 2014,
+                "venue": "Workshop on Mobile Computing Systems and Applications",
+                "citation_count": 33,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2467321",
+                        "name": "A. Sivakumar"
+                    },
+                    {
+                        "s2_author_id": "34945576",
+                        "name": "V. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1742883",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cdf9912053b394992fa2dd0bb9039c2901c65d42",
+                "title": "Energy Measurement of SPDY Protocol on Mobile Platform",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "114025938",
+                        "name": "Zisheng Liao"
+                    },
+                    {
+                        "s2_author_id": "2467321",
+                        "name": "A. Sivakumar"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ffcc592f9f9bd7bc4d165e52f898f2e678dfe774",
+                "title": "Performance Sensitive Replication in Geo-distributed Cloud Datastores",
+                "year": 2014,
+                "venue": "2014 44th Annual IEEE/IFIP International Conference on Dependable Systems and Networks",
+                "citation_count": 49,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "69521455",
+                        "name": "N. ShankaranarayananP."
+                    },
+                    {
+                        "s2_author_id": "2467321",
+                        "name": "A. Sivakumar"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1749225",
+                        "name": "Mohit Tawarmalani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "86c66559ba7a7bada81e6862f6433d4dd7781a39",
+                "title": "D-Tunes: Configuration Engine for Geo-Replicated Cloud Storage",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110132356",
+                        "name": "Jiawei Wang"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "89cfcaa307769e35c082b6286bcf4de166fec190",
+                "title": "2-2-2007 Feasibility of DDos Attacks with P 2 P Systems and Prevention Through Robust Membership Management",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ae9597f5439e7edde592410f3ecfbefe7b44bd0c",
+                "title": "D-tunes: self tuning datastores for geo-distributed interactive applications",
+                "year": 2013,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 4,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2285172545",
+                        "name": "Shankaranarayanan P N"
+                    },
+                    {
+                        "s2_author_id": "2467321",
+                        "name": "A. Sivakumar"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1749225",
+                        "name": "Mohit Tawarmalani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c34f35b56d1ddd575d743037c26a9e36704cb21b",
+                "title": "Dynamic Request Splitting for Interactive Cloud Applications",
+                "year": 2013,
+                "venue": "IEEE Journal on Selected Areas in Communications",
+                "citation_count": 3,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2100661",
+                        "name": "Mohammad Y. Hajjat"
+                    },
+                    {
+                        "s2_author_id": "69521455",
+                        "name": "N. ShankaranarayananP."
+                    },
+                    {
+                        "s2_author_id": "6103581",
+                        "name": "D. Maltz"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2537451",
+                        "name": "K. Sripanidkulchai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fc74d387a663a8967a6d71e8842390bed07fc6c6",
+                "title": "Balancing latency and availability in geo-distributed cloud data stores",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "69521455",
+                        "name": "N. ShankaranarayananP."
+                    },
+                    {
+                        "s2_author_id": "2467321",
+                        "name": "A. Sivakumar"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "03ff02521ce6ac11062122dc8d0466d807124259",
+                "title": "Closer to the Cloud-A Case for Emulating Cloud Dynamics by Controlling the Environment",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2467321",
+                        "name": "A. Sivakumar"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04b4c060c6fa8192b8be7fcf93e8d984ef3456fe",
+                "title": "Dealer: application-aware request splitting for interactive cloud applications",
+                "year": 2012,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 21,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2100661",
+                        "name": "Mohammad Y. Hajjat"
+                    },
+                    {
+                        "s2_author_id": "2149761732",
+                        "name": "S. N"
+                    },
+                    {
+                        "s2_author_id": "6103581",
+                        "name": "D. Maltz"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2537451",
+                        "name": "K. Sripanidkulchai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "60ff2dec0ae89a557f682c2d20329e7115f508c3",
+                "title": "Characterization of community based-P2P systems and implications for traffic localization",
+                "year": 2012,
+                "venue": "Peer-to-Peer Networking and Applications",
+                "citation_count": 6,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "1703450",
+                        "name": "M. Mellia"
+                    },
+                    {
+                        "s2_author_id": "38880567",
+                        "name": "M. Munaf\u00f2"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6e2d58f655826d2bbab441f5e230b38d2a2e918a",
+                "title": "The Internet-Wide Impact of P2P Traffic Localization on ISP Profitability",
+                "year": 2012,
+                "venue": "IEEE/ACM Transactions on Networking",
+                "citation_count": 19,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "40597329",
+                        "name": "Jeff Seibert"
+                    },
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "1703450",
+                        "name": "M. Mellia"
+                    },
+                    {
+                        "s2_author_id": "38880567",
+                        "name": "M. Munaf\u00f2"
+                    },
+                    {
+                        "s2_author_id": "1398550766",
+                        "name": "C. Nita-Rotaru"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d9ef616f4910e5375ce4d449dd289b3d8b0535bc",
+                "title": "Modeling complexity of enterprise routing design",
+                "year": 2012,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 18,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "145272590",
+                        "name": "G. Xie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1158fd473266bfd9ff99e03e032595e8f7af2a94",
+                "title": "Towards Systematic Design of Enterprise Networks",
+                "year": 2011,
+                "venue": "IEEE/ACM Transactions on Networking",
+                "citation_count": 26,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "145272590",
+                        "name": "G. Xie"
+                    },
+                    {
+                        "s2_author_id": "6103581",
+                        "name": "D. Maltz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1c62fa38ad2f4e127c0bea89e8d77a2af2acf34e",
+                "title": "YouTube everywhere: impact of device and infrastructure synergies on user experience",
+                "year": 2011,
+                "venue": "ACM/SIGCOMM Internet Measurement Conference",
+                "citation_count": 370,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2835398",
+                        "name": "A. Finamore"
+                    },
+                    {
+                        "s2_author_id": "1703450",
+                        "name": "M. Mellia"
+                    },
+                    {
+                        "s2_author_id": "38880567",
+                        "name": "M. Munaf\u00f2"
+                    },
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "433f0a455cd923e92e6b08239c44a0033ccb1d70",
+                "title": "A cost-benefit framework for judicious enterprise network redesign",
+                "year": 2011,
+                "venue": "2011 Proceedings IEEE INFOCOM",
+                "citation_count": 11,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "70e64631741660b0513dc071a6a0665e3691285a",
+                "title": "Dealer: Dynamic Request Splitting for Performance-Sensitive Applications in Multi-Cloud Environments",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2100661",
+                        "name": "Mohammad Y. Hajjat"
+                    },
+                    {
+                        "s2_author_id": "3232007",
+                        "name": "S. Narayanan"
+                    },
+                    {
+                        "s2_author_id": "6103581",
+                        "name": "D. Maltz"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2537451",
+                        "name": "K. Sripanidkulchai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75e3cd46ec83149b35fce043b31eb1968fc5a83b",
+                "title": "RelSamp: Preserving application structure in sampled flow measurements",
+                "year": 2011,
+                "venue": "2011 Proceedings IEEE INFOCOM",
+                "citation_count": 12,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3936016",
+                        "name": "Myungjin Lee"
+                    },
+                    {
+                        "s2_author_id": "2100661",
+                        "name": "Mohammad Y. Hajjat"
+                    },
+                    {
+                        "s2_author_id": "2828296",
+                        "name": "R. Kompella"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aa2dacdd6bb1e0cb31050afbfca3285387a306df",
+                "title": "A software toolkit for visualizing enterprise routing design",
+                "year": 2011,
+                "venue": "Workshop on Automated Decision Making for Active Cyber Defense",
+                "citation_count": 1,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "1766143",
+                        "name": "Jinliang Wei"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "145272590",
+                        "name": "G. Xie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bd9b84a1edaebd9ecc77b7c396b11b588ff37a85",
+                "title": "A survey of virtual LAN usage in campus networks",
+                "year": 2011,
+                "venue": "IEEE Communications Magazine",
+                "citation_count": 53,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2288644920",
+                        "name": "Minlan Yu"
+                    },
+                    {
+                        "s2_author_id": "1730356",
+                        "name": "J. Rexford"
+                    },
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1800154",
+                        "name": "N. Feamster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "157a26439bf5d9ad31e4355d5b12f1c305d5a76a",
+                "title": "Cloudward bound: planning for beneficial migration of enterprise applications to the cloud",
+                "year": 2010,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 333,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2100661",
+                        "name": "Mohammad Y. Hajjat"
+                    },
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "6103581",
+                        "name": "D. Maltz"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2537451",
+                        "name": "K. Sripanidkulchai"
+                    },
+                    {
+                        "s2_author_id": "1749225",
+                        "name": "Mohit Tawarmalani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "692cd088812d59bbcd8f2c9072eef7c091e3dca9",
+                "title": "A Systematic Approach for Evolving VLAN Designs",
+                "year": 2010,
+                "venue": "2010 Proceedings IEEE INFOCOM",
+                "citation_count": 39,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "2187984",
+                        "name": "Sunil Krothapalli"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b602c9bbcf4fd50e47fededaf395fbe43618b689",
+                "title": "Towards securing data delivery in peer-to-peer streaming",
+                "year": 2010,
+                "venue": "International Conference on Communication Systems and Networks",
+                "citation_count": 7,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "40597329",
+                        "name": "Jeff Seibert"
+                    },
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "1398550766",
+                        "name": "C. Nita-Rotaru"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bc1d8f81e9bc75d281d016cf33fdec138167e236",
+                "title": "On-demand waypoints for live P2P video broadcasting",
+                "year": 2010,
+                "venue": "Peer-to-Peer Networking and Applications",
+                "citation_count": 7,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2516325",
+                        "name": "Aditya Ganjam"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2537451",
+                        "name": "K. Sripanidkulchai"
+                    },
+                    {
+                        "s2_author_id": "2282109",
+                        "name": "Jibin Zhan"
+                    },
+                    {
+                        "s2_author_id": "49723995",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1a2562ba3613359f2e51bf97bcbe5ddf75ea84a",
+                "title": "Preventing DDoS attacks on internet servers exploiting P2P systems",
+                "year": 2010,
+                "venue": "Comput. Networks",
+                "citation_count": 11,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "de15c2aa0396714ff0323ce70c5b0ce5977fccbb",
+                "title": "On the feasibility of exploiting P2P systems to launch DDoS attacks",
+                "year": 2010,
+                "venue": "Peer-to-Peer Networking and Applications",
+                "citation_count": 10,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08fc4368ddb4501786ce98dc957c8c60b54be2e3",
+                "title": "A design for securing data delivery in mesh-based peer-to-peer streaming",
+                "year": 2009,
+                "venue": "Comput. Networks",
+                "citation_count": 2,
+                "reference_count": 53,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "40597329",
+                        "name": "Jeff Seibert"
+                    },
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "1398550766",
+                        "name": "C. Nita-Rotaru"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2a549a157ef6a94820e5fb1a4d1d718b6f3dfa8e",
+                "title": "Extracting Network-Wide Correlated Changes from Longitudinal Configuration Data",
+                "year": 2009,
+                "venue": "Passive and Active Network Measurement Conference",
+                "citation_count": 64,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    },
+                    {
+                        "s2_author_id": "3207153",
+                        "name": "S. Leggett"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "73c5084fbb2bc33a8a280dab08e0932789aca545",
+                "title": "Modeling and understanding end-to-end class of service policies in operational networks",
+                "year": 2009,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 50,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "144595468",
+                        "name": "C. Lund"
+                    },
+                    {
+                        "s2_author_id": "2644141",
+                        "name": "M. Lyn"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b67b20307bf987ff6c10568d847d7b1a8aba5c69",
+                "title": "A toolkit for automating and visualizing VLAN configuration",
+                "year": 2009,
+                "venue": "Workshop on Automated Decision Making for Active Cyber Defense",
+                "citation_count": 18,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2187984",
+                        "name": "Sunil Krothapalli"
+                    },
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "34687523",
+                        "name": "Suan Aik Yeo"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bf63bd33f0547a8e0e5c9f5b59e0f5bca0a1338e",
+                "title": "Virtual MAN : A VLAN Management System for Enterprise Networks",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2187984",
+                        "name": "Sunil Krothapalli"
+                    },
+                    {
+                        "s2_author_id": "34687523",
+                        "name": "Suan Aik Yeo"
+                    },
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d5a5da0fe41099f5c3e8571beabe60b3d4e6023c",
+                "title": "Inferring undesirable behavior from P2P traffic analysis",
+                "year": 2009,
+                "venue": "Measurement and Modeling of Computer Systems",
+                "citation_count": 25,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "2100661",
+                        "name": "Mohammad Y. Hajjat"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1703450",
+                        "name": "M. Mellia"
+                    },
+                    {
+                        "s2_author_id": "38880567",
+                        "name": "M. Munaf\u00f2"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "003c64084a1e9fa17da62415fff6ec9bd59b7650",
+                "title": "Opportunities and Challenges of Peer-to-Peer Internet Video Broadcast",
+                "year": 2008,
+                "venue": "Proceedings of the IEEE",
+                "citation_count": 399,
+                "reference_count": 58,
+                "abstract": "There have been tremendous efforts and many technical innovations in supporting real-time video streaming in the past two decades, but cost-effective large-scale video broadcast has remained an elusive goal. Internet protocol (IP) multicast represented an earlier attempt to tackle this problem but failed largely due to concerns regarding scalability, deployment, and support for higher level functionality. Recently, peer-to-peer based broadcast has emerged as a promising technique, which has been shown to be cost effective and easy to deploy. This new paradigm brings a number of unique advantages such as scalability, resilience, and effectiveness in coping with dynamics and heterogeneity. While peer-to-peer applications such as file download and voice-over-IP have gained tremendous popularity, video broadcast is still in its early stages, and its full potential remains to be seen. This paper reviews the state-of-the-art of peer-to-peer Internet video broadcast technologies. We describe the basic taxonomy of peer-to-peer broadcast and summarize the major issues associated with the design of broadcast overlays. We closely examine two approaches - tree-based and data-driven - and discuss their fundamental tradeoff and potential for large-scale deployment. Lastly, we outline the key challenges and open problems and highlight possible avenues for future directions.",
+                "authors": [
+                    {
+                        "s2_author_id": "1681457",
+                        "name": "Jiangchuan Liu"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "143771569",
+                        "name": "Bo Li"
+                    },
+                    {
+                        "s2_author_id": "2153728981",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "016638985012e34b31274ed33988ccc43477e5d8",
+                "title": "Towards systematic design of enterprise networks",
+                "year": 2008,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 112,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "145272590",
+                        "name": "G. Xie"
+                    },
+                    {
+                        "s2_author_id": "6103581",
+                        "name": "D. Maltz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "35c2825863f5dc43abea3403ee5185e83ddec356",
+                "title": "Behavior-based characterization of peer-to-peer (p2p) traffic",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "2100661",
+                        "name": "Mohammad Y. Hajjat"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1008a1372b4757bd13d28da73f37a2ea22a10bf5",
+                "title": "Enabling Confidentiality of Data Delivery in an Overlay Broadcasting System",
+                "year": 2007,
+                "venue": "IEEE INFOCOM 2007 - 26th IEEE International Conference on Computer Communications",
+                "citation_count": 7,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "32674196",
+                        "name": "Aaron Walters"
+                    },
+                    {
+                        "s2_author_id": "1398550766",
+                        "name": "C. Nita-Rotaru"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "118eb1b76a16f4cbc670da0b19ece38fc5701bdc",
+                "title": "Feasibility of DDos Attacks with P2P Systems and Prevention Through Robust Membership Management",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "14b54402ca38df47d8687903e08ce3585daa0029",
+                "title": "Characterizing VLAN usage in an operational network",
+                "year": 2007,
+                "venue": "INM '07",
+                "citation_count": 46,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31363875",
+                        "name": "Prashant Garimella"
+                    },
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "39690876",
+                        "name": "Nan Zhang"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d03f107feaec89a9e1d3c94ff649726ec41f376",
+                "title": "Configuration management at massive scale: system design and experience",
+                "year": 2007,
+                "venue": "IEEE Journal on Selected Areas in Communications",
+                "citation_count": 116,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1716269",
+                        "name": "W. Enck"
+                    },
+                    {
+                        "s2_author_id": "145229220",
+                        "name": "Thomas Moyer"
+                    },
+                    {
+                        "s2_author_id": "144061974",
+                        "name": "P. Mcdaniel"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    },
+                    {
+                        "s2_author_id": "3129140",
+                        "name": "P. Sebos"
+                    },
+                    {
+                        "s2_author_id": "1409048863",
+                        "name": "Sylke Spoerel"
+                    },
+                    {
+                        "s2_author_id": "34820574",
+                        "name": "A. Greenberg"
+                    },
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1749123",
+                        "name": "W. Aiello"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "336170c62b86789df6ce1209aec4cbedf5548cdd",
+                "title": "Preventing DDoS Attacks with P 2 P Systems through Robust Membership Management",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2103756431",
+                        "name": "sanjay rtorresg"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9fac4fe4ec13c9c121fa626e4068e79818b03395",
+                "title": "Characterization Study of VLANs in a Campus Network",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31363875",
+                        "name": "Prashant Garimella"
+                    },
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "39690876",
+                        "name": "Nan Zhang"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a32381c658569ae875ed566c81dcd15693e75835",
+                "title": "DDoS Attacks by Subverting Membership Management in P2P Systems",
+                "year": 2007,
+                "venue": "2007 3rd IEEE Workshop on Secure Network Protocols",
+                "citation_count": 31,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144783278",
+                        "name": "Xin Sun"
+                    },
+                    {
+                        "s2_author_id": "37999520",
+                        "name": "R. Torres"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c5b1f23d96496932d9dd42af99345d2f4271973a",
+                "title": "Design and Evaluation of a Compressed File System Project Final Report 15-712 Software Systems",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2111017670",
+                        "name": "Jun Gao"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "66738400",
+                        "name": "P. Venable"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9ba980c8995726c48bff132b0ad7f2125ad17228",
+                "title": "Considering Priority in Overlay Multicast Protocols Under Heterogeneous Environments",
+                "year": 2006,
+                "venue": "Proceedings IEEE INFOCOM 2006. 25TH IEEE International Conference on Computer Communications",
+                "citation_count": 107,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2054002171",
+                        "name": "Michael A. Bishop"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2537451",
+                        "name": "K. Sripanidkulchai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9bb14538caf0117ad821e5cdaabbc707a3430392",
+                "title": "Enabling Contribution Awareness in an Overlay Broadcasting System",
+                "year": 2006,
+                "venue": "IEEE transactions on multimedia",
+                "citation_count": 99,
+                "reference_count": 50,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "2054002171",
+                        "name": "Michael A. Bishop"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e342e85f7dc1f2216e3d29e77e80d850c9044d3",
+                "title": "The Impact of Heterogeneous Bandwidth Constraints on DHT-Based Multicast Protocols",
+                "year": 2005,
+                "venue": "International Workshop on Peer-to-Peer Systems",
+                "citation_count": 78,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1842920",
+                        "name": "Ashwin R. Bharambe"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "1799406",
+                        "name": "V. Padmanabhan"
+                    },
+                    {
+                        "s2_author_id": "67327573",
+                        "name": "S. Seshan"
+                    },
+                    {
+                        "s2_author_id": "49723995",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0618729db870a433473b8432d831f515bafdee05",
+                "title": "Early Experience with an Internet Broadcast System Based on Overlay Multicast",
+                "year": 2004,
+                "venue": "USENIX ATC, General Track",
+                "citation_count": 237,
+                "reference_count": 41,
+                "abstract": "In this paper, we report on experience in building and deploying an operational Internet broadcast system based on Overlay Multicast. In over a year, the system has been providing a cost-effective alternative for Internet broadcast, used by over 4000 users spread across multiple continents in home, academic and commercial environments. Technical conferences and special interest groups are the early adopters. Our experience confirms that Overlay Multicast can be easily deployed and can provide reasonably good application performance. The experience has led us to identify first-order issues that are guiding our future efforts and are of importance to any Overlay Multicast protocol or system. Our key contributions are (i) enabling a real Overlay Multicast application and strengthening the case for overlays as a viable architecture for enabling group communication applications on the Internet, (ii) the details in engineering and operating a fully functional streaming system, addressing a wide range of real-world issues that are not typically considered in protocol design studies, and (iii) the data, analysis methodology, and experience that we are able to report given our unique standpoint.",
+                "authors": [
+                    {
+                        "s2_author_id": "1786171",
+                        "name": "Yang-hua Chu"
+                    },
+                    {
+                        "s2_author_id": "2516325",
+                        "name": "Aditya Ganjam"
+                    },
+                    {
+                        "s2_author_id": "143866548",
+                        "name": "T. Ng"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2537451",
+                        "name": "K. Sripanidkulchai"
+                    },
+                    {
+                        "s2_author_id": "2282109",
+                        "name": "Jibin Zhan"
+                    },
+                    {
+                        "s2_author_id": "49723995",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "60f703c397c6268a0706dc96128df002dc26f382",
+                "title": "Establishing the viability of end system multicast using a systems approach to protocol design",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 66,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "49723995",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1c78e702bf6dbf2938faa162716f346bb35089d",
+                "title": "V5.2-User Adaptation Layer (V5UA)",
+                "year": 2004,
+                "venue": "Request for Comments",
+                "citation_count": 5,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2083313650",
+                        "name": "Eva Weilandt"
+                    },
+                    {
+                        "s2_author_id": "29890685",
+                        "name": "Neeraj Khanchandani"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7851183214db6e19b9c2c7a898a39633bafb507e",
+                "title": "Measurement-based optimization techniques for bandwidth-demanding peer-to-peer systems",
+                "year": 2003,
+                "venue": "IEEE INFOCOM 2003. Twenty-second Annual Joint Conference of the IEEE Computer and Communications Societies (IEEE Cat. No.03CH37428)",
+                "citation_count": 120,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143866548",
+                        "name": "T. Ng"
+                    },
+                    {
+                        "s2_author_id": "1786171",
+                        "name": "Yang-hua Chu"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2537451",
+                        "name": "K. Sripanidkulchai"
+                    },
+                    {
+                        "s2_author_id": "49723995",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "81ff20b1c932111bdc0ce10a6b50417992706f10",
+                "title": "Mercury: a scalable publish-subscribe system for internet games",
+                "year": 2002,
+                "venue": "Network and System Support for Games",
+                "citation_count": 136,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1842920",
+                        "name": "Ashwin R. Bharambe"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "67327573",
+                        "name": "S. Seshan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6b5281af7199f20b945e1b5dbd28058841ac694c",
+                "title": "Enabling conferencing applications on the internet using an overlay muilticast architecture",
+                "year": 2001,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 604,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1786171",
+                        "name": "Yang-hua Chu"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "67327573",
+                        "name": "S. Seshan"
+                    },
+                    {
+                        "s2_author_id": "49723995",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8df91e920ae4ed40969b73108f37e97bf2e273d5",
+                "title": "Fast techniques for the optimal smoothing of stored video",
+                "year": 1999,
+                "venue": "Multimedia Systems",
+                "citation_count": 35,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2286693060",
+                        "name": "Multimedia Systems"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "144639609",
+                        "name": "S. Raghavan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bc9aae5b052689ff6a5e5abe47c77663098d2c7c",
+                "title": "Selected Reports: Fall 1997 Soft ware Systems Course (CMU-CS-98-103)",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "40568480",
+                        "name": "Garth A. Gibson"
+                    },
+                    {
+                        "s2_author_id": "3164149",
+                        "name": "Christopher B. Colohan"
+                    },
+                    {
+                        "s2_author_id": "2060559270",
+                        "name": "C. Rosenberg"
+                    },
+                    {
+                        "s2_author_id": "32301095",
+                        "name": "G. Steffan"
+                    },
+                    {
+                        "s2_author_id": "2131407",
+                        "name": "David Petrou"
+                    },
+                    {
+                        "s2_author_id": "2598981",
+                        "name": "J. Milford"
+                    },
+                    {
+                        "s2_author_id": "2160379",
+                        "name": "O. Cheiner"
+                    },
+                    {
+                        "s2_author_id": "31460777",
+                        "name": "I. Derenyi"
+                    },
+                    {
+                        "s2_author_id": "2111017670",
+                        "name": "Jun Gao"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "66738400",
+                        "name": "P. Venable"
+                    },
+                    {
+                        "s2_author_id": "2069182331",
+                        "name": "D. Rohde"
+                    },
+                    {
+                        "s2_author_id": "116622245",
+                        "name": "R. Romero"
+                    },
+                    {
+                        "s2_author_id": "3134929",
+                        "name": "P. Wickline"
+                    },
+                    {
+                        "s2_author_id": "114402462",
+                        "name": "Michael Mateas"
+                    },
+                    {
+                        "s2_author_id": "145172877",
+                        "name": "K. Nigam"
+                    },
+                    {
+                        "s2_author_id": "1707533",
+                        "name": "M. Budiu"
+                    },
+                    {
+                        "s2_author_id": "69899880",
+                        "name": "R. Budiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "819632cb4a993ed1393cdcd53c9152e513510d38",
+                "title": "Run-time support and storage management for memory-mapped persistent objects",
+                "year": 1993,
+                "venue": "[1993] Proceedings. The 13th International Conference on Distributed Computing Systems",
+                "citation_count": 8,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39904155",
+                        "name": "B. Millard"
+                    },
+                    {
+                        "s2_author_id": "50140537",
+                        "name": "P. Dasgupta"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "2708931",
+                        "name": "R. Kuramkote"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ebaefc6302d9f87e90f2e1341979bae6108d31b0",
+                "title": "Towards Automated Auditing for Network Configuration Changes",
+                "year": null,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3294900",
+                        "name": "Y. Sung"
+                    },
+                    {
+                        "s2_author_id": "32782897",
+                        "name": "Sanjay G. Rao"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    },
+                    {
+                        "s2_author_id": "3207153",
+                        "name": "S. Leggett"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "9441837",
+                "name": "Ehab Ghabashneh"
+            },
+            {
+                "s2_author_id": "9980069",
+                "name": "Yimeng Zhao"
+            },
+            {
+                "s2_author_id": "2470254",
+                "name": "C. Lumezanu"
+            },
+            {
+                "s2_author_id": "145106967",
+                "name": "N. Spring"
+            },
+            {
+                "s2_author_id": "71857571",
+                "name": "S. Sundaresan"
+            },
+            {
+                "s2_author_id": "2061153585",
+                "name": "Yun Seong Nam"
+            },
+            {
+                "s2_author_id": "2149257579",
+                "name": "Jianfei Gao"
+            },
+            {
+                "s2_author_id": "1420114727",
+                "name": "Chandan Bothra"
+            },
+            {
+                "s2_author_id": "2106943452",
+                "name": "Bruno Ribeiro"
+            },
+            {
+                "s2_author_id": "2282109",
+                "name": "Jibin Zhan"
+            },
+            {
+                "s2_author_id": "2153730132",
+                "name": "Hui Zhang"
+            },
+            {
+                "s2_author_id": "46274042",
+                "name": "Chuan Jiang"
+            },
+            {
+                "s2_author_id": "1749225",
+                "name": "Mohit Tawarmalani"
+            },
+            {
+                "s2_author_id": "145617731",
+                "name": "Bruno Ribeiro"
+            },
+            {
+                "s2_author_id": "2153727867",
+                "name": "Hui Zhang"
+            },
+            {
+                "s2_author_id": "2108945467",
+                "name": "Yanjun Wang"
+            },
+            {
+                "s2_author_id": "46947005",
+                "name": "Zixuan Li"
+            },
+            {
+                "s2_author_id": "2948429",
+                "name": "Xiaokang Qiu"
+            },
+            {
+                "s2_author_id": "50647449",
+                "name": "Russell Shirey"
+            },
+            {
+                "s2_author_id": "144882686",
+                "name": "S. Sundaram"
+            },
+            {
+                "s2_author_id": "37177373",
+                "name": "A. Jacobs"
+            },
+            {
+                "s2_author_id": "51110498",
+                "name": "R. Pfitscher"
+            },
+            {
+                "s2_author_id": "1602295467",
+                "name": "Rafael Hengen Ribeiro"
+            },
+            {
+                "s2_author_id": "40238585",
+                "name": "R. Ferreira"
+            },
+            {
+                "s2_author_id": "1736224",
+                "name": "L. Granville"
+            },
+            {
+                "s2_author_id": "1744426",
+                "name": "W. Willinger"
+            },
+            {
+                "s2_author_id": "143961700",
+                "name": "Tariq Mahmood"
+            },
+            {
+                "s2_author_id": "3232007",
+                "name": "S. Narayanan"
+            },
+            {
+                "s2_author_id": "1717864",
+                "name": "T. N. Vijaykumar"
+            },
+            {
+                "s2_author_id": "1790166",
+                "name": "Mithuna Thottethodi"
+            },
+            {
+                "s2_author_id": "2051534953",
+                "name": "Zixuan Li"
+            },
+            {
+                "s2_author_id": "2330874233",
+                "name": "P. C. Sruthi"
+            },
+            {
+                "s2_author_id": "2629017",
+                "name": "Yiyang Chang"
+            },
+            {
+                "s2_author_id": "1739130588",
+                "name": "Ashish Chandra"
+            },
+            {
+                "s2_author_id": "2829476",
+                "name": "Zahaib Akhtar"
+            },
+            {
+                "s2_author_id": "2146172158",
+                "name": "Anh Minh Le"
+            },
+            {
+                "s2_author_id": "1815343",
+                "name": "Jessica Chen"
+            },
+            {
+                "s2_author_id": "1747970",
+                "name": "R. Govindan"
+            },
+            {
+                "s2_author_id": "1403173666",
+                "name": "Ethan Katz-Bassett"
+            },
+            {
+                "s2_author_id": "1401030877",
+                "name": "J. Garc\u00eda-Dorado"
+            },
+            {
+                "s2_author_id": "34859745",
+                "name": "Bharath Balasubramanian"
+            },
+            {
+                "s2_author_id": "144010921",
+                "name": "Kaustubh R. Joshi"
+            },
+            {
+                "s2_author_id": "22127871",
+                "name": "Ashkan Rezaei"
+            },
+            {
+                "s2_author_id": "2775019",
+                "name": "Balajee Vamanan"
+            },
+            {
+                "s2_author_id": "31567969",
+                "name": "Jahangir Hasan"
+            },
+            {
+                "s2_author_id": "2467321",
+                "name": "A. Sivakumar"
+            },
+            {
+                "s2_author_id": "34945576",
+                "name": "V. Gopalakrishnan"
+            },
+            {
+                "s2_author_id": "35049639",
+                "name": "S. Sen"
+            },
+            {
+                "s2_author_id": "34715212",
+                "name": "G. Petri"
+            },
+            {
+                "s2_author_id": "1712987",
+                "name": "Tiark Rompf"
+            },
+            {
+                "s2_author_id": "39759628",
+                "name": "Nanxi Kang"
+            },
+            {
+                "s2_author_id": "1702296",
+                "name": "Ori Rottenstreich"
+            },
+            {
+                "s2_author_id": "1730356",
+                "name": "J. Rexford"
+            },
+            {
+                "s2_author_id": "2102739",
+                "name": "B. Chandrasekaran"
+            },
+            {
+                "s2_author_id": "1711252",
+                "name": "B. Maggs"
+            },
+            {
+                "s2_author_id": "2100661",
+                "name": "Mohammad Y. Hajjat"
+            },
+            {
+                "s2_author_id": "2186804120",
+                "name": "Ruiqi Liu"
+            },
+            {
+                "s2_author_id": "2285009039",
+                "name": "T. S. Eugene Ng"
+            },
+            {
+                "s2_author_id": "3936016",
+                "name": "Myungjin Lee"
+            },
+            {
+                "s2_author_id": "2828296",
+                "name": "R. Kompella"
+            },
+            {
+                "s2_author_id": "2221949",
+                "name": "Arnab Raha"
+            },
+            {
+                "s2_author_id": "145789403",
+                "name": "S. Mitra"
+            },
+            {
+                "s2_author_id": "144032862",
+                "name": "V. Raghunathan"
+            },
+            {
+                "s2_author_id": "69521455",
+                "name": "N. ShankaranarayananP."
+            },
+            {
+                "s2_author_id": "1742883",
+                "name": "Seungjoon Lee"
+            },
+            {
+                "s2_author_id": "1704170",
+                "name": "Oliver Spatscheck"
+            },
+            {
+                "s2_author_id": "114025938",
+                "name": "Zisheng Liao"
+            },
+            {
+                "s2_author_id": "2110132356",
+                "name": "Jiawei Wang"
+            },
+            {
+                "s2_author_id": "37999520",
+                "name": "R. Torres"
+            },
+            {
+                "s2_author_id": "2285172545",
+                "name": "Shankaranarayanan P N"
+            },
+            {
+                "s2_author_id": "6103581",
+                "name": "D. Maltz"
+            },
+            {
+                "s2_author_id": "2537451",
+                "name": "K. Sripanidkulchai"
+            },
+            {
+                "s2_author_id": "2149761732",
+                "name": "S. N"
+            },
+            {
+                "s2_author_id": "1703450",
+                "name": "M. Mellia"
+            },
+            {
+                "s2_author_id": "38880567",
+                "name": "M. Munaf\u00f2"
+            },
+            {
+                "s2_author_id": "40597329",
+                "name": "Jeff Seibert"
+            },
+            {
+                "s2_author_id": "1398550766",
+                "name": "C. Nita-Rotaru"
+            },
+            {
+                "s2_author_id": "144783278",
+                "name": "Xin Sun"
+            },
+            {
+                "s2_author_id": "145272590",
+                "name": "G. Xie"
+            },
+            {
+                "s2_author_id": "3294900",
+                "name": "Y. Sung"
+            },
+            {
+                "s2_author_id": "2835398",
+                "name": "A. Finamore"
+            },
+            {
+                "s2_author_id": "1766143",
+                "name": "Jinliang Wei"
+            },
+            {
+                "s2_author_id": "2288644920",
+                "name": "Minlan Yu"
+            },
+            {
+                "s2_author_id": "1800154",
+                "name": "N. Feamster"
+            },
+            {
+                "s2_author_id": "2187984",
+                "name": "Sunil Krothapalli"
+            },
+            {
+                "s2_author_id": "2516325",
+                "name": "Aditya Ganjam"
+            },
+            {
+                "s2_author_id": "49723995",
+                "name": "Hui Zhang"
+            },
+            {
+                "s2_author_id": "3207153",
+                "name": "S. Leggett"
+            },
+            {
+                "s2_author_id": "144595468",
+                "name": "C. Lund"
+            },
+            {
+                "s2_author_id": "2644141",
+                "name": "M. Lyn"
+            },
+            {
+                "s2_author_id": "34687523",
+                "name": "Suan Aik Yeo"
+            },
+            {
+                "s2_author_id": "1681457",
+                "name": "Jiangchuan Liu"
+            },
+            {
+                "s2_author_id": "143771569",
+                "name": "Bo Li"
+            },
+            {
+                "s2_author_id": "2153728981",
+                "name": "Hui Zhang"
+            },
+            {
+                "s2_author_id": "32674196",
+                "name": "Aaron Walters"
+            },
+            {
+                "s2_author_id": "31363875",
+                "name": "Prashant Garimella"
+            },
+            {
+                "s2_author_id": "39690876",
+                "name": "Nan Zhang"
+            },
+            {
+                "s2_author_id": "1716269",
+                "name": "W. Enck"
+            },
+            {
+                "s2_author_id": "145229220",
+                "name": "Thomas Moyer"
+            },
+            {
+                "s2_author_id": "144061974",
+                "name": "P. Mcdaniel"
+            },
+            {
+                "s2_author_id": "3129140",
+                "name": "P. Sebos"
+            },
+            {
+                "s2_author_id": "1409048863",
+                "name": "Sylke Spoerel"
+            },
+            {
+                "s2_author_id": "34820574",
+                "name": "A. Greenberg"
+            },
+            {
+                "s2_author_id": "1749123",
+                "name": "W. Aiello"
+            },
+            {
+                "s2_author_id": "2103756431",
+                "name": "sanjay rtorresg"
+            },
+            {
+                "s2_author_id": "2111017670",
+                "name": "Jun Gao"
+            },
+            {
+                "s2_author_id": "66738400",
+                "name": "P. Venable"
+            },
+            {
+                "s2_author_id": "2054002171",
+                "name": "Michael A. Bishop"
+            },
+            {
+                "s2_author_id": "1842920",
+                "name": "Ashwin R. Bharambe"
+            },
+            {
+                "s2_author_id": "1799406",
+                "name": "V. Padmanabhan"
+            },
+            {
+                "s2_author_id": "67327573",
+                "name": "S. Seshan"
+            },
+            {
+                "s2_author_id": "1786171",
+                "name": "Yang-hua Chu"
+            },
+            {
+                "s2_author_id": "143866548",
+                "name": "T. Ng"
+            },
+            {
+                "s2_author_id": "2083313650",
+                "name": "Eva Weilandt"
+            },
+            {
+                "s2_author_id": "29890685",
+                "name": "Neeraj Khanchandani"
+            },
+            {
+                "s2_author_id": "2286693060",
+                "name": "Multimedia Systems"
+            },
+            {
+                "s2_author_id": "144639609",
+                "name": "S. Raghavan"
+            },
+            {
+                "s2_author_id": "40568480",
+                "name": "Garth A. Gibson"
+            },
+            {
+                "s2_author_id": "3164149",
+                "name": "Christopher B. Colohan"
+            },
+            {
+                "s2_author_id": "2060559270",
+                "name": "C. Rosenberg"
+            },
+            {
+                "s2_author_id": "32301095",
+                "name": "G. Steffan"
+            },
+            {
+                "s2_author_id": "2131407",
+                "name": "David Petrou"
+            },
+            {
+                "s2_author_id": "2598981",
+                "name": "J. Milford"
+            },
+            {
+                "s2_author_id": "2160379",
+                "name": "O. Cheiner"
+            },
+            {
+                "s2_author_id": "31460777",
+                "name": "I. Derenyi"
+            },
+            {
+                "s2_author_id": "2069182331",
+                "name": "D. Rohde"
+            },
+            {
+                "s2_author_id": "116622245",
+                "name": "R. Romero"
+            },
+            {
+                "s2_author_id": "3134929",
+                "name": "P. Wickline"
+            },
+            {
+                "s2_author_id": "114402462",
+                "name": "Michael Mateas"
+            },
+            {
+                "s2_author_id": "145172877",
+                "name": "K. Nigam"
+            },
+            {
+                "s2_author_id": "1707533",
+                "name": "M. Budiu"
+            },
+            {
+                "s2_author_id": "69899880",
+                "name": "R. Budiu"
+            },
+            {
+                "s2_author_id": "39904155",
+                "name": "B. Millard"
+            },
+            {
+                "s2_author_id": "50140537",
+                "name": "P. Dasgupta"
+            },
+            {
+                "s2_author_id": "2708931",
+                "name": "R. Kuramkote"
+            }
+        ],
+        "total_co_authors": 135,
+        "papers_retrieved": 94
+    }
+}

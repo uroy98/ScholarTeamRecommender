@@ -1,0 +1,2051 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A0S9K",
+        "name": "Stefan T Radev",
+        "primary_affiliation": "Rensselaer Polytechnic Institute",
+        "primary_department": null,
+        "all_affiliations": [
+            "Rensselaer Polytechnic Institute"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "NY"
+        ],
+        "perf_cities": [
+            "TROY"
+        ],
+        "org_names": [
+            "Rensselaer Polytechnic Institute"
+        ],
+        "org_ueis": [
+            "U5WBFKEBLMX3"
+        ],
+        "inst_types": [
+            "nonprofit"
+        ],
+        "emails": [
+            "radevs@rpi.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2448380",
+                "title": "Amortized Bayesian Inference for Computational Models of Cognition and Behavior",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-06-01",
+                "exp_date": "2028-05-31",
+                "award_amount": 375000.0,
+                "total_amount": 375000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "Methodology, Measuremt & Stats"
+                ],
+                "program_codes": [
+                    "133300"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "SBE",
+                "div_abbr": "SES",
+                "nsf_directorate": null,
+                "fund_division": "Division of Social and Economic Sciences",
+                "cfda_num": "47.075",
+                "po_name": "Nicholas N Nagle",
+                "keywords": [
+                    "bayesian",
+                    "inference",
+                    "models",
+                    "methods",
+                    "computational",
+                    "researchers",
+                    "amortized",
+                    "complex",
+                    "statistical",
+                    "framework"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "Methodology, Measuremt & Stats"
+        ],
+        "program_codes": [
+            "133300"
+        ],
+        "program_references": [],
+        "program_ref_codes": [],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "SBE"
+        ],
+        "div_abbrs": [
+            "SES"
+        ],
+        "fund_divisions": [
+            "Division of Social and Economic Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.075"
+        ],
+        "program_officers": [
+            "Nicholas N Nagle"
+        ],
+        "keywords": [
+            "bayesian",
+            "inference",
+            "models",
+            "methods",
+            "computational",
+            "researchers",
+            "amortized",
+            "complex",
+            "statistical",
+            "framework",
+            "model",
+            "across",
+            "behavioral",
+            "sciences",
+            "traditional",
+            "open",
+            "developments",
+            "building",
+            "training",
+            "trained"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.71
+    },
+    "s2_profile": {
+        "s2_author_id": "49162097",
+        "name": "Stefan T Radev",
+        "affiliations": [],
+        "paper_count": 49,
+        "citation_count": 904,
+        "h_index": 16,
+        "papers": [
+            {
+                "s2_paper_id": "2123abbb8ec4b30c8c5ee3de2b3c1f714550ffc3",
+                "title": "Testing and improving the robustness of amortized bayesian inference for cognitive models.",
+                "year": 2026,
+                "venue": "Psychological methods",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "Contaminant observations often cause problems when estimating the parameters of cognitive models. In this study, we tested and improved the robustness of parameter estimation using amortized Bayesian inference. We conducted systematic analyses in two settings: a toy example (i.e., a normal distribution with an unknown mean) and a popular cognitive model, the drift diffusion model. First, we studied the stylized sensitivity curve and the breakdown point of the estimators. Next, we proposed a simple data augmentation approach that incorporated a contamination distribution into the data-generating process during training to train robust estimators. We examined several robust estimators with different contamination distributions, and evaluated their performance and cost in terms of accuracy and efficiency loss relative to a standard estimator. Introducing contaminants from a Cauchy distribution during training significantly increases the robustness of the neural density estimator, as measured by bounded sensitivity functions and a substantially higher breakdown point. Overall, the proposed method is straightforward and practical to implement, with broad applicability in fields where outlier detection or removal is challenging. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+                "authors": [
+                    {
+                        "s2_author_id": "2380573249",
+                        "name": "Yufei Wu"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2252907137",
+                        "name": "Francis Tuerlinckx"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b70ee2e0b32419c54e3bbe50e096c17955f15838",
+                "title": "BayesFlow 2.0: Multi-Backend Amortized Bayesian Inference in Python",
+                "year": 2026,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 96,
+                "abstract": "Modern Bayesian inference involves a mixture of computational methods for estimating, validating, and drawing conclusions from probabilistic models as part of principled workflows. An overarching motif of many Bayesian methods is that they are relatively slow, which often becomes prohibitive when fitting complex models to large data sets. Amortized Bayesian inference (ABI) offers a path to solving the computational challenges of Bayes. ABI trains neural networks on model simulations, rewarding users with rapid inference of any model-implied quantity, such as point estimates, likelihoods, or full posterior distributions. In this work, we present the Python library BayesFlow, Version 2.0, for general-purpose ABI. Along with direct posterior, likelihood, and ratio estimation, the software includes support for multiple popular deep learning backends, a rich collection of generative networks for sampling and density estimation, complete customization and high-level interfaces, as well as new capabilities for hyperparameter optimization, design optimization, and hierarchical modeling. Using a case study on dynamical system parameter estimation, combined with comparisons to similar software, we show that our streamlined, user-friendly workflow has strong potential to support broad adoption.",
+                "authors": [
+                    {
+                        "s2_author_id": "2275055377",
+                        "name": "Lars Kuhmichel"
+                    },
+                    {
+                        "s2_author_id": "2409868691",
+                        "name": "Jerry M. Huang"
+                    },
+                    {
+                        "s2_author_id": "2090198792",
+                        "name": "Valentin Pratz"
+                    },
+                    {
+                        "s2_author_id": "2409827098",
+                        "name": "Jonas Arruda"
+                    },
+                    {
+                        "s2_author_id": "2409823466",
+                        "name": "Hans Olischlager"
+                    },
+                    {
+                        "s2_author_id": "2256988364",
+                        "name": "Daniel Habermann"
+                    },
+                    {
+                        "s2_author_id": "2347733149",
+                        "name": "Simon Kucharsk\u00fd"
+                    },
+                    {
+                        "s2_author_id": "2203247791",
+                        "name": "Lasse Elsemuller"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Aayush Mishra"
+                    },
+                    {
+                        "s2_author_id": "2305344296",
+                        "name": "N. Bracher"
+                    },
+                    {
+                        "s2_author_id": "2361509287",
+                        "name": "Svenja Jedhoff"
+                    },
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2be9b5ff9793dd118779fad565f3116fb24b6e29",
+                "title": "L\u00e9vy Versus Wiener: Assessing the Effects of Model Misspecification on Diffusion Model Parameters",
+                "year": 2025,
+                "venue": "Computational Brain & Behavior",
+                "citation_count": 0,
+                "reference_count": 55,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2363785888",
+                        "name": "Tuba Hato"
+                    },
+                    {
+                        "s2_author_id": "2191898951",
+                        "name": "Lukas Schumacher"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2279756624",
+                        "name": "Andreas Voss"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5359925c79d5dc75603e0b09d5d90a409c420cbe",
+                "title": "Improving the Accuracy of Amortized Model Comparison with Self-Consistency",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 35,
+                "abstract": "Amortized Bayesian inference (ABI) offers fast, scalable approximations to posterior densities by training neural surrogates on data simulated from the statistical model. However, ABI methods are highly sensitive to model misspecification: when observed data fall outside the training distribution (generative scope of the statistical models), neural surrogates can behave unpredictably. This makes it a challenge in a model comparison setting, where multiple statistical models are considered, of which at least some are misspecified. Recent work on self-consistency (SC) provides a promising remedy to this issue, accessible even for empirical data (without ground-truth labels). In this work, we investigate how SC can improve amortized model comparison conceptualized in four different ways. Across two synthetic and two real-world case studies, we find that approaches for model comparison that estimate marginal likelihoods through approximate parameter posteriors consistently outperform methods that directly approximate model evidence or posterior model probabilities. SC training improves robustness when the likelihood is available, even under severe model misspecification. The benefits of SC for methods without access of analytic likelihoods are more limited and inconsistent. Our results suggest practical guidance for reliable amortized Bayesian model comparison: prefer parameter posterior-based methods and augment them with SC training on empirical datasets to mitigate extrapolation bias under model misspecification.",
+                "authors": [
+                    {
+                        "s2_author_id": "2377797399",
+                        "name": "vSimon Kucharsk'y"
+                    },
+                    {
+                        "s2_author_id": "2342102957",
+                        "name": "Aayush Mishra"
+                    },
+                    {
+                        "s2_author_id": "2256988364",
+                        "name": "Daniel Habermann"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "619f20c2795464ff3b69d2eb57e3c01085752b36",
+                "title": "Simulations in Statistical Workflows",
+                "year": 2025,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 124,
+                "abstract": "Simulations play important and diverse roles in statistical workflows, for example, in model specification, checking, validation, and even directly in model inference. Over the past decades, the application areas and overall potential of simulations in statistical workflows have expanded significantly, driven by the development of new simulation-based algorithms and exponentially increasing computational resources. In this paper, we examine past and current trends in the field and offer perspectives on how simulations may shape the future of statistical practice.",
+                "authors": [
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "741eba0dd2ebc399db795113ca997224c6294fd1",
+                "title": "Robust Amortized Bayesian Inference with Self-Consistency Losses on Unlabeled Data",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 6,
+                "reference_count": 53,
+                "abstract": "Amortized Bayesian inference (ABI) with neural networks can solve probabilistic inverse problems orders of magnitude faster than classical methods. However, ABI is not yet sufficiently robust for widespread and safe application. When performing inference on observations outside the scope of the simulated training data, posterior approximations are likely to become highly biased, which cannot be corrected by additional simulations due to the bad pre-asymptotic behavior of current neural posterior estimators. In this paper, we propose a semi-supervised approach that enables training not only on labeled simulated data generated from the model, but also on \\textit{unlabeled} data originating from any source, including real data. To achieve this, we leverage Bayesian self-consistency properties that can be transformed into strictly proper losses that do not require knowledge of ground-truth parameters. We test our approach on several real-world case studies, including applications to high-dimensional time-series and image data. Our results show that semi-supervised learning with unlabeled data drastically improves the robustness of ABI in the out-of-simulation regime. Notably, inference remains accurate even when evaluated on observations far away from the labeled and unlabeled data seen during training.",
+                "authors": [
+                    {
+                        "s2_author_id": "2342102957",
+                        "name": "Aayush Mishra"
+                    },
+                    {
+                        "s2_author_id": "2256988364",
+                        "name": "Daniel Habermann"
+                    },
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a64c86c790083004536c4719db5988880281c748",
+                "title": "Does Unsupervised Domain Adaptation Improve the Robustness of Amortized Bayesian Inference? A Systematic Evaluation",
+                "year": 2025,
+                "venue": "Trans. Mach. Learn. Res.",
+                "citation_count": 9,
+                "reference_count": 104,
+                "abstract": "Neural networks are fragile when confronted with data that significantly deviates from their training distribution. This is true in particular for simulation-based inference methods, such as neural amortized Bayesian inference (ABI), where models trained on simulated data are deployed on noisy real-world observations. Recent robust approaches employ unsupervised domain adaptation (UDA) to match the embedding spaces of simulated and observed data. However, the lack of comprehensive evaluations across different domain mismatches raises concerns about the reliability in high-stakes applications. We address this gap by systematically testing UDA approaches across a wide range of misspecification scenarios in silico and practice. We demonstrate that aligning summary spaces between domains effectively mitigates the impact of unmodeled phenomena or noise. However, the same alignment mechanism can lead to failures under prior misspecifications - a critical finding with practical consequences. Our results underscore the need for careful consideration of misspecification types when using UDA to increase the robustness of ABI.",
+                "authors": [
+                    {
+                        "s2_author_id": "2203247791",
+                        "name": "Lasse Elsemuller"
+                    },
+                    {
+                        "s2_author_id": "2090198792",
+                        "name": "Valentin Pratz"
+                    },
+                    {
+                        "s2_author_id": "1410869400",
+                        "name": "Mischa von Krause"
+                    },
+                    {
+                        "s2_author_id": "2279756624",
+                        "name": "Andreas Voss"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d7687b2ab44a2cbc3d4fd3e483b36b7307e3744",
+                "title": "The Simplex Projection: Lossless Visualization of 4D Compositional Data on a 2D Canvas",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 18,
+                "abstract": "The simplex projection expands the capabilities of simplex plots (also known as ternary plots) to achieve a lossless visualization of 4D compositional data on a 2D canvas. Previously, this was only possible for 3D compositional data. We demonstrate how our approach can be applied to individual data points, point clouds, and continuous probability density functions on simplices. While we showcase our visualization technique specifically for 4D compositional data, we offer rigorous proofs that support its extension to compositional data of any (finite) dimensionality.",
+                "authors": [
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "2292034184",
+                        "name": "Yuga Hikida"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2292030606",
+                        "name": "Filip Sadlo"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "96492a5a16f971a3dc3433c9a7e38a590f1c1955",
+                "title": "Amortized Bayesian Multilevel Models",
+                "year": 2024,
+                "venue": "Bayesian Analysis",
+                "citation_count": 9,
+                "reference_count": 117,
+                "abstract": "Multilevel models (MLMs) are a central building block of the Bayesian workflow. They enable joint, interpretable modeling of data across hierarchical levels and provide a fully probabilistic quantification of uncertainty. Despite their well-recognized advantages, MLMs pose significant computational challenges, often rendering their estimation and evaluation intractable within reasonable time constraints. Recent advances in simulation-based inference offer promising solutions for addressing complex probabilistic models using deep generative networks. However, the utility and reliability of deep learning methods for estimating Bayesian MLMs remains largely unexplored, especially when compared with gold-standard samplers. To this end, we explore a family of neural network architectures that leverage the probabilistic factorization of multilevel models to facilitate efficient neural network training and subsequent near-instant posterior inference on unseen datasets. We test our method on several real-world case studies and provide comprehensive comparisons to Stan's gold standard sampler, where possible. Finally, we provide an open-source implementation of our methods to stimulate further research in the nascent field of amortized Bayesian inference.",
+                "authors": [
+                    {
+                        "s2_author_id": "2256988364",
+                        "name": "Daniel Habermann"
+                    },
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "2275055377",
+                        "name": "Lars Kuhmichel"
+                    },
+                    {
+                        "s2_author_id": "2261492791",
+                        "name": "Andreas Bulling"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a1c6c775a5fce67fbee25d3fad5922c63f5a1c8e",
+                "title": "Amortized Bayesian Workflow",
+                "year": 2024,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 100,
+                "abstract": "Bayesian inference often faces a trade-off between computational speed and sampling accuracy. We propose an adaptive workflow that integrates rapid amortized inference with gold-standard MCMC techniques to achieve a favorable combination of both speed and accuracy when performing inference on many observed datasets. Our approach uses principled diagnostics to guide the choice of inference method for each dataset, moving along the Pareto front from fast amortized sampling via generative neural networks to slower but guaranteed-accurate MCMC when needed. By reusing computations across steps, our workflow synergizes amortized and MCMC-based inference. We demonstrate the effectiveness of this integrated approach on several synthetic and real-world problems with tens of thousands of datasets, showing efficiency gains while maintaining high posterior quality.",
+                "authors": [
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "2307396714",
+                        "name": "Chengkun Li"
+                    },
+                    {
+                        "s2_author_id": "46188536",
+                        "name": "A. Vehtari"
+                    },
+                    {
+                        "s2_author_id": "2320154902",
+                        "name": "Luigi Acerbi"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a689977eed0e2341e3915faa233d8b2a7c10a639",
+                "title": "Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks: An Extended Investigation",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 10,
+                "reference_count": 74,
+                "abstract": "Recent advances in probabilistic deep learning enable efficient amortized Bayesian inference in settings where the likelihood function is only implicitly defined by a simulation program (simulation-based inference; SBI). But how faithful is such inference if the simulation represents reality somewhat inaccurately, that is, if the true system behavior at test time deviates from the one seen during training? We conceptualize the types of such model misspecification arising in SBI and systematically investigate how the performance of neural posterior approximators gradually deteriorates as a consequence, making inference results less and less trustworthy. To notify users about this problem, we propose a new misspecification measure that can be trained in an unsupervised fashion (i.e., without training data from the true distribution) and reliably detects model misspecification at test time. Our experiments clearly demonstrate the utility of our new measure both on toy examples with an analytical ground-truth and on representative scientific tasks in cell biology, cognitive decision making, disease outbreak dynamics, and computer vision. We show how the proposed misspecification test warns users about suspicious outputs, raises an alarm when predictions are not trustworthy, and guides model designers in their search for better simulators.",
+                "authors": [
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c9d9ec8ecf7bc5e04a56a7ebb10e85a34cf64be2",
+                "title": "Testing and Improving the Robustness of Amortized Bayesian Inference for Cognitive Models",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": "Contaminant observations and outliers often cause problems when estimating the parameters of cognitive models, which are statistical models representing cognitive processes. In this study, we test and improve the robustness of parameter estimation using amortized Bayesian inference (ABI) with neural networks. To this end, we conduct systematic analyses on a toy example and analyze both synthetic and real data using a popular cognitive model, the Drift Diffusion Models (DDM). First, we study the sensitivity of ABI to contaminants with tools from robust statistics: the empirical influence function and the breakdown point. Next, we propose a data augmentation or noise injection approach that incorporates a contamination distribution into the data-generating process during training. We examine several candidate distributions and evaluate their performance and cost in terms of accuracy and efficiency loss relative to a standard estimator. Introducing contaminants from a Cauchy distribution during training considerably increases the robustness of the neural density estimator as measured by bounded influence functions and a much higher breakdown point. Overall, the proposed method is straightforward and practical to implement and has a broad applicability in fields where outlier detection or removal is challenging.",
+                "authors": [
+                    {
+                        "s2_author_id": "2380573249",
+                        "name": "Yufei Wu"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2252907137",
+                        "name": "Francis Tuerlinckx"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fccfc2fd00ad998415561b0e0d742e683a51ef10",
+                "title": "Expert-elicitation method for non-parametric joint priors using normalizing flows",
+                "year": 2024,
+                "venue": "Statistics and computing",
+                "citation_count": 3,
+                "reference_count": 89,
+                "abstract": "We propose an expert-elicitation method for learning non-parametric joint prior distributions using normalizing flows. Normalizing flows are a class of generative models that enable exact, single-step density evaluation and can capture complex density functions through specialized deep neural networks. Building on our previously introduced simulation-based framework, we adapt and extend the methodology to accommodate non-parametric joint priors. Our framework thus supports the development of elicitation methods for learning both parametric and non-parametric priors, as well as independent or joint priors for model parameters. To evaluate the performance of the proposed method, we perform four simulation studies and present an evaluation pipeline that incorporates diagnostics and additional evaluation tools to support decision-making at each stage of the elicitation process.",
+                "authors": [
+                    {
+                        "s2_author_id": "2367732052",
+                        "name": "Florence Bockting"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "376fd16949012d585fa4482540cbcdae8cf6ad5d",
+                "title": "Finding Competence Regions in Domain Generalization",
+                "year": 2023,
+                "venue": "Trans. Mach. Learn. Res.",
+                "citation_count": 4,
+                "reference_count": 75,
+                "abstract": "We investigate a\"learning to reject\"framework to address the problem of silent failures in Domain Generalization (DG), where the test distribution differs from the training distribution. Assuming a mild distribution shift, we wish to accept out-of-distribution (OOD) data from a new domain whenever a model's estimated competence foresees trustworthy responses, instead of rejecting OOD data outright. Trustworthiness is then predicted via a proxy incompetence score that is tightly linked to the performance of a classifier. We present a comprehensive experimental evaluation of existing proxy scores as incompetence scores for classification and highlight the resulting trade-offs between rejection rate and accuracy gain. For comparability with prior work, we focus on standard DG benchmarks and consider the effect of measuring incompetence via different learned representations in a closed versus an open world setting. Our results suggest that increasing incompetence scores are indeed predictive of reduced accuracy, leading to significant improvements of the average accuracy below a suitable incompetence threshold. However, the scores are not yet good enough to allow for a favorable accuracy/rejection trade-off in all tested domains. Surprisingly, our results also indicate that classifiers optimized for DG robustness do not outperform a naive Empirical Risk Minimization (ERM) baseline in the competence region, that is, where test samples elicit low incompetence scores.",
+                "authors": [
+                    {
+                        "s2_author_id": "2110574293",
+                        "name": "Jens M\u00fcller"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "96978782",
+                        "name": "R. Schmier"
+                    },
+                    {
+                        "s2_author_id": "83064944",
+                        "name": "Felix Draxler"
+                    },
+                    {
+                        "s2_author_id": "1756036",
+                        "name": "C. Rother"
+                    },
+                    {
+                        "s2_author_id": "1708103",
+                        "name": "U. K\u00f6the"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3e7ac6639e360bac2bfefc02dbc7605ac67dd7e5",
+                "title": "Consistency Models for Scalable and Fast Simulation-Based Inference",
+                "year": 2023,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 23,
+                "reference_count": 73,
+                "abstract": "Simulation-based inference (SBI) is constantly in search of more expressive and efficient algorithms to accurately infer the parameters of complex simulation models. In line with this goal, we present consistency models for posterior estimation (CMPE), a new conditional sampler for SBI that inherits the advantages of recent unconstrained architectures and overcomes their sampling inefficiency at inference time. CMPE essentially distills a continuous probability flow and enables rapid few-shot inference with an unconstrained architecture that can be flexibly tailored to the structure of the estimation problem. We provide hyperparameters and default architectures that support consistency training over a wide range of different dimensions, including low-dimensional ones which are important in SBI workflows but were previously difficult to tackle even with unconditional consistency models. Our empirical evaluation demonstrates that CMPE not only outperforms current state-of-the-art algorithms on hard low-dimensional benchmarks, but also achieves competitive performance with much faster sampling speed on two realistic estimation problems with high data and/or parameter dimensions.",
+                "authors": [
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "2090198792",
+                        "name": "Valentin Pratz"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4342a22ebe16be5a7b668d0099b68ecfdf430b05",
+                "title": "Age-Related Differences in Decision-Making: Evidence Accumulation is More Gradual in Older Age",
+                "year": 2023,
+                "venue": "Experimental Aging Research",
+                "citation_count": 6,
+                "reference_count": 45,
+                "abstract": "ABSTRACT Older adults tend to exhibit longer response times than younger adults in choice tasks across cognitive domains, such as perception, attention, and memory. The diffusion model has emerged as a standard model for analyzing age differences in choice behavior. Applications of the diffusion model to choice data from younger and older adults indicate that age-related slowing is driven by a more cautious response style and slower non-decisional processes, rather than by age differences in the rate of information accumulation. The L\u00e9vy flight model, a new evidence accumulation model that extends the diffusion model, was recently developed to account for differences in response times for correct and error responses. In the L\u00e9vy flight model, larger jumps in evidence accumulation can be accommodated compared to the diffusion model. It is currently unknown whether younger and older adults differ with respect to the jumpiness of evidence accumulation. In the current study, younger and older adults (N\u2009=\u200940 per age group) completed a letter-number-discrimination task. Results indicate that older adults show a more gradual (less \u201cjumpy\u201d) pattern of evidence accumulation compared to younger adults. Implications for research on cognitive aging are discussed.",
+                "authors": [
+                    {
+                        "s2_author_id": "1686334336",
+                        "name": "Eva Marie Wieschen"
+                    },
+                    {
+                        "s2_author_id": "1447077805",
+                        "name": "Aalim Makani"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "2409194",
+                        "name": "Julia Spaniol"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "522db3dee72d756f346223928fc190c566689d53",
+                "title": "A Deep Learning Method for Comparing Bayesian Hierarchical Models",
+                "year": 2023,
+                "venue": "Psychological methods",
+                "citation_count": 18,
+                "reference_count": 115,
+                "abstract": "Bayesian model comparison (BMC) offers a principled approach to assessing the relative merits of competing computational models and propagating uncertainty into model selection decisions. However, BMC is often intractable for the popular class of hierarchical models due to their high-dimensional nested parameter structure. To address this intractability, we propose a deep learning method for performing BMC on any set of hierarchical models which can be instantiated as probabilistic programs. Since our method enables amortized inference, it allows efficient re-estimation of posterior model probabilities and fast performance validation prior to any real-data application. In a series of extensive validation studies, we benchmark the performance of our method against the state-of-the-art bridge sampling method and demonstrate excellent amortized inference across all BMC settings. We then showcase our method by comparing four hierarchical evidence accumulation models that have previously been deemed intractable for BMC due to partly implicit likelihoods. Additionally, we demonstrate how transfer learning can be leveraged to enhance training efficiency. We provide reproducible code for all analyses and an open-source implementation of our method. (PsycInfo Database Record (c) 2024 APA, all rights reserved).",
+                "authors": [
+                    {
+                        "s2_author_id": "2203247791",
+                        "name": "Lasse Elsemuller"
+                    },
+                    {
+                        "s2_author_id": "5081534",
+                        "name": "Martin Schnuerch"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75a0117263afd121083e71f8ce94c9a811b77d3c",
+                "title": "JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models",
+                "year": 2023,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 46,
+                "reference_count": 77,
+                "abstract": "This work proposes ``jointly amortized neural approximation'' (JANA) of intractable likelihood functions and posterior densities arising in Bayesian surrogate modeling and simulation-based inference. We train three complementary networks in an end-to-end fashion: 1) a summary network to compress individual data points, sets, or time series into informative embedding vectors; 2) a posterior network to learn an amortized approximate posterior; and 3) a likelihood network to learn an amortized approximate likelihood. Their interaction opens a new route to amortized marginal likelihood and posterior predictive estimation -- two important ingredients of Bayesian workflows that are often too expensive for standard methods. We benchmark the fidelity of JANA on a variety of simulation models against state-of-the-art Bayesian methods and propose a powerful and interpretable diagnostic for joint calibration. In addition, we investigate the ability of recurrent likelihood networks to emulate complex time series models without resorting to hand-crafted summary statistics.",
+                "authors": [
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "2090198792",
+                        "name": "Valentin Pratz"
+                    },
+                    {
+                        "s2_author_id": "2685879",
+                        "name": "Umberto Picchini"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "90a9c8ac5213d39c25cf51d3fb76661e38edf070",
+                "title": "BayesFlow: Amortized Bayesian Workflows With Neural Networks",
+                "year": 2023,
+                "venue": "Journal of Open Source Software",
+                "citation_count": 47,
+                "reference_count": 39,
+                "abstract": "Modern Bayesian inference involves a mixture of computational techniques for estimating, validating, and drawing conclusions from probabilistic models as part of principled workflows for data analysis. Typical problems in Bayesian workflows are the approximation of intractable posterior distributions for diverse model types and the comparison of competing models of the same process in terms of their complexity and predictive performance. This manuscript introduces the Python library BayesFlow for simulation-based training of established neural network architectures for amortized data compression and inference. Amortized Bayesian inference, as implemented in BayesFlow, enables users to train custom neural networks on model simulations and re-use these networks for any subsequent application of the models. Since the trained networks can perform inference almost instantaneously, the upfront neural network training is quickly amortized.",
+                "authors": [
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "2191898951",
+                        "name": "Lukas Schumacher"
+                    },
+                    {
+                        "s2_author_id": "2203247791",
+                        "name": "Lasse Elsemuller"
+                    },
+                    {
+                        "s2_author_id": "2090198792",
+                        "name": "Valentin Pratz"
+                    },
+                    {
+                        "s2_author_id": "1607113071",
+                        "name": "Yannik Schalte"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a737f0c9ab2df63a624a1c19d35c86893bec18d1",
+                "title": "Fuse It or Lose It: Deep Fusion for Multimodal Simulation-Based Inference",
+                "year": 2023,
+                "venue": "arXiv.org",
+                "citation_count": 6,
+                "reference_count": 90,
+                "abstract": "We present multimodal neural posterior estimation (MultiNPE), a method to integrate heterogeneous data from different sources in simulation-based inference with neural networks. Inspired by advances in deep fusion, it allows researchers to analyze data from different domains and infer the parameters of complex mathematical models with increased accuracy. We consider three fusion approaches for MultiNPE (early, late, hybrid) and evaluate their performance in three challenging experiments. MultiNPE not only outperforms single-source baselines on a reference task, but also achieves superior inference on scientific models from cognitive neuroscience and cardiology. We systematically investigate the impact of partially missing data on the different fusion strategies. Across our experiments, late and hybrid fusion techniques emerge as the methods of choice for practical applications of multimodal simulation-based inference.",
+                "authors": [
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d515929849c2970fe47b18506734031e08717606",
+                "title": "Sensitivity-Aware Amortized Bayesian Inference",
+                "year": 2023,
+                "venue": "Trans. Mach. Learn. Res.",
+                "citation_count": 19,
+                "reference_count": 117,
+                "abstract": "Sensitivity analyses reveal the influence of various modeling choices on the outcomes of statistical analyses. While theoretically appealing, they are overwhelmingly inefficient for complex Bayesian models. In this work, we propose sensitivity-aware amortized Bayesian inference (SA-ABI), a multifaceted approach to efficiently integrate sensitivity analyses into simulation-based inference with neural networks. First, we utilize weight sharing to encode the structural similarities between alternative likelihood and prior specifications in the training process with minimal computational overhead. Second, we leverage the rapid inference of neural networks to assess sensitivity to data perturbations and preprocessing steps. In contrast to most other Bayesian approaches, both steps circumvent the costly bottleneck of refitting the model for each choice of likelihood, prior, or data set. Finally, we propose to use deep ensembles to detect sensitivity arising from unreliable approximation (e.g., due to model misspecification). We demonstrate the effectiveness of our method in applied modeling problems, ranging from disease outbreak dynamics and global warming thresholds to human decision-making. Our results support sensitivity-aware inference as a default choice for amortized Bayesian workflows, automatically providing modelers with insights into otherwise hidden dimensions.",
+                "authors": [
+                    {
+                        "s2_author_id": "2261752617",
+                        "name": "Lasse Elsem\u00fcller"
+                    },
+                    {
+                        "s2_author_id": "2288086791",
+                        "name": "Hans Olischl\u00e4ger"
+                    },
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "7414550",
+                        "name": "P. B\u00fcrkner"
+                    },
+                    {
+                        "s2_author_id": "2251056456",
+                        "name": "Ullrich K\u00f6the"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d701ebe12a6fc874d62cfaa6f3044fad62dede93",
+                "title": "Leveraging Self-Consistency for Data-Efficient Amortized Bayesian Inference",
+                "year": 2023,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 10,
+                "reference_count": 58,
+                "abstract": "We propose a method to improve the efficiency and accuracy of amortized Bayesian inference by leveraging universal symmetries in the joint probabilistic model of parameters and data. In a nutshell, we invert Bayes' theorem and estimate the marginal likelihood based on approximate representations of the joint model. Upon perfect approximation, the marginal likelihood is constant across all parameter values by definition. However, errors in approximate inference lead to undesirable variance in the marginal likelihood estimates across different parameter values. We penalize violations of this symmetry with a \\textit{self-consistency loss} which significantly improves the quality of approximate inference in low data regimes and can be used to augment the training of popular neural density estimators. We apply our method to a number of synthetic problems and realistic scientific models, discovering notable advantages in the context of both neural posterior and likelihood approximation.",
+                "authors": [
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "2256988364",
+                        "name": "Daniel Habermann"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e6220fa680872ee74ca85730f4aede24d60826c4",
+                "title": "Validation and Comparison of Non-stationary Cognitive Models: A Diffusion Model Application",
+                "year": 2023,
+                "venue": "Computational Brain & Behavior",
+                "citation_count": 5,
+                "reference_count": 82,
+                "abstract": "Cognitive processes undergo various fluctuations and transient states across different temporal scales. Superstatistics are emerging as a flexible framework for incorporating such non-stationary dynamics into existing cognitive model classes. In this work, we provide the first experimental validation of superstatistics and formal comparison of four non-stationary diffusion decision models in a specifically designed perceptual decision-making task. Task difficulty and speed-accuracy trade-off were systematically manipulated to induce expected changes in model parameters. To validate our models, we assess whether the inferred parameter trajectories align with the patterns and sequences of the experimental manipulations. To address computational challenges, we present novel deep learning techniques for amortized Bayesian estimation and comparison of models with time-varying parameters. Our findings indicate that transition models incorporating both gradual and abrupt parameter shifts provide the best fit to the empirical data. Moreover, we find that the inferred parameter trajectories closely mirror the sequence of experimental manipulations. Posterior re-simulations further underscore the ability of the models to faithfully reproduce critical data patterns. Accordingly, our results suggest that the inferred non-stationary dynamics may reflect actual changes in the targeted psychological constructs. We argue that our initial experimental validation paves the way for the widespread application of superstatistics in cognitive modeling and beyond.",
+                "authors": [
+                    {
+                        "s2_author_id": "2191898951",
+                        "name": "Lukas Schumacher"
+                    },
+                    {
+                        "s2_author_id": "5081534",
+                        "name": "Martin Schnuerch"
+                    },
+                    {
+                        "s2_author_id": "2279756624",
+                        "name": "Andreas Voss"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec50a702f504fdd9b21a27b38445609eb1f25508",
+                "title": "Simulation-based prior knowledge elicitation for parametric Bayesian models",
+                "year": 2023,
+                "venue": "Scientific Reports",
+                "citation_count": 17,
+                "reference_count": 69,
+                "abstract": "A central characteristic of Bayesian statistics is the ability to consistently incorporate prior knowledge into various modeling processes. In this paper, we focus on translating domain expert knowledge into corresponding prior distributions over model parameters, a process known as prior elicitation. Expert knowledge can manifest itself in diverse formats, including information about raw data, summary statistics, or model parameters. A major challenge for existing elicitation methods is how to effectively utilize all of these different formats in order to formulate prior distributions that align with the expert\u2019s expectations, regardless of the model structure. To address these challenges, we develop a simulation-based elicitation method that can learn the hyperparameters of potentially any parametric prior distribution from a wide spectrum of expert knowledge using stochastic gradient descent. We validate the effectiveness and robustness of our elicitation method in four representative simulation studies covering linear models, generalized linear models, and hierarchical models. Our results support the claim that our method is largely independent of the underlying model structure and adaptable to various elicitation techniques, including quantile-based, moment-based, and histogram-based methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "2367732052",
+                        "name": "Florence Bockting"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f40c5e0c0984d39bc4f2df467a521dd927a917a9",
+                "title": "Towards Context-Aware Domain Generalization: Representing Environments with Permutation-Invariant Networks",
+                "year": 2023,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 70,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2275056724",
+                        "name": "Jens Muller"
+                    },
+                    {
+                        "s2_author_id": "2275055377",
+                        "name": "Lars Kuhmichel"
+                    },
+                    {
+                        "s2_author_id": "2402045244",
+                        "name": "Martin Rohbeck"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f65c42184634c1c8429f5f3d69d193efe05db0da",
+                "title": "Towards Context-Aware Domain Generalization: Understanding the Benefits and Limits of Marginal Transfer Learning",
+                "year": 2023,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 78,
+                "abstract": "In this work, we analyze the conditions under which information about the context of an input $X$ can improve the predictions of deep learning models in new domains. Following work in marginal transfer learning in Domain Generalization (DG), we formalize the notion of context as a permutation-invariant representation of a set of data points that originate from the same domain as the input itself. We offer a theoretical analysis of the conditions under which this approach can, in principle, yield benefits, and formulate two necessary criteria that can be easily verified in practice. Additionally, we contribute insights into the kind of distribution shifts for which the marginal transfer learning approach promises robustness. Empirical analysis shows that our criteria are effective in discerning both favorable and unfavorable scenarios. Finally, we demonstrate that we can reliably detect scenarios where a model is tasked with unwarranted extrapolation in out-of-distribution (OOD) domains, identifying potential failure cases. Consequently, we showcase a method to select between the most predictive and the most robust model, circumventing the well-known trade-off between predictive performance and robustness.",
+                "authors": [
+                    {
+                        "s2_author_id": "2275056724",
+                        "name": "Jens Muller"
+                    },
+                    {
+                        "s2_author_id": "2275055377",
+                        "name": "Lars Kuhmichel"
+                    },
+                    {
+                        "s2_author_id": "2402045244",
+                        "name": "Martin Rohbeck"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0459de70d6f764775e08311090a3cd1a36761689",
+                "title": "Data Resource Profile: The Global School-based Student Health Survey-behavioural risk and protective factors among adolescents.",
+                "year": 2022,
+                "venue": "International Journal of Epidemiology",
+                "citation_count": 12,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "115676318",
+                        "name": "A. C. Bischops"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "1708103",
+                        "name": "U. K\u00f6the"
+                    },
+                    {
+                        "s2_author_id": "2111635037",
+                        "name": "Simiao Chen"
+                    },
+                    {
+                        "s2_author_id": "4157381",
+                        "name": "P. Geldsetzer"
+                    },
+                    {
+                        "s2_author_id": "49051800",
+                        "name": "M. Sarker"
+                    },
+                    {
+                        "s2_author_id": "143937756",
+                        "name": "T. Su"
+                    },
+                    {
+                        "s2_author_id": "2190275031",
+                        "name": "Fawzia Ahmed Mohamed"
+                    },
+                    {
+                        "s2_author_id": "113002551",
+                        "name": "N. Darwish"
+                    },
+                    {
+                        "s2_author_id": "144474052",
+                        "name": "Noor Ani Ahmad"
+                    },
+                    {
+                        "s2_author_id": "2190273017",
+                        "name": "Sidi Ahmed Ould Baba"
+                    },
+                    {
+                        "s2_author_id": "38172240",
+                        "name": "T. B\u00e4rnighausen"
+                    },
+                    {
+                        "s2_author_id": "4944994",
+                        "name": "Sandra Barteit"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6fc4dcb9b953414d19ff98228b305bc57bcc57e7",
+                "title": "Neural superstatistics for Bayesian estimation of dynamic cognitive models",
+                "year": 2022,
+                "venue": "Scientific Reports",
+                "citation_count": 19,
+                "reference_count": 76,
+                "abstract": "Mathematical models of cognition are often memoryless and ignore potential fluctuations of their parameters. However, human cognition is inherently dynamic. Thus, we propose to augment mechanistic cognitive models with a temporal dimension and estimate the resulting dynamics from a superstatistics perspective. Such a model entails a hierarchy between a low-level observation model and a high-level transition model. The observation model describes the local behavior of a system, and the transition model specifies how the parameters of the observation model evolve over time. To overcome the estimation challenges resulting from the complexity of superstatistical models, we develop and validate a simulation-based deep learning method for Bayesian inference, which can recover both time-varying and time-invariant parameters. We first benchmark our method against two existing frameworks capable of estimating time-varying parameters. We then apply our method to fit a dynamic version of the diffusion decision model to long time series of human response times data. Our results show that the deep learning approach is very efficient in capturing the temporal dynamics of the model. Furthermore, we show that the erroneous assumption of static or homogeneous parameters will hide important temporal information.",
+                "authors": [
+                    {
+                        "s2_author_id": "2191898951",
+                        "name": "Lukas Schumacher"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7a5bf932f8f0d365c01a703749e06ee64a7f101c",
+                "title": "Some models are useful, but how do we know which ones? Towards a unified Bayesian model taxonomy",
+                "year": 2022,
+                "venue": "Statistics Survey",
+                "citation_count": 29,
+                "reference_count": 333,
+                "abstract": "Probabilistic (Bayesian) modeling has experienced a surge of applications in almost all quantitative sciences and industrial areas. This development is driven by a combination of several factors, including better probabilistic estimation algorithms, flexible software, increased computing power, and a growing awareness of the benefits of probabilistic learning. However, a principled Bayesian model building workflow is far from complete and many challenges remain. To aid future research and applications of a principled Bayesian workflow, we ask and provide answers for what we perceive as two fundamental questions of Bayesian modeling, namely (a)\"What actually is a Bayesian model?\"and (b)\"What makes a good Bayesian model?\". As an answer to the first question, we propose the PAD model taxonomy that defines four basic kinds of Bayesian models, each representing some combination of the assumed joint distribution of all (known or unknown) variables (P), a posterior approximator (A), and training data (D). As an answer to the second question, we propose ten utility dimensions according to which we can evaluate Bayesian models holistically, namely, (1) causal consistency, (2) parameter recoverability, (3) predictive performance, (4) fairness, (5) structural faithfulness, (6) parsimony, (7) interpretability, (8) convergence, (9) estimation speed, and (10) robustness. Further, we propose two example utility decision trees that describe hierarchies and trade-offs between utilities depending on the inferential goals that drive model building and testing.",
+                "authors": [
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "90350295",
+                        "name": "Maximilian Scholz"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8a30505df153a10f9e1d61e1081fc5915c1b6500",
+                "title": "Meta-Uncertainty in Bayesian Model Comparison",
+                "year": 2022,
+                "venue": "International Conference on Artificial Intelligence and Statistics",
+                "citation_count": 10,
+                "reference_count": 87,
+                "abstract": "Bayesian model comparison (BMC) offers a principled probabilistic approach to study and rank competing models. In standard BMC, we construct a discrete probability distribution over the set of possible models, conditional on the observed data of interest. These posterior model probabilities (PMPs) are measures of uncertainty, but -- when derived from a finite number of observations -- are also uncertain themselves. In this paper, we conceptualize distinct levels of uncertainty which arise in BMC. We explore a fully probabilistic framework for quantifying meta-uncertainty, resulting in an applied method to enhance any BMC workflow. Drawing on both Bayesian and frequentist techniques, we represent the uncertainty over the uncertain PMPs via meta-models which combine simulated and observed data into a predictive distribution for PMPs on new data. We demonstrate the utility of the proposed method in the context of conjugate Bayesian regression, likelihood-based inference with Markov chain Monte Carlo, and simulation-based inference with neural networks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9f807519ac5c4aaa9415b991d055d0360ce05b7e",
+                "title": "Mental speed is high until age 60 as revealed by analysis of over a million participants",
+                "year": 2022,
+                "venue": "Nature Human Behaviour",
+                "citation_count": 43,
+                "reference_count": 65,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1679705743",
+                        "name": "Mischa von Krause"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b2fc7f3b0c00c0cbf0ce43cd9250b9e0209423c0",
+                "title": "Impulsivity Moderates the Effect of Neurofeedback Training on the Contingent Negative Variation in Autism Spectrum Disorder",
+                "year": 2022,
+                "venue": "Frontiers in Human Neuroscience",
+                "citation_count": 7,
+                "reference_count": 80,
+                "abstract": "Background The contingent negative variation (CNV) is a well-studied indicator of attention- and expectancy-related processes in the human brain. An abnormal CNV amplitude has been found in diverse neurodevelopmental psychiatric disorders. However, its role as a potential biomarker of successful clinical interventions in autism spectrum disorder (ASD) remains unclear. Methods In this randomized controlled trial, we investigated how the CNV changes following an intensive neurofeedback training. Therefore, twenty-one adolescents with ASD underwent 24 sessions of slow cortical potential (SCP) neurofeedback training. Twenty additional adolescents with ASD formed a control group and received treatment as usual. CNV waveforms were obtained from a continuous performance test (CPT), which all adolescents performed before and after the corresponding 3-month long training period. In order to utilize all available neural time series, trial-based area under the curve values for all four electroencephalogram (EEG) channels were analyzed with a hierarchical Bayesian model. In addition, the model included impulsivity, inattention, and hyperactivity as potential moderators of change in CNV. Results Our model implies that impulsivity moderates the effects of neurofeedback training on CNV depending on group. In the control group, the average CNV amplitude decreased or did not change after treatment as usual. In the experimental group, the CNV changed depending on the severity of comorbid impulsivity symptoms. The average CNV amplitude of participants with low impulsivity scores decreased markedly, whereas the average CNV amplitude of participants with high impulsivity increased. Conclusion The degree of impulsivity seems to play a crucial role in the changeability of the CNV following an intensive neurofeedback training. Therefore, comorbid symptomatology should be recorded and analyzed in future EEG-based brain training interventions. Clinical Trial Registration https://www.drks.de, identifier DRKS00012339.",
+                "authors": [
+                    {
+                        "s2_author_id": "2125487155",
+                        "name": "K. Prillinger"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2164732208",
+                        "name": "Kamer Doganay"
+                    },
+                    {
+                        "s2_author_id": "2739251",
+                        "name": "L. Poustka"
+                    },
+                    {
+                        "s2_author_id": "2732780",
+                        "name": "Lilian Konicar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bbbd80b725e3d7c8bd7b102f4f31d6ac2eb1f2bf",
+                "title": "Evaluation of Neurofeedback Learning in Patients with ADHD: A Systematic Review",
+                "year": 2022,
+                "venue": "Applied Psychophysiology and Biofeedback",
+                "citation_count": 15,
+                "reference_count": 80,
+                "abstract": "NFB has a clear potential as a recognised treatment option for ADHD, but suffers from a lack of clarity about its efficacy, still unresolved after multiple controlled trials. Comparing learners and non-learners based on the evolution of patient-level indicators during the trial serves as a \u2018natural\u2019 control, and can help elucidate the mechanisms of NFB. We present a systematic review motivated by the need to establish the state of the art of patient learning during NFB treatment in current clinical literature. One particularly striking question we would like to answer here is whether existing NFB papers study learning variability, since only individual performance differences can give us information about mechanisms of learning. The results show that very few clinical trial reports have dealt with the heterogeneity of NFB learning, nor analysed whether NFB efficacy is dependent on NFB learning, even though NFB is believed to be a treatment based on learning to perform. In this systematic review we examine not only what has been reported, but also provide a critical analysis of possible flaws or gaps in existing studies, and discuss why no generalized conclusions about NFB efficacy have yet been made. Future research should focus on finding reliable ways of identifying the performers and studying participants\u2019 individual learning trajectories as it might enhance prognosis and the allocation of clinical resources.",
+                "authors": [
+                    {
+                        "s2_author_id": "2186540868",
+                        "name": "Elizaveta Kuznetsova"
+                    },
+                    {
+                        "s2_author_id": "102534229",
+                        "name": "A. Veilahti"
+                    },
+                    {
+                        "s2_author_id": "2186538768",
+                        "name": "Ruhoollah Akhundzadeh"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2732780",
+                        "name": "Lilian Konicar"
+                    },
+                    {
+                        "s2_author_id": "2132203",
+                        "name": "B. Cowley"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0f45ba523b272665ff9f57b2cded056e1415dd2f",
+                "title": "Balancing the brain of offenders with psychopathy? Resting state EEG and electrodermal activity after a pilot study of brain self-regulation training",
+                "year": 2021,
+                "venue": "PLoS ONE",
+                "citation_count": 9,
+                "reference_count": 87,
+                "abstract": "Although investigation of the brains of criminals began quite early in the history of psychophysiological research, little is known about brain plasticity of offenders with psychopathy. Building on our preliminary study reporting successful brain self-regulation using slow cortical potential (SCP) neurofeedback in offenders with psychopathy, we investigated the central nervous and autonomic peripheral changes occurring after brain self-regulation in a group of severe male offenders with psychopathy. Regarding the central nervous system, an overall suppression of the psychopathic overrepresentation of slow frequency bands was found, such as delta and theta band activity, after EEG neurofeedback. In addition, an increase in alpha band activity could be observed after the SCP self-regulation training. Electrodermal activity adaptively changed according to the regulation task, and this flexibility improved over training time. The results of this study point towards a constructive learning process and plasticity in neural and peripheral measures of offenders with psychopathy.",
+                "authors": [
+                    {
+                        "s2_author_id": "2376866931",
+                        "name": "Lilian Konicar"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2204529",
+                        "name": "S. Silvoni"
+                    },
+                    {
+                        "s2_author_id": "1962743",
+                        "name": "Elaina Bolinger"
+                    },
+                    {
+                        "s2_author_id": "3206231",
+                        "name": "R. Veit"
+                    },
+                    {
+                        "s2_author_id": "6034105",
+                        "name": "U. Strehl"
+                    },
+                    {
+                        "s2_author_id": "8433807",
+                        "name": "C. Vesely"
+                    },
+                    {
+                        "s2_author_id": "4629473",
+                        "name": "P. Plener"
+                    },
+                    {
+                        "s2_author_id": "2739251",
+                        "name": "L. Poustka"
+                    },
+                    {
+                        "s2_author_id": "145198983",
+                        "name": "N. Birbaumer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "23f18654e2dbaecd81bc7d1c2080d000d6b7e610",
+                "title": "Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks",
+                "year": 2021,
+                "venue": "DAGM",
+                "citation_count": 51,
+                "reference_count": 85,
+                "abstract": "Neural density estimators have proven remarkably powerful in performing efficient simulation-based Bayesian inference in various research domains. In particular, the BayesFlow framework uses a two-step approach to enable amortized parameter estimation in settings where the likelihood function is implicitly defined by a simulation program. But how faithful is such inference when simulations are poor representations of reality? In this paper, we conceptualize the types of model misspecification arising in simulation-based inference and systematically investigate the performance of the BayesFlow framework under these misspecifications. We propose an augmented optimization objective which imposes a probabilistic structure on the latent data space and utilize maximum mean discrepancy (MMD) to detect potentially catastrophic misspecifications during inference undermining the validity of the obtained results. We verify our detection criterion on a number of artificial and realistic misspecifications, ranging from toy conjugate models to complex models of decision making and disease outbreak dynamics applied to real data. Further, we show that posterior inference errors increase as a function of the distance between the true data-generating distribution and the typical set of simulations in the latent summary space. Thus, we demonstrate the dual utility of MMD as a method for detecting model misspecification and as a proxy for verifying the faithfulness of amortized Bayesian inference.",
+                "authors": [
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "950f226fc717b96d9fb4d110d661f16301b8e1bc",
+                "title": "BayesFlow can reliably detect Model Misspecification and Posterior Errors in Amortized Bayesian Inference",
+                "year": 2021,
+                "venue": "arXiv.org",
+                "citation_count": 3,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2092810155",
+                        "name": "Marvin Schmitt"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea108117f72234d9064616c15107646978824567",
+                "title": "Stability and Change in Diffusion Model Parameters over Two Years",
+                "year": 2021,
+                "venue": "Journal of Intelligence",
+                "citation_count": 7,
+                "reference_count": 53,
+                "abstract": "In recent years, mathematical models of decision making, such as the diffusion model, have been endorsed in individual differences research. These models can disentangle different components of the decision process, like processing speed, speed\u2013accuracy trade-offs, and duration of non-decisional processes. The diffusion model estimates individual parameters of cognitive process components, thus allowing the study of individual differences. These parameters are often assumed to show trait-like properties, that is, within-person stability across tasks and time. However, the assumption of temporal stability has so far been insufficiently investigated. With this work, we explore stability and change in diffusion model parameters by following over 270 participants across a time period of two years. We analysed four different aspects of stability and change: rank-order stability, mean-level change, individual differences in change, and profile stability. Diffusion model parameters showed strong rank-order stability and mean-level changes in processing speed and speed\u2013accuracy trade-offs that could be attributed to practice effects. At the same time, people differed little in these patterns across time. In addition, profiles of individual diffusion model parameters proved to be stable over time. We discuss implications of these findings for the use of the diffusion model in individual differences research.",
+                "authors": [
+                    {
+                        "s2_author_id": "1679705743",
+                        "name": "Mischa von Krause"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "92601032",
+                        "name": "M. Quintus"
+                    },
+                    {
+                        "s2_author_id": "1856191",
+                        "name": "B. Egloff"
+                    },
+                    {
+                        "s2_author_id": "4721060",
+                        "name": "C. Wrzus"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "20b71709ebbf0b290c9491c1040c75d6736cd373",
+                "title": "Measuring QCD Splittings with Invertible Networks",
+                "year": 2020,
+                "venue": "SciPost Physics",
+                "citation_count": 48,
+                "reference_count": 83,
+                "abstract": "QCD splittings are among the most fundamental theory concepts at the LHC. We show how they can be studied systematically with the help of invertible neural networks. These networks work with sub-jet information to extract fundamental parameters from jet samples. Our approach expands the LEP measurements of QCD Casimirs to a systematic test of QCD properties based on low-level jet observables. Starting with an toy example we study the effect of the full shower, hadronization, and detector effects in detail.",
+                "authors": [
+                    {
+                        "s2_author_id": "1654189968",
+                        "name": "S. Bieringer"
+                    },
+                    {
+                        "s2_author_id": "80350870",
+                        "name": "A. Butter"
+                    },
+                    {
+                        "s2_author_id": "102616688",
+                        "name": "Theo Heimel"
+                    },
+                    {
+                        "s2_author_id": "88929936",
+                        "name": "S. Hoche"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    },
+                    {
+                        "s2_author_id": "3578208",
+                        "name": "T. Plehn"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c719c908bf8e27883ae80f0c42453e33dcf110a",
+                "title": "Amortized Bayesian Inference for Models of Cognition",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 7,
+                "reference_count": 19,
+                "abstract": "As models of cognition grow in complexity and number of parameters, Bayesian inference with standard methods can become intractable, especially when the data-generating model is of unknown analytic form. Recent advances in simulation-based inference using specialized neural network architectures circumvent many previous problems of approximate Bayesian computation. Moreover, due to the properties of these special neural network estimators, the effort of training the networks via simulations amortizes over subsequent evaluations which can re-use the same network for multiple datasets and across multiple researchers. However, these methods have been largely underutilized in cognitive science and psychology so far, even though they are well suited for tackling a wide variety of modeling problems. With this work, we provide a general introduction to amortized Bayesian parameter estimation and model comparison and demonstrate the applicability of the proposed methods on a well-known class of intractable response-time models.",
+                "authors": [
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "1686334336",
+                        "name": "Eva Marie Wieschen"
+                    },
+                    {
+                        "s2_author_id": "89163695",
+                        "name": "Paul-Christian Burkner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d8086b1c49d3f87c90f26b7c30e7bc9273e8392",
+                "title": "Jumping to Conclusion? A L\u00e9vy Flight Model of Decision Making",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 18,
+                "reference_count": 44,
+                "abstract": "The diffusion model is one of the most prominent response time models in cognitive psychology. The model describes evidence accumulation as a stochastic process that runs between two boundaries until a threshold is hit, and a decision is made. The model assumes that information accumulation follows a Wiener diffusion process with normally distributed noise. However, the model\u2019s assumption of Gaussian noise might not be the optimal description of decision making. We argue that L\u00e9vy flights, incorporating more heavy-tailed, non-Gaussian noise, might provide a more accurate description of actual decision processes. In contrast to diffusion processes, L\u00e9vy flights are characterized by larger jumps in the decision process. To further examine this proposal, we compare the fit of the basic diffusion model and the full diffusion model (including inter-trial variability of starting-point, drift rate and non-decisional processes) to the fit of a simple and a complex version of a L\u00e9vy flight model. In the latter model, the heavy-tailedness of noise distributions was estimated by an additional free stability parameter alpha. Participants completed 500 trials of a color discrimination task and 400 trials of a lexical decision task. Results indicate that a complex L\u00e9vy flight model \u2013 including inter-trial variability parameters and alpha \u2013 shows the best fit in both tasks. Importantly, alpha-values correlated across tasks, indicating a trait-like nature of this parameter.",
+                "authors": [
+                    {
+                        "s2_author_id": "1686334336",
+                        "name": "Eva Marie Wieschen"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55cc7fea4edd121d94d13fc531cc000180e4a53c",
+                "title": "Model-based Bayesian inference of disease outbreak dynamics with invertible neural networks",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2258978",
+                        "name": "Frederik Graw"
+                    },
+                    {
+                        "s2_author_id": "2111635037",
+                        "name": "Simiao Chen"
+                    },
+                    {
+                        "s2_author_id": "2409980088",
+                        "name": "Nico T. Mutters"
+                    },
+                    {
+                        "s2_author_id": "98558599",
+                        "name": "V. Eichel"
+                    },
+                    {
+                        "s2_author_id": "152199938",
+                        "name": "T. Barnighausen"
+                    },
+                    {
+                        "s2_author_id": "150328917",
+                        "name": "Ullrich Kothe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "68048b5e8fc6e72b35c1f4cca2e40a5642fd69a6",
+                "title": "BayesFlow: Learning Complex Stochastic Models With Invertible Neural Networks",
+                "year": 2020,
+                "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+                "citation_count": 251,
+                "reference_count": 64,
+                "abstract": "Estimating the parameters of mathematical models is a common problem in almost all branches of science. However, this problem can prove notably difficult when processes and model descriptions become increasingly complex and an explicit likelihood function is not available. With this work, we propose a novel method for globally amortized Bayesian inference based on invertible neural networks that we call BayesFlow. The method uses simulations to learn a global estimator for the probabilistic mapping from observed data to underlying model parameters. A neural network pretrained in this way can then, without additional training or optimization, infer full posteriors on arbitrarily many real data sets involving the same model family. In addition, our method incorporates a summary network trained to embed the observed data into maximally informative summary statistics. Learning summary statistics from data makes the method applicable to modeling scenarios where standard inference techniques with handcrafted summary statistics fail. We demonstrate the utility of BayesFlow on challenging intractable models from population dynamics, epidemiology, cognitive science, and ecology. We argue that BayesFlow provides a general framework for building amortized Bayesian parameter estimation machines for any forward model from which data can be simulated.",
+                "authors": [
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "10665258",
+                        "name": "U. Mertens"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "35875116",
+                        "name": "Lynton Ardizzone"
+                    },
+                    {
+                        "s2_author_id": "1708103",
+                        "name": "U. K\u00f6the"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "712243f7c6f099a93ad9f62d6e11f19ad68b323c",
+                "title": "Amortized Bayesian Model Comparison With Evidential Deep Learning",
+                "year": 2020,
+                "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+                "citation_count": 39,
+                "reference_count": 78,
+                "abstract": "Comparing competing mathematical models of complex processes is a shared goal among many branches of science. The Bayesian probabilistic framework offers a principled way to perform model comparison and extract useful metrics for guiding decisions. However, many interesting models are intractable with standard Bayesian methods, as they lack a closed-form likelihood function or the likelihood is computationally too expensive to evaluate. In this work, we propose a novel method for performing Bayesian model comparison using specialized deep learning architectures. Our method is purely simulation-based and circumvents the step of explicitly fitting all alternative models under consideration to each observed dataset. Moreover, it requires no hand-crafted summary statistics of the data and is designed to amortize the cost of simulation over multiple models, datasets, and dataset sizes. This makes the method especially effective in scenarios where model fit needs to be assessed for a large number of datasets, so that case-based inference is practically infeasible. Finally, we propose a novel way to measure epistemic uncertainty in model comparison problems. We demonstrate the utility of our method on toy examples and simulated data from nontrivial models from cognitive science and single-cell neuroscience. We show that our method achieves excellent results in terms of accuracy, calibration, and efficiency across the examples considered in this work. We argue that our framework can enhance and enrich model-based analysis and inference in many fields dealing with computational models of natural processes. We further argue that the proposed measure of epistemic uncertainty provides a unique proxy to quantify absolute evidence even in a framework which assumes that the true data-generating model is within a finite set of candidate models.",
+                "authors": [
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2065776608",
+                        "name": "Marco D\u2019Alessandro"
+                    },
+                    {
+                        "s2_author_id": "7414550",
+                        "name": "P. B\u00fcrkner"
+                    },
+                    {
+                        "s2_author_id": "10665258",
+                        "name": "U. Mertens"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "1708103",
+                        "name": "U. K\u00f6the"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a243b4aa3f266e0a6a819f018d28bbc0d5192978",
+                "title": "A Bayesian brain model of adaptive behavior: an application to the Wisconsin Card Sorting Task",
+                "year": 2020,
+                "venue": "PeerJ",
+                "citation_count": 11,
+                "reference_count": 82,
+                "abstract": "Adaptive behavior emerges through a dynamic interaction between cognitive agents and changing environmental demands. The investigation of information processing underlying adaptive behavior relies on controlled experimental settings in which individuals are asked to accomplish demanding tasks whereby a hidden regularity or an abstract rule has to be learned dynamically. Although performance in such tasks is considered as a proxy for measuring high-level cognitive processes, the standard approach consists in summarizing observed response patterns by simple heuristic scoring measures. With this work, we propose and validate a new computational Bayesian model accounting for individual performance in the Wisconsin Card Sorting Test (WCST), a renowned clinical tool to measure set-shifting and deficient inhibitory processes on the basis of environmental feedback. We formalize the interaction between the task\u2019s structure, the received feedback, and the agent\u2019s behavior by building a model of the information processing mechanisms used to infer the hidden rules of the task environment. Furthermore, we embed the new model within the mathematical framework of the Bayesian Brain Theory (BBT), according to which beliefs about hidden environmental states are dynamically updated following the logic of Bayesian inference. Our computational model maps distinct cognitive processes into separable, neurobiologically plausible, information-theoretic constructs underlying observed response patterns. We assess model identification and expressiveness in accounting for meaningful human performance through extensive simulation studies. We then validate the model on real behavioral data in order to highlight the utility of the proposed model in recovering cognitive dynamics at an individual level. We highlight the potentials of our model in decomposing adaptive behavior in the WCST into several information-theoretic metrics revealing the trial-by-trial unfolding of information processing by focusing on two exemplary individuals whose behavior is examined in depth. Finally, we focus on the theoretical implications of our computational model by discussing the mapping between BBT constructs and functional neuroanatomical correlates of task performance. We further discuss the empirical benefit of recovering the assumed dynamics of information processing for both clinical and research practices, such as neurological assessment and model-based neuroscience.",
+                "authors": [
+                    {
+                        "s2_author_id": "2065776608",
+                        "name": "Marco D\u2019Alessandro"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "48512748",
+                        "name": "L. Lombardi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bffb39ae6cadbff9aa28d49a0cbdb65e5e59971a",
+                "title": "Towards end-to-end likelihood-free inference with convolutional neural networks.",
+                "year": 2020,
+                "venue": "British Journal of Mathematical & Statistical Psychology",
+                "citation_count": 26,
+                "reference_count": 25,
+                "abstract": "Complex simulator-based models with non-standard sampling distributions require sophisticated design choices for reliable approximate parameter inference. We introduce a fast, end-to-end approach for approximate Bayesian computation (ABC) based on fully convolutional neural networks. The method enables users of ABC to derive simultaneously the posterior mean and variance of multidimensional posterior distributions directly from raw simulated data. Once trained on simulated data, the convolutional neural network is able to map real data samples of variable size to the first two posterior moments of the relevant parameter's distributions. Thus, in contrast to other machine learning approaches to ABC, our approach allows us to generate reusable models that can be applied by different researchers employing the same model. We verify the utility of our method on two common statistical models (i.e., a multivariate normal distribution and a multiple regression scenario), for which the posterior parameter distributions can be derived analytically. We then apply our method to recover the parameters of the leaky competing accumulator (LCA) model and we reference our results to the current state-of-the-art technique, which is the probability density estimation (PDA). Results show that our method exhibits a lower approximation error compared with other machine learning approaches to ABC. It also performs similarly to PDA in recovering the parameters of the LCA model.",
+                "authors": [
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "10665258",
+                        "name": "U. Mertens"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "1708103",
+                        "name": "U. K\u00f6the"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ced43c765ae0bf824688691821b01f4f6794923c",
+                "title": "OutbreakFlow: Model-based Bayesian inference of disease outbreak dynamics with invertible neural networks and its application to the COVID-19 pandemics in Germany",
+                "year": 2020,
+                "venue": "PLoS Comput. Biol.",
+                "citation_count": 40,
+                "reference_count": 55,
+                "abstract": "Mathematical models in epidemiology are an indispensable tool to determine the dynamics and important characteristics of infectious diseases. Apart from their scientific merit, these models are often used to inform political decisions and interventional measures during an ongoing outbreak. However, reliably inferring the epidemical dynamics by connecting complex models to real data is still hard and requires either laborious manual parameter fitting or expensive optimization methods which have to be repeated from scratch for every application of a given model. In this work, we address this problem with a novel combination of epidemiological modeling with specialized neural networks. Our approach entails two computational phases: In an initial training phase, a mathematical model describing the epidemic is used as a coach for a neural network, which acquires global knowledge about the full range of possible disease dynamics. In the subsequent inference phase, the trained neural network processes the observed data of an actual outbreak and infers the parameters of the model in order to realistically reproduce the observed dynamics and reliably predict future progression. With its flexible framework, our simulation-based approach is applicable to a variety of epidemiological models. Moreover, since our method is fully Bayesian, it is designed to incorporate all available prior knowledge about plausible parameter values and returns complete joint posterior distributions over these parameters. Application of our method to the early Covid-19 outbreak phase in Germany demonstrates that we are able to obtain reliable probabilistic estimates for important disease characteristics, such as generation time, fraction of undetected infections, likelihood of transmission before symptom onset, and reporting delays using a very moderate amount of real-world observations.",
+                "authors": [
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "2258978",
+                        "name": "Frederik Graw"
+                    },
+                    {
+                        "s2_author_id": "2111635037",
+                        "name": "Simiao Chen"
+                    },
+                    {
+                        "s2_author_id": "2243014081",
+                        "name": "N. Mutters"
+                    },
+                    {
+                        "s2_author_id": "98558599",
+                        "name": "V. Eichel"
+                    },
+                    {
+                        "s2_author_id": "38172240",
+                        "name": "T. B\u00e4rnighausen"
+                    },
+                    {
+                        "s2_author_id": "1708103",
+                        "name": "U. K\u00f6the"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a3133f7d1fa47aee8d7b4ce192e44a2e2c456df6",
+                "title": "Running head : TOWARDS END-TO-END LIKELIHOOD-FREE INFERENCE 1 TOWARDS END-TO-END LIKELIHOOD-FREE INFERENCE WITH CONVOLUTIONAL NEURAL NETWORKS",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    },
+                    {
+                        "s2_author_id": "10665258",
+                        "name": "U. Mertens"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "1708103",
+                        "name": "U. K\u00f6the"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "89bc2506018ba29927399afccd80d85814b5aee3",
+                "title": "ABrox\u2014A user-friendly Python module for approximate Bayesian computation with a focus on model comparison",
+                "year": 2018,
+                "venue": "PLoS ONE",
+                "citation_count": 11,
+                "reference_count": 37,
+                "abstract": "We give an overview of the basic principles of approximate Bayesian computation (ABC), a class of stochastic methods that enable flexible and likelihood-free model comparison and parameter estimation. Our new open-source software called ABrox is used to illustrate ABC for model comparison on two prominent statistical tests, the two-sample t-test and the Levene-Test. We further highlight the flexibility of ABC compared to classical Bayesian hypothesis testing by computing an approximate Bayes factor for two multinomial processing tree models. Last but not least, throughout the paper, we introduce ABrox using the accompanied graphical user interface.",
+                "authors": [
+                    {
+                        "s2_author_id": "10665258",
+                        "name": "U. Mertens"
+                    },
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "928776eba3e4c5cb04e19a1e2cf300b35c21466d",
+                "title": "Learning the Likelihood: Using DeepInference for the Estimation of Diffusion-Model and L\u00e9vy Flight Parameters [Dataset]",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145635896",
+                        "name": "A. Voss"
+                    },
+                    {
+                        "s2_author_id": "10665258",
+                        "name": "U. Mertens"
+                    },
+                    {
+                        "s2_author_id": "49162097",
+                        "name": "Stefan T. Radev"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2380573249",
+                "name": "Yufei Wu"
+            },
+            {
+                "s2_author_id": "2252907137",
+                "name": "Francis Tuerlinckx"
+            },
+            {
+                "s2_author_id": "2275055377",
+                "name": "Lars Kuhmichel"
+            },
+            {
+                "s2_author_id": "2409868691",
+                "name": "Jerry M. Huang"
+            },
+            {
+                "s2_author_id": "2090198792",
+                "name": "Valentin Pratz"
+            },
+            {
+                "s2_author_id": "2409827098",
+                "name": "Jonas Arruda"
+            },
+            {
+                "s2_author_id": "2409823466",
+                "name": "Hans Olischlager"
+            },
+            {
+                "s2_author_id": "2256988364",
+                "name": "Daniel Habermann"
+            },
+            {
+                "s2_author_id": "2347733149",
+                "name": "Simon Kucharsk\u00fd"
+            },
+            {
+                "s2_author_id": "2203247791",
+                "name": "Lasse Elsemuller"
+            },
+            {
+                "s2_author_id": "2305344296",
+                "name": "N. Bracher"
+            },
+            {
+                "s2_author_id": "2361509287",
+                "name": "Svenja Jedhoff"
+            },
+            {
+                "s2_author_id": "2092810155",
+                "name": "Marvin Schmitt"
+            },
+            {
+                "s2_author_id": "89163695",
+                "name": "Paul-Christian Burkner"
+            },
+            {
+                "s2_author_id": "2363785888",
+                "name": "Tuba Hato"
+            },
+            {
+                "s2_author_id": "2191898951",
+                "name": "Lukas Schumacher"
+            },
+            {
+                "s2_author_id": "2279756624",
+                "name": "Andreas Voss"
+            },
+            {
+                "s2_author_id": "2377797399",
+                "name": "vSimon Kucharsk'y"
+            },
+            {
+                "s2_author_id": "2342102957",
+                "name": "Aayush Mishra"
+            },
+            {
+                "s2_author_id": "1410869400",
+                "name": "Mischa von Krause"
+            },
+            {
+                "s2_author_id": "2292034184",
+                "name": "Yuga Hikida"
+            },
+            {
+                "s2_author_id": "2292030606",
+                "name": "Filip Sadlo"
+            },
+            {
+                "s2_author_id": "2261492791",
+                "name": "Andreas Bulling"
+            },
+            {
+                "s2_author_id": "2307396714",
+                "name": "Chengkun Li"
+            },
+            {
+                "s2_author_id": "46188536",
+                "name": "A. Vehtari"
+            },
+            {
+                "s2_author_id": "2320154902",
+                "name": "Luigi Acerbi"
+            },
+            {
+                "s2_author_id": "150328917",
+                "name": "Ullrich Kothe"
+            },
+            {
+                "s2_author_id": "2367732052",
+                "name": "Florence Bockting"
+            },
+            {
+                "s2_author_id": "2110574293",
+                "name": "Jens M\u00fcller"
+            },
+            {
+                "s2_author_id": "96978782",
+                "name": "R. Schmier"
+            },
+            {
+                "s2_author_id": "83064944",
+                "name": "Felix Draxler"
+            },
+            {
+                "s2_author_id": "1756036",
+                "name": "C. Rother"
+            },
+            {
+                "s2_author_id": "1708103",
+                "name": "U. K\u00f6the"
+            },
+            {
+                "s2_author_id": "1686334336",
+                "name": "Eva Marie Wieschen"
+            },
+            {
+                "s2_author_id": "1447077805",
+                "name": "Aalim Makani"
+            },
+            {
+                "s2_author_id": "145635896",
+                "name": "A. Voss"
+            },
+            {
+                "s2_author_id": "2409194",
+                "name": "Julia Spaniol"
+            },
+            {
+                "s2_author_id": "5081534",
+                "name": "Martin Schnuerch"
+            },
+            {
+                "s2_author_id": "2685879",
+                "name": "Umberto Picchini"
+            },
+            {
+                "s2_author_id": "1607113071",
+                "name": "Yannik Schalte"
+            },
+            {
+                "s2_author_id": "2261752617",
+                "name": "Lasse Elsem\u00fcller"
+            },
+            {
+                "s2_author_id": "2288086791",
+                "name": "Hans Olischl\u00e4ger"
+            },
+            {
+                "s2_author_id": "7414550",
+                "name": "P. B\u00fcrkner"
+            },
+            {
+                "s2_author_id": "2251056456",
+                "name": "Ullrich K\u00f6the"
+            },
+            {
+                "s2_author_id": "2275056724",
+                "name": "Jens Muller"
+            },
+            {
+                "s2_author_id": "2402045244",
+                "name": "Martin Rohbeck"
+            },
+            {
+                "s2_author_id": "115676318",
+                "name": "A. C. Bischops"
+            },
+            {
+                "s2_author_id": "2111635037",
+                "name": "Simiao Chen"
+            },
+            {
+                "s2_author_id": "4157381",
+                "name": "P. Geldsetzer"
+            },
+            {
+                "s2_author_id": "49051800",
+                "name": "M. Sarker"
+            },
+            {
+                "s2_author_id": "143937756",
+                "name": "T. Su"
+            },
+            {
+                "s2_author_id": "2190275031",
+                "name": "Fawzia Ahmed Mohamed"
+            },
+            {
+                "s2_author_id": "113002551",
+                "name": "N. Darwish"
+            },
+            {
+                "s2_author_id": "144474052",
+                "name": "Noor Ani Ahmad"
+            },
+            {
+                "s2_author_id": "2190273017",
+                "name": "Sidi Ahmed Ould Baba"
+            },
+            {
+                "s2_author_id": "38172240",
+                "name": "T. B\u00e4rnighausen"
+            },
+            {
+                "s2_author_id": "4944994",
+                "name": "Sandra Barteit"
+            },
+            {
+                "s2_author_id": "90350295",
+                "name": "Maximilian Scholz"
+            },
+            {
+                "s2_author_id": "1679705743",
+                "name": "Mischa von Krause"
+            },
+            {
+                "s2_author_id": "2125487155",
+                "name": "K. Prillinger"
+            },
+            {
+                "s2_author_id": "2164732208",
+                "name": "Kamer Doganay"
+            },
+            {
+                "s2_author_id": "2739251",
+                "name": "L. Poustka"
+            },
+            {
+                "s2_author_id": "2732780",
+                "name": "Lilian Konicar"
+            },
+            {
+                "s2_author_id": "2186540868",
+                "name": "Elizaveta Kuznetsova"
+            },
+            {
+                "s2_author_id": "102534229",
+                "name": "A. Veilahti"
+            },
+            {
+                "s2_author_id": "2186538768",
+                "name": "Ruhoollah Akhundzadeh"
+            },
+            {
+                "s2_author_id": "2132203",
+                "name": "B. Cowley"
+            },
+            {
+                "s2_author_id": "2376866931",
+                "name": "Lilian Konicar"
+            },
+            {
+                "s2_author_id": "2204529",
+                "name": "S. Silvoni"
+            },
+            {
+                "s2_author_id": "1962743",
+                "name": "Elaina Bolinger"
+            },
+            {
+                "s2_author_id": "3206231",
+                "name": "R. Veit"
+            },
+            {
+                "s2_author_id": "6034105",
+                "name": "U. Strehl"
+            },
+            {
+                "s2_author_id": "8433807",
+                "name": "C. Vesely"
+            },
+            {
+                "s2_author_id": "4629473",
+                "name": "P. Plener"
+            },
+            {
+                "s2_author_id": "145198983",
+                "name": "N. Birbaumer"
+            },
+            {
+                "s2_author_id": "92601032",
+                "name": "M. Quintus"
+            },
+            {
+                "s2_author_id": "1856191",
+                "name": "B. Egloff"
+            },
+            {
+                "s2_author_id": "4721060",
+                "name": "C. Wrzus"
+            },
+            {
+                "s2_author_id": "1654189968",
+                "name": "S. Bieringer"
+            },
+            {
+                "s2_author_id": "80350870",
+                "name": "A. Butter"
+            },
+            {
+                "s2_author_id": "102616688",
+                "name": "Theo Heimel"
+            },
+            {
+                "s2_author_id": "88929936",
+                "name": "S. Hoche"
+            },
+            {
+                "s2_author_id": "3578208",
+                "name": "T. Plehn"
+            },
+            {
+                "s2_author_id": "2258978",
+                "name": "Frederik Graw"
+            },
+            {
+                "s2_author_id": "2409980088",
+                "name": "Nico T. Mutters"
+            },
+            {
+                "s2_author_id": "98558599",
+                "name": "V. Eichel"
+            },
+            {
+                "s2_author_id": "152199938",
+                "name": "T. Barnighausen"
+            },
+            {
+                "s2_author_id": "10665258",
+                "name": "U. Mertens"
+            },
+            {
+                "s2_author_id": "35875116",
+                "name": "Lynton Ardizzone"
+            },
+            {
+                "s2_author_id": "2065776608",
+                "name": "Marco D\u2019Alessandro"
+            },
+            {
+                "s2_author_id": "48512748",
+                "name": "L. Lombardi"
+            },
+            {
+                "s2_author_id": "2243014081",
+                "name": "N. Mutters"
+            }
+        ],
+        "total_co_authors": 92,
+        "papers_retrieved": 49
+    }
+}

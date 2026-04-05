@@ -1,0 +1,481 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A22QS",
+        "name": "Kushal K Ponugoti",
+        "primary_affiliation": "North Dakota State University Fargo",
+        "primary_department": null,
+        "all_affiliations": [
+            "North Dakota State University Fargo"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "ND"
+        ],
+        "perf_cities": [
+            "FARGO"
+        ],
+        "org_names": [
+            "North Dakota State University Fargo"
+        ],
+        "org_ueis": [
+            "EZ4WPGRE1RD5"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "kushalkumar.ponugoti@ndsu.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2505405",
+                "title": "IRES: International Research Experience on RFID Sensing System with Application of Machine Learning for Accurate Sensing",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-08-01",
+                "exp_date": "2028-07-31",
+                "award_amount": 450000.0,
+                "total_amount": 450000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000880373",
+                    "000825948"
+                ],
+                "program_elements": [
+                    "Intl Rsrch Exp for Stds (IRES)"
+                ],
+                "program_codes": [
+                    "288Y00"
+                ],
+                "program_references": [
+                    "AUSTRALIA",
+                    "EXP PROG TO STIM COMP RES",
+                    "UNDERGRADUATE EDUCATION",
+                    "GRADUATE INVOLVEMENT"
+                ],
+                "program_ref_codes": [
+                    "5912",
+                    "9150",
+                    "9178",
+                    "9179"
+                ],
+                "dir_abbr": "O/D",
+                "div_abbr": "OISE",
+                "nsf_directorate": null,
+                "fund_division": "Office of International Science and Engineering",
+                "cfda_num": "47.079",
+                "po_name": "Kristin Kuyuk",
+                "keywords": [
+                    "sensing",
+                    "rfid",
+                    "systems",
+                    "through",
+                    "students",
+                    "international",
+                    "experience",
+                    "development",
+                    "technology",
+                    "australia"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000880373",
+            "000825948"
+        ],
+        "program_elements": [
+            "Intl Rsrch Exp for Stds (IRES)"
+        ],
+        "program_codes": [
+            "288Y00"
+        ],
+        "program_references": [
+            "AUSTRALIA",
+            "EXP PROG TO STIM COMP RES",
+            "UNDERGRADUATE EDUCATION",
+            "GRADUATE INVOLVEMENT"
+        ],
+        "program_ref_codes": [
+            "5912",
+            "9150",
+            "9178",
+            "9179"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "O/D"
+        ],
+        "div_abbrs": [
+            "OISE"
+        ],
+        "fund_divisions": [
+            "Office of International Science and Engineering"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.079"
+        ],
+        "program_officers": [
+            "Kristin Kuyuk"
+        ],
+        "keywords": [
+            "sensing",
+            "rfid",
+            "systems",
+            "through",
+            "students",
+            "international",
+            "experience",
+            "development",
+            "technology",
+            "australia",
+            "accuracy",
+            "sensor",
+            "design",
+            "ires",
+            "accurate",
+            "collaboration",
+            "university",
+            "sydney",
+            "enhance",
+            "eight"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.55
+    },
+    "s2_profile": {
+        "s2_author_id": "2044352974",
+        "name": "Kushal K Ponugoti",
+        "affiliations": [],
+        "paper_count": 13,
+        "citation_count": 20,
+        "h_index": 3,
+        "papers": [
+            {
+                "s2_paper_id": "5936fa413c0a0812f3e81f0bddbb73c137ffd750",
+                "title": "Formal Verification of LSQ-LFENCE for Memory Ordering and Security Assurance",
+                "year": 2025,
+                "venue": "International Carnahan Conference on Security Technology",
+                "citation_count": 0,
+                "reference_count": 19,
+                "abstract": "Speculative execution can violate memory ordering guarantees, exposing systems to critical security vulnerabilities such as Spectre, Meltdown and their variants. LSQ-LFENCE (lfence) has been proposed as a software-level mitigation, where lfence instructions are inserted to enforce strict load ordering. However, the effectiveness of this approach depends heavily on correct hardware handling of lfence, making its implementation a prime target for bugs and Trojans. In this work, we propose a formal property that specifies the correct behavior of lfence within a Load-Store Queue (LSQ) in an out-of-order processor. These properties ensure that memory ordering constraints are enforced and that speculative execution does not bypass security boundaries. We demonstrate the effectiveness of our methodology by formally verifying a hardware implementation of lfence using Cadence JasperGold, an industry-standard formal verification tool.",
+                "authors": [
+                    {
+                        "s2_author_id": "2408675657",
+                        "name": "Chukwunalu Asuai"
+                    },
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4fd646139cddfd06e0c23506a1b6e2001f03ad6b",
+                "title": "Formal Verification of Early and Strict Serializing Instruction Enforcement",
+                "year": 2024,
+                "venue": "2024 International Conference on Electrical, Computer and Energy Technologies (ICECET",
+                "citation_count": 1,
+                "reference_count": 28,
+                "abstract": "Enforcing serializing instructions like lfence at earlier stages in the processor pipeline inhibits the issuance of subsequent instructions into the microarchitecture. This proactive measure prevents speculative execution by causing the processor to stall, thereby fortifying processors against transient execution attacks, including but not limited to Spectre and Load Value Injection. Consequently, the hardware implementation of lfence is a prime target for adversaries to introduce bugs and trojans to render this defense solution ineffective. This compromise in functionality exposes the processor to a range of vulnerabilities, posing a significant security risk. This paper introduces a generic invariant-based formal verification methodology to prove the correctness of lfence implementation, aiming to identify and address potential bugs and trojans. The methodology is designed to detect areas where trojans could be crafted to circumvent the protective features of lfence. The efficacy of this approach is demonstrated using the RSD, an open-source RISC-V-based superscalar Out-of-Order processor.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7121f942e909969aa66f54b114f626a5d77262fd",
+                "title": "Invulnerability invariants for software controlled speculation",
+                "year": 2024,
+                "venue": "Electronics Letters",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "Spectre class of transient execution security attacks on modern microprocessors rely on speculative execution. Software Controlled Speculation (SCS) was proposed as a microarchitecture\u2010level defense in the original Spectre paper and has also been adopted by ARM. The idea with SCS is to allow a mode in the microarchitecture, where instructions that read from memory are not allowed to execute speculatively. Errors or malicious fault\u2010injections in the implementation of SCS can still render the microarchitecture vulnerable to Spectre attacks. A formal verification method is proposed that can check the correctness of the implementation of SCS and detect any faults. The method has been demonstrated to be very efficient on two sets of benchmarks and provides accurate detection of implementation faults in\u00a0SCS.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aed9931b10859c5ef456c8fc77d33b7464cc9407",
+                "title": "Ensuring SFENCE Instruction Correctness: A Formal Verification Framework Based on Invariants",
+                "year": 2024,
+                "venue": "IEEE International Conference on Electro/Information Technology",
+                "citation_count": 0,
+                "reference_count": 15,
+                "abstract": "Several transient execution and micro-architectural data sampling attacks exploit race conditions and memory inconsistencies to leak security-critical information from microprocessors. The sfence instruction is commonly employed to create a memory barrier, preventing the reordering of store instructions by the compiler or the processor, and enhancing security. However, potential vulnerabilities, such as bugs and trojans in the hardware implementation of sfence could be exploited by attackers, undermining its defense mechanism. In this paper, a formal method based on invariants is provided to address the verification of sfence hardware implementation. Potential areas where hardware trojans can be designed to circumvent sfence are identified and, demonstrate that the proposed verification methodology will flag such trojans. The effectiveness of the approach is validated on the RSD, an open source RISC-V based superscalar out-of-order processor.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bd017f4ff49862fe8805f0f8542282d4c53577fa",
+                "title": "Towards Trustworthy RISC-V Designs: Formal Verification of the MFENCE Instruction",
+                "year": 2024,
+                "venue": "2024 4th Interdisciplinary Conference on Electrics and Computer (INTCEC)",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": "Memory barriers play a crucial role in maintaining the consistency of shared data in parallel and multithreaded programming. The mfence instruction is a key component in addressing memory inconsistencies and preventing certain microarchitectural data sampling attacks. Specifically, mfence ensures the completion of certain memory operations in a specific order, preventing the reordering of memory operations across the barrier. Despite its significance, potential security vulnerabilities in the hardware implementation of mfence could be exploited by attackers, compromising its defense mechanism. This paper introduces a formal method for verifying the hardware implementation of mfence, aiming to identify and address potential bugs and trojans. The methodology is designed to detect areas where trojans could be crafted to circumvent the protective features of mfence. The efficacy of this approach is demonstrated using the RSD, an open-source RISC-V-based superscalar Out-of-Order processor.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2313971961",
+                        "name": "Nikhila Karlapalem"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1b6358bddd40d7dc2a4be29f74e4c41d470a306f",
+                "title": "Hardware Mitigation and Verification For Rogue In-Flight Data Load Attacks",
+                "year": 2023,
+                "venue": "International Conference on Electronics, Circuits, and Systems",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": "Rogue In-Flight Data Load (RIDL) is a microarchitecture security attack that exploits store-to-load forwarding in the line fill buffer. Several microarchitecture-level mitigations have been proposed for defense against RIDL. However, errors and/or Trojans in the implementations of these mitigations can be exploited to render the microarchitecture vulnerable to RIDL. We propose a formal verification methodology that can be used to guarantee that line fill buffer implementations are immune to RIDL attacks. We also propose a hardware-mitigation for RIDL, inspired by our verification approach, that allows the use of store-to-load forwarding. We have demonstrated the efficacy of our approach using several memory pipeline benchmarks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2188155756",
+                        "name": "Arun Govindankutty"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a86de114750c9606f5b26772cdc940da54b1b779",
+                "title": "Verification of serialising instructions for security against transient execution attacks",
+                "year": 2023,
+                "venue": "IET Computers & Digital Techniques",
+                "citation_count": 5,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4e35957eb8627df4f4a554d2cadacbd002110afe",
+                "title": "Illegal Trojan design and detection in asynchronous NULL Convention Logic and Sleep Convention Logic circuits",
+                "year": 2022,
+                "venue": "IET Computers & Digital Techniques",
+                "citation_count": 4,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    },
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fe22f896cf4470f8b49c03034d5f81e829f34042",
+                "title": "A Refinement-Based Approach to Spectre Invulnerability Verification",
+                "year": 2022,
+                "venue": "IEEE Access",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": "Several mitigations to thwart Spectre attacks have been proposed. However, design errors or trojans can be exploited to circumvent these mitigations. We have developed a highly-automated formal verification methodology that can detect if modern microprocessor designs are vulnerable to Spectre and its variants or prove otherwise. The methodology comprises of a refinement-based formal Spectre invulnerability property, and refinement maps, abstractions and invariants required to efficiently check the property. The methodology was evaluated on 29 benchmarks based on the RSD, which is an open source RISC-V based out-of-order superscalar processor. The benchmarks incorporated two Spectre defenses including software-controlled speculation and data track. Also incorporated were various implementation errors and hardware Trojans such as internally-triggered, rare-circuit-state and time-bombs that induce Spectre. What was evaluated was if the methodology could efficiently prove that an implementation is not vulnerable to Spectre and provide a counterexample otherwise. The methodology provided accurate classification for all benchmarks. The verification times were very efficient, ranging from 30 seconds to 1,500 seconds.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "816106c387e2ff9facfdcceb800158702387f4ea",
+                "title": "Formal Verification Approach to Detect Always-On Denial of Service Trojans in Pipelined Circuits",
+                "year": 2021,
+                "venue": "International Conference on Electronics, Circuits, and Systems",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": "Always-On Denial of Service (DoS) Trojans with power drain payload can be disastrous in systems where on-chip power resources are limited. These Trojans are designed so that they have no impact on system behavior and hence, harder to detect. A formal verification method is presented to detect sequential always-on DoS Trojans in pipelined circuits and pipelined microprocessors. Since the method is proof-based, it provides a 100% accurate classification of sequential Trojan components. Another benefit of the approach is that it does not require a reference model, which is one of the requirements of many Trojan detection techniques (often a bottleneck to practical application). The efficiency and scalability of the proposed method have been evaluated on 36 benchmark circuits. The most complex of these benchmarks has as many as 135,898 gates. Detection times are very efficient with a 100% rate of detection, i.e., all Trojan sequential elements were detected and all non-trojan sequential elements were classified as such.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5c20d164b49025ba63d336e6949ba9a9c50d7584",
+                "title": "A Formal Verification Approach for Detecting Opcode Trojans",
+                "year": 2020,
+                "venue": "International Conference on Electronics, Circuits, and Systems",
+                "citation_count": 1,
+                "reference_count": 13,
+                "abstract": "Hardware Trojans are malicious circuit modifications and are a rising threat to the integrated circuit supply chain. There are a number of trojans directed specifically at microprocessor designs. This paper examines the threat of invalid opcodes being used as trigger mechanism for trojans in microprocessors. We demonstrate the effect of such trojans and propose an automated formal verification methodology to detect such trojans. The methodology was tested on processor models based on MIPS and RISC-V architecture. Processor benchmark circuits with as many as 400,000 gates were verified using our approach.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044362890",
+                        "name": "Nimish Mathure"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2044360140",
+                        "name": "Akansha Malik"
+                    },
+                    {
+                        "s2_author_id": "2044357569",
+                        "name": "Samuel Quanbeck"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c6c1a1995d1f2a176a3679783cf85becba4b86f9",
+                "title": "Hardware Trojan Design and Detection in Asynchronous NCL Circuits",
+                "year": 2020,
+                "venue": "International Conference on Electronics, Circuits, and Systems",
+                "citation_count": 4,
+                "reference_count": 14,
+                "abstract": "Hardware Trojans that degrade performance, change functionality, leak information, or halt service, have been problematic in synchronous circuits. Asynchronous circuits are gaining popularity due to their lower power consumption, and better immunity against PVT (process, voltage, temperature) variations. In this paper, we show some designs to realize hardware Trojans in NULL Convention Logic (NCL), which is a Quasi-Delay Insensitive (QDI) asynchronous digital circuit paradigm. We also present a formal verification methodology to detect such Trojans, and validate our technique on an RSA decryption circuit.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    },
+                    {
+                        "s2_author_id": "2621542",
+                        "name": "S. Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "38514571",
+                        "name": "S. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bfb3c4bd65ffd7d7eba5996ef1cd7701c0b2a330",
+                "title": "EVALUATION OF SUBCARRIER MAPPING TECHNIQUES FOR MULTIUSER IN PRESENCE OF DOPPLER IN LTE UPLINK",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2044352974",
+                        "name": "Kushal K. Ponugoti"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2408675657",
+                "name": "Chukwunalu Asuai"
+            },
+            {
+                "s2_author_id": "2044362890",
+                "name": "Nimish Mathure"
+            },
+            {
+                "s2_author_id": "2621542",
+                "name": "S. Srinivasan"
+            },
+            {
+                "s2_author_id": "2313971961",
+                "name": "Nikhila Karlapalem"
+            },
+            {
+                "s2_author_id": "2188155756",
+                "name": "Arun Govindankutty"
+            },
+            {
+                "s2_author_id": "38514571",
+                "name": "S. Smith"
+            },
+            {
+                "s2_author_id": "2044360140",
+                "name": "Akansha Malik"
+            },
+            {
+                "s2_author_id": "2044357569",
+                "name": "Samuel Quanbeck"
+            }
+        ],
+        "total_co_authors": 8,
+        "papers_retrieved": 13
+    }
+}

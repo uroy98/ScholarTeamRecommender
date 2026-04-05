@@ -1,0 +1,774 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000396070",
+        "name": "Pengcheng Dai",
+        "primary_affiliation": "William Marsh Rice University",
+        "primary_department": null,
+        "all_affiliations": [
+            "William Marsh Rice University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "TX"
+        ],
+        "perf_cities": [
+            "Houston"
+        ],
+        "org_names": [
+            "William Marsh Rice University"
+        ],
+        "org_ueis": [
+            "K51LECU1G8N3"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "pdai@rice.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2544842",
+                "title": "Conference: Workshop on Hidden Order and Quantum Entanglement",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-09-01",
+                "exp_date": "2026-08-31",
+                "award_amount": 5000.0,
+                "total_amount": 5000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "CONDENSED MATTER PHYSICS"
+                ],
+                "program_codes": [
+                    "171000"
+                ],
+                "program_references": [
+                    "QUANTUM INFORMATION SCIENCE",
+                    "CONFERENCE AND WORKSHOPS"
+                ],
+                "program_ref_codes": [
+                    "7203",
+                    "7556"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "DMR",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Materials Research",
+                "cfda_num": "47.049",
+                "po_name": "Daniel Savin",
+                "keywords": [
+                    "quantum",
+                    "workshop",
+                    "entanglement",
+                    "materials",
+                    "bring",
+                    "physics",
+                    "conference",
+                    "hidden",
+                    "order",
+                    "rice"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "CONDENSED MATTER PHYSICS"
+        ],
+        "program_codes": [
+            "171000"
+        ],
+        "program_references": [
+            "QUANTUM INFORMATION SCIENCE",
+            "CONFERENCE AND WORKSHOPS"
+        ],
+        "program_ref_codes": [
+            "7203",
+            "7556"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "DMR"
+        ],
+        "fund_divisions": [
+            "Division Of Materials Research"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049"
+        ],
+        "program_officers": [
+            "Daniel Savin"
+        ],
+        "keywords": [
+            "quantum",
+            "workshop",
+            "entanglement",
+            "materials",
+            "bring",
+            "physics",
+            "conference",
+            "hidden",
+            "order",
+            "rice",
+            "university",
+            "recent",
+            "together",
+            "experts",
+            "career",
+            "communities",
+            "technical",
+            "abstract",
+            "organized",
+            "extreme"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.46
+    },
+    "s2_profile": {
+        "s2_author_id": "2047536570",
+        "name": "Pengcheng Dai",
+        "affiliations": [],
+        "paper_count": 18,
+        "citation_count": 366,
+        "h_index": 8,
+        "papers": [
+            {
+                "s2_paper_id": "2cb093c4e47e409a8f68aa542ed5d42d954c1b1a",
+                "title": "Distributed scalable coupled policy algorithm for networked multi-agent reinforcement learning",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "This paper studies networked multi-agent reinforcement learning (NMARL) with interdependent rewards and coupled policies. In this setting, each agent's reward depends on its own state-action pair as well as those of its direct neighbors, and each agent's policy is parameterized by its local parameters together with those of its $\\kappa_{p}$-hop neighbors, with $\\kappa_{p}\\geq 1$ denoting the coupled radius. The objective of the agents is to collaboratively optimize their policies to maximize the discounted average cumulative reward. To address the challenge of interdependent policies in collaborative optimization, we introduce a novel concept termed the neighbors'averaged $Q$-function and derive a new expression for the coupled policy gradient. Based on these theoretical foundations, we develop a distributed scalable coupled policy (DSCP) algorithm, where each agent relies only on the state-action pairs of its $\\kappa_{p}$-hop neighbors and the rewards of its $(\\kappa_{p}+1)$-hop neighbors. Specially, in the DSCP algorithm, we employ a geometric 2-horizon sampling method that does not require storing a full $Q$-table to obtain an unbiased estimate of the coupled policy gradient. Moreover, each agent interacts exclusively with its direct neighbors to obtain accurate policy parameters, while maintaining local estimates of other agents'parameters to execute its local policy and collect samples for optimization. These estimates and policy parameters are updated via a push-sum protocol, enabling distributed coordination of policy updates across the network. We prove that the joint policy produced by the proposed algorithm converges to a first-order stationary point of the objective function. Finally, the effectiveness of DSCP algorithm is demonstrated through simulations in a robot path planning environment, showing clear improvement over state-of-the-art methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "2393072680",
+                        "name": "Dongming Wang"
+                    },
+                    {
+                        "s2_author_id": "2397381999",
+                        "name": "Wenwu Yu"
+                    },
+                    {
+                        "s2_author_id": "2397560714",
+                        "name": "Wei Ren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7721b94781c0afd774f510ca18a11489d53229b0",
+                "title": "Distributed Neural Policy Gradient Algorithm for Global Convergence of Networked Multiagent Reinforcement Learning",
+                "year": 2025,
+                "venue": "IEEE Transactions on Automatic Control",
+                "citation_count": 4,
+                "reference_count": 34,
+                "abstract": "This article studies the networked multiagent reinforcement learning problem, where the objective of agents is to collaboratively maximize the discounted average cumulative rewards. Different from the existing methods that suffer from poor expression due to linear function approximation, we propose a distributed neural policy gradient algorithm that features two innovatively designed neural networks, specifically for the approximate <inline-formula><tex-math notation=\"LaTeX\">$Q$</tex-math></inline-formula>-functions and policy functions of agents. This distributed neural policy gradient algorithm consists of two key components: the distributed critic step and the decentralized actor step. In the distributed critic step, agents receive the approximate <inline-formula><tex-math notation=\"LaTeX\">$Q$</tex-math></inline-formula>-function parameters from their neighboring agents via a time-varying communication networks to collaboratively evaluate the joint policy. In contrast, in the decentralized actor step, each agent updates its local policy parameter solely based on its own approximate <inline-formula><tex-math notation=\"LaTeX\">$Q$</tex-math></inline-formula>-function. In the convergence analysis, we first establish the global convergence of agents for the joint policy evaluation in the distributed critic step. Subsequently, we rigorously demonstrate the global convergence of the overall distributed neural policy gradient algorithm with respect to the objective function. Finally, the effectiveness of the proposed algorithm is demonstrated by comparing it with a centralized algorithm through simulation in the robot path planning environment.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "2301842298",
+                        "name": "Yuanqiu Mo"
+                    },
+                    {
+                        "s2_author_id": "2316834285",
+                        "name": "Wenwu Yu"
+                    },
+                    {
+                        "s2_author_id": "2295187727",
+                        "name": "Wei Ren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e45285f1f9938941fb2b5103242a5829c00268ae",
+                "title": "Distributed primal-dual algorithm for constrained multi-agent reinforcement learning under coupled policies",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 33,
+                "abstract": "In this work, we investigate constrained multi-agent reinforcement learning (CMARL), where agents collaboratively maximize the sum of their local objectives while satisfying individual safety constraints. We propose a framework where agents adopt coupled policies that depend on both local states and parameters, as well as those of their $\\kappa_p$-hop neighbors, with $\\kappa_p>0$ denoting the coupling distance. A distributed primal-dual algorithm is further developed under this framework, wherein each agent has access only to state-action pairs within its $2\\kappa_p$-hop neighborhood and to reward information within its $\\kappa + 2\\kappa_p$-hop neighborhood, with $\\kappa>0$ representing the truncation distance. Moreover, agents are not permitted to directly share their true policy parameters or Lagrange multipliers. Instead, each agent constructs and maintains local estimates of these variables for other agents and employs such estimates to execute its policy. Additionally, these estimates are further updated and exchanged exclusively through an independent, time-varying networks, which enhances the overall system security. We establish that, with high probability, our algorithm can achieve an $\\epsilon$-first-order stationary convergence with an approximation error of $\\mathcal{O}(\\gamma^{\\frac{\\kappa+1}{\\kappa_{p}}})$ for discount factor $\\gamma\\in(0,1)$. Finally, simulations in GridWorld environment are conducted to demonstrate the effectiveness of the proposed algorithm.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "2149698819",
+                        "name": "He Wang"
+                    },
+                    {
+                        "s2_author_id": "2393072680",
+                        "name": "Dongming Wang"
+                    },
+                    {
+                        "s2_author_id": "2316834285",
+                        "name": "Wenwu Yu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "152ee122dc66ec8b2f62647d610b87fdb1086ad5",
+                "title": "Joint Spectrum and Power Allocation in Wireless Network: A Two-Stage Multi-Agent Reinforcement Learning Method",
+                "year": 2024,
+                "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+                "citation_count": 2,
+                "reference_count": 38,
+                "abstract": "This paper investigates the application of multi-agent reinforcement learning (MARL) algorithm to solve the joint spectrum and power allocation problem (JSPAP) in wireless network. The objective of JSPAP is to optimize the subband selection and transmit power levels for links, with the aim of maximizing the sum-rate utility function. To address the JSPAP with discrete subband selection and continuous power allocation, most existing algorithms rely on a centralized optimizer and the instantaneous global channel state information, which can be challenging to implement in large wireless networks with time-varying subbands. To conquer such limitation, a two-stage MARL algorithm is proposed, which comprises a top layer network for selecting subbands across all links and a bottom layer network for determining the transmit power levels for all transmitters. By utilizing the value decomposition technique in the top layer network, the links can cooperatively select transmission subbands, effectively resolving non-stationarity issues in wireless network. Additionally, in the bottom layer network of the proposed two-stage MARL algorithm, each transmitter selects the transmit power level based solely on the local information, thereby effectively reducing computational burden. Empirical experiments demonstrate the effectiveness of the proposed two-stage MARL algorithm by comparison with the state-of-the-art RL algorithms and fractional programming algorithms.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "2149698819",
+                        "name": "He Wang"
+                    },
+                    {
+                        "s2_author_id": "2248404160",
+                        "name": "Huazhou Hou"
+                    },
+                    {
+                        "s2_author_id": "1935815804",
+                        "name": "Xusheng Qian"
+                    },
+                    {
+                        "s2_author_id": "2248673705",
+                        "name": "Wenwu Yu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a2f37a7a678ebebd4498a3aae37b9e45bc60c38f",
+                "title": "Applications in Traffic Signal Control: A Distributed Policy Gradient Decomposition Algorithm",
+                "year": 2024,
+                "venue": "IEEE Transactions on Industrial Informatics",
+                "citation_count": 5,
+                "reference_count": 37,
+                "abstract": "This article explores the application of the multiagent reinforcement learning (MARL) algorithm in addressing the large-scale traffic signal control (TSC) problem. To address the TSC problem in complex urban traffic networks, most existing algorithms focus on optimizing local traffic flow at each intersection through decentralized training based on either the local observations or messages from its neighboring intersections, which, however, lacks the concept of cooperative learning. To conquer such limitations, a novel distributed critic with decentralized actor (DCDA) framework is proposed, which allows the communication messages and temporal difference (TD) losses to be exchanged among neighboring intersections. Specially, by considering the traffic network as a communication network of agents (more precisely, intersections and lanes are considered as agents and edges, respectively), a distributed global average TD loss estimation algorithm is designed in the distributed critic step to estimate the global average TD loss estimation and enhance collaboration among agents. Moreover, in the decentralized actor step, the policy gradient decomposition method is adopted for each agents to learn its local policy solely based on its local action-value function. By adhering to the DCDA framework, a novel distributed policy gradient decomposition (DPGD) algorithm is further proposed to address the TSC problem. Empirical experiments demonstrate that the efficiency, robustness, and stability of the DPGD algorithm outperform the state-of-the-art MARL algorithms in both the environments of cooperative adaptive cruise control and adaptive traffic signal control.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "32981010",
+                        "name": "Wenwu Yu"
+                    },
+                    {
+                        "s2_author_id": "2149698819",
+                        "name": "He Wang"
+                    },
+                    {
+                        "s2_author_id": "2226715284",
+                        "name": "Jiahui Jiang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4775972e1a8dae5c1ebfed2a6939789ef1b4e418",
+                "title": "Distributed Neural Learning Algorithms for Multiagent Reinforcement Learning",
+                "year": 2023,
+                "venue": "IEEE Internet of Things Journal",
+                "citation_count": 0,
+                "reference_count": 36,
+                "abstract": "In this article, the fully distributed neural learning algorithms by neural network approximation for networked multiagent reinforcement learning (NMARL) are studied. To tackle the convergence analysis of methods in NMARL with tremendous state-action space, most of the existing distributed algorithms are designed by linear function approximation, which however would fall into a situation of poor expression. To conquer such limitation, the distributed neural learning algorithms are developed by using a novel neural network approximation that bridges the theory and practice of deep NMARL (DMARL). Specifically, inspired by the overparametrization method for minimizing mean-squared projected bellman error (MSPBE), the distributed neural learning algorithms with population semigradients and stochastic semigradients are respectively, proposed to solve the NMARL problem. Furthermore, the convergence of the proposed algorithms are strictly given by employing the overparametrization method to establish the approximate stationary point of MSPBE to characterize the algorithms toward the global optimum. Finally, some numerical simulations demonstrate the effectiveness of the distributed neural learning algorithms.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "2109503183",
+                        "name": "Hongzhe Liu"
+                    },
+                    {
+                        "s2_author_id": "32981010",
+                        "name": "Wenwu Yu"
+                    },
+                    {
+                        "s2_author_id": "2149698819",
+                        "name": "He Wang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c90aaa461a33951e44adb665f7b19a809b7a3ab6",
+                "title": "Economic Dispatch of Smart Grid with Unknown Cost Functions and Switching Network Topology",
+                "year": 2022,
+                "venue": "2022 4th International Conference on Data-driven Optimization of Complex Systems (DOCS)",
+                "citation_count": 0,
+                "reference_count": 1,
+                "abstract": "The capability of economic dispatch (ED) algorithms to address the power dispatch problem with unknown cost functions and switching network topology is an important feature for practical applications of power dispatch algorithms in smart grid. Inspired by distributed fast consensus technique and reinforcement learning (RL) approach, this research presents a kind of ED strategy consisting of a fixed-time consensus tracking (FCT) algorithm and a distributed RL-based power dispatch algorithm to address the economic dispatch problem (EDP) with unknown cost functions and switching network topology. Different with existing results on EDP of smart grid where the feasible power outputs are calculated from centralized algorithm, a distributed FCT algorithm is utilised to balance the power demand and output for each dispatch duration, where the achievement of such a consensus leads to feasible power outputs and secures the system performance against switching interaction topology. Then, a distributed RL-based power dispatch algorithm is developed to train a policy for solving EDP with unknown cost functions through the technique of distributed training with distributed execution (DTDE). Finally, case studies are presented to demonstrate the effectiveness of the proposed ED algorithms.",
+                "authors": [
+                    {
+                        "s2_author_id": "145193290",
+                        "name": "G. Wen"
+                    },
+                    {
+                        "s2_author_id": "2156506994",
+                        "name": "Xinghuo Yu"
+                    },
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "32981010",
+                        "name": "Wenwu Yu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "df349042f3ee5a86f75d6d71b512d79a4b9fa247",
+                "title": "Distributed Actor\u2013Critic Algorithms for Multiagent Reinforcement Learning Over Directed Graphs",
+                "year": 2022,
+                "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+                "citation_count": 26,
+                "reference_count": 46,
+                "abstract": "Actor\u2013critic (AC) cooperative multiagent reinforcement learning (MARL) over directed graphs is studied in this article. The goal of the agents in MARL is to maximize the globally averaged return in a distributed way, i.e., each agent can only exchange information with its neighboring agents. AC methods proposed in the literature require the communication graphs to be undirected and the weight matrices to be doubly stochastic (more precisely, the weight matrices are row stochastic and their expectation are column stochastic). Differently from these methods, we propose a distributed AC algorithm for MARL over directed graph with fixed topology that only requires the weight matrix to be row stochastic. Then, we also study the MARL over directed graphs (possibly not connected) with changing topologies, proposing a different distributed AC algorithm based on the push-sum protocol that only requires the weight matrices to be column stochastic. Convergence of the proposed algorithms is proven for linear function approximation of the action value function. Simulations are presented to demonstrate the effectiveness of the proposed algorithms.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "32981010",
+                        "name": "Wenwu Yu"
+                    },
+                    {
+                        "s2_author_id": "2149698819",
+                        "name": "He Wang"
+                    },
+                    {
+                        "s2_author_id": "49998719",
+                        "name": "S. Baldi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "60e6e764b5c595561c88c70f0c43980b7dee9e1b",
+                "title": "DTDE: A new cooperative multi-agent reinforcement learning framework",
+                "year": 2021,
+                "venue": "The Innovation",
+                "citation_count": 47,
+                "reference_count": 5,
+                "abstract": "Guanghui Wen,1,* Junjie Fu,1 Pengcheng Dai,1 and Jialing Zhou2 1Department of Systems Science, School of Mathematics, Southeast University, Nanjing 210096, China 2School of Automation, Nanjing University of Science and Technology, Nanjing 210094, China *Correspondence: ghwen@seu.edu.cn Received: April 23, 2021; Accepted: August 30, 2021; Published Online: September 1, 2021; https://doi.org/10.1016/j.xinn.2021.100162 a 2021 The Authors. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/). Citation: Wen G., Fu J., Dai P., and Zhou J. (2021). DTDE: A new cooperative multi-agent reinforcement learning framework. The Innovation 2(4), 100162.",
+                "authors": [
+                    {
+                        "s2_author_id": "145193290",
+                        "name": "G. Wen"
+                    },
+                    {
+                        "s2_author_id": "3261370",
+                        "name": "Junjie Fu"
+                    },
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "7934670",
+                        "name": "Jialing Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e68ce8e8363610414161b7c6dbeae96fe73a633e",
+                "title": "Distributed Q-Learning Algorithm for Dynamic Resource Allocation With Unknown Objective Functions and Application to Microgrid",
+                "year": 2021,
+                "venue": "IEEE Transactions on Cybernetics",
+                "citation_count": 22,
+                "reference_count": 39,
+                "abstract": "Dynamic resource allocation problem (DRAP) with unknown cost functions and unknown resource transition functions is studied in this article. The goal of the agents is to minimize the sum of cost functions over given time periods in a distributed way, that is, by only exchanging information with their neighboring agents. First, we propose a distributed <inline-formula> <tex-math notation=\"LaTeX\">$Q$ </tex-math></inline-formula>-learning algorithm for DRAP with unknown cost functions and unknown resource transition functions under discrete local feasibility constraints (DLFCs). It is theoretically proved that the joint policy of agents produced by the distributed <inline-formula> <tex-math notation=\"LaTeX\">$Q$ </tex-math></inline-formula>-learning algorithm can always provide a feasible allocation (FA), that is, satisfying the constraints at each time period. Then, we also study the DRAP with unknown cost functions and unknown resource transition functions under continuous local feasibility constraints (CLFCs), where a novel distributed <inline-formula> <tex-math notation=\"LaTeX\">$Q$ </tex-math></inline-formula>-learning algorithm is proposed based on function approximation and distributed optimization. It should be noted that the update rule of the local policy of each agent can also ensure that the joint policy of agents is an FA at each time period. Such property is of vital importance to execute the <inline-formula> <tex-math notation=\"LaTeX\">$\\varepsilon $ </tex-math></inline-formula>-greedy policy during the whole training process. Finally, simulations are presented to demonstrate the effectiveness of the proposed algorithms.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "32981010",
+                        "name": "Wenwu Yu"
+                    },
+                    {
+                        "s2_author_id": "24304611",
+                        "name": "Duxin Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "47dd6c3fd3fb9f56683414d0f16d7b381140736b",
+                "title": "Optimal Observation Policy of Fault Diagnosis: A Reinforcement Learning Approach",
+                "year": 2020,
+                "venue": "ACM Cloud and Autonomic Computing Conference",
+                "citation_count": 0,
+                "reference_count": 21,
+                "abstract": "In this paper, a new approach is proposed to solve an optimization problem of sensor activation policy for fault diagnosis in discrete event systems. The case of dynamic observation is under consideration, where sensors are turned on or off to monitor the occurrence of observable events under a policy. To find the optimal sensor activation policy for diagnosis problem of numerical costs, a structure of most permissive observer is introduced to be a basic model to apply the reinforcement learning technique and a brief algorithm is also proposed to realized the method. The scalability and feasibility of our approach can be verified through simulation examples.",
+                "authors": [
+                    {
+                        "s2_author_id": "2267005638",
+                        "name": "Jiwei Wang"
+                    },
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "32981010",
+                        "name": "Wenwu Yu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aee5f8ad3e882ebdef9846f12f6666ccd84f24ae",
+                "title": "Distributed Reinforcement Learning for Cyber-Physical System With Multiple Remote State Estimation Under DoS Attacker",
+                "year": 2020,
+                "venue": "IEEE Transactions on Network Science and Engineering",
+                "citation_count": 45,
+                "reference_count": 36,
+                "abstract": "In this paper, we consider cyber-physical system (CPS) with multiple remote state estimation under denial-of-service (DoS) attack in infinite time-horizon. The sensors monitor the system and send their local state estimate to remote estimators by choosing the local channels in \u201cState 0\u201d or \u201cState 1\u201d. The aim of sensors is to find policies for choosing local channel in a specific state to transmit message to minimize the total estimation error covariance on account of energy-saving in an infinite time-horizon. The DoS attacker aims to achieve the opposite goal by choosing channels to attack or not. The games between sensors and DoS attacker under two different structures of public information are investigated, that is the open-loop case (where sensors and attacker cannot observe others\u2019 behaviors) and the closed-loop case (where sensors and attacker can observe the others\u2019 behaviors causally). For the open-loop case with assumption that the DoS attacker can get the information from the remote estimators to the sensors, the distributed reinforcement learning algorithms for sensors and attacker based on local information are proposed to find their Nash equilibrium policies, respectively. Further, we consider in closed loop case that the DoS attacker cannot get the information from the remote estimators to the sensors which leads to asymmetric information between the sensors and attacker. To derive Nash equilibrium policies for sensors and attacker, we convert the original game into a belief-based continuous-state stochastic game. The convergence of distributed reinforcement learning method is proved. Some simulations are presented to demonstrate its effectiveness.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "32981010",
+                        "name": "Wenwu Yu"
+                    },
+                    {
+                        "s2_author_id": "2149698819",
+                        "name": "He Wang"
+                    },
+                    {
+                        "s2_author_id": "145193290",
+                        "name": "G. Wen"
+                    },
+                    {
+                        "s2_author_id": "1782510",
+                        "name": "Yuezu Lv"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f4136fc446706cbe70283cfc9a5d9ff8ecb51a75",
+                "title": "Distributed Reinforcement Learning Algorithm for Dynamic Economic Dispatch With Unknown Generation Cost Functions",
+                "year": 2020,
+                "venue": "IEEE Transactions on Industrial Informatics",
+                "citation_count": 93,
+                "reference_count": 38,
+                "abstract": "In this article, the dynamic economic dispatch (DED) problem for smart grid is solved under the assumption that no knowledge of the mathematical formulation of the actual generation cost functions is available. The objective of the DED problem is to find the optimal power output of each unit at each time so as to minimize the total generation cost. To address the lack of a priori knowledge, a new distributed reinforcement learning optimization algorithm is proposed. The algorithm combines the state-action-value function approximation with a distributed optimization based on multiplier splitting. Theoretical analysis of the proposed algorithm is provided to prove the feasibility of the algorithm, and several case studies are presented to demonstrate its effectiveness.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "32981010",
+                        "name": "Wenwu Yu"
+                    },
+                    {
+                        "s2_author_id": "145193290",
+                        "name": "G. Wen"
+                    },
+                    {
+                        "s2_author_id": "49998719",
+                        "name": "S. Baldi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "297bad12688092f12898b0c4af696800e21447ad",
+                "title": "Distributed consensus-based algorithm for social welfare in smart grid with transmission losses",
+                "year": 2019,
+                "venue": "Science China Technological Sciences",
+                "citation_count": 4,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2018600514",
+                        "name": "Qian Xu"
+                    },
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "2157270275",
+                        "name": "Lei Wang"
+                    },
+                    {
+                        "s2_author_id": "24304611",
+                        "name": "Duxin Chen"
+                    },
+                    {
+                        "s2_author_id": "2119043472",
+                        "name": "Kun Wang"
+                    },
+                    {
+                        "s2_author_id": "32981010",
+                        "name": "Wenwu Yu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d552c939308b8da3d5934064bfdeda8ea38a24c",
+                "title": "Improving the Station-Level Demand Prediction by Using Feature Engineering in Bike Sharing Systems",
+                "year": 2018,
+                "venue": "2018 IEEE SmartWorld, Ubiquitous Intelligence & Computing, Advanced & Trusted Computing, Scalable Computing & Communications, Cloud & Big Data Computing, Internet of People and Smart City Innovation (SmartWorld/SCALCOM/UIC/ATC/CBDCom/IOP/SCI)",
+                "citation_count": 1,
+                "reference_count": 18,
+                "abstract": "The bike sharing systems have been widely accepted around the world since it is convenient and environment friendly. One of the key issues to the success operation of the system is the accurate bike demand prediction to reallocate the bikes among the stations to avoid the station jam, which refers the situation that there is no dock available for returning bikes or there is no available bike. A lot of researches have been carried out towards the bike demand prediction and the common impact factors such as time and weather have been well studied. In order to achieve better performance, the stations are often clustered into groups and the prediction is made at cluster-level. However, the effective and precise individual station demand prediction is still necessary. This paper aims at improving the accuracy of station-level demand prediction. More effective influential factors other than the time and weather are identified and a feature model composed of context feature, correlation feature and user feature (CCU) is proposed. A two-phase prediction framework is presented, where the feature engineering is used to extract features at the first step, followed by the discussion about three classic regression algorithms Experiments based on the data of Citi Bike in New York City have been conducted to verify the effectiveness of our method. The results show that our method outperforms nearly 10% than the baseline and achieve an acceptable accuracy at station-level.",
+                "authors": [
+                    {
+                        "s2_author_id": "2145917013",
+                        "name": "Mu Hu"
+                    },
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "46933619",
+                        "name": "Huiping Lin"
+                    },
+                    {
+                        "s2_author_id": "52211974",
+                        "name": "Guanlan Kong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "83b4dfdd3bd9738e4ba0a72c73702b5a2958fe72",
+                "title": "Cluster-Based Destination Prediction in Bike Sharing System",
+                "year": 2018,
+                "venue": "Artificial Intelligence and Cloud Computing Conference",
+                "citation_count": 15,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "84457162",
+                        "name": "Changxiong Song"
+                    },
+                    {
+                        "s2_author_id": "46933619",
+                        "name": "Huiping Lin"
+                    },
+                    {
+                        "s2_author_id": "2059664788",
+                        "name": "Pei Jia"
+                    },
+                    {
+                        "s2_author_id": "2136436626",
+                        "name": "Zhipeng Xu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "69c7530570ecf0546d77968f4f83d4088704d028",
+                "title": "Synthesis Method for Hierarchical Interface-based Supervisory Control",
+                "year": 2007,
+                "venue": "American Control Conference",
+                "citation_count": 47,
+                "reference_count": 76,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3190940",
+                        "name": "R. Leduc"
+                    },
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    },
+                    {
+                        "s2_author_id": "1891770",
+                        "name": "Raoguang Song"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f8c3ea0e90fd12474a1f221b15ad1e0b3a6e137",
+                "title": "Hierarchical interface-based supervisory control of a flexible manufacturing system",
+                "year": 2006,
+                "venue": "IEEE Transactions on Control Systems Technology",
+                "citation_count": 56,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3190940",
+                        "name": "R. Leduc"
+                    },
+                    {
+                        "s2_author_id": "1766205",
+                        "name": "M. Lawford"
+                    },
+                    {
+                        "s2_author_id": "2047536570",
+                        "name": "Pengcheng Dai"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2393072680",
+                "name": "Dongming Wang"
+            },
+            {
+                "s2_author_id": "2397381999",
+                "name": "Wenwu Yu"
+            },
+            {
+                "s2_author_id": "2397560714",
+                "name": "Wei Ren"
+            },
+            {
+                "s2_author_id": "2301842298",
+                "name": "Yuanqiu Mo"
+            },
+            {
+                "s2_author_id": "2316834285",
+                "name": "Wenwu Yu"
+            },
+            {
+                "s2_author_id": "2295187727",
+                "name": "Wei Ren"
+            },
+            {
+                "s2_author_id": "2149698819",
+                "name": "He Wang"
+            },
+            {
+                "s2_author_id": "2248404160",
+                "name": "Huazhou Hou"
+            },
+            {
+                "s2_author_id": "1935815804",
+                "name": "Xusheng Qian"
+            },
+            {
+                "s2_author_id": "2248673705",
+                "name": "Wenwu Yu"
+            },
+            {
+                "s2_author_id": "32981010",
+                "name": "Wenwu Yu"
+            },
+            {
+                "s2_author_id": "2226715284",
+                "name": "Jiahui Jiang"
+            },
+            {
+                "s2_author_id": "2109503183",
+                "name": "Hongzhe Liu"
+            },
+            {
+                "s2_author_id": "145193290",
+                "name": "G. Wen"
+            },
+            {
+                "s2_author_id": "2156506994",
+                "name": "Xinghuo Yu"
+            },
+            {
+                "s2_author_id": "49998719",
+                "name": "S. Baldi"
+            },
+            {
+                "s2_author_id": "3261370",
+                "name": "Junjie Fu"
+            },
+            {
+                "s2_author_id": "7934670",
+                "name": "Jialing Zhou"
+            },
+            {
+                "s2_author_id": "24304611",
+                "name": "Duxin Chen"
+            },
+            {
+                "s2_author_id": "2267005638",
+                "name": "Jiwei Wang"
+            },
+            {
+                "s2_author_id": "1782510",
+                "name": "Yuezu Lv"
+            },
+            {
+                "s2_author_id": "2018600514",
+                "name": "Qian Xu"
+            },
+            {
+                "s2_author_id": "2157270275",
+                "name": "Lei Wang"
+            },
+            {
+                "s2_author_id": "2119043472",
+                "name": "Kun Wang"
+            },
+            {
+                "s2_author_id": "2145917013",
+                "name": "Mu Hu"
+            },
+            {
+                "s2_author_id": "46933619",
+                "name": "Huiping Lin"
+            },
+            {
+                "s2_author_id": "52211974",
+                "name": "Guanlan Kong"
+            },
+            {
+                "s2_author_id": "84457162",
+                "name": "Changxiong Song"
+            },
+            {
+                "s2_author_id": "2059664788",
+                "name": "Pei Jia"
+            },
+            {
+                "s2_author_id": "2136436626",
+                "name": "Zhipeng Xu"
+            },
+            {
+                "s2_author_id": "3190940",
+                "name": "R. Leduc"
+            },
+            {
+                "s2_author_id": "1891770",
+                "name": "Raoguang Song"
+            },
+            {
+                "s2_author_id": "1766205",
+                "name": "M. Lawford"
+            }
+        ],
+        "total_co_authors": 33,
+        "papers_retrieved": 18
+    }
+}

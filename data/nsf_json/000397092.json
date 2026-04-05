@@ -1,0 +1,2825 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000397092",
+        "name": "Roman Vershynin",
+        "primary_affiliation": "University of California-Irvine",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of California-Irvine"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "CA"
+        ],
+        "perf_cities": [
+            "IRVINE"
+        ],
+        "org_names": [
+            "University of California-Irvine"
+        ],
+        "org_ueis": [
+            "MJC5FCYQTPE6"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "rvershyn@uci.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2451011",
+                "title": "Interactions between high-dimensional probability and data science",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-15",
+                "exp_date": "2027-06-30",
+                "award_amount": 239966.0,
+                "total_amount": 239966.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "PROBABILITY"
+                ],
+                "program_codes": [
+                    "126300"
+                ],
+                "program_references": [
+                    "Artificial Intelligence (AI)",
+                    "Machine Learning Theory"
+                ],
+                "program_ref_codes": [
+                    "075Z",
+                    "079Z"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "DMS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Mathematical Sciences",
+                "cfda_num": "47.049",
+                "po_name": "Tomek Bartoszynski",
+                "keywords": [
+                    "dimensional",
+                    "probability",
+                    "random",
+                    "artificial",
+                    "science",
+                    "develop",
+                    "synthetic",
+                    "theory",
+                    "mathematical",
+                    "privacy"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "PROBABILITY"
+        ],
+        "program_codes": [
+            "126300"
+        ],
+        "program_references": [
+            "Artificial Intelligence (AI)",
+            "Machine Learning Theory"
+        ],
+        "program_ref_codes": [
+            "075Z",
+            "079Z"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "DMS"
+        ],
+        "fund_divisions": [
+            "Division Of Mathematical Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049"
+        ],
+        "program_officers": [
+            "Tomek Bartoszynski"
+        ],
+        "keywords": [
+            "dimensional",
+            "probability",
+            "random",
+            "artificial",
+            "science",
+            "develop",
+            "synthetic",
+            "theory",
+            "mathematical",
+            "privacy",
+            "matrix",
+            "developing",
+            "matrices",
+            "framework",
+            "norms",
+            "interactions",
+            "between",
+            "addresses",
+            "theoretical",
+            "challenges"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.59
+    },
+    "s2_profile": {
+        "s2_author_id": "1806615",
+        "name": "Roman Vershynin",
+        "affiliations": [],
+        "paper_count": 127,
+        "citation_count": 16555,
+        "h_index": 49,
+        "papers": [
+            {
+                "s2_paper_id": "6f0d781868b8f0be78a733534d393cae8624afb5",
+                "title": "Random matrices acting on sets: Independent columns",
+                "year": 2025,
+                "venue": "Electronic Journal of Probability",
+                "citation_count": 0,
+                "reference_count": 28,
+                "abstract": "We study random matrices with independent subgaussian columns. Assuming each column has a fixed Euclidean norm, we establish conditions under which such matrices act as near-isometries when restricted to a given subset of their domain. We show that, with high probability, the maximum distortion caused by such a matrix is proportional to the Gaussian complexity of the subset, scaled by the subgaussian norm of the matrix columns. This linear dependence on the subgaussian norm is a new phenomenon, as random matrices with independent rows or independent entries typically exhibit superlinear dependence. As a consequence, normalizing the columns of random sparse matrices leads to stronger embedding guarantees.",
+                "authors": [
+                    {
+                        "s2_author_id": "1800179",
+                        "name": "Y. Plan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "979a5e4a6f40dacce81190cfe7ec968f5224cf9d",
+                "title": "Private measures, random walks, and synthetic data",
+                "year": 2024,
+                "venue": "Probability theory and related fields",
+                "citation_count": 18,
+                "reference_count": 55,
+                "abstract": "Differential privacy is a mathematical concept that provides an information-theoretic security guarantee. While differential privacy has emerged as a de facto standard for guaranteeing privacy in data sharing, the known mechanisms to achieve it come with some serious limitations. Utility guarantees are usually provided only for a fixed, a priori specified set of queries. Moreover, there are no utility guarantees for more complex\u2014but very common\u2014machine learning tasks such as clustering or classification. In this paper we overcome some of these limitations. Working with metric privacy, a powerful generalization of differential privacy, we develop a polynomial-time algorithm that creates a private measure from a data set. This private measure allows us to efficiently construct private synthetic data that are accurate for a wide range of statistical analysis tools. Moreover, we prove an asymptotically sharp min-max result for private measures and synthetic data in general compact metric spaces, for any fixed privacy budget \u03b5\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\varepsilon $$\\end{document} bounded away from zero. A key ingredient in our construction is a new superregular random walk, whose joint distribution of steps is as regular as that of independent random variables, yet which deviates from the origin logarithmically slowly.",
+                "authors": [
+                    {
+                        "s2_author_id": "73133034",
+                        "name": "M. Boedihardjo"
+                    },
+                    {
+                        "s2_author_id": "1794778",
+                        "name": "T. Strohmer"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "017114e97324d73a727af8c7c923953be8f6daca",
+                "title": "Algorithmically Effective Differentially Private Synthetic Data",
+                "year": 2023,
+                "venue": "Annual Conference Computational Learning Theory",
+                "citation_count": 12,
+                "reference_count": 53,
+                "abstract": "We present a highly effective algorithmic approach for generating $\\varepsilon$-differentially private synthetic data in a bounded metric space with near-optimal utility guarantees under the 1-Wasserstein distance. In particular, for a dataset $X$ in the hypercube $[0,1]^d$, our algorithm generates synthetic dataset $Y$ such that the expected 1-Wasserstein distance between the empirical measure of $X$ and $Y$ is $O((\\varepsilon n)^{-1/d})$ for $d\\geq 2$, and is $O(\\log^2(\\varepsilon n)(\\varepsilon n)^{-1})$ for $d=1$. The accuracy guarantee is optimal up to a constant factor for $d\\geq 2$, and up to a logarithmic factor for $d=1$. Our algorithm has a fast running time of $O(\\varepsilon dn)$ for all $d\\geq 1$ and demonstrates improved accuracy compared to the method in (Boedihardjo et al., 2022) for $d\\geq 2$.",
+                "authors": [
+                    {
+                        "s2_author_id": "50878899",
+                        "name": "Yi He"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    },
+                    {
+                        "s2_author_id": "10725638",
+                        "name": "Yizhe Zhu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1d6c71721e7e733cf3262457a83c32ede57d6288",
+                "title": "Differentially private low-dimensional representation of high-dimensional data",
+                "year": 2023,
+                "venue": "arXiv.org",
+                "citation_count": 4,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118917327",
+                        "name": "Yi He"
+                    },
+                    {
+                        "s2_author_id": "1794778",
+                        "name": "T. Strohmer"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    },
+                    {
+                        "s2_author_id": "10725638",
+                        "name": "Yizhe Zhu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3ad020769ceb2a8e633992692305fca5aacfc31a",
+                "title": "Covariance loss, Szemeredi regularity, and differential privacy",
+                "year": 2023,
+                "venue": "Proceedings of the American Mathematical Society. American Mathematical Society",
+                "citation_count": 2,
+                "reference_count": 13,
+                "abstract": "We show how randomized rounding based on Grothendieck's identity can be used to prove a nearly tight bound on the covariance loss-the amount of covariance that is lost by taking conditional expectation. This result yields a new type of weak Szemeredi regularity lemma for positive semidefinite matrices and kernels. Moreover, it can be used to construct differentially private synthetic data.",
+                "authors": [
+                    {
+                        "s2_author_id": "73133034",
+                        "name": "M. Boedihardjo"
+                    },
+                    {
+                        "s2_author_id": "1794778",
+                        "name": "T. Strohmer"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3c42182d361462b03bcff7b3447e1f43c89c4ce9",
+                "title": "AVIDA: Alternating method for Visualizing and Integrating Data",
+                "year": 2022,
+                "venue": "Journal of Computer Science",
+                "citation_count": 5,
+                "reference_count": 52,
+                "abstract": "High-dimensional multimodal data arises in many scientific fields. The integration of multimodal data becomes challenging when there is no known correspondence between the samples and the features of different datasets. To tackle this challenge, we introduce AVIDA, a framework for simultaneously performing data alignment and dimension reduction. In the numerical experiments, Gromov-Wasserstein optimal transport and t-distributed stochastic neighbor embedding are used as the alignment and dimension reduction modules respectively. We show that AVIDA correctly aligns high-dimensional datasets without common features with four synthesized datasets and two real multimodal single-cell datasets. Compared to several existing methods, we demonstrate that AVIDA better preserves structures of individual datasets, especially distinct local structures in the joint low-dimensional visualization, while achieving comparable alignment performance. Such a property is important in multimodal single-cell data analysis as some biological processes are uniquely captured by one of the datasets. In general applications, other methods can be used for the alignment and dimension reduction modules.",
+                "authors": [
+                    {
+                        "s2_author_id": "9663978",
+                        "name": "Kathryn Dover"
+                    },
+                    {
+                        "s2_author_id": "5885667",
+                        "name": "Zixuan Cang"
+                    },
+                    {
+                        "s2_author_id": "143718079",
+                        "name": "A. Ma"
+                    },
+                    {
+                        "s2_author_id": "2066317479",
+                        "name": "Qing Nie"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "429e5875e59fa30fbb835ef3a1f85036a73db0ba",
+                "title": "The Quarks of Attention",
+                "year": 2022,
+                "venue": "Artificial Intelligence",
+                "citation_count": 10,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144902513",
+                        "name": "P. Baldi"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c82e665cef8abbe6db7b17a282a3410d060a1696",
+                "title": "FA ] 3 0 Se p 20 04 Small ball probability and Dvoretzky Theorem",
+                "year": 2022,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "40929866",
+                        "name": "B. Klartag"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0cff31d49687ba4ac26d5df51dee73fb6b7b0d25",
+                "title": "Covariance\u2019s Loss is Privacy\u2019s Gain: Computationally\u00a0Efficient,\u00a0Private\u00a0and\u00a0Accurate\u00a0Synthetic\u00a0Data",
+                "year": 2021,
+                "venue": "Foundations of Computational Mathematics",
+                "citation_count": 23,
+                "reference_count": 44,
+                "abstract": "The protection of private information is of vital importance in data-driven research, business and government. The conflict between privacy and utility has triggered intensive research in the computer science and statistics communities, who have developed a variety of methods for privacy-preserving data release. Among the main concepts that have emerged are anonymity and differential privacy. Today, another solution is gaining traction, synthetic data. However, the road to privacy is paved with NP-hard problems. In this paper, we focus on the NP-hard challenge to develop a synthetic data generation method that is computationally efficient, comes with provable privacy guarantees and rigorously quantifies data utility. We solve a relaxed version of this problem by studying a fundamental, but a first glance completely unrelated, problem in probability concerning the concept of covariance loss. Namely, we find a nearly optimal and constructive answer to the question how much information is lost when we take conditional expectation. Surprisingly, this excursion into theoretical probability produces mathematical techniques that allow us to derive constructive, approximately optimal solutions to difficult applied problems concerning microaggregation, privacy and synthetic data.",
+                "authors": [
+                    {
+                        "s2_author_id": "73133034",
+                        "name": "M. Boedihardjo"
+                    },
+                    {
+                        "s2_author_id": "1794778",
+                        "name": "T. Strohmer"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "25c3ca5dc1599a058ed16de120f1c47d6617f19c",
+                "title": "Privacy of Synthetic Data: A Statistical Framework",
+                "year": 2021,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 17,
+                "reference_count": 38,
+                "abstract": "Privacy-preserving data analysis is emerging as a challenging problem with far-reaching impact. In particular, synthetic data are a promising concept toward solving the aporetic conflict between data privacy and data sharing. Yet, it is known that accurately generating private, synthetic data of certain kinds is NP-hard. We develop a statistical framework for differentially private synthetic data, which enables us to circumvent the computational hardness of the problem. We consider the true data as a random sample drawn from a population <inline-formula> <tex-math notation=\"LaTeX\">$\\Omega $ </tex-math></inline-formula> according to some unknown density. We then replace <inline-formula> <tex-math notation=\"LaTeX\">$\\Omega $ </tex-math></inline-formula> by a much smaller random subset <inline-formula> <tex-math notation=\"LaTeX\">$\\Omega ^{\\ast}$ </tex-math></inline-formula>, which we sample according to some known density. We generate synthetic data on the reduced space <inline-formula> <tex-math notation=\"LaTeX\">$\\Omega ^{\\ast}$ </tex-math></inline-formula> by fitting the specified linear statistics obtained from the true data. To ensure privacy we use the common Laplacian mechanism. Employing the concept of R\u00e9nyi condition number, which measures how well the sampling distribution is correlated with the population distribution, we derive explicit bounds on the privacy and accuracy provided by the proposed method.",
+                "authors": [
+                    {
+                        "s2_author_id": "73133034",
+                        "name": "M. Boedihardjo"
+                    },
+                    {
+                        "s2_author_id": "1794778",
+                        "name": "T. Strohmer"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9f353c61843e582d899de8080fa9ffdc88bd8237",
+                "title": "THE SMALLEST SINGULAR VALUE OF INHOMOGENEOUS SQUARE",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2150251157",
+                        "name": "Galyna"
+                    },
+                    {
+                        "s2_author_id": "1409509335",
+                        "name": "V."
+                    },
+                    {
+                        "s2_author_id": "2150251155",
+                        "name": "Livshyts"
+                    },
+                    {
+                        "s2_author_id": "2725657",
+                        "name": "K. Tikhomirov"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b532318c0d19899e70c37860e059eafa4cae898d",
+                "title": "Private sampling: a noiseless approach for generating differentially private synthetic data",
+                "year": 2021,
+                "venue": "SIAM Journal on Mathematics of Data Science",
+                "citation_count": 15,
+                "reference_count": 54,
+                "abstract": "In a world where artificial intelligence and data science become omnipresent, data sharing is increasingly locking horns with data-privacy concerns. Differential privacy has emerged as a rigorous framework for protecting individual privacy in a statistical database, while releasing useful statistical information about the database. The standard way to implement differential privacy is to inject a sufficient amount of noise into the data. However, in addition to other limitations of differential privacy, this process of adding noise will affect data accuracy and utility. Another approach to enable privacy in data sharing is based on the concept of synthetic data. The goal of synthetic data is to create an as-realistic-as-possible dataset, one that not only maintains the nuances of the original data, but does so without risk of exposing sensitive information. The combination of differential privacy with synthetic data has been suggested as a best-of-both-worlds solutions. In this work, we propose the first noisefree method to construct differentially private synthetic data; we do this through a mechanism called\"private sampling\". Using the Boolean cube as benchmark data model, we derive explicit bounds on accuracy and privacy of the constructed synthetic data. The key mathematical tools are hypercontractivity, duality, and empirical processes. A core ingredient of our private sampling mechanism is a rigorous\"marginal correction\"method, which has the remarkable property that importance reweighting can be utilized to exactly match the marginals of the sample to the marginals of the population.",
+                "authors": [
+                    {
+                        "s2_author_id": "73133034",
+                        "name": "M. Boedihardjo"
+                    },
+                    {
+                        "s2_author_id": "1794778",
+                        "name": "T. Strohmer"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fed3c4f3ff124577810ae52f37a04cfb0b3d49c2",
+                "title": "A theory of capacity and sparse neural encoding",
+                "year": 2021,
+                "venue": "Neural Networks",
+                "citation_count": 4,
+                "reference_count": 74,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144902513",
+                        "name": "P. Baldi"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "062068e71dfeb7991b1faaa59369fbe4f017ed2c",
+                "title": "Memory capacity of neural networks with threshold and ReLU activations",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 23,
+                "reference_count": 28,
+                "abstract": "Author(s): Vershynin, Roman | Abstract: Overwhelming theoretical and empirical evidence shows that mildly overparametrized neural networks -- those with more connections than the size of the training data -- are often able to memorize the training data with $100\\%$ accuracy. This was rigorously proved for networks with sigmoid activation functions and, very recently, for ReLU activations. Addressing a 1988 open question of Baum, we prove that this phenomenon holds for general multilayered perceptrons, i.e. neural networks with threshold activation functions, or with any mix of threshold and ReLU activations. Our construction is probabilistic and exploits sparsity.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d3d695bbd3ca434382e192bc42607aa0eb774a8",
+                "title": "Memory Capacity of Neural Networks with Threshold and Rectified Linear Unit Activations",
+                "year": 2020,
+                "venue": "SIAM Journal on Mathematics of Data Science",
+                "citation_count": 59,
+                "reference_count": 8,
+                "abstract": "Overwhelming theoretical and empirical evidence shows that mildly overparametrized neural networks---those with more connections than the size of the training data---are often able to memorize the ...",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "12e309dab25b660567f8a44cf3a5688f65ec3e06",
+                "title": "The capacity of feedforward neural networks",
+                "year": 2019,
+                "venue": "Neural Networks",
+                "citation_count": 74,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144902513",
+                        "name": "P. Baldi"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "817eedb69f5f41cd3d52cf4b04abc38545efcbc0",
+                "title": "The smallest singular value of inhomogeneous square random matrices",
+                "year": 2019,
+                "venue": "Annals of Probability",
+                "citation_count": 44,
+                "reference_count": 44,
+                "abstract": "We show that for an $n\\times n$ random matrix $A$ with independent uniformly anti-concentrated entries, such that $\\mathbb{E} ||A||^2_{HS}\\leq K n^2$, the smallest singular value $\\sigma_n(A)$ of $A$ satisfies $$ P\\left( \\sigma_n(A)\\leq \\frac{\\varepsilon}{\\sqrt{n}} \\right) \\leq C\\varepsilon+2e^{-cn},\\quad \\varepsilon \\ge 0. $$ This extends earlier results \\cite{RudVer-square, RebTikh} by removing the assumption of mean zero and identical distribution of the entries across the matrix, as well as the recent result \\cite{Liv} where the matrix was required to have i.i.d. rows. Our model covers \"inhomogeneus\" matrices allowing different variances of the entries, as long as the sum of the second moments is of order $O(n^2)$. \nIn the past advances, the assumption of i.i.d. rows was required due to lack of Littlewood--Offord--type inequalities for weighted sums of non-i.i.d. random variables. Here, we overcome this problem by introducing the Randomized Least Common Denominator (RLCD) which allows to study anti-concentration properties of weighted sums of independent but not identically distributed variables. We construct efficient nets on the sphere with lattice structure, and show that the lattice points typically have large RLCD. This allows us to derive strong anti-concentration properties for the distance between a fixed column of $A$ and the linear span of the remaining columns, and prove the main result.",
+                "authors": [
+                    {
+                        "s2_author_id": "102538477",
+                        "name": "G. Livshyts"
+                    },
+                    {
+                        "s2_author_id": "2725657",
+                        "name": "K. Tikhomirov"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a46f5f97f384dae38d3e565ea51a20e342bf31ac",
+                "title": "Online Stochastic Gradient Descent with Arbitrary Initialization Solves Non-smooth, Non-convex Phase Retrieval",
+                "year": 2019,
+                "venue": "Journal of machine learning research",
+                "citation_count": 39,
+                "reference_count": 37,
+                "abstract": "Author(s): Tan, Yan Shuo; Vershynin, Roman | Abstract: In recent literature, a general two step procedure has been formulated for solving the problem of phase retrieval. First, a spectral technique is used to obtain a constant-error initial estimate, following which, the estimate is refined to arbitrary precision by first-order optimization of a non-convex loss function. Numerical experiments, however, seem to suggest that simply running the iterative schemes from a random initialization may also lead to convergence, albeit at the cost of slightly higher sample complexity. In this paper, we prove that, in fact, constant step size online stochastic gradient descent (SGD) converges from arbitrary initializations for the non-smooth, non-convex amplitude squared loss objective. In this setting, online SGD is also equivalent to the randomized Kaczmarz algorithm from numerical analysis. Our analysis can easily be generalized to other single index models. It also makes use of new ideas from stochastic process theory, including the notion of a summary state space, which we believe will be of use for the broader field of non-convex optimization.",
+                "authors": [
+                    {
+                        "s2_author_id": "18202935",
+                        "name": "Yan Shuo Tan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c7a52518a889be69376b914b88555126744e4359",
+                "title": "Concentration inequalities for random tensors",
+                "year": 2019,
+                "venue": "Bernoulli",
+                "citation_count": 50,
+                "reference_count": 42,
+                "abstract": "We show how to extend several basic concentration inequalities for simple random tensors $X = x_1 \\otimes \\cdots \\otimes x_d$ where all $x_k$ are independent random vectors in $\\mathbb{R}^n$ with independent coefficients. The new results have optimal dependence on the dimension $n$ and the degree $d$. As an application, we show that random tensors are well conditioned: $(1-o(1)) n^d$ independent copies of the simple random tensor $X \\in \\mathbb{R}^{n^d}$ are far from being linearly dependent with high probability. We prove this fact for any degree $d = o(\\sqrt{n/\\log n})$ and conjecture that it is true for any $d = O(n)$.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "371b386c1901ee578086497e0651e067c759a6c7",
+                "title": "CONCENTRATION OF RANDOM GRAPHS AND APPLICATION TO COMMUNITY DETECTION",
+                "year": 2018,
+                "venue": "International Congress of Mathematicans",
+                "citation_count": 28,
+                "reference_count": 68,
+                "abstract": "Random matrix theory has played an important role in recent work on statistical network analysis. In this paper, we review recent results on regimes of concentration of random graphs around their expectation, showing that dense graphs concentrate and sparse graphs concentrate after regularization. We also review relevant network models that may be of interest to probabilists considering directions for new random matrix theory developments, and random matrix theory tools that may be of interest to statisticians looking to prove properties of network algorithms. Applications of concentration results to the problem of community detection in networks are discussed in detail.",
+                "authors": [
+                    {
+                        "s2_author_id": "2322578",
+                        "name": "Can M. Le"
+                    },
+                    {
+                        "s2_author_id": "143808488",
+                        "name": "E. Levina"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "45d8e1d109b9d9a12d52640edf398be3d0cb4c34",
+                "title": "Concentration of Sums of Independent Random Variables",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4925d6caa9ec3fab4f77f47b683d0f61c084810e",
+                "title": "Boolean polynomial threshold functions and random tensors",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 103,
+                "abstract": "A simple way to generate a Boolean function is to take the sign of a real polynomial in $n$ variables. Such Boolean functions are called polynomial threshold functions. How many low-degree polynomial threshold functions are there? The partial case of this problem for degree $d=1$ was solved by Zuev in 1989, who showed that the number $T(n,1)$ of linear threshold functions satisfies $\\log_2 T(n,d) \\approx n^2$, up to smaller order terms. However the number of polynomial threshold functions for any higher degrees, including $d=2$, has remained open. We settle this problem for all fixed degrees $d \\ge1$, showing that $ \\log_2 T(n,d) \\approx n^{d+1}/{d!}$. The solution relies on establishing connections between the theory of Boolean functions and high-dimensional probability theory and leads to a more general program of extending random matrix theory to random tensors.",
+                "authors": [
+                    {
+                        "s2_author_id": "144902513",
+                        "name": "P. Baldi"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5822605d2e63a326cd03b204b6cb994b58ba434c",
+                "title": "Polynomial Threshold Functions, Hyperplane Arrangements, and Random Tensors",
+                "year": 2018,
+                "venue": "SIAM Journal on Mathematics of Data Science",
+                "citation_count": 22,
+                "reference_count": 100,
+                "abstract": "A simple way to generate a Boolean function is to take the sign of a real polynomial in $n$ variables. Such Boolean functions are called polynomial threshold functions. How many low-degree polynomial threshold functions are there? The partial case of this problem for degree $d=1$ was solved by Zuev in 1989, who showed that the number $T(n,1)$ of linear threshold functions satisfies $\\log_2 T(n,1) \\approx n^2$, up to smaller order terms. However the number of polynomial threshold functions for any higher degrees, including $d=2$, has remained open. We settle this problem for all fixed degrees $d \\ge1$, showing that $ \\log_2 T(n,d) \\approx n \\binom{n}{\\le d}$. The solution relies on connections between the theory of Boolean threshold functions, hyperplane arrangements, and random tensors. Perhaps surprisingly, it uses also a recent result of E.Abbe, A.Shpilka, and A.Wigderson on Reed-Muller codes.",
+                "authors": [
+                    {
+                        "s2_author_id": "144902513",
+                        "name": "P. Baldi"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8b7f6f60af3c369d068b86f55a61692b3305d078",
+                "title": "High-Dimensional Probability",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 994,
+                "reference_count": 0,
+                "abstract": "'High-Dimensional Probability,' winner of the 2019 PROSE Award in Mathematics, offers an accessible and friendly introduction to key probabilistic methods for mathematical data scientists. \nStreamlined and updated, this second edition integrates theory, core tools, and modern applications. Concentration inequalities are central, including classical results like Hoeffding's and Chernoff's inequalities, and modern ones like the matrix Bernstein inequality. The book also develops methods based on stochastic processes \u2013 Slepian's, Sudakov's, and Dudley's inequalities, generic chaining, and VC-based bounds. Applications include covariance estimation, clustering, networks, semidefinite programming, coding, dimension reduction, matrix completion, and machine learning. New to this edition are 200 additional exercises, alongside extra hints to assist with self-study. Material on analysis, probability, and linear algebra has been reworked and expanded to help bridge the gap from a typical undergraduate background to a second course in probability.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9b019f8d737966786d6a7442d6e3f419942e920f",
+                "title": "N A ] 1 1 D ec 2 00 8 GREEDY SIGNAL RECOVERY REVIEW",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8256323",
+                        "name": "D. Needell"
+                    },
+                    {
+                        "s2_author_id": "1788107",
+                        "name": "J. Tropp"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c3aa4080d4e6294eb8cf70668d0a652d0fe65284",
+                "title": "Preliminaries on Random Variables",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eba944313afbbcbd51d9fa9ecbead83f220f2de5",
+                "title": "Neuronal Capacity",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144902513",
+                        "name": "P. Baldi"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7cb4128be833551f43fc7ef98716812a0e461b23",
+                "title": "Polynomial Time and Sample Complexity for Non-Gaussian Component Analysis: Spectral Methods",
+                "year": 2017,
+                "venue": "Annual Conference Computational Learning Theory",
+                "citation_count": 11,
+                "reference_count": 26,
+                "abstract": "The problem of Non-Gaussian Component Analysis (NGCA) is about finding a maximal low-dimensional subspace $E$ in $\\mathbb{R}^n$ so that data points projected onto $E$ follow a non-gaussian distribution. Although this is an appropriate model for some real world data analysis problems, there has been little progress on this problem over the last decade. \nIn this paper, we attempt to address this state of affairs in two ways. First, we give a new characterization of standard gaussian distributions in high-dimensions, which lead to effective tests for non-gaussianness. Second, we propose a simple algorithm, \\emph{Reweighted PCA}, as a method for solving the NGCA problem. We prove that for a general unknown non-gaussian distribution, this algorithm recovers at least one direction in $E$, with sample and time complexity depending polynomially on the dimension of the ambient space. We conjecture that the algorithm actually recovers the entire $E$.",
+                "authors": [
+                    {
+                        "s2_author_id": "18202935",
+                        "name": "Yan Shuo Tan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e76d2adc9e229b1dd9ae8e3dacaa9c954fbf2c69",
+                "title": "Phase Retrieval via Randomized Kaczmarz: Theoretical Guarantees",
+                "year": 2017,
+                "venue": "arXiv.org",
+                "citation_count": 112,
+                "reference_count": 27,
+                "abstract": "We consider the problem of phase retrieval, i.e. that of solving systems of quadratic equations. A simple variant of the randomized Kaczmarz method was recently proposed for phase retrieval, and it was shown numerically to have a computational edge over state-of-the-art Wirtinger flow methods. In this paper, we provide the first theoretical guarantee for the convergence of the randomized Kaczmarz method for phase retrieval. We show that it is sufficient to have as many Gaussian measurements as the dimension, up to a constant factor. Along the way, we introduce a sufficient condition on measurement sets for which the randomized Kaczmarz method is guaranteed to work. We show that Gaussian sampling vectors satisfy this property with high probability; this is proved using a chaining argument coupled with bounds on VC dimension and metric entropy.",
+                "authors": [
+                    {
+                        "s2_author_id": "18202935",
+                        "name": "Yan Shuo Tan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3332ee2127c0e94f550b8374f1718394f5bf9a1e",
+                "title": "High Dimensional Probability for Mathematicians and Data Scientists Working draft \u2013 not for distribution",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4509447c2d939a67d6cf0439e61bd0f19740e58d",
+                "title": "Probabilistic Signal Recovery and Random Matrices",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4d72ecac554b27b86f14ac83877a61f32fd6e073",
+                "title": "AFRL-AFOSR-VA-TR-2016-0369 Probabilistic Signal Recovery and Random Matrices",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "65b8601e060de2fbc936dbf6b1c0719a291bcce4",
+                "title": "A simple tool for bounding the deviation of random matrices on geometric sets",
+                "year": 2016,
+                "venue": "arXiv.org",
+                "citation_count": 79,
+                "reference_count": 33,
+                "abstract": "Let $A$ be an isotropic, sub-gaussian $m \\times n$ matrix. We prove that the process $Z_x := \\|Ax\\|_2 - \\sqrt m \\|x\\|_2$ has sub-gaussian increments. Using this, we show that for any bounded set $T \\subseteq \\mathbb{R}^n$, the deviation of $\\|Ax\\|_2$ around its mean is uniformly bounded by the Gaussian complexity of $T$. We also prove a local version of this theorem, which allows for unbounded sets. These theorems have various applications, some of which are reviewed in this paper. In particular, we give a new result regarding model selection in the constrained linear model.",
+                "authors": [
+                    {
+                        "s2_author_id": "3382597",
+                        "name": "Christopher Liaw"
+                    },
+                    {
+                        "s2_author_id": "1685567",
+                        "name": "Abbas Mehrabian"
+                    },
+                    {
+                        "s2_author_id": "1800179",
+                        "name": "Y. Plan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b0d647ea7a6073a91b623e2379374108f6e3813e",
+                "title": "Four lectures on probabilistic methods for data science",
+                "year": 2016,
+                "venue": "IAS/Park City Mathematics Series",
+                "citation_count": 26,
+                "reference_count": 66,
+                "abstract": "Methods of high-dimensional probability play a central role in applications for statistics, signal processing theoretical computer science and related fields. These lectures present a sample of particularly useful tools of high-dimensional probability, focusing on the classical and matrix Bernstein's inequality and the uniform matrix deviation inequality. We illustrate these tools with applications for dimension reduction, network analysis, covariance estimation, matrix completion and sparse signal recovery. The lectures are geared towards beginning graduate students who have taken a rigorous course in probability but may not have any experience in data science applications.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cba118e59bcea766aa908729f2f721be39d01fc6",
+                "title": "Information-theoretic bounds and phase transitions in clustering, sparse PCA, and submatrix localization",
+                "year": 2016,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 75,
+                "reference_count": 53,
+                "abstract": "We study the problem of detecting a structured, low-rank signal matrix corrupted with additive Gaussian noise. This includes clustering in a Gaussian mixture model, sparse PCA, and submatrix localization. Each of these problems is conjectured to exhibit a sharp information-theoretic threshold, below which the signal is too weak for any algorithm to detect. We derive upper and lower bounds on these thresholds by applying the first and second moment methods to the likelihood ratio between these \u201cplanted models\u201d and null models where the signal matrix is zero. For sparse PCA and submatrix localization, we determine this threshold exactly in the limit where the number of blocks is large or the signal matrix is very sparse; for the clustering problem, our bounds differ by a factor \u221a2 when the number of clusters is large. Moreover, our upper bounds show that for each of these problems there is a significant regime where reliable detection is information-theoretically possible but where known algorithms such as PCA fail completely, since the spectrum of the observed matrix is uninformative. This regime is analogous to the conjectured \u2018hard but detectable\u2019 regime for community detection in sparse graphs.",
+                "authors": [
+                    {
+                        "s2_author_id": "152886846",
+                        "name": "Jessica E. Banks"
+                    },
+                    {
+                        "s2_author_id": "144869677",
+                        "name": "Cristopher Moore"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    },
+                    {
+                        "s2_author_id": "1905290",
+                        "name": "N. Verzelen"
+                    },
+                    {
+                        "s2_author_id": "2345322685",
+                        "name": "Jiaming Xu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fce19bc6b48dad17693ce0d4062451636fa73e23",
+                "title": "Norms of random matrices: local and global problems",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 21,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "12890978",
+                        "name": "E. Rebrova"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2a66d941b1b057ec293565ec9c57fdf5601cbf6e",
+                "title": "OPTIMIZATION VIA LOW-RANK APPROXIMATION FOR COMMUNITY DETECTION IN NETWORKS",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143808488",
+                        "name": "E. Levina"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6f87f7a80cdfca24abb1df8d3a4deeeec97817c6",
+                "title": "The Generalized Lasso With Non-Linear Observations",
+                "year": 2015,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 209,
+                "reference_count": 60,
+                "abstract": "We study the problem of signal estimation from non-linear observations when the signal belongs to a low-dimensional set buried in a high-dimensional space. A rough heuristic often used in practice postulates that the non-linear observations may be treated as noisy linear observations, and thus, the signal may be estimated using the generalized Lasso. This is appealing because of the abundance of efficient, specialized solvers for this program. Just as noise may be diminished by projecting onto the lower dimensional space, the error from modeling non-linear observations with linear observations will be greatly reduced when using the signal structure in the reconstruction. We allow general signal structure, only assuming that the signal belongs to some set K \u2282 Rn. We consider the single-index model of non-linearity. Our theory allows the non-linearity to be discontinuous, not one-to-one and even unknown. We assume a random Gaussian model for the measurement matrix, but allow the rows to have an unknown covariance matrix. As special cases of our results, we recover near-optimal theory for noisy linear observations, and also give the first theoretical accuracy guarantee for 1-b compressed sensing with unknown covariance matrix of the measurement vectors.",
+                "authors": [
+                    {
+                        "s2_author_id": "1800179",
+                        "name": "Y. Plan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a97bce18c8200b2c767982adfa8f3728fc29aeec",
+                "title": "On the effective measure of dimension in total variation minimization",
+                "year": 2015,
+                "venue": "International Conference on Sampling Theory and Applications",
+                "citation_count": 2,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2711839",
+                        "name": "R. Giryes"
+                    },
+                    {
+                        "s2_author_id": "1800179",
+                        "name": "Y. Plan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b8b0499a31147e2ca59cf29b8e77663cbdc62e28",
+                "title": "Concentration and regularization of random graphs",
+                "year": 2015,
+                "venue": "Random Struct. Algorithms",
+                "citation_count": 166,
+                "reference_count": 58,
+                "abstract": "This paper studies how close random graphs are typically to their expectations. We interpret this question through the concentration of the adjacency and Laplacian matrices in the spectral norm. We study inhomogeneous Erd\u00f6s\u2010R\u00e9nyi random graphs on n vertices, where edges form independently and possibly with different probabilities pij. Sparse random graphs whose expected degrees are o(logn) fail to concentrate; the obstruction is caused by vertices with abnormally high and low degrees. We show that concentration can be restored if we regularize the degrees of such vertices, and one can do this in various ways. As an example, let us reweight or remove enough edges to make all degrees bounded above by O(d) where d=maxnpij . Then we show that the resulting adjacency matrix A\u2032 concentrates with the optimal rate: ||A\u2032\u2212EA||=O(d) . Similarly, if we make all degrees bounded below by d by adding weight d / n to all edges, then the resulting Laplacian concentrates with the optimal rate: ||L(A\u2032)\u2212L(EA\u2032)||=O(1/d) . Our approach is based on Grothendieck\u2010Pietsch factorization, using which we construct a new decomposition of random graphs. We illustrate the concentration results with an application to the community detection problem in the analysis of networks. \u00a9 2017 Wiley Periodicals, Inc. Random Struct. Alg., 51, 538\u2013561, 2017",
+                "authors": [
+                    {
+                        "s2_author_id": "2322578",
+                        "name": "Can M. Le"
+                    },
+                    {
+                        "s2_author_id": "143808488",
+                        "name": "E. Levina"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d8c2fb0fd8ae9fba6e13e555f16f687f24e794bf",
+                "title": "No-gaps delocalization for general random matrices",
+                "year": 2015,
+                "venue": "Geometric and Functional Analysis",
+                "citation_count": 75,
+                "reference_count": 49,
+                "abstract": "We prove that with high probability, every eigenvector of a random matrix is delocalized in the sense that any subset of its coordinates carries a non-negligible portion of its \u21132\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${\\ell_2}$$\\end{document} norm. Our results pertain to a wide class of random matrices, including matrices with independent entries, symmetric and skew-symmetric matrices, as well as some other naturally arising ensembles. The matrices can be real and complex; in the latter case we assume that the real and imaginary parts of the entries are independent.",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "df32b5784076d70697d943e117a40addfd83d3d0",
+                "title": "Sparse random graphs: regularization and concentration of the Laplacian",
+                "year": 2015,
+                "venue": "arXiv.org",
+                "citation_count": 57,
+                "reference_count": 42,
+                "abstract": "Author(s): Le, Can M; Levina, Elizaveta; Vershynin, Roman | Abstract: We study random graphs with possibly different edge probabilities in the challenging sparse regime of bounded expected degrees. Unlike in the dense case, neither the graph adjacency matrix nor its Laplacian concentrate around their expectations due to the highly irregular distribution of node degrees. It has been empirically observed that simply adding a constant of order $1/n$ to each entry of the adjacency matrix substantially improves the behavior of Laplacian. Here we prove that this regularization indeed forces Laplacian to concentrate even in sparse graphs. As an immediate consequence in network analysis, we establish the validity of one of the simplest and fastest approaches to community detection -- regularized spectral clustering, under the stochastic block model. Our proof of concentration of regularized Laplacian is based on Grothendieck's inequality and factorization, combined with paving arguments.",
+                "authors": [
+                    {
+                        "s2_author_id": "2322578",
+                        "name": "Can M. Le"
+                    },
+                    {
+                        "s2_author_id": "143808488",
+                        "name": "E. Levina"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0888992a0ab9e24e809ea98fdc76f50fac1cf751",
+                "title": "On the Effective Measure of Dimension in the Analysis Cosparse Model",
+                "year": 2014,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 14,
+                "reference_count": 54,
+                "abstract": "Many applications have benefited remarkably from low-dimensional models in the recent decade. The fact that many signals, though high dimensional, are intrinsically low dimensional has given the possibility to recover them stably from a relatively small number of their measurements. For example, in compressed sensing with the standard (synthesis) sparsity prior and in matrix completion, the number of measurements needed is proportional (up to a logarithmic factor) to the signal's manifold dimension. Recently, a new natural low-dimensional signal model has been proposed: the cosparse analysis prior. In the noiseless case, it is possible to recover signals from this model, using a combinatorial search, from a number of measurements proportional to the signal's manifold dimension. However, if we ask for stability to noise or an efficient (polynomial complexity) solver, all the existing results demand a number of measurements, which is far removed from the manifold dimension, sometimes far greater. Thus, it is natural to ask whether this gap is a deficiency of the theory and the solvers, or if there exists a real barrier in recovering the cosparse signals by relying only on their manifold dimension. Is there an algorithm which, in the presence of noise, can accurately recover a cosparse signal from a number of measurements proportional to the manifold dimension? In this paper, we prove that there is no such algorithm. Furthermore, we show through the numerical simulations that even in the noiseless case convex relaxations fail when the number of measurements is comparable with the manifold dimension. This gives a practical counterexample to the growing literature on the compressed acquisition of signals based on manifold dimension.",
+                "authors": [
+                    {
+                        "s2_author_id": "2711839",
+                        "name": "R. Giryes"
+                    },
+                    {
+                        "s2_author_id": "1800179",
+                        "name": "Y. Plan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0be1a61e2a595a2558229c3de8d9c39ece224fa5",
+                "title": "Community detection in sparse networks via Grothendieck\u2019s inequality",
+                "year": 2014,
+                "venue": "Probability theory and related fields",
+                "citation_count": 215,
+                "reference_count": 80,
+                "abstract": "We present a simple and flexible method to prove consistency of semidefinite optimization problems on random graphs. The method is based on Grothendieck\u2019s inequality. Unlike the previous uses of this inequality that lead to constant relative accuracy, we achieve any given relative accuracy by leveraging randomness. We illustrate the method with the problem of community detection in sparse networks, those with bounded average degrees. We demonstrate that even in this regime, various simple and natural semidefinite programs can be used to recover the community structure up to an arbitrarily small fraction of misclassified vertices. The method is general; it can be applied to a variety of stochastic models of networks and semidefinite programs.",
+                "authors": [
+                    {
+                        "s2_author_id": "3166252",
+                        "name": "O. Gu\u00e9don"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3d1f18e1114f05485deefa7b89366278653c85ee",
+                "title": "High-dimensional estimation with geometric constraints",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 147,
+                "reference_count": 64,
+                "abstract": "Consider measuring an n-dimensional vector x through the inner product with several measurement vectors, a_1, a_2, ..., a_m. It is common in both signal processing and statistics to assume the linear response model y_i = + e_i, where e_i is a noise term. However, in practice the precise relationship between the signal x and the observations y_i may not follow the linear model, and in some cases it may not even be known. To address this challenge, in this paper we propose a general model where it is only assumed that each observation y_i may depend on a_i only through . We do not assume that the dependence is known. This is a form of the semiparametric single index model, and it includes the linear model as well as many forms of the generalized linear model as special cases. We further assume that the signal x has some structure, and we formulate this as a general assumption that x belongs to some known (but arbitrary) feasible set K. We carefully detail the benefit of using the signal structure to improve estimation. The theory is based on the mean width of K, a geometric parameter which can be used to understand its effective dimension in estimation problems. We determine a simple, efficient two-step procedure for estimating the signal based on this model -- a linear estimation followed by metric projection onto K. We give general conditions under which the estimator is minimax optimal up to a constant. This leads to the intriguing conclusion that in the high noise regime, an unknown non-linearity in the observations does not significantly reduce one's ability to determine the signal, even when the non-linearity may be non-invertible. Our results may be specialized to understand the effect of non-linearities in compressed sensing.",
+                "authors": [
+                    {
+                        "s2_author_id": "1800179",
+                        "name": "Y. Plan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    },
+                    {
+                        "s2_author_id": "1929695",
+                        "name": "E. Yudovina"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3df6643436e492cbe2f6d030b2ba63cd5c05c130",
+                "title": "Optimization via Low-rank Approximation, with Applications to Community Detection in Networks",
+                "year": 2014,
+                "venue": "arXiv.org",
+                "citation_count": 5,
+                "reference_count": 38,
+                "abstract": "Community detection is one of the fundamental problems of network analysis. A number of methods for community detection have been proposed, including spectral clustering, modularity, and likelihood-based methods. Most of these methods have to solve an optimization problem over a discrete set of labels, which is computationally infeasible. Some fast algorithms have been proposed for specific methods or models have been proposed, but only on a case by case basis. Here we propose a general approach for maximizing a function of a network adjacency matrix over discrete labels by projecting the set of labels onto a subspace spanned by leading eigenvectors of the adjacency matrix. The main idea is that projection onto a low-dimensional space makes the feasible set of labels much smaller and the optimization problem much easier. We prove a general result on this method and show how to apply it to several previously proposed community detection criteria, establishing its consistency for label estimation in each case. Simulations and applications to real-world data are included to demonstrate our method performs well for multiple problems over a wide range of parameters.",
+                "authors": [
+                    {
+                        "s2_author_id": "2322578",
+                        "name": "Can M. Le"
+                    },
+                    {
+                        "s2_author_id": "143808488",
+                        "name": "E. Levina"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "79db9877bd6f8aaa679e75e47a5ba898b94023b4",
+                "title": "Optimization via Low-rank Approximation for Community Detection in Networks",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 36,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2322578",
+                        "name": "Can M. Le"
+                    },
+                    {
+                        "s2_author_id": "143808488",
+                        "name": "E. Levina"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b5d55fe86d0a9936369fcd0407f6ab2a89c7e4fc",
+                "title": "Estimation in High Dimensions : a Geometric",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 81,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b765f27174f16e5e59bbe173d66ad16e21bd2a4b",
+                "title": "Estimation in High Dimensions: A Geometric Perspective",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 137,
+                "reference_count": 84,
+                "abstract": "This tutorial provides an exposition of a flexible geometric framework for high-dimensional estimation problems with constraints. The tutorial develops geometric intuition about high-dimensional sets, justifies it with some results of asymptotic convex geometry, and demonstrates connections between geometric results and estimation problems. The theory is illustrated with applications to sparse recovery, matrix completion, quantization, linear and logistic regression, and generalized linear models.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d6b0eaba2af17ba0f546c5a195844a2bd406d5f8",
+                "title": "Small Ball Probabilities for Linear Images of High-Dimensional Distributions",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 108,
+                "reference_count": 26,
+                "abstract": "Author(s): Rudelson, Mark; Vershynin, Roman | Abstract: We study concentration properties of random vectors of the form $AX$, where $X = (X_1, ..., X_n)$ has independent coordinates and $A$ is a given matrix. We show that the distribution of $AX$ is well spread in space whenever the distributions of $X_i$ are well spread on the line. Specifically, assume that the probability that $X_i$ falls in any given interval of length $T$ is at most $p$. Then the probability that $AX$ falls in any given ball of radius $T \\|A\\|_{HS}$ is at most $(Cp)^{0.9 r(A)}$, where $r(A)$ denotes the stable rank of $A$ and $C$ is an absolute constant.",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3f4ec4e24e3e13b30ee8528f709d29506467b62f",
+                "title": "Hanson-Wright inequality and sub-gaussian concentration",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 761,
+                "reference_count": 22,
+                "abstract": "In this expository note, we give a modern proof of Hanson-Wright inequality for quadratic forms in sub-gaussian random variables.We deduce a useful concentration inequality for sub-gaussian random vectors.Two examples are given to illustrate these results: a concentration of distances between random vectors and subspaces, and a bound on the norms of products of random and deterministic matrices.",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "997d4fe9afe91b2c21d1377cd531a6fa5167fb18",
+                "title": "Delocalization of eigenvectors of random matrices with independent entries",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 79,
+                "reference_count": 44,
+                "abstract": "Author(s): Rudelson, Mark; Vershynin, Roman | Abstract: We prove that an n by n random matrix G with independent entries is completely delocalized. Suppose the entries of G have zero means, variances uniformly bounded below, and a uniform tail decay of exponential type. Then with high probability all unit eigenvectors of G have all coordinates of magnitude O(n^{-1/2}), modulo logarithmic corrections. This comes a consequence of a new, geometric, approach to delocalization for random matrices.",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9af33304cd353c5a058c7c299cbcdcba0aba590a",
+                "title": "Dimension Reduction by Random Hyperplane Tessellations",
+                "year": 2013,
+                "venue": "Discrete & Computational Geometry",
+                "citation_count": 10,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1800179",
+                        "name": "Y. Plan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1a8e11d93160148031b9aad6306ca9fbd4c66fec",
+                "title": "Robust 1-bit Compressed Sensing and Sparse Logistic Regression: A Convex Programming Approach",
+                "year": 2012,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 467,
+                "reference_count": 38,
+                "abstract": "This paper develops theoretical results regarding noisy 1-bit compressed sensing and sparse binomial regression. We demonstrate that a single convex program gives an accurate estimate of the signal, or coefficient vector, for both of these models. We show that an -sparse signal in can be accurately estimated from m = O(s log(n/s)) single-bit measurements using a simple convex program. This remains true even if each measurement bit is flipped with probability nearly 1/2. Worst-case (adversarial) noise can also be accounted for, and uniform results that hold for all sparse inputs are derived as well. In the terminology of sparse logistic regression, we show that O (s log (2n/s)) Bernoulli trials are sufficient to estimate a coefficient vector in which is approximately -sparse. Moreover, the same convex program works for virtually all generalized linear models, in which the link function may be unknown. To our knowledge, these are the first results that tie together the theory of sparse logistic regression to 1-bit compressed sensing. Our results apply to general signal structures aside from sparsity; one only needs to know the size of the set where signals reside. The size is given by the mean width of K, a computable quantity whose square serves as a robust extension of the dimension.",
+                "authors": [
+                    {
+                        "s2_author_id": "1800179",
+                        "name": "Y. Plan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "32c2b2d8277c1e9e50582f11a2bced57d4b2fdac",
+                "title": "One-bit compressed sensing with non-Gaussian measurements",
+                "year": 2012,
+                "venue": "arXiv.org",
+                "citation_count": 142,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2064084188",
+                        "name": "Albert Ai"
+                    },
+                    {
+                        "s2_author_id": "1686498664",
+                        "name": "Alexander F. Lapanowski"
+                    },
+                    {
+                        "s2_author_id": "1800179",
+                        "name": "Y. Plan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c3d40b9ffa0da09f52c1e64edd284d7094734cfc",
+                "title": "Smoothed analysis of symmetric random matrices with continuous distributions",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 18,
+                "reference_count": 19,
+                "abstract": "We study invertibility of matrices of the form D + R, where D is an arbitrary symmetric deterministic matrix and is a symmetric random matrix whose independent entries have continuous distributions with bounded densities. We show that ||(D + R)^(-1)|| = O(n^2) with high probability. The bound is completely independent of D. No moment assumptions are placed on R; in particular the entries of R can be arbitrarily heavy-tailed.",
+                "authors": [
+                    {
+                        "s2_author_id": "144542422",
+                        "name": "Brendan Farrell"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cdfd85d4b043d5febab1f9b3cb67ae50555879dd",
+                "title": "Invertibility of random matrices: Unitary and orthogonal perturbations",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 45,
+                "reference_count": 27,
+                "abstract": "Author(s): Rudelson, Mark; Vershynin, Roman | Abstract: We show that a perturbation of any fixed square matrix D by a random unitary matrix is well invertible with high probability. A similar result holds for perturbations by random orthogonal matrices; the only notable exception is when D is close to orthogonal. As an application, these results completely eliminate a hard-to-check condition from the Single Ring Theorem by Guionnet, Krishnapur and Zeitouni.",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ead54f185feab5db50f16b8f3f61632ff4b8d61b",
+                "title": "Lectures in Geometric Functional Analysis",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 55,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "34a8ee0693e93e8b4bf1f606863ac64ac5242d93",
+                "title": "Dimension Reduction by Random Hyperplane Tessellations",
+                "year": 2011,
+                "venue": "Discrete & Computational Geometry",
+                "citation_count": 158,
+                "reference_count": 26,
+                "abstract": "Given a subset K of the unit Euclidean sphere, we estimate the minimal number m=m(K) of hyperplanes that generate a uniform tessellation of K, in the sense that the fraction of the hyperplanes separating any pair x,y\u2208K is nearly proportional to the Euclidean distance between x and y. Random hyperplanes prove to be almost ideal for this problem; they achieve the almost optimal bound m=O(w(K)2) where w(K) is the Gaussian mean width of K. Using the map that sends x\u2208K to the sign vector with respect to the hyperplanes, we conclude that every bounded subset K of $\\mathbb{R}^{n}$ embeds into the Hamming cube {\u22121,1}m with a small distortion in the Gromov\u2013Haussdorff metric. Since for many sets K one has m=m(K)\u226an, this yields a new discrete mechanism of dimension reduction for sets in Euclidean spaces.",
+                "authors": [
+                    {
+                        "s2_author_id": "1800179",
+                        "name": "Y. Plan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "35bcd3dce9d2a4522e2db38f0cf0ee155f962758",
+                "title": "Random Matrices: Invertibility, Structure, and Applications",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4257c82009e306d77651c23676a50862f118114f",
+                "title": "Partial estimation of covariance matrices",
+                "year": 2011,
+                "venue": "Probability theory and related fields",
+                "citation_count": 0,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143808488",
+                        "name": "E. Levina"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5caa56229e5de4efd3756903ea6d204e4b0947c1",
+                "title": "Invertibility of symmetric random matrices",
+                "year": 2011,
+                "venue": "Random Struct. Algorithms",
+                "citation_count": 127,
+                "reference_count": 27,
+                "abstract": "We study n\u00d7n symmetric random matrices H, possibly discrete, with iid above\u2010diagonal entries. We show that H is singular with probability at most exp(\u2212nc) , and ||H\u22121||=O(n) . Furthermore, the spectrum of H is delocalized on the optimal scale o(n\u22121/2) . These results improve upon a polynomial singularity bound due to Costello, Tao and Vu, and they generalize, up to constant factors, results of Tao and Vu, and Erd\u00f6s, Schlein and Yau.Copyright \u00a9 2012 Wiley Periodicals, Inc. Random Struct. Alg., 44, 135\u2010182, 2014",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "781858d58e7b44907083985bca539b4acc609b85",
+                "title": "How Close is the Sample Covariance Matrix to the Actual Covariance Matrix?",
+                "year": 2011,
+                "venue": "Journal of theoretical probability",
+                "citation_count": 0,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c6e39903e53613217778fb0e52aa1bc958c4327b",
+                "title": "Covariance estimation for distributions with 2+\u03b5 moments",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 122,
+                "reference_count": 24,
+                "abstract": "We study the minimal sample size N=N(n) that suffices to estimate the covariance matrix of an n-dimensional distribution by the sample covariance matrix in the operator norm, with an arbitrary fixed accuracy. We establish the optimal bound N=O(n) for every distribution whose k-dimensional marginals have uniformly bounded 2+e moments outside the sphere of radius O(k\u221a). In the specific case of log-concave distributions, this result provides an alternative approach to the Kannan\u2013Lovasz\u2013Simonovits problem, which was recently solved by Adamczak et al. [J. Amer. Math. Soc. 23 (2010) 535\u2013561]. Moreover, a lower estimate on the covariance matrix holds under a weaker assumption\u2014uniformly bounded 2+e moments of one-dimensional marginals. Our argument consists of randomizing the spectral sparsifier, a deterministic tool developed recently by Batson, Spielman and Srivastava [SIAM J. Comput. 41 (2012) 1704\u20131721]. The new randomized method allows one to control the spectral edges of the sample covariance matrix via the Stieltjes transform evaluated at carefully chosen random points.",
+                "authors": [
+                    {
+                        "s2_author_id": "48640590",
+                        "name": "N. Srivastava"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ff50175f5419540c272de78334c04b22f8e4b6f8",
+                "title": "One\u2010Bit Compressed Sensing by Linear Programming",
+                "year": 2011,
+                "venue": "arXiv.org",
+                "citation_count": 432,
+                "reference_count": 31,
+                "abstract": "We give the first computationally tractable and almost optimal solution to the problem of one\u2010bit compressed sensing, showing how to accurately recover an s\u2010sparse vector \\input amssym $x \\in {\\Bbb R}^n$ from the signs of $O(s \\log^2(n/s))$ random linear measurements of x. The recovery is achieved by a simple linear program. This result extends to approximately sparse vectors x. Our result is universal in the sense that with high probability, one measurement scheme will successfully recover all sparse vectors simultaneously. The argument is based on solving an equivalent geometric problem on random hyperplane tessellations.",
+                "authors": [
+                    {
+                        "s2_author_id": "1800179",
+                        "name": "Y. Plan"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "098f4ed22340ec7703ca0c8e4c7ca2232f90a3ed",
+                "title": "Non-asymptotic theory of random matrices: extreme singular values",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 434,
+                "reference_count": 107,
+                "abstract": "The classical random matrix theory is mostly focused on asymptotic spectral properties of random matrices as their dimensions grow to infinity. At the same time many recent applications from convex geometry to functional analysis to information theory operate with random matrices in fixed dimensions. This survey addresses the non-asymptotic theory of extreme singular values of random matrices with independent entries. We focus on recently developed geometric methods for estimating the hard edge of random matrices (the smallest singular value).",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4406c54f40e0f73db2180704d454951649df32f2",
+                "title": "Introduction to the non-asymptotic analysis of random matrices",
+                "year": 2010,
+                "venue": "Compressed Sensing",
+                "citation_count": 3053,
+                "reference_count": 105,
+                "abstract": "This is a tutorial on some basic non-asymptotic methods and concepts in random matrix theory. The reader will learn several tools for the analysis of the extreme singular values of random matrices with independent rows or columns. Many of these methods sprung off from the development of geometric functional analysis since the 1970's. They have applications in several fields, most notably in theoretical computer science, statistics and signal processing. A few basic applications are covered in this text, particularly for the problem of estimating covariance matrices in statistics and for validating probabilistic constructions of measurement matrices in compressed sensing. These notes are written particularly for graduate students and beginning researchers in different areas, including functional analysts, probabilists, theoretical statisticians, electrical engineers, and theoretical computer scientists.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "513adfbf7cde699fd20738727ace8d75728c78d6",
+                "title": "Partial estimation of covariance matrices",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 42,
+                "reference_count": 23,
+                "abstract": "A classical approach to accurately estimating the covariance matrix \u03a3 of a p-variate normal distribution is to draw a sample of size n > p and form a sample covariance matrix. However, many modern applications operate with much smaller sample sizes, thus calling for estimation guarantees in the regime $${n \\ll p}$$. We show that a sample of size n = O(m log6p) is sufficient to accurately estimate in operator norm an arbitrary symmetric part of \u03a3 consisting of m \u2264 n nonzero entries per row. This follows from a general result on estimating Hadamard products M \u00b7 \u03a3, where M is an arbitrary symmetric matrix.",
+                "authors": [
+                    {
+                        "s2_author_id": "143808488",
+                        "name": "E. Levina"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "66e93ac2e955d8460dc0806af53fce15e501f1df",
+                "title": "How Close is the Sample Covariance Matrix to\u00a0the\u00a0Actual Covariance Matrix?",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 300,
+                "reference_count": 37,
+                "abstract": "Given a probability distribution in \u211dn with general (nonwhite) covariance, a classical estimator of the covariance matrix is the sample covariance matrix obtained from a sample of N independent points. What is the optimal sample size N=N(n) that guarantees estimation with a fixed accuracy in the operator norm? Suppose that the distribution is supported in a centered Euclidean ball of radius $O(\\sqrt{n})$. We conjecture that the optimal sample size is N=O(n) for all distributions with finite fourth moment, and we prove this up to an iterated logarithmic factor. This problem is motivated by the optimal theorem of Rudelson (J. Funct. Anal. 164:60\u201372, 1999), which states that N=O(nlog\u2009n) for distributions with finite second moment, and a recent result of Adamczak et al. (J. Am. Math. Soc. 234:535\u2013561, 2010), which guarantees that N=O(n) for subexponential distributions.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a373912847b4d7f5a07c36f9ec963578f3dbab7b",
+                "title": "Signal Recovery from Inaccurate and Incomplete Measurements via Regularized Orthogonal Matching Pursuit",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 74,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8256323",
+                        "name": "D. Needell"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0333ea8c33cb497980a0ef4ad7ed5b421971fd45",
+                "title": "On the role of sparsity in Compressed Sensing and random matrix theory",
+                "year": 2009,
+                "venue": "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing",
+                "citation_count": 25,
+                "reference_count": 13,
+                "abstract": "We discuss applications of some concepts of Compressed Sensing in the recent work on invertibility of random matrices due to Rudelson and the author. We sketch an argument leading to the optimal bound \u03a9(N{su\u2212\u008d) on the median of the smallest singular value of an N \u00d7 N matrix with random independent entries. We highlight the parts of the argument where sparsity ideas played a key role.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "394e44779e72e978ae8ada081598f5ce68be5c2f",
+                "title": "Signal Recovery with Regularized OMP",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8256323",
+                        "name": "D. Needell"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d2a362419a4e3706a3b773f56a8a81d2d9a9b457",
+                "title": "Approximating the moments of marginals of high-dimensional distributions",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 21,
+                "reference_count": 21,
+                "abstract": "For probability distributions on $\\mathbb{R}^n$, we study the optimal sample size N = N(n,p) that suffices to uniformly approximate the pth moments of all one-dimensional marginals. Under the assumption that the marginals have bounded 4p moments, we obtain the optimal bound $N=O(n^{p/2})$ for p > 2. This bound goes in the direction of bridging the two recent results: a theorem of Guedon and Rudelson [Adv. Math. 208 (2007) 798-823] which has an extra logarithmic factor in the sample size, and a result of Adamczak et al. [J. Amer. Math. Soc. 23 (2010) 535-561] which requires stronger subexponential moment assumptions.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e29ab3f9619c36e65c8423eec707fc27548c121d",
+                "title": "Comments on the Randomized Kaczmarz Method",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 37,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1794778",
+                        "name": "T. Strohmer"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e77e907fdd4d16b5abc3e5e0b46174d4df7bbb65",
+                "title": "Smallest singular value of a random rectangular matrix",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 56,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05fd112b31b358135788c669a0f064d4e15f1ba7",
+                "title": "On sparse reconstruction from Fourier and Gaussian measurements",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 885,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "10b6e8196cfc8e2b470104b0a86008836d93d26b",
+                "title": "The least singular value of a random square matrix is O(n\u22121/2)",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 63,
+                "reference_count": 5,
+                "abstract": "Abstract Let A be a matrix whose entries are real i.i.d. centered random variables with unit variance and suitable moment assumptions. Then the smallest singular value s n ( A ) is of order n \u2212 1 / 2 with high probability. The lower estimate of this type was proved recently by the authors; in this Note we establish the matching upper estimate. To cite this article: M. Rudelson, R. Vershynin, C. R. Acad. Sci. Paris, Ser. I 346 (2008).",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5bcb1fcf2004b6994e7a8068aa2aead8a55596fd",
+                "title": "The smallest singular value of a random rectangular matrix",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 389,
+                "reference_count": 29,
+                "abstract": "We prove an optimal estimate on the smallest singular value of a random subgaussian matrix, valid for all fixed dimensions. For an N by n matrix A with independent and identically distributed subgaussian entries, the smallest singular value of A is at least of the order \\sqrt{N} - \\sqrt{n-1} with high probability. A sharp estimate on the probability is also obtained.",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "800d2f87dc23dab91ca3a8145e13ef7ef3efc62b",
+                "title": "Spectral norm of products of random and deterministic matrices",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 82,
+                "reference_count": 40,
+                "abstract": "We study the spectral norm of matrices W that can be factored as W\u00a0=\u00a0BA, where A is a random matrix with independent mean zero entries and B is a fixed matrix. Under the (4\u00a0+\u00a0\u03b5)th moment assumption on the entries of A, we show that the spectral norm of such an m \u00d7 n matrix W is bounded by $${\\sqrt{m} + \\sqrt{n}}$$, which is sharp. In other words, in regard to the spectral norm, products of random and deterministic matrices behave similarly to random matrices with independent entries. This result along with the previous work of Rudelson and the author implies that the smallest singular value of a random m \u00d7 n matrix with i.i.d. mean zero entries and bounded (4\u00a0+\u00a0\u03b5)th moment is bounded below by $${\\sqrt{m} - \\sqrt{n-1}}$$ with high probability.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c8c4c920a39c20bf96ea8f943abada2f6fd93465",
+                "title": "Greedy signal recovery and uncertainty principles",
+                "year": 2008,
+                "venue": "Electronic imaging",
+                "citation_count": 38,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8256323",
+                        "name": "D. Needell"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e2b734867709323f3bf6a8c3c9f1967af26d1ac8",
+                "title": "Greedy signal recovery review",
+                "year": 2008,
+                "venue": "Asilomar Conference on Signals, Systems and Computers",
+                "citation_count": 100,
+                "reference_count": 13,
+                "abstract": "The two major approaches to sparse recovery are L1-minimization and greedy methods. Recently, Needell and Vershynin developed regularized orthogonal matching pursuit (ROMP) that has bridged the gap between these two approaches. ROMP is the first stable greedy algorithm providing uniform guarantees. Even more recently, Needell and Tropp developed the stable greedy algorithm compressive sampling matching pursuit (CoSaMP). CoSaMP provides uniform guarantees and improves upon the stability bounds and RIC requirements of ROMP. CoSaMP offers rigorous bounds on computational cost and storage. In many cases, the running time is just O(N log N), where N is the ambient dimension of the signal. This review summarizes these major advances.",
+                "authors": [
+                    {
+                        "s2_author_id": "8256323",
+                        "name": "D. Needell"
+                    },
+                    {
+                        "s2_author_id": "1788107",
+                        "name": "J. Tropp"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2468bde11dabd634e576201ac298ffe6862e1560",
+                "title": "Non-Asymptotic Theory of Random Matrices Lecture 17 : Invertibility of Subgaussian Matrices",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    },
+                    {
+                        "s2_author_id": "2307503375",
+                        "name": "Yuting Yang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2ec824d7f47b95d241897c08d4106b1f9937460e",
+                "title": "The Littlewood-Offord problem and invertibility of random matrices",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 447,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f3de80819d1981c6a9f5e3c8ec1d48a8c109499",
+                "title": "One sketch for all: fast algorithms for compressed sensing",
+                "year": 2007,
+                "venue": "Symposium on the Theory of Computing",
+                "citation_count": 313,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1795861",
+                        "name": "A. Gilbert"
+                    },
+                    {
+                        "s2_author_id": "145542622",
+                        "name": "M. Strauss"
+                    },
+                    {
+                        "s2_author_id": "1788107",
+                        "name": "J. Tropp"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5ecb70d027d033f28383f31832b19ada3d6623fd",
+                "title": "Signal recovery from incomplete and inaccurate measurements via ROMP",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 20,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8256323",
+                        "name": "D. Needell"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a7e38b0c221a257b658b13fe55f2deac7f1e36f5",
+                "title": "Some problems in asymptotic convex geometry and random matrices motivated by numerical algorithms",
+                "year": 2007,
+                "venue": "arXiv.org",
+                "citation_count": 5,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bb47a22f9b946edd0bd2b1352ca284d4d347c777",
+                "title": "Signal Recovery From Incomplete and Inaccurate Measurements Via Regularized Orthogonal Matching Pursuit",
+                "year": 2007,
+                "venue": "IEEE Journal on Selected Topics in Signal Processing",
+                "citation_count": 946,
+                "reference_count": 29,
+                "abstract": "We demonstrate a simple greedy algorithm that can reliably recover a vector <i>v</i> \u00bf \u00bf<sup>d</sup> from incomplete and inaccurate measurements <i>x</i> = \u00bf<i>v</i> + <i>e</i>. Here, \u00bf is a <i>N</i> x <i>d</i> measurement matrix with <i>N</i><<d, and <i>e</i> is an error vector. Our algorithm, Regularized Orthogonal Matching Pursuit (ROMP), seeks to provide the benefits of the two major approaches to sparse recovery. It combines the speed and ease of implementation of the greedy methods with the strong guarantees of the convex programming methods. For any measurement matrix \u00bf that satisfies a quantitative restricted isometry principle, ROMP recovers a signal <i>v</i> with <i>O</i>(<i>n</i>) nonzeros from its inaccurate measurements <i>x</i> in at most <i>n</i> iterations, where each iteration amounts to solving a least squares problem. The noise level of the recovery is proportional to \u00bf{log<i>n</i>} ||<i>e</i>||<sub>2</sub>. In particular, if the error term <i>e</i> vanishes the reconstruction is exact.",
+                "authors": [
+                    {
+                        "s2_author_id": "8256323",
+                        "name": "D. Needell"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c3202b02019967402df364d08b13cb0afdd4fc77",
+                "title": "Uniform Uncertainty Principle and Signal Recovery via\u00a0Regularized Orthogonal Matching Pursuit",
+                "year": 2007,
+                "venue": "Foundations of Computational Mathematics",
+                "citation_count": 1027,
+                "reference_count": 25,
+                "abstract": "This paper seeks to bridge the two major algorithmic approaches to sparse signal recovery from an incomplete set of linear measurements\u2014L1-minimization methods and iterative methods (Matching Pursuits). We find a simple regularized version of Orthogonal Matching Pursuit (ROMP) which has advantages of both approaches: the speed and transparency of OMP and the strong uniform guarantees of L1-minimization. Our algorithm, ROMP, reconstructs a sparse signal in a number of iterations linear in the sparsity, and the reconstruction is exact provided the linear measurements satisfy the uniform uncertainty principle.",
+                "authors": [
+                    {
+                        "s2_author_id": "8256323",
+                        "name": "D. Needell"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1dec61ee1ede486aaef15ef3f52e5ecea555113",
+                "title": "ANALYSIS OF RANDOM MEASUREMENTS COMMENTARY AND BIBLIOGRAPHY FOR THE IPAM SHORT COURSE",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e27deb141ce979206d67ea2be2b9aacd9128a96a",
+                "title": "Non-Asymptotic Theory of Random Matrices Lecture 18: Strong invertibility of subgaussian matrices and Small ball probability via arithmetic progression",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    },
+                    {
+                        "s2_author_id": "2391697",
+                        "name": "Y. Nakatsukasa"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e36b12155b8b5e6209e857f79a1821ffe3cddd1f",
+                "title": "A Randomized Kaczmarz Algorithm with Exponential Convergence",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 959,
+                "reference_count": 43,
+                "abstract": "The Kaczmarz method for solving linear systems of equations is an iterative algorithm that has found many applications ranging from computer tomography to digital signal processing. Despite the popularity of this method, useful theoretical estimates for its rate of convergence are still scarce. We introduce a randomized version of the Kaczmarz method for consistent, overdetermined linear systems and we prove that it converges with expected exponential rate. Furthermore, this is the first solver whose rate does not depend on the number of equations in the system. The solver does not even need to know the whole system but only a small random part of it. It thus outperforms all previously known methods on general extremely overdetermined systems. Even for moderately overdetermined systems, numerical simulations as well as theoretical analysis reveal that our algorithm can converge faster than the celebrated conjugate gradient algorithm. Furthermore, our theory and numerical simulations confirm a prediction of Feichtinger et al. in the context of reconstructing bandlimited functions from nonuniform sampling.",
+                "authors": [
+                    {
+                        "s2_author_id": "1794778",
+                        "name": "T. Strohmer"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0145d1dc17c86f3cc727c8af022d73eddc2029d1",
+                "title": "Beyond Hirsch Conjecture: Walks on Random Polytopes and Smoothed Complexity of the Simplex Method",
+                "year": 2006,
+                "venue": "IEEE Annual Symposium on Foundations of Computer Science",
+                "citation_count": 88,
+                "reference_count": 16,
+                "abstract": "Spielman and Teng proved that the shadow-vertex simplex method had polynomial smoothed complexity. On a slight random perturbation of arbitrary linear program, the simplex method finds the solution after a walk on the feasible polytope(s) with expected length polynomial in the number of constraints n, the number of variables d and the inverse standard deviation of the perturbation 1/sigma. We show that the length of walk is actually polylogarithmic in the number of constraints n. We thus improve Spielman-Teng's bound on the walk O*(n86d 55sigma-30) to O(max(d5log2n, d9 log4d, d 3sigma-4)). This in particular shows that the tight Hirsch conjecture n - d on the diameter of polytopes is not a limitation for the smoothed linear programming. Random perturbations create short paths between vertices. We propose a randomized phase-I for solving arbitrary linear programs. Instead of finding a vertex of a feasible set, we add a vertex at random to the feasible set. This does not affect the solution of the linear program with constant probability. So, in expectation it takes a constant number of independent trials until a correct solution is found. This overcomes one of the major difficulties of smoothed analysis of the simplex method - one can now statistically decouple the walk from the smoothed linear program. This yields a much better reduction of the smoothed complexity to a geometric quantity - the size of planar sections of random polytopes. We also improve upon the known estimates for that size",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3e1de13dbee0309ec14fb697f0d3467b697b59ac",
+                "title": "A Randomized Solver for Linear Systems with Exponential Convergence",
+                "year": 2006,
+                "venue": "International Workshop and International Workshop on Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques",
+                "citation_count": 59,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1794778",
+                        "name": "T. Strohmer"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5e38a34e22e5316947351b1c587d3f594f2d591e",
+                "title": "Sublinear approximation of signals",
+                "year": 2006,
+                "venue": "SPIE Defense + Commercial Sensing",
+                "citation_count": 5,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1795861",
+                        "name": "A. Gilbert"
+                    },
+                    {
+                        "s2_author_id": "145542622",
+                        "name": "M. Strauss"
+                    },
+                    {
+                        "s2_author_id": "1788107",
+                        "name": "J. Tropp"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "79e46fd4c7dc7b7c4e62be711282cbcd31ad59cd",
+                "title": "Non-Asymptotic Theory of Random Matrices Lecture 15: Invertibility of Square Gaussian Matrices, Sparse Vectors",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    },
+                    {
+                        "s2_author_id": "144542422",
+                        "name": "Brendan Farrell"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "81a36e3f350d5d721fbe94e2a4a38f2a976f3e0e",
+                "title": "Random sets of isomorphism of linear operators on Hilbert space",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 10,
+                "reference_count": 12,
+                "abstract": "This note deals with a problem of the probabilistic Ramsey theory in functional analysis. Given a linear operator T on a Hilbert space with an orthogonal basis, we deflne the isomorphic structure \u00a7(T) as the family of all subsets of the basis so that T restricted to their span is a nice isomorphism. Our main result is a dimension-free optimal estimate of the size of \u00a7(T). It improves and extends in several ways the principle of restricted invertibility due to Bourgain and Tzafriri. With an appropriate notion of randomness, we obtain a randomized principle of restricted invertibility.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b70151017955f66aee8cef6880f5f246e4ec39fb",
+                "title": "Sparse reconstruction by convex relaxation: Fourier and Gaussian measurements",
+                "year": 2006,
+                "venue": "Annual Conference on Information Sciences and Systems",
+                "citation_count": 275,
+                "reference_count": 30,
+                "abstract": "This paper proves best known guarantees for exact reconstruction of a sparse signal f from few non-adaptive universal linear measurements. We consider Fourier measurements (random sample of frequencies of f) and random Gaussian measurements. The method for reconstruction that has recently gained momentum in the sparse approximation theory is to relax this highly non-convex problem to a convex problem, and then solve it as a linear program. What are best guarantees for the reconstruction problem to be equivalent to its convex relaxation is an open question. Recent work shows that the number of measurements k(r,n) needed to exactly reconstruct any r-sparse signal f of length n from its linear measurements with convex relaxation is usually O(r poly log (n)). However, known guarantees involve huge constants, in spite of very good performance of the algorithms in practice. In attempt to reconcile theory with practice, we prove the first guarantees for universal measurements (i.e. which work for all sparse functions) with reasonable constants. For Gaussian measurements, k(r,n) lsim 11.7 r [1.5 + log(n/r)], which is optimal up to constants. For Fourier measurements, we prove the best known bound k(r, n) = O(r log(n) middot log2(r) log(r log n)), which is optimal within the log log n and log3 r factors. Our arguments are based on the technique of geometric functional analysis and probability in Banach spaces.",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c4dc3e0e03f5d2002aa8750e6e0da0cf6ba9fec1",
+                "title": "Uncertainty Principles and Vector Quantization",
+                "year": 2006,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 101,
+                "reference_count": 59,
+                "abstract": "Given a frame in Cn which satisfies a form of the uncertainty principle (as introduced by Candes and Tao), it is shown how to quickly convert the frame representation of every vector into a more robust Kashin's representation whose coefficients all have the smallest possible dynamic range O(1/ \u221a(n). The information tends to spread evenly among these coefficients. As a consequence, Kashin's representations have a great power for reduction of errors in their coefficients, including coefficient losses and distortions.",
+                "authors": [
+                    {
+                        "s2_author_id": "2394745",
+                        "name": "Yurii Lyubarskii"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04c89a05810eb787476ac3039bb23582eba100f9",
+                "title": "Error correction via linear programming",
+                "year": 2005,
+                "venue": "IEEE Annual Symposium on Foundations of Computer Science",
+                "citation_count": 302,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2006869",
+                        "name": "E. Cand\u00e8s"
+                    },
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "2056233969",
+                        "name": "Terence Tao"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1a04360d5c09c3e2f368d1c7940a05191c00db03",
+                "title": "Sampling from large matrices: An approach through geometric functional analysis",
+                "year": 2005,
+                "venue": "JACM",
+                "citation_count": 399,
+                "reference_count": 35,
+                "abstract": "We study random submatrices of a large matrix <i>A</i>. We show how to approximately compute <i>A</i> from its random submatrix of the smallest possible size <i>O</i>(<i>r</i>log <i>r</i>) with a small error in the spectral norm, where <i>r</i> = \u2016<i>A</i>\u2016<sup>2</sup><sub><i>F</i></sub>/\u2016<i>A</i>\u2016<sup>2</sup><sub>2</sub> is the numerical rank of <i>A</i>. The numerical rank is always bounded by, and is a stable relaxation of, the rank of <i>A</i>. This yields an asymptotically optimal guarantee in an algorithm for computing <i>low-rank approximations</i> of <i>A</i>. We also prove asymptotically optimal estimates on the <i>spectral norm</i> and the <i>cut-norm</i> of random submatrices of <i>A</i>. The result for the cut-norm yields a slight improvement on the best-known sample complexity for an approximation algorithm for MAX-2CSP problems. We use methods of Probability in Banach spaces, in particular the law of large numbers for operator-valued random variables.",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5a58d0e3778f11551b1f68f0431008e57aaf49dd",
+                "title": "Euclidean embeddings in spaces of finite volume ratio via random matrices",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 24,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32732778",
+                        "name": "A. Litvak"
+                    },
+                    {
+                        "s2_author_id": "50169629",
+                        "name": "A. Pajor"
+                    },
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1401955808",
+                        "name": "N. Tomczak-Jaegermann"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e537d9fa46b32dbe8a4b5f53d15e186bff07df72",
+                "title": "Geometric approach to error-correcting codes and reconstruction of signals",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 189,
+                "reference_count": 52,
+                "abstract": "The results of this paper can be stated in three equivalent ways\u2014in terms of the sparse recovery problem, the error-correction problem, and the problem of existence of certain extremal (neighborly) polytopes. Error-correcting codes are used in modern technology to protect information from errors. Information is formed by finite words over some alphabet F. The encoder transforms an n-letter word x into an m-letter word y with m>n . The decoder must be able to recover x correctly when up to r letters of y are corrupted in any way. Such an encoder-decoder pair is called an (n, m, r)-error-correcting code. Development of algorithmically efficient error correcting codes has attracted attention of engineers, computer scientists, and applied mathematicians for the past five decades. Known constructions involve deep algebraic and combinatorial methods, see [34, 35, 36]. This paper develops an approach to error-correcting codes from the viewpoint of geometric functional analysis (asymptotic convex geometry). It thus belongs to a common ground of coding theory, signal processing, combinatorial geometry, and geometric functional analysis. Our argument, outlined in Section 3, may be of independent interest in geometric functional analysis. Our main focus will be on words over the alphabet F = R or C. In applications, these words may be formed of the coefficients of some signal (such as image or audio)",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0b06abd32d3b7c3de6843c14ed0e1c263b3aa302",
+                "title": "Small ball probability and Dvoretzky\u2019s Theorem",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 58,
+                "reference_count": 23,
+                "abstract": "Large deviation estimates are by now a standard tool in Asymptotic Convex Geometry, contrary to small deviation results. In this note we present a novel application of a small deviations inequality to a problem that is related to the diameters of random sections of high dimensional convex bodies. Our results imply an unexpected distinction between the lower and upper inclusions in Dvoretzky\u2019s Theorem.",
+                "authors": [
+                    {
+                        "s2_author_id": "40929866",
+                        "name": "B. Klartag"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "18bd2d38aaf49430dc67ec3c274812d55df306d3",
+                "title": "Random processes via the combinatorial dimension: introductory notes",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 9,
+                "abstract": "Author(s): Rudelson, Mark; Vershynin, Roman | Abstract: This is an informal discussion on one of the basic problems in the theory of empirical processes, addressed in our preprint \"Combinatorics of random processes and sections of convex bodies\", which is available at ArXiV and from our web pages.",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2fd165171d54f249057642e50e9b135d198ff4aa",
+                "title": "Frame expansions with erasures: an approach through the non-commutative operator theory",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 25,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4c7625233fdd65ca0dbd491d7fe108b1d1b0e54c",
+                "title": "On random intersections of two convex bodies. Appendix to: \"Isoperimetry of waists and local versus global asymptotic convex geometries\" by R.Vershynin",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 1,
+                "abstract": "Author(s): Rudelson, Mark; Vershynin, Roman | Abstract: In the paper \"Isoperimetry of waists and local versus global asymptotic convex geometries\", it was proved that the existence of nicely bounded sections of two symmetric convex bodies K and L implies that the intersection of randomly rotated K and L is nicely bounded. In this appendix, we achieve a polynomial bound on the diameter of that intersection (in the ratio of the dimensions of the sections).",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "65f43eb630576220f70c7361721399887107e2e0",
+                "title": "Isoperimetry of waists and local versus global asymptotic convex geometries",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 18,
+                "abstract": "Existence of nicely bounded sections of two symmetric convex bodies K and L implies\n that the intersection of random rotations of K and L is nicely bounded. For L = subspace,\n this main result immediately yields the unexpected phenomenon: \"If K has one nicely bounded\n section, then most sections of K are nicely bounded\". This 'existence implies randomness'\n consequence was proved independently in [Giannopoulos, Milman and Tsolomitis]. The main\n result represents a new connection between the local asymptotic convex geometry (study of\n sections of convex bodies) and the global asymptotic convex geometry (study of convex\n bodies as a whole). The method relies on the new 'isoperimetry of waists' on the sphere due\n to Gromov.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "81ef7a946f783df2e362be575aa6998e17048b51",
+                "title": "Random Euclidean embeddings in spaces of bounded volume ratio",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 22,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32732778",
+                        "name": "A. Litvak"
+                    },
+                    {
+                        "s2_author_id": "50169629",
+                        "name": "A. Pajor"
+                    },
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1401955808",
+                        "name": "N. Tomczak-Jaegermann"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8edaca0d4776a4f3f54881ebfb1b0c5ed5c2e037",
+                "title": "Frames and the Feichtinger conjecture",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 102,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1797431",
+                        "name": "P. Casazza"
+                    },
+                    {
+                        "s2_author_id": "144382659",
+                        "name": "O. Christensen"
+                    },
+                    {
+                        "s2_author_id": "46787454",
+                        "name": "A. Lindner"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a559b76132e371641b96063b92dc4a5ef39bc3aa",
+                "title": "2 2 Ju n 20 03 Remarks on the Geometry of Coordinate Projections in",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2266267",
+                        "name": "S. Mendelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d621b144fa4bf62d0bfe8f6b4f290605b4da1bb9",
+                "title": "Integer cells in convex sets",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 76,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fed5c08e85992f77a68d55aade3229cde68e586d",
+                "title": "Combinatorics of random processes and sections of convex bodies",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 65,
+                "reference_count": 46,
+                "abstract": "We find a sharp combinatorial bound for the metric entropy of sets in R n and general classes of functions. This solves two basic combinatorial conjectures on the empirical processes. 1. A class of functions satisfies the uniform Central Limit Theorem if the square root of its combinatorial dimension is integrable. 2. The uniform entropy is equivalent to the combinatorial dimension under minimal regularity. Our method also constructs a nicely bounded coordinate section of a symmetric convex body in R n . In the operator theory, this essentially proves for all normed spaces the restricted invertibility principle of Bourgain and Tzafriri.",
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4935f99f5c4a802a8d176f36d01a6eb48b5cb1ee",
+                "title": "Maximal $ \u2113 p n $$\\ell_p^n$-Structures in Spaces with Extremal Parameters",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3093789",
+                        "name": "G. Schechtman"
+                    },
+                    {
+                        "s2_author_id": "1401955808",
+                        "name": "N. Tomczak-Jaegermann"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "793dcd30cdf61a66b618d430ab87010172e7788d",
+                "title": "Remarks on the geometry of coordinate projections in \u211dn",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 29,
+                "abstract": "We study geometric properties of coordinate projections. Among other results, we show that if a bodyK\u2282\u211dn has an \u201calmost extremal\u201d volume ratio, then it has a projection of proportional dimension which is close to the cube. We also establish a sharp estimate on the shattering dimension of the convex hull of a class of functions in terms of the shattering dimension of the class itself.",
+                "authors": [
+                    {
+                        "s2_author_id": "2266267",
+                        "name": "S. Mendelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c0d01e263ab72fb07d55bb9e659b0defbd3ffe0e",
+                "title": "Approximation of matrices",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "373ae5ceaf1e1c6fe0339a36258a6522fa615bdc",
+                "title": "Entropy, dimension and the Elton-Pajor Theorem",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 20,
+                "abstract": "Author(s): Mendelson, S; Vershynin, R | Abstract: The Vapnik-Chervonenkis dimension of a set K in R^n is the maximal dimension of the coordinate cube of a given size, which can be found in coordinate projections of K. We show that the VC dimension of a convex body governs its entropy. This has a number of consequences, including the optimal Elton's theorem and a uniform central limit theorem in the real valued case.",
+                "authors": [
+                    {
+                        "s2_author_id": "2266267",
+                        "name": "S. Mendelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "561e27dbbdef7203fb381f4fa4c3ca42ab1e26e9",
+                "title": "Gafa Geometric and Functional Analysis Embedding Levy Families into Banach Spaces",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "67a8e9ff851abe3843c203aa9c1c772c7f57e215",
+                "title": "Entropy, Combinatorial Dimensions and Random Averages",
+                "year": 2002,
+                "venue": "Annual Conference Computational Learning Theory",
+                "citation_count": 10,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2266267",
+                        "name": "S. Mendelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d5109c8c3c55c84414109838f4423e7c4b273821",
+                "title": "Embedding Levy families into Banach spaces\n",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1777131",
+                        "name": "M. Rudelson"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f3e549e2f72fec1fc00ae84f06689c92fb84c04a",
+                "title": "EMBEDDINGS OF LEVY FAMILIES INTO BANACH SPACES",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2be3a9060afdecbd20f068d2bb14a82ff1058968",
+                "title": "Coordinate restrictions of linear operators in $l_2^n$",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 12,
+                "abstract": "Author(s): Vershynin, R | Abstract: This paper addresses the problem of improving properties of a linear operator u in $l_2^n$ by restricting it onto coordinate subspaces. We discuss how to reduce the norm of u by a random coordinate restriction, how to approximate u by a random operator with small \"coordinate\" rank, how to find coordinate subspaces where u is an isomorphism. The first problem in this list provides a probabilistic extension of a suppression theorem of Kashin and Tzafriri, the second one is a new look at a result of Rudelson on the random vectors in the isotropic position, the last one is the recent generalization of the Bourgain-Tzafriri's invertibility principle. The main point is that all the results are independent of n, the situation is instead controlled by the Hilbert-Schmidt norm of u. As an application, we provide an almost optimal solution to the problem of harmonic density in harmonic analysis, and a solution to the reconstruction problem for communication networks which deliver data with random losses.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55d4e01bc316425caf98ea636bb74b477229ab2b",
+                "title": "ON LARGE RANDOM ALMOST EUCLIDEAN BASES",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "004dfb695874ee8d6bf2bb06a73dac1cc22be4bf",
+                "title": "John's decompositions: Selecting a large part",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 73,
+                "reference_count": 26,
+                "abstract": "We extend the invertibility principle of J. Bourgain and L. Tzafriri to operators acting on arbitrary decompositionsid = \u2211xj\u2295xj, rather than on the coordinate one. The John's decomposition brings this result to the local theory of Banach spaces. As a consequence, we get a new lemma of Dvoretzky-Rogers type, where the contact points of the unit ball with its maximal volume ellipsoid play a crucial role. We then apply these results to embeddings ofl\u221ek into finite dimensional spaces.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c60fda0ed945e9f81f26fde98bd9b798653b5103",
+                "title": "Subsequences of frames",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 14,
+                "abstract": "Every frame in Hilbert space contains a subsequence equivalent to an orthogonal basis. If a frame is n-dimensional then this subsequence has length (1 \")n. On the other hand, there is a frame which does not contain bases with brackets.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c1709229404335069e0604e9dd6b68d18c6b7444",
+                "title": "On constructions of strong and uniformly minimal M-bases in Banach spaces",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 12,
+                "abstract": "Abstract. We find a natural class of transformations (\u201cflattened perturbations\u201d) of a norming M-basis in a Banach space X, which give a strong norming M-basis in X. This simplifies and generalizes the positive answer to the \u201cstrong M-basis problem\u201d solved by P.Terenzi. We also show that in general one cannot achieve uniformly minimality applying standard transformations to a given norming M-basis, despite of the existence in X a uniformly minimal strong M-bases.",
+                "authors": [
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "055e05e86078f04225f38d9795e926d4d27a6b15",
+                "title": "KADISON-SINGER MEETS BOURGAIN-TZAFRIRI",
+                "year": null,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2260044866",
+                        "name": "Peter G Casazza"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c3189bfc268bcb29baa8d4949edd6cca15abdeaa",
+                "title": "The selection problem for bases with brackets and for strong M-bases",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100598244",
+                        "name": "V. Kadets"
+                    },
+                    {
+                        "s2_author_id": "1806615",
+                        "name": "R. Vershynin"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "1800179",
+                "name": "Y. Plan"
+            },
+            {
+                "s2_author_id": "73133034",
+                "name": "M. Boedihardjo"
+            },
+            {
+                "s2_author_id": "1794778",
+                "name": "T. Strohmer"
+            },
+            {
+                "s2_author_id": "50878899",
+                "name": "Yi He"
+            },
+            {
+                "s2_author_id": "10725638",
+                "name": "Yizhe Zhu"
+            },
+            {
+                "s2_author_id": "2118917327",
+                "name": "Yi He"
+            },
+            {
+                "s2_author_id": "9663978",
+                "name": "Kathryn Dover"
+            },
+            {
+                "s2_author_id": "5885667",
+                "name": "Zixuan Cang"
+            },
+            {
+                "s2_author_id": "143718079",
+                "name": "A. Ma"
+            },
+            {
+                "s2_author_id": "2066317479",
+                "name": "Qing Nie"
+            },
+            {
+                "s2_author_id": "144902513",
+                "name": "P. Baldi"
+            },
+            {
+                "s2_author_id": "40929866",
+                "name": "B. Klartag"
+            },
+            {
+                "s2_author_id": "2150251157",
+                "name": "Galyna"
+            },
+            {
+                "s2_author_id": "1409509335",
+                "name": "V."
+            },
+            {
+                "s2_author_id": "2150251155",
+                "name": "Livshyts"
+            },
+            {
+                "s2_author_id": "2725657",
+                "name": "K. Tikhomirov"
+            },
+            {
+                "s2_author_id": "102538477",
+                "name": "G. Livshyts"
+            },
+            {
+                "s2_author_id": "18202935",
+                "name": "Yan Shuo Tan"
+            },
+            {
+                "s2_author_id": "2322578",
+                "name": "Can M. Le"
+            },
+            {
+                "s2_author_id": "143808488",
+                "name": "E. Levina"
+            },
+            {
+                "s2_author_id": "8256323",
+                "name": "D. Needell"
+            },
+            {
+                "s2_author_id": "1788107",
+                "name": "J. Tropp"
+            },
+            {
+                "s2_author_id": "3382597",
+                "name": "Christopher Liaw"
+            },
+            {
+                "s2_author_id": "1685567",
+                "name": "Abbas Mehrabian"
+            },
+            {
+                "s2_author_id": "152886846",
+                "name": "Jessica E. Banks"
+            },
+            {
+                "s2_author_id": "144869677",
+                "name": "Cristopher Moore"
+            },
+            {
+                "s2_author_id": "1905290",
+                "name": "N. Verzelen"
+            },
+            {
+                "s2_author_id": "2345322685",
+                "name": "Jiaming Xu"
+            },
+            {
+                "s2_author_id": "12890978",
+                "name": "E. Rebrova"
+            },
+            {
+                "s2_author_id": "2711839",
+                "name": "R. Giryes"
+            },
+            {
+                "s2_author_id": "1777131",
+                "name": "M. Rudelson"
+            },
+            {
+                "s2_author_id": "3166252",
+                "name": "O. Gu\u00e9don"
+            },
+            {
+                "s2_author_id": "1929695",
+                "name": "E. Yudovina"
+            },
+            {
+                "s2_author_id": "2064084188",
+                "name": "Albert Ai"
+            },
+            {
+                "s2_author_id": "1686498664",
+                "name": "Alexander F. Lapanowski"
+            },
+            {
+                "s2_author_id": "144542422",
+                "name": "Brendan Farrell"
+            },
+            {
+                "s2_author_id": "48640590",
+                "name": "N. Srivastava"
+            },
+            {
+                "s2_author_id": "2307503375",
+                "name": "Yuting Yang"
+            },
+            {
+                "s2_author_id": "1795861",
+                "name": "A. Gilbert"
+            },
+            {
+                "s2_author_id": "145542622",
+                "name": "M. Strauss"
+            },
+            {
+                "s2_author_id": "2391697",
+                "name": "Y. Nakatsukasa"
+            },
+            {
+                "s2_author_id": "2394745",
+                "name": "Yurii Lyubarskii"
+            },
+            {
+                "s2_author_id": "2006869",
+                "name": "E. Cand\u00e8s"
+            },
+            {
+                "s2_author_id": "2056233969",
+                "name": "Terence Tao"
+            },
+            {
+                "s2_author_id": "32732778",
+                "name": "A. Litvak"
+            },
+            {
+                "s2_author_id": "50169629",
+                "name": "A. Pajor"
+            },
+            {
+                "s2_author_id": "1401955808",
+                "name": "N. Tomczak-Jaegermann"
+            },
+            {
+                "s2_author_id": "1797431",
+                "name": "P. Casazza"
+            },
+            {
+                "s2_author_id": "144382659",
+                "name": "O. Christensen"
+            },
+            {
+                "s2_author_id": "46787454",
+                "name": "A. Lindner"
+            },
+            {
+                "s2_author_id": "2266267",
+                "name": "S. Mendelson"
+            },
+            {
+                "s2_author_id": "3093789",
+                "name": "G. Schechtman"
+            },
+            {
+                "s2_author_id": "2260044866",
+                "name": "Peter G Casazza"
+            },
+            {
+                "s2_author_id": "100598244",
+                "name": "V. Kadets"
+            }
+        ],
+        "total_co_authors": 54,
+        "papers_retrieved": 127
+    }
+}

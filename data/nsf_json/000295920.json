@@ -1,0 +1,2462 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000295920",
+        "name": "Rong-Rong Chen",
+        "primary_affiliation": "University of Utah",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Utah"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "UT"
+        ],
+        "perf_cities": [
+            "SALT LAKE CITY"
+        ],
+        "org_names": [
+            "University of Utah"
+        ],
+        "org_ueis": [
+            "LL8GLEVH6MG3"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "rchen@ece.utah.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2526413",
+                "title": "Collaborative Research: U.S.-Ireland R&D Partnership: Integrated Sensing and Telecommunications for Intelligent Connection and Transmission (INSTINCT)",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-11-01",
+                "exp_date": "2028-10-31",
+                "award_amount": 224999.0,
+                "total_amount": 224999.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "CCSS-Comms Circuits & Sens Sys"
+                ],
+                "program_codes": [
+                    "756400"
+                ],
+                "program_references": [
+                    "Wireless comm & sig processing"
+                ],
+                "program_ref_codes": [
+                    "153E"
+                ],
+                "dir_abbr": "ENG",
+                "div_abbr": "ECCS",
+                "nsf_directorate": null,
+                "fund_division": "Division of Electrical, Communications and Cyber Systems",
+                "cfda_num": "47.041",
+                "po_name": "Huaiyu Dai",
+                "keywords": [
+                    "sensing",
+                    "communication",
+                    "instinct",
+                    "isac",
+                    "spectrum",
+                    "wireless",
+                    "multi",
+                    "integrated",
+                    "hardware",
+                    "enables"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "CCSS-Comms Circuits & Sens Sys"
+        ],
+        "program_codes": [
+            "756400"
+        ],
+        "program_references": [
+            "Wireless comm & sig processing"
+        ],
+        "program_ref_codes": [
+            "153E"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "ENG"
+        ],
+        "div_abbrs": [
+            "ECCS"
+        ],
+        "fund_divisions": [
+            "Division of Electrical, Communications and Cyber Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.041"
+        ],
+        "program_officers": [
+            "Huaiyu Dai"
+        ],
+        "keywords": [
+            "sensing",
+            "communication",
+            "instinct",
+            "isac",
+            "spectrum",
+            "wireless",
+            "multi",
+            "integrated",
+            "hardware",
+            "enables",
+            "dynamic",
+            "processing",
+            "delay",
+            "doppler",
+            "wavenumber",
+            "domain",
+            "reconfigurable",
+            "telecommunications",
+            "intelligent",
+            "connection"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.3
+    },
+    "s2_profile": {
+        "s2_author_id": "2185716260",
+        "name": "Rong-Rong Chen",
+        "affiliations": [],
+        "paper_count": 82,
+        "citation_count": 1719,
+        "h_index": 24,
+        "papers": [
+            {
+                "s2_paper_id": "c8e831bd8cdf0f367c521046a526f0eb14e03c30",
+                "title": "Two Time-Scale Learning for Beamforming and Phase Shift Design in RIS-aided Networks",
+                "year": 2022,
+                "venue": "ICC 2022 - IEEE International Conference on Communications",
+                "citation_count": 3,
+                "reference_count": 14,
+                "abstract": "In this work, we develop a two time-scale deep learning approach for beamforming and phase shift (BF-PS) design in time-varying RIS-aided networks. In contrast to most existing works that assume perfect CSI for BF-PS design, we take into account the cost of channel estimation and utilize Long Short-Term Memory (LSTM) networks to design BF-PS from limited samples of estimated channel CSI. An LSTM channel extrapolator is designed first to generate high resolution estimates of the cascaded BS-RIS-user channel from sampled signals acquired at a slow time scale. Subsequently, the outputs of the channel extrapolator are fed into an LSTM-based two stage neural network for the joint design of BF-PS at a fast time scale of per coherence time. To address the critical issue that training overhead increases linearly with the number of RIS elements, we consider various pilot structures and sampling patterns in time and space to evaluate the efficiency and sum-rate performance of the proposed two time-scale design. Our results show that the proposed two time-scale design can achieve good spectral efficiency when taking into account the pilot overhead required for training. The proposed design also outperforms a direct BF-PS design that does not employ a channel extrapolator. These demonstrate the feasibility of applying RIS in time-varying channels with reasonable pilot overhead.",
+                "authors": [
+                    {
+                        "s2_author_id": "14336819",
+                        "name": "Joohyun Cho"
+                    },
+                    {
+                        "s2_author_id": "2116999245",
+                        "name": "Xiang Huang"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1ff97e5f51765ff405a0dffa7e9983153fc5a195",
+                "title": "A Practical Algorithm Design and Evaluation for Heterogeneous Elastic Computing with Stragglers",
+                "year": 2021,
+                "venue": "Global Communications Conference",
+                "citation_count": 9,
+                "reference_count": 17,
+                "abstract": "Our extensive real measurements over Amazon EC2 show that the virtual instances often have different computing speeds even if they share the same configurations. This motivates us to study heterogeneous Coded Storage Elastic Computing (CSEC) systems where machines, with different computing speeds, join and leave the network arbitrarily over different computing steps. In CSEC systems, a Maximum Distance Separable (MDS) code is used for coded storage such that the file placement does not have to be re-defined with each elastic event. Computation assignment algorithms are used to minimize the computation time given computation speeds of different machines. While previous studies of heterogeneous CSEC do not include stragglers - the slow machines during the computation, we develop a new framework in heterogeneous CSEC that introduces straggler tolerance. Based on this framework, we design a novel algorithm using our previously proposed approach for heterogeneous CSEC such that the system can handle any subset of stragglers of a specified size while minimizing the computation time. Furthermore, we establish a trade-off in computation time and straggler tolerance. Another major limitation of existing CSEC designs is the lack of practical evaluations using real applications. In this paper, we evaluate the performance of our designs on Amazon EC2 for applications of the power iteration and linear regression. Evaluation results show that the proposed heterogeneous CSEC algorithms outperform the state-of-the-art designs by more than 30%.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2120024854",
+                        "name": "Joerg Kliewer"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52ffc5cb54db618049cd1d7997181ac9244193d8",
+                "title": "Simultaneous multi-slice image reconstruction using regularized image domain split slice-GRAPPA for diffusion MRI",
+                "year": 2021,
+                "venue": "Medical Image Anal.",
+                "citation_count": 18,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2229272284",
+                        "name": "S. HashemizadehKolowri"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2510962",
+                        "name": "G. Adluru"
+                    },
+                    {
+                        "s2_author_id": "48225398",
+                        "name": "D. Dean"
+                    },
+                    {
+                        "s2_author_id": "32819180",
+                        "name": "E. Wilde"
+                    },
+                    {
+                        "s2_author_id": "2279230443",
+                        "name": "A. Alexander"
+                    },
+                    {
+                        "s2_author_id": "2099612",
+                        "name": "E. DiBella"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "82091e81df5f726c7b3a8e0dcc957e5633e0165a",
+                "title": "Extrinsic Neural Network Equalizer for Channels with High Inter-Symbol-Interference",
+                "year": 2021,
+                "venue": "ICC 2021 - IEEE International Conference on Communications",
+                "citation_count": 4,
+                "reference_count": 14,
+                "abstract": "In this paper, we propose a novel extrinsic neural network equalizer (ExNE) for joint iterative equalization and decoding. The proposed ExNE takes the received signal sequence and a priori probabilities from the channel decoder as inputs to directly generate output extrinsic probabilities. This approach improves the performance of iterative equalization and decoding by making explicit use of extrinsic information. A three-step, open-loop neural network (NN) training procedure is developed for the ExNE, independent of the choice of channel code. We propose a new NN architecture termed deep concatenated convolutional blocks with skip connections (DCCB-SC) for ExNE which attains excellent performance with only a moderate number of network parameters. For challenging linear and non-linear inter-symbol-interference (ISI) channels considered in this work, the proposed ExNE approaches the performance of the maximum a posteriori probability (MAP) equalizer without assuming prior knowledge of the channel model.",
+                "authors": [
+                    {
+                        "s2_author_id": "2116999245",
+                        "name": "Xiang Huang"
+                    },
+                    {
+                        "s2_author_id": "14336819",
+                        "name": "Joohyun Cho"
+                    },
+                    {
+                        "s2_author_id": "2122859799",
+                        "name": "Kazem Hashemizadeh"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3d33b18013dd78726242e5c9af357a0fd752f871",
+                "title": "FLCD: A Flexible Low Complexity Design of Coded Distributed Computing",
+                "year": 2020,
+                "venue": "IEEE Transactions on Cloud Computing",
+                "citation_count": 8,
+                "reference_count": 34,
+                "abstract": "We propose a flexible low complexity design (FLCD) of coded distributed computing (CDC) with empirical evaluation on Amazon Elastic Compute Cloud (Amazon EC2). CDC can expedite MapReduce like computation by trading increased map computations to reduce communication load and shuffle time. A main novelty of FLCD is to utilize the design freedom in defining map and reduce functions to develop asymptotic homogeneous systems to support varying intermediate values (IV) sizes under a general MapReduce framework. Compared to existing designs with constant IV sizes, FLCD offers greater flexibility in adapting to network parameters and significantly reduces the implementation complexity by requiring fewer input files and shuffle groups. The FLCD scheme is the first proposed low-complexity CDC design that can operate on a network with an arbitrary number of nodes and computation load. We perform empirical evaluations of the FLCD by executing the TeraSort algorithm on an Amazon EC2 cluster. This is the first time that theoretical predictions of the CDC shuffle time are validated by empirical evaluations. The evaluations demonstrate a 2.0 to 4.24\u00d7 speedup compared to conventional uncoded MapReduce, a 12 to 52 percent reduction in total time, and a wider range of operating network parameters compared to existing CDC schemes.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2220666129",
+                        "name": "Xingyue Wang"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3f32f9b49fb8579088db01479113ae59f92b55dd",
+                "title": "Coded Elastic Computing on Machines With Heterogeneous Storage and Computation Speed",
+                "year": 2020,
+                "venue": "IEEE Transactions on Communications",
+                "citation_count": 15,
+                "reference_count": 33,
+                "abstract": "We study the optimal design of heterogeneous Coded Elastic Computing (CEC) where machines have varying computation speeds and storage. CEC introduced by Yang et al. in 2018 is a framework that mitigates the impact of elastic events, where machines can join and leave at arbitrary times. In CEC, data is distributed among machines using a Maximum Distance Separable (MDS) code such that subsets of machines can perform the desired computations. However, state-of-the-art CEC designs only operate on homogeneous networks where machines have the same speeds and storage. This may not be practical. In this work, based on an MDS storage assignment, we develop a novel computation assignment approach for heterogeneous CEC networks to minimize the overall computation time. We first consider the scenario where machines have heterogeneous computing speeds but same storage and then the scenario where both heterogeneities are present. We propose a novel combinatorial optimization formulation and solve it exactly by decomposing it into a convex optimization problem to find the optimal computation load and a filling problem to find the exact computation assignment. A low-complexity filling algorithm is adapted and can be completed within a number of iterations equal to at most the number of available machines.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "57416b44eb310a17328a38612b2779b68772af2b",
+                "title": "A New Combinatorial Coded Design for Heterogeneous Distributed Computing",
+                "year": 2020,
+                "venue": "IEEE Transactions on Communications",
+                "citation_count": 24,
+                "reference_count": 36,
+                "abstract": "Coded Distributed Computing (CDC) introduced by Li et al. in 2015 offers an efficient approach to trade computing power to reduce the communication load in general distributed computing frameworks such as MapReduce and Spark. In particular, increasing the computation load in the Map phase by a factor of $r$ can create coded multicasting opportunities to reduce the communication load in the Shuffle phase by the same factor. However, the CDC scheme is designed for the homogeneous settings, where each node maps the same number of files and is assigned the same number of reduce functions. It requires an exponentially large number of input files (data batches), reduce functions and multicasting groups relative to the number of nodes to achieve the promised gain. We address the CDC limitations by proposing a novel CDC approach based on a combinatorial design, which accommodates heterogeneous networks and maintains a multiplicative computation-communication trade-off. In addition, the proposed approach requires an exponentially less number of input files compared to the original CDC scheme proposed by Li et al. Finally, we derive a new information theoretic converse for general heterogeneous CDC and show that the communication load of the proposed design is optimal within a constant factor.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "68f84b9776fbe8abc27354a47397d093eb575a55",
+                "title": "Uncoded Placement With Linear Sub-Messages for Private Information Retrieval From Storage Constrained Databases",
+                "year": 2020,
+                "venue": "IEEE Transactions on Communications",
+                "citation_count": 13,
+                "reference_count": 15,
+                "abstract": "We propose capacity-achieving schemes for private information retrieval (PIR) from uncoded databases (DBs) with both homogeneous and heterogeneous storage constraints. In the PIR setting, a user queries a set of DBs to privately download a message, where privacy implies that no one DB can infer which message the user desires. In general, a PIR scheme is comprised of storage placement and delivery designs. Previous works have derived the capacity, or infimum download cost, of PIR with uncoded storage placement and sufficient conditions of storage placement to meet capacity. However, the currently proposed storage placement designs require splitting each message into an exponential number of sub-messages with respect to the number of DBs. In this work, when DBs have the same storage constraint, we propose two simple storage placement designs that satisfy the capacity conditions. Then, for more general heterogeneous storage constraints, we translate the storage placement design process into a \u201cfilling problem\u201d. We design an iterative algorithm to solve the filling problem where, in each iteration, messages are partitioned into sub-messages and stored at subsets of DBs. All of our proposed storage placement designs require a number of sub-messages per message at most equal to the number of DBs.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "85b16ae2842bf940e05e54582b227b985dc46cc4",
+                "title": "Local Averaging Helps: Hierarchical Federated Learning and Convergence Analysis",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 47,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110272622",
+                        "name": "Jiayi Wang"
+                    },
+                    {
+                        "s2_author_id": "50695457",
+                        "name": "Shiqiang Wang"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "908c8a84a7a678a5513564fb5c3c99820acc6c2e",
+                "title": "Demystifying Why Local Aggregation Helps: Convergence Analysis of Hierarchical SGD",
+                "year": 2020,
+                "venue": "AAAI Conference on Artificial Intelligence",
+                "citation_count": 76,
+                "reference_count": 33,
+                "abstract": "Hierarchical SGD (H-SGD) has emerged as a new distributed SGD algorithm for multi-level communication networks. In H-SGD, before each global aggregation, workers send their updated local models to local servers for aggregations. Despite recent research efforts, the effect of local aggregation on global convergence still lacks theoretical understanding. In this work, we first introduce a new notion of \"upward\" and \"downward\" divergences. We then use it to conduct a novel analysis to obtain a worst-case convergence upper bound for two-level H-SGD with non-IID data, non-convex objective function, and stochastic gradient. By extending this result to the case with random grouping, we observe that this convergence upper bound of H-SGD is between the upper bounds of two single-level local SGD settings, with the number of local iterations equal to the local and global update periods in H-SGD, respectively. We refer to this as the \"sandwich behavior\". Furthermore, we extend our analytical approach based on \"upward\" and \"downward\" divergences to study the convergence for the general case of H-SGD with more than two levels, where the \"sandwich behavior\" still holds. Our theoretical results provide key insights of why local aggregation can be beneficial in improving the convergence of H-SGD.",
+                "authors": [
+                    {
+                        "s2_author_id": "2110272622",
+                        "name": "Jiayi Wang"
+                    },
+                    {
+                        "s2_author_id": "50695457",
+                        "name": "Shiqiang Wang"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "95f269bf7cdcf1384893d6262edc11162995a7b7",
+                "title": "A Combinatorial Design for Cascaded Coded Distributed Computing on General Networks",
+                "year": 2020,
+                "venue": "IEEE Transactions on Communications",
+                "citation_count": 27,
+                "reference_count": 12,
+                "abstract": "Coding theoretic approaches have been developed to significantly reduce the communication load in modern distributed computing system. In particular, coded distributed computing (CDC) introduced by Li <italic>et al.</italic> can efficiently trade computation resources to reduce the communication load in MapReduce like computing systems. For the more general <italic>cascaded</italic> CDC, Map computations are repeated at <inline-formula> <tex-math notation=\"LaTeX\">$r$ </tex-math></inline-formula> nodes to significantly reduce the communication load among nodes tasked with computing <inline-formula> <tex-math notation=\"LaTeX\">$Q$ </tex-math></inline-formula> Reduce functions <inline-formula> <tex-math notation=\"LaTeX\">$s$ </tex-math></inline-formula> times. In this paper, we propose a novel low-complexity combinatorial design for cascaded CDC which 1) determines both input file and output function assignments, 2) requires significantly less number of input files and output functions, and 3) operates on heterogeneous networks where nodes have varying storage and computing capabilities. We provide an analytical characterization of the computation-communication tradeoff, from which we show the proposed scheme can outperform the state-of-the-art scheme proposed by Li <italic>et al.</italic> for the homogeneous networks. Further, when the network is heterogeneous, we show that the performance of the proposed scheme can be better than its homogeneous counterpart. In addition, the proposed scheme is optimal within a constant factor of the information theoretic converse bound while fixing the input file and the output function assignments.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c16afaaf58cbd38ee326fe35bf546a1c8c56b0d4",
+                "title": "Heterogeneous Computation Assignments in Coded Elastic Computing",
+                "year": 2020,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 8,
+                "reference_count": 10,
+                "abstract": "We study the optimal design of a heterogeneous coded elastic computing (CEC) network where machines have varying relative computation speeds. CEC introduced by Yang et al. is a framework which mitigates the impact of elastic events, where machines join and leave the network. A set of data is distributed among storage constrained machines using a Maximum Distance Separable (MDS) code such that any subset of machines of a specific size can perform the desired computations. This design eliminates the need to re-distribute the data after each elastic event. In this work, we develop a process for an arbitrary heterogeneous computing network to minimize the overall computation time by defining an optimal computation load, or number of computations assigned to each machine. We then present an algorithm to define a specific computation assignment among the machines that makes use of the MDS code and meets the optimal computation load.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e4164a276c57e5c778363240e29816a32a293ab7",
+                "title": "Towards Finite File Packetizations in Wireless Device-to-Device Caching Networks",
+                "year": 2020,
+                "venue": "IEEE Transactions on Communications",
+                "citation_count": 13,
+                "reference_count": 41,
+                "abstract": "We consider wireless device-to-device (D2D) caching networks with single-hop transmissions. Previous work has demonstrated that caching and coded multicasting can significantly increase per user throughput. However, the state-of-the-art coded caching schemes for D2D networks are generally impractical because content files are partitioned into an exponential number of packets with respect to the number of users if both library and memory sizes are fixed. In this paper, we present two combinatorial approaches of D2D coded caching network design with reduced packetizations and desired throughput gain compared to the conventional uncoded unicasting. The first approach uses a \u201chypercube\u201d design, where each user caches a \u201chyperplane\u201d in this hypercube and the intersections of \u201chyperplanes\u201d represent coded multicasting codewords. In addition, we extend the hypercube approach to a decentralized design. The second approach uses the Ruzsa-Szem\u00e9redi graph to define the cache placement. Disjoint matchings on this graph represent coded multicasting codewords. Both approaches yield an exponential reduction of packetizations while providing a per-user throughput that is comparable to the state-of-the-art designs in the literature. Furthermore, we apply spatial reuse to the new D2D network designs to further reduce the required packetizations and significantly improve per user throughput for some parameter regimes.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "42cf84ff1888bd49996ece5dc056f62158ab140a",
+                "title": "An Optimal Iterative Placement Algorithm for PIR from Heterogeneous Storage-Constrained Databases",
+                "year": 2019,
+                "venue": "Global Communications Conference",
+                "citation_count": 12,
+                "reference_count": 17,
+                "abstract": "We propose a capacity-achieving scheme for private information retrieval (PIR) from databases (DBs) with heterogeneous storage constraints. In the PIR setting, a user queries a set of DBs to privately download a message, where privacy implies that no one DB can infer which message the user desires. Our PIR scheme uses an uncoded storage placement and we derive sufficient conditions to meet capacity in this design architecture. We translate the storage placement design to a \"filling problem\" where messages are partitioned into sub- messages and stored at subsets of DBs. We prove a set of necessary and sufficient conditions for the existence of the filling problem solution and design an iterative algorithm to find a filling problem solution. Our proposed algorithm requires at most a number of iterations equal to the number of DBs. Furthermore, we significantly reduce the number of sub-messages compared to the state-of- the-art PIR scheme, as our proposed PIR scheme requires that each message is split into a polynomial number of sub-messages with respect to the number of DBs.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "481cf7e4b4285631efcf1d99794b63d6ab2fba27",
+                "title": "Cascaded Coded Distributed Computing on Heterogeneous Networks",
+                "year": 2019,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 27,
+                "reference_count": 8,
+                "abstract": "Coded distributed computing (CDC) introduced by Li et al. in 2015 offers an efficient approach to trade computing power to reduce the communication load in general distributed computing frameworks such as MapReduce. For the more general cascaded CDC, Map computations are repeated at r nodes to significantly reduce the communication load among nodes tasked with computing Q Reduce functions s times. While an achievable cascaded CDC scheme was proposed, it only operates on homogeneous networks, where the storage, computation load and communication load of each computing node is the same. In this paper, we address this limitation by proposing a novel combinatorial design which operates on heterogeneous networks where nodes have varying storage and computing capabilities. We provide an analytical characterization of the computation-communication trade-off and show that it is optimal within a constant factor and could outperform the state-of-the-art homogeneous schemes.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52880f26881294e352ba38697c97458f676ef247",
+                "title": "Coded Distributed Computing with Heterogeneous Function Assignments",
+                "year": 2019,
+                "venue": "ICC 2020 - 2020 IEEE International Conference on Communications (ICC)",
+                "citation_count": 29,
+                "reference_count": 10,
+                "abstract": "Coded distributed computing (CDC) introduced by Li et. at. is an effective technique to trade computation load for communication load in a MapReduce framework. CDC achieves an optimal trade-off by duplicating map computations at r computing nodes to yield multicasting opportunities such that r nodes are served simultaneously in the Shuffle phase. However, in general, the state-of-the-art CDC scheme is mainly designed only for homogeneous networks, where the computing nodes are assumed to have the same storage, computation and communication capabilities. In this work, we explore two approaches of heterogeneous CDC design. First, we study CDC schemes which operate on multiple, collaborating homogeneous computing networks. Second, we allow heterogeneous function assignment in the CDC design, where nodes are assigned a varying number of reduce functions. We propose an expandable heterogeneous CDC scheme where r\u20131 nodes are served simultaneously in the Shuffle phase. In comparison to the state-of-the-art homogeneous CDC scheme with an equivalent computation load, we find our newly proposed heterogeneous CDC scheme has a smaller communication load in some cases.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "739805b4080b15d52a7b6a2377190c6991d04e0d",
+                "title": "A New Design of Private Information Retrieval for Storage Constrained Databases",
+                "year": 2019,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 9,
+                "reference_count": 12,
+                "abstract": "Private information retrieval (PIR) allows a user to download one of K messages from N databases without revealing to any database which of the K messages is being downloaded. In general, the databases can be storage constrained where each database can only store up to \u00b5KL bits where $\\frac{1}{N} \\leq \\mu \\leq 1$ and L is the size of each message in bits. Let t = \u00b5N, a recent work showed that the capacity of Storage Constrained PIR (SC-PIR) is ${\\left( {1 + \\frac{1}{t} + \\frac{1}{{{t^2}}} + \\cdots + \\frac{1}{{{t^{K - 1}}}}} \\right)^{ - 1}}$, which is achieved by a storage placement scheme inspired by the content placement scheme in the literature of coded caching and the original PIR scheme. Not surprisingly, this achievable scheme requires that each message isbits in length, which can be impractical. In this paper, without trying to make the connection between SC-PIR and coded caching problems, based on a general connection between the Full Storage PIR (FS-PIR) problem (\u00b5 = 1) and SC-PIR problem, we propose a new SC-PIR design idea using novel storage placement schemes. The proposed schemes significantly reduce the message size requirement while still meeting the capacity of SC-PIR. In particular, the proposed SC-PIR schemes require the size of each file to be only L = NtK\u22121 compared to the state-of-the-art $L = \\binom {N} {t} {t^K}$.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9c5a83cbeb53fbfd7d52d9e23d4479f529cc66e4",
+                "title": "Coil-Combined Split Slice-GRAPPA for Simultaneous Multi-Slice Diffusion MRI.",
+                "year": 2019,
+                "venue": "Magnetic Resonance Imaging",
+                "citation_count": 7,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2229272284",
+                        "name": "S. HashemizadehKolowri"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2510962",
+                        "name": "G. Adluru"
+                    },
+                    {
+                        "s2_author_id": "5527319",
+                        "name": "L. Ying"
+                    },
+                    {
+                        "s2_author_id": "2099612",
+                        "name": "E. DiBella"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cbcffe899564cf9cf3717ae175adce5c1ccc496e",
+                "title": "Private Information Retrieval from Heterogeneous Uncoded Storage Constrained Databases with Reduced Sub-Messages.",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "62ceb18abf6587e225ee394179d503c7c9ee1963",
+                "title": "Improving image reconstructions for simultaneous multi-slice readout-segmented diffusion MRI data with phase errors",
+                "year": 2018,
+                "venue": "IEEE International Symposium on Biomedical Imaging",
+                "citation_count": 2,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2229272284",
+                        "name": "S. HashemizadehKolowri"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2099612",
+                        "name": "E. DiBella"
+                    },
+                    {
+                        "s2_author_id": "35284389",
+                        "name": "E. Hsu"
+                    },
+                    {
+                        "s2_author_id": "5527319",
+                        "name": "L. Ying"
+                    },
+                    {
+                        "s2_author_id": "2510962",
+                        "name": "G. Adluru"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7cd02d390e14e9a78d8fb77c3821f3fb2d85698a",
+                "title": "A New Combinatorial Design of Coded Distributed Computing",
+                "year": 2018,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 37,
+                "reference_count": 5,
+                "abstract": "Coded distributed computing introduced by Li et al. in 2015 is an efficient approach to trade computing power to reduce the communication load in general distributed computing frameworks such as MapReduce. In particular, Li et al. show that increasing the computation load in the Map phase by a factor of $r$ can create coded multicasting opportunities to reduce the communication load in the Reduce phase by the same factor. However, there are two major limitations in practice. First, it requires an exponentially large number of input files (data batches) when the number of computing nodes gets large. Second, it forces every $s$ computing nodes to compute one Map function, which leads to a large number of Map functions required to achieve the promised gain. In this paper, we make an attempt to overcome these two limitations by proposing a novel coded distributed computing approach based on a combinatorial design. We demonstrate that when the number of computing nodes becomes large, 1) the proposed approach requires an exponentially less number of input files; 2) the required number of Map functions is also reduced exponentially. Meanwhile, the resulting computation-communication trade-off maintains the multiplicative gain compared to conventional uncoded unicast and achieves the information theoretic lower bound asymmetrically for some system parameters.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "84df71ad4f5803f6b6caac3e8a44fda4fda681b4",
+                "title": "Fundamental Limits of Wireless Distributed Computing Networks",
+                "year": 2018,
+                "venue": "IEEE Conference on Computer Communications",
+                "citation_count": 7,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ddadbe5c2eaa555fd027ddee9635a909c53f99f8",
+                "title": "Coded Caching in Wireless Device-to-Device Networks Using a Hypercube Approach",
+                "year": 2018,
+                "venue": "2018 IEEE International Conference on Communications Workshops (ICC Workshops)",
+                "citation_count": 9,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "30e72a99d1042d13e94b506af57a9ab97c7ebcf2",
+                "title": "Towards Practical File Packetizations in Wireless Device-to-Device Caching Networks",
+                "year": 2017,
+                "venue": "arXiv.org",
+                "citation_count": 6,
+                "reference_count": 31,
+                "abstract": "We consider wireless device-to-device (D2D) caching networks with single-hop transmissions. Previous work has demonstrated that caching and coded multicasting can significantly increase per user throughput. However, the state-of-the-art coded caching schemes for D2D networks are generally impractical because content files are partitioned into an exponential number of packets with respect to the number of users if both library and memory sizes are fixed. In this paper, we present two novel combinatorial approaches to coded caching design in D2D networks with the goal of reducing the required packetization while keeping the desired throughput gain compared to the conventional uncoded unicasting. The first proposed approach is based on a novel \"hypercube\" design, where each user caches a \"hyperplane\" in this hypercube and the intersections of \"hyperplanes\" lead to coded multicasting codewords. In addition, we also extend this centralized scheme to a decentralized design. The second approach uses the Ruzsa-Szemeredi graph to define the cache placement and disjoint matchings on this graph represent coded multicasting opportunities. Both approaches yield an exponential reduction of packetizations with respect to the number of users while providing a per-user throughput that is comparable to the state-of-the-art designs in the literature. Furthermore, by using the spatial reuse in D2D networks, besides further reducing the required packetizations, we demonstrate that the per user throughput can be improved significantly for some parameter regimes.",
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "57339b1ae854b877a886b30472be8cf475af1c3e",
+                "title": "Soft Decision Directed Dual-Layer Channel Estimation for Time-Varying MIMO Channels",
+                "year": 2017,
+                "venue": "IEEE Wireless Communications and Networking Conference",
+                "citation_count": 1,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2808820",
+                        "name": "Xuehong Mao"
+                    },
+                    {
+                        "s2_author_id": "2282441471",
+                        "name": "Seyyedkazem Hashemizadehkolowri"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "613742621987d24b8fe6ac4a224f7e365a081f26",
+                "title": "Excited Markov Chain Monte Carlo MIMO detector with 8-antenna 802.11ac testbed demonstration",
+                "year": 2017,
+                "venue": "2017 IEEE International Conference on Communications (ICC)",
+                "citation_count": 2,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32317918",
+                        "name": "Jonathan C. Hedstrom"
+                    },
+                    {
+                        "s2_author_id": "2602220",
+                        "name": "C. Yuen"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8d6de31bd4e13805e3e6e1c375730e470739c5b9",
+                "title": "Fundamental limits of distributed caching in multihop D2D wireless networks",
+                "year": 2017,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 16,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1684771",
+                        "name": "G. Caire"
+                    },
+                    {
+                        "s2_author_id": "144494246",
+                        "name": "A. Molisch"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be6be31e7864e3629b4fb911cd00c0335082ffb0",
+                "title": "Device-to-Device Caching Networks with Subquadratic Subpacketizations",
+                "year": 2017,
+                "venue": "Global Communications Conference",
+                "citation_count": 9,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "153254951",
+                        "name": "Nicholas Woolsey"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cc770b3d5df415a2217e039099180af7dd5ce1dd",
+                "title": "Achieving Near MAP Performance With an Excited Markov Chain Monte Carlo MIMO Detector",
+                "year": 2017,
+                "venue": "IEEE Transactions on Wireless Communications",
+                "citation_count": 34,
+                "reference_count": 33,
+                "abstract": "We introduce a revised derivation of the bitwise Markov Chain Monte Carlo (MCMC) multiple-input multiple-output (MIMO) detector. The new approach resolves the previously reported high SNR stalling problem of MCMC without the need for hybridization with another detector method or adding heuristic temperature scaling factors. Another common problem with MCMC algorithms is the unknown convergence time making predictable fixed-length implementations problematic. When an insufficient number of iterations are used on a slowly converging example, the output log likelihood ratios can be unstable and overconfident. Therefore, we develop a method to identify rare slowly converging runs and mitigate their degrading effects on the soft-output information. This improves forward-error-correcting code performance and removes a symptomatic error floor in bit error rate plots. Next, pseudo-convergence is identified with a novel way to visualize the internal behavior of the Gibbs sampler. An effective and efficient pseudo-convergence detection and escape strategy is suggested. Finally, the new excited MCMC (X-MCMC) detector is shown to have near maximum-a-posteriori performance even with challenging, realistic, and highly-correlated channels at the maximum MIMO sizes and modulation rates supported by the 802.11ac WiFi specification,  $8\\times 8$  MIMO 256 quadrature amplitude modulation.",
+                "authors": [
+                    {
+                        "s2_author_id": "32317918",
+                        "name": "Jonathan C. Hedstrom"
+                    },
+                    {
+                        "s2_author_id": "2602220",
+                        "name": "C. Yuen"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f8c352e37d52b30abd4939f172c3b502c5bd847f",
+                "title": "Analysis of Discrete-Time MIMO OFDM-Based Orthogonal Time Frequency Space Modulation",
+                "year": 2017,
+                "venue": "2018 IEEE International Conference on Communications (ICC)",
+                "citation_count": 112,
+                "reference_count": 9,
+                "abstract": "Orthogonal Time Frequency Space (OTFS) is a novel modulation scheme designed in the Doppler-delay domain to fully exploit time and frequency diversity of general time-varying channels. In this paper, we present a novel discrete-time analysis of OFDM-based OTFS transceiver with a concise and vectorized input-output relationship that clearly characterizes the contribution of each underlying signal processing block in such systems. When adopting cyclic prefix in the time domain, our analysis reveals that the proposed MIMO OTFS and OFDM systems have the same ergodic capacity despite the well-known fact that the former has great advantages in low-complexity receiver design for high Doppler channels. The proposed discrete-time vectorized formulation is applicable to general fast fading channels with arbitrary window functions. It also enables practical low-complexity receiver design for which such a concise formulation of the input-output relationship is of great benefits.",
+                "authors": [
+                    {
+                        "s2_author_id": "1683047",
+                        "name": "Ahmad Rezazadehreyhani"
+                    },
+                    {
+                        "s2_author_id": "1686587",
+                        "name": "Arman Farhang"
+                    },
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f9f6f408fcb8819044115b009b30fbfc604467e6",
+                "title": "Caching and Coded Multicasting in Slow Fading Environment",
+                "year": 2017,
+                "venue": "IEEE Wireless Communications and Networking Conference",
+                "citation_count": 8,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2080802",
+                        "name": "Mingyue Ji"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7f9e3a314d7dc119ecee2711df0b4033e93c5dce",
+                "title": "Filterbank Multicarrier Communications for Underwater Acoustic Channels",
+                "year": 2015,
+                "venue": "IEEE Journal of Oceanic Engineering",
+                "citation_count": 63,
+                "reference_count": 66,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34951824",
+                        "name": "P. Amini"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c0bbd1915201feb0a5c560b7fe6def83e208b817",
+                "title": "Image reconstruction from phased-array data based on multichannel blind deconvolution.",
+                "year": 2015,
+                "venue": "Magnetic Resonance Imaging",
+                "citation_count": 14,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37566117",
+                        "name": "H. She"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "145768550",
+                        "name": "D. Liang"
+                    },
+                    {
+                        "s2_author_id": "3042581",
+                        "name": "Yuchou Chang"
+                    },
+                    {
+                        "s2_author_id": "5527319",
+                        "name": "L. Ying"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39a20cf0c24e5b4b361a7ee2d11866d90751074c",
+                "title": "Sparse BLIP: BLind Iterative Parallel imaging reconstruction using compressed sensing",
+                "year": 2014,
+                "venue": "Magnetic Resonance in Medicine",
+                "citation_count": 39,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37566117",
+                        "name": "H. She"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "145768550",
+                        "name": "D. Liang"
+                    },
+                    {
+                        "s2_author_id": "2099612",
+                        "name": "E. DiBella"
+                    },
+                    {
+                        "s2_author_id": "5527319",
+                        "name": "L. Ying"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9196c8e48209389f42e8223bae965703c48036c2",
+                "title": "Highly accelerated dynamic contrast-enhanced MRI with temporal constrained reconstruction",
+                "year": 2014,
+                "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+                "citation_count": 1,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37566117",
+                        "name": "H. She"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "6003757",
+                        "name": "E. D. Bella"
+                    },
+                    {
+                        "s2_author_id": "4461369",
+                        "name": "M. Schabel"
+                    },
+                    {
+                        "s2_author_id": "5527319",
+                        "name": "L. Ying"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8a72dc186dab954b543d5ccf30e09171a2b35d97",
+                "title": "Decorrelation MIMO Receiver for Block Fading Channels",
+                "year": 2013,
+                "venue": "IEEE Communications Letters",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2808820",
+                        "name": "Xuehong Mao"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "37566117",
+                        "name": "H. She"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2ff2b6e60a13d5f07296c071f20c4924435519a5",
+                "title": "Simultaneous image reconstruction and sensitivity estimation in parallel MRI using blind compressed sensing",
+                "year": 2012,
+                "venue": "IEEE International Symposium on Biomedical Imaging",
+                "citation_count": 2,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37566117",
+                        "name": "H. She"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "145768550",
+                        "name": "D. Liang"
+                    },
+                    {
+                        "s2_author_id": "6003757",
+                        "name": "E. D. Bella"
+                    },
+                    {
+                        "s2_author_id": "5527319",
+                        "name": "L. Ying"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3da5c8237e2b819203d8b911336e434421baa0c7",
+                "title": "k\u2010t ISD: Dynamic cardiac MR imaging using compressed sensing with iterative support detection",
+                "year": 2012,
+                "venue": "Magnetic Resonance in Medicine",
+                "citation_count": 95,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145768550",
+                        "name": "D. Liang"
+                    },
+                    {
+                        "s2_author_id": "2099612",
+                        "name": "E. DiBella"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "5527319",
+                        "name": "L. Ying"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "29e5b8a6ea9abb5b7e7b163c117c31c6f05e70e6",
+                "title": "Sparse BLIP : Compressed Sensing with Blind Iterative Parallel Imaging",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37566117",
+                        "name": "H. She"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "145768550",
+                        "name": "D. Liang"
+                    },
+                    {
+                        "s2_author_id": "2099612",
+                        "name": "E. DiBella"
+                    },
+                    {
+                        "s2_author_id": "5527319",
+                        "name": "L. Ying"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "38427f490d1735016a1d7ad4f558164973c9caec",
+                "title": "Delay Performance of Threshold Policies for Dynamic Spectrum Access",
+                "year": 2011,
+                "venue": "IEEE Transactions on Wireless Communications",
+                "citation_count": 22,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2120099632",
+                        "name": "Xin Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "85a3ba9081cd8a42fa452ee25129e229e4af4154",
+                "title": "K-T ISD: Compressed sensing with iterative support detection for dynamic MRI",
+                "year": 2011,
+                "venue": "IEEE International Symposium on Biomedical Imaging",
+                "citation_count": 6,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145768550",
+                        "name": "D. Liang"
+                    },
+                    {
+                        "s2_author_id": "6003757",
+                        "name": "E. D. Bella"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "5527319",
+                        "name": "L. Ying"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8b81097f47cdd723149d17ed27b8a0d3a20de5c5",
+                "title": "Filterbank multicarrier for underwater communications",
+                "year": 2011,
+                "venue": "Allerton Conference on Communication, Control, and Computing",
+                "citation_count": 15,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34951824",
+                        "name": "P. Amini"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c32b506659e756420518ad337d5c360ca8bc9d46",
+                "title": "Markov Chain Monte Carlo Detection for Frequency-Selective Channels Using List Channel Estimates",
+                "year": 2011,
+                "venue": "IEEE Journal on Selected Topics in Signal Processing",
+                "citation_count": 23,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145866542",
+                        "name": "Hong Wan"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1789522",
+                        "name": "J. Choi"
+                    },
+                    {
+                        "s2_author_id": "39730113",
+                        "name": "A. Singer"
+                    },
+                    {
+                        "s2_author_id": "1757345",
+                        "name": "J. Preisig"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c834ca7a16514073ec3dfb99c19e51794fab6de9",
+                "title": "Random Access Protocols for Collaborative Spectrum Sensing in Multi-Band Cognitive Radio Networks",
+                "year": 2011,
+                "venue": "IEEE Journal on Selected Topics in Signal Processing",
+                "citation_count": 36,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "40607323",
+                        "name": "K. Teo"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f2c8ad7541f4fe1bd79e8bca1096a5828082065a",
+                "title": "Introduction to the Issue on Soft Detection for Wireless Transmission",
+                "year": 2011,
+                "venue": "IEEE Journal on Selected Topics in Signal Processing",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1771676",
+                        "name": "A. Chockalingam"
+                    },
+                    {
+                        "s2_author_id": "143668698",
+                        "name": "G. Leus"
+                    },
+                    {
+                        "s2_author_id": "3340861",
+                        "name": "R. Raheli"
+                    },
+                    {
+                        "s2_author_id": "39730113",
+                        "name": "A. Singer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "16d983ee29c6a9a57bfb408352d025df98492749",
+                "title": "Optimality of Beamforming for MIMO Multiple Access Channels Via Virtual Representation",
+                "year": 2010,
+                "venue": "IEEE Transactions on Signal Processing",
+                "citation_count": 5,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145866542",
+                        "name": "Hong Wan"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "145097686",
+                        "name": "Yingbin Liang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4749b8ee0bdf4426960d4c8689c33cfeec4f4749",
+                "title": "Joint channel estimation and Markov Chain Monte Carlo detection for frequency-selective channels",
+                "year": 2010,
+                "venue": "International Conference on Security and Management",
+                "citation_count": 4,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145866542",
+                        "name": "Hong Wan"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1789522",
+                        "name": "J. Choi"
+                    },
+                    {
+                        "s2_author_id": "39730113",
+                        "name": "A. Singer"
+                    },
+                    {
+                        "s2_author_id": "1757345",
+                        "name": "J. Preisig"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52f1742de38056a4f3bba20c6e508f42cf594837",
+                "title": "Markov Chain Monte Carlo detection over time-varying frequency-selective channels",
+                "year": 2010,
+                "venue": "Allerton Conference on Communication, Control, and Computing",
+                "citation_count": 1,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145866542",
+                        "name": "Hong Wan"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1789522",
+                        "name": "J. Choi"
+                    },
+                    {
+                        "s2_author_id": "1757345",
+                        "name": "J. Preisig"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "64fd1f73f55b39815552bf417a63a5589f839246",
+                "title": "Coexisting with CSMA-Based Reactive Primary Users",
+                "year": 2010,
+                "venue": "International Symposium on Dynamic Spectrum Access Networks",
+                "citation_count": 24,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2120099632",
+                        "name": "Xin Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f76dfabf5c1ee758675442cc22148ddb2e7fefd",
+                "title": "Robust Filter Design for Multicarrier Communication over Doubly Dispersive Channels",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34951824",
+                        "name": "P. Amini"
+                    },
+                    {
+                        "s2_author_id": "2081027734",
+                        "name": "Chung Him"
+                    },
+                    {
+                        "s2_author_id": "2072081952",
+                        "name": "G. Yuen"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a6220e392ef7d4fb43b5f64ab55d4e7a09bd9b40",
+                "title": "Isotropic filter design for MIMO filter bank multicarrier communications",
+                "year": 2010,
+                "venue": "International Conference on Security and Management",
+                "citation_count": 30,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34951824",
+                        "name": "P. Amini"
+                    },
+                    {
+                        "s2_author_id": "2602220",
+                        "name": "C. Yuen"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ade4a890f8803dec1fe6fcd81b016abec9ee3df4",
+                "title": "Markov Chain Monte Carlo Detectors for Channels With Intersymbol Interference",
+                "year": 2010,
+                "venue": "IEEE Transactions on Signal Processing",
+                "citation_count": 40,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b02550087f2acb9899f94fa1c246c1c48fd794bb",
+                "title": "Stochastic Expectation Maximization Algorithm for Long-Memory Fast-Fading Channels",
+                "year": 2010,
+                "venue": "2010 IEEE Global Telecommunications Conference GLOBECOM 2010",
+                "citation_count": 6,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145866542",
+                        "name": "Hong Wan"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1789522",
+                        "name": "J. Choi"
+                    },
+                    {
+                        "s2_author_id": "39730113",
+                        "name": "A. Singer"
+                    },
+                    {
+                        "s2_author_id": "1757345",
+                        "name": "J. Preisig"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d5111be7ff1b6af0da579f0dd83a6896c58d2489",
+                "title": "Iterative data detection and decoding using list channel estimation and Markov Chain Monte Carlo",
+                "year": 2010,
+                "venue": "2010 IEEE International Symposium on Information Theory",
+                "citation_count": 2,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2808820",
+                        "name": "Xuehong Mao"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea5796ef7ce3ac1ac4d1f172072ff9934ac9a7a1",
+                "title": "Approaching MIMO capacity using bitwise Markov Chain Monte Carlo detection",
+                "year": 2010,
+                "venue": "IEEE Transactions on Communications",
+                "citation_count": 51,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    },
+                    {
+                        "s2_author_id": "1745652",
+                        "name": "A. Ashikhmin"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f0e131d0729cd54f7c9cb046c904192b63a00381",
+                "title": "Markov Chain Monte Carlo detection for underwater acoustic channels",
+                "year": 2010,
+                "venue": "Information Theory and Applications Workshop",
+                "citation_count": 14,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145866542",
+                        "name": "Hong Wan"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1789522",
+                        "name": "J. Choi"
+                    },
+                    {
+                        "s2_author_id": "39730113",
+                        "name": "A. Singer"
+                    },
+                    {
+                        "s2_author_id": "1757345",
+                        "name": "J. Preisig"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "11e21b72b154dceb182c7f4edf2a23be277f427d",
+                "title": "Performance of channel coded noncoherent systems: modulation choice, information rate, and Markov chain Monte Carlo detection",
+                "year": 2009,
+                "venue": "IEEE Transactions on Communications",
+                "citation_count": 3,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "13135ebdcc7c339dba5d6e32e9f516c81a37448e",
+                "title": "Markov Chain Monte Carlo Detection Methods for High SNR Regimes",
+                "year": 2009,
+                "venue": "IEEE International Conference on Communications",
+                "citation_count": 8,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143939025",
+                        "name": "S. Akoum"
+                    },
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "367137464cfa04fc20e48546c3bf200c6d965d31",
+                "title": "Low Complexity Markov Chain Monte Carlo Detector for Channels with Intersymbol Interference",
+                "year": 2009,
+                "venue": "IEEE International Conference on Communications",
+                "citation_count": 14,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "399080e3ccdc3bfb41d31d7b5b23b9b736108a06",
+                "title": "Near Optimal Combining Scheme for MIMO-OFDM HARQ with Bit Rearrangement",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e017b6010e1bd6a7f40ffbc76f31209ed234e5c1",
+                "title": "Medium Access Control Signaling for Reliable Spectrum Agile Radios",
+                "year": 2009,
+                "venue": "Global Communications Conference",
+                "citation_count": 4,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3212449",
+                        "name": "E. Azarnasab"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "40607323",
+                        "name": "K. Teo"
+                    },
+                    {
+                        "s2_author_id": "2265900359",
+                        "name": "Zhifeng Tao"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f1469ed8d8f2863830b64fef2096f724033baf82",
+                "title": "Markov Chain Monte Carlo: Applications to MIMO detection and channel equalization",
+                "year": 2009,
+                "venue": "Information Theory and Applications Workshop",
+                "citation_count": 10,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3c939a4fda66b28968bd17aa409b3446954d7578",
+                "title": "Beamforming codebook design for temporally correlated fading channels",
+                "year": 2008,
+                "venue": "2008 46th Annual Allerton Conference on Communication, Control, and Computing",
+                "citation_count": 2,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145866542",
+                        "name": "Hong Wan"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ba7fcbed39cc834d8cafe2b1b98668dee722ce9",
+                "title": "Application of Nonbinary LDPC Cycle Codes to MIMO Channels",
+                "year": 2008,
+                "venue": "IEEE Transactions on Wireless Communications",
+                "citation_count": 45,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "87c4aaab131eb3763bbf13df229c4a755e177a35",
+                "title": "Optimality of beamforming in MIMO multi-access channels via virtual representation",
+                "year": 2008,
+                "venue": "2008 IEEE International Symposium on Information Theory",
+                "citation_count": 2,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145866542",
+                        "name": "Hong Wan"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "145097686",
+                        "name": "Yingbin Liang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e906d4d4ae93185fc10f4c96429e32bd38626d09",
+                "title": "Low-Complexity Hybrid QRD-MCMC MIMO Detection",
+                "year": 2008,
+                "venue": "IEEE GLOBECOM 2008 - 2008 IEEE Global Telecommunications Conference",
+                "citation_count": 14,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    },
+                    {
+                        "s2_author_id": "40607323",
+                        "name": "K. Teo"
+                    },
+                    {
+                        "s2_author_id": "3398800",
+                        "name": "Jinyun Zhang"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "13e998af3d9a3c146b8dab62236203f661d6d011",
+                "title": "Design of Nonbinary Quasi-Cyclic LDPC Cycle Codes",
+                "year": 2007,
+                "venue": "2007 IEEE Information Theory Workshop",
+                "citation_count": 31,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1eb3dd28dca2000293e5b74da3ee0fb3b539c977",
+                "title": "Design of Nonbinary LDPC Codes over GF(q) for Multiple-Antenna Transmission",
+                "year": 2006,
+                "venue": "IEEE Military Communications Conference",
+                "citation_count": 25,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a168668c77ca6ca8729bd23d093236f4aff2f645",
+                "title": "WLC45-2: Application of Nonbinary LDPC Codes for Communication over Fading Channels Using Higher Order Modulations",
+                "year": 2006,
+                "venue": "IEEE Globecom 2006",
+                "citation_count": 24,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2ca29edf8458760c39f00111291d8205ede9f05e",
+                "title": "Noncoherent detection based on Markov Chain Monte Carlo methods for block fading channels",
+                "year": 2005,
+                "venue": "GLOBECOM '05. IEEE Global Telecommunications Conference, 2005.",
+                "citation_count": 3,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "120851185",
+                        "name": "Ronghui Peng"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "657cc1d7606a1878e431a2c0bc28e71227e0facc",
+                "title": "On performance of sphere decoding and Markov chain Monte Carlo detection methods",
+                "year": 2005,
+                "venue": "IEEE 6th Workshop on Signal Processing Advances in Wireless Communications, 2005.",
+                "citation_count": 11,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47297245",
+                        "name": "Haidong Zhu"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cfc7c62848486ec99d5a74a08c976da9f2615d20",
+                "title": "Optimal power control for multiple access channel with peak and average power constraints",
+                "year": 2005,
+                "venue": "2005 International Conference on Wireless Networks, Communications and Mobile Computing",
+                "citation_count": 7,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "46396256",
+                        "name": "Yanzhu Lin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e208fb3e20fa5c74da2dc839e1c9820b8683f1f4",
+                "title": "On performance of sphere decoding and Markov chain Monte Carlo detection methods",
+                "year": 2005,
+                "venue": "IEEE Signal Processing Letters",
+                "citation_count": 73,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47297245",
+                        "name": "Haidong Zhu"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e4efd9c5b215deabac753b99481758d9686edd8c",
+                "title": "Capacity-approaching LDPC codes based on Markov Chain Monte Carlo MIMO detection",
+                "year": 2005,
+                "venue": "IEEE 6th Workshop on Signal Processing Advances in Wireless Communications, 2005.",
+                "citation_count": 5,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    },
+                    {
+                        "s2_author_id": "2394479498",
+                        "name": "Alexei Ashikhmin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "06cca7d95a5ead25994bb542ca4ff7613a8157ab",
+                "title": "Towards Shannon-theoretic limits on wireless time-varying channels",
+                "year": 2004,
+                "venue": "First International Symposium on Control, Communications and Signal Processing, 2004.",
+                "citation_count": 2,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37901714",
+                        "name": "N. Jacobsen"
+                    },
+                    {
+                        "s2_author_id": "2007516",
+                        "name": "G. Barriac"
+                    },
+                    {
+                        "s2_author_id": "2587162",
+                        "name": "Upamanyu Madhow"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "7715701",
+                        "name": "R. Koetter"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53f4b4de5160f3e34a91f07a00ddc1455613840b",
+                "title": "On fixed input distributions for noncoherent communication over high-SNR Rayleigh-fading channels",
+                "year": 2004,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 44,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1741615",
+                        "name": "B. Hajek"
+                    },
+                    {
+                        "s2_author_id": "7715701",
+                        "name": "R. Koetter"
+                    },
+                    {
+                        "s2_author_id": "2587162",
+                        "name": "Upamanyu Madhow"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d44132bef863101b5446e61dc2717a2ba09542b5",
+                "title": "Capacity of pilot-aided MIMO communication systems",
+                "year": 2004,
+                "venue": "International Symposium onInformation Theory, 2004. ISIT 2004. Proceedings.",
+                "citation_count": 4,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47297245",
+                        "name": "Haidong Zhu"
+                    },
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1398220613",
+                        "name": "B. Farhang-Boroujeny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7357c31e083786d0cb044bc28c0e18173b213f61",
+                "title": "Joint noncoherent demodulation and decoding for the block fading channel: a practical framework for approaching Shannon capacity",
+                "year": 2003,
+                "venue": "IEEE Transactions on Communications",
+                "citation_count": 116,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "7715701",
+                        "name": "R. Koetter"
+                    },
+                    {
+                        "s2_author_id": "2587162",
+                        "name": "Upamanyu Madhow"
+                    },
+                    {
+                        "s2_author_id": "70522147",
+                        "name": "D. Agrawal"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7bd40b22e20716b1648b23ee4701118c2b7d58c9",
+                "title": "Noncoherent Communication Over Fading Channels",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6fb3cfb56c23efcb9209d0858c39b04c93ba91e9",
+                "title": "Convergence analyses and comparisons of Markov chain Monte Carlo algorithms in digital communications",
+                "year": 2002,
+                "venue": "IEEE Transactions on Signal Processing",
+                "citation_count": 88,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2234974904",
+                        "name": "Jun S. Liu"
+                    },
+                    {
+                        "s2_author_id": "47119575",
+                        "name": "Xiaodong Wang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e46610e07d226e5554b26156b5f324edf5a1ab8",
+                "title": "Admission control and resource allocation for DS-CDMA networks with multiple traffic classes",
+                "year": 2000,
+                "venue": "2000 IEEE International Symposium on Information Theory (Cat. No.00CH37060)",
+                "citation_count": 1,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "2257180983",
+                        "name": "U. Madhow"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e98c7a60495fe4f2b3f99530e5b326e1e61789aa",
+                "title": "Value iteration and optimization of multiclass queueing networks",
+                "year": 1998,
+                "venue": "Proceedings of the 37th IEEE Conference on Decision and Control (Cat. No.98CH36171)",
+                "citation_count": 95,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2185716260",
+                        "name": "Rong-Rong Chen"
+                    },
+                    {
+                        "s2_author_id": "1695337",
+                        "name": "Sean P. Meyn"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "14336819",
+                "name": "Joohyun Cho"
+            },
+            {
+                "s2_author_id": "2116999245",
+                "name": "Xiang Huang"
+            },
+            {
+                "s2_author_id": "153254951",
+                "name": "Nicholas Woolsey"
+            },
+            {
+                "s2_author_id": "2120024854",
+                "name": "Joerg Kliewer"
+            },
+            {
+                "s2_author_id": "2080802",
+                "name": "Mingyue Ji"
+            },
+            {
+                "s2_author_id": "2229272284",
+                "name": "S. HashemizadehKolowri"
+            },
+            {
+                "s2_author_id": "2510962",
+                "name": "G. Adluru"
+            },
+            {
+                "s2_author_id": "48225398",
+                "name": "D. Dean"
+            },
+            {
+                "s2_author_id": "32819180",
+                "name": "E. Wilde"
+            },
+            {
+                "s2_author_id": "2279230443",
+                "name": "A. Alexander"
+            },
+            {
+                "s2_author_id": "2099612",
+                "name": "E. DiBella"
+            },
+            {
+                "s2_author_id": "2122859799",
+                "name": "Kazem Hashemizadeh"
+            },
+            {
+                "s2_author_id": "2220666129",
+                "name": "Xingyue Wang"
+            },
+            {
+                "s2_author_id": "2110272622",
+                "name": "Jiayi Wang"
+            },
+            {
+                "s2_author_id": "50695457",
+                "name": "Shiqiang Wang"
+            },
+            {
+                "s2_author_id": "5527319",
+                "name": "L. Ying"
+            },
+            {
+                "s2_author_id": "35284389",
+                "name": "E. Hsu"
+            },
+            {
+                "s2_author_id": "2808820",
+                "name": "Xuehong Mao"
+            },
+            {
+                "s2_author_id": "2282441471",
+                "name": "Seyyedkazem Hashemizadehkolowri"
+            },
+            {
+                "s2_author_id": "1398220613",
+                "name": "B. Farhang-Boroujeny"
+            },
+            {
+                "s2_author_id": "32317918",
+                "name": "Jonathan C. Hedstrom"
+            },
+            {
+                "s2_author_id": "2602220",
+                "name": "C. Yuen"
+            },
+            {
+                "s2_author_id": "1684771",
+                "name": "G. Caire"
+            },
+            {
+                "s2_author_id": "144494246",
+                "name": "A. Molisch"
+            },
+            {
+                "s2_author_id": "1683047",
+                "name": "Ahmad Rezazadehreyhani"
+            },
+            {
+                "s2_author_id": "1686587",
+                "name": "Arman Farhang"
+            },
+            {
+                "s2_author_id": "34951824",
+                "name": "P. Amini"
+            },
+            {
+                "s2_author_id": "37566117",
+                "name": "H. She"
+            },
+            {
+                "s2_author_id": "145768550",
+                "name": "D. Liang"
+            },
+            {
+                "s2_author_id": "3042581",
+                "name": "Yuchou Chang"
+            },
+            {
+                "s2_author_id": "6003757",
+                "name": "E. D. Bella"
+            },
+            {
+                "s2_author_id": "4461369",
+                "name": "M. Schabel"
+            },
+            {
+                "s2_author_id": "2120099632",
+                "name": "Xin Liu"
+            },
+            {
+                "s2_author_id": "145866542",
+                "name": "Hong Wan"
+            },
+            {
+                "s2_author_id": "1789522",
+                "name": "J. Choi"
+            },
+            {
+                "s2_author_id": "39730113",
+                "name": "A. Singer"
+            },
+            {
+                "s2_author_id": "1757345",
+                "name": "J. Preisig"
+            },
+            {
+                "s2_author_id": "40607323",
+                "name": "K. Teo"
+            },
+            {
+                "s2_author_id": "1771676",
+                "name": "A. Chockalingam"
+            },
+            {
+                "s2_author_id": "143668698",
+                "name": "G. Leus"
+            },
+            {
+                "s2_author_id": "3340861",
+                "name": "R. Raheli"
+            },
+            {
+                "s2_author_id": "145097686",
+                "name": "Yingbin Liang"
+            },
+            {
+                "s2_author_id": "2081027734",
+                "name": "Chung Him"
+            },
+            {
+                "s2_author_id": "2072081952",
+                "name": "G. Yuen"
+            },
+            {
+                "s2_author_id": "120851185",
+                "name": "Ronghui Peng"
+            },
+            {
+                "s2_author_id": "1745652",
+                "name": "A. Ashikhmin"
+            },
+            {
+                "s2_author_id": "143939025",
+                "name": "S. Akoum"
+            },
+            {
+                "s2_author_id": "3212449",
+                "name": "E. Azarnasab"
+            },
+            {
+                "s2_author_id": "2265900359",
+                "name": "Zhifeng Tao"
+            },
+            {
+                "s2_author_id": "3398800",
+                "name": "Jinyun Zhang"
+            },
+            {
+                "s2_author_id": "47297245",
+                "name": "Haidong Zhu"
+            },
+            {
+                "s2_author_id": "46396256",
+                "name": "Yanzhu Lin"
+            },
+            {
+                "s2_author_id": "2394479498",
+                "name": "Alexei Ashikhmin"
+            },
+            {
+                "s2_author_id": "37901714",
+                "name": "N. Jacobsen"
+            },
+            {
+                "s2_author_id": "2007516",
+                "name": "G. Barriac"
+            },
+            {
+                "s2_author_id": "2587162",
+                "name": "Upamanyu Madhow"
+            },
+            {
+                "s2_author_id": "7715701",
+                "name": "R. Koetter"
+            },
+            {
+                "s2_author_id": "1741615",
+                "name": "B. Hajek"
+            },
+            {
+                "s2_author_id": "70522147",
+                "name": "D. Agrawal"
+            },
+            {
+                "s2_author_id": "2234974904",
+                "name": "Jun S. Liu"
+            },
+            {
+                "s2_author_id": "47119575",
+                "name": "Xiaodong Wang"
+            },
+            {
+                "s2_author_id": "2257180983",
+                "name": "U. Madhow"
+            },
+            {
+                "s2_author_id": "1695337",
+                "name": "Sean P. Meyn"
+            }
+        ],
+        "total_co_authors": 63,
+        "papers_retrieved": 82
+    }
+}

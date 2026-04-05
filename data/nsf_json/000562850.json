@@ -1,0 +1,3801 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000562850",
+        "name": "Andreas Haeberlen",
+        "primary_affiliation": "University of Pennsylvania",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Pennsylvania"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "PA"
+        ],
+        "perf_cities": [
+            "PHILADELPHIA"
+        ],
+        "org_names": [
+            "University of Pennsylvania"
+        ],
+        "org_ueis": [
+            "GM1XX56LEP58"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "ahae@cis.upenn.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2452779",
+                "title": "PDASP Track 2: TIDES - Building a Trusted Integration Data Exchange System",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-10-01",
+                "exp_date": "2028-09-30",
+                "award_amount": 1297636.0,
+                "total_amount": 1297636.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000811627",
+                    "000577652",
+                    "000947824",
+                    "0000A0645"
+                ],
+                "program_elements": [
+                    "TIP-CHIPS KTA-8 Data-Cybrsecur"
+                ],
+                "program_codes": [
+                    "318Y00"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "TIP",
+                "div_abbr": "ITE",
+                "nsf_directorate": null,
+                "fund_division": "Innovation and Technology Ecosystems",
+                "cfda_num": "47.084",
+                "po_name": "Jemin George",
+                "keywords": [
+                    "integration",
+                    "privacy",
+                    "government",
+                    "organizations",
+                    "regulations",
+                    "trusted",
+                    "exchange",
+                    "information",
+                    "public",
+                    "services"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000947824",
+            "000811627",
+            "000577652",
+            "0000A0645"
+        ],
+        "program_elements": [
+            "TIP-CHIPS KTA-8 Data-Cybrsecur"
+        ],
+        "program_codes": [
+            "318Y00"
+        ],
+        "program_references": [],
+        "program_ref_codes": [],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "TIP"
+        ],
+        "div_abbrs": [
+            "ITE"
+        ],
+        "fund_divisions": [
+            "Innovation and Technology Ecosystems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.084"
+        ],
+        "program_officers": [
+            "Jemin George"
+        ],
+        "keywords": [
+            "integration",
+            "privacy",
+            "government",
+            "organizations",
+            "regulations",
+            "trusted",
+            "exchange",
+            "information",
+            "public",
+            "services",
+            "sensitive",
+            "secure",
+            "sharing",
+            "through",
+            "preserving",
+            "platform",
+            "healthcare",
+            "important",
+            "development",
+            "health"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.38
+    },
+    "s2_profile": {
+        "s2_author_id": "1719236",
+        "name": "Andreas Haeberlen",
+        "affiliations": [],
+        "paper_count": 101,
+        "citation_count": 6262,
+        "h_index": 36,
+        "papers": [
+            {
+                "s2_paper_id": "2c3f256695ed45668e6d373ab173a97909c0e4de",
+                "title": "Mycelium: Large-Scale Distributed Graph Queries with Differential Privacy",
+                "year": 2021,
+                "venue": "Symposium on Operating Systems Principles",
+                "citation_count": 40,
+                "reference_count": 87,
+                "abstract": "This paper introduces Mycelium, the first system to process differentially private queries over large graphs that are distributed across millions of user devices. Such graphs occur, for instance, when tracking the spread of diseases or malware. Today, the only practical way to query such graphs is to upload them to a central aggregator, which requires a great deal of trust from users and rules out certain types of studies entirely. With Mycelium, users' private data never leaves their personal devices unencrypted, and each user receives strong privacy guarantees. Mycelium does require the help of a central aggregator with access to a data center, but the aggregator merely facilitates the computation by providing bandwidth and computation power; it never learns the topology of the graph or the underlying data. Mycelium accomplishes this with a combination of homomorphic encryption, a verifiable secret redistribution scheme, and a mix network based on telescoping circuits. Our evaluation shows that Mycelium can answer a range of different questions from the medical literature with millions of devices.",
+                "authors": [
+                    {
+                        "s2_author_id": "119668161",
+                        "name": "Edo Roth"
+                    },
+                    {
+                        "s2_author_id": "2130040304",
+                        "name": "Karan Newatia"
+                    },
+                    {
+                        "s2_author_id": "2140009483",
+                        "name": "Ke Zhong"
+                    },
+                    {
+                        "s2_author_id": "143857631",
+                        "name": "Sebastian Angel"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "62e6c1f40d516cd720e91c6d3e4c755861569a52",
+                "title": "REBOUND: defending distributed systems against attacks with bounded-time recovery",
+                "year": 2021,
+                "venue": "European Conference on Computer Systems",
+                "citation_count": 7,
+                "reference_count": 126,
+                "abstract": "This paper shows how to use bounded-time recovery (BTR) to defend distributed systems against non-crash faults and attacks. Unlike many existing fault-tolerance techniques, BTR does not attempt to completely mask all symptoms of a fault; instead, it ensures that the system returns to the correct behavior within a bounded amount of time. This weaker guarantee is sufficient, e.g., for many cyber-physical systems, where physical properties - such as inertia and thermal capacity - prevent quick state changes and thus limit the damage that can result from a brief period of undefined behavior. We present an algorithm called REBOUND that can provide BTR for the Byzantine fault model. REBOUND works by detecting faults and then reconfiguring the system to exclude the faulty nodes. This supports very fine-grained responses to faults: for instance, the system can move or replace existing tasks, or drop less critical tasks entirely to conserve resources. REBOUND can take useful actions even when a majority of the nodes is compromised, and it requires less redundancy than full fault-tolerance.",
+                "authors": [
+                    {
+                        "s2_author_id": "47716590",
+                        "name": "N. Gandhi"
+                    },
+                    {
+                        "s2_author_id": "119668161",
+                        "name": "Edo Roth"
+                    },
+                    {
+                        "s2_author_id": "2080044923",
+                        "name": "Brian Sandler"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2507771",
+                        "name": "L. T. Phan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6f9b0b5a4df790a63510094518a43b058f3efa16",
+                "title": "Do Not Overpay for Fault Tolerance!",
+                "year": 2021,
+                "venue": "IEEE Real Time Technology and Applications Symposium",
+                "citation_count": 11,
+                "reference_count": 63,
+                "abstract": "In this paper, we argue that distributed real-time and embedded systems sometimes \u201coverpay\u201d for fault tolerance, by using a protocol that is more powerful than what is actually needed, or by failing to take advantage of unique features in these systems. As a result, these systems sometimes perform more computation or communication than is strictly necessary, or they can be unnecessarily complex, and thus more difficult to analyze. We take a look at the design space for two common problems, broadcast and consensus, and we show that, in a number of scenarios that would be common in real-time systems, these problems have trivial solutions. We then examine two solutions from the literature and propose alternatives that are substantially simpler, less expensive, and more reliable.",
+                "authors": [
+                    {
+                        "s2_author_id": "119668161",
+                        "name": "Edo Roth"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a6db9ac7cbe9d35273aef3eb1c658e881fa19b35",
+                "title": "DNA: Dynamic Resource Allocation for Soft Real-Time Multicore Systems",
+                "year": 2021,
+                "venue": "IEEE Real Time Technology and Applications Symposium",
+                "citation_count": 25,
+                "reference_count": 78,
+                "abstract": "Modern latency-sensitive and real-time systems often use multi-core platforms; thus, tasks on different cores share certain hardware resources, such as the memory bus and certain cache levels. This has two undesirable consequences: (1) tasks can interfere With each other, causing high latency for the system as a whole, and (2) it becomes difficult to meet deadlines, since the worst-case timing of a given task depends on all the tasks it might have to compete with. Static partitioning isolates tasks from each other by allocating a certain fraction of the resources to each; however, many tasks execute in different phases (e.g., memory-intensive and CPU-intensive) that have different requirements. Thus, system designers are left with a choice between overprovisioning, based on the most demanding phase, or suboptimal performance.In this paper, we propose a pair of techniques, called DNA and DADNA, to address the above challenge. DNA increases throughput and decreases latency, by building an execution profile of each task to identify the phases, and then dynamically allocating resources based on which task can benefit the most; DADNA further adds support for soft real-time workloads by taking deadlines into account. We have built a prototype of both techniques in the Xen hypervisor; our experimental results show that, compared to a state-of-the-art solution, DNA and DADNA can substantially improve schedulability, reduce job deadline miss ratios, and cut latencies by more than a factor of two even in extremely overloaded situations.",
+                "authors": [
+                    {
+                        "s2_author_id": "152819899",
+                        "name": "Robert Gifford"
+                    },
+                    {
+                        "s2_author_id": "47716590",
+                        "name": "N. Gandhi"
+                    },
+                    {
+                        "s2_author_id": "2507771",
+                        "name": "L. T. Phan"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "94ed2d74b746c66aef3f9b2adedfe8a2eeb2bf15",
+                "title": "Bounded-time recovery for distributed real-time systems",
+                "year": 2020,
+                "venue": "IEEE Real Time Technology and Applications Symposium",
+                "citation_count": 10,
+                "reference_count": 44,
+                "abstract": "This paper explores bounded-time recovery (BTR), a new approach to making cyber-physical systems robust to crash faults. Rather than trying to mask the symptoms of a fault with massive redundancy, BTR detects faults at runtime and enables the system to recover from them \u2013 e.g., by transferring tasks to other nodes that are still working correctly. When a fault does occur, there is a brief period of instability during which the system can produce incorrect outputs. However, many cyber-physical systems have physical properties \u2013 such as inertia or thermal capacity \u2013 that limit the rate at which the state of the system can change; thus, a very brief outage is often acceptable, as long as its duration can be bounded, to perhaps a few milliseconds.BTR has some interesting properties: for instance, it has a much lower overhead than Paxos, and, unlike Paxos, it can take useful actions even when the system partitions or a majority of the nodes fails. However, it also poses a very unusual scheduling problem that involves creating sets of interrelated schedules for different failure modes. We present a scheduling algorithm called Cascade that can quickly find suitable schedules. Using a prototype implementation, we show that Cascade scales far better than a baseline algorithm and reduces the scheduling time from hours to a few seconds, without sacrificing quality.",
+                "authors": [
+                    {
+                        "s2_author_id": "47716590",
+                        "name": "N. Gandhi"
+                    },
+                    {
+                        "s2_author_id": "119668161",
+                        "name": "Edo Roth"
+                    },
+                    {
+                        "s2_author_id": "152819899",
+                        "name": "Robert Gifford"
+                    },
+                    {
+                        "s2_author_id": "2507771",
+                        "name": "L. T. Phan"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "af88d623c2e3cbb1eefd6bf61a155bce27545e2a",
+                "title": "Testing differential privacy with dual interpreters",
+                "year": 2020,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 16,
+                "reference_count": 49,
+                "abstract": "Applying differential privacy at scale requires convenient ways to check that programs computing with sensitive data appropriately preserve privacy. We propose here a fully automated framework for testing differential privacy, adapting a well-known \u201cpointwise\u201d technique from informal proofs of differential privacy. Our framework, called DPCheck, requires no programmer annotations, handles all previously verified or tested algorithms, and is the first fully automated framework to distinguish correct and buggy implementations of PrivTree, a probabilistically terminating algorithm that has not previously been mechanically checked. We analyze the probability of DPCheck mistakenly accepting a non-private program and prove that, theoretically, the probability of false acceptance can be made exponentially small by suitable choice of test size. We demonstrate DPCheck\u2019s utility empirically by implementing all benchmark algorithms from prior work on mechanical verification of differential privacy, plus several others and their incorrect variants, and show DPCheck accepts the correct implementations and rejects the incorrect variants. We also demonstrate how DPCheck can be deployed in a practical workflow to test differentially privacy for the 2020 US Census Disclosure Avoidance System (DAS).",
+                "authors": [
+                    {
+                        "s2_author_id": "79994260",
+                        "name": "Hengchu Zhang"
+                    },
+                    {
+                        "s2_author_id": "119668161",
+                        "name": "Edo Roth"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    },
+                    {
+                        "s2_author_id": "1682008",
+                        "name": "Aaron Roth"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c8ef576e97e0feb604ca16e1df2a64db67af9c89",
+                "title": "Orchard: Differentially Private Analytics at Scale",
+                "year": 2020,
+                "venue": "USENIX Symposium on Operating Systems Design and Implementation",
+                "citation_count": 40,
+                "reference_count": 93,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "119668161",
+                        "name": "Edo Roth"
+                    },
+                    {
+                        "s2_author_id": "79994260",
+                        "name": "Hengchu Zhang"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "377c9192c594ac68ce81936e4f3939e76515af5d",
+                "title": "Prototype Implementation of Fuzzi",
+                "year": 2019,
+                "venue": "Artifact Digital Object Group",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "79994260",
+                        "name": "Hengchu Zhang"
+                    },
+                    {
+                        "s2_author_id": "119668161",
+                        "name": "Edo Roth"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2080490402",
+                        "name": "Benjamin C. Pierce"
+                    },
+                    {
+                        "s2_author_id": "2134931587",
+                        "name": "Aaron Roth"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39c5f5a592be74d0ffa1f1c349a8cb4647dd36b2",
+                "title": "Program for TPDP 2016",
+                "year": 2019,
+                "venue": "Journal of Privacy and Confidentiality",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "The Theory and Practice of Differential Privacy workshop (TPDP 2016) was held in New York City, NY, USA on 23 June 2016 as part of ICML 2016. This is the program.",
+                "authors": [
+                    {
+                        "s2_author_id": "145501438",
+                        "name": "G. Barthe"
+                    },
+                    {
+                        "s2_author_id": "1720480",
+                        "name": "Christos Dimitrakakis"
+                    },
+                    {
+                        "s2_author_id": "1759699",
+                        "name": "Marco Gaboardi"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1682008",
+                        "name": "Aaron Roth"
+                    },
+                    {
+                        "s2_author_id": "40038267",
+                        "name": "A. Slavkovic"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "650de714b28fca56b5f46d73c1aa266d1dd58c9d",
+                "title": "Honeycrisp: large-scale differentially private aggregation without a trusted core",
+                "year": 2019,
+                "venue": "Symposium on Operating Systems Principles",
+                "citation_count": 72,
+                "reference_count": 83,
+                "abstract": "Recently, a number of systems have been deployed that gather sensitive statistics from user devices while giving differential privacy guarantees. One prominent example is the component in Apple's macOS and iOS devices that collects information about emoji usage and new words. However, these systems have been criticized for making unrealistic assumptions, e.g., by creating a very high \"privacy budget\" for answering queries, and by replenishing this budget every day, which results in a high worst-case privacy loss. However, it is not obvious whether such assumptions can be avoided if one requires a strong threat model and wishes to collect data periodically, instead of just once. In this paper, we show that, essentially, it is possible to have one's cake and eat it too. We describe a system called Honeycrisp whose privacy cost depends on how often the data changes, and not on how often a query is asked. Thus, if the data is relatively stable (as is likely the case, e.g., with emoji and word usage), Honeycrisp can answer periodic queries for many years, as long as the underlying data does not change too often. Honeycrisp accomplishes this by using a) the sparse-vector technique, and b) a combination of cryptographic techniques to enable global differential privacy without a trusted party. Using a prototype implementation, we show that Honeycrisp is efficient and can scale to large deployments.",
+                "authors": [
+                    {
+                        "s2_author_id": "119668161",
+                        "name": "Edo Roth"
+                    },
+                    {
+                        "s2_author_id": "88444989",
+                        "name": "D. Noble"
+                    },
+                    {
+                        "s2_author_id": "40621108",
+                        "name": "B. Falk"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7903612c47389424626ece4b83fc4818c2ca2d78",
+                "title": "The Synchronous Data Center",
+                "year": 2019,
+                "venue": "USENIX Workshop on Hot Topics in Operating Systems",
+                "citation_count": 13,
+                "reference_count": 52,
+                "abstract": "Today, distributed systems are typically designed to be largely asynchronous. Designers assume that the network can drop or significantly delay messages at unpredictable times, that there is no way to know how quickly a node might process a message, or how soon it might respond, and that the clocks of different nodes are at most loosely synchronized. These assumptions are certainly safe, but they come at a price: many applications really do need predictable performance, which, on top of an asynchronous system, has to be approximated at great cost and with lots of redundancy, and many distributed protocols for asynchronous systems are much more complex and expensive than their synchronous counterparts. The goal of this paper is to start a discussion about whether the asynchronous model is (still) the right choice for most distributed systems, especially ones that belong to a single administrative domain. We argue that 1) by using ideas from the CPS domain, it is technically feasible to build datacenter-scale systems that are fully synchronous, and that 2) such systems would have several interesting advantages over current designs.",
+                "authors": [
+                    {
+                        "s2_author_id": "143964310",
+                        "name": "Tian Yang"
+                    },
+                    {
+                        "s2_author_id": "152819899",
+                        "name": "Robert Gifford"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2507771",
+                        "name": "L. T. Phan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a47c9c539e71d25facb8b27d7b1b783e551ec1a3",
+                "title": "Fuzzi: a three-level logic for differential privacy",
+                "year": 2019,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 25,
+                "reference_count": 52,
+                "abstract": "Curators of sensitive datasets sometimes need to know whether queries against the data are differentially private. Two sorts of logics have been proposed for checking this property: (1) type systems and other static analyses, which fully automate straightforward reasoning with concepts like \u201cprogram sensitivity\u201d and \u201cprivacy loss,\u201d and (2) full-blown program logics such as apRHL (an approximate, probabilistic, relational Hoare logic), which support more flexible reasoning about subtle privacy-preserving algorithmic techniques but offer only minimal automation. We propose a three-level logic for differential privacy in an imperative setting and present a prototype implementation called Fuzzi. Fuzzi\u2019s lowest level is a general-purpose logic; its middle level is apRHL; and its top level is a novel sensitivity logic adapted from the linear-logic-inspired type system of Fuzz, a differentially private functional language. The key novelty is a high degree of integration between the sensitivity logic and the two lower-level logics: the judgments and proofs of the sensitivity logic can be easily translated into apRHL; conversely, privacy properties of key algorithmic building blocks can be proved manually in apRHL and the base logic, then packaged up as typing rules that can be applied by a checker for the sensitivity logic to automatically construct privacy proofs for composite programs of arbitrary size. We demonstrate Fuzzi\u2019s utility by implementing four different private machine-learning algorithms and showing that Fuzzi\u2019s checker is able to derive tight sensitivity bounds.",
+                "authors": [
+                    {
+                        "s2_author_id": "79994260",
+                        "name": "Hengchu Zhang"
+                    },
+                    {
+                        "s2_author_id": "119668161",
+                        "name": "Edo Roth"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    },
+                    {
+                        "s2_author_id": "1682008",
+                        "name": "Aaron Roth"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c14e96862d8cfd05187e42222ecf2cfd8c55e3ec",
+                "title": "Hermetic : Privacy-preserving distributed analytics without ( most ) side channels",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 15,
+                "reference_count": 85,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2153556346",
+                        "name": "Min Xu"
+                    },
+                    {
+                        "s2_author_id": "2798398",
+                        "name": "Antonis Papadimitriou"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "32449042",
+                        "name": "Ariel J. Feldman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "284663858c850a794c3f6bf549343f6ee37deb1f",
+                "title": "DeDoS: Defusing DoS with Dispersion Oriented Software",
+                "year": 2018,
+                "venue": "Asia-Pacific Computer Systems Architecture Conference",
+                "citation_count": 13,
+                "reference_count": 38,
+                "abstract": "This paper presents DeDoS, a novel platform for mitigating asymmetric DoS attacks. These attacks are particularly challenging since even attackers with limited resources can exhaust the resources of well-provisioned servers. DeDoS offers a framework to deploy code in a highly modular fashion. If part of the application stack is experiencing a DoS attack, DeDoS can massively replicate only the affected component, potentially across many machines. This allows scaling of the impacted resource separately from the rest of the application stack, so that resources can be precisely added where needed to combat the attack. Our evaluation results show that DeDoS incurs reasonable overheads in normal operations, and that it significantly outperforms standard replication techniques when defending against a range of asymmetric attacks.",
+                "authors": [
+                    {
+                        "s2_author_id": "23157728",
+                        "name": "Henri Maxime Demoulin"
+                    },
+                    {
+                        "s2_author_id": "1922276",
+                        "name": "Tavish Vaidya"
+                    },
+                    {
+                        "s2_author_id": "3043499",
+                        "name": "Isaac Pedisich"
+                    },
+                    {
+                        "s2_author_id": "113361988",
+                        "name": "Bob DiMaiolo"
+                    },
+                    {
+                        "s2_author_id": "2113338168",
+                        "name": "J. Qian"
+                    },
+                    {
+                        "s2_author_id": "144797719",
+                        "name": "C. Shah"
+                    },
+                    {
+                        "s2_author_id": "2145782537",
+                        "name": "Yuankai Zhang"
+                    },
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    },
+                    {
+                        "s2_author_id": "2507771",
+                        "name": "L. T. Phan"
+                    },
+                    {
+                        "s2_author_id": "12937996",
+                        "name": "M. Sherr"
+                    },
+                    {
+                        "s2_author_id": "1771025",
+                        "name": "C. Shields"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "35c9cffe91928d1817168b65641e3abd6c217adb",
+                "title": "Using Differential Privacy to Efficiently Mitigate Side Channels in Distributed Analytics",
+                "year": 2018,
+                "venue": "EuroSec@EuroSys",
+                "citation_count": 16,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2153556346",
+                        "name": "Min Xu"
+                    },
+                    {
+                        "s2_author_id": "2798398",
+                        "name": "Antonis Papadimitriou"
+                    },
+                    {
+                        "s2_author_id": "32449042",
+                        "name": "Ariel J. Feldman"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53c0617eb76ed39f3ba9f3a45374839d7904ef93",
+                "title": "Data Center Diagnostics with Network Provenance",
+                "year": 2018,
+                "venue": "IEEE Data Engineering Bulletin",
+                "citation_count": 2,
+                "reference_count": 60,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Chen Chen"
+                    },
+                    {
+                        "s2_author_id": "31682740",
+                        "name": "L. Loh"
+                    },
+                    {
+                        "s2_author_id": "47096190",
+                        "name": "Yang Wu"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "144191105",
+                        "name": "Limin Jia"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2820470f6eeb13a674d0b58e861c347c6e39a26a",
+                "title": "10 A Framework for Adaptive Di erential Privacy ( Extended Version )",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1403812511",
+                        "name": "Daniel Winograd-Cort"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1682008",
+                        "name": "Aaron Roth"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "580938cc3db160850d13c828df88f80ada71081f",
+                "title": "Automated Bug Removal for Software-Defined Networks",
+                "year": 2017,
+                "venue": "Symposium on Networked Systems Design and Implementation",
+                "citation_count": 44,
+                "reference_count": 68,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47096190",
+                        "name": "Yang Wu"
+                    },
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "893ddf95f69ae36272f5989322ac46984774c117",
+                "title": "DStress: Efficient Differentially Private Computations on Distributed Data",
+                "year": 2017,
+                "venue": "European Conference on Computer Systems",
+                "citation_count": 30,
+                "reference_count": 65,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2798398",
+                        "name": "Antonis Papadimitriou"
+                    },
+                    {
+                        "s2_author_id": "2348923",
+                        "name": "Arjun Narayan"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f65a500099254d76d6154ff6d31c99dc1f73dff",
+                "title": "Data Provenance at Internet Scale: Architecture, Experiences, and the Road Ahead",
+                "year": 2017,
+                "venue": "Conference on Innovative Data Systems Research",
+                "citation_count": 32,
+                "reference_count": 55,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "47096190",
+                        "name": "Yang Wu"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab7d85d6ae1e4810b86b148ae7099c87bb3fc351",
+                "title": "A Demonstration of the DeDoS Platform for Defusing Asymmetric DDoS Attacks in Data Centers",
+                "year": 2017,
+                "venue": "SIGCOMM Posters and Demos",
+                "citation_count": 4,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "23157728",
+                        "name": "Henri Maxime Demoulin"
+                    },
+                    {
+                        "s2_author_id": "1922276",
+                        "name": "Tavish Vaidya"
+                    },
+                    {
+                        "s2_author_id": "3043499",
+                        "name": "Isaac Pedisich"
+                    },
+                    {
+                        "s2_author_id": "2357970",
+                        "name": "Nik Sultana"
+                    },
+                    {
+                        "s2_author_id": "2153214631",
+                        "name": "Bowen Wang"
+                    },
+                    {
+                        "s2_author_id": "2113338168",
+                        "name": "J. Qian"
+                    },
+                    {
+                        "s2_author_id": "2145782537",
+                        "name": "Yuankai Zhang"
+                    },
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    },
+                    {
+                        "s2_author_id": "2507771",
+                        "name": "L. T. Phan"
+                    },
+                    {
+                        "s2_author_id": "12937996",
+                        "name": "M. Sherr"
+                    },
+                    {
+                        "s2_author_id": "1771025",
+                        "name": "C. Shields"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ac86f9143e1e2ef5428e8d838b9e2f217a14b3b4",
+                "title": "One Primitive to Diagnose Them All: Architectural Support for Internet Diagnostics",
+                "year": 2017,
+                "venue": "European Conference on Computer Systems",
+                "citation_count": 18,
+                "reference_count": 74,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b3811f2e886dda51e3512b4f3c9b0946986e5ed7",
+                "title": "A framework for adaptive differential privacy",
+                "year": 2017,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 50,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1403812511",
+                        "name": "Daniel Winograd-Cort"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1682008",
+                        "name": "Aaron Roth"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b67fe7c29a3721963380ae49ee5b140ef8888379",
+                "title": "A Framework for Adaptive Di erential Privacy",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1403812511",
+                        "name": "Daniel Winograd-Cort"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1682008",
+                        "name": "Aaron Roth"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2bc0028825b7f0f7fd0d9ff4de89b4d37c81911f",
+                "title": "Cloud-Based Secure Logger for Medical Devices",
+                "year": 2016,
+                "venue": "IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies",
+                "citation_count": 32,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110491386",
+                        "name": "Hung Nguyen"
+                    },
+                    {
+                        "s2_author_id": "2067656867",
+                        "name": "Bipeen Acharya"
+                    },
+                    {
+                        "s2_author_id": "39490362",
+                        "name": "Radoslav Ivanov"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2507771",
+                        "name": "L. T. Phan"
+                    },
+                    {
+                        "s2_author_id": "1681081",
+                        "name": "O. Sokolsky"
+                    },
+                    {
+                        "s2_author_id": "153623182",
+                        "name": "Jesse Walker"
+                    },
+                    {
+                        "s2_author_id": "4726675",
+                        "name": "James Weimer"
+                    },
+                    {
+                        "s2_author_id": "2054566581",
+                        "name": "William Hanson"
+                    },
+                    {
+                        "s2_author_id": "144637634",
+                        "name": "Insup Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2df8588e3965532903e3cd151e1d4eb5f609b4be",
+                "title": "The Good, the Bad, and the Differences: Better Network Diagnostics with Differential Provenance",
+                "year": 2016,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 84,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "47096190",
+                        "name": "Yang Wu"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b6fe6cb0043335bc6c640d8cc10d1511378db115",
+                "title": "Dispersing Asymmetric DDoS Attacks with SplitStack",
+                "year": 2016,
+                "venue": "ACM Workshop on Hot Topics in Networks",
+                "citation_count": 27,
+                "reference_count": 48,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "7671845",
+                        "name": "Akshay Sriraman"
+                    },
+                    {
+                        "s2_author_id": "1922276",
+                        "name": "Tavish Vaidya"
+                    },
+                    {
+                        "s2_author_id": "2145782537",
+                        "name": "Yuankai Zhang"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    },
+                    {
+                        "s2_author_id": "2507771",
+                        "name": "L. T. Phan"
+                    },
+                    {
+                        "s2_author_id": "12937996",
+                        "name": "M. Sherr"
+                    },
+                    {
+                        "s2_author_id": "1771025",
+                        "name": "C. Shields"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "efc794665fc439bc6b82f42f45e01a850a3d7179",
+                "title": "Private and Verifiable Interdomain Routing Decisions",
+                "year": 2016,
+                "venue": "IEEE/ACM Transactions on Networking",
+                "citation_count": 5,
+                "reference_count": 50,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7202338",
+                        "name": "Mingchen Zhao"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "2249087",
+                        "name": "Alexander J. T. Gurney"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2260080619",
+                        "name": "Micah Sherr"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1aa94aa0c5eba9fe773f70b1a9c47db401f5cb66",
+                "title": "Differential Provenance: Better Network Diagnostics with Reference Events",
+                "year": 2015,
+                "venue": "ACM Workshop on Hot Topics in Networks",
+                "citation_count": 21,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "47096190",
+                        "name": "Yang Wu"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "336bc3f9431a0c78084128552d9108d5af3a4a0f",
+                "title": "Fault Tolerance and the Five-Second Rule",
+                "year": 2015,
+                "venue": "USENIX Workshop on Hot Topics in Operating Systems",
+                "citation_count": 11,
+                "reference_count": 76,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "3331398",
+                        "name": "Hanjun Xiao"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2507771",
+                        "name": "L. T. Phan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "51d1cfdf9233cab9cc40f72bf049c2ad2f36082c",
+                "title": "Automated Network Repair with Meta Provenance",
+                "year": 2015,
+                "venue": "ACM Workshop on Hot Topics in Networks",
+                "citation_count": 28,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47096190",
+                        "name": "Yang Wu"
+                    },
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7dc988c4a5500b5e5479a7fcf6b994067bb79c3b",
+                "title": "Reliable Client Accounting for P 2 P-Infrastructure Hybrids Paarijaat Aditya",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7202338",
+                        "name": "Mingchen Zhao"
+                    },
+                    {
+                        "s2_author_id": "47906014",
+                        "name": "Yin Lin"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    },
+                    {
+                        "s2_author_id": "1711252",
+                        "name": "B. Maggs"
+                    },
+                    {
+                        "s2_author_id": "1726790",
+                        "name": "Bill Wishon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d762c3b48d3949dc2cd803d955c3c983e7aa16ba",
+                "title": "Verifiable differential privacy",
+                "year": 2015,
+                "venue": "European Conference on Computer Systems",
+                "citation_count": 46,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2348923",
+                        "name": "Arjun Narayan"
+                    },
+                    {
+                        "s2_author_id": "32449042",
+                        "name": "Ariel J. Feldman"
+                    },
+                    {
+                        "s2_author_id": "2798398",
+                        "name": "Antonis Papadimitriou"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "069103feb2d2d3f1b0115b484d5c2f978a983df0",
+                "title": "Diagnosing missing events in distributed systems with negative provenance",
+                "year": 2014,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 86,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47096190",
+                        "name": "Yang Wu"
+                    },
+                    {
+                        "s2_author_id": "7202338",
+                        "name": "Mingchen Zhao"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "25e8930dd98a3d9cff1c7154b2874148da597724",
+                "title": "Detecting Covert Timing Channels with Time-Deterministic Replay",
+                "year": 2014,
+                "venue": "USENIX Symposium on Operating Systems Design and Implementation",
+                "citation_count": 58,
+                "reference_count": 53,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "3331398",
+                        "name": "Hanjun Xiao"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4582c3da0c3ef13752314b8dbcad65563ed8e1a9",
+                "title": "Compute Globally, Act Locally: Protecting Federated Systems from Systemic Threats",
+                "year": 2014,
+                "venue": "Hot Topics in System Dependability",
+                "citation_count": 9,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2348923",
+                        "name": "Arjun Narayan"
+                    },
+                    {
+                        "s2_author_id": "2798398",
+                        "name": "Antonis Papadimitriou"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "54ae206d55191e920a891db3ace8726ba9d7fbe2",
+                "title": "Differential Privacy: An Economic Method for Choosing Epsilon",
+                "year": 2014,
+                "venue": "IEEE Computer Security Foundations Symposium",
+                "citation_count": 318,
+                "reference_count": 46,
+                "abstract": "Differential privacy is becoming a gold standard notion of privacy; it offers a guaranteed bound on loss of privacy due to release of query results, even under worst-case assumptions. The theory of differential privacy is an active research area, and there are now differentially private algorithms for a wide range of problems. However, the question of when differential privacy works in practice has received relatively little attention. In particular, there is still no rigorous method for choosing the key parameter \u03b5, which controls the crucial tradeoff between the strength of the privacy guarantee and the accuracy of the published results. In this paper, we examine the role of these parameters in concrete applications, identifying the key considerations that must be addressed when choosing specific values. This choice requires balancing the interests of two parties with conflicting objectives: the data analyst, who wishes to learn something abou the data, and the prospective participant, who must decide whether to allow their data to be included in the analysis. We propose a simple model that expresses this balance as formulas over a handful of parameters, and we use our model to choose \u03b5 on a series of simple statistical studies. We also explore a surprising insight: in some circumstances, a differentially private study can be more accurate than a non-private study for the same cost, under our model. Finally, we discuss the simplifying assumptions in our model and outline a research agenda for possible refinements.",
+                "authors": [
+                    {
+                        "s2_author_id": "39756252",
+                        "name": "Justin Hsu"
+                    },
+                    {
+                        "s2_author_id": "1759699",
+                        "name": "Marco Gaboardi"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "144335444",
+                        "name": "S. Khanna"
+                    },
+                    {
+                        "s2_author_id": "2348923",
+                        "name": "Arjun Narayan"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    },
+                    {
+                        "s2_author_id": "1682008",
+                        "name": "Aaron Roth"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cc7d7bac73b21a7859697bc83aa3ae91088aff8c",
+                "title": "Let SDN Be Your Eyes: Secure Forensics in Data Center Networks",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 80,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143799815",
+                        "name": "Adam Bates"
+                    },
+                    {
+                        "s2_author_id": "1784947",
+                        "name": "Kevin R. B. Butler"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "12937996",
+                        "name": "M. Sherr"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e7ed2f38cf9fdbf35f5ed02d0e1a383ae5f87d6",
+                "title": "Type-based Sensitivity Analysis",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1397413848",
+                        "name": "Loris D'antoni"
+                    },
+                    {
+                        "s2_author_id": "1759699",
+                        "name": "Marco Gaboardi"
+                    },
+                    {
+                        "s2_author_id": "3358936",
+                        "name": "E. J. G. Arias"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1ec8cda5ec0c5d45fdf4d30a22ea6f9320312746",
+                "title": "2 Linear Dependent Types and Sensitivity Analysis : DFuzz",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1759699",
+                        "name": "Marco Gaboardi"
+                    },
+                    {
+                        "s2_author_id": "3358936",
+                        "name": "E. J. G. Arias"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "39756252",
+                        "name": "Justin Hsu"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "44c1c0a0cf88884dc9c02282c7b896a0053b746f",
+                "title": "Sensitivity analysis using type-based constraints",
+                "year": 2013,
+                "venue": "FPCDSL '13",
+                "citation_count": 22,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1397413848",
+                        "name": "Loris D'antoni"
+                    },
+                    {
+                        "s2_author_id": "1759699",
+                        "name": "Marco Gaboardi"
+                    },
+                    {
+                        "s2_author_id": "3358936",
+                        "name": "E. J. G. Arias"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7e02625b984394490653733b18e4c100bb3ccf3d",
+                "title": "Towards privacy-preserving fault detection",
+                "year": 2013,
+                "venue": "Hot Topics in System Dependability",
+                "citation_count": 9,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2798398",
+                        "name": "Antonis Papadimitriou"
+                    },
+                    {
+                        "s2_author_id": "7202338",
+                        "name": "Mingchen Zhao"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a89c59ca0268cf58109018266abc963403848967",
+                "title": "TrustForge: Flexible access control for collaborative crowd-sourced environment",
+                "year": 2013,
+                "venue": "2013 Eleventh Annual Conference on Privacy, Security and Trust",
+                "citation_count": 8,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2153054301",
+                        "name": "Jian Chang"
+                    },
+                    {
+                        "s2_author_id": "116636973",
+                        "name": "Peter Gebhard"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1804315",
+                        "name": "Z. Ives"
+                    },
+                    {
+                        "s2_author_id": "144637634",
+                        "name": "Insup Lee"
+                    },
+                    {
+                        "s2_author_id": "1681081",
+                        "name": "O. Sokolsky"
+                    },
+                    {
+                        "s2_author_id": "1778547",
+                        "name": "K. Venkatasubramanian"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b268bf95c5248ed037ad93047d5277143ce9159d",
+                "title": "Answering why-not queries in software-defined networks with negative provenance",
+                "year": 2013,
+                "venue": "ACM Workshop on Hot Topics in Networks",
+                "citation_count": 22,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47096190",
+                        "name": "Yang Wu"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dede9b057f5dbd463e7f341bb96a04533284731b",
+                "title": "Peer-assisted content distribution in Akamai netsession",
+                "year": 2013,
+                "venue": "ACM/SIGCOMM Internet Measurement Conference",
+                "citation_count": 108,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7202338",
+                        "name": "Mingchen Zhao"
+                    },
+                    {
+                        "s2_author_id": "145433767",
+                        "name": "Paarijaat Aditya"
+                    },
+                    {
+                        "s2_author_id": "30894196",
+                        "name": "Ang Chen"
+                    },
+                    {
+                        "s2_author_id": "47906014",
+                        "name": "Yin Lin"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    },
+                    {
+                        "s2_author_id": "1711252",
+                        "name": "B. Maggs"
+                    },
+                    {
+                        "s2_author_id": "1726790",
+                        "name": "Bill Wishon"
+                    },
+                    {
+                        "s2_author_id": "48369038",
+                        "name": "Miroslav Ponec"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e55c12efb2542f5ef7db20434d8a8f967042bcd9",
+                "title": "Linear dependent types for differential privacy",
+                "year": 2013,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 204,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1759699",
+                        "name": "Marco Gaboardi"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "39756252",
+                        "name": "Justin Hsu"
+                    },
+                    {
+                        "s2_author_id": "2348923",
+                        "name": "Arjun Narayan"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4400c6f1ddab03e665a7832889204326bd52e822",
+                "title": "Querying Provenance for Ranking and Recommending",
+                "year": 2012,
+                "venue": "Workshop on the Theory and Practice of Provenance",
+                "citation_count": 13,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1804315",
+                        "name": "Z. Ives"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2056030560",
+                        "name": "Tao Feng"
+                    },
+                    {
+                        "s2_author_id": "2000882",
+                        "name": "Wolfgang Gatterbauer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "57ddb25201a4ac1ffbcfba8d1deba23061e69d3a",
+                "title": "Reliable Client Accounting for Hybrid Content-Distribution Networks",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 17,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145433767",
+                        "name": "Paarijaat Aditya"
+                    },
+                    {
+                        "s2_author_id": "7202338",
+                        "name": "Mingchen Zhao"
+                    },
+                    {
+                        "s2_author_id": "47906014",
+                        "name": "Yin Lin"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    },
+                    {
+                        "s2_author_id": "1711252",
+                        "name": "B. Maggs"
+                    },
+                    {
+                        "s2_author_id": "1726790",
+                        "name": "Bill Wishon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "65bd9e67f311a645d5a610d957427d697beb659e",
+                "title": "Distributed Time-aware Provenance",
+                "year": 2012,
+                "venue": "Proceedings of the VLDB Endowment",
+                "citation_count": 58,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "3122951",
+                        "name": "Suyog Mapara"
+                    },
+                    {
+                        "s2_author_id": "2115243164",
+                        "name": "Yiqing Ren"
+                    },
+                    {
+                        "s2_author_id": "48513301",
+                        "name": "Y. Li"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1804315",
+                        "name": "Z. Ives"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    },
+                    {
+                        "s2_author_id": "12937996",
+                        "name": "M. Sherr"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9ea9b1ac918ec5d00ff352bbb3d90c31752e5a7e",
+                "title": "Reliable Client Accounting for P2P-Infrastructure Hybrids",
+                "year": 2012,
+                "venue": "Symposium on Networked Systems Design and Implementation",
+                "citation_count": 30,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145433767",
+                        "name": "Paarijaat Aditya"
+                    },
+                    {
+                        "s2_author_id": "7202338",
+                        "name": "Mingchen Zhao"
+                    },
+                    {
+                        "s2_author_id": "47906014",
+                        "name": "Yin Lin"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    },
+                    {
+                        "s2_author_id": "1711252",
+                        "name": "B. Maggs"
+                    },
+                    {
+                        "s2_author_id": "1726790",
+                        "name": "Bill Wishon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a07b8ab5a85c8fc81a902d295e9c4e0dfe500e20",
+                "title": "Private and verifiable interdomain routing decisions",
+                "year": 2012,
+                "venue": "CCRV",
+                "citation_count": 1,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7202338",
+                        "name": "Mingchen Zhao"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "2249087",
+                        "name": "Alexander J. T. Gurney"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2260080619",
+                        "name": "Micah Sherr"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c64c6d4cbbd1cf7f35956549176d3b3955bac19d",
+                "title": "Private and verifiable interdomain routing decisions",
+                "year": 2012,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 54,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7202338",
+                        "name": "Mingchen Zhao"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "2249087",
+                        "name": "Alexander J. T. Gurney"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "12937996",
+                        "name": "M. Sherr"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f38de8df9624ca5ec14a991d9e8284d270c7a544",
+                "title": "DJoin: Differentially Private Join Queries over Distributed Databases",
+                "year": 2012,
+                "venue": "USENIX Symposium on Operating Systems Design and Implementation",
+                "citation_count": 133,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2348923",
+                        "name": "Arjun Narayan"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "03ee13cb88c950c12d060589cfd7cb71ea3f5a53",
+                "title": "Having your cake and eating it too: routing security with privacy protections",
+                "year": 2011,
+                "venue": "HotNets-X",
+                "citation_count": 28,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2249087",
+                        "name": "Alexander J. T. Gurney"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "12937996",
+                        "name": "M. Sherr"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a22cab633d63fe4698ced2822cdd19a8a37957c",
+                "title": "Towards Self-Explaining Networks",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "1772151",
+                        "name": "Qiong Fei"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    },
+                    {
+                        "s2_author_id": "12937996",
+                        "name": "M. Sherr"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "324c3d0acd0c21f0d12894536eaa3597576aae56",
+                "title": "Challenges in Experimenting with Botnet Detection Systems",
+                "year": 2011,
+                "venue": "CSET",
+                "citation_count": 67,
+                "reference_count": 55,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3076315",
+                        "name": "Adam J. Aviv"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "370c35e13f68557c92014c825deb7022c1295e54",
+                "title": "Seventh workshop on hot topics in system dependability (HotDep'11)",
+                "year": 2011,
+                "venue": "Dependable Systems and Networks",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "3298879",
+                        "name": "Mootaz Elnozahy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4b8f1518b21b73d30cedf31560a83a8322f8147d",
+                "title": "Differential Privacy Under Fire",
+                "year": 2011,
+                "venue": "USENIX Security Symposium",
+                "citation_count": 212,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    },
+                    {
+                        "s2_author_id": "2348923",
+                        "name": "Arjun Narayan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4d317d6fc5762ac1cd6b5fba8d41c7f532b5bb60",
+                "title": "Fighting Cybercrime with Packet Attestation",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2398072500",
+                        "name": "P. Fonseca"
+                    },
+                    {
+                        "s2_author_id": "2399015151",
+                        "name": "Rodrigo Rodrigues"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "692d59521acdf7b4975f2dd96146c1fdb223260e",
+                "title": "Seventh workshop on hot topics in system dependability (HotDep'11)",
+                "year": 2011,
+                "venue": "2011 IEEE/IFIP 41st International Conference on Dependable Systems and Networks Workshops (DSN-W)",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "3298879",
+                        "name": "Mootaz Elnozahy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ace37a69b168ef67d4f0acf0d9ab7282963b70dc",
+                "title": "Secure network provenance",
+                "year": 2011,
+                "venue": "Symposium on Operating Systems Principles",
+                "citation_count": 159,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "1772151",
+                        "name": "Qiong Fei"
+                    },
+                    {
+                        "s2_author_id": "2348923",
+                        "name": "Arjun Narayan"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    },
+                    {
+                        "s2_author_id": "12937996",
+                        "name": "M. Sherr"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d413dc63e1be7817da4c6289984fa955876ba614",
+                "title": "NetTrails: a declarative platform for maintaining and querying provenance in distributed systems",
+                "year": 2011,
+                "venue": "ACM SIGMOD Conference",
+                "citation_count": 24,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "1772151",
+                        "name": "Qiong Fei"
+                    },
+                    {
+                        "s2_author_id": "2109355308",
+                        "name": "Shengzhi Sun"
+                    },
+                    {
+                        "s2_author_id": "2056233939",
+                        "name": "Tao Tao"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1804315",
+                        "name": "Z. Ives"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    },
+                    {
+                        "s2_author_id": "12937996",
+                        "name": "M. Sherr"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fdca9f7938421bf0da2a55a653b48e35d9d800d5",
+                "title": "TAP: Time-aware Provenance for Distributed Systems",
+                "year": 2011,
+                "venue": "Workshop on the Theory and Practice of Provenance",
+                "citation_count": 21,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "143739600",
+                        "name": "L. Ding"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1804315",
+                        "name": "Z. Ives"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05bd2c6e82a96e7bb3d7d7262f953fc53ead3d1a",
+                "title": "Accountable Virtual Machines",
+                "year": 2010,
+                "venue": "USENIX Symposium on Operating Systems Design and Implementation",
+                "citation_count": 131,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "145433767",
+                        "name": "Paarijaat Aditya"
+                    },
+                    {
+                        "s2_author_id": "144897390",
+                        "name": "R. Rodrigues"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "60ce781f174843f0588a4c9fde8b80731f73dac0",
+                "title": "Differential privacy for collaborative security",
+                "year": 2010,
+                "venue": "European Workshop on System Security",
+                "citation_count": 35,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49244781",
+                        "name": "J. Reed"
+                    },
+                    {
+                        "s2_author_id": "3076315",
+                        "name": "Adam J. Aviv"
+                    },
+                    {
+                        "s2_author_id": "35944028",
+                        "name": "Daniel Wagner"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1734090",
+                        "name": "B. Pierce"
+                    },
+                    {
+                        "s2_author_id": "121942490",
+                        "name": "Jonathan M. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "614162d4585e1a417f841363028b1a07273dba64",
+                "title": "Tracking Adversarial Behavior in Distributed Systems With Secure Network Provenance",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33779522",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    },
+                    {
+                        "s2_author_id": "12937996",
+                        "name": "M. Sherr"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c7041dbbe0381a18a8cdf58fa0ffda24c55099d9",
+                "title": "A case for the accountable cloud",
+                "year": 2010,
+                "venue": "OPSR",
+                "citation_count": 205,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a4d18e08ffcb468cde009058047be2c99b531049",
+                "title": "The Fault Detection Problem (Extended Abstract)",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "5620508",
+                        "name": "P. Kuznetsov"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d836ff9e5ce4fc46781536d36d32f31d716bc942",
+                "title": "NetReview: Detecting When Interdomain Routing Goes Wrong",
+                "year": 2009,
+                "venue": "Symposium on Networked Systems Design and Implementation",
+                "citation_count": 87,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2357776",
+                        "name": "Ioannis C. Avramopoulos"
+                    },
+                    {
+                        "s2_author_id": "1730356",
+                        "name": "J. Rexford"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e13bc0171404f1cf86f915c339dd9af0ae334442",
+                "title": "The Fault Detection Problem",
+                "year": 2009,
+                "venue": "International Conference on Principles of Distributed Systems",
+                "citation_count": 65,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "5620508",
+                        "name": "P. Kuznetsov"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e94330b4dbd7a2ea5ec8a6ae0720941dcadf64fa",
+                "title": "CSAR: A Practical and Provable Technique to Make Randomized Systems Accountable",
+                "year": 2009,
+                "venue": "Network and Distributed System Security Symposium",
+                "citation_count": 51,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144588806",
+                        "name": "M. Backes"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1706892",
+                        "name": "Dominique Unruh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08492357916578b03671fda13353b4afd86f7ea7",
+                "title": "Residential Broadband Networks: Characteristics and Implications",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3020716",
+                        "name": "Marcel Dischinger"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1958921",
+                        "name": "K. Gummadi"
+                    },
+                    {
+                        "s2_author_id": "2817840",
+                        "name": "S. Saroiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1c59382b12500f75aa62ae594aa6ac709a23b7ff",
+                "title": "SatelliteLab: Adding Heterogeneity to Planetary-Scale Testbeds",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3020716",
+                        "name": "Marcel Dischinger"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2637596",
+                        "name": "Ivan Beschastnikh"
+                    },
+                    {
+                        "s2_author_id": "1958921",
+                        "name": "K. Gummadi"
+                    },
+                    {
+                        "s2_author_id": "2817840",
+                        "name": "S. Saroiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3b6e43b69e95432e27af503f60dbd27e5db8c069",
+                "title": "Andreas Haeberlen's research statement",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5c7f5a1605035411f764a2da8207e737f472eb18",
+                "title": "Detecting bittorrent blocking",
+                "year": 2008,
+                "venue": "ACM/SIGCOMM Internet Measurement Conference",
+                "citation_count": 128,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3020716",
+                        "name": "Marcel Dischinger"
+                    },
+                    {
+                        "s2_author_id": "1729928",
+                        "name": "A. Mislove"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1958921",
+                        "name": "K. Gummadi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d854acfabd73cbde13ac7acf8d43458dcea0f9f4",
+                "title": "Pretty Good Packet Authentication",
+                "year": 2008,
+                "venue": "Hot Topics in System Dependability",
+                "citation_count": 14,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "144897390",
+                        "name": "R. Rodrigues"
+                    },
+                    {
+                        "s2_author_id": "1958921",
+                        "name": "K. Gummadi"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fb8e59b709035800fa97c1c0f0b1cf8d4c6df6dc",
+                "title": "Satellitelab: adding heterogeneity to planetary-scale network testbeds",
+                "year": 2008,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 42,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3020716",
+                        "name": "Marcel Dischinger"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2637596",
+                        "name": "Ivan Beschastnikh"
+                    },
+                    {
+                        "s2_author_id": "1958921",
+                        "name": "K. Gummadi"
+                    },
+                    {
+                        "s2_author_id": "2817840",
+                        "name": "S. Saroiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3fc1899804656dd752ee0eb538d1d0262535216e",
+                "title": "Characterizing residential broadband networks",
+                "year": 2007,
+                "venue": "ACM/SIGCOMM Internet Measurement Conference",
+                "citation_count": 390,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3020716",
+                        "name": "Marcel Dischinger"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1958921",
+                        "name": "K. Gummadi"
+                    },
+                    {
+                        "s2_author_id": "2817840",
+                        "name": "S. Saroiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b08004862fb519fa1fa746664003fcdc41694226",
+                "title": "PeerReview: practical accountability for distributed systems",
+                "year": 2007,
+                "venue": "Symposium on Operating Systems Principles",
+                "citation_count": 478,
+                "reference_count": 67,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "5620508",
+                        "name": "P. Kuznetsov"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fd112607087fb99777d79667941777eb8a5f7b05",
+                "title": "Practical accountability for distributed systems",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 19,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "67177832",
+                        "name": "Petr Kouznetsov"
+                    },
+                    {
+                        "s2_author_id": "97241621",
+                        "name": "P. Max"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2cb739d7e00caa2cc9c34fe04e249aae93bc3a2d",
+                "title": "Monarch: a tool to emulate transport protocol flowsover the internet at large",
+                "year": 2006,
+                "venue": "ACM/SIGCOMM Internet Measurement Conference",
+                "citation_count": 23,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "3020716",
+                        "name": "Marcel Dischinger"
+                    },
+                    {
+                        "s2_author_id": "1958921",
+                        "name": "K. Gummadi"
+                    },
+                    {
+                        "s2_author_id": "2817840",
+                        "name": "S. Saroiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4bc5fcfb107a70ccb2b32c5e671a2e26d00bbdab",
+                "title": "Efficient Replica Maintenance for Distributed Storage Systems",
+                "year": 2006,
+                "venue": "Symposium on Networked Systems Design and Implementation",
+                "citation_count": 315,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1704157",
+                        "name": "Byung-Gon Chun"
+                    },
+                    {
+                        "s2_author_id": "1720563",
+                        "name": "F. Dabek"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1733770",
+                        "name": "Emil Sit"
+                    },
+                    {
+                        "s2_author_id": "1712689",
+                        "name": "Hakim Weatherspoon"
+                    },
+                    {
+                        "s2_author_id": "1681493",
+                        "name": "M. Kaashoek"
+                    },
+                    {
+                        "s2_author_id": "1717872",
+                        "name": "J. Kubiatowicz"
+                    },
+                    {
+                        "s2_author_id": "2340964877",
+                        "name": "R. Morris"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5c6d70758691d8d15137794acadbc7742a801e2b",
+                "title": "The Case for Byzantine Fault Detection",
+                "year": 2006,
+                "venue": "Hot Topics in System Dependability",
+                "citation_count": 95,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "5620508",
+                        "name": "P. Kuznetsov"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d2860db4bf562e1655b8b21de3555725c51dcfd",
+                "title": "NSDI '06: 3rd Symposium on Networked Systems Design & Implementation",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 28,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34922306",
+                        "name": "A. Awan"
+                    },
+                    {
+                        "s2_author_id": "1803046",
+                        "name": "M. Ebling"
+                    },
+                    {
+                        "s2_author_id": "1685698",
+                        "name": "Rik Farrow"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1993240",
+                        "name": "Guy Lichtman"
+                    },
+                    {
+                        "s2_author_id": "3339472",
+                        "name": "Nikitas Liogkas"
+                    },
+                    {
+                        "s2_author_id": "34305768",
+                        "name": "N. Michalakis"
+                    },
+                    {
+                        "s2_author_id": "1729928",
+                        "name": "A. Mislove"
+                    },
+                    {
+                        "s2_author_id": "1755518",
+                        "name": "Tapan S. Parikh"
+                    },
+                    {
+                        "s2_author_id": "144715962",
+                        "name": "Swapnil Patil"
+                    },
+                    {
+                        "s2_author_id": "16335149",
+                        "name": "Ansley Post"
+                    },
+                    {
+                        "s2_author_id": "3190469",
+                        "name": "N. Tolia"
+                    },
+                    {
+                        "s2_author_id": "104688986",
+                        "name": "Alex Varshavsky"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5e380fe056c2b0e6853b8c94cf30bdca0b827121",
+                "title": "Proactive Replication for Data Durability",
+                "year": 2006,
+                "venue": "International Workshop on Peer-to-Peer Systems",
+                "citation_count": 117,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1733770",
+                        "name": "Emil Sit"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1720563",
+                        "name": "F. Dabek"
+                    },
+                    {
+                        "s2_author_id": "1704157",
+                        "name": "Byung-Gon Chun"
+                    },
+                    {
+                        "s2_author_id": "1712689",
+                        "name": "Hakim Weatherspoon"
+                    },
+                    {
+                        "s2_author_id": "2340964877",
+                        "name": "R. Morris"
+                    },
+                    {
+                        "s2_author_id": "1681493",
+                        "name": "M. Kaashoek"
+                    },
+                    {
+                        "s2_author_id": "1717872",
+                        "name": "J. Kubiatowicz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "642eb441cab68fdceaae64683557fafdf7c80376",
+                "title": "Fallacies in Evaluating Decentralized Systems",
+                "year": 2006,
+                "venue": "International Workshop on Peer-to-Peer Systems",
+                "citation_count": 48,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1729928",
+                        "name": "A. Mislove"
+                    },
+                    {
+                        "s2_author_id": "16335149",
+                        "name": "Ansley Post"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ed1c797fd04f51086d73bcf40acd4c6d099e697",
+                "title": "Experiences in building and operating ePOST, a reliable peer-to-peer application",
+                "year": 2006,
+                "venue": "European Conference on Computer Systems",
+                "citation_count": 61,
+                "reference_count": 58,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1729928",
+                        "name": "A. Mislove"
+                    },
+                    {
+                        "s2_author_id": "16335149",
+                        "name": "Ansley Post"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ff70b7a6fb454bd669d92e3c130bf518599fa679",
+                "title": "Abstracting out Byzantine Behavior",
+                "year": 2006,
+                "venue": "From Security to Dependability",
+                "citation_count": 1,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "5620508",
+                        "name": "P. Kuznetsov"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5fea0be445a378f53c8c758d998061429064744f",
+                "title": "Consistent Key Mapping in Structured Overlays",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 21,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "69329926",
+                        "name": "Jeff Hoye"
+                    },
+                    {
+                        "s2_author_id": "1729928",
+                        "name": "A. Mislove"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a778baf13b46ad80d15690a66c94fb7c0b03db07",
+                "title": "Glacier: highly durable, decentralized storage despite massive correlated failures",
+                "year": 2005,
+                "venue": "Symposium on Networked Systems Design and Implementation",
+                "citation_count": 317,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1729928",
+                        "name": "A. Mislove"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "196124f67adec5bf805d0a3e8fc7d5d50c224bae",
+                "title": "Practical robust localization over large-scale 802.11 wireless networks",
+                "year": 2004,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 827,
+                "reference_count": 57,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "40447203",
+                        "name": "Eliot Flannery"
+                    },
+                    {
+                        "s2_author_id": "2691247",
+                        "name": "Andrew M. Ladd"
+                    },
+                    {
+                        "s2_author_id": "2308886",
+                        "name": "A. Rudys"
+                    },
+                    {
+                        "s2_author_id": "34910521",
+                        "name": "D. Wallach"
+                    },
+                    {
+                        "s2_author_id": "1780248",
+                        "name": "L. Kavraki"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "616b0f755e92200cb414860b2dfbbcc2f8eff175",
+                "title": "Managing Kernel Memory Resources from User Level Andreas Haeberlen Diplomarbeit",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "62ab015ba7bfdaafe35e2021afa7a164b3c60e47",
+                "title": "User-Level Management of Kernel Memory",
+                "year": 2003,
+                "venue": "Asia-Pacific Computer Systems Architecture Conference",
+                "citation_count": 31,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1712212",
+                        "name": "Kevin Elphinstone"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab979c0d464975facbf97d10c920096f027bc164",
+                "title": "Managing Kernel Memory Resources from User Level",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 58,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "47c60e992693cd4d3667bf4c16ea17c3e6e73fe6",
+                "title": "Performance of address-space multiplexing on the Pentium",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 27,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2488361",
+                        "name": "Volkmar Uhlig"
+                    },
+                    {
+                        "s2_author_id": "2831939",
+                        "name": "Uwe Dannowski"
+                    },
+                    {
+                        "s2_author_id": "3119437",
+                        "name": "Espen Skoglund"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1743811",
+                        "name": "Gernot Heiser"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5098d380ce2cd416e5586239c80452de5235dd8e",
+                "title": "Using Platform-Specific Optimizations in Stub-Code Generation",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5567a589b8c4c39375f564a007432052665544ef",
+                "title": "The L 4 Ka Vision",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2831939",
+                        "name": "Uwe Dannowski"
+                    },
+                    {
+                        "s2_author_id": "1712212",
+                        "name": "Kevin Elphinstone"
+                    },
+                    {
+                        "s2_author_id": "1789481",
+                        "name": "J. Liedtke"
+                    },
+                    {
+                        "s2_author_id": "2084345626",
+                        "name": "Gerd Liefl\u00e4nder"
+                    },
+                    {
+                        "s2_author_id": "3119437",
+                        "name": "Espen Skoglund"
+                    },
+                    {
+                        "s2_author_id": "2488361",
+                        "name": "Volkmar Uhlig"
+                    },
+                    {
+                        "s2_author_id": "2727108",
+                        "name": "C. Ceelen"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1720944",
+                        "name": "M. V\u00f6lp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cedb55a23b7306720e5c6fa98be4f2aad8b2c2b4",
+                "title": "Stub-code performance is becoming important",
+                "year": 2000,
+                "venue": "USENIX Workshop on Industrial Experiences with Systems Software",
+                "citation_count": 36,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1789481",
+                        "name": "J. Liedtke"
+                    },
+                    {
+                        "s2_author_id": "1792526",
+                        "name": "Yoonho Park"
+                    },
+                    {
+                        "s2_author_id": "2542489",
+                        "name": "Lars Reuther"
+                    },
+                    {
+                        "s2_author_id": "2488361",
+                        "name": "Volkmar Uhlig"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08b75f1aa75786930ae63d02079842e1fe73f4a3",
+                "title": "What is a Glacier?",
+                "year": null,
+                "venue": "Nature",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "1729928",
+                        "name": "A. Mislove"
+                    },
+                    {
+                        "s2_author_id": "1736987",
+                        "name": "P. Druschel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a0e3684494e6e130a451e7c19c04aeec3d53044b",
+                "title": "This Paper Is Included in the Proceedings of the 12th Usenix Symposium on Operating Systems Design and Implementation (osdi '16). Big Data Analytics over Encrypted Datasets with Seabed Big Data Analytics over Encrypted Datasets with Seabed",
+                "year": null,
+                "venue": "",
+                "citation_count": 151,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2798398",
+                        "name": "Antonis Papadimitriou"
+                    },
+                    {
+                        "s2_author_id": "2252388",
+                        "name": "Ranjita Bhagwan"
+                    },
+                    {
+                        "s2_author_id": "1767573",
+                        "name": "Nishanth Chandran"
+                    },
+                    {
+                        "s2_author_id": "2794488",
+                        "name": "R. Ramjee"
+                    },
+                    {
+                        "s2_author_id": "2119151675",
+                        "name": "Harmeet Singh"
+                    },
+                    {
+                        "s2_author_id": "2063982599",
+                        "name": "Abhishek Modi"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2010460",
+                        "name": "S. Badrinarayanan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e9a28ab1ff085d8cfa405822aa78fc020c2448e8",
+                "title": "Towards Self-explaining Networks Recommended Citation towards Self-explaining Networks towards Self-explaining Networks",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2259666749",
+                        "name": "Wenchao Zhou"
+                    },
+                    {
+                        "s2_author_id": "1772151",
+                        "name": "Qiong Fei"
+                    },
+                    {
+                        "s2_author_id": "1719236",
+                        "name": "Andreas Haeberlen"
+                    },
+                    {
+                        "s2_author_id": "2257214395",
+                        "name": "Thau Loo"
+                    },
+                    {
+                        "s2_author_id": "2260080619",
+                        "name": "Micah Sherr"
+                    },
+                    {
+                        "s2_author_id": "2295342481",
+                        "name": "Andreas Haeberlen Boon"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "119668161",
+                "name": "Edo Roth"
+            },
+            {
+                "s2_author_id": "2130040304",
+                "name": "Karan Newatia"
+            },
+            {
+                "s2_author_id": "2140009483",
+                "name": "Ke Zhong"
+            },
+            {
+                "s2_author_id": "143857631",
+                "name": "Sebastian Angel"
+            },
+            {
+                "s2_author_id": "47716590",
+                "name": "N. Gandhi"
+            },
+            {
+                "s2_author_id": "2080044923",
+                "name": "Brian Sandler"
+            },
+            {
+                "s2_author_id": "2507771",
+                "name": "L. T. Phan"
+            },
+            {
+                "s2_author_id": "152819899",
+                "name": "Robert Gifford"
+            },
+            {
+                "s2_author_id": "79994260",
+                "name": "Hengchu Zhang"
+            },
+            {
+                "s2_author_id": "1734090",
+                "name": "B. Pierce"
+            },
+            {
+                "s2_author_id": "1682008",
+                "name": "Aaron Roth"
+            },
+            {
+                "s2_author_id": "2080490402",
+                "name": "Benjamin C. Pierce"
+            },
+            {
+                "s2_author_id": "2134931587",
+                "name": "Aaron Roth"
+            },
+            {
+                "s2_author_id": "145501438",
+                "name": "G. Barthe"
+            },
+            {
+                "s2_author_id": "1720480",
+                "name": "Christos Dimitrakakis"
+            },
+            {
+                "s2_author_id": "1759699",
+                "name": "Marco Gaboardi"
+            },
+            {
+                "s2_author_id": "40038267",
+                "name": "A. Slavkovic"
+            },
+            {
+                "s2_author_id": "88444989",
+                "name": "D. Noble"
+            },
+            {
+                "s2_author_id": "40621108",
+                "name": "B. Falk"
+            },
+            {
+                "s2_author_id": "143964310",
+                "name": "Tian Yang"
+            },
+            {
+                "s2_author_id": "2153556346",
+                "name": "Min Xu"
+            },
+            {
+                "s2_author_id": "2798398",
+                "name": "Antonis Papadimitriou"
+            },
+            {
+                "s2_author_id": "32449042",
+                "name": "Ariel J. Feldman"
+            },
+            {
+                "s2_author_id": "23157728",
+                "name": "Henri Maxime Demoulin"
+            },
+            {
+                "s2_author_id": "1922276",
+                "name": "Tavish Vaidya"
+            },
+            {
+                "s2_author_id": "3043499",
+                "name": "Isaac Pedisich"
+            },
+            {
+                "s2_author_id": "113361988",
+                "name": "Bob DiMaiolo"
+            },
+            {
+                "s2_author_id": "2113338168",
+                "name": "J. Qian"
+            },
+            {
+                "s2_author_id": "144797719",
+                "name": "C. Shah"
+            },
+            {
+                "s2_author_id": "2145782537",
+                "name": "Yuankai Zhang"
+            },
+            {
+                "s2_author_id": "30894196",
+                "name": "Ang Chen"
+            },
+            {
+                "s2_author_id": "35206168",
+                "name": "B. T. Loo"
+            },
+            {
+                "s2_author_id": "12937996",
+                "name": "M. Sherr"
+            },
+            {
+                "s2_author_id": "1771025",
+                "name": "C. Shields"
+            },
+            {
+                "s2_author_id": "33779522",
+                "name": "Wenchao Zhou"
+            },
+            {
+                "s2_author_id": "31682740",
+                "name": "L. Loh"
+            },
+            {
+                "s2_author_id": "47096190",
+                "name": "Yang Wu"
+            },
+            {
+                "s2_author_id": "144191105",
+                "name": "Limin Jia"
+            },
+            {
+                "s2_author_id": "1403812511",
+                "name": "Daniel Winograd-Cort"
+            },
+            {
+                "s2_author_id": "2348923",
+                "name": "Arjun Narayan"
+            },
+            {
+                "s2_author_id": "2357970",
+                "name": "Nik Sultana"
+            },
+            {
+                "s2_author_id": "2153214631",
+                "name": "Bowen Wang"
+            },
+            {
+                "s2_author_id": "2110491386",
+                "name": "Hung Nguyen"
+            },
+            {
+                "s2_author_id": "2067656867",
+                "name": "Bipeen Acharya"
+            },
+            {
+                "s2_author_id": "39490362",
+                "name": "Radoslav Ivanov"
+            },
+            {
+                "s2_author_id": "1681081",
+                "name": "O. Sokolsky"
+            },
+            {
+                "s2_author_id": "153623182",
+                "name": "Jesse Walker"
+            },
+            {
+                "s2_author_id": "4726675",
+                "name": "James Weimer"
+            },
+            {
+                "s2_author_id": "2054566581",
+                "name": "William Hanson"
+            },
+            {
+                "s2_author_id": "144637634",
+                "name": "Insup Lee"
+            },
+            {
+                "s2_author_id": "7671845",
+                "name": "Akshay Sriraman"
+            },
+            {
+                "s2_author_id": "7202338",
+                "name": "Mingchen Zhao"
+            },
+            {
+                "s2_author_id": "2249087",
+                "name": "Alexander J. T. Gurney"
+            },
+            {
+                "s2_author_id": "2260080619",
+                "name": "Micah Sherr"
+            },
+            {
+                "s2_author_id": "3331398",
+                "name": "Hanjun Xiao"
+            },
+            {
+                "s2_author_id": "47906014",
+                "name": "Yin Lin"
+            },
+            {
+                "s2_author_id": "1736987",
+                "name": "P. Druschel"
+            },
+            {
+                "s2_author_id": "1711252",
+                "name": "B. Maggs"
+            },
+            {
+                "s2_author_id": "1726790",
+                "name": "Bill Wishon"
+            },
+            {
+                "s2_author_id": "39756252",
+                "name": "Justin Hsu"
+            },
+            {
+                "s2_author_id": "144335444",
+                "name": "S. Khanna"
+            },
+            {
+                "s2_author_id": "143799815",
+                "name": "Adam Bates"
+            },
+            {
+                "s2_author_id": "1784947",
+                "name": "Kevin R. B. Butler"
+            },
+            {
+                "s2_author_id": "1397413848",
+                "name": "Loris D'antoni"
+            },
+            {
+                "s2_author_id": "3358936",
+                "name": "E. J. G. Arias"
+            },
+            {
+                "s2_author_id": "2153054301",
+                "name": "Jian Chang"
+            },
+            {
+                "s2_author_id": "116636973",
+                "name": "Peter Gebhard"
+            },
+            {
+                "s2_author_id": "1804315",
+                "name": "Z. Ives"
+            },
+            {
+                "s2_author_id": "1778547",
+                "name": "K. Venkatasubramanian"
+            },
+            {
+                "s2_author_id": "145433767",
+                "name": "Paarijaat Aditya"
+            },
+            {
+                "s2_author_id": "48369038",
+                "name": "Miroslav Ponec"
+            },
+            {
+                "s2_author_id": "2056030560",
+                "name": "Tao Feng"
+            },
+            {
+                "s2_author_id": "2000882",
+                "name": "Wolfgang Gatterbauer"
+            },
+            {
+                "s2_author_id": "3122951",
+                "name": "Suyog Mapara"
+            },
+            {
+                "s2_author_id": "2115243164",
+                "name": "Yiqing Ren"
+            },
+            {
+                "s2_author_id": "48513301",
+                "name": "Y. Li"
+            },
+            {
+                "s2_author_id": "1772151",
+                "name": "Qiong Fei"
+            },
+            {
+                "s2_author_id": "3076315",
+                "name": "Adam J. Aviv"
+            },
+            {
+                "s2_author_id": "3298879",
+                "name": "Mootaz Elnozahy"
+            },
+            {
+                "s2_author_id": "2398072500",
+                "name": "P. Fonseca"
+            },
+            {
+                "s2_author_id": "2399015151",
+                "name": "Rodrigo Rodrigues"
+            },
+            {
+                "s2_author_id": "2109355308",
+                "name": "Shengzhi Sun"
+            },
+            {
+                "s2_author_id": "2056233939",
+                "name": "Tao Tao"
+            },
+            {
+                "s2_author_id": "143739600",
+                "name": "L. Ding"
+            },
+            {
+                "s2_author_id": "144897390",
+                "name": "R. Rodrigues"
+            },
+            {
+                "s2_author_id": "49244781",
+                "name": "J. Reed"
+            },
+            {
+                "s2_author_id": "35944028",
+                "name": "Daniel Wagner"
+            },
+            {
+                "s2_author_id": "121942490",
+                "name": "Jonathan M. Smith"
+            },
+            {
+                "s2_author_id": "5620508",
+                "name": "P. Kuznetsov"
+            },
+            {
+                "s2_author_id": "2357776",
+                "name": "Ioannis C. Avramopoulos"
+            },
+            {
+                "s2_author_id": "1730356",
+                "name": "J. Rexford"
+            },
+            {
+                "s2_author_id": "144588806",
+                "name": "M. Backes"
+            },
+            {
+                "s2_author_id": "1706892",
+                "name": "Dominique Unruh"
+            },
+            {
+                "s2_author_id": "3020716",
+                "name": "Marcel Dischinger"
+            },
+            {
+                "s2_author_id": "1958921",
+                "name": "K. Gummadi"
+            },
+            {
+                "s2_author_id": "2817840",
+                "name": "S. Saroiu"
+            },
+            {
+                "s2_author_id": "2637596",
+                "name": "Ivan Beschastnikh"
+            },
+            {
+                "s2_author_id": "1729928",
+                "name": "A. Mislove"
+            },
+            {
+                "s2_author_id": "67177832",
+                "name": "Petr Kouznetsov"
+            },
+            {
+                "s2_author_id": "97241621",
+                "name": "P. Max"
+            },
+            {
+                "s2_author_id": "1704157",
+                "name": "Byung-Gon Chun"
+            },
+            {
+                "s2_author_id": "1720563",
+                "name": "F. Dabek"
+            },
+            {
+                "s2_author_id": "1733770",
+                "name": "Emil Sit"
+            },
+            {
+                "s2_author_id": "1712689",
+                "name": "Hakim Weatherspoon"
+            },
+            {
+                "s2_author_id": "1681493",
+                "name": "M. Kaashoek"
+            },
+            {
+                "s2_author_id": "1717872",
+                "name": "J. Kubiatowicz"
+            },
+            {
+                "s2_author_id": "2340964877",
+                "name": "R. Morris"
+            },
+            {
+                "s2_author_id": "34922306",
+                "name": "A. Awan"
+            },
+            {
+                "s2_author_id": "1803046",
+                "name": "M. Ebling"
+            },
+            {
+                "s2_author_id": "1685698",
+                "name": "Rik Farrow"
+            },
+            {
+                "s2_author_id": "1993240",
+                "name": "Guy Lichtman"
+            },
+            {
+                "s2_author_id": "3339472",
+                "name": "Nikitas Liogkas"
+            },
+            {
+                "s2_author_id": "34305768",
+                "name": "N. Michalakis"
+            },
+            {
+                "s2_author_id": "1755518",
+                "name": "Tapan S. Parikh"
+            },
+            {
+                "s2_author_id": "144715962",
+                "name": "Swapnil Patil"
+            },
+            {
+                "s2_author_id": "16335149",
+                "name": "Ansley Post"
+            },
+            {
+                "s2_author_id": "3190469",
+                "name": "N. Tolia"
+            },
+            {
+                "s2_author_id": "104688986",
+                "name": "Alex Varshavsky"
+            },
+            {
+                "s2_author_id": "69329926",
+                "name": "Jeff Hoye"
+            },
+            {
+                "s2_author_id": "40447203",
+                "name": "Eliot Flannery"
+            },
+            {
+                "s2_author_id": "2691247",
+                "name": "Andrew M. Ladd"
+            },
+            {
+                "s2_author_id": "2308886",
+                "name": "A. Rudys"
+            },
+            {
+                "s2_author_id": "34910521",
+                "name": "D. Wallach"
+            },
+            {
+                "s2_author_id": "1780248",
+                "name": "L. Kavraki"
+            },
+            {
+                "s2_author_id": "1712212",
+                "name": "Kevin Elphinstone"
+            },
+            {
+                "s2_author_id": "2488361",
+                "name": "Volkmar Uhlig"
+            },
+            {
+                "s2_author_id": "2831939",
+                "name": "Uwe Dannowski"
+            },
+            {
+                "s2_author_id": "3119437",
+                "name": "Espen Skoglund"
+            },
+            {
+                "s2_author_id": "1743811",
+                "name": "Gernot Heiser"
+            },
+            {
+                "s2_author_id": "1789481",
+                "name": "J. Liedtke"
+            },
+            {
+                "s2_author_id": "2084345626",
+                "name": "Gerd Liefl\u00e4nder"
+            },
+            {
+                "s2_author_id": "2727108",
+                "name": "C. Ceelen"
+            },
+            {
+                "s2_author_id": "1720944",
+                "name": "M. V\u00f6lp"
+            },
+            {
+                "s2_author_id": "1792526",
+                "name": "Yoonho Park"
+            },
+            {
+                "s2_author_id": "2542489",
+                "name": "Lars Reuther"
+            },
+            {
+                "s2_author_id": "2252388",
+                "name": "Ranjita Bhagwan"
+            },
+            {
+                "s2_author_id": "1767573",
+                "name": "Nishanth Chandran"
+            },
+            {
+                "s2_author_id": "2794488",
+                "name": "R. Ramjee"
+            },
+            {
+                "s2_author_id": "2119151675",
+                "name": "Harmeet Singh"
+            },
+            {
+                "s2_author_id": "2063982599",
+                "name": "Abhishek Modi"
+            },
+            {
+                "s2_author_id": "2010460",
+                "name": "S. Badrinarayanan"
+            },
+            {
+                "s2_author_id": "2259666749",
+                "name": "Wenchao Zhou"
+            },
+            {
+                "s2_author_id": "2257214395",
+                "name": "Thau Loo"
+            },
+            {
+                "s2_author_id": "2295342481",
+                "name": "Andreas Haeberlen Boon"
+            }
+        ],
+        "total_co_authors": 144,
+        "papers_retrieved": 101
+    }
+}

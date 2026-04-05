@@ -1,0 +1,891 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A2W8N",
+        "name": "Ashesh Rambachan",
+        "primary_affiliation": "Massachusetts Institute of Technology",
+        "primary_department": null,
+        "all_affiliations": [
+            "Massachusetts Institute of Technology"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "MA"
+        ],
+        "perf_cities": [
+            "CAMBRIDGE"
+        ],
+        "org_names": [
+            "Massachusetts Institute of Technology"
+        ],
+        "org_ueis": [
+            "E2NYLCDML6V1"
+        ],
+        "inst_types": [
+            "nonprofit"
+        ],
+        "emails": [
+            "asheshr@mit.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2519938",
+                "title": "Comparing Decision Makers: Theory and Implications for AI",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-08-01",
+                "exp_date": "2028-07-31",
+                "award_amount": 460999.0,
+                "total_amount": 460999.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000663319"
+                ],
+                "program_elements": [
+                    "Economics"
+                ],
+                "program_codes": [
+                    "132000"
+                ],
+                "program_references": [
+                    "Artificial Intelligence (AI)"
+                ],
+                "program_ref_codes": [
+                    "075Z"
+                ],
+                "dir_abbr": "SBE",
+                "div_abbr": "SES",
+                "nsf_directorate": null,
+                "fund_division": "Division of Social and Economic Sciences",
+                "cfda_num": "47.075",
+                "po_name": "Nancy Lutz",
+                "keywords": [
+                    "human",
+                    "decision",
+                    "researchers",
+                    "decisions",
+                    "making",
+                    "tool",
+                    "preferences",
+                    "comparing",
+                    "cases",
+                    "stakes"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000663319"
+        ],
+        "program_elements": [
+            "Economics"
+        ],
+        "program_codes": [
+            "132000"
+        ],
+        "program_references": [
+            "Artificial Intelligence (AI)"
+        ],
+        "program_ref_codes": [
+            "075Z"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "SBE"
+        ],
+        "div_abbrs": [
+            "SES"
+        ],
+        "fund_divisions": [
+            "Division of Social and Economic Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.075"
+        ],
+        "program_officers": [
+            "Nancy Lutz"
+        ],
+        "keywords": [
+            "human",
+            "decision",
+            "researchers",
+            "decisions",
+            "making",
+            "tool",
+            "preferences",
+            "comparing",
+            "cases",
+            "stakes",
+            "observe",
+            "cancer",
+            "predictions",
+            "lung",
+            "radiologists",
+            "information",
+            "humans",
+            "makers",
+            "develops",
+            "method"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.55
+    },
+    "s2_profile": {
+        "s2_author_id": "88738815",
+        "name": "Ashesh Rambachan",
+        "affiliations": [],
+        "paper_count": 29,
+        "citation_count": 1441,
+        "h_index": 14,
+        "papers": [
+            {
+                "s2_paper_id": "0bdb706d1ed40b1c5323ebb3cf51fa9b93098080",
+                "title": "What Has a Foundation Model Found? Using Inductive Bias to Probe for World Models",
+                "year": 2025,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 23,
+                "reference_count": 69,
+                "abstract": "Foundation models are premised on the idea that sequence prediction can uncover deeper domain understanding, much like how Kepler's predictions of planetary motion later led to the discovery of Newtonian mechanics. However, evaluating whether these models truly capture deeper structure remains a challenge. We develop a technique for evaluating foundation models that examines how they adapt to synthetic datasets generated from some postulated world model. Our technique measures whether the foundation model's inductive bias aligns with the world model, and so we refer to it as an inductive bias probe. Across multiple domains, we find that foundation models can excel at their training tasks yet fail to develop inductive biases towards the underlying world model when adapted to new tasks. We particularly find that foundation models trained on orbital trajectories consistently fail to apply Newtonian mechanics when adapted to new physics tasks. Further analysis reveals that these models behave as if they develop task-specific heuristics that fail to generalize.",
+                "authors": [
+                    {
+                        "s2_author_id": "70025184",
+                        "name": "Keyon Vafa"
+                    },
+                    {
+                        "s2_author_id": "2374421021",
+                        "name": "Peter G. Chang"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "2253742235",
+                        "name": "S. Mullainathan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2498ebc2b56ed07d0d8b5fe613da59e5f91f0f5f",
+                "title": "Program Evaluation with Remotely Sensed Outcomes",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 2,
+                "reference_count": 35,
+                "abstract": "Economists often estimate treatment effects in experiments using remotely sensed variables (RSVs), e.g., satellite images or mobile phone activity, in place of directly measured economic outcomes. A common practice is to use an observational sample to train a predictor of the economic outcome from the RSV, and then use these predictions as the outcomes in the experiment. We show that this method is biased whenever the RSV is a post-outcome variable, meaning that variation in the economic outcome causes variation in the RSV. For example, changes in poverty or environmental quality cause changes in satellite images, but not vice versa. As our main result, we nonparametrically identify the treatment effect by formalizing the intuition underlying common practice: the conditional distribution of the RSV given the outcome and treatment is stable across samples. Our identifying formula reveals that efficient inference requires predictions of three quantities from the RSV -- the outcome, treatment, and sample indicator -- whereas common practice only predicts the outcome. Valid inference does not require any rate conditions on RSV predictions, justifying the use of complex deep learning algorithms with unknown statistical properties. We reanalyze the effect of an anti-poverty program in India using satellite images.",
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "2331376841",
+                        "name": "Rahul Singh"
+                    },
+                    {
+                        "s2_author_id": "2331320004",
+                        "name": "Davide Viviano"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "61e5bafb567b36960a6e1584b3753d9de09b45aa",
+                "title": "Evaluating the World Model Implicit in a Generative Model",
+                "year": 2024,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 92,
+                "reference_count": 41,
+                "abstract": "Recent work suggests that large language models may implicitly learn world models. How should we assess this possibility? We formalize this question for the case where the underlying reality is governed by a deterministic finite automaton. This includes problems as diverse as simple logical reasoning, geographic navigation, game-playing, and chemistry. We propose new evaluation metrics for world model recovery inspired by the classic Myhill-Nerode theorem from language theory. We illustrate their utility in three domains: game playing, logic puzzles, and navigation. In all domains, the generative models we consider do well on existing diagnostics for assessing world models, but our evaluation metrics reveal their world models to be far less coherent than they appear. Such incoherence creates fragility: using a generative model to solve related but subtly different tasks can lead to failures. Building generative models that meaningfully capture the underlying logic of the domains they model would be immensely valuable; our results suggest new ways to assess how close a given model is to that goal.",
+                "authors": [
+                    {
+                        "s2_author_id": "70025184",
+                        "name": "Keyon Vafa"
+                    },
+                    {
+                        "s2_author_id": "2305040412",
+                        "name": "Justin Y. Chen"
+                    },
+                    {
+                        "s2_author_id": "2218834137",
+                        "name": "Jon M. Kleinberg"
+                    },
+                    {
+                        "s2_author_id": "2253742235",
+                        "name": "S. Mullainathan"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8b2907c9c04e2bdb9908920184f236540059edbe",
+                "title": "Large Language Models: An Applied Econometric Framework",
+                "year": 2024,
+                "venue": "Social Science Research Network",
+                "citation_count": 33,
+                "reference_count": 0,
+                "abstract": "Large language models (LLMs) enable researchers to analyze text at unprecedented scale and minimal cost. Researchers can now revisit old questions and tackle novel ones with rich data. We provide an econometric framework for realizing this potential in two empirical uses. For prediction problems -- forecasting outcomes from text -- valid conclusions require ``no training leakage''between the LLM's training data and the researcher's sample, which can be enforced through careful model choice and research design. For estimation problems -- automating the measurement of economic concepts for downstream analysis -- valid downstream inference requires combining LLM outputs with a small validation sample to deliver consistent and precise estimates. Absent a validation sample, researchers cannot assess possible errors in LLM outputs, and consequently seemingly innocuous choices (which model, which prompt) can produce dramatically different parameter estimates. When used appropriately, LLMs are powerful tools that can expand the frontier of empirical economics.",
+                "authors": [
+                    {
+                        "s2_author_id": "2211522391",
+                        "name": "Jens O. Ludwig"
+                    },
+                    {
+                        "s2_author_id": "2253742235",
+                        "name": "S. Mullainathan"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a270a0525d61abcebb5329e9a39ee3f7873dcbc5",
+                "title": "Identifying Prediction Mistakes in Observational Data",
+                "year": 2024,
+                "venue": "Quarterly Journal of Economics",
+                "citation_count": 41,
+                "reference_count": 191,
+                "abstract": "\n Decision makers, such as doctors, judges, and managers, make consequential choices based on predictions of unknown outcomes. Do these decision makers make systematic prediction mistakes based on the available information? If so, in what ways are their predictions systematically biased? In this article, I characterize conditions under which systematic prediction mistakes can be identified in empirical settings such as hiring, medical diagnosis, and pretrial release. I derive a statistical test for whether the decision maker makes systematic prediction mistakes under these assumptions and provide methods for estimating the ways the decision maker\u2019s predictions are systematically biased. I analyze the pretrial release decisions of judges in New York City, estimating that at least 20% of judges make systematic prediction mistakes about misconduct risk given defendant characteristics. Motivated by this analysis, I estimate the effects of replacing judges with algorithmic decision rules and find that replacing judges with algorithms where systematic prediction mistakes occur dominates the status quo.",
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "adcbb00ef7d79e198f6c00515755a9e9d4dbd32c",
+                "title": "From Predictive Algorithms to Automatic Generation of Anomalies",
+                "year": 2024,
+                "venue": "Social Science Research Network",
+                "citation_count": 7,
+                "reference_count": 107,
+                "abstract": "How can we extract theoretical insights from machine learning algorithms? We take a familiar lesson: researchers often turn their intuitions into theoretical insights by constructing\"anomalies\"-- specific examples highlighting hypothesized flaws in a theory, such as the Allais paradox and the Kahneman-Tversky choice experiments for expected utility. We develop procedures that replace researchers'intuitions with predictive algorithms: given a predictive algorithm and a theory, our procedures automatically generate anomalies for that theory. We illustrate our procedures with a concrete application: generating anomalies for expected utility theory. Based on a neural network that accurately predicts lottery choices, our procedures recover known anomalies for expected utility theory and discover new ones absent from existing work. In incentivized experiments, subjects violate expected utility theory on these algorithmically generated anomalies at rates similar to the Allais paradox and common ratio effect.",
+                "authors": [
+                    {
+                        "s2_author_id": "2062143",
+                        "name": "S. Mullainathan"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "efdf2b2aae13196a9526d8e7b7cea4b0a892371c",
+                "title": "The Unreasonable Effectiveness of Algorithms",
+                "year": 2024,
+                "venue": "Social Science Research Network",
+                "citation_count": 6,
+                "reference_count": 10,
+                "abstract": "We calculate the social return on algorithmic interventions (specifically, their marginal value of public funds (MVPF)) across multiple domains of interest to economists\u2014regulation, criminal justice, medicine, and education. Though these algorithms are different, the results are similar and striking. Each one has an MVPF of infinity: not only does it produce large benefits, it provides a \u201cfree lunch.\u201d We do not take these numbers to mean these interventions ought to be necessarily scaled but rather that much more research and development should be devoted to developing and carefully evaluating algorithmic solutions to policy problems.",
+                "authors": [
+                    {
+                        "s2_author_id": "2211522391",
+                        "name": "Jens O. Ludwig"
+                    },
+                    {
+                        "s2_author_id": "2253742235",
+                        "name": "S. Mullainathan"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "face23fe92eb8f547259d8e4f99cc37379342b39",
+                "title": "Do Large Language Models Perform the Way People Expect? Measuring the Human Generalization Function",
+                "year": 2024,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 25,
+                "reference_count": 56,
+                "abstract": "What makes large language models (LLMs) impressive is also what makes them hard to evaluate: their diversity of uses. To evaluate these models, we must understand the purposes they will be used for. We consider a setting where these deployment decisions are made by people, and in particular, people's beliefs about where an LLM will perform well. We model such beliefs as the consequence of a human generalization function: having seen what an LLM gets right or wrong, people generalize to where else it might succeed. We collect a dataset of 19K examples of how humans make generalizations across 79 tasks from the MMLU and BIG-Bench benchmarks. We show that the human generalization function can be predicted using NLP methods: people have consistent structured ways to generalize. We then evaluate LLM alignment with the human generalization function. Our results show that -- especially for cases where the cost of mistakes is high -- more capable models (e.g. GPT-4) can do worse on the instances people choose to use them for, exactly because they are not aligned with the human generalization function.",
+                "authors": [
+                    {
+                        "s2_author_id": "70025184",
+                        "name": "Keyon Vafa"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "2253742235",
+                        "name": "S. Mullainathan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "92e3bed2a46e2d9d1de37dba58b329ad48db47d6",
+                "title": "Causal Interpretation of Structural IV Estimands",
+                "year": 2023,
+                "venue": "Social Science Research Network",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "67311825",
+                        "name": "Isaiah Andrews"
+                    },
+                    {
+                        "s2_author_id": "121230054",
+                        "name": "Nano Barahona"
+                    },
+                    {
+                        "s2_author_id": "8731644",
+                        "name": "M. Gentzkow"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "122795272",
+                        "name": "Jesse M. Shapiro"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5116f07ce5a7e3397cedd16f95fdbaa0ed896b6c",
+                "title": "Design-Based Uncertainty for Quasi-Experiments \u2217 Design-Based Uncertainty for Quasi-Experiments",
+                "year": 2022,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "2309222813",
+                        "name": "Jonathan Roth"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "72cf64fe6c8c5941ec767410ecf39300b847e6a1",
+                "title": "Robust Design and Evaluation of Predictive Algorithms under Unobserved Confounding",
+                "year": 2022,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 75,
+                "abstract": "Predictive algorithms inform consequential decisions in settings with selective labels: outcomes are observed only for units selected by past decision makers. This creates an identification problem under unobserved confounding -- when selected and unselected units differ in unobserved ways that affect outcomes. We propose a framework for robust design and evaluation of predictive algorithms that bounds how much outcomes may differ between selected and unselected units with the same observed characteristics. These bounds formalize common empirical strategies including proxy outcomes and instrumental variables. Our estimators work across bounding strategies and performance measures such as conditional likelihoods, mean square error, and true/false positive rates. Using administrative data from a large Australian financial institution, we show that varying confounding assumptions substantially affects credit risk predictions and fairness evaluations across income groups.",
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "48577290",
+                        "name": "Amanda Coston"
+                    },
+                    {
+                        "s2_author_id": "48224429",
+                        "name": "Edward H. Kennedy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ccf1b80697b09e57e582ac81c293ff6360f2cb42",
+                "title": "Included and Excluded Instruments in Structural Estimation",
+                "year": 2022,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 50,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "67311825",
+                        "name": "Isaiah Andrews"
+                    },
+                    {
+                        "s2_author_id": "121230054",
+                        "name": "Nano Barahona"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f0aed4196e84e1fe6fea65f222727e4966993fc1",
+                "title": "Counterfactual Risk Assessments under Unmeasured Confounding",
+                "year": 2022,
+                "venue": "arXiv.org",
+                "citation_count": 14,
+                "reference_count": 88,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "48577290",
+                        "name": "Amanda Coston"
+                    },
+                    {
+                        "s2_author_id": "2257239948",
+                        "name": "Edward H. Kennedy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fe8faa36f6fecbb09d255a06b3bd8af2ecce0e41",
+                "title": "A More Credible Approach to Parallel Trends",
+                "year": 2022,
+                "venue": "",
+                "citation_count": 691,
+                "reference_count": 81,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "1665684748",
+                        "name": "J. Roth"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5a2f7f5fb03afaa2aff979dcdeaba5442e6b9da9",
+                "title": "A ug 2 02 0 Design-Based Uncertainty for Quasi-Experiments \u2217",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "1665684748",
+                        "name": "J. Roth"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "789d3db0044d9e87a6bccfcc87b5436afc538941",
+                "title": "Characterizing Fairness Over the Set of Good Models Under Selective Labels",
+                "year": 2021,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 94,
+                "reference_count": 64,
+                "abstract": "Algorithmic risk assessments are used to inform decisions in a wide variety of high-stakes settings. Often multiple predictive models deliver similar overall performance but differ markedly in their predictions for individual cases, an empirical phenomenon known as the\"Rashomon Effect.\"These models may have different properties over various groups, and therefore have different predictive fairness properties. We develop a framework for characterizing predictive fairness properties over the set of models that deliver similar overall performance, or\"the set of good models.\"Our framework addresses the empirically relevant challenge of selectively labelled data in the setting where the selection decision and outcome are unconfounded given the observed data features. Our framework can be used to 1) replace an existing model with one that has better fairness properties; or 2) audit for predictive bias. We illustrate these uses cases on a real-world credit-scoring task and a recidivism prediction task.",
+                "authors": [
+                    {
+                        "s2_author_id": "48577290",
+                        "name": "Amanda Coston"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "2082393",
+                        "name": "Alexandra Chouldechova"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c6214b31cbe5cd961c6438fbf3efc2385fd0eac6",
+                "title": "Panel-Based Experiments and Dynamic Causal Effects: A Finite Population Perspective Online Appendix",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "88785748",
+                        "name": "Iavor Bojinov"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "50275561",
+                        "name": "N. Shephard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fb2f78c73f076112af115128dc5c234fca16a422",
+                "title": "Supplementary Materials to \u201cIdentifying Prediction Mistakes in Observational Data\u201d",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "167273526caeae8439b2c08630f984b758f76dab",
+                "title": "An Economic Approach to Regulating Algorithms",
+                "year": 2020,
+                "venue": "Social Science Research Network",
+                "citation_count": 44,
+                "reference_count": 63,
+                "abstract": "There is growing concern about \"algorithmic bias\" - that predictive algorithms used in decision-making might bake in or exacerbate discrimination in society. When will these \"biases\" arise? What should be done about them? We argue that such questions are naturally answered using the tools of welfare economics: a social welfare function for the policymaker, a private objective function for the algorithm designer and a model of their information sets and interaction. We build such a model that allows the training data to exhibit a wide range of \"biases.\" Prevailing wisdom is that biased data change how the algorithm is trained and whether an algorithm should be used at all. In contrast, we find two striking irrelevance results. First, when the social planner builds the algorithm, her equity preference has no effect on the training procedure. So long as the data, however biased, contain signal, they will be used and the algorithm built on top will be the same. Any characteristic that is predictive of the outcome of interest, including group membership, will be used. Second, we study how the social planner regulates private (possibly discriminatory) actors building algorithms. Optimal regulation depends crucially on the disclosure regime. Absent disclosure, algorithms are regulated much like human decision-makers: disparate impact and disparate treatment rules dictate what is allowed. In contrast, under stringent disclosure of all underlying algorithmic inputs (data, training procedure and decision rule), once again we find an irrelevance result: private actors can use any predictive characteristic. Additionally, now algorithms strictly reduce the extent of discrimination against protected groups relative to a world in which humans make all the decisions. As these results run counter to prevailing wisdom on algorithmic bias, at a minimum, they provide a baseline set of assumptions that must be altered to generate different conclusions.",
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "3371403",
+                        "name": "J. Kleinberg"
+                    },
+                    {
+                        "s2_author_id": "2062143",
+                        "name": "S. Mullainathan"
+                    },
+                    {
+                        "s2_author_id": "50197963",
+                        "name": "J. Ludwig"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39bf36260ebef5c2e43965219e81fc683a0750a7",
+                "title": "Panel experiments and dynamic causal effects: A finite population perspective",
+                "year": 2020,
+                "venue": "Quantitative Economics",
+                "citation_count": 54,
+                "reference_count": 87,
+                "abstract": "In panel experiments, we randomly assign units to different interventions, measuring their outcomes, and repeating the procedure in several periods. Using the potential outcomes framework, we define finite population dynamic causal effects that capture the relative effectiveness of alternative treatment paths. For a rich class of dynamic causal effects, we provide a nonparametric estimator that is unbiased over the randomization distribution and derive its finite population limiting distribution as either the sample size or the duration of the experiment increases. We develop two methods for inference: a conservative test for weak null hypotheses and an exact randomization test for sharp null hypotheses. We further analyze the finite population probability limit of linear fixed effects estimators. These commonly\u2010used estimators do not recover a causally interpretable estimand if there are dynamic causal effects and serial correlation in the assignments, highlighting the value of our proposed estimator.",
+                "authors": [
+                    {
+                        "s2_author_id": "88785748",
+                        "name": "Iavor Bojinov"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "50275561",
+                        "name": "N. Shephard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "966f121c1b9626964a4e639afa6861f4ec98fdd7",
+                "title": "Design-Based Uncertainty for Quasi-Experiments.",
+                "year": 2020,
+                "venue": "Journal of the American Statistical Association",
+                "citation_count": 24,
+                "reference_count": 79,
+                "abstract": "Design-based frameworks of uncertainty are frequently used in settings where the treatment is (conditionally) randomly assigned. This article develops a design-based framework suitable for analyzing quasi-experimental settings in the social sciences, in which the treatment assignment can be viewed as the realization of some stochastic process but there is concern about unobserved selection into treatment. In our framework, treatments are stochastic, but units may differ in their probabilities of receiving treatment, thereby allowing for rich forms of selection. We provide conditions under which the estimands of popular quasi-experimental estimators correspond to interpretable finite-population causal parameters. We characterize the biases and distortions to inference that arise when these conditions are violated. These results can be used to conduct sensitivity analyses when there are concerns about selection into treatment. Taken together, our results establish a rigorous foundation for quasi-experimental analyses that more closely aligns with the way empirical researchers discuss the variation in the data. Supplementary materials for this article are available online, including a standardized description of the materials available for reproducing the work.",
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "1665684748",
+                        "name": "J. Roth"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cea2e7babead09dc8c7f107a467cf7475b674aa6",
+                "title": "An Honest Approach to Parallel Trends Online Supplementary Materials",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "1665684748",
+                        "name": "J. Roth"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e73859fdfb9c2986fa17fc8d7e596514487cdb8b",
+                "title": "An Economic Perspective on Algorithmic Fairness",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 60,
+                "reference_count": 20,
+                "abstract": "There are widespread concerns that the growing use of machine learning algorithms in important decisions may reproduce and reinforce existing discrimination against legally protected groups. Most of the attention to date on issues of \"algorithmic bias\" or \"algorithmic fairness\" has come from computer scientists and machine learning researchers. We argue that concerns about algorithmic fairness are at least as much about questions of how discrimination manifests itself in data, decision-making under uncertainty, and optimal regulation. To fully answer these questions, an economic framework is necessary\u2014and as a result, economists have much to contribute.",
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "3371403",
+                        "name": "J. Kleinberg"
+                    },
+                    {
+                        "s2_author_id": "50197963",
+                        "name": "J. Ludwig"
+                    },
+                    {
+                        "s2_author_id": "2062143",
+                        "name": "S. Mullainathan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "085a44194a206e21139bb091e521df11c31bbaa2",
+                "title": "Bias In, Bias Out? Evaluating the Folk Wisdom",
+                "year": 2019,
+                "venue": "Symposium on Foundations of Responsible Computing",
+                "citation_count": 34,
+                "reference_count": 33,
+                "abstract": "We evaluate the folk wisdom that algorithmic decision rules trained on data produced by biased human decision-makers necessarily reflect this bias. We consider a setting where training labels are only generated if a biased decision-maker takes a particular action, and so \"biased\" training data arise due to discriminatory selection into the training data. In our baseline model, the more biased the decision-maker is against a group, the more the algorithmic decision rule favors that group. We refer to this phenomenon as \"bias reversal.\" We then clarify the conditions that give rise to bias reversal. Whether a prediction algorithm reverses or inherits bias depends critically on how the decision-maker affects the training data as well as the label used in training. We illustrate our main theoretical results in a simulation study applied to the New York City Stop, Question and Frisk dataset.",
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "1665684748",
+                        "name": "J. Roth"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "40b86ea059add88cee82eb54c4a1553a1db69098",
+                "title": "When do common time series estimands have nonparametric causal meaning?",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 41,
+                "reference_count": 84,
+                "abstract": "In this paper, we introduce the direct potential outcome system as a framework for analyzing dynamic causal effects of assignments on outcomes in observational time series settings. We provide conditions under which common predictive time series estimands, such as the impulse response function, generalized impulse response function, local projection, and local projection instrumental variables, have a nonparametric causal interpretation in terms of dynamic causal effects. The direct potential outcome system therefore provides a foundation for analyzing popular reduced-form methods for estimating the causal effect of macroeconomic shocks on outcomes in time series settings.",
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "50275561",
+                        "name": "N. Shephard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "62f5daa71fa42c9b90c2fc7318a55b380b77d6e7",
+                "title": "A Nonparametric Dynamic Causal Model for Macroeconometrics",
+                "year": 2019,
+                "venue": "Social Science Research Network",
+                "citation_count": 7,
+                "reference_count": 139,
+                "abstract": "This paper uses potential outcome time series to provide a nonparametric framework for quantifying dynamic causal effects in macroeconometrics. This provides sufficient conditions for the nonparametric identification of dynamic causal effects as well as clarify the causal content of several common assumptions and methods in macroeconomics. Our key identifying assumption is shown to be non-anticipating treatments which enables nonparametric inference on dynamic causal effects. Next, we provide a formal definition of a `shock' and this leads to a shocked potential outcome time series. This is a nonparametric statement of the Frisch-Slutzky paradigm. The common additional assumptions that the causal effects are additive and that the treatments are shocks place substantial restrictions on the underlying dynamic causal estimands. We use this structure to causally interpret several common estimation strategies. We provide sufficient conditions under which local projections is causally interpretable and show that the standard assumptions for local projections with an instrument are not sufficient to identify dynamic causal effects. We finally show that the structural vector moving average form is causally equivalent to a restricted potential outcome time series under the usual invertibility assumption.",
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "50275561",
+                        "name": "N. Shephard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8c863286352fa1a46065c2bfd64568baeb799e02",
+                "title": "Replication data for: Algorithmic Fairness",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3371403",
+                        "name": "J. Kleinberg"
+                    },
+                    {
+                        "s2_author_id": "50197963",
+                        "name": "J. Ludwig"
+                    },
+                    {
+                        "s2_author_id": "2062143",
+                        "name": "S. Mullainathan"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d8791bdbd616a6cff80ad2ccf0832359982178d3",
+                "title": "An Honest Approach to Parallel Trends",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 168,
+                "reference_count": 93,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    },
+                    {
+                        "s2_author_id": "1665684748",
+                        "name": "J. Roth"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bbad34e7476371e3fc521aa657a7ef0faca2e77c",
+                "title": "ADVANCES IN BIG DATA RESEARCH IN ECONOMICS Algorithmic Fairness",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3371403",
+                        "name": "J. Kleinberg"
+                    },
+                    {
+                        "s2_author_id": "50197963",
+                        "name": "J. Ludwig"
+                    },
+                    {
+                        "s2_author_id": "2062143",
+                        "name": "S. Mullainathan"
+                    },
+                    {
+                        "s2_author_id": "88738815",
+                        "name": "Ashesh Rambachan"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "70025184",
+                "name": "Keyon Vafa"
+            },
+            {
+                "s2_author_id": "2374421021",
+                "name": "Peter G. Chang"
+            },
+            {
+                "s2_author_id": "2253742235",
+                "name": "S. Mullainathan"
+            },
+            {
+                "s2_author_id": "2331376841",
+                "name": "Rahul Singh"
+            },
+            {
+                "s2_author_id": "2331320004",
+                "name": "Davide Viviano"
+            },
+            {
+                "s2_author_id": "2305040412",
+                "name": "Justin Y. Chen"
+            },
+            {
+                "s2_author_id": "2218834137",
+                "name": "Jon M. Kleinberg"
+            },
+            {
+                "s2_author_id": "2211522391",
+                "name": "Jens O. Ludwig"
+            },
+            {
+                "s2_author_id": "2062143",
+                "name": "S. Mullainathan"
+            },
+            {
+                "s2_author_id": "67311825",
+                "name": "Isaiah Andrews"
+            },
+            {
+                "s2_author_id": "121230054",
+                "name": "Nano Barahona"
+            },
+            {
+                "s2_author_id": "8731644",
+                "name": "M. Gentzkow"
+            },
+            {
+                "s2_author_id": "122795272",
+                "name": "Jesse M. Shapiro"
+            },
+            {
+                "s2_author_id": "2309222813",
+                "name": "Jonathan Roth"
+            },
+            {
+                "s2_author_id": "48577290",
+                "name": "Amanda Coston"
+            },
+            {
+                "s2_author_id": "48224429",
+                "name": "Edward H. Kennedy"
+            },
+            {
+                "s2_author_id": "2257239948",
+                "name": "Edward H. Kennedy"
+            },
+            {
+                "s2_author_id": "1665684748",
+                "name": "J. Roth"
+            },
+            {
+                "s2_author_id": "2082393",
+                "name": "Alexandra Chouldechova"
+            },
+            {
+                "s2_author_id": "88785748",
+                "name": "Iavor Bojinov"
+            },
+            {
+                "s2_author_id": "50275561",
+                "name": "N. Shephard"
+            },
+            {
+                "s2_author_id": "3371403",
+                "name": "J. Kleinberg"
+            },
+            {
+                "s2_author_id": "50197963",
+                "name": "J. Ludwig"
+            }
+        ],
+        "total_co_authors": 23,
+        "papers_retrieved": 29
+    }
+}

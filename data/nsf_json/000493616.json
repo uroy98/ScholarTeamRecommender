@@ -1,0 +1,767 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000493616",
+        "name": "Andrew P Barrett",
+        "primary_affiliation": "University of Colorado at Boulder",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Colorado at Boulder"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "CO"
+        ],
+        "perf_cities": [
+            "Boulder"
+        ],
+        "org_names": [
+            "University of Colorado at Boulder"
+        ],
+        "org_ueis": [
+            "SPVKK1RC2MZ3"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "apbarret@kryos.colorado.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2531102",
+                "title": "Collaborative Research: CAIG: Weakly Supervised Learning to Address Label-Data Irregularities in Sea-Ice Classification",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-09-01",
+                "exp_date": "2028-08-31",
+                "award_amount": 317922.0,
+                "total_amount": 317922.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "GEO CI - GEO Cyberinfrastrctre"
+                ],
+                "program_codes": [
+                    "243Y00"
+                ],
+                "program_references": [
+                    "Artificial Intelligence (AI)"
+                ],
+                "program_ref_codes": [
+                    "075Z"
+                ],
+                "dir_abbr": "GEO",
+                "div_abbr": "RISE",
+                "nsf_directorate": null,
+                "fund_division": "Integrative and Collaborative Education and Research (ICER)",
+                "cfda_num": "47.050",
+                "po_name": "Sean Kennan",
+                "keywords": [
+                    "classification",
+                    "label",
+                    "irregularities",
+                    "level",
+                    "supervised",
+                    "address",
+                    "methods",
+                    "problem",
+                    "labels",
+                    "annotations"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "GEO CI - GEO Cyberinfrastrctre"
+        ],
+        "program_codes": [
+            "243Y00"
+        ],
+        "program_references": [
+            "Artificial Intelligence (AI)"
+        ],
+        "program_ref_codes": [
+            "075Z"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "GEO"
+        ],
+        "div_abbrs": [
+            "RISE"
+        ],
+        "fund_divisions": [
+            "Integrative and Collaborative Education and Research (ICER)"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.050"
+        ],
+        "program_officers": [
+            "Sean Kennan"
+        ],
+        "keywords": [
+            "classification",
+            "label",
+            "irregularities",
+            "level",
+            "supervised",
+            "address",
+            "methods",
+            "problem",
+            "labels",
+            "annotations",
+            "multi",
+            "models",
+            "weakly",
+            "learning",
+            "climate",
+            "monitoring",
+            "concentration",
+            "artificial",
+            "intelligence",
+            "novel"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.46
+    },
+    "s2_profile": {
+        "s2_author_id": "2238146491",
+        "name": "Andrew P Barrett",
+        "affiliations": [],
+        "paper_count": 9,
+        "citation_count": 28,
+        "h_index": 3,
+        "papers": [
+            {
+                "s2_paper_id": "2fd4c4a0ed47d56c3cf66e6132b7a07e70b47d18",
+                "title": "Ice-FMBench A Foundation Model Benchmark for Sea Ice Type Segmentation",
+                "year": 2025,
+                "venue": "Proceedings of the 1st ACM SIGSPATIAL International Workshop on Polar Data Science",
+                "citation_count": 1,
+                "reference_count": 74,
+                "abstract": "Accurate segmentation and mapping of sea ice types is crucial for safe polar navigation, offshore operations, climate monitoring, and ecosystem analysis. While deep learning has demonstrated strong potential for automating sea ice type segmentation, its success often relies on access to extensive expert-labeled datasets, which is both resource-intensive and time-consuming to create. However, foundation models (FMs), recently developed through self-supervised training on large-scale datasets, have demonstrated impressive performance across a range of remote sensing downstream tasks. Nevertheless, their applicability to sea ice type segmentation based on Synthetic Aperture Radar (SAR) imagery remains uncertain due to the unique challenges posed by sea ice\u2014such as intricate geophysical patterns, pronounced seasonal variability, and SAR-specific artifacts like banding, scalloping, and heterogeneous backscatter\u2014as well as the fact that SAR data in polar regions are often acquired using specialized sensor modes that differ markedly from those used to collect FM training data at lower latitudes, limiting their direct transferability to polar environments. To address this gap, we contribute: (1) Ice-FMBench, a comprehensive benchmark framework for evaluation of the state-of-the-art remote sensing FMs on the sea ice type segmentation task using Sentinel-1 SAR imagery, where Ice-FMBench is composed of a widely used standardized dataset, diverse evaluation metrics, and a representative set of selected remote sensing FM models most suitable for sea ice type segmentation, with the ability to include new models side-by-side the existing models; (2) an extensive comparative evaluation of the representative FMs using Ice-FMBench, with additional case studies to assess performance of the top-performing model in terms of transferability across temporal and spatial domains and sensitivity to training dataset size; and (3) a multi-teacher knowledge distillation approach to address lack of spatiotemporal transferability of the existing FMs by transferring insight from spatially and temporally specialized expert models into a single, efficient student model.",
+                "authors": [
+                    {
+                        "s2_author_id": "2395779970",
+                        "name": "Samira Alkaee Taleghan"
+                    },
+                    {
+                        "s2_author_id": "2238146517",
+                        "name": "Morteza Karimzadeh"
+                    },
+                    {
+                        "s2_author_id": "2238146491",
+                        "name": "A. Barrett"
+                    },
+                    {
+                        "s2_author_id": "2304950953",
+                        "name": "Walter N. Meier"
+                    },
+                    {
+                        "s2_author_id": "1403628347",
+                        "name": "F. Banaei-Kashani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "783bc54b45124e5ce3792eee471f690c1c22a186",
+                "title": "Investigating the Effect of Spatial Context on Multi-Task Sea Ice Segmentation",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 39,
+                "abstract": "Capturing spatial context at multiple scales is crucial for deep learning-based sea ice segmentation. However, the optimal specification of spatial context based on observation resolution and task characteristics remains underexplored. This study investigates the impact of spatial context on the segmentation of sea ice concentration, stage of development, and floe size using a multi-task segmentation model. We implement Atrous Spatial Pyramid Pooling with varying atrous rates to systematically control the receptive field size of convolutional operations, and to capture multi-scale contextual information. We explore the interactions between spatial context and feature resolution for different sea ice properties and examine how spatial context influences segmentation performance across different input feature combinations from Sentinel-1 SAR and Advanced Microwave Radiometer-2 (AMSR2) for multi-task mapping. Using Gradient-weighted Class Activation Mapping, we visualize how atrous rates influence model decisions. Our findings indicate that smaller receptive fields excel for high-resolution Sentinel-1 data, while medium receptive fields yield better performances for stage of development segmentation and larger receptive fields often lead to diminished performances. The fusion of SAR and AMSR2 enhances segmentation across all tasks. We highlight the value of lower-resolution 18.7 and 36.5 GHz AMSR2 channels in sea ice mapping. These findings highlight the importance of selecting appropriate spatial context based on observation resolution and target properties in sea ice mapping. By systematically analyzing receptive field effects in a multi-task setting, our study provides insights for optimizing deep learning models in geospatial applications.",
+                "authors": [
+                    {
+                        "s2_author_id": "2611253",
+                        "name": "Behzad Vahedi"
+                    },
+                    {
+                        "s2_author_id": "2263839531",
+                        "name": "Rafael Pires de Lima"
+                    },
+                    {
+                        "s2_author_id": "2175527798",
+                        "name": "Sepideh Jalayer"
+                    },
+                    {
+                        "s2_author_id": "2304950953",
+                        "name": "Walter N. Meier"
+                    },
+                    {
+                        "s2_author_id": "2238146491",
+                        "name": "A. Barrett"
+                    },
+                    {
+                        "s2_author_id": "2238146517",
+                        "name": "Morteza Karimzadeh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8fc8d79d3f0ac9bec3ad921550d377667de03789",
+                "title": "IceBench: A Benchmark for Deep Learning based Sea Ice Type Classification",
+                "year": 2025,
+                "venue": "Remote Sensing",
+                "citation_count": 3,
+                "reference_count": 72,
+                "abstract": "Sea ice plays a critical role in the global climate system and maritime operations, making timely and accurate classification essential. However, traditional manual methods are time-consuming, costly, and have inherent biases. Automating sea-ice type classification addresses these challenges by enabling faster, more consistent, and scalable analysis. While both traditional and deep-learning approaches have been explored, deep-learning models offer a promising direction for improving efficiency and consistency in sea-ice classification. However, the absence of a standardized benchmark and comparative study prevents a clear consensus on the best-performing models. To bridge this gap, we introduce IceBench, a comprehensive benchmarking framework for sea-ice type classification. Our key contributions are three-fold: First, we establish the IceBench benchmarking framework, which leverages the existing AI4Arctic Sea Ice Challenge Dataset as a standardized dataset, incorporates a comprehensive set of evaluation metrics, and includes representative models from the entire spectrum of sea-ice type-classification methods categorized in two distinct groups, namely pixel-based classification methods and patch-based classification methods. IceBench is open-source and allows for convenient integration and evaluation of other sea-ice type-classification methods, hence facilitating comparative evaluation of new methods and improving reproducibility in the field. Second, we conduct an in-depth comparative study on representative models to assess their strengths and limitations, providing insights for both practitioners and researchers. Third, we leverage IceBench for systematic experiments addressing key research questions on model transferability across seasons (time) and locations (space), data downsampling, and preprocessing strategies. By identifying the best-performing models under different conditions, IceBench serves as a valuable reference for future research and a robust benchmarking framework for the field.",
+                "authors": [
+                    {
+                        "s2_author_id": "2340525400",
+                        "name": "Samira Alkaee Taleghan"
+                    },
+                    {
+                        "s2_author_id": "2238146491",
+                        "name": "A. Barrett"
+                    },
+                    {
+                        "s2_author_id": "2304950953",
+                        "name": "Walter N. Meier"
+                    },
+                    {
+                        "s2_author_id": "3030273",
+                        "name": "F. Kashani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dce8b932bc35c9435bf6447e317688e1157a6364",
+                "title": "Assessing Foundation Models for Sea Ice Type Segmentation in Sentinel-1 SAR Imagery",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 64,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2340525400",
+                        "name": "Samira Alkaee Taleghan"
+                    },
+                    {
+                        "s2_author_id": "2238146517",
+                        "name": "Morteza Karimzadeh"
+                    },
+                    {
+                        "s2_author_id": "2238146491",
+                        "name": "A. Barrett"
+                    },
+                    {
+                        "s2_author_id": "2304950953",
+                        "name": "Walter N. Meier"
+                    },
+                    {
+                        "s2_author_id": "3030273",
+                        "name": "F. Kashani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d9f8e90740f507e4f354cde4c8493a060dd2d25",
+                "title": "Semi-Supervised Multi-Source Sea Ice Classification in Small-Data Regime",
+                "year": 2024,
+                "venue": "BigData Congress [Services Society]",
+                "citation_count": 0,
+                "reference_count": 26,
+                "abstract": "Sea ice type classification is essential for climate change research and maritime safety. Traditionally, this process relies on manual ice charting, which is time-consuming, expensive, and requires expert knowledge, making it difficult to scale up for current demands. Automating sea ice type classification is essential to keep pace with rapidly changing sea ice conditions. However, two main challenges limit the development of effective automated classifiers. First, while ice charts provide valuable labeled data, they only offer large-area (polygon) annotations rather than pixel-level labels, leading to a lack of precise training data. Second, although there are additional datasets with useful sea ice information, effectively combining these different data sources remains difficult. To tackle the first challenge, we employed co-training and label propagation, two semi-supervised learning methods, to learn from a small amount of labeled data and a large pool of unlabeled data, thereby improving the accuracy of sea ice classifiers despite limited labeled data. To address the second challenge, we leveraged co-training\u2019s built-in ability to integrate multiple data sources during the training process for the small labeled data. Additionally, we further enhanced data integration by using an ensemble of these co-trained models after training. Our approach demonstrates significant improvements over traditional supervised methods, showcasing the potential of semi-supervised learning methods in addressing two major challenges in developing automated sea ice classification solutions. Our study shows that semi-supervised learning improved F1 scores by 17% for SAR data and 33% for AMSR2 with limited labels, compared to supervised methods, while ensembling further boosted accuracy by 33%.",
+                "authors": [
+                    {
+                        "s2_author_id": "2340525400",
+                        "name": "Samira Alkaee Taleghan"
+                    },
+                    {
+                        "s2_author_id": "2238146517",
+                        "name": "Morteza Karimzadeh"
+                    },
+                    {
+                        "s2_author_id": "2238146491",
+                        "name": "A. Barrett"
+                    },
+                    {
+                        "s2_author_id": "2304950953",
+                        "name": "Walter N. Meier"
+                    },
+                    {
+                        "s2_author_id": "3030273",
+                        "name": "F. Kashani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "427fa84e81d5014237f339bcc6b02458c710c2a9",
+                "title": "Mapping Potential Timing of Ice Algal Blooms From Satellite",
+                "year": 2024,
+                "venue": "Geophysical Research Letters",
+                "citation_count": 10,
+                "reference_count": 61,
+                "abstract": "As Arctic sea ice and its overlying snow cover thin, more light penetrates into the ice and upper ocean, shifting the phenology of algal growth within the bottom of sea ice, with cascading impacts on higher trophic levels of the Arctic marine ecosystem. While field data or autonomous observatories provide direct measurements of the coupled sea ice\u2010algal system, they are limited in space and time. Satellite observations of key sea ice variables that control the amount of light penetrating through sea ice offer the possibility to map the under\u2010ice light field across the entire Arctic basin. This study provides the first satellite\u2010based estimates of potential sea ice\u2010associated algal bloom onset dates since the launch of CryoSat\u20102 and explores how a changing snowpack may have shifted bloom onset timings over the last four decades.",
+                "authors": [
+                    {
+                        "s2_author_id": "2297534738",
+                        "name": "J. Stroeve"
+                    },
+                    {
+                        "s2_author_id": "70074195",
+                        "name": "G. Veyssi\u00e8re"
+                    },
+                    {
+                        "s2_author_id": "2093428471",
+                        "name": "C. Nab"
+                    },
+                    {
+                        "s2_author_id": "2297533176",
+                        "name": "B. Light"
+                    },
+                    {
+                        "s2_author_id": "2238457463",
+                        "name": "D. Perovich"
+                    },
+                    {
+                        "s2_author_id": "2297533651",
+                        "name": "J. Lalibert\u00e9"
+                    },
+                    {
+                        "s2_author_id": "2297538960",
+                        "name": "K. Campbell"
+                    },
+                    {
+                        "s2_author_id": "1986526",
+                        "name": "J. Landy"
+                    },
+                    {
+                        "s2_author_id": "1573670576",
+                        "name": "R. Mallett"
+                    },
+                    {
+                        "s2_author_id": "2238146491",
+                        "name": "A. Barrett"
+                    },
+                    {
+                        "s2_author_id": "2260516685",
+                        "name": "G. Liston"
+                    },
+                    {
+                        "s2_author_id": "2297534557",
+                        "name": "A. Haddon"
+                    },
+                    {
+                        "s2_author_id": "2294109566",
+                        "name": "J. Wilkinson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cc41b828134f8a4490af1ba2088c26113662ea71",
+                "title": "Shifting institutional culture to develop climate solutions with Open Science",
+                "year": 2024,
+                "venue": "Ecology and Evolution",
+                "citation_count": 1,
+                "reference_count": 35,
+                "abstract": "Abstract To address our climate emergency, \u201cwe must rapidly, radically reshape society\u201d\u2014Johnson & Wilkinson, All We Can Save. In science, reshaping requires formidable technical (cloud, coding, reproducibility) and cultural shifts (mindsets, hybrid collaboration, inclusion). We are a group of cross\u2010government and academic scientists that are exploring better ways of working and not being too entrenched in our bureaucracies to do better science, support colleagues, and change the culture at our organizations. We share much\u2010needed success stories and action for what we can all do to reshape science as part of the Open Science movement and 2023 Year of Open Science.",
+                "authors": [
+                    {
+                        "s2_author_id": "2304306863",
+                        "name": "Julia Stewart Lowndes"
+                    },
+                    {
+                        "s2_author_id": "2304306237",
+                        "name": "Anna M. Holder"
+                    },
+                    {
+                        "s2_author_id": "2304306098",
+                        "name": "Emily H Markowitz"
+                    },
+                    {
+                        "s2_author_id": "2304305895",
+                        "name": "Corey Clatterbuck"
+                    },
+                    {
+                        "s2_author_id": "2304305891",
+                        "name": "Amanda L. Bradford"
+                    },
+                    {
+                        "s2_author_id": "153667228",
+                        "name": "Kathryn L. Doering"
+                    },
+                    {
+                        "s2_author_id": "2304377857",
+                        "name": "Molly H Stevens"
+                    },
+                    {
+                        "s2_author_id": "2304305861",
+                        "name": "Stefanie Butland"
+                    },
+                    {
+                        "s2_author_id": "2304375669",
+                        "name": "Devan Burke"
+                    },
+                    {
+                        "s2_author_id": "2304306357",
+                        "name": "Sean Kross"
+                    },
+                    {
+                        "s2_author_id": "4691589",
+                        "name": "Jeffrey W. Hollister"
+                    },
+                    {
+                        "s2_author_id": "12950998",
+                        "name": "C. Stawitz"
+                    },
+                    {
+                        "s2_author_id": "6090828",
+                        "name": "M. Siple"
+                    },
+                    {
+                        "s2_author_id": "90887163",
+                        "name": "Adyan Rios"
+                    },
+                    {
+                        "s2_author_id": "38909031",
+                        "name": "J. N. Welch"
+                    },
+                    {
+                        "s2_author_id": "2304312718",
+                        "name": "Bai Li"
+                    },
+                    {
+                        "s2_author_id": "70428884",
+                        "name": "Farnaz Nojavan"
+                    },
+                    {
+                        "s2_author_id": "2304324007",
+                        "name": "Alexandra Davis"
+                    },
+                    {
+                        "s2_author_id": "2304306222",
+                        "name": "Erin Steiner"
+                    },
+                    {
+                        "s2_author_id": "2304307151",
+                        "name": "Josh M. London"
+                    },
+                    {
+                        "s2_author_id": "2273456502",
+                        "name": "Ileana F Fenwick"
+                    },
+                    {
+                        "s2_author_id": "2304306151",
+                        "name": "Alexis Hunzinger"
+                    },
+                    {
+                        "s2_author_id": "2304306948",
+                        "name": "Juliette Verstaen"
+                    },
+                    {
+                        "s2_author_id": "2304307267",
+                        "name": "Elizabeth Holmes"
+                    },
+                    {
+                        "s2_author_id": "2304306996",
+                        "name": "Makhan Virdi"
+                    },
+                    {
+                        "s2_author_id": "2238146491",
+                        "name": "A. Barrett"
+                    },
+                    {
+                        "s2_author_id": "2239157210",
+                        "name": "Erin Robinson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dca9e92abc90860bd81fb602c404076889b902ea",
+                "title": "Partial Label Learning With Focal Loss for Sea Ice Classification Based on Ice Charts",
+                "year": 2024,
+                "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+                "citation_count": 2,
+                "reference_count": 94,
+                "abstract": "Sea ice, crucial to the Arctic and Earth's climate, requires consistent monitoring and high-resolution mapping. Manual sea ice mapping, however, is time-consuming and subjective, prompting the need for automated deep learning-based classification approaches. However, training these algorithms is challenging because expert-generated ice charts, commonly used as training data, do not map single ice types but instead map polygons with multiple ice types. Moreover, the distribution of various ice types in these charts is frequently imbalanced, resulting in a performance bias toward the dominant class. In this article, we present a novel GeoAI approach to training sea ice classification by formalizing it as a partial label learning task with explicit confidence scores to address multiple labels and class imbalance. We treat the polygon-level labels as candidate partial labels, assign the corresponding ice concentrations as confidence scores to each candidate label, and integrate them with focal loss to train a convolutional neural network. Our proposed approach leads to enhanced performance for sea ice classification in Sentinel-1 dual-polarized SAR images, improving classification accuracy (from 87% to 92%) and weighted average F-1 score (from 90% to 93%) compared to the conventional training approach of using one-hot encoded labels and categorical cross-entropy loss. It also improves the F-1 score in four out of the six sea ice classes.",
+                "authors": [
+                    {
+                        "s2_author_id": "2611253",
+                        "name": "Behzad Vahedi"
+                    },
+                    {
+                        "s2_author_id": "2253348591",
+                        "name": "Benjamin Lucas"
+                    },
+                    {
+                        "s2_author_id": "1403628347",
+                        "name": "F. Banaei-Kashani"
+                    },
+                    {
+                        "s2_author_id": "2238146491",
+                        "name": "A. Barrett"
+                    },
+                    {
+                        "s2_author_id": "2304950953",
+                        "name": "Walter N. Meier"
+                    },
+                    {
+                        "s2_author_id": "2274974035",
+                        "name": "S. Khalsa"
+                    },
+                    {
+                        "s2_author_id": "2238146517",
+                        "name": "Morteza Karimzadeh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3ed2ffc767c534a405b33b11f0828bdefebae4f2",
+                "title": "Enhancing sea ice segmentation in Sentinel-1 images with atrous convolutions",
+                "year": 2023,
+                "venue": "International Journal of Remote Sensing",
+                "citation_count": 11,
+                "reference_count": 62,
+                "abstract": "ABSTRACT Due to the growing volume of remote sensing data and the low latency required for safe marine navigation, machine learning (ML) algorithms are being developed to accelerate sea ice chart generation, currently a manual interpretation task. However, the low signal-to-noise ratio of the freely available Sentinel-1 Synthetic Aperture Radar (SAR) imagery, the ambiguity of backscatter signals for ice types, and the scarcity of open-source high-resolution labelled data makes automating sea ice mapping challenging. We use Extreme Earth version 2, a high-resolution benchmark dataset generated for ML training and evaluation, to investigate the effectiveness of ML for automated sea ice mapping. Our customized pipeline combines ResNets and Atrous Spatial Pyramid Pooling for SAR image segmentation. We investigate the performance of our model for: i) binary classification of sea ice and open water in a segmentation framework; and ii) a multiclass segmentation of five sea ice types. For binary ice-water classification, models trained with our largest training set have weighted F1 scores all greater than 0.95 for January and July test scenes. Specifically, the median weighted F1 score was 0.98, indicating high performance for both months. By comparison, a competitive baseline U-Net has a weighted average F1 score of ranging from 0.92 to 0.94 (median 0.93) for July, and 0.97 to 0.98 (median 0.97) for January. Multiclass ice type classification is more challenging, and even though our models achieve 2% improvement in weighted F1 average compared to the baseline U-Net, test weighted F1 is generally between 0.6 and 0.80. Our approach can efficiently segment full SAR scenes in one run, is faster than the baseline U-Net, retains spatial resolution and dimension, and is more robust against noise compared to approaches that rely on patch classification.",
+                "authors": [
+                    {
+                        "s2_author_id": "2125814828",
+                        "name": "Rafael Pires de Lima"
+                    },
+                    {
+                        "s2_author_id": "2611253",
+                        "name": "Behzad Vahedi"
+                    },
+                    {
+                        "s2_author_id": "2238131395",
+                        "name": "Nick Hughes"
+                    },
+                    {
+                        "s2_author_id": "2238146491",
+                        "name": "A. Barrett"
+                    },
+                    {
+                        "s2_author_id": "2238455941",
+                        "name": "W. Meier"
+                    },
+                    {
+                        "s2_author_id": "2238146517",
+                        "name": "Morteza Karimzadeh"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2395779970",
+                "name": "Samira Alkaee Taleghan"
+            },
+            {
+                "s2_author_id": "2238146517",
+                "name": "Morteza Karimzadeh"
+            },
+            {
+                "s2_author_id": "2304950953",
+                "name": "Walter N. Meier"
+            },
+            {
+                "s2_author_id": "1403628347",
+                "name": "F. Banaei-Kashani"
+            },
+            {
+                "s2_author_id": "2611253",
+                "name": "Behzad Vahedi"
+            },
+            {
+                "s2_author_id": "2263839531",
+                "name": "Rafael Pires de Lima"
+            },
+            {
+                "s2_author_id": "2175527798",
+                "name": "Sepideh Jalayer"
+            },
+            {
+                "s2_author_id": "2340525400",
+                "name": "Samira Alkaee Taleghan"
+            },
+            {
+                "s2_author_id": "3030273",
+                "name": "F. Kashani"
+            },
+            {
+                "s2_author_id": "2297534738",
+                "name": "J. Stroeve"
+            },
+            {
+                "s2_author_id": "70074195",
+                "name": "G. Veyssi\u00e8re"
+            },
+            {
+                "s2_author_id": "2093428471",
+                "name": "C. Nab"
+            },
+            {
+                "s2_author_id": "2297533176",
+                "name": "B. Light"
+            },
+            {
+                "s2_author_id": "2238457463",
+                "name": "D. Perovich"
+            },
+            {
+                "s2_author_id": "2297533651",
+                "name": "J. Lalibert\u00e9"
+            },
+            {
+                "s2_author_id": "2297538960",
+                "name": "K. Campbell"
+            },
+            {
+                "s2_author_id": "1986526",
+                "name": "J. Landy"
+            },
+            {
+                "s2_author_id": "1573670576",
+                "name": "R. Mallett"
+            },
+            {
+                "s2_author_id": "2260516685",
+                "name": "G. Liston"
+            },
+            {
+                "s2_author_id": "2297534557",
+                "name": "A. Haddon"
+            },
+            {
+                "s2_author_id": "2294109566",
+                "name": "J. Wilkinson"
+            },
+            {
+                "s2_author_id": "2304306863",
+                "name": "Julia Stewart Lowndes"
+            },
+            {
+                "s2_author_id": "2304306237",
+                "name": "Anna M. Holder"
+            },
+            {
+                "s2_author_id": "2304306098",
+                "name": "Emily H Markowitz"
+            },
+            {
+                "s2_author_id": "2304305895",
+                "name": "Corey Clatterbuck"
+            },
+            {
+                "s2_author_id": "2304305891",
+                "name": "Amanda L. Bradford"
+            },
+            {
+                "s2_author_id": "153667228",
+                "name": "Kathryn L. Doering"
+            },
+            {
+                "s2_author_id": "2304377857",
+                "name": "Molly H Stevens"
+            },
+            {
+                "s2_author_id": "2304305861",
+                "name": "Stefanie Butland"
+            },
+            {
+                "s2_author_id": "2304375669",
+                "name": "Devan Burke"
+            },
+            {
+                "s2_author_id": "2304306357",
+                "name": "Sean Kross"
+            },
+            {
+                "s2_author_id": "4691589",
+                "name": "Jeffrey W. Hollister"
+            },
+            {
+                "s2_author_id": "12950998",
+                "name": "C. Stawitz"
+            },
+            {
+                "s2_author_id": "6090828",
+                "name": "M. Siple"
+            },
+            {
+                "s2_author_id": "90887163",
+                "name": "Adyan Rios"
+            },
+            {
+                "s2_author_id": "38909031",
+                "name": "J. N. Welch"
+            },
+            {
+                "s2_author_id": "2304312718",
+                "name": "Bai Li"
+            },
+            {
+                "s2_author_id": "70428884",
+                "name": "Farnaz Nojavan"
+            },
+            {
+                "s2_author_id": "2304324007",
+                "name": "Alexandra Davis"
+            },
+            {
+                "s2_author_id": "2304306222",
+                "name": "Erin Steiner"
+            },
+            {
+                "s2_author_id": "2304307151",
+                "name": "Josh M. London"
+            },
+            {
+                "s2_author_id": "2273456502",
+                "name": "Ileana F Fenwick"
+            },
+            {
+                "s2_author_id": "2304306151",
+                "name": "Alexis Hunzinger"
+            },
+            {
+                "s2_author_id": "2304306948",
+                "name": "Juliette Verstaen"
+            },
+            {
+                "s2_author_id": "2304307267",
+                "name": "Elizabeth Holmes"
+            },
+            {
+                "s2_author_id": "2304306996",
+                "name": "Makhan Virdi"
+            },
+            {
+                "s2_author_id": "2239157210",
+                "name": "Erin Robinson"
+            },
+            {
+                "s2_author_id": "2253348591",
+                "name": "Benjamin Lucas"
+            },
+            {
+                "s2_author_id": "2274974035",
+                "name": "S. Khalsa"
+            },
+            {
+                "s2_author_id": "2125814828",
+                "name": "Rafael Pires de Lima"
+            },
+            {
+                "s2_author_id": "2238131395",
+                "name": "Nick Hughes"
+            },
+            {
+                "s2_author_id": "2238455941",
+                "name": "W. Meier"
+            }
+        ],
+        "total_co_authors": 52,
+        "papers_retrieved": 9
+    }
+}

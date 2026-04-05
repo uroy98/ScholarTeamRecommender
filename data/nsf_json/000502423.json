@@ -1,0 +1,1493 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000502423",
+        "name": "Bradley A Malin",
+        "primary_affiliation": "Vanderbilt University Medical Center",
+        "primary_department": null,
+        "all_affiliations": [
+            "Vanderbilt University Medical Center"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "TN"
+        ],
+        "perf_cities": [
+            "NASHVILLE"
+        ],
+        "org_names": [
+            "Vanderbilt University Medical Center"
+        ],
+        "org_ueis": [
+            "GYLUH9UXHDX5"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "bradley.malin@vanderbilt.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2452835",
+                "title": "PDaSP Track 2: Explainable Auditing of ML Models for Privacy Violations",
+                "type": "Continuing Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-10-01",
+                "exp_date": "2028-09-30",
+                "award_amount": 450000.0,
+                "total_amount": 450000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "Privacy Preserving Data Sharin"
+                ],
+                "program_codes": [
+                    "329Y00"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "TIP",
+                "div_abbr": "ITE",
+                "nsf_directorate": null,
+                "fund_division": "Innovation and Technology Ecosystems",
+                "cfda_num": "47.084",
+                "po_name": "Jemin George",
+                "keywords": [
+                    "privacy",
+                    "models",
+                    "auditing",
+                    "medical",
+                    "tools",
+                    "machine",
+                    "healthcare",
+                    "share",
+                    "scientific",
+                    "risks"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "Privacy Preserving Data Sharin"
+        ],
+        "program_codes": [
+            "329Y00"
+        ],
+        "program_references": [],
+        "program_ref_codes": [],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "TIP"
+        ],
+        "div_abbrs": [
+            "ITE"
+        ],
+        "fund_divisions": [
+            "Innovation and Technology Ecosystems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.084"
+        ],
+        "program_officers": [
+            "Jemin George"
+        ],
+        "keywords": [
+            "privacy",
+            "models",
+            "auditing",
+            "medical",
+            "tools",
+            "machine",
+            "healthcare",
+            "share",
+            "scientific",
+            "risks",
+            "methods",
+            "through",
+            "learning",
+            "attacks",
+            "explainable",
+            "growing",
+            "artificial",
+            "intelligence",
+            "challenge",
+            "computer"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.38
+    },
+    "s2_profile": {
+        "s2_author_id": "2203714117",
+        "name": "Bradley A Malin",
+        "affiliations": [],
+        "paper_count": 23,
+        "citation_count": 204,
+        "h_index": 8,
+        "papers": [
+            {
+                "s2_paper_id": "5bdd47474a119c7eb5f47cbaa8a6697f5056f07d",
+                "title": "Auditor models to suppress poor artificial intelligence predictions can improve human-artificial intelligence collaborative performance.",
+                "year": 2026,
+                "venue": "JAMIA Journal of the American Medical Informatics Association",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2336534331",
+                        "name": "Katherine E Brown"
+                    },
+                    {
+                        "s2_author_id": "2278612452",
+                        "name": "Jesse O. Wrenn"
+                    },
+                    {
+                        "s2_author_id": "2348099110",
+                        "name": "Nicholas J Jackson"
+                    },
+                    {
+                        "s2_author_id": "2340585697",
+                        "name": "Michael R Cauley"
+                    },
+                    {
+                        "s2_author_id": "2212476290",
+                        "name": "Benjamin X. Collins"
+                    },
+                    {
+                        "s2_author_id": "2248211960",
+                        "name": "Laurie L Novak"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "1783436",
+                        "name": "J. Ancker"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3599c3b873871bbe81e4d17f0f7d4cc3cba85219",
+                "title": "Large language models are less effective at clinical prediction tasks than locally trained machine learning models",
+                "year": 2025,
+                "venue": "J. Am. Medical Informatics Assoc.",
+                "citation_count": 18,
+                "reference_count": 49,
+                "abstract": "Abstract Objectives To determine the extent to which current large language models (LLMs) can serve as substitutes for traditional machine learning (ML) as clinical predictors using data from electronic health records (EHRs), we investigated various factors that can impact their adoption, including overall performance, calibration, fairness, and resilience to privacy protections that reduce data fidelity. Materials and Methods We evaluated GPT-3.5, GPT-4, and traditional ML (as gradient-boosting trees) on clinical prediction tasks in EHR data from Vanderbilt University Medical Center (VUMC) and MIMIC IV. We measured predictive performance with area under the receiver operating characteristic (AUROC) and model calibration using Brier Score. To evaluate the impact of data privacy protections, we assessed AUROC when demographic variables are generalized. We evaluated algorithmic fairness using equalized odds and statistical parity across race, sex, and age of patients. We also considered the impact of using in-context learning by incorporating labeled examples within the prompt. Results Traditional ML [AUROC: 0.847, 0.894 (VUMC, MIMIC)] substantially outperformed GPT-3.5 (AUROC: 0.537, 0.517) and GPT-4 (AUROC: 0.629, 0.602) (with and without in-context learning) in predictive performance and output probability calibration [Brier Score (ML vs GPT-3.5 vs GPT-4): 0.134 vs 0.384 vs 0.251, 0.042 vs 0.06 vs 0.219)]. Discussion Traditional ML is more robust than GPT-3.5 and GPT-4 in generalizing demographic information to protect privacy. GPT-4 is the fairest model according to our selected metrics but at the cost of poor model performance. Conclusion These findings suggest that non-fine-tuned LLMs are less effective and robust than locally trained ML for clinical prediction tasks, but they are improving across releases.",
+                "authors": [
+                    {
+                        "s2_author_id": "2336534331",
+                        "name": "Katherine E Brown"
+                    },
+                    {
+                        "s2_author_id": "2257140937",
+                        "name": "Chao Yan"
+                    },
+                    {
+                        "s2_author_id": "2290740132",
+                        "name": "Zhuohang Li"
+                    },
+                    {
+                        "s2_author_id": "2051530099",
+                        "name": "Xinmeng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2212476290",
+                        "name": "Benjamin X. Collins"
+                    },
+                    {
+                        "s2_author_id": "2282757207",
+                        "name": "You Chen"
+                    },
+                    {
+                        "s2_author_id": "2257175890",
+                        "name": "E. Clayton"
+                    },
+                    {
+                        "s2_author_id": "2269048681",
+                        "name": "Murat Kantarcioglu"
+                    },
+                    {
+                        "s2_author_id": "1699600",
+                        "name": "Yevgeniy Vorobeychik"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39fc583ccfaec4bca0965b715e5ad03226e10b9a",
+                "title": "Rural Medical Centers Struggle to Produce Well-Calibrated Clinical Prediction Models: Data Augmentation Can Help",
+                "year": 2025,
+                "venue": "medRxiv",
+                "citation_count": 1,
+                "reference_count": 33,
+                "abstract": "Machine learning models support many clinical tasks; however, challenges arise with the transportability of these models across a network of healthcare sites. While there are guidelines for updating models to account for local context, we hypothesize that not all healthcare organizations, especially those in smaller and rural communities, have the necessary patient volumes to facilitate local fine tuning to ensure models are reliable for their populations. To investigate these challenges, we conducted an experiment using data from a real network of hospitals to predict 30-day unplanned hospital readmission and a simulation study using data from a multi-site ICU dataset to evaluate the utility of synthetic data generation (SDG) to augment local data volumes. Several factors associated with rurality were correlated with model miscalibration and rural sites failed to meet sample size requirements for local recalibration. Our results indicate that deep learning approaches to SDG produced the best local classifiers.",
+                "authors": [
+                    {
+                        "s2_author_id": "2336534331",
+                        "name": "Katherine E Brown"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "2302146622",
+                        "name": "Sharon E. Davis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "40e3cf2a663e42c562418353a92940cc044764eb",
+                "title": "Re-identification risk for common privacy preserving patient matching strategies when shared with de-identified demographics",
+                "year": 2025,
+                "venue": "JAMIA Journal of the American Medical Informatics Association",
+                "citation_count": 0,
+                "reference_count": 28,
+                "abstract": "Abstract Objective Privacy preserving record linkage (PPRL) refers to techniques used to identify which records refer to the same person across disparate datasets while safeguarding their identities. PPRL is increasingly relied upon to facilitate biomedical research. A common strategy encodes personally identifying information for comparison without disclosing underlying identifiers. As the scale of research datasets expands, it becomes crucial to reassess the privacy risks associated with these encodings. This paper highlights the potential re-identification risks of some of these encodings, demonstrating an attack that exploits encoding repetition across patients. Materials and Methods The attack leverages repeated PPRL encoding values combined with common demographics shared during PPRL in the clear (e.g., 3-digit ZIP code) to distinguish encodings from one another and ultimately link them to identities in a reference dataset. Using US Census statistics and voter registries, we empirically estimate encodings\u2019 re-identification risk against such an attack, while varying multiple factors that influence the risk. Results Re-identification risk for PPRL encodings increases with population size, number of distinct encodings per patient, and amount of demographic information available. Commonly used encodings typically grow from <1% re-identification rate for datasets under one million individuals to 10%-20% for 250 million individuals. Discussion and Conclusion Re-identification risk often remains low in smaller populations, but increases significantly at the larger scales increasingly encountered today. These risks are common in many PPRL implementations, although, as our work shows, they are avoidable. Choosing better tokens or matching tokens through a third party without the underlying demographics effectively eliminates these risks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2386414125",
+                        "name": "Austin Eliazar"
+                    },
+                    {
+                        "s2_author_id": "2321670783",
+                        "name": "James Thomas Brown"
+                    },
+                    {
+                        "s2_author_id": "2386404712",
+                        "name": "Sara Cinamon"
+                    },
+                    {
+                        "s2_author_id": "2269048681",
+                        "name": "Murat Kantarcioglu"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "465f69d98049cf3857d794c4f088393d34a02eaf",
+                "title": "Auditor Models to Suppress Poor AI Predictions Can Improve Human-AI Collaborative Performance",
+                "year": 2025,
+                "venue": "medRxiv",
+                "citation_count": 0,
+                "reference_count": 41,
+                "abstract": "Objective Healthcare decisions are increasingly made with the assistance of machine learning (ML). ML has been known to have unfairness - inconsistent outcomes across subpopulations. Clinicians interacting with these systems can perpetuate such unfairness by overreliance. Recent work exploring ML suppression - silencing predictions based on auditing the ML - shows promise in mitigating performance issues originating from overreliance. This study aims to evaluate the impact of suppression on collaboration fairness and evaluate ML uncertainty as desiderata to audit the ML. Materials and Methods We used data from the Vanderbilt University Medical Center electronic health record (n = 58,817) and the MIMIC-IV-ED dataset (n = 363,145) to predict likelihood of death or ICU transfer and likelihood of 30-day readmission. Our simulation study used gradient-boosted trees as well as an artificially high-performing oracle model. We derived clinician decisions directly from the dataset and simulated clinician acceptance of ML predictions based on previous empirical work on acceptance of CDS alerts. We measured performance as area under the receiver operating characteristic curve and algorithmic fairness using absolute averaged odds difference. Results When the ML outperforms humans, suppression outperforms the human alone (p < 0.034) and at least does not degrade fairness. When the human outperforms the ML, suppression outperforms the human (p < 5.2 x 10-5) but the human is fairer than suppression (p < 0.0019). Finally, incorporating uncertainty quantification into suppression approaches can improve performance. Conclusion Suppression of poor-quality ML predictions through an auditor model shows promise in improving collaborative human-AI performance and fairness.",
+                "authors": [
+                    {
+                        "s2_author_id": "2336534331",
+                        "name": "Katherine E Brown"
+                    },
+                    {
+                        "s2_author_id": "2278612452",
+                        "name": "Jesse O. Wrenn"
+                    },
+                    {
+                        "s2_author_id": "2348099110",
+                        "name": "Nicholas J Jackson"
+                    },
+                    {
+                        "s2_author_id": "2340585697",
+                        "name": "Michael R Cauley"
+                    },
+                    {
+                        "s2_author_id": "2212476290",
+                        "name": "Benjamin X. Collins"
+                    },
+                    {
+                        "s2_author_id": "2248211960",
+                        "name": "Laurie L Novak"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "1783436",
+                        "name": "J. Ancker"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "46e2f97c7c5b7867f5faf487adc7f4627bcafe3d",
+                "title": "A novel analysis methodology for assessment of re-identification risks for the National Cancer Institute cancer registry privacy preserving record linkage technique.",
+                "year": 2025,
+                "venue": "JAMIA Journal of the American Medical Informatics Association",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2269048681",
+                        "name": "Murat Kantarcioglu"
+                    },
+                    {
+                        "s2_author_id": "2367021277",
+                        "name": "Will Howe"
+                    },
+                    {
+                        "s2_author_id": "2253840342",
+                        "name": "Benmei Liu"
+                    },
+                    {
+                        "s2_author_id": "2387946355",
+                        "name": "Valentina Petkov"
+                    },
+                    {
+                        "s2_author_id": "1435301253",
+                        "name": "Esmeralda Casas-Silva"
+                    },
+                    {
+                        "s2_author_id": "2387946953",
+                        "name": "Diana Velasquez-Kolnik"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "2301463024",
+                        "name": "L. Penberthy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5ac2127cb11a38e994df91326056d71d4e59fa72",
+                "title": "Role and Use of Race in Artificial Intelligence and Machine Learning Models Related to Health",
+                "year": 2025,
+                "venue": "Journal of Medical Internet Research",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": "Abstract The role and use of race within health-related artificial intelligence (AI) and machine learning (ML) models have sparked increasing attention and controversy. Despite the complexity and breadth of related issues, a robust and holistic framework to guide stakeholders in their examination and resolution remains lacking. This perspective provides a broad-based, systematic, and crosscutting landscape analysis of race-related challenges, structured around the AI and ML life cycle and framed through \u201cpoints to consider\u201d to support inquiry and decision-making.",
+                "authors": [
+                    {
+                        "s2_author_id": "2248189765",
+                        "name": "Martin Were"
+                    },
+                    {
+                        "s2_author_id": "2353076363",
+                        "name": "Ang Li"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "2237567284",
+                        "name": "Zhijun Yin"
+                    },
+                    {
+                        "s2_author_id": "2353077616",
+                        "name": "Joseph R. Coco"
+                    },
+                    {
+                        "s2_author_id": "2212476290",
+                        "name": "Benjamin X. Collins"
+                    },
+                    {
+                        "s2_author_id": "2257175890",
+                        "name": "E. Clayton"
+                    },
+                    {
+                        "s2_author_id": "2248211960",
+                        "name": "Laurie L Novak"
+                    },
+                    {
+                        "s2_author_id": "1402085679",
+                        "name": "Rachele M. Hendricks-Sturrup"
+                    },
+                    {
+                        "s2_author_id": "2483761",
+                        "name": "A. Oluyomi"
+                    },
+                    {
+                        "s2_author_id": "2244341451",
+                        "name": "Shilo Anders"
+                    },
+                    {
+                        "s2_author_id": "2257140937",
+                        "name": "Chao Yan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7b47985da7f21de52b7c9d8b2e8a86a573a74cd3",
+                "title": "Evaluating Sex and Age Biases in Multimodal Large Language Models for Skin Disease Identification from Dermatoscopic Images",
+                "year": 2025,
+                "venue": "Health Data Science",
+                "citation_count": 4,
+                "reference_count": 37,
+                "abstract": "Background: Multimodal large language models (LLMs) have shown potential in various health-related fields. However, many healthcare studies have raised concerns about the reliability and biases of LLMs in healthcare applications. Methods: To explore the practical application of multimodal LLMs in skin disease identification, and to evaluate sex and age biases, we tested the performance of 2 popular multimodal LLMs, ChatGPT-4 and LLaVA-1.6, across diverse sex and age groups using a subset of a large dermatoscopic dataset containing around 10,000 images and 3 skin diseases (melanoma, melanocytic nevi, and benign keratosis-like lesions). Results: In comparison to 3 deep learning models (VGG16, ResNet50, and Model Derm) based on convolutional neural network (CNN), one vision transformer model (Swin-B), we found that ChatGPT-4 and LLaVA-1.6 demonstrated overall accuracies that were 3% and 23% higher (and F1-scores that were 4% and 34% higher), respectively, than the best performing CNN-based baseline while maintaining accuracies that were 38% and 26% lower (and F1-scores that were 38% and 19% lower), respectively, than Swin-B. Meanwhile, ChatGPT-4 is generally unbiased in identifying these skin diseases across sex and age groups, while LLaVA-1.6 is generally unbiased across age groups, in contrast to Swin-B, which is biased in identifying melanocytic nevi. Conclusions: This study suggests the usefulness and fairness of LLMs in dermatological applications, aiding physicians and practitioners with diagnostic recommendations and patient screening. To further verify and evaluate the reliability and fairness of LLMs in healthcare, experiments using larger and more diverse datasets need to be performed in the future.",
+                "authors": [
+                    {
+                        "s2_author_id": "2316750560",
+                        "name": "Zhiyu Wan"
+                    },
+                    {
+                        "s2_author_id": "2316769953",
+                        "name": "Yuhang Guo"
+                    },
+                    {
+                        "s2_author_id": "2142299968",
+                        "name": "Shunxing Bao"
+                    },
+                    {
+                        "s2_author_id": "2325506521",
+                        "name": "Qian Wang"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9baea74a83908d69e07d421d9435c24399fd6b70",
+                "title": "A real-world data challenge: guidance for aligning data privacy compliance and fit-for-purpose usability",
+                "year": 2025,
+                "venue": "Health affairs scholar",
+                "citation_count": 0,
+                "reference_count": 63,
+                "abstract": "Abstract The growing use of real-world data (RWD), particularly from electronic health records (EHRs), has heightened the need for careful attention to data privacy, utility, and transparency. We examine the complex processes involved in curating privacy-compliant EHR-derived RWD, highlighting key de-identification considerations and techniques. We emphasize the importance of aligning curation practices with privacy laws and regulations, with a particular focus on the comprehensive documentation of de-identification techniques. Such documentation should reflect intended data use, accessibility, availability, accuracy, and granularity. For researchers, greater transparency in these practices can improve compliance and lead to more robust and reliable real-world evidence. For policymakers, it provides a foundation to develop more specific and actionable guidelines and oversight mechanisms. Ultimately, highly transparent curation process enhances the reliability of RWD and supports rigorous, nuanced, and informed decision-making across the health care ecosystem.",
+                "authors": [
+                    {
+                        "s2_author_id": "2238784722",
+                        "name": "Dena H Jaffe"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "1402085679",
+                        "name": "Rachele M. Hendricks-Sturrup"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c8d85361a8670d7252d40055997b98bdbb721585",
+                "title": "scCotag: Diagonal integration of single-cell multi-omics data via prior-informed co-optimal transport and regularized barycentric mapping",
+                "year": 2025,
+                "venue": "bioRxiv",
+                "citation_count": 0,
+                "reference_count": 43,
+                "abstract": "Recent advances in high-throughput single-cell technologies have enabled characterization of cellular states across distinct omics layers, yielding complementary insights into the organization of biological systems. To jointly leverage these disparate modalities, computational methods have been developed to align non-overlapping cell populations profiled in different omics layers, a task known as diagonal integration, thereby facilitating more fine-grained biological interpretations. However, existing integration approaches unrealistically assume that all cells are alignable and treat prior-knowledge-derived feature correspondences as fully reliable, retaining them unrefined throughout the alignment process. In this work, we introduce scCotag, a co-optimal transport (COOT)-based deep learning frame-work for diagonal integration of single-cell multi-omics data, to address these limitations. scCotag first infers cell alignment and feature correspondence with prior-informed COOT in an iterative manner, and then leverages the resulting transport plans to jointly learn cell and feature embeddings via regularized barycentric mapping and graph reweighting. Systematic benchmarking on human brain, bone marrow, and blood single-cell RNA-seq and ATAC-seq datasets demonstrates the overall superior performance of scCotag over state-of-the-art methods in both cell alignment accuracy and embedding accuracy. In particular, scCotag excels in simulated imbalance scenarios where not all cells are alignable. Applying scCotag to data in postmortem brains of Alzheimer\u2019s disease (AD) and non-AD (NoAD) patients further yields more fine-grained biological interpretation of regulatory mechanisms. Together, these results demonstrate that scCotag provides a robust framework for single-cell diagonal integration and regulatory inference.",
+                "authors": [
+                    {
+                        "s2_author_id": "2301507700",
+                        "name": "Yang Li"
+                    },
+                    {
+                        "s2_author_id": "2339533620",
+                        "name": "Yuting Tan"
+                    },
+                    {
+                        "s2_author_id": "2297475217",
+                        "name": "Rui Chen"
+                    },
+                    {
+                        "s2_author_id": "2399185932",
+                        "name": "Xin Maizie Zhou"
+                    },
+                    {
+                        "s2_author_id": "2399048555",
+                        "name": "You Chen"
+                    },
+                    {
+                        "s2_author_id": "2301836241",
+                        "name": "Yuankai Huo"
+                    },
+                    {
+                        "s2_author_id": "2399429370",
+                        "name": "Xingyi Guo"
+                    },
+                    {
+                        "s2_author_id": "2351575904",
+                        "name": "Anshul Tiwari"
+                    },
+                    {
+                        "s2_author_id": "2266706041",
+                        "name": "Zhexing Wen"
+                    },
+                    {
+                        "s2_author_id": "2341885293",
+                        "name": "Xue Zhong"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "2338538362",
+                        "name": "Bingshan Li"
+                    },
+                    {
+                        "s2_author_id": "2344034960",
+                        "name": "Zhijun Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c252873e4654df00e6737ea1e3b8078f64608a3",
+                "title": "Re-Envisioning Electronic Health Records to Optimize Patient-Centered Cancer Care, Quality, Surveillance, and Research",
+                "year": 2024,
+                "venue": "JCO Oncology Practice",
+                "citation_count": 7,
+                "reference_count": 64,
+                "abstract": "Electronic health records (EHRs) are a significant advancement over paper records. However, the full potential of EHRs for improving care quality, patient outcomes, surveillance, and research in cancer care is yet to be realized. The organic evolution of EHRs has resulted in a number of unanticipated consequences including increased time spent by clinicians interfacing with the EHR for daily workflows. Patient access to clinicians and their records has been an important advancement in patient-centered care; however, this has brought to light additional gaps and challenges in EHRs meeting these needs. A significant challenge for EHR design and physician workflows is how best to meet the complex goals and priorities of various stakeholders including providers, researchers, patients, health systems, payors, and regulatory agencies. The National Cancer Policy Forum convened a 2022 workshop, \u201cInnovations in Electronic Health Records for Oncology Care, Research and Surveillance,\u201d to address these challenges and to facilitate collaboration across all user groups with the goal of re-envisioning EHRs that will better support shared goals of improving patient outcomes and advancing cancer care and research without overburdening clinicians with administrative tasks. Here, we summarize the current EHR ecosystem as discussed at the workshop and highlight opportunities to improve EHR contributions to oncology evidence and care.",
+                "authors": [
+                    {
+                        "s2_author_id": "2315067839",
+                        "name": "Aditi P Singh"
+                    },
+                    {
+                        "s2_author_id": "2251691948",
+                        "name": "Erin P Balogh"
+                    },
+                    {
+                        "s2_author_id": "2251763550",
+                        "name": "Robert W Carlson"
+                    },
+                    {
+                        "s2_author_id": "15376621",
+                        "name": "M. Huizinga"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "2274247252",
+                        "name": "Alexander Melamed"
+                    },
+                    {
+                        "s2_author_id": "2255770824",
+                        "name": "Neal J. Meropol"
+                    },
+                    {
+                        "s2_author_id": "2186689067",
+                        "name": "Etta Pisano"
+                    },
+                    {
+                        "s2_author_id": "2293069296",
+                        "name": "Robert A Winn"
+                    },
+                    {
+                        "s2_author_id": "144678154",
+                        "name": "K. R. Yabroff"
+                    },
+                    {
+                        "s2_author_id": "2250147940",
+                        "name": "L. N. Shulman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3429267555234fada042a90ecb93b03208ada986",
+                "title": "Sentiment Dynamics Among Informal Caregivers in Web-Based Alzheimer Communities: Systematic Analysis of Emotional Support and Interaction Patterns",
+                "year": 2024,
+                "venue": "JMIR Aging",
+                "citation_count": 2,
+                "reference_count": 36,
+                "abstract": "Background Alzheimer disease and related dementias (ADRD) are a growing global health challenge. ADRD place significant physical, emotional, and financial burdens on informal caregivers and negatively affects their well-being. Web-based social media platforms have emerged as valuable sources of peer support for these caregivers. However, there has been limited investigation into how web-based peer support might influence their mental well-being. Objective This study aims to examine the dynamics of sentiment scores, a major indicator of mental well-being, among informal ADRD caregivers, specifically how their sentiment changes as they participate in caregiving experience discussions within 2 ADRD web-based communities. Methods We collected data from 2 large web-based ADRD caregiving communities, ALZConnected (from November 2011 to August 2022) and TalkingPoint (from March 2003 to November 2022). Using the Valence Aware Dictionary for Sentiment Reasoning and Linguistic Inquiry and Word Count, we calculated sentiment scores for each post and evaluated how the initial sentiment score of a topic initiator evolves within a discussion thread. Structured topic modeling and regression analysis were used to identify the primary topics consistently associated with sentiment changes within these threads. We investigated longitudinal sentiment trends to identify patterns of sentimental stability or enhancement due to prolonged engagement in web-based communities by plotting linear interpolation lines of the sentiment values of each individual user. Results The ALZConnected dataset comprised 532,992 posts, consisting of 57,641 topic threads and 475,351 comments. The TalkingPoint dataset was composed of 846,344 posts, consisting of 81,068 topic threads and 765,276 comments. Our research revealed that topic initiators experienced a notable increase in sentiment as they engaged in subsequent discussions within their threads, with a significant uptick in positivity in the short term. This phenomenon is part of a broader trend of steadily rising positive sentiment among ADRD caregivers. Using structured topic modeling, we cataloged a diverse range of topics that included both emotional aspects, such as family emotions, and practical concerns, such as diagnosis and treatment and everyday care practices. We observed that sentiment scores were positively aligned with discussions about family and daily routines life (coefficient=3.53; P<.001), while topics related to illness (coefficient=\u20131.37; P<.001) and caregiving facilities (coefficient=\u20131.98; P<.001) tended to correlate with lower sentiment scores. This evidence highlights the significant impact that both the time of participation and the posting content have on the sentiment changes of caregivers. Conclusions This study identifies sentiment changes among informal ADRD caregivers through their interactions in 2 extensive web-based communities. These findings emphasize the importance of early emotional support within a topic thread and demonstrate a predominantly positive sentiment in these communities over time. These further highlight the value of web-based peer support and its potential to enhance the emotional well-being of informal ADRD caregivers.",
+                "authors": [
+                    {
+                        "s2_author_id": "2149951541",
+                        "name": "Congning Ni"
+                    },
+                    {
+                        "s2_author_id": "2213896511",
+                        "name": "Qingyuan Song"
+                    },
+                    {
+                        "s2_author_id": "2256591881",
+                        "name": "Qingxia Chen"
+                    },
+                    {
+                        "s2_author_id": "2150598258",
+                        "name": "Lijun Song"
+                    },
+                    {
+                        "s2_author_id": "2237423397",
+                        "name": "Patricia Commiskey"
+                    },
+                    {
+                        "s2_author_id": "2237423213",
+                        "name": "Lauren Stratton"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "2237567284",
+                        "name": "Zhijun Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "54993e744e394da23649c2b828136077bc0d18aa",
+                "title": "Perceptions and Utilization of Online Peer Support Among Informal Dementia Caregivers: Survey Study",
+                "year": 2024,
+                "venue": "JMIR Aging",
+                "citation_count": 8,
+                "reference_count": 38,
+                "abstract": "Abstract Background Informal dementia caregivers are those who care for a person living with dementia and do not receive payment (eg, family members, friends, or other unpaid caregivers). These informal caregivers are subject to substantial mental, physical, and financial burdens. Online communities enable these caregivers to exchange caregiving strategies and communicate experiences with other caregivers whom they generally do not know in real life. Research has demonstrated the benefits of peer support in online communities, but this research is limited, focusing merely on caregivers who are already online community users. Objective We aimed to investigate the perceptions and utilization of online peer support through a survey. Methods Following the Andersen and Newman Framework of Health Services Utilization and using REDCap (Research Electronic Data Capture), we designed and administered a survey to investigate the perceptions and utilization of online peer support among informal dementia caregivers. Specifically, we collected types of information that influence whether an informal dementia caregiver accesses online peer support: predisposing factors, which refer to the sociocultural characteristics of caregivers, relationships between caregivers and people living with dementia, and belief in the value of online peer support; enabling factors, which refer to the logistic aspects of accessing online peer support (eg, eHealth literacy and access to high-speed internet); and need factors, which are the most immediate causes of seeking online peer support. We also collected data on caregivers\u2019 experiences with accessing online communities. We distributed the survey link on November 14, 2022, within two online locations: the Alzheimer\u2019s Association website (as an advertisement) and ALZConnected (an online community organized by the Alzheimer\u2019s Association). We collected all responses on February 23, 2023, and conducted a regression analysis to identifyn factors that were associated with accessing online peer support. Results We collected responses from 172 dementia caregivers. Of these participants, 140 (81.4%) completed the entire survey. These caregivers were aged 19 to 87 (mean 54, SD 13.5) years, and a majority were female (123/140, 87.9%) and White (126/140, 90%). Our findings show that the behavior of accessing any online community was significantly associated with participants\u2019 belief in the value of online peer support (P=.006). Moreover, of the 40 non\u2013online community caregivers, 33 (83%) had a belief score above 24\u2014the score that was assigned when a neutral option was selected for each belief question. The most common reasons for not accessing any online community were having no time to do so (14/140, 10%) and having insufficient online information\u2013searching skills (9/140, 6.4%). Conclusions Our findings suggest that online peer support is valuable, but practical strategies are needed to assist informal dementia caregivers who have limited time or online information\u2013searching skills.",
+                "authors": [
+                    {
+                        "s2_author_id": "2237567284",
+                        "name": "Zhijun Yin"
+                    },
+                    {
+                        "s2_author_id": "2237423213",
+                        "name": "Lauren Stratton"
+                    },
+                    {
+                        "s2_author_id": "2213896511",
+                        "name": "Qingyuan Song"
+                    },
+                    {
+                        "s2_author_id": "2149951541",
+                        "name": "Congning Ni"
+                    },
+                    {
+                        "s2_author_id": "2150598258",
+                        "name": "Lijun Song"
+                    },
+                    {
+                        "s2_author_id": "2237423397",
+                        "name": "Patricia Commiskey"
+                    },
+                    {
+                        "s2_author_id": "2256591881",
+                        "name": "Qingxia Chen"
+                    },
+                    {
+                        "s2_author_id": "2237670705",
+                        "name": "Monica Moreno"
+                    },
+                    {
+                        "s2_author_id": "2237423165",
+                        "name": "Sam Fazio"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a41b00319ec1f345e88d9a6bcdc0e137687a842f",
+                "title": "Not the Models You Are Looking For: Traditional ML Outperforms LLMs in Clinical Prediction Tasks",
+                "year": 2024,
+                "venue": "medRxiv",
+                "citation_count": 9,
+                "reference_count": 40,
+                "abstract": "Objectives. To determine the extent to which current Large Language Models (LLMs) can serve as substitutes for traditional machine learning (ML) as clinical predictors using data from electronic health records (EHRs), we investigated various factors that can impact their adoption, including overall performance, calibration, fairness, and resilience to privacy protections that reduce data fidelity. Materials and Methods. We evaluated GPT-3.5, GPT-4, and ML (as gradient-boosting trees) on clinical prediction tasks in EHR data from Vanderbilt University Medical Center and MIMIC IV. We measured predictive performance with AUROC and model calibration using Brier Score. To evaluate the impact of data privacy protections, we assessed AUROC when demographic variables are generalized. We evaluated algorithmic fairness using equalized odds and statistical parity across race, sex, and age of patients. We also considered the impact of using in-context learning by incorporating labeled examples within the prompt. Results. Traditional ML (AUROC: 0.847, 0.894 (VUMC, MIMIC)) substantially outperformed GPT-3.5 (AUROC: 0.537, 0.517) and GPT-4 (AUROC: 0.629, 0.602) (with and without in-context learning) in predictive performance and output probability calibration (Brier Score (ML vs GPT-3.5 vs GPT-4): 0.134 versus 0.384 versus 0.251, 0.042 versus 0.06 versus 0.219). Traditional ML is more robust than GPT-3.5 and GPT-4 to generalizing demographic information to protect privacy. GPT-4 is the fairest model according to our selected metrics but at the cost of poor model performance. Conclusion. These findings suggest that LLMs are much less effective and robust than locally-trained ML for clinical prediction tasks, but they are getting better over time.",
+                "authors": [
+                    {
+                        "s2_author_id": "2336534331",
+                        "name": "Katherine E Brown"
+                    },
+                    {
+                        "s2_author_id": "2257140937",
+                        "name": "Chao Yan"
+                    },
+                    {
+                        "s2_author_id": "2290740132",
+                        "name": "Zhuohang Li"
+                    },
+                    {
+                        "s2_author_id": "2051530099",
+                        "name": "Xinmeng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2212476290",
+                        "name": "Benjamin X. Collins"
+                    },
+                    {
+                        "s2_author_id": "2282757207",
+                        "name": "You Chen"
+                    },
+                    {
+                        "s2_author_id": "2257175890",
+                        "name": "E. Clayton"
+                    },
+                    {
+                        "s2_author_id": "2325730571",
+                        "name": "Murat Kantarcioglu"
+                    },
+                    {
+                        "s2_author_id": "1699600",
+                        "name": "Yevgeniy Vorobeychik"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aacf0a98c2917a55153f95d19dbf943b785e9d98",
+                "title": "Consolidated Reporting Guidelines for Prognostic and Diagnostic Machine Learning Models (CREMLS)",
+                "year": 2024,
+                "venue": "Journal of Medical Internet Research",
+                "citation_count": 8,
+                "reference_count": 21,
+                "abstract": "The number of papers presenting machine learning (ML) models that are being submitted to and published in the Journal of Medical Internet Research and other JMIR Publications journals has steadily increased. Editors and peer reviewers involved in the review process for such manuscripts often go through multiple review cycles to enhance the quality and completeness of reporting. The use of reporting guidelines or checklists can help ensure consistency in the quality of submitted (and published) scientific manuscripts and, for example, avoid instances of missing information. In this Editorial, the editors of JMIR Publications journals discuss the general JMIR Publications policy regarding authors\u2019 application of reporting guidelines and specifically focus on the reporting of ML studies in JMIR Publications journals, using the Consolidated Reporting of Machine Learning Studies (CREMLS) guidelines, with an example of how authors and other journals could use the CREMLS checklist to ensure transparency and rigor in reporting.",
+                "authors": [
+                    {
+                        "s2_author_id": "1749614",
+                        "name": "Khaled El Emam"
+                    },
+                    {
+                        "s2_author_id": "2179190406",
+                        "name": "Tiffany I Leung"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "2299522297",
+                        "name": "William Klement"
+                    },
+                    {
+                        "s2_author_id": "2241427809",
+                        "name": "Gunther Eysenbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bd13a16101af15aaaa1193f56fae3af17d29c7fe",
+                "title": "Digital Information Ecosystems in Modern Care Coordination and Patient Care Pathways and the Challenges and Opportunities for AI Solutions",
+                "year": 2024,
+                "venue": "Journal of Medical Internet Research",
+                "citation_count": 27,
+                "reference_count": 70,
+                "abstract": "The integration of digital technologies into health care has significantly enhanced the efficiency and effectiveness of care coordination. Our perspective paper explores the digital information ecosystems in modern care coordination, focusing on the processes of information generation, updating, transmission, and exchange along a patient\u2019s care pathway. We identify several challenges within this ecosystem, including interoperability issues, information silos, hard-to-map patient care journeys, increased workload on health care professionals, coordination and communication gaps, and compliance with privacy regulations. These challenges are often associated with inefficiencies and diminished care quality. We also examine how emerging artificial intelligence (AI) tools have the potential to enhance the management of patient information flow. Specifically, AI can boost interoperability across diverse health systems; optimize and monitor patient care pathways; improve information retrieval and care transitions; humanize health care by integrating patients\u2019 desired outcomes and patient-reported outcome measures; and optimize clinical workflows, resource allocation, and digital tool usability and user experiences. By strategically leveraging AI, health care systems can establish a more robust and responsive digital information ecosystem, improving care coordination and patient outcomes. This perspective underscores the importance of continued research and investment in AI technologies in patient care pathways. We advocate for a thoughtful integration of AI into health care practices to fully realize its potential in revolutionizing care coordination.",
+                "authors": [
+                    {
+                        "s2_author_id": "2282757207",
+                        "name": "You Chen"
+                    },
+                    {
+                        "s2_author_id": "2285567198",
+                        "name": "Christoph U Lehmann"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d539c98f4a5639461ffe4f099ecaf94096b17cdd",
+                "title": "Applications and Concerns of ChatGPT and Other Conversational Large Language Models in Health Care: Systematic Review",
+                "year": 2024,
+                "venue": "Journal of Medical Internet Research",
+                "citation_count": 66,
+                "reference_count": 96,
+                "abstract": "Background The launch of ChatGPT (OpenAI) in November 2022 attracted public attention and academic interest to large language models (LLMs), facilitating the emergence of many other innovative LLMs. These LLMs have been applied in various fields, including health care. Numerous studies have since been conducted regarding how to use state-of-the-art LLMs in health-related scenarios. Objective This review aims to summarize applications of and concerns regarding conversational LLMs in health care and provide an agenda for future research in this field. Methods We used PubMed, ACM, and the IEEE digital libraries as primary sources for this review. We followed the guidance of PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) to screen and select peer-reviewed research articles that (1) were related to health care applications and conversational LLMs and (2) were published before September 1, 2023, the date when we started paper collection. We investigated these papers and classified them according to their applications and concerns. Results Our search initially identified 820 papers according to targeted keywords, out of which 65 (7.9%) papers met our criteria and were included in the review. The most popular conversational LLM was ChatGPT (60/65, 92% of papers), followed by Bard (Google LLC; 1/65, 2% of papers), LLaMA (Meta; 1/65, 2% of papers), and other LLMs (6/65, 9% papers). These papers were classified into four categories of applications: (1) summarization, (2) medical knowledge inquiry, (3) prediction (eg, diagnosis, treatment recommendation, and drug synergy), and (4) administration (eg, documentation and information collection), and four categories of concerns: (1) reliability (eg, training data quality, accuracy, interpretability, and consistency in responses), (2) bias, (3) privacy, and (4) public acceptability. There were 49 (75%) papers using LLMs for either summarization or medical knowledge inquiry, or both, and there are 58 (89%) papers expressing concerns about either reliability or bias, or both. We found that conversational LLMs exhibited promising results in summarization and providing general medical knowledge to patients with a relatively high accuracy. However, conversational LLMs such as ChatGPT are not always able to provide reliable answers to complex health-related tasks (eg, diagnosis) that require specialized domain expertise. While bias or privacy issues are often noted as concerns, no experiments in our reviewed papers thoughtfully examined how conversational LLMs lead to these issues in health care research. Conclusions Future studies should focus on improving the reliability of LLM applications in complex health-related tasks, as well as investigating the mechanisms of how LLM applications bring bias and privacy issues. Considering the vast accessibility of LLMs, legal, social, and technical efforts are all needed to address concerns about LLMs to promote, improve, and regularize the application of LLMs in health care.",
+                "authors": [
+                    {
+                        "s2_author_id": "2301166722",
+                        "name": "Leyao Wang"
+                    },
+                    {
+                        "s2_author_id": "2316750560",
+                        "name": "Zhiyu Wan"
+                    },
+                    {
+                        "s2_author_id": "2149951541",
+                        "name": "Congning Ni"
+                    },
+                    {
+                        "s2_author_id": "2213896511",
+                        "name": "Qingyuan Song"
+                    },
+                    {
+                        "s2_author_id": "2301507700",
+                        "name": "Yang Li"
+                    },
+                    {
+                        "s2_author_id": "2257175890",
+                        "name": "E. Clayton"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "2237567284",
+                        "name": "Zhijun Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "deac49a33449f2a431c0cdcd2220598a5f9345b3",
+                "title": "A Systematic Review of ChatGPT and Other Conversational Large Language Models in Healthcare",
+                "year": 2024,
+                "venue": "medRxiv",
+                "citation_count": 31,
+                "reference_count": 86,
+                "abstract": "Background: The launch of the Chat Generative Pre-trained Transformer (ChatGPT) in November 2022 has attracted public attention and academic interest to large language models (LLMs), facilitating the emergence of many other innovative LLMs. These LLMs have been applied in various fields, including healthcare. Numerous studies have since been conducted regarding how to employ state-of-the-art LLMs in health-related scenarios to assist patients, doctors, and public health administrators. Objective: This review aims to summarize the applications and concerns of applying conversational LLMs in healthcare and provide an agenda for future research on LLMs in healthcare. Methods: We utilized PubMed, ACM, and IEEE digital libraries as primary sources for this review. We followed the guidance of Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRIMSA) to screen and select peer-reviewed research articles that (1) were related to both healthcare applications and conversational LLMs and (2) were published before September 1st, 2023, the date when we started paper collection and screening. We investigated these papers and classified them according to their applications and concerns. Results: Our search initially identified 820 papers according to targeted keywords, out of which 65 papers met our criteria and were included in the review. The most popular conversational LLM was ChatGPT from OpenAI (60), followed by Bard from Google (1), Large Language Model Meta AI (LLaMA) from Meta (1), and other LLMs (5). These papers were classified into four categories in terms of their applications: 1) summarization, 2) medical knowledge inquiry, 3) prediction, and 4) administration, and four categories of concerns: 1) reliability, 2) bias, 3) privacy, and 4) public acceptability. There are 49 (75%) research papers using LLMs for summarization and/or medical knowledge inquiry, and 58 (89%) research papers expressing concerns about reliability and/or bias. We found that conversational LLMs exhibit promising results in summarization and providing medical knowledge to patients with a relatively high accuracy. However, conversational LLMs like ChatGPT are not able to provide reliable answers to complex health-related tasks that require specialized domain expertise. Additionally, no experiments in our reviewed papers have been conducted to thoughtfully examine how conversational LLMs lead to bias or privacy issues in healthcare research. Conclusions: Future studies should focus on improving the reliability of LLM applications in complex health-related tasks, as well as investigating the mechanisms of how LLM applications brought bias and privacy issues. Considering the vast accessibility of LLMs, legal, social, and technical efforts are all needed to address concerns about LLMs to promote, improve, and regularize the application of LLMs in healthcare.",
+                "authors": [
+                    {
+                        "s2_author_id": "2301166722",
+                        "name": "Leyao Wang"
+                    },
+                    {
+                        "s2_author_id": "2483332",
+                        "name": "Zhiyu Wan"
+                    },
+                    {
+                        "s2_author_id": "2149951541",
+                        "name": "Congning Ni"
+                    },
+                    {
+                        "s2_author_id": "2213896511",
+                        "name": "Qingyuan Song"
+                    },
+                    {
+                        "s2_author_id": "2301507700",
+                        "name": "Yang Li"
+                    },
+                    {
+                        "s2_author_id": "2257175890",
+                        "name": "E. Clayton"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "2237567284",
+                        "name": "Zhijun Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e005019746fa3465f2dd541ad3c70a2fbf612e9f",
+                "title": "The Costs of Anonymization: Case Study Using Clinical Data",
+                "year": 2024,
+                "venue": "Journal of Medical Internet Research",
+                "citation_count": 7,
+                "reference_count": 36,
+                "abstract": "Background Sharing data from clinical studies can accelerate scientific progress, improve transparency, and increase the potential for innovation and collaboration. However, privacy concerns remain a barrier to data sharing. Certain concerns, such as reidentification risk, can be addressed through the application of anonymization algorithms, whereby data are altered so that it is no longer reasonably related to a person. Yet, such alterations have the potential to influence the data set\u2019s statistical properties, such that the privacy-utility trade-off must be considered. This has been studied in theory, but evidence based on real-world individual-level clinical data is rare, and anonymization has not broadly been adopted in clinical practice. Objective The goal of this study is to contribute to a better understanding of anonymization in the real world by comprehensively evaluating the privacy-utility trade-off of differently anonymized data using data and scientific results from the German Chronic Kidney Disease (GCKD) study. Methods The GCKD data set extracted for this study consists of 5217 records and 70 variables. A 2-step procedure was followed to determine which variables constituted reidentification risks. To capture a large portion of the risk-utility space, we decided on risk thresholds ranging from 0.02 to 1. The data were then transformed via generalization and suppression, and the anonymization process was varied using a generic and a use case\u2013specific configuration. To assess the utility of the anonymized GCKD data, general-purpose metrics (ie, data granularity and entropy), as well as use case\u2013specific metrics (ie, reproducibility), were applied. Reproducibility was assessed by measuring the overlap of the 95% CI lengths between anonymized and original results. Results Reproducibility measured by 95% CI overlap was higher than utility obtained from general-purpose metrics. For example, granularity varied between 68.2% and 87.6%, and entropy varied between 25.5% and 46.2%, whereas the average 95% CI overlap was above 90% for all risk thresholds applied. A nonoverlapping 95% CI was detected in 6 estimates across all analyses, but the overwhelming majority of estimates exhibited an overlap over 50%. The use case\u2013specific configuration outperformed the generic one in terms of actual utility (ie, reproducibility) at the same level of privacy. Conclusions Our results illustrate the challenges that anonymization faces when aiming to support multiple likely and possibly competing uses, while use case\u2013specific anonymization can provide greater utility. This aspect should be taken into account when evaluating the associated costs of anonymized data and attempting to maintain sufficiently high levels of privacy for anonymized data. Trial Registration German Clinical Trials Register DRKS00003971; https://drks.de/search/en/trial/DRKS00003971 International Registered Report Identifier (IRRID) RR2-10.1093/ndt/gfr456",
+                "authors": [
+                    {
+                        "s2_author_id": "113706903",
+                        "name": "L. Pilgram"
+                    },
+                    {
+                        "s2_author_id": "2003083798",
+                        "name": "T. Meurers"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "2257630056",
+                        "name": "E. Schaeffner"
+                    },
+                    {
+                        "s2_author_id": "2260180977",
+                        "name": "K.-U. Eckardt"
+                    },
+                    {
+                        "s2_author_id": "3351408",
+                        "name": "F. Prasser"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "26cfc0917331dd7e212233c1c96a78b647ee984e",
+                "title": "Developing Ethics and Equity Principles, Terms, and Engagement Tools to Advance Health Equity and Researcher Diversity in AI and Machine Learning: Modified Delphi Approach",
+                "year": 2023,
+                "venue": "JMIR AI",
+                "citation_count": 6,
+                "reference_count": 43,
+                "abstract": "Background Artificial intelligence (AI) and machine learning (ML) technology design and development continues to be rapid, despite major limitations in its current form as a practice and discipline to address all sociohumanitarian issues and complexities. From these limitations emerges an imperative to strengthen AI and ML literacy in underserved communities and build a more diverse AI and ML design and development workforce engaged in health research. Objective AI and ML has the potential to account for and assess a variety of factors that contribute to health and disease and to improve prevention, diagnosis, and therapy. Here, we describe recent activities within the Artificial Intelligence/Machine Learning Consortium to Advance Health Equity and Researcher Diversity (AIM-AHEAD) Ethics and Equity Workgroup (EEWG) that led to the development of deliverables that will help put ethics and fairness at the forefront of AI and ML applications to build equity in biomedical research, education, and health care. Methods The AIM-AHEAD EEWG was created in 2021 with 3 cochairs and 51 members in year 1 and 2 cochairs and ~40 members in year 2. Members in both years included AIM-AHEAD principal investigators, coinvestigators, leadership fellows, and research fellows. The EEWG used a modified Delphi approach using polling, ranking, and other exercises to facilitate discussions around tangible steps, key terms, and definitions needed to ensure that ethics and fairness are at the forefront of AI and ML applications to build equity in biomedical research, education, and health care. Results The EEWG developed a set of ethics and equity principles, a glossary, and an interview guide. The ethics and equity principles comprise 5 core principles, each with subparts, which articulate best practices for working with stakeholders from historically and presently underrepresented communities. The glossary contains 12 terms and definitions, with particular emphasis on optimal development, refinement, and implementation of AI and ML in health equity research. To accompany the glossary, the EEWG developed a concept relationship diagram that describes the logical flow of and relationship between the definitional concepts. Lastly, the interview guide provides questions that can be used or adapted to garner stakeholder and community perspectives on the principles and glossary. Conclusions Ongoing engagement is needed around our principles and glossary to identify and predict potential limitations in their uses in AI and ML research settings, especially for institutions with limited resources. This requires time, careful consideration, and honest discussions around what classifies an engagement incentive as meaningful to support and sustain their full engagement. By slowing down to meet historically and presently underresourced institutions and communities where they are and where they are capable of engaging and competing, there is higher potential to achieve needed diversity, ethics, and equity in AI and ML implementation in health research.",
+                "authors": [
+                    {
+                        "s2_author_id": "1402085679",
+                        "name": "Rachele M. Hendricks-Sturrup"
+                    },
+                    {
+                        "s2_author_id": "2214044232",
+                        "name": "Malaika Simmons"
+                    },
+                    {
+                        "s2_author_id": "2244341451",
+                        "name": "Shilo Anders"
+                    },
+                    {
+                        "s2_author_id": "2185583383",
+                        "name": "Kammarauche Aneni"
+                    },
+                    {
+                        "s2_author_id": "2298419408",
+                        "name": "Ellen Wright Clayton"
+                    },
+                    {
+                        "s2_author_id": "3010164",
+                        "name": "Joseph R. Coco"
+                    },
+                    {
+                        "s2_author_id": "2212476290",
+                        "name": "Benjamin X. Collins"
+                    },
+                    {
+                        "s2_author_id": "2261718215",
+                        "name": "Elizabeth Heitman"
+                    },
+                    {
+                        "s2_author_id": "2249052236",
+                        "name": "Sajid Hussain"
+                    },
+                    {
+                        "s2_author_id": "2298422480",
+                        "name": "Karuna P. Joshi"
+                    },
+                    {
+                        "s2_author_id": "2298419777",
+                        "name": "Josh Lemieux"
+                    },
+                    {
+                        "s2_author_id": "2298421694",
+                        "name": "Laurie Lovett Novak"
+                    },
+                    {
+                        "s2_author_id": "2298421142",
+                        "name": "Daniel J. Rubin"
+                    },
+                    {
+                        "s2_author_id": "2283162037",
+                        "name": "Anil Shanker"
+                    },
+                    {
+                        "s2_author_id": "2281574869",
+                        "name": "Talitha Washington"
+                    },
+                    {
+                        "s2_author_id": "2248189830",
+                        "name": "Gabriella Waters"
+                    },
+                    {
+                        "s2_author_id": "2298420216",
+                        "name": "Joyce Webb Harris"
+                    },
+                    {
+                        "s2_author_id": "2297273967",
+                        "name": "Rui Yin"
+                    },
+                    {
+                        "s2_author_id": "2298419945",
+                        "name": "Teresa Wagner"
+                    },
+                    {
+                        "s2_author_id": "2237567284",
+                        "name": "Zhijun Yin"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "455826c52e91dd0270aa4b54752331cfd8742e11",
+                "title": "Risk, trust, and altruism in genetic data sharing",
+                "year": 2023,
+                "venue": "Journal of Public Economic Theory",
+                "citation_count": 2,
+                "reference_count": 27,
+                "abstract": "How does concern about genetic data privacy compare with other concerns? We conduct behavioral experiments to compare risk attitudes towards sharing genetic data with a healthcare provider with risk attitudes towards sharing financial data with a money manager. Both scenarios involve identical decisions and monetary stakes, permitting us to focus on how the framing of data sharing influences attitudes. To delve deeper into individual motivations to share data, we provide treatments that study how data sharers' altruism and trust affect their decisions. Our findings (with 162 subjects) indicate that individuals are more willing to risk a loss to privacy of genetic data (for an anticipated return framed as health benefits) than they are to risk loss of financial data (for an anticipated return in financial benefits). We also find that 50%\u201360% of data recipients choose to protect another person's data, with no significant differences between frames.",
+                "authors": [
+                    {
+                        "s2_author_id": "114761306",
+                        "name": "Zeeshan Samad"
+                    },
+                    {
+                        "s2_author_id": "3106141",
+                        "name": "M. Wooders"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "1699600",
+                        "name": "Yevgeniy Vorobeychik"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52ec17952e2ec57671fe2e8695af6cec5dc37ac0",
+                "title": "Examining Online Behaviors of Adult-Child and Spousal Caregivers for People Living With Alzheimer Disease or Related Dementias: Comparative Study in an Open Online Community",
+                "year": 2023,
+                "venue": "Journal of Medical Internet Research",
+                "citation_count": 10,
+                "reference_count": 55,
+                "abstract": "Background Alzheimer disease or related dementias (ADRD) are severe neurological disorders that impair the thinking and memory skills of older adults. Most persons living with dementia receive care at home from their family members or other unpaid informal caregivers; this results in significant mental, physical, and financial challenges for these caregivers. To combat these challenges, many informal ADRD caregivers seek social support in online environments. Although research examining online caregiving discussions is growing, few investigations have distinguished caregivers according to their kin relationships with persons living with dementias. Various studies have suggested that caregivers in different relationships experience distinct caregiving challenges and support needs. Objective This study aims to examine and compare the online behaviors of adult-child and spousal caregivers, the 2 largest groups of informal ADRD caregivers, in an open online community. Methods We collected posts from ALZConnected, an online community managed by the Alzheimer\u2019s Association. To gain insights into online behaviors, we first applied structural topic modeling to identify topics and topic prevalence between adult-child and spousal caregivers. Next, we applied VADER (Valence Aware Dictionary for Sentiment Reasoning) and LIWC (Linguistic Inquiry and Word Count) to evaluate sentiment changes in the online posts over time for both types of caregivers. We further built machine learning models to distinguish the posts of each caregiver type and evaluated them in terms of precision, recall, F1-score, and area under the precision-recall curve. Finally, we applied the best prediction model to compare the temporal trend of relationship-predicting capacities in posts between the 2 types of caregivers. Results Our analysis showed that the number of posts from both types of caregivers followed a long-tailed distribution, indicating that most caregivers in this online community were infrequent users. In comparison with adult-child caregivers, spousal caregivers tended to be more active in the community, publishing more posts and engaging in discussions on a wider range of caregiving topics. Spousal caregivers also exhibited slower growth in positive emotional communication over time. The best machine learning model for predicting adult-child, spousal, or other caregivers achieved an area under the precision-recall curve of 81.3%. The subsequent trend analysis showed that it became more difficult to predict adult-child caregiver posts than spousal caregiver posts over time. This suggests that adult-child and spousal caregivers might gradually shift their discussions from questions that are more directly related to their own experiences and needs to questions that are more general and applicable to other types of caregivers. Conclusions Our findings suggest that it is important for researchers and community organizers to consider the heterogeneity of caregiving experiences and subsequent online behaviors among different types of caregivers when tailoring online peer support to meet the specific needs of each caregiver group.",
+                "authors": [
+                    {
+                        "s2_author_id": "2149951541",
+                        "name": "Congning Ni"
+                    },
+                    {
+                        "s2_author_id": "2213896511",
+                        "name": "Qingyuan Song"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    },
+                    {
+                        "s2_author_id": "2150598258",
+                        "name": "Lijun Song"
+                    },
+                    {
+                        "s2_author_id": "2237423397",
+                        "name": "Patricia Commiskey"
+                    },
+                    {
+                        "s2_author_id": "2237423213",
+                        "name": "Lauren Stratton"
+                    },
+                    {
+                        "s2_author_id": "2237567284",
+                        "name": "Zhijun Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "83750b0379934b3c360f63fc17d7b1d6d42e52ff",
+                "title": "Introducing JMIR AI",
+                "year": 2022,
+                "venue": "JMIR AI",
+                "citation_count": 1,
+                "reference_count": 8,
+                "abstract": "JMIR AI is a new journal with a focus on publishing applied artificial intelligence and machine learning research. This editorial provides an overview of the primary objectives, the focus areas of the journal, and the types of articles that are within scope.",
+                "authors": [
+                    {
+                        "s2_author_id": "1749614",
+                        "name": "Khaled El Emam"
+                    },
+                    {
+                        "s2_author_id": "2203714117",
+                        "name": "Bradley A Malin"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2336534331",
+                "name": "Katherine E Brown"
+            },
+            {
+                "s2_author_id": "2278612452",
+                "name": "Jesse O. Wrenn"
+            },
+            {
+                "s2_author_id": "2348099110",
+                "name": "Nicholas J Jackson"
+            },
+            {
+                "s2_author_id": "2340585697",
+                "name": "Michael R Cauley"
+            },
+            {
+                "s2_author_id": "2212476290",
+                "name": "Benjamin X. Collins"
+            },
+            {
+                "s2_author_id": "2248211960",
+                "name": "Laurie L Novak"
+            },
+            {
+                "s2_author_id": "1783436",
+                "name": "J. Ancker"
+            },
+            {
+                "s2_author_id": "2257140937",
+                "name": "Chao Yan"
+            },
+            {
+                "s2_author_id": "2290740132",
+                "name": "Zhuohang Li"
+            },
+            {
+                "s2_author_id": "2051530099",
+                "name": "Xinmeng Zhang"
+            },
+            {
+                "s2_author_id": "2282757207",
+                "name": "You Chen"
+            },
+            {
+                "s2_author_id": "2257175890",
+                "name": "E. Clayton"
+            },
+            {
+                "s2_author_id": "2269048681",
+                "name": "Murat Kantarcioglu"
+            },
+            {
+                "s2_author_id": "1699600",
+                "name": "Yevgeniy Vorobeychik"
+            },
+            {
+                "s2_author_id": "2302146622",
+                "name": "Sharon E. Davis"
+            },
+            {
+                "s2_author_id": "2386414125",
+                "name": "Austin Eliazar"
+            },
+            {
+                "s2_author_id": "2321670783",
+                "name": "James Thomas Brown"
+            },
+            {
+                "s2_author_id": "2386404712",
+                "name": "Sara Cinamon"
+            },
+            {
+                "s2_author_id": "2367021277",
+                "name": "Will Howe"
+            },
+            {
+                "s2_author_id": "2253840342",
+                "name": "Benmei Liu"
+            },
+            {
+                "s2_author_id": "2387946355",
+                "name": "Valentina Petkov"
+            },
+            {
+                "s2_author_id": "1435301253",
+                "name": "Esmeralda Casas-Silva"
+            },
+            {
+                "s2_author_id": "2387946953",
+                "name": "Diana Velasquez-Kolnik"
+            },
+            {
+                "s2_author_id": "2301463024",
+                "name": "L. Penberthy"
+            },
+            {
+                "s2_author_id": "2248189765",
+                "name": "Martin Were"
+            },
+            {
+                "s2_author_id": "2353076363",
+                "name": "Ang Li"
+            },
+            {
+                "s2_author_id": "2237567284",
+                "name": "Zhijun Yin"
+            },
+            {
+                "s2_author_id": "2353077616",
+                "name": "Joseph R. Coco"
+            },
+            {
+                "s2_author_id": "1402085679",
+                "name": "Rachele M. Hendricks-Sturrup"
+            },
+            {
+                "s2_author_id": "2483761",
+                "name": "A. Oluyomi"
+            },
+            {
+                "s2_author_id": "2244341451",
+                "name": "Shilo Anders"
+            },
+            {
+                "s2_author_id": "2316750560",
+                "name": "Zhiyu Wan"
+            },
+            {
+                "s2_author_id": "2316769953",
+                "name": "Yuhang Guo"
+            },
+            {
+                "s2_author_id": "2142299968",
+                "name": "Shunxing Bao"
+            },
+            {
+                "s2_author_id": "2325506521",
+                "name": "Qian Wang"
+            },
+            {
+                "s2_author_id": "2238784722",
+                "name": "Dena H Jaffe"
+            },
+            {
+                "s2_author_id": "2301507700",
+                "name": "Yang Li"
+            },
+            {
+                "s2_author_id": "2339533620",
+                "name": "Yuting Tan"
+            },
+            {
+                "s2_author_id": "2297475217",
+                "name": "Rui Chen"
+            },
+            {
+                "s2_author_id": "2399185932",
+                "name": "Xin Maizie Zhou"
+            },
+            {
+                "s2_author_id": "2399048555",
+                "name": "You Chen"
+            },
+            {
+                "s2_author_id": "2301836241",
+                "name": "Yuankai Huo"
+            },
+            {
+                "s2_author_id": "2399429370",
+                "name": "Xingyi Guo"
+            },
+            {
+                "s2_author_id": "2351575904",
+                "name": "Anshul Tiwari"
+            },
+            {
+                "s2_author_id": "2266706041",
+                "name": "Zhexing Wen"
+            },
+            {
+                "s2_author_id": "2341885293",
+                "name": "Xue Zhong"
+            },
+            {
+                "s2_author_id": "2338538362",
+                "name": "Bingshan Li"
+            },
+            {
+                "s2_author_id": "2344034960",
+                "name": "Zhijun Yin"
+            },
+            {
+                "s2_author_id": "2315067839",
+                "name": "Aditi P Singh"
+            },
+            {
+                "s2_author_id": "2251691948",
+                "name": "Erin P Balogh"
+            },
+            {
+                "s2_author_id": "2251763550",
+                "name": "Robert W Carlson"
+            },
+            {
+                "s2_author_id": "15376621",
+                "name": "M. Huizinga"
+            },
+            {
+                "s2_author_id": "2274247252",
+                "name": "Alexander Melamed"
+            },
+            {
+                "s2_author_id": "2255770824",
+                "name": "Neal J. Meropol"
+            },
+            {
+                "s2_author_id": "2186689067",
+                "name": "Etta Pisano"
+            },
+            {
+                "s2_author_id": "2293069296",
+                "name": "Robert A Winn"
+            },
+            {
+                "s2_author_id": "144678154",
+                "name": "K. R. Yabroff"
+            },
+            {
+                "s2_author_id": "2250147940",
+                "name": "L. N. Shulman"
+            },
+            {
+                "s2_author_id": "2149951541",
+                "name": "Congning Ni"
+            },
+            {
+                "s2_author_id": "2213896511",
+                "name": "Qingyuan Song"
+            },
+            {
+                "s2_author_id": "2256591881",
+                "name": "Qingxia Chen"
+            },
+            {
+                "s2_author_id": "2150598258",
+                "name": "Lijun Song"
+            },
+            {
+                "s2_author_id": "2237423397",
+                "name": "Patricia Commiskey"
+            },
+            {
+                "s2_author_id": "2237423213",
+                "name": "Lauren Stratton"
+            },
+            {
+                "s2_author_id": "2237670705",
+                "name": "Monica Moreno"
+            },
+            {
+                "s2_author_id": "2237423165",
+                "name": "Sam Fazio"
+            },
+            {
+                "s2_author_id": "2325730571",
+                "name": "Murat Kantarcioglu"
+            },
+            {
+                "s2_author_id": "1749614",
+                "name": "Khaled El Emam"
+            },
+            {
+                "s2_author_id": "2179190406",
+                "name": "Tiffany I Leung"
+            },
+            {
+                "s2_author_id": "2299522297",
+                "name": "William Klement"
+            },
+            {
+                "s2_author_id": "2241427809",
+                "name": "Gunther Eysenbach"
+            },
+            {
+                "s2_author_id": "2285567198",
+                "name": "Christoph U Lehmann"
+            },
+            {
+                "s2_author_id": "2301166722",
+                "name": "Leyao Wang"
+            },
+            {
+                "s2_author_id": "2483332",
+                "name": "Zhiyu Wan"
+            },
+            {
+                "s2_author_id": "113706903",
+                "name": "L. Pilgram"
+            },
+            {
+                "s2_author_id": "2003083798",
+                "name": "T. Meurers"
+            },
+            {
+                "s2_author_id": "2257630056",
+                "name": "E. Schaeffner"
+            },
+            {
+                "s2_author_id": "2260180977",
+                "name": "K.-U. Eckardt"
+            },
+            {
+                "s2_author_id": "3351408",
+                "name": "F. Prasser"
+            },
+            {
+                "s2_author_id": "2214044232",
+                "name": "Malaika Simmons"
+            },
+            {
+                "s2_author_id": "2185583383",
+                "name": "Kammarauche Aneni"
+            },
+            {
+                "s2_author_id": "2298419408",
+                "name": "Ellen Wright Clayton"
+            },
+            {
+                "s2_author_id": "3010164",
+                "name": "Joseph R. Coco"
+            },
+            {
+                "s2_author_id": "2261718215",
+                "name": "Elizabeth Heitman"
+            },
+            {
+                "s2_author_id": "2249052236",
+                "name": "Sajid Hussain"
+            },
+            {
+                "s2_author_id": "2298422480",
+                "name": "Karuna P. Joshi"
+            },
+            {
+                "s2_author_id": "2298419777",
+                "name": "Josh Lemieux"
+            },
+            {
+                "s2_author_id": "2298421694",
+                "name": "Laurie Lovett Novak"
+            },
+            {
+                "s2_author_id": "2298421142",
+                "name": "Daniel J. Rubin"
+            },
+            {
+                "s2_author_id": "2283162037",
+                "name": "Anil Shanker"
+            },
+            {
+                "s2_author_id": "2281574869",
+                "name": "Talitha Washington"
+            },
+            {
+                "s2_author_id": "2248189830",
+                "name": "Gabriella Waters"
+            },
+            {
+                "s2_author_id": "2298420216",
+                "name": "Joyce Webb Harris"
+            },
+            {
+                "s2_author_id": "2297273967",
+                "name": "Rui Yin"
+            },
+            {
+                "s2_author_id": "2298419945",
+                "name": "Teresa Wagner"
+            },
+            {
+                "s2_author_id": "114761306",
+                "name": "Zeeshan Samad"
+            },
+            {
+                "s2_author_id": "3106141",
+                "name": "M. Wooders"
+            }
+        ],
+        "total_co_authors": 97,
+        "papers_retrieved": 23
+    }
+}

@@ -1,0 +1,1800 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000292554",
+        "name": "Mario F Trujillo",
+        "primary_affiliation": "University of Wisconsin-Madison",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Wisconsin-Madison"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "WI"
+        ],
+        "perf_cities": [
+            "MADISON"
+        ],
+        "org_names": [
+            "University of Wisconsin-Madison"
+        ],
+        "org_ueis": [
+            "LCLSJAGTNZQ7"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "mtrujillo@wisc.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2423177",
+                "title": "A Direct Numerical Simulation Approach for Understanding Process Drift in Aerosol Jet Printing",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-09-01",
+                "exp_date": "2028-08-31",
+                "award_amount": 650000.0,
+                "total_amount": 650000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000339647",
+                    "000820998"
+                ],
+                "program_elements": [
+                    "AM-Advanced Manufacturing"
+                ],
+                "program_codes": [
+                    "088Y00"
+                ],
+                "program_references": [
+                    "SIMULATION MODELS",
+                    "MATERIAL TRANSFORMATION PROC",
+                    "MANUFACTURING"
+                ],
+                "program_ref_codes": [
+                    "077E",
+                    "083E",
+                    "MANU"
+                ],
+                "dir_abbr": "ENG",
+                "div_abbr": "CMMI",
+                "nsf_directorate": null,
+                "fund_division": "Division of Civil, Mechanical, and Manufacturing Innovation",
+                "cfda_num": "47.041",
+                "po_name": "Linkan Bian",
+                "keywords": [
+                    "aerosol",
+                    "printing",
+                    "methods",
+                    "conventional",
+                    "numerical",
+                    "drift",
+                    "printed",
+                    "electronics",
+                    "manufacturing",
+                    "direct"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000820998",
+            "000339647"
+        ],
+        "program_elements": [
+            "AM-Advanced Manufacturing"
+        ],
+        "program_codes": [
+            "088Y00"
+        ],
+        "program_references": [
+            "SIMULATION MODELS",
+            "MATERIAL TRANSFORMATION PROC",
+            "MANUFACTURING"
+        ],
+        "program_ref_codes": [
+            "077E",
+            "083E",
+            "MANU"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "ENG"
+        ],
+        "div_abbrs": [
+            "CMMI"
+        ],
+        "fund_divisions": [
+            "Division of Civil, Mechanical, and Manufacturing Innovation"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.041"
+        ],
+        "program_officers": [
+            "Linkan Bian"
+        ],
+        "keywords": [
+            "aerosol",
+            "printing",
+            "methods",
+            "conventional",
+            "numerical",
+            "drift",
+            "printed",
+            "electronics",
+            "manufacturing",
+            "direct",
+            "simulation",
+            "process",
+            "enable",
+            "simulations",
+            "computational",
+            "material",
+            "understanding",
+            "method",
+            "transformative",
+            "circuits"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.46
+    },
+    "s2_profile": {
+        "s2_author_id": "2225065",
+        "name": "Mario F Trujillo",
+        "affiliations": [],
+        "paper_count": 66,
+        "citation_count": 1817,
+        "h_index": 18,
+        "papers": [
+            {
+                "s2_paper_id": "20632e30aaf9c241f5e3445f7610b8d862abdcdc",
+                "title": "Simulation of liquid jet atomization and droplet breakup via a Volume-of-Fluid Lagrangian\u2013Eulerian strategy",
+                "year": 2022,
+                "venue": "The Physics of Fluids",
+                "citation_count": 8,
+                "reference_count": 38,
+                "abstract": "The hybrid Volume-of-Fluid and Lagrangian\u2013Eulerian (VoFLE) strategy is an attractive approach for reducing the computational cost of spray simulations while retaining a reasonable amount of fidelity. It is based on the concept of transitioning small liquid bodies or droplets to a Lagrangian\u2013Eulerian (LE) representation, alleviating the burden of maintaining high resolution for small droplets. This hybrid VoFLE methodology is extended in the present work by incorporating a hydrodynamic breakup model based on maximum entropy formalism (MEF). This approach is particularly suitable for realistic spray conditions, such as high-pressure fuel injectors, where adequate numerical resolution of the smallest droplets is extremely difficult. The first step in the present VoFLE treatment is the identification of unresolved liquid structures targeted for LE transition. This step is followed by the application of the MEF breakup model for those structures that are hydrodynamically unstable, resulting in the assignment of secondary drop sizes and velocities. The model is evaluated statistically and tested against experimental data from the Engine Combustion Network and the breakup of a water jet. Relatively favorable results are encountered in these tests.",
+                "authors": [
+                    {
+                        "s2_author_id": "14177682",
+                        "name": "C. Kuo"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3e251adf3e0724fc33c29525bf692d0b41135008",
+                "title": "Evaluation and Improvements to Interfacial Curvature Predictions in interFoam",
+                "year": 2022,
+                "venue": "Fluids",
+                "citation_count": 3,
+                "reference_count": 24,
+                "abstract": "Improvements to the interfacial curvature of interFoam based on (i) the smoothing of the liquid fraction field and (ii) the creation of a signed distance function (\u03d5-based) are implemented. While previous work in this area has focused on evaluating spurious currents and similar configurations, the tests implemented in this work are more applicable to sprays and hydrodynamic breakup problems. For the \u03d5-based method, a dual approach is developed based on a geometric reconstruction of the interface at interfacial cells and the solution of the Hamilton-Jacobi equation away from these cells. The more promising results are from this method, where the lack of convergence of Laplace pressure predictions existing in the standard version of interFoam is fixed, resulting in second-order convergence. Similar but less drastic improvements are observed for other exercises consisting of the oscillation of a droplet, a 2-phase Orr\u2013Sommerfeld problem, the Rayleigh\u2013Plateau instability, and the retraction of a liquid column. It is only when the dynamics are either entirely governed by surface tension or are heavily influenced by it that we see the need to substitute the standard interFoam curvature approach with a more accurate scheme. For more realistic problems, which naturally include more complicated dynamics, the difference between the standard approach and the \u03d5-based approach is minimal.",
+                "authors": [
+                    {
+                        "s2_author_id": "153673561",
+                        "name": "A. Agarwal"
+                    },
+                    {
+                        "s2_author_id": "145157922",
+                        "name": "M. Ananth"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab1e32b0ff6fcf7a872ac7f401d8f3663cb2c0f4",
+                "title": "2PJIT: Two-phase 3D jet instability tool in cylindrical coordinates",
+                "year": 2022,
+                "venue": "SoftwareX",
+                "citation_count": 0,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145157922",
+                        "name": "M. Ananth"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c0b019c259cb36471d137a058c24f4e6b8ce4ca6",
+                "title": "A maximum entropy formalism model for the breakup of a droplet",
+                "year": 2022,
+                "venue": "The Physics of Fluids",
+                "citation_count": 6,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "48898939",
+                        "name": "Chia-Wei Kuo"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "74ae6941656671a5b47db7574ea90d052697f8ca",
+                "title": "An analysis of the performance enhancement with adaptive mesh refinement for spray problems",
+                "year": 2021,
+                "venue": "International Journal of Multiphase Flow",
+                "citation_count": 4,
+                "reference_count": 65,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2072615012",
+                        "name": "C. Kuo"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a7ae046e4b66fecb50648a131698695538e08de7",
+                "title": "Reexamining the one-fluid formulation for two-phase flows",
+                "year": 2021,
+                "venue": "International Journal of Multiphase Flow",
+                "citation_count": 12,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "57a103ab8db59c9dc20b023884a7c26de4686d55",
+                "title": "Radiative heat transfer in FLiBe molten salt participating medium in a vertical heated tube under forced and mixed convection laminar flows",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2126294819",
+                        "name": "Mohamed Abou Dbai"
+                    },
+                    {
+                        "s2_author_id": "51444704",
+                        "name": "R. Scarlat"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a46e25d4ce5f260ca32a8e382d7027c3777c6afb",
+                "title": "The effect of nozzle internal flow on spray atomization",
+                "year": 2020,
+                "venue": "International Journal of Engine Research",
+                "citation_count": 35,
+                "reference_count": 34,
+                "abstract": "The effect of nozzle surface features on the overall atomization behavior of a liquid jet is analyzed in the present computational work by adopting three representative geometries, namely a single X-ray tomography scan of the Engine Combustion Network\u2019s Spray A nozzle (Unprocessed), a spline reconstruction of multiple scans (Educated), and a purely external flow configuration. The latter configuration is often used in fundamental jet atomization studies. Numerically, the two-phase flow is solved based on algebraic volume-of-fluid methodology utilizing the OpenFoam solver, interFoam. Quantitative characterization of the surface features concerning the first two geometries reveals that while both of them have similar levels of cylindrical asymmetries, the nozzle configuration pertaining to the Unprocessed geometry has much larger surface features along the streamwise direction than the Educated geometry. This produces for the Unprocessed configuration a much larger degree of non-axial velocity components in the flow exiting the orifice and also a more pronounced disturbance of the liquid surface in the first few diameters downstream of the nozzle orifice. Furthermore, this heightened level of surface destabilization generates a much shorter intact liquid core length, that is, it produces faster primary atomization. The surprising aspect of this finding is that the differences between the Unprocessed and Educated geometries are of O (1) \u03bcm, and they are able to produce O (1) mm effects in the intact liquid core length. In spite of more pronounced atomization for the Unprocessed geometry, the magnitude of the turbulent liquid kinetic energy is roughly the same as the Educated geometry. This highlights the important role of mean field quantities, in particular, non-axial velocity components, in precipitating primary atomization. At the other end of the spectrum, the external-only configuration has the mildest level of surface disturbances in the near field resulting in the longest intact liquid core length.",
+                "authors": [
+                    {
+                        "s2_author_id": "153673561",
+                        "name": "A. Agarwal"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c75dbdebe43eb78e9965fa7dc1989e88b6021351",
+                "title": "EVALUATING THE IMPORTANCE OF DROP SIZE AND SPREADING ANGLE IN NEAR-FIELD SPRAY CALCULATIONS",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2053628481",
+                        "name": "M. Mason"
+                    },
+                    {
+                        "s2_author_id": "2073218783",
+                        "name": "R. Hessel"
+                    },
+                    {
+                        "s2_author_id": "2011442235",
+                        "name": "Arun C Ravindran"
+                    },
+                    {
+                        "s2_author_id": "71239754",
+                        "name": "S. Kokjohn"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fffebf68ff40a0e72a5d5bde761870d0f0a16fa5",
+                "title": "Spray-wall interactions in direct-injection engines: An introductory overview",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 29,
+                "reference_count": 51,
+                "abstract": "Spray-wall interactions directly affect fuel-air mixture preparation and emissions formation. They are therefore among the most critical physical processes in engines today. This special issue of International Journal of Engine Research presents 11 papers that investigate spray-wall interactions and their effects at both fundamental and practical levels. This brief article offers background and context for the special issue and summarizes each research paper in the collection.",
+                "authors": [
+                    {
+                        "s2_author_id": "91674895",
+                        "name": "T. Fansler"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "143648945",
+                        "name": "E. Curtis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f9026228f5b99ec361bc90bc975c99b82d98202",
+                "title": "Evaluation and validation of large-eddy simulation sub-grid spray dispersion models using high-fidelity volume-of-fluid simulation data and engine combustion network experimental data",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 16,
+                "reference_count": 48,
+                "abstract": "A sub-grid model accounting for the interaction of spray and sub-grid turbulence was developed and tested. The model predicts the sub-grid scale dispersion velocity used for calculating the slip velocity in Lagrangian\u2013Eulerian Large-eddy simulation spray models. The dispersion velocity is assumed to be decomposed into a deterministic and a stochastic part, and it is updated in every turbulence correlation time for each computational parcel. The model was validated against two datasets: volume-of-fluid simulations and Engine Combustion Network experiments. The volume-of-fluid data showed that dispersion velocities at the centerline are anisotropic. This qualitative feature is well captured by the current model. For the Engine Combustion Network Spray A cases, it was found that sub-grid scale dispersion has profound impact on the prediction of the spatial distribution of liquid mass. Neglecting the sub-grid scale dispersion model results in underprediction of the width of the lateral projected liquid mass density profiles. Also, the prediction of the projected liquid mass density is sensitive to the two model constants determining the sub-grid scale dispersion velocity magnitude and turbulence time scale. However, the predictions of resolved gas-phase statistics are relatively insensitive to different sub-grid scale dispersion model setups. The primary reason for this was investigated. It was found that the motion of high-momentum liquid blobs in the near-nozzle region leading to air entrainment and subsequent gas jet development is minimally influenced by sub-grid scale dispersion. The importance of sub-grid scale dispersion inversely correlates with drag force magnitude: the larger the drag force, the less critical the sub-grid scale dispersion. Moving further downstream, quasi-equilibrium between the two phases is established, resulting in relatively small slip velocity and drag force.",
+                "authors": [
+                    {
+                        "s2_author_id": "103223667",
+                        "name": "Chi-Wei Tsang"
+                    },
+                    {
+                        "s2_author_id": "2072615012",
+                        "name": "C. Kuo"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "39339472",
+                        "name": "C. Rutland"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4ad36ba0a5cfea60877acc1c00b07475d66c314c",
+                "title": "A STUDY OF MASS LOADING LIMITS IN SPRAY DESUPERHEATING",
+                "year": 2019,
+                "venue": "Atomization and sprays",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92840753",
+                        "name": "D. Ryddner"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "93ba88cc495c8e7885aaa350e55794368ce08690",
+                "title": "Assessing the physical validity of highly-resolved simulation benchmark tests for flows undergoing phase change",
+                "year": 2019,
+                "venue": "International Journal of Multiphase Flow",
+                "citation_count": 10,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "14608646",
+                        "name": "Raunak Bardia"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b1007700ee9f8504a99fb094924f888b0b017730",
+                "title": "An improved categorization of vapor bubble collapse: Explaining the coupled nature of hydrodynamic and thermal mechanisms",
+                "year": 2019,
+                "venue": "International Journal of Heat and Mass Transfer",
+                "citation_count": 9,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "14608646",
+                        "name": "Raunak Bardia"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ca866822d4aead73ec839106276bb6313ff0d492",
+                "title": "ASSESSING THE PHYSICAL VALIDITY OF DNS BENCHMARK TESTS FOR PHASE CHANGE",
+                "year": 2019,
+                "venue": "Proceeding of 4th Thermal and Fluids Engineering Conference",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "14608646",
+                        "name": "Raunak Bardia"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "57c01a67d30727946bbf9c268e857c1db91927eb",
+                "title": "Gradient augmented level set method for phase change simulations",
+                "year": 2018,
+                "venue": "Journal of Computational Physics",
+                "citation_count": 24,
+                "reference_count": 60,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9635395",
+                        "name": "L. Anumolu"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "860abf2dc79481acb662bee6cbeea4ff6d23020c",
+                "title": "GLOBAL CHARACTERIZATION OF THE SPRAY FORMATION PROCESS",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "102610621",
+                        "name": "S. Gurjar"
+                    },
+                    {
+                        "s2_author_id": "2053628481",
+                        "name": "M. Mason"
+                    },
+                    {
+                        "s2_author_id": "153673561",
+                        "name": "A. Agarwal"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "adcf0e40b8f1c7ee61ab9c579a9394138d328120",
+                "title": "A Closer Look at Linear Stability Theory in Modeling Spray Atomization",
+                "year": 2018,
+                "venue": "International Journal of Multiphase Flow",
+                "citation_count": 13,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "153673561",
+                        "name": "A. Agarwal"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "097eb0c753e204bac136e9a894d6c61bb8164b85",
+                "title": "The Benefits of High-Order Interface Advection Schemes?",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "92840753",
+                        "name": "D. Ryddner"
+                    },
+                    {
+                        "s2_author_id": "9635395",
+                        "name": "L. Anumolu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "379bc60a24e1a83b9f4120bc56e749cf26e67813",
+                "title": "CHARACTERIZATION OF THE DYNAMICS OF VAPOR BUBBLE COLLAPSE",
+                "year": 2017,
+                "venue": "Proceeding of 4th Thermal and Fluids Engineering Conference",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "14608646",
+                        "name": "Raunak Bardia"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4a039bfecca3735b9280aa54a051183df8867d67",
+                "title": "Analysis of Near-Field Spray Behavior with Highly-Resolved Simulations",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "102610621",
+                        "name": "S. Gurjar"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7e8fe5165d90998abbf16406a0c9ad4085ea5bb7",
+                "title": "The distortion of the level set gradient under advection",
+                "year": 2017,
+                "venue": "Journal of Computational Physics",
+                "citation_count": 14,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "9635395",
+                        "name": "L. Anumolu"
+                    },
+                    {
+                        "s2_author_id": "92840753",
+                        "name": "D. Ryddner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "087476da594269789e614f2421867db9d22290b2",
+                "title": "A Continuum and Molecular Dynamics Simulation of Nano-droplets Collision",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "14608646",
+                        "name": "Raunak Bardia"
+                    },
+                    {
+                        "s2_author_id": "144725387",
+                        "name": "Zhi Liang"
+                    },
+                    {
+                        "s2_author_id": "2658384",
+                        "name": "P. Keblinski"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d98c063ada5b498ea78b95eac216d2a690900fe",
+                "title": "Simulating Phase-Change Phenomena Using Gradient Augmented Level Set Approach",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "71086596",
+                        "name": "C. R. L. Anumolu"
+                    },
+                    {
+                        "s2_author_id": "2297496",
+                        "name": "Mridul Aanjaneya"
+                    },
+                    {
+                        "s2_author_id": "2101397388",
+                        "name": "Sifakis Eftychios"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "41c52a36e9d20763ea43ea0573ea40d72f32c995",
+                "title": "Gradient Augmented Level Set Method for Two Phase Flow Simulations with Phase Change",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "71086596",
+                        "name": "C. R. L. Anumolu"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "870f5b38861e9d7a68c702f0f62987d52d3ba579",
+                "title": "Continuum and molecular-dynamics simulation of nanodroplet collisions.",
+                "year": 2016,
+                "venue": "Physical Review E",
+                "citation_count": 16,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "14608646",
+                        "name": "Raunak Bardia"
+                    },
+                    {
+                        "s2_author_id": "144725387",
+                        "name": "Zhi Liang"
+                    },
+                    {
+                        "s2_author_id": "2658384",
+                        "name": "P. Keblinski"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3e7b483e6d96c232b4461ff828d129e4e3826420",
+                "title": "Modeling Urea-Water Solution Droplet Evaporation",
+                "year": 2015,
+                "venue": "Emission Control Science and Technology",
+                "citation_count": 24,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92840753",
+                        "name": "D. Ryddner"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "18b8cda0ad91d8b85150c95f925b9b6459a455df",
+                "title": "Large-eddy simulation of shear flows and high-speed vaporizing liquid fuel sprays",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 45,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "103223667",
+                        "name": "Chi-Wei Tsang"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "39339472",
+                        "name": "C. Rutland"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4f1f4d0a2fd4d5b2d401fad9809dd7ab8d190936",
+                "title": "A computational study of an atomizing liquid sheet",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 31,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    },
+                    {
+                        "s2_author_id": "102610621",
+                        "name": "S. Gurjar"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6839e0f508a6fd67d6fd5e9b86cecec761f18233",
+                "title": "Comparisons and Limitations of Gradient Augmented Level Set and Algebraic Volume of Fluid Methods",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9635395",
+                        "name": "L. Anumolu"
+                    },
+                    {
+                        "s2_author_id": "92840753",
+                        "name": "D. Ryddner"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "226d2632164212cfe1f6504a8fa34c2bdbfb571f",
+                "title": "COMPUTATIONAL STUDY OF FLUID PROPERTY EFFECTS ON THE CAPILLARY BREAKUP OF A LIGAMENT",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "153274738",
+                        "name": "S. Kim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a516f14cbb84179d877360a2c8913059dda7dbc",
+                "title": "Entrainment Characteristics for variable-angle plunging liquid jets",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c8d7f5320b6cf0db07421ca38a240708c6fb3b60",
+                "title": "Numerical simulations of droplet train and free surface jet impingement",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 21,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2112241245",
+                        "name": "Steven Lewis"
+                    },
+                    {
+                        "s2_author_id": "9635395",
+                        "name": "L. Anumolu"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ca30891e6b290373b765f07e10dfe623dbd12860",
+                "title": "Computational study of fuel property effects on the breakup of a liquid ligament",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "153274738",
+                        "name": "S. Kim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d3a2e597c7e901944ad1b39595406dc665893124",
+                "title": "Distinguishing features of shallow angle plunging jets",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 26,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f2ad65816fd2dea8431b32143c7cd4602ba4f603",
+                "title": "Gradient augmented reinitialization scheme for the level set method",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 20,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9635395",
+                        "name": "L. Anumolu"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "48309d2062d658eab09ec86aabb2044f9100e390",
+                "title": "Evaluating the performance of the two-phase flow solver interFoam",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 848,
+                "reference_count": 86,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    },
+                    {
+                        "s2_author_id": "9635395",
+                        "name": "L. Anumolu"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "559ffc871b7128141d3015cb5927b2f30402f97e",
+                "title": "Abstract Submitted for the DFD12 Meeting of The American Physical Society Gradient Augmented Level Set Reinitialization Approach LAK-",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2089195920",
+                        "name": "Shman Anumolu"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "84fa0562e3b5060c6b213ca9c2b7a6f0cfc951fe",
+                "title": "Computational and experimental characterization of a liquid jet plunging into a quiescent pool at shallow inclination",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 55,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "7916945",
+                        "name": "Xiongjun Wu"
+                    },
+                    {
+                        "s2_author_id": "40060611",
+                        "name": "G. Chahine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c9a9646ae5193dad383c0b9e9d522befe3c5d456",
+                "title": "Gradient Augmented Level Set Reinitialization Approach",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9635395",
+                        "name": "L. Anumolu"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f2aa3dd153eb5604d08917f9d47aa05043c21432",
+                "title": "Thermal boundary layer analysis corresponding to droplet train impingement",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 39,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "114684306",
+                        "name": "S. Lewis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fb3b1594e7b51e40ce1d792e99ca2bdcae556b63",
+                "title": "Computational Study of Air Entrainment by Plunging Jets -- Influence of Jet Inclination",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "16c579179b848a46d13317e10fc3bbd21f890de0",
+                "title": "CHARACTERISTICS OF HOLLOW CONE SPRAYS IN CROSSFLOW",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 20,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    },
+                    {
+                        "s2_author_id": "2149256802",
+                        "name": "Jian Gao"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "37bfbd8f7d40611043831b4c81e898682c51f296",
+                "title": "The Nearfield of a Shallow Angle Plunging Jet - Periodicity of Air Cavity Formation",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75644e38d8ca7c520092b3aae836d2af344a5c2e",
+                "title": "Numerical Simulation of Hollow-Cone Sprays Interacting with Uniform Crossflow for Gasoline Direct Injection Engines",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149256802",
+                        "name": "Jian Gao"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cd8ce14707511acab2285300ab690eaf8ef18245",
+                "title": "Numerical Simulations and Experimental Characterization of Heat Transfer From a Periodic Impingement of Droplets",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 58,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "143807793",
+                        "name": "J. Alvarado"
+                    },
+                    {
+                        "s2_author_id": "3504787",
+                        "name": "E. Gehring"
+                    },
+                    {
+                        "s2_author_id": "26522471",
+                        "name": "Guillermo Soriano"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f5436e881fbff7f4f3027a6b71c62bc9fb55d981",
+                "title": "A local lagrangian analysis of passive particle advection in a gas flow field",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "102247914",
+                        "name": "Alex E. Parkhill"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "14dd7527cdfce2fbe2a293c492dcfa76d122e1e2",
+                "title": "Film dynamics relevant to spray cooling",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3504787",
+                        "name": "E. Gehring"
+                    },
+                    {
+                        "s2_author_id": "26522471",
+                        "name": "Guillermo Soriano"
+                    },
+                    {
+                        "s2_author_id": "1491598002",
+                        "name": "Y. Lin"
+                    },
+                    {
+                        "s2_author_id": "143807793",
+                        "name": "J. Alvarado"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6f8799e6e4910b2db6ddb44e20beda1564f7d985",
+                "title": "n -HEPTANE DROPLET VAPORIZATION USING MOLECULAR DYNAMICS",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "97315846",
+                        "name": "Brad A. Petrilla"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "34722000",
+                        "name": "M. Micci"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8a93a98a063589144d20e4a36a0fb9c8e19002d6",
+                "title": "Numerical Simulation of Heat Transfer Mechanisms in Spray Cooling",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3504787",
+                        "name": "E. Gehring"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b8fd6b0d6c1494de2d1fef26e15cb9806103b578",
+                "title": "Thermal Boundary Layer Dynamics in Multiple Droplet Impingement",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "10725585",
+                        "name": "S. Lewis"
+                    },
+                    {
+                        "s2_author_id": "3504787",
+                        "name": "E. Gehring"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f1fa3773d13e1d0a5feb5c8a079a4ceea3c254be",
+                "title": "Modeling of Liquid Sprays and Thermal Mixing in Desuperheating Applications",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149256802",
+                        "name": "Jian Gao"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "16f5b61061be1ee85cbcdf9a48d7293328bd83c0",
+                "title": "Study of Air Entrainment by a Horizontal Plunging Liquid Jet",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "100640090",
+                        "name": "S. S. Deshpande"
+                    },
+                    {
+                        "s2_author_id": "7916945",
+                        "name": "Xiongjun Wu"
+                    },
+                    {
+                        "s2_author_id": "40060611",
+                        "name": "G. Chahine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8e052b00e4dd9302ac18d714613895cd1b064cae",
+                "title": "Array gain degradation due to nearby bubbles",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145886226",
+                        "name": "R. L. Culver"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "92d7a00538c8f89e1b2e65cd4281421a3c9a63ab",
+                "title": "Examining the Equilibrium State in Lagrangian Particle Dynamics",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "102247914",
+                        "name": "Alex E. Parkhill"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "30f5d9691144af752266e7638281dcaf75f78fd5",
+                "title": "Effects of scattering by air bubbles on performance of an underwater acoustic array",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145886226",
+                        "name": "R. L. Culver"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a38ce82fba185ae150394136205df7a590759b1e",
+                "title": "Numerical and Experimental Study of a Horizontal Jet Below a Free Surface",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "119694188",
+                        "name": "C. Hsiao"
+                    },
+                    {
+                        "s2_author_id": "12949456",
+                        "name": "Jin-Keun Choi"
+                    },
+                    {
+                        "s2_author_id": "50524368",
+                        "name": "E. Paterson"
+                    },
+                    {
+                        "s2_author_id": "40060611",
+                        "name": "G. Chahine"
+                    },
+                    {
+                        "s2_author_id": "49563712",
+                        "name": "L. Peltier"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c501a7868c5a860d3c0a301650276be54aa656d5",
+                "title": "A Scaling Law for Cavitation Inception in Circular Jet Flows",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100564097",
+                        "name": "Brian A. Edge"
+                    },
+                    {
+                        "s2_author_id": "50524368",
+                        "name": "E. Paterson"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e7897b2eeba2bf0c029afc23bba7a0e98aedd56b",
+                "title": "MEASURING AND MODELING BUBBLES IN SHIP WAKES , AND THEIR EFFECT ON ACOUSTIC PROPAGATION",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 10,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145886226",
+                        "name": "R. L. Culver"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d27a4254a392e222b99a21cd8839b909eefd57db",
+                "title": "KIVA-4: An unstructured ALE code for compressible gas flow with sprays",
+                "year": 2006,
+                "venue": "Journal of Computational Physics",
+                "citation_count": 135,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "27059926",
+                        "name": "D. J. Torres"
+                    },
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "426a74cb8ed485c071e37534430fa1e0f8ded494",
+                "title": "High-pressure multicomponent liquid sprays: Departure from ideal behaviour",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 20,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "27059926",
+                        "name": "D. J. Torres"
+                    },
+                    {
+                        "s2_author_id": "1401178157",
+                        "name": "P. O'Rourke"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "495295667edee06d116fd912ec28da08338a982e",
+                "title": "Modeling film dynamics in spray impingement",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 16,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "2028285340",
+                        "name": "C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "60de12caeb058d966a3cb5f1e2de548cc56a219d",
+                "title": "Generalizing the Thermodynamics State Relationships in KIVA-3V",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "1401178157",
+                        "name": "P. O'Rourke"
+                    },
+                    {
+                        "s2_author_id": "27059926",
+                        "name": "D. J. Torres"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "37bc9a463dbb88f9daaa94f26e517ffa6d9075b0",
+                "title": "Spray and Single Droplet Impingement on a Wall",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "68ffd472ea45c8d2ddb469dbddddc6995a81a839",
+                "title": "Modeling crown formation due to the splashing of a droplet",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 74,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "2028285340",
+                        "name": "C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2bcdb3bd1d65592b96fded76c517e1f05952c137",
+                "title": "Modelling and experiment of impingement and atomization of a liquid spray on a wall",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 115,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2225065",
+                        "name": "M. Trujillo"
+                    },
+                    {
+                        "s2_author_id": "72012979",
+                        "name": "W. S. Mathews"
+                    },
+                    {
+                        "s2_author_id": "2028285340",
+                        "name": "C. Lee"
+                    },
+                    {
+                        "s2_author_id": "145462263",
+                        "name": "J. E. Peters"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "14177682",
+                "name": "C. Kuo"
+            },
+            {
+                "s2_author_id": "153673561",
+                "name": "A. Agarwal"
+            },
+            {
+                "s2_author_id": "145157922",
+                "name": "M. Ananth"
+            },
+            {
+                "s2_author_id": "48898939",
+                "name": "Chia-Wei Kuo"
+            },
+            {
+                "s2_author_id": "2072615012",
+                "name": "C. Kuo"
+            },
+            {
+                "s2_author_id": "2126294819",
+                "name": "Mohamed Abou Dbai"
+            },
+            {
+                "s2_author_id": "51444704",
+                "name": "R. Scarlat"
+            },
+            {
+                "s2_author_id": "2053628481",
+                "name": "M. Mason"
+            },
+            {
+                "s2_author_id": "2073218783",
+                "name": "R. Hessel"
+            },
+            {
+                "s2_author_id": "2011442235",
+                "name": "Arun C Ravindran"
+            },
+            {
+                "s2_author_id": "71239754",
+                "name": "S. Kokjohn"
+            },
+            {
+                "s2_author_id": "91674895",
+                "name": "T. Fansler"
+            },
+            {
+                "s2_author_id": "143648945",
+                "name": "E. Curtis"
+            },
+            {
+                "s2_author_id": "103223667",
+                "name": "Chi-Wei Tsang"
+            },
+            {
+                "s2_author_id": "39339472",
+                "name": "C. Rutland"
+            },
+            {
+                "s2_author_id": "92840753",
+                "name": "D. Ryddner"
+            },
+            {
+                "s2_author_id": "14608646",
+                "name": "Raunak Bardia"
+            },
+            {
+                "s2_author_id": "9635395",
+                "name": "L. Anumolu"
+            },
+            {
+                "s2_author_id": "102610621",
+                "name": "S. Gurjar"
+            },
+            {
+                "s2_author_id": "144725387",
+                "name": "Zhi Liang"
+            },
+            {
+                "s2_author_id": "2658384",
+                "name": "P. Keblinski"
+            },
+            {
+                "s2_author_id": "71086596",
+                "name": "C. R. L. Anumolu"
+            },
+            {
+                "s2_author_id": "2297496",
+                "name": "Mridul Aanjaneya"
+            },
+            {
+                "s2_author_id": "2101397388",
+                "name": "Sifakis Eftychios"
+            },
+            {
+                "s2_author_id": "100640090",
+                "name": "S. S. Deshpande"
+            },
+            {
+                "s2_author_id": "153274738",
+                "name": "S. Kim"
+            },
+            {
+                "s2_author_id": "2112241245",
+                "name": "Steven Lewis"
+            },
+            {
+                "s2_author_id": "2089195920",
+                "name": "Shman Anumolu"
+            },
+            {
+                "s2_author_id": "7916945",
+                "name": "Xiongjun Wu"
+            },
+            {
+                "s2_author_id": "40060611",
+                "name": "G. Chahine"
+            },
+            {
+                "s2_author_id": "114684306",
+                "name": "S. Lewis"
+            },
+            {
+                "s2_author_id": "2149256802",
+                "name": "Jian Gao"
+            },
+            {
+                "s2_author_id": "143807793",
+                "name": "J. Alvarado"
+            },
+            {
+                "s2_author_id": "3504787",
+                "name": "E. Gehring"
+            },
+            {
+                "s2_author_id": "26522471",
+                "name": "Guillermo Soriano"
+            },
+            {
+                "s2_author_id": "102247914",
+                "name": "Alex E. Parkhill"
+            },
+            {
+                "s2_author_id": "1491598002",
+                "name": "Y. Lin"
+            },
+            {
+                "s2_author_id": "97315846",
+                "name": "Brad A. Petrilla"
+            },
+            {
+                "s2_author_id": "34722000",
+                "name": "M. Micci"
+            },
+            {
+                "s2_author_id": "10725585",
+                "name": "S. Lewis"
+            },
+            {
+                "s2_author_id": "145886226",
+                "name": "R. L. Culver"
+            },
+            {
+                "s2_author_id": "119694188",
+                "name": "C. Hsiao"
+            },
+            {
+                "s2_author_id": "12949456",
+                "name": "Jin-Keun Choi"
+            },
+            {
+                "s2_author_id": "50524368",
+                "name": "E. Paterson"
+            },
+            {
+                "s2_author_id": "49563712",
+                "name": "L. Peltier"
+            },
+            {
+                "s2_author_id": "100564097",
+                "name": "Brian A. Edge"
+            },
+            {
+                "s2_author_id": "27059926",
+                "name": "D. J. Torres"
+            },
+            {
+                "s2_author_id": "1401178157",
+                "name": "P. O'Rourke"
+            },
+            {
+                "s2_author_id": "2028285340",
+                "name": "C. Lee"
+            },
+            {
+                "s2_author_id": "72012979",
+                "name": "W. S. Mathews"
+            },
+            {
+                "s2_author_id": "145462263",
+                "name": "J. E. Peters"
+            }
+        ],
+        "total_co_authors": 51,
+        "papers_retrieved": 66
+    }
+}

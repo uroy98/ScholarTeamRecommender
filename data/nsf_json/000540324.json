@@ -1,0 +1,4703 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000540324",
+        "name": "Jacobus VAN DER MERWE",
+        "primary_affiliation": "University of Utah",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Utah"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "UT"
+        ],
+        "perf_cities": [
+            "SALT LAKE CITY"
+        ],
+        "org_names": [
+            "University of Utah"
+        ],
+        "org_ueis": [
+            "LL8GLEVH6MG3"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "kobus@cs.utah.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2434086",
+                "title": "Adaptive Spectrum Sharing and UsE (ASSURE)",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-10-01",
+                "exp_date": "2028-09-30",
+                "award_amount": 629737.0,
+                "total_amount": 629737.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000647153"
+                ],
+                "program_elements": [
+                    "SII-Spectrum Innovation Initia"
+                ],
+                "program_codes": [
+                    "151Y00"
+                ],
+                "program_references": [
+                    "EARS"
+                ],
+                "program_ref_codes": [
+                    "7976"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "AST",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Astronomical Sciences",
+                "cfda_num": "47.049",
+                "po_name": "Jon Williams",
+                "keywords": [
+                    "spectrum",
+                    "sharing",
+                    "radar",
+                    "band",
+                    "cellular",
+                    "systems",
+                    "radars",
+                    "interference",
+                    "assure",
+                    "fine"
+                ]
+            },
+            {
+                "nsf_award_id": "2453816",
+                "title": "Collaborative Research: Ideas Lab: Breaking Low: DRIVE-SAFE: Remote and Cooperative Autonomous Driving in Dynamic Environments using 5G/NextG Technology",
+                "type": "Cooperative Agreement",
+                "tran_type": "CoopAgrmnt",
+                "start_date": "2025-08-15",
+                "exp_date": "2027-07-31",
+                "award_amount": 901528.0,
+                "total_amount": 1598846.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "TIP-CHIPS KTA-6 Communications"
+                ],
+                "program_codes": [
+                    "272Y00"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "TIP",
+                "div_abbr": "ITE",
+                "nsf_directorate": null,
+                "fund_division": "Innovation and Technology Ecosystems",
+                "cfda_num": "47.084",
+                "po_name": "SUDHARMAN KANKANAMGE JAYAWEERA",
+                "keywords": [
+                    "driving",
+                    "vertical",
+                    "remote",
+                    "networks",
+                    "latency",
+                    "aware",
+                    "network",
+                    "cooperative",
+                    "autonomous",
+                    "nextg"
+                ]
+            }
+        ],
+        "award_count": 2,
+        "co_pi_ids": [
+            "000647153"
+        ],
+        "program_elements": [
+            "SII-Spectrum Innovation Initia",
+            "TIP-CHIPS KTA-6 Communications"
+        ],
+        "program_codes": [
+            "151Y00",
+            "272Y00"
+        ],
+        "program_references": [
+            "EARS"
+        ],
+        "program_ref_codes": [
+            "7976"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS",
+            "TIP"
+        ],
+        "div_abbrs": [
+            "AST",
+            "ITE"
+        ],
+        "fund_divisions": [
+            "Division Of Astronomical Sciences",
+            "Innovation and Technology Ecosystems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049",
+            "47.084"
+        ],
+        "program_officers": [
+            "Jon Williams",
+            "SUDHARMAN KANKANAMGE JAYAWEERA"
+        ],
+        "keywords": [
+            "spectrum",
+            "sharing",
+            "radar",
+            "driving",
+            "vertical",
+            "band",
+            "remote",
+            "cellular",
+            "networks",
+            "systems",
+            "radars",
+            "interference",
+            "develop",
+            "assure",
+            "fine",
+            "grained",
+            "radio",
+            "through",
+            "communications",
+            "help"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.51
+    },
+    "s2_profile": {
+        "s2_author_id": "2358499",
+        "name": "Jacobus VAN DER MERWE",
+        "affiliations": [],
+        "paper_count": 122,
+        "citation_count": 4794,
+        "h_index": 35,
+        "papers": [
+            {
+                "s2_paper_id": "31e2ef864c831a6591a1b60a651ed016e26ac890",
+                "title": "RESCue: A State-Disaggregated NFV System with Resilience, Elasticity, and State Consistency",
+                "year": 2023,
+                "venue": "IEEE Conference on Network Softwarization",
+                "citation_count": 1,
+                "reference_count": 28,
+                "abstract": "State-disaggregated Network Function Virtualization (NFV) architectures decouple NF states from packet processing logic to achieve elasticity and resilience in stateful NFs. However, the existing state disaggregation approaches suffer from either poor NF performance due to frequent remote state access or potential inconsistencies in state updates when multiple NF instances concurrently access shared states. Moreover, they do not properly support state rejuvenation/expiration which is required for resource scalability of stateful NF operations. This paper presents a new state-disaggregated NFV system called RESCue that addresses these problems. RESCue handles remote state access differently for shared and private states. For efficient and consistent access of shared states, it leverages a lightweight custom control message protocol between NFs and a centralized state server. For private state access, it adopts a remote-paging-based interface to avoid introducing expensive blocking remote access within the critical path of NF packet processing. Finally, it utilizes non-blocking operations for state rejuvenation/expiration handling to minimize its performance overhead. Our evaluation of a RESCue prototype shows that it can handle NF scaling and failure recovery well, while supporting consistent state updates and state rejuvenation/expiration without compromising performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "32701383",
+                        "name": "Hao Jiang"
+                    },
+                    {
+                        "s2_author_id": "2140304224",
+                        "name": "Hyunseok Chang"
+                    },
+                    {
+                        "s2_author_id": "2153291895",
+                        "name": "S. Mukherjee"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "49841b9a1d0a9dace8d2d35e48d441689f3b0cb3",
+                "title": "OZTrust: An O-RAN Zero-Trust Security System",
+                "year": 2023,
+                "venue": "Conference on Network Function Virtualization and Software Defined Network",
+                "citation_count": 10,
+                "reference_count": 18,
+                "abstract": "The Open Radio Access Network (O-RAN) has gained significant attention as a future RAN framework. However, its architectural characteristics introduce unprecedented security challenges from expanded attack surface and increased risk for proprietary data theft and RAN control manipulation. Despite extensive security analysis from industry, concrete security solutions for the evolving O-RAN framework are still lacking in the literature. In this paper, we propose OZTrust, a Zero-Trust security system tailored for the O-RAN environment. OZTrust comprises two components: access control module and policy management module. The former performs per-packet tagging and verification for each xApp as dictated by its access control policy, while the latter automatically derives necessary access control policies by discovering xApp's communication patterns through distributed tracing. Our prototype-based evaluation demonstrates that OZTrust provides more fine-grained access control for xApps than existing Role-Based Access Control (RBAC) and Container Network Interfaces (CNIs) and outperforms its predecessor.",
+                "authors": [
+                    {
+                        "s2_author_id": "2263840457",
+                        "name": "Hao Jiang"
+                    },
+                    {
+                        "s2_author_id": "2257138348",
+                        "name": "Hyunseok Chang"
+                    },
+                    {
+                        "s2_author_id": "2153291895",
+                        "name": "S. Mukherjee"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b61dad6836e7c2c7ad1cc7851be89c959a2456ef",
+                "title": "Adjacent Channel WiFi 5 Interference on DSRC Communication at 5.9GHz",
+                "year": 2023,
+                "venue": "IEEE Vehicular Technology Conference",
+                "citation_count": 3,
+                "reference_count": 19,
+                "abstract": "Since their controversial decision to adjust the spectrum allocation for intelligent transportation systems in November 2020, the FCC has implemented a wide range of changes. These changes include the removal of 45 MHz from existing spectrum allocations and the transition from DSRC to CV2X, both of which need to be studied in greater detail. We aimed to explore the effects of these decisions by examining the potential impacts on commercial-grade V2X hardware in a real-world, complex radio environment. This was done by characterizing DSRC and comparing its performance in a complex radio environment with different types of interference present. The results of these experiments indicate that outdoor adjacent band WiFi networks can impact DSRC operations; however, this impact is unlikely to have a measurable effect on current ITS installations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2221242630",
+                        "name": "Jacob A. Bills"
+                    },
+                    {
+                        "s2_author_id": "102465116",
+                        "name": "Alex Orange"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "00ea01b5f8e2ac6ea7c7d5c7d0a1440248f739f6",
+                "title": "Open source RAN slicing on POWDER: a top-to-bottom O-RAN use case",
+                "year": 2021,
+                "venue": "ACM SIGMOBILE International Conference on Mobile Systems, Applications, and Services",
+                "citation_count": 15,
+                "reference_count": 10,
+                "abstract": "This demonstration will showcase our efforts to develop a radio access network (RAN) slicing mechanism that is controllable via management software in an Open RAN framework. To our knowledge, our work represents the first effort that combines an open source Open RAN framework with an open source mobility stack, provides a top-to-bottom RAN application via the RAN intelligent control (RIC) provided by that framework and illustrates its functionality in a realistic wireless environment. Our software is publicly available and we provide a profile in the POWDER platform to enable others to replicate and build on our work.",
+                "authors": [
+                    {
+                        "s2_author_id": "2150445053",
+                        "name": "David Johnson"
+                    },
+                    {
+                        "s2_author_id": "48293149",
+                        "name": "Dustin Maas"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08904464a5131918b5683b8fe6cf5fb484886913",
+                "title": "FestNet: A Flexible and Efficient Sliced Transport Network",
+                "year": 2021,
+                "venue": "IEEE Conference on Network Softwarization",
+                "citation_count": 4,
+                "reference_count": 35,
+                "abstract": "Network slicing was adopted as a solution for future networks to support various applications with diverse requirements. While active research has focused on this functionality, most of the work targets RAN or packet core slicing and leaves the transport network nearly untouched. With packet core functions moving to data centers and parts of RAN functions moving to edge clouds, the transport network will gain significantly more importance. To ensure stringent service level agreements (SLAs) and facilitate slice management, it is imperative for the transport network to support live slice mobility with no disruption of current services. In this paper, we present FestNet, a Flexible and Efficient Sliced Transport Network, achieved by our virtualized Programmable Data Plane (vPDP) and two-layer design. Not only conventional protocols but also stateless and stateful network functions (NFs) can be integrated as slices in FestNet. We implemented a FestNet prototype. Our evaluation shows that FestNet supports live slice migration with no packet loss and no state loss for stateful slices and that FestNet provides many times faster slice operations than implementations in related work.",
+                "authors": [
+                    {
+                        "s2_author_id": "32701383",
+                        "name": "Hao Jiang"
+                    },
+                    {
+                        "s2_author_id": "2190825",
+                        "name": "Nakjung Choi"
+                    },
+                    {
+                        "s2_author_id": "144349981",
+                        "name": "M. Thottan"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1aee6069ca6620d1607e0cded15311f4a6b370bc",
+                "title": "Mobile and wireless research on the POWDER platform",
+                "year": 2021,
+                "venue": "ACM SIGMOBILE International Conference on Mobile Systems, Applications, and Services",
+                "citation_count": 3,
+                "reference_count": 7,
+                "abstract": "POWDER is a highly flexible, deeply programmable, and city-scale scientific instrument that enables cutting-edge research in wireless technologies. Researchers interact with the POWDER platform via the Internet to conduct their experiments, with zero penalty for remote access. In this two-part demonstration, the POWDER implementers show how to use the platform. First, they present the workflow that researchers follow to conduct experiments. Second, they highlight some of the hardware and software building blocks available through POWDER, including components related to over-the-air wireless and mobile networking, 5G, and massive MIMO.",
+                "authors": [
+                    {
+                        "s2_author_id": "144569245",
+                        "name": "Joe Breen"
+                    },
+                    {
+                        "s2_author_id": "39956881",
+                        "name": "Jonathon Duerig"
+                    },
+                    {
+                        "s2_author_id": "39080210",
+                        "name": "E. Eide"
+                    },
+                    {
+                        "s2_author_id": "1796457",
+                        "name": "Mike Hibler"
+                    },
+                    {
+                        "s2_author_id": "2150445053",
+                        "name": "David Johnson"
+                    },
+                    {
+                        "s2_author_id": "1685027",
+                        "name": "S. Kasera"
+                    },
+                    {
+                        "s2_author_id": "48293149",
+                        "name": "Dustin Maas"
+                    },
+                    {
+                        "s2_author_id": "102465116",
+                        "name": "Alex Orange"
+                    },
+                    {
+                        "s2_author_id": "1700521",
+                        "name": "Neal Patwari"
+                    },
+                    {
+                        "s2_author_id": "144993692",
+                        "name": "R. Ricci"
+                    },
+                    {
+                        "s2_author_id": "46973228",
+                        "name": "D. Schurig"
+                    },
+                    {
+                        "s2_author_id": "143954637",
+                        "name": "L. Stoller"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "34145239",
+                        "name": "Kirk Webb"
+                    },
+                    {
+                        "s2_author_id": "2055940217",
+                        "name": "Gary Wong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "78658b7dbe755f993a4e744d0a56e2b89f457fd5",
+                "title": "NexRAN: Closed-loop RAN slicing in POWDER -A top-to-bottom open-source open-RAN use case",
+                "year": 2021,
+                "venue": "Workshop on Wireless Network Testbeds, Experimental evaluation & CHaracterization",
+                "citation_count": 68,
+                "reference_count": 28,
+                "abstract": "Much like earlier \"network softwarization\" efforts, the Open RAN concept is poised to have a transformative impact on the manner in which radio access networks (RANs) are realized and operated. The inherent complexity of the RAN ecosystem and the fact that it is rapidly evolving makes Open RAN a rich area of research into use cases, system realization, security, and more. This same complexity, however, hampers research efforts. Specifically, there is a lack of end-to-end open source software and fully-developed use cases associated with the Open RAN ecosystem. Further, to truly advance the state of the art will require use cases to be explored in realistic wireless environments. This paper describes our efforts to address these shortcomings by realizing NexRAN, a top-to-bottom, open-source Open RAN use case in the POWDER mobile and wireless research platform. Specifically, NexRAN allows closed-loop control of a RAN slicing realization in an O-RAN ecosystem. RAN slicing is implemented in the srsRAN open source mobility stack and is exposed through a custom service model to the NexRAN xApp, which executes on a RAN intelligent controller (RIC) from the O-RAN Alliance. The NexRAN xApp realizes policy driven closed-loop control of RAN slices by reading the current state of RAN elements (using the O-RAN key performance measurements (KPM) service model) and controlling slice behavior via the custom slicing service model. We demonstrate and evaluate NexRAN in the POWDER platform and have open sourced all aspects of our realization to enable research into this domain.",
+                "authors": [
+                    {
+                        "s2_author_id": "2150445053",
+                        "name": "David Johnson"
+                    },
+                    {
+                        "s2_author_id": "48293149",
+                        "name": "Dustin Maas"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "af31013e5ccba44ec17303ef2841cfd46264f8c5",
+                "title": "WiMatch: Wireless Resource Matchmaking",
+                "year": 2021,
+                "venue": "Conference on Computer Communications Workshops",
+                "citation_count": 7,
+                "reference_count": 18,
+                "abstract": "Real world testbeds, like the POWDER platform (Platform for Open Wireless Data-driven Experimental Research), enable a broad range of mobile and wireless research. Given the flexibility of this platform, a key concern for platform users is selecting a set of wireless resources that will satisfy the requirements of their experiments. In this paper we present the design and implementation of WiMatch a wireless resource matchmaking system. We illustrate the utility of our approach by evaluating it in the POWDER platform.",
+                "authors": [
+                    {
+                        "s2_author_id": "34145239",
+                        "name": "Kirk Webb"
+                    },
+                    {
+                        "s2_author_id": "1685027",
+                        "name": "S. Kasera"
+                    },
+                    {
+                        "s2_author_id": "1700521",
+                        "name": "Neal Patwari"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b7601375f2def9c5e015481466d76299f5b4ebcf",
+                "title": "Nervion: a cloud native RAN emulator for scalable and flexible mobile core evaluation",
+                "year": 2021,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 11,
+                "reference_count": 36,
+                "abstract": "Given the wide interest on mobile core systems and their pivotal role in the operations of current and future mobile network services, we focus on the issue of their effective evaluation, considering the radio access network (RAN) emulation methodology. While there exist a number of different RAN emulators, following different paradigms, they are limited in their scalability and flexibility, and moreover there is no one commonly accepted RAN emulator. Motivated by this, we present Nervion, a scalable and flexible RAN emulator for mobile core system evaluation that takes a novel cloud-native approach. Nervion embeds innovations to enable scalability via abstractions and RAN element containerization, and additionally supports an even more scalable control-plane only mode. It also offers ample flexibility in terms of realizing arbitrary RAN emulation scenarios, mapping them to compute clusters, and evaluating diverse core system designs. We develop a prototype implementation of Nervion that supports 4G and 5G standard compliant RAN emulation and integrate it into the Powder platform to benefit the research community. Our experimental evaluations validate its correctness and demonstrate its scalability relative to representative set of existing RAN emulators. We also present multiple case studies using Nervion that highlight its flexibility to support diverse types of mobile core evaluations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2086598337",
+                        "name": "Jon Larrea"
+                    },
+                    {
+                        "s2_author_id": "1712068",
+                        "name": "M. Marina"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d7a5191c49b00104faa9a14f10e80b41a16882df",
+                "title": "Nervion: a cloud native RAN emulator for core network evaluations",
+                "year": 2021,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 0,
+                "reference_count": 23,
+                "abstract": "With the mobile networks evolving towards a software-based architecture with 5G, the research community has proposed several alternative core designs to address the issues recognized with the 4G core network architecture. It is notable, however, that these proposals are evaluated in bespoke ways which do not allow evaluate other proposals or even standard-compliant core networks, presenting several limitations in terms of the number of devices and the network load patterns that can be generated. To this end, we present Nervion, a cloud-native RAN emulator for scalable and flexible core network evaluations. Nervion leverages a compute cluster via containerization to emulate a large number of standard-compliant UEs and eNBs/gNBs generating workloads along both the control- and data-plane with a high degree of customization. This demo highlights the features of Nervion via the evaluation of a 5G core network and serves as a guide on how to use the public profile of Nervion on the Powder platform.",
+                "authors": [
+                    {
+                        "s2_author_id": "2086598337",
+                        "name": "Jon Larrea"
+                    },
+                    {
+                        "s2_author_id": "1712068",
+                        "name": "M. Marina"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e0f30e7149db9bb28df46567c2bb0c80f33f684e",
+                "title": "Towards using the POWDER platform for RF propagation validation",
+                "year": 2021,
+                "venue": "Conference on Computer Communications Workshops",
+                "citation_count": 2,
+                "reference_count": 19,
+                "abstract": "The need to find more efficient ways to share and use wireless spectrum has resulted in renewed interest in radio frequency (RF) propagation modeling. The open and programmable nature of the POWDER (Platform for Open Wireless Datadriven Experimental Research) mobile and wireless platform offers a unique environment in which to test and validate RF propagation modeling approaches. In this paper we present our work illustrating how POWDER based RF measurements can be performed, as a form of \"ground truth\", and compared with predicted RF signal strength based on a propagation model. We make use of the Shout RF measurement framework available on POWDER to perform a series of RF measurements. We compare these measurements with predicted power levels using the open source RF Signal Propagation, Loss, And Terrain (SPLAT!) analysis tool. We present our results and a brief terrain analysis to provide real-world context for it. Our work is \"packaged\" as a POWDER profile to allow others to repeat our analysis and to serve as a starting point for further RF measurement and propagation related research.",
+                "authors": [
+                    {
+                        "s2_author_id": "7641706",
+                        "name": "J. Monterroso"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "34145239",
+                        "name": "Kirk Webb"
+                    },
+                    {
+                        "s2_author_id": "2055940217",
+                        "name": "Gary Wong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e7c4e266c8f107e1c81c25062f639164e2e52850",
+                "title": "Practical and configurable network traffic classification using probabilistic machine learning",
+                "year": 2021,
+                "venue": "Cluster Computing",
+                "citation_count": 4,
+                "reference_count": 38,
+                "abstract": "Network traffic classification that is widely applicable and highly accurate is valuable for many network security and management tasks. A flexible and easily configurable classification framework is ideal, as it can be customized for use in a wide variety of networks. In this paper, we propose a highly configurable and flexible machine learning traffic classification method that relies only on statistics of sequences of packets to distinguish known, or approved, traffic from unknown traffic. Our method is based on likelihood estimation, provides a measure of certainty for classification decisions, and can classify traffic at adjustable certainty levels. Our classification method can also be applied in different classification scenarios, each prioritizing a different classification goal. We demonstrate how our classification scheme and all its configurations perform well on real-world traffic from a high performance computing network environment.",
+                "authors": [
+                    {
+                        "s2_author_id": "2144202670",
+                        "name": "Jiahui Chen"
+                    },
+                    {
+                        "s2_author_id": "144569245",
+                        "name": "Joe Breen"
+                    },
+                    {
+                        "s2_author_id": "1795436",
+                        "name": "J. M. Phillips"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d5057df8afa401d3b8674f856d0eb38b9072283",
+                "title": "POWDER: Platform for Open Wireless Data-driven Experimental Research",
+                "year": 2020,
+                "venue": "Workshop on Wireless Network Testbeds, Experimental evaluation & CHaracterization",
+                "citation_count": 190,
+                "reference_count": 75,
+                "abstract": "This paper provides an overview of the Platform for Open Wireless Data-driven Experimental Research (POWDER). POWDER is a city-scale, remotely accessible, end-to-end software defined platform to support mobile and wireless research. Compared to other mobile and wireless testbeds POWDER provides advances in scale, realism, diversity, flexibility, and access.",
+                "authors": [
+                    {
+                        "s2_author_id": "144569245",
+                        "name": "Joe Breen"
+                    },
+                    {
+                        "s2_author_id": "1932380712",
+                        "name": "Andrew Buffmire"
+                    },
+                    {
+                        "s2_author_id": "39956881",
+                        "name": "Jonathon Duerig"
+                    },
+                    {
+                        "s2_author_id": "1932381111",
+                        "name": "Kevin Dutt"
+                    },
+                    {
+                        "s2_author_id": "39080210",
+                        "name": "E. Eide"
+                    },
+                    {
+                        "s2_author_id": "1796457",
+                        "name": "Mike Hibler"
+                    },
+                    {
+                        "s2_author_id": "2150445053",
+                        "name": "David Johnson"
+                    },
+                    {
+                        "s2_author_id": "1685027",
+                        "name": "S. Kasera"
+                    },
+                    {
+                        "s2_author_id": "2052963434",
+                        "name": "Earl Lewis"
+                    },
+                    {
+                        "s2_author_id": "48293149",
+                        "name": "Dustin Maas"
+                    },
+                    {
+                        "s2_author_id": "102465116",
+                        "name": "Alex Orange"
+                    },
+                    {
+                        "s2_author_id": "1700521",
+                        "name": "Neal Patwari"
+                    },
+                    {
+                        "s2_author_id": "1932381914",
+                        "name": "Daniel Reading"
+                    },
+                    {
+                        "s2_author_id": "144993692",
+                        "name": "R. Ricci"
+                    },
+                    {
+                        "s2_author_id": "46973228",
+                        "name": "D. Schurig"
+                    },
+                    {
+                        "s2_author_id": "143954637",
+                        "name": "L. Stoller"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "34145239",
+                        "name": "Kirk Webb"
+                    },
+                    {
+                        "s2_author_id": "2055940217",
+                        "name": "Gary Wong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2fd8ac5a731e354fb511bb3d2c5977fc4216c541",
+                "title": "Spectrum Monitoring and Source Separation in POWDER",
+                "year": 2020,
+                "venue": "Workshop on Wireless Network Testbeds, Experimental evaluation & CHaracterization",
+                "citation_count": 7,
+                "reference_count": 8,
+                "abstract": "Current software-defined radio systems enable transmission at nearly arbitrary frequencies, presenting the possibility of harmful interference to existing communication services when broadcasting over-the-air. The Platform for Open Wireless Data-driven Experimental Research (POWDER) provides software radios whose output can be amplified and transmitted over-the-air. POWDER must include a spectrum monitoring system that can identify users who are transmitting outside allowed frequency bands to ensure wireless spectrum license holders do not experience harmful interference. Power amplifiers in the transmit signal path can create emissions at center frequency harmonics and other spurious emissions. A spectrum monitoring system, coupled with signal paths after all amplifiers in the transmit chain, can detect these emissions. However, incident radio frequency energy combines with the output signal, which is no longer buffered by the amplifier. Incident and transmitted signals must be separated and isolated. The monitor can then analyze the isolated transmitted signal for out-of-band energy. This paper presents a system that can achieve isolation and identify users that broadcast out-of-band.",
+                "authors": [
+                    {
+                        "s2_author_id": "47323727",
+                        "name": "Boston C Terry"
+                    },
+                    {
+                        "s2_author_id": "102465116",
+                        "name": "Alex Orange"
+                    },
+                    {
+                        "s2_author_id": "1700521",
+                        "name": "Neal Patwari"
+                    },
+                    {
+                        "s2_author_id": "1685027",
+                        "name": "S. Kasera"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8e9478f26ed450ec2bf198b1053da774305636db",
+                "title": "eZTrust: Network-Independent Zero-Trust Perimeterization for Microservices",
+                "year": 2019,
+                "venue": "ACM SIGCOMM Symposium on Software Defined Networking Research",
+                "citation_count": 51,
+                "reference_count": 39,
+                "abstract": "Emerging microservices-based workloads introduce new security risks in today's data centers as attacks can propagate laterally within the data center relatively easily by exploiting cross-service dependencies. As countermeasures for such attacks, traditional perimeterization approaches, such as network-endpoint-based access control, do not fare well in highly dynamic microservices environments (especially considering the management complexity, scalability and policy granularity of these earlier approaches). In this paper, we propose eZTrust, a network-independent perimeterization approach for microservices. eZTrust allows data center tenants to express access control policies based on fine-grained workload identities, and enables data center operators to enforce such policies reliably and efficiently in a purely network-independent fashion. To this end, we leverage eBPF, the extended Berkeley Packet Filter, to trace authentic workload identities and apply per-packet tagging and verification. We demonstrate the feasibility of our approach through extensive evaluation of our proof-of-concept prototype implementation. We find that, when comparable policies are enforced, eZTrust incurs 2--5 times lower packet latency and 1.5--2.5 times lower CPU overhead than traditional perimeterization schemes.",
+                "authors": [
+                    {
+                        "s2_author_id": "32517537",
+                        "name": "Zirak Zaheer"
+                    },
+                    {
+                        "s2_author_id": "2140304224",
+                        "name": "Hyunseok Chang"
+                    },
+                    {
+                        "s2_author_id": "2153291895",
+                        "name": "S. Mukherjee"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b6b238f4a6a664eb69b898c8266d03fd2c5c4b4e",
+                "title": "Fluorescence: Detecting Kernel-Resident Malware in Clouds",
+                "year": 2019,
+                "venue": "International Symposium on Recent Advances in Intrusion Detection",
+                "citation_count": 4,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2109341178",
+                        "name": "Richard Li"
+                    },
+                    {
+                        "s2_author_id": "1968460",
+                        "name": "Min Du"
+                    },
+                    {
+                        "s2_author_id": "2150445053",
+                        "name": "David Johnson"
+                    },
+                    {
+                        "s2_author_id": "144993692",
+                        "name": "R. Ricci"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "39080210",
+                        "name": "E. Eide"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c72036d01e043a235a515c5086df20ddd83beacf",
+                "title": "DEPO: A Platform for Safe DEployment of POlicy in a Software Defined Infrastructure",
+                "year": 2019,
+                "venue": "ACM SIGCOMM Symposium on Software Defined Networking Research",
+                "citation_count": 9,
+                "reference_count": 68,
+                "abstract": "The emergence of network functions virtualization (NFV) and software defined networking (SDN) has resulted in networks being realized as software defined infrastructures (SDIs). The dynamicity and flexibility offered by SDIs introduces new challenges in ensuring that policy changes do not result in unintended consequences. These can range from the breakdown of basic network invariants to degradation of network performance. We present the DEPO framework that enables automated discovery and quantification of the potential impact of new orchestration and service level SDI policies. Our approach uses a combination of knowledge modeling, data analysis, machine learning, and emulation techniques in a sandbox SDI. We demonstrate our approach by evaluating it over a testbed SDI with a 4G LTE/EPC broadband service.",
+                "authors": [
+                    {
+                        "s2_author_id": "38634639",
+                        "name": "Aisha Syed"
+                    },
+                    {
+                        "s2_author_id": "2081506",
+                        "name": "M. B. Anwer"
+                    },
+                    {
+                        "s2_author_id": "34945576",
+                        "name": "V. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "250d05a404619c3ee48f174dee62fe3e54dbc04b",
+                "title": "MobileStream: a scalable, programmable and evolvable mobile core control plane platform",
+                "year": 2018,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 18,
+                "reference_count": 60,
+                "abstract": "Control planes in future mobile core networks face two new challenges. First, they must scale to process the growing control traffic generated by an ever increasing number of mobile devices. Second, they must be flexible and evolvable to support the range of emerging service abstractions and to realize customized network slices to meet the broad range of requirements of these networks. To address these challenges, we propose MobileStream, a scalable, programmable, and evolvable mobile core control plane platform. MobileStream provides a set of refactored basic building blocks, functionally decomposed from existing monolithic control plane components. It leverages realtime streaming frameworks to assemble, execute, and scale these blocks as streaming control plane applications. Moreover, it allows users to add their own functions to customize and optimize streaming control plane applications. We present several streaming control plane applications to showcase the flexibility and generality of MobileStream. We describe our extensive functional testing, with a variety of mobile devices and base stations, to validate the MobileStream prototype, and present the results of large-scale experiments demonstrating its scalability.",
+                "authors": [
+                    {
+                        "s2_author_id": "67070369",
+                        "name": "Jung-Yon Cho"
+                    },
+                    {
+                        "s2_author_id": "3087426",
+                        "name": "Ryan Stutsman"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "37f8e7a11164e57ffa782f51af753de1ea37d43a",
+                "title": "ECHO: A Reliable Distributed Cellular Core Network for Hyper-scale Public Clouds",
+                "year": 2018,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 41,
+                "reference_count": 67,
+                "abstract": "Economies of scale associated with hyper-scale public cloud platforms offer flexibility and cost-effectiveness, resulting in various services and businesses moving to the cloud. One area with little progress in this direction is cellular core networks. A cellular core network manages the state of cellular clients; it is essentially a large distributed state machine with very different virtualization challenges compared to typical cloud services. In this paper we present a novel cellular core network architecture, called ECHO, particularly suited to public cloud deployments, where the availability guarantees might be an order of magnitude worse compared to existing (redundant) hardware platforms. We present the design and implementation of our approach and evaluate its functionality on a public cloud platform. Analysis shows ECHO promises higher availability than existing telco solutions.",
+                "authors": [
+                    {
+                        "s2_author_id": "145383153",
+                        "name": "Binh Nguyen"
+                    },
+                    {
+                        "s2_author_id": "153913534",
+                        "name": "Tian Zhang"
+                    },
+                    {
+                        "s2_author_id": "2757057",
+                        "name": "B. Radunovic"
+                    },
+                    {
+                        "s2_author_id": "3087426",
+                        "name": "Ryan Stutsman"
+                    },
+                    {
+                        "s2_author_id": "145201991",
+                        "name": "T. Karagiannis"
+                    },
+                    {
+                        "s2_author_id": "33008931",
+                        "name": "Jakub Kocur"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9fd5c78cfbc0627e43d2cdd2e6058223d30af33a",
+                "title": "I Heard It through the Firewall: Exploiting Cloud Management Services as an Information Leakage Channel",
+                "year": 2018,
+                "venue": "ACM Symposium on Cloud Computing",
+                "citation_count": 0,
+                "reference_count": 31,
+                "abstract": "Though there has been much study of information leakage channels exploiting shared hardware resources (memory, cache, and disk) in cloud environments, there has been less study of the exploitability of shared software resources. In this paper, we analyze the exploitability of cloud networking services (which are shared among cloud tenants) and introduce a practical method for building information leakage channels by monitoring workloads on the cloud networking services through the virtual firewall. We also demonstrate the practicality of this attack by implementing two different covert channels in OpenStack as well as a new class of side channels that can eavesdrop on infrastructure-level events. By utilizing a Long Short-Term Memory (LSTM) neural network model, our side channel attack could detect infrastructure level VM creation/termination events with 93.3% accuracy.",
+                "authors": [
+                    {
+                        "s2_author_id": "24471056",
+                        "name": "H. Baek"
+                    },
+                    {
+                        "s2_author_id": "39080210",
+                        "name": "E. Eide"
+                    },
+                    {
+                        "s2_author_id": "144993692",
+                        "name": "R. Ricci"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ae81fd9f79e50e2c075fa49be78f008f6aec4869",
+                "title": "A reliable distributed cellular core network for public clouds",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46277200",
+                        "name": "Binh Nguyen"
+                    },
+                    {
+                        "s2_author_id": "153913534",
+                        "name": "Tian Zhang"
+                    },
+                    {
+                        "s2_author_id": "2757057",
+                        "name": "B. Radunovic"
+                    },
+                    {
+                        "s2_author_id": "3087426",
+                        "name": "Ryan Stutsman"
+                    },
+                    {
+                        "s2_author_id": "145201991",
+                        "name": "T. Karagiannis"
+                    },
+                    {
+                        "s2_author_id": "33008931",
+                        "name": "Jakub Kocur"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "19222dcba055d2ee9c7ce9f1aacce671e0284be3",
+                "title": "AutoFocus: Automatically scoping the impact of anomalous service events",
+                "year": 2017,
+                "venue": "Conference on Network and Service Management",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144497895",
+                        "name": "Ren Quinn"
+                    },
+                    {
+                        "s2_author_id": "35896181",
+                        "name": "Zihui Ge"
+                    },
+                    {
+                        "s2_author_id": "145300233",
+                        "name": "He Yan"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1c4226f53c87db52af3808731a99dec83b997ab4",
+                "title": "Polygravity: traffic usage accountability via coarse-grained measurements in multi-tenant data centers",
+                "year": 2017,
+                "venue": "ACM Symposium on Cloud Computing",
+                "citation_count": 2,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "24471056",
+                        "name": "H. Baek"
+                    },
+                    {
+                        "s2_author_id": "2114039045",
+                        "name": "Cheng Jin"
+                    },
+                    {
+                        "s2_author_id": "1791767",
+                        "name": "Guofei Jiang"
+                    },
+                    {
+                        "s2_author_id": "2470254",
+                        "name": "C. Lumezanu"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "2072353125",
+                        "name": "Ning Xia"
+                    },
+                    {
+                        "s2_author_id": "2149105828",
+                        "name": "Qiang Xu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "44ac094f6750284d55a32659c85b3d4bedd8037a",
+                "title": "SIMECA: SDN-based IoT Mobile Edge Cloud Architecture",
+                "year": 2017,
+                "venue": "IFIP/IEEE Symposium on Integrated Network Management",
+                "citation_count": 21,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145383153",
+                        "name": "Binh Nguyen"
+                    },
+                    {
+                        "s2_author_id": "2190825",
+                        "name": "Nakjung Choi"
+                    },
+                    {
+                        "s2_author_id": "144349981",
+                        "name": "M. Thottan"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "749175c1786207fb3504706357d2568bb388168f",
+                "title": "Enabling WiFi in Open Access Networks",
+                "year": 2017,
+                "venue": "HotWireless '17",
+                "citation_count": 5,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46859478",
+                        "name": "Shamik Sarkar"
+                    },
+                    {
+                        "s2_author_id": "50262986",
+                        "name": "Christopher Becker"
+                    },
+                    {
+                        "s2_author_id": "37157703",
+                        "name": "Josh Kunz"
+                    },
+                    {
+                        "s2_author_id": "35438720",
+                        "name": "Aarushi Sarbhai"
+                    },
+                    {
+                        "s2_author_id": "35546883",
+                        "name": "Gurupragaash Annasamymani"
+                    },
+                    {
+                        "s2_author_id": "1685027",
+                        "name": "S. Kasera"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "78b804855f3a475b58ee370c94fec8c31344ba02",
+                "title": "CapNet: security and least authority in a capability-enabled cloud",
+                "year": 2017,
+                "venue": "ACM Symposium on Cloud Computing",
+                "citation_count": 9,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "4698435",
+                        "name": "A. Burtsev"
+                    },
+                    {
+                        "s2_author_id": "2150445053",
+                        "name": "David Johnson"
+                    },
+                    {
+                        "s2_author_id": "37157703",
+                        "name": "Josh Kunz"
+                    },
+                    {
+                        "s2_author_id": "39080210",
+                        "name": "E. Eide"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "82ddc9c3ca2f91b1618344e2362228f519695566",
+                "title": "Poster: A New Scalable, Programmable and Evolvable Mobile Control Plane Platform",
+                "year": 2017,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 2,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "67070369",
+                        "name": "Jung-Yon Cho"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "88967fc71477201f89ed0d2dc42cbe523007fe3f",
+                "title": "Orchestrating the Data-Plane of Virtual LTE Core Networks",
+                "year": 2017,
+                "venue": "Annual IEEE Communications Society Conference on Sensor, Mesh and Ad Hoc Communications and Networks",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1800547",
+                        "name": "R. Mahindra"
+                    },
+                    {
+                        "s2_author_id": "3269137",
+                        "name": "Arijit Banerjee"
+                    },
+                    {
+                        "s2_author_id": "1785674",
+                        "name": "K. Sundaresan"
+                    },
+                    {
+                        "s2_author_id": "1685027",
+                        "name": "S. Kasera"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "2083839",
+                        "name": "S. Rangarajan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "94d96a4e255519b75b2d1f8aaa322aba1cb77822",
+                "title": "Typhoon: An SDN Enhanced Real-Time Big Data Streaming Framework",
+                "year": 2017,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 19,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "67070369",
+                        "name": "Jung-Yon Cho"
+                    },
+                    {
+                        "s2_author_id": "2140304224",
+                        "name": "Hyunseok Chang"
+                    },
+                    {
+                        "s2_author_id": "2153291895",
+                        "name": "S. Mukherjee"
+                    },
+                    {
+                        "s2_author_id": "145362407",
+                        "name": "T. V. Lakshman"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b52c58b6c5558ab415c0161eb245071aa84c5e19",
+                "title": "CloudSight: A Tenant-Oriented Transparency Framework for Cross-Layer Cloud Troubleshooting",
+                "year": 2017,
+                "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",
+                "citation_count": 16,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "24471056",
+                        "name": "H. Baek"
+                    },
+                    {
+                        "s2_author_id": "151488592",
+                        "name": "Abhinav Srivastava"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0179d342a07191731a4194297c9b2a8b3eba522a",
+                "title": "Acacia -- context-aware edge computing for continuous interactive applications over mobile networks: demo",
+                "year": 2016,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 3,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "67070369",
+                        "name": "Jung-Yon Cho"
+                    },
+                    {
+                        "s2_author_id": "1785674",
+                        "name": "K. Sundaresan"
+                    },
+                    {
+                        "s2_author_id": "1800547",
+                        "name": "R. Mahindra"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "2083839",
+                        "name": "S. Rangarajan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2409ed812c94d1c48406573d49e891c03404fa51",
+                "title": "P2P Offloading in Mobile Networks using SDN",
+                "year": 2016,
+                "venue": "ACM SIGCOMM Symposium on Software Defined Networking Research",
+                "citation_count": 12,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2066055860",
+                        "name": "Ryan Saunders"
+                    },
+                    {
+                        "s2_author_id": "67070369",
+                        "name": "Jung-Yon Cho"
+                    },
+                    {
+                        "s2_author_id": "3269137",
+                        "name": "Arijit Banerjee"
+                    },
+                    {
+                        "s2_author_id": "2052174545",
+                        "name": "Frederico Rocha"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2ddf30ab44c45667f78d0bd808c5d6d5e1921d29",
+                "title": "OpenEdge: A dynamic and secure open service edge network",
+                "year": 2016,
+                "venue": "IEEE/IFIP Network Operations and Management Symposium",
+                "citation_count": 6,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37157703",
+                        "name": "Josh Kunz"
+                    },
+                    {
+                        "s2_author_id": "50262986",
+                        "name": "Christopher Becker"
+                    },
+                    {
+                        "s2_author_id": "79352588",
+                        "name": "M. Jamshidy"
+                    },
+                    {
+                        "s2_author_id": "1685027",
+                        "name": "S. Kasera"
+                    },
+                    {
+                        "s2_author_id": "144993692",
+                        "name": "R. Ricci"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "48207031fa5bb9bd05c5376f481f9ae6a099f739",
+                "title": "HyPer4: Using P4 to Virtualize the Programmable Data Plane",
+                "year": 2016,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 177,
+                "reference_count": 60,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145610908",
+                        "name": "David Hancock"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "896cac3850a9b79876f1e7abccb9379f84c75311",
+                "title": "Proteus: a network service control platform for service evolution in a mobile software defined infrastructure",
+                "year": 2016,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 13,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38634639",
+                        "name": "Aisha Syed"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9e802211b742de81f685eccc596cb5adeae4b77a",
+                "title": "ACACIA: Context-aware Edge Computing for Continuous Interactive Applications over Mobile Networks",
+                "year": 2016,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 46,
+                "reference_count": 48,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "67070369",
+                        "name": "Jung-Yon Cho"
+                    },
+                    {
+                        "s2_author_id": "1785674",
+                        "name": "K. Sundaresan"
+                    },
+                    {
+                        "s2_author_id": "1800547",
+                        "name": "R. Mahindra"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "2083839",
+                        "name": "S. Rangarajan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a90ecf328f5fd2065deb60da14c4f8f014523805",
+                "title": "KnowNet: Towards a knowledge plane for enterprise network management",
+                "year": 2016,
+                "venue": "IEEE/IFIP Network Operations and Management Symposium",
+                "citation_count": 7,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144497895",
+                        "name": "Ren Quinn"
+                    },
+                    {
+                        "s2_author_id": "37157703",
+                        "name": "Josh Kunz"
+                    },
+                    {
+                        "s2_author_id": "38634639",
+                        "name": "Aisha Syed"
+                    },
+                    {
+                        "s2_author_id": "144569245",
+                        "name": "Joe Breen"
+                    },
+                    {
+                        "s2_author_id": "1685027",
+                        "name": "S. Kasera"
+                    },
+                    {
+                        "s2_author_id": "144993692",
+                        "name": "R. Ricci"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "deb99272e63b287802785aac4e58e996d885676b",
+                "title": "Repeatable mobile networking research with phantomNet: demo",
+                "year": 2016,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 5,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "67070369",
+                        "name": "Jung-Yon Cho"
+                    },
+                    {
+                        "s2_author_id": "39956881",
+                        "name": "Jonathon Duerig"
+                    },
+                    {
+                        "s2_author_id": "39080210",
+                        "name": "E. Eide"
+                    },
+                    {
+                        "s2_author_id": "145383153",
+                        "name": "Binh Nguyen"
+                    },
+                    {
+                        "s2_author_id": "144993692",
+                        "name": "R. Ricci"
+                    },
+                    {
+                        "s2_author_id": "38634639",
+                        "name": "Aisha Syed"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "34145239",
+                        "name": "Kirk Webb"
+                    },
+                    {
+                        "s2_author_id": "2055940217",
+                        "name": "Gary Wong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02a71d92501d49c80ce9686456b2b648f3f04a2f",
+                "title": "ABSENCE: Usage-based Failure Detection in Mobile Networks",
+                "year": 2015,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 27,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145383153",
+                        "name": "Binh Nguyen"
+                    },
+                    {
+                        "s2_author_id": "35896181",
+                        "name": "Zihui Ge"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "145300233",
+                        "name": "He Yan"
+                    },
+                    {
+                        "s2_author_id": "144626134",
+                        "name": "J. Yates"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3b15995c2174ff412e5323522a108b7dbd7a3c90",
+                "title": "Efficient, adaptive and scalable device activation for M2M communications",
+                "year": 2015,
+                "venue": "Annual IEEE Communications Society Conference on Sensor, Mesh and Ad Hoc Communications and Networks",
+                "citation_count": 7,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3269137",
+                        "name": "Arijit Banerjee"
+                    },
+                    {
+                        "s2_author_id": "145383153",
+                        "name": "Binh Nguyen"
+                    },
+                    {
+                        "s2_author_id": "34945576",
+                        "name": "V. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1685027",
+                        "name": "S. Kasera"
+                    },
+                    {
+                        "s2_author_id": "1742883",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "51bdbf2ccfc372ca390e957c3b5da85605d16c90",
+                "title": "Potassium: penetration testing as a service",
+                "year": 2015,
+                "venue": "ACM Symposium on Cloud Computing",
+                "citation_count": 19,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2109341178",
+                        "name": "Richard Li"
+                    },
+                    {
+                        "s2_author_id": "38351518",
+                        "name": "Dallin Abendroth"
+                    },
+                    {
+                        "s2_author_id": "46520100",
+                        "name": "Xing Lin"
+                    },
+                    {
+                        "s2_author_id": "1627651828",
+                        "name": "Yuankai Guo"
+                    },
+                    {
+                        "s2_author_id": "24471056",
+                        "name": "H. Baek"
+                    },
+                    {
+                        "s2_author_id": "39080210",
+                        "name": "E. Eide"
+                    },
+                    {
+                        "s2_author_id": "144993692",
+                        "name": "R. Ricci"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "63cc88a053db83b9b97ec86beda977e4aa6b3c9e",
+                "title": "Practical deployment strategy for a citywide cellular testbed",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "37606370",
+                        "name": "J. Christensen"
+                    },
+                    {
+                        "s2_author_id": "2054029209",
+                        "name": "Bruce Patterson"
+                    },
+                    {
+                        "s2_author_id": "2061402769",
+                        "name": "R. Peterson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "81678b06808d5da4b8880b47b06e284ebd0bb213",
+                "title": "MobiScud: A Fast Moving Personal Cloud in the Mobile Network",
+                "year": 2015,
+                "venue": "AllThingsCellular@SIGCOMM",
+                "citation_count": 59,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2393789927",
+                        "name": "Kaiqiang Wang"
+                    },
+                    {
+                        "s2_author_id": "11133520",
+                        "name": "Minwei Shen"
+                    },
+                    {
+                        "s2_author_id": "67070369",
+                        "name": "Jung-Yon Cho"
+                    },
+                    {
+                        "s2_author_id": "3269137",
+                        "name": "Arijit Banerjee"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "34145239",
+                        "name": "Kirk Webb"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "97018df402c3512285141b37277eede60740876e",
+                "title": "PhantomNet: Research Infrastructure for Mobile Networking, Cloud Computing and Software-Defined Networking",
+                "year": 2015,
+                "venue": "GETMBL",
+                "citation_count": 35,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3269137",
+                        "name": "Arijit Banerjee"
+                    },
+                    {
+                        "s2_author_id": "67070369",
+                        "name": "Jung-Yon Cho"
+                    },
+                    {
+                        "s2_author_id": "39080210",
+                        "name": "E. Eide"
+                    },
+                    {
+                        "s2_author_id": "39956881",
+                        "name": "Jonathon Duerig"
+                    },
+                    {
+                        "s2_author_id": "145383153",
+                        "name": "Binh Nguyen"
+                    },
+                    {
+                        "s2_author_id": "144993692",
+                        "name": "R. Ricci"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "34145239",
+                        "name": "Kirk Webb"
+                    },
+                    {
+                        "s2_author_id": "2055940217",
+                        "name": "Gary Wong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2445d07ed9574fc8c27bcfdcdfaacdb9e66afb1e",
+                "title": "Towards understanding TCP performance on LTE/EPC mobile networks",
+                "year": 2014,
+                "venue": "AllThingsCellular '14",
+                "citation_count": 69,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145383153",
+                        "name": "Binh Nguyen"
+                    },
+                    {
+                        "s2_author_id": "3269137",
+                        "name": "Arijit Banerjee"
+                    },
+                    {
+                        "s2_author_id": "34945576",
+                        "name": "V. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1685027",
+                        "name": "S. Kasera"
+                    },
+                    {
+                        "s2_author_id": "1742883",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "144455219",
+                        "name": "A. Shaikh"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3591e02811f3efe3ad4a8272725993958ab6f9f6",
+                "title": "DEIDtect: towards distributed elastic intrusion detection",
+                "year": 2014,
+                "venue": "Data Compression Conference",
+                "citation_count": 25,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2840694",
+                        "name": "Praveen Kumar Shanmugam"
+                    },
+                    {
+                        "s2_author_id": "2976660",
+                        "name": "Naveen Dasa Subramanyam"
+                    },
+                    {
+                        "s2_author_id": "144569245",
+                        "name": "Joe Breen"
+                    },
+                    {
+                        "s2_author_id": "40459223",
+                        "name": "Corey Roach"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "81a9549206e6a31dad196583ed93f407291283f4",
+                "title": "Building a cellular networking research program",
+                "year": 2014,
+                "venue": "AllThingsCellular '14",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144180616",
+                        "name": "Erran L. Li"
+                    },
+                    {
+                        "s2_author_id": "2014352",
+                        "name": "Songwu Lu"
+                    },
+                    {
+                        "s2_author_id": "1798566",
+                        "name": "Chunyi Peng"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "2171880383",
+                        "name": "Lin Zhong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f5407f8d58a724ee7dbaed0aac5bef3459897a7",
+                "title": "CloudVMI: Virtual Machine Introspection as a Cloud Service",
+                "year": 2014,
+                "venue": "IEEE International Conference on Consumer Electronics",
+                "citation_count": 53,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "24471056",
+                        "name": "H. Baek"
+                    },
+                    {
+                        "s2_author_id": "151488592",
+                        "name": "Abhinav Srivastava"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e01928395a25bdaae4780be8e3f9e1b39a11559d",
+                "title": "SMORE: software-defined networking mobile offloading architecture",
+                "year": 2014,
+                "venue": "AllThingsCellular '14",
+                "citation_count": 44,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "67070369",
+                        "name": "Jung-Yon Cho"
+                    },
+                    {
+                        "s2_author_id": "145383153",
+                        "name": "Binh Nguyen"
+                    },
+                    {
+                        "s2_author_id": "3269137",
+                        "name": "Arijit Banerjee"
+                    },
+                    {
+                        "s2_author_id": "144993692",
+                        "name": "R. Ricci"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "34145239",
+                        "name": "Kirk Webb"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02f3a3085f6c92277cc9b017af764c8a93d628e6",
+                "title": "Rethinking Abstractions for Big Data: Why, Where, How, and What",
+                "year": 2013,
+                "venue": "arXiv.org",
+                "citation_count": 11,
+                "reference_count": 11,
+                "abstract": "Big data refers to large and complex data sets that, under existing approaches, exceed the capacity and capability of current compute platforms, systems software, analytical tools and human understanding. Numerous lessons on the scalability of big data can already be found in asymptotic analysis of algorithms and from the high-performance computing (HPC) and applications communities. However, scale is only one aspect of current big data trends; fundamentally, current and emerging problems in big data are a result of unprecedented complexity--in the structure of the data and how to analyze it, in dealing with unreliability and redundancy, in addressing the human factors of comprehending complex data sets, in formulating meaningful analyses, and in managing the dense, power-hungry data centers that house big data. \nThe computer science solution to complexity is finding the right abstractions, those that hide as much triviality as possible while revealing the essence of the problem that is being addressed. The \"big data challenge\" has disrupted computer science by stressing to the very limits the familiar abstractions which define the relevant subfields in data analysis, data management and the underlying parallel systems. As a result, not enough of these challenges are revealed by isolating abstractions in a traditional software stack or standard algorithmic and analytical techniques, and attempts to address complexity either oversimplify or require low-level management of details. The authors believe that the abstractions for big data need to be rethought, and this reorganization needs to evolve and be sustained through continued cross-disciplinary collaboration.",
+                "authors": [
+                    {
+                        "s2_author_id": "143896454",
+                        "name": "Mary W. Hall"
+                    },
+                    {
+                        "s2_author_id": "6682167",
+                        "name": "R. Kirby"
+                    },
+                    {
+                        "s2_author_id": "2115375275",
+                        "name": "Feifei Li"
+                    },
+                    {
+                        "s2_author_id": "145976609",
+                        "name": "Miriah D. Meyer"
+                    },
+                    {
+                        "s2_author_id": "1685087",
+                        "name": "Valerio Pascucci"
+                    },
+                    {
+                        "s2_author_id": "1795436",
+                        "name": "J. M. Phillips"
+                    },
+                    {
+                        "s2_author_id": "144993692",
+                        "name": "R. Ricci"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "1747652",
+                        "name": "Suresh Venkatasubramanian"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "877f73b7e0aaa12aebd9f1586e3c9dfb6bb566e8",
+                "title": "MOCA: a lightweight mobile cloud offloading architecture",
+                "year": 2013,
+                "venue": "International Workshop on Mobility in the Evolving Internet Architecture",
+                "citation_count": 43,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3269137",
+                        "name": "Arijit Banerjee"
+                    },
+                    {
+                        "s2_author_id": "2118182929",
+                        "name": "Xu Chen"
+                    },
+                    {
+                        "s2_author_id": "49327521",
+                        "name": "Jeffrey Erman"
+                    },
+                    {
+                        "s2_author_id": "34945576",
+                        "name": "V. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1742883",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8b7ec55b76868451cb9e712beb5b244167292c41",
+                "title": "DEFINED: Deterministic Execution for Interactive Control-Plane Debugging",
+                "year": 2013,
+                "venue": "USENIX Annual Technical Conference",
+                "citation_count": 7,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2116504138",
+                        "name": "Chia-Chi Lin"
+                    },
+                    {
+                        "s2_author_id": "2244697",
+                        "name": "Virajith Jalaparti"
+                    },
+                    {
+                        "s2_author_id": "1795621",
+                        "name": "M. Caesar"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0fc4ecbe36d28f84d1a36bc09d9e582f4417f2a1",
+                "title": "SMOG: A cloud platform for seamless wide area migration of online games",
+                "year": 2012,
+                "venue": "2012 11th Annual Workshop on Network and Systems Support for Games (NetGames)",
+                "citation_count": 12,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2244697",
+                        "name": "Virajith Jalaparti"
+                    },
+                    {
+                        "s2_author_id": "1795621",
+                        "name": "M. Caesar"
+                    },
+                    {
+                        "s2_author_id": "1742883",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "145914690",
+                        "name": "Jeffrey Pang"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3502a08ba0776203168cb5aeb8691705a4022923",
+                "title": "Mercado: using market principles to drive alternative network service abstractions",
+                "year": 2012,
+                "venue": "CSWS@CoNEXT",
+                "citation_count": 1,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118182929",
+                        "name": "Xu Chen"
+                    },
+                    {
+                        "s2_author_id": "49327521",
+                        "name": "Jeffrey Erman"
+                    },
+                    {
+                        "s2_author_id": "1742883",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3a427d3cc9b6f73401051618c61e579e36be90cf",
+                "title": "Enterprise-Ready Virtual Cloud Pools: Vision, Opportunities and Challenges",
+                "year": 2012,
+                "venue": "Computer/law journal",
+                "citation_count": 12,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145641762",
+                        "name": "Timothy Wood"
+                    },
+                    {
+                        "s2_author_id": "2060800615",
+                        "name": "K. K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2244807804",
+                        "name": "Prashant J. Shenoy"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "564e74e0a6087eee3eca649c20835a051530daad",
+                "title": "TROPIC: Transactional Resource Orchestration Platform in the Cloud",
+                "year": 2012,
+                "venue": "USENIX Annual Technical Conference",
+                "citation_count": 12,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2264588",
+                        "name": "Changbin Liu"
+                    },
+                    {
+                        "s2_author_id": "145935147",
+                        "name": "Yun Mao"
+                    },
+                    {
+                        "s2_author_id": "2118182929",
+                        "name": "Xu Chen"
+                    },
+                    {
+                        "s2_author_id": "35941003",
+                        "name": "M. Fern\u00e1ndez"
+                    },
+                    {
+                        "s2_author_id": "35206168",
+                        "name": "B. T. Loo"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "649edc48b7975207d0074a3e028fc51927ea4303",
+                "title": "Information security using intelligent software agents",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "11d933ed82615936b8fbad0935d9cee66c022689",
+                "title": "Information Management and Video Analytics: the Future of Intelligent Video Surveillance",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 4,
+                "abstract": "The need to monitor exists for many reasons. We use it as a mechanism to protect ourselves and our property, we use it to manage large numbers such as traffic information, we use it to monitor behaviour as in crowd surveillance, we use it to monitor production lines and operations and so on. While recognition of events or alarms may assist in reacting to it, a major objective of systems should be to be proactive, in other words, to prevent events. Video Surveillance has been with us for a long time. Traditionally it was used to display images on monitors, manned by guards or operators. This allowed us to view a number of places using less people and we could also perform patrolling duties from the safety of a control room. It satisfied the goals of safe patrolling and reducing manpower while performing the role of watchdog or guard. When video recording was introduced we found that we could create evidence of events that would be useful in prosecution, analysis, etc. As it became less expensive, more cameras were placed and of course more monitors. We could watch more areas with less people but very soon it became apparent that human beings have limitations. We also found that recording is an expensive exercise as video information is vast. At this point machine intelligence was introduced to assist with detection and also to reduce recording to be event driven, which of course made it less expensive. Initial techniques were crude with many false alarms but image analysis grew and became more sophisticated, resulting in better detection and even object recognition. Image quality improved, storage cost went down, less compression could be used and overall efficiency in terms of human intervention and prosecution success improved. This article will limit its scope to Information Management as it pertains to the security and traffic arenas, although much of this is clearly applicable in other areas as well. The chapter concentrates on the use of Video Analytics to achieve the various objectives as defined, but, as will be seen in the paragraph on Intelligent Information management, Video Analytics is merely a part of the complete system.",
+                "authors": [
+                    {
+                        "s2_author_id": "69944075",
+                        "name": "B. Coetzer"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "69917588",
+                        "name": "Bradley Josephs"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1901c2280e74b331ec766b26b2af0cf0f648b619",
+                "title": "PipeCloud: using causality to overcome speed-of-light delays in cloud-based disaster recovery",
+                "year": 2011,
+                "venue": "ACM Symposium on Cloud Computing",
+                "citation_count": 49,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145641762",
+                        "name": "Timothy Wood"
+                    },
+                    {
+                        "s2_author_id": "1403806384",
+                        "name": "H. A. Lagar-Cavilla"
+                    },
+                    {
+                        "s2_author_id": "2060800615",
+                        "name": "K. K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2244807804",
+                        "name": "Prashant J. Shenoy"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1cd9dab6f22acb4327f791b401453e9d305955a2",
+                "title": "The Unpublicized Sea Change in the Internet",
+                "year": 2011,
+                "venue": "IEEE Internet Computing",
+                "citation_count": 7,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "278cb14f454421015b05631b1353162f52d891be",
+                "title": "Vision: VPMN \u2013 Virtual Private Mobile Network Towards Mobility-as-a-Service",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2285072820",
+                        "name": "Xu Chen"
+                    },
+                    {
+                        "s2_author_id": "3172811",
+                        "name": "Baris Coskun"
+                    },
+                    {
+                        "s2_author_id": "2285058376",
+                        "name": "Gustavo de los Reyes"
+                    },
+                    {
+                        "s2_author_id": "2285175445",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "1836652",
+                        "name": "Suhas Mathur"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39ab382d8be340a9818d5ef7ea22674ec1f5d048",
+                "title": "CloudNet: Dynamic Pooling of Cloud Resources by Live WAN Migration of Virtual Machines",
+                "year": 2011,
+                "venue": "IEEE/ACM Transactions on Networking",
+                "citation_count": 349,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145641762",
+                        "name": "Timothy Wood"
+                    },
+                    {
+                        "s2_author_id": "145922660",
+                        "name": "K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2244807804",
+                        "name": "Prashant J. Shenoy"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "38348772",
+                        "name": "Jinho Hwang"
+                    },
+                    {
+                        "s2_author_id": "1390722314",
+                        "name": "Guyue Liu"
+                    },
+                    {
+                        "s2_author_id": "8140042",
+                        "name": "Lucas Chaufournier"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a2c96317d61df9ca14c7eeea9d386cb6ec5697fa",
+                "title": "Cloud Resource Orchestration: A Data-Centric Approach",
+                "year": 2011,
+                "venue": "Conference on Innovative Data Systems Research",
+                "citation_count": 73,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145935147",
+                        "name": "Yun Mao"
+                    },
+                    {
+                        "s2_author_id": "2264588",
+                        "name": "Changbin Liu"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "35941003",
+                        "name": "M. Fern\u00e1ndez"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d0e4e55a84d6980e7e617f4c7b3d92cb55438752",
+                "title": "KnowOps: Towards an Embedded Knowledge Base for Network Management and Operations",
+                "year": 2011,
+                "venue": "USENIX conference on Hot topics in management of internet, cloud, and enterprise networks and services",
+                "citation_count": 8,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118182929",
+                        "name": "Xu Chen"
+                    },
+                    {
+                        "s2_author_id": "145935147",
+                        "name": "Yun Mao"
+                    },
+                    {
+                        "s2_author_id": "3895596",
+                        "name": "Z. Morley Mao"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d85ada98e0c633b683fe16693314b8251d912557",
+                "title": "A Practical Architecture for an Anycast CDN",
+                "year": 2011,
+                "venue": "TWEB",
+                "citation_count": 34,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065831472",
+                        "name": "Hussein A. Alzoubi"
+                    },
+                    {
+                        "s2_author_id": "1742883",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "145503699",
+                        "name": "M. Rabinovich"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "108cfdfcf972eea7ef710ea4d31b7ca89bca3c09",
+                "title": "Disaster Recovery as a Cloud Service: Economic Benefits & Deployment Challenges",
+                "year": 2010,
+                "venue": "USENIX Workshop on Hot Topics in Cloud Computing",
+                "citation_count": 201,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145641762",
+                        "name": "Timothy Wood"
+                    },
+                    {
+                        "s2_author_id": "2367325",
+                        "name": "E. Cecchet"
+                    },
+                    {
+                        "s2_author_id": "2060800615",
+                        "name": "K. K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2244807804",
+                        "name": "Prashant J. Shenoy"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "1727749",
+                        "name": "A. Venkataramani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1291f7862c50cb2257400720a3cf6a9992a87f22",
+                "title": "Declarative configuration management for complex and dynamic networks",
+                "year": 2010,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 70,
+                "reference_count": 69,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118182929",
+                        "name": "Xu Chen"
+                    },
+                    {
+                        "s2_author_id": "145935147",
+                        "name": "Yun Mao"
+                    },
+                    {
+                        "s2_author_id": "3895596",
+                        "name": "Z. Morley Mao"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4eb9a7c9984ab9ba2970d6b6342360cb3262a3fd",
+                "title": "Seamless BGP Migration with Router Grafting",
+                "year": 2010,
+                "venue": "Symposium on Networked Systems Design and Implementation",
+                "citation_count": 37,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144889833",
+                        "name": "Eric Keller"
+                    },
+                    {
+                        "s2_author_id": "1730356",
+                        "name": "J. Rexford"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5805aae3f64129f384679c1df6de3fa8c8040b7d",
+                "title": "Towards a ubiquitous cloud computing infrastructure",
+                "year": 2010,
+                "venue": "IEEE Workshop on Local and Metropolitan Area Networks",
+                "citation_count": 32,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "2060800615",
+                        "name": "K. K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144452772",
+                        "name": "Michael Fairchild"
+                    },
+                    {
+                        "s2_author_id": "39921467",
+                        "name": "A. Flavel"
+                    },
+                    {
+                        "s2_author_id": "31719622",
+                        "name": "Joseph D. Houle"
+                    },
+                    {
+                        "s2_author_id": "1403806384",
+                        "name": "H. A. Lagar-Cavilla"
+                    },
+                    {
+                        "s2_author_id": "2073961872",
+                        "name": "J. Mulligan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "72f2939ae286953a8a7beae1b23bb86ad9a48ff4",
+                "title": "Network Security \u2013 A Service Provider View",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 48,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3009322",
+                        "name": "B. Rexroad"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "754a3464ea4f6498d9483236062c15c698fec7ab",
+                "title": "DECOR: DEClarative network management and OpeRation",
+                "year": 2010,
+                "venue": "CCRV",
+                "citation_count": 25,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118182929",
+                        "name": "Xu Chen"
+                    },
+                    {
+                        "s2_author_id": "145935147",
+                        "name": "Yun Mao"
+                    },
+                    {
+                        "s2_author_id": "3895596",
+                        "name": "Z. Morley Mao"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b80a94e15614f4d0240f9db7c079b5cffc17fa97",
+                "title": "CloudNet: A Platform for Optimized WAN Migration of Virtual Machines",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 51,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145641762",
+                        "name": "Timothy Wood"
+                    },
+                    {
+                        "s2_author_id": "145922660",
+                        "name": "K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2244807804",
+                        "name": "Prashant J. Shenoy"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0174b378b6d6264e8faacd19a5928505af5f1590",
+                "title": "ShadowNet: A Platform for Rapid and Safe Network Evolution",
+                "year": 2009,
+                "venue": "USENIX Annual Technical Conference",
+                "citation_count": 40,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118182929",
+                        "name": "Xu Chen"
+                    },
+                    {
+                        "s2_author_id": "3895596",
+                        "name": "Z. Morley Mao"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "23ddffcf30a9a0e3d948568c94243fef0cf80530",
+                "title": "PACMAN: a platform for automated and controlled network operations and configuration management",
+                "year": 2009,
+                "venue": "Conference on Emerging Network Experiment and Technology",
+                "citation_count": 32,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118182929",
+                        "name": "Xu Chen"
+                    },
+                    {
+                        "s2_author_id": "3895596",
+                        "name": "Z. Morley Mao"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3055bcb4d91b4fd310ca01d7feec3de2a20cc21d",
+                "title": "DECOR: DEClaritive network management and OpeRation",
+                "year": 2009,
+                "venue": "Programmable Routers for Extensible Services of Tomorrow",
+                "citation_count": 12,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118182929",
+                        "name": "Xu Chen"
+                    },
+                    {
+                        "s2_author_id": "145935147",
+                        "name": "Yun Mao"
+                    },
+                    {
+                        "s2_author_id": "3895596",
+                        "name": "Z. Morley Mao"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "54b7e88ee7b954248a7c3dd991ede8b7e5998607",
+                "title": "Anycast-aware transport for content delivery networks",
+                "year": 2009,
+                "venue": "The Web Conference",
+                "citation_count": 26,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1399109639",
+                        "name": "Zakaria Al-Qudah"
+                    },
+                    {
+                        "s2_author_id": "2285175445",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "2257213541",
+                        "name": "Michael Rabinovich"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b3759ce52914249599f5016363993d42d07b4edf",
+                "title": "Proceedings of the ACM SIGCOMM 2009 Workshop on Programmable Routers for Extensible Services of Tomorrow, PRESTO 2009, Barcelona, Spain, August 21, 2009",
+                "year": 2009,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145792285",
+                        "name": "P. Crowley"
+                    },
+                    {
+                        "s2_author_id": "6103581",
+                        "name": "D. Maltz"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f2d8c2a975a40dcd5bd225a8e6496a4b5949d0ea",
+                "title": "Darkstar: Using exploratory data mining to raise the bar on network reliability and performance",
+                "year": 2009,
+                "venue": "International Workshop on the Design of Reliable Communication Networks",
+                "citation_count": 35,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1970449",
+                        "name": "C. Kalmanek"
+                    },
+                    {
+                        "s2_author_id": "8561813",
+                        "name": "Ihui Ge"
+                    },
+                    {
+                        "s2_author_id": "2144498787",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "144595468",
+                        "name": "C. Lund"
+                    },
+                    {
+                        "s2_author_id": "1784745",
+                        "name": "Dan Pei"
+                    },
+                    {
+                        "s2_author_id": "2057013296",
+                        "name": "J. Seidel"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "9451730",
+                        "name": "Jennifer Ates"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3a6bdeffca49562e71c1e65f4c20e7bed86385d2",
+                "title": "Virtual routers on the move: live router migration as a network-management primitive",
+                "year": 2008,
+                "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+                "citation_count": 338,
+                "reference_count": 34,
+                "abstract": "The complexity of network management is widely recognized as one of the biggest challenges facing the Internet today. Point solutions for individual problems further increase system complexity while not addressing the underlying causes. In this paper, we argue that many network-management problems stem from the same root cause---the need to maintain consistency between the physical and logical configuration of the routers. Hence, we propose VROOM (Virtual ROuters On the Move), a new network-management primitive that avoids unnecessary changes to the logical topology by allowing (virtual) routers to freely move from one physical node to another. In addition to simplifying existing network-management tasks like planned maintenance and service deployment, VROOM can also help tackle emerging challenges such as reducing energy consumption. We present the design, implementation, and evaluation of novel migration techniques for virtual routers with either hardware or software data planes. Our evaluation shows that VROOM is transparent to routing protocols and results in no performance impact on the data traffic when a hardware-based data plane is used.",
+                "authors": [
+                    {
+                        "s2_author_id": "46393411",
+                        "name": "Yi Wang"
+                    },
+                    {
+                        "s2_author_id": "144889833",
+                        "name": "Eric Keller"
+                    },
+                    {
+                        "s2_author_id": "2843337",
+                        "name": "B. Biskeborn"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "1730356",
+                        "name": "J. Rexford"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5c6228b70fa06758982702cb7dcace1f986e216b",
+                "title": "Anycast CDNS revisited",
+                "year": 2008,
+                "venue": "The Web Conference",
+                "citation_count": 50,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065831472",
+                        "name": "Hussein A. Alzoubi"
+                    },
+                    {
+                        "s2_author_id": "1742883",
+                        "name": "Seungjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "145503699",
+                        "name": "M. Rabinovich"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dd6f8a12e6d5b376fdc7e864264d4698060b5101",
+                "title": "Fishing for Phishing from the Network Stream",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2580932",
+                        "name": "Anirudh Ramachandran"
+                    },
+                    {
+                        "s2_author_id": "1800154",
+                        "name": "N. Feamster"
+                    },
+                    {
+                        "s2_author_id": "145846952",
+                        "name": "B. Krishnamurthy"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4e0817554d722329d7575294341b9761920f0c64",
+                "title": "Live data center migration across WANs: a robust cooperative context aware approach",
+                "year": 2007,
+                "venue": "INM '07",
+                "citation_count": 59,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2060800615",
+                        "name": "K. K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2244807804",
+                        "name": "Prashant J. Shenoy"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "806ba64a85d5081661be31d7e6cfa07ebcaa61f6",
+                "title": "Wresting Control from BGP: Scalable Fine-Grained Route Control",
+                "year": 2007,
+                "venue": "USENIX Annual Technical Conference",
+                "citation_count": 39,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3291698",
+                        "name": "P. Verkaik"
+                    },
+                    {
+                        "s2_author_id": "1784745",
+                        "name": "Dan Pei"
+                    },
+                    {
+                        "s2_author_id": "39968489",
+                        "name": "Tom Scholl"
+                    },
+                    {
+                        "s2_author_id": "144455219",
+                        "name": "A. Shaikh"
+                    },
+                    {
+                        "s2_author_id": "2199298",
+                        "name": "A. Snoeren"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "adafd24a8d6a6f8f58684037db0715f4847794f3",
+                "title": "VROOM: Virtual ROuters On the Move",
+                "year": 2007,
+                "venue": "ACM Workshop on Hot Topics in Networks",
+                "citation_count": 23,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46393411",
+                        "name": "Yi Wang"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "1730356",
+                        "name": "J. Rexford"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be90a3c2735f6d4b8795ee38ebaa12ad19c9e3f0",
+                "title": "MIDAS: An Impact Scale for DDoS attacks",
+                "year": 2007,
+                "venue": "IEEE Workshop on Local and Metropolitan Area Networks",
+                "citation_count": 7,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2130621",
+                        "name": "R. Vasudevan"
+                    },
+                    {
+                        "s2_author_id": "3895596",
+                        "name": "Z. Morley Mao"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dfa0177f2e9d0703d75c6f36d409213b21dc92f4",
+                "title": "Measurement Informed Route Selection",
+                "year": 2007,
+                "venue": "Passive and Active Network Measurement Conference",
+                "citation_count": 18,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144441300",
+                        "name": "N. Duffield"
+                    },
+                    {
+                        "s2_author_id": "145623099",
+                        "name": "Kartik Gopalan"
+                    },
+                    {
+                        "s2_author_id": "2524649",
+                        "name": "Michael R. Hines"
+                    },
+                    {
+                        "s2_author_id": "144455219",
+                        "name": "A. Shaikh"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3163939c90fa5ba295f404651a2394a314e9eac5",
+                "title": "PRIMED: community-of-interest-based DDoS mitigation",
+                "year": 2006,
+                "venue": "LSAD '06",
+                "citation_count": 26,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3291698",
+                        "name": "P. Verkaik"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "2199298",
+                        "name": "A. Snoeren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "33a034d3c59ec30dc890f944a3184fd469f815f7",
+                "title": "Enterprise Security: A Community of Interest Based Approach",
+                "year": 2006,
+                "venue": "Network and Distributed System Security Symposium",
+                "citation_count": 72,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144061974",
+                        "name": "P. Mcdaniel"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "1749123",
+                        "name": "W. Aiello"
+                    },
+                    {
+                        "s2_author_id": "1970449",
+                        "name": "C. Kalmanek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5ecbf004192788346fec1cfeff7a318454dddd98",
+                "title": "LADS: Large-scale Automated DDoS Detection System",
+                "year": 2006,
+                "venue": "USENIX ATC, General Track",
+                "citation_count": 159,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145145415",
+                        "name": "Vyas Sekar"
+                    },
+                    {
+                        "s2_author_id": "144441300",
+                        "name": "N. Duffield"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "49723995",
+                        "name": "Hui Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "662c28ff176cbeea853ee5cac3932c346a7a23d2",
+                "title": "The case for semantic aware remote replication",
+                "year": 2006,
+                "venue": "ACM International Workshop on Storage Security And Survivability",
+                "citation_count": 4,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3164700",
+                        "name": "Xiaotao Liu"
+                    },
+                    {
+                        "s2_author_id": "2333352",
+                        "name": "Gal Niv"
+                    },
+                    {
+                        "s2_author_id": "2244807804",
+                        "name": "Prashant J. Shenoy"
+                    },
+                    {
+                        "s2_author_id": "2060800615",
+                        "name": "K. K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9a5d699fd1972de67fe277c197706df58fbe1fe3",
+                "title": "Reval: A Tool for Real-time Evaluation of DDoS Mitigation Strategies",
+                "year": 2006,
+                "venue": "USENIX ATC, General Track",
+                "citation_count": 17,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2130621",
+                        "name": "R. Vasudevan"
+                    },
+                    {
+                        "s2_author_id": "3895596",
+                        "name": "Z. Morley Mao"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a373a39c8c18a204657430e4005ad729db00560f",
+                "title": "BGP convergence in virtual private networks",
+                "year": 2006,
+                "venue": "ACM/SIGCOMM Internet Measurement Conference",
+                "citation_count": 21,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1784745",
+                        "name": "Dan Pei"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "40519016931e92ee8bedd805b1b50c22cf3c5f52",
+                "title": "Video quality estimation for internet streaming",
+                "year": 2005,
+                "venue": "The Web Conference",
+                "citation_count": 12,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708696",
+                        "name": "A. Reibman"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8a1eb31bb9ee8af5f00b773f02fdce2b8c6a5178",
+                "title": "Design and implementation of a routing control platform",
+                "year": 2005,
+                "venue": "Symposium on Networked Systems Design and Implementation",
+                "citation_count": 469,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1795621",
+                        "name": "M. Caesar"
+                    },
+                    {
+                        "s2_author_id": "40433852",
+                        "name": "D. Caldwell"
+                    },
+                    {
+                        "s2_author_id": "1800154",
+                        "name": "N. Feamster"
+                    },
+                    {
+                        "s2_author_id": "1730356",
+                        "name": "J. Rexford"
+                    },
+                    {
+                        "s2_author_id": "144455219",
+                        "name": "A. Shaikh"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "df1cadc026993681a5c14916ec22c13ba15d973e",
+                "title": "Analysis of Communities of Interest in Data Networks",
+                "year": 2005,
+                "venue": "Passive and Active Network Measurement Conference",
+                "citation_count": 76,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1749123",
+                        "name": "W. Aiello"
+                    },
+                    {
+                        "s2_author_id": "1970449",
+                        "name": "C. Kalmanek"
+                    },
+                    {
+                        "s2_author_id": "144061974",
+                        "name": "P. Mcdaniel"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4228ab35276efaa11f3c6ae58d7ffdfd43554401",
+                "title": "Network monitoring for Video Quality over IP",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 17,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708696",
+                        "name": "A. Reibman"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2685bc1822fc23398f709d04366309bd8e35197c",
+                "title": "Efficient and robust streaming provisioning in VPNs",
+                "year": 2003,
+                "venue": "The Web Conference",
+                "citation_count": 12,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3895596",
+                        "name": "Z. Morley Mao"
+                    },
+                    {
+                        "s2_author_id": "2150444582",
+                        "name": "David S. Johnson"
+                    },
+                    {
+                        "s2_author_id": "1704170",
+                        "name": "Oliver Spatscheck"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "2110367630",
+                        "name": "Jia Wang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "587e1d7e9bb1c171087a6e99262628f4f9209de0",
+                "title": "Design and implementation of a distributed content management system",
+                "year": 2003,
+                "venue": "International Workshop on Network and Operating System Support for Digital Audio and Video",
+                "citation_count": 17,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1776826",
+                        "name": "C. Cranor"
+                    },
+                    {
+                        "s2_author_id": "145737389",
+                        "name": "R. Ethington"
+                    },
+                    {
+                        "s2_author_id": "2750831",
+                        "name": "Amit Sehgal"
+                    },
+                    {
+                        "s2_author_id": "34637811",
+                        "name": "D. Shur"
+                    },
+                    {
+                        "s2_author_id": "1732062",
+                        "name": "C. Sreenan"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "58cd44b1d7bc36ee9877b315a3410fd383304b17",
+                "title": "Design , Implementation and Operation of a Large Enterprise Content Distribution Network",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "52441075",
+                        "name": "P. Gausman"
+                    },
+                    {
+                        "s2_author_id": "1776826",
+                        "name": "C. Cranor"
+                    },
+                    {
+                        "s2_author_id": "98268360",
+                        "name": "R. Akhmarov"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "99e7c187bfe0c06b0b1552a3a05324d1af60e340",
+                "title": "A Large Enterprise Content Distribution Network: Design, Implementation and Operation",
+                "year": 2003,
+                "venue": "Web Content Caching and Distribution Workshop",
+                "citation_count": 3,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "52441075",
+                        "name": "P. Gausman"
+                    },
+                    {
+                        "s2_author_id": "1776826",
+                        "name": "C. Cranor"
+                    },
+                    {
+                        "s2_author_id": "98268360",
+                        "name": "R. Akhmarov"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d1b6fcd6ddb3ffcc183190908b37000a198d623",
+                "title": "Resource management with hoses: point-to-cloud services for virtual private networks",
+                "year": 2002,
+                "venue": "TNET",
+                "citation_count": 205,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144441300",
+                        "name": "N. Duffield"
+                    },
+                    {
+                        "s2_author_id": "48827591",
+                        "name": "P. Goyal"
+                    },
+                    {
+                        "s2_author_id": "34820574",
+                        "name": "A. Greenberg"
+                    },
+                    {
+                        "s2_author_id": "2752303",
+                        "name": "P. Mishra"
+                    },
+                    {
+                        "s2_author_id": "2060800615",
+                        "name": "K. K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a28f96effd22bc381f1acdd888b597e9706a745",
+                "title": "Streaming Video Traffic : Characterization and Network Impact",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 73,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    },
+                    {
+                        "s2_author_id": "1970449",
+                        "name": "C. Kalmanek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a4e6e96e935834200083948b3e6526e96e5cc20",
+                "title": "Enhanced Streaming Services in a Content Distribution Network",
+                "year": 2001,
+                "venue": "IEEE Internet Computing",
+                "citation_count": 94,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1776826",
+                        "name": "C. Cranor"
+                    },
+                    {
+                        "s2_author_id": "144885069",
+                        "name": "M. Green"
+                    },
+                    {
+                        "s2_author_id": "1970449",
+                        "name": "C. Kalmanek"
+                    },
+                    {
+                        "s2_author_id": "34637811",
+                        "name": "D. Shur"
+                    },
+                    {
+                        "s2_author_id": "1789328",
+                        "name": "S. Sibal"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "1732062",
+                        "name": "C. Sreenan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1606ac921cf37fe3b603431f29eca7f1fe1c0a6b",
+                "title": "NED : a Network-Enabled Digital Video Recorder",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1776826",
+                        "name": "C. Cranor"
+                    },
+                    {
+                        "s2_author_id": "1970449",
+                        "name": "C. Kalmanek"
+                    },
+                    {
+                        "s2_author_id": "34637811",
+                        "name": "D. Shur"
+                    },
+                    {
+                        "s2_author_id": "1789328",
+                        "name": "S. Sibal"
+                    },
+                    {
+                        "s2_author_id": "1732062",
+                        "name": "C. Sreenan"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0771d4f0dbb2ba04ba30e668c20a773886c51be0",
+                "title": "mmdump: a tool for monitoring internet multimedia traffic",
+                "year": 2000,
+                "venue": "CCRV",
+                "citation_count": 96,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "145094651",
+                        "name": "R. C\u00e1ceres"
+                    },
+                    {
+                        "s2_author_id": "1786171",
+                        "name": "Yang-hua Chu"
+                    },
+                    {
+                        "s2_author_id": "1732062",
+                        "name": "C. Sreenan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2e8996a8be865ec4901c74ec7629fb82e8d11ab8",
+                "title": "A Network Based Replay Portal",
+                "year": 2000,
+                "venue": "Intelligence in Networks",
+                "citation_count": 0,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "1732062",
+                        "name": "C. Sreenan"
+                    },
+                    {
+                        "s2_author_id": "2246207756",
+                        "name": "A. Donnelly"
+                    },
+                    {
+                        "s2_author_id": "2246208026",
+                        "name": "A. Basso"
+                    },
+                    {
+                        "s2_author_id": "1970449",
+                        "name": "C. Kalmanek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f1f53ffb6172a17502e06d5117dfae38c20241d",
+                "title": "Measurement and analysis of IP network usage and behavior",
+                "year": 2000,
+                "venue": "IEEE Communications Magazine",
+                "citation_count": 122,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145094651",
+                        "name": "R. C\u00e1ceres"
+                    },
+                    {
+                        "s2_author_id": "144441300",
+                        "name": "N. Duffield"
+                    },
+                    {
+                        "s2_author_id": "145401227",
+                        "name": "A. Feldmann"
+                    },
+                    {
+                        "s2_author_id": "2051872810",
+                        "name": "John D. Friedmann"
+                    },
+                    {
+                        "s2_author_id": "34820574",
+                        "name": "A. Greenberg"
+                    },
+                    {
+                        "s2_author_id": "38930390",
+                        "name": "R. Greer"
+                    },
+                    {
+                        "s2_author_id": "2114152332",
+                        "name": "T. Johnson"
+                    },
+                    {
+                        "s2_author_id": "1970449",
+                        "name": "C. Kalmanek"
+                    },
+                    {
+                        "s2_author_id": "145846952",
+                        "name": "B. Krishnamurthy"
+                    },
+                    {
+                        "s2_author_id": "2051872764",
+                        "name": "Dianne Lavelle"
+                    },
+                    {
+                        "s2_author_id": "2752303",
+                        "name": "P. Mishra"
+                    },
+                    {
+                        "s2_author_id": "1730356",
+                        "name": "J. Rexford"
+                    },
+                    {
+                        "s2_author_id": "145922660",
+                        "name": "K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "47725643",
+                        "name": "Fred True"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e02aadd0b9ecc9fe8af96c962dd1ca1deb2cd872",
+                "title": "PRISM, an IP-based architecture for broadband access to TV and other streaming media",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145640357",
+                        "name": "A. Basso"
+                    },
+                    {
+                        "s2_author_id": "1776826",
+                        "name": "C. Cranor"
+                    },
+                    {
+                        "s2_author_id": "10221332",
+                        "name": "R. Gopalakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144885069",
+                        "name": "M. Green"
+                    },
+                    {
+                        "s2_author_id": "1970449",
+                        "name": "C. Kalmanek"
+                    },
+                    {
+                        "s2_author_id": "34637811",
+                        "name": "D. Shur"
+                    },
+                    {
+                        "s2_author_id": "1789328",
+                        "name": "S. Sibal"
+                    },
+                    {
+                        "s2_author_id": "1732062",
+                        "name": "C. Sreenan"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04fba9a4cb314c5758ec942c6778878aad7cb3b7",
+                "title": "mmdump - A tool for monitoring multimedia usage on the Internet",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 10,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145094651",
+                        "name": "R. C\u00e1ceres"
+                    },
+                    {
+                        "s2_author_id": "1732062",
+                        "name": "C. Sreenan"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1218327b7977cf325b69e3c35cc869a056cbefa2",
+                "title": "The role of signaling in quality of service enabled networks",
+                "year": 1999,
+                "venue": "IEEE Communications Magazine",
+                "citation_count": 15,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145922660",
+                        "name": "K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145530546",
+                        "name": "G. Hj\u00e1lmt\u00fdsson"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "45f6c2947845a2b3b0d84a728cc5a530bc68220b",
+                "title": "The Tempest: a framework for safe, resource-assured, programmable networks",
+                "year": 1998,
+                "venue": "IEEE Communications Magazine",
+                "citation_count": 78,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145095606",
+                        "name": "S. Rooney"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "39144060",
+                        "name": "S. Crosby"
+                    },
+                    {
+                        "s2_author_id": "35144338",
+                        "name": "I. Leslie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4a0f48b7e102dbda000f74a4c439541a34dbf7d1",
+                "title": "Service-specific control architectures for ATM",
+                "year": 1998,
+                "venue": "IEEE J. Sel. Areas Commun.",
+                "citation_count": 30,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "35144338",
+                        "name": "I. Leslie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "66bbee0306dc2c0042ea0c68b0618744c46566fe",
+                "title": "The Tempest-a practical framework for network programmability",
+                "year": 1998,
+                "venue": "IEEE Network",
+                "citation_count": 150,
+                "reference_count": 55,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "145095606",
+                        "name": "S. Rooney"
+                    },
+                    {
+                        "s2_author_id": "2208327309",
+                        "name": "L. Leslie"
+                    },
+                    {
+                        "s2_author_id": "39144060",
+                        "name": "S. Crosby"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "93ff25cd3494b9c3ebe6f4e22676baa3f0c296cc",
+                "title": "The Tempest - A Practical Framework for",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "145095606",
+                        "name": "S. Rooney"
+                    },
+                    {
+                        "s2_author_id": "35144338",
+                        "name": "I. Leslie"
+                    },
+                    {
+                        "s2_author_id": "39144060",
+                        "name": "S. Crosby"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "977a2bd2efd9e8a69f17851d90e48ac5577d688a",
+                "title": "A Performance Oriented Service Interface for Virtual Private Networks",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144441300",
+                        "name": "N. Duffield"
+                    },
+                    {
+                        "s2_author_id": "48827591",
+                        "name": "P. Goyal"
+                    },
+                    {
+                        "s2_author_id": "34820574",
+                        "name": "A. Greenberg"
+                    },
+                    {
+                        "s2_author_id": "2752303",
+                        "name": "P. Mishra"
+                    },
+                    {
+                        "s2_author_id": "145922660",
+                        "name": "K. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d64523dcc529627216b66526dc2636f537751387",
+                "title": "Support for Customising ATM ControlS",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2105346915",
+                        "name": ".. Rooney"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "35144338",
+                        "name": "I. Leslie"
+                    },
+                    {
+                        "s2_author_id": "2063996881",
+                        "name": "A. S"
+                    },
+                    {
+                        "s2_author_id": "2081349793",
+                        "name": "CrosbyUniversity"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1fbcc788fc51ab9b7e587c7078d60fb4d26e0bfc",
+                "title": "Switchlets and Dynamic Virtual ATM Networks",
+                "year": 1997,
+                "venue": "IFIP/IEEE Symposium on Integrated Network Management",
+                "citation_count": 82,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "35144338",
+                        "name": "I. Leslie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "45fc56efb5151dc08e32310403cecf774b97699e",
+                "title": "Electronic commerce with secure intelligent trade agent",
+                "year": 1997,
+                "venue": "International Conference on Information, Communications and Signal Processing",
+                "citation_count": 31,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "2600265",
+                        "name": "S. V. Solms"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05ce8e81334889203d624eefdc563145f98a4698",
+                "title": "Better Abstractions for Better Routing ?",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2631561059b064dc1cbe433fb3bbe3adccd302a3",
+                "title": "Route Control Platform Architecture and Practical Concerns",
+                "year": null,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1800154",
+                        "name": "N. Feamster"
+                    },
+                    {
+                        "s2_author_id": "1730356",
+                        "name": "J. Rexford"
+                    },
+                    {
+                        "s2_author_id": "144455219",
+                        "name": "A. Shaikh"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4289e386993c7efc54e0d28a9350bd29ab2ab0ea",
+                "title": "ANALYZING THE SPATIAL QUALITY OF INTERNET STREAMING VIDEO",
+                "year": null,
+                "venue": "",
+                "citation_count": 19,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1708696",
+                        "name": "A. Reibman"
+                    },
+                    {
+                        "s2_author_id": "35049639",
+                        "name": "S. Sen"
+                    },
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "536c057de549e8cacfdb5c2b82779219c37f772c",
+                "title": "Network Programmability is the answer ! What was the question again ? Or , is there really a case for Network Programmability ?",
+                "year": null,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2358499",
+                        "name": "J. Merwe"
+                    },
+                    {
+                        "s2_author_id": "1970449",
+                        "name": "C. Kalmanek"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "32701383",
+                "name": "Hao Jiang"
+            },
+            {
+                "s2_author_id": "2140304224",
+                "name": "Hyunseok Chang"
+            },
+            {
+                "s2_author_id": "2153291895",
+                "name": "S. Mukherjee"
+            },
+            {
+                "s2_author_id": "2263840457",
+                "name": "Hao Jiang"
+            },
+            {
+                "s2_author_id": "2257138348",
+                "name": "Hyunseok Chang"
+            },
+            {
+                "s2_author_id": "2221242630",
+                "name": "Jacob A. Bills"
+            },
+            {
+                "s2_author_id": "102465116",
+                "name": "Alex Orange"
+            },
+            {
+                "s2_author_id": "2150445053",
+                "name": "David Johnson"
+            },
+            {
+                "s2_author_id": "48293149",
+                "name": "Dustin Maas"
+            },
+            {
+                "s2_author_id": "2190825",
+                "name": "Nakjung Choi"
+            },
+            {
+                "s2_author_id": "144349981",
+                "name": "M. Thottan"
+            },
+            {
+                "s2_author_id": "144569245",
+                "name": "Joe Breen"
+            },
+            {
+                "s2_author_id": "39956881",
+                "name": "Jonathon Duerig"
+            },
+            {
+                "s2_author_id": "39080210",
+                "name": "E. Eide"
+            },
+            {
+                "s2_author_id": "1796457",
+                "name": "Mike Hibler"
+            },
+            {
+                "s2_author_id": "1685027",
+                "name": "S. Kasera"
+            },
+            {
+                "s2_author_id": "1700521",
+                "name": "Neal Patwari"
+            },
+            {
+                "s2_author_id": "144993692",
+                "name": "R. Ricci"
+            },
+            {
+                "s2_author_id": "46973228",
+                "name": "D. Schurig"
+            },
+            {
+                "s2_author_id": "143954637",
+                "name": "L. Stoller"
+            },
+            {
+                "s2_author_id": "34145239",
+                "name": "Kirk Webb"
+            },
+            {
+                "s2_author_id": "2055940217",
+                "name": "Gary Wong"
+            },
+            {
+                "s2_author_id": "2086598337",
+                "name": "Jon Larrea"
+            },
+            {
+                "s2_author_id": "1712068",
+                "name": "M. Marina"
+            },
+            {
+                "s2_author_id": "7641706",
+                "name": "J. Monterroso"
+            },
+            {
+                "s2_author_id": "2144202670",
+                "name": "Jiahui Chen"
+            },
+            {
+                "s2_author_id": "1795436",
+                "name": "J. M. Phillips"
+            },
+            {
+                "s2_author_id": "1932380712",
+                "name": "Andrew Buffmire"
+            },
+            {
+                "s2_author_id": "1932381111",
+                "name": "Kevin Dutt"
+            },
+            {
+                "s2_author_id": "2052963434",
+                "name": "Earl Lewis"
+            },
+            {
+                "s2_author_id": "1932381914",
+                "name": "Daniel Reading"
+            },
+            {
+                "s2_author_id": "47323727",
+                "name": "Boston C Terry"
+            },
+            {
+                "s2_author_id": "32517537",
+                "name": "Zirak Zaheer"
+            },
+            {
+                "s2_author_id": "2109341178",
+                "name": "Richard Li"
+            },
+            {
+                "s2_author_id": "1968460",
+                "name": "Min Du"
+            },
+            {
+                "s2_author_id": "38634639",
+                "name": "Aisha Syed"
+            },
+            {
+                "s2_author_id": "2081506",
+                "name": "M. B. Anwer"
+            },
+            {
+                "s2_author_id": "34945576",
+                "name": "V. Gopalakrishnan"
+            },
+            {
+                "s2_author_id": "67070369",
+                "name": "Jung-Yon Cho"
+            },
+            {
+                "s2_author_id": "3087426",
+                "name": "Ryan Stutsman"
+            },
+            {
+                "s2_author_id": "145383153",
+                "name": "Binh Nguyen"
+            },
+            {
+                "s2_author_id": "153913534",
+                "name": "Tian Zhang"
+            },
+            {
+                "s2_author_id": "2757057",
+                "name": "B. Radunovic"
+            },
+            {
+                "s2_author_id": "145201991",
+                "name": "T. Karagiannis"
+            },
+            {
+                "s2_author_id": "33008931",
+                "name": "Jakub Kocur"
+            },
+            {
+                "s2_author_id": "24471056",
+                "name": "H. Baek"
+            },
+            {
+                "s2_author_id": "46277200",
+                "name": "Binh Nguyen"
+            },
+            {
+                "s2_author_id": "144497895",
+                "name": "Ren Quinn"
+            },
+            {
+                "s2_author_id": "35896181",
+                "name": "Zihui Ge"
+            },
+            {
+                "s2_author_id": "145300233",
+                "name": "He Yan"
+            },
+            {
+                "s2_author_id": "2114039045",
+                "name": "Cheng Jin"
+            },
+            {
+                "s2_author_id": "1791767",
+                "name": "Guofei Jiang"
+            },
+            {
+                "s2_author_id": "2470254",
+                "name": "C. Lumezanu"
+            },
+            {
+                "s2_author_id": "2072353125",
+                "name": "Ning Xia"
+            },
+            {
+                "s2_author_id": "2149105828",
+                "name": "Qiang Xu"
+            },
+            {
+                "s2_author_id": "46859478",
+                "name": "Shamik Sarkar"
+            },
+            {
+                "s2_author_id": "50262986",
+                "name": "Christopher Becker"
+            },
+            {
+                "s2_author_id": "37157703",
+                "name": "Josh Kunz"
+            },
+            {
+                "s2_author_id": "35438720",
+                "name": "Aarushi Sarbhai"
+            },
+            {
+                "s2_author_id": "35546883",
+                "name": "Gurupragaash Annasamymani"
+            },
+            {
+                "s2_author_id": "4698435",
+                "name": "A. Burtsev"
+            },
+            {
+                "s2_author_id": "1800547",
+                "name": "R. Mahindra"
+            },
+            {
+                "s2_author_id": "3269137",
+                "name": "Arijit Banerjee"
+            },
+            {
+                "s2_author_id": "1785674",
+                "name": "K. Sundaresan"
+            },
+            {
+                "s2_author_id": "2083839",
+                "name": "S. Rangarajan"
+            },
+            {
+                "s2_author_id": "145362407",
+                "name": "T. V. Lakshman"
+            },
+            {
+                "s2_author_id": "151488592",
+                "name": "Abhinav Srivastava"
+            },
+            {
+                "s2_author_id": "2066055860",
+                "name": "Ryan Saunders"
+            },
+            {
+                "s2_author_id": "2052174545",
+                "name": "Frederico Rocha"
+            },
+            {
+                "s2_author_id": "79352588",
+                "name": "M. Jamshidy"
+            },
+            {
+                "s2_author_id": "145610908",
+                "name": "David Hancock"
+            },
+            {
+                "s2_author_id": "144626134",
+                "name": "J. Yates"
+            },
+            {
+                "s2_author_id": "1742883",
+                "name": "Seungjoon Lee"
+            },
+            {
+                "s2_author_id": "38351518",
+                "name": "Dallin Abendroth"
+            },
+            {
+                "s2_author_id": "46520100",
+                "name": "Xing Lin"
+            },
+            {
+                "s2_author_id": "1627651828",
+                "name": "Yuankai Guo"
+            },
+            {
+                "s2_author_id": "37606370",
+                "name": "J. Christensen"
+            },
+            {
+                "s2_author_id": "2054029209",
+                "name": "Bruce Patterson"
+            },
+            {
+                "s2_author_id": "2061402769",
+                "name": "R. Peterson"
+            },
+            {
+                "s2_author_id": "2393789927",
+                "name": "Kaiqiang Wang"
+            },
+            {
+                "s2_author_id": "11133520",
+                "name": "Minwei Shen"
+            },
+            {
+                "s2_author_id": "144455219",
+                "name": "A. Shaikh"
+            },
+            {
+                "s2_author_id": "2840694",
+                "name": "Praveen Kumar Shanmugam"
+            },
+            {
+                "s2_author_id": "2976660",
+                "name": "Naveen Dasa Subramanyam"
+            },
+            {
+                "s2_author_id": "40459223",
+                "name": "Corey Roach"
+            },
+            {
+                "s2_author_id": "144180616",
+                "name": "Erran L. Li"
+            },
+            {
+                "s2_author_id": "2014352",
+                "name": "Songwu Lu"
+            },
+            {
+                "s2_author_id": "1798566",
+                "name": "Chunyi Peng"
+            },
+            {
+                "s2_author_id": "2171880383",
+                "name": "Lin Zhong"
+            },
+            {
+                "s2_author_id": "143896454",
+                "name": "Mary W. Hall"
+            },
+            {
+                "s2_author_id": "6682167",
+                "name": "R. Kirby"
+            },
+            {
+                "s2_author_id": "2115375275",
+                "name": "Feifei Li"
+            },
+            {
+                "s2_author_id": "145976609",
+                "name": "Miriah D. Meyer"
+            },
+            {
+                "s2_author_id": "1685087",
+                "name": "Valerio Pascucci"
+            },
+            {
+                "s2_author_id": "1747652",
+                "name": "Suresh Venkatasubramanian"
+            },
+            {
+                "s2_author_id": "2118182929",
+                "name": "Xu Chen"
+            },
+            {
+                "s2_author_id": "49327521",
+                "name": "Jeffrey Erman"
+            },
+            {
+                "s2_author_id": "2116504138",
+                "name": "Chia-Chi Lin"
+            },
+            {
+                "s2_author_id": "2244697",
+                "name": "Virajith Jalaparti"
+            },
+            {
+                "s2_author_id": "1795621",
+                "name": "M. Caesar"
+            },
+            {
+                "s2_author_id": "145914690",
+                "name": "Jeffrey Pang"
+            },
+            {
+                "s2_author_id": "145641762",
+                "name": "Timothy Wood"
+            },
+            {
+                "s2_author_id": "2060800615",
+                "name": "K. K. Ramakrishnan"
+            },
+            {
+                "s2_author_id": "2244807804",
+                "name": "Prashant J. Shenoy"
+            },
+            {
+                "s2_author_id": "2264588",
+                "name": "Changbin Liu"
+            },
+            {
+                "s2_author_id": "145935147",
+                "name": "Yun Mao"
+            },
+            {
+                "s2_author_id": "35941003",
+                "name": "M. Fern\u00e1ndez"
+            },
+            {
+                "s2_author_id": "35206168",
+                "name": "B. T. Loo"
+            },
+            {
+                "s2_author_id": "69944075",
+                "name": "B. Coetzer"
+            },
+            {
+                "s2_author_id": "69917588",
+                "name": "Bradley Josephs"
+            },
+            {
+                "s2_author_id": "1403806384",
+                "name": "H. A. Lagar-Cavilla"
+            },
+            {
+                "s2_author_id": "1704170",
+                "name": "Oliver Spatscheck"
+            },
+            {
+                "s2_author_id": "2285072820",
+                "name": "Xu Chen"
+            },
+            {
+                "s2_author_id": "3172811",
+                "name": "Baris Coskun"
+            },
+            {
+                "s2_author_id": "2285058376",
+                "name": "Gustavo de los Reyes"
+            },
+            {
+                "s2_author_id": "2285175445",
+                "name": "Seungjoon Lee"
+            },
+            {
+                "s2_author_id": "1836652",
+                "name": "Suhas Mathur"
+            },
+            {
+                "s2_author_id": "145922660",
+                "name": "K. Ramakrishnan"
+            },
+            {
+                "s2_author_id": "38348772",
+                "name": "Jinho Hwang"
+            },
+            {
+                "s2_author_id": "1390722314",
+                "name": "Guyue Liu"
+            },
+            {
+                "s2_author_id": "8140042",
+                "name": "Lucas Chaufournier"
+            },
+            {
+                "s2_author_id": "3895596",
+                "name": "Z. Morley Mao"
+            },
+            {
+                "s2_author_id": "2065831472",
+                "name": "Hussein A. Alzoubi"
+            },
+            {
+                "s2_author_id": "145503699",
+                "name": "M. Rabinovich"
+            },
+            {
+                "s2_author_id": "2367325",
+                "name": "E. Cecchet"
+            },
+            {
+                "s2_author_id": "1727749",
+                "name": "A. Venkataramani"
+            },
+            {
+                "s2_author_id": "144889833",
+                "name": "Eric Keller"
+            },
+            {
+                "s2_author_id": "1730356",
+                "name": "J. Rexford"
+            },
+            {
+                "s2_author_id": "144452772",
+                "name": "Michael Fairchild"
+            },
+            {
+                "s2_author_id": "39921467",
+                "name": "A. Flavel"
+            },
+            {
+                "s2_author_id": "31719622",
+                "name": "Joseph D. Houle"
+            },
+            {
+                "s2_author_id": "2073961872",
+                "name": "J. Mulligan"
+            },
+            {
+                "s2_author_id": "3009322",
+                "name": "B. Rexroad"
+            },
+            {
+                "s2_author_id": "1399109639",
+                "name": "Zakaria Al-Qudah"
+            },
+            {
+                "s2_author_id": "2257213541",
+                "name": "Michael Rabinovich"
+            },
+            {
+                "s2_author_id": "145792285",
+                "name": "P. Crowley"
+            },
+            {
+                "s2_author_id": "6103581",
+                "name": "D. Maltz"
+            },
+            {
+                "s2_author_id": "1970449",
+                "name": "C. Kalmanek"
+            },
+            {
+                "s2_author_id": "8561813",
+                "name": "Ihui Ge"
+            },
+            {
+                "s2_author_id": "2144498787",
+                "name": "Seungjoon Lee"
+            },
+            {
+                "s2_author_id": "144595468",
+                "name": "C. Lund"
+            },
+            {
+                "s2_author_id": "1784745",
+                "name": "Dan Pei"
+            },
+            {
+                "s2_author_id": "2057013296",
+                "name": "J. Seidel"
+            },
+            {
+                "s2_author_id": "9451730",
+                "name": "Jennifer Ates"
+            },
+            {
+                "s2_author_id": "46393411",
+                "name": "Yi Wang"
+            },
+            {
+                "s2_author_id": "2843337",
+                "name": "B. Biskeborn"
+            },
+            {
+                "s2_author_id": "2580932",
+                "name": "Anirudh Ramachandran"
+            },
+            {
+                "s2_author_id": "1800154",
+                "name": "N. Feamster"
+            },
+            {
+                "s2_author_id": "145846952",
+                "name": "B. Krishnamurthy"
+            },
+            {
+                "s2_author_id": "3291698",
+                "name": "P. Verkaik"
+            },
+            {
+                "s2_author_id": "39968489",
+                "name": "Tom Scholl"
+            },
+            {
+                "s2_author_id": "2199298",
+                "name": "A. Snoeren"
+            },
+            {
+                "s2_author_id": "2130621",
+                "name": "R. Vasudevan"
+            },
+            {
+                "s2_author_id": "144441300",
+                "name": "N. Duffield"
+            },
+            {
+                "s2_author_id": "145623099",
+                "name": "Kartik Gopalan"
+            },
+            {
+                "s2_author_id": "2524649",
+                "name": "Michael R. Hines"
+            },
+            {
+                "s2_author_id": "144061974",
+                "name": "P. Mcdaniel"
+            },
+            {
+                "s2_author_id": "35049639",
+                "name": "S. Sen"
+            },
+            {
+                "s2_author_id": "1749123",
+                "name": "W. Aiello"
+            },
+            {
+                "s2_author_id": "145145415",
+                "name": "Vyas Sekar"
+            },
+            {
+                "s2_author_id": "49723995",
+                "name": "Hui Zhang"
+            },
+            {
+                "s2_author_id": "3164700",
+                "name": "Xiaotao Liu"
+            },
+            {
+                "s2_author_id": "2333352",
+                "name": "Gal Niv"
+            },
+            {
+                "s2_author_id": "1708696",
+                "name": "A. Reibman"
+            },
+            {
+                "s2_author_id": "40433852",
+                "name": "D. Caldwell"
+            },
+            {
+                "s2_author_id": "2150444582",
+                "name": "David S. Johnson"
+            },
+            {
+                "s2_author_id": "2110367630",
+                "name": "Jia Wang"
+            },
+            {
+                "s2_author_id": "1776826",
+                "name": "C. Cranor"
+            },
+            {
+                "s2_author_id": "145737389",
+                "name": "R. Ethington"
+            },
+            {
+                "s2_author_id": "2750831",
+                "name": "Amit Sehgal"
+            },
+            {
+                "s2_author_id": "34637811",
+                "name": "D. Shur"
+            },
+            {
+                "s2_author_id": "1732062",
+                "name": "C. Sreenan"
+            },
+            {
+                "s2_author_id": "52441075",
+                "name": "P. Gausman"
+            },
+            {
+                "s2_author_id": "98268360",
+                "name": "R. Akhmarov"
+            },
+            {
+                "s2_author_id": "48827591",
+                "name": "P. Goyal"
+            },
+            {
+                "s2_author_id": "34820574",
+                "name": "A. Greenberg"
+            },
+            {
+                "s2_author_id": "2752303",
+                "name": "P. Mishra"
+            },
+            {
+                "s2_author_id": "144885069",
+                "name": "M. Green"
+            },
+            {
+                "s2_author_id": "1789328",
+                "name": "S. Sibal"
+            },
+            {
+                "s2_author_id": "145094651",
+                "name": "R. C\u00e1ceres"
+            },
+            {
+                "s2_author_id": "1786171",
+                "name": "Yang-hua Chu"
+            },
+            {
+                "s2_author_id": "2246207756",
+                "name": "A. Donnelly"
+            },
+            {
+                "s2_author_id": "2246208026",
+                "name": "A. Basso"
+            },
+            {
+                "s2_author_id": "145401227",
+                "name": "A. Feldmann"
+            },
+            {
+                "s2_author_id": "2051872810",
+                "name": "John D. Friedmann"
+            },
+            {
+                "s2_author_id": "38930390",
+                "name": "R. Greer"
+            },
+            {
+                "s2_author_id": "2114152332",
+                "name": "T. Johnson"
+            },
+            {
+                "s2_author_id": "2051872764",
+                "name": "Dianne Lavelle"
+            },
+            {
+                "s2_author_id": "47725643",
+                "name": "Fred True"
+            },
+            {
+                "s2_author_id": "145640357",
+                "name": "A. Basso"
+            },
+            {
+                "s2_author_id": "10221332",
+                "name": "R. Gopalakrishnan"
+            },
+            {
+                "s2_author_id": "145530546",
+                "name": "G. Hj\u00e1lmt\u00fdsson"
+            },
+            {
+                "s2_author_id": "145095606",
+                "name": "S. Rooney"
+            },
+            {
+                "s2_author_id": "39144060",
+                "name": "S. Crosby"
+            },
+            {
+                "s2_author_id": "35144338",
+                "name": "I. Leslie"
+            },
+            {
+                "s2_author_id": "2208327309",
+                "name": "L. Leslie"
+            },
+            {
+                "s2_author_id": "2105346915",
+                "name": ".. Rooney"
+            },
+            {
+                "s2_author_id": "2063996881",
+                "name": "A. S"
+            },
+            {
+                "s2_author_id": "2081349793",
+                "name": "CrosbyUniversity"
+            },
+            {
+                "s2_author_id": "2600265",
+                "name": "S. V. Solms"
+            }
+        ],
+        "total_co_authors": 200,
+        "papers_retrieved": 122
+    }
+}

@@ -1,0 +1,601 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000302142",
+        "name": "Alex Iosevich",
+        "primary_affiliation": "University of Rochester",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Rochester"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "NY"
+        ],
+        "perf_cities": [
+            "ROCHESTER"
+        ],
+        "org_names": [
+            "University of Rochester"
+        ],
+        "org_ueis": [
+            "F27KDXZMF9Y8"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "alex.iosevich@rochester.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2506858",
+                "title": "The uncertainty principle, restriction theory, signal recovery and sampling on manifolds",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-01",
+                "exp_date": "2028-06-30",
+                "award_amount": 301542.0,
+                "total_amount": 301542.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "ANALYSIS PROGRAM",
+                    "GEOMETRIC ANALYSIS"
+                ],
+                "program_codes": [
+                    "128100",
+                    "126500"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "MPS",
+                "div_abbr": "DMS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Mathematical Sciences",
+                "cfda_num": "47.049",
+                "po_name": "Paulo Lima Filho",
+                "keywords": [
+                    "signal",
+                    "discrete",
+                    "recovery",
+                    "where",
+                    "uncertainty",
+                    "restriction",
+                    "manifolds",
+                    "approach",
+                    "principle",
+                    "theory"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "ANALYSIS PROGRAM",
+            "GEOMETRIC ANALYSIS"
+        ],
+        "program_codes": [
+            "128100",
+            "126500"
+        ],
+        "program_references": [],
+        "program_ref_codes": [],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "DMS"
+        ],
+        "fund_divisions": [
+            "Division Of Mathematical Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049"
+        ],
+        "program_officers": [
+            "Paulo Lima Filho"
+        ],
+        "keywords": [
+            "signal",
+            "discrete",
+            "recovery",
+            "where",
+            "uncertainty",
+            "restriction",
+            "manifolds",
+            "approach",
+            "principle",
+            "theory",
+            "sampling",
+            "values",
+            "applications",
+            "role",
+            "ideas",
+            "leads",
+            "investigate",
+            "problem",
+            "missing",
+            "case"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.63
+    },
+    "s2_profile": {
+        "s2_author_id": "2333236236",
+        "name": "Alex Iosevich",
+        "affiliations": [],
+        "paper_count": 11,
+        "citation_count": 21,
+        "h_index": 3,
+        "papers": [
+            {
+                "s2_paper_id": "29fdf12582097691fcb6421e3b3d232b1ad4767b",
+                "title": "The Fourier Ratio: A Unifying Measure of Complexity for Recovery, Localization, and Learning",
+                "year": 2026,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": "We introduce a generalized Fourier ratio, the \\(\\ell^1/\\ell^2\\) norm ratio of coefficients in an \\emph{arbitrary} orthonormal system, as a single, basis-invariant measure of \\emph{effective dimension} that governs fundamental limits across signal recovery, localization, and learning. First, we prove that functions with small Fourier ratio can be stably recovered from random missing samples via \\(\\ell^1\\) minimization, extending and clarifying compressed sensing guarantees for general bounded orthonormal systems. Second, we establish a sharp \\emph{localization obstruction}: any attempt to localize recovery to subslices of a product space necessarily inflates the Fourier ratio by a factor scaling with the square root of the slice count, demonstrating that global complexity cannot be distributed locally. Finally, we show that the same parameter controls key complexity-theoretic measures: it provides explicit upper bounds on Kolmogorov rate-distortion description length and on the statistical query (SQ) dimension of the associated function class. These results unify analytic, algorithmic, and learning-theoretic constraints under a single complexity parameter, revealing the Fourier ratio as a fundamental invariant in information-theoretic signal processing.",
+                "authors": [
+                    {
+                        "s2_author_id": "2373384195",
+                        "name": "Will Burstein"
+                    },
+                    {
+                        "s2_author_id": "2333236236",
+                        "name": "A. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "2373384533",
+                        "name": "Hari Sarang Nathan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aa4692e0fd86653490df4bf74cc49a4ee3895594",
+                "title": "Discretization, sampling, and the Fourier ratio",
+                "year": 2026,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 16,
+                "abstract": "We derive fundamental sampling bounds for smooth signals in continuous settings without sparsity assumptions. By introducing the Fourier ratio as a measure of spectral compressibility induced by smoothness, we obtain explicit, deterministic bounds linking signal regularity to recoverability from incomplete random samples. For functions in $C^{2}([0,1]^{2})$ sampled on an $N$ by $N$ grid, we show that a random subset of spatial samples of size $$ C\\frac{r_{N}^{2}}{\\eps^{2}}\\log(r_{N}/\\eps)^{2}\\log(N^{2}) $$ suffices, with high probability, to recover the entire discretized signal via $\\ell^{1}$ minimization with relative $L^{2}$ error $O(\\eps)$. We develop a parallel theory for bandlimited functions on the unit sphere, obtaining analogous recovery guarantees with sample complexity scaling polylogarithmically in the bandwidth. Our results establish smoothness as a deterministic prior that enforces compressibility in the Fourier domain, bridging continuous harmonic analysis with discrete compressed sensing in a unified information-theoretic framework.",
+                "authors": [
+                    {
+                        "s2_author_id": "2333236236",
+                        "name": "A. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "2281946006",
+                        "name": "E. Palsson"
+                    },
+                    {
+                        "s2_author_id": "2399161778",
+                        "name": "A. Yavicoli"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e601b092ed4f5f0a6c4bf0eabcb65d870a436f5",
+                "title": "Fourier minimization and time series imputation",
+                "year": 2025,
+                "venue": "Sampling Theory, Signal Processing, and Data Analysis",
+                "citation_count": 3,
+                "reference_count": 14,
+                "abstract": "One of the most common procedures in modern data analytics is filling in missing values in times series. For a variety of reasons, the data provided by clients to obtain a forecast, or other forms of data analysis, may have missing values, and those values need to be filled in before the data set can be properly analyzed. Many freely available forecasting software packages, such as the sktime library, have built-in mechanisms for filling in missing values. The purpose of this paper is to adapt the classical L1 minimization method for signal recovery to the filling of missing values in time series. The theoretical justifications of these methods leverage results by Bourgain (Acta Math 162(3\u20134):227\u2013245, 1989), Talagrand (Isr J Math 108:173\u2013191, 1998), the second and the third listed authors Appl Comput Harmon Anal 76:101734, 2025, and the result by the second listed author, Kashin, Limonova and the third listed author (Russian Mat Zametki 82(6):829\u2013837, 2007). Brief numerical tests for these algorithms are given but more extensive tests will be discussed in a companion paper.",
+                "authors": [
+                    {
+                        "s2_author_id": "2373384195",
+                        "name": "Will Burstein"
+                    },
+                    {
+                        "s2_author_id": "2333236236",
+                        "name": "A. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "9176973",
+                        "name": "A. Mayeli"
+                    },
+                    {
+                        "s2_author_id": "2373384533",
+                        "name": "Hari Sarang Nathan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "467be729f7b228f0d6fc535175b2fccbe7ab914b",
+                "title": "Orlicz spaces and the uncertainty principle",
+                "year": 2025,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": "Let $f$ be a finite signal. The classical uncertainty principle tells us that the product of the support of $f$ and the support of $\\hat{f}$, the Fourier transform of $f$, must satisfy $|supp(f)|\\cdot|supp(\\hat{f})|\\geq |G|$. Recently, Iosevich and Mayeli improved the uncertainty principle for signals with Fourier supported on generic sets. This was done by employing the Fourier restriction theory in $L^p$ spaces. In this paper, we extended the $(p,q)$-restriction setting to Orlicz spaces. Then we apply uncertainty principles to the problem of exact recovery, which again extends and recovers the result that Iosevich and Mayeli obtained in Lebesgue spaces.",
+                "authors": [
+                    {
+                        "s2_author_id": "2333236236",
+                        "name": "A. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "2289009443",
+                        "name": "L. I."
+                    },
+                    {
+                        "s2_author_id": "2379559979",
+                        "name": "And Z. LI"
+                    },
+                    {
+                        "s2_author_id": "2400167672",
+                        "name": "YU K."
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9868fe77955c46c055d784742e007b01b55178fd",
+                "title": "Uncertainty Principle, annihilating pairs and Fourier restriction",
+                "year": 2025,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 33,
+                "abstract": "Let $G$ be a locally compact abelian group, and let $\\widehat{G}$ denote its dual group, equipped with a Haar measure. A variant of the uncertainty principle states that for any $S \\subset G$ and $\\Sigma \\subset \\widehat{G}$, there exists a constant $C(S, \\Sigma)$ such that for any $f \\in L^2(G)$, the following inequality holds: \\[\\|f\\|_{L^2(G)} \\leq C(S, \\Sigma) \\bigl( \\|f\\|_{L^2(G \\setminus S)} + \\|\\widehat{f}\\|_{L^2(\\widehat{G} \\setminus \\Sigma)} \\bigr),\\] where $\\widehat{f}$ denotes the Fourier transform of $f$. This variant of the uncertainty principle is particularly useful in applications such as signal processing and control theory.The purpose of this paper is to show that such estimates can be strengthened when $S$ or $\\Sigma$ satisfies a restriction theorem and to provide an estimate for the constant $C(S, \\Sigma)$. This result serves as a quantitative counterpart to a recent finding by the first and last author. In the setting of finite groups, the results also extend those of Matolcsi-Sz\\\"ucs and Donoho-Stark.",
+                "authors": [
+                    {
+                        "s2_author_id": "3275851",
+                        "name": "Philippe Jaming"
+                    },
+                    {
+                        "s2_author_id": "2333236236",
+                        "name": "A. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "2333235779",
+                        "name": "A. Mayeli"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9e785eb706802a1f41287437bc30d7865ffccfea",
+                "title": "Some Results in Spectral Synthesis Over ${\\mathbb Z}_N^d$",
+                "year": 2025,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": "A classical result due to Agranovsky and Narayanan (\\cite{AN04}) says that if the support of the Fourier transform of $f: {\\mathbb R}^n \\to {\\mathbb C}$ is carried by a smooth measure on a $d$-dimensional manifold $M$, and $f \\in L^p({\\mathbb R}^d)$ for $p \\leq \\frac{2n}{d}$, then $f$ is identically equal to $0$. In this paper, we investigate an analogous problem for functions $f: {\\mathbb Z}_N^d \\to {\\mathbb C}$. Bourgain's celebrated result on $\\Lambda_p$ sets (\\cite{Bou89}), random constructions (\\cite{Bab89}), and connections with the theory of exact signal recovery (\\cite{DS89}, \\cite{MS73}, \\cite{IKLM24}, \\cite{IM24}) play an important role.",
+                "authors": [
+                    {
+                        "s2_author_id": "2217760850",
+                        "name": "P. Bhowmik"
+                    },
+                    {
+                        "s2_author_id": "2334501488",
+                        "name": "S. Deodhar"
+                    },
+                    {
+                        "s2_author_id": "2333236236",
+                        "name": "A. Iosevich"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c5d31d2237fa305ac892fd9d389f11c98a34f246",
+                "title": "The Fourier Ratio and complexity of signals",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": "We study the Fourier ratio of a signal $f:\\mathbb Z_N\\to\\mathbb C$, \\[ \\mathrm{FR}(f)\\ :=\\ \\sqrt{N}\\,\\frac{\\|\\widehat f\\|_{L^1(\\mu)}}{\\|\\widehat f\\|_{L^2(\\mu)}} \\ =\\ \\frac{\\|\\widehat f\\|_1}{\\|\\widehat f\\|_2}, \\] as a simple scalar parameter governing Fourier-side complexity, structure, and learnability. Using the Bourgain--Talagrand theory of random subsets of orthonormal systems, we show that signals concentrated on generic sparse sets necessarily have large Fourier ratio, while small $\\mathrm{FR}(f)$ forces $f$ to be well-approximated in both $L^2$ and $L^\\infty$ by low-degree trigonometric polynomials. Quantitatively, the class $\\{f:\\mathrm{FR}(f)\\le r\\}$ admits degree $O(r^2)$ $L^2$-approximants, which we use to prove that small Fourier ratio implies small algorithmic rate--distortion, a stable refinement of Kolmogorov complexity.",
+                "authors": [
+                    {
+                        "s2_author_id": "2394165532",
+                        "name": "K. Aldaleh"
+                    },
+                    {
+                        "s2_author_id": "2394165447",
+                        "name": "W. Burstein"
+                    },
+                    {
+                        "s2_author_id": "2333234440",
+                        "name": "G. Garza"
+                    },
+                    {
+                        "s2_author_id": "2332348678",
+                        "name": "G. Hart"
+                    },
+                    {
+                        "s2_author_id": "2333236236",
+                        "name": "A. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "2356551805",
+                        "name": "J. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "2394230773",
+                        "name": "A. Khalil"
+                    },
+                    {
+                        "s2_author_id": "2116964993",
+                        "name": "J. King"
+                    },
+                    {
+                        "s2_author_id": "2394165656",
+                        "name": "N. Kulkarni"
+                    },
+                    {
+                        "s2_author_id": "2332482468",
+                        "name": "T. Le"
+                    },
+                    {
+                        "s2_author_id": "2332348694",
+                        "name": "I. Li"
+                    },
+                    {
+                        "s2_author_id": "2333235779",
+                        "name": "A. Mayeli"
+                    },
+                    {
+                        "s2_author_id": "2394166534",
+                        "name": "B. McDonald"
+                    },
+                    {
+                        "s2_author_id": "2333343648",
+                        "name": "K. Nguyen"
+                    },
+                    {
+                        "s2_author_id": "2333236586",
+                        "name": "N. Shaffer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cd270613b1a0fe8b2c5e0ed381826d27b16840c2",
+                "title": "Additive energy, uncertainty principle and signal recovery mechanisms",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 3,
+                "reference_count": 6,
+                "abstract": "Given a signal $f:G\\to\\mathbb{C}$, where $G$ is a finite abelian group, under what reasonable assumptions can we guarantee the exact recovery of $f$ from a proper subset of its Fourier coefficients? In 1989, Donoho and Stark established a result \\cite{DS89} using the classical uncertainty principle, which states that $|\\text{supp}(f)|\\cdot|\\text{supp}(\\hat{f})|\\geq |G|$ for any nonzero signal $f$. Another result, first proven by Santose and Symes \\cite{SS86}, was based on the Logan phenomenon \\cite{L65}. In particular, the result showcases how the $L^1$ and $L^2$ minimizing signals with matching Fourier frequencies often recovers the original signal. The purpose of this paper is to relate these recovery mechanisms to additive energy, a combinatorial measure denoted and defined by $$\\Lambda(A)=\\left| \\left\\{ (x_1, x_2, x_3, x_4) \\in A^4 \\mid x_1 + x_2 = x_3 + x_4 \\right\\} \\right|,$$ where $A\\subset\\mathbb{Z}_N^d$. In the first part of this paper, we use combinatorial techniques to establish an improved variety of the uncertainty principle in terms of additive energy. In a similar fashion as the Donoho-Stark argument, we use this principle to establish an often stronger recovery condition. In the latter half of the paper, we invoke these combinatorial methods to demonstrate two $L^p$ minimizing recovery results.",
+                "authors": [
+                    {
+                        "s2_author_id": "2356552149",
+                        "name": "K. Aldahleh"
+                    },
+                    {
+                        "s2_author_id": "2333236236",
+                        "name": "A. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "2356551805",
+                        "name": "J. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "2356552128",
+                        "name": "J. Jaimangal"
+                    },
+                    {
+                        "s2_author_id": "2333235779",
+                        "name": "A. Mayeli"
+                    },
+                    {
+                        "s2_author_id": "2186113419",
+                        "name": "S. Pack"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "db331ccafb5d912ae3cb7b1d9724adbaab2ff337",
+                "title": "Subsystems of orthogonal systems and the recovery of sparse signals in the presence of random losses",
+                "year": 2024,
+                "venue": "Russian Mathematical Surveys",
+                "citation_count": 6,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2333236236",
+                        "name": "A. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "69394884",
+                        "name": "B. Kashin"
+                    },
+                    {
+                        "s2_author_id": "104032175",
+                        "name": "I. Limonova"
+                    },
+                    {
+                        "s2_author_id": "2333235779",
+                        "name": "A. Mayeli"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ece0c52237b0fbdcf460e70d4876297cc91f2eab",
+                "title": "Effective support, Dirac combs, and signal recovery",
+                "year": 2024,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": "Let $f: {\\mathbb Z}_N^d \\to {\\mathbb C}$ be a signal with the Fourier transform $\\widehat{f}: \\Bbb Z_N^d\\to \\Bbb C$. A classical result due to Matolcsi and Szucs (\\cite{MS73}), and, independently, to Donoho and Stark (\\cite{DS89}) states if a subset of frequencies ${\\{\\widehat{f}(m)\\}}_{m \\in S}$ of $f$ are unobserved due to noise or other interference, then $f$ can be recovered exactly and uniquely provided that $$ |E| \\cdot |S|<\\frac{N^d}{2},$$ where $E$ is the support of $f$, i.e., $E=\\{x \\in {\\mathbb Z}_N^d: f(x) \\not=0\\}$. In this paper, we consider signals that are Dirac combs of complexity $\\gamma$, meaning they have the form $f(x)=\\sum_{i=1}^{\\gamma} a_i 1_{A_i}(x)$, where the sets $A_i \\subset {\\mathbb Z}_N^d$ are disjoint, $a_i$ are complex numbers, and $\\gamma \\leq N^d$. We will define the concept of effective support of these signals and show that if $\\gamma$ is not too large, a good recovery condition can be obtained by pigeonholing under additional reasonable assumptions on the distribution of values. Our approach produces a non-trivial uncertainty principle and a signal recovery condition in many situations when the support of the function is too large to apply the classical theory.",
+                "authors": [
+                    {
+                        "s2_author_id": "2333234440",
+                        "name": "G. Garza"
+                    },
+                    {
+                        "s2_author_id": "2333235786",
+                        "name": "K. Gurevich"
+                    },
+                    {
+                        "s2_author_id": "2333236236",
+                        "name": "A. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "2333235779",
+                        "name": "A. Mayeli"
+                    },
+                    {
+                        "s2_author_id": "2333343648",
+                        "name": "K. Nguyen"
+                    },
+                    {
+                        "s2_author_id": "2333236586",
+                        "name": "N. Shaffer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f75d73bf094606e9dea425e607b4bfe3df26bcc8",
+                "title": "Uncertainty Principles, Restriction, Bourgain's \u039b theorem, and Signal Recovery",
+                "year": 2024,
+                "venue": "Applied and Computational Harmonic Analysis",
+                "citation_count": 3,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2333236236",
+                        "name": "A. Iosevich"
+                    },
+                    {
+                        "s2_author_id": "2333235779",
+                        "name": "A. Mayeli"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2373384195",
+                "name": "Will Burstein"
+            },
+            {
+                "s2_author_id": "2373384533",
+                "name": "Hari Sarang Nathan"
+            },
+            {
+                "s2_author_id": "2281946006",
+                "name": "E. Palsson"
+            },
+            {
+                "s2_author_id": "2399161778",
+                "name": "A. Yavicoli"
+            },
+            {
+                "s2_author_id": "9176973",
+                "name": "A. Mayeli"
+            },
+            {
+                "s2_author_id": "2289009443",
+                "name": "L. I."
+            },
+            {
+                "s2_author_id": "2379559979",
+                "name": "And Z. LI"
+            },
+            {
+                "s2_author_id": "2400167672",
+                "name": "YU K."
+            },
+            {
+                "s2_author_id": "3275851",
+                "name": "Philippe Jaming"
+            },
+            {
+                "s2_author_id": "2333235779",
+                "name": "A. Mayeli"
+            },
+            {
+                "s2_author_id": "2217760850",
+                "name": "P. Bhowmik"
+            },
+            {
+                "s2_author_id": "2334501488",
+                "name": "S. Deodhar"
+            },
+            {
+                "s2_author_id": "2394165532",
+                "name": "K. Aldaleh"
+            },
+            {
+                "s2_author_id": "2394165447",
+                "name": "W. Burstein"
+            },
+            {
+                "s2_author_id": "2333234440",
+                "name": "G. Garza"
+            },
+            {
+                "s2_author_id": "2332348678",
+                "name": "G. Hart"
+            },
+            {
+                "s2_author_id": "2356551805",
+                "name": "J. Iosevich"
+            },
+            {
+                "s2_author_id": "2394230773",
+                "name": "A. Khalil"
+            },
+            {
+                "s2_author_id": "2116964993",
+                "name": "J. King"
+            },
+            {
+                "s2_author_id": "2394165656",
+                "name": "N. Kulkarni"
+            },
+            {
+                "s2_author_id": "2332482468",
+                "name": "T. Le"
+            },
+            {
+                "s2_author_id": "2332348694",
+                "name": "I. Li"
+            },
+            {
+                "s2_author_id": "2394166534",
+                "name": "B. McDonald"
+            },
+            {
+                "s2_author_id": "2333343648",
+                "name": "K. Nguyen"
+            },
+            {
+                "s2_author_id": "2333236586",
+                "name": "N. Shaffer"
+            },
+            {
+                "s2_author_id": "2356552149",
+                "name": "K. Aldahleh"
+            },
+            {
+                "s2_author_id": "2356552128",
+                "name": "J. Jaimangal"
+            },
+            {
+                "s2_author_id": "2186113419",
+                "name": "S. Pack"
+            },
+            {
+                "s2_author_id": "69394884",
+                "name": "B. Kashin"
+            },
+            {
+                "s2_author_id": "104032175",
+                "name": "I. Limonova"
+            },
+            {
+                "s2_author_id": "2333235786",
+                "name": "K. Gurevich"
+            }
+        ],
+        "total_co_authors": 31,
+        "papers_retrieved": 11
+    }
+}

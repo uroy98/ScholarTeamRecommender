@@ -1,0 +1,4254 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000280417",
+        "name": "Daniel Sorin",
+        "primary_affiliation": "Duke University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Duke University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "NC"
+        ],
+        "perf_cities": [
+            "DURHAM"
+        ],
+        "org_names": [
+            "Duke University"
+        ],
+        "org_ueis": [
+            "TP7EK8DZV6N5"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "sorin@ee.duke.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2525271",
+                "title": "Collaborative Research: FMitF : Track I: Specifying, Synthesizing, and Verifying Heterogeneous Coherence Protocols",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-09-15",
+                "exp_date": "2028-08-31",
+                "award_amount": 299631.0,
+                "total_amount": 299631.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "FMitF: Formal Methods in the F"
+                ],
+                "program_codes": [
+                    "094Y00"
+                ],
+                "program_references": [
+                    "EXP PROG TO STIM COMP RES",
+                    "FMitF-Formal Methods in the Field"
+                ],
+                "program_ref_codes": [
+                    "9150",
+                    "071Z"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Anindya Banerjee",
+                "keywords": [
+                    "processors",
+                    "protocols",
+                    "heterogeneous",
+                    "first",
+                    "design",
+                    "coherence",
+                    "memory",
+                    "verification",
+                    "systems",
+                    "fmitf"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "FMitF: Formal Methods in the F"
+        ],
+        "program_codes": [
+            "094Y00"
+        ],
+        "program_references": [
+            "EXP PROG TO STIM COMP RES",
+            "FMitF-Formal Methods in the Field"
+        ],
+        "program_ref_codes": [
+            "9150",
+            "071Z"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Anindya Banerjee"
+        ],
+        "keywords": [
+            "processors",
+            "protocols",
+            "heterogeneous",
+            "first",
+            "design",
+            "coherence",
+            "memory",
+            "verification",
+            "systems",
+            "fmitf",
+            "shared",
+            "performance",
+            "different",
+            "foundation",
+            "provide",
+            "formal",
+            "methods",
+            "synthesizing",
+            "verifying",
+            "being"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.42
+    },
+    "s2_profile": {
+        "s2_author_id": "2172933",
+        "name": "Daniel Sorin",
+        "affiliations": [],
+        "paper_count": 138,
+        "citation_count": 6734,
+        "h_index": 39,
+        "papers": [
+            {
+                "s2_paper_id": "7fb7b5f859013411ea05f4a1feb71cfb52697bb2",
+                "title": "HeteroGen: Automatic Synthesis of Heterogeneous Cache Coherence Protocols",
+                "year": 2023,
+                "venue": "IEEE Micro",
+                "citation_count": 1,
+                "reference_count": 16,
+                "abstract": "We address the two challenges architects face when designing heterogeneous processors with cache-coherent shared memory. First, we introduce HeteroGen, an automated tool for composing clusters of cores, each with its own coherence protocol. Second, we show that the output of HeteroGen conforms to a precisely defined memory consistency model that we call a compound consistency model. We also demonstrate that HeteroGen can correctly fuse a wide range of coherence protocols. Our experiments indicate that protocols generated by HeteroGen perform comparably to a publicly available manually generated heterogeneous protocol.",
+                "authors": [
+                    {
+                        "s2_author_id": "40930669",
+                        "name": "Nicolai Oswald"
+                    },
+                    {
+                        "s2_author_id": "144781996",
+                        "name": "V. Nagarajan"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "40927677",
+                        "name": "Vasilis Gavrielatos"
+                    },
+                    {
+                        "s2_author_id": "1689656957",
+                        "name": "Theo X. Olausson"
+                    },
+                    {
+                        "s2_author_id": "2165574890",
+                        "name": "Reece Carr"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d1d5a51c7cd44a88f8ad60d4cc31e07405e3a3c",
+                "title": "Spatiotemporal Strategies for Long-Term FPGA Resource Management",
+                "year": 2022,
+                "venue": "IEEE International Symposium on Performance Analysis of Systems and Software",
+                "citation_count": 8,
+                "reference_count": 81,
+                "abstract": "The deployment of increasingly large and capable FPGAs has motivated mechanisms for sharing them, but system support for FPGAs is not yet mature. Traditional scheduling algorithms do not account for the unique characteristics of FPGAs, leading to infeasible or inefficient allocations. We propose a novel scheduling policy, called Spatiotemporal FPGA Scheduling, that overcomes these challenges to achieve long-term target allocations by tracking and correcting deviations from targets across management time periods. Compared to traditional algorithms, Spatiotemporal FPGA Scheduling produces allocations that are up to 32% closer to targets, improves average throughput by up to 44%, and improves average FPGA utilization by up to 23%.",
+                "authors": [
+                    {
+                        "s2_author_id": "2061456212",
+                        "name": "Atefeh Mehrabi"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2110173602",
+                        "name": "Benjamin C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eb77d15856bf29017f281325a7db48a450a81a94",
+                "title": "HeteroGen: Automatic Synthesis of Heterogeneous Cache Coherence Protocols",
+                "year": 2022,
+                "venue": "International Symposium on High-Performance Computer Architecture",
+                "citation_count": 13,
+                "reference_count": 41,
+                "abstract": "We solve the two challenges architects face when designing heterogeneous processors with cache coherent shared memory. First, we develop an automated tool, called HeteroGen, for composing clusters of cores, each with its own coherence protocol. Second, we show that the output of HeteroGen adheres to a precisely defined memory consistency model that we call a compound consistency model. For a wide variety of protocols\u2014including the MOESI variants, as well as those that are targeted towards Total Store Order and Release Consistency\u2014we show that HeteroGen can correctly fuse them. To validate HeteroGen, we develop the first litmus tests for verifying that heterogeneous protocols satisfy compound consistency models. To understand the possible performance implications of automatic protocol generation, we compared against a publicly available manually-generated heterogeneous protocol. Our results show that performance is comparable.",
+                "authors": [
+                    {
+                        "s2_author_id": "40930669",
+                        "name": "Nicolai Oswald"
+                    },
+                    {
+                        "s2_author_id": "144781996",
+                        "name": "V. Nagarajan"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "40927677",
+                        "name": "Vasilis Gavrielatos"
+                    },
+                    {
+                        "s2_author_id": "1689656957",
+                        "name": "Theo X. Olausson"
+                    },
+                    {
+                        "s2_author_id": "2165574890",
+                        "name": "Reece Carr"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "780f177464e73902964a0420efd6b4740635d21d",
+                "title": "Learning Sparse Matrix Row Permutations for Efficient SpMM on GPU Architectures",
+                "year": 2021,
+                "venue": "IEEE International Symposium on Performance Analysis of Systems and Software",
+                "citation_count": 19,
+                "reference_count": 33,
+                "abstract": "Achieving peak performance on sparse operations is challenging. The distribution of the non-zero elements and underlying hardware platform affect the execution efficiency. Given the diversity in workloads and architectures, no unique solution always wins. In this paper, we improve SpMM efficiency on GPUs. We propose several simple, but effective, sparse data permutations on the CSR data structure. Picking the right permutation over 1,688 datasets improves performance by 1.4\u00d7, on average, compared to plain CSR and 2.6\u00d7 against NVIDIA cuSPARSE. Furthermore, we propose a set of novel features to describe sparsity patterns and their interactions with the kernel and hardware. Using these features, we develop a predictor to select the best permutation for each matrix. Predicted permutations' average gain achieves 96% of oracle gains.",
+                "authors": [
+                    {
+                        "s2_author_id": "2061456212",
+                        "name": "Atefeh Mehrabi"
+                    },
+                    {
+                        "s2_author_id": "48893570",
+                        "name": "Donghyuk Lee"
+                    },
+                    {
+                        "s2_author_id": "48930807",
+                        "name": "Niladrish Chatterjee"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "152840677",
+                        "name": "Benjamin C. Lee"
+                    },
+                    {
+                        "s2_author_id": "1397041984",
+                        "name": "Mike O'Connor"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f6824167526d1cfa7e256ddc751380afa8a19228",
+                "title": "Reconfigurable Hardware in Postsilicon Microarchitecture",
+                "year": 2021,
+                "venue": "Computer",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5157180875f68945e59d0e3395086bfcd8d73105",
+                "title": "A Primer on Memory Consistency and Cache Coherence, Second Edition",
+                "year": 2020,
+                "venue": "A Primer on Memory Consistency and Cache Coherence",
+                "citation_count": 178,
+                "reference_count": 168,
+                "abstract": "Abstract Many modern computer systems, including homogeneous and heterogeneous architectures, support shared memory in hardware. In a shared memory system, each of the processor cores may read and ...",
+                "authors": [
+                    {
+                        "s2_author_id": "2276061672",
+                        "name": "Vijay Nagarajan"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55d8a91e20daec98fa7ff5ef7d8d848809c843a3",
+                "title": "Foosball Coding: Correcting Shift Errors and Bit Flip Errors in 3D Racetrack Memory",
+                "year": 2020,
+                "venue": "Dependable Systems and Networks",
+                "citation_count": 18,
+                "reference_count": 20,
+                "abstract": "Racetrack memory is a promising new non-volatile memory technology, especially because of the density of its 3D implementation. However, for 3D racetrack to reach its potential, certain reliability issues must be overcome. Prior work used per-track encoding to tolerate the shift errors that are unique to racetrack, but no solutions existed for tolerating both shift errors and bit flip errors. We introduce Foosball Coding, which combines per-track coding for shift errors with a novel across-track coding for bit flips. Moreover, our per-track coding scheme methodically explores the design of inter-codeword delimiters and introduces the novel concept of multi-purpose delimiters, in which the existence of multiple delimiter options can be used to provide additional information.",
+                "authors": [
+                    {
+                        "s2_author_id": "2071824505",
+                        "name": "Samantha Archer"
+                    },
+                    {
+                        "s2_author_id": "2154507",
+                        "name": "Georgios Mappouras"
+                    },
+                    {
+                        "s2_author_id": "120874496",
+                        "name": "R. Calderbank"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6eea1491f0f82104f668bc0b8e4e7bff7ba97951",
+                "title": "HieraGen: Automated Generation of Concurrent, Hierarchical Cache Coherence Protocols",
+                "year": 2020,
+                "venue": "International Symposium on Computer Architecture",
+                "citation_count": 12,
+                "reference_count": 25,
+                "abstract": "We present HieraGen, a new tool for automatically generating hierarchical cache coherence protocols. HieraGen\u2019s inputs are the simple, atomic, stable state protocols for each level of the hierarchy. HieraGen\u2019s output is a highly concurrent hierarchical protocol, in the form of the finite state machines for all of the cache and directory controllers. HieraGen thus reduces the complexity that architects face, by offloading the challenging tasks of composing protocols and managing concurrency. Experiments show that HieraGen can automatically generate correct-by-construction MOESI family of hierarchical protocols with dozens of states and hundreds of transitions. We have verified all of the generated protocols for safety and deadlock freedom using a model checker.",
+                "authors": [
+                    {
+                        "s2_author_id": "40930669",
+                        "name": "Nicolai Oswald"
+                    },
+                    {
+                        "s2_author_id": "144781996",
+                        "name": "V. Nagarajan"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a06e2956a28eba06f3057f22036b4e11310b9a26",
+                "title": "Roadmap Subsampling for Changing Environments",
+                "year": 2020,
+                "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+                "citation_count": 4,
+                "reference_count": 23,
+                "abstract": "Precomputed roadmaps can enable effective multi-query motion planning: a roadmap can be built for a robot as if no obstacles were present, and then after edges invalidated by obstacles observed at query time are deleted, path search through the remaining roadmap returns a collision-free plan. However, large roadmaps are memory intensive to store, and can be too slow for practical use. We present an algorithm for compressing a large roadmap so that the collision detection phase fits into a computational budget, while retaining a high probability of finding high-quality paths. Our algorithm adapts work from graph theory and data mining by treating roadmaps as unreliable networks, where the probability of edge failure models the probability of a query-time obstacle causing a collision. We experimentally evaluate the quality of the resulting roadmaps in a suite of four motion planning benchmarks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2059327142",
+                        "name": "S. Murray"
+                    },
+                    {
+                        "s2_author_id": "1765407",
+                        "name": "G. Konidaris"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c270542a8999e65af9fc861d99165a2218f20c64",
+                "title": "Computer Architecture for Orbital Edge Computing",
+                "year": 2020,
+                "venue": "Computer",
+                "citation_count": 3,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c43a9ba19db0bc1563edb7c4af3948e8c0824cca",
+                "title": "Bayesian Optimization for Efficient Accelerator Synthesis",
+                "year": 2020,
+                "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+                "citation_count": 20,
+                "reference_count": 69,
+                "abstract": "Accelerator design is expensive due to the effort required to understand an algorithm and optimize the design. Architects have embraced two technologies to reduce costs. High-level synthesis automatically generates hardware from code. Reconfigurable fabrics instantiate accelerators while avoiding fabrication costs for custom circuits. We further reduce design effort with statistical learning. We build an automated framework, called Prospector, that uses Bayesian techniques to optimize synthesis directives, reducing execution latency and resource usage in field-programmable gate arrays. We show in a certain amount of time that designs discovered by Prospector are closer to Pareto-efficient designs compared to prior approaches. Prospector permits new studies for heterogeneous accelerators.",
+                "authors": [
+                    {
+                        "s2_author_id": "2061456212",
+                        "name": "Atefeh Mehrabi"
+                    },
+                    {
+                        "s2_author_id": "1647009610",
+                        "name": "Aninda Manocha"
+                    },
+                    {
+                        "s2_author_id": "152840677",
+                        "name": "Benjamin C. Lee"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "31044ef1607794958b4bdb102941dd77ae52131d",
+                "title": "GreenFlag: Protecting 3D-Racetrack Memory from Shift Errors",
+                "year": 2019,
+                "venue": "Dependable Systems and Networks",
+                "citation_count": 21,
+                "reference_count": 32,
+                "abstract": "Racetrack memory is an exciting emerging memory technology with the potential to offer far greater capacity and performance than other non-volatile memories. Racetrack memory has an unusual error model, though, which precludes the use of the typical error coding techniques used by architects. In this paper, we introduce GreenFlag, a coding scheme that combines a new construction for Varshamov-Tenegolts codes with specially crafted delimiter bits that are placed between each codeword. GreenFlag is the first coding scheme that is compatible with 3D racetrack, which has the benefit of very high density but the limitation of a single read/write port per track. Based on our implementation of encoding/decoding hardware, we analyze the trade-offs between latency, code length, and code rate; we then use this analysis to evaluate the viability of racetrack at each level of the memory hierarchy.",
+                "authors": [
+                    {
+                        "s2_author_id": "2154507",
+                        "name": "Georgios Mappouras"
+                    },
+                    {
+                        "s2_author_id": "1710373",
+                        "name": "Alireza Vahid"
+                    },
+                    {
+                        "s2_author_id": "120874496",
+                        "name": "R. Calderbank"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "593fc45d6d5ce4da04d5093d2284a82d865107e3",
+                "title": "A Programmable Architecture for Robot Motion Planning Acceleration",
+                "year": 2019,
+                "venue": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors",
+                "citation_count": 29,
+                "reference_count": 24,
+                "abstract": "We have designed a programmable architecture to accelerate collision detection and graph search, two of the principal components of robotic motion planning. The programmability enables the architecture to be applied to a wide range of different robots and motion planning applications. We present the architecture of our accelerator and describe and evaluate its microarchitecture implementation.",
+                "authors": [
+                    {
+                        "s2_author_id": "2059327142",
+                        "name": "S. Murray"
+                    },
+                    {
+                        "s2_author_id": "1412373341",
+                        "name": "Will Floyd-Jones"
+                    },
+                    {
+                        "s2_author_id": "1765407",
+                        "name": "G. Konidaris"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "50be8fcde1a84f96d2a6a055d766fe37bec42dbb",
+                "title": "Low-Power Content Addressable Memory",
+                "year": 2018,
+                "venue": "Computer",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "daa44d6431037b35f1727b009b29c0d00e06fe40",
+                "title": "Extending Flash Lifetime in Embedded Processors by Expanding Analog Choice",
+                "year": 2018,
+                "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+                "citation_count": 4,
+                "reference_count": 37,
+                "abstract": "We extend the lifetime of Flash memory in embedded processors by exploiting the fact that data from sensors is inherently analog. Prior work in the computer architecture community has assumed that all data is digital and has overlooked the opportunities available when working with analog data, such as the data recorded by sensors. In this paper, we introduce redundancy into the quantization of sensor data in order to provide several alternative representations. Notably, we tradeoff distortion\u2014the difference between the sensed analog value and the digital quantization of that value\u2014to improve lifetime. Our simulations show that when combining rate, distortion, and lifetime tradeoffs we can extend Flash lifetime at a far smaller capacity cost compared to prior work. More specifically the simulated system shows that it is possible to achieve up to <inline-formula> <tex-math notation=\"LaTeX\">$2.75 \\times$ </tex-math></inline-formula> less capacity cost compared to redundant Flash memory and <inline-formula> <tex-math notation=\"LaTeX\">$1.29 \\times$ </tex-math></inline-formula> less capacity cost compared to the state of the art coding schemes.",
+                "authors": [
+                    {
+                        "s2_author_id": "2154507",
+                        "name": "Georgios Mappouras"
+                    },
+                    {
+                        "s2_author_id": "1710373",
+                        "name": "Alireza Vahid"
+                    },
+                    {
+                        "s2_author_id": "120874496",
+                        "name": "R. Calderbank"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "de7e7fba1994a944faf8826b1cc3b20bf42a6d65",
+                "title": "ProtoGen: Automatically Generating Directory Cache Coherence Protocols from Atomic Specifications",
+                "year": 2018,
+                "venue": "International Symposium on Computer Architecture",
+                "citation_count": 19,
+                "reference_count": 26,
+                "abstract": "Designing directory cache coherence protocols is complicated because coherence transactions are not atomic in modern multicore processors. A coherence transaction comprises multiple messages, and these messages can interleave with other conflicting coherence transactions initiated by other cores. To overcome this architectural challenge, we present ProtoGen, an automated tool for taking the description of a directory protocol with atomic transactions (i.e., no concurrency) and generating the corresponding protocol for a multicore with non-atomic transactions. ProtoGen outputs the finite state machines for the cache and directory controllers, including all of the transient states that are possible with concurrent transactions. We have used ProtoGen to generate complete MSI, MESI, and MOSI protocols given their stable state protocol specifications. We have verified the generated protocols for safety and deadlock freedom using the Mur\u03c6 model checker. Our generated protocols are identical to or better than manually generated protocols, at times even discovering opportunities to reduce stalling.",
+                "authors": [
+                    {
+                        "s2_author_id": "40930669",
+                        "name": "Nicolai Oswald"
+                    },
+                    {
+                        "s2_author_id": "144781996",
+                        "name": "V. Nagarajan"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "332f40c4ab243766725232314c6a8c903fea9b4c",
+                "title": "Correcting Two Deletions and Insertions in Racetrack Memory",
+                "year": 2017,
+                "venue": "arXiv.org",
+                "citation_count": 23,
+                "reference_count": 21,
+                "abstract": "Racetrack memory is a non-volatile memory engineered to provide both high density and low latency, that is subject to synchronization or shift errors. This paper describes a fast coding solution, in which delimiter bits assist in identifying the type of shift error, and easily implementable graph-based codes are used to correct the error, once identified. A code that is able to detect and correct double shift errors is described in detail.",
+                "authors": [
+                    {
+                        "s2_author_id": "1710373",
+                        "name": "Alireza Vahid"
+                    },
+                    {
+                        "s2_author_id": "2154507",
+                        "name": "Georgios Mappouras"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "120874496",
+                        "name": "R. Calderbank"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "742f05c3dbbcce4a7051c256b509181a9fba5c61",
+                "title": "Jenga: Efficient Fault Tolerance for Stacked DRAM",
+                "year": 2017,
+                "venue": "ICCD",
+                "citation_count": 5,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2154507",
+                        "name": "Georgios Mappouras"
+                    },
+                    {
+                        "s2_author_id": "1710373",
+                        "name": "Alireza Vahid"
+                    },
+                    {
+                        "s2_author_id": "144003731",
+                        "name": "A. Calderbank"
+                    },
+                    {
+                        "s2_author_id": "2160733",
+                        "name": "Derek Hower"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "abe31520071ed4a022d4c10f66acad1e169d31d7",
+                "title": "Architecting Hierarchical Coherence Protocols for Push-button Parametric Verification",
+                "year": 2017,
+                "venue": "Micro",
+                "citation_count": 5,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50760849",
+                        "name": "Opeoluwa Matthews"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eba8f40c312f22d4e79e3d8bcd8f375eed71dd01",
+                "title": "Persistent Memory",
+                "year": 2017,
+                "venue": "Computer",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "059881146c1b2fd858c6e64dc429911eac82e86a",
+                "title": "Robot Motion Planning on a Chip",
+                "year": 2016,
+                "venue": "Robotics: Science and Systems",
+                "citation_count": 126,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2059327142",
+                        "name": "S. Murray"
+                    },
+                    {
+                        "s2_author_id": "1412373341",
+                        "name": "Will Floyd-Jones"
+                    },
+                    {
+                        "s2_author_id": "2114758674",
+                        "name": "Y. Qi"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "1765407",
+                        "name": "G. Konidaris"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "28c0f4d2d1cbb5c92325144e5e8de721dc5142bb",
+                "title": "The 2015 Top Picks In Computer Architecture (Guest Editor's Introduction)",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3b5a6c46c58875af5088a012c170728fb371d2d8",
+                "title": "Top Picks from the 2015 Computer Architecture Conferences",
+                "year": 2016,
+                "venue": "IEEE Micro",
+                "citation_count": 1,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55df7afc822f8c6420ce8568496c5253592711d7",
+                "title": "EVALUATION OF BIO- AND HEMO-COMPATIBILITY OF TWO PARTIALLY ALIPHATIC COPOLYIMIDES MODIFIED BY PLASMA AND CHEMICAL TREATMENT",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143704650",
+                        "name": "D. Popovici"
+                    },
+                    {
+                        "s2_author_id": "1922722",
+                        "name": "S. Vlad"
+                    },
+                    {
+                        "s2_author_id": "2316152872",
+                        "name": "I. Stoica"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "120100307",
+                        "name": "Vasilescu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "697dd64bf7634d310df1c4da5ff4d38fb344f85e",
+                "title": "Verifiable hierarchical protocols with network invariants on parametric systems",
+                "year": 2016,
+                "venue": "Formal Methods in Computer-Aided Design",
+                "citation_count": 10,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50760849",
+                        "name": "Opeoluwa Matthews"
+                    },
+                    {
+                        "s2_author_id": "2117779",
+                        "name": "Jesse D. Bingham"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7297a3da4ce6adc21bed6bc258c00c17d250cbb6",
+                "title": "Profile-Driven Automated Mixed Precision",
+                "year": 2016,
+                "venue": "arXiv.org",
+                "citation_count": 8,
+                "reference_count": 36,
+                "abstract": "We present a scheme to automatically set the precision of floating point variables in an application. We design a framework that profiles applications to measure undesirable numerical behavior at the floating point operation level. We use this framework to perform mixed precision analysis to heuristically set the precision of all variables in an application based on their numerical profiles. We experimentally evaluate the mixed precision analysis to show that it can generate a range of results with different accuracy and performance characteristics.",
+                "authors": [
+                    {
+                        "s2_author_id": "34488952",
+                        "name": "Ralph Nathan"
+                    },
+                    {
+                        "s2_author_id": "144526841",
+                        "name": "Helia Naeimi"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "3155819",
+                        "name": "Xiaobai Sun"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75438e1897a4c61e11d53cf6637c9b9345782704",
+                "title": "The microarchitecture of a real-time robot motion planning accelerator",
+                "year": 2016,
+                "venue": "Micro",
+                "citation_count": 93,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2059327142",
+                        "name": "S. Murray"
+                    },
+                    {
+                        "s2_author_id": "1412373341",
+                        "name": "Will Floyd-Jones"
+                    },
+                    {
+                        "s2_author_id": "2114758674",
+                        "name": "Y. Qi"
+                    },
+                    {
+                        "s2_author_id": "1765407",
+                        "name": "G. Konidaris"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "767807dcbabd0f7e480ad1d7ff862ab1f9a4606d",
+                "title": "Methuselah Flash: Rewriting Codes for Extra Long Storage Lifetime",
+                "year": 2016,
+                "venue": "Dependable Systems and Networks",
+                "citation_count": 3,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2154507",
+                        "name": "Georgios Mappouras"
+                    },
+                    {
+                        "s2_author_id": "1710373",
+                        "name": "Alireza Vahid"
+                    },
+                    {
+                        "s2_author_id": "120874496",
+                        "name": "R. Calderbank"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aee43a9b2fe6ff17beae2eba8da2200309b02a1f",
+                "title": "Energy-efficient Management of Reconfigurable Computers",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 146,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1722763",
+                        "name": "D. Abts"
+                    },
+                    {
+                        "s2_author_id": "2872200",
+                        "name": "Philip M. Wells"
+                    },
+                    {
+                        "s2_author_id": "1902845",
+                        "name": "Peter Klausler"
+                    },
+                    {
+                        "s2_author_id": "2118902690",
+                        "name": "Hong Liu"
+                    },
+                    {
+                        "s2_author_id": "1732082",
+                        "name": "Alaa R. Alameldeen"
+                    },
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "1690353",
+                        "name": "Carl J. Mauer"
+                    },
+                    {
+                        "s2_author_id": "2112423146",
+                        "name": "Kevin E. Moore"
+                    },
+                    {
+                        "s2_author_id": "105063063",
+                        "name": "Min Xu"
+                    },
+                    {
+                        "s2_author_id": "144970834",
+                        "name": "D. Mark"
+                    },
+                    {
+                        "s2_author_id": "2062113263",
+                        "name": "Hill"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2615094",
+                        "name": "V. Vi\u00f1als"
+                    },
+                    {
+                        "s2_author_id": "3090777",
+                        "name": "J. Llaber\u00eda"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f260e0105320cc29ae269c65662ddc3614198e14",
+                "title": "TREES: A CPU/GPU Task-Parallel Runtime with Explicit Epoch Synchronization",
+                "year": 2016,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 23,
+                "abstract": "We have developed a task-parallel runtime system, called TREES, that is designed for high performance on CPU/GPU platforms. On platforms with multiple CPUs, Cilk's \"work-first\" principle underlies how task-parallel applications can achieve performance, but work-first is a poor fit for GPUs. We build upon work-first to create the \"work-together\" principle that addresses the specific strengths and weaknesses of GPUs. The work-together principle extends work-first by stating that (a) the overhead on the critical path should be paid by the entire system at once and (b) work overheads should be paid co-operatively. We have implemented the TREES runtime in OpenCL, and we experimentally evaluate TREES applications on a CPU/GPU platform.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135881",
+                        "name": "Blake A. Hechtman"
+                    },
+                    {
+                        "s2_author_id": "3195373",
+                        "name": "Andrew D. Hilton"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1ae2d637edb6742f68c2b5dc4f560a8bc87e78fe",
+                "title": "Multi-program benchmark definition",
+                "year": 2015,
+                "venue": "IEEE International Symposium on Performance Analysis of Systems and Software",
+                "citation_count": 11,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2634399",
+                        "name": "Adam N. Jacobvitz"
+                    },
+                    {
+                        "s2_author_id": "3195373",
+                        "name": "Andrew D. Hilton"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "814395034169707a516f1c6e43c1f9f2dad70abe",
+                "title": "Writing without Disturb on Phase Change Memories by Integrating Coding and Layout Design",
+                "year": 2015,
+                "venue": "International Symposium on Memory Systems",
+                "citation_count": 14,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49961426",
+                        "name": "A. Eslami"
+                    },
+                    {
+                        "s2_author_id": "40041420",
+                        "name": "Alfredo J. Velasco"
+                    },
+                    {
+                        "s2_author_id": "1710373",
+                        "name": "Alireza Vahid"
+                    },
+                    {
+                        "s2_author_id": "2154507",
+                        "name": "Georgios Mappouras"
+                    },
+                    {
+                        "s2_author_id": "120874496",
+                        "name": "R. Calderbank"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "98b6855047f3638c819ea0babb5af523c77b74cf",
+                "title": "PVCoherence: Designing Flat Coherence Protocols for Scalable Verification",
+                "year": 2015,
+                "venue": "IEEE Micro",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2286260125",
+                        "name": "Meng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2285799612",
+                        "name": "Jesse D. Bingham"
+                    },
+                    {
+                        "s2_author_id": "2285826019",
+                        "name": "John Erickson"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a9a4c9c44451fed1af600daa38904c8bc035c6ac",
+                "title": "Argus-G: Comprehensive, Low-Cost Error Detection for GPGPU Cores",
+                "year": 2015,
+                "venue": "IEEE computer architecture letters",
+                "citation_count": 15,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34488952",
+                        "name": "Ralph Nathan"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e88166ee170e3189a3c8c6a8e9a5da46e98f12ae",
+                "title": "2 Challenge # 2 : The Need for \u201c Reverse \u201d Checking",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49889441",
+                        "name": "Yaqi Zhang"
+                    },
+                    {
+                        "s2_author_id": "34488952",
+                        "name": "Ralph Nathan"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2390375119",
+                        "name": "Duke"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0101197fc89e9db09eade5e3adec52a295bb424e",
+                "title": "PVCoherence: Designing flat coherence protocols for scalable verification",
+                "year": 2014,
+                "venue": "International Symposium on High-Performance Computer Architecture",
+                "citation_count": 31,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": null,
+                        "name": "Meng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2117779",
+                        "name": "Jesse D. Bingham"
+                    },
+                    {
+                        "s2_author_id": "2054916717",
+                        "name": "John Erickson"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "049e5edd5e47e04145e392616f150e482629eda3",
+                "title": "Recycled Error Bits: Energy-Efficient Architectural Support for Floating Point Accuracy",
+                "year": 2014,
+                "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "citation_count": 6,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34488952",
+                        "name": "Ralph Nathan"
+                    },
+                    {
+                        "s2_author_id": "2073606379",
+                        "name": "Bryan Anthonio"
+                    },
+                    {
+                        "s2_author_id": "153062046",
+                        "name": "Shih-Lien Lu"
+                    },
+                    {
+                        "s2_author_id": "144526841",
+                        "name": "Helia Naeimi"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "3155819",
+                        "name": "Xiaobai Sun"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2291663e7f3cdb88ce88e995f50ad8438edb639d",
+                "title": "Architecting dynamic power management to be formally verifiable",
+                "year": 2014,
+                "venue": "Design Automation Conference",
+                "citation_count": 4,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "50760849",
+                        "name": "Opeoluwa Matthews"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Meng Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7b139d16f8eac7cd76b720d9836bb9abc0afcd88",
+                "title": "Nostradamus: Low-cost hardware-only error detection for processor cores",
+                "year": 2014,
+                "venue": "Design, Automation and Test in Europe",
+                "citation_count": 12,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34488952",
+                        "name": "Ralph Nathan"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "82cef334a498003c6f34e5d201c77e4805399bfb",
+                "title": "Experiences in Developing and Evaluating a Low-Cost Soft-Error-Tolerant Multicore Processor",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2057175184",
+                        "name": "John S. Ingalls"
+                    },
+                    {
+                        "s2_author_id": "2634399",
+                        "name": "Adam N. Jacobvitz"
+                    },
+                    {
+                        "s2_author_id": "2329987",
+                        "name": "Patrick J. Eibl"
+                    },
+                    {
+                        "s2_author_id": "70346155",
+                        "name": "Michael R. Ansel"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ed364f1485a1d5b93c17a9579690f3433c9be85f",
+                "title": "Scalably verifiable dynamic power management",
+                "year": 2014,
+                "venue": "International Symposium on High-Performance Computer Architecture",
+                "citation_count": 9,
+                "reference_count": 14,
+                "abstract": "Dynamic power management (DPM) is critical to maximizing the performance of systems ranging from multicore processors to datacenters. However, one formidable challenge with DPM schemes is verifying that the DPM schemes are correct as the number of computational resources scales up. In this paper, we develop a DPM scheme such that it is scalably verifiable with fully automated formal tools. The key to the design is that the DPM scheme has fractal behavior; that is, it behaves the same at every scale. We show that the fractal design enables scalable formal verification and simulation shows that our scheme does not sacrifice much performance compared to an oracle DPM scheme that optimally allocates power to computational resources. We implement our scheme in a 2-socket 16-core x86 system and experimentally evaluate it.",
+                "authors": [
+                    {
+                        "s2_author_id": "50760849",
+                        "name": "Opeoluwa Matthews"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Meng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02848d471f2f3952b9a9bfa0cea88074b9a7e4c3",
+                "title": "Applying Reduced Precision Arithmetic to Detect Errors in Floating Point Multiplication",
+                "year": 2013,
+                "venue": "2013 IEEE 19th Pacific Rim International Symposium on Dependable Computing",
+                "citation_count": 9,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38703611",
+                        "name": "K. Seetharam"
+                    },
+                    {
+                        "s2_author_id": "1920740",
+                        "name": "Lance Ong-Siong Co Ting Keh"
+                    },
+                    {
+                        "s2_author_id": "34488952",
+                        "name": "Ralph Nathan"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0fb0248fbd80f4d9b12be654617d8ba65850f866",
+                "title": "Coset coding to extend the lifetime of memory",
+                "year": 2013,
+                "venue": "International Symposium on High-Performance Computer Architecture",
+                "citation_count": 109,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2634399",
+                        "name": "Adam N. Jacobvitz"
+                    },
+                    {
+                        "s2_author_id": "120874496",
+                        "name": "R. Calderbank"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "36aa18c94ceb40c47705c88e3175709d3b385fd5",
+                "title": "Recycled Error Bits: Energy-Efficient Architectural Support for Higher Precision Floating Point",
+                "year": 2013,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 21,
+                "abstract": "In this work, we provide energy-efficient architectural support for floating point accuracy. Our goal is to provide accuracy that is far greater than that provided by the processor's hardware floating point unit (FPU). Specifically, for each floating point addition performed, we \"recycle\" that operation's error: the difference between the finite-precision result produced by the hardware and the result that would have been produced by an infinite-precision FPU. We make this error architecturally visible such that it can be used, if desired, by software. Experimental results on physical hardware show that software that exploits architecturally recycled error bits can achieve accuracy comparable to a 2B-bit FPU with performance and energy that are comparable to a B-bit FPU.",
+                "authors": [
+                    {
+                        "s2_author_id": "34488952",
+                        "name": "Ralph Nathan"
+                    },
+                    {
+                        "s2_author_id": "2073606379",
+                        "name": "Bryan Anthonio"
+                    },
+                    {
+                        "s2_author_id": "153062046",
+                        "name": "Shih-Lien Lu"
+                    },
+                    {
+                        "s2_author_id": "144526841",
+                        "name": "Helia Naeimi"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "3155819",
+                        "name": "Xiaobai Sun"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9901af6599d25e9a8349d28def8e4e5a65aeaafa",
+                "title": "Evaluating cache coherent shared virtual memory for heterogeneous multicore chips",
+                "year": 2013,
+                "venue": "IEEE International Symposium on Performance Analysis of Systems and Software",
+                "citation_count": 16,
+                "reference_count": 44,
+                "abstract": "Although current homogeneous chips tightly couple the cores with cache-coherent shared virtual memory (CCSVM), this is not the communication paradigm used by any current heterogeneous chip. In this paper, we present a CCSVM design for a CPU/GPU chip, as well as an extension of the pthreads programming model for programming this HMC. We experimentally compare CCSVM/xthreads to a state-of-the-art CPU/GPU chip from AMD that runs OpenCL software. CCSVM's more efficient communication enables far better performance and far fewer DRAM accesses.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135881",
+                        "name": "Blake A. Hechtman"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d2db480744dcf3ba4d740276d3da2302e9fa2788",
+                "title": "Exploring memory consistency for massively-threaded throughput-oriented processors",
+                "year": 2013,
+                "venue": "International Symposium on Computer Architecture",
+                "citation_count": 42,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3135881",
+                        "name": "Blake A. Hechtman"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "10f1faeec4ee2158b8535b249a20de5419998153",
+                "title": "A Primer on Memory Consistency and Cache Coherence",
+                "year": 2012,
+                "venue": "Synthesis Lectures on Computer Architecture",
+                "citation_count": 344,
+                "reference_count": 100,
+                "abstract": "Many modern computer systems and most multicore chips (chip multiprocessors) support shared memory in hardware. In a shared memory system, each of the processor cores may read and write to a single shared address space. For a shared memory machine, the memory consistency model defines the architecturally visible behavior of its memory system. Consistency definitions provide rules about loads and stores (or memory reads and writes) and how they act upon memory. As part of supporting a memory consistency model, many machines also provide cache coherence protocols that ensure that multiple cached copies of data are kept up-to-date. The goal of this primer is to provide readers with a basic understanding of consistency and coherence. This understanding includes both the issues that must be solved as well as a variety of solutions. We present both highlevel concepts as well as specific, concrete examples from real-world systems. Table of Contents: Preface / Introduction to Consistency and Coherence / Coherence Basics / Memory Consistency Motivation and Sequential Consistency / Total Store Order and the x86 Memory Model / Relaxed Memory Consistency / Coherence Protocols / Snooping Coherence Protocols / Directory Coherence Protocols / Advanced Topics in Coherence / Author Biographies",
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2245051520",
+                        "name": "Mark D. Hill"
+                    },
+                    {
+                        "s2_author_id": "2244974592",
+                        "name": "David A. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "378782a827933059f9f91e6e29aac84bd0857828",
+                "title": "Why on-chip cache coherence is here to stay",
+                "year": 2012,
+                "venue": "Communications of the ACM",
+                "citation_count": 288,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7b70c24d6e359081a6a0159f9bdf4cc5e022aa95",
+                "title": "Writing cosets of a convolutional code to increase the Lifetime of Flash memory",
+                "year": 2012,
+                "venue": "Allerton Conference on Communication, Control, and Computing",
+                "citation_count": 18,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2634399",
+                        "name": "Adam N. Jacobvitz"
+                    },
+                    {
+                        "s2_author_id": "120874496",
+                        "name": "R. Calderbank"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "87ec8ece1a01ee68004682ae7145e0ee05aee15f",
+                "title": "The Limits of Concurrency in Cache Coherence",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3135881",
+                        "name": "Blake A. Hechtman"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1601c4eca66764628b927316996dd10b0e926bb9",
+                "title": "Architectures for online error detection and recovery in multicore processors",
+                "year": 2011,
+                "venue": "Design, Automation and Test in Europe",
+                "citation_count": 138,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1718647",
+                        "name": "D. Gizopoulos"
+                    },
+                    {
+                        "s2_author_id": "1751430",
+                        "name": "M. Psarakis"
+                    },
+                    {
+                        "s2_author_id": "3196444",
+                        "name": "S. Adve"
+                    },
+                    {
+                        "s2_author_id": "2256065",
+                        "name": "Pradeep Ramachandran"
+                    },
+                    {
+                        "s2_author_id": "2708722",
+                        "name": "S. Hari"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2052990687",
+                        "name": "Arijit Biswas"
+                    },
+                    {
+                        "s2_author_id": "144683161",
+                        "name": "X. Vera"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "41e60285311a86c144dea2f786ba5dd4925af133",
+                "title": "Address Translation Aware Memory Consistency",
+                "year": 2011,
+                "venue": "IEEE Micro",
+                "citation_count": 8,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2272847",
+                        "name": "Bogdan F. Romanescu"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55f63ada96910564223dcbf7691f2eb5bfae9db0",
+                "title": "An FPGA-based experimental evaluation of microprocessor core error detection with Argus-2",
+                "year": 2011,
+                "venue": "PERV",
+                "citation_count": 0,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2329987",
+                        "name": "Patrick J. Eibl"
+                    },
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f48807d34253b5bc85b6840ebf1816d6250ae0ae",
+                "title": "An FPGA-based experimental evaluation of microprocessor core error detection with Argus-2",
+                "year": 2011,
+                "venue": "Measurement and Modeling of Computer Systems",
+                "citation_count": 2,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2329987",
+                        "name": "Patrick J. Eibl"
+                    },
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "15bb80d7f7d5a76ba0955e2a1a7b79852ca89509",
+                "title": "Fractal Consistency: Architecting the Memory System to Facilitate Verification",
+                "year": 2010,
+                "venue": "IEEE computer architecture letters",
+                "citation_count": 3,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": null,
+                        "name": "Meng Zhang"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3142f44d2ab6153f9eb263f78fb6e09411c482ec",
+                "title": "UNified Instruction/Translation/Data (UNITD) coherence: One protocol to rule them all",
+                "year": 2010,
+                "venue": "International Symposium on High-Performance Computer Architecture",
+                "citation_count": 63,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2272847",
+                        "name": "Bogdan F. Romanescu"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2081697",
+                        "name": "Anne Bracy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5fbb927be7922baed41bed41c8fefa15a7051d71",
+                "title": "Fractal Coherence: Scalably Verifiable Cache Coherence",
+                "year": 2010,
+                "venue": "Micro",
+                "citation_count": 64,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": null,
+                        "name": "Meng Zhang"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7ba0140c69146f6d02707586f1339c18f4585380",
+                "title": "Technology impacts of cmos scaling on microprocessor core design for hard-fault tolerance in single-core applications and optimized throughput in throughput-oriented chip multiprocessors",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 81,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "32632773",
+                        "name": "Fred A. Bower"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ad9bb350387cfab4ebe522c9d709a4dbf62f061e",
+                "title": "Argus-G: A Low-Cost Error Detection Scheme for GPGPUs",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34488952",
+                        "name": "Ralph Nathan"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e8896aa5d770156758189bab6933c7f0b8535ccc",
+                "title": "Specifying and dynamically verifying address translation-aware memory consistency",
+                "year": 2010,
+                "venue": "ASPLOS XV",
+                "citation_count": 27,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2272847",
+                        "name": "Bogdan F. Romanescu"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0732544cb9d789baa7c155ef564e4fad846e5470",
+                "title": "Analyzing Formal Verification and Testing Efforts of Different Fault Tolerance Mechanisms",
+                "year": 2009,
+                "venue": "2009 24th IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems",
+                "citation_count": 5,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": null,
+                        "name": "Meng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2068452295",
+                        "name": "Anita Lungu"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "49300e3de6b148a27e13754ee7fd388b4966fde3",
+                "title": "Dynamic power gating with quality guarantees",
+                "year": 2009,
+                "venue": "International Symposium on Low Power Electronics and Design",
+                "citation_count": 86,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2068452295",
+                        "name": "Anita Lungu"
+                    },
+                    {
+                        "s2_author_id": "144435718",
+                        "name": "P. Bose"
+                    },
+                    {
+                        "s2_author_id": "2997406",
+                        "name": "A. Buyuktosunoglu"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "775028ff07f2a1f7d5c8e03dd1271fa090d7be52",
+                "title": "Multicore power management: Ensuring robustness via early-stage formal verification",
+                "year": 2009,
+                "venue": "2009 7th IEEE/ACM International Conference on Formal Methods and Models for Co-Design",
+                "citation_count": 38,
+                "reference_count": 79,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2068452295",
+                        "name": "Anita Lungu"
+                    },
+                    {
+                        "s2_author_id": "144435718",
+                        "name": "P. Bose"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2044250",
+                        "name": "S. German"
+                    },
+                    {
+                        "s2_author_id": "40008827",
+                        "name": "G. Janssen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8eba41589e8580b49efc26a237962a7a8d6ebdcf",
+                "title": "SYNTHESIS AND STRUCTURE OF 2-ETHYL-2-OXAZOLINE MACROMONOMERS WITH STYRYL END-GROUPS",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "35016409",
+                        "name": "V. Jerca"
+                    },
+                    {
+                        "s2_author_id": "74133475",
+                        "name": "F. Nicolescu"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "120100307",
+                        "name": "Vasilescu"
+                    },
+                    {
+                        "s2_author_id": "94411382",
+                        "name": "A. Albu"
+                    },
+                    {
+                        "s2_author_id": "32549941",
+                        "name": "D. Vuluga"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b5a21402f753f46fd2ffe46e55900c923ccb7f3d",
+                "title": "Reduced Precision Checking for a Floating Point Adder",
+                "year": 2009,
+                "venue": "2009 24th IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems",
+                "citation_count": 20,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2329987",
+                        "name": "Patrick J. Eibl"
+                    },
+                    {
+                        "s2_author_id": "2070659868",
+                        "name": "Andrew D. Cook"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b5a5aab2012d059f18871c3904ccdf80787ebe31",
+                "title": "Proving the Completeness of the Composition of Two Dynamic Verification Techniques",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "152209429",
+                        "name": "M. Bauer"
+                    },
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bc4a4e1f3d2425b2a2fce642972a70d3b250d2a7",
+                "title": "Fault Tolerant Computer Architecture",
+                "year": 2009,
+                "venue": "Fault Tolerant Computer Architecture",
+                "citation_count": 109,
+                "reference_count": 172,
+                "abstract": "For many years, most computer architects have pursued one primary goal: performance. Architects have translated the ever-increasing abundance of ever-faster transistors provided by Moore's law into remarkable increases in performance. Recently, however, the bounty provided by Moore's law has been accompanied by several challenges that have arisen as devices have become smaller, including a decrease in dependability due to physical faults. In this book, we focus on the dependability challenge and the fault tolerance solutions that architects are developing to overcome it. The two main purposes of this book are to explore the key ideas in fault-tolerant computer architecture and to present the current state-of-the-art - over approximately the past 10 years - in academia and industry. Table of Contents: Introduction / Error Detection / Error Recovery / Diagnosis / Self-Repair / The Future",
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ebb821a6fff7905ea57d8e0be0a2c729628f13d4",
+                "title": "Dynamic Verification of Memory Consistency in Cache-Coherent Multithreaded Computer Architectures",
+                "year": 2009,
+                "venue": "IEEE Transactions on Dependable and Secure Computing",
+                "citation_count": 36,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3267a57d89e84f87af52d7539b8bf43bf7066685",
+                "title": "Core Cannibalization Architecture: Improving lifetime chip performance for multicore processors in the presence of hard faults",
+                "year": 2008,
+                "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+                "citation_count": 98,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2272847",
+                        "name": "Bogdan F. Romanescu"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7a5e0d811f3d72f8bf904814f76a6cf7e3383348",
+                "title": "The Impact of Dynamically Heterogeneous Multicore Processors on Thread Scheduling",
+                "year": 2008,
+                "venue": "IEEE Micro",
+                "citation_count": 77,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32632773",
+                        "name": "Fred A. Bower"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2554943",
+                        "name": "Landon P. Cox"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a2cd40b6d3716d262639c3dd3d27eb0ff8cd1024",
+                "title": "Argus: Low-Cost, Comprehensive Error Detection in Simple Cores",
+                "year": 2008,
+                "venue": "IEEE Micro",
+                "citation_count": 39,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "152209429",
+                        "name": "M. Bauer"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d3ca4145bd84d983c6732a354bdb4800ae47cea1",
+                "title": "Detouring: Translating software to circumvent hard faults in simple cores",
+                "year": 2008,
+                "venue": "Dependable Systems and Networks",
+                "citation_count": 68,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d5b0dfe0bc9b2f79d3bf462bad776d1d816d307d",
+                "title": "Low-cost methods for error detection in multi-core systems",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 72,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "df2485f457d0ff1fb83a826eb84d87f445767cfc",
+                "title": "Reducing the impact of intra-core process variability with criticality-based resource allocation and prefetching",
+                "year": 2008,
+                "venue": "ACM International Conference on Computing Frontiers",
+                "citation_count": 18,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2272847",
+                        "name": "Bogdan F. Romanescu"
+                    },
+                    {
+                        "s2_author_id": "152209429",
+                        "name": "M. Bauer"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e469bc6184e36c8f3eb3982db7d1c97132cbf224",
+                "title": "IOTA: Detecting Erroneous I/O Behavior via I/O Transaction Auditing",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08323c3940c390f68362deff08bb586f2bf40f2c",
+                "title": "Lazy Error Detection for Microprocessor Functional Units",
+                "year": 2007,
+                "venue": "IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems",
+                "citation_count": 21,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144258823",
+                        "name": "Mahmut Yilmaz"
+                    },
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0cb373cddbe228388277c204da57e04867f258bc",
+                "title": "Unified microprocessor core storage",
+                "year": 2007,
+                "venue": "ACM International Conference on Computing Frontiers",
+                "citation_count": 7,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "104a7b9298a45d105215e72e8dd6598957bcd9b8",
+                "title": "Low-cost run-time diagnosis of hard delay faults in the functional units of a microprocessor",
+                "year": 2007,
+                "venue": "ICCD",
+                "citation_count": 6,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "144258823",
+                        "name": "Mahmut Yilmaz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2907a0921f13b07307ecf25fea70991fba91ef78",
+                "title": "A Case for Computer Architecture Performance Metrics that Reflect Process Variability",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2272847",
+                        "name": "Bogdan F. Romanescu"
+                    },
+                    {
+                        "s2_author_id": "152209429",
+                        "name": "M. Bauer"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    },
+                    {
+                        "s2_author_id": "2069778585",
+                        "name": "sule sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "42e5608a9c83f221dbf0a28188fd5cea98d9b61a",
+                "title": "Fault Tolerant Microprocessors for Space Missions",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "43c6ff4fdad45c4786b99bf50bacf7fc60f68d16",
+                "title": "Error Detection via Online Checking of Cache Coherence with Token Coherence Signatures",
+                "year": 2007,
+                "venue": "2007 IEEE 13th International Symposium on High Performance Computer Architecture",
+                "citation_count": 33,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "44e38b8d6a4b119fcbcb242b7b7048e657741f79",
+                "title": "Error Detection Using Dynamic Dataflow Verification",
+                "year": 2007,
+                "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+                "citation_count": 46,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7171b76b6dcd912b4ed2c5c7f2436afe231466d9",
+                "title": "Unified Microprocessor Core Storage",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "959a35a66dc43fafa147dc9979bd39bc40f24083",
+                "title": "VariaSim: simulating circuits and systems in the presence of process variability",
+                "year": 2007,
+                "venue": "CARN",
+                "citation_count": 6,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2272847",
+                        "name": "Bogdan F. Romanescu"
+                    },
+                    {
+                        "s2_author_id": "152209429",
+                        "name": "M. Bauer"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a25546eb197519885fd73c4c907fed00c86cc422",
+                "title": "Argus: Low-Cost, Comprehensive Error Detection in Simple Cores",
+                "year": 2007,
+                "venue": "Micro",
+                "citation_count": 253,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "152209429",
+                        "name": "M. Bauer"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab8387ee3553190fb4502565b21252c082d44b67",
+                "title": "Online diagnosis of hard faults in microprocessors",
+                "year": 2007,
+                "venue": "TACO",
+                "citation_count": 30,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32632773",
+                        "name": "Fred A. Bower"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b5ea6055dc33e7a1639723b141a0e57f4390789e",
+                "title": "Verification-Aware Microprocessor Design",
+                "year": 2007,
+                "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+                "citation_count": 14,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2068452295",
+                        "name": "Anita Lungu"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec4ef73749a04739aba469d0d91fe8dfbb11cf91",
+                "title": "Reducing the Impact of Process Variability with Prefetching and Criticality-Based Resource Allocation",
+                "year": 2007,
+                "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+                "citation_count": 10,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2272847",
+                        "name": "Bogdan F. Romanescu"
+                    },
+                    {
+                        "s2_author_id": "152209429",
+                        "name": "M. Bauer"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "216c633a00378713c73cd8986d15e14be36ac6df",
+                "title": "NANA",
+                "year": 2006,
+                "venue": "ACM Journal on Emerging Technologies in Computing Systems",
+                "citation_count": 43,
+                "reference_count": 74,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3103094",
+                        "name": "Jaidev P. Patwardhan"
+                    },
+                    {
+                        "s2_author_id": "2575400",
+                        "name": "C. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3053acea5afee2e9a003fd45d9275546362046cd",
+                "title": "Self-Checking and Self-Diagnosing 32-bit Microprocessor Multiplier",
+                "year": 2006,
+                "venue": "2006 IEEE International Test Conference",
+                "citation_count": 20,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144258823",
+                        "name": "Mahmut Yilmaz"
+                    },
+                    {
+                        "s2_author_id": "2160733",
+                        "name": "Derek Hower"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6c84c994d17dc80dddb2b0cefeee60411599ca1a",
+                "title": "Choosing an Error Protection Scheme for a Microprocessor's L1 Data Cache",
+                "year": 2006,
+                "venue": "ICCD",
+                "citation_count": 61,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49106182",
+                        "name": "Nathan Sadler"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7ca6d0978c50de5d13ca90a761cd802d6b555c21",
+                "title": "Applying architectural vulnerability Analysis to hard faults in the microprocessor",
+                "year": 2006,
+                "venue": "SIGMETRICS '06/Performance '06",
+                "citation_count": 10,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32632773",
+                        "name": "Fred A. Bower"
+                    },
+                    {
+                        "s2_author_id": "2160733",
+                        "name": "Derek Hower"
+                    },
+                    {
+                        "s2_author_id": "144258823",
+                        "name": "Mahmut Yilmaz"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8122579ce8164014b9840dc1ee0ee3e4bdf620c8",
+                "title": "Comprehensive Detection of Hardware Errors in Commodity Multithreaded Architectures",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "88c73ffb09ccb8790c495a92b0fc20b373996238",
+                "title": "Autonomic Computing via Dynamic Self-Repair of Hardware Faults",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9a42a476e793f1f07005ace8ae990f9e48883092",
+                "title": "Quantifying the Impact of Process Variability on Microprocessor Behavior",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 18,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2272847",
+                        "name": "Bogdan F. Romanescu"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d0508a64c8c34edf90d89463fdd36be8adfa8213",
+                "title": "Spin detection hardware for improved management of multithreaded systems",
+                "year": 2006,
+                "venue": "IEEE Transactions on Parallel and Distributed Systems",
+                "citation_count": 39,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115464149",
+                        "name": "Tong Li"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "06482dea3d8a0df60a35b29db2dba636125e36a9",
+                "title": "Circuit-level modeling for concurrent testing of operational defects due to gate oxide breakdown",
+                "year": 2005,
+                "venue": "Design, Automation and Test in Europe",
+                "citation_count": 27,
+                "reference_count": 25,
+                "abstract": "As device sizes shrink and current densities increase, the probability of device failures due to gate oxide break-down (OBD) also increases. To provide designs that are tolerant to such failures, we must investigate and understand the manifestations of this physical phenomenon at the circuit and system level. In this paper, we develop a model for operational OBD defects, and we explore how to test for faults due to OBD. For a NAND gate, we derive the necessary input conditions that excite and detect errors due to OBD defects at the gate level. We show that traditional pattern generators fail to exercise all of these defects. Finally, we show that these test patterns can be propagated and justified for a combinational circuit in a manner similar to traditional ATPG.",
+                "authors": [
+                    {
+                        "s2_author_id": "153812429",
+                        "name": "J. Carter"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "49dc03814c171c08331fe9f1afc34a54951ae8e0",
+                "title": "Multifacet's general execution-driven multiprocessor simulator (GEMS) toolset",
+                "year": 2005,
+                "venue": "CARN",
+                "citation_count": 1662,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2825991",
+                        "name": "Bradford M. Beckmann"
+                    },
+                    {
+                        "s2_author_id": "39449078",
+                        "name": "Michael R. Marty"
+                    },
+                    {
+                        "s2_author_id": "2153556197",
+                        "name": "Min Xu"
+                    },
+                    {
+                        "s2_author_id": "1732082",
+                        "name": "Alaa R. Alameldeen"
+                    },
+                    {
+                        "s2_author_id": "2112423146",
+                        "name": "Kevin E. Moore"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "708ed89b0f1990336d53e721b44bdffd6d1f2f12",
+                "title": "Dynamic verification of sequential consistency",
+                "year": 2005,
+                "venue": "International Symposium on Computer Architecture",
+                "citation_count": 44,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "761d95549a9faa37ec366891b8680c4d24b5a524",
+                "title": "Evaluating the Connectivity of Self-Assembled Networks of Nano-scale Processing Elements",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 18,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3103094",
+                        "name": "Jaidev P. Patwardhan"
+                    },
+                    {
+                        "s2_author_id": "2575400",
+                        "name": "C. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "87e8cacd2ad330b90d4312bf417496410cceb5ad",
+                "title": "Pulse: A Dynamic Deadlock Detection Mechanism Using Speculative Execution",
+                "year": 2005,
+                "venue": "USENIX ATC, General Track",
+                "citation_count": 68,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115464149",
+                        "name": "Tong Li"
+                    },
+                    {
+                        "s2_author_id": "1743503",
+                        "name": "C. Ellis"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "88d069c50d5a162003070cd0beb4c143a4018f18",
+                "title": "Self-assembled architectures and the temporal aspects of computing",
+                "year": 2005,
+                "venue": "Computer",
+                "citation_count": 13,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2575400",
+                        "name": "C. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8c0f264e86c233f0b4d017ebca44b35ef324a9c8",
+                "title": "A mechanism for online diagnosis of hard faults in microprocessors",
+                "year": 2005,
+                "venue": "Micro",
+                "citation_count": 116,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32632773",
+                        "name": "Fred A. Bower"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c834a1ff2f3267b6b4970eab726335cd0cb03da5",
+                "title": "Self-monitoring of thread interactions for improved resource management in multithreaded systems",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 66,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115464149",
+                        "name": "Tong Li"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "feb4ed58d4d5de03d814546aadf999fb8e1c4f74",
+                "title": "Autonomic microprocessor execution via self-repairing arrays",
+                "year": 2005,
+                "venue": "IEEE Transactions on Dependable and Secure Computing",
+                "citation_count": 9,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32632773",
+                        "name": "Fred A. Bower"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "03a055b6d8d40e645f65970da2858f43de3ff406",
+                "title": "Tolerating hard faults in microprocessor array structures",
+                "year": 2004,
+                "venue": "International Conference on Dependable Systems and Networks, 2004",
+                "citation_count": 105,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32632773",
+                        "name": "Fred A. Bower"
+                    },
+                    {
+                        "s2_author_id": "2553807",
+                        "name": "Paul G. Shealy"
+                    },
+                    {
+                        "s2_author_id": "2125414",
+                        "name": "S. Ozev"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a4836a47f3583f1e72e2ef61d9b025b59da8877",
+                "title": "Using speculation to simplify multiprocessor design",
+                "year": 2004,
+                "venue": "18th International Parallel and Distributed Processing Symposium, 2004. Proceedings.",
+                "citation_count": 3,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "171ae3a46d8da88f2250edf75c45bdb64563b0a4",
+                "title": "Design tools for a DNA-guided self-assembling carbon nanotube technology",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 42,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2575400",
+                        "name": "C. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "2101144",
+                        "name": "Vijeta Johri"
+                    },
+                    {
+                        "s2_author_id": "143831191",
+                        "name": "M. Cheung"
+                    },
+                    {
+                        "s2_author_id": "3103094",
+                        "name": "Jaidev P. Patwardhan"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1fac12b4717477e40c90f19094a03d9f50d51ae5",
+                "title": "Breakdown : Analyzing CPU Usage in Commercial Web Workloads",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3103094",
+                        "name": "Jaidev P. Patwardhan"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2264077851",
+                        "name": "alvy jaidev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c5e2ec2d1aacfeabc2503dd4d26fd3c713c70d7",
+                "title": "Communication breakdown: analyzing CPU usage in commercial Web workloads",
+                "year": 2004,
+                "venue": "IEEE International Symposium on - ISPASS Performance Analysis of Systems and Software, 2004",
+                "citation_count": 19,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3103094",
+                        "name": "Jaidev P. Patwardhan"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7769c7a9686b742cbad74b383d2fbfe09100ac69",
+                "title": "Clouseau: Probabilistic Dynamic Verification of Multithreaded Memory Systems",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39706376",
+                        "name": "Albert Meixner"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "847478c41706d06b400cefc62c9c33990fc03104",
+                "title": "Semi-empirical SPICE models for carbon nanotube FET logic",
+                "year": 2004,
+                "venue": "4th IEEE Conference on Nanotechnology, 2004.",
+                "citation_count": 81,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2247331830",
+                        "name": "Chris Dwyer"
+                    },
+                    {
+                        "s2_author_id": "2247368137",
+                        "name": "Moky Cheung"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "87d8518eb65b64bccb2c042146abc503788d3556",
+                "title": "Exploring Availability and Usage Guarantees in Resource Allocation Through Leases",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2757324",
+                        "name": "Sara Sprenkle"
+                    },
+                    {
+                        "s2_author_id": "1767703",
+                        "name": "J. Chase"
+                    },
+                    {
+                        "s2_author_id": "1743503",
+                        "name": "C. Ellis"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a0f8c5c05ffb4607d8498a9386b2f2a7de030107",
+                "title": "Circuit and System Architecture for DNA-Guided Self-Assembly of Nanoelectronics",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 39,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3103094",
+                        "name": "Jaidev P. Patwardhan"
+                    },
+                    {
+                        "s2_author_id": "2575400",
+                        "name": "C. Dwyer"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55abd974b50c0cc5c455ff86eaadb192a3152d71",
+                "title": "Dynamic verification of end-to-end multiprocessor invariants",
+                "year": 2003,
+                "venue": "2003 International Conference on Dependable Systems and Networks, 2003. Proceedings.",
+                "citation_count": 27,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "671c374dc069b79be742a2029205d232d8d92e63",
+                "title": "Analytic Evaluation of Shared-Memory Architectures",
+                "year": 2003,
+                "venue": "IEEE Trans. Parallel Distributed Syst.",
+                "citation_count": 12,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "18389652",
+                        "name": "Jonathan Lemon"
+                    },
+                    {
+                        "s2_author_id": "1736203",
+                        "name": "D. Eager"
+                    },
+                    {
+                        "s2_author_id": "1750951",
+                        "name": "M. Vernon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8d15d6c70365febf5af96dd831499806acc193c4",
+                "title": "Analytic Evaluation of",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "18389652",
+                        "name": "Jonathan Lemon"
+                    },
+                    {
+                        "s2_author_id": "1736203",
+                        "name": "D. Eager"
+                    },
+                    {
+                        "s2_author_id": "1750951",
+                        "name": "M. Vernon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8ea16470298ebf07399ddb4edd83eeba7de3aa83",
+                "title": "Quantifying instruction criticality for shared memory multiprocessors",
+                "year": 2003,
+                "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
+                "citation_count": 17,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115464149",
+                        "name": "Tong Li"
+                    },
+                    {
+                        "s2_author_id": "1757774",
+                        "name": "A. Lebeck"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c847a7ec668ffee951360335dfc0a9159479cc27",
+                "title": "Simulating a $2M Commercial Server on a $2K PC",
+                "year": 2003,
+                "venue": "Computer",
+                "citation_count": 49,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1732082",
+                        "name": "Alaa R. Alameldeen"
+                    },
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "1690353",
+                        "name": "Carl J. Mauer"
+                    },
+                    {
+                        "s2_author_id": "2112423146",
+                        "name": "Kevin E. Moore"
+                    },
+                    {
+                        "s2_author_id": "2257169132",
+                        "name": "Min Xu"
+                    },
+                    {
+                        "s2_author_id": "2245051520",
+                        "name": "Mark D. Hill"
+                    },
+                    {
+                        "s2_author_id": "2244974592",
+                        "name": "David A. Wood"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e6bf2da171b56c95c493d4891bfe78569c5794c9",
+                "title": "Analytic Evaluation of Shared-Memory Architectures for Heterogeneous Applications",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "18389652",
+                        "name": "Jonathan Lemon"
+                    },
+                    {
+                        "s2_author_id": "1736203",
+                        "name": "D. Eager"
+                    },
+                    {
+                        "s2_author_id": "1750951",
+                        "name": "M. Vernon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eb1ab459db6b8e594b6b326931da15cdf6a37b28",
+                "title": "Using destination-set prediction to improve the latency/bandwidth tradeoff in shared-memory multiprocessors",
+                "year": 2003,
+                "venue": "30th Annual International Symposium on Computer Architecture, 2003. Proceedings.",
+                "citation_count": 129,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "40464591",
+                        "name": "P. J. Harper"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4a3a13d7da024a37cd88ee9fc0a4e0e0e909211e",
+                "title": "SafetyNet: improving the availability of shared memory multiprocessors with global checkpoint/recovery",
+                "year": 2002,
+                "venue": "Proceedings 29th Annual International Symposium on Computer Architecture",
+                "citation_count": 371,
+                "reference_count": 53,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53cb218f10ece0146604a8eaaeb5705d6228bde6",
+                "title": "Specifying and Verifying a Broadcast and a Multicast Snooping Cache Coherence Protocol",
+                "year": 2002,
+                "venue": "IEEE Trans. Parallel Distributed Syst.",
+                "citation_count": 84,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2114994",
+                        "name": "Manoj Plakal"
+                    },
+                    {
+                        "s2_author_id": "143926762",
+                        "name": "A. Condon"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6dba8a730571c77cdecd4ef2ac1680257a44c153",
+                "title": "Bandwidth adaptive snooping",
+                "year": 2002,
+                "venue": "Proceedings Eighth International Symposium on High Performance Computer Architecture",
+                "citation_count": 66,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f75877ed9cbd68d82150e1ccb379ed8e12483e2c",
+                "title": "Using lightweight checkpoint/recovery to improve the availability and designability of shared memory multiprocessors",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 117,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4af79d9a36822acd37345950940fb66b4fffd401",
+                "title": "Evaluating Non-deterministic Multi-threaded Commercial Workloads",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 80,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1732082",
+                        "name": "Alaa R. Alameldeen"
+                    },
+                    {
+                        "s2_author_id": "1690353",
+                        "name": "Carl J. Mauer"
+                    },
+                    {
+                        "s2_author_id": "2153556197",
+                        "name": "Min Xu"
+                    },
+                    {
+                        "s2_author_id": "40464591",
+                        "name": "P. J. Harper"
+                    },
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4c5b62949bc65d7d8477b1a49e591a562d1c685e",
+                "title": "Correctly implementing value prediction in microprocessors that support multithreading or multiprocessing",
+                "year": 2001,
+                "venue": "Proceedings. 34th ACM/IEEE International Symposium on Microarchitecture. MICRO-34",
+                "citation_count": 64,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "3100338",
+                        "name": "Harold W. Cain"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "1704076",
+                        "name": "Mikko H. Lipasti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e9f056cce7beb09d9c5d852f3ea23d88d870fd7",
+                "title": "AMVA techniques for high service time variability",
+                "year": 2000,
+                "venue": "Measurement and Modeling of Computer Systems",
+                "citation_count": 26,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1736203",
+                        "name": "D. Eager"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "1750951",
+                        "name": "M. Vernon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75fc99cbe59005d4068c3253aa6d4e472721a6f6",
+                "title": "Timestamp snooping: an approach for extending SMPs",
+                "year": 2000,
+                "venue": "SIGP",
+                "citation_count": 50,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "51886548",
+                        "name": "A. Ailamaki"
+                    },
+                    {
+                        "s2_author_id": "1732082",
+                        "name": "Alaa R. Alameldeen"
+                    },
+                    {
+                        "s2_author_id": "50130788",
+                        "name": "R. M. Dickson"
+                    },
+                    {
+                        "s2_author_id": "1690353",
+                        "name": "Carl J. Mauer"
+                    },
+                    {
+                        "s2_author_id": "2112423146",
+                        "name": "Kevin E. Moore"
+                    },
+                    {
+                        "s2_author_id": "2114994",
+                        "name": "Manoj Plakal"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e990e7759f0ee00d0504f9bdfb93b7c07c8f1ca5",
+                "title": "Timestamp snooping: an approach for extending SMPs",
+                "year": 2000,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 35,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110607721",
+                        "name": "Milo M. K. Martin"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "1728318",
+                        "name": "A. Ailamaki"
+                    },
+                    {
+                        "s2_author_id": "1732082",
+                        "name": "Alaa R. Alameldeen"
+                    },
+                    {
+                        "s2_author_id": "50130788",
+                        "name": "R. M. Dickson"
+                    },
+                    {
+                        "s2_author_id": "1690353",
+                        "name": "Carl J. Mauer"
+                    },
+                    {
+                        "s2_author_id": "2112423146",
+                        "name": "Kevin E. Moore"
+                    },
+                    {
+                        "s2_author_id": "2114994",
+                        "name": "Manoj Plakal"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "17ca26f6a896909b3bc43e751b934a08bcaab238",
+                "title": "A system-level specification framework for I/O architectures",
+                "year": 1999,
+                "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
+                "citation_count": 10,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "143926762",
+                        "name": "A. Condon"
+                    },
+                    {
+                        "s2_author_id": "2114994",
+                        "name": "Manoj Plakal"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "426b6481896fc4027bc303bd4b0e802f1ea84d6f",
+                "title": "Lamport Clocks: Reasoning About Shared Memory Correctness1",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "2114994",
+                        "name": "Manoj Plakal"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "143926762",
+                        "name": "A. Condon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8d797eb483649ff145e58b2e49d43d1b0a0d4828",
+                "title": "Using Lamport clocks to reason about relaxed memory models",
+                "year": 1999,
+                "venue": "Proceedings Fifth International Symposium on High-Performance Computer Architecture",
+                "citation_count": 38,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143926762",
+                        "name": "A. Condon"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "2114994",
+                        "name": "Manoj Plakal"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a34ffe3eee8d95642e2e844e5bd5e290922cf682",
+                "title": "Preliminary Draft of SPAA \u2019 99 Submission A System-Level Specification Framework for I / O Ar chitectures 1",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "143926762",
+                        "name": "A. Condon"
+                    },
+                    {
+                        "s2_author_id": "2114994",
+                        "name": "Manoj Plakal"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b1dff4ba90f8ae1ca9550b184efff482212c4b64",
+                "title": "Multicast snooping: a new coherence method using a multicast address network",
+                "year": 1999,
+                "venue": "Proceedings of the 26th International Symposium on Computer Architecture (Cat. No.99CB36367)",
+                "citation_count": 105,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2229733223",
+                        "name": "Ender Bilir"
+                    },
+                    {
+                        "s2_author_id": "2230639294",
+                        "name": "Ross Dic kson"
+                    },
+                    {
+                        "s2_author_id": "2149295822",
+                        "name": "Ying Hu"
+                    },
+                    {
+                        "s2_author_id": "2114994",
+                        "name": "Manoj Plakal"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    },
+                    {
+                        "s2_author_id": "2228646003",
+                        "name": "Da vid Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05fe012a72968b34a241d73be37e3ceff8d40066",
+                "title": "Analytic evaluation of shared-memory systems with ILP processors",
+                "year": 1998,
+                "venue": "Proceedings. 25th Annual International Symposium on Computer Architecture (Cat. No.98CB36235)",
+                "citation_count": 114,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "3053101",
+                        "name": "Vijay S. Pai"
+                    },
+                    {
+                        "s2_author_id": "3196444",
+                        "name": "S. Adve"
+                    },
+                    {
+                        "s2_author_id": "1750951",
+                        "name": "M. Vernon"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "86b1880c12bcf99a2dc6bee505f3af389767f156",
+                "title": "A Customized MVA Model for ILP Multiprocessors",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "1750951",
+                        "name": "M. Vernon"
+                    },
+                    {
+                        "s2_author_id": "3053101",
+                        "name": "Vijay S. Pai"
+                    },
+                    {
+                        "s2_author_id": "3196444",
+                        "name": "S. Adve"
+                    },
+                    {
+                        "s2_author_id": "145345545",
+                        "name": "D. Wood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ba2076357f50d081aa763627e3cfaa2955ff1ee9",
+                "title": "Lamport clocks: verifying a directory cache-coherence protocol",
+                "year": 1998,
+                "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
+                "citation_count": 82,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2114994",
+                        "name": "Manoj Plakal"
+                    },
+                    {
+                        "s2_author_id": "2172933",
+                        "name": "Daniel J. Sorin"
+                    },
+                    {
+                        "s2_author_id": "143926762",
+                        "name": "A. Condon"
+                    },
+                    {
+                        "s2_author_id": "144888943",
+                        "name": "M. Hill"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "40930669",
+                "name": "Nicolai Oswald"
+            },
+            {
+                "s2_author_id": "144781996",
+                "name": "V. Nagarajan"
+            },
+            {
+                "s2_author_id": "40927677",
+                "name": "Vasilis Gavrielatos"
+            },
+            {
+                "s2_author_id": "1689656957",
+                "name": "Theo X. Olausson"
+            },
+            {
+                "s2_author_id": "2165574890",
+                "name": "Reece Carr"
+            },
+            {
+                "s2_author_id": "2061456212",
+                "name": "Atefeh Mehrabi"
+            },
+            {
+                "s2_author_id": "2110173602",
+                "name": "Benjamin C. Lee"
+            },
+            {
+                "s2_author_id": "48893570",
+                "name": "Donghyuk Lee"
+            },
+            {
+                "s2_author_id": "48930807",
+                "name": "Niladrish Chatterjee"
+            },
+            {
+                "s2_author_id": "152840677",
+                "name": "Benjamin C. Lee"
+            },
+            {
+                "s2_author_id": "1397041984",
+                "name": "Mike O'Connor"
+            },
+            {
+                "s2_author_id": "2276061672",
+                "name": "Vijay Nagarajan"
+            },
+            {
+                "s2_author_id": "144888943",
+                "name": "M. Hill"
+            },
+            {
+                "s2_author_id": "145345545",
+                "name": "D. Wood"
+            },
+            {
+                "s2_author_id": "2071824505",
+                "name": "Samantha Archer"
+            },
+            {
+                "s2_author_id": "2154507",
+                "name": "Georgios Mappouras"
+            },
+            {
+                "s2_author_id": "120874496",
+                "name": "R. Calderbank"
+            },
+            {
+                "s2_author_id": "2059327142",
+                "name": "S. Murray"
+            },
+            {
+                "s2_author_id": "1765407",
+                "name": "G. Konidaris"
+            },
+            {
+                "s2_author_id": "1647009610",
+                "name": "Aninda Manocha"
+            },
+            {
+                "s2_author_id": "1710373",
+                "name": "Alireza Vahid"
+            },
+            {
+                "s2_author_id": "1412373341",
+                "name": "Will Floyd-Jones"
+            },
+            {
+                "s2_author_id": "144003731",
+                "name": "A. Calderbank"
+            },
+            {
+                "s2_author_id": "2160733",
+                "name": "Derek Hower"
+            },
+            {
+                "s2_author_id": "50760849",
+                "name": "Opeoluwa Matthews"
+            },
+            {
+                "s2_author_id": "2114758674",
+                "name": "Y. Qi"
+            },
+            {
+                "s2_author_id": "2110607721",
+                "name": "Milo M. K. Martin"
+            },
+            {
+                "s2_author_id": "143704650",
+                "name": "D. Popovici"
+            },
+            {
+                "s2_author_id": "1922722",
+                "name": "S. Vlad"
+            },
+            {
+                "s2_author_id": "2316152872",
+                "name": "I. Stoica"
+            },
+            {
+                "s2_author_id": "120100307",
+                "name": "Vasilescu"
+            },
+            {
+                "s2_author_id": "2117779",
+                "name": "Jesse D. Bingham"
+            },
+            {
+                "s2_author_id": "34488952",
+                "name": "Ralph Nathan"
+            },
+            {
+                "s2_author_id": "144526841",
+                "name": "Helia Naeimi"
+            },
+            {
+                "s2_author_id": "3155819",
+                "name": "Xiaobai Sun"
+            },
+            {
+                "s2_author_id": "1722763",
+                "name": "D. Abts"
+            },
+            {
+                "s2_author_id": "2872200",
+                "name": "Philip M. Wells"
+            },
+            {
+                "s2_author_id": "1902845",
+                "name": "Peter Klausler"
+            },
+            {
+                "s2_author_id": "2118902690",
+                "name": "Hong Liu"
+            },
+            {
+                "s2_author_id": "1732082",
+                "name": "Alaa R. Alameldeen"
+            },
+            {
+                "s2_author_id": "1690353",
+                "name": "Carl J. Mauer"
+            },
+            {
+                "s2_author_id": "2112423146",
+                "name": "Kevin E. Moore"
+            },
+            {
+                "s2_author_id": "105063063",
+                "name": "Min Xu"
+            },
+            {
+                "s2_author_id": "144970834",
+                "name": "D. Mark"
+            },
+            {
+                "s2_author_id": "2062113263",
+                "name": "Hill"
+            },
+            {
+                "s2_author_id": "2615094",
+                "name": "V. Vi\u00f1als"
+            },
+            {
+                "s2_author_id": "3090777",
+                "name": "J. Llaber\u00eda"
+            },
+            {
+                "s2_author_id": "3135881",
+                "name": "Blake A. Hechtman"
+            },
+            {
+                "s2_author_id": "3195373",
+                "name": "Andrew D. Hilton"
+            },
+            {
+                "s2_author_id": "2634399",
+                "name": "Adam N. Jacobvitz"
+            },
+            {
+                "s2_author_id": "49961426",
+                "name": "A. Eslami"
+            },
+            {
+                "s2_author_id": "40041420",
+                "name": "Alfredo J. Velasco"
+            },
+            {
+                "s2_author_id": "2286260125",
+                "name": "Meng Zhang"
+            },
+            {
+                "s2_author_id": "2285799612",
+                "name": "Jesse D. Bingham"
+            },
+            {
+                "s2_author_id": "2285826019",
+                "name": "John Erickson"
+            },
+            {
+                "s2_author_id": "49889441",
+                "name": "Yaqi Zhang"
+            },
+            {
+                "s2_author_id": "2390375119",
+                "name": "Duke"
+            },
+            {
+                "s2_author_id": "2054916717",
+                "name": "John Erickson"
+            },
+            {
+                "s2_author_id": "2073606379",
+                "name": "Bryan Anthonio"
+            },
+            {
+                "s2_author_id": "153062046",
+                "name": "Shih-Lien Lu"
+            },
+            {
+                "s2_author_id": "2057175184",
+                "name": "John S. Ingalls"
+            },
+            {
+                "s2_author_id": "2329987",
+                "name": "Patrick J. Eibl"
+            },
+            {
+                "s2_author_id": "70346155",
+                "name": "Michael R. Ansel"
+            },
+            {
+                "s2_author_id": "38703611",
+                "name": "K. Seetharam"
+            },
+            {
+                "s2_author_id": "1920740",
+                "name": "Lance Ong-Siong Co Ting Keh"
+            },
+            {
+                "s2_author_id": "2245051520",
+                "name": "Mark D. Hill"
+            },
+            {
+                "s2_author_id": "2244974592",
+                "name": "David A. Wood"
+            },
+            {
+                "s2_author_id": "1718647",
+                "name": "D. Gizopoulos"
+            },
+            {
+                "s2_author_id": "1751430",
+                "name": "M. Psarakis"
+            },
+            {
+                "s2_author_id": "3196444",
+                "name": "S. Adve"
+            },
+            {
+                "s2_author_id": "2256065",
+                "name": "Pradeep Ramachandran"
+            },
+            {
+                "s2_author_id": "2708722",
+                "name": "S. Hari"
+            },
+            {
+                "s2_author_id": "39706376",
+                "name": "Albert Meixner"
+            },
+            {
+                "s2_author_id": "2052990687",
+                "name": "Arijit Biswas"
+            },
+            {
+                "s2_author_id": "144683161",
+                "name": "X. Vera"
+            },
+            {
+                "s2_author_id": "2272847",
+                "name": "Bogdan F. Romanescu"
+            },
+            {
+                "s2_author_id": "1757774",
+                "name": "A. Lebeck"
+            },
+            {
+                "s2_author_id": "2081697",
+                "name": "Anne Bracy"
+            },
+            {
+                "s2_author_id": "32632773",
+                "name": "Fred A. Bower"
+            },
+            {
+                "s2_author_id": "2068452295",
+                "name": "Anita Lungu"
+            },
+            {
+                "s2_author_id": "144435718",
+                "name": "P. Bose"
+            },
+            {
+                "s2_author_id": "2997406",
+                "name": "A. Buyuktosunoglu"
+            },
+            {
+                "s2_author_id": "2044250",
+                "name": "S. German"
+            },
+            {
+                "s2_author_id": "40008827",
+                "name": "G. Janssen"
+            },
+            {
+                "s2_author_id": "35016409",
+                "name": "V. Jerca"
+            },
+            {
+                "s2_author_id": "74133475",
+                "name": "F. Nicolescu"
+            },
+            {
+                "s2_author_id": "94411382",
+                "name": "A. Albu"
+            },
+            {
+                "s2_author_id": "32549941",
+                "name": "D. Vuluga"
+            },
+            {
+                "s2_author_id": "2070659868",
+                "name": "Andrew D. Cook"
+            },
+            {
+                "s2_author_id": "152209429",
+                "name": "M. Bauer"
+            },
+            {
+                "s2_author_id": "2554943",
+                "name": "Landon P. Cox"
+            },
+            {
+                "s2_author_id": "2125414",
+                "name": "S. Ozev"
+            },
+            {
+                "s2_author_id": "144258823",
+                "name": "Mahmut Yilmaz"
+            },
+            {
+                "s2_author_id": "2069778585",
+                "name": "sule sorin"
+            },
+            {
+                "s2_author_id": "3103094",
+                "name": "Jaidev P. Patwardhan"
+            },
+            {
+                "s2_author_id": "2575400",
+                "name": "C. Dwyer"
+            },
+            {
+                "s2_author_id": "49106182",
+                "name": "Nathan Sadler"
+            },
+            {
+                "s2_author_id": "2115464149",
+                "name": "Tong Li"
+            },
+            {
+                "s2_author_id": "153812429",
+                "name": "J. Carter"
+            },
+            {
+                "s2_author_id": "2825991",
+                "name": "Bradford M. Beckmann"
+            },
+            {
+                "s2_author_id": "39449078",
+                "name": "Michael R. Marty"
+            },
+            {
+                "s2_author_id": "2153556197",
+                "name": "Min Xu"
+            },
+            {
+                "s2_author_id": "1743503",
+                "name": "C. Ellis"
+            },
+            {
+                "s2_author_id": "2553807",
+                "name": "Paul G. Shealy"
+            },
+            {
+                "s2_author_id": "2101144",
+                "name": "Vijeta Johri"
+            },
+            {
+                "s2_author_id": "143831191",
+                "name": "M. Cheung"
+            },
+            {
+                "s2_author_id": "2264077851",
+                "name": "alvy jaidev"
+            },
+            {
+                "s2_author_id": "2247331830",
+                "name": "Chris Dwyer"
+            },
+            {
+                "s2_author_id": "2247368137",
+                "name": "Moky Cheung"
+            },
+            {
+                "s2_author_id": "2757324",
+                "name": "Sara Sprenkle"
+            },
+            {
+                "s2_author_id": "1767703",
+                "name": "J. Chase"
+            },
+            {
+                "s2_author_id": "18389652",
+                "name": "Jonathan Lemon"
+            },
+            {
+                "s2_author_id": "1736203",
+                "name": "D. Eager"
+            },
+            {
+                "s2_author_id": "1750951",
+                "name": "M. Vernon"
+            },
+            {
+                "s2_author_id": "2257169132",
+                "name": "Min Xu"
+            },
+            {
+                "s2_author_id": "40464591",
+                "name": "P. J. Harper"
+            },
+            {
+                "s2_author_id": "2114994",
+                "name": "Manoj Plakal"
+            },
+            {
+                "s2_author_id": "143926762",
+                "name": "A. Condon"
+            },
+            {
+                "s2_author_id": "3100338",
+                "name": "Harold W. Cain"
+            },
+            {
+                "s2_author_id": "1704076",
+                "name": "Mikko H. Lipasti"
+            },
+            {
+                "s2_author_id": "51886548",
+                "name": "A. Ailamaki"
+            },
+            {
+                "s2_author_id": "50130788",
+                "name": "R. M. Dickson"
+            },
+            {
+                "s2_author_id": "1728318",
+                "name": "A. Ailamaki"
+            },
+            {
+                "s2_author_id": "2229733223",
+                "name": "Ender Bilir"
+            },
+            {
+                "s2_author_id": "2230639294",
+                "name": "Ross Dic kson"
+            },
+            {
+                "s2_author_id": "2149295822",
+                "name": "Ying Hu"
+            },
+            {
+                "s2_author_id": "2228646003",
+                "name": "Da vid Wood"
+            },
+            {
+                "s2_author_id": "3053101",
+                "name": "Vijay S. Pai"
+            }
+        ],
+        "total_co_authors": 128,
+        "papers_retrieved": 138
+    }
+}

@@ -1,0 +1,4310 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000304384",
+        "name": "Zhiling Lan",
+        "primary_affiliation": "University of Illinois at Chicago",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Illinois at Chicago"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "IL"
+        ],
+        "perf_cities": [
+            "CHICAGO"
+        ],
+        "org_names": [
+            "University of Illinois at Chicago"
+        ],
+        "org_ueis": [
+            "W8XEAJDKMXH3"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "zlan@uic.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2515009",
+                "title": "SHF:Small: Beyond Performance: Energy-Conscious High Performance Computing",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-10-01",
+                "exp_date": "2028-09-30",
+                "award_amount": 540000.0,
+                "total_amount": 540000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000311964"
+                ],
+                "program_elements": [
+                    "Software & Hardware Foundation"
+                ],
+                "program_codes": [
+                    "779800"
+                ],
+                "program_references": [
+                    "HIGH-PERFORMANCE COMPUTING",
+                    "SMALL PROJECT"
+                ],
+                "program_ref_codes": [
+                    "7942",
+                    "7923"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Almadena Chtchelkanova",
+                "keywords": [
+                    "performance",
+                    "energy",
+                    "power",
+                    "computing",
+                    "systems",
+                    "heterogeneous",
+                    "application",
+                    "efficiency",
+                    "optimization",
+                    "small"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000311964"
+        ],
+        "program_elements": [
+            "Software & Hardware Foundation"
+        ],
+        "program_codes": [
+            "779800"
+        ],
+        "program_references": [
+            "HIGH-PERFORMANCE COMPUTING",
+            "SMALL PROJECT"
+        ],
+        "program_ref_codes": [
+            "7942",
+            "7923"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Almadena Chtchelkanova"
+        ],
+        "keywords": [
+            "performance",
+            "energy",
+            "power",
+            "computing",
+            "systems",
+            "heterogeneous",
+            "application",
+            "efficiency",
+            "optimization",
+            "small",
+            "conscious",
+            "workloads",
+            "while",
+            "demands",
+            "environmental",
+            "waste",
+            "hardware",
+            "coordination",
+            "develops",
+            "impacts"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.38
+    },
+    "s2_profile": {
+        "s2_author_id": "145502017",
+        "name": "Zhiling Lan",
+        "affiliations": [],
+        "paper_count": 122,
+        "citation_count": 3051,
+        "h_index": 32,
+        "papers": [
+            {
+                "s2_paper_id": "1461b67022443ab2c814d4866111320f3dd454bb",
+                "title": "Workload Interference Prevention with Intelligent Routing and Flexible Job Placement on Dragonfly",
+                "year": 2023,
+                "venue": "SIGSIM Principles of Advanced Discrete Simulation",
+                "citation_count": 6,
+                "reference_count": 40,
+                "abstract": "Dragonfly is an indispensable interconnect topology for exascale HPC systems. To link tens of thousands of compute nodes at a reasonable cost, Dragonfly shares network resources with the entire system such that network bandwidth is not exclusive to any single job. Since HPC systems are usually shared between multiple co-running workloads at the same time, network competition between co-existing workloads is inevitable. This network contention appears as workload interference, where a job\u2019s network communication can be severely delayed by other jobs. Recent studies show that, compared with the deployed adaptive routing algorithms, an intelligent routing solution based on reinforcement learning named Q-adaptive routing can reduce workload interference. In addition to improving routing efficiency, job placement is a simple yet effective method to mitigate workload interference. In this study, we leverage the well-known parallel discrete event simulation toolkit, SST, to investigate workload interference on Dragonfly with three contributions. We first develop an automatic module that serves as the bridge between SST and HPC job scheduler for automatic simulation configuration and automated simulation launching. Next, we propose a flexible job placement strategy that can mitigate workload interference based on workload communication characteristics. Finally, we extensively examine the workload interference under various job placement and routing configurations.",
+                "authors": [
+                    {
+                        "s2_author_id": "1820932488",
+                        "name": "Yao Kang"
+                    },
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52e6cc3c75345108804fecdde1c7e88ec177946d",
+                "title": "Hybrid PDES Simulation of HPC Networks Using Zombie Packets",
+                "year": 2023,
+                "venue": "SIGSIM Principles of Advanced Discrete Simulation",
+                "citation_count": 10,
+                "reference_count": 15,
+                "abstract": "High-fidelity network simulations provide insights into new realms for high-performance computing (HPC) architectures, although at a high cost. Surrogate models offer a significant reduction in runtime, yet they cannot serve as complete replacements and should be only used when appropriate. Thus the need for hybrid modeling, where high-fidelity simulation and surrogates run side-by-side. We present a surrogate model for HPC networks in which packets bypass the network, and the network state itself is suspended when switching to the surrogate. To bypass the network, every packet is scheduled to arrive at a predicted time in the future estimated from historical data; to suspend the network, all in-flight packets are delivered to their destinations, but they are kept in the system to awaken as zombies when switching back to high-fidelity. Speedup for a hybrid model is relative to the proportion of surrogate to high-fidelity. We obtained a 3 \u00d7 speedup for a simulation where 70% of virtual time was spent in surrogate mode. When considering the surrogate portion only, the speedup jumps to nearly 20 \u00d7 on a uniform random network traffic example. The accuracy of the overall simulation increased when the network state was suspended instead of ignored, which demonstrates the need for modeling the network state when transitioning from surrogate back to high-fidelity mode.",
+                "authors": [
+                    {
+                        "s2_author_id": "2009437366",
+                        "name": "Elkin Cruz-Camacho"
+                    },
+                    {
+                        "s2_author_id": "2107195652",
+                        "name": "K. Brown"
+                    },
+                    {
+                        "s2_author_id": "47119537",
+                        "name": "X. Wang"
+                    },
+                    {
+                        "s2_author_id": "2140517981",
+                        "name": "Xiongxiao Xu"
+                    },
+                    {
+                        "s2_author_id": "2218877116",
+                        "name": "Kai Shu"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "145311475",
+                        "name": "R. Ross"
+                    },
+                    {
+                        "s2_author_id": "1759102",
+                        "name": "C. Carothers"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b03163197767ddbc4484fa5d0c29e9c01286d3cd",
+                "title": "Machine Learning for Interconnect Network Traffic Forecasting: Investigation and Exploitation",
+                "year": 2023,
+                "venue": "SIGSIM Principles of Advanced Discrete Simulation",
+                "citation_count": 12,
+                "reference_count": 45,
+                "abstract": "Interconnect networks play a key role in high-performance computing (HPC) systems. Parallel discrete event simulation (PDES) has been a long-standing pillar for studying large-scale networking systems by replicating the real-world behaviors of HPC facilities. However, the simulation requirements and computational complexity of PDES are growing at an intractable rate. An active research topic is to build a surrogate-ready PDES framework where an accurate surrogate model built on machine learning can be used to forecast network traffic for improving PDES. In this paper, we make the first attempt to introduce two representative time series methods, the Autoregressive Integrated Moving Average (ARIMA) and the Adaptive Long Short-Term Memory (ADP-LSTM), to forecast the traffic in interconnect networks, using the Dragonfly system as a representative example. The proposed ADP-LSTM can efficiently adapt to the ever-changing network traffic, facilitating the forecasting capability for intricate network traffic, by incorporating a novel online learning strategy. Our preliminary analysis demonstrates promising results and shows that ADP-LSTM can consistently outperform ARIMA with significantly less time overhead.",
+                "authors": [
+                    {
+                        "s2_author_id": "2140517981",
+                        "name": "Xiongxiao Xu"
+                    },
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "2009437366",
+                        "name": "Elkin Cruz-Camacho"
+                    },
+                    {
+                        "s2_author_id": "2218887029",
+                        "name": "Christopher D. Carothers"
+                    },
+                    {
+                        "s2_author_id": "2134387887",
+                        "name": "Kevin A. Brown"
+                    },
+                    {
+                        "s2_author_id": "2218895186",
+                        "name": "Robert B. Ross"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2218877116",
+                        "name": "Kai Shu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "012ef11373b4c4c4c5aaad1112f56541ad45def1",
+                "title": "Performance and power modeling and prediction using MuMMI and 10 machine learning methods",
+                "year": 2022,
+                "venue": "Concurrency and Computation",
+                "citation_count": 2,
+                "reference_count": 58,
+                "abstract": "Energy\u2010efficient scientific applications require insight into how high performance computing system features impact the applications' power and performance. This insight can result from the development of performance and power models. In this article, we use the modeling and prediction tool MuMMI (Multiple Metrics Modeling Infrastructure) and 10 machine learning methods to model and predict performance and power consumption and compare their prediction error rates. We use an algorithm\u2010based fault\u2010tolerant linear algebra code and a multilevel checkpointing fault\u2010tolerant heat distribution code to conduct our modeling and prediction study on the Cray XC40 Theta and IBM BG/Q Mira at Argonne National Laboratory and the Intel Haswell cluster Shepard at Sandia National Laboratories. Our experimental results show that the prediction error rates in performance and power using MuMMI are less than 10% for most cases. By utilizing the models for runtime, node power, CPU power, and memory power, we identify the most significant performance counters for potential application optimizations, and we predict theoretical outcomes of the optimizations. Based on two collected datasets, we analyze and compare the prediction accuracy in performance and power consumption using MuMMI and 10 machine learning methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "2133039",
+                        "name": "Xingfu Wu"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e9a22488bd872b9f1ee71216e2d6848c266e15d",
+                "title": "DRAS: Deep Reinforcement Learning for Cluster Scheduling in High Performance Computing",
+                "year": 2022,
+                "venue": "IEEE Transactions on Parallel and Distributed Systems",
+                "citation_count": 28,
+                "reference_count": 46,
+                "abstract": "Cluster schedulers are crucial in high-performance computing (HPC). They determine when and which user jobs should be allocated to available system resources. Existing cluster scheduling heuristics are developed by human experts based on their experience with specific HPC systems and workloads. However, the increasing complexity of computing systems and the highly dynamic nature of application workloads have placed tremendous burden on manually designed and tuned scheduling heuristics. More aggressive optimization and automation are needed for cluster scheduling in HPC. In this work, we present an automated HPC scheduling agent named DRAS (Deep Reinforcement Agent for Scheduling) by leveraging deep reinforcement learning. DRAS is built on a hierarchical neural network incorporating special HPC scheduling features such as resource reservation and backfilling. An efficient training strategy is presented to enable DRAS to rapidly learn the target environment. Once being provided a specific scheduling objective given by the system manager, DRAS automatically learns to improve its policy through interaction with the scheduling environment and dynamically adjusts its policy as workload changes. We implement DRAS into a HPC scheduling platform called CQGym. CQGym provides a common platform allowing users to flexibly evaluate DRAS and other scheduling methods such as heuristic and optimization methods. The experiments using CQGym with different production workloads demonstrate that DRAS outperforms the existing heuristic and optimization approaches by up to 50%.",
+                "authors": [
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "49730189",
+                        "name": "Boyang Li"
+                    },
+                    {
+                        "s2_author_id": "2185276762",
+                        "name": "Dustin Favorite"
+                    },
+                    {
+                        "s2_author_id": "2185305033",
+                        "name": "Naunidh Singh"
+                    },
+                    {
+                        "s2_author_id": "33024340",
+                        "name": "T. Childers"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "2854349",
+                        "name": "W. Allcock"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3f20fafbcee7ef7b70cc56549b97695006a00261",
+                "title": "MRSch: Multi-Resource Scheduling for HPC",
+                "year": 2022,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 13,
+                "reference_count": 38,
+                "abstract": "Emerging workloads in high-performance computing (HPC) are embracing significant changes, such as having diverse resource requirements instead of being CPU -centric. This advancement forces cluster schedulers to consider multiple schedulable resources during decision-making. Existing scheduling studies rely on heuristic or optimization methods, which are limited by an inability to adapt to new scenarios for ensuring long-term scheduling performance. We present an intelligent scheduling agent named MRSch for multi-resource scheduling in HPC that leverages direct future prediction (DFP), an advanced multi-objective reinforcement learning algorithm. While DFP demonstrated outstanding performance in a gaming competition, it has not been previously explored in the context of HPC scheduling. Several key techniques are developed in this study to tackle the challenges involved in multi-resource scheduling. These techniques enable MRSch to learn an appropriate scheduling pol-icy automatically and dynamically adapt its policy in response to workload changes via dynamic resource prioritizing. We compare MRSch with existing scheduling methods through extensive trace-base simulations. Our results demonstrate that MRSch improves scheduling performance by up to 48 % compared to the existing scheduling methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "152358042",
+                        "name": "Boyang Li"
+                    },
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "2072942249",
+                        "name": "M. Dearing"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "2854349",
+                        "name": "W. Allcock"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "585d820c5d493958dadfb93101be117447f8cc1c",
+                "title": "Study of Workload Interference with Intelligent Routing on Dragonfly",
+                "year": 2022,
+                "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "citation_count": 14,
+                "reference_count": 43,
+                "abstract": "Dragonfly interconnect is a crucial network technol-ogy for supercomputers. To support exascale systems, network resources are shared such that links and routers are not dedicated to any node pair. While link utilization is increased, workload performance is often offset by network contention. Recently, intelligent routing built on reinforcement learning demonstrates higher network throughput with lower packet latency. However, its effectiveness in reducing workload interference is unknown. In this work, we present extensive network simulations to study multi-workload contention under different routing mechanisms, intelligent routing and adaptive routing, on a large-scale Dragon-fly system. We develop an enhanced network simulation toolkit, along with a suite of workloads with distinctive communication patterns. We also present two metrics to characterize application communication intensity. Our analysis focuses on examining how different workloads interfere with each other under different routing mechanisms by inspecting both application-level and network-level metrics. Several key insights are made from the analysis.",
+                "authors": [
+                    {
+                        "s2_author_id": "1820932488",
+                        "name": "Yao Kang"
+                    },
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c34431a0ffbb4e70a502e9a03792b866b144486e",
+                "title": "Encoding for Reinforcement Learning Driven Scheduling",
+                "year": 2022,
+                "venue": "Job Scheduling Strategies for Parallel Processing",
+                "citation_count": 2,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "152358042",
+                        "name": "Boyang Li"
+                    },
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04516df9485fc4b04c74d6add675bbbe1580426f",
+                "title": "A Dynamic Power Capping Library for HPC Applications",
+                "year": 2021,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": "As HPC systems increase in scale and capability, the cost of supplying power to these systems grows significantly. This introduces the urgent need for energy efficient computing through the management of power consumption. The PowerStack initiative defines a holistic power management framework at three levels, i.e., at the cluster level, the job level, and the node level [1] \u2013[3]. It is expected that a cluster will be given a system-wide power budget (aka an allocated power budget), which can be intelligently managed and distributed at the job and node levels. Our work provides a method for intelligently managing node-level power during execution.",
+                "authors": [
+                    {
+                        "s2_author_id": "2109948182",
+                        "name": "Sahil Sharma"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2133039",
+                        "name": "Xingfu Wu"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0814c079937b01bb13cd325cf9e34c45c83c99f0",
+                "title": "DRAS-CQSim: A Reinforcement Learning based Framework for HPC Cluster Scheduling",
+                "year": 2021,
+                "venue": "Softw. Impacts",
+                "citation_count": 21,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "42ba9490fea6cd3ce9078bf39a85f53b01ad0262",
+                "title": "Deep Reinforcement Agent for Scheduling in HPC",
+                "year": 2021,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 55,
+                "reference_count": 32,
+                "abstract": "Cluster scheduler is crucial in high-performance computing (HPC). It determines when and which user jobs should be allocated to available system resources. Existing cluster scheduling heuristics are developed by human experts based on their experience with specific HPC systems and workloads. However, the increasing complexity of computing systems and the highly dynamic nature of application workloads have placed tremendous burden on manually designed and tuned scheduling heuristics. More aggressive optimization and automation are needed for cluster scheduling in HPC. In this work, we present an automated HPC scheduling agent named DRAS (Deep Reinforcement Agent for Scheduling) by leveraging deep reinforcement learning. DRAS is built on a novel, hierarchical neural network incorporating special HPC scheduling features such as resource reservation and backfilling. A unique training strategy is presented to enable DRAS to rapidly learn the target environment. Once being provided a specific scheduling objective given by system manager, DRAS automatically learns to improve its policy through interaction with the scheduling environment and dynamically adjusts its policy as workload changes. The experiments with different production workloads demonstrate that DRAS outperforms the existing heuristic and optimization approaches by up to 45%.",
+                "authors": [
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "33024340",
+                        "name": "T. Childers"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "2854349",
+                        "name": "W. Allcock"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "82cb43905f68b849182dc8fd1e66d7a30672f8ed",
+                "title": "Performance and Energy Improvement of ECP Proxy App SW4lite under Various Workloads",
+                "year": 2021,
+                "venue": "Workshop on Memory Centric High Performance Computing",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": "Energy efficient execution of scientific applications requires insight into how HPC systems affect the performance and energy of the applications. In this paper, we conduct experiments to evaluate the performance of SW4lite under various workloads with two different memory modes on Cray XC40 Theta at Argonne National Laboratory. We use MuMMI and ensemble learning to build the performance-counter-based performance and power models, and we identify performance and power bottlenecks based on the insights from these performance and power models. Then we improve the performance and energy of SW4lite with a focus on memory-centric optimizations and code modifications. The experimental results show that our performance counter-guided application optimization strategies result in up to 26.97% performance improvement and up to 19.44% energy saving for SW4lite with various workloads on up to 16,384 cores.",
+                "authors": [
+                    {
+                        "s2_author_id": "2133039",
+                        "name": "Xingfu Wu"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9342619226f10a47d0fe9af2066de6ba0586d017",
+                "title": "Hybrid Workload Scheduling on HPC Systems",
+                "year": 2021,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 23,
+                "reference_count": 49,
+                "abstract": "Traditionally, on-demand, rigid, and malleable applications have been scheduled and executed on separate systems. The ever-growing workload demands and rapidly developing HPC infrastructure trigger the interest of converging these applications on a single HPC system. Although allocating the hybrid workloads within one system could potentially improve system efficiency, it is difficult to balance the tradeoff between the responsiveness of on-demand requests, incentive for malleable jobs, and the performance of rigid applications. In this study, we present several scheduling mechanisms to address the issues involved in co-scheduling on-demand, rigid, and malleable jobs on a single HPC system. We extensively evaluate and compare their performance under various configurations and workloads. Our experimental results show that our proposed mechanisms are capable of serving on-demand workloads with minimal delay, offering incentives for declaring malleability, and improving system performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "2854349",
+                        "name": "W. Allcock"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ad45d967a755d374d581931cb70e2351ef7cb653",
+                "title": "A Study of NPB and CANDLE on Commercial Off-the-Shelf Disaggregated Memory",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2106787360",
+                        "name": "Melanie Cornelius"
+                    },
+                    {
+                        "s2_author_id": "2106787566",
+                        "name": "Avery Peck"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2854349",
+                        "name": "W. Allcock"
+                    },
+                    {
+                        "s2_author_id": "2285804054",
+                        "name": "Brian Toonen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e05c7b24979bd1442714ff199099b0381ad27a9c",
+                "title": "Q-adaptive: A Multi-Agent Reinforcement Learning Based Routing on Dragonfly Network",
+                "year": 2021,
+                "venue": "IEEE International Symposium on High-Performance Parallel Distributed Computing",
+                "citation_count": 21,
+                "reference_count": 50,
+                "abstract": "High-radix interconnects such as Dragonfly and its variants rely on adaptive routing to balance network traffic for optimum performance. Ideally, adaptive routing attempts to forward packets between minimal and non-minimal paths with the least congestion. In practice, current adaptive routing algorithms estimate routing path congestion based on local information such as output queue occupancy. Using local information to estimate global path congestion is inevitably inaccurate because a router has no precise knowledge of link states a few hops away. This inaccuracy could lead to interconnect congestion. In this study, we present Q-adaptive routing, a multi-agent reinforcement learning routing scheme for Dragonfly systems. Q-adaptive routing enables routers to learn to route autonomously by leveraging advanced reinforcement learning technology. The proposed Q-adaptive routing is highly scalable thanks to its fully distributed nature without using any shared information between routers. Furthermore, a new two-level Q-table is designed for Q-adaptive to make it computational lightly and saves 50% of router memory usage compared with the previous Q-routing. We implement the proposed Q-adaptive routing in SST/Merlin simulator. Our evaluation results show that Q-adaptive routing achieves up to 10.5% system throughput improvement and 5.2x average packet latency reduction compared with adaptive routing algorithms. Remarkably, Q-adaptive can even outperform the optimal VALn non-minimal routing under the ADV+1 adversarial traffic pattern with up to 3% system throughput improvement and 75% average packet latency reduction.",
+                "authors": [
+                    {
+                        "s2_author_id": "1820932488",
+                        "name": "Yao Kang"
+                    },
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0b51079e82f559c6310c6dfde3ba99a6405214e5",
+                "title": "Union: An Automatic Workload Manager for Accelerating Network Simulation",
+                "year": 2020,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 13,
+                "reference_count": 31,
+                "abstract": "With the rapid growth of the machine learning applications, the workloads of future HPC systems are anticipated to be a mix of scientific simulation, big data analytics, and machine learning applications. Simulation is a great research vehicle to understand the performance implications of co-running scientific applications with big data and machine learning workloads on large-scale systems. In this paper, we present Union, a workload manager that provides an automatic framework to facilitate hybrid workload simulation in CODES. Furthermore, we use Union, along with CODES, to investigate various hybrid workloads composed of traditional simulation applications and emerging learning applications on two dragonfly systems. The experiment results show that both message latency and communication time are important performance metrics to evaluate network interference. Network interference on HPC applications is more reflected by the message latency variation, whereas ML application performance depends more on the communication time.",
+                "authors": [
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "144928760",
+                        "name": "Misbah Mubarak"
+                    },
+                    {
+                        "s2_author_id": "1820932488",
+                        "name": "Yao Kang"
+                    },
+                    {
+                        "s2_author_id": "145311475",
+                        "name": "R. Ross"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "64bac81afc7b5517b9535b4308cc2b7b4dbe3b01",
+                "title": "Performance and Power Modeling and Prediction Using MuMMI and Ten Machine Learning Methods",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 5,
+                "reference_count": 61,
+                "abstract": "In this paper, we use modeling and prediction tool MuMMI (Multiple Metrics Modeling Infrastructure) and ten machine learning methods to model and predict performance and power and compare their prediction error rates. We use a fault-tolerant linear algebra code and a fault-tolerant heat distribution code to conduct our modeling and prediction study on the Cray XC40 Theta and IBM BG/Q Mira at Argonne National Laboratory and the Intel Haswell cluster Shepard at Sandia National Laboratories. Our experiment results show that the prediction error rates in performance and power using MuMMI are less than 10% for most cases. Based on the models for runtime, node power, CPU power, and memory power, we identify the most significant performance counters for potential optimization efforts associated with the application characteristics and the target architectures, and we predict theoretical outcomes of the potential optimizations. When we compare the prediction accuracy using MuMMI with that using 10 machine learning methods, we observe that MuMMI not only results in more accurate prediction in both performance and power but also presents how performance counters impact the performance and power models. This provides some insights about how to fine-tune the applications and/or systems for energy efficiency.",
+                "authors": [
+                    {
+                        "s2_author_id": "2133039",
+                        "name": "Xingfu Wu"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "32c13027df143611e6f76b4f8734507a71cbfffc",
+                "title": "The Effect of System Utilization on Application Performance Variability",
+                "year": 2019,
+                "venue": "International Workshop on Runtime and Operating Systems for Supercomputers",
+                "citation_count": 16,
+                "reference_count": 25,
+                "abstract": "Application performance variability caused by network contention is a major issue on dragonfly based systems. This work-in-progress study makes two contributions. First, we analyze real workload logs and conduct application experiments on the production system Theta at Argonne to evaluate application performance variability. We find a strong correlation between system utilization and performance variability where a high system utilization (e.g., above 95%) can cause up to 21% degradation in application performance. Next, driven by this key finding, we investigate a scheduling policy to mitigate workload interference by leveraging the fact that production systems often exhibit diurnal utilization behavior and not all users are in a hurry for job completion. Preliminary results show that this scheduling design is capable of improving system productivity (measured by scheduling makespan) as well as improving user-level scheduling metrics such as user wait time and job slowdown.",
+                "authors": [
+                    {
+                        "s2_author_id": "152358042",
+                        "name": "Boyang Li"
+                    },
+                    {
+                        "s2_author_id": "49850654",
+                        "name": "Sudheer Chunduri"
+                    },
+                    {
+                        "s2_author_id": "50087627",
+                        "name": "K. Harms"
+                    },
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5c415580ff7b477767f731a797b3b120fbe94903",
+                "title": "Scheduling Beyond CPUs for HPC",
+                "year": 2019,
+                "venue": "IEEE International Symposium on High-Performance Parallel Distributed Computing",
+                "citation_count": 48,
+                "reference_count": 37,
+                "abstract": "High performance computing (HPC) is undergoing significant changes. The emerging HPC applications comprise both compute- and data-intensive applications. To meet the intense I/O demand from emerging data-intensive applications, burst buffers are deployed in production systems. Existing HPC schedulers are mainly CPU-centric. The extreme heterogeneity of hardware devices, combined with workload changes, forces the schedulers to consider multiple resources (e.g., burst buffers) beyond CPUs, in decision making. In this study, we present a multi-resource scheduling scheme named BBSched that schedules user jobs based on not only their CPU requirements, but also other schedulable resources such as burst buffer. BBSched formulates the scheduling problem into a multi-objective optimization (MOO) problem and rapidly solves the problem using a multi-objective genetic algorithm. The multiple solutions generated by BBSched enables system managers to explore potential tradeoffs among various resources, and therefore obtains better utilization of all the resources. The trace-driven simulations with real system workloads demonstrate that BBSched improves scheduling performance by up to 41% compared to existing methods, indicating that explicitly optimizing multiple resources beyond CPUs is essential for HPC scheduling.",
+                "authors": [
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "2854349",
+                        "name": "W. Allcock"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    },
+                    {
+                        "s2_author_id": "152960024",
+                        "name": "Brian Austin"
+                    },
+                    {
+                        "s2_author_id": "71925529",
+                        "name": "D. Paul"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f490b4da0c465a833f1afbe9a1a148ea9d29855d",
+                "title": "Modeling and Analysis of Application Interference on Dragonfly+",
+                "year": 2019,
+                "venue": "SIGSIM Principles of Advanced Discrete Simulation",
+                "citation_count": 10,
+                "reference_count": 19,
+                "abstract": "Dragonfly class of networks are considered as promising interconnects for next-generation supercomputers. While Dragonfly+ networks offer more path diversity than the original Dragonfly design, they are still prone to performance variability due to their hierarchical architecture and resource sharing design. Event-driven network simulators are indispensable tools for navigating complex system design. In this study, we quantitatively evaluate a variety of application communication interactions on a 3,456-node Dragonfly+ system by using the CODES toolkit. This study looks at the impact of communication interference from a user's perspective. Specifically, for a given application submitted by a user, we examine how this application will behave with the existing workload running in the system under different job placement policies. Our simulation study considers hundreds of experiment configurations including four target applications with representative communication patterns under a variety of network traffic conditions. Our study shows that intra-job interference can cause severe performance degradation for communication-intensive applications. Inter-job interference can generally be reduced for applications with one-to-one or one-to-many communication patterns through job isolation. Application with one-to-all communication pattern is resilient to network interference.",
+                "authors": [
+                    {
+                        "s2_author_id": "1820932488",
+                        "name": "Yao Kang"
+                    },
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "2726855",
+                        "name": "Neil McGlohon"
+                    },
+                    {
+                        "s2_author_id": "144928760",
+                        "name": "Misbah Mubarak"
+                    },
+                    {
+                        "s2_author_id": "49850654",
+                        "name": "Sudheer Chunduri"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5b4fa08c2fb5f599dbd798b791a85a1d11073409",
+                "title": "Joint Effects of Application Communication Pattern, Job Placement and Network Routing on Fat-Tree Systems",
+                "year": 2018,
+                "venue": "ICPP Workshops",
+                "citation_count": 12,
+                "reference_count": 28,
+                "abstract": "Among the high-radix and low-diameter networks, fat-tree topology is commonly used in high-performance computing (HPC) and datacenter systems. Resource and job management on HPC systems is critically important to mitigate application interference in order to achieve high system performance and utilization. Preliminary studies have shown the effect of job placement on parallel scientific applications performance in fat-tree network. In this work we explore the joint effects of job placement and network routing aware of applications communication pattern on fat-tree system. Applications can be classified into various groups according to the communication patterns. We further combine various job placement policies and routing algorithms and create six different configurations. The system performance is analyzed using communication, hops, traffic, and saturation data by performing fine-grained high-fidelity discrete event-driven simulation. Initial experimentation shows that the performance of HPC applications not only is related with the communication pattern, but also relies on the job placement and network routing on fat-tree systems.",
+                "authors": [
+                    {
+                        "s2_author_id": "2065764311",
+                        "name": "Peixin Qiao"
+                    },
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5ba75b77a85bf8103ea9e208da6c631a69975590",
+                "title": "System-wide trade-off modeling of performance, power, and resilience on petascale systems",
+                "year": 2018,
+                "venue": "Journal of Supercomputing",
+                "citation_count": 10,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7aa98327f45dc20e44bb761729fa156417bcc8d3",
+                "title": "Evaluating Runtime and Power Requirements of Multilevel Checkpointing MPI Applications on Four Different Parallel Architectures : An Empirical Study",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2133039",
+                        "name": "Xingfu Wu"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "84eb7e50fc9786aa0653c8034210b9c311c724ef",
+                "title": "Trade-Off Study of Localizing Communication and Balancing Network Traffic on a Dragonfly System",
+                "year": 2018,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 19,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "144928760",
+                        "name": "Misbah Mubarak"
+                    },
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "145311475",
+                        "name": "R. Ross"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c5efd90f1e76fc1436805bafa8ca0944b9a7d7e5",
+                "title": "Extreme Heterogeneity 2018 - Productive Computational Science in the Era of Extreme Heterogeneity: Report for DOE ASCR Workshop on Extreme Heterogeneity",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 87,
+                "reference_count": 0,
+                "abstract": "Author(s): Vetter, Jeffrey S; Brightwell, Ron; Gokhale, Maya; McCormick, Pat; Ross, Rob; Shalf, John; Antypas, Katie; Donofrio, David; Humble, Travis; Schuman, Catherine; Van Essen, Brian; Yoo, Shinjae; Aiken, Alex; Bernholdt, David; Byna, Suren; Cameron, Kirk; Cappello, Frank; Chapman, Barbara; Chien, Andrew; Hall, Mary; Hartman-Baker, Rebecca; Lan, Zhiling; Lang, Michael; Leidel, John; Li, Sherry; Lucas, Robert; Mellor-Crummey, John; Peltz Jr., Paul; Peterka, Thomas; Strout, Michelle; Wilke, Jeremiah",
+                "authors": [
+                    {
+                        "s2_author_id": "7553591",
+                        "name": "J. Vetter"
+                    },
+                    {
+                        "s2_author_id": "144790415",
+                        "name": "R. Brightwell"
+                    },
+                    {
+                        "s2_author_id": "145201071",
+                        "name": "M. Gokhale"
+                    },
+                    {
+                        "s2_author_id": "144381651",
+                        "name": "P. McCormick"
+                    },
+                    {
+                        "s2_author_id": "2066468263",
+                        "name": "Robert Ross"
+                    },
+                    {
+                        "s2_author_id": "1746446",
+                        "name": "J. Shalf"
+                    },
+                    {
+                        "s2_author_id": "2388198",
+                        "name": "K. Antypas"
+                    },
+                    {
+                        "s2_author_id": "1851743",
+                        "name": "D. Donofrio"
+                    },
+                    {
+                        "s2_author_id": "2054708",
+                        "name": "T. Humble"
+                    },
+                    {
+                        "s2_author_id": "2142611426",
+                        "name": "Catherine C. Schuman"
+                    },
+                    {
+                        "s2_author_id": "11149452",
+                        "name": "B. Van Essen"
+                    },
+                    {
+                        "s2_author_id": "2282774",
+                        "name": "Shinjae Yoo"
+                    },
+                    {
+                        "s2_author_id": "144653825",
+                        "name": "A. Aiken"
+                    },
+                    {
+                        "s2_author_id": "1785240",
+                        "name": "D. Bernholdt"
+                    },
+                    {
+                        "s2_author_id": "1749233",
+                        "name": "S. Byna"
+                    },
+                    {
+                        "s2_author_id": "1717511",
+                        "name": "K. Cameron"
+                    },
+                    {
+                        "s2_author_id": "2064881667",
+                        "name": "Frank Cappello"
+                    },
+                    {
+                        "s2_author_id": "2056795321",
+                        "name": "Barbara M. Chapman"
+                    },
+                    {
+                        "s2_author_id": "1695232",
+                        "name": "A. Chien"
+                    },
+                    {
+                        "s2_author_id": "2114041557",
+                        "name": "Mary Hall"
+                    },
+                    {
+                        "s2_author_id": "1389922131",
+                        "name": "R. Hartman-Baker"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "143962285",
+                        "name": "M. Lang"
+                    },
+                    {
+                        "s2_author_id": "153044975",
+                        "name": "John D. Leidel"
+                    },
+                    {
+                        "s2_author_id": "2153702277",
+                        "name": "Sherry Li"
+                    },
+                    {
+                        "s2_author_id": "2768344",
+                        "name": "R. Lucas"
+                    },
+                    {
+                        "s2_author_id": "1398109299",
+                        "name": "J. Mellor-Crummey"
+                    },
+                    {
+                        "s2_author_id": "2134375451",
+                        "name": "Paul Peltz Jr."
+                    },
+                    {
+                        "s2_author_id": "35559735",
+                        "name": "T. Peterka"
+                    },
+                    {
+                        "s2_author_id": "1709408",
+                        "name": "M. Strout"
+                    },
+                    {
+                        "s2_author_id": "3312441",
+                        "name": "Jeremiah J. Wilke"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "78ad4d0933839246dc2ace0a0652cbbef5e627dc",
+                "title": "Preliminary Interference Study About Job Placement and Routing Algorithms in the Fat-Tree Topology for HPC Applications",
+                "year": 2017,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 13,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2065764311",
+                        "name": "Peixin Qiao"
+                    },
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a23e1426c83108ce60d3733ec383052b6edf0b42",
+                "title": "Toward General Software Level Silent Data Corruption Detection for Parallel Applications",
+                "year": 2017,
+                "venue": "IEEE Transactions on Parallel and Distributed Systems",
+                "citation_count": 14,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "28900826",
+                        "name": "Eduardo Berrocal"
+                    },
+                    {
+                        "s2_author_id": "1387444987",
+                        "name": "L. Bautista-Gomez"
+                    },
+                    {
+                        "s2_author_id": "1699598",
+                        "name": "S. Di"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "1721552",
+                        "name": "F. Cappello"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bb01840fb74ce7c2aa61f6ae90e207a705264027",
+                "title": "Trade-Off Between Prediction Accuracy and Underestimation Rate in Job Runtime Estimates",
+                "year": 2017,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 49,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "2854349",
+                        "name": "W. Allcock"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ccd66ac11e3555981677ac9fedd6c97563b1921f",
+                "title": "A Preliminary Study of Intra-Application Interference on Dragonfly Network",
+                "year": 2017,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 2,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "144928760",
+                        "name": "Misbah Mubarak"
+                    },
+                    {
+                        "s2_author_id": "145311475",
+                        "name": "R. Ross"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ed56e5b12b0c236f6d01ad75b41d2f30daa46e67",
+                "title": "Experience and Practice of Batch Scheduling on Leadership Supercomputers at Argonne",
+                "year": 2017,
+                "venue": "Job Scheduling Strategies for Parallel Processing",
+                "citation_count": 34,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2854349",
+                        "name": "W. Allcock"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "26319452",
+                        "name": "Yuping Fan"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "19d686007a37f599b850bfbca391a5d7d869def8",
+                "title": "Exploring Partial Replication to Improve Lightweight Silent Data Corruption Detection for HPC Applications",
+                "year": 2016,
+                "venue": "European Conference on Parallel Processing",
+                "citation_count": 15,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "28900826",
+                        "name": "Eduardo Berrocal"
+                    },
+                    {
+                        "s2_author_id": "1387444987",
+                        "name": "L. Bautista-Gomez"
+                    },
+                    {
+                        "s2_author_id": "1699598",
+                        "name": "S. Di"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "1721552",
+                        "name": "F. Cappello"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2b2cd8237ca1ecd7171485961f64bd447d5d62bb",
+                "title": "Topology mapping of irregular parallel applications on torus-connected supercomputers",
+                "year": 2016,
+                "venue": "Journal of Supercomputing",
+                "citation_count": 7,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149266165",
+                        "name": "Jingjin Wu"
+                    },
+                    {
+                        "s2_author_id": "3072283",
+                        "name": "Xuanxing Xiong"
+                    },
+                    {
+                        "s2_author_id": "28900826",
+                        "name": "Eduardo Berrocal"
+                    },
+                    {
+                        "s2_author_id": "2110367939",
+                        "name": "Jia Wang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3ffad71a43c3c51beadef361f37da45fddb5b45b",
+                "title": "I/O-aware bandwidth allocation for petascale computing systems",
+                "year": 2016,
+                "venue": "Parallel Computing",
+                "citation_count": 4,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "35963943",
+                        "name": "Dongfang Zhao"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "2110367939",
+                        "name": "Jia Wang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4e606fddb200e7fb06b892c9f71553a989b276d1",
+                "title": "Cooperative Batch Scheduling for HPC Systems",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "adda22ad516aef02ea422cbdd863d2b1f30e7688",
+                "title": "A Scalable, Non-Parametric Method for Detecting Performance Anomaly in Large Scale Computing",
+                "year": 2016,
+                "venue": "IEEE Transactions on Parallel and Distributed Systems",
+                "citation_count": 31,
+                "reference_count": 61,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ae409193db50a43680329810257fced6f3211284",
+                "title": "Improving Batch Scheduling on Blue Gene/Q by Relaxing Network Allocation Constraints",
+                "year": 2016,
+                "venue": "IEEE Transactions on Parallel and Distributed Systems",
+                "citation_count": 3,
+                "reference_count": 64,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "38751698",
+                        "name": "V. Morozov"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be5ab0c3517ce2f80b084c24b024e1e837f1a7e6",
+                "title": "A Data Driven Scheduling Approach for Power Management on HPC Systems",
+                "year": 2016,
+                "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "citation_count": 40,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145207566",
+                        "name": "Sean Wallace"
+                    },
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "3348747",
+                        "name": "V. Vishwanath"
+                    },
+                    {
+                        "s2_author_id": "2854349",
+                        "name": "W. Allcock"
+                    },
+                    {
+                        "s2_author_id": "1721828",
+                        "name": "S. Coghlan"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c9f7db0d6672c73ed9cc06879f2130e4af5a7f6c",
+                "title": "Exploring Plan-Based Scheduling for Large-Scale Computing Systems",
+                "year": 2016,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 19,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2153647301",
+                        "name": "Xingwu Zhang"
+                    },
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2110367939",
+                        "name": "Jia Wang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ce9518cfacf6f64a3c7d710b433b3fa6f81ddbd1",
+                "title": "Watch Out for the Bully! Job Interference Study on Dragonfly Network",
+                "year": 2016,
+                "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "citation_count": 73,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "145111164",
+                        "name": "John Jenkins"
+                    },
+                    {
+                        "s2_author_id": "144928760",
+                        "name": "Misbah Mubarak"
+                    },
+                    {
+                        "s2_author_id": "145311475",
+                        "name": "R. Ross"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1f9dd1caf29af44fd6f7f1616c9f37f66d6307c",
+                "title": "Study of Intra- and Interjob Interference on Torus Networks",
+                "year": 2016,
+                "venue": "International Conference on Parallel and Distributed Systems",
+                "citation_count": 10,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "145111164",
+                        "name": "John Jenkins"
+                    },
+                    {
+                        "s2_author_id": "144928760",
+                        "name": "Misbah Mubarak"
+                    },
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "145311475",
+                        "name": "R. Ross"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e098e551cf33001963bd24ea4f901f6423bc5e8",
+                "title": "Quantitative modeling of power performance tradeoffs on extreme scale systems",
+                "year": 2015,
+                "venue": "J. Parallel Distributed Comput.",
+                "citation_count": 15,
+                "reference_count": 47,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "145207566",
+                        "name": "Sean Wallace"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4b9fddfa6452c413ed4ff40aa733c69a267e3a33",
+                "title": "Comparison of Vendor Supplied Environmental Data Collection Mechanisms",
+                "year": 2015,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 4,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145207566",
+                        "name": "Sean Wallace"
+                    },
+                    {
+                        "s2_author_id": "3348747",
+                        "name": "V. Vishwanath"
+                    },
+                    {
+                        "s2_author_id": "1721828",
+                        "name": "S. Coghlan"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "56d3da83db7b1709fd159f5ab5755373de55c6b2",
+                "title": "I/O-Aware Batch Scheduling for Petascale Computing Systems",
+                "year": 2015,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 57,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "35963943",
+                        "name": "Dongfang Zhao"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "2110367939",
+                        "name": "Jia Wang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "66a016113dac332e11f9ffb56ac30e20f6d78605",
+                "title": "Improving Batch Scheduling on Blue Gene/Q by Relaxing 5D Torus Network Allocation Constraints",
+                "year": 2015,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 20,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "38751698",
+                        "name": "V. Morozov"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "817d87de16669b4c41b403384cc9110255df466f",
+                "title": "Reliability-Aware Speedup Models for Parallel Applications with Coordinated Checkpointing/Restart",
+                "year": 2015,
+                "venue": "IEEE transactions on computers",
+                "citation_count": 14,
+                "reference_count": 58,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "838d5a2c89e7784e3f068846dafc0cf62a38f6d4",
+                "title": "Utility-Based Scheduling for Bulk Data Transfers between Distributed Computing Facilities",
+                "year": 2015,
+                "venue": "2015 44th International Conference on Parallel Processing Workshops",
+                "citation_count": 2,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2153688715",
+                        "name": "Xin Wang"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "9297377",
+                        "name": "R. Kettimuthu"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c3f5b36468e9cc5452ab6a7d03b989f69a3b1bd2",
+                "title": "Hierarchical task mapping for parallel applications on supercomputers",
+                "year": 2015,
+                "venue": "Journal of Supercomputing",
+                "citation_count": 20,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149266165",
+                        "name": "Jingjin Wu"
+                    },
+                    {
+                        "s2_author_id": "3072283",
+                        "name": "Xuanxing Xiong"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f066cca1c61b613d76ec3f6756d959281138b0ab",
+                "title": "Lightweight Silent Data Corruption Detection Based on Runtime Data Analysis for HPC Applications",
+                "year": 2015,
+                "venue": "IEEE International Symposium on High-Performance Parallel Distributed Computing",
+                "citation_count": 81,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "28900826",
+                        "name": "Eduardo Berrocal"
+                    },
+                    {
+                        "s2_author_id": "1387444987",
+                        "name": "L. Bautista-Gomez"
+                    },
+                    {
+                        "s2_author_id": "1699598",
+                        "name": "S. Di"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "1721552",
+                        "name": "F. Cappello"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0ae9f5849a9bc8a41f57af7bf48dcf31c7508d1f",
+                "title": "Reliability and Energy Data Analysis and Modeling for Extreme Scale Systems",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "13d1279557a981eb4ad7f62a50c3c817f220e941",
+                "title": "Dynamic load balancing of SAMR applications on distributed systems 1",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "4707048",
+                        "name": "G. Bryan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c44aa9ef5a8a63bdffeca54d34f0349be0283eb4",
+                "title": "Bandwidth-Aware Resource Management for Extreme Scale Systems",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2067065702",
+                        "name": "Paul M. Rich"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "38751698",
+                        "name": "V. Morozov"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cb224187ec641f935ecf0385bc6a576fb4d9c7c0",
+                "title": "Balancing job performance with system performance via locality-aware scheduling on torus-connected systems",
+                "year": 2014,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 25,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "48922377",
+                        "name": "Xingwu Zheng"
+                    },
+                    {
+                        "s2_author_id": "2110367939",
+                        "name": "Jia Wang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e4cf40e576e5d30897226e2fb12e50e25f35ac4f",
+                "title": "PuPPET : A New Power-Performance Modeling Tool for High Performance Computing",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "145207566",
+                        "name": "Sean Wallace"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea36b37905f27576c01a4186fd1d964c2d93927a",
+                "title": "Exploring void search for fault detection on extreme scale systems",
+                "year": 2014,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 20,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "28900826",
+                        "name": "Eduardo Berrocal"
+                    },
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "145207566",
+                        "name": "Sean Wallace"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec8073c43a681ca3633bc2631519ea77652db875",
+                "title": "Hierarchical task mapping for parallel applications on supercomputers",
+                "year": 2014,
+                "venue": "Journal of Supercomputing",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149266165",
+                        "name": "Jingjin Wu"
+                    },
+                    {
+                        "s2_author_id": "3072283",
+                        "name": "Xuanxing Xiong"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "079d8c19a055825c6c54b7d4382e210c7756fa2f",
+                "title": "Measuring Power Consumption on IBM Blue Gene/Q",
+                "year": 2013,
+                "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+                "citation_count": 30,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145207566",
+                        "name": "Sean Wallace"
+                    },
+                    {
+                        "s2_author_id": "3348747",
+                        "name": "V. Vishwanath"
+                    },
+                    {
+                        "s2_author_id": "1721828",
+                        "name": "S. Coghlan"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "16992dbab803fa37d854b51e14730262d052e425",
+                "title": "Application power profiling on IBM Blue Gene/Q",
+                "year": 2013,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 25,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145207566",
+                        "name": "Sean Wallace"
+                    },
+                    {
+                        "s2_author_id": "3348747",
+                        "name": "V. Vishwanath"
+                    },
+                    {
+                        "s2_author_id": "1721828",
+                        "name": "S. Coghlan"
+                    },
+                    {
+                        "s2_author_id": "2346679",
+                        "name": "John R. Tramm"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1959b3cdd8bdadf077886955b6758e4aced20ed5",
+                "title": "A Transparent Collective I/O Implementation",
+                "year": 2013,
+                "venue": "2013 IEEE 27th International Symposium on Parallel and Distributed Processing",
+                "citation_count": 9,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2438407",
+                        "name": "Yongen Yu"
+                    },
+                    {
+                        "s2_author_id": "2149266165",
+                        "name": "Jingjin Wu"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "31786241",
+                        "name": "D. Rudd"
+                    },
+                    {
+                        "s2_author_id": "3015185",
+                        "name": "N. Gnedin"
+                    },
+                    {
+                        "s2_author_id": "30958213",
+                        "name": "A. Kravtsov"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2951408162adf00a4aa989b813f69454af7b348e",
+                "title": "Integrating dynamic pricing of electricity into energy aware scheduling for HPC systems",
+                "year": 2013,
+                "venue": "2013 SC - International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+                "citation_count": 100,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2143730841",
+                        "name": "Xu Yang"
+                    },
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "145207566",
+                        "name": "Sean Wallace"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "1721828",
+                        "name": "S. Coghlan"
+                    },
+                    {
+                        "s2_author_id": "1857295",
+                        "name": "M. Papka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3231ec590bc3d3b081d3adfe6dd8e1fe7d575d64",
+                "title": "Toward balanced and sustainable job scheduling for production supercomputers",
+                "year": 2013,
+                "venue": "Parallel Computing",
+                "citation_count": 14,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "2068940997",
+                        "name": "Dongxu Ren"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4a33719a50626f2bf50291e857ef01371213af7f",
+                "title": "Reducing Energy Costs for IBM Blue Gene/P via Power-Aware Job Scheduling",
+                "year": 2013,
+                "venue": "Job Scheduling Strategies for Parallel Processing",
+                "citation_count": 57,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75baa959f85b6cbd59ae88265f8773a70426f233",
+                "title": "Job scheduling with adjusted runtime estimates on production supercomputers",
+                "year": 2013,
+                "venue": "J. Parallel Distributed Comput.",
+                "citation_count": 30,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    },
+                    {
+                        "s2_author_id": "35130065",
+                        "name": "Daniel Buettner"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e8527797fe4f11d5fd65b25c4a8786ddee64e5c0",
+                "title": "A scalable, non-parametric anomaly detection framework for Hadoop",
+                "year": 2013,
+                "venue": "ACM Cloud and Autonomic Computing Conference",
+                "citation_count": 21,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "12ea24caf9c2a9578eed0858d646ff0e94971dcd",
+                "title": "Workshop on Job Scheduling Strategies for Parallel Processing - JSSPP",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 18,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1707417",
+                        "name": "H. Casanova"
+                    },
+                    {
+                        "s2_author_id": "1738654",
+                        "name": "Hyeonsang Eom"
+                    },
+                    {
+                        "s2_author_id": "3343613",
+                        "name": "L. Fong"
+                    },
+                    {
+                        "s2_author_id": "1786547",
+                        "name": "E. Frachtenberg"
+                    },
+                    {
+                        "s2_author_id": "1686666",
+                        "name": "A. Goldman"
+                    },
+                    {
+                        "s2_author_id": "1760940",
+                        "name": "A. Iosup"
+                    },
+                    {
+                        "s2_author_id": "9297377",
+                        "name": "R. Kettimuthu"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "143806546",
+                        "name": "L. Rudolph"
+                    },
+                    {
+                        "s2_author_id": "2016928",
+                        "name": "U. Schwiegelshohn"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "1874456",
+                        "name": "Ramin Yahyapour"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1980575cdbcbb86f6cd97b9da4325b48f6e1165a",
+                "title": "Log analysis for reliability management in large-scale systems",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3a1e9f17e1a98e17d3bcc5dbee09f920bfee2eee",
+                "title": "3-Dimensional root cause diagnosis via co-analysis",
+                "year": 2012,
+                "venue": "International Conference on Automation and Computing",
+                "citation_count": 36,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "145445527",
+                        "name": "T. Jones"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "59a5c0217480d8cc40fae9b4fb2f579af2deacac",
+                "title": "Adaptive Metric-Aware Job Scheduling for Production Supercomputers",
+                "year": 2012,
+                "venue": "2012 41st International Conference on Parallel Processing Workshops",
+                "citation_count": 19,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "2068940997",
+                        "name": "Dongxu Ren"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "59fff7844efaabbe4a577083afce9e79c591a859",
+                "title": "Multi-domain job coscheduling for leadership computing systems",
+                "year": 2012,
+                "venue": "Journal of Supercomputing",
+                "citation_count": 1,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    },
+                    {
+                        "s2_author_id": "3348747",
+                        "name": "V. Vishwanath"
+                    },
+                    {
+                        "s2_author_id": "35130065",
+                        "name": "Daniel Buettner"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "847e746b98352a8eb024074c75f7c21783cacda2",
+                "title": "An integrated resource management and scheduling framework for production supercomputers",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b6a2494c21dedc60dc1085d6eb5b00f952fa7e96",
+                "title": "Hierarchical task mapping of cell-based AMR cosmology simulations",
+                "year": 2012,
+                "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "citation_count": 13,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149266165",
+                        "name": "Jingjin Wu"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "3072283",
+                        "name": "Xuanxing Xiong"
+                    },
+                    {
+                        "s2_author_id": "3015185",
+                        "name": "N. Gnedin"
+                    },
+                    {
+                        "s2_author_id": "30958213",
+                        "name": "A. Kravtsov"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e76c3bbb7f88f1fa0793eebe6840ea4b1ef4a5bd",
+                "title": "Improving Parallel IO Performance of Cell-based AMR Cosmology Applications",
+                "year": 2012,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 19,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2438407",
+                        "name": "Yongen Yu"
+                    },
+                    {
+                        "s2_author_id": "31786241",
+                        "name": "D. Rudd"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "3015185",
+                        "name": "N. Gnedin"
+                    },
+                    {
+                        "s2_author_id": "30958213",
+                        "name": "A. Kravtsov"
+                    },
+                    {
+                        "s2_author_id": "2149266165",
+                        "name": "Jingjin Wu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fa9155a609532730f6012fa9b3c4242826b43326",
+                "title": "Filtering log data: Finding the needles in the Haystack",
+                "year": 2012,
+                "venue": "Dependable Systems and Networks",
+                "citation_count": 18,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "145445527",
+                        "name": "T. Jones"
+                    },
+                    {
+                        "s2_author_id": "39920348",
+                        "name": "J. Brandt"
+                    },
+                    {
+                        "s2_author_id": "39076226",
+                        "name": "A. Gentile"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "256a60cbe5371ad2c47649eed001e2e120f5cce6",
+                "title": "Performance Emulation of Cell-Based AMR Cosmology Simulations",
+                "year": 2011,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 10,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149266165",
+                        "name": "Jingjin Wu"
+                    },
+                    {
+                        "s2_author_id": "49977666",
+                        "name": "R. Gonz\u00e1lez"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "3015185",
+                        "name": "N. Gnedin"
+                    },
+                    {
+                        "s2_author_id": "30958213",
+                        "name": "A. Kravtsov"
+                    },
+                    {
+                        "s2_author_id": "31786241",
+                        "name": "D. Rudd"
+                    },
+                    {
+                        "s2_author_id": "2438407",
+                        "name": "Yongen Yu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "65f539498d552a64eb10002a0da668e0ef262d46",
+                "title": "FREM: A Fast Restart Mechanism for General Checkpoint/Restart",
+                "year": 2011,
+                "venue": "IEEE transactions on computers",
+                "citation_count": 21,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "66f47514ca03fd4a52121836bdb767bb5fac95cc",
+                "title": "Job Coscheduling on Coupled High-End Computing Systems",
+                "year": 2011,
+                "venue": "2011 40th International Conference on Parallel Processing Workshops",
+                "citation_count": 4,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    },
+                    {
+                        "s2_author_id": "3348747",
+                        "name": "V. Vishwanath"
+                    },
+                    {
+                        "s2_author_id": "35130065",
+                        "name": "Daniel Buettner"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "708f11c6a72ce30ed43c66fe5e2c9883a7cdb78a",
+                "title": "Co-analysis of RAS Log and Job Log on Blue Gene/P",
+                "year": 2011,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 86,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2109271448",
+                        "name": "Rinku Gupta"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    },
+                    {
+                        "s2_author_id": "1721828",
+                        "name": "S. Coghlan"
+                    },
+                    {
+                        "s2_author_id": "35130065",
+                        "name": "Daniel Buettner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8fc5a002d63163b12e97b52a8e288cbc13d51e73",
+                "title": "Reducing Fragmentation on Torus-Connected Supercomputers",
+                "year": 2011,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 37,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    },
+                    {
+                        "s2_author_id": "35130065",
+                        "name": "Daniel Buettner"
+                    },
+                    {
+                        "s2_author_id": "2438407",
+                        "name": "Yongen Yu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "99e65bc2d3327280900f60d9529c48466291e6ae",
+                "title": "Practical online failure prediction for Blue Gene/P: Period-based vs event-driven",
+                "year": 2011,
+                "venue": "2011 IEEE/IFIP 41st International Conference on Dependable Systems and Networks Workshops (DSN-W)",
+                "citation_count": 82,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149483180",
+                        "name": "Li Yu"
+                    },
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "1721828",
+                        "name": "S. Coghlan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a6323cb47c5ea51edf550046e222305cd4571e88",
+                "title": "Evaluating Performance Impacts of Delayed Failure Repairing on Large-Scale Systems",
+                "year": 2011,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 2,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2109471680",
+                        "name": "Zhou Zhou"
+                    },
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab8b7d084609ef2b335dfc968e60fe5379c62360",
+                "title": "Performance Emulation of the Cell-based AMR Cosmology Simulation Code \u2013 ART",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2149266165",
+                        "name": "Jingjin Wu"
+                    },
+                    {
+                        "s2_author_id": "2289046339",
+                        "name": "Roberto E. Gonz \u00e1 lez"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "3015185",
+                        "name": "N. Gnedin"
+                    },
+                    {
+                        "s2_author_id": "30958213",
+                        "name": "A. Kravtsov"
+                    },
+                    {
+                        "s2_author_id": "31786241",
+                        "name": "D. Rudd"
+                    },
+                    {
+                        "s2_author_id": "2438407",
+                        "name": "Yongen Yu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e78a943a8067b0a7cb9e187db7549b6345e5301e",
+                "title": "Improving Job Scheduling on Production Supercomputers",
+                "year": 2011,
+                "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+                "citation_count": 1,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "268222c2b034b1c88101601ddf3b8cef1bd400e6",
+                "title": "Automatic and coordinated job recovery for high performance computing",
+                "year": 2010,
+                "venue": "2010 3rd Workshop on Many-Task Computing on Grids and Supercomputers",
+                "citation_count": 3,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    },
+                    {
+                        "s2_author_id": "35130065",
+                        "name": "Daniel Buettner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6b17c5def4aa387175cf830837ea1290bbe3ca92",
+                "title": "A study of dynamic meta-learning for failure prediction in large-scale systems",
+                "year": 2010,
+                "venue": "J. Parallel Distributed Comput.",
+                "citation_count": 54,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "1770077",
+                        "name": "Jiexing Gu"
+                    },
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "143994696",
+                        "name": "R. Thakur"
+                    },
+                    {
+                        "s2_author_id": "1721828",
+                        "name": "S. Coghlan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6f1c6fc8faa9a6760970a91363ed08e812f97cbb",
+                "title": "A practical failure prediction with location and lead time for Blue Gene/P",
+                "year": 2010,
+                "venue": "2010 International Conference on Dependable Systems and Networks Workshops (DSN-W)",
+                "citation_count": 87,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2109271448",
+                        "name": "Rinku Gupta"
+                    },
+                    {
+                        "s2_author_id": "1721828",
+                        "name": "S. Coghlan"
+                    },
+                    {
+                        "s2_author_id": "32215051",
+                        "name": "P. Beckman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "79fa8d5e4ec7dd9998b934f22c04e7be01bef5f7",
+                "title": "Analyzing and adjusting user runtime estimates to improve job scheduling on the Blue Gene/P",
+                "year": 2010,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 71,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    },
+                    {
+                        "s2_author_id": "35130065",
+                        "name": "Daniel Buettner"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "258806d725b54d70668565f8ade40d9268f031b4",
+                "title": "Fault-Aware Runtime Strategies for High-Performance Computing",
+                "year": 2009,
+                "venue": "IEEE Transactions on Parallel and Distributed Systems",
+                "citation_count": 17,
+                "reference_count": 61,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "49429345",
+                        "name": "Prashasta Gujrati"
+                    },
+                    {
+                        "s2_author_id": "2257369559",
+                        "name": "Xian-He Sun"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53628588d0559a2f2b70ac260d511028902e0e0c",
+                "title": "Reliability-aware scalability models for high performance computing",
+                "year": 2009,
+                "venue": "2009 IEEE International Conference on Cluster Computing and Workshops",
+                "citation_count": 106,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "59159fb409c3471b47d3baebfdd7df5b3cf1528d",
+                "title": "Performance under Failures of DAG-based Parallel Computing",
+                "year": 2009,
+                "venue": "2009 9th IEEE/ACM International Symposium on Cluster Computing and the Grid",
+                "citation_count": 17,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145509912",
+                        "name": "Hui Jin"
+                    },
+                    {
+                        "s2_author_id": "1746991",
+                        "name": "Xian-He Sun"
+                    },
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2064541275",
+                        "name": "Bing Xie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "699a084a65b2cf43fb774f085b84a7e303c16651",
+                "title": "Fault-aware, utility-based job scheduling on Blue, Gene/P systems",
+                "year": 2009,
+                "venue": "2009 IEEE International Conference on Cluster Computing and Workshops",
+                "citation_count": 89,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143775271",
+                        "name": "Wei Tang"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2923842",
+                        "name": "N. Desai"
+                    },
+                    {
+                        "s2_author_id": "35130065",
+                        "name": "Daniel Buettner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dcf894b35b4b88bacfcb0d0c5f596ec4574c47d2",
+                "title": "System log pre-processing to improve failure prediction",
+                "year": 2009,
+                "venue": "2009 IEEE/IFIP International Conference on Dependable Systems & Networks",
+                "citation_count": 111,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2111270865",
+                        "name": "Byung-Hoon Park"
+                    },
+                    {
+                        "s2_author_id": "144741680",
+                        "name": "A. Geist"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "35091cc398e1fa0c56741177e6baefd138f219d7",
+                "title": "Dynamic Meta-Learning for Failure Prediction in Large-Scale Systems: A Case Study",
+                "year": 2008,
+                "venue": "International Conference on Parallel Processing",
+                "citation_count": 66,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1770077",
+                        "name": "Jiexing Gu"
+                    },
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2111364886",
+                        "name": "John White"
+                    },
+                    {
+                        "s2_author_id": "1767010",
+                        "name": "Eva Hocks"
+                    },
+                    {
+                        "s2_author_id": "2108015203",
+                        "name": "Byung H. Park"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "44a2e8f76c8b3e610bae6528e07726b92d591bdc",
+                "title": "Enhancing application robustness through adaptive fault tolerance",
+                "year": 2008,
+                "venue": "2008 IEEE International Symposium on Parallel and Distributed Processing",
+                "citation_count": 8,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "49429345",
+                        "name": "Prashasta Gujrati"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7ffb1d84d896fcdd9e565b9cfcffeda06ce418c0",
+                "title": "Analytical study of migration-enhanced fault tolerance for long-running applications in IFR systems",
+                "year": 2008,
+                "venue": "Int. J. Parallel Emergent Distributed Syst.",
+                "citation_count": 0,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f3b9593eb16191180213765f912caaeda7931a2",
+                "title": "Adaptive Fault Management of Parallel Applications for High-Performance Computing",
+                "year": 2008,
+                "venue": "IEEE transactions on computers",
+                "citation_count": 51,
+                "reference_count": 59,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b83ddb97919ff6c5cc907e83e5782e736dbf0af3",
+                "title": "Efficient fault management for high performance computing",
+                "year": 2008,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c4c5b7ad289b384f7530b16a53b2808fbc9c51b2",
+                "title": "Towards a Fault-aware Computing Environment",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1746991",
+                        "name": "Xian-He Sun"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145509912",
+                        "name": "Hui Jin"
+                    },
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "de57640237815f1da5c5cd6b9ddd81c92377baeb",
+                "title": "A fast restart mechanism for checkpoint/recovery protocols in networked environments",
+                "year": 2008,
+                "venue": "Dependable Systems and Networks",
+                "citation_count": 21,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5f7bdee8b639879090e8dee24188135833c94b2f",
+                "title": "Anomaly localization in large-scale clusters",
+                "year": 2007,
+                "venue": "IEEE International Conference on Cluster Computing",
+                "citation_count": 34,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7e476885cea09ae1e9c139d88bf32a7e6404212a",
+                "title": "Fault-Driven Re-Scheduling For Improving System-level Fault Resilience",
+                "year": 2007,
+                "venue": "International Conference on Parallel Processing",
+                "citation_count": 28,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "49429345",
+                        "name": "Prashasta Gujrati"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "1746991",
+                        "name": "Xian-He Sun"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "85f8c1f4ccd93f36003f7ce3d0afa4881d1d00ba",
+                "title": "Using Adaptive Fault Tolerance to Improve Application Robustness on the TeraGrid",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c71418551bbf4850ed393359bf5f1abdbf6371a2",
+                "title": "A Fault Diagnosis and Prognosis Service for TeraGrid Clusters",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 15,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "49429345",
+                        "name": "Prashasta Gujrati"
+                    },
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "143994696",
+                        "name": "R. Thakur"
+                    },
+                    {
+                        "s2_author_id": "2111364886",
+                        "name": "John White"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cc094705f5755bb593005bc9e5fd9bbcf4afd81b",
+                "title": "A Meta-Learning Failure Predictor for Blue Gene/L Systems",
+                "year": 2007,
+                "venue": "International Conference on Parallel Processing",
+                "citation_count": 55,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49429345",
+                        "name": "Prashasta Gujrati"
+                    },
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "143994696",
+                        "name": "R. Thakur"
+                    },
+                    {
+                        "s2_author_id": "2111364886",
+                        "name": "John White"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f7a6fc3b2f17c9b333a192109c0c2f866708be5a",
+                "title": "Current Research and Practice in Proactive Fault Management",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "15463269",
+                        "name": "Y. Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "378547c8d17792143a6dac247d3fbcbb280cab0f",
+                "title": "Evaluating Performance and Scalability of Advanced Accelerator Simulations",
+                "year": 2006,
+                "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",
+                "citation_count": 0,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2144689187",
+                        "name": "Jungmin Lee"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "33445151",
+                        "name": "J. Amundson"
+                    },
+                    {
+                        "s2_author_id": "48021694",
+                        "name": "P. Spentzouris"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c9f9b150d31d169d2eeec2a53cc4d7a198cecbd6",
+                "title": "Exploit failure prediction for adaptive fault-tolerance in cluster computing",
+                "year": 2006,
+                "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",
+                "citation_count": 89,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1049c5a30b0c61665ff85a9c32601420c87fac1",
+                "title": "Improving fault resilience of high performance applications",
+                "year": 2006,
+                "venue": "International Conference on Software Composition",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d7e82ba0f71559db2ca8c68824cc97cc53cb4162",
+                "title": "DistDLB: Improving cosmology SAMR simulations on distributed computing systems through hierarchical load balancing",
+                "year": 2006,
+                "venue": "J. Parallel Distributed Comput.",
+                "citation_count": 13,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "11fb3ab2e9e32eed7c41a5433ff506c70b675c3b",
+                "title": "A novel workload migration scheme for heterogeneous distributed computing",
+                "year": 2005,
+                "venue": "CCGrid 2005. IEEE International Symposium on Cluster Computing and the Grid, 2005.",
+                "citation_count": 12,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c772fcf25529fb2eedfc5a29a7a3c689cb4e2d51",
+                "title": "Proactive Fault Manager for High Performance Computing",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eac30db02ad5faf8fb43c91afed72cbf17138217",
+                "title": "Dynamic Load Balancing of SAMR Applications",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2838f2938c1b83d90cea37b700bfc6ca7cc770b3",
+                "title": "Performance analysis of large-scale cosmology application on three cluster systems",
+                "year": 2004,
+                "venue": "Proceedings IEEE International Conference on Cluster Computing",
+                "citation_count": 8,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2563313",
+                        "name": "Prathibha Deshikachar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f4bd46e375ce958e622c05bea4792c99c5a8ec46",
+                "title": "A Survey of Load Balancing in Grid Computing",
+                "year": 2004,
+                "venue": "International Conference on Computational Intelligence and Security",
+                "citation_count": 81,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "47cb88b2036f8544ab257f65a81395a80e1f9898",
+                "title": "Exploring cosmology applications on distributed environments",
+                "year": 2003,
+                "venue": "Future generations computer systems",
+                "citation_count": 2,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "4707048",
+                        "name": "G. Bryan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "01c16efeca25f841123bd5e29a78af23709b4626",
+                "title": "Dynamic load balancing for parallel and distributed systems",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cfb3a6361dffbe613a7e7f96c2766e1f80cc0f47",
+                "title": "A novel dynamic load balancing scheme for parallel systems",
+                "year": 2002,
+                "venue": "J. Parallel Distributed Comput.",
+                "citation_count": 48,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "4707048",
+                        "name": "G. Bryan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39c0f32110252b37846ce58de8cf82a5e54cd7f9",
+                "title": "Dynamic Load Balancing for Adaptive Mesh Refinement Applications : Improvements and Sensitivity Analysis",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "62f2b148d71d37b074008bc2ef35a81ce4839be1",
+                "title": "Prophesy: automating the modeling process",
+                "year": 2001,
+                "venue": "Proceedings Third Annual International Workshop on Active Middleware Services",
+                "citation_count": 35,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "2133039",
+                        "name": "Xingfu Wu"
+                    },
+                    {
+                        "s2_author_id": "35202920",
+                        "name": "J. Geisler"
+                    },
+                    {
+                        "s2_author_id": "40286491",
+                        "name": "X. Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "3102192",
+                        "name": "M. Hereld"
+                    },
+                    {
+                        "s2_author_id": "34915636",
+                        "name": "I. Judson"
+                    },
+                    {
+                        "s2_author_id": "2054434942",
+                        "name": "R. Stevens"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7ad1c0d3bdb42475e499746e334604bdfb60317d",
+                "title": "Design and Development of the Prophesy Performance Database for Distributed Scientific Applications",
+                "year": 2001,
+                "venue": "PP",
+                "citation_count": 23,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2133039",
+                        "name": "Xingfu Wu"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "35202920",
+                        "name": "J. Geisler"
+                    },
+                    {
+                        "s2_author_id": "40286491",
+                        "name": "X. Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2054434942",
+                        "name": "R. Stevens"
+                    },
+                    {
+                        "s2_author_id": "3102192",
+                        "name": "M. Hereld"
+                    },
+                    {
+                        "s2_author_id": "34915636",
+                        "name": "I. Judson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d4cbdc4a88fc7cc6a48af5b9d87ce321e88a8801",
+                "title": "Dynamic Load Balancing of SAMR Applications on Distributed Systems",
+                "year": 2001,
+                "venue": "International Conference on Software Composition",
+                "citation_count": 68,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "4707048",
+                        "name": "G. Bryan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fc1ba34c8da0a8066271850d009f289834e9be38",
+                "title": "Dynamic load balancing for structured adaptive mesh refinement applications",
+                "year": 2001,
+                "venue": "International Conference on Parallel Processing",
+                "citation_count": 50,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "4707048",
+                        "name": "G. Bryan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6c1361f827b4e490b5e3f7b302aebb74127c648e",
+                "title": "Prophesy: an infrastructure for analyzing and modeling the performance of parallel and distributed applications",
+                "year": 2000,
+                "venue": "Proceedings the Ninth International Symposium on High-Performance Distributed Computing",
+                "citation_count": 31,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2133039",
+                        "name": "Xingfu Wu"
+                    },
+                    {
+                        "s2_author_id": "2562662",
+                        "name": "V. Taylor"
+                    },
+                    {
+                        "s2_author_id": "35202920",
+                        "name": "J. Geisler"
+                    },
+                    {
+                        "s2_author_id": "40286491",
+                        "name": "X. Li"
+                    },
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "2054434942",
+                        "name": "R. Stevens"
+                    },
+                    {
+                        "s2_author_id": "3102192",
+                        "name": "M. Hereld"
+                    },
+                    {
+                        "s2_author_id": "34915636",
+                        "name": "I. Judson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4618c9e130481088e0a9d089728eb40576387f9b",
+                "title": "Ieee Transactions on Parallel and Distributed Systems 1 toward Automated Anomaly Identification in Large-scale Systems",
+                "year": null,
+                "venue": "",
+                "citation_count": 68,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145502017",
+                        "name": "Z. Lan"
+                    },
+                    {
+                        "s2_author_id": "34780965",
+                        "name": "Ziming Zheng"
+                    },
+                    {
+                        "s2_author_id": "2110414505",
+                        "name": "Yawei Li"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "1820932488",
+                "name": "Yao Kang"
+            },
+            {
+                "s2_author_id": "2153688715",
+                "name": "Xin Wang"
+            },
+            {
+                "s2_author_id": "2009437366",
+                "name": "Elkin Cruz-Camacho"
+            },
+            {
+                "s2_author_id": "2107195652",
+                "name": "K. Brown"
+            },
+            {
+                "s2_author_id": "47119537",
+                "name": "X. Wang"
+            },
+            {
+                "s2_author_id": "2140517981",
+                "name": "Xiongxiao Xu"
+            },
+            {
+                "s2_author_id": "2218877116",
+                "name": "Kai Shu"
+            },
+            {
+                "s2_author_id": "145311475",
+                "name": "R. Ross"
+            },
+            {
+                "s2_author_id": "1759102",
+                "name": "C. Carothers"
+            },
+            {
+                "s2_author_id": "2218887029",
+                "name": "Christopher D. Carothers"
+            },
+            {
+                "s2_author_id": "2134387887",
+                "name": "Kevin A. Brown"
+            },
+            {
+                "s2_author_id": "2218895186",
+                "name": "Robert B. Ross"
+            },
+            {
+                "s2_author_id": "2133039",
+                "name": "Xingfu Wu"
+            },
+            {
+                "s2_author_id": "2562662",
+                "name": "V. Taylor"
+            },
+            {
+                "s2_author_id": "26319452",
+                "name": "Yuping Fan"
+            },
+            {
+                "s2_author_id": "49730189",
+                "name": "Boyang Li"
+            },
+            {
+                "s2_author_id": "2185276762",
+                "name": "Dustin Favorite"
+            },
+            {
+                "s2_author_id": "2185305033",
+                "name": "Naunidh Singh"
+            },
+            {
+                "s2_author_id": "33024340",
+                "name": "T. Childers"
+            },
+            {
+                "s2_author_id": "2067065702",
+                "name": "Paul M. Rich"
+            },
+            {
+                "s2_author_id": "2854349",
+                "name": "W. Allcock"
+            },
+            {
+                "s2_author_id": "1857295",
+                "name": "M. Papka"
+            },
+            {
+                "s2_author_id": "152358042",
+                "name": "Boyang Li"
+            },
+            {
+                "s2_author_id": "2072942249",
+                "name": "M. Dearing"
+            },
+            {
+                "s2_author_id": "2109948182",
+                "name": "Sahil Sharma"
+            },
+            {
+                "s2_author_id": "2106787360",
+                "name": "Melanie Cornelius"
+            },
+            {
+                "s2_author_id": "2106787566",
+                "name": "Avery Peck"
+            },
+            {
+                "s2_author_id": "2285804054",
+                "name": "Brian Toonen"
+            },
+            {
+                "s2_author_id": "144928760",
+                "name": "Misbah Mubarak"
+            },
+            {
+                "s2_author_id": "49850654",
+                "name": "Sudheer Chunduri"
+            },
+            {
+                "s2_author_id": "50087627",
+                "name": "K. Harms"
+            },
+            {
+                "s2_author_id": "152960024",
+                "name": "Brian Austin"
+            },
+            {
+                "s2_author_id": "71925529",
+                "name": "D. Paul"
+            },
+            {
+                "s2_author_id": "2726855",
+                "name": "Neil McGlohon"
+            },
+            {
+                "s2_author_id": "2065764311",
+                "name": "Peixin Qiao"
+            },
+            {
+                "s2_author_id": "2143730841",
+                "name": "Xu Yang"
+            },
+            {
+                "s2_author_id": "2149483180",
+                "name": "Li Yu"
+            },
+            {
+                "s2_author_id": "2109471680",
+                "name": "Zhou Zhou"
+            },
+            {
+                "s2_author_id": "7553591",
+                "name": "J. Vetter"
+            },
+            {
+                "s2_author_id": "144790415",
+                "name": "R. Brightwell"
+            },
+            {
+                "s2_author_id": "145201071",
+                "name": "M. Gokhale"
+            },
+            {
+                "s2_author_id": "144381651",
+                "name": "P. McCormick"
+            },
+            {
+                "s2_author_id": "2066468263",
+                "name": "Robert Ross"
+            },
+            {
+                "s2_author_id": "1746446",
+                "name": "J. Shalf"
+            },
+            {
+                "s2_author_id": "2388198",
+                "name": "K. Antypas"
+            },
+            {
+                "s2_author_id": "1851743",
+                "name": "D. Donofrio"
+            },
+            {
+                "s2_author_id": "2054708",
+                "name": "T. Humble"
+            },
+            {
+                "s2_author_id": "2142611426",
+                "name": "Catherine C. Schuman"
+            },
+            {
+                "s2_author_id": "11149452",
+                "name": "B. Van Essen"
+            },
+            {
+                "s2_author_id": "2282774",
+                "name": "Shinjae Yoo"
+            },
+            {
+                "s2_author_id": "144653825",
+                "name": "A. Aiken"
+            },
+            {
+                "s2_author_id": "1785240",
+                "name": "D. Bernholdt"
+            },
+            {
+                "s2_author_id": "1749233",
+                "name": "S. Byna"
+            },
+            {
+                "s2_author_id": "1717511",
+                "name": "K. Cameron"
+            },
+            {
+                "s2_author_id": "2064881667",
+                "name": "Frank Cappello"
+            },
+            {
+                "s2_author_id": "2056795321",
+                "name": "Barbara M. Chapman"
+            },
+            {
+                "s2_author_id": "1695232",
+                "name": "A. Chien"
+            },
+            {
+                "s2_author_id": "2114041557",
+                "name": "Mary Hall"
+            },
+            {
+                "s2_author_id": "1389922131",
+                "name": "R. Hartman-Baker"
+            },
+            {
+                "s2_author_id": "143962285",
+                "name": "M. Lang"
+            },
+            {
+                "s2_author_id": "153044975",
+                "name": "John D. Leidel"
+            },
+            {
+                "s2_author_id": "2153702277",
+                "name": "Sherry Li"
+            },
+            {
+                "s2_author_id": "2768344",
+                "name": "R. Lucas"
+            },
+            {
+                "s2_author_id": "1398109299",
+                "name": "J. Mellor-Crummey"
+            },
+            {
+                "s2_author_id": "2134375451",
+                "name": "Paul Peltz Jr."
+            },
+            {
+                "s2_author_id": "35559735",
+                "name": "T. Peterka"
+            },
+            {
+                "s2_author_id": "1709408",
+                "name": "M. Strout"
+            },
+            {
+                "s2_author_id": "3312441",
+                "name": "Jeremiah J. Wilke"
+            },
+            {
+                "s2_author_id": "28900826",
+                "name": "Eduardo Berrocal"
+            },
+            {
+                "s2_author_id": "1387444987",
+                "name": "L. Bautista-Gomez"
+            },
+            {
+                "s2_author_id": "1699598",
+                "name": "S. Di"
+            },
+            {
+                "s2_author_id": "1721552",
+                "name": "F. Cappello"
+            },
+            {
+                "s2_author_id": "2149266165",
+                "name": "Jingjin Wu"
+            },
+            {
+                "s2_author_id": "3072283",
+                "name": "Xuanxing Xiong"
+            },
+            {
+                "s2_author_id": "2110367939",
+                "name": "Jia Wang"
+            },
+            {
+                "s2_author_id": "35963943",
+                "name": "Dongfang Zhao"
+            },
+            {
+                "s2_author_id": "143775271",
+                "name": "Wei Tang"
+            },
+            {
+                "s2_author_id": "38751698",
+                "name": "V. Morozov"
+            },
+            {
+                "s2_author_id": "2923842",
+                "name": "N. Desai"
+            },
+            {
+                "s2_author_id": "145207566",
+                "name": "Sean Wallace"
+            },
+            {
+                "s2_author_id": "3348747",
+                "name": "V. Vishwanath"
+            },
+            {
+                "s2_author_id": "1721828",
+                "name": "S. Coghlan"
+            },
+            {
+                "s2_author_id": "2153647301",
+                "name": "Xingwu Zhang"
+            },
+            {
+                "s2_author_id": "145111164",
+                "name": "John Jenkins"
+            },
+            {
+                "s2_author_id": "34780965",
+                "name": "Ziming Zheng"
+            },
+            {
+                "s2_author_id": "9297377",
+                "name": "R. Kettimuthu"
+            },
+            {
+                "s2_author_id": "4707048",
+                "name": "G. Bryan"
+            },
+            {
+                "s2_author_id": "48922377",
+                "name": "Xingwu Zheng"
+            },
+            {
+                "s2_author_id": "2346679",
+                "name": "John R. Tramm"
+            },
+            {
+                "s2_author_id": "2438407",
+                "name": "Yongen Yu"
+            },
+            {
+                "s2_author_id": "31786241",
+                "name": "D. Rudd"
+            },
+            {
+                "s2_author_id": "3015185",
+                "name": "N. Gnedin"
+            },
+            {
+                "s2_author_id": "30958213",
+                "name": "A. Kravtsov"
+            },
+            {
+                "s2_author_id": "2068940997",
+                "name": "Dongxu Ren"
+            },
+            {
+                "s2_author_id": "35130065",
+                "name": "Daniel Buettner"
+            },
+            {
+                "s2_author_id": "1707417",
+                "name": "H. Casanova"
+            },
+            {
+                "s2_author_id": "1738654",
+                "name": "Hyeonsang Eom"
+            },
+            {
+                "s2_author_id": "3343613",
+                "name": "L. Fong"
+            },
+            {
+                "s2_author_id": "1786547",
+                "name": "E. Frachtenberg"
+            },
+            {
+                "s2_author_id": "1686666",
+                "name": "A. Goldman"
+            },
+            {
+                "s2_author_id": "1760940",
+                "name": "A. Iosup"
+            },
+            {
+                "s2_author_id": "143806546",
+                "name": "L. Rudolph"
+            },
+            {
+                "s2_author_id": "2016928",
+                "name": "U. Schwiegelshohn"
+            },
+            {
+                "s2_author_id": "1874456",
+                "name": "Ramin Yahyapour"
+            },
+            {
+                "s2_author_id": "145445527",
+                "name": "T. Jones"
+            },
+            {
+                "s2_author_id": "39920348",
+                "name": "J. Brandt"
+            },
+            {
+                "s2_author_id": "39076226",
+                "name": "A. Gentile"
+            },
+            {
+                "s2_author_id": "49977666",
+                "name": "R. Gonz\u00e1lez"
+            },
+            {
+                "s2_author_id": "2110414505",
+                "name": "Yawei Li"
+            },
+            {
+                "s2_author_id": "2109271448",
+                "name": "Rinku Gupta"
+            },
+            {
+                "s2_author_id": "2289046339",
+                "name": "Roberto E. Gonz \u00e1 lez"
+            },
+            {
+                "s2_author_id": "1770077",
+                "name": "Jiexing Gu"
+            },
+            {
+                "s2_author_id": "143994696",
+                "name": "R. Thakur"
+            },
+            {
+                "s2_author_id": "32215051",
+                "name": "P. Beckman"
+            },
+            {
+                "s2_author_id": "49429345",
+                "name": "Prashasta Gujrati"
+            },
+            {
+                "s2_author_id": "2257369559",
+                "name": "Xian-He Sun"
+            },
+            {
+                "s2_author_id": "145509912",
+                "name": "Hui Jin"
+            },
+            {
+                "s2_author_id": "1746991",
+                "name": "Xian-He Sun"
+            },
+            {
+                "s2_author_id": "2064541275",
+                "name": "Bing Xie"
+            },
+            {
+                "s2_author_id": "2111270865",
+                "name": "Byung-Hoon Park"
+            },
+            {
+                "s2_author_id": "144741680",
+                "name": "A. Geist"
+            },
+            {
+                "s2_author_id": "2111364886",
+                "name": "John White"
+            },
+            {
+                "s2_author_id": "1767010",
+                "name": "Eva Hocks"
+            },
+            {
+                "s2_author_id": "2108015203",
+                "name": "Byung H. Park"
+            },
+            {
+                "s2_author_id": "15463269",
+                "name": "Y. Li"
+            },
+            {
+                "s2_author_id": "2144689187",
+                "name": "Jungmin Lee"
+            },
+            {
+                "s2_author_id": "33445151",
+                "name": "J. Amundson"
+            },
+            {
+                "s2_author_id": "48021694",
+                "name": "P. Spentzouris"
+            },
+            {
+                "s2_author_id": "2563313",
+                "name": "Prathibha Deshikachar"
+            },
+            {
+                "s2_author_id": "35202920",
+                "name": "J. Geisler"
+            },
+            {
+                "s2_author_id": "40286491",
+                "name": "X. Li"
+            },
+            {
+                "s2_author_id": "3102192",
+                "name": "M. Hereld"
+            },
+            {
+                "s2_author_id": "34915636",
+                "name": "I. Judson"
+            },
+            {
+                "s2_author_id": "2054434942",
+                "name": "R. Stevens"
+            }
+        ],
+        "total_co_authors": 134,
+        "papers_retrieved": 122
+    }
+}

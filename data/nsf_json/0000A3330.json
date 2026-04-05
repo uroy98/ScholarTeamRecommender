@@ -1,0 +1,2128 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A3330",
+        "name": "Wassim Itani",
+        "primary_affiliation": "George Mason University",
+        "primary_department": null,
+        "all_affiliations": [
+            "George Mason University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "VA"
+        ],
+        "perf_cities": [
+            "FAIRFAX"
+        ],
+        "org_names": [
+            "George Mason University"
+        ],
+        "org_ueis": [
+            "EADLFP7Z72E5"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "wassim@gmu.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2521525",
+                "title": "I-Corps: Translation Potential of Secure and Efficient Software Updates in Industrial Internet of Things Architectures",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-06-01",
+                "exp_date": "2026-05-31",
+                "award_amount": 50000.0,
+                "total_amount": 50000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "I-Corps"
+                ],
+                "program_codes": [
+                    "802300"
+                ],
+                "program_references": [
+                    "Software Services and Applications"
+                ],
+                "program_ref_codes": [
+                    "8032"
+                ],
+                "dir_abbr": "TIP",
+                "div_abbr": "TI",
+                "nsf_directorate": null,
+                "fund_division": "Translational Impacts",
+                "cfda_num": "47.084",
+                "po_name": "Ruth Shuman",
+                "keywords": [
+                    "software",
+                    "industrial",
+                    "energy",
+                    "update",
+                    "service",
+                    "corps",
+                    "efficient",
+                    "security",
+                    "mission",
+                    "solution"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "I-Corps"
+        ],
+        "program_codes": [
+            "802300"
+        ],
+        "program_references": [
+            "Software Services and Applications"
+        ],
+        "program_ref_codes": [
+            "8032"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "TIP"
+        ],
+        "div_abbrs": [
+            "TI"
+        ],
+        "fund_divisions": [
+            "Translational Impacts"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.084"
+        ],
+        "program_officers": [
+            "Ruth Shuman"
+        ],
+        "keywords": [
+            "software",
+            "industrial",
+            "energy",
+            "update",
+            "service",
+            "corps",
+            "efficient",
+            "security",
+            "mission",
+            "solution",
+            "potential",
+            "secure",
+            "internet",
+            "things",
+            "architectures",
+            "large",
+            "networks",
+            "operating",
+            "disruption",
+            "critical"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.71
+    },
+    "s2_profile": {
+        "s2_author_id": "10288020",
+        "name": "Wassim Itani",
+        "affiliations": [],
+        "paper_count": 72,
+        "citation_count": 887,
+        "h_index": 12,
+        "papers": [
+            {
+                "s2_paper_id": "7fa546169e12d8f3a0b31f0e79973794b8b68752",
+                "title": "dcGuard: A Holistic Approach for Detecting and Isolating Malicious Nodes in Cloud Data Centers",
+                "year": 2025,
+                "venue": "IEEE Transactions on Dependable and Secure Computing",
+                "citation_count": 1,
+                "reference_count": 47,
+                "abstract": "This paper presents dcGuard, a unified security approach for detecting and isolating misbehaving computing and forwarding nodes in multi-tenant virtualized cloud data centers. dcGuard employs technological advancements in Virtual Machine Introspection (VMI), Software-Defined Networking (SDN), and secure probabilistic sketching to detect and isolate parts of the Virtual Machines (VMs) and network switches experiencing malicious behavior dynamically. The main contribution lies in designing a divide-and-conquer strategy that utilizes VMI and network programmability to apply focused distributed task and packet probing mechanisms on portions of the data center network rather than focusing the security functions on the entire physical network. The processing VMs and network switches are recursively partitioned into independent logical groups inspected individually to localize abnormal/malicious computing and switching nodes incrementally. This remarkably enhances the efficiency of the detection mechanisms, which opportunistically approaches a logarithmic time complexity in the number of protocol steps towards convergence (compared to a linear time complexity in traditional intrusion detection systems) when a relatively low number of hostile VMs and switches are present. Real experiments are evaluated, and a test-bed blueprint of the proposed design is emulated in a virtualized cloud environment using the Mininet emulator. The performance, convergence, and accuracy benchmarks corroborate the analytical advantage of the proposed security approach.",
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "2047920",
+                        "name": "Maha Shamseddine"
+                    },
+                    {
+                        "s2_author_id": "1492127297",
+                        "name": "Auday Al-Dulaimy"
+                    },
+                    {
+                        "s2_author_id": "2257978848",
+                        "name": "Thomas Nolte"
+                    },
+                    {
+                        "s2_author_id": "2293722723",
+                        "name": "A. Papadopoulos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "11ac2a0c4e3861b289b36b4a4ca7bf6ec33a3a13",
+                "title": "Nodeguard: A Virtualized Introspection Security Approach for the Modern Cloud Data Center",
+                "year": 2022,
+                "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",
+                "citation_count": 2,
+                "reference_count": 22,
+                "abstract": "This paper presents Nodeguard, a security approach for detecting and isolating misbehaving Virtual Machines (VMs) in multi-tenant virtualized cloud data centers, based on the Virtual Machine Introspection (VMI) monitoring primitives. Nodeguard employs a divide-and-conquer strategy that checks logical groups of VMs to ensure the efficiency of the detection mechanisms which opportunistically approaches a complexity of $\\mathcal{O}(\\log_{2}(n))$ when there is a relatively low number of hostile VMs. This greatly enhances the algorithmic time complexity of the pro-posed security system compared to the $\\mathcal{O}(n)$ complexity achieved by the traditional VMI inspection strategy that checks each VM separately. The approach has been evaluated in a virtualized cloud environment using the Mininet network emulator.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047920",
+                        "name": "Maha Shamseddine"
+                    },
+                    {
+                        "s2_author_id": "1492127297",
+                        "name": "Auday Al-Dulaimy"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1388261929",
+                        "name": "T. Nolte"
+                    },
+                    {
+                        "s2_author_id": "1805880",
+                        "name": "A. Papadopoulos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d69c1d333493f17d3f3183655d8be058fb37488d",
+                "title": "Security-Aware Node Replacements and Incremental Updates in Industrial IoT Platforms",
+                "year": 2022,
+                "venue": "Global Communications Conference",
+                "citation_count": 1,
+                "reference_count": 22,
+                "abstract": "IIoT is the industrial tier of the Internet of Things initiative characterized by stringent security requirements, high sensor fault rates, and frequent mission-critical software updates. In this work, we propose the design and implementation of two security-aware protocols for node replacements and incremental software updates in IIoT. The node replacement protocol ensures the legitimacy of newly added replacement sensors by coordinating an efficient key management procedure to refresh their cryptographic keying material without the need of resource-intensive public-key cryptographic techniques. This is done by leveraging private secret sharing protocols and relying on the already established security associations between the IoT gateway and neighboring sensor nodes. The node update protocol supports multi-component software updates on the IIoT sensors and ensures their authenticity using probabilistic set membership data structures. This results in major reductions in network traffic overhead and protocol convergence times compared to traditional integrity enforcement approaches at the expense of minimal false positives probability. Moreover, the node update protocol realizes an incremental component loading and integrity verification mechanism on the IIoT sensors that lessens their storage requirements and avoids any superfluous operation intermission. A prototype implementation of the two proposed protocols demonstrates their feasibility in a real IoT network and exhibits high savings in convergence time and network traffic overhead.",
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "2047920",
+                        "name": "Maha Shamseddine"
+                    },
+                    {
+                        "s2_author_id": "2199962108",
+                        "name": "Elisha J Hosey-Stewart"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8242c22b57358591d349e1431ee4517714241914",
+                "title": "Automated physiological data acquisition in ICU using a novel sensor bed implementation",
+                "year": 2021,
+                "venue": "International Conference Electrical Energy Systems",
+                "citation_count": 1,
+                "reference_count": 14,
+                "abstract": "Ever since it gained prominence IoT has been center stage being used for everything from industrial and athlete performance monitoring to medical application. With all the push toward miniaturization researchers have yet to produce a device that is both compact and capable of multiple parameter detection for hospital settings. We therefore present in this work an idea of a compact sensor bed capable of monitoring multiple parameters at once per sensor node continuously while enabling security and privacy by maintaining end to end encryption between source and sink. Since, the sensor nodes are battery powered we are also going to display results of the most common ones in use today with a discussion on selecting the best one to extend sensor life.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044363485",
+                        "name": "Ismail Khram"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1400523055",
+                        "name": "Ahmad M. El-Hajj"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f9350c62877b2d4d428758e82c087e1be8089c0e",
+                "title": "Smart GIS-based organ and blood donation system",
+                "year": 2021,
+                "venue": "International Conference on Wireless Communications and Mobile Computing",
+                "citation_count": 4,
+                "reference_count": 0,
+                "abstract": "The advancement in medical technology lead to the controlled monitoring of patients in recovery or at home even for patients with dementia. With all this progress the procedure for selecting viable donors remains for the most part unchanged. As such we present in this paper our idea which we will discuss in detail. The donor and patient will be filtered on a set of parameters before being listed as candidates. Rather than wasting time looking for potential matches, donors' locations are tracked and select candidates will be contacted with the patient details.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044363485",
+                        "name": "Ismail Khram"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1400523055",
+                        "name": "Ahmad M. El-Hajj"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "63039d2e5826760f3ab05cb60713324e02d8f294",
+                "title": "STCCS: Segmented Time Controlled Count-Min Sketch",
+                "year": 2020,
+                "venue": "2020 ITU Kaleidoscope: Industry-Driven Digital Transformation (ITU K)",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "IoT is a concept consisting of many components powered by different techniques and technologies. However, due to computation restrictions, encryption algorithms had to be adapted, often at the expense of lower data security levels and strength. To maintain data privacy between source and sink we present in this paper a data sketching algorithm that utilizes bandwidth by providing a summary of the data to the cloud. The input data stream goes through a hashing algorithm which produces a hexadecimal representation of the data before going through the sketching algorithm. At the algorithm the data is categorized and the corresponding hash cell value updated. Note is also taken of the arrival time of the data considered anomalous to allow the manager to take corrective action if it is deduced that the periodic appearance of the information is successive in nature.",
+                "authors": [
+                    {
+                        "s2_author_id": "2044363485",
+                        "name": "Ismail Khram"
+                    },
+                    {
+                        "s2_author_id": "2047920",
+                        "name": "Maha Shamseddine"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d23f47f3c42745455f18209e8b5ebb6cda363b3f",
+                "title": "bwSlicer: A bandwidth slicing framework for cloud data centers",
+                "year": 2020,
+                "venue": "Future generations computer systems",
+                "citation_count": 13,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7401910",
+                        "name": "Auday Aldulaimy"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "2383231",
+                        "name": "J. Taheri"
+                    },
+                    {
+                        "s2_author_id": "2047920",
+                        "name": "Maha Shamseddine"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3e827d14ba16f7e8ab74b91c9838cf131d0a0d26",
+                "title": "Advanced Biomimetic Cells Architecture for Parallel Operations in Artificial Intelligence",
+                "year": 2019,
+                "venue": "International Conference on Advances in Computational Tools for Engineering Applications",
+                "citation_count": 2,
+                "reference_count": 28,
+                "abstract": "This paper introduces a new architecture of Biomimetic Cells, which is very different in its nucleus from simple cells, and presents a multi combinational grid between inputs, weights and outputs. Designers are free to use hybrid combination of cells to model any required arrangement style. This leads to a massive reduction in complexity. The high degrees of freedom in devising combinations in structure and length make the proposed system a unique operational platform for the generalization of virtually any computational system. The transparency presented by these new cells allows the visibility and availability of any information at any layer. Moreover, the new cells present multiple modes arrays of functionality, which allow the direct switching between multiple modes of processing without needing reconfiguration.",
+                "authors": [
+                    {
+                        "s2_author_id": "9438226",
+                        "name": "Ziad F. Doughan"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "49256461",
+                        "name": "A. Haidar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8df0aecf3ef03c8096ed5bc2115515a5f6a5bf8d",
+                "title": "Privacy-Aware Job Submission in the Cloud",
+                "year": 2019,
+                "venue": "Middle East and North Africa Communications Conference",
+                "citation_count": 2,
+                "reference_count": 13,
+                "abstract": "The services offered by cloud computing are provided to individuals and organizations by varied shared resources which are forming the hardware layer of cloud data centers. Cloud users do not deal or interact directly with those resources, instead, they deal with the virtualized version of them, in other words, users deal with the virtualization layer which conceals to a great extent the specifics of the physical hardware layer. Based on the virtualization concept, more than one virtual machine can be co-hosted on the same physical machine. In spite of the wide range of benefits, co-hosting virtual machines on the same host comes with privacy and security threats. From one side, cloud providers are serving the virtual machines without being aware of their contents. On the other side, once cloud users submit their jobs to be serviced in the cloud, they lose their control on their jobs\u2019 sensitive information. Thus, cloud users\u2019 hesitation from moving to the cloud is logical since their sensitive jobs\u2019 content leakage or misuse is possible, especially when cloud services are not designed with privacy considerations. This paper proposes an approach to make the jobs with sensitive information more secure when submitted to the cloud environment. The core idea of the approach is to request the inclusion of the privacy specification of a set of one or more provider services in the Service Level Agreement contract.",
+                "authors": [
+                    {
+                        "s2_author_id": "7401910",
+                        "name": "Auday Aldulaimy"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "2047920",
+                        "name": "Maha Shamseddine"
+                    },
+                    {
+                        "s2_author_id": "2383231",
+                        "name": "J. Taheri"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "93b48099cb0e712c33f978f7759310ebdd4549c6",
+                "title": "Mitigating Rogue Node Attacks in Edge Computing",
+                "year": 2019,
+                "venue": "Middle East and North Africa Communications Conference",
+                "citation_count": 1,
+                "reference_count": 20,
+                "abstract": "In this work, we present a secure authentication protocol for edge computing using the Software-Defined Networking platform and wireless network virtualization. The main contribution of the presented protocol lies in: (1) designing and implementing a practical solution to the security problem of rogue Fog nodes, and (2) providing the cloud service provider with exclusive control over the security configuration and specification of its leased virtual networks independent of the security mechanisms implemented by the underlying infrastructure provider. The cloud provider dynamically enforces its security policies on the communication at the network edge, therefore circumventing any possible security vulnerabilities in the underlying physical wireless infrastructure. The authentication protocol manages the trusted communication among the mobile client, the infrastructure provider, and the cloud service provider, yet confines the Public-Key Infrastructure (PKI) deployment to solely the infrastructure and cloud providers. This enhances the scalability of the system and reduces the complexity of its security management and configuration. A system testbed is simulated using the Mininet emulator and the Amazon EC2 Cloud.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047920",
+                        "name": "Maha Shamseddine"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "7401910",
+                        "name": "Auday Aldulaimy"
+                    },
+                    {
+                        "s2_author_id": "2383231",
+                        "name": "J. Taheri"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f6435e9f051881b828b8d7cb079ece5f75a36cd5",
+                "title": "Wireless Body Sensor Networks",
+                "year": 2019,
+                "venue": "Cyber Law, Privacy, and Security",
+                "citation_count": 0,
+                "reference_count": 7,
+                "abstract": "In this paper, the authors provide a detailed overview and technical discussion and analysis of the latest research trends in securing body sensor networks. The core of this work aims at: (1) identifying the resource limitations and energy challenges of this category of wireless sensor networks, (2) considering the life-critical applications and emergency contexts that are encompassed by body sensor network services, and (3) studying the effect of these peculiarities on the design and implementation of rigorous and efficient security algorithms and protocols. The survey discusses the main advancements in the design of body sensor network cryptographic services (key generation and management, authentication, confidentiality, integrity, and privacy) and sheds the light on the prominent developments achieved in the field of securing body sensor network data in Cloud computing architectures. The elastic virtualization mechanisms employed in the Cloud, as well as the lucrative computing and storage resources available, makes the integration of body sensor network applications, and Cloud platforms a natural choice that is packed with various security and privacy challenges. The work presented in this paper focuses on Cloud privacy and integrity mechanisms that rely on tamper-proof hardware and energy-efficient cryptographic data structures that are proving to be well-suited for operation in untrusted Cloud environments. This paper also examines two crucial design patterns that lie at the crux of any successful body sensor network deployment which are represented in: (1) attaining the right balance between the degree, complexity, span, and strength of the cryptographic operations employed and the energy resources they consume. (2) Achieving a feasible tradeoff between the privacy of the human subject wearing the body sensor network and the safety of this subject. This is done by a careful analysis of the medical status of the subject and other context-related information to control the degree of disclosure of sensitive medical data. The paper concludes by presenting a practical overview of the cryptographic support in the main body sensor network development frameworks such and TinyOS and SPINE and introduces a set of generalized guideline patterns and recommendations for designing and implementing cryptographic protocols in body sensor network environments.",
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "481f3b30b487feb4df35b6345431ca732cff5adb",
+                "title": "Network Programming and Probabilistic Sketching for Securing the Data Plane",
+                "year": 2018,
+                "venue": "Secur. Commun. Networks",
+                "citation_count": 2,
+                "reference_count": 30,
+                "abstract": "This paper presents VISKA, a cloud security service for dynamically detecting malicious switching elements in software defined networking (SDN) infrastructures. The main contributions of VISKA lie in (1) utilizing network programming and secure probabilistic sketching in SDN environments to dynamically detect and isolate parts of the data plane that experience malicious behavior, (2) applying a set of focused packet probing and sketching mechanisms on isolated network partitions/views rather than focusing the security mechanisms on the whole physical network, (3) efficiently analyzing the network behavior of the resulting views by recursively partitioning them in a divide-and-conquer fashion to logarithmically reduce the problem size in order to localize abnormal/malicious switching units, and (4) providing an attack categorization module that analyzes live ingress/egress traffic of the maliciously detected switch(es) solely to identify the specific type of attack, rather than inspecting the whole network traffic as is done in traditional intrusion detection systems. This significantly enhances the performance of attack detection and reduces the load on the controller. A testbed prototype implementation is realized on the Mininet network emulator. The experimental analysis corroborated the algorithms\u2019 convergence property using the linear and FatTree topologies with network sizes of up to 250 switches. Moreover, an implementation of the attack categorization module is realized and achieved an accuracy rate of over 90% for the different attack types supported.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047920",
+                        "name": "Maha Shamseddine"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "51c56f893d3b9077a7bd68cdb6bc4f2712593769",
+                "title": "Biomimetic Cells: A New Frontier in Brain Informatics",
+                "year": 2018,
+                "venue": "2018 IEEE International Multidisciplinary Conference on Engineering Technology (IMCET)",
+                "citation_count": 2,
+                "reference_count": 15,
+                "abstract": "This paper introduces a new imitation of neurons cells, based on the latest discoveries in neuroscience. After reobserving the latest revelations in the field of biological neurons, the conventional artificial models has proven strong potentials in image processing and pattern classification, but remains far from presenting a modern imitation of natural intelligent organisms. A Biomimetic cell design is thus proposed with a combination of registers to hold the inputs, outputs, and weights as information codes. These cells use binary equivalence gates to compare the inputs to the weights and deliver the required outputs. The abstraction model provided renders the training process highly simplistic, which speeds up the design phase and opens the way towards a new dimension in artificial intelligence.",
+                "authors": [
+                    {
+                        "s2_author_id": "9438226",
+                        "name": "Ziad F. Doughan"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "49256461",
+                        "name": "A. Haidar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c32c7a889d3a8a2ab2dd5e2050b6803bc84299cf",
+                "title": "Type-aware virtual machine management for energy efficient cloud data centers",
+                "year": 2018,
+                "venue": "Sustainable Computing: Informatics and Systems",
+                "citation_count": 43,
+                "reference_count": 48,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7401910",
+                        "name": "Auday Aldulaimy"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "39499345",
+                        "name": "R. Zantout"
+                    },
+                    {
+                        "s2_author_id": "145593627",
+                        "name": "A. Zekri"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "77cdd3a403d6f78f2a2419d4bccefde0c7e3a01b",
+                "title": "ENAGS: energy and network-aware genetic scheduling algorithm on cloud data centers",
+                "year": 2017,
+                "venue": "International Conference on Intelligent Cloud Computing",
+                "citation_count": 4,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9439997",
+                        "name": "Soha Rawas"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "145593627",
+                        "name": "A. Zekri"
+                    },
+                    {
+                        "s2_author_id": "9210687",
+                        "name": "A. Zaart"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9e3d0b0dfa6b8ab4684cec70b333eac6d82db768",
+                "title": "On-demand network virtualization and provisioning services in SDN-driven cloud platforms",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2047920",
+                        "name": "Maha Shamseddine"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "afbdd55a399ce36e3ef02857a124976370454f8a",
+                "title": "Virtualized network views for localizing misbehaving sources in SDN data planes",
+                "year": 2017,
+                "venue": "2017 IEEE International Conference on Communications (ICC)",
+                "citation_count": 6,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2047920",
+                        "name": "Maha Shamseddine"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dc60fd30fae12f93cffbadc0b93c18f9bb84e1f6",
+                "title": "Paving the Way for Energy Efficient Cloud Data Centers: A Type-Aware Virtual Machine Placement Strategy",
+                "year": 2017,
+                "venue": "2017 IEEE International Conference on Cloud Engineering (IC2E)",
+                "citation_count": 5,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7401910",
+                        "name": "Auday Aldulaimy"
+                    },
+                    {
+                        "s2_author_id": "145593627",
+                        "name": "A. Zekri"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "39499345",
+                        "name": "R. Zantout"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "22bd841ea996ff214685c9a59ac0671be752871f",
+                "title": "Bio-mimetic approach in digital artificial neuro-science",
+                "year": 2016,
+                "venue": "International Conference on Advances in Computational Tools for Engineering Applications",
+                "citation_count": 4,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9438226",
+                        "name": "Ziad F. Doughan"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "49256461",
+                        "name": "A. Haidar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c11f882d55d607062243f7c79ef00cd97663371",
+                "title": "Power management in virtualized data centers: state of the art",
+                "year": 2016,
+                "venue": "Journal of Cloud Computing",
+                "citation_count": 24,
+                "reference_count": 52,
+                "abstract": "Cloud computing is an emerging technology in the field of computing that provides access to a wide range of shared resources. The rapid growth of cloud computing has led to establishing numerous data centers around the world. As data centers consume huge amounts of power, enhancing their power efficiency has become a major challenge in cloud computing. This paper surveys previous studies and researches that aimed to improve power efficiency of virtualized data centers. This survey is a valuable guide for researchers in the field of power efficiency in virtualized data centers following the cloud computing model.",
+                "authors": [
+                    {
+                        "s2_author_id": "7401910",
+                        "name": "Auday Aldulaimy"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "145593627",
+                        "name": "A. Zekri"
+                    },
+                    {
+                        "s2_author_id": "39499345",
+                        "name": "R. Zantout"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "44120a7f1c59dc0ed345deb9320696d846d6d165",
+                "title": "Power management in virtualized data centers: state of the art",
+                "year": 2016,
+                "venue": "Journal of Cloud Computing",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "Cloud computing is an emerging technology in the field of computing that provides access to a wide range of shared resources. The rapid growth of cloud computing has led to establishing numerous data centers around the world. As data centers consume huge amounts of power, enhancing their power efficiency has become a major challenge in cloud computing. This paper surveys previous studies and researches that aimed to improve power efficiency of virtualized data centers. This survey is a valuable guide for researchers in the field of power efficiency in virtualized data centers following the cloud computing model.",
+                "authors": [
+                    {
+                        "s2_author_id": "1492127297",
+                        "name": "Auday Al-Dulaimy"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "145593627",
+                        "name": "A. Zekri"
+                    },
+                    {
+                        "s2_author_id": "39499345",
+                        "name": "R. Zantout"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "67c2295ae82707974cce5a9baedfa44a25152d68",
+                "title": "Wireless Body Sensor Networks: Security, Privacy, and Energy Efficiency in the Era of Cloud Computing",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "981016c07ff533ed1bced95b2a02e19e16ca83f2",
+                "title": "NCaaS: network configuration as a service in SDN-driven cloud architectures",
+                "year": 2016,
+                "venue": "ACM Symposium on Applied Computing",
+                "citation_count": 0,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2047920",
+                        "name": "Maha Shamseddine"
+                    },
+                    {
+                        "s2_author_id": "1793946",
+                        "name": "I. Elhajj"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d01e07b6ef26923de255408bcf1481394be92e91",
+                "title": "Towards Solving the Problem of Virtual Machine Placement in Cloud Computing: A Job Classification Approach",
+                "year": 2016,
+                "venue": "Journal of Computer Science",
+                "citation_count": 3,
+                "reference_count": 48,
+                "abstract": "Cloud Computing is a paradigm that delivers services by providing an access to wide range of shared resources which are hosted in cloud data centers. One of the recent challenges in this paradigm is to enhance the energy efficiency in these data centers. In this study, a model that identifies common patterns for the jobs submitted to the cloud is proposed. This model is able to predict the type of the job submitted and accordingly, the set of users\u2019 jobs is classified into four subsets. Each subset contains jobs that have similar requirements. In addition to the jobs\u2019 common pattern and requirements, the users\u2019 history is considered in the jobs\u2019 type prediction model. The goal of job classification is to find a way to propose useful strategy that helps to improve power efficiency. Based on the process of jobs\u2019 classification, the best fit virtual machine is allocated to each job. Then, the virtual machines are placed on the physical machines according to a novel strategy, called Mixed Type Placement strategy. The core idea of the proposed strategy is to place virtual machines of the jobs of different types in the same physical machine whenever possible. The placement process is based on Multi Choice Knapsack Problem which is a generalization of the classical Knapsack Problem. This is because different types of jobs do not intensively use the same compute or storage resources in the physical machine. This strategy minimizes the number of active physical machines which, in turn, leads to major reduction in the total energy consumption in the data center. The total execution time and the cost of executing the jobs submitted are considered in the placement process. To evaluate the performance of the proposed strategy, the CloudSim simulator is used with a real workload trace to simulate the cloud computing environment. The results show that the proposed strategy outperform both Genetic Algorithm and Round Robin from energy efficiency perspective.",
+                "authors": [
+                    {
+                        "s2_author_id": "7401910",
+                        "name": "Auday Aldulaimy"
+                    },
+                    {
+                        "s2_author_id": "145593627",
+                        "name": "A. Zekri"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "39499345",
+                        "name": "R. Zantout"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d123252dbd80a4317a7fb232d821f456564d79d",
+                "title": "G-Route: an energy-aware service routing protocol for green cloud computing",
+                "year": 2015,
+                "venue": "Cluster Computing",
+                "citation_count": 12,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144888800",
+                        "name": "Cesar Ghali"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "1793946",
+                        "name": "I. Elhajj"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1f096b473cc55f4ac8c800e155bef5cfc9833a94",
+                "title": "Chapter IV Policy-Based Security for M-Commerce Networks",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7dee940efcc149e80ebc9f7c08314a181141ab73",
+                "title": "Efficient Healthcare Integrity Assurance in the Cloud with Incremental Cryptography and Trusted Computing",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "86c3dfe7c94f1899baecaa9eedd88c5e73740c10",
+                "title": "The effect of Bandwidth Allocation on power efficiency in cloud data centers",
+                "year": 2015,
+                "venue": "International Computer Engineering Conference",
+                "citation_count": 0,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1492127297",
+                        "name": "Auday Al-Dulaimy"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "39499345",
+                        "name": "R. Zantout"
+                    },
+                    {
+                        "s2_author_id": "145593627",
+                        "name": "A. Zekri"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b0814f79ae5b4718f8e23865d1ce59be43135946",
+                "title": "CENTERA: A Centralized Trust-Based Efficient Routing Protocol with Authentication for Wireless Sensor Networks \u2020",
+                "year": 2015,
+                "venue": "Italian National Conference on Sensors",
+                "citation_count": 34,
+                "reference_count": 29,
+                "abstract": "In this paper, we present CENTERA, a CENtralized Trust-based Efficient Routing protocol with an appropriate authentication scheme for wireless sensor networks (WSN). CENTERA utilizes the more powerful base station (BS) to gather minimal neighbor trust information from nodes and calculate the best routes after isolating different types of \u201cbad\u201d nodes. By periodically accumulating these simple local observations and approximating the nodes' battery lives, the BS draws a global view of the network, calculates three quality metrics\u2014maliciousness, cooperation, and compatibility\u2014and evaluates the Data Trust and Forwarding Trust values of each node. Based on these metrics, the BS isolates \u201cbad\u201d, \u201cmisbehaving\u201d or malicious nodes for a certain period, and put some nodes on probation. CENTERA increases the node's bad/probation level with repeated \u201cbad\u201d behavior, and decreases it otherwise. Then it uses a very efficient method to distribute the routing information to \u201cgood\u201d nodes. Based on its target environment, and if required, CENTERA uses an authentication scheme suitable for severely constrained nodes, ranging from the symmetric RC5 for safe environments under close administration, to pairing-based cryptography (PBC) for hostile environments with a strong attacker model. We simulate CENTERA using TOSSIM and verify its correctness and show some energy calculations.",
+                "authors": [
+                    {
+                        "s2_author_id": "1779265",
+                        "name": "Ayman Tajeddine"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "1793946",
+                        "name": "I. Elhajj"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bf58629025672f1fbeeb33c1860d7dad6526442c",
+                "title": "Job Classification in Cloud Computing: The Classification Effects on Energy Efficiency",
+                "year": 2015,
+                "venue": "International Conference on Utility and Cloud Computing",
+                "citation_count": 10,
+                "reference_count": 34,
+                "abstract": "One of the recent and major challenges in cloud computing is to enhance the energy efficiency in cloud data centers. Such enhancements can be done by improving the resource allocation and management algorithms. In this paper, a model that identifies common patterns for the jobs submitted to the cloud is proposed. This model is able to predict the type of the job submitted, and accordingly, the set of users' jobs is classified into four subsets. Each subset contains jobs that have similar requirements. In addition to the jobs' common pattern and requirements, the users' history is considered in the jobs' type prediction model. The goal of job classification is to find a way to propose useful strategy that helps improve energy efficiency. Following the process of jobs' classification, the best fit virtual machine is allocated to each job. Then, the virtual machines are placed to the physical machines according to a novel strategy called Mixed Type Placement strategy. The core idea of the proposed strategy is to place virtual machines of the jobs of different types in the same physical machine whenever possible, based on Knapsack Problem. This is because different types of jobs do not intensively use the same compute or storage resources in the physical machine. This strategy reduces the number of active physical machines which leads to major reduction in the total energy consumption in the data center. A simulation of the results shows that the presented strategy outperforms both Genetic Algorithm and Round Robin from an energy efficiency perspective.",
+                "authors": [
+                    {
+                        "s2_author_id": "7401910",
+                        "name": "Auday Aldulaimy"
+                    },
+                    {
+                        "s2_author_id": "39499345",
+                        "name": "R. Zantout"
+                    },
+                    {
+                        "s2_author_id": "145593627",
+                        "name": "A. Zekri"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c4da5601f318aeaa0583141ccab3ebe9f079c524",
+                "title": "A Novel Scheme to Reduce the Energy Consumption of Wireless Sensor Networks",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37353155",
+                        "name": "N. Saleh"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "49256461",
+                        "name": "A. Haidar"
+                    },
+                    {
+                        "s2_author_id": "145224588",
+                        "name": "H. Nassar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea69b3473f06c5848e2e60262d88dbe90ffc64f8",
+                "title": "G-Route: an energy-aware service routing protocol for green cloud computing",
+                "year": 2015,
+                "venue": "Cluster Computing",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144888800",
+                        "name": "Cesar Ghali"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "1793946",
+                        "name": "I. Elhajj"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fd1e07ed2dc2a08991b7036b26da3adcacc5704e",
+                "title": "Towards greener services in cloud computing: Research and future directives",
+                "year": 2015,
+                "venue": "International Conference on Advanced Robotics",
+                "citation_count": 9,
+                "reference_count": 59,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9439997",
+                        "name": "Soha Rawas"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "9210687",
+                        "name": "A. Zaart"
+                    },
+                    {
+                        "s2_author_id": "145593627",
+                        "name": "A. Zekri"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3403864d14f8fc99bc22697bf5ce12f44fa274e0",
+                "title": "ServBGP: BGP-inspired autonomic service routing for multi-provider collaborative architectures in the cloud",
+                "year": 2014,
+                "venue": "Future generations computer systems",
+                "citation_count": 12,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144888800",
+                        "name": "Cesar Ghali"
+                    },
+                    {
+                        "s2_author_id": "2657241",
+                        "name": "R. Bassil"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "82324c845f61e196ed1b558e78e77a7b76a0a9b6",
+                "title": "Reputation as a Service: A System for Ranking Service Providers in Cloud Systems",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144888800",
+                        "name": "Cesar Ghali"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f14fe1513a7af04e375fad36c34bc8b5a72eca78",
+                "title": "ALPS: The Accountable Cloud Protocol Stack",
+                "year": 2014,
+                "venue": "International Conference on Cloud Computing and Services Science",
+                "citation_count": 0,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5072cb0e2d957fa09113b1edac822639685f6d07",
+                "title": "SNUAGE: an efficient platform-as-a-service security framework for the cloud",
+                "year": 2013,
+                "venue": "Cluster Computing",
+                "citation_count": 7,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b659459bd9ecb38d05759e3384712b19b9446eb8",
+                "title": "Accountable energy monitoring for green service routing in the cloud",
+                "year": 2013,
+                "venue": "International Conference on Communications and Information Technology",
+                "citation_count": 2,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144888800",
+                        "name": "Cesar Ghali"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "1793946",
+                        "name": "I. Elhajj"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c5b819ae1ecdf9cf433eb398d4d838018dfae46b",
+                "title": "Secure Cryptographic Mechanisms for Safeguarding Citizen Communications in the Presence of Tyranny",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31843752",
+                        "name": "S. Saab"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "144888800",
+                        "name": "Cesar Ghali"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "408dac283ea262fd6a25d815bec3b9fd6d72f398",
+                "title": "Security analysis and solution for thwarting cache poisoning attacks in the Domain Name System",
+                "year": 2012,
+                "venue": "International Conference on Telecommunications",
+                "citation_count": 18,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2657241",
+                        "name": "R. Bassil"
+                    },
+                    {
+                        "s2_author_id": "1893760",
+                        "name": "Roula Hobeica"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144888800",
+                        "name": "Cesar Ghali"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a5f436d6a35e1136ee95f9b7acd611b6c87e9c9",
+                "title": "A Novel Frequency Hopping Scheme for Secure and Reliable Communication Systems",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144518626",
+                        "name": "Ayman Khalil"
+                    },
+                    {
+                        "s2_author_id": "113772573",
+                        "name": "Diana Sidani"
+                    },
+                    {
+                        "s2_author_id": "2092873613",
+                        "name": "Lina Agha"
+                    },
+                    {
+                        "s2_author_id": "117667316",
+                        "name": "Meshref Lebanon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75b11e6af218689d32d6456da20caabe663e9a72",
+                "title": "SNUAGE: an efficient platform-as-a-service security framework for the cloud",
+                "year": 2012,
+                "venue": "Cluster Computing",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "81c4e7a36b54f83f21529910c9daeb59db807f77",
+                "title": "Hardware-Based Security for Ensuring Data Privacy in the Cloud",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8cb745ab5599fa14fa994ef6eef98b13be5ba56e",
+                "title": "Security and Privacy in Body Sensor Networks: Challenges, Solutions, and Research Directions",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c816f56b43c092da6d7d5f139f3a4e76c8724bf3",
+                "title": "Challenges and solutions for security and service collaboration in the cloud - by Wassim Ghassan Itani.",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f13e4d19010137013e6c6cab895a60fdc870f5dd",
+                "title": "BGP-inspired autonomic service routing for the cloud",
+                "year": 2012,
+                "venue": "ACM Symposium on Applied Computing",
+                "citation_count": 6,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144888800",
+                        "name": "Cesar Ghali"
+                    },
+                    {
+                        "s2_author_id": "2657241",
+                        "name": "R. Bassil"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "074f8d2e2f166113356abb6d687a965fc500e539",
+                "title": "Secure delay-tolerant communications in the presence of oppressive governments",
+                "year": 2011,
+                "venue": "International Conference for Internet Technology and Secured Transactions",
+                "citation_count": 0,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31843752",
+                        "name": "S. Saab"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "144888800",
+                        "name": "Cesar Ghali"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "642e7af083cbced75c30d05b1e2ca0e54f51d556",
+                "title": "Energy-efficient platform-as-a-service security provisioning in the cloud",
+                "year": 2011,
+                "venue": "International Conference on Energy Aware Computing Systems & Applications",
+                "citation_count": 9,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8b5440e165cbe1935b500fefd399cdb0c30da53e",
+                "title": "Accountable Reputation Ranking Schemes for Service Providers in Cloud Computing",
+                "year": 2011,
+                "venue": "International Conference on Cloud Computing and Services Science",
+                "citation_count": 9,
+                "reference_count": 16,
+                "abstract": "We present RaaS (Reputation as a Service), a set of accountable reputation ranking schemes for service providers in cloud computing architectures. RaaS provides a secure reputation reporting system producing results and recommendations that can be published as a service and verified by trusted third parties or by the cloud service providers themselves. The reputation service is based on an assortment of ranking criteria ranging from multilevel performance and quality of service measures to security and pricing assessments. This makes RaaS a valuable IT component in supporting verifiable and accountable compliance with service-level agreements and regulatory policies, encouraging competition among cloud providers for better security and quality of service, and providing new and existing cloud customers with valuable advice for selecting the appropriate cloud service provider(s) that suit their performance, budgeting, and security requirements. The RaaS reputation system does not rely on subjective feedback from cloud customers but rather carry out the reputation calculation based on observable actions extracted from the computing cloud itself. A proof of concept implementation shows that the incorporated RaaS protocols impose minimal overhead on the overall system performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144888800",
+                        "name": "Cesar Ghali"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bb73767e98584de3327e40f5f501358852981627",
+                "title": "Policy-based security channels for protecting network communication in mobile cloud computing",
+                "year": 2011,
+                "venue": "Proceedings of the International Conference on Security and Cryptography",
+                "citation_count": 3,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "19b2ccee0135af2ecbdf63c6acf0156f71cd079c",
+                "title": "Energy-efficient incremental integrity for securing storage in mobile cloud computing",
+                "year": 2010,
+                "venue": "International Conference on Energy Aware Computing Systems & Applications",
+                "citation_count": 89,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d51f21e9ef96268ee7d70fe37abdd487e123178",
+                "title": "STRIDE: A Secure Framework for Modeling Trust-Privacy Tradeoffs in Distributed Computing Environments",
+                "year": 2010,
+                "venue": "International Journal of Dependable and Trustworthy Information Systems",
+                "citation_count": 3,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1796006",
+                        "name": "R. Deghaili"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7fe7c88f5a659cb855a6e95efda999ef46bff7a0",
+                "title": "PLEDGE: A POLICY -BASED SECURITY PROTOCOL FOR PROTECTING CONTENT ADDRESSABLE",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "113270427",
+                        "name": "Storage Architectures"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "abb5d289a0f413a081826f1908728219081ee2f6",
+                "title": "Slow but certain wins the race: authenticated bundle communication in delay tolerant networks",
+                "year": 2010,
+                "venue": "Q2S and Security for Wireless and Mobile Networks",
+                "citation_count": 5,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1779265",
+                        "name": "Ayman Tajeddine"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dedebd20b9e520ef6ebf2ac412cda54f55103b42",
+                "title": "SinPack: A Security Protocol for Preventing Pollution Attacks in Network-Coded Content Distribution Networks",
+                "year": 2010,
+                "venue": "2010 IEEE Global Telecommunications Conference GLOBECOM 2010",
+                "citation_count": 3,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "144888800",
+                        "name": "Cesar Ghali"
+                    },
+                    {
+                        "s2_author_id": "1400523055",
+                        "name": "Ahmad M. El-Hajj"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "17228d7ce3e6c8d70ba09f3d2c18db99e60067e5",
+                "title": "SINE: Cache-friendly integrity for the web",
+                "year": 2009,
+                "venue": "2009 5th IEEE Workshop on Secure Network Protocols",
+                "citation_count": 21,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "14363929",
+                        "name": "C. Gaspard"
+                    },
+                    {
+                        "s2_author_id": "145416522",
+                        "name": "S. Goldberg"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1743774",
+                        "name": "E. Bertino"
+                    },
+                    {
+                        "s2_author_id": "1398550766",
+                        "name": "C. Nita-Rotaru"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "522236e79d70813bf4ea84dd13fb66dd51079f01",
+                "title": "Privacy as a Service: Privacy-Aware Data Storage and Processing in Cloud Computing Architectures",
+                "year": 2009,
+                "venue": "2009 Eighth IEEE International Conference on Dependable, Autonomic and Secure Computing",
+                "citation_count": 340,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b400cd04b7f0ded5a84005795d86a3f529d5b1e5",
+                "title": "PETRA: a secure and energy-efficient software update protocol for severely-constrained network devices",
+                "year": 2009,
+                "venue": "Q2S and Security for Wireless and Mobile Networks",
+                "citation_count": 8,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "07ca0243300df9225ffeeb992840c3ef9f0c1397",
+                "title": "Smart encryption channels for securing virtual machine-based networked applications",
+                "year": 2008,
+                "venue": "Secur. Commun. Networks",
+                "citation_count": 1,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "efc7b15596ff2b75c113b93db610d69a12752346",
+                "title": "Policy-Based Security for M-Commerce Networks",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8bbb9f8d3a6b37bf742493f379053aeca6e717db",
+                "title": "An efficient and scalable Security ProtocoL for protecting fixed-Content Objects in ContEnt aDdressable StoraGe architEctures",
+                "year": 2007,
+                "venue": "Security and Privacy in Communication Networks",
+                "citation_count": 2,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "189aebe9eb35e4235c43c3c91e02c894e7bc481a",
+                "title": "A Policy-driven, Content-based Security Protocol for Protecting Audit Logs on Wireless Devices",
+                "year": 2006,
+                "venue": "International Journal of Network Security",
+                "citation_count": 2,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    },
+                    {
+                        "s2_author_id": "14363929",
+                        "name": "C. Gaspard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "51457f4803aa6fc93cc8ccf24d1335a031a0e303",
+                "title": "SECERN: A Secure Enterprise Backup and Recovery System for Mission-Critical Relational Database Servers",
+                "year": 2006,
+                "venue": "2006 Innovations in Information Technology",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ac742f732c487ca1e41a3ffa453f4e3d9f5aef5",
+                "title": "NISp1-09: PRIDE: Policy-Driven Web Security for Handheld Wireless Devices",
+                "year": 2006,
+                "venue": "IEEE Globecom 2006",
+                "citation_count": 5,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "14363929",
+                        "name": "C. Gaspard"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c212372cf62dc2cecc1c120fb82ae13f54b76ead",
+                "title": "An enterprise policy-based security protocol for protecting relational database network objects",
+                "year": 2006,
+                "venue": "International Conference on Wireless Communications and Mobile Computing",
+                "citation_count": 8,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53a456c1dd0480e115292f97a8a1f67409459ec3",
+                "title": "SPARTA : a Secure , Policy-Driven Architecture for Content Distribution and Storage in Centralized Wireless Networks",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8936ec1b3dddd2424ea6de5d79095d22dd6fc9a8",
+                "title": "Short Paper: PATRIOT- a Policy-Based, Multi-level Security Protocol for Safekeeping Audit Logs on Wireless Devices",
+                "year": 2005,
+                "venue": "Security and Privacy in Communication Networks",
+                "citation_count": 6,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    },
+                    {
+                        "s2_author_id": "144113997",
+                        "name": "A. Chehab"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eb94d66d91c7b52809d91836f0e879316dc5db8a",
+                "title": "SPECSA: a scalable, policy-driven, extensible, and customizable security architecture for wireless enterprise applications",
+                "year": 2004,
+                "venue": "IEEE International Conference on Performance, Computing, and Communications, 2004",
+                "citation_count": 20,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec9097d10ce38b71e881a85f0ea9b618a8c4c8ea",
+                "title": "J2ME application-layer end-to-end security for m-commerce",
+                "year": 2004,
+                "venue": "Journal of Network and Computer Applications",
+                "citation_count": 37,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8da46f48f8a48cd16f454b7544c5e8aab553b478",
+                "title": "Wireless enterprise applications security design and implementation using the JAVA TM platform - by Wassim Ghassan Itani",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d113acf82ac3acd8083fb4f617da03bd1442e1fa",
+                "title": "J2ME end-to-end security for M-commerce",
+                "year": 2003,
+                "venue": "2003 IEEE Wireless Communications and Networking, 2003. WCNC 2003.",
+                "citation_count": 35,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "1700205",
+                        "name": "A. Kayssi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1cfd00093eaf1c6fa5040f7bfae0d05f3436fb84",
+                "title": "Job Submission in the Cloud : Energy Aware Approaches",
+                "year": null,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1492127297",
+                        "name": "Auday Al-Dulaimy"
+                    },
+                    {
+                        "s2_author_id": "39499345",
+                        "name": "R. Zantout"
+                    },
+                    {
+                        "s2_author_id": "10288020",
+                        "name": "W. Itani"
+                    },
+                    {
+                        "s2_author_id": "145593627",
+                        "name": "A. Zekri"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2047920",
+                "name": "Maha Shamseddine"
+            },
+            {
+                "s2_author_id": "1492127297",
+                "name": "Auday Al-Dulaimy"
+            },
+            {
+                "s2_author_id": "2257978848",
+                "name": "Thomas Nolte"
+            },
+            {
+                "s2_author_id": "2293722723",
+                "name": "A. Papadopoulos"
+            },
+            {
+                "s2_author_id": "1388261929",
+                "name": "T. Nolte"
+            },
+            {
+                "s2_author_id": "1805880",
+                "name": "A. Papadopoulos"
+            },
+            {
+                "s2_author_id": "2199962108",
+                "name": "Elisha J Hosey-Stewart"
+            },
+            {
+                "s2_author_id": "2044363485",
+                "name": "Ismail Khram"
+            },
+            {
+                "s2_author_id": "1400523055",
+                "name": "Ahmad M. El-Hajj"
+            },
+            {
+                "s2_author_id": "7401910",
+                "name": "Auday Aldulaimy"
+            },
+            {
+                "s2_author_id": "2383231",
+                "name": "J. Taheri"
+            },
+            {
+                "s2_author_id": "9438226",
+                "name": "Ziad F. Doughan"
+            },
+            {
+                "s2_author_id": "49256461",
+                "name": "A. Haidar"
+            },
+            {
+                "s2_author_id": "1700205",
+                "name": "A. Kayssi"
+            },
+            {
+                "s2_author_id": "144113997",
+                "name": "A. Chehab"
+            },
+            {
+                "s2_author_id": "39499345",
+                "name": "R. Zantout"
+            },
+            {
+                "s2_author_id": "145593627",
+                "name": "A. Zekri"
+            },
+            {
+                "s2_author_id": "9439997",
+                "name": "Soha Rawas"
+            },
+            {
+                "s2_author_id": "9210687",
+                "name": "A. Zaart"
+            },
+            {
+                "s2_author_id": "1793946",
+                "name": "I. Elhajj"
+            },
+            {
+                "s2_author_id": "144888800",
+                "name": "Cesar Ghali"
+            },
+            {
+                "s2_author_id": "1779265",
+                "name": "Ayman Tajeddine"
+            },
+            {
+                "s2_author_id": "37353155",
+                "name": "N. Saleh"
+            },
+            {
+                "s2_author_id": "145224588",
+                "name": "H. Nassar"
+            },
+            {
+                "s2_author_id": "2657241",
+                "name": "R. Bassil"
+            },
+            {
+                "s2_author_id": "31843752",
+                "name": "S. Saab"
+            },
+            {
+                "s2_author_id": "1893760",
+                "name": "Roula Hobeica"
+            },
+            {
+                "s2_author_id": "144518626",
+                "name": "Ayman Khalil"
+            },
+            {
+                "s2_author_id": "113772573",
+                "name": "Diana Sidani"
+            },
+            {
+                "s2_author_id": "2092873613",
+                "name": "Lina Agha"
+            },
+            {
+                "s2_author_id": "117667316",
+                "name": "Meshref Lebanon"
+            },
+            {
+                "s2_author_id": "1796006",
+                "name": "R. Deghaili"
+            },
+            {
+                "s2_author_id": "113270427",
+                "name": "Storage Architectures"
+            },
+            {
+                "s2_author_id": "14363929",
+                "name": "C. Gaspard"
+            },
+            {
+                "s2_author_id": "145416522",
+                "name": "S. Goldberg"
+            },
+            {
+                "s2_author_id": "1743774",
+                "name": "E. Bertino"
+            },
+            {
+                "s2_author_id": "1398550766",
+                "name": "C. Nita-Rotaru"
+            }
+        ],
+        "total_co_authors": 37,
+        "papers_retrieved": 72
+    }
+}

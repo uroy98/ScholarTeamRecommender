@@ -1,0 +1,567 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000090281",
+        "name": "Yves Atchade",
+        "primary_affiliation": "Trustees of Boston University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Trustees of Boston University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "MA"
+        ],
+        "perf_cities": [
+            "BOSTON"
+        ],
+        "org_names": [
+            "Trustees of Boston University"
+        ],
+        "org_ueis": [
+            "THL6A6JLE1S7"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "atchade@bu.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2515787",
+                "title": "Statistical estimation, inference, and discovery of complex PDEs using physics-informed neural networks",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-08-01",
+                "exp_date": "2028-07-31",
+                "award_amount": 239999.0,
+                "total_amount": 239999.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000988256"
+                ],
+                "program_elements": [
+                    "STATISTICS"
+                ],
+                "program_codes": [
+                    "126900"
+                ],
+                "program_references": [
+                    "Machine Learning Theory",
+                    "Artificial Intelligence (AI)"
+                ],
+                "program_ref_codes": [
+                    "079Z",
+                    "075Z"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "DMS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Mathematical Sciences",
+                "cfda_num": "47.049",
+                "po_name": "Yong Zeng",
+                "keywords": [
+                    "neural",
+                    "statistical",
+                    "pinns",
+                    "estimation",
+                    "pdes",
+                    "networks",
+                    "literature",
+                    "parameters",
+                    "dimensional",
+                    "inference"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000988256"
+        ],
+        "program_elements": [
+            "STATISTICS"
+        ],
+        "program_codes": [
+            "126900"
+        ],
+        "program_references": [
+            "Machine Learning Theory",
+            "Artificial Intelligence (AI)"
+        ],
+        "program_ref_codes": [
+            "079Z",
+            "075Z"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "DMS"
+        ],
+        "fund_divisions": [
+            "Division Of Mathematical Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049"
+        ],
+        "program_officers": [
+            "Yong Zeng"
+        ],
+        "keywords": [
+            "neural",
+            "statistical",
+            "pinns",
+            "estimation",
+            "pdes",
+            "networks",
+            "literature",
+            "parameters",
+            "dimensional",
+            "inference",
+            "discovery",
+            "physics",
+            "informed",
+            "learning",
+            "problem",
+            "applied",
+            "problems",
+            "solving",
+            "applications",
+            "develop"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.55
+    },
+    "s2_profile": {
+        "s2_author_id": "2266393897",
+        "name": "Yves Atchade",
+        "affiliations": [],
+        "paper_count": 5,
+        "citation_count": 8,
+        "h_index": 1,
+        "papers": [
+            {
+                "s2_paper_id": "d332b278e945ecc01ec826948d1f3554cba5312b",
+                "title": "On the estimation rate of Bayesian PINN for inverse problems",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 40,
+                "abstract": "Solving partial differential equations (PDEs) and their inverse problems using Physics-informed neural networks (PINNs) is a rapidly growing approach in the physics and machine learning community. Although several architectures exist for PINNs that work remarkably in practice, our theoretical understanding of their performances is somewhat limited. In this work, we study the behavior of a Bayesian PINN estimator of the solution of a PDE from $n$ independent noisy measurement of the solution. We focus on a class of equations that are linear in their parameters (with unknown coefficients $\\theta_\\star$). We show that when the partial differential equation admits a classical solution (say $u_\\star$), differentiable to order $\\beta$, the mean square error of the Bayesian posterior mean is at least of order $n^{-2\\beta/(2\\beta + d)}$. Furthermore, we establish a convergence rate of the linear coefficients of $\\theta_\\star$ depending on the order of the underlying differential operator. Last but not least, our theoretical results are validated through extensive simulations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2308106469",
+                        "name": "Yi Sun"
+                    },
+                    {
+                        "s2_author_id": "82649078",
+                        "name": "Debarghya Mukherjee"
+                    },
+                    {
+                        "s2_author_id": "2266393897",
+                        "name": "Yves Atchad\u00e9"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "950b40364b1967251a77acd80a1197ca594cc5e3",
+                "title": "A statistical perspective on algorithm unrolling models for inverse problems",
+                "year": 2023,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 52,
+                "abstract": "We consider inverse problems where the conditional distribution of the observation ${\\bf y}$ given the latent variable of interest ${\\bf x}$ (also known as the forward model) is known, and we have access to a data set in which multiple instances of ${\\bf x}$ and ${\\bf y}$ are both observed. In this context, algorithm unrolling has become a very popular approach for designing state-of-the-art deep neural network architectures that effectively exploit the forward model. We analyze the statistical complexity of the gradient descent network (GDN), an algorithm unrolling architecture driven by proximal gradient descent. We show that the unrolling depth needed for the optimal statistical performance of GDNs is of order $\\log(n)/\\log(\\varrho_n^{-1})$, where $n$ is the sample size, and $\\varrho_n$ is the convergence rate of the corresponding gradient descent algorithm. We also show that when the negative log-density of the latent variable ${\\bf x}$ has a simple proximal operator, then a GDN unrolled at depth $D'$ can solve the inverse problem at the parametric rate $O(D'/\\sqrt{n})$. Our results thus also suggest that algorithm unrolling models are prone to overfitting as the unrolling depth $D'$ increases. We provide several examples to illustrate these results.",
+                "authors": [
+                    {
+                        "s2_author_id": "2266393897",
+                        "name": "Yves Atchad\u00e9"
+                    },
+                    {
+                        "s2_author_id": "2383415475",
+                        "name": "Xinru Liu"
+                    },
+                    {
+                        "s2_author_id": "2260828359",
+                        "name": "Qiuyun Zhu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e38381c180f462dcb2b5647c95f3b6c54d72e72c",
+                "title": "A fast asynchronous Markov chain Monte Carlo sampler for sparse Bayesian inference",
+                "year": 2023,
+                "venue": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+                "citation_count": 5,
+                "reference_count": 33,
+                "abstract": "\n We propose a very fast approximate Markov chain Monte Carlo sampling framework that is applicable to a large class of sparse Bayesian inference problems. The computational cost per iteration in several regression models is of order O(n(s+J)), where n is the sample size, s is the underlying sparsity of the model, and J is the size of a randomly selected subset of regressors. This cost can be further reduced by data sub-sampling when stochastic gradient Langevin dynamics are employed. The algorithm is an extension of the asynchronous Gibbs sampler of Johnson et al. [(2013). Analyzing Hogwild parallel Gaussian Gibbs sampling. In Proceedings of the 26th International Conference on Neural Information Processing Systems (NIPS\u201913) (Vol. 2, pp. 2715\u20132723)], but can be viewed from a statistical perspective as a form of Bayesian iterated sure independent screening [Fan, J., Samworth, R., & Wu, Y. (2009). Ultrahigh dimensional feature selection: Beyond the linear model. Journal of Machine Learning Research, 10, 2013\u20132038]. We show that in high-dimensional linear regression problems, the Markov chain generated by the proposed algorithm admits an invariant distribution that recovers correctly the main signal with high probability under some statistical assumptions. Furthermore, we show that its mixing time is at most linear in the number of regressors. We illustrate the algorithm with several models.",
+                "authors": [
+                    {
+                        "s2_author_id": "2266393897",
+                        "name": "Yves Atchad\u00e9"
+                    },
+                    {
+                        "s2_author_id": "2240959627",
+                        "name": "Liwei Wang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05bf5637f8e397d75f6ed0426882587659509dad",
+                "title": "Hyperspectral Unmixing with Spatial Dependence",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2289172378",
+                        "name": "Chia Chye"
+                    },
+                    {
+                        "s2_author_id": "2266393897",
+                        "name": "Yves Atchad\u00e9"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e11640c9c405ff6b73b5e49054fa0f734d1fee77",
+                "title": "NSF Workshop on Emerging Research Opportunities at the Intersection of Statistics and Internet Measurement Final Report",
+                "year": null,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1917752",
+                        "name": "P. Barford"
+                    },
+                    {
+                        "s2_author_id": "2274254343",
+                        "name": "Tony Ng"
+                    },
+                    {
+                        "s2_author_id": "2286132429",
+                        "name": "Mark Allman"
+                    },
+                    {
+                        "s2_author_id": "2257283368",
+                        "name": "F. Bustamante"
+                    },
+                    {
+                        "s2_author_id": "2248330265",
+                        "name": "John W. Byers"
+                    },
+                    {
+                        "s2_author_id": "2274394770",
+                        "name": "D. Choffnes"
+                    },
+                    {
+                        "s2_author_id": "1685445",
+                        "name": "M. Crovella"
+                    },
+                    {
+                        "s2_author_id": "2054092",
+                        "name": "A. Dainotti"
+                    },
+                    {
+                        "s2_author_id": "2274393561",
+                        "name": "Georgia Tech"
+                    },
+                    {
+                        "s2_author_id": "3097141",
+                        "name": "Ramakrishnan Durairajan"
+                    },
+                    {
+                        "s2_author_id": "3137133",
+                        "name": "Zakir Durumeric"
+                    },
+                    {
+                        "s2_author_id": "2274349446",
+                        "name": "Philipa Gill"
+                    },
+                    {
+                        "s2_author_id": "2358644218",
+                        "name": "John Heidemann"
+                    },
+                    {
+                        "s2_author_id": "2274398428",
+                        "name": "Anita Nikolich"
+                    },
+                    {
+                        "s2_author_id": "2199298",
+                        "name": "A. Snoeren"
+                    },
+                    {
+                        "s2_author_id": "145966807",
+                        "name": "J. Sommers"
+                    },
+                    {
+                        "s2_author_id": "2241569030",
+                        "name": "Don Towsley"
+                    },
+                    {
+                        "s2_author_id": "2260174245",
+                        "name": "Walter Willinger"
+                    },
+                    {
+                        "s2_author_id": "2274393873",
+                        "name": "Abraham Matta"
+                    },
+                    {
+                        "s2_author_id": "2256794486",
+                        "name": "A. Bestavros"
+                    },
+                    {
+                        "s2_author_id": "2248345295",
+                        "name": "Ricky K. P. Mok"
+                    },
+                    {
+                        "s2_author_id": "2266393897",
+                        "name": "Yves Atchad\u00e9"
+                    },
+                    {
+                        "s2_author_id": "3180510",
+                        "name": "T. Buskirk"
+                    },
+                    {
+                        "s2_author_id": "2192677142",
+                        "name": "Jie Chen"
+                    },
+                    {
+                        "s2_author_id": "2299390216",
+                        "name": "Y. Chen"
+                    },
+                    {
+                        "s2_author_id": "2263232637",
+                        "name": "Yili Hong"
+                    },
+                    {
+                        "s2_author_id": "2198240894",
+                        "name": "Eric Kolaczyk"
+                    },
+                    {
+                        "s2_author_id": "2268030348",
+                        "name": "Ming Li"
+                    },
+                    {
+                        "s2_author_id": "2276421792",
+                        "name": "Dennis K. J. Lin"
+                    },
+                    {
+                        "s2_author_id": "2274726967",
+                        "name": "Regina Liu"
+                    },
+                    {
+                        "s2_author_id": "1742426",
+                        "name": "G. Michailidis"
+                    },
+                    {
+                        "s2_author_id": "2310525610",
+                        "name": "Fabrizio Ruggeri"
+                    },
+                    {
+                        "s2_author_id": "2274409442",
+                        "name": "Jonathan Stewart"
+                    },
+                    {
+                        "s2_author_id": "144167243",
+                        "name": "Stilian A. Stoev"
+                    },
+                    {
+                        "s2_author_id": "2239808613",
+                        "name": "Kwok-Leung Tsui"
+                    },
+                    {
+                        "s2_author_id": "2274393823",
+                        "name": "Emmanual Yashchin"
+                    },
+                    {
+                        "s2_author_id": "2274392190",
+                        "name": "Rob Beverly"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2308106469",
+                "name": "Yi Sun"
+            },
+            {
+                "s2_author_id": "82649078",
+                "name": "Debarghya Mukherjee"
+            },
+            {
+                "s2_author_id": "2383415475",
+                "name": "Xinru Liu"
+            },
+            {
+                "s2_author_id": "2260828359",
+                "name": "Qiuyun Zhu"
+            },
+            {
+                "s2_author_id": "2240959627",
+                "name": "Liwei Wang"
+            },
+            {
+                "s2_author_id": "2289172378",
+                "name": "Chia Chye"
+            },
+            {
+                "s2_author_id": "1917752",
+                "name": "P. Barford"
+            },
+            {
+                "s2_author_id": "2274254343",
+                "name": "Tony Ng"
+            },
+            {
+                "s2_author_id": "2286132429",
+                "name": "Mark Allman"
+            },
+            {
+                "s2_author_id": "2257283368",
+                "name": "F. Bustamante"
+            },
+            {
+                "s2_author_id": "2248330265",
+                "name": "John W. Byers"
+            },
+            {
+                "s2_author_id": "2274394770",
+                "name": "D. Choffnes"
+            },
+            {
+                "s2_author_id": "1685445",
+                "name": "M. Crovella"
+            },
+            {
+                "s2_author_id": "2054092",
+                "name": "A. Dainotti"
+            },
+            {
+                "s2_author_id": "2274393561",
+                "name": "Georgia Tech"
+            },
+            {
+                "s2_author_id": "3097141",
+                "name": "Ramakrishnan Durairajan"
+            },
+            {
+                "s2_author_id": "3137133",
+                "name": "Zakir Durumeric"
+            },
+            {
+                "s2_author_id": "2274349446",
+                "name": "Philipa Gill"
+            },
+            {
+                "s2_author_id": "2358644218",
+                "name": "John Heidemann"
+            },
+            {
+                "s2_author_id": "2274398428",
+                "name": "Anita Nikolich"
+            },
+            {
+                "s2_author_id": "2199298",
+                "name": "A. Snoeren"
+            },
+            {
+                "s2_author_id": "145966807",
+                "name": "J. Sommers"
+            },
+            {
+                "s2_author_id": "2241569030",
+                "name": "Don Towsley"
+            },
+            {
+                "s2_author_id": "2260174245",
+                "name": "Walter Willinger"
+            },
+            {
+                "s2_author_id": "2274393873",
+                "name": "Abraham Matta"
+            },
+            {
+                "s2_author_id": "2256794486",
+                "name": "A. Bestavros"
+            },
+            {
+                "s2_author_id": "2248345295",
+                "name": "Ricky K. P. Mok"
+            },
+            {
+                "s2_author_id": "3180510",
+                "name": "T. Buskirk"
+            },
+            {
+                "s2_author_id": "2192677142",
+                "name": "Jie Chen"
+            },
+            {
+                "s2_author_id": "2299390216",
+                "name": "Y. Chen"
+            },
+            {
+                "s2_author_id": "2263232637",
+                "name": "Yili Hong"
+            },
+            {
+                "s2_author_id": "2198240894",
+                "name": "Eric Kolaczyk"
+            },
+            {
+                "s2_author_id": "2268030348",
+                "name": "Ming Li"
+            },
+            {
+                "s2_author_id": "2276421792",
+                "name": "Dennis K. J. Lin"
+            },
+            {
+                "s2_author_id": "2274726967",
+                "name": "Regina Liu"
+            },
+            {
+                "s2_author_id": "1742426",
+                "name": "G. Michailidis"
+            },
+            {
+                "s2_author_id": "2310525610",
+                "name": "Fabrizio Ruggeri"
+            },
+            {
+                "s2_author_id": "2274409442",
+                "name": "Jonathan Stewart"
+            },
+            {
+                "s2_author_id": "144167243",
+                "name": "Stilian A. Stoev"
+            },
+            {
+                "s2_author_id": "2239808613",
+                "name": "Kwok-Leung Tsui"
+            },
+            {
+                "s2_author_id": "2274393823",
+                "name": "Emmanual Yashchin"
+            },
+            {
+                "s2_author_id": "2274392190",
+                "name": "Rob Beverly"
+            }
+        ],
+        "total_co_authors": 42,
+        "papers_retrieved": 5
+    }
+}

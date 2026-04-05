@@ -1,0 +1,1645 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000521321",
+        "name": "Yu David Liu",
+        "primary_affiliation": "SUNY at Binghamton",
+        "primary_department": null,
+        "all_affiliations": [
+            "SUNY at Binghamton"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "NY"
+        ],
+        "perf_cities": [
+            "BINGHAMTON"
+        ],
+        "org_names": [
+            "SUNY at Binghamton"
+        ],
+        "org_ueis": [
+            "NQMVAAQUFU53"
+        ],
+        "inst_types": [
+            "unknown"
+        ],
+        "emails": [
+            "davidl@binghamton.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2426352",
+                "title": "Collaborative Research: CSR: Small: Systems Support for a Sustainable Smartphone Ecosystem",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-15",
+                "exp_date": "2028-06-30",
+                "award_amount": 300000.0,
+                "total_amount": 300000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "CSR-Computer Systems Research"
+                ],
+                "program_codes": [
+                    "735400"
+                ],
+                "program_references": [
+                    "SMALL PROJECT",
+                    "COMPUTER SYSTEMS"
+                ],
+                "program_ref_codes": [
+                    "7923",
+                    "7354"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CNS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Computer and Network Systems",
+                "cfda_num": "47.070",
+                "po_name": "Marilyn McClure",
+                "keywords": [
+                    "systems",
+                    "smartphone",
+                    "sustainability",
+                    "smartphones",
+                    "ecosystem",
+                    "software",
+                    "computer",
+                    "small",
+                    "sustainable",
+                    "usage"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "CSR-Computer Systems Research"
+        ],
+        "program_codes": [
+            "735400"
+        ],
+        "program_references": [
+            "SMALL PROJECT",
+            "COMPUTER SYSTEMS"
+        ],
+        "program_ref_codes": [
+            "7923",
+            "7354"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CNS"
+        ],
+        "fund_divisions": [
+            "Division Of Computer and Network Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Marilyn McClure"
+        ],
+        "keywords": [
+            "systems",
+            "smartphone",
+            "sustainability",
+            "smartphones",
+            "ecosystem",
+            "software",
+            "computer",
+            "small",
+            "sustainable",
+            "usage",
+            "aging",
+            "activities",
+            "collaborative",
+            "improves",
+            "fundamentally",
+            "changed",
+            "modern",
+            "world",
+            "manufacturing",
+            "disposal"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.59
+    },
+    "s2_profile": {
+        "s2_author_id": "2146399282",
+        "name": "Yu David Liu",
+        "affiliations": [],
+        "paper_count": 55,
+        "citation_count": 1053,
+        "h_index": 17,
+        "papers": [
+            {
+                "s2_paper_id": "f0643ee3dc64a7d80fff862126f9197eb5a7c1bf",
+                "title": "Vincent: Green hot methods in the JVM",
+                "year": 2023,
+                "venue": "Science of Computer Programming",
+                "citation_count": 5,
+                "reference_count": 64,
+                "abstract": "In this paper, we show the energy efficiency of Java applications can be improved by applying Dynamic Voltage and Frequency Scaling (DVFS) inside the Java Virtual Machine (JVM). We augment the JVM to record the energy consumption of hot methods as the underlying CPU is run at different clock frequencies; after all the frequency possibilities for a method have been explored, the execution of the method in an optimized run is set to the CPU frequency that leads to the most energy-efficient execution for that method. We introduce a new sampling methodology to overcome the dual challenges in our design: both the underlying measurement mechanism for energy profiling and the DVFS for energy optimization are overhead-prone. We extend JikesRVM with our approach and benchmark it over the DaCapo suite on a server-class Linux machine. Experiments show we are able to use 14.9% less energy than built-in power management in Linux, and improve energy efficiency by 21.1% w.r.t. the metric of Energy-Delay Product (EDP). 2012 ACM Subject Classification Software and its engineering \u2192 Software performance",
+                "authors": [
+                    {
+                        "s2_author_id": "2152352593",
+                        "name": "Kenan Liu"
+                    },
+                    {
+                        "s2_author_id": "3333527",
+                        "name": "K. Mahmoud"
+                    },
+                    {
+                        "s2_author_id": "2165543317",
+                        "name": "Joonhwan Yoo"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "38c75f12cbfebe7e8d73209c563373af0f02a2ca",
+                "title": "A quantitative analysis of system bottlenecks in visual SLAM",
+                "year": 2022,
+                "venue": "Workshop on Mobile Computing Systems and Applications",
+                "citation_count": 10,
+                "reference_count": 12,
+                "abstract": "Visual SLAM systems are concurrent, performance-critical systems that respond to real-time environmental conditions and are frequently deployed on resource-constrained hardware. Previous SLAM frameworks have primarily focused on algorithmic advances and their systems core has largely remained unchanged. In turn, SLAM systems suffer from performance problems that could be alleviated with improved systems design. In this paper, we present a quantitative analysis of the systems challenges to building consistent, accurate, and robust SLAM systems in the face of concurrency, variable environmental conditions, and resource-constrained hardware. We identify three interconnected challenges on systems design --- timeliness, concurrency, and context awareness --- and clarify their effects on performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "153059388",
+                        "name": "S. Semenova"
+                    },
+                    {
+                        "s2_author_id": "1691861",
+                        "name": "Steven Y. Ko"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "2494043",
+                        "name": "Lukasz Ziarek"
+                    },
+                    {
+                        "s2_author_id": "3119495",
+                        "name": "Karthik Dantu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "419eb719a23070a2eaad7ab6a38595487de6a909",
+                "title": "Composable Cachelets: Protecting Enclaves from Cache Side-Channel Attacks",
+                "year": 2022,
+                "venue": "USENIX Security Symposium",
+                "citation_count": 17,
+                "reference_count": 75,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "146557833",
+                        "name": "Daniel Townley"
+                    },
+                    {
+                        "s2_author_id": "2165538813",
+                        "name": "Kerem Arikan"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "2135462572",
+                        "name": "Dmitry Ponomarev"
+                    },
+                    {
+                        "s2_author_id": "144889368",
+                        "name": "O\u011fuz Ergin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d34e3025bbd98618421891697a40d3cbcd0fffb",
+                "title": "Vincent: Green Hot Methods in the JVM (Extended Abstract)",
+                "year": 2022,
+                "venue": "European Conference on Object-Oriented Programming",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2152352593",
+                        "name": "Kenan Liu"
+                    },
+                    {
+                        "s2_author_id": "3333527",
+                        "name": "K. Mahmoud"
+                    },
+                    {
+                        "s2_author_id": "2165543317",
+                        "name": "Joonhwan Yoo"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5e876716a8f6899883ad017458552a3227707e37",
+                "title": "Eflect: Porting Energy-Aware Applications to Shared Environments",
+                "year": 2022,
+                "venue": "International Conference on Software Engineering",
+                "citation_count": 3,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "91879422",
+                        "name": "Timur Babakol"
+                    },
+                    {
+                        "s2_author_id": "14707986",
+                        "name": "Anthony Canino"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "829ebbff925e3ef6ab2b103bd3a7cbcc996ff77d",
+                "title": "Preface to the JOT special issue on ECOOP 2021: selected workshop papers",
+                "year": 2022,
+                "venue": "Journal of Object Technology",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "In this preface, the editors present an overview of the topics and scope of the ECOOP workshops on Context-Oriented Programming (COP) , on Implementation, Compilation, Optimization of OO Languages, Programs and Systems (ICOOOLPS) , and on Verification and Monitoring at Runtime Execution (VORTEX) . They further describe the editorial and reviewing process for their editions at ECOOP 2021. The papers selected for publication are presented and briefly described",
+                "authors": [
+                    {
+                        "s2_author_id": "145986358",
+                        "name": "D. Ancona"
+                    },
+                    {
+                        "s2_author_id": "3988249",
+                        "name": "O. Fl\u00fcckiger"
+                    },
+                    {
+                        "s2_author_id": "1771411",
+                        "name": "Adrian Francalanza"
+                    },
+                    {
+                        "s2_author_id": "1741504",
+                        "name": "R. Hirschfeld"
+                    },
+                    {
+                        "s2_author_id": "32732801",
+                        "name": "Atsushi Igarashi"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "8941406",
+                        "name": "Hidehiko Masuhara"
+                    },
+                    {
+                        "s2_author_id": "40584321",
+                        "name": "Chris Seaton"
+                    },
+                    {
+                        "s2_author_id": "2167011924",
+                        "name": "Harumi Watanabe"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dd2d91963902dbb774e5c1fb6e8d3257737d6958",
+                "title": "The essence of online data processing",
+                "year": 2022,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 3,
+                "reference_count": 83,
+                "abstract": "Data processing systems are a fundamental component of the modern computing stack. These systems are routinely deployed online: they continuously receive the requests of data processing operations, and continuously return the results to end users or client applications. Online data processing systems have unique features beyond conventional data processing, and the optimizations designed for them are complex, especially when data themselves are structured and dynamic. This paper describes DON Calculus, the first rigorous foundation for online data processing. It captures the essential behavior of both the backend data processing engine and the frontend application, with the focus on two design dimensions essential yet unique to online data processing systems: incremental operation processing (IOP) and temporal locality optimization (TLO). A novel design insight is that the operations continuously applied to the data can be defined as an operation stream flowing through the data structure, and this abstraction unifies diverse designs of IOP and TLO in one calculus. DON Calculus is endowed with a mechanized metatheory centering around a key observable equivalence property: despite the significant non-deterministic executions introduced by IOP and TLO, the observable result of DON Calculus data processing is identical to that of conventional data processing without IOP and TLO. Broadly, DON Calculus is a novel instance in the active pursuit of providing rigorous guarantees to the software system stack. The specification and mechanization of DON Calculus provide a sound base for the designers of future data processing systems to build upon, helping them embrace rigorous semantic engineering without the need of developing from scratch.",
+                "authors": [
+                    {
+                        "s2_author_id": "39699850",
+                        "name": "Philip Dexter"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "39845595",
+                        "name": "K. Chiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f80f1079b5feeabcbdef20666139fb3207072b18",
+                "title": "A modular, extensible framework for modern visual SLAM systems",
+                "year": 2022,
+                "venue": "ACM SIGMOBILE International Conference on Mobile Systems, Applications, and Services",
+                "citation_count": 2,
+                "reference_count": 2,
+                "abstract": "Visual SLAM is a long-standing research area with many significant advances over the years. New systems typically build on previous contributions, but this requires significant development overhead, a highly detailed understanding of previous system implementations, and is rife with programming pitfalls. To enable fast experimentation and reduce the need for researchers to re-invent the wheel, we propose an extensible Visual SLAM framework with three features: modularity, seamless edge offloading, and safe concurrency.",
+                "authors": [
+                    {
+                        "s2_author_id": "153059388",
+                        "name": "S. Semenova"
+                    },
+                    {
+                        "s2_author_id": "19203687",
+                        "name": "P. Meshram"
+                    },
+                    {
+                        "s2_author_id": "2072680703",
+                        "name": "T. Chase"
+                    },
+                    {
+                        "s2_author_id": "1691861",
+                        "name": "Steven Y. Ko"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "2494043",
+                        "name": "Lukasz Ziarek"
+                    },
+                    {
+                        "s2_author_id": "3119495",
+                        "name": "Karthik Dantu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5a6b84ee1ea82c7bb69fcd8bcac67195d6d45fea",
+                "title": "JCopter: Reliable UAV Software Through Managed Languages",
+                "year": 2021,
+                "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+                "citation_count": 2,
+                "reference_count": 36,
+                "abstract": "UAVs are deployed in various applications including disaster search-and-rescue, precision agriculture, law enforcement and first response. As UAV software systems grow more complex, the drawbacks of developing them in low-level languages become more pronounced. For example, the lack of memory safety in C implies poor isolation between the UAV autopilot and other concurrent tasks. As a result, the most crucial aspect of UAV reliability-timely control of the flight-could be adversely impacted by other tasks such as perception or planning. We introduce JCopter, an autopilot framework for UAVs developed in a managed language, i.e., a high-level language with built-in safe memory and timing management. Through detailed simulation as well as flight testing, we demonstrate how JCopter retains the timeliness of C-based autopilots while also providing the reliability of managed languages.",
+                "authors": [
+                    {
+                        "s2_author_id": "8796730",
+                        "name": "Adam Czerniejewski"
+                    },
+                    {
+                        "s2_author_id": "1676897685",
+                        "name": "John Henry Burns"
+                    },
+                    {
+                        "s2_author_id": "3441274",
+                        "name": "Farshad Ghanei"
+                    },
+                    {
+                        "s2_author_id": "3119495",
+                        "name": "Karthik Dantu"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "2494043",
+                        "name": "Lukasz Ziarek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c55086c275c1242cea6f76ff2382afe3acbebdc4",
+                "title": "Understanding Bounding Functions in Safety-Critical UAV Software",
+                "year": 2021,
+                "venue": "International Conference on Software Engineering",
+                "citation_count": 7,
+                "reference_count": 41,
+                "abstract": "Unmanned Aerial Vehicles (UAVs) are an emerging computation platform known for their safety-critical need. In this paper, we conduct an empirical study on a widely used open-source UAV software framework, Paparazzi, with the goal of understanding the safety-critical concerns of UAV software from a bottom-up developer-in-the-field perspective. We set our focus on the use of Bounding Functions (BFs), the runtime checks injected by Paparazzi developers on the range of variables. Through an in-depth analysis on BFs in the Paparazzi autopilot software, we found a large number of them (109 instances) are used to bound safety-critical variables essential to the cyber-physical nature of the UAV, such as its thrust, its speed, and its sensor values. The novel contributions of this study are two fold. First, we take a static approach to classify all BF instances, presenting a novel datatype-based 5-category taxonomy with fine-grained insight on the role of BFs in ensuring the safety of UAV systems. Second, we dynamically evaluate the impact of the BF uses through a differential approach, establishing the UAV behavioral difference with and without BFs. The two-pronged static and dynamic approach together illuminates a rarely studied design space of safety-critical UAV software systems.",
+                "authors": [
+                    {
+                        "s2_author_id": "1576292279",
+                        "name": "Xiaozhou Liang"
+                    },
+                    {
+                        "s2_author_id": "1676897685",
+                        "name": "John Henry Burns"
+                    },
+                    {
+                        "s2_author_id": "2116536979",
+                        "name": "Joseph Sanchez"
+                    },
+                    {
+                        "s2_author_id": "3119495",
+                        "name": "Karthik Dantu"
+                    },
+                    {
+                        "s2_author_id": "2494043",
+                        "name": "Lukasz Ziarek"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04560ceb302e5db4f75593cf12737d3236120f5e",
+                "title": "Experimental Replication of Experiments for Article: Calm Energy Accounting for Multithreaded Java Applications",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "91879422",
+                        "name": "Timur Babakol"
+                    },
+                    {
+                        "s2_author_id": "14707986",
+                        "name": "Anthony Canino"
+                    },
+                    {
+                        "s2_author_id": "3333527",
+                        "name": "K. Mahmoud"
+                    },
+                    {
+                        "s2_author_id": "123516343",
+                        "name": "R. Saxena"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4d4f1f8f2b8af5d307147ea48c9afc711b9b19f4",
+                "title": "Calm energy accounting for multithreaded Java applications",
+                "year": 2020,
+                "venue": "ESEC/SIGSOFT FSE",
+                "citation_count": 9,
+                "reference_count": 55,
+                "abstract": "Energy accounting is a fundamental problem in energy management, defined as attributing global energy consumption to individual components of interest. In this paper, we take on this problem at the application level, where the components for accounting are application logical units, such as methods, classes, and packages. Given a Java application, our novel runtime system Chappie produces an energy footprint, i.e., the relative energy consumption of all programming abstraction units within the application. The design of Chappie is unique in several dimensions. First, relative to targeted energy profiling where the profiler determines the energy consumption of a pre-defined application logical unit, e.g., a specific method, Chappie is total: the energy footprint encompasses all methods within an application. Second, Chappie is concurrency-aware: energy attribution is fully aware of the multi-threaded behavior of Java applications, including JVM bookkeeping threads. Third, Chappie is an embodiment of a novel philosophy for application-level energy accounting and profiling, which states that the accounting run should preserve the temporal phased power behavior of the application, and the spatial power distribution among the underlying hardware system. We term this important property as calmness. Against state-of-the-art DaCapo benchmarks, we show that the energy footprint generated by Chappie is precise while incurring negligible overhead. In addition, all results are produced with a high degree of calmness.",
+                "authors": [
+                    {
+                        "s2_author_id": "91879422",
+                        "name": "Timur Babakol"
+                    },
+                    {
+                        "s2_author_id": "14707986",
+                        "name": "Anthony Canino"
+                    },
+                    {
+                        "s2_author_id": "3333527",
+                        "name": "K. Mahmoud"
+                    },
+                    {
+                        "s2_author_id": "123516343",
+                        "name": "R. Saxena"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f20fc1b00f330e3b97d5f400f99679fc607bddde",
+                "title": "Adaptive Variables for Declarative UAV Planning",
+                "year": 2020,
+                "venue": "COP@ECOOP",
+                "citation_count": 3,
+                "reference_count": 27,
+                "abstract": "Unmanned Aerial Vehicles (UAVs) are an important subset of autonomous robotics, offering unique opportunities in domains like merchandise delivery, geographical survey, and disaster recovery. The planning layer of UAVs is made up of high-level directives that instruct the system on how to achieve the plan's goals. UAVs execute their plans in the physical environment, and thus the plans must adapt to changes in the dynamic context. In this paper, we present a simple programming abstraction, adaptive variables, to declaratively define adaptation for UAV flight plans in a dynamic context. Building on top of a declarative language for expressing UAV flight plans, adaptive variables can change during a UAV flight based on predicates over physical data. We implement adaptive variable for Paparazzi and demonstrate its usefulness in adaptive UAV planning with the NPS Simulator.",
+                "authors": [
+                    {
+                        "s2_author_id": "1676897685",
+                        "name": "John Henry Burns"
+                    },
+                    {
+                        "s2_author_id": "1576292279",
+                        "name": "Xiaozhou Liang"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2617825405d0f4e3a669abd2aefd7b4ea2baa571",
+                "title": "Formal Foundations of Continuous Graph Processing",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39699850",
+                        "name": "Philip Dexter"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "39845595",
+                        "name": "K. Chiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "432d6f570bfb31a97245648602035850094eacd5",
+                "title": "Toward Lazy Evaluation in a Graph Database",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2086306446",
+                        "name": "Jeffrey Eymer"
+                    },
+                    {
+                        "s2_author_id": "39699850",
+                        "name": "Philip Dexter"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "68d51faebbe8ee6de0305ca1520fd14d48255fa8",
+                "title": "A Foundation of Lazy Streaming Graphs",
+                "year": 2019,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 34,
+                "abstract": "A streaming graph system continuously processes a stream of operations over a large graph. In the big data processing ecosystem, this performance-critical data processing paradigm is emerging with increasing relevance. Lazy processing is a collection of important optimization techniques for streaming graphs, but designing correct, expressive, and efficient lazy streaming graphs is challenging. In this paper, we lay a foundation for lazy streaming graph processing. The resulting DG Calculus features fine-grained in-data lazy processing, endowed with expressive optimizations such as batching, fusion, and splicing. We establish the soundness of DG Calculus through bisimulation with a system for eager graph processing. To the best of our knowledge, DG Calculus is the first foundational calculus for streaming graphs.",
+                "authors": [
+                    {
+                        "s2_author_id": "39699850",
+                        "name": "Philip Dexter"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "39845595",
+                        "name": "K. Chiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1bd92c38507be87f2f89de4814c1dfc684e76bf",
+                "title": "Toward a language design for energy prediction",
+                "year": 2019,
+                "venue": "International Conference on the Art, Science and Engineering of Programming",
+                "citation_count": 0,
+                "reference_count": 24,
+                "abstract": "Energy-aware programming languages and frameworks seek to improve the energy efficiency of computer systems by taking advantage of application-specific information to perform energy optimizations. Effectively predicting an application's energy behavior enables more powerful energy optimizations and additional energy management techniques. However, application energy consumption is fundamentally dynamic in nature, which limits the amount of effective energy prediction that can be done ahead of time. To address this challenge, we propose FJP, a predication-aware semantics that takes the estimation process online, and serves to partially predict a program's energy consumption. The key insight of FJP is that by relaxing the restriction of statically and completely predicting a programs energy consumption, we can dynamically and partially predict energy consumption, desirable for a host of hybrid energy management languages and frameworks. FJP represents a first step toward improving the expressiveness of energy-aware language and framework techniques in its ability for online adaptive energy prediction.",
+                "authors": [
+                    {
+                        "s2_author_id": "14707986",
+                        "name": "Anthony Canino"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d7db3dd338d0b4ffe1451973300be063434cceef",
+                "title": "Selected papers of the Brazilian Symposium on Programming Languages (SBLP'15+16)",
+                "year": 2019,
+                "venue": "Science of Computer Programming",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1719483",
+                        "name": "F. C. Filho"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8e1f8d7de4e43e911eeb4a549ddb6463562df5cc",
+                "title": "Stochastic energy optimization for mobile GPS applications",
+                "year": 2018,
+                "venue": "ESEC/SIGSOFT FSE",
+                "citation_count": 22,
+                "reference_count": 34,
+                "abstract": "Mobile applications regularly interact with their noisy and ever-changing physical environment. The fundamentally uncertain nature of such interactions leads to significant challenges in energy optimization, a crucial goal of software engineering on mobile devices. This paper presents Aeneas, a novel energy optimization framework for Android in the presence of uncertainty. Aeneas provides a minimalistic programming model where acceptable program behavioral settings are abstracted as knobs and application-specific optimization goals \u2014 such as meeting an energy budget \u2014 are crystallized as rewards, both of which are directly programmable. At its heart, Aeneas is endowed with a stochastic optimizer to adaptively and intelligently select the reward-optimal knob setting through a form of reinforcement learning. We evaluate Aeneas on mobile GPS applications built over Google LocationService API. Through an in-field case study that covers approximately 6500 miles and 150 hours of driving as well as 20 hours of biking and hiking, we find that Aeneas can effectively and resiliently meet programmer-specified energy budgets in uncertain physical environments where individual GPS readings undergo significant fluctuation. Compared with non-stochastic approaches such as profile-guided optimization, Aeneas produces significantly more stable results across runs.",
+                "authors": [
+                    {
+                        "s2_author_id": "14707986",
+                        "name": "Anthony Canino"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "8941406",
+                        "name": "Hidehiko Masuhara"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0ceb2dd586ddcd21c26fe2dd399da7e1c9269fbb",
+                "title": "Toward Energy-Aware Programming for Unmanned Aerial Vehicles",
+                "year": 2017,
+                "venue": "2017 IEEE/ACM 3rd International Workshop on Software Engineering for Smart Cyber-Physical Systems (SEsCPS)",
+                "citation_count": 8,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "2494043",
+                        "name": "Lukasz Ziarek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5502e982cc8f83200996c597414f47c21fc10e73",
+                "title": "Proactive and adaptive energy-aware programming with mixed typechecking",
+                "year": 2017,
+                "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+                "citation_count": 22,
+                "reference_count": 66,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "14707986",
+                        "name": "Anthony Canino"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d9a759ab74ff5607e3fc662751b799702c77c226",
+                "title": "Understanding and overcoming parallelism bottlenecks in ForkJoin applications",
+                "year": 2017,
+                "venue": "International Conference on Automated Software Engineering",
+                "citation_count": 18,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "117886013",
+                        "name": "G. Pinto"
+                    },
+                    {
+                        "s2_author_id": "14707986",
+                        "name": "Anthony Canino"
+                    },
+                    {
+                        "s2_author_id": "1719483",
+                        "name": "F. C. Filho"
+                    },
+                    {
+                        "s2_author_id": "38394648",
+                        "name": "G. Xu"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3b4bc1bc365c1a6410a25d5ed7eb5996e7878c43",
+                "title": "Lazy graph processing in Haskell",
+                "year": 2016,
+                "venue": "ACM SIGPLAN Symposium/Workshop on Haskell",
+                "citation_count": 8,
+                "reference_count": 29,
+                "abstract": "This paper presents a Haskell library for graph processing: DeltaGraph. One unique feature of this system is that intentions to perform graph updates can be memoized in-graph in a decentralized fashion, and the propagation of these intentions within the graph can be decoupled from the realization of the updates. As a result, DeltaGraph can respond to updates in constant time and work elegantly with parallelism support. We build a Twitter-like application on top of DeltaGraph to demonstrate its effectiveness and explore parallelism and opportunistic computing optimizations.",
+                "authors": [
+                    {
+                        "s2_author_id": "39699850",
+                        "name": "Philip Dexter"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "39845595",
+                        "name": "K. Chiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "554b8b80361179bc3c9627fc6ccccd20c7257da2",
+                "title": "A Comprehensive Study on the Energy Efficiency of Java\u2019s Thread-Safe Collections",
+                "year": 2016,
+                "venue": "IEEE International Conference on Software Maintenance and Evolution",
+                "citation_count": 41,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "117886013",
+                        "name": "G. Pinto"
+                    },
+                    {
+                        "s2_author_id": "2152352593",
+                        "name": "Kenan Liu"
+                    },
+                    {
+                        "s2_author_id": "1719483",
+                        "name": "F. C. Filho"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7a9dc175662588b68bfeb35b0bf0bea8d4bca800",
+                "title": "First-class effect reflection for effect-guided programming",
+                "year": 2016,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 2,
+                "reference_count": 60,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2574017",
+                        "name": "Yuheng Long"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "144212535",
+                        "name": "Hridesh Rajan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a51891e316380a49e7a287838e55b7078af1d1d6",
+                "title": "AEQUITAS: Coordinated Energy Management Across Parallel Applications",
+                "year": 2016,
+                "venue": "International Conference on Supercomputing",
+                "citation_count": 18,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47805214",
+                        "name": "Haris Ribic"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "027485f716ca4f6d9ee2e189790d6560e37fcab2",
+                "title": "GraphQ: Graph Query Processing with Abstraction Refinement - Scalable and Programmable Analytics over Very Large Graphs on a Single PC",
+                "year": 2015,
+                "venue": "USENIX Annual Technical Conference",
+                "citation_count": 68,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2148896568",
+                        "name": "Kai Wang"
+                    },
+                    {
+                        "s2_author_id": "38394648",
+                        "name": "G. Xu"
+                    },
+                    {
+                        "s2_author_id": "38319925",
+                        "name": "Z. Su"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3a43237d7ea53a3792f6b45ef65a6b817f71205f",
+                "title": "Intensional Effect Polymorphism",
+                "year": 2015,
+                "venue": "European Conference on Object-Oriented Programming",
+                "citation_count": 9,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2574017",
+                        "name": "Yuheng Long"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "144212535",
+                        "name": "Hridesh Rajan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7515e77f5d1bedf72e7ca57a71361a51fe2b32cc",
+                "title": "A Programming Model for Sustainable Software",
+                "year": 2015,
+                "venue": "2015 IEEE/ACM 37th IEEE International Conference on Software Engineering",
+                "citation_count": 37,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115314150",
+                        "name": "H. Zhu"
+                    },
+                    {
+                        "s2_author_id": "3346252",
+                        "name": "Chaoren Lin"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9d54f0c34e8c6de5f594b9bc0977b946d7dee713",
+                "title": "Toward a Java based infrastructure for unmanned aerial vehicles",
+                "year": 2015,
+                "venue": "ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "2494043",
+                        "name": "Lukasz Ziarek"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a0d4f558071bf3dea7e4f2367b133f0e7e2764e1",
+                "title": "Data-Oriented Characterization of Application-Level Energy Optimization",
+                "year": 2015,
+                "venue": "Fundamental Approaches to Software Engineering",
+                "citation_count": 85,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2152352593",
+                        "name": "Kenan Liu"
+                    },
+                    {
+                        "s2_author_id": "117886013",
+                        "name": "G. Pinto"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "58f850b4639a5c34661db61dd88e868fa8d521f6",
+                "title": "Energy-efficient work-stealing language runtimes",
+                "year": 2014,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 62,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47805214",
+                        "name": "Haris Ribic"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "62bf3e6ec717c42f02d16e8f1d217ad776cdab6a",
+                "title": "Mining questions about software energy consumption",
+                "year": 2014,
+                "venue": "IEEE Working Conference on Mining Software Repositories",
+                "citation_count": 201,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "117886013",
+                        "name": "G. Pinto"
+                    },
+                    {
+                        "s2_author_id": "1719483",
+                        "name": "F. C. Filho"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "718cc313b8463b008b00c1c70e5877bfd141e759",
+                "title": "Understanding energy behaviors of thread management constructs",
+                "year": 2014,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 95,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "117886013",
+                        "name": "G. Pinto"
+                    },
+                    {
+                        "s2_author_id": "2270288877",
+                        "name": "Fernando Castor Filho"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "80a8057eeba9113f5b763918149ad406d78ae632",
+                "title": "Improving energy efficiency of work-stealing parallel languages (invited talk abstract)",
+                "year": 2014,
+                "venue": "WODA+PERTEA 2014",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fa39552d101894816446d0df2b9cf22f12eea814",
+                "title": "Rate types for stream programs",
+                "year": 2014,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 10,
+                "reference_count": 55,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3304403",
+                        "name": "Thomas Bartenstein"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0c9cb25c5272364ad55155d0b42ae68bba973ee5",
+                "title": "Sustainable Programming with Eco",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115314150",
+                        "name": "H. Zhu"
+                    },
+                    {
+                        "s2_author_id": "3346252",
+                        "name": "Chaoren Lin"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "257b6045e6907e16892fcf94d79cb1eecbdfbd8a",
+                "title": "Green Streams for data-intensive software",
+                "year": 2013,
+                "venue": "International Conference on Software Engineering",
+                "citation_count": 26,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3304403",
+                        "name": "Thomas Bartenstein"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9c3ed4665c4b1536402db91a97e38a666f13981a",
+                "title": "Heap Decomposition Inference with Linear Programming",
+                "year": 2013,
+                "venue": "European Conference on Object-Oriented Programming",
+                "citation_count": 3,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115314150",
+                        "name": "H. Zhu"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b6d4cb4bd40718e2661180abbe736bf1bacde137",
+                "title": "Variant-Frequency Semantics for Green Futures",
+                "year": 2013,
+                "venue": "Places",
+                "citation_count": 4,
+                "reference_count": 9,
+                "abstract": "This paper describes an operational semantics for futures, with the primary target on energy efficiency. The work in progress is built around an insight that different threads can coordinate by running at different \"paces,\" so that the time for synchronization and the resulting wasteful energy consumption can be reduced. We exploit several inherent characteristics of futures to determine how the paces of involving threads can be coordinated. The semantics is inspired by recent advances in computer architectures, where the frequencies of CPU cores can be adjusted dynamically. The work is a first-step toward a direction where variant frequencies are directly modeled as an essential semantic feature in concurrent programming languages.",
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c8bbab49e735bd42e17a9bdce13e5545444d1fd",
+                "title": "Energy types",
+                "year": 2012,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 92,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2116296673",
+                        "name": "M. Cohen"
+                    },
+                    {
+                        "s2_author_id": "2115314150",
+                        "name": "H. Zhu"
+                    },
+                    {
+                        "s2_author_id": "1411117898",
+                        "name": "Senem Ezgi Emgin"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5da42a45ea9e53846817505ff6be5427a41adace",
+                "title": "Locality Reasoning of Multithreaded Programs through Type Inference",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115314150",
+                        "name": "H. Zhu"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "985e585bb49df85b0464c72dc5d9f9980b4dcf69",
+                "title": "JATO: Native Code Atomicity for Java",
+                "year": 2012,
+                "venue": "Asian Symposium on Programming Languages and Systems",
+                "citation_count": 7,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118154538",
+                        "name": "Siliang Li"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "1719733",
+                        "name": "Gang Tan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a6df2687cff5ac20a5bc505b8d2b62bca6cc3a4b",
+                "title": "Energy-efficient synchronization through program patterns",
+                "year": 2012,
+                "venue": "International Workshop on Green and Sustainable Software",
+                "citation_count": 20,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ba86ed05e72037e894ed50cacfcbc6b0a4016bd7",
+                "title": "Toward a unified object model for cyber-physical systems",
+                "year": 2011,
+                "venue": "International Workshop on Software Engineering for Sensor Network Applications",
+                "citation_count": 3,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c4ee39ecc1c5f6d24cce896b7576db252cbb904f",
+                "title": "Green Thieves in Work Stealing",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7f044e0933de7916764f0780161a75fb6e032ed3",
+                "title": "Task types for pervasive atomicity",
+                "year": 2010,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 34,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38861016",
+                        "name": "A. Kulkarni"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "1686107",
+                        "name": "Scott F. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f3677364ddf321e83f8e35612b133d975fe33a48",
+                "title": "Interaction-based programming towards translucent clouds: position paper",
+                "year": 2010,
+                "venue": "APLWACA '10",
+                "citation_count": 3,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "145623099",
+                        "name": "Kartik Gopalan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2295c028bb44dfdbf185876d04a0d37fa14a89d8",
+                "title": "Coqa: Concurrent Objects with Quantized Atomicity",
+                "year": 2008,
+                "venue": "International Conference on Compiler Construction",
+                "citation_count": 13,
+                "reference_count": 61,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "2187183131",
+                        "name": "Xiaoqi Lu"
+                    },
+                    {
+                        "s2_author_id": "1686107",
+                        "name": "Scott F. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3d725bfa0d291552a412e7da62735a891492fe6b",
+                "title": "Pedigree Types",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 16,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "1686107",
+                        "name": "Scott F. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "413b1e75cfb4db05e3e57d4e4c1ffc9f3422b121",
+                "title": "Interaction-oriented programming",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 67,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1686107",
+                        "name": "Scott F. Smith"
+                    },
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "24ccf1a0d777d3214d3b05a187cb7fef74d942c8",
+                "title": "A formal framework for component deployment",
+                "year": 2006,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 30,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "1686107",
+                        "name": "Scott F. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d003a3918c014c899dc9ffcccbd2908a4263f55",
+                "title": "Interaction-based programming with classages",
+                "year": 2005,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 23,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "1686107",
+                        "name": "Scott F. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3822021daf152ae17952ac6070443cd4d11755ca",
+                "title": "A Component Security Infrastructure",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "1686107",
+                        "name": "Scott F. Smith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "86280a8dc50d9e8a5b953ba09dedc8a9fee64bc8",
+                "title": "Component Assemblies and Component Runtimes",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2146399282",
+                        "name": "Yu David Liu"
+                    },
+                    {
+                        "s2_author_id": "1780427",
+                        "name": "Ran Rinat"
+                    },
+                    {
+                        "s2_author_id": "1686107",
+                        "name": "Scott F. Smith"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2152352593",
+                "name": "Kenan Liu"
+            },
+            {
+                "s2_author_id": "3333527",
+                "name": "K. Mahmoud"
+            },
+            {
+                "s2_author_id": "2165543317",
+                "name": "Joonhwan Yoo"
+            },
+            {
+                "s2_author_id": "153059388",
+                "name": "S. Semenova"
+            },
+            {
+                "s2_author_id": "1691861",
+                "name": "Steven Y. Ko"
+            },
+            {
+                "s2_author_id": "2494043",
+                "name": "Lukasz Ziarek"
+            },
+            {
+                "s2_author_id": "3119495",
+                "name": "Karthik Dantu"
+            },
+            {
+                "s2_author_id": "146557833",
+                "name": "Daniel Townley"
+            },
+            {
+                "s2_author_id": "2165538813",
+                "name": "Kerem Arikan"
+            },
+            {
+                "s2_author_id": "2135462572",
+                "name": "Dmitry Ponomarev"
+            },
+            {
+                "s2_author_id": "144889368",
+                "name": "O\u011fuz Ergin"
+            },
+            {
+                "s2_author_id": "91879422",
+                "name": "Timur Babakol"
+            },
+            {
+                "s2_author_id": "14707986",
+                "name": "Anthony Canino"
+            },
+            {
+                "s2_author_id": "145986358",
+                "name": "D. Ancona"
+            },
+            {
+                "s2_author_id": "3988249",
+                "name": "O. Fl\u00fcckiger"
+            },
+            {
+                "s2_author_id": "1771411",
+                "name": "Adrian Francalanza"
+            },
+            {
+                "s2_author_id": "1741504",
+                "name": "R. Hirschfeld"
+            },
+            {
+                "s2_author_id": "32732801",
+                "name": "Atsushi Igarashi"
+            },
+            {
+                "s2_author_id": "8941406",
+                "name": "Hidehiko Masuhara"
+            },
+            {
+                "s2_author_id": "40584321",
+                "name": "Chris Seaton"
+            },
+            {
+                "s2_author_id": "2167011924",
+                "name": "Harumi Watanabe"
+            },
+            {
+                "s2_author_id": "39699850",
+                "name": "Philip Dexter"
+            },
+            {
+                "s2_author_id": "39845595",
+                "name": "K. Chiu"
+            },
+            {
+                "s2_author_id": "19203687",
+                "name": "P. Meshram"
+            },
+            {
+                "s2_author_id": "2072680703",
+                "name": "T. Chase"
+            },
+            {
+                "s2_author_id": "8796730",
+                "name": "Adam Czerniejewski"
+            },
+            {
+                "s2_author_id": "1676897685",
+                "name": "John Henry Burns"
+            },
+            {
+                "s2_author_id": "3441274",
+                "name": "Farshad Ghanei"
+            },
+            {
+                "s2_author_id": "1576292279",
+                "name": "Xiaozhou Liang"
+            },
+            {
+                "s2_author_id": "2116536979",
+                "name": "Joseph Sanchez"
+            },
+            {
+                "s2_author_id": "123516343",
+                "name": "R. Saxena"
+            },
+            {
+                "s2_author_id": "2086306446",
+                "name": "Jeffrey Eymer"
+            },
+            {
+                "s2_author_id": "1719483",
+                "name": "F. C. Filho"
+            },
+            {
+                "s2_author_id": "117886013",
+                "name": "G. Pinto"
+            },
+            {
+                "s2_author_id": "38394648",
+                "name": "G. Xu"
+            },
+            {
+                "s2_author_id": "2574017",
+                "name": "Yuheng Long"
+            },
+            {
+                "s2_author_id": "144212535",
+                "name": "Hridesh Rajan"
+            },
+            {
+                "s2_author_id": "47805214",
+                "name": "Haris Ribic"
+            },
+            {
+                "s2_author_id": "2148896568",
+                "name": "Kai Wang"
+            },
+            {
+                "s2_author_id": "38319925",
+                "name": "Z. Su"
+            },
+            {
+                "s2_author_id": "2115314150",
+                "name": "H. Zhu"
+            },
+            {
+                "s2_author_id": "3346252",
+                "name": "Chaoren Lin"
+            },
+            {
+                "s2_author_id": "2270288877",
+                "name": "Fernando Castor Filho"
+            },
+            {
+                "s2_author_id": "3304403",
+                "name": "Thomas Bartenstein"
+            },
+            {
+                "s2_author_id": "2116296673",
+                "name": "M. Cohen"
+            },
+            {
+                "s2_author_id": "1411117898",
+                "name": "Senem Ezgi Emgin"
+            },
+            {
+                "s2_author_id": "2118154538",
+                "name": "Siliang Li"
+            },
+            {
+                "s2_author_id": "1719733",
+                "name": "Gang Tan"
+            },
+            {
+                "s2_author_id": "38861016",
+                "name": "A. Kulkarni"
+            },
+            {
+                "s2_author_id": "1686107",
+                "name": "Scott F. Smith"
+            },
+            {
+                "s2_author_id": "145623099",
+                "name": "Kartik Gopalan"
+            },
+            {
+                "s2_author_id": "2187183131",
+                "name": "Xiaoqi Lu"
+            },
+            {
+                "s2_author_id": "1780427",
+                "name": "Ran Rinat"
+            }
+        ],
+        "total_co_authors": 53,
+        "papers_retrieved": 55
+    }
+}

@@ -1,0 +1,1634 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000163936",
+        "name": "Mahmut T Kandemir",
+        "primary_affiliation": "Pennsylvania State Univ University Park",
+        "primary_department": null,
+        "all_affiliations": [
+            "Pennsylvania State Univ University Park"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "PA"
+        ],
+        "perf_cities": [
+            "UNIVERSITY PARK"
+        ],
+        "org_names": [
+            "Pennsylvania State Univ University Park"
+        ],
+        "org_ueis": [
+            "NPM2J7MSCF61"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "mtk2@psu.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2453653",
+                "title": "SHF: Small: Compiler and Runtime Support for Computational Storage in HPC",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-01",
+                "exp_date": "2028-06-30",
+                "award_amount": 540000.0,
+                "total_amount": 540000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000358842"
+                ],
+                "program_elements": [
+                    "Software & Hardware Foundation"
+                ],
+                "program_codes": [
+                    "779800"
+                ],
+                "program_references": [
+                    "HIGH-PERFORMANCE COMPUTING",
+                    "SMALL PROJECT"
+                ],
+                "program_ref_codes": [
+                    "7942",
+                    "7923"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Almadena Chtchelkanova",
+                "keywords": [
+                    "storage",
+                    "csds",
+                    "computing",
+                    "energy",
+                    "compute",
+                    "performance",
+                    "compiler",
+                    "runtime",
+                    "systems",
+                    "programming"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000358842"
+        ],
+        "program_elements": [
+            "Software & Hardware Foundation"
+        ],
+        "program_codes": [
+            "779800"
+        ],
+        "program_references": [
+            "HIGH-PERFORMANCE COMPUTING",
+            "SMALL PROJECT"
+        ],
+        "program_ref_codes": [
+            "7942",
+            "7923"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Almadena Chtchelkanova"
+        ],
+        "keywords": [
+            "storage",
+            "csds",
+            "computing",
+            "energy",
+            "compute",
+            "performance",
+            "compiler",
+            "runtime",
+            "systems",
+            "programming",
+            "scientific",
+            "national",
+            "devices",
+            "hardware",
+            "software",
+            "across",
+            "workloads",
+            "near",
+            "abstractions",
+            "small"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.63
+    },
+    "s2_profile": {
+        "s2_author_id": "2258702068",
+        "name": "Mahmut T Kandemir",
+        "affiliations": [],
+        "paper_count": 30,
+        "citation_count": 64,
+        "h_index": 5,
+        "papers": [
+            {
+                "s2_paper_id": "9480e2a11b3f5c280604d316049a11b76caca2b3",
+                "title": "AutoGNN: End-to-End Hardware-Driven Graph Preprocessing for Enhanced GNN Performance",
+                "year": 2026,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 96,
+                "abstract": "Graph neural network (GNN) inference faces significant bottlenecks in preprocessing, which often dominate overall inference latency. We introduce AutoGNN, an FPGA-based accelerator designed to address these challenges by leveraging FPGA's reconfigurability and specialized components. AutoGNN adapts to diverse graph inputs, efficiently performing computationally intensive tasks such as graph conversion and sampling. By utilizing components like adder trees, AutoGNN executes reduction operations in constant time, overcoming the limitations of serialization and synchronization on GPUs. AutoGNN integrates unified processing elements (UPEs) and single-cycle reducers (SCRs) to streamline GNN preprocessing. UPEs enable scalable parallel processing for edge sorting and unique vertex selection, while SCRs efficiently handle sequential tasks such as pointer array construction and subgraph reindexing. A user-level software framework dynamically profiles graph inputs, determines optimal configurations, and reprograms AutoGNN to handle varying workloads. Implemented on a 7$n$m enterprise FPGA, AutoGNN achieves up to 9.0$\\times$ and 2.1$\\times$ speedup compared to conventional and GPU-accelerated preprocessing systems, respectively, enabling high-performance GNN preprocessing across diverse datasets.",
+                "authors": [
+                    {
+                        "s2_author_id": "2308359964",
+                        "name": "Seungkwan Kang"
+                    },
+                    {
+                        "s2_author_id": "2187553113",
+                        "name": "Seungjun Lee"
+                    },
+                    {
+                        "s2_author_id": "51204802",
+                        "name": "Donghyun Gouk"
+                    },
+                    {
+                        "s2_author_id": "7198431",
+                        "name": "Miryeong Kwon"
+                    },
+                    {
+                        "s2_author_id": "2179112044",
+                        "name": "Hyunkyu Choi"
+                    },
+                    {
+                        "s2_author_id": "2109734661",
+                        "name": "Junhyeok Jang"
+                    },
+                    {
+                        "s2_author_id": "2144503568",
+                        "name": "Sangwon Lee"
+                    },
+                    {
+                        "s2_author_id": "2383514393",
+                        "name": "Huiwon Choi"
+                    },
+                    {
+                        "s2_author_id": "2155862342",
+                        "name": "Jie Zhang"
+                    },
+                    {
+                        "s2_author_id": "2402472734",
+                        "name": "Wonil Choi"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2280341194",
+                        "name": "Myoungsoo Jung"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3772b44f099c3a38b6e2281f87499dfcfc3be928",
+                "title": "AnyKey: A Key-Value SSD for All Workload Types",
+                "year": 2025,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 2,
+                "reference_count": 64,
+                "abstract": "Key-value solid-state drives (KV-SSDs) are considered as a potential storage solution for large-scale key-value (KV) store applications. Unfortunately, the existing KV-SSD designs are tuned for a specific type of workload, namely, those in which the size of the values are much larger than the size of the keys. Interestingly, there also exists another type of workload, in practice, in which the sizes of keys are relatively large. We re-evaluate the current KV-SSD designs using such unexplored workloads and document their significantly-degraded performance. Observing that the performance problem stems from the increased size of the metadata, we subsequently propose a novel KV-SSD design, called AnyKey, which prevents the size of the metadata from increasing under varying sizes of keys. Our detailed evaluation using a wide range of real-life workloads indicates that AnyKey outperforms the state-of-the-art KV-SSD design under different types of workloads with varying sizes of keys and values.",
+                "authors": [
+                    {
+                        "s2_author_id": "123057870",
+                        "name": "Chanyoung Park"
+                    },
+                    {
+                        "s2_author_id": "2344402894",
+                        "name": "Jungho Lee"
+                    },
+                    {
+                        "s2_author_id": "2262626935",
+                        "name": "Chun-Yi Liu"
+                    },
+                    {
+                        "s2_author_id": "2114073686",
+                        "name": "Kyungtae Kang"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2505238",
+                        "name": "Wonil Choi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5be3fb3fb85dd48575d55212416ad2f3f3c5df85",
+                "title": "Pirate: No Compromise Low-Bandwidth VR Streaming for Edge Devices",
+                "year": 2025,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 0,
+                "reference_count": 52,
+                "abstract": "Due to the limited compute power and storage capabilities of edge platforms, ''streaming'' often provides a better VR experience compared to ''rendering''. Yet, achieving high-quality VR streaming faces two significant challenges, namely, bandwidth limitations and the need for real-time operation with high frames per second (FPS). Previous efforts have tended to prioritize either conserving bandwidth without real-time performance or ensuring real-time operation without substantial bandwidth savings. In this work, we incorporate the concept of ''stereo similarity'' to develop a novel real-time stereo video compression framework for streaming, called Pirate. Unlike the previously proposed approaches that rely on large machine learning-based models for synthesizing stereo pairs from both eyes with disparity maps (which can be impractical for most edge platforms due to their high computational cost), Pirate iteratively synthesizes the target eye view using only a single eye view and its corresponding disparity and optical flow information, with alternating left or right eye transmission. This enables us to generate target view at an extremely low computational cost, even under bandwidth constraints as low as 0.1 bits per pixel (bpp), while maintaining a high frame rate of 90 FPS. Our evaluations also reveal that, the proposed approach not only achieves real-time VR streaming with a 20%-40% reduction in bandwidth usage, but also maintains similar superior quality standards.",
+                "authors": [
+                    {
+                        "s2_author_id": "2108298348",
+                        "name": "Yingtian Zhang"
+                    },
+                    {
+                        "s2_author_id": "2153820748",
+                        "name": "Yan Kang"
+                    },
+                    {
+                        "s2_author_id": "2068261860",
+                        "name": "Ziyu Ying"
+                    },
+                    {
+                        "s2_author_id": "2352526610",
+                        "name": "Wanhang Lu"
+                    },
+                    {
+                        "s2_author_id": "2352554506",
+                        "name": "Sijie Lan"
+                    },
+                    {
+                        "s2_author_id": "2352493802",
+                        "name": "Huijuan Xu"
+                    },
+                    {
+                        "s2_author_id": "10995410",
+                        "name": "Kiwan Maeng"
+                    },
+                    {
+                        "s2_author_id": "1743609",
+                        "name": "A. Sivasubramaniam"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2238052910",
+                        "name": "Chita R. Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7673085c4e1a55108fee257deaa694a7f8009b63",
+                "title": "Containerized In-Storage Processing and Computing-Enabled Solid-State Drive Disaggregation",
+                "year": 2025,
+                "venue": "IEEE Micro",
+                "citation_count": 0,
+                "reference_count": 12,
+                "abstract": "In-storage processing (ISP) minimizes data transfer for analytics but faces challenges in adaptation and disaggregation. We propose DockerSSD, an ISP model that leverages operating system-level virtualization and lightweight firmware to enable containerized data processing directly on solid-state devices. The key features include Ethernet over Non-volatile Memory Express for network-based ISP management, and virtual firmware for secure, efficient container execution. DockerSSD supports disaggregated storage pools, reducing host overhead and enhancing large-scale services like large language model (LLM) inference. It achieves up to 2\u00d7 better performance for input\u2013output-intensive workloads, and 7.9\u00d7 improvement in distributed LLM inference.",
+                "authors": [
+                    {
+                        "s2_author_id": "7198431",
+                        "name": "Miryeong Kwon"
+                    },
+                    {
+                        "s2_author_id": "51204802",
+                        "name": "Donghyun Gouk"
+                    },
+                    {
+                        "s2_author_id": "2363496807",
+                        "name": "Eunjee Na"
+                    },
+                    {
+                        "s2_author_id": "2363505214",
+                        "name": "Jiseon Kim"
+                    },
+                    {
+                        "s2_author_id": "2366146948",
+                        "name": "Junhee Kim"
+                    },
+                    {
+                        "s2_author_id": "2364524870",
+                        "name": "Hyein Woo"
+                    },
+                    {
+                        "s2_author_id": "2308280272",
+                        "name": "Eojin Ryu"
+                    },
+                    {
+                        "s2_author_id": "2179112044",
+                        "name": "Hyunkyu Choi"
+                    },
+                    {
+                        "s2_author_id": "2364479173",
+                        "name": "Jinwoo Baek"
+                    },
+                    {
+                        "s2_author_id": "2146977561",
+                        "name": "Hanyeoreum Bae"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2280341194",
+                        "name": "Myoungsoo Jung"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a3fdff4e6034e7603e5ac48059d9bddfc6c8861a",
+                "title": "Enhancing Graph Transformer Training through Adaptive Graph Parallelism",
+                "year": 2025,
+                "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+                "citation_count": 0,
+                "reference_count": 7,
+                "abstract": "Graph Transformers, a variant of Graph Neural Networks (GNNs), excel at capturing long-range dependencies but struggle with scalability due to the quadratic complexity of their attention mechanism. We introduce a new training framework that optimizes parallelization strategies based on the graph structure and system configuration. By using sparse operations like sparse matrix-matrix multiplication (SpMM) and sampled dense-dense matrix multiplication (SDDMM), we enhance sparse graph attention speed by up to 3.8x and cut memory use by 77.6% compared to leading frameworks. Additionally, we implement a lightweight reordering strategy for balanced workloads. Our method efficiently processes large-scale graphs with significant scalability improvements, achieving a 5.8x speedup on the ogbn-proteins dataset and a 3.7x speedup on the ogbn-products dataset in distributed training, surpassing previous parallelization methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "2262012835",
+                        "name": "Jun-Liang Lin"
+                    },
+                    {
+                        "s2_author_id": "2421239",
+                        "name": "Kamesh Madduri"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a963e84d58014423adcdcd9a4f5ce584590929e3",
+                "title": "Multi-Dimensional ML-Pipeline Optimization in Cost-Effective Disaggregated Datacenter",
+                "year": 2025,
+                "venue": "Micro",
+                "citation_count": 1,
+                "reference_count": 77,
+                "abstract": "Machine learning (ML) pipelines deployed in datacenters are becoming increasingly complex and resource intensive, requiring careful optimizations to meet performance and latency requirements. Deployment in NUMA architectures with heterogeneous memory types such as CXL introduces a vast configuration space for memory and thread management. However, existing methods often need help to efficiently navigate this space, relying on significant manual tuning and needing more adaptability across diverse hardware platforms and extensive user-side code modification. This paper presents and experimentally evaluates an adaptive auto-tuning framework that optimizes memory configurations to maximize system throughput while adhering to Service Level Agreements (SLAs) on latency. Our optimization is carried out in two phases, addressing both performance and power efficiency. The proposed framework integrates an extended Berkeley Packet Filter (eBPF)-based kernel module for real-time performance monitoring and a user-space optimization core leveraging Bayesian Optimization and Pareto Optimality to explore high-dimensional configuration spaces. Extensive experimental evaluations on various workloads demonstrate that our framework achieves up to a 48% increase in throughput compared to default NUMA, TPP, Caption, and GPU while reducing search costs by as much as 77%. Furthermore, our two-phase optimization approach incorporates power efficiency, achieving up to 14.3% power savings without compromising throughput.",
+                "authors": [
+                    {
+                        "s2_author_id": "2169652204",
+                        "name": "Pingyi Huo"
+                    },
+                    {
+                        "s2_author_id": "2335209060",
+                        "name": "Anusha Devulapally"
+                    },
+                    {
+                        "s2_author_id": "2386650561",
+                        "name": "Hasan Al Maruf"
+                    },
+                    {
+                        "s2_author_id": "2916636",
+                        "name": "Nandhini Chandramoorthy"
+                    },
+                    {
+                        "s2_author_id": "2261957558",
+                        "name": "Meena Arunachalam"
+                    },
+                    {
+                        "s2_author_id": "2268973489",
+                        "name": "Gulsum Gudukbay Akbulut"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2238987052",
+                        "name": "V. Narayanan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cd0fb22593a919dcb78ef2793587b0b433a2c8a9",
+                "title": "Load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs",
+                "year": 2025,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 2,
+                "reference_count": 46,
+                "abstract": "Recommendation models can enhance consumer experiences and are one of the most frequently used machine learning models in data centers. The deep learning recommendation model (DLRM) is one such key workload. While DLRMs are often trained using GPUs, CPUs can be a cost-effective solution for inference. Therefore, optimizing DLRM inference for CPUs is an important research problem with significant business value. In this work, we identify several shortcomings of existing DLRM parallelization techniques, which can include load imbalance across CPU chiplets, suboptimal core allocation for embedding tables, and inefficient utilization of memory- level parallelism (MLP) resources. We propose a novel thread scheduler, called ''Balance,'' that addresses those shortcomings by (1) minimizing core allocation per embedding table to maximize core utilization, (2) using MLP-aware task scheduling based on the characteristics of the embedding tables to better utilize memory bandwidth, and (3) combining work stealing and table reordering mechanisms to reduce load imbalance across CPU chiplets. We evaluate Balance on real hardware with production DLRM traces and demonstrate up to a 1.67\u00d7 higher speedup over prior state-of-the-art DLRM parallelization techniques with 96 cores. Further, Balance consistently achieves 1.22\u00d7 higher performance over a range of batch sizes.",
+                "authors": [
+                    {
+                        "s2_author_id": "2257044866",
+                        "name": "Rishabh Jain"
+                    },
+                    {
+                        "s2_author_id": "4470296",
+                        "name": "Teyuh Chou"
+                    },
+                    {
+                        "s2_author_id": "2163220",
+                        "name": "Onur Kayiran"
+                    },
+                    {
+                        "s2_author_id": "2314973624",
+                        "name": "John Kalamatianos"
+                    },
+                    {
+                        "s2_author_id": "2314389117",
+                        "name": "Gabriel H. Loh"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2238052910",
+                        "name": "Chita R. Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "df582eddf89f8bab968720f9c2451cb416109c4a",
+                "title": "Containerized In-Storage Processing and Computing-Enabled SSD Disaggregation",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 45,
+                "abstract": "ISP minimizes data transfer for analytics but faces challenges in adaptation and disaggregation. We propose DockerSSD, an ISP model leveraging OS-level virtualization and lightweight firmware to enable containerized data processing directly on SSDs. Key features include Ethernet over NVMe for network-based ISP management and Virtual Firmware for secure, efficient container execution. DockerSSD supports disaggregated storage pools, reducing host overhead and enhancing large-scale services like LLM inference. It achieves up to 2.0x better performance for I/O-intensive workloads, and 7.9x improvement in distributed LLM inference.",
+                "authors": [
+                    {
+                        "s2_author_id": "7198431",
+                        "name": "Miryeong Kwon"
+                    },
+                    {
+                        "s2_author_id": "51204802",
+                        "name": "Donghyun Gouk"
+                    },
+                    {
+                        "s2_author_id": "2363496807",
+                        "name": "Eunjee Na"
+                    },
+                    {
+                        "s2_author_id": "2363505214",
+                        "name": "Jiseon Kim"
+                    },
+                    {
+                        "s2_author_id": "2366146948",
+                        "name": "Junhee Kim"
+                    },
+                    {
+                        "s2_author_id": "2364524870",
+                        "name": "Hyein Woo"
+                    },
+                    {
+                        "s2_author_id": "2308280272",
+                        "name": "Eojin Ryu"
+                    },
+                    {
+                        "s2_author_id": "2179112044",
+                        "name": "Hyunkyu Choi"
+                    },
+                    {
+                        "s2_author_id": "2364479173",
+                        "name": "Jinwoo Baek"
+                    },
+                    {
+                        "s2_author_id": "2146977561",
+                        "name": "Hanyeoreum Bae"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2280341194",
+                        "name": "Myoungsoo Jung"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e1dea5b159cf362d00c89a4f8a85d9816c15de67",
+                "title": "TPNM: A CXL Based General Purpose Tiered Process Near Memory Framework",
+                "year": 2025,
+                "venue": "IEEE International Symposium on Performance Analysis of Systems and Software",
+                "citation_count": 0,
+                "reference_count": 22,
+                "abstract": "Near-Memory Processing (NMP) has gained significant attention for its potential to accelerate various workloads. However, NMP performance suffers from challenges related to data locality and scalability, particularly in disaggregated datacenter environments. To address these issues, this paper presents TPNM (Tiered Processing Near Memory), a novel framework for near-data processing in disaggregated memory settings. TPNM leverages Compute Express Link (CXL) technology to enable processing both within memory devices and at the fabric switch level, creating a tiered approach to data processing. Evaluations across diverse workloads demonstrate significant performance improvements over baseline and existing near-data processing approaches. In particular, TPNM reduces latency by up to 4.76x compared to CPU-only baselines and by as much as 62 % compared to existing NMP-based solutions.",
+                "authors": [
+                    {
+                        "s2_author_id": "2169652204",
+                        "name": "Pingyi Huo"
+                    },
+                    {
+                        "s2_author_id": "2187312519",
+                        "name": "Anusha Devulapally"
+                    },
+                    {
+                        "s2_author_id": "2221258",
+                        "name": "H. Maruf"
+                    },
+                    {
+                        "s2_author_id": "2261957558",
+                        "name": "Meena Arunachalam"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "1733274",
+                        "name": "N. Vijaykrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "020e1c4305572837dec573f5dcd156673d6af304",
+                "title": "SmartGraph: A Framework for Graph Processing in Computational Storage",
+                "year": 2024,
+                "venue": "ACM Symposium on Cloud Computing",
+                "citation_count": 1,
+                "reference_count": 43,
+                "abstract": "Graph processing plays a pivotal role in numerous large-scale applications, including social and transportation networks. One of the primary challenges in handling large-scale graph data is its tendency to surpass DRAM capacities. Conventional methods focus on minimizing I/O latency by decreasing disk I/O requests via predictive value calculations. However, these techniques often struggle with inefficient partitioning strategies that elevate DRAM needs, underutilized predictive calculations, and incur considerable synchronization overheads. In our research, we introduce and assess SmartGraph, a new graph partitioning and processing framework that is optimized for both CPU-driven systems and near-storage processing units, such as SmartSSDs. SmartGraph is designed to enhance data-flow within and between processing iterations, drastically reducing the execution latency of graph algorithms and removing synchronization overheads. This framework is especially advantageous in cloud environments, where scalability and efficient data management are paramount. Our experimental findings demonstrate that SmartGraph achieves an average improvement of 1.27x across four graph applications compared to the state-of-the-art framework, LUMOS, when tested on SmartSSDs using datasets like Friendster, LiveJournal, and Twitter. Our empirical analysis underscores the benefits of integrating SmartSSD technology with cloud-based graph processing to boost performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "2156588873",
+                        "name": "Soheil Khadirsharbiyani"
+                    },
+                    {
+                        "s2_author_id": "3031046",
+                        "name": "Nima Elyasi"
+                    },
+                    {
+                        "s2_author_id": "27521613",
+                        "name": "Armin Haj Aboutalebi"
+                    },
+                    {
+                        "s2_author_id": "2262626935",
+                        "name": "Chun-Yi Liu"
+                    },
+                    {
+                        "s2_author_id": "2263859382",
+                        "name": "Changho Choi"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1334ff34eacab2d240961bbc95546f43530aaef0",
+                "title": "Thorough Characterization and Analysis of Large Transformer Model Training At-Scale",
+                "year": 2024,
+                "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+                "citation_count": 10,
+                "reference_count": 45,
+                "abstract": "Large transformer models have recently achieved great success across various domains. With a growing number of model parameters, a large transformer model training today typically involves model sharding, data parallelism, and model parallelism. Thus, the throughput of large-scale model training depends heavily on the network bandwidth since a combination of model sharding and multiple parallelism strategies incurs various costs. However, prior characterizations of transformer models on high-bandwidth DGX machines that use TFLOPS as a metric may not reflect the performance of a system with lower bandwidth. Furthermore, data and model parallelism reveal significantly distinct training profiles on different system bandwidths at scale and, thus, need a thorough study. In this paper, we provide a bottom-up breakdown of training throughput into compute and communication time, and quantitatively analyze their respective influences on overall end-to-end training scaling. Our evaluation involves an in-depth exploration of data parallelism, scaling up to 512 GPUs with limited bandwidth, and examines three model sharding strategies among six model sizes. We also evaluate three combinations of model parallelism on both high and low bandwidth supercomputing systems. Overall, our work provides a broader perspective on large-scale transformer model training, and our analysis and evaluation yield practical insights for predicting training scaling, shaping the future development of supercomputing system design.",
+                "authors": [
+                    {
+                        "s2_author_id": "2220695947",
+                        "name": "Scott Cheng"
+                    },
+                    {
+                        "s2_author_id": "2262012835",
+                        "name": "Jun-Liang Lin"
+                    },
+                    {
+                        "s2_author_id": "2157261",
+                        "name": "M. Emani"
+                    },
+                    {
+                        "s2_author_id": "151462530",
+                        "name": "Siddhisanket Raskar"
+                    },
+                    {
+                        "s2_author_id": "2256988999",
+                        "name": "Sam Foreman"
+                    },
+                    {
+                        "s2_author_id": "2257449427",
+                        "name": "Zhen Xie"
+                    },
+                    {
+                        "s2_author_id": "2267938602",
+                        "name": "Venkat Vishwanath"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4ca5337221523afc6c33b896a8f1bce81cb45059",
+                "title": "FAAStloop: Optimizing Loop-Based Applications for Serverless Computing",
+                "year": 2024,
+                "venue": "ACM Symposium on Cloud Computing",
+                "citation_count": 4,
+                "reference_count": 65,
+                "abstract": "Serverless Computing has garnered significant interest for executing High-Performance Computing (HPC) applications in recent years, attracting attention for its elastic scalability, reduced entry barriers, and pay-per-use pricing model. Specifically, highly parallel HPC apps can be divided and offloaded to multiple Serverless Functions (SFs) that execute their respective tasks concurrently and, finally, their results are stored/aggregated. While state-of-the-art userside serverless frameworks have attempted to fine-tune task division amongst the SFs to optimize for performance and/or cost, they have either used static task division parameters or have only focused on minimizing the number of SFs through task packing. However, these methods treat the HPC code as a black-box and usually require significant manual intervention to find the optimal task division. Since a significant portion of the HPC applications have a loop structure, in this work, we try to answer the following two questions: (i) Can modifying the loop structure in the HPC code, originally optimized for monolithic (non-serverless) frameworks, enhance performance and reduce costs in a serverless architecture?, and (ii) Can we develop a framework that allows for an efficient transition of monolithic code to serverless, with minimum user input? To this end, we propose a novel framework, FAAStloop, which intelligently employs loop-based optimizations (as well as task packing) in SF containers to optimally execute HPC apps across SFs. FAAStloop chooses the relevant optimization parameters using statistical models (constructed via app profiling) that are able to predict the relevant performance/cost metrics as a function of our choice of parameters. Our extensive experimental evaluation of FAAStloop on the AWS Lambda platform reveals that our framework outperforms state-of-the-art works by up to 3.3\u00d7 and 2.1\u00d7, in terms of end-to-end execution latency and cost, respectively.",
+                "authors": [
+                    {
+                        "s2_author_id": "7027993",
+                        "name": "S. Mohanty"
+                    },
+                    {
+                        "s2_author_id": "2135093161",
+                        "name": "Vivek M. Bhasi"
+                    },
+                    {
+                        "s2_author_id": "25132893",
+                        "name": "Myungjun Son"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2238052910",
+                        "name": "Chita R. Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75ab6b4c6b0310f437072699cd1caccc7527db2d",
+                "title": "PIFS-Rec: Process-In-Fabric-Switch for Large-Scale Recommendation System Inferences",
+                "year": 2024,
+                "venue": "Micro",
+                "citation_count": 6,
+                "reference_count": 68,
+                "abstract": "Deep Learning Recommendation Models (DLRMs) have become increasingly popular and prevalent in today's datacenters, consuming most of the AI inference cycles. The performance of DLRMs is heavily influenced by available band-width due to their large vector sizes in embedding tables and concurrent accesses. To achieve substantial improvements over existing solutions, novel approaches towards DLRM optimization are needed, especially, in the context of emerging interconnect technologies like CXL. This study delves into exploring CXL-enabled systems, implementing a process-in-fabric-switch (PIFS) solution to accelerate DLRMs while optimizing their memory and bandwidth scalability. We present an in-depth characterization of industry-scale DLRM workloads running on CXL-ready systems, identifying the predominant bottlenecks in existing CXL systems. We, therefore, propose PIFS-Rec, a PIFS-based scheme that implements near-data processing through downstream ports of the fabric switch. PIFS-Rec achieves a latency that is 3.89 x lower than Pond, an industry-standard CXL-based system, and also outperforms BEACON, a state-of-the-art scheme, by 2.03x.",
+                "authors": [
+                    {
+                        "s2_author_id": "2169652204",
+                        "name": "Pingyi Huo"
+                    },
+                    {
+                        "s2_author_id": "2187312519",
+                        "name": "Anusha Devulapally"
+                    },
+                    {
+                        "s2_author_id": "2221258",
+                        "name": "H. Maruf"
+                    },
+                    {
+                        "s2_author_id": "2257895111",
+                        "name": "Minseo Park"
+                    },
+                    {
+                        "s2_author_id": "2314985667",
+                        "name": "Krishnakumar Nair"
+                    },
+                    {
+                        "s2_author_id": "2261957558",
+                        "name": "Meena Arunachalam"
+                    },
+                    {
+                        "s2_author_id": "2268973489",
+                        "name": "Gulsum Gudukbay Akbulut"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "1733274",
+                        "name": "N. Vijaykrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8d67d1fee38018a70c4ef852eadf0d5dfe683a14",
+                "title": "Minimizing Coherence Errors via Dynamic Decoupling",
+                "year": 2024,
+                "venue": "International Conference on Supercomputing",
+                "citation_count": 1,
+                "reference_count": 50,
+                "abstract": "Quantum computing in the Noisy Intermediate-Scale Quantum (NISQ) era faces significant challenges due to the limitations in quantum gate fidelity and elevated error rates, which impede the successful execution of large-scale quantum circuits. One major source of errors in quantum computing is \u2019coherence errors\u2019, which arise from the idle time during circuit execution. Specifically, factors such as uneven gate operations, hardware limitations, and qubit connectivity constraints collectively contribute to the formation of \u2019holes\u2019 in quantum circuits, leading to \u2019idle qubits\u2019. These idle periods, in turn, increase noise and error rates, thus negatively impacting the overall reliability of quantum circuits\u2019 outputs. \u2019Dynamic Decoupling\u2019 involves implementing a series of single-qubit gates during the idle periods of each qubit, with the goal of minimizing coherence errors while incurring (less impactful) gate errors. Unlike previous approaches that require executing multiple circuit versions to achieve optimal dynamic decoupling, we present, in this work, an innovative method that characterizes the system just \u2019once\u2019 and enhances circuit performance based on this single characterization. This study introduces a practical technique for minimizing coherence errors by employing dynamic decoupling (using an X-Y-X-Y gate sequence) based on the slack lengths of the quantum circuit holes. More specifically, our approach focuses on optimizing idle qubits and precisely calculating the duration of these idle periods (referred to as \u2019slacks\u2019) for a more efficient application of dynamic decoupling. Our proposed method results in PST (probability of successful trial) improvements of 1.15x for small-scale benchmarks, 1.1x for medium-scale benchmarks, and 1.2x for large-scale benchmarks, when applied to the Qiskit and QASM benchmarks (a quantum benchmark suite for NISQ machines), in comparison to a state-of-the-art technique, while requiring 89% fewer characterization experiments. Compared to no dynamic decoupling and existing dynamic decoupling-based baselines, our approach achieves 1.6x and 1.4x better PST, respectively, on average.",
+                "authors": [
+                    {
+                        "s2_author_id": "2156588873",
+                        "name": "Soheil Khadirsharbiyani"
+                    },
+                    {
+                        "s2_author_id": "2199118004",
+                        "name": "Movahhed Sadeghi"
+                    },
+                    {
+                        "s2_author_id": "2305856309",
+                        "name": "Mostafa Eghbali Zarch"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ad46ba22f23a3abe79751471ed7ef686497261d1",
+                "title": "Veiled Pathways: Investigating Covert and Side Channels Within GPU Uncore",
+                "year": 2024,
+                "venue": "Micro",
+                "citation_count": 6,
+                "reference_count": 95,
+                "abstract": "With the emergence of GPUs as first-class compute engines, more concentrated focus has been put into covert and side channel discovery in these architectures. However, most of the covert and side channels uncovered on GPUs to date are rooted in \u201cGPU cores\u201d, which include computational cores, cache and core interconnects, but they do not consider \u201cGPU uncore\u201d, which include non-computational engines, GPU DRAM, host-G PU links and inter-GPulinks. In this paper, we delve into the less-explored domains of GPU uncore, unveiling four novel leakage sources for covert and side channel exploitation: (1) GPU DRAM frequency scaling; (2) NVENC utilization; (3) NVDEC utilization; (4) NVJPEG utilization. What makes these covert and side channels interesting is that they all take effect under the GPU MPS mode - which fractionalizes GPU cores and GPU memory on both desktop-scale and server-scale GPUs. Furthermore, our study reevaluates PCI-e bandwidth allocation on GPUs. Notably, we have engineered covert and side channel capable of bypassing GPU MIG isolation - a mechanism implemented by NVIDIA to physically segregate hardware resources on server-scale GPUs. Our research showcases concrete examples of these covert and side channels, highlighting their potency in breaching system security, all achieved without necessitating root privileges. This underscores the practical implications and urgency of addressing these vulnerabilities in GPU architectures.",
+                "authors": [
+                    {
+                        "s2_author_id": "2266821391",
+                        "name": "Yuanqing Miao"
+                    },
+                    {
+                        "s2_author_id": "2108298348",
+                        "name": "Yingtian Zhang"
+                    },
+                    {
+                        "s2_author_id": "2258935019",
+                        "name": "Dinghao Wu"
+                    },
+                    {
+                        "s2_author_id": "2258928642",
+                        "name": "Danfeng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2333656251",
+                        "name": "Gang Tan"
+                    },
+                    {
+                        "s2_author_id": "2333627578",
+                        "name": "Rui Zhang"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c9430c6470a741eb610d37ef8f2d4d9493f3c90b",
+                "title": "Impact of Write-Allocate Elimination on Fujitsu A64FX",
+                "year": 2024,
+                "venue": "HPC Asia Workshops",
+                "citation_count": 1,
+                "reference_count": 26,
+                "abstract": "ARM-based CPU architectures are currently driving massive disruptions in the High Performance Computing (HPC) community. Deployment of the 48-core Fujitsu A64FX ARM architecture based processor in RIKEN \u201cFugaku\u201d supercomputer (#2 in the June 2023 Top500 list) was a major inflection point in pushing ARM to mainstream HPC. A key design criteria of Fujitsu A64FX is to enhance the throughput of modern memory-bound applications, which happens to be a dominant pattern in contemporary HPC, as opposed to traditional compute-bound or floating-point intensive science workloads. One of the mechanisms to enhance the throughput concerns write-allocate operations (e.g., streaming write operations), which are quite common in science applications. In particular, eliminating write-allocate operations (allocate cache line on a write miss) through a special \u201czero fill\u201d instruction available on the ARM CPU architectures can improve the overall memory bandwidth, by avoiding the memory read into a cache line, which is unnecessary since the cache line will be written consequently. While bandwidth implications are relatively straightforward to measure via synthetic benchmarks with fixed-stride memory accesses, it is important to consider irregular memory-access driven scenarios such as graph analytics, and analyze the impact of write-allocate elimination on diverse data-driven applications. In this paper, we examine the impact of \u201czero fill\u201d on OpenMP-based multithreaded graph application scenarios (Graph500 Breadth First Search, GAP benchmark suite, and Louvain Graph Clustering) and five application proxies from the Rodinia heterogeneous benchmark suite (molecular dynamics, sequence alignment, image processing, etc.), using LLVM-based ARM and GNU compilers on the Fujitsu FX700 A64FX platform of the Ookami system from Stony Brook University. Our results indicate that facilitating \u201czero fill\u201d through code modifications to certain critical kernels or code segments that exhibit temporal write patterns can positively impact the overall performance of a variety of applications. We observe performance variations across the compilers and input data, and note end-to-end improvements between 5\u201320% for the benchmarks and diverse spectrum of application scenarios owing to \u201czero fill\u201d related adaptations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2153820748",
+                        "name": "Yan Kang"
+                    },
+                    {
+                        "s2_author_id": "2278386519",
+                        "name": "Sayan Ghosh"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2278423357",
+                        "name": "Andr\u00e9s M\u00e1rquez"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e399d38c2f799ec464f243fff6b2bb1e96164c4a",
+                "title": "SpotVerse: Optimizing Bioinformatics Workflows with Multi-Region Spot Instances in Galaxy and Beyond",
+                "year": 2024,
+                "venue": "International Middleware Conference",
+                "citation_count": 1,
+                "reference_count": 82,
+                "abstract": "As demand for cloud computing in bioinformatics increases, various studies have explored options for running large-scale workloads with reduced costs, often leveraging spot instances in multi-region deployments. For example, spot instances offer lower prices but come with the risk of interruption, contrasting with regular (on-demand) instances. However, transitioning to regions with high interruption rates can undermine the benefits of spot instances, adversely affecting performance and cost efficiency. Additionally, regular instances sometimes outperform spot instances based on their specifications. Existing IaaS frameworks focus primarily on cost savings without adequately addressing performance stability in high-interruption regions. To address these challenges, we introduce SpotVerse, a framework designed to optimize cloud resource allocation for bioinformatics workloads, including those within Galaxy - an open-source, web-based platform widely used for managing bioinformatics workflows. SpotVerse efficiently manages long workloads at reduced costs while navigating the complexities of high-interruption regions and strategically selecting between on-demand and spot instances. Our experiments compare SpotVerse with traditional single-region deployments, on-demand instances, and other existing frameworks to evaluate its performance and cost efficiency. Through advanced algorithms for resilient workflows and heuristic resource management, SpotVerse minimizes disruption risks and showcases potential cost savings of up to 52% over traditional single-region deployments.",
+                "authors": [
+                    {
+                        "s2_author_id": "25132893",
+                        "name": "Myungjun Son"
+                    },
+                    {
+                        "s2_author_id": "2268973489",
+                        "name": "Gulsum Gudukbay Akbulut"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ebe4975e0be933d21809d7120240817593696cdc",
+                "title": "An Autonomic Resource Allocating SSD",
+                "year": 2024,
+                "venue": "Design, Automation and Test in Europe",
+                "citation_count": 1,
+                "reference_count": 16,
+                "abstract": "When an SSD is used for executing multiple work-loads, its internal resources should be allocated to prevent the competing workloads from interfering with each other. While channel-based allocation strategies turn out to be quite effective in offering performance isolation, questions like \u201cwhat is the optimal allocation?\u201d and \u201chow can one efficiently search for the optimal allocation?\u201d remain unaddressed. To this end, we explore the channel allocation problem in SSDs and employ a reinforcement learning-based approach to address the problem. Specifically, we present an autonomic channel allocating SSD, called AutoAlloc, which can seek near-optimal channel allocation in a self-learning fashion for a given set of co-running workloads. The salient features of AutoAlloc include the following: (i) the optimal allocation can change depending on the user-defined optimization metrics; (ii) the search process takes place in an online setting without any need of extra workload profiling or performance estimation; and, (iii) the search process is fully-automated without requiring any user intervention. We implement AutoAlloc in LightNVM (the Linux subsystem) as part of the FTL, which operates with an emulated Open-Channel SSD. Our extensive experiments using various user-defined optimization metrics and workload execution scenarios indicate that AutoAlloc can find a near-optimal allocation after examining only a very limited number of candidate allocations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2306138859",
+                        "name": "Dongjoon Lee"
+                    },
+                    {
+                        "s2_author_id": "2305897917",
+                        "name": "Jongin Choe"
+                    },
+                    {
+                        "s2_author_id": "123057870",
+                        "name": "Chanyoung Park"
+                    },
+                    {
+                        "s2_author_id": "2114073686",
+                        "name": "Kyungtae Kang"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2505238",
+                        "name": "Wonil Choi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f523ec6d737c67e09c49f6dacb580c444c1b5deb",
+                "title": "Towards SLO-Compliant and Cost-Effective Serverless Computing on Emerging GPU Architectures",
+                "year": 2024,
+                "venue": "International Middleware Conference",
+                "citation_count": 5,
+                "reference_count": 85,
+                "abstract": "Serverless platforms are supporting an increasing variety of applications (apps). Among these, apps such as Machine Learning (ML) inference serving can benefit significantly from leveraging accelerators like GPUs. Yet, major serverless providers, despite having GPU-equipped servers, do not offer GPU support for their serverless functions. While recent works have attempted to bridge this gap, they are agnostic to the capabilities of new-generation GPUs, thereby, overlooking several performance optimization opportunities. To address this, we leverage unique features of newer NVIDIA GPU architectures (specifically, their Multi-Instance GPU (MIG) and Multi-Process Service (MPS) capabilities) to devise a serverless framework, Protean, that can guarantee a higher degree of Service Level Objective (SLO) compliance than that offered by state-of-the-art works. Moreover, Protean also proposes to host its components on a combination of both on-demand (reliable) VMs and heavily discounted VMs to reduce costs to the end consumer, while offering high service availability. We extensively evaluate Protean using 22 ML inference workloads with real-world traces on an 8\u00d7A100 GPU cluster. Our results show that Protean significantly outperforms state-of-the-art works in terms of SLO compliance (up to ~93% more) and tail latency (up to 82% less), while reducing cost by up to 70%. We also maintain reasonable tail latencies (< 200 ms) for best effort requests.",
+                "authors": [
+                    {
+                        "s2_author_id": "2135093161",
+                        "name": "Vivek M. Bhasi"
+                    },
+                    {
+                        "s2_author_id": "2183435594",
+                        "name": "Aakash Sharma"
+                    },
+                    {
+                        "s2_author_id": "2257044866",
+                        "name": "Rishabh Jain"
+                    },
+                    {
+                        "s2_author_id": "47882166",
+                        "name": "Jashwant Raj Gunasekaran"
+                    },
+                    {
+                        "s2_author_id": "40211216",
+                        "name": "Ashutosh Pattnaik"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2238052910",
+                        "name": "Chita R. Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fc7062b2a4eac77cfc0cea946aa52f2e5201d681",
+                "title": "Studying CPU and memory utilization of applications on Fujitsu A64FX and Nvidia Grace Superchip",
+                "year": 2024,
+                "venue": "International Symposium on Memory Systems",
+                "citation_count": 1,
+                "reference_count": 20,
+                "abstract": "ARM-based manycore CPU architectures are well-positioned to provide the rising memory throughput requirements of modern data intensive scientific applications in High Performance Computing (HPC). The Fujitsu A64FX CPU platform is based on the ARM v8.2A architecture, and is the processor of the flagship Japanese supercomputer - \"Fugaku\", which was previously ranked as the #1 supercomputer in the world according to the Top500 list. The Nvidia Grace superchip features 144 Neoverse V2 cores based on the ARMv9 architecture with 4x128b SVE2, providing exceptional computational power. The chip supports up to 480GB of memory, making it ideal for AI, machine learning, and scientific computing workloads. In this paper, we conduct a thorough performance exploration of a variety of parallel bandwidth-sensitive benchmarks and applications compiled with the native Fujitsu compiler on a Fugaku A64FX compute node and ARM (LLVM) Compiler on an NVIDIA Grace superchip compute node, engaging all the computational cores per cluster using OpenMP multithreading (assuming the cores can drive the available bandwidth). Our ultimate goals are to study the resource utilization of scientific applications and benchmarks on A64FX and Grace superchip, considering graph application scenarios (GAP Benchmark suite) and eleven application proxies from the Rodinia heterogeneous benchmark suite (considering domains such as Data Mining, Bioinformatics, Fluid Dynamics, Pattern Recognition, etc.). Through exhaustive performance monitoring, we quantify the resource utilization of diverse OpenMP-based HPC applications on both the Fujitsu A64FX and the Nvidia Grace Superchip platforms.",
+                "authors": [
+                    {
+                        "s2_author_id": "2153820748",
+                        "name": "Yan Kang"
+                    },
+                    {
+                        "s2_author_id": "2278386519",
+                        "name": "Sayan Ghosh"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2278423357",
+                        "name": "Andr\u00e9s M\u00e1rquez"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "11821fc717423b37c31def377c903a55b9654956",
+                "title": "License Forecasting and Scheduling for HPC",
+                "year": 2023,
+                "venue": "IEEE/ACM International Symposium on Modeling, Analysis, and Simulation On Computer and Telecommunication Systems",
+                "citation_count": 0,
+                "reference_count": 28,
+                "abstract": "This work focuses on forecasting future license usage for high-performance computing environments and using such predictions to improve the effectiveness of job scheduling. Specifically, we propose a model that carries out both short-term and long-term license usage forecasting and a method of using forecasts to improve job scheduling. Our long-term forecasting model achieves a Mean Absolute Percentage Error (MAPE) as low as 0.26 for a 12-month forecast of daily peak license usage. Our job scheduling experimental results also indicate that wasted work from jobs with insufficient licenses can be reduced by up to 92% without increasing the average license-using job completion times, during periods of high license usage, with our proposed license-aware scheduler.",
+                "authors": [
+                    {
+                        "s2_author_id": "2319683761",
+                        "name": "A. B. Gulhan"
+                    },
+                    {
+                        "s2_author_id": "2268973489",
+                        "name": "Gulsum Gudukbay Akbulut"
+                    },
+                    {
+                        "s2_author_id": "2279721472",
+                        "name": "Amit Amritkar"
+                    },
+                    {
+                        "s2_author_id": "2257000848",
+                        "name": "Jack Sampson"
+                    },
+                    {
+                        "s2_author_id": "2279724204",
+                        "name": "Vasant Honovar"
+                    },
+                    {
+                        "s2_author_id": "2279724211",
+                        "name": "Adam Focht"
+                    },
+                    {
+                        "s2_author_id": "2279721393",
+                        "name": "Chuck Pavloski"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "18f6c2ac4b4a5b813b0d3ece68c264a24cfa746d",
+                "title": "MBFGraph: An SSD-Based Analytics System for Evolving Graphs",
+                "year": 2023,
+                "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "citation_count": 3,
+                "reference_count": 38,
+                "abstract": "The challenge of executing extensive graph analyses in-memory intensifies with growing graph sizes. This has given rise to disk-based external graph analytics systems that prioritize cost-effective HDDs/SSDs over pricier memory solutions. In response to this issue, our paper introduces and assesses the MBFGraph external graph system. This system leverages millions of Bloom filters within 1KB or 2KB graph data blocks to diminish graph analysis execution delays. Through our innovative MBF-query and MBF-construct algorithms, MBFGraph utilizes these Bloom filters as approximate indices, enabling the reading of only pertinent sections of dynamic graph data, thereby facilitating scalable analytics. Our tests revealed that, on a 475GB graph, MBFGraph cut down the execution durations of BFS and Pagerank by 24% and 60% respectively, using a mere 4GB memory. This is in comparison to a sequential, tailored-for-workload, disk-based external graph analytics system.",
+                "authors": [
+                    {
+                        "s2_author_id": "2262626935",
+                        "name": "Chun-Yi Liu"
+                    },
+                    {
+                        "s2_author_id": "2505238",
+                        "name": "Wonil Choi"
+                    },
+                    {
+                        "s2_author_id": "2156588873",
+                        "name": "Soheil Khadirsharbiyani"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "51551b72ea51d382d63a294b7af2631b339cea41",
+                "title": "Architecture-Aware Currying",
+                "year": 2023,
+                "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+                "citation_count": 1,
+                "reference_count": 72,
+                "abstract": "In near-data computing (NDC), computation is brought into data, as opposed to bringing data to computation. While there is prior work focusing on different NDC opportunities, there is no study, to our knowledge, that investigates the importance of \u201cneighborhood\u201d in NDC. This paper explores the neighborhood concept in multithreaded programs that run on on-chip network-based manycore systems. We define the concept of \u201cneighborhood\u201d, in terms of on-chip network links, and use it to formulate the NDC problem. We propose a \u201cgeneric\u201d compiler algorithm, called \u201carchitecture-aware currying\u201d, that uses the neighborhood concept to implement NDC. So, a core can perform some portions of computation with the nearby data and postpone the remainder of the computation until the remaining data become nearby. It can also perform computations - with nearby data - on behalf of other cores. Our experimental evaluation shows that the proposed compiler algorithm outperforms state-of-the-art data locality optimization strategies.",
+                "authors": [
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2268973489",
+                        "name": "Gulsum Gudukbay Akbulut"
+                    },
+                    {
+                        "s2_author_id": "2505238",
+                        "name": "Wonil Choi"
+                    },
+                    {
+                        "s2_author_id": "3104729",
+                        "name": "Mustafa Karak\u00f6y"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "673509186b02663acc257f11ca0b3396a28ccd5f",
+                "title": "Hardware Support for Constant-Time Programming",
+                "year": 2023,
+                "venue": "Micro",
+                "citation_count": 3,
+                "reference_count": 55,
+                "abstract": "Side-channel attacks are one of the rising security concerns in modern computing platforms. Observing this, researchers have proposed both hardware-based and software-based strategies to mitigate side-channel attacks, targeting not only on-chip caches but also other hardware components like memory controllers and on-chip networks. While hardware-based solutions to side-channel attacks are usually costly to implement as they require modifications to the underlying hardware, software-based solutions are more practical as they can work on unmodified hardware. One of the recent software-based solutions is constant-time programming, which tries to transform an input program to be protected against side-channel attacks such that an operation working on a data element/block to be protected would execute in an amount of time that is independent of the input. Unfortunately, while quite effective from a security angle, constant-time programming can lead to severe performance penalties.Motivated by this observation, in this paper, we explore novel hardware support to make constant-time programming much more efficient than its current implementations. Specifically, we present a new hardware component that can greatly improve the performance of constant-time programs with large memory footprints. The key idea in our approach is to add a small structure into the architecture and two accompanying instructions, which collectively expose the existence/dirtiness information of multiple cache lines to the application program, so that the latter can perform more efficient side-channel mitigation. Our experimental evaluation using three benchmark programs with secret data clearly show the effectiveness of the proposed approach over a state-of-the-art implementation of constant-time programming. Specifically, in the three benchmark programs tested, our approach leads to about 7x reduction in performance overheads over the state-of-the-art approach.CCS CONCEPTS \u2022 Security and privacy \u2192 Hardware security implementation.",
+                "authors": [
+                    {
+                        "s2_author_id": "2266821391",
+                        "name": "Yuanqing Miao"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2258928642",
+                        "name": "Danfeng Zhang"
+                    },
+                    {
+                        "s2_author_id": "2108298348",
+                        "name": "Yingtian Zhang"
+                    },
+                    {
+                        "s2_author_id": "2146720676",
+                        "name": "Gang Tan"
+                    },
+                    {
+                        "s2_author_id": "2258935019",
+                        "name": "Dinghao Wu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8c2254074903d8acea8a18c67dc6aecdb72a7b6c",
+                "title": "Quantifying and Mitigating Cache Side Channel Leakage with Differential Set",
+                "year": 2023,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 4,
+                "reference_count": 63,
+                "abstract": "Cache side-channel attacks leverage secret-dependent footprints in CPU cache to steal confidential information, such as encryption keys. Due to the lack of a proper abstraction for reasoning about cache side channels, existing static program analysis tools that can quantify or mitigate cache side channels are built on very different kinds of abstractions. As a consequence, it is hard to bridge advances in quantification and mitigation research. Moreover, existing abstractions lead to imprecise results. In this paper, we present a novel abstraction, called differential set, for analyzing cache side channels at compile time. A distinguishing feature of differential sets is that it allows compositional and precise reasoning about cache side channels. Moreover, it is the first abstraction that carries sufficient information for both side channel quantification and mitigation. Based on this new abstraction, we develop a static analysis tool DSA that automatically quantifies and mitigates cache side channel leakage at the same time. Experimental evaluation on a set of commonly used benchmarks shows that DSA can produce more precise leakage bound as well as mitigated code with fewer memory footprints, when compared with state-of-the-art tools that only quantify or mitigate cache side channel leakage.",
+                "authors": [
+                    {
+                        "s2_author_id": "2258800670",
+                        "name": "Cong Ma"
+                    },
+                    {
+                        "s2_author_id": "2258935019",
+                        "name": "Dinghao Wu"
+                    },
+                    {
+                        "s2_author_id": "2146720676",
+                        "name": "Gang Tan"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2258928642",
+                        "name": "Danfeng Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "99d0a09ce9995cd045dd58379f07478954f4325b",
+                "title": "Quantization for Bayesian Deep Learning: Low-Precision Characterization and Robustness",
+                "year": 2023,
+                "venue": "IEEE International Symposium on Workload Characterization",
+                "citation_count": 7,
+                "reference_count": 44,
+                "abstract": "Bayesian Deep Learning is an emerging field for building robust and trustworthy AI systems due to its ability to estimate reliable uncertainty in neural networks. The need for modeling distribution over parameters and multiple Monte Carlo forward runs in Bayesian neural networks leads to larger model size and significant increase in inference latency compared to deterministic models, which poses challenges for practical deployment. Quantization is a technique that can reduce the model size and also speed up the inference through low-precision computation. In this work, we propose and evaluate a quantization framework and workflow for Bayesian deep learning workloads, which leverages 8-bit integer (INT8) operations to accelerate inference on the 4th Gen Intel Xeon scalable processor (formerly codenamed Sapphire Rapids). We demonstrate that our quantization workflow achieves 6.9x inference throughput speedup on the ImageNet benchmark without sacrificing the model accuracy and quality of uncertainty. Furthermore, we evaluate the effects of quantization on Bayesian neural networks w.r.t. generalizability, robustness against data drift, and its capability in uncertainty estimation on large-scale datasets including a real-world safety-critical application. Our code has been integrated into an open-source project and made available on GitHub at the following URL: https://github.com/IntelLabs/bayesian-torch.",
+                "authors": [
+                    {
+                        "s2_author_id": "2262012835",
+                        "name": "Jun-Liang Lin"
+                    },
+                    {
+                        "s2_author_id": "13026224",
+                        "name": "Ranganath Krishnan"
+                    },
+                    {
+                        "s2_author_id": "2173820",
+                        "name": "Keyur R. Ranipa"
+                    },
+                    {
+                        "s2_author_id": "2536658",
+                        "name": "Mahesh Subedar"
+                    },
+                    {
+                        "s2_author_id": "2164897283",
+                        "name": "Vrushabh H. Sanghavi"
+                    },
+                    {
+                        "s2_author_id": "2261957558",
+                        "name": "Meena Arunachalam"
+                    },
+                    {
+                        "s2_author_id": "1798616",
+                        "name": "Omesh Tickoo"
+                    },
+                    {
+                        "s2_author_id": "2363976701",
+                        "name": "R. Iyer"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fdb1449ba6935a5c0a47c63e3d70aa13ba5c87ab",
+                "title": "Data Recomputation for Multithreaded Applications",
+                "year": 2023,
+                "venue": "2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)",
+                "citation_count": 0,
+                "reference_count": 32,
+                "abstract": "Increasing dataset sizes put tremendous pressure on cache hierarchies of multicore and manycore systems, which requires going beyond the current hardware and compiler-based data locality optimization techniques. Data recomputation, which aims to eliminate costly data accesses by replacing each such access with multiple, less costly data accesses plus some computation, is one such technique. However, existing data recomputation techniques are single-thread centric and they do not take advantage of the recomputation opportunities that exist across threads. We propose a novel compiler-guided data recomputation approach that works across threads. Our fully-automated approach has two major components. The first component catches the data recomputation opportunities enabled by a multithreaded execution and takes advantage of them. The second component implements a novel compiler-guided cache replacement strategy that is \u201crecomputation-aware\u201d. The unique aspect of our strategy is that it makes its block/line replacement decisions in the cache based on not only recency information (as in the case of LRU) but also future data recomputation opportunities. Our proposed compiler algorithm improves application performance by an average of 13.25% over the conventional optimizations that do not use data recomputation and 7.68% over a single-thread centric data recomputation scheme. The corresponding improvements when also employing recomputation-conscious caching are 19.12% and 11.63%, respectively.",
+                "authors": [
+                    {
+                        "s2_author_id": "2268973489",
+                        "name": "Gulsum Gudukbay Akbulut"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "3104729",
+                        "name": "Mustafa Karak\u00f6y"
+                    },
+                    {
+                        "s2_author_id": "2505238",
+                        "name": "Wonil Choi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0f327aac6d61052ae70db2883e72d1bf9ee6f3d1",
+                "title": "Memory Space Recycling",
+                "year": 2022,
+                "venue": "Abstract Proceedings of the 2022 ACM SIGMETRICS/IFIP PERFORMANCE Joint International Conference on Measurement and Modeling of Computer Systems",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": "Many program codes from different application domains process very large amounts of data, making their data locality/cache memory behavior critical for high performance. Prior work has addressed the data locality optimization problem in the context of both single-core and multi-core systems. Another dimension of optimization, which can be as equally important/beneficial as improving data access pattern is to reduce the data volume (total number of addresses) accessed by the program code. In this work, we explore the idea of rewriting an application program code to reduce its memory space footprint. The main idea behind this approach is to reuse/recycle, for a given data element, a memory location that has originally been assigned to another data element, provided that the lifetimes of these two data elements do not overlap with each other. We present a detailed experimental evaluation of our proposed memory space recycling strategy. The experimental results show that our proposed approach brings, respectively, 33.2%, 48.6%, 46.5%, 31.8%, and 27.9% average improvements in these metrics, in the case of single-threaded applications. With the multi-threaded versions of the same applications, the achieved improvements are 39.5%, 55.5%, 53.4%, 26.2%, and 22.2%, in the same order.",
+                "authors": [
+                    {
+                        "s2_author_id": "2242960",
+                        "name": "Jihyun Ryoo"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "14117458",
+                        "name": "M. Karakoy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "642c915c6ed349d6722800046960a2a44fbc3e30",
+                "title": "Centaur: A Novel Architecture for Reliable, Low-Wear, High-Density 3D NAND Storage",
+                "year": 2020,
+                "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49046870",
+                        "name": "Chun-Yi Liu"
+                    },
+                    {
+                        "s2_author_id": "2823042",
+                        "name": "Jagadish B. Kotra"
+                    },
+                    {
+                        "s2_author_id": "2280341194",
+                        "name": "Myoungsoo Jung"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "69a993553ddb64b8f287fd77659b72b2d3d1d1f4",
+                "title": "DSM: A Case for Hardware-Assisted Merging of DRAM Rows with Same Content",
+                "year": 2020,
+                "venue": "Abstracts of the 2020 SIGMETRICS/Performance Joint International Conference on Measurement and Modeling of Computer Systems",
+                "citation_count": 1,
+                "reference_count": 85,
+                "abstract": "The number of cores and the capacities of main memory in modern systems have been growing significantly. Specifically, memory scaling, although at a slower pace than computation scaling, provided opportunities for very large DRAMs with Terabytes (TBs) capacity. Consequently, addressing the performance and energy consumption bottlenecks of DRAMs is more important than ever. DRAM memory refresh operation is one of the main contributing factors to the memory overheads, especially for large capacity DRAMs used in modern servers and emerging large-scale data centers. This paper addresses the memory refresh problem by leveraging the fact that most cloud servers host virtualized systems that use similar kernels, libraries, etc. We propose and experimentally evaluate a novel approach that exploits this observation to address the DRAM refresh overhead in such systems. More specifically, in this work, we present DSM, a light-weight hardware extension in memory controller to detect the pages with same content in memory and refresh only one of them and redirect the requests to the others to this page. Our detailed experimental analysis shows that the proposed DSM design can reduce 99th percentile memory access latency by up to 2.01x, and it also reduces the overall memory energy consumption by up to 8.5%.",
+                "authors": [
+                    {
+                        "s2_author_id": "2341269631",
+                        "name": "Seyed Armin Vakil Ghahani"
+                    },
+                    {
+                        "s2_author_id": "2258702068",
+                        "name": "M. Kandemir"
+                    },
+                    {
+                        "s2_author_id": "2823042",
+                        "name": "Jagadish B. Kotra"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2308359964",
+                "name": "Seungkwan Kang"
+            },
+            {
+                "s2_author_id": "2187553113",
+                "name": "Seungjun Lee"
+            },
+            {
+                "s2_author_id": "51204802",
+                "name": "Donghyun Gouk"
+            },
+            {
+                "s2_author_id": "7198431",
+                "name": "Miryeong Kwon"
+            },
+            {
+                "s2_author_id": "2179112044",
+                "name": "Hyunkyu Choi"
+            },
+            {
+                "s2_author_id": "2109734661",
+                "name": "Junhyeok Jang"
+            },
+            {
+                "s2_author_id": "2144503568",
+                "name": "Sangwon Lee"
+            },
+            {
+                "s2_author_id": "2383514393",
+                "name": "Huiwon Choi"
+            },
+            {
+                "s2_author_id": "2155862342",
+                "name": "Jie Zhang"
+            },
+            {
+                "s2_author_id": "2402472734",
+                "name": "Wonil Choi"
+            },
+            {
+                "s2_author_id": "2280341194",
+                "name": "Myoungsoo Jung"
+            },
+            {
+                "s2_author_id": "123057870",
+                "name": "Chanyoung Park"
+            },
+            {
+                "s2_author_id": "2344402894",
+                "name": "Jungho Lee"
+            },
+            {
+                "s2_author_id": "2262626935",
+                "name": "Chun-Yi Liu"
+            },
+            {
+                "s2_author_id": "2114073686",
+                "name": "Kyungtae Kang"
+            },
+            {
+                "s2_author_id": "2505238",
+                "name": "Wonil Choi"
+            },
+            {
+                "s2_author_id": "2108298348",
+                "name": "Yingtian Zhang"
+            },
+            {
+                "s2_author_id": "2153820748",
+                "name": "Yan Kang"
+            },
+            {
+                "s2_author_id": "2068261860",
+                "name": "Ziyu Ying"
+            },
+            {
+                "s2_author_id": "2352526610",
+                "name": "Wanhang Lu"
+            },
+            {
+                "s2_author_id": "2352554506",
+                "name": "Sijie Lan"
+            },
+            {
+                "s2_author_id": "2352493802",
+                "name": "Huijuan Xu"
+            },
+            {
+                "s2_author_id": "10995410",
+                "name": "Kiwan Maeng"
+            },
+            {
+                "s2_author_id": "1743609",
+                "name": "A. Sivasubramaniam"
+            },
+            {
+                "s2_author_id": "2238052910",
+                "name": "Chita R. Das"
+            },
+            {
+                "s2_author_id": "2363496807",
+                "name": "Eunjee Na"
+            },
+            {
+                "s2_author_id": "2363505214",
+                "name": "Jiseon Kim"
+            },
+            {
+                "s2_author_id": "2366146948",
+                "name": "Junhee Kim"
+            },
+            {
+                "s2_author_id": "2364524870",
+                "name": "Hyein Woo"
+            },
+            {
+                "s2_author_id": "2308280272",
+                "name": "Eojin Ryu"
+            },
+            {
+                "s2_author_id": "2364479173",
+                "name": "Jinwoo Baek"
+            },
+            {
+                "s2_author_id": "2146977561",
+                "name": "Hanyeoreum Bae"
+            },
+            {
+                "s2_author_id": "2262012835",
+                "name": "Jun-Liang Lin"
+            },
+            {
+                "s2_author_id": "2421239",
+                "name": "Kamesh Madduri"
+            },
+            {
+                "s2_author_id": "2169652204",
+                "name": "Pingyi Huo"
+            },
+            {
+                "s2_author_id": "2335209060",
+                "name": "Anusha Devulapally"
+            },
+            {
+                "s2_author_id": "2386650561",
+                "name": "Hasan Al Maruf"
+            },
+            {
+                "s2_author_id": "2916636",
+                "name": "Nandhini Chandramoorthy"
+            },
+            {
+                "s2_author_id": "2261957558",
+                "name": "Meena Arunachalam"
+            },
+            {
+                "s2_author_id": "2268973489",
+                "name": "Gulsum Gudukbay Akbulut"
+            },
+            {
+                "s2_author_id": "2238987052",
+                "name": "V. Narayanan"
+            },
+            {
+                "s2_author_id": "2257044866",
+                "name": "Rishabh Jain"
+            },
+            {
+                "s2_author_id": "4470296",
+                "name": "Teyuh Chou"
+            },
+            {
+                "s2_author_id": "2163220",
+                "name": "Onur Kayiran"
+            },
+            {
+                "s2_author_id": "2314973624",
+                "name": "John Kalamatianos"
+            },
+            {
+                "s2_author_id": "2314389117",
+                "name": "Gabriel H. Loh"
+            },
+            {
+                "s2_author_id": "2187312519",
+                "name": "Anusha Devulapally"
+            },
+            {
+                "s2_author_id": "2221258",
+                "name": "H. Maruf"
+            },
+            {
+                "s2_author_id": "1733274",
+                "name": "N. Vijaykrishnan"
+            },
+            {
+                "s2_author_id": "2156588873",
+                "name": "Soheil Khadirsharbiyani"
+            },
+            {
+                "s2_author_id": "3031046",
+                "name": "Nima Elyasi"
+            },
+            {
+                "s2_author_id": "27521613",
+                "name": "Armin Haj Aboutalebi"
+            },
+            {
+                "s2_author_id": "2263859382",
+                "name": "Changho Choi"
+            },
+            {
+                "s2_author_id": "2220695947",
+                "name": "Scott Cheng"
+            },
+            {
+                "s2_author_id": "2157261",
+                "name": "M. Emani"
+            },
+            {
+                "s2_author_id": "151462530",
+                "name": "Siddhisanket Raskar"
+            },
+            {
+                "s2_author_id": "2256988999",
+                "name": "Sam Foreman"
+            },
+            {
+                "s2_author_id": "2257449427",
+                "name": "Zhen Xie"
+            },
+            {
+                "s2_author_id": "2267938602",
+                "name": "Venkat Vishwanath"
+            },
+            {
+                "s2_author_id": "7027993",
+                "name": "S. Mohanty"
+            },
+            {
+                "s2_author_id": "2135093161",
+                "name": "Vivek M. Bhasi"
+            },
+            {
+                "s2_author_id": "25132893",
+                "name": "Myungjun Son"
+            },
+            {
+                "s2_author_id": "2257895111",
+                "name": "Minseo Park"
+            },
+            {
+                "s2_author_id": "2314985667",
+                "name": "Krishnakumar Nair"
+            },
+            {
+                "s2_author_id": "2199118004",
+                "name": "Movahhed Sadeghi"
+            },
+            {
+                "s2_author_id": "2305856309",
+                "name": "Mostafa Eghbali Zarch"
+            },
+            {
+                "s2_author_id": "2266821391",
+                "name": "Yuanqing Miao"
+            },
+            {
+                "s2_author_id": "2258935019",
+                "name": "Dinghao Wu"
+            },
+            {
+                "s2_author_id": "2258928642",
+                "name": "Danfeng Zhang"
+            },
+            {
+                "s2_author_id": "2333656251",
+                "name": "Gang Tan"
+            },
+            {
+                "s2_author_id": "2333627578",
+                "name": "Rui Zhang"
+            },
+            {
+                "s2_author_id": "2278386519",
+                "name": "Sayan Ghosh"
+            },
+            {
+                "s2_author_id": "2278423357",
+                "name": "Andr\u00e9s M\u00e1rquez"
+            },
+            {
+                "s2_author_id": "2306138859",
+                "name": "Dongjoon Lee"
+            },
+            {
+                "s2_author_id": "2305897917",
+                "name": "Jongin Choe"
+            },
+            {
+                "s2_author_id": "2183435594",
+                "name": "Aakash Sharma"
+            },
+            {
+                "s2_author_id": "47882166",
+                "name": "Jashwant Raj Gunasekaran"
+            },
+            {
+                "s2_author_id": "40211216",
+                "name": "Ashutosh Pattnaik"
+            },
+            {
+                "s2_author_id": "2319683761",
+                "name": "A. B. Gulhan"
+            },
+            {
+                "s2_author_id": "2279721472",
+                "name": "Amit Amritkar"
+            },
+            {
+                "s2_author_id": "2257000848",
+                "name": "Jack Sampson"
+            },
+            {
+                "s2_author_id": "2279724204",
+                "name": "Vasant Honovar"
+            },
+            {
+                "s2_author_id": "2279724211",
+                "name": "Adam Focht"
+            },
+            {
+                "s2_author_id": "2279721393",
+                "name": "Chuck Pavloski"
+            },
+            {
+                "s2_author_id": "3104729",
+                "name": "Mustafa Karak\u00f6y"
+            },
+            {
+                "s2_author_id": "2146720676",
+                "name": "Gang Tan"
+            },
+            {
+                "s2_author_id": "2258800670",
+                "name": "Cong Ma"
+            },
+            {
+                "s2_author_id": "13026224",
+                "name": "Ranganath Krishnan"
+            },
+            {
+                "s2_author_id": "2173820",
+                "name": "Keyur R. Ranipa"
+            },
+            {
+                "s2_author_id": "2536658",
+                "name": "Mahesh Subedar"
+            },
+            {
+                "s2_author_id": "2164897283",
+                "name": "Vrushabh H. Sanghavi"
+            },
+            {
+                "s2_author_id": "1798616",
+                "name": "Omesh Tickoo"
+            },
+            {
+                "s2_author_id": "2363976701",
+                "name": "R. Iyer"
+            },
+            {
+                "s2_author_id": "2242960",
+                "name": "Jihyun Ryoo"
+            },
+            {
+                "s2_author_id": "14117458",
+                "name": "M. Karakoy"
+            },
+            {
+                "s2_author_id": "49046870",
+                "name": "Chun-Yi Liu"
+            },
+            {
+                "s2_author_id": "2823042",
+                "name": "Jagadish B. Kotra"
+            },
+            {
+                "s2_author_id": "2341269631",
+                "name": "Seyed Armin Vakil Ghahani"
+            }
+        ],
+        "total_co_authors": 98,
+        "papers_retrieved": 30
+    }
+}

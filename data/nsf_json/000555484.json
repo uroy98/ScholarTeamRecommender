@@ -1,0 +1,3586 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000555484",
+        "name": "Christopher J Rossbach",
+        "primary_affiliation": "University of Texas at Austin",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Texas at Austin"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "TX"
+        ],
+        "perf_cities": [
+            "AUSTIN"
+        ],
+        "org_names": [
+            "University of Texas at Austin"
+        ],
+        "org_ueis": [
+            "V6AFQPN18437"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "rossbach@cs.utexas.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2505085",
+                "title": "SHF: Medium: Panther: New Highly Parallel Hardware and Software System for Graph-based Data Analytics to Improve Artificial Intelligence Reliability and Efficiency",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-15",
+                "exp_date": "2027-06-30",
+                "award_amount": 724000.0,
+                "total_amount": 724000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000082396",
+                    "000101776"
+                ],
+                "program_elements": [
+                    "Software & Hardware Foundation"
+                ],
+                "program_codes": [
+                    "779800"
+                ],
+                "program_references": [
+                    "COMPUTER ARCHITECTURE",
+                    "MEDIUM PROJECT"
+                ],
+                "program_ref_codes": [
+                    "7941",
+                    "7924"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Almadena Chtchelkanova",
+                "keywords": [
+                    "graph",
+                    "software",
+                    "graphs",
+                    "computations",
+                    "modern",
+                    "answers",
+                    "panther",
+                    "reliability",
+                    "techniques",
+                    "large"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000082396",
+            "000101776"
+        ],
+        "program_elements": [
+            "Software & Hardware Foundation"
+        ],
+        "program_codes": [
+            "779800"
+        ],
+        "program_references": [
+            "COMPUTER ARCHITECTURE",
+            "MEDIUM PROJECT"
+        ],
+        "program_ref_codes": [
+            "7941",
+            "7924"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Almadena Chtchelkanova"
+        ],
+        "keywords": [
+            "graph",
+            "software",
+            "graphs",
+            "computations",
+            "modern",
+            "answers",
+            "panther",
+            "reliability",
+            "techniques",
+            "large",
+            "computer",
+            "distributed",
+            "medium",
+            "highly",
+            "parallel",
+            "hardware",
+            "improve",
+            "artificial",
+            "intelligence",
+            "efficiency"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.59
+    },
+    "s2_profile": {
+        "s2_author_id": "1692790",
+        "name": "Christopher J Rossbach",
+        "affiliations": [],
+        "paper_count": 84,
+        "citation_count": 3133,
+        "h_index": 24,
+        "papers": [
+            {
+                "s2_paper_id": "9eb541fd4d8873ab5178da2dd63369d975bf2b41",
+                "title": "VLCs: Managing Parallelism with Virtualized Libraries",
+                "year": 2025,
+                "venue": "ACM Symposium on Cloud Computing",
+                "citation_count": 0,
+                "reference_count": 66,
+                "abstract": "As the complexity and scale of modern parallel machines continue to grow, programmers increasingly rely on composition of software libraries to encapsulate and exploit parallelism. However, many libraries are not designed with composition in mind and assume they have exclusive access to all resources. Using such libraries concurrently can result in contention and degraded performance. Prior solutions involve modifying the libraries or the OS, which is often infeasible. We propose Virtual Library Contexts (VLCs), which are process subunits that encapsulate sets of libraries and associated resource allocations. VLCs control the resource utilization of these libraries without modifying library code. This enables the user to partition resources between libraries to prevent contention, or load multiple copies of the same library to allow parallel execution of otherwise thread-unsafe code within the same process. In this paper, we describe and evaluate C++ and Python prototypes of VLCs. Experiments show VLCs enable a speedup of up to 2.85\u00d7 on benchmarks including applications using OpenMP, OpenBLAS, and LibTorch.",
+                "authors": [
+                    {
+                        "s2_author_id": "2188821219",
+                        "name": "Yineng Yan"
+                    },
+                    {
+                        "s2_author_id": "1935416596",
+                        "name": "William Ruys"
+                    },
+                    {
+                        "s2_author_id": "2297999897",
+                        "name": "Hochan Lee"
+                    },
+                    {
+                        "s2_author_id": "2391239235",
+                        "name": "Ian Henriksen"
+                    },
+                    {
+                        "s2_author_id": "37909495",
+                        "name": "A. Peters"
+                    },
+                    {
+                        "s2_author_id": "2188804311",
+                        "name": "Sean Stephens"
+                    },
+                    {
+                        "s2_author_id": "12957494",
+                        "name": "Bozhi You"
+                    },
+                    {
+                        "s2_author_id": "3215063",
+                        "name": "Henrique Fingler"
+                    },
+                    {
+                        "s2_author_id": "2273774126",
+                        "name": "Martin Burtscher"
+                    },
+                    {
+                        "s2_author_id": "2282532814",
+                        "name": "Milos Gligoric"
+                    },
+                    {
+                        "s2_author_id": "1776186",
+                        "name": "K. Pingali"
+                    },
+                    {
+                        "s2_author_id": "143676711",
+                        "name": "M. Erez"
+                    },
+                    {
+                        "s2_author_id": "2395747",
+                        "name": "G. Biros"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b221366b832ed56eb2e42c476b718368b5fb58ce",
+                "title": "In-Memory Object Graph Stores",
+                "year": 2025,
+                "venue": "European Conference on Object-Oriented Programming",
+                "citation_count": 0,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2296649251",
+                        "name": "Aditya Thimmaiah"
+                    },
+                    {
+                        "s2_author_id": "2344804562",
+                        "name": "Zijian Yi"
+                    },
+                    {
+                        "s2_author_id": "2368546685",
+                        "name": "Joseph Kenis"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "2282532814",
+                        "name": "Milos Gligoric"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f04341270faca62961282426a93f8985cbf81645",
+                "title": "Performance Characterization of Python Runtimes for Multi-device Task Parallel Programming",
+                "year": 2025,
+                "venue": "International journal of parallel programming",
+                "citation_count": 2,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1935416596",
+                        "name": "William Ruys"
+                    },
+                    {
+                        "s2_author_id": "2297999897",
+                        "name": "Hochan Lee"
+                    },
+                    {
+                        "s2_author_id": "12957494",
+                        "name": "Bozhi You"
+                    },
+                    {
+                        "s2_author_id": "2313115015",
+                        "name": "Shreya Talati"
+                    },
+                    {
+                        "s2_author_id": "2313142693",
+                        "name": "Jaeyoung Park"
+                    },
+                    {
+                        "s2_author_id": "2189742715",
+                        "name": "James Almgren-Bell"
+                    },
+                    {
+                        "s2_author_id": "2188821219",
+                        "name": "Yineng Yan"
+                    },
+                    {
+                        "s2_author_id": "2313117802",
+                        "name": "Milinda Fernando"
+                    },
+                    {
+                        "s2_author_id": "143676711",
+                        "name": "M. Erez"
+                    },
+                    {
+                        "s2_author_id": "2282532814",
+                        "name": "Milos Gligoric"
+                    },
+                    {
+                        "s2_author_id": "2273774126",
+                        "name": "Martin Burtscher"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1776186",
+                        "name": "K. Pingali"
+                    },
+                    {
+                        "s2_author_id": "2395747",
+                        "name": "G. Biros"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "56e1b5dce8c1d52da0e1c35d5f9f379d5729d92d",
+                "title": "A Deep Dive into Task-Based Parallelism in Python",
+                "year": 2024,
+                "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+                "citation_count": 2,
+                "reference_count": 20,
+                "abstract": "Modern Python programs in high-performance computing call into compiled libraries and kernels for performance-critical tasks. However, effectively parallelizing these finer-grained, and often dynamic, kernels across modern heterogeneous platforms remains a challenge. First, we perform an experimental study to examine the impact of Python's Global Interpreter Lock (GIL), and potential speedups under a GIL-less PEP703 future, to guide runtime design. Using our optimized runtime, we explore scheduling tasks with constraints that require resources across multiple, potentially diverse, devices through the introduction of new programming abstractions and runtime mechanisms. We extend an existing Python tasking library, Parla, to augment its performance and add support for such multi-device tasks. Our experimental analysis, using tasks graphs from synthetic and real applications, shows at least a 3 \u00d7(and up to 6 \u00d7) performance improvement over its predecessor in scenarios with high GIL contention. When scheduling multi-GPU tasks, we observe an 8x reduction in per-task launching overhead compared to a multi-process system.",
+                "authors": [
+                    {
+                        "s2_author_id": "1935416596",
+                        "name": "William Ruys"
+                    },
+                    {
+                        "s2_author_id": "2297999897",
+                        "name": "Hochan Lee"
+                    },
+                    {
+                        "s2_author_id": "12957494",
+                        "name": "Bozhi You"
+                    },
+                    {
+                        "s2_author_id": "2313115015",
+                        "name": "Shreya Talati"
+                    },
+                    {
+                        "s2_author_id": "2313142693",
+                        "name": "Jaeyoung Park"
+                    },
+                    {
+                        "s2_author_id": "2189742715",
+                        "name": "James Almgren-Bell"
+                    },
+                    {
+                        "s2_author_id": "2188821219",
+                        "name": "Yineng Yan"
+                    },
+                    {
+                        "s2_author_id": "2313117802",
+                        "name": "Milinda Fernando"
+                    },
+                    {
+                        "s2_author_id": "2395747",
+                        "name": "G. Biros"
+                    },
+                    {
+                        "s2_author_id": "143676711",
+                        "name": "M. Erez"
+                    },
+                    {
+                        "s2_author_id": "2273774126",
+                        "name": "Martin Burtscher"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1776186",
+                        "name": "K. Pingali"
+                    },
+                    {
+                        "s2_author_id": "2282532814",
+                        "name": "Milos Gligoric"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b72b3ee8ac1820c7ca1518b1ab3c4ca4b9b891ed",
+                "title": "Object Graph Programming",
+                "year": 2024,
+                "venue": "International Conference on Software Engineering",
+                "citation_count": 3,
+                "reference_count": 116,
+                "abstract": "We introduce Object Graph Programming (OGO), which enables reading and modifying an object graph (i.e., the entire state of the object heap) via declarative queries. OGO models the objects and their relations in the heap as an object graph thereby treating the heap as a graph database: each node in the graph is an object (e.g., an instance of a class or an instance of a metadata class) and each edge is a relation between objects (e.g., a field of one object references another object). We leverage Cypher, the most popular query language for graph databases, as OGO's query language. Unlike LINQ, which uses collections (e.g., List) as a source of data, OGO views the entire object graph as a single \u201ccollection\u201d. OGO is ideal for querying collections (just like LINQ), introspecting the runtime system state (e.g., finding all instances of a given class or accessing fields via reflection), and writing assertions that have access to the entire program state. We prototyped OGO for Java in two ways: (a) by translating an object graph into a Neo4j database on which we run Cypher queries, and (b) by implementing our own in-memory graph query engine that directly queries the object heap. We used OGO to rewrite hundreds of statements in large open-source projects into OGO queries. We report our experience and performance of our prototypes.",
+                "authors": [
+                    {
+                        "s2_author_id": "2296649251",
+                        "name": "Aditya Thimmaiah"
+                    },
+                    {
+                        "s2_author_id": "2265494657",
+                        "name": "Leonidas Lampropoulos"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "2282532814",
+                        "name": "Milos Gligoric"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bb5bdf888c9404f516a90c7c5d80e350a1e57e57",
+                "title": "Compiler-Driven FPGA Virtualization with SYNERGY",
+                "year": 2024,
+                "venue": "Communications of the ACM",
+                "citation_count": 1,
+                "reference_count": 24,
+                "abstract": "FPGAs are increasingly common in modern applications, and cloud providers now support on-demand FPGA acceleration in datacenters. Applications in datacenters run on virtual infrastructure, where consolidation, multi-tenancy, and workload migration enable economies of scale that are fundamental to the provider's business. However, a general strategy for virtualizing FPGAs has yet to emerge. While manufacturers struggle with hardware-based approaches, we propose a compiler/runtime-based solution called Synergy. We show a compiler transformation for Verilog programs that produces code able to yield control to software at sub-clock-tick granularity according to the semantics of the original program. Synergy uses this property to efficiently support core virtualization primitives: suspend and resume, program migration, and spatial/temporal multiplexing, on hardware which is available today. We use Synergy to virtualize FPGA workloads across a cluster of Intel SoCs and Xilinx FPGAs on Amazon F1. The workloads require no modification, run within 3--4x of unvirtualized performance, and incur a modest increase in FPGA fabric usage.",
+                "authors": [
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "2122814775",
+                        "name": "Tiffany Yang"
+                    },
+                    {
+                        "s2_author_id": "2306148636",
+                        "name": "Will Lin"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1945094",
+                        "name": "Eric Schkufza"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04bfddeb4d734c9eed62b99651b66b73016bce4e",
+                "title": "Disaggregated GPU Acceleration for Serverless Applications",
+                "year": 2023,
+                "venue": "ACM SIGOPS Operating Systems Review",
+                "citation_count": 3,
+                "reference_count": 63,
+                "abstract": "Serverless platforms have been attracting applications from traditional platforms because infrastructure management responsibilities are shifted from users to providers. Many applications well-suited to serverless environments could leverage GPU acceleration to enhance their performance. Unfortunately, current serverless platforms do not expose GPUs to serverless applications.",
+                "authors": [
+                    {
+                        "s2_author_id": "3215063",
+                        "name": "Henrique Fingler"
+                    },
+                    {
+                        "s2_author_id": "1644897206",
+                        "name": "Zhiting Zhu"
+                    },
+                    {
+                        "s2_author_id": "2176544712",
+                        "name": "Esther Yoon"
+                    },
+                    {
+                        "s2_author_id": "2072783421",
+                        "name": "Zhipeng Jia"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9f3bc4e8814d81fa278ad9baa5c3e529e079067c",
+                "title": "Towards a Machine Learning-Assisted Kernel with LAKE",
+                "year": 2023,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 21,
+                "reference_count": 90,
+                "abstract": "The complexity of modern operating systems (OSes), rapid diversification of hardware, and steady evolution of machine learning (ML) motivate us to explore the potential of ML to improve decision-making in OS kernels. We conjecture that ML can better manage tradeoff spaces for subsystems such as memory management and process and I/O scheduling that currently rely on hand-tuned heuristics to provide reasonable average-case performance. We explore the replacement of heuristics with ML-driven decision-making in five kernel subsystems, consider the implications for kernel design, shared OS-level components, and access to hardware acceleration. We identify obstacles, address challenges and characterize tradeoffs for the benefits ML can provide that arise in kernel-space. We find that use of specialized hardware such as GPUs is critical to absorbing the additional computational load required by ML decisioning, but that poor accessibility of accelerators in kernel space is a barrier to adoption. We also find that the benefits of ML and acceleration for OSes is subsystem-, workload- and hardware-dependent, suggesting that using ML in kernels will require frameworks to help kernel developers navigate new tradeoff spaces. We address these challenge by building a system called LAKE for supporting ML and exposing accelerators in kernel space. LAKE includes APIs for feature collection and management across abstraction layers and module boundaries. LAKE provides mechanisms for managing the variable profitability of acceleration, and interfaces for mitigating contention for resources between user and kernel space. We show that an ML-backed I/O latency predictor can have its inference time reduced by up to 96% with acceleration.",
+                "authors": [
+                    {
+                        "s2_author_id": "3215063",
+                        "name": "Henrique Fingler"
+                    },
+                    {
+                        "s2_author_id": "31871632",
+                        "name": "Isha Tarte"
+                    },
+                    {
+                        "s2_author_id": "7279070",
+                        "name": "Hangchen Yu"
+                    },
+                    {
+                        "s2_author_id": "1644635852",
+                        "name": "Ariel Szekely"
+                    },
+                    {
+                        "s2_author_id": "146267713",
+                        "name": "Bodun Hu"
+                    },
+                    {
+                        "s2_author_id": "152426179",
+                        "name": "Aditya Akella"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d2043425ad66e02c91b028f0bdef09a4f9d4a2d3",
+                "title": "Reconfigurable Virtual Memory for FPGA-Driven I/O",
+                "year": 2023,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 12,
+                "reference_count": 127,
+                "abstract": "FPGAs are increasingly used to accelerate modern applications, and cloud providers offer FPGA platforms on-demand with a variety of FPGAs, I/O peripherals, and memory options. FPGA vendors expose I/O with low-level interfaces that limit application portability. Current approaches to abstracting these interfaces trade level of abstraction against performance. We present FSRF, File System for Reconfigurable Fabrics, which abstracts FPGA I/O at a high level without sacrificing performance. Rather than exposing platform-specific I/O interfaces, FSRF enables files to be mapped directly into FPGA virtual memory from the host. On the FPGA, powerful OS-managed virtual memory hardware provides performant access to FPGA-local resources and helps coordinate access to remote data. FSRF leverages reconfigurability to specialize its virtual memory implementation to applications, including selecting between SRAM and DRAM TLBs, adapting FPGA DRAM striping, and tuning DMA I/O. On Amazon F1 FPGAs, FSRF outperforms techniques from FPGA OSes such as Coyote and AmorphOS with improvements of up to 64\u00d7 and 2.3\u00d7, respectively (+75% and +27% geometric mean), and performance close to that of physical addressing (90% geometric mean).",
+                "authors": [
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "2211979483",
+                        "name": "Matthew Giordano"
+                    },
+                    {
+                        "s2_author_id": "2176544712",
+                        "name": "Esther Yoon"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d8574e22e21d6eaf32f8f1414111f060dc4c28c",
+                "title": "Parla: A Python Orchestration System for Heterogeneous Architectures",
+                "year": 2022,
+                "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "citation_count": 9,
+                "reference_count": 33,
+                "abstract": "Python's ease of use and rich collection of numeric libraries make it an excellent choice for rapidly developing scientific applications. However, composing these libraries to take advantage of complex heterogeneous nodes is still difficult. To simplify writing multi-device code, we created Parla, a heterogeneous task-based programming framework that fully supports Python's scientific programming stack. Parla's API is based on Python decorators and allows users to wrap code in Parla tasks for parallel execution. Parla arrays enable automatic movement of data between devices. The Parla runtime handles resource-aware mapping, scheduling, and execution of tasks. Compared to other Python tasking systems, Parla is unique in its parallelization of tasks within a single process, its GPU context and resource-aware runtime, and its design around gradual adoption to provide easy migration of and integration into existing Python applications. We show that Parla can achieve performance competitive with hand-optimized code while improving ease of development.",
+                "authors": [
+                    {
+                        "s2_author_id": "2118367060",
+                        "name": "Hochan Lee"
+                    },
+                    {
+                        "s2_author_id": "1935416596",
+                        "name": "William Ruys"
+                    },
+                    {
+                        "s2_author_id": "35265702",
+                        "name": "Ian Henriksen"
+                    },
+                    {
+                        "s2_author_id": "37909495",
+                        "name": "A. Peters"
+                    },
+                    {
+                        "s2_author_id": "2188821219",
+                        "name": "Yineng Yan"
+                    },
+                    {
+                        "s2_author_id": "2188804311",
+                        "name": "Sean Stephens"
+                    },
+                    {
+                        "s2_author_id": "12957494",
+                        "name": "Bozhi You"
+                    },
+                    {
+                        "s2_author_id": "3215063",
+                        "name": "Henrique Fingler"
+                    },
+                    {
+                        "s2_author_id": "48489711",
+                        "name": "Martin Burtscher"
+                    },
+                    {
+                        "s2_author_id": "2020926",
+                        "name": "Milo\u0161 Gligori\u0107"
+                    },
+                    {
+                        "s2_author_id": "18867126",
+                        "name": "K. Schulz"
+                    },
+                    {
+                        "s2_author_id": "1776186",
+                        "name": "K. Pingali"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "143676711",
+                        "name": "M. Erez"
+                    },
+                    {
+                        "s2_author_id": "2395747",
+                        "name": "G. Biros"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ca50e09b7976b149d51ec2c065a0d036200db0b",
+                "title": "An OpenMP Runtime for Transparent Work Sharing across Cache-Incoherent Heterogeneous Nodes",
+                "year": 2022,
+                "venue": "ACM Transactions on Computer Systems",
+                "citation_count": 2,
+                "reference_count": 53,
+                "abstract": "In this work, we present libHetMP, an OpenMP runtime for automatically and transparently distributing parallel computation across heterogeneous nodes. libHetMP targets platforms comprising CPUs with different instruction set architectures (ISA) coupled by a high-speed memory interconnect, where cross-ISA binary incompatibility and non-coherent caches require application data be marshaled to be shared across CPUs. Because of this, work distribution decisions must take into account both relative compute performance of asymmetric CPUs and communication overheads. libHetMP drives workload distribution decisions without programmer intervention by measuring performance characteristics during cross-node execution. A novel HetProbe loop iteration scheduler decides if cross-node execution is beneficial and either distributes work according to the relative performance of CPUs when it is or places all work on the set of homogeneous CPUs providing the best performance when it is not. We evaluate libHetMP using compute kernels from several OpenMP benchmark suites and show a geometric mean 41% speedup in execution time across asymmetric CPUs. Because some workloads may showcase irregular behavior among iterations, we extend libHetMP with a second scheduler called HetProbe-I. The evaluation of HetProbe-I shows it can further improve speedup for irregular computation, in some cases up to a 24%, by triggering periodic distribution decisions.",
+                "authors": [
+                    {
+                        "s2_author_id": "2937172",
+                        "name": "Robert Lyerly"
+                    },
+                    {
+                        "s2_author_id": "2152641881",
+                        "name": "Carlos Bilbao"
+                    },
+                    {
+                        "s2_author_id": "7761504",
+                        "name": "Changwoo Min"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1729107",
+                        "name": "B. Ravindran"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fb36f89aaa3021937e86c88a745bfd45bb4244fe",
+                "title": "DGSF: Disaggregated GPUs for Serverless Functions",
+                "year": 2022,
+                "venue": "IEEE International Parallel and Distributed Processing Symposium",
+                "citation_count": 40,
+                "reference_count": 0,
+                "abstract": "Ease of use and transparent access to elastic resources have attracted many applications away from traditional platforms toward serverless functions. Many of these applications, such as machine learning, could benefit significantly from GPU acceleration. Unfortunately, GPUs remain inaccessible from serverless functions in modern production settings. We present DGSF, a platform that transparently enables serverless functions to use GPUs through general purpose APIs such as CUDA. DGSF solves provisioning and utilization challenges with disaggregation, serving the needs of a potentially large number of functions through virtual GPUs backed by a small pool of physical GPUs on dedicated servers. Disaggregation allows the provider to decouple GPU provisioning from other resources, and enables significant benefits through consolidation. We describe how DGSF solves GPU disaggregation challenges including supporting API transparency, hiding the latency of communication with remote GPUs, and load-balancing access to heavily shared GPUs. Evaluation of our prototype on six workloads shows that DGSF's API remoting optimizations can improve the runtime of a function by up to 50% relative to unoptimized DGSF. Such optimizations, which aggressively remove GPU runtime and object management latency from the critical path, can enable functions running over DGSF to have a lower end-to-end time than when running on a GPU natively. By enabling GPU sharing, DGSF can reduce function queueing latency by up to 53%. We use DGSF to augment AWS Lambda with GPU support, showing similar benefits.",
+                "authors": [
+                    {
+                        "s2_author_id": "3215063",
+                        "name": "Henrique Fingler"
+                    },
+                    {
+                        "s2_author_id": "1644897206",
+                        "name": "Zhiting Zhu"
+                    },
+                    {
+                        "s2_author_id": "2176544712",
+                        "name": "Esther Yoon"
+                    },
+                    {
+                        "s2_author_id": "2072783421",
+                        "name": "Zhipeng Jia"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1a6e68264a1726b867a0dcdafae536a7e1d2af78",
+                "title": "Compiler-driven FPGA virtualization with SYNERGY",
+                "year": 2021,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 29,
+                "reference_count": 98,
+                "abstract": "FPGAs are increasingly common in modern applications, and cloud providers now support on-demand FPGA acceleration in data centers. Applications in data centers run on virtual infrastructure, where consolidation, multi-tenancy, and workload migration enable economies of scale that are fundamental to the provider\u2019s business. However, a general strategy for virtualizing FPGAs has yet to emerge. While manufacturers struggle with hardware-based approaches, we propose a compiler/runtime-based solution called Synergy. We show a compiler transformation for Verilog programs that produces code able to yield control to software at sub-clock-tick granularity according to the semantics of the original program. Synergy uses this property to efficiently support core virtualization primitives: suspend and resume, program migration, and spatial/temporal multiplexing, on hardware which is available today. We use Synergy to virtualize FPGA workloads across a cluster of Altera SoCs and Xilinx FPGAs on Amazon F1. The workloads require no modification, run within 3\u22124\u00d7 of unvirtualized performance, and incur a modest increase in FPGA fabric utilization.",
+                "authors": [
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "2122814775",
+                        "name": "Tiffany Yang"
+                    },
+                    {
+                        "s2_author_id": "2109430837",
+                        "name": "Will Lin"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1945094",
+                        "name": "Eric Schkufza"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "31be4733d19e7943cb561d2793b1b4f57ae0e67e",
+                "title": "Artifact for Paper: Compiler-Driven FPGA Virtualization with SYNERGY",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "2122814775",
+                        "name": "Tiffany Yang"
+                    },
+                    {
+                        "s2_author_id": "2109430837",
+                        "name": "Will Lin"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1945094",
+                        "name": "Eric Schkufza"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3aa845fc713c4bcfbd3c0721f5ed2bfc1752731b",
+                "title": "Mask",
+                "year": 2021,
+                "venue": "Encyclopedic Dictionary of Archaeology",
+                "citation_count": 4,
+                "reference_count": 0,
+                "abstract": "Methodology \u2022 GPGPU-Sim based model of GTX 750 Ti \u2022 Multiple GPGPU applications can concurrently execute \u2022 Models page walks and page tables \u2022 Models virtual-to-physical address mapping \u2022 Available at https://github.com/CMU-SAFARI/Mosaic \u2022 35 pairs of workloads \u2022 3 workload categories based on the TLB hit rate Issues with State-of-the-Art Address Translation Designs A page is shared by many threads, causing one translation miss to stall multiple warps Parallel page walks further reduce the GPU\u2019s latency hiding capability",
+                "authors": [
+                    {
+                        "s2_author_id": "1999972",
+                        "name": "Rachata Ausavarungnirun"
+                    },
+                    {
+                        "s2_author_id": "144661813",
+                        "name": "Vance Miller"
+                    },
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "33801185",
+                        "name": "Saugata Ghose"
+                    },
+                    {
+                        "s2_author_id": "34726949",
+                        "name": "Jayneel Gandhi"
+                    },
+                    {
+                        "s2_author_id": "2111543",
+                        "name": "Adwait Jog"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145929920",
+                        "name": "O. Mutlu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8253b6b039a3f55b9d6fed7b3d44c568e6615ef5",
+                "title": "A Study on Ethical Data Management, Publication, and Use",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144085074",
+                        "name": "M. Esteva"
+                    },
+                    {
+                        "s2_author_id": "2388999",
+                        "name": "S. Strover"
+                    },
+                    {
+                        "s2_author_id": "2118348869",
+                        "name": "Soyoung Park"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "2931243",
+                        "name": "John A. Thywissen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a371290c97b99b91b9f74b41783d07952777bb3d",
+                "title": "Programming and execution models for parallel bounded exhaustive testing",
+                "year": 2021,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 3,
+                "reference_count": 44,
+                "abstract": "Bounded-exhaustive testing (BET), which exercises a program under test for all inputs up to some bounds, is an effective method for detecting software bugs. Systematic property-based testing is a BET approach where developers write test generation programs that describe properties of test inputs. Hybrid test generation programs offer the most expressive way to write desired properties by freely combining declarative filters and imperative generators. However, exploring hybrid test generation programs, to obtain test inputs, is both computationally demanding and challenging to parallelize. We present the first programming and execution models, dubbed Tempo, for parallel exploration of hybrid test generation programs. We describe two different strategies for mapping the computation to parallel hardware and implement them both for GPUs and CPUs. We evaluated Tempo by generating instances of various data structures commonly used for benchmarking in the BET domain. Additionally, we generated CUDA programs to stress test CUDA compilers, finding four bugs confirmed by the developers.",
+                "authors": [
+                    {
+                        "s2_author_id": "2106930974",
+                        "name": "Nader Al Awar"
+                    },
+                    {
+                        "s2_author_id": "65987609",
+                        "name": "Kush Jain"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "2020926",
+                        "name": "Milo\u0161 Gligori\u0107"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3a80b36512600b34716f1fa2991a6007bba42dc5",
+                "title": "An OpenMP Runtime for Transparent Work Sharing Across Cache-Incoherent Heterogeneous Nodes",
+                "year": 2020,
+                "venue": "International Middleware Conference",
+                "citation_count": 2,
+                "reference_count": 62,
+                "abstract": "In this work we present libHetMP, an OpenMP runtime for automatically and transparently distributing parallel computation across heterogeneous nodes. libHetMP targets platforms comprising CPUs with different instruction set architectures (ISA) coupled by a high-speed memory interconnect, where cross-ISA binary incompatibility and non-coherent caches require application data be marshaled to be shared across CPUs. Because of this, work distribution decisions must take into account both relative compute performance of asymmetric CPUs and communication overheads. libHetMP drives workload distribution decisions without programmer intervention by measuring performance characteristics during cross-node execution. A novel HetProbe loop iteration scheduler decides if cross-node execution is beneficial, and either distributes work according to the relative performance of CPUs when it is, or places all work on the set of homogeneous CPUs providing the best performance when it is not. We evaluate libHetMP using compute kernels from several OpenMP benchmark suites and show a geometric mean 41% speedup in execution time across asymmetric CPUs.",
+                "authors": [
+                    {
+                        "s2_author_id": "2937172",
+                        "name": "Robert Lyerly"
+                    },
+                    {
+                        "s2_author_id": "7761504",
+                        "name": "Changwoo Min"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1729107",
+                        "name": "B. Ravindran"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6d648a6d175846974d8ef7ea1365e2a0b5e45cbe",
+                "title": "Altis: Modernizing GPGPU Benchmarks",
+                "year": 2020,
+                "venue": "IEEE International Symposium on Performance Analysis of Systems and Software",
+                "citation_count": 13,
+                "reference_count": 36,
+                "abstract": "This paper presents ALTIS, a benchmark suite for modern GPGPU computing. Previous benchmark suites such as Rodinia and SHOC have served the research community well, but were developed years ago when hardware was more limited, software supported fewer features, and production hardware-accelerated workloads were scarce. Since that time, GPU compute density and memory capacity has grown exponentially, programmability features such as unified memory, demand paging, and HyperQ have matured, and new workloads such as deep neural networks (DNNs), graph analytics, and crypto-currencies have emerged in production environments, stressing the hardware and software in ways that previous benchmarks did not anticipate. Drawing inspiration from Rodinia and SHOC, ALTIS is a benchmark suite designed for modern GPU architectures and modern GPU runtimes, representing a diverse set of application domains. By adopting and extending applications from Rodinia and SHOC, adding new applications, and focusing on CUDA platforms, ALTIS better represents modern GPGPU workloads to enable support GPGPU research in both architecture and system software.",
+                "authors": [
+                    {
+                        "s2_author_id": "146267713",
+                        "name": "Bodun Hu"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b611f54f40f00f143cd01cbae77dfeabb8851b9e",
+                "title": "AvA: Accelerated Virtualization of Accelerators",
+                "year": 2020,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 41,
+                "reference_count": 111,
+                "abstract": "Applications are migrating en masse to the cloud, while accelerators such as GPUs, TPUs, and FPGAs proliferate in the wake of Moore's Law. These trends are in conflict: cloud applications run on virtual platforms, but existing virtualization techniques have not provided production-ready solutions for accelerators. As a result, cloud providers expose accelerators by dedicating physical devices to individual guests. Multi-tenancy and consolidation are lost as a consequence. We present AvA, which addresses limitations of existing virtualization techniques with automated construction of hypervisor-managed virtual accelerator stacks. AvA combines a DSL for describing APIs and sharing policies, device-agnostic runtime components, and a compiler to generate accelerator-specific components such as guest libraries and API servers. AvA uses Hypervisor Interposed Remote Acceleration (HIRA), a new technique to enable hypervisor-enforcement of sharing policies from the specification. We use AvA to virtualize nine accelerators and eleven framework APIs, including six for which no virtualization support has been previously explored. AvA provides near-native performance and can enforce sharing policies that are not possible with current techniques, with orders of magnitude less developer effort than required for hand-built virtualization support.",
+                "authors": [
+                    {
+                        "s2_author_id": "7279070",
+                        "name": "Hangchen Yu"
+                    },
+                    {
+                        "s2_author_id": "37909495",
+                        "name": "A. Peters"
+                    },
+                    {
+                        "s2_author_id": "2621923",
+                        "name": "Amogh Akshintala"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d6d25430ee26c8f8935041ebc05e664c9d2c72f5",
+                "title": "PRISM: Architectural Support for Variable-granularity Memory Metadata",
+                "year": 2020,
+                "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+                "citation_count": 7,
+                "reference_count": 96,
+                "abstract": "Modern architectures track memory accesses using page granularity metadata such as access and dirty bits, leading to fundamental tradeoffs for system software that uses this metadata. Larger page sizes reduce address translation overheads and page table footprints. However, coarse metadata bits for larger pages limit software's visibility into application-level memory usage, resulting in memory bloat and performance pathologies. As DRAM capacity continues to expand, we expect software to react by aggressively mapping with larger page sizes, making this tradeoff space more challenging to navigate. We study the relationship between metadata granularity and fidelity, the degree to which metadata correctly approximates actual access patterns. We focus on 2MB page support on x86-64 and GPUs, measuring fidelity across a wide range of benchmarks. Fidelity can be poor at a coarse granularity, and high variance occurs even within applications. To address this problem, we propose PRISM, which provides architectural support for variable?granularity access and dirty bits. Evaluation of Linux/x86-64 and GPU prototypes of PRISM show modest additional hardware can reduce metadata fidelity loss by up to 65% and 55% at a performance cost of less than 1% and 2% on CPUs and GPUs respectively. We show that the recovered fidelity can eliminate performance pathologies and improve the performance of GPGPU applications using demand paging by 29.8% on average.",
+                "authors": [
+                    {
+                        "s2_author_id": "1999972",
+                        "name": "Rachata Ausavarungnirun"
+                    },
+                    {
+                        "s2_author_id": "3349735",
+                        "name": "Timothy Merrifield"
+                    },
+                    {
+                        "s2_author_id": "34726949",
+                        "name": "Jayneel Gandhi"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dab4e10408e10e6992f1b77b73edf4724a7c7f60",
+                "title": "Telekine: Secure Computing with Cloud GPUs",
+                "year": 2020,
+                "venue": "Symposium on Networked Systems Design and Implementation",
+                "citation_count": 91,
+                "reference_count": 108,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "48062937",
+                        "name": "T. Hunt"
+                    },
+                    {
+                        "s2_author_id": "2072783421",
+                        "name": "Zhipeng Jia"
+                    },
+                    {
+                        "s2_author_id": "144661813",
+                        "name": "Vance Miller"
+                    },
+                    {
+                        "s2_author_id": "1644635852",
+                        "name": "Ariel Szekely"
+                    },
+                    {
+                        "s2_author_id": "1997092",
+                        "name": "Yige Hu"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "067082aefbd56df64af01f0288cc700b1a3f212e",
+                "title": "ALTIS: Modernizing GPGPU Benchmarking",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "146267713",
+                        "name": "Bodun Hu"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f12affa187b83d30545d095be548adebfbae68b",
+                "title": "PorcE: a deparallelizing compiler",
+                "year": 2019,
+                "venue": "MPLR",
+                "citation_count": 1,
+                "reference_count": 44,
+                "abstract": "Concurrent and parallel programming environments must balance three competing goals: performance, productivity, and generality. Most current environments take a sequential specification and parallelize it through a series of program analyses and transformations. Programmer productivity is determined by how much the programmer is involved in specifying the transform. A programming environment\u2019s generality is determined by how much it restricts its programming model to enable the transform to be more automatic or provide better performance. Productivity and generality impact the performance of the resulting code, giving rise to a performance\u2013productivity\u2013generality trade-off space. PorcE takes a different approach: PorcE starts from a maximally concurrent program, which it deparallelizes. We hypothesize that this dramatically changes the accessible regions of the performance\u2013productivity\u2013generality space, because the complexity of deparallelization is quite different than for parallelization. PorcE uses a novel combination of optimizations that enable multicore scaling with performance similar to popular high-level languages, such as Python. Benchmarks show that optimized PorcE is 56 times faster than unoptimized excessively parallel PorcE. It is 4 times slower than hand-parallelized Scala, on average, when using existing Scala code for core sequential computations, which is similar to Python. This shows the potential for practical performance of pervasively concurrent programs.",
+                "authors": [
+                    {
+                        "s2_author_id": "37909495",
+                        "name": "A. Peters"
+                    },
+                    {
+                        "s2_author_id": "2931243",
+                        "name": "John A. Thywissen"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4cb47a5307d1a7c551576cdc6389a76e2826a5eb",
+                "title": "USETL: Unikernels for Serverless Extract Transform and Load Why should you settle for less?",
+                "year": 2019,
+                "venue": "Asia Pacific Workshop on Systems",
+                "citation_count": 39,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3215063",
+                        "name": "Henrique Fingler"
+                    },
+                    {
+                        "s2_author_id": "2621923",
+                        "name": "Amogh Akshintala"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "50220f6d2a349072a4d9a49e7fe7f1ac98c1c86f",
+                "title": "Mirovia: A Benchmarking Suite for Modern Heterogeneous Computing",
+                "year": 2019,
+                "venue": "arXiv.org",
+                "citation_count": 3,
+                "reference_count": 25,
+                "abstract": "This paper presents Mirovia, a benchmark suite developed for modern day heterogeneous computing. Previous benchmark suites such as Rodinia and SHOC are well written and have many desirable features. However, these tools were developed years ago when hardware was less powerful and software had fewer features. For example, unified memory was introduced in CUDA 6 as a new programming model and wasn't available when Rodinia was released. Meanwhile, the increasing demand for graphics processing units (GPUs) due to the recent rise in popularity of deep neural networks (DNNs) has opened doors for many new research problems. It is essential to consider DNNs as first-class citizens in a comprehensive benchmark suite. However, the main focus is usually limited to inference and model performance evaluation, which is not desirable for hardware architects studying for emerging platforms. Drawing inspiration from Rodinia and SHOC, Mirovia is a benchmark suite that is designed to take advantage of modern GPU architectures, while also representing a diverse set of application domains. By adopting applications from Rodinia and SHOC, and including newly written applications with special focus on DNNs, Mirovia better characterizes modern heterogeneous systems.",
+                "authors": [
+                    {
+                        "s2_author_id": "146267713",
+                        "name": "Bodun Hu"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5b67da126c40bfc81dfffc63c4a6cf583578539f",
+                "title": "Trillium: The code is the IR",
+                "year": 2019,
+                "venue": "International Symposium on High Performance Computing Systems and Applications",
+                "citation_count": 2,
+                "reference_count": 68,
+                "abstract": "GPUs are the platform of choice for many general purpose workloads such as machine learning. This is driving demand for better GPGPU support in virtualized environments like the cloud. Despite significant research attention, GPGPU virtualization remains largely an open problem due to the challenge of balancing performance against key virtualization properties: compatibility, isolation, and interposition. Consequently, two different approaches to GPGPU virtualization have been adopted by the industry: Cloud service providers, such as AWS, support GPU-capable VMs using PCIe-passthrough techniques that bypass virtualization entirely, sacrificing its benefits; Virtualization vendors, such as BitFusion and Dell XaaS, support GPGPU virtualization using user-space API-remoting, which retains some of the benefits of virtualization, but elides hypervisor interposition, thereby giving up key virtualization properties.We hypothesize that while API-remoting may be the only viable software virtualization technique (as it interposes the only practical interface), API-remoting should not be implemented purely in user-space. We revisit VMware\u2019s SVGA in the context of GPGPU computing and find that hypervisor-mediated API-remoting is efficient: Decoupling device virtualization from GPU ISA virtualization is key to preserving the raw speedup from GPGPU acceleration, while also preserving the benefits of hypervisor-mediation: migration, isolation, fairness, etc.",
+                "authors": [
+                    {
+                        "s2_author_id": "2621923",
+                        "name": "Amogh Akshintala"
+                    },
+                    {
+                        "s2_author_id": "7279070",
+                        "name": "Hangchen Yu"
+                    },
+                    {
+                        "s2_author_id": "2441067",
+                        "name": "Arthur Peters"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5f5be02fd474b05143b9daf3e49589d787c76454",
+                "title": "Automatic Virtualization of Accelerators",
+                "year": 2019,
+                "venue": "USENIX Workshop on Hot Topics in Operating Systems",
+                "citation_count": 13,
+                "reference_count": 52,
+                "abstract": "Applications are migrating en masse to the cloud, while accelerators such as GPUs, TPUs, and FPGAs proliferate in the wake of Moore's Law. These technological trends are incompatible. Cloud applications run on virtual platforms, but traditional I/O virtualization techniques have not provided production-ready solutions for accelerators. As a result, cloud providers expose accelerators by using pass-through techniques which dedicate physical devices to individual guests. The multi-tenancy that drives their business is lost as a consequence. This paper proposes automatic generation of virtual accelerator stacks to address the fundamental tradeoffs between virtualization properties and techniques for accelerators. AvA (Automatic Virtualization of Accelerators) re-purposes a para-virtual I/O stack design based on API remoting to present virtual accelerator APIs to guest VMs. Conventional wisdom is that API remoting sacrifices interposition and compatibility. AvA forwards invocations over hypervisor-managed transport to recover interposition. AvA compensates for lost compatibility by automatically generating guest libraries, drivers, hypervisor-level schedulers, and API servers. AvA supports pluggable transport layers, allowing VMs to use disaggregated accelerators. With AvA, a single developer could virtualize a core subset of OpenCL at near-native performance in just a few days.",
+                "authors": [
+                    {
+                        "s2_author_id": "7279070",
+                        "name": "Hangchen Yu"
+                    },
+                    {
+                        "s2_author_id": "37909495",
+                        "name": "A. Peters"
+                    },
+                    {
+                        "s2_author_id": "2621923",
+                        "name": "Amogh Akshintala"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "602bde853df1ad413db5787c2a92f36253ae3692",
+                "title": "A Framework for Memory Oversubscription Management in Graphics Processing Units",
+                "year": 2019,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 82,
+                "reference_count": 100,
+                "abstract": "Modern discrete GPUs support unified memory and demand paging. Automatic management of data movement between CPU memory and GPU memory dramatically reduces developer effort. However, when application working sets exceed physical memory capacity, the resulting data movement can cause great performance loss. This paper proposes a memory management framework, called ETC, that transparently improves GPU performance under memory oversubscription using new techniques to overlap eviction latency of GPU pages, reduce thrashing cost, and increase effective memory capacity. Eviction latency can be hidden by eagerly creating space for demand-paged data with proactive eviction (E). Thrashing costs can be ameliorated with memory-aware throttling (T), which dynamically reduces \\reviithe GPU parallelism when page fault frequencies become high. Capacity compression (C) can enable larger working sets without increasing physical memory capacity. No single technique fits all workloads, and, thus, ETC integrates proactive eviction, memory-aware throttling and capacity compression into a principled framework that dynamically selects the most effective combination of techniques, transparently to the running software. To this end, ETC categorizes applications into three categories: regular applications without data sharing across kernels, regular applications with data sharing across kernels, and irregular applications. Our evaluation shows that ETC fully mitigates the oversubscription overhead for regular applications without data sharing and delivers performance similar to the ideal unlimited GPU memory baseline. We also show that ETC outperforms the state-of-the-art baseline by 60.4% and 270% for regular applications with data sharing and irregular applications, respectively.",
+                "authors": [
+                    {
+                        "s2_author_id": "2116520665",
+                        "name": "Chen Li"
+                    },
+                    {
+                        "s2_author_id": "1999972",
+                        "name": "Rachata Ausavarungnirun"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1686367",
+                        "name": "Youtao Zhang"
+                    },
+                    {
+                        "s2_author_id": "145929920",
+                        "name": "O. Mutlu"
+                    },
+                    {
+                        "s2_author_id": "144270189",
+                        "name": "Yang Guo"
+                    },
+                    {
+                        "s2_author_id": "97672105",
+                        "name": "Jun Yang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "64ebb21919dea72d4f7228c1c33bebb51e2dff6d",
+                "title": "Session details: Data Movement II",
+                "year": 2019,
+                "venue": "Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "66769bc2f4596f8e3ed72e999e074559ca8a02b5",
+                "title": "Just-In-Time Compilation for Verilog: A New Technique for Improving the FPGA Programming Experience",
+                "year": 2019,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 33,
+                "reference_count": 92,
+                "abstract": "FPGAs offer compelling acceleration opportunities for modern applications. However compilation for FPGAs is painfully slow, potentially requiring hours or longer. We approach this problem with a solution from the software domain: the use of a JIT. Code is executed immediately in a software simulator, and compilation is performed in the background. When finished, the code is moved into hardware, and from the user's perspective it simply gets faster. We have embodied these ideas in Cascade: the first JIT compiler for Verilog. Cascade reduces the time between initiating compilation and running code to less than a second, and enables generic printf debugging from hardware. Cascade preserves program performance to within 3\u00d7 in a debugging environment, and has minimal effect on a finalized design. Crucially, these properties hold even for programs that perform side effects on connected IO devices. A user study demonstrates the value to experts and non-experts alike: Cascade encourages more frequent compilation, and reduces the time to produce working hardware designs.",
+                "authors": [
+                    {
+                        "s2_author_id": "1945094",
+                        "name": "Eric Schkufza"
+                    },
+                    {
+                        "s2_author_id": "38566150",
+                        "name": "M. Wei"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9250931a01a9c676d248982a424657fb89ed4f67",
+                "title": "Design, implementation, and application of GPU-based Java bytecode interpreters",
+                "year": 2019,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 6,
+                "reference_count": 69,
+                "abstract": "We present the design and implementation of GVM, the first system for executing Java bytecode entirely on GPUs. GVM is ideal for applications that execute a large number of short-living tasks, which share a significant fraction of their codebase and have similar execution time. GVM uses novel algorithms, scheduling, and data layout techniques to adapt to the massively parallel programming and execution model of GPUs. We apply GVM to generate and execute tests for Java projects. First, we implement a sequence-based test generation on top of GVM and design novel algorithms to avoid redundant test sequences. Second, we use GVM to execute randomly generated test cases. We evaluate GVM by comparing it with two existing Java bytecode interpreters (Oracle JVM and Java Pathfinder), as well as with the Oracle JVM with just-in-time (JIT) compiler, which has been engineered and optimized for over twenty years. Our evaluation shows that sequence-based test generation on GVM outperforms both Java Pathfinder and Oracle JVM interpreter. Additionally, our results show that GVM performs as well as running our parallel sequence-based test generation algorithm using JVM with JIT with many CPU threads. Furthermore, our evaluation on several classes from open-source projects shows that executing randomly generated tests on GVM outperforms sequential execution on JVM interpreter and JVM with JIT.",
+                "authors": [
+                    {
+                        "s2_author_id": "145118978",
+                        "name": "Ahmet \u00c7elik"
+                    },
+                    {
+                        "s2_author_id": "5890416",
+                        "name": "Pengyu Nie"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "2020926",
+                        "name": "Milo\u0161 Gligori\u0107"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "92844050ec01f22d146aae95ef482648d2c5ed1d",
+                "title": "Isolation and Beyond: Challenges for System Security",
+                "year": 2019,
+                "venue": "USENIX Workshop on Hot Topics in Operating Systems",
+                "citation_count": 14,
+                "reference_count": 81,
+                "abstract": "System security has historically relied on hardware-provided isolation primitives. However, Meltdown [36] and Spectre [30] demonstrate that basic user/kernel isolation could be bypassed in every widely deployed ISA for decades; they are a caution to system designers who accept hardware isolation guarantees as an article of faith. Hardware isolation is fallible and should be considered fallible by software systems. We argue that future systems should broaden their view to adopt techniques that compensate for weaknesses in hardware isolation and should secure and optimize the communication among isolated components. Changing algorithms to be data oblivious, so that their externally observable behavior is independent of their (secret) input data is one such technique. Securing communication requires that the timing and size of messages be independent of secret data, but how best to achieve that independence so as to limit performance and energy overheads will vary from application to application.",
+                "authors": [
+                    {
+                        "s2_author_id": "48062937",
+                        "name": "T. Hunt"
+                    },
+                    {
+                        "s2_author_id": "2072783421",
+                        "name": "Zhipeng Jia"
+                    },
+                    {
+                        "s2_author_id": "144661813",
+                        "name": "Vance Miller"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c1e24982e6e993017b517337f7fb0841d464eba7",
+                "title": "USETL",
+                "year": 2019,
+                "venue": "Asia Pacific Workshop on Systems",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3215063",
+                        "name": "Henrique Fingler"
+                    },
+                    {
+                        "s2_author_id": "2621923",
+                        "name": "Amogh Akshintala"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a9ad37a0d8765a525705fe7ba5f4fdb0522971b",
+                "title": "Mosaic: An Application-Transparent Hardware-Software Cooperative Memory Manager for GPUs",
+                "year": 2018,
+                "venue": "arXiv.org",
+                "citation_count": 5,
+                "reference_count": 100,
+                "abstract": "Modern GPUs face a trade-off on how the page size used for memory management affects address translation and demand paging. Support for multiple page sizes can help relax the page size trade-off so that address translation and demand paging optimizations work together synergistically. However, existing page coalescing and splintering policies require costly base page migrations that undermine the benefits multiple page sizes provide. In this paper, we observe that GPGPU applications present an opportunity to support multiple page sizes without costly data migration, as the applications perform most of their memory allocation en masse (i.e., they allocate a large number of base pages at once). We show that this en masse allocation allows us to create intelligent memory allocation policies which ensure that base pages that are contiguous in virtual memory are allocated to contiguous physical memory pages. As a result, coalescing and splintering operations no longer need to migrate base pages. \nWe introduce Mosaic, a GPU memory manager that provides application-transparent support for multiple page sizes. Mosaic uses base pages to transfer data over the system I/O bus, and allocates physical memory in a way that (1) preserves base page contiguity and (2) ensures that a large page frame contains pages from only a single memory protection domain. This mechanism allows the TLB to use large pages, reducing address translation overhead. During data transfer, this mechanism enables the GPU to transfer only the base pages that are needed by the application over the system I/O bus, keeping demand paging overhead low.",
+                "authors": [
+                    {
+                        "s2_author_id": "1999972",
+                        "name": "Rachata Ausavarungnirun"
+                    },
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "144661813",
+                        "name": "Vance Miller"
+                    },
+                    {
+                        "s2_author_id": "33801185",
+                        "name": "Saugata Ghose"
+                    },
+                    {
+                        "s2_author_id": "34726949",
+                        "name": "Jayneel Gandhi"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145929920",
+                        "name": "O. Mutlu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53ec1a7875c625894d7c13968f83c3f23825e17b",
+                "title": "Mosaic",
+                "year": 2018,
+                "venue": "Encyclopedic Dictionary of Archaeology",
+                "citation_count": 0,
+                "reference_count": 44,
+                "abstract": "Contemporary discrete GPUs support rich memory management features such as virtual memory and demand paging. These features simplify GPU programming by providing a virtual address space abstraction similar to CPUs and eliminating manual memory management, but they introduce high performance overheads during (1) address translation and (2) page faults. A GPU relies on high degrees of thread-level parallelism (TLP) to hide memory latency. Address translation can undermine TLP, as a single miss in the translation lookaside buffer (TLB) invokes an expensive serialized page table walk that often stalls multiple threads. Demand paging can also undermine TLP, as multiple threads often stall while they wait for an expensive data transfer over the system I/O (e.g., PCIe) bus when the GPU demands a page.\n In modern GPUs, we face a trade-off on how the page size used for memory management affects address translation and demand paging. The address translation overhead is lower when we employ a larger page size (e.g., 2MB large pages, compared with conventional 4KB base pages), which increases TLB coverage and thus reduces TLB misses. Conversely, the demand paging overhead is lower when we employ a smaller page size, which decreases the system I/O bus transfer latency. Support for multiple page sizes can help relax the page size trade-off so that address translation and demand paging optimizations work together synergistically. However, existing page coalescing (i.e., merging base pages into a large page) and splintering (i.e., splitting a large page into base pages) policies require costly base page migrations that undermine the benefits multiple page sizes provide. In this paper, we observe that GPGPU applications present an opportunity to support multiple page sizes without costly data migration, as the applications perform most of their memory allocation en masse (i.e., they allocate a large number of base pages at once).We show that this en masse allocation allows us to create intelligent memory allocation policies which ensure that base pages that are contiguous in virtual memory are allocated to contiguous physical memory pages. As a result, coalescing and splintering operations no longer need to migrate base pages.",
+                "authors": [
+                    {
+                        "s2_author_id": "1999972",
+                        "name": "Rachata Ausavarungnirun"
+                    },
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "144661813",
+                        "name": "Vance Miller"
+                    },
+                    {
+                        "s2_author_id": "33801185",
+                        "name": "Saugata Ghose"
+                    },
+                    {
+                        "s2_author_id": "34726949",
+                        "name": "Jayneel Gandhi"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145929920",
+                        "name": "O. Mutlu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "570973bd93d082107c90fa55db22f096921d851c",
+                "title": "Talk to My Neighbors Transport : Decentralized Data Transfer and Scheduling Among Accelerators",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2621923",
+                        "name": "Amogh Akshintala"
+                    },
+                    {
+                        "s2_author_id": "144661813",
+                        "name": "Vance Miller"
+                    },
+                    {
+                        "s2_author_id": "1755646",
+                        "name": "Donald E. Porter"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "636a4d1dcd7f1cfdd41db52b6c5de6c527b183e7",
+                "title": "MASK: Redesigning the GPU Memory Hierarchy to Support Multi-Application Concurrency",
+                "year": 2018,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 112,
+                "reference_count": 147,
+                "abstract": "Graphics Processing Units (GPUs) exploit large amounts of threadlevel parallelism to provide high instruction throughput and to efficiently hide long-latency stalls. The resulting high throughput, along with continued programmability improvements, have made GPUs an essential computational resource in many domains. Applications from different domains can have vastly different compute and memory demands on the GPU. In a large-scale computing environment, to efficiently accommodate such wide-ranging demands without leaving GPU resources underutilized, multiple applications can share a single GPU, akin to how multiple applications execute concurrently on a CPU. Multi-application concurrency requires several support mechanisms in both hardware and software. One such key mechanism is virtual memory, which manages and protects the address space of each application. However, modern GPUs lack the extensive support for multi-application concurrency available in CPUs, and as a result suffer from high performance overheads when shared by multiple applications, as we demonstrate. We perform a detailed analysis of which multi-application concurrency support limitations hurt GPU performance the most. We find that the poor performance is largely a result of the virtual memory mechanisms employed in modern GPUs. In particular, poor address translation performance is a key obstacle to efficient GPU sharing. State-of-the-art address translation mechanisms, which were designed for single-application execution, experience significant inter-application interference when multiple applications spatially share the GPU. This contention leads to frequent misses in the shared translation lookaside buffer (TLB), where a single miss can induce long-latency stalls for hundreds of threads. As a result, the GPU often cannot schedule enough threads to successfully hide the stalls, which diminishes system throughput and becomes a first-order performance concern. Based on our analysis, we propose MASK, a new GPU framework that provides low-overhead virtual memory support for the concurrent execution of multiple applications. MASK consists of three novel address-translation-aware cache and memory management mechanisms that work together to largely reduce the overhead of address translation: (1) a token-based technique to reduce TLB contention, (2) a bypassing mechanism to improve the effectiveness of cached address translations, and (3) an application-aware memory scheduling scheme to reduce the interference between address translation and data requests. Our evaluations show that MASK restores much of the throughput lost to TLB contention. Relative to a state-of-the-art GPU TLB, MASK improves system throughput by 57.8%, improves IPC throughput by 43.4%, and reduces applicationlevel unfairness by 22.4%. MASK's system throughput is within 23.2% of an ideal GPU system with no address translation overhead.",
+                "authors": [
+                    {
+                        "s2_author_id": "1999972",
+                        "name": "Rachata Ausavarungnirun"
+                    },
+                    {
+                        "s2_author_id": "144661813",
+                        "name": "Vance Miller"
+                    },
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "33801185",
+                        "name": "Saugata Ghose"
+                    },
+                    {
+                        "s2_author_id": "34726949",
+                        "name": "Jayneel Gandhi"
+                    },
+                    {
+                        "s2_author_id": "2111543",
+                        "name": "Adwait Jog"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145929920",
+                        "name": "O. Mutlu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7b0e46e534a84f2be2674d122c22b4f3bcb005f1",
+                "title": "Sharing, Protection, and Compatibility for Reconfigurable Fabric with AmorphOS",
+                "year": 2018,
+                "venue": "USENIX Symposium on Operating Systems Design and Implementation",
+                "citation_count": 157,
+                "reference_count": 93,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2574247",
+                        "name": "A. Khawaja"
+                    },
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "2062756794",
+                        "name": "R. Prakash"
+                    },
+                    {
+                        "s2_author_id": "38566150",
+                        "name": "M. Wei"
+                    },
+                    {
+                        "s2_author_id": "1945094",
+                        "name": "Eric Schkufza"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d6f4acf3b958158bdd68732709ccc0156b39ca55",
+                "title": "Mosaic: Enabling Application-Transparent Support for Multiple Page Sizes in Throughput Processors",
+                "year": 2018,
+                "venue": "OPSR",
+                "citation_count": 11,
+                "reference_count": 132,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1999972",
+                        "name": "Rachata Ausavarungnirun"
+                    },
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "144661813",
+                        "name": "Vance Miller"
+                    },
+                    {
+                        "s2_author_id": "33801185",
+                        "name": "Saugata Ghose"
+                    },
+                    {
+                        "s2_author_id": "34726949",
+                        "name": "Jayneel Gandhi"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145929920",
+                        "name": "O. Mutlu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dd8a318b1a606bd3fe53bce9a552107fc231f12b",
+                "title": "Session details: Session 2A: GPUs 1",
+                "year": 2018,
+                "venue": "ACM SIGPLAN Notices",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "01d8f75b6382c7534a67637249122de28a780ce9",
+                "title": "vCorfu: A Cloud-Scale Object Store on a Shared Log",
+                "year": 2017,
+                "venue": "Symposium on Networked Systems Design and Implementation",
+                "citation_count": 62,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38566150",
+                        "name": "M. Wei"
+                    },
+                    {
+                        "s2_author_id": "37531541",
+                        "name": "Amy Tai"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1804661",
+                        "name": "Ittai Abraham"
+                    },
+                    {
+                        "s2_author_id": "9773986",
+                        "name": "Maithem Munshed"
+                    },
+                    {
+                        "s2_author_id": "50646113",
+                        "name": "Medhavi Dhawan"
+                    },
+                    {
+                        "s2_author_id": "5170084",
+                        "name": "Jim Stabile"
+                    },
+                    {
+                        "s2_author_id": "1753945",
+                        "name": "Udi Wieder"
+                    },
+                    {
+                        "s2_author_id": "2948179",
+                        "name": "S. Fritchie"
+                    },
+                    {
+                        "s2_author_id": "143846212",
+                        "name": "S. Swanson"
+                    },
+                    {
+                        "s2_author_id": "3122063",
+                        "name": "M. Freedman"
+                    },
+                    {
+                        "s2_author_id": "1767467",
+                        "name": "D. Malkhi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d614865cb2d00f8d5c4689ae87299bd76fc82a2",
+                "title": "Full Virtualization for GPUs Reconsidered",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 13,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7279070",
+                        "name": "Hangchen Yu"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1491af70279814c9aae11f80f44f93349b8bc351",
+                "title": "Mosaic: A GPU Memory Manager with Application-Transparent Support for Multiple Page Sizes",
+                "year": 2017,
+                "venue": "Micro",
+                "citation_count": 139,
+                "reference_count": 114,
+                "abstract": "Contemporary discrete GPUs support rich memory management features such as virtual memory and demand paging. These features simplify GPU programming by providing a virtual address space abstraction similar to CPUs and eliminating manual memory management, but they introduce high performance overheads during (1) address translation and (2) page faults. A GPU relies on high degrees of thread-level parallelism (TLP) to hide memory latency. Address translation can undermine TLP, as a single miss in the translation lookaside buffer (TLB) invokes an expensive serialized page table walk that often stalls multiple threads. Demand paging can also undermine TLP, as multiple threads often stall while they wait for an expensive data transfer over the system I/O (e.g., PCIe) bus when the GPU demands a page. In modern GPUs, we face a trade-o on how the page size used for memory management affects address translation and demand paging. The address translation overhead is lower when we employ a larger page size (e.g., 2MB large pages, compared with conventional 4KB base pages), which increases TLB coverage and thus reduces TLB misses. Conversely, the demand paging overhead is lower when we employ a smaller page size, which decreases the system I/O bus transfer latency. Support for multiple page sizes can help relax the page size trade-o so that address translation and demand paging optimizations work together synergistically. However, existing page coalescing (i.e., merging base pages into a large page) and splintering (i.e., splitting a large page into base pages) policies require costly base page migrations that undermine the benefits multiple page sizes provide. In this paper, we observe that GPGPU applications present an opportunity to support multiple page sizes without costly data migration, as the applications perform most of their memory allocation en masse (i.e., they allocate a large number of base pages at once). We show that this en masse allocation allows us to create intelligent memory allocation policies which ensure that base pages that are contiguous in virtual memory are allocated to contiguous physical memory pages. As a result, coalescing and splintering operations no longer need to migrate base pages. We introduce Mosaic, a GPU memory manager that provides application-transparent support for multiple page sizes. Mosaic uses base pages to transfer data over the system I/O bus, and allocates physical memory in a way that (1) preserves base page contiguity and (2) ensures that a large page frame contains pages from only a single memory protection domain. We take advantage of this allocation strategy to design a novel in-place page size selection mechanism that avoids data migration. This mechanism allows the TLB to use large pages, reducing address translation overhead. During data transfer, this mechanism enables the GPU to transfer only the base pages that are needed by the application over the system I/O bus, keeping demand paging overhead low. Our evaluations show that Mosaic reduces address translation overheads while efficiently achieving the benefits of demand paging, compared to a contemporary GPU that uses only a 4KB page size. Relative to a state-of-the-art GPU memory manager, Mosaic improves the performance of homogeneous and heterogeneous multi-application workloads by 55.5% and 29.7% on average, respectively, coming within 6.8% and 15.4% of the performance of an ideal TLB where all TLB requests are hits. CCS CONCEPTS \u2022 Computer systems organization \u2192 Parallel architectures;",
+                "authors": [
+                    {
+                        "s2_author_id": "1999972",
+                        "name": "Rachata Ausavarungnirun"
+                    },
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "144661813",
+                        "name": "Vance Miller"
+                    },
+                    {
+                        "s2_author_id": "33801185",
+                        "name": "Saugata Ghose"
+                    },
+                    {
+                        "s2_author_id": "34726949",
+                        "name": "Jayneel Gandhi"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145929920",
+                        "name": "O. Mutlu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2a2edb90010159b86b044e29b57ceb4c33ce0e6d",
+                "title": "Improving Multi-Application Concurrency Support Within the GPU Memory System",
+                "year": 2017,
+                "venue": "arXiv.org",
+                "citation_count": 2,
+                "reference_count": 95,
+                "abstract": "GPUs exploit a high degree of thread-level parallelism to hide long-latency stalls. Due to the heterogeneous compute requirements of different applications, there is a growing need to share the GPU across multiple applications in large-scale computing environments. However, while CPUs offer relatively seamless multi-application concurrency, and are an excellent fit for multitasking and for virtualized environments, GPUs currently offer only primitive support for multi-application concurrency. Much of the problem in a contemporary GPU lies within the memory system, where multi-application execution requires virtual memory support to manage the address spaces of each application and to provide memory protection. In this work, we perform a detailed analysis of the major problems in state-of-the-art GPU virtual memory management that hinders multi-application execution. Existing GPUs are designed to share memory between the CPU and GPU, but do not handle multi-application support within the GPU well. We find that when multiple applications spatially share the GPU, there is a significant amount of inter-core thrashing on the shared TLB within the GPU. The TLB contention is high enough to prevent the GPU from successfully hiding stall latencies, thus becoming a first-order performance concern. We introduce MASK, a memory hierarchy design that provides low-overhead virtual memory support for the concurrent execution of multiple applications. MASK extends the GPU memory hierarchy to efficiently support address translation through the use of multi-level TLBs, and uses translation-aware memory and cache management to maximize throughput in the presence of inter-application contention.",
+                "authors": [
+                    {
+                        "s2_author_id": "1999972",
+                        "name": "Rachata Ausavarungnirun"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "144661813",
+                        "name": "Vance Miller"
+                    },
+                    {
+                        "s2_author_id": "34348348",
+                        "name": "Joshua Landgraf"
+                    },
+                    {
+                        "s2_author_id": "33801185",
+                        "name": "Saugata Ghose"
+                    },
+                    {
+                        "s2_author_id": "34726949",
+                        "name": "Jayneel Gandhi"
+                    },
+                    {
+                        "s2_author_id": "2111543",
+                        "name": "Adwait Jog"
+                    },
+                    {
+                        "s2_author_id": "145929920",
+                        "name": "O. Mutlu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "797dad570f82414592a87ed7ebdce44f9801e8df",
+                "title": "Consistent Clustered Applications with Corfu",
+                "year": 2017,
+                "venue": "OPSR",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50646113",
+                        "name": "Medhavi Dhawan"
+                    },
+                    {
+                        "s2_author_id": "32068372",
+                        "name": "Gurprit Johal"
+                    },
+                    {
+                        "s2_author_id": "5170084",
+                        "name": "Jim Stabile"
+                    },
+                    {
+                        "s2_author_id": "2907830",
+                        "name": "Vjekoslav Brajkovic"
+                    },
+                    {
+                        "s2_author_id": "145062501",
+                        "name": "James Chang"
+                    },
+                    {
+                        "s2_author_id": "2757319",
+                        "name": "K. Goyal"
+                    },
+                    {
+                        "s2_author_id": "2069468997",
+                        "name": "Kevin James"
+                    },
+                    {
+                        "s2_author_id": "32765848",
+                        "name": "Zeeshan Lokhandwala"
+                    },
+                    {
+                        "s2_author_id": "2111088826",
+                        "name": "Anny Mart\u00ednez"
+                    },
+                    {
+                        "s2_author_id": "9524260",
+                        "name": "Roger Michoud"
+                    },
+                    {
+                        "s2_author_id": "9773986",
+                        "name": "Maithem Munshed"
+                    },
+                    {
+                        "s2_author_id": "2099122826",
+                        "name": "Srinivas Neginhal"
+                    },
+                    {
+                        "s2_author_id": "11584872",
+                        "name": "K. Spirov"
+                    },
+                    {
+                        "s2_author_id": "38566150",
+                        "name": "M. Wei"
+                    },
+                    {
+                        "s2_author_id": "2948179",
+                        "name": "S. Fritchie"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1804661",
+                        "name": "Ittai Abraham"
+                    },
+                    {
+                        "s2_author_id": "1767467",
+                        "name": "D. Malkhi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "99f9b15f90ab14d01d24b2df61301b9386c718b1",
+                "title": "Pitchforc : Concurrent Programming at Rack Scale",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 57,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2931243",
+                        "name": "John A. Thywissen"
+                    },
+                    {
+                        "s2_author_id": "50761695",
+                        "name": "W. Cook"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "adfa4be4e0c925866f5f4a1aba8711d56a3635d6",
+                "title": "Ingens: Huge Page Support for the OS and Hypervisor",
+                "year": 2017,
+                "venue": "OPSR",
+                "citation_count": 15,
+                "reference_count": 56,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1716807",
+                        "name": "Youngjin Kwon"
+                    },
+                    {
+                        "s2_author_id": "7279070",
+                        "name": "Hangchen Yu"
+                    },
+                    {
+                        "s2_author_id": "145758767",
+                        "name": "Simon Peter"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d63178e785f7ac24c5c140cc2d80d85ba3b58e18",
+                "title": "Sharing and Protection for Reconfigurable Fabric with X EN OS",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 71,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2574247",
+                        "name": "A. Khawaja"
+                    },
+                    {
+                        "s2_author_id": "40232936",
+                        "name": "Dan Zhang"
+                    },
+                    {
+                        "s2_author_id": "2082258108",
+                        "name": "Divya Shanmughan"
+                    },
+                    {
+                        "s2_author_id": "38566150",
+                        "name": "M. Wei"
+                    },
+                    {
+                        "s2_author_id": "1945094",
+                        "name": "Eric Schkufza"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "edb9b804a6a2ffcf90ed5ba6e6b769b89fbf7830",
+                "title": "Least Privilege Rendering in a 3D Web Browser",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2506153",
+                        "name": "J. Vilk"
+                    },
+                    {
+                        "s2_author_id": "144374414",
+                        "name": "D. Molnar"
+                    },
+                    {
+                        "s2_author_id": "20592981",
+                        "name": "E. Ofek"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145269784",
+                        "name": "B. Livshits"
+                    },
+                    {
+                        "s2_author_id": "1790000",
+                        "name": "Alexander Moshchuk"
+                    },
+                    {
+                        "s2_author_id": "2413389",
+                        "name": "Helen J. Wang"
+                    },
+                    {
+                        "s2_author_id": "2835543",
+                        "name": "Ran Gal"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5e19247300563735700e4acc705b89871ebcc253",
+                "title": "Sweet Spots and Limits for Virtualization",
+                "year": 2016,
+                "venue": "International Conference on Virtual Execution Environments",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": "This year at VEE, we added a panel to discuss the state of virtualization: what problems are solved? what problems are important? and what problems may not be worth solving? The panelist are experts in areas ranging from hardware virtualization up to language-level virtualization.",
+                "authors": [
+                    {
+                        "s2_author_id": "2642780",
+                        "name": "Carl A. Waldspurger"
+                    },
+                    {
+                        "s2_author_id": "2925003",
+                        "name": "E. Berger"
+                    },
+                    {
+                        "s2_author_id": "21975961",
+                        "name": "A. Bhattacharjee"
+                    },
+                    {
+                        "s2_author_id": "1785427",
+                        "name": "K. Pedretti"
+                    },
+                    {
+                        "s2_author_id": "145758767",
+                        "name": "Simon Peter"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5e4d4ccb3768892162c8f2061d115362cd30c104",
+                "title": "The Future of Computing Research: Industry-Academic Collaborations",
+                "year": 2016,
+                "venue": "arXiv.org",
+                "citation_count": 6,
+                "reference_count": 1,
+                "abstract": "IT-driven innovation is an enormous factor in the worldwide economic leadership of the United States. It is larger than finance, construction, or transportation, and it employs nearly 6% of the US workforce. The top three companies, as measured by market capitalization, are IT companies - Apple, Google (now Alphabet), and Microsoft. Facebook, a relatively recent entry in the top 10 list by market capitalization has surpassed Walmart, the nation's largest retailer, and the largest employer in the world. The net income of just the top three exceeds $80 billion - roughly 100 times the total budget of the NSF CISE directorate which funds 87% of computing research. In short, the direct return on federal research investments in IT research has been enormously profitable to the nation. \nThe IT industry ecosystem is also evolving. The time from conception to market of successful products has been cut from years to months. Product life cycles are increasingly a year or less. This change has pressured companies to focus industrial R&D on a pipeline or portfolio of technologies that bring immediate, or almost immediate, value to the companies. To defeat the competition and stay ahead of the pack, a company must devote resources to realizing gains that are shorter term, and must remain agile to respond quickly to market changes driven by new technologies, new startups, evolving user experience expectations, and the continuous consumer demand for new and exciting products. \nAmidst this landscape, the Computing Community Consortium convened a round-table of industry and academic participants to better understand the landscape of industry-academic interaction, and to discuss possible actions that might be taken to enhance those interactions. We close with some recommendations for actions that could expand the lively conversation we experienced at the round-table to a national scale.",
+                "authors": [
+                    {
+                        "s2_author_id": "3422239",
+                        "name": "N. Boules"
+                    },
+                    {
+                        "s2_author_id": "46928911",
+                        "name": "K. Douglas"
+                    },
+                    {
+                        "s2_author_id": "3159603",
+                        "name": "S. Feldman"
+                    },
+                    {
+                        "s2_author_id": "2322524",
+                        "name": "L. Fix"
+                    },
+                    {
+                        "s2_author_id": "1678633",
+                        "name": "Gregory Hager"
+                    },
+                    {
+                        "s2_author_id": "2341622",
+                        "name": "B. Hailpern"
+                    },
+                    {
+                        "s2_author_id": "145670946",
+                        "name": "M. Hebert"
+                    },
+                    {
+                        "s2_author_id": "1828940",
+                        "name": "D. Lopresti"
+                    },
+                    {
+                        "s2_author_id": "3393268",
+                        "name": "Beth Mynatt"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "38385932",
+                        "name": "H. Wright"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ee10d0152b6f8980b5e4a0e66bdbcb1c42ac88de",
+                "title": "Silver: A Scalable, Distributed, Multi-versioning, Always Growing (Ag) File System",
+                "year": 2016,
+                "venue": "USENIX Workshop on Hot Topics in Storage and File Systems",
+                "citation_count": 3,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38566150",
+                        "name": "M. Wei"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1804661",
+                        "name": "Ittai Abraham"
+                    },
+                    {
+                        "s2_author_id": "1753945",
+                        "name": "Udi Wieder"
+                    },
+                    {
+                        "s2_author_id": "143846212",
+                        "name": "S. Swanson"
+                    },
+                    {
+                        "s2_author_id": "1767467",
+                        "name": "D. Malkhi"
+                    },
+                    {
+                        "s2_author_id": "37531541",
+                        "name": "Amy Tai"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2405bc04bd3e4532e205a683d7425c675dca1436",
+                "title": "SurroundWeb: Mitigating Privacy Concerns in a 3D Web Browser",
+                "year": 2015,
+                "venue": "IEEE Symposium on Security and Privacy",
+                "citation_count": 38,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2506153",
+                        "name": "J. Vilk"
+                    },
+                    {
+                        "s2_author_id": "144374414",
+                        "name": "D. Molnar"
+                    },
+                    {
+                        "s2_author_id": "145269784",
+                        "name": "B. Livshits"
+                    },
+                    {
+                        "s2_author_id": "20592981",
+                        "name": "E. Ofek"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1790000",
+                        "name": "Alexander Moshchuk"
+                    },
+                    {
+                        "s2_author_id": "2413389",
+                        "name": "Helen J. Wang"
+                    },
+                    {
+                        "s2_author_id": "2835543",
+                        "name": "Ran Gal"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "15848b6b7c86a5ce8941689b262be237287b39fb",
+                "title": "Scheduling Dataflow Execution Across Multiple Accelerators",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145369739",
+                        "name": "J. Currey"
+                    },
+                    {
+                        "s2_author_id": "1883205",
+                        "name": "Adam Eversole"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3fc68a68225edce1635bc32054c1425db287fba3",
+                "title": "An introduction to computational networks and the computational network toolkit (invited talk)",
+                "year": 2014,
+                "venue": "Interspeech",
+                "citation_count": 400,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144580027",
+                        "name": "Dong Yu"
+                    },
+                    {
+                        "s2_author_id": "1883205",
+                        "name": "Adam Eversole"
+                    },
+                    {
+                        "s2_author_id": "1727524",
+                        "name": "M. Seltzer"
+                    },
+                    {
+                        "s2_author_id": "39922478",
+                        "name": "K. Yao"
+                    },
+                    {
+                        "s2_author_id": "32857606",
+                        "name": "B. Guenter"
+                    },
+                    {
+                        "s2_author_id": "2787022",
+                        "name": "Oleksii Kuchaiev"
+                    },
+                    {
+                        "s2_author_id": "1745715",
+                        "name": "F. Seide"
+                    },
+                    {
+                        "s2_author_id": "2145337420",
+                        "name": "Huaming Wang"
+                    },
+                    {
+                        "s2_author_id": "1755472",
+                        "name": "J. Droppo"
+                    },
+                    {
+                        "s2_author_id": "3109481",
+                        "name": "Zhiheng Huang"
+                    },
+                    {
+                        "s2_author_id": "1681543",
+                        "name": "G. Zweig"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145369739",
+                        "name": "J. Currey"
+                    },
+                    {
+                        "s2_author_id": "116506812",
+                        "name": "Bhaskar Mitra"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "40157a186c815289b9c4b054defe8218831edb4b",
+                "title": "SurroundWeb: Least Privilege for Immersive \"Web Rooms\"",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2506153",
+                        "name": "J. Vilk"
+                    },
+                    {
+                        "s2_author_id": "144374414",
+                        "name": "D. Molnar"
+                    },
+                    {
+                        "s2_author_id": "20592981",
+                        "name": "E. Ofek"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145269784",
+                        "name": "B. Livshits"
+                    },
+                    {
+                        "s2_author_id": "1790000",
+                        "name": "Alexander Moshchuk"
+                    },
+                    {
+                        "s2_author_id": "2413389",
+                        "name": "Helen J. Wang"
+                    },
+                    {
+                        "s2_author_id": "2835543",
+                        "name": "Ran Gal"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "678fc0c190529ae291e79b52d1e6b0c0a3413343",
+                "title": "Dynamic Instrumentation and Optimization for GPU Applications",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2128233",
+                        "name": "N. Farooqui"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "47112093",
+                        "name": "Yuan Yu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e1a7a8c9f2fcca63a731619af6077726c3e40d8a",
+                "title": "Leo: A Profile-Driven Dynamic Optimization Framework for GPU Applications",
+                "year": 2014,
+                "venue": "International Conference on Timely Results in Operating Systems",
+                "citation_count": 13,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2128233",
+                        "name": "N. Farooqui"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "47112093",
+                        "name": "Yuan Yu"
+                    },
+                    {
+                        "s2_author_id": "1718471",
+                        "name": "K. Schwan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "45fcaf11eaf31228a218a24663067dab509a1031",
+                "title": "Dandelion: a compiler and runtime for heterogeneous systems",
+                "year": 2013,
+                "venue": "Symposium on Operating Systems Principles",
+                "citation_count": 169,
+                "reference_count": 112,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "47112093",
+                        "name": "Yuan Yu"
+                    },
+                    {
+                        "s2_author_id": "145369739",
+                        "name": "J. Currey"
+                    },
+                    {
+                        "s2_author_id": "26429406",
+                        "name": "Jean-Phillipe Martin"
+                    },
+                    {
+                        "s2_author_id": "1780761",
+                        "name": "Dennis Fetterly"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "46893ef1430964f354718e5a982d990a05373a36",
+                "title": "Table of Contents",
+                "year": 2013,
+                "venue": "2022 IEEE International Conference on Distributed Computing and Electrical Circuits and Electronics (ICDCECE)",
+                "citation_count": 0,
+                "reference_count": 15,
+                "abstract": "A Novel Application Approach for Anomaly Detection and Fault Determination Process Based on Machine Learning 1 Yang Hong (Nanjing University of Aeronautics and Astronautics), Lisong Wang (Nanjing University of Aeronautics and Astronautics), Jiexiang Kang (China National Aeronautic Radio Electronics Research Institute), Hui Wang (China National Aeronautic Radio Electronics Research Institute), and Zhongjie Gao (China National Aeronautic Radio Electronics Research Institute)",
+                "authors": [
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "C. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "566ff7b7690b68ead31f897bc83914c7bfe22b38",
+                "title": "Supporting efficient aggregation in a task-based STM",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "26429406",
+                        "name": "Jean-Phillipe Martin"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "20154699",
+                        "name": "D. Murray"
+                    },
+                    {
+                        "s2_author_id": "2090818",
+                        "name": "M. Isard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "71054ce2a9b75e8e3d72caca2ab5e4361bd9ebb0",
+                "title": "Supporting Iteration in a Heterogeneous Data Flow Engine",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145369739",
+                        "name": "J. Currey"
+                    },
+                    {
+                        "s2_author_id": "2105669418",
+                        "name": "Simon Baker"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8e138f983ee3b6afd1050d9eb125de51c47153e3",
+                "title": "Distributed Optimistic Concurrency Considered Optimistic",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "26429406",
+                        "name": "Jean-Phillipe Martin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "109375204154251f0c246bf40c817f91102e8358",
+                "title": "PTask: operating system abstractions to manage GPUs as compute devices",
+                "year": 2011,
+                "venue": "Symposium on Operating Systems Principles",
+                "citation_count": 276,
+                "reference_count": 67,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145369739",
+                        "name": "J. Currey"
+                    },
+                    {
+                        "s2_author_id": "2289351",
+                        "name": "M. Silberstein"
+                    },
+                    {
+                        "s2_author_id": "31631000",
+                        "name": "Baishakhi Ray"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5e1148acdfd34f770aed41f9af3e880f31069203",
+                "title": "Operating Systems Must Support GPU Abstractions",
+                "year": 2011,
+                "venue": "USENIX Workshop on Hot Topics in Operating Systems",
+                "citation_count": 10,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145369739",
+                        "name": "J. Currey"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "905f697faf759e9cf5c3a778d1fc62e1baf8c6b3",
+                "title": "SPECTRE: speculation to hide communication latency",
+                "year": 2011,
+                "venue": "Asia Pacific Workshop on Systems",
+                "citation_count": 1,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "26429406",
+                        "name": "Jean-Phillipe Martin"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "2090818",
+                        "name": "M. Isard"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2dcf5f73d8d9fd391a5a8f5e296ae45c3ae39b86",
+                "title": "Defeating Vanish with Low-Cost Sybil Attacks Against Large DHTs",
+                "year": 2010,
+                "venue": "Network and Distributed System Security Symposium",
+                "citation_count": 139,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2532575",
+                        "name": "Scott Wolchok"
+                    },
+                    {
+                        "s2_author_id": "1735637",
+                        "name": "O. S. Hofmann"
+                    },
+                    {
+                        "s2_author_id": "2842650",
+                        "name": "N. Heninger"
+                    },
+                    {
+                        "s2_author_id": "1752733",
+                        "name": "E. Felten"
+                    },
+                    {
+                        "s2_author_id": "144883384",
+                        "name": "J. A. Halderman"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145778768",
+                        "name": "Brent Waters"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7c42772c78e1d70ceb2081da5e7bb98867b0206c",
+                "title": "Is transactional programming actually easier?",
+                "year": 2010,
+                "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+                "citation_count": 150,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1735637",
+                        "name": "O. S. Hofmann"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e8851561a4b9ef12793e58445d8ae829eb44f61",
+                "title": "Hardware transactional memory: a systems perspective",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 89,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "84ae607e916f6b82dd4a0f2d6cda95d9af6328ed",
+                "title": "Unvanish : The Remarkable Peristence of Bits",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1735637",
+                        "name": "O. S. Hofmann"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "145778768",
+                        "name": "Brent Waters"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a8b59ba1f3f040c178ecacdb990a8b8ce26472ef",
+                "title": "Maximum benefit from a minimal HTM",
+                "year": 2009,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 24,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1735637",
+                        "name": "O. S. Hofmann"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aed6e488244198d8bd9b882c8a53fff619666e7e",
+                "title": "Operating System Transactions",
+                "year": 2009,
+                "venue": "Symposium on Operating Systems Principles",
+                "citation_count": 109,
+                "reference_count": 57,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1755646",
+                        "name": "Donald E. Porter"
+                    },
+                    {
+                        "s2_author_id": "1735637",
+                        "name": "O. S. Hofmann"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1452768364",
+                        "name": "Alexander Benn"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "288489f75bb031b267fca9636c8fb84ca8135251",
+                "title": "Dependence-aware transactional memory for increased concurrency",
+                "year": 2008,
+                "venue": "2008 41st IEEE/ACM International Symposium on Microarchitecture",
+                "citation_count": 101,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1972367",
+                        "name": "Hany E. Ramadan"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c1cbbc79cf91a4d171dc7af925eed76f395d7a3a",
+                "title": "TxLinux and MetaTM: transactional memory and the operating system",
+                "year": 2008,
+                "venue": "CACM",
+                "citation_count": 9,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1972367",
+                        "name": "Hany E. Ramadan"
+                    },
+                    {
+                        "s2_author_id": "1735637",
+                        "name": "O. S. Hofmann"
+                    },
+                    {
+                        "s2_author_id": "1755646",
+                        "name": "Donald E. Porter"
+                    },
+                    {
+                        "s2_author_id": "145757795",
+                        "name": "Bhandari Aditya"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5c6489cf0aced4e0016875488d9fa2b98ef1344e",
+                "title": "MetaTM/TxLinux: Transactional Memory for an Operating System",
+                "year": 2007,
+                "venue": "IEEE Micro",
+                "citation_count": 214,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1972367",
+                        "name": "Hany E. Ramadan"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "2263142234",
+                        "name": "Donald E. Porter"
+                    },
+                    {
+                        "s2_author_id": "1735637",
+                        "name": "O. S. Hofmann"
+                    },
+                    {
+                        "s2_author_id": "145757795",
+                        "name": "Bhandari Aditya"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a55421d1f8bda8d537019d0bfc485e2a6ef7f42b",
+                "title": "TxLinux: using and managing hardware transactional memory in an operating system",
+                "year": 2007,
+                "venue": "Symposium on Operating Systems Principles",
+                "citation_count": 140,
+                "reference_count": 55,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1735637",
+                        "name": "O. S. Hofmann"
+                    },
+                    {
+                        "s2_author_id": "1755646",
+                        "name": "Donald E. Porter"
+                    },
+                    {
+                        "s2_author_id": "1972367",
+                        "name": "Hany E. Ramadan"
+                    },
+                    {
+                        "s2_author_id": "145757795",
+                        "name": "Bhandari Aditya"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a76c7a7738dc059387134cbddfbb23ef1ce3d92c",
+                "title": "Improved error reporting for software that uses black-box components",
+                "year": 2007,
+                "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+                "citation_count": 66,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1434549539",
+                        "name": "J. Ha"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "2111090524",
+                        "name": "Jason V. Davis"
+                    },
+                    {
+                        "s2_author_id": "48315986",
+                        "name": "Indrajit Roy"
+                    },
+                    {
+                        "s2_author_id": "1972367",
+                        "name": "Hany E. Ramadan"
+                    },
+                    {
+                        "s2_author_id": "1755646",
+                        "name": "Donald E. Porter"
+                    },
+                    {
+                        "s2_author_id": "153642390",
+                        "name": "David L. Chen"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cc63315834fe91eece75c1ab1d5987bdeae7f41c",
+                "title": "Solving Difficult HTM Problems Without Difficult Hardware",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 17,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1735637",
+                        "name": "O. S. Hofmann"
+                    },
+                    {
+                        "s2_author_id": "1755646",
+                        "name": "Donald E. Porter"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1972367",
+                        "name": "Hany E. Ramadan"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55b31cfa79b978ef75c82f28fd48407400fca07c",
+                "title": "Contemplating Navel : Improving Software Error Reporting by Classifying Program Behavior",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1434549539",
+                        "name": "J. Ha"
+                    },
+                    {
+                        "s2_author_id": "1972367",
+                        "name": "Hany E. Ramadan"
+                    },
+                    {
+                        "s2_author_id": "2111090524",
+                        "name": "Jason V. Davis"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "48315986",
+                        "name": "Indrajit Roy"
+                    },
+                    {
+                        "s2_author_id": "1755646",
+                        "name": "Donald E. Porter"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cf56894361ed8364d8d2a9894e38a13ea5dd69be",
+                "title": "The Linux Kernel: A Challenging Workload for Transactional Memory",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1972367",
+                        "name": "Hany E. Ramadan"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f8909618a6eedc7cc28077eeaa1ad1ca8f4dc742",
+                "title": "Cost-Sensitive Decision Tree Learning for Forensic Classification",
+                "year": 2006,
+                "venue": "European Conference on Machine Learning",
+                "citation_count": 40,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2111090524",
+                        "name": "Jason V. Davis"
+                    },
+                    {
+                        "s2_author_id": "1434549539",
+                        "name": "J. Ha"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1972367",
+                        "name": "Hany E. Ramadan"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2a19d36ee21f1ac10e5e7d416042b107852cabef",
+                "title": "RGB-Z: Mapping a Sparse Depth Map to a High Resolution RGB Camera Image",
+                "year": 2005,
+                "venue": "Computer Vision and Pattern Recognition",
+                "citation_count": 0,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34688049",
+                        "name": "A. Rafii"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1452079558",
+                        "name": "Peter Zhao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ce1cf5162c7c4d95351af027bfa8f958553d7f3e",
+                "title": "This Paper Is Included in the Proceedings of the 12th Usenix Symposium on Operating Systems Design and Implementation (osdi '16). Coordinated and Efficient Huge Page Management with Ingens Coordinated and Efficient Huge Page Management with Ingens",
+                "year": null,
+                "venue": "",
+                "citation_count": 179,
+                "reference_count": 62,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1716807",
+                        "name": "Youngjin Kwon"
+                    },
+                    {
+                        "s2_author_id": "7279070",
+                        "name": "Hangchen Yu"
+                    },
+                    {
+                        "s2_author_id": "145758767",
+                        "name": "Simon Peter"
+                    },
+                    {
+                        "s2_author_id": "1692790",
+                        "name": "Christopher J. Rossbach"
+                    },
+                    {
+                        "s2_author_id": "1683338",
+                        "name": "Emmett Witchel"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2188821219",
+                "name": "Yineng Yan"
+            },
+            {
+                "s2_author_id": "1935416596",
+                "name": "William Ruys"
+            },
+            {
+                "s2_author_id": "2297999897",
+                "name": "Hochan Lee"
+            },
+            {
+                "s2_author_id": "2391239235",
+                "name": "Ian Henriksen"
+            },
+            {
+                "s2_author_id": "37909495",
+                "name": "A. Peters"
+            },
+            {
+                "s2_author_id": "2188804311",
+                "name": "Sean Stephens"
+            },
+            {
+                "s2_author_id": "12957494",
+                "name": "Bozhi You"
+            },
+            {
+                "s2_author_id": "3215063",
+                "name": "Henrique Fingler"
+            },
+            {
+                "s2_author_id": "2273774126",
+                "name": "Martin Burtscher"
+            },
+            {
+                "s2_author_id": "2282532814",
+                "name": "Milos Gligoric"
+            },
+            {
+                "s2_author_id": "1776186",
+                "name": "K. Pingali"
+            },
+            {
+                "s2_author_id": "143676711",
+                "name": "M. Erez"
+            },
+            {
+                "s2_author_id": "2395747",
+                "name": "G. Biros"
+            },
+            {
+                "s2_author_id": "2296649251",
+                "name": "Aditya Thimmaiah"
+            },
+            {
+                "s2_author_id": "2344804562",
+                "name": "Zijian Yi"
+            },
+            {
+                "s2_author_id": "2368546685",
+                "name": "Joseph Kenis"
+            },
+            {
+                "s2_author_id": "2313115015",
+                "name": "Shreya Talati"
+            },
+            {
+                "s2_author_id": "2313142693",
+                "name": "Jaeyoung Park"
+            },
+            {
+                "s2_author_id": "2189742715",
+                "name": "James Almgren-Bell"
+            },
+            {
+                "s2_author_id": "2313117802",
+                "name": "Milinda Fernando"
+            },
+            {
+                "s2_author_id": "2265494657",
+                "name": "Leonidas Lampropoulos"
+            },
+            {
+                "s2_author_id": "34348348",
+                "name": "Joshua Landgraf"
+            },
+            {
+                "s2_author_id": "2122814775",
+                "name": "Tiffany Yang"
+            },
+            {
+                "s2_author_id": "2306148636",
+                "name": "Will Lin"
+            },
+            {
+                "s2_author_id": "1945094",
+                "name": "Eric Schkufza"
+            },
+            {
+                "s2_author_id": "1644897206",
+                "name": "Zhiting Zhu"
+            },
+            {
+                "s2_author_id": "2176544712",
+                "name": "Esther Yoon"
+            },
+            {
+                "s2_author_id": "2072783421",
+                "name": "Zhipeng Jia"
+            },
+            {
+                "s2_author_id": "1683338",
+                "name": "Emmett Witchel"
+            },
+            {
+                "s2_author_id": "31871632",
+                "name": "Isha Tarte"
+            },
+            {
+                "s2_author_id": "7279070",
+                "name": "Hangchen Yu"
+            },
+            {
+                "s2_author_id": "1644635852",
+                "name": "Ariel Szekely"
+            },
+            {
+                "s2_author_id": "146267713",
+                "name": "Bodun Hu"
+            },
+            {
+                "s2_author_id": "152426179",
+                "name": "Aditya Akella"
+            },
+            {
+                "s2_author_id": "2211979483",
+                "name": "Matthew Giordano"
+            },
+            {
+                "s2_author_id": "2118367060",
+                "name": "Hochan Lee"
+            },
+            {
+                "s2_author_id": "35265702",
+                "name": "Ian Henriksen"
+            },
+            {
+                "s2_author_id": "48489711",
+                "name": "Martin Burtscher"
+            },
+            {
+                "s2_author_id": "2020926",
+                "name": "Milo\u0161 Gligori\u0107"
+            },
+            {
+                "s2_author_id": "18867126",
+                "name": "K. Schulz"
+            },
+            {
+                "s2_author_id": "2937172",
+                "name": "Robert Lyerly"
+            },
+            {
+                "s2_author_id": "2152641881",
+                "name": "Carlos Bilbao"
+            },
+            {
+                "s2_author_id": "7761504",
+                "name": "Changwoo Min"
+            },
+            {
+                "s2_author_id": "1729107",
+                "name": "B. Ravindran"
+            },
+            {
+                "s2_author_id": "2109430837",
+                "name": "Will Lin"
+            },
+            {
+                "s2_author_id": "1999972",
+                "name": "Rachata Ausavarungnirun"
+            },
+            {
+                "s2_author_id": "144661813",
+                "name": "Vance Miller"
+            },
+            {
+                "s2_author_id": "33801185",
+                "name": "Saugata Ghose"
+            },
+            {
+                "s2_author_id": "34726949",
+                "name": "Jayneel Gandhi"
+            },
+            {
+                "s2_author_id": "2111543",
+                "name": "Adwait Jog"
+            },
+            {
+                "s2_author_id": "145929920",
+                "name": "O. Mutlu"
+            },
+            {
+                "s2_author_id": "144085074",
+                "name": "M. Esteva"
+            },
+            {
+                "s2_author_id": "2388999",
+                "name": "S. Strover"
+            },
+            {
+                "s2_author_id": "2118348869",
+                "name": "Soyoung Park"
+            },
+            {
+                "s2_author_id": "2931243",
+                "name": "John A. Thywissen"
+            },
+            {
+                "s2_author_id": "2106930974",
+                "name": "Nader Al Awar"
+            },
+            {
+                "s2_author_id": "65987609",
+                "name": "Kush Jain"
+            },
+            {
+                "s2_author_id": "2621923",
+                "name": "Amogh Akshintala"
+            },
+            {
+                "s2_author_id": "3349735",
+                "name": "Timothy Merrifield"
+            },
+            {
+                "s2_author_id": "48062937",
+                "name": "T. Hunt"
+            },
+            {
+                "s2_author_id": "1997092",
+                "name": "Yige Hu"
+            },
+            {
+                "s2_author_id": "2441067",
+                "name": "Arthur Peters"
+            },
+            {
+                "s2_author_id": "2116520665",
+                "name": "Chen Li"
+            },
+            {
+                "s2_author_id": "1686367",
+                "name": "Youtao Zhang"
+            },
+            {
+                "s2_author_id": "144270189",
+                "name": "Yang Guo"
+            },
+            {
+                "s2_author_id": "97672105",
+                "name": "Jun Yang"
+            },
+            {
+                "s2_author_id": "38566150",
+                "name": "M. Wei"
+            },
+            {
+                "s2_author_id": "145118978",
+                "name": "Ahmet \u00c7elik"
+            },
+            {
+                "s2_author_id": "5890416",
+                "name": "Pengyu Nie"
+            },
+            {
+                "s2_author_id": "1755646",
+                "name": "Donald E. Porter"
+            },
+            {
+                "s2_author_id": "2574247",
+                "name": "A. Khawaja"
+            },
+            {
+                "s2_author_id": "2062756794",
+                "name": "R. Prakash"
+            },
+            {
+                "s2_author_id": "37531541",
+                "name": "Amy Tai"
+            },
+            {
+                "s2_author_id": "1804661",
+                "name": "Ittai Abraham"
+            },
+            {
+                "s2_author_id": "9773986",
+                "name": "Maithem Munshed"
+            },
+            {
+                "s2_author_id": "50646113",
+                "name": "Medhavi Dhawan"
+            },
+            {
+                "s2_author_id": "5170084",
+                "name": "Jim Stabile"
+            },
+            {
+                "s2_author_id": "1753945",
+                "name": "Udi Wieder"
+            },
+            {
+                "s2_author_id": "2948179",
+                "name": "S. Fritchie"
+            },
+            {
+                "s2_author_id": "143846212",
+                "name": "S. Swanson"
+            },
+            {
+                "s2_author_id": "3122063",
+                "name": "M. Freedman"
+            },
+            {
+                "s2_author_id": "1767467",
+                "name": "D. Malkhi"
+            },
+            {
+                "s2_author_id": "32068372",
+                "name": "Gurprit Johal"
+            },
+            {
+                "s2_author_id": "2907830",
+                "name": "Vjekoslav Brajkovic"
+            },
+            {
+                "s2_author_id": "145062501",
+                "name": "James Chang"
+            },
+            {
+                "s2_author_id": "2757319",
+                "name": "K. Goyal"
+            },
+            {
+                "s2_author_id": "2069468997",
+                "name": "Kevin James"
+            },
+            {
+                "s2_author_id": "32765848",
+                "name": "Zeeshan Lokhandwala"
+            },
+            {
+                "s2_author_id": "2111088826",
+                "name": "Anny Mart\u00ednez"
+            },
+            {
+                "s2_author_id": "9524260",
+                "name": "Roger Michoud"
+            },
+            {
+                "s2_author_id": "2099122826",
+                "name": "Srinivas Neginhal"
+            },
+            {
+                "s2_author_id": "11584872",
+                "name": "K. Spirov"
+            },
+            {
+                "s2_author_id": "50761695",
+                "name": "W. Cook"
+            },
+            {
+                "s2_author_id": "1716807",
+                "name": "Youngjin Kwon"
+            },
+            {
+                "s2_author_id": "145758767",
+                "name": "Simon Peter"
+            },
+            {
+                "s2_author_id": "40232936",
+                "name": "Dan Zhang"
+            },
+            {
+                "s2_author_id": "2082258108",
+                "name": "Divya Shanmughan"
+            },
+            {
+                "s2_author_id": "2506153",
+                "name": "J. Vilk"
+            },
+            {
+                "s2_author_id": "144374414",
+                "name": "D. Molnar"
+            },
+            {
+                "s2_author_id": "20592981",
+                "name": "E. Ofek"
+            },
+            {
+                "s2_author_id": "145269784",
+                "name": "B. Livshits"
+            },
+            {
+                "s2_author_id": "1790000",
+                "name": "Alexander Moshchuk"
+            },
+            {
+                "s2_author_id": "2413389",
+                "name": "Helen J. Wang"
+            },
+            {
+                "s2_author_id": "2835543",
+                "name": "Ran Gal"
+            },
+            {
+                "s2_author_id": "2642780",
+                "name": "Carl A. Waldspurger"
+            },
+            {
+                "s2_author_id": "2925003",
+                "name": "E. Berger"
+            },
+            {
+                "s2_author_id": "21975961",
+                "name": "A. Bhattacharjee"
+            },
+            {
+                "s2_author_id": "1785427",
+                "name": "K. Pedretti"
+            },
+            {
+                "s2_author_id": "3422239",
+                "name": "N. Boules"
+            },
+            {
+                "s2_author_id": "46928911",
+                "name": "K. Douglas"
+            },
+            {
+                "s2_author_id": "3159603",
+                "name": "S. Feldman"
+            },
+            {
+                "s2_author_id": "2322524",
+                "name": "L. Fix"
+            },
+            {
+                "s2_author_id": "1678633",
+                "name": "Gregory Hager"
+            },
+            {
+                "s2_author_id": "2341622",
+                "name": "B. Hailpern"
+            },
+            {
+                "s2_author_id": "145670946",
+                "name": "M. Hebert"
+            },
+            {
+                "s2_author_id": "1828940",
+                "name": "D. Lopresti"
+            },
+            {
+                "s2_author_id": "3393268",
+                "name": "Beth Mynatt"
+            },
+            {
+                "s2_author_id": "38385932",
+                "name": "H. Wright"
+            },
+            {
+                "s2_author_id": "145369739",
+                "name": "J. Currey"
+            },
+            {
+                "s2_author_id": "1883205",
+                "name": "Adam Eversole"
+            },
+            {
+                "s2_author_id": "144580027",
+                "name": "Dong Yu"
+            },
+            {
+                "s2_author_id": "1727524",
+                "name": "M. Seltzer"
+            },
+            {
+                "s2_author_id": "39922478",
+                "name": "K. Yao"
+            },
+            {
+                "s2_author_id": "32857606",
+                "name": "B. Guenter"
+            },
+            {
+                "s2_author_id": "2787022",
+                "name": "Oleksii Kuchaiev"
+            },
+            {
+                "s2_author_id": "1745715",
+                "name": "F. Seide"
+            },
+            {
+                "s2_author_id": "2145337420",
+                "name": "Huaming Wang"
+            },
+            {
+                "s2_author_id": "1755472",
+                "name": "J. Droppo"
+            },
+            {
+                "s2_author_id": "3109481",
+                "name": "Zhiheng Huang"
+            },
+            {
+                "s2_author_id": "1681543",
+                "name": "G. Zweig"
+            },
+            {
+                "s2_author_id": "116506812",
+                "name": "Bhaskar Mitra"
+            },
+            {
+                "s2_author_id": "2128233",
+                "name": "N. Farooqui"
+            },
+            {
+                "s2_author_id": "47112093",
+                "name": "Yuan Yu"
+            },
+            {
+                "s2_author_id": "1718471",
+                "name": "K. Schwan"
+            },
+            {
+                "s2_author_id": "26429406",
+                "name": "Jean-Phillipe Martin"
+            },
+            {
+                "s2_author_id": "1780761",
+                "name": "Dennis Fetterly"
+            },
+            {
+                "s2_author_id": "20154699",
+                "name": "D. Murray"
+            },
+            {
+                "s2_author_id": "2090818",
+                "name": "M. Isard"
+            },
+            {
+                "s2_author_id": "2105669418",
+                "name": "Simon Baker"
+            },
+            {
+                "s2_author_id": "2289351",
+                "name": "M. Silberstein"
+            },
+            {
+                "s2_author_id": "31631000",
+                "name": "Baishakhi Ray"
+            },
+            {
+                "s2_author_id": "2532575",
+                "name": "Scott Wolchok"
+            },
+            {
+                "s2_author_id": "1735637",
+                "name": "O. S. Hofmann"
+            },
+            {
+                "s2_author_id": "2842650",
+                "name": "N. Heninger"
+            },
+            {
+                "s2_author_id": "1752733",
+                "name": "E. Felten"
+            },
+            {
+                "s2_author_id": "144883384",
+                "name": "J. A. Halderman"
+            },
+            {
+                "s2_author_id": "145778768",
+                "name": "Brent Waters"
+            },
+            {
+                "s2_author_id": "1452768364",
+                "name": "Alexander Benn"
+            },
+            {
+                "s2_author_id": "1972367",
+                "name": "Hany E. Ramadan"
+            },
+            {
+                "s2_author_id": "145757795",
+                "name": "Bhandari Aditya"
+            },
+            {
+                "s2_author_id": "2263142234",
+                "name": "Donald E. Porter"
+            },
+            {
+                "s2_author_id": "1434549539",
+                "name": "J. Ha"
+            },
+            {
+                "s2_author_id": "2111090524",
+                "name": "Jason V. Davis"
+            },
+            {
+                "s2_author_id": "48315986",
+                "name": "Indrajit Roy"
+            },
+            {
+                "s2_author_id": "153642390",
+                "name": "David L. Chen"
+            },
+            {
+                "s2_author_id": "34688049",
+                "name": "A. Rafii"
+            },
+            {
+                "s2_author_id": "1452079558",
+                "name": "Peter Zhao"
+            }
+        ],
+        "total_co_authors": 157,
+        "papers_retrieved": 84
+    }
+}

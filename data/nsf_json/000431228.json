@@ -1,0 +1,2850 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000431228",
+        "name": "Ausif Mahmood",
+        "primary_affiliation": "THE UNIVERSITY OF BRIDGEPORT, INC.,",
+        "primary_department": null,
+        "all_affiliations": [
+            "THE UNIVERSITY OF BRIDGEPORT, INC.,"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "CT"
+        ],
+        "perf_cities": [
+            "BRIDGEPORT"
+        ],
+        "org_names": [
+            "NEW UNIVERSITY OF BRIDGEPORT, INC., THE"
+        ],
+        "org_ueis": [
+            "VET6MQCFKL83"
+        ],
+        "inst_types": [
+            "industry"
+        ],
+        "emails": [
+            "mahmood@bridgeport.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2519920",
+                "title": "Collaborative Research: EPIIC: Accelerating sustainable partnerships for innovation, research, and entrepreneurship in AI (ASPIRE-AI)",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-10-01",
+                "exp_date": "2028-09-30",
+                "award_amount": 400000.0,
+                "total_amount": 400000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [
+                    "000359477",
+                    "000863404"
+                ],
+                "program_elements": [
+                    "EPIIC-Enbl Part Incr Innov Cap"
+                ],
+                "program_codes": [
+                    "285Y00"
+                ],
+                "program_references": [],
+                "program_ref_codes": [],
+                "dir_abbr": "TIP",
+                "div_abbr": "ITE",
+                "nsf_directorate": null,
+                "fund_division": "Innovation and Technology Ecosystems",
+                "cfda_num": "47.084",
+                "po_name": "Sharon Bird",
+                "keywords": [
+                    "innovation",
+                    "aspire",
+                    "partnerships",
+                    "regional",
+                    "external",
+                    "workforce",
+                    "development",
+                    "institutions",
+                    "sustainable",
+                    "institutional"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000863404",
+            "000359477"
+        ],
+        "program_elements": [
+            "EPIIC-Enbl Part Incr Innov Cap"
+        ],
+        "program_codes": [
+            "285Y00"
+        ],
+        "program_references": [],
+        "program_ref_codes": [],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "TIP"
+        ],
+        "div_abbrs": [
+            "ITE"
+        ],
+        "fund_divisions": [
+            "Innovation and Technology Ecosystems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.084"
+        ],
+        "program_officers": [
+            "Sharon Bird"
+        ],
+        "keywords": [
+            "innovation",
+            "aspire",
+            "partnerships",
+            "regional",
+            "external",
+            "workforce",
+            "development",
+            "institutions",
+            "sustainable",
+            "institutional",
+            "faculty",
+            "advance",
+            "through",
+            "epiic",
+            "entrepreneurship",
+            "drive",
+            "enhance",
+            "partnership",
+            "engagement",
+            "address"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.38
+    },
+    "s2_profile": {
+        "s2_author_id": "143794144",
+        "name": "Ausif Mahmood",
+        "affiliations": [],
+        "paper_count": 108,
+        "citation_count": 3833,
+        "h_index": 24,
+        "papers": [
+            {
+                "s2_paper_id": "63b26aa4f5f2b6e6b50607b81f985776559aaae1",
+                "title": "CacheFormer: High Attention-Based Segment Caching",
+                "year": 2025,
+                "venue": "Applied Informatics",
+                "citation_count": 1,
+                "reference_count": 30,
+                "abstract": "Efficiently handling long contexts in transformer-based language models with low perplexity is an active area of research. Numerous recent approaches like Linformer, Longformer, Performer, and Structured state space models (SSMs), have not fully resolved this problem. All these models strive to reduce the quadratic time complexity of the attention mechanism while minimizing the loss in quality due to the effective compression of the long context. Inspired by the cache and virtual memory principle in computers, where in case of a cache miss, not only the needed data are retrieved from the memory, but the adjacent data are also obtained, we apply this concept to handling long contexts by dividing it into small segments. In our design, we retrieve the nearby segments in an uncompressed form when high segment-level attention occurs at the compressed level. Our enhancements for handling long context include aggregating four attention mechanisms consisting of short sliding window attention, long compressed segmented attention, dynamically retrieving top-k high-attention uncompressed segments, and overlapping segments in long segment attention to avoid segment fragmentation. These enhancements result in an architecture that outperforms existing SOTA architectures with an average perplexity improvement of 8.5% over similar model sizes.",
+                "authors": [
+                    {
+                        "s2_author_id": "2356739743",
+                        "name": "Sushant Singh"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "666211fcd3afd10eacf8bb03cd7466b3918574d1",
+                "title": "One-Shot Autoregressive Generation of Combinatorial Optimization Solutions Based on the Large Language Model Architecture and Learning Algorithms",
+                "year": 2025,
+                "venue": "Applied Informatics",
+                "citation_count": 2,
+                "reference_count": 37,
+                "abstract": "Large Language Models (LLMs) have immensely advanced the field of Artificial Intelligence (AI), with recent models being able to perform chain-of-thought reasoning and solve complex mathematical problems, ranging from theorem proving to ones involving advanced calculus. The success of LLMs derives from a combination of the Transformer architecture with its attention mechanism, the autoregressive training methodology with masked attention, and the alignment fine-tuning via reinforcement learning algorithms. In this research, we attempt to explore a possible solution to the fundamental NP-hard problem of combinatorial optimization, in particular, the Traveling Salesman Problem (TSP), by following the LLM approach in terms of the architecture and training algorithms. Similar to the LLM design, which is trained in an autoregressive manner to predict the next token, our model is trained to predict the next node in a TSP graph. After the model is trained on random TSP graphs with known near-optimal solutions, we fine-tune the model using Direct Preference Optimization (DPO). The tour generation in a trained model is autoregressive one-step generation with no need for iterative refinement. Our results are very promising and indicate that, for TSP graphs up to 100 nodes, a relatively small amount of training data yield solutions within a few percent of the optimal. This optimization improves if more data are used to train the model.",
+                "authors": [
+                    {
+                        "s2_author_id": "3215266",
+                        "name": "Bishad Ghimire"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2264323310",
+                        "name": "Khaled Elleithy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6b48528c75349f75cb34c363c4d3cca8c4563a2e",
+                "title": "Comprehensive Review of Robotics Operating System-Based Reinforcement Learning in Robotics",
+                "year": 2025,
+                "venue": "Applied Sciences",
+                "citation_count": 9,
+                "reference_count": 54,
+                "abstract": "Common challenges in the area of robotics include issues such as sensor modeling, dynamic operating environments, and limited on-broad computational resources. To improve decision making, robots need a dependable framework to facilitate communication between different modules and the optimal action for real-world applications. The Robotics Operating System (ROS) and Reinforcement Learning (RL) are two promising approaches that help accomplish precise control, seamless integration of sensors-actuators, and exhibit learned behavior. The ROS enables seamless communication between heterogeneous components, while RL focuses on learning optimal behaviors through trial-and-error scenarios. Combining the ROS and RL offers superior decision making, improved perception, enhanced automation, and reliability. This work focuses on investigating ROS-based RL applications across various domains, aiming to enhance understanding through comprehensive discussion, analysis, and summarization. We base our evaluation on the application area, type of RL algorithm used, and degree of ROS\u2013RL integration. Additionally, we provide summary of seminal works that define the current state of the art, along with GitHub repositories and resources for research purposes. Based on the review of successfully implemented projects, we make recommendations highlighting the advantages and limitations of RL techniques for specific applications and environments. The ultimate goal of this work is to advance the robotics field by providing a comprehensive overview of the recent important works that incorporate both the ROS and RL, thereby improving the adaptability of these emerging techniques.",
+                "authors": [
+                    {
+                        "s2_author_id": "1384209752",
+                        "name": "Mohammed Aljamal"
+                    },
+                    {
+                        "s2_author_id": "2345121605",
+                        "name": "Sarosh Patel"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b1319a67eb9a67b9135e987afb645dec09171974",
+                "title": "Neural Attention: A Novel Mechanism for Enhanced Expressive Power in Transformer Models",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": "Transformer models typically calculate attention matrices using dot products, which have limitations when capturing nonlinear relationships between embedding vectors. We propose Neural Attention, a technique that replaces dot products with feed-forward networks, enabling a more expressive representation of relationships between tokens. This approach modifies only the attention matrix calculation while preserving the matrix dimensions, making it easily adaptable to existing transformer-based architectures. We provide a detailed mathematical justification for why Neural Attention increases representational capacity and conduct controlled experiments to validate this claim. When comparing Neural Attention and Dot-Product Attention, NLP experiments on WikiText-103 show a reduction in perplexity of over 2 percent. Similarly, experiments on CIFAR-10 and CIFAR-100 show improvements in accuracy of more than 4 percentage points for image classification tasks. While Neural Attention introduces higher computational demands, we develop techniques to mitigate these challenges, ensuring practical usability without sacrificing the increased expressivity it provides. This work establishes Neural Attention as an effective means of enhancing the predictive capabilities of transformer models across a variety of applications. The code for all experiments is available at https://github.com/awayfromzel/neural-attention-research.",
+                "authors": [
+                    {
+                        "s2_author_id": "2346977227",
+                        "name": "Andrew DiGiugno"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "286a643cebfa8149f02ead76b0be31caa7d8735f",
+                "title": "xLSTMTime : Long-term Time Series Forecasting With xLSTM",
+                "year": 2024,
+                "venue": "Applied Informatics",
+                "citation_count": 53,
+                "reference_count": 28,
+                "abstract": "In recent years, transformer-based models have gained prominence in multivariate long-term time series forecasting (LTSF), demonstrating significant advancements despite facing challenges such as high computational demands, difficulty in capturing temporal dynamics, and managing long-term dependencies. The emergence of LTSF-Linear, with its straightforward linear architecture, has notably outperformed transformer-based counterparts, prompting a reevaluation of the transformer\u2019s utility in time series forecasting. In response, this paper presents an adaptation of a recent architecture, termed extended LSTM (xLSTM), for LTSF. xLSTM incorporates exponential gating and a revised memory structure with higher capacity that has good potential for LTSF. Our adopted architecture for LTSF, termed xLSTMTime, surpasses current approaches. We compare xLSTMTime\u2019s performance against various state-of-the-art models across multiple real-world datasets, demonstrating superior forecasting capabilities. Our findings suggest that refined recurrent architectures can offer competitive alternatives to transformer-based models in LTSF tasks, potentially redefining the landscape of time series forecasting.",
+                "authors": [
+                    {
+                        "s2_author_id": "2302020832",
+                        "name": "Musleh Alharthi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "933405020f4bd666bda715d8539cc44df090e310",
+                "title": "Enhanced Linear and Vision Transformer-Based Architectures for Time Series Forecasting",
+                "year": 2024,
+                "venue": "Big Data and Cognitive Computing",
+                "citation_count": 9,
+                "reference_count": 26,
+                "abstract": "Time series forecasting has been a challenging area in the field of Artificial Intelligence. Various approaches such as linear neural networks, recurrent linear neural networks, Convolutional Neural Networks, and recently transformers have been attempted for the time series forecasting domain. Although transformer-based architectures have been outstanding in the Natural Language Processing domain, especially in autoregressive language modeling, the initial attempts to use transformers in the time series arena have met mixed success. A recent important work indicating simple linear networks outperform transformer-based designs. We investigate this paradox in detail comparing the linear neural network- and transformer-based designs, providing insights into why a certain approach may be better for a particular type of problem. We also improve upon the recently proposed simple linear neural network-based architecture by using dual pipelines with batch normalization and reversible instance normalization. Our enhanced architecture outperforms all existing architectures for time series forecasting on a majority of the popular benchmarks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2302020832",
+                        "name": "Musleh Alharthi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5f355ed5b0b769d5f68be9914057e77a686b6c7c",
+                "title": "Incorporating Derivative-Free Convexity with Trigonometric Simplex Designs for Learning-Rate Estimation of Stochastic Gradient-Descent Method",
+                "year": 2023,
+                "venue": "Electronics",
+                "citation_count": 2,
+                "reference_count": 8,
+                "abstract": "This paper proposes a novel mathematical theory of adaptation to convexity of loss functions based on the definition of the condense-discrete convexity (CDC) method. The developed theory is considered to be of immense value to stochastic settings and is used for developing the well-known stochastic gradient-descent (SGD) method. The successful contribution of change of the convexity definition impacts the exploration of the learning-rate scheduler used in the SGD method and therefore impacts the convergence rate of the solution that is used for measuring the effectiveness of deep networks. In our development of methodology, the convexity method CDC and learning rate are directly related to each other through the difference operator. In addition, we have incorporated the developed theory of adaptation with trigonometric simplex (TS) designs to explore different learning rate schedules for the weight and bias parameters within the network. Experiments confirm that by using the new definition of convexity to explore learning rate schedules, the optimization is more effective in practice and has a strong effect on the training of the deep neural network.",
+                "authors": [
+                    {
+                        "s2_author_id": "2568817",
+                        "name": "Emre Tokgoz"
+                    },
+                    {
+                        "s2_author_id": "51117084",
+                        "name": "Hassan Musafer"
+                    },
+                    {
+                        "s2_author_id": "1852354",
+                        "name": "M. Faezipour"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "70b9120e8fba913b2ea1b55b3c5a3c8b8b0ed12f",
+                "title": "Hybrid Parallel Ant Colony Optimization for Application to Quantum Computing to Solve Large-Scale Combinatorial Optimization Problems",
+                "year": 2023,
+                "venue": "Applied Sciences",
+                "citation_count": 6,
+                "reference_count": 18,
+                "abstract": "Quantum computing is a promising technology that may provide breakthrough solutions to today\u2019s difficult problems such as breaking encryption and solving large-scale combinatorial optimization problems. An algorithm referred to as Quantum Approximate Optimization Algorithm (QAOA) has been recently proposed to approximately solve hard problems using a protocol know as bang\u2013bang. The technique is based on unitary evolution using a Hamiltonian encoding of the objective function of the combinatorial optimization problem. The QAOA was explored in the context of several optimization problems such as the Max-Cut problem and the Traveling Salesman Problem (TSP). Due to the relatively small node-size solution capability of the available quantum computers and simulators, we developed a hybrid approach where sub-graphs of a TSP tour can be executed on a quantum computer, and the results from the quantum optimization are combined for a further optimization of the whole tour. Since the local optimization of a sub-graph is prone to becoming trapped in a local minimum, we overcame this problem by using a parallel Ant Colony Optimization (ACO) algorithm with periodic pheromone exchange between colonies. Our method exceeds existing approaches which have attempted partitioning a graph for small problems (less than 48 nodes) with sub-optimal results. We obtained optimum results for benchmarks with less than 150 nodes and results usually within 1% of the known optimal solution for benchmarks with around 2000 nodes.",
+                "authors": [
+                    {
+                        "s2_author_id": "3215266",
+                        "name": "Bishad Ghimire"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2264323310",
+                        "name": "Khaled Elleithy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7254888fb04e0dda491031a1f6a76780f181f499",
+                "title": "High-dimensional normalized data profiles for testing derivative-free optimization algorithms",
+                "year": 2022,
+                "venue": "PeerJ Computer Science",
+                "citation_count": 5,
+                "reference_count": 51,
+                "abstract": "This article provides a new tool for examining the efficiency and robustness of derivative-free optimization algorithms based on high-dimensional normalized data profiles that test a variety of performance metrics. Unlike the traditional data profiles that examine a single dimension, the proposed data profiles require several dimensions in order to analyze the relative performance of different optimization solutions. To design a use case, we utilize five sequences (solvers) of trigonometric simplex designs that extract different features of non-isometric reflections, as an example to show how various metrics (dimensions) are essential to provide a comprehensive evaluation about a particular solver relative to others. In addition, each designed sequence can rotate the starting simplex through an angle to designate the direction of the simplex. This type of features extraction is applied to each sequence of the triangular simplexes to determine a global minimum for a mathematical problem. To allocate an optimal sequence of trigonometric simplex designs, a linear model is used with the proposed data profiles to examine the convergence rate of the five simplexes. Furthermore, we compare the proposed five simplexes to an optimized version of the Nelder\u2013Mead algorithm known as the Genetic Nelder\u2013Mead algorithm. The experimental results demonstrate that the proposed data profiles lead to a better examination of the reliability and robustness for the considered solvers from a more comprehensive perspective than the existing data profiles. Finally, the high-dimensional data profiles reveal that the proposed solvers outperform the genetic solvers for all accuracy tests.",
+                "authors": [
+                    {
+                        "s2_author_id": "51117084",
+                        "name": "Hassan Musafer"
+                    },
+                    {
+                        "s2_author_id": "2568817",
+                        "name": "Emre Tokgoz"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "57ec5924c81c18b9e248221c4b6d76ad475e6901",
+                "title": "Hybrid Quantum Approximate Optimization Using Enhanced Ant Colony Optimization to Solve Large-Scale Combinatorial Optimization Problems",
+                "year": 2021,
+                "venue": "2021 8th International Conference on Soft Computing & Machine Intelligence (ISCMI)",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": "Quantum computing is a promising technology that may provide breakthrough solutions to today\u2019s difficult problems such as breaking encryption and solving large-scale combinatorial optimization problems. A class of algorithms referred to as Quantum Approximate Optimization Algorithm (QAOA) have been recently proposed. QAOA attempts to approximately solve hard problems using a protocol know as bang-bang. The technique is based on the unitary evolution using a Hamiltonian encoding of the objective function of the combinatorial optimization problem. QAOA has been explored in the context of several optimization problems such as Max-Cut problem, variational Eigenvalue problem etc. Recently, attempts have been made to create QAOA for the Traveling Salesman Problem (TSP). Due to small node size and limited solution capability of the currently available Quantum computers and/or simulators, we develop a hybrid approach where subgraphs of a TSP tour are executed on a Quantum computer and the results from the quantum optimization are combined in further optimization of the whole tour. Since the local optimization of a subgraph is prone to getting stuck in a local minima, we overcome this problem by using a parallel Ant Colony Optimization Algorithm with periodic pheromone exchange between colonies. Our results are encouraging and yield optimum results for benchmarks with less than 50 nodes, and usually within 1% of the optimal solution for benchmarks with around 200 nodes.",
+                "authors": [
+                    {
+                        "s2_author_id": "3215266",
+                        "name": "Bishad Ghimire"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "1712179",
+                        "name": "K. Elleithy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8818491dd1a6adb18ff23fe0395c7c58e219098a",
+                "title": "Optimizing Few-Shot Learning Based on Variational Autoencoders",
+                "year": 2021,
+                "venue": "Entropy",
+                "citation_count": 8,
+                "reference_count": 122,
+                "abstract": "Despite the importance of few-shot learning, the lack of labeled training data in the real world makes it extremely challenging for existing machine learning methods because this limited dataset does not well represent the data variance. In this research, we suggest employing a generative approach using variational autoencoders (VAEs), which can be used specifically to optimize few-shot learning tasks by generating new samples with more intra-class variations on the Labeled Faces in the Wild (LFW) dataset. The purpose of our research is to increase the size of the training dataset using various methods to improve the accuracy and robustness of the few-shot face recognition. Specifically, we employ the VAE generator to increase the size of the training dataset, including the basic and the novel sets while utilizing transfer learning as the backend. Based on extensive experimental research, we analyze various data augmentation methods to observe how each method affects the accuracy of face recognition. The face generation method based on VAEs with perceptual loss can effectively improve the recognition accuracy rate to 96.47% using both the base and the novel sets.",
+                "authors": [
+                    {
+                        "s2_author_id": "31225852",
+                        "name": "Ruoqi Wei"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c71c279ed16097ca0fd54815d27b5cb7eed3ab05",
+                "title": "Recent Advances in Variational Autoencoders With Representation Learning for Biomedical Informatics: A Survey",
+                "year": 2021,
+                "venue": "IEEE Access",
+                "citation_count": 79,
+                "reference_count": 144,
+                "abstract": "Variational autoencoders (VAEs) are deep latent space generative models that have been immensely successful in multiple exciting applications in biomedical informatics such as molecular design, protein design, medical image classification and segmentation, integrated multi-omics data analyses, and large-scale biological sequence analyses, among others. The fundamental idea in VAEs is to learn the distribution of data in such a way that new meaningful data with more intra-class variations can be generated from the encoded distribution. The ability of VAEs to synthesize new data with more representation variance at state-of-art levels provides hope that the chronic scarcity of labeled data in the biomedical field can be resolved. Furthermore, VAEs have made nonlinear latent variable models tractable for modeling complex distributions. This has allowed for efficient extraction of relevant biomedical information from learned features for biological data sets, referred to as unsupervised feature representation learning. In this article, we review the various recent advancements in the development and application of VAEs for biomedical informatics. We discuss challenges and future opportunities for biomedical research with respect to VAEs.",
+                "authors": [
+                    {
+                        "s2_author_id": "31225852",
+                        "name": "Ruoqi Wei"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d88c1255876b62fb5f5a8b292098ca430710a540",
+                "title": "The NLP Cookbook: Modern Recipes for Transformer Based Deep Learning Architectures",
+                "year": 2021,
+                "venue": "IEEE Access",
+                "citation_count": 124,
+                "reference_count": 102,
+                "abstract": "In recent years, Natural Language Processing (NLP) models have achieved phenomenal success in linguistic and semantic tasks like text classification, machine translation, cognitive dialogue systems, information retrieval via Natural Language Understanding (NLU), and Natural Language Generation (NLG). This feat is primarily attributed due to the seminal Transformer architecture, leading to designs such as BERT, GPT (I, II, III), etc. Although these large-size models have achieved unprecedented performances, they come at high computational costs. Consequently, some of the recent NLP architectures have utilized concepts of transfer learning, pruning, quantization, and knowledge distillation to achieve moderate model sizes while keeping nearly similar performances as achieved by their predecessors. Additionally, to mitigate the data size challenge raised by language models from a knowledge extraction perspective, Knowledge Retrievers have been built to extricate explicit data documents from a large corpus of databases with greater efficiency and accuracy. Recent research has also focused on superior inference by providing efficient attention to longer input sequences. In this paper, we summarize and examine the current state-of-the-art (SOTA) NLP models that have been employed for numerous NLP tasks for optimal performance and efficiency. We provide a detailed understanding and functioning of the different architectures, a taxonomy of NLP designs, comparative evaluations, and future directions in NLP.",
+                "authors": [
+                    {
+                        "s2_author_id": "2141026590",
+                        "name": "Sushant Singh"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "047bf6cea389048d9867c09c6ff804e34bb9ad48",
+                "title": "Variations in Variational Autoencoders - A Comparative Evaluation",
+                "year": 2020,
+                "venue": "IEEE Access",
+                "citation_count": 77,
+                "reference_count": 106,
+                "abstract": "Variational Auto-Encoders (VAEs) are deep latent space generative models which have been immensely successful in many applications such as image generation, image captioning, protein design, mutation prediction, and language models among others. The fundamental idea in VAEs is to learn the distribution of data in such a way that new meaningful data can be generated from the encoded distribution. This concept has led to tremendous research and variations in the design of VAEs in the last few years creating a field of its own, referred to as unsupervised representation learning. This paper provides a much-needed comprehensive evaluation of the variations of the VAEs based on their end goals and resulting architectures. It further provides intuition as well as mathematical formulation and quantitative results of each popular variation, presents a concise comparison of these variations, and concludes with challenges and future opportunities for research in VAEs.",
+                "authors": [
+                    {
+                        "s2_author_id": "31225852",
+                        "name": "Ruoqi Wei"
+                    },
+                    {
+                        "s2_author_id": "2110730955",
+                        "name": "C. Garcia"
+                    },
+                    {
+                        "s2_author_id": "2064004121",
+                        "name": "Ahmed El-Sayed"
+                    },
+                    {
+                        "s2_author_id": "51231630",
+                        "name": "Viyaleta Peterson"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "42d2ddb466d230fafe7b9e4d8e6ac60dc41bbef8",
+                "title": "Enhanced Anisotropic Diffusion-based CNN-LSTM Architecture for Video Face Liveness Detection",
+                "year": 2020,
+                "venue": "International Conference on Machine Learning and Applications",
+                "citation_count": 4,
+                "reference_count": 22,
+                "abstract": "While considerable research has been recently done in improving the accuracy of face liveness detection, the best current approaches use a two-step process of first applying non-linear anisotropic diffusion to the incoming image and then using a deep network for final liveness decision. We develop a novel deep architecture for face liveness detection on video frames that uses the diffusion of images followed by a deep Convolutional Neural Network (CNN) and a Long Short-Term Memory (LSTM) to classify the video sequence as real or fake. Even though the use of CNN followed by LSTM is not new, combining it with diffusion (that has proven to be the best approach for single image liveness detection) is novel. Performance evaluation of our architecture on the REPLAY-ATTACK dataset yields competitive results with 98.64% accuracy and an HTER of 3.63%.",
+                "authors": [
+                    {
+                        "s2_author_id": "113566827",
+                        "name": "R. Koshy"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e0cf5b3e19766844757122544b7426f92a0ab347",
+                "title": "An Enhanced Design of Sparse Autoencoder for Latent Features Extraction Based on Trigonometric Simplexes for Network Intrusion Detection Systems",
+                "year": 2020,
+                "venue": "Electronics",
+                "citation_count": 34,
+                "reference_count": 34,
+                "abstract": "Despite the successful contributions in the field of network intrusion detection using machine learning algorithms and deep networks to learn the boundaries between normal traffic and network attacks, it is still challenging to detect various attacks with high performance. In this paper, we propose a novel mathematical model for further development of robust, reliable, and efficient software for practical intrusion detection applications. In this present work, we are concerned with optimal hyperparameters tuned for high performance sparse autoencoders for optimizing features and classifying normal and abnormal traffic patterns. The proposed framework allows the parameters of the back-propagation learning algorithm to be tuned with respect to the performance and architecture of the sparse autoencoder through a sequence of trigonometric simplex designs. These hyperparameters include the number of nodes in the hidden layer, learning rate of the hidden layer, and learning rate of the output layer. It is expected to achieve better results in extracting features and adapting to various levels of learning hierarchy as different layers of the autoencoder are characterized by different learning rates in the proposed framework. The idea is viewed such that every learning rate of a hidden layer is a dimension in a multidimensional space. Hence, a vector of the adaptive learning rates is implemented for the multiple layers of the network to accelerate the processing time that is required for the network to learn the mapping towards a combination of enhanced features and the optimal synaptic weights in the multiple layers for a given problem. The suggested framework is tested on CICIDS2017, a reliable intrusion detection dataset that covers all the common, updated intrusions and cyber-attacks. Experimental results demonstrate that the proposed architecture for intrusion detection yields superior performance compared to recently published algorithms in terms of classification accuracy and F-measure results.",
+                "authors": [
+                    {
+                        "s2_author_id": "51117084",
+                        "name": "Hassan Musafer"
+                    },
+                    {
+                        "s2_author_id": "145822204",
+                        "name": "Abdel-shakour Abuzneid"
+                    },
+                    {
+                        "s2_author_id": "1852354",
+                        "name": "M. Faezipour"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fd717b0086f92e89f6bf18696d3bfe6a6d226505",
+                "title": "Enhanced Deep Learning Architectures for Face Liveness Detection for Static and Video Sequences",
+                "year": 2020,
+                "venue": "Entropy",
+                "citation_count": 24,
+                "reference_count": 40,
+                "abstract": "Face liveness detection is a critical preprocessing step in face recognition for avoiding face spoofing attacks, where an impostor can impersonate a valid user for authentication. While considerable research has been recently done in improving the accuracy of face liveness detection, the best current approaches use a two-step process of first applying non-linear anisotropic diffusion to the incoming image and then using a deep network for final liveness decision. Such an approach is not viable for real-time face liveness detection. We develop two end-to-end real-time solutions where nonlinear anisotropic diffusion based on an additive operator splitting scheme is first applied to an incoming static image, which enhances the edges and surface texture, and preserves the boundary locations in the real image. The diffused image is then forwarded to a pre-trained Specialized Convolutional Neural Network (SCNN) and the Inception network version 4, which identify the complex and deep features for face liveness classification. We evaluate the performance of our integrated approach using the SCNN and Inception v4 on the Replay-Attack dataset and Replay-Mobile dataset. The entire architecture is created in such a manner that, once trained, the face liveness detection can be accomplished in real-time. We achieve promising results of 96.03% and 96.21% face liveness detection accuracy with the SCNN, and 94.77% and 95.53% accuracy with the Inception v4, on the Replay-Attack, and Replay-Mobile datasets, respectively. We also develop a novel deep architecture for face liveness detection on video frames that uses the diffusion of images followed by a deep Convolutional Neural Network (CNN) and a Long Short-Term Memory (LSTM) to classify the video sequence as real or fake. Even though the use of CNN followed by LSTM is not new, combining it with diffusion (that has proven to be the best approach for single image liveness detection) is novel. Performance evaluation of our architecture on the REPLAY-ATTACK dataset gave 98.71% test accuracy and 2.77% Half Total Error Rate (HTER), and on the REPLAY-MOBILE dataset gave 95.41% accuracy and 5.28% HTER.",
+                "authors": [
+                    {
+                        "s2_author_id": "113566827",
+                        "name": "R. Koshy"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "433809432e3944f7dad6163cb333209ae49f1c44",
+                "title": "Optimizing Deep Neural Network Architecture with Enhanced Genetic Algorithm",
+                "year": 2019,
+                "venue": "International Conference on Machine Learning and Applications",
+                "citation_count": 22,
+                "reference_count": 39,
+                "abstract": "Only weights and biases are learned by gradient descent-based training of Deep Neural Networks (DNN). The other parameters, i.e., hyperparameters have a huge influence on the quality of the model but finding optimal values for them is not a trivial solution. The hyperparameter space grows exponentially and they also display non-linearity and interactions. A network with twelve hyperparameters, each with five potential values can have about 250 million unique combinations of hyperparameter sequences. If training on each set takes 6 minutes, exhaustive training on all potential combinations of the hyperparameters to find the optimal values will take almost 3000 years. Expert knowledge or random selection are some alternate options, but they are not scalable or consistently reliable. Metaheuristics such as evolutionary algorithms are a great choice for solving combinatorial optimization problems like hyperparameter optimization. While other researchers have used evolutionary algorithms such as standard implementation of genetic algorithm (GA), we introduce additional nature-inspired enhancements to GA for better exploration of the hyperparameter solution space to optimize the DNN architecture. The training is complemented with Monte Carlo based variance reduction method called importance sampling. We demonstrate that these fine-tunings result in improvements in the network accuracy on MNIST and CIFAR-10 datasets that outperforms standard use of genetic algorithm.",
+                "authors": [
+                    {
+                        "s2_author_id": "2433363",
+                        "name": "A. Shrestha"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4ecf4d5a229ff2d5d50c57267f3fe0f9f490f273",
+                "title": "Cloud Computing Data Storage Security Based on Different Encryption Schemes",
+                "year": 2019,
+                "venue": "Cloud Security",
+                "citation_count": 0,
+                "reference_count": 31,
+                "abstract": "Cloud Computing (CC) became one of the prominent solutions that organizations do consider to minimize and lean their information technology infrastructure cost by fully utilizing their resources. However, with all the benefits that CC promises, there are many security issues that discourage clients from making the necessary decision to easily embrace the cloud. To encourage the use of CC, clients need to be able to strategically plan their future investments without the uncertainties of security issues that come with hosting their data in the cloud. This chapter will discuss different mitigation techniques and the common proposed security algorithm schemes for data storage encryption based on classical \u201csymmetric and asymmetric\u201d and with an emphasis on fully homomorphic encryption schemes.",
+                "authors": [
+                    {
+                        "s2_author_id": "72339377",
+                        "name": "Hicham Hamidine"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d15024fd2069d4e9e9ee9a73ba8951bb3f0f2d7",
+                "title": "Enhancing Siamese Networks Training with Importance Sampling",
+                "year": 2019,
+                "venue": "International Conference on Agents and Artificial Intelligence",
+                "citation_count": 5,
+                "reference_count": 16,
+                "abstract": ": The accuracy of machine learning (ML) model is determined to a great extent by its training dataset. Yet the dataset optimization is often not the center of the focus to improve ML models. Datasets used in the training process can have a huge impact on the convergence of the training process and accuracy of the models. In this paper, we propose and implement importance sampling, a Monte Carlo method for variance reduction on training siamese networks to improve the accuracy of the image recognition. We demonstrate empirically that our approach can achieve improvement in training and testing errors on MNIST dataset compared to training when importance sampling is not used. Unlike standard convolution neural networks (CNN), siamese networks scale efficiently when the number of classes for image recognition increases. This paper is the first known attempt to combine importance sampling with siamese network and shows its effectiveness towards getting better accuracy.",
+                "authors": [
+                    {
+                        "s2_author_id": "2433363",
+                        "name": "A. Shrestha"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bfe32abdb9d32d8345cf5e51ff236e713917fecf",
+                "title": "Optimizing Deep CNN Architectures for Face Liveness Detection",
+                "year": 2019,
+                "venue": "Entropy",
+                "citation_count": 36,
+                "reference_count": 38,
+                "abstract": "Face recognition is a popular and efficient form of biometric authentication used in many software applications. One drawback of this technique is that it is prone to face spoofing attacks, where an impostor can gain access to the system by presenting a photograph of a valid user to the sensor. Thus, face liveness detection is a necessary step before granting authentication to the user. In this paper, we have developed deep architectures for face liveness detection that use a combination of texture analysis and a convolutional neural network (CNN) to classify the captured image as real or fake. Our development greatly improved upon a recent approach that applies nonlinear diffusion based on an additive operator splitting scheme and a tridiagonal matrix block-solver algorithm to the image, which enhances the edges and surface texture in the real image. We then fed the diffused image to a deep CNN to identify the complex and deep features for classification. We obtained 100% accuracy on the NUAA Photograph Impostor dataset for face liveness detection using one of our enhanced architectures. Further, we gained insight into the enhancement of the face liveness detection architecture by evaluating three different deep architectures, which included deep CNN, residual network, and the inception network version 4. We evaluated the performance of each of these architectures on the NUAA dataset and present here the experimental results showing under what conditions an architecture would be better suited for face liveness detection. While the residual network gave us competitive results, the inception network version 4 produced the optimal accuracy of 100% in liveness detection (with nonlinear anisotropic diffused images with a smoothness parameter of 15). Our approach outperformed all current state-of-the-art methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "113566827",
+                        "name": "R. Koshy"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f49f37c23158f8b698545e6f0a25877b39601ce8",
+                "title": "Review of Deep Learning Algorithms and Architectures",
+                "year": 2019,
+                "venue": "IEEE Access",
+                "citation_count": 1459,
+                "reference_count": 84,
+                "abstract": "Deep learning (DL) is playing an increasingly important role in our lives. It has already made a huge impact in areas, such as cancer diagnosis, precision medicine, self-driving cars, predictive forecasting, and speech recognition. The painstakingly handcrafted feature extractors used in traditional learning, classification, and pattern recognition systems are not scalable for large-sized data sets. In many cases, depending on the problem complexity, DL can also overcome the limitations of earlier shallow networks that prevented efficient training and abstractions of hierarchical representations of multi-dimensional training data. Deep neural network (DNN) uses multiple (deep) layers of units with highly optimized algorithms and architectures. This paper reviews several optimization methods to improve the accuracy of the training and to reduce training time. We delve into the math behind training algorithms used in recent deep networks. We describe current shortcomings, enhancements, and implementations. The review also covers different types of deep architectures, such as deep convolution networks, deep residual networks, recurrent neural networks, reinforcement learning, variational autoencoders, and others.",
+                "authors": [
+                    {
+                        "s2_author_id": "2433363",
+                        "name": "A. Shrestha"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0768d39b44128dcaf5bf3dd4039faadd371cf69b",
+                "title": "Face Recognition Framework Based on Correlated Images and Back-Propagation Neural Network",
+                "year": 2018,
+                "venue": "ACS/IEEE International Conference on Computer Systems and Applications",
+                "citation_count": 4,
+                "reference_count": 32,
+                "abstract": "The human face facial complexity and the face changes make the face recognition system a challenging task to design and difficult to implement. The correlation between the training images which has a high impact on the accuracy of the face recognition system never considered by researchers. In this paper, we presented an enhanced framework to improve the face recognition using the classical conventional Principal Component Analysis (PCA) and the Back-Propagation Neural Network (BPNN). A key contribution of this work is based on obtaining a robust training dataset called the T-Set using the correlation between all the images in the training dataset not based on the image density which adds a distinct layer between the dataset. We used the PCA descriptor for features extraction and dimension reduction to show that there is a promising enhancement even with using traditional algorithms. We combined five distance methods (Correlation, Euclidean, Canberra, Manhattan, and Mahalanobis) to obtain the T-Set using the square-root of the sum of the squares to achieve higher accuracy. We added a strength factor to each of the distance methods, and we achieved higher face recognition accuracy than the current approach. Our experimental results on YALE and ORL datasets demonstrate that the approach we proposed improved the accuracy of face recognition system with respect to the existing methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "9176889",
+                        "name": "Mohannad Abuzneid"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e6ab83f06fd9f4022eac1f3cdaee87ca09413cb",
+                "title": "Dynamic Hassan Nelder Mead with Simplex Free Selectivity for Unconstrained Optimization",
+                "year": 2018,
+                "venue": "IEEE Access",
+                "citation_count": 10,
+                "reference_count": 23,
+                "abstract": "We propose a free selective simplex for the downhill Nelder Mead simplex algorithm (1965), rather than the determinant simplex that forces its elements to perform a single operation, such as reflection. Unlike the Nelder-Mead algorithm, the elements of the proposed simplex select various operations of the algorithm to form the next simplex. In this way, we allow non-isometric reflections similar to that of the Nelder Mead, triangle simplex, but with rotation through an angle, permitting the proposed algorithm to have more control over the simplex, to change its size and direction for better performance. As a consequence, the solution that comes from the proposed simplex is always dynamic adaptive in size and orientation to different landscapes of mathematical functions. The proposed algorithm is examined in a large collection of different structures and classes of optimization problems. Additionally, comparisons are made with two enhanced, up-to-date versions of the Nelder-Mead algorithm. The numerical results show that Hassan Nelder Mead is stable due to non-dependence on the number of parameters processed. It also performs a higher accuracy for high dimensions compared with the other algorithms and a faster convergence rate toward global minima with respect to the number of simplex gradient estimates.",
+                "authors": [
+                    {
+                        "s2_author_id": "51117084",
+                        "name": "Hassan Musafer"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3a75ecbb59fbebd2737e353a71369af1888f3637",
+                "title": "Large-Scale Evolutionary Optimization Using Multi-Layer Strategy Differential Evolution",
+                "year": 2018,
+                "venue": "International Conference on Computational Collective Intelligence",
+                "citation_count": 0,
+                "reference_count": 127,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "51212308",
+                        "name": "Tarik Eltaeib"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "42f7bb3f5e07cf8bf3f73fc75bddc6e9b845b085",
+                "title": "Convolutional Recurrent Deep Learning Model for Sentence Classification",
+                "year": 2018,
+                "venue": "IEEE Access",
+                "citation_count": 225,
+                "reference_count": 45,
+                "abstract": "As the amount of unstructured text data that humanity produces overall and on the Internet grows, so does the need to intelligently to process it and extract different types of knowledge from it. Convolutional neural networks (CNNs) and recurrent neural networks (RNNs) have been applied to natural language processing systems with comparative, remarkable results. The CNN is a noble approach to extract higher level features that are invariant to local translation. However, it requires stacking multiple convolutional layers in order to capture long-term dependencies, due to the locality of the convolutional and pooling layers. In this paper, we describe a joint CNN and RNN framework to overcome this problem. Briefly, we use an unsupervised neural language model to train initial word embeddings that are further tuned by our deep learning network, then, the pre-trained parameters of the network are used to initialize the model. At a final stage, the proposed framework combines former information with a set of feature maps learned by a convolutional layer with long-term dependencies learned via long-short-term memory. Empirically, we show that our approach, with slight hyperparameter tuning and static vectors, achieves outstanding results on multiple sentiment analysis benchmarks. Our approach outperforms several existing approaches in term of accuracy; our results are also competitive with the state-of-the-art results on the Stanford Large Movie Review data set with 93.3% accuracy, and the Stanford Sentiment Treebank data set with 48.8% fine-grained and 89.2% binary accuracy, respectively. Our approach has a significant role in reducing the number of parameters and constructing the convolutional layer followed by the recurrent layer as a substitute for the pooling layer. Our results show that we were able to reduce the loss of detailed, local information and capture long-term dependencies with an efficient framework that has fewer parameters and a high level of performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "9083705",
+                        "name": "Abdalraouf Hassan"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "66c989bd4cc3c9bb8d006d239664a82006ab0615",
+                "title": "Enhanced Human Face Recognition Using LBPH Descriptor, Multi-KNN, and Back-Propagation Neural Network",
+                "year": 2018,
+                "venue": "IEEE Access",
+                "citation_count": 111,
+                "reference_count": 58,
+                "abstract": "Face recognition has become a fascinating field for researchers. The motivation behind the enormous interest in the topic is the need to improve the accuracy of many real-time applications. The complexity of the human face and the changes due to different effects make it more challenging to design as well as implement a powerful computational system for human face recognition. In this paper, we presented an enhanced approach to improve human face recognition using a back-propagation neural network (BPNN) and features extraction based on the correlation between the training images. A key contribution of this paper is the generation of a new set called the T-Dataset from the original training data set, which is used to train the BPNN. We generated the T-Dataset using the correlation between the training images without using a common technique of image density. The correlated T-Dataset provides a high distinction layer between the training images, which helps the BPNN to converge faster and achieve better accuracy. Data and features reduction are essential in the face recognition process, and researchers have recently focused on the modern neural network. Therefore, we used a local binary pattern histogram descriptor to prove that there is potential improvement even using traditional methods. We applied five distance measurement algorithms and then combined them to obtain the T-Dataset, which we fed into the BPNN. We achieved higher face recognition accuracy with less computational cost compared with the current approach by using reduced image features. We test the proposed framework on two small data sets, the YALE and AT&T data sets, as the ground truth. We achieved tremendous accuracy. Furthermore, we evaluate our method on one of the state-of-the-art benchmark data sets, Labeled Faces in the Wild (LFW), where we produce a competitive face recognition performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "9176889",
+                        "name": "Mohannad Abuzneid"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "69539b3135196dcdee2585f133f318b48f1c9e55",
+                "title": "Improving Human Face Recognition using Deep Learning based Image Registration and Multi-Classifier Approaches",
+                "year": 2018,
+                "venue": "ACS/IEEE International Conference on Computer Systems and Applications",
+                "citation_count": 7,
+                "reference_count": 80,
+                "abstract": "Face recognition has become a fascinating field for researchers. The motivation behind the enormous interest in the topic is the need to improve the accuracy of many real-time applications. The complexity of the human face and the changes due to different effects make it more challenging to design as well as implement a powerful computational system for human face recognition. In this work, we presented an enhanced approach to improve human face recognition using a Back-Propagation Neural Network (BPNN) and features extraction based on the correlation between the training images. A key contribution of this work is the generation of a new set called the T-Dataset from the original training dataset, which is used to train the BPNN. We generated the T-Dataset utilizing the correlation between the training images without using a conventional technique of image density. The correlated T-Dataset provides a high distinction layer between the training images, which helps the BPNN to converge faster and achieve better accuracy. Data and features reduction is essential in the face recognition process, and researchers have recently focused on the modern Neural Network (NN). Therefore, we used a Principal Component Analysis (PCA) descriptor to prove that there is a potential improvement even using traditional methods. We applied five distance measurement algorithms and then combined them to obtain the T-Dataset, which we fed into the BPNN. We achieved higher face recognition accuracy with less computational cost compared to the current approach by using reduced image features. We test the proposed framework on two small datasets, the YALE and AT&T datasets, as the ground truth. We achieved tremendous accuracy. Furthermore, we evaluate our method on one of the state-of-the-art benchmark datasets, Labeled Faces in the Wild (LFW), where we produce a competitive face recognition performance. Also, we proposed an enhanced framework to improve the face registration using deep transfer learning. We used pre-trained models such as ResNet50 and SeNet50 which trained on the VGGFace2 dataset. We used the LFW dataset to evaluate our method, and we achieve high accuracy.",
+                "authors": [
+                    {
+                        "s2_author_id": "9176889",
+                        "name": "Mohannad Abuzneid"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6f2d77cc942b2c1579c4302c75db08c8adafaa19",
+                "title": "The Art of Reading Explosion Phenomena: Science and Algorithms",
+                "year": 2018,
+                "venue": "IEEE Access",
+                "citation_count": 1,
+                "reference_count": 68,
+                "abstract": "Explosion phenomena today are considered a significant concern that needs to be detected and analyzed with a prompt response. We develop a multiclass categorization system for explosion phenomena using color images. Consequently, we describe four patterns of explosion phenomena, including pyroclastic density currents, lava fountains, lava and tephra fallout, and nuclear explosions, against three patterns of non-explosion phenomena, including wildfires, fireworks, and sky clouds. The classification task was handled through extracting different types of features, including texture features, amplitude features, frequency features, and histogram features. Then, these features were fed into several multiclass classification methods. In addition, we present a new data set for volcanic and nuclear explosions that includes 10 654 samples. Evaluation results show the one-against-one multiclass support vector machine with degree 3 polynomial kernel outperforms other classification methods. It produces the highest classification rate of 90.85% to categorize 5327 images of the data set. A reasonable execution time of approximately 117 ms was accomplished to classify one input test image.",
+                "authors": [
+                    {
+                        "s2_author_id": "3486674",
+                        "name": "Sumaya Abusaleh"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "1712179",
+                        "name": "K. Elleithy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7abe3ddff62cea7e941f37edec70c003c54a834c",
+                "title": "Unsupervised face recognition in the wild using high-dimensional features under super-resolution and 3D alignment effect",
+                "year": 2018,
+                "venue": "Signal, Image and Video Processing",
+                "citation_count": 4,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49754162",
+                        "name": "A. ElSayed"
+                    },
+                    {
+                        "s2_author_id": "1721822",
+                        "name": "E. Kongar"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8854ce1b47283f997958077a6afb503bd091fda0",
+                "title": "Distributed hybrid method to solve multiple traveling salesman problems",
+                "year": 2018,
+                "venue": "2018 International Conference on Advance of Sustainable Engineering and its Application (ICASEA)",
+                "citation_count": 9,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2341152090",
+                        "name": "Abdul Hadi M. Alaidi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8a98b836d1651d436a41d3a1c672eb13458ae075",
+                "title": "Super Resolution and 3D Alignment Effects on Unsupervised Face Recognition in the Wild",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145003197",
+                        "name": "Ahmed Elsayed"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "97e6fdb87703ca7043a0ccd0494786e18e78ed55",
+                "title": "Differential Evolution: A Survey and Analysis",
+                "year": 2018,
+                "venue": "Applied Sciences",
+                "citation_count": 150,
+                "reference_count": 115,
+                "abstract": "Differential evolution (DE) has been extensively used in optimization studies since its development in 1995 because of its reputation as an effective global optimizer. DE is a population-based metaheuristic technique that develops numerical vectors to solve optimization problems. DE strategies have a significant impact on DE performance and play a vital role in achieving stochastic global optimization. However, DE is highly dependent on the control parameters involved. In practice, the fine-tuning of these parameters is not always easy. Here, we discuss the improvements and developments that have been made to DE algorithms. In particular, we present a state-of-the-art survey of the literature on DE and its recent advances, such as the development of adaptive, self-adaptive and hybrid techniques.",
+                "authors": [
+                    {
+                        "s2_author_id": "51212308",
+                        "name": "Tarik Eltaeib"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "99ed52a06e54945e739b43e06fa25a627055db9f",
+                "title": "Large-Scale Evolutionary Optimization Using Multi-Layer Differential Evolution",
+                "year": 2018,
+                "venue": "Ubiquitous Computing, Electronics & Mobile Communication Conference",
+                "citation_count": 1,
+                "reference_count": 27,
+                "abstract": "In this paper, we propose Multi-layer Differential Evolution (MLDE) algorithm that is capable of optimizing large scale problems. A grouping of different strategies are assembled together to solve the problems instead of depend on one strategy. Different strategies applied on individuals to strengthen the ability of exploration of the algorithm. Extensive computational studies are also carried out to evaluate the performance of newly proposed algorithm on a large number of benchmark functions with up to 100 dimensions. A set of well-known CEC 2013 benchmark functions have been used to assessment and evaluate the performance of proposed algorithm.",
+                "authors": [
+                    {
+                        "s2_author_id": "51212308",
+                        "name": "Tarik Eltaeib"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "adc7512c5a49a06a94ef9d65d6f3e5501f749076",
+                "title": "Source Anonymity against Global Adversary in WSNs Using Dummy Packet Injections: A Survey",
+                "year": 2018,
+                "venue": "Electronics",
+                "citation_count": 11,
+                "reference_count": 57,
+                "abstract": "Source anonymity in wireless sensor networks (WSNs) becomes a real concern in several applications such as tracking and monitoring. A global adversary that has sophisticated resources, high computation and full view of the network is an obvious threat to such applications. The network and applications need to be protected and secured to provide the expected outcome. Source anonymity is one of the fundamental WSNs security issues. It is all about preventing the adversary from reaching the origin by analyzing the traffic of the network. There are many methods to provide source anonymity, which is also known as Source Location Privacy (SLP). One of these methods is based on dummy packets. The basic notion is to inject the network with dummy packets to confuse the adversary about the location of the transmitting source node. This paper provides a survey of protocols for anonymity that use dummy packet injections. We discuss each technique from the point of their advantages and disadvantages. Further, We provide a comparison for the most promising techniques provided in the literature which use dummy packet injections. A comparison for the adversary assumptions and capabilities will be provided as well.",
+                "authors": [
+                    {
+                        "s2_author_id": "8614580",
+                        "name": "Anas Bushnag"
+                    },
+                    {
+                        "s2_author_id": "1788299",
+                        "name": "Abdelshakour A. Abuzneid"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b2efe4ff983008e8e951ea4a277e3651ed863734",
+                "title": "Neural Generative Models for 3D Faces with Application in 3D Texture Free Face Recognition",
+                "year": 2018,
+                "venue": "arXiv.org",
+                "citation_count": 3,
+                "reference_count": 32,
+                "abstract": "Using heterogeneous depth cameras and 3D scanners in 3D face verification causes variations in the resolution of the 3D point clouds. To solve this issue, previous studies use 3D registration techniques. Out of these proposed techniques, detecting points of correspondence is proven to be an efficient method given that the data belongs to the same individual. However, if the data belongs to different persons, the registration algorithms can convert the 3D point cloud of one person to another, destroying the distinguishing features between the two point clouds. Another issue regarding the storage size of the point clouds. That is, if the captured depth image contains around 50 thousand points in the cloud for a single pose for one individual, then the storage size of the entire dataset will be in order of giga if not tera bytes. With these motivations, this work introduces a new technique for 3D point clouds generation using a neural modeling system to handle the differences caused by heterogeneous depth cameras, and to generate a new face canonical compact representation. The proposed system reduces the stored 3D dataset size, and if required, provides an accurate dataset regeneration. Furthermore, the system generates neural models for all gallery point clouds and stores these models to represent the faces in the recognition or verification processes. For the probe cloud to be verified, a new model is generated specifically for that particular cloud and is matched against pre-stored gallery model presentations to identify the query cloud. This work also introduces the utilization of Siamese deep neural network in 3D face verification using generated model representations as raw data for the deep network, and shows that the accuracy of the trained network is comparable all published results on Bosphorus dataset.",
+                "authors": [
+                    {
+                        "s2_author_id": "49754162",
+                        "name": "A. ElSayed"
+                    },
+                    {
+                        "s2_author_id": "1721822",
+                        "name": "E. Kongar"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "32163276",
+                        "name": "T. Boult"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d895b63a26efce0a346e637d7fa5074e620e4e9",
+                "title": "Deep Learning approach for sentiment analysis of short texts",
+                "year": 2017,
+                "venue": "2017 3rd International Conference on Control, Automation and Robotics (ICCAR)",
+                "citation_count": 146,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9083705",
+                        "name": "Abdalraouf Hassan"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3ead83b34b7b7ec2e8a0358d7da3bd9f8dbdbf7c",
+                "title": "Effect of Super Resolution on High Dimensional Features for Unsupervised Face Recognition in the Wild",
+                "year": 2017,
+                "venue": "International Conference on Artificial Intelligence and Pattern Recognition",
+                "citation_count": 14,
+                "reference_count": 25,
+                "abstract": "Majority of the face recognition algorithms use query faces captured from uncontrolled, in the wild, environment. Because of cameras' limited capabilities, it is common for these captured facial images to be blurred or low resolution. Super resolution algorithms are therefore crucial in improving the resolution of such images especially when the image size is small and enlargement is required. This paper aims to demonstrate the effect of one of the state-of-the-art algorithms in the field of image super resolution. To demonstrate the functionality of the algorithm, various before and after 3D face alignment cases are provided using the images from the Labeled Faces in the Wild (lfw) dataset. Resulting images are subject to test on a closed set recognition protocol using unsupervised algorithms with high dimensional extracted features. The inclusion of super resolution algorithm resulted in significant improvement in recognition rate over recently reported results obtained from unsupervised algorithms on the same dataset.",
+                "authors": [
+                    {
+                        "s2_author_id": "49754162",
+                        "name": "A. ElSayed"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4e9aaa4f2d5884d61e481f7adc81ef4cb9b3f338",
+                "title": "A Novel Vision-Based Classification System for Explosion Phenomena",
+                "year": 2017,
+                "venue": "Journal of Imaging",
+                "citation_count": 4,
+                "reference_count": 44,
+                "abstract": "The need for a proper design and implementation of adequate surveillance system for detecting and categorizing explosion phenomena is nowadays rising as a part of the development planning for risk reduction processes including mitigation and preparedness. In this context, we introduce state-of-the-art explosions classification using pattern recognition techniques. Consequently, we define seven patterns for some of explosion and non-explosion phenomena including: pyroclastic density currents, lava fountains, lava and tephra fallout, nuclear explosions, wildfires, fireworks, and sky clouds. Towards the classification goal, we collected a new dataset of 5327 2D RGB images that are used for training the classifier. Furthermore, in order to achieve high reliability in the proposed explosion classification system and to provide multiple analysis for the monitored phenomena, we propose employing multiple approaches for feature extraction on images including texture features, features in the spatial domain, and features in the transform domain. Texture features are measured on intensity levels using the Principal Component Analysis (PCA) algorithm to obtain the highest 100 eigenvectors and eigenvalues. Moreover, features in the spatial domain are calculated using amplitude features such as the YCbCr color model; then, PCA is used to reduce vectors\u2019 dimensionality to 100 features. Lastly, features in the transform domain are calculated using Radix-2 Fast Fourier Transform (Radix-2 FFT), and PCA is then employed to extract the highest 100 eigenvectors. In addition, these textures, amplitude and frequency features are combined in an input vector of length 300 which provides a valuable insight into the images under consideration. Accordingly, these features are fed into a combiner to map the input frames to the desired outputs and divide the space into regions or categories. Thus, we propose to employ one-against-one multi-class degree-3 polynomial kernel Support Vector Machine (SVM). The efficiency of the proposed research methodology was evaluated on a totality of 980 frames that were retrieved from multiple YouTube videos. These videos were taken in real outdoor environments for the seven scenarios of the respective defined classes. As a result, we obtained an accuracy of 94.08%, and the total time for categorizing one frame was approximately 0.12 s.",
+                "authors": [
+                    {
+                        "s2_author_id": "3486674",
+                        "name": "Sumaya Abusaleh"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "1712179",
+                        "name": "K. Elleithy"
+                    },
+                    {
+                        "s2_author_id": "101319940",
+                        "name": "Sarosh H. Patel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4fd6a338a40772887a643a6559c4a4027a5c4e77",
+                "title": "Efficient Deep Learning Model for Text Classification Based on Recurrent and Convolutional Layers",
+                "year": 2017,
+                "venue": "International Conference on Machine Learning and Applications",
+                "citation_count": 63,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9083705",
+                        "name": "Abdalraouf Hassan"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5e5a71cd2444ebe85f80dd2d1560db718df5d16b",
+                "title": "Deep learning for sentence classification",
+                "year": 2017,
+                "venue": "Long Island Systems, Applications and Technology Conference",
+                "citation_count": 48,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9083705",
+                        "name": "Abdalraouf Hassan"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "87bb64c024e4089a8e75893c9da363fecea54c77",
+                "title": "Image Registration Based on a Minimized Cost Function and SURF Algorithm",
+                "year": 2017,
+                "venue": "International Conference on Image Analysis and Recognition",
+                "citation_count": 5,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9176889",
+                        "name": "Mohannad Abuzneid"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "87f1b24221a887e6e7b7268e1fbdeb6253184083",
+                "title": "Reducing covariate factors of gait recognition using feature selection and dictionary-based sparse coding",
+                "year": 2017,
+                "venue": "Signal, Image and Video Processing",
+                "citation_count": 12,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3372104",
+                        "name": "M. Alotaibi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a6e670f5dee62e041d1da9bb4f3e1097055f1535",
+                "title": "A deep architecture for face recognition based on multiple feature extraction techniques",
+                "year": 2017,
+                "venue": "International Conference on Signal and Image Processing Applications",
+                "citation_count": 4,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8861277",
+                        "name": "Saleh Albelwi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b9c4df615ebb32635eac5ce3d5936788f76a2bb6",
+                "title": "A Framework for Designing the Architectures of Deep Convolutional Neural Networks",
+                "year": 2017,
+                "venue": "Entropy",
+                "citation_count": 277,
+                "reference_count": 78,
+                "abstract": "Recent advances in Convolutional Neural Networks (CNNs) have obtained promising results in difficult deep learning tasks. However, the success of a CNN depends on finding an architecture to fit a given problem. A hand-crafted architecture is a challenging, time-consuming process that requires expert knowledge and effort, due to a large number of architectural design choices. In this article, we present an efficient framework that automatically designs a high-performing CNN architecture for a given problem. In this framework, we introduce a new optimization objective function that combines the error rate and the information learnt by a set of feature maps using deconvolutional networks (deconvnet). The new objective function allows the hyperparameters of the CNN architecture to be optimized in a way that enhances the performance by guiding the CNN through better visualization of learnt features via deconvnet. The actual optimization of the objective function is carried out via the Nelder-Mead Method (NMM). Further, our new objective function results in much faster convergence towards a better architecture. The proposed framework has the ability to explore a CNN architecture\u2019s numerous design choices in an efficient way and also allows effective, distributed execution and synchronization via web services. Empirically, we demonstrate that the CNN architecture designed with our approach outperforms several existing approaches in terms of its error rate. Our results are also competitive with state-of-the-art results on the MNIST dataset and perform reasonably against the state-of-the-art results on CIFAR-10 and CIFAR-100 datasets. Our approach has a significant role in increasing the depth, reducing the size of strides, and constraining some convolutional layers not followed by pooling layers in order to find a CNN architecture that produces a high recognition performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "8861277",
+                        "name": "Saleh Albelwi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c5647452336dcb43e0f6263480614efc3f412e41",
+                "title": "An Efficient Source Anonymity Technique based on Exponential Distribution against a Global Adversary Model using Fake Injections",
+                "year": 2017,
+                "venue": "Q2SWinet@MSWiM",
+                "citation_count": 5,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8614580",
+                        "name": "Anas Bushnag"
+                    },
+                    {
+                        "s2_author_id": "1788299",
+                        "name": "Abdelshakour A. Abuzneid"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cf5f3c24e488e6fec5868c421fed726078022202",
+                "title": "A specialized event-driven network simulator for security and anonymity applications of Wireless Sensor Networks",
+                "year": 2017,
+                "venue": "Computing and Communication Workshop and Conference",
+                "citation_count": 6,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8614580",
+                        "name": "Anas Bushnag"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3b7a9ac00a9966e80d210487856d3ebcb4a0f186",
+                "title": "Automated Optimal Architecture of Deep Convolutional Neural Networks for Image Recognition",
+                "year": 2016,
+                "venue": "International Conference on Machine Learning and Applications",
+                "citation_count": 27,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8861277",
+                        "name": "Saleh Albelwi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6b3c29a0b279bd60535eceed88eec20820aa1d9d",
+                "title": "Deep face liveness detection based on nonlinear diffusion using convolution neural network",
+                "year": 2016,
+                "venue": "Signal, Image and Video Processing",
+                "citation_count": 104,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2297695149",
+                        "name": "Aziz Alotaibi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6c36ed5391cb3fda6c55a4f71e991f9138e226d0",
+                "title": "Performance improvement for 2-D face recognition using multi-classifier and BPN",
+                "year": 2016,
+                "venue": "Long Island Systems, Applications and Technology Conference",
+                "citation_count": 4,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9176889",
+                        "name": "Mohannad Abuzneid"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d224c8a331abd73111d5c9fc971479412e97b8b2",
+                "title": "SENTIMENT ANALYSIS WITH RECURRENT NEURAL NETWORK AND UNSUPERVISED NEURAL LANGUAGE MODEL Ph",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d2e7d3ba07fb2b44135ab792a9db8fd2e1d4534b",
+                "title": "Reduction of Gait Covariate Factors Using Feature Selection and Sparse Dictionary Learning",
+                "year": 2016,
+                "venue": "IEEE International Symposium on Multimedia",
+                "citation_count": 5,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3372104",
+                        "name": "M. Alotaibi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e18cc00cf943617b17a783d13279df344da7f2fc",
+                "title": "Source anonymity in WSNs against global adversary based on low rate fake injections",
+                "year": 2016,
+                "venue": "2016 IEEE/ACES International Conference on Wireless Information Technology and Systems (ICWITS) and Applied Computational Electromagnetics (ACES)",
+                "citation_count": 5,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1970246",
+                        "name": "Anas Bushang"
+                    },
+                    {
+                        "s2_author_id": "1788299",
+                        "name": "Abdelshakour A. Abuzneid"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e48df18774fbaff8b70b0231a02c3ccf1ebdf784",
+                "title": "Enhancing computer vision to detect face spoofing attack utilizing a single frame from a replay video attack using deep learning",
+                "year": 2016,
+                "venue": "2016 International Conference on Optoelectronics and Image Processing (ICOIP)",
+                "citation_count": 32,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2297695149",
+                        "name": "Aziz Alotaibi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f314bd3604d2b1495b779cd4c6152e5b8d399895",
+                "title": "Source Anonymity in WSNs against Global Adversary Utilizing Low Transmission Rates with Delay Constraints",
+                "year": 2016,
+                "venue": "Italian National Conference on Sensors",
+                "citation_count": 21,
+                "reference_count": 18,
+                "abstract": "Wireless sensor networks (WSN) are deployed for many applications such as tracking and monitoring of endangered species, military applications, etc. which require anonymity of the origin, known as Source Location Privacy (SLP). The aim in SLP is to prevent unauthorized observers from tracing the source of a real event by analyzing the traffic in the network. Previous approaches to SLP such as Fortified Anonymous Communication Protocol (FACP) employ transmission of real or fake packets in every time slot, which is inefficient. To overcome this shortcoming, we developed three different techniques presented in this paper. Dummy Uniform Distribution (DUD), Dummy Adaptive Distribution (DAD) and Controlled Dummy Adaptive Distribution (CAD) were developed to overcome the anonymity problem against a global adversary (which has the capability of analyzing and monitoring the entire network). Most of the current techniques try to prevent the adversary from perceiving the location and time of the real event whereas our proposed techniques confuse the adversary about the existence of the real event by introducing low rate fake messages, which subsequently lead to location and time privacy. Simulation results demonstrate that the proposed techniques provide reasonable delivery ratio, delay, and overhead of a real event's packets while keeping a high level of anonymity. Three different analysis models are conducted to verify the performance of our techniques. A visualization of the simulation data is performed to confirm anonymity. Further, neural network models are developed to ensure that the introduced techniques preserve SLP. Finally, a steganography model based on probability is implemented to prove the anonymity of the techniques.",
+                "authors": [
+                    {
+                        "s2_author_id": "8614580",
+                        "name": "Anas Bushnag"
+                    },
+                    {
+                        "s2_author_id": "1788299",
+                        "name": "Abdelshakour A. Abuzneid"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f6f7e1bbdc60a4812a550cdc97dac7c5c1aeb966",
+                "title": "Analysis of instance selection algorithms on large datasets with Deep Convolutional Neural Networks",
+                "year": 2016,
+                "venue": "Long Island Systems, Applications and Technology Conference",
+                "citation_count": 13,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8861277",
+                        "name": "Saleh Albelwi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fcffc86512c30c2dbd37ba6c2fcf0f67b2af3df8",
+                "title": "Improving Genetic Algorithm with Fine-Tuned Crossover and Scaled Architecture",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 37,
+                "reference_count": 22,
+                "abstract": "Genetic Algorithm (GA) is a metaheuristic used in solving combinatorial optimization problems. Inspired by evolutionary biology, GA uses selection, crossover, and mutation operators to efficiently traverse the solution search space. This paper proposes nature inspired fine-tuning to the crossover operator using the untapped idea of Mitochondrial DNA (mtDNA). mtDNA is a small subset of the overall DNA. It differentiates itself by inheriting entirely from the female, while the rest of the DNA is inherited equally from both parents. This unique characteristic of mtDNA can be an effective mechanism to identify members with similar genes and restrict crossover between them. It can reduce the rate of dilution of diversity and result in delayed convergence. In addition, we scale the well-known Island Model, where instances of GA are run independently and population members exchanged periodically, to a Continental Model. In this model, multiple web services are executed with each web service running an island model. We applied the concept of mtDNA in solving Traveling Salesman Problem and to train Neural Network for function approximation. Our implementation tests show that leveraging these new concepts of mtDNA and Continental Model results in relative improvement of the optimization quality of GA.",
+                "authors": [
+                    {
+                        "s2_author_id": "2433363",
+                        "name": "A. Shrestha"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1fee1d16d4ac951cffe25d6887e47e7ef08640c9",
+                "title": "Unsupervised Sub-graph Selection and Its Application in Face Recognition Techniques",
+                "year": 2015,
+                "venue": "International Conference on Image Analysis and Recognition",
+                "citation_count": 4,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49754162",
+                        "name": "A. ElSayed"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d285f55adce2fb2ea87cbd876b8c41767fc0201",
+                "title": "Improved Gait recognition based on specialized deep convolutional neural networks",
+                "year": 2015,
+                "venue": "International Conference on Artificial Intelligence and Pattern Recognition",
+                "citation_count": 182,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3372104",
+                        "name": "M. Alotaibi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "77363f8c68711e693f719e8e27574d531649ab34",
+                "title": "Improved pruning algorithms in multiscale real-time object detection",
+                "year": 2015,
+                "venue": "2015 Long Island Systems, Applications and Technology",
+                "citation_count": 0,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2231494",
+                        "name": "Munther Abualkibash"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8acbe8c6441a616b7479ff13f9d4857c66a0e661",
+                "title": "Goal Directed Synthesis of Serial Manipulators Based on Task Descriptions",
+                "year": 2015,
+                "venue": "Chaos Modeling and Control Systems Design",
+                "citation_count": 0,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "101319940",
+                        "name": "Sarosh H. Patel"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9c8e13268ec1a1abbbeb4ecd4939a0ea63878735",
+                "title": "Automatic real time gait recognition based on spatiotemporal templates",
+                "year": 2015,
+                "venue": "2015 Long Island Systems, Applications and Technology",
+                "citation_count": 7,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3372104",
+                        "name": "M. Alotaibi"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a5ce5c5915c800ebbb124536e4b29516f5746774",
+                "title": "Fortified Anonymous Communication Protocol for Location Privacy in WSN: A Modular Approach",
+                "year": 2015,
+                "venue": "Italian National Conference on Sensors",
+                "citation_count": 19,
+                "reference_count": 51,
+                "abstract": "Wireless sensor network (WSN) consists of many hosts called sensors. These sensors can sense a phenomenon (motion, temperature, humidity, average, max, min, etc.) and represent what they sense in a form of data. There are many applications for WSNs including object tracking and monitoring where in most of the cases these objects need protection. In these applications, data privacy itself might not be as important as the privacy of source location. In addition to the source location privacy, sink location privacy should also be provided. Providing an efficient end-to-end privacy solution would be a challenging task to achieve due to the open nature of the WSN. The key schemes needed for end-to-end location privacy are anonymity, observability, capture likelihood, and safety period. We extend this work to allow for countermeasures against multi-local and global adversaries. We present a network model protected against a sophisticated threat model: passive /active and local/multi-local/global attacks. This work provides a solution for end-to-end anonymity and location privacy as well. We will introduce a framework called fortified anonymous communication (FAC) protocol for WSN.",
+                "authors": [
+                    {
+                        "s2_author_id": "1788299",
+                        "name": "Abdelshakour A. Abuzneid"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "1852354",
+                        "name": "M. Faezipour"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "145984684",
+                        "name": "J. James"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f562231bf7b324bdfcd6eb9ba6a11f523a5b39a1",
+                "title": "A near real-time, parallel and distributed adaptive object detection and retraining framework based on AdaBoost algorithm",
+                "year": 2015,
+                "venue": "IEEE Conference on High Performance Extreme Computing",
+                "citation_count": 3,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2231494",
+                        "name": "Munther Abualkibash"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2632728",
+                        "name": "S. Moslehpour"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f76bab3437e529a6561bdc76781261fdf7825b36",
+                "title": "Maximally Adaptive, Deadlock-Free Routing in Spidergon-Donut Network for Large Multicore NOCs",
+                "year": 2015,
+                "venue": "International Symposium on Parallel and Distributed Computing",
+                "citation_count": 4,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2474419",
+                        "name": "Marwah Albughdar"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "facdccb230a72f99b910841fef25581e30a069f4",
+                "title": "Parallel cooperating ant colonies with improved periodic exchange strategies",
+                "year": 2014,
+                "venue": "Spring Simulation Multiconference",
+                "citation_count": 2,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3215266",
+                        "name": "Bishad Ghimire"
+                    },
+                    {
+                        "s2_author_id": "2115017116",
+                        "name": "David Cohen"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fee2c684a7e593a24e1c45a25ded2174070a348f",
+                "title": "Magnetotaxis as a Means for Nanofabrication",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3415137",
+                        "name": "Isaac G. Macwan"
+                    },
+                    {
+                        "s2_author_id": "3414806",
+                        "name": "Zihe Zhao"
+                    },
+                    {
+                        "s2_author_id": "30571340",
+                        "name": "O. Sobh"
+                    },
+                    {
+                        "s2_author_id": "93243060",
+                        "name": "J. Rho"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "3414778",
+                        "name": "P. Patra"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2e6f095b5d8ae74fef876b849ebb25ef0ffb7c6b",
+                "title": "Novel Algorithms and Techniques in Telecommunications and Networking",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55033ce987940601d264c5e60a15bd587c27657d",
+                "title": "Highly Scalable, Parallel and Distributed AdaBoost Algorithm using Light Weight Threads and Web Services on a Network of Multi-Core Machines",
+                "year": 2013,
+                "venue": "arXiv.org",
+                "citation_count": 19,
+                "reference_count": 9,
+                "abstract": "AdaBoost is an important algorithm in machine learning and is being widely used in object detection. AdaBoost works by iteratively selecting the best amongst weak classifiers, and then combines several weak classifiers to obtain a strong classifier. Even though AdaBoost has proven to be very effective, its learning execution time can be quite large depending upon the application e.g., in face detection, the learning time can be several days. Due to its increasing use in computer vision applications, the learning time needs to be drastically reduced so that an adaptive near real time object detection system can be incorporated. In this paper, we develop a hybrid parallel and distributed AdaBoost algorithm that exploits the multiple cores in a CPU via light weight threads, and also uses multiple machines via a web service software architecture to achieve high scalability. We present a novel hierarchical web services based distributed architecture and achieve nearly linear speedup up to the number of processors available to us. In comparison with the previously published work, which used a single level master-slave parallel and distributed implementation [1] and only achieved a speedup of 2.66 on four nodes, we achieve a speedup of 95.1 on 31 workstations each having a quad-core processor, resulting in a learning time of only 4.8 seconds per feature.",
+                "authors": [
+                    {
+                        "s2_author_id": "2231494",
+                        "name": "Munther Abualkibash"
+                    },
+                    {
+                        "s2_author_id": "49754162",
+                        "name": "A. ElSayed"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9e235dbdb049c94b771bb3ad9d86ea5aae42f1c8",
+                "title": "A Multi-Algorithm, High Reliability Steganalyzer Based on Services Oriented Architecture",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145076851",
+                        "name": "Eman Abdelfattah"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c1452f8de8d2ac6b5830ad53bdc6c8602dfb150a",
+                "title": "Steganography and Steganalysis: Current Status and Future Directions",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145076851",
+                        "name": "Eman Abdelfattah"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52e0244ac6635e82e9a41f08d04b1c1f4ac9be10",
+                "title": "3D Hand Pose Detection",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49754162",
+                        "name": "A. ElSayed"
+                    },
+                    {
+                        "s2_author_id": "2146267486",
+                        "name": "Zhengping Wu"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9852e7ca19f77c66cd4a052015c10d101efd33af",
+                "title": "Parallel and Distributed Object Recognition",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2231494",
+                        "name": "Munther Abualkibash"
+                    },
+                    {
+                        "s2_author_id": "145003197",
+                        "name": "Ahmed Elsayed"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "defea2fa2b18d6a7806438ad7c7b62298210e874",
+                "title": "Improved Eigenface Algorithm for Large DataSets using Hierarchical Dissimilar Subgrouping",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49754162",
+                        "name": "A. ElSayed"
+                    },
+                    {
+                        "s2_author_id": "2231494",
+                        "name": "Munther Abualkibash"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4154136d4ef74a2d6713c4f582f410af3cb1c16b",
+                "title": "A multi-algorithm, high reliability, extensible steganalyzer using services oriented architecture",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 48,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "145076851",
+                        "name": "Eman Abdelfattah"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "269082f351666473fe8baa5570e85616a1fc7a80",
+                "title": "Novel Algorithms and Techniques in Telecommunications and Networking, proceedings of the 2008 International Conference on Telecommunications and Networking (TeNe), part of the International Joint Conferences on Computer, Information, and Systems Sciences, and Engineering, CISSE 2008, Bridgeport, Con",
+                "year": 2010,
+                "venue": "TeNe",
+                "citation_count": 7,
+                "reference_count": 152,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "1712179",
+                        "name": "K. Elleithy"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a6f9b4e2debd5ec19954a9358c3f54427e8815c7",
+                "title": "Novel Algorithms and Techniques in Telecommunications and Networking, proceedings of the 2008 International Conference on Telecommunications and Networking (TeNe), part of the International Joint Conferences on Computer, Information, and Systems Sciences, and Engineering, CISSE 2008, Bridgeport, Con",
+                "year": 2010,
+                "venue": "International Joint Conferences on Computer, Information, and Systems Sciences, and Engineering",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "2264323310",
+                        "name": "Khaled Elleithy"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "abba673ffe2d422471c4e3ed783a015731bc9942",
+                "title": "Technological Developments in Networking, Education and Automation ? Collects papers presented at a",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1712179",
+                        "name": "K. Elleithy"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "35118263",
+                        "name": "Magued Iskander"
+                    },
+                    {
+                        "s2_author_id": "145125830",
+                        "name": "V. Kapila"
+                    },
+                    {
+                        "s2_author_id": "152852515",
+                        "name": "Mohammad A. Karim"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ba442c384622bcf59739a4cc41c7b846bacdbc6a",
+                "title": "Technological Developments in Networking, Education and Automation",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 35,
+                "reference_count": 108,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1712179",
+                        "name": "K. Elleithy"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "35118263",
+                        "name": "Magued Iskander"
+                    },
+                    {
+                        "s2_author_id": "145125830",
+                        "name": "V. Kapila"
+                    },
+                    {
+                        "s2_author_id": "152852515",
+                        "name": "Mohammad A. Karim"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "220458b17405110480fdd70f1c60443fa009ec17",
+                "title": "Novel Algorithms and Techniques In Telecommunications, Automation and Industrial Electronics",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 54,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "1712179",
+                        "name": "K. Elleithy"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "152852515",
+                        "name": "Mohammad A. Karim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f6e0ea749933094e132dfd862a680d24dfb13aa",
+                "title": "Innovative Algorithms and Techniques in Automation, Industrial Electronics and Telecommunications",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 54,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "1712179",
+                        "name": "K. Elleithy"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2384935866",
+                        "name": "M. Karim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2805d9ac7edfa284e6738e32b8a4ad0898e149f0",
+                "title": "Approximate Algorithms in Mobile Telephone Network Projects",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1712179",
+                        "name": "K. Elleithy"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "35118263",
+                        "name": "Magued Iskander"
+                    },
+                    {
+                        "s2_author_id": "152852515",
+                        "name": "Mohammad A. Karim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2a8a23a1c81e1ad9b3be44a16132bc2ca2092af0",
+                "title": "Advances in Computer, Information, and Systems Sciences, and Engineering: Proceedings of IETA 2005, TeNe 2005 and EIAE 2005",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 19,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1712179",
+                        "name": "K. Elleithy"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "35118263",
+                        "name": "Magued Iskander"
+                    },
+                    {
+                        "s2_author_id": "2054292995",
+                        "name": "Mohammad Karim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "424d71ab86354d4997f78fcc43036444ac9bff6c",
+                "title": "Stability and Performance of Interconnected DC/DC Converter Systems",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1712179",
+                        "name": "K. Elleithy"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "35118263",
+                        "name": "Magued Iskander"
+                    },
+                    {
+                        "s2_author_id": "152852515",
+                        "name": "Mohammad A. Karim"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5eff5a4a719f233f2cd9d7302decb311ceb84cc0",
+                "title": "Reengineering Legacy Client-Server Systems for New Scalable Secure Web Platforms",
+                "year": 2002,
+                "venue": "International Conference on Computers and Their Applications",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2921843",
+                        "name": "J. Dichter"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2061122758",
+                        "name": "Andrew Barrett"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b05196cb4f0e4306051752b5d8c6f15a5bb4cf67",
+                "title": "Recovering structure uncertainties from noisy sense data",
+                "year": 2002,
+                "venue": "Computers & electrical engineering",
+                "citation_count": 2,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ca1c1e3de1baf4f38a6c510406675a9b7530efe6",
+                "title": "JDOP: A Virtual Machine for Java-Based Distributed Object Processing",
+                "year": 2002,
+                "venue": "International Conference on Computers and Their Applications",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2921843",
+                        "name": "J. Dichter"
+                    },
+                    {
+                        "s2_author_id": "2329679",
+                        "name": "Tang Haofu"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c63fdbb1f5c9cf7a325431271ced349ebdb515e",
+                "title": "Parallel Data Distributions for Optimum LU Decomposition",
+                "year": 2001,
+                "venue": "International Journal of Computers and Their Applications",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2921843",
+                        "name": "J. Dichter"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "144338232",
+                        "name": "H. Sholl"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "036aed4da11eb4d486387c5e10d8b22f509c766b",
+                "title": "Optimum data distributions for parallel partitioned LU decomposition",
+                "year": 1999,
+                "venue": "International Conference on Computers and Their Applications",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2921843",
+                        "name": "J. Dichter"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "144338232",
+                        "name": "H. Sholl"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a164f25a858c1295aa4c7b4628ef2d0339317168",
+                "title": "An improved refinable rational approximation to the ideal time delay",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 44,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "91304938",
+                        "name": "L. D. Philipp"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2064575959",
+                        "name": "B. Philipp"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b575df70fddf31eceb4676708a0aceeabe9eda58",
+                "title": "Parallel Solution of Unstructured Sparse Matrix Equations on a Network of Workstations Using PVM",
+                "year": 1999,
+                "venue": "Applied Informatics",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1834293",
+                        "name": "Gediminas Keras"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2921843",
+                        "name": "J. Dichter"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4d8f66a70f41915bdcae8402fda62f91efb81a1d",
+                "title": "Parallel logic simulation on a network of workstations using parallel virtual machine",
+                "year": 1997,
+                "venue": "TODE",
+                "citation_count": 8,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2042533",
+                        "name": "M. Kormicki"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "1891065",
+                        "name": "B. Carlson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6f611e701db2a45b01d94d8c92b7d4d571a559e9",
+                "title": "Parallel sparse-matrix solution for direct circuit simulation on a transputer array",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "21920865",
+                        "name": "Y. Chu"
+                    },
+                    {
+                        "s2_author_id": "2837343",
+                        "name": "T. Sobh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c2844ddc42590ec6cca976a574c4968bc40b29e9",
+                "title": "Optimally adaptive, minimum-distance, circuit-switched routing in hypercubes",
+                "year": 1997,
+                "venue": "ACM Transactions on Computer Systems",
+                "citation_count": 2,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "48686041",
+                        "name": "D. J. Lynch"
+                    },
+                    {
+                        "s2_author_id": "40091405",
+                        "name": "Roger B. Shaffer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39b17956066e48406d846563e5efbda8592fa6c0",
+                "title": "Parallel logic simulation on a network of workstations using PVM",
+                "year": 1996,
+                "venue": "IEEE Symposium on Parallel and Distributed Processing",
+                "citation_count": 2,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2042533",
+                        "name": "M. Kormicki"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "1891065",
+                        "name": "B. Carlson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "563268dc468166c36871d6703bd34995b27f6657",
+                "title": "Hardware Accelerators for VLSI Design",
+                "year": 1996,
+                "venue": "VLSI design (Print)",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a4a5d0599794a8ead7cd91e76f4c20419eef36b6",
+                "title": "Behavioral Simulation and Performance Evaluation of Multi-Processor Architectures",
+                "year": 1996,
+                "venue": "VLSI design (Print)",
+                "citation_count": 0,
+                "reference_count": 20,
+                "abstract": "The development of multi-processor architectures requires extensive behavioral simulations to verify the correctness of design and to evaluate its performance. A high level language can provide maximum flexibility in this respect if the constructs for handling concurrent processes and a time mapping mechanism are added. This paper describes a novel technique for emulating hardware processes involved in a parallel architecture such that an object-oriented description of the design is maintained. The communication and synchronization between hardware processes is handled by splitting the processes into their equivalent subprograms at the entry points. The proper scheduling of these subprograms is coordinated by a timing wheel which provides a time mapping mechanism. Finally, a high level language pre-processor is proposed so that the timing wheel and the process emulation details can be made transparent to the user.",
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c6b3bb39a795717b2c8927289126bb247e640fbe",
+                "title": "Parallel SOLVE for direct circuit simulation on a transputer array",
+                "year": 1996,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 2,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "21920865",
+                        "name": "Y. Chu"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "48686041",
+                        "name": "D. J. Lynch"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dff05212376f590365bb97ae9e9fc0f3c8985fa2",
+                "title": "An Evaluation of Parallel Synchronous and Conservative Asynchronous Logic-Level Simulations",
+                "year": 1996,
+                "venue": "VLSI design (Print)",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": "A recent paper by Bailey [1] contains a theorem stating that the idealized execution times of unit-delay, synchronous and conservative asynchronous simulations are equal under the conditions that unlimited number of processors are available and the evaluation time of each logic element is equal. Further it is shown that the above conditions result in a lower bound on the execution times of both synchronous and conservative asynchronous simulations. Bailey's above important conclusions are derived under a strict assumption that the inputs to \na circuit remain fixed during the entire simulation. We remove this limitation and, by extending the analyses to multi-input, multi-output circuits with an arbitrary number of input events, show that the conservative asynchronous simulation extracts more parallelism and executes faster than synchronous simulation in general. Our conclusions are supported by a comparison of the idealized execution times of synchronous and conservative asynchronous algorithms on ISCAS combinational and sequential benchmark circuits.",
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "1927122",
+                        "name": "W. I. Baker"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fdf30781a128cdbcb80c918d64bced5096b48506",
+                "title": "Parallel event-driven logic simulation algorithms: tutorial and comparative evaluation",
+                "year": 1996,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1927122",
+                        "name": "W. I. Baker"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "1891065",
+                        "name": "B. Carlson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4a8defd4ea2de590ef30ddc8a45c7be5947d282c",
+                "title": "Optimal Circuit-Switched Routing in Hypercubes",
+                "year": 1995,
+                "venue": "International Conference on Parallel Processing",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "48686041",
+                        "name": "D. J. Lynch"
+                    },
+                    {
+                        "s2_author_id": "40091405",
+                        "name": "Roger B. Shaffer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b3970f1a2c3427ae444768db02ac804e510c1a11",
+                "title": "Systolic algorithms for solving a sparse system of linear equations in circuit simulation",
+                "year": 1995,
+                "venue": "Integr.",
+                "citation_count": 2,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2053694649",
+                        "name": "Sean M. Sparks"
+                    },
+                    {
+                        "s2_author_id": "1927122",
+                        "name": "W. I. Baker"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0c84ee7ec969bfed73694ae69416b1fe4a2af0f5",
+                "title": "An Improved Data Flow Architecture for Logic Simulation Acceleration",
+                "year": 1994,
+                "venue": "VLSI design (Print)",
+                "citation_count": 1,
+                "reference_count": 5,
+                "abstract": "The high degree of parallelism in the simulation of digital VLSI systems can be utilized by a data flow architecture to reduce the enormous simulation times. The existing logic simulation accelerators based on the data flow principle use a static data flow architecture along with a timing wheel mechanism to implement the event driven simulation algorithm. The drawback in this approach is that the timing wheel becomes a bottleneck to high simulation throughput. Other shortcomings of the existing architecture are the high communication overhead in the arbitration and distribution networks, and reduced pipelining due to a static data flow architecture. To overcome these, three major improvements are made to the design of a classical data flow based logic simulation accelerator. These include:",
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "35084160",
+                        "name": "J. Herath"
+                    },
+                    {
+                        "s2_author_id": "72838860",
+                        "name": "J. Jayasumana"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "28ad766f87d0e24bca58bf0440eb2e720aa47a1a",
+                "title": "An analysis of parallel synchronous and conservative asynchronous logic simulation schemes",
+                "year": 1994,
+                "venue": "Proceedings of 1994 6th IEEE Symposium on Parallel and Distributed Processing",
+                "citation_count": 5,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1927122",
+                        "name": "W. I. Baker"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b4029eccf25483351757eb8e838e1e2f52b70136",
+                "title": "Author index",
+                "year": 1993,
+                "venue": "Neuropsychologia",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "9238226",
+                        "name": "Ahmed A. Nashat"
+                    },
+                    {
+                        "s2_author_id": "2055643344",
+                        "name": "Min Peng"
+                    },
+                    {
+                        "s2_author_id": "144426798",
+                        "name": "A. Izaguirre"
+                    },
+                    {
+                        "s2_author_id": "1397782478",
+                        "name": "Amiera Syazreen"
+                    },
+                    {
+                        "s2_author_id": "2072095557",
+                        "name": "Mohd Ghazali"
+                    },
+                    {
+                        "s2_author_id": "1740831",
+                        "name": "Mohammad Arshi Saloot"
+                    },
+                    {
+                        "s2_author_id": "2266686056",
+                        "name": "An Luo"
+                    },
+                    {
+                        "s2_author_id": "2459359",
+                        "name": "M. A. Gungor"
+                    },
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "2189134",
+                        "name": "N. M. H. Hassan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8d5b6909eb031db69b4c5052e91812785abc7253",
+                "title": "VOHL: a VLSI object-oriented hardware language",
+                "year": 1992,
+                "venue": "[1992] Proceedings of the 35th Midwest Symposium on Circuits and Systems",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9d560787a2f3cc3db3efbcefa8f356c0821609a0",
+                "title": "A logic simulation engine based on a modified data flow architecture",
+                "year": 1992,
+                "venue": "IEEE/ACM International Conference on Computer-Aided Design",
+                "citation_count": 7,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    },
+                    {
+                        "s2_author_id": "1927122",
+                        "name": "W. I. Baker"
+                    },
+                    {
+                        "s2_author_id": "35084160",
+                        "name": "J. Herath"
+                    },
+                    {
+                        "s2_author_id": "1685097",
+                        "name": "A. Jayasumana"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9d5aa944cffcbb6de523fb6a8c35b2104109ab95",
+                "title": "An extensible multilevel logic simulator with model abstraction capabilities",
+                "year": 1990,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143794144",
+                        "name": "A. Mahmood"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2356739743",
+                "name": "Sushant Singh"
+            },
+            {
+                "s2_author_id": "3215266",
+                "name": "Bishad Ghimire"
+            },
+            {
+                "s2_author_id": "2264323310",
+                "name": "Khaled Elleithy"
+            },
+            {
+                "s2_author_id": "1384209752",
+                "name": "Mohammed Aljamal"
+            },
+            {
+                "s2_author_id": "2345121605",
+                "name": "Sarosh Patel"
+            },
+            {
+                "s2_author_id": "2346977227",
+                "name": "Andrew DiGiugno"
+            },
+            {
+                "s2_author_id": "2302020832",
+                "name": "Musleh Alharthi"
+            },
+            {
+                "s2_author_id": "2568817",
+                "name": "Emre Tokgoz"
+            },
+            {
+                "s2_author_id": "51117084",
+                "name": "Hassan Musafer"
+            },
+            {
+                "s2_author_id": "1852354",
+                "name": "M. Faezipour"
+            },
+            {
+                "s2_author_id": "1712179",
+                "name": "K. Elleithy"
+            },
+            {
+                "s2_author_id": "31225852",
+                "name": "Ruoqi Wei"
+            },
+            {
+                "s2_author_id": "2141026590",
+                "name": "Sushant Singh"
+            },
+            {
+                "s2_author_id": "2110730955",
+                "name": "C. Garcia"
+            },
+            {
+                "s2_author_id": "2064004121",
+                "name": "Ahmed El-Sayed"
+            },
+            {
+                "s2_author_id": "51231630",
+                "name": "Viyaleta Peterson"
+            },
+            {
+                "s2_author_id": "113566827",
+                "name": "R. Koshy"
+            },
+            {
+                "s2_author_id": "145822204",
+                "name": "Abdel-shakour Abuzneid"
+            },
+            {
+                "s2_author_id": "2433363",
+                "name": "A. Shrestha"
+            },
+            {
+                "s2_author_id": "72339377",
+                "name": "Hicham Hamidine"
+            },
+            {
+                "s2_author_id": "9176889",
+                "name": "Mohannad Abuzneid"
+            },
+            {
+                "s2_author_id": "51212308",
+                "name": "Tarik Eltaeib"
+            },
+            {
+                "s2_author_id": "9083705",
+                "name": "Abdalraouf Hassan"
+            },
+            {
+                "s2_author_id": "3486674",
+                "name": "Sumaya Abusaleh"
+            },
+            {
+                "s2_author_id": "49754162",
+                "name": "A. ElSayed"
+            },
+            {
+                "s2_author_id": "1721822",
+                "name": "E. Kongar"
+            },
+            {
+                "s2_author_id": "2837343",
+                "name": "T. Sobh"
+            },
+            {
+                "s2_author_id": "2341152090",
+                "name": "Abdul Hadi M. Alaidi"
+            },
+            {
+                "s2_author_id": "145003197",
+                "name": "Ahmed Elsayed"
+            },
+            {
+                "s2_author_id": "8614580",
+                "name": "Anas Bushnag"
+            },
+            {
+                "s2_author_id": "1788299",
+                "name": "Abdelshakour A. Abuzneid"
+            },
+            {
+                "s2_author_id": "32163276",
+                "name": "T. Boult"
+            },
+            {
+                "s2_author_id": "101319940",
+                "name": "Sarosh H. Patel"
+            },
+            {
+                "s2_author_id": "3372104",
+                "name": "M. Alotaibi"
+            },
+            {
+                "s2_author_id": "8861277",
+                "name": "Saleh Albelwi"
+            },
+            {
+                "s2_author_id": "2297695149",
+                "name": "Aziz Alotaibi"
+            },
+            {
+                "s2_author_id": "1970246",
+                "name": "Anas Bushang"
+            },
+            {
+                "s2_author_id": "2231494",
+                "name": "Munther Abualkibash"
+            },
+            {
+                "s2_author_id": "145984684",
+                "name": "J. James"
+            },
+            {
+                "s2_author_id": "2632728",
+                "name": "S. Moslehpour"
+            },
+            {
+                "s2_author_id": "2474419",
+                "name": "Marwah Albughdar"
+            },
+            {
+                "s2_author_id": "2115017116",
+                "name": "David Cohen"
+            },
+            {
+                "s2_author_id": "3415137",
+                "name": "Isaac G. Macwan"
+            },
+            {
+                "s2_author_id": "3414806",
+                "name": "Zihe Zhao"
+            },
+            {
+                "s2_author_id": "30571340",
+                "name": "O. Sobh"
+            },
+            {
+                "s2_author_id": "93243060",
+                "name": "J. Rho"
+            },
+            {
+                "s2_author_id": "3414778",
+                "name": "P. Patra"
+            },
+            {
+                "s2_author_id": "145076851",
+                "name": "Eman Abdelfattah"
+            },
+            {
+                "s2_author_id": "2146267486",
+                "name": "Zhengping Wu"
+            },
+            {
+                "s2_author_id": "35118263",
+                "name": "Magued Iskander"
+            },
+            {
+                "s2_author_id": "145125830",
+                "name": "V. Kapila"
+            },
+            {
+                "s2_author_id": "152852515",
+                "name": "Mohammad A. Karim"
+            },
+            {
+                "s2_author_id": "2384935866",
+                "name": "M. Karim"
+            },
+            {
+                "s2_author_id": "2054292995",
+                "name": "Mohammad Karim"
+            },
+            {
+                "s2_author_id": "2921843",
+                "name": "J. Dichter"
+            },
+            {
+                "s2_author_id": "2061122758",
+                "name": "Andrew Barrett"
+            },
+            {
+                "s2_author_id": "2329679",
+                "name": "Tang Haofu"
+            },
+            {
+                "s2_author_id": "144338232",
+                "name": "H. Sholl"
+            },
+            {
+                "s2_author_id": "91304938",
+                "name": "L. D. Philipp"
+            },
+            {
+                "s2_author_id": "2064575959",
+                "name": "B. Philipp"
+            },
+            {
+                "s2_author_id": "1834293",
+                "name": "Gediminas Keras"
+            },
+            {
+                "s2_author_id": "2042533",
+                "name": "M. Kormicki"
+            },
+            {
+                "s2_author_id": "1891065",
+                "name": "B. Carlson"
+            },
+            {
+                "s2_author_id": "21920865",
+                "name": "Y. Chu"
+            },
+            {
+                "s2_author_id": "48686041",
+                "name": "D. J. Lynch"
+            },
+            {
+                "s2_author_id": "40091405",
+                "name": "Roger B. Shaffer"
+            },
+            {
+                "s2_author_id": "1927122",
+                "name": "W. I. Baker"
+            },
+            {
+                "s2_author_id": "2053694649",
+                "name": "Sean M. Sparks"
+            },
+            {
+                "s2_author_id": "35084160",
+                "name": "J. Herath"
+            },
+            {
+                "s2_author_id": "72838860",
+                "name": "J. Jayasumana"
+            },
+            {
+                "s2_author_id": "9238226",
+                "name": "Ahmed A. Nashat"
+            },
+            {
+                "s2_author_id": "2055643344",
+                "name": "Min Peng"
+            },
+            {
+                "s2_author_id": "144426798",
+                "name": "A. Izaguirre"
+            },
+            {
+                "s2_author_id": "1397782478",
+                "name": "Amiera Syazreen"
+            },
+            {
+                "s2_author_id": "2072095557",
+                "name": "Mohd Ghazali"
+            },
+            {
+                "s2_author_id": "1740831",
+                "name": "Mohammad Arshi Saloot"
+            },
+            {
+                "s2_author_id": "2266686056",
+                "name": "An Luo"
+            },
+            {
+                "s2_author_id": "2459359",
+                "name": "M. A. Gungor"
+            },
+            {
+                "s2_author_id": "2189134",
+                "name": "N. M. H. Hassan"
+            },
+            {
+                "s2_author_id": "1685097",
+                "name": "A. Jayasumana"
+            }
+        ],
+        "total_co_authors": 80,
+        "papers_retrieved": 108
+    }
+}

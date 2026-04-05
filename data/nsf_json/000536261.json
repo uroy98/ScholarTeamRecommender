@@ -1,0 +1,289 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000536261",
+        "name": "Andrew McGregor",
+        "primary_affiliation": "University of Massachusetts Amherst",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Massachusetts Amherst"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "MA"
+        ],
+        "perf_cities": [
+            "AMHERST"
+        ],
+        "org_names": [
+            "University of Massachusetts Amherst"
+        ],
+        "org_ueis": [
+            "VGJHK59NMPK9"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "mcgregor@cs.umass.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2521579",
+                "title": "Collaborative Research: AF: Small: Resilient Data Stream Algorithms",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-15",
+                "exp_date": "2027-06-30",
+                "award_amount": 298660.0,
+                "total_amount": 298660.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "Algorithmic Foundations"
+                ],
+                "program_codes": [
+                    "779600"
+                ],
+                "program_references": [
+                    "SMALL PROJECT",
+                    "ALGORITHMS"
+                ],
+                "program_ref_codes": [
+                    "7923",
+                    "7926"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Karl Wimmer",
+                "keywords": [
+                    "algorithms",
+                    "stream",
+                    "assumptions",
+                    "small",
+                    "resilient",
+                    "training",
+                    "design",
+                    "analysis",
+                    "science",
+                    "guarantees"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "Algorithmic Foundations"
+        ],
+        "program_codes": [
+            "779600"
+        ],
+        "program_references": [
+            "SMALL PROJECT",
+            "ALGORITHMS"
+        ],
+        "program_ref_codes": [
+            "7923",
+            "7926"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Karl Wimmer"
+        ],
+        "keywords": [
+            "algorithms",
+            "stream",
+            "assumptions",
+            "small",
+            "resilient",
+            "training",
+            "design",
+            "analysis",
+            "science",
+            "guarantees",
+            "aims",
+            "algorithmic",
+            "deterministic",
+            "collaborative",
+            "massive",
+            "amounts",
+            "collected",
+            "generated",
+            "industries",
+            "finance"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.59
+    },
+    "s2_profile": {
+        "s2_author_id": "2308307117",
+        "name": "Andrew McGregor",
+        "affiliations": [],
+        "paper_count": 3,
+        "citation_count": 2,
+        "h_index": 1,
+        "papers": [
+            {
+                "s2_paper_id": "081cd0d57082b78eee91f2f427bcca9edb42f877",
+                "title": "Enhancing Automated Sliding Performance Through the Integration of Physics Models and Machine Learning Algorithms",
+                "year": 2025,
+                "venue": "SPE Annual Technical Conference and Exhibition",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": "\n Automated sliding solutions have existed in the industry for years. In early deployments, simply meeting steering requirements with near 100% automation even at the cost of drilling performance was considered a technical success. Now, algorithms are expected to meet or exceed performance standards set by the best drillers. A multi-faceted approach leveraging precise rig control, physics models, and machine learning techniques aims to deliver consistent, best-in-class performance in a scalable manner.\n The dynamics of sliding was modeled using high fidelity time-domain finite element model across a broad range of operating conditions. A reduced order model, based on a set of key parameters, was fit to the resulting data set to efficiently estimate system dynamics in real-time. The quantity of parameters was restricted to enable reliable real-time calibration based on limited sensor feedback. Historical sliding data from different drilling programs and basins was then used to generate baseline estimates for these parameters. Grounding parameters in the fundamentals of torque and drag (T&D) modeling and bit-rock mechanics was key to producing a simple and robust model. When sliding begins, the parameters are continuously tuned using real-time T&D models and a suite of machine learning techniques to characterize system dynamics and bit mechanics. The reduced model, coupled with a newly designed controller, executes steering based on predicted dynamics and sensor feedback. Continuous estimation of the relationship between Top Drive quill orientation (\u0398quill) and tool face orientation (TFO) serves as a reference frame on which all steering actions build upon.\n The combined model and control system were refined by testing on a series of progressively challenging real world sliding scenarios. Core assumptions of physical behavior mostly held true. Other aspects of the system, such as interaction between nested control loops and steering strategies, benefited from substantial changes. A key to continuous improvement was a mature rig automation platform that facilitated a rapid deployment and testing cycle.\n With over 200,00 feet drilled as part field testing across multiple basins, this system has been shown to deliver steering performance and penetration rates comparable to high performing manually executed slides. In numerous hole sections, penetration rate was increased and steering efficiency improved, yielding measurable improvement in effective rate of penetration. While the manually executed slides during A/B testing required numerous human steering actions per foot to attain peak performance, this system requires an order of magnitude fewer interventions.\n In difficult sliding environments, high reliance on traditional sensor measurements presents a challenge for automated sliding algorithms. A new method relating quill position to TFO over the course of a BHA run coupled with automated torque release through synchronized drawworks reciprocation and top drive oscillation minimizes off-bottom time without compromising on steering. A model-based solution facilitates stable steering control and consistent performance but may be limited by incorrect assumptions. The fusion of physics models with machine learning presents a major step forward in automated directional drilling.",
+                "authors": [
+                    {
+                        "s2_author_id": "2088517417",
+                        "name": "M. Summersgill"
+                    },
+                    {
+                        "s2_author_id": "2385963626",
+                        "name": "J. Xu"
+                    },
+                    {
+                        "s2_author_id": "2385912541",
+                        "name": "A. Jamieson"
+                    },
+                    {
+                        "s2_author_id": "2385849150",
+                        "name": "T. Chen"
+                    },
+                    {
+                        "s2_author_id": "2289250759",
+                        "name": "S. Menand"
+                    },
+                    {
+                        "s2_author_id": "35486943",
+                        "name": "M. Mahjoub"
+                    },
+                    {
+                        "s2_author_id": "2308307117",
+                        "name": "A. McGregor"
+                    },
+                    {
+                        "s2_author_id": "2385913093",
+                        "name": "J. Cantwell"
+                    },
+                    {
+                        "s2_author_id": "2322338061",
+                        "name": "P. Landrio"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "638f6896e87462c61a4c8a3a26dc9f2ac157f8cd",
+                "title": "An Analysis of Drilling Projection Uncertainty and Implications for Collision Avoidance Management Systems",
+                "year": 2024,
+                "venue": "Day 2 Wed, March 06, 2024",
+                "citation_count": 2,
+                "reference_count": 17,
+                "abstract": "\n During well planning, specifying the separation that must be maintained from offset wellbores is critical to ensuring safe operations. Recent efforts on API RP 78, an upcoming recommended practice for wellbore placement, have provided guidelines for calculating safe separation distances and engineering considerations for those calculations. A major milestone was the publication of a separation rule (Sawaryn, et al. 2019) standardizing a formula for separation factor (SF), which in turn defines the minimum allowable separation distance (MASD) between two wellbores and the allowable deviation from plan (ADP) for a wellbore being drilled. One element of this formula, \u03c3pa, describes the accuracy with which a future wellpath can be predicted. Prior guidance provides a suggested value for \u03c3pa (1.6ft or 0.5m at 1-sigma) based on heuristics. A more rigorous approach for estimating this value is presented, where the design of the drilling program can be considered.\n A framework is proposed for modeling deviation from a projected path using a planned trajectory, bottom hole assembly (BHA) properties, and survey practices. The method identifies where a deviation is detected through survey measurements and estimates a planned recovery operation. Equations are provided for estimating the distance from plan at deviation detection along with the maximum expected deviation during recovery. Common drilling scenarios are analyzed for sensitivity to operational parameters such as survey course length, sensor offset, toolface control, and BHA performance. The impact of varying \u03c3pa is explored across prototypical collision avoidance cases. A discussion of the relationships between the \u03c3pa value and the common collision avoidance calculations such as SF, MASD, and ADP is included along with considerations for the design of a risk management policy.\n Survey course length, survey sensor offset and uncertainty in directional performance are all shown to have a significant impact on the potential maximum deviation from plan. An additional factor considered is the aggressiveness expected when performing recovery operations. An analysis of common drilling scenarios suggests the previously provided guidance of 1.6ft at 1-sigma appears suitable for cases where the directional behavior of the BHA is well characterized and the combination of course length and survey sensor offset is kept to 150ft or less. Longer survey course lengths, larger sensor offsets, or uncertainty in directional performance of the BHA can produce larger \u03c3pa values, in some scenarios causing a significant impact on the MASD and ADP.\n Previous work has called attention to the uncertainty in drilling to a projection, but up to now there has not been a rigorous method for estimating that quantity. With the methods outlined in this paper well planners and drilling engineers can make more informed decisions on how to ensure safe separation practices in their own operations.",
+                "authors": [
+                    {
+                        "s2_author_id": "90567880",
+                        "name": "M. Willerth"
+                    },
+                    {
+                        "s2_author_id": "2308307117",
+                        "name": "A. McGregor"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b9fd7f7dbd9c322829fe2004adb4e6930532e526",
+                "title": "Estimating Likelihood of Directional Drilling Success Through a Practical Application of Projection Uncertainty Models",
+                "year": 2024,
+                "venue": "SPE Annual Technical Conference and Exhibition",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": "\n A key component of managing the risk of directional drilling operations is estimating how closely a well plan can be drilled. Previous work (Willerth & McGregor, 2024) provides a theoretical framework for assessing potential deviation from plan for collision avoidance, however, collision avoidance is not the only time distance from plan is of concern. This work takes a practical look at two common directional drilling scenarios: landing a curve in a target formation and steering a horizontal section within a window.\n A method of using the projection uncertainty framework to assess confidence in a steerable motor assembly is presented. An assumed motor yield is used to estimate a slide ratio meeting directional objectives on a given well plan. Deviation from plan is estimated using a distribution of motor yields at that slide ratio, assuming recovery using up to full slides at the observed yield. A distribution of rotary tendencies is considered to assess impact on determining true yield, and survey placement relative to slide/rotate intervals is used to place recovery actions. The combined impact on remaining within a drilling window is assessed. Actual assemblies are analyzed for capability and the associated confidence in successfully drilling a plan. The effect of actions such as changing survey course length on potential deviation are considered. Beneficial changes to the BHA and well plan that enable iterative improvement are discussed.\n The BHAs analyzed were often over-specified in terms of directional capability for the plan being drilled. This is likely from drilling engineers being risk-averse to falling behind plan and factors other than directional accuracy being incentivized (such as minimizing slide-drilling). Excessive dogleg capacity leads to greater uncertainty in the true motor yield being produced as there is increased sensitivity to true-slide-length and BHA rotary tendency. This uncertainty extends into estimates of available yield for recovery steering, reducing confidence in drilling a plan. Similar or better confidence in directional success is possible using less aggressive assemblies if appropriate procedures are used. For example, intelligent use of checkshots to verify directional performance, and incorporating strategic tangents to compensate for geologic and directional uncertainty increases confidence even with less aggressive recovery contingencies. As more data is collected, directional risk models can be further updated to enable intelligent experimentation to identify ideal well plans and BHAs for additional drilling objectives such as wellbore quality or drilling the curve and lateral with single assemblies.\n Previous work provides a theoretical framework for estimating drilling projection uncertainty for collision avoidance risk assessments. This study extends these efforts to cover how this framework can be defined and updated in a practical way to analyze additional common directional drilling concerns.",
+                "authors": [
+                    {
+                        "s2_author_id": "2322331782",
+                        "name": "M. Willerth"
+                    },
+                    {
+                        "s2_author_id": "2308307117",
+                        "name": "A. McGregor"
+                    },
+                    {
+                        "s2_author_id": "2322185847",
+                        "name": "D. Cook"
+                    },
+                    {
+                        "s2_author_id": "2322338061",
+                        "name": "P. Landrio"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2088517417",
+                "name": "M. Summersgill"
+            },
+            {
+                "s2_author_id": "2385963626",
+                "name": "J. Xu"
+            },
+            {
+                "s2_author_id": "2385912541",
+                "name": "A. Jamieson"
+            },
+            {
+                "s2_author_id": "2385849150",
+                "name": "T. Chen"
+            },
+            {
+                "s2_author_id": "2289250759",
+                "name": "S. Menand"
+            },
+            {
+                "s2_author_id": "35486943",
+                "name": "M. Mahjoub"
+            },
+            {
+                "s2_author_id": "2385913093",
+                "name": "J. Cantwell"
+            },
+            {
+                "s2_author_id": "2322338061",
+                "name": "P. Landrio"
+            },
+            {
+                "s2_author_id": "90567880",
+                "name": "M. Willerth"
+            },
+            {
+                "s2_author_id": "2322331782",
+                "name": "M. Willerth"
+            },
+            {
+                "s2_author_id": "2322185847",
+                "name": "D. Cook"
+            }
+        ],
+        "total_co_authors": 11,
+        "papers_retrieved": 3
+    }
+}

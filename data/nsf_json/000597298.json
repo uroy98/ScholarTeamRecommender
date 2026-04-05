@@ -1,0 +1,2162 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000597298",
+        "name": "Yasin N Silva",
+        "primary_affiliation": "Loyola University of Chicago",
+        "primary_department": null,
+        "all_affiliations": [
+            "Loyola University of Chicago"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "IL"
+        ],
+        "perf_cities": [
+            "CHICAGO"
+        ],
+        "org_names": [
+            "Loyola University of Chicago"
+        ],
+        "org_ueis": [
+            "CVNBL4GDUKF3"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "ysilva1@luc.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2435164",
+                "title": "Collaborative Research: SaTC: CORE: Medium: Toward Well-being by Design in Social Media",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-06-15",
+                "exp_date": "2029-05-31",
+                "award_amount": 500001.0,
+                "total_amount": 500001.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "Secure &Trustworthy Cyberspace"
+                ],
+                "program_codes": [
+                    "806000"
+                ],
+                "program_references": [
+                    "SaTC: Secure and Trustworthy Cyberspace",
+                    "Human factors for security research",
+                    "CNCI",
+                    "MEDIUM PROJECT"
+                ],
+                "program_ref_codes": [
+                    "025Z",
+                    "065Z",
+                    "7434",
+                    "7924"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CNS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Computer and Network Systems",
+                "cfda_num": "47.070, 47.075",
+                "po_name": "Jason D. Borenstein",
+                "keywords": [
+                    "online",
+                    "problematic",
+                    "being",
+                    "social",
+                    "media",
+                    "behaviors",
+                    "through",
+                    "design",
+                    "models",
+                    "detection"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "Secure &Trustworthy Cyberspace"
+        ],
+        "program_codes": [
+            "806000"
+        ],
+        "program_references": [
+            "SaTC: Secure and Trustworthy Cyberspace",
+            "Human factors for security research",
+            "CNCI",
+            "MEDIUM PROJECT"
+        ],
+        "program_ref_codes": [
+            "025Z",
+            "065Z",
+            "7434",
+            "7924"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CNS"
+        ],
+        "fund_divisions": [
+            "Division Of Computer and Network Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070, 47.075"
+        ],
+        "program_officers": [
+            "Jason D. Borenstein"
+        ],
+        "keywords": [
+            "online",
+            "problematic",
+            "being",
+            "social",
+            "media",
+            "behaviors",
+            "through",
+            "design",
+            "models",
+            "detection",
+            "satc",
+            "core",
+            "medium",
+            "cyberbullying",
+            "users",
+            "mental",
+            "health",
+            "computer",
+            "science",
+            "seeks"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.68
+    },
+    "s2_profile": {
+        "s2_author_id": "2217032",
+        "name": "Yasin N Silva",
+        "affiliations": [],
+        "paper_count": 62,
+        "citation_count": 1318,
+        "h_index": 23,
+        "papers": [
+            {
+                "s2_paper_id": "2a7725cb095313ccc8fae2766ff2ae3c2482db68",
+                "title": "Userland Containers for Mobile Systems",
+                "year": 2023,
+                "venue": "Workshop on Mobile Computing Systems and Applications",
+                "citation_count": 0,
+                "reference_count": 2,
+                "abstract": "Mobile platforms are not rising to their potential as ubiquitous computers, in large part because of the constraints we impose on their apps in the name of security. Mobile operating systems have long struggled with the challenge of isolating untrusted apps. In pursuit of a secure runtime environment, Android and iOS isolate apps inside a gulag of platform-imposed programming languages and runtime libraries, leaving few design decisions to the application developers. These thick layers of custom software eschew app portability and maintainability, as development teams must continually tweak their apps to support modifications to the OS's runtime libraries. Nonstandard and ever-changing interfaces to those APIs invite bugs in the operating system and apps alike. Mobile-only APIs have bifurcated the population of software running on our devices. On one side sits the conventional PC and server programs: compilers, shells, servers, daemons, and many others that use the standard libraries and programming models to interface with the computer and the outside world. On the other side lives the apps: mobile-only and purpose-built, they often serve as user interfaces to some larger cloud-based system. Under the weight of the numerous OS-imposed platform constraints, it is difficult for app developers to innovate: large classes of applications are simply impossible to port to mobile devices because the required APIs are unsupported. To deal with these crossplatform dependencies, it is necessary to maintain multiple code bases. In the past, dependency issues have typically been solved through the use of containers. However, deploying containers on mobile systems present unique challenges. To maintain security, mobile operating systems do not give users permission to launch Docker containers [2]. To solve this issue, we consider an older idea known as user-land containerization. Userland containerization allows userland containers to be launched by regular unprivileged users in any Linux or Android based system. Userland containerization works by inserting a modified operating system kernel between the host kernel and the guest processes (see Figure 1). We have done an in depth study on the peroformance of user-mode containers like the user mode linux (UML) kernel [1], repurposing it as a userland hypervisor between the host kernel and the guest processes. We prototype a proof-of-concept usermode kernel with an implementation that is guided by the findings of our empirical study. Our kernel introduces a new technique---similar to paravirtualization---to optimize the syscall interface between the guest process and the usermode kernel to improve its I/O performance. The redesigned syscall interface provides I/O performance that approaches that of conventional virtualization techniques. Our paravirtualization strategies outperform UML by a factor of 3--6X for I/O bound workloads. Furthermore, we achieve 3.5--5X more network throughput and equal disk write speed compared to VMWare Workstation. Although there is still ample opportunity for performance improvements, our approach demonstrates the promise and potential of a usable userland virtualization platform that balances security with performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "1602874496",
+                        "name": "Isaac Ahlgren"
+                    },
+                    {
+                        "s2_author_id": "2205654115",
+                        "name": "Victor Rakotondranoro"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2314409508",
+                        "name": "Eric Chan-Tin"
+                    },
+                    {
+                        "s2_author_id": "145078593",
+                        "name": "G. Thiruvathukal"
+                    },
+                    {
+                        "s2_author_id": "2119764",
+                        "name": "Neil Klingensmith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "61c95757d7d4151f51ea848623c6839816756385",
+                "title": "DBSnap 2: New Features to Construct Database Queries by Snapping Blocks",
+                "year": 2022,
+                "venue": "Annual Conference on Innovation and Technology in Computer Science Education",
+                "citation_count": 0,
+                "reference_count": 9,
+                "abstract": "Block-based environments for creating computer programs have become very useful learning tools in computer science as they enable focusing on the logic of a program rather than on its syntactical details. While most block-based environments support conventional (imperative) instructions, a few tools have been proposed to create database queries. One of these tools is DBSnap, a highly dynamic and open-source tool to create database query trees by dragging and connecting visual blocks representing datasets and database operators. In this paper, we introduce DBSnap 2, an extension of DBSnap that provides a set of improvements to facilitate the creation of simple and complex queries. The improvements include the support of database views (a key database concept), saving and importing queries, inserting, updating, and deleting data, the creation of charts, and various visual improvements. The demonstration of DBSnap 2 will show how the new features simplify the creation of queries and enable the graphical visualization of query results.",
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2166027823",
+                        "name": "Alexis Loza"
+                    },
+                    {
+                        "s2_author_id": "1852790",
+                        "name": "H. Razente"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6d33429ad251099068452e4c48901abe036bf60c",
+                "title": "Bias Mitigation for Toxicity Detection via Sequential Decisions",
+                "year": 2022,
+                "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+                "citation_count": 11,
+                "reference_count": 43,
+                "abstract": "Increased social media use has contributed to the greater prevalence of abusive, rude, and offensive textual comments. Machine learning models have been developed to detect toxic comments online, yet these models tend to show biases against users with marginalized or minority identities (e.g., females and African Americans). Established research in debiasing toxicity classifiers often (1) takes a static or batch approach, assuming that all information is available and then making a one-time decision; and (2) uses a generic strategy to mitigate different biases (e.g., gender and racial biases) that assumes the biases are independent of one another. However, in real scenarios, the input typically arrives as a sequence of comments/words over time instead of all at once. Thus, decisions based on partial information must be made while additional input is arriving. Moreover, social bias is complex by nature. Each type of bias is defined within its unique context, which, consistent with intersectionality theory within the social sciences, might be correlated with the contexts of other forms of bias. In this work, we consider debiasing toxicity detection as a sequential decision-making process where different biases can be interdependent. In particular, we study debiasing toxicity detection with two aims: (1) to examine whether different biases tend to correlate with each other; and (2) to investigate how to jointly mitigate these correlated biases in an interactive manner to minimize the total amount of bias. At the core of our approach is a framework built upon theories of sequential Markov Decision Processes that seeks to maximize the prediction accuracy and minimize the bias measures tailored to individual biases. Evaluations on two benchmark datasets empirically validate the hypothesis that biases tend to be correlated and corroborate the effectiveness of the proposed sequential debiasing strategy.",
+                "authors": [
+                    {
+                        "s2_author_id": "144842921",
+                        "name": "Lu Cheng"
+                    },
+                    {
+                        "s2_author_id": "1380253791",
+                        "name": "Ahmadreza Mosallanezhad"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "2146398099",
+                        "name": "Huan Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6f6a4e706fd94617749c20a4d9bb42f2e7cdf061",
+                "title": "Storing data once in M-trees and PM-trees: Revisiting the building principles of metric access methods",
+                "year": 2022,
+                "venue": "Information Systems",
+                "citation_count": 1,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1852790",
+                        "name": "H. Razente"
+                    },
+                    {
+                        "s2_author_id": "2635026",
+                        "name": "M. Barioni"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "90e263750fce6e2125c74b3ea70d748169321492",
+                "title": "A Labeled Dataset for Investigating Cyberbullying Content Patterns in Instagram",
+                "year": 2022,
+                "venue": "International Conference on Web and Social Media",
+                "citation_count": 10,
+                "reference_count": 29,
+                "abstract": "As online communication continues to become more prevalent, instances of cyberbullying have also become more common, particularly on social media sites. Previous research in this area has studied cyberbullying outcomes, predictors of cyberbullying victimization/perpetration, and computational detection models that rely on labeled datasets to identify the underlying patterns. However, there is a dearth of work examining the content of what is said when cyberbullying occurs and most of the available datasets include only basic labels (cyberbullying or not). This paper presents an annotated Instagram dataset with detailed labels about key cyberbullying properties, such as the content type, purpose, directionality, and co-occurrence with other phenomena, as well as demographic information about the individuals who performed the annotations. Additionally, results of an exploratory logistic regression analysis are reported to illustrate how new insights about cyberbullying and its automatic detection can be gained from this labeled dataset.",
+                "authors": [
+                    {
+                        "s2_author_id": "2047615548",
+                        "name": "Mara Hamlett"
+                    },
+                    {
+                        "s2_author_id": "118927161",
+                        "name": "G. Powell"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d236dbdb4d1a59e0b21fae31a0190cb51f6a5385",
+                "title": "#WashTheHate: Understanding the Prevalence of Anti-Asian Prejudice on Twitter During the COVID-19 Pandemic",
+                "year": 2022,
+                "venue": "International Conference on Advances in Social Networks Analysis and Mining",
+                "citation_count": 3,
+                "reference_count": 41,
+                "abstract": "Prejudice and hate directed toward Asian individuals has increased in prevalence and salience during the COVID-19 pandemic, with notable rises in physical violence. Concurrently, as many governments enacted stay-at-home mandates, the spread of anti-Asian content increased in online spaces, including social media. In the present study, we investigated temporal and geographical patterns in social media content relevant to anti-Asian prejudice during the COVID-19 pandemic. Using the Twitter Data Collection API, we queried over 13 million tweets posted between January 30, 2020, and April 30, 2021, for both negative (e.g., #kungflu) and positive (e.g., #stopAAPIhate) hashtags and keywords related to anti-Asian prejudice. In a series of descriptive analyses, we found differences in the frequency of negative and positive keywords based on geographic location. Using burst detection, we also identified distinct increases in negative and positive content in relation to key political tweets and events. These largely exploratory analyses shed light on the role of social media in the expression and proliferation of prejudice as well as positive responses online.",
+                "authors": [
+                    {
+                        "s2_author_id": "65867667",
+                        "name": "Brittany Wheeler"
+                    },
+                    {
+                        "s2_author_id": "2212210960",
+                        "name": "Seong Jung"
+                    },
+                    {
+                        "s2_author_id": "2635026",
+                        "name": "M. Barioni"
+                    },
+                    {
+                        "s2_author_id": "2212501605",
+                        "name": "Monika Purohit"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f93db693b63381316b16a4fd176310621833b06",
+                "title": "Mitigating Bias in Session-based Cyberbullying Detection: A Non-Compromising Approach",
+                "year": 2021,
+                "venue": "Annual Meeting of the Association for Computational Linguistics",
+                "citation_count": 33,
+                "reference_count": 42,
+                "abstract": "The element of repetition in cyberbullying behavior has directed recent computational studies toward detecting cyberbullying based on a social media session. In contrast to a single text, a session may consist of an initial post and an associated sequence of comments. Yet, emerging efforts to enhance the performance of session-based cyberbullying detection have largely overlooked unintended social biases in existing cyberbullying datasets. For example, a session containing certain demographic-identity terms (e.g., \u201cgay\u201d or \u201cblack\u201d) is more likely to be classified as an instance of cyberbullying. In this paper, we first show evidence of such bias in models trained on sessions collected from different social media platforms (e.g., Instagram). We then propose a context-aware and model-agnostic debiasing strategy that leverages a reinforcement learning technique, without requiring any extra resources or annotations apart from a pre-defined set of sensitive triggers commonly used for identifying cyberbullying instances. Empirical evaluations show that the proposed strategy can simultaneously alleviate the impacts of the unintended biases and improve the detection performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "144842921",
+                        "name": "Lu Cheng"
+                    },
+                    {
+                        "s2_author_id": "1380253791",
+                        "name": "Ahmadreza Mosallanezhad"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "145896397",
+                        "name": "Huan Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3db1bfa595f5046d191a71cd239c7f934a0cf4cf",
+                "title": "Cyberbullying and Mental Health in Adults: The Moderating Role of Social Media Use and Gender",
+                "year": 2021,
+                "venue": "Frontiers in Psychiatry",
+                "citation_count": 38,
+                "reference_count": 53,
+                "abstract": "Previous research has identified a link between mental health and cyberbullying, primarily in studies of youth. Fewer studies have examined cyberbullying in adults or how the relation between mental health and cyberbullying might vary based on an individual's social media use. The present research examined how three indicators of mental health\u2014depression, anxiety, and substance use\u2014interact with social media use and gender to predict cyberbullying in adults. In Study 1, U.S. adults recruited through Amazon Mechanical Turk (N = 525) completed an online survey that included measures of mental health and cyberbullying. Multiple regression analyses revealed significant three-way interactions between mental health, degree of social media use, and gender in models predicting cyberbullying victimization and perpetration. Specifically, for men, depression and anxiety predicted greater cyberbullying victimization and perpetration, particularly among men with relatively higher levels of social media use. In contrast, depression and anxiety were uncorrelated with cyberbullying for women, regardless of level of social media use. Study 2 largely replicated these findings using well-validated measures of mental health (e.g., Center for Epidemiological Studies-Depression scale, Beck Anxiety Inventory, Global Appraisal of Individual Needs Substance Use scale) in U.S. adults recruited through Prolific.co (N = 482). Together, these results underscore the importance of examining mental health correlates of cyberbullying within the context of social media use and gender and shed light on conditions in which indicators of mental health may be especially beneficial for predicting cyberbullying in adults.",
+                "authors": [
+                    {
+                        "s2_author_id": "2265003129",
+                        "name": "Kaitlyn B. Schodt"
+                    },
+                    {
+                        "s2_author_id": "1665459757",
+                        "name": "Selena I. Quiroz"
+                    },
+                    {
+                        "s2_author_id": "65867667",
+                        "name": "Brittany Wheeler"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52682044cd4bd9acd4b7143019d2f47700b69247",
+                "title": "Session-Based Cyberbullying Detection: Problems and Challenges",
+                "year": 2021,
+                "venue": "IEEE Internet Computing",
+                "citation_count": 25,
+                "reference_count": 23,
+                "abstract": "Cyberbullying has become one of the most pressing online risks for young people, due in part to the rapid increase in social media use, and has raised serious concerns in society. Existing studies have examined various approaches to cyberbullying detection focusing on a single piece of text, whereas relatively little is known about cyberbullying detection within a social media session. A social media session typically consists of an initial post, images/videos, a sequence of comments that involves user interactions, user information, spatial location, and other social content. By investigating cyberbullying at the level of social media sessions, researchers can draw on data that are more complex, diverse, and crucial for understanding two defining characteristics of cyberbullying, in particular: repetitive acts and power imbalance. This article thus highlights the importance of studying session-based cyberbullying detection, identifies core challenges, and serves as a resource to help direct future research efforts.",
+                "authors": [
+                    {
+                        "s2_author_id": "144842921",
+                        "name": "Lu Cheng"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "145896397",
+                        "name": "Huan Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aec180f26ce5292212a175308459fb6ee02b4590",
+                "title": "Harnessing the Power of Interdisciplinary Research with Psychology-Informed Cyberbullying Detection Models",
+                "year": 2021,
+                "venue": "International Journal of Bullying Prevention",
+                "citation_count": 7,
+                "reference_count": 78,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "65867667",
+                        "name": "Brittany Wheeler"
+                    },
+                    {
+                        "s2_author_id": "144842921",
+                        "name": "Lu Cheng"
+                    },
+                    {
+                        "s2_author_id": "2047616335",
+                        "name": "Katie Baumel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be7911a6523b18011ea7077fb1bb721f3e9a1afb",
+                "title": "Modeling Temporal Patterns of Cyberbullying Detection with Hierarchical Attention Networks",
+                "year": 2021,
+                "venue": "Trans. Data Sci.",
+                "citation_count": 35,
+                "reference_count": 63,
+                "abstract": "Cyberbullying is rapidly becoming one of the most serious online risks for adolescents. This has motivated work on machine learning methods to automate the process of cyberbullying detection, which have so far mostly viewed cyberbullying as one-off incidents that occur at a single point in time. Comparatively less is known about how cyberbullying behavior occurs and evolves over time. This oversight highlights a crucial open challenge for cyberbullying-related research, given that cyberbullying is typically defined as intentional acts of aggression via electronic communication that occur repeatedly and persistently. In this article, we center our discussion on the challenge of modeling temporal patterns of cyberbullying behavior. Specifically, we investigate how temporal information within a social media session, which has an inherently hierarchical structure (e.g., words form a comment and comments form a session), can be leveraged to facilitate cyberbullying detection. Recent findings from interdisciplinary research suggest that the temporal characteristics of bullying sessions differ from those of non-bullying sessions and that the temporal information from users\u2019 comments can improve cyberbullying detection. The proposed framework consists of three distinctive features: (1) a hierarchical structure that reflects how a social media session is formed in a bottom-up manner; (2) attention mechanisms applied at the word- and comment-level to differentiate the contributions of words and comments to the representation of a social media session; and (3) the incorporation of temporal features in modeling cyberbullying behavior at the comment-level. Quantitative and qualitative evaluations are conducted on a real-world dataset collected from Instagram, the social networking site with the highest percentage of users reporting cyberbullying experiences. Results from empirical evaluations show the significance of the proposed methods, which are tailored to capture temporal patterns of cyberbullying detection.",
+                "authors": [
+                    {
+                        "s2_author_id": "144842921",
+                        "name": "Lu Cheng"
+                    },
+                    {
+                        "s2_author_id": "2773849",
+                        "name": "Ruocheng Guo"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "145896397",
+                        "name": "Huan Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cb3709b89a851929cf88c963ccf3bb0cfa949950",
+                "title": "Introduction to Special Issue of the 11th International Conference on Similarity Search and Applications (SISAP 2018)",
+                "year": 2021,
+                "venue": "Information Systems",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "1398659765",
+                        "name": "S. Marchand-Maillet"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "18f1fa76949128f7b89baf3bc431abe1fdc0fe12",
+                "title": "Pivot-based approximate k-NN similarity joins for big high-dimensional data",
+                "year": 2020,
+                "venue": "Information Systems",
+                "citation_count": 16,
+                "reference_count": 53,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30714105",
+                        "name": "Premysl Cech"
+                    },
+                    {
+                        "s2_author_id": "1693655",
+                        "name": "Jakub Loko\u010d"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "688b840f6fa1b3f4ca6d374dc4b90ca1faadbb3c",
+                "title": "Toward Privacy and Utility Preserving Image Representation",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 23,
+                "abstract": "Face images are rich data items that are useful and can easily be collected in many applications, such as in 1-to-1 face verification tasks in the domain of security and surveillance systems. Multiple methods have been proposed to protect an individual's privacy by perturbing the images to remove traces of identifiable information, such as gender or race. However, significantly less attention has been given to the problem of protecting images while maintaining optimal task utility. In this paper, we study the novel problem of creating privacy-preserving image representations with respect to a given utility task by proposing a principled framework called the Adversarial Image Anonymizer (AIA). AIA first creates an image representation using a generative model, then enhances the learned image representations using adversarial learning to preserve privacy and utility for a given task. Experiments were conducted on a publicly available data set to demonstrate the effectiveness of AIA as a privacy-preserving mechanism for face images.",
+                "authors": [
+                    {
+                        "s2_author_id": "1380253791",
+                        "name": "Ahmadreza Mosallanezhad"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2128984",
+                        "name": "M. Mancenido"
+                    },
+                    {
+                        "s2_author_id": "145896397",
+                        "name": "Huan Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "811bb6627e9a121f19dc7c56a53b63ef3463066b",
+                "title": "Temporal Properties of Cyberbullying on Instagram",
+                "year": 2020,
+                "venue": "The Web Conference",
+                "citation_count": 16,
+                "reference_count": 31,
+                "abstract": "Concurrent with the growth and widespread use of social networking platforms has been a rise in the prevalence of cyberbullying and cyberharassment, particularly among youth. Although cyberbullying is frequently defined as hostile communication or interactions that occur repetitively via electronic media, little is known about the temporal aspects of cyberbullying on social media, such as how the number, frequency, and timing of posts may vary systematically between cyberbullying and non-cyberbullying social media sessions. In this paper, we aim to contribute to the understanding of temporal properties of cyberbullying through the analysis of Instagram data. That is, the paper presents key temporal characteristics of cyberbullying and trends obtained from descriptive and burst analysis tasks. Our results have the potential to inform the development of more effective cyberbullying detection models.",
+                "authors": [
+                    {
+                        "s2_author_id": "2109990327",
+                        "name": "Aabhaas Gupta"
+                    },
+                    {
+                        "s2_author_id": "1557272646",
+                        "name": "Wenxia Yang"
+                    },
+                    {
+                        "s2_author_id": "2064650365",
+                        "name": "Divya Sivakumar"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "1678146015",
+                        "name": "M. N. Barioni"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aa2ccc8d7dbf8f8dc65e416a43523919495339da",
+                "title": "Unsupervised Cyberbullying Detection via Time-Informed Gaussian Mixture Model",
+                "year": 2020,
+                "venue": "International Conference on Information and Knowledge Management",
+                "citation_count": 34,
+                "reference_count": 51,
+                "abstract": "Social media is a vital means for information-sharing due to its easy access, low cost, and fast dissemination characteristics. However, increases in social media usage have corresponded with a rise in the prevalence of cyberbullying. Most existing cyberbullying detection methods aresupervised and, thus, have two key drawbacks: (1) The data labeling process is often time-consuming and labor-intensive; (2) Current labeling guidelines may not be generalized to future instances because of different language usage and evolving social networks. To address these limitations, this work introduces a principled approach forunsupervised cyberbullying detection. The proposed model consists of two main components: (1) Arepresentation learning network that encodes the social media session by exploiting multi-modal features, e.g., text, network, and time. (2) Amulti-task learning network that simultaneously fits the comment inter-arrival times and estimates the bullying likelihood based on a Gaussian Mixture Model. The proposed model jointly optimizes the parameters of both components to overcome the shortcomings of decoupled training. Our core contribution is an unsupervised cyberbullying detection model that not only experimentally outperforms the state-of-the-art unsupervised models, but also achieves competitive performance compared to supervised models.",
+                "authors": [
+                    {
+                        "s2_author_id": "144842921",
+                        "name": "Lu Cheng"
+                    },
+                    {
+                        "s2_author_id": "145800151",
+                        "name": "Kai Shu"
+                    },
+                    {
+                        "s2_author_id": "34962733",
+                        "name": "Siqi Wu"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "145896397",
+                        "name": "Huan Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c36821b97a40126bddfeaac83c5cb39bb2cc25b8",
+                "title": "Parallel time series join using spark",
+                "year": 2020,
+                "venue": "Concurrency and Computation",
+                "citation_count": 2,
+                "reference_count": 36,
+                "abstract": "A time series is a sequence of data points in successive temporal order. Time series data is produced in many applications scenarios, and the techniques for its analysis have generated substantial interest. Time series join is a primitive operation that retrieves all pairs of correlated subsequences from two given time series. As the Pearson correlation coefficient, a measure of the correlation between two variables, has multiple beneficial mathematical properties, for example, the fact that it is invariant with respect to scale and offset, it is used to measure the correlation between two time series. Considering the need to analyze big time series data, we focus on the study of scalable and distributed techniques to process massive data sets. Specifically, we propose a parallel approach to perform time series joins using Spark, a popular analytics engine for large\u2010scale data processing. Our solution builds on (1) a fast method to compute the fast Fourier transform on the times series to calculate the correlation between two time series, (2) a lossless partition method to divide the time series into multiple subsequences and enable a parallel and correct computation of the join result, and (3) optimization techniques to avoid redundant computations. We performed extensive tests and showed that the proposed approach is efficient and scalable across different data sets and test configurations.",
+                "authors": [
+                    {
+                        "s2_author_id": "3102649",
+                        "name": "Chuitian Rong"
+                    },
+                    {
+                        "s2_author_id": "2108435472",
+                        "name": "Lili Chen"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c98c407e67bc09825a4bcba8121c2f4237c2b50",
+                "title": "Similarity Grouping in Big Data Systems",
+                "year": 2019,
+                "venue": "Similarity Search and Applications",
+                "citation_count": 3,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2056419777",
+                        "name": "Manuel Sandoval"
+                    },
+                    {
+                        "s2_author_id": "2992071",
+                        "name": "Diana Benavides Prado"
+                    },
+                    {
+                        "s2_author_id": "1380760824",
+                        "name": "Xavier Wallace"
+                    },
+                    {
+                        "s2_author_id": "3102649",
+                        "name": "Chuitian Rong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "463b46e0447b7ca34e1bbe5f4711b64d16e7d76b",
+                "title": "XBully: Cyberbullying Detection within a Multi-Modal Context",
+                "year": 2019,
+                "venue": "Web Search and Data Mining",
+                "citation_count": 105,
+                "reference_count": 40,
+                "abstract": "Over the last decade, research has revealed the high prevalence of cyberbullying among youth and raised serious concerns in society. Information on the social media platforms where cyberbullying is most prevalent (e.g., Instagram, Facebook, Twitter) is inherently multi-modal, yet most existing work on cyberbullying identification has focused solely on building generic classification models that rely exclusively on text analysis of online social media sessions (e.g., posts). Despite their empirical success, these efforts ignore the multi-modal information manifested in social media data (e.g., image, video, user profile, time, and location), and thus fail to offer a comprehensive understanding of cyberbullying. Conventionally, when information from different modalities is presented together, it often reveals complementary insights about the application domain and facilitates better learning performance. In this paper, we study the novel problem of cyberbullying detection within a multi-modal context by exploiting social media data in a collaborative way. This task, however, is challenging due to the complex combination of both cross-modal correlations among various modalities and structural dependencies between different social media sessions, and the diverse attribute information of different modalities. To address these challenges, we propose XBully, a novel cyberbullying detection framework, that first reformulates multi-modal social media data as a heterogeneous network and then aims to learn node embedding representations upon it. Extensive experimental evaluations on real-world multi-modal social media datasets show that the XBully framework is superior to the state-of-the-art cyberbullying detection models.",
+                "authors": [
+                    {
+                        "s2_author_id": "144842921",
+                        "name": "Lu Cheng"
+                    },
+                    {
+                        "s2_author_id": "2040455",
+                        "name": "Jundong Li"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "145896397",
+                        "name": "Huan Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b4f4d5ea41af50b111ccaa631bae92a43f81ea00",
+                "title": "PI-Bully: Personalized Cyberbullying Detection with Peer Influence",
+                "year": 2019,
+                "venue": "International Joint Conference on Artificial Intelligence",
+                "citation_count": 33,
+                "reference_count": 38,
+                "abstract": "Cyberbullying has become one of the most pressing online risks for adolescents and has raised serious concerns in society. Recent years have witnessed a surge in research aimed at developing principled learning models to detect cyberbullying behaviors. These efforts have primarily focused on building a single generic classification model to differentiate bullying content from normal (non-bullying) content among all users. These models treat users equally and overlook idiosyncratic information about users that might facilitate the accurate detection of cyberbullying. In this paper, we propose a personalized cyberbullying detection framework, PI-Bully, that draws on empirical findings from psychology highlighting unique characteristics of victims and bullies and peer influence from like-minded users as predictors of cyberbullying behaviors. Our framework is novel in its ability to model peer influence in a collaborative environment and tailor cyberbullying prediction for each individual user. Extensive experimental evaluations on real-world datasets corroborate the effectiveness of the proposed framework.",
+                "authors": [
+                    {
+                        "s2_author_id": "144842921",
+                        "name": "Lu Cheng"
+                    },
+                    {
+                        "s2_author_id": "2040455",
+                        "name": "Jundong Li"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "145896397",
+                        "name": "Huan Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d70d67b105a2563e17f30550ac96b3165042f2fb",
+                "title": "Hierarchical Attention Networks for Cyberbullying Detection on the Instagram Social Network",
+                "year": 2019,
+                "venue": "SDM",
+                "citation_count": 79,
+                "reference_count": 39,
+                "abstract": "Cyberbullying has become one of the most pressing online risks for young people and has raised serious concerns in society. Emerging literature identifies cyberbullying as repetitive temporal acts rather than one-off incidents. Yet, there has been relatively little work to model the hierarchical structure of social media sessions and the temporal dynamics of cyberbullying in online social network sessions. We propose a hierarchical attention network for cyberbullying detection that takes these aspects of cyberbullying into account. The primary distinctive characteristics of our approach include: (i) a hierarchical structure that mirrors the structure of a social media session; (ii) two levels of attention mechanisms applied to the word and comment level, enabling the model to pay different amount of attention to words and comments dependent on the context; and (iii) a cyberbullying detection task that also predicts the interval of time between two adjacent comments. This allows the model to exploit the commonalities and differences across these two tasks to improve the performance of cyberbullying detection. Experiments on a real-world dataset from Instagram, the social media platform on which the highest percentage of users have reported experiencing cyberbullying, reveal that the proposed architecture outperforms the state-of-the-art method.",
+                "authors": [
+                    {
+                        "s2_author_id": "144842921",
+                        "name": "Lu Cheng"
+                    },
+                    {
+                        "s2_author_id": "2773849",
+                        "name": "Ruocheng Guo"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "38746648",
+                        "name": "Huan Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1e290a44705d6daf3477de1a83655cdce10e63f3",
+                "title": "BullyBlocker: toward an interdisciplinary approach to identify cyberbullying",
+                "year": 2018,
+                "venue": "Social Network Analysis and Mining",
+                "citation_count": 27,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "146422126",
+                        "name": "Christopher Rich"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c78c3c0b22762ef4e51ca3981ef398e411dfa95b",
+                "title": "Personalized Learning for Cyberbullying Detection",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144842921",
+                        "name": "Lu Cheng"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    },
+                    {
+                        "s2_author_id": "145896397",
+                        "name": "Huan Liu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fdd5ae1bc33337f9f0f7818509008705ffa2dc23",
+                "title": "DBSnap++: creating data-driven programs by snapping blocks",
+                "year": 2018,
+                "venue": "Annual Conference on Innovation and Technology in Computer Science Education",
+                "citation_count": 8,
+                "reference_count": 12,
+                "abstract": "A key development in Computer Science Education has been the introduction of block-based programming environments where programs are created by connecting blocks and the focus is on the program's logic instead of its syntax. Most of these environments support conventional (imperative) programming instructions. More recently, some systems have been proposed to enable the specification of database queries. While these two types of environments have been independently studied, there is significantly less work on the development and study of integrated environments that allow the creation of complete data-driven programs (real-world like programs that integrate conventional instructions and database queries). This paper introduces DBSnap++, a web-based environment that enables the specification of dynamic data-driven programs. DBSnap++ supports the specification of intuitive database query trees, a new type of list that dynamically gets its content executing a database query, and programs that generate different results when the underlying data changes. This paper presents DBSnap++'s design and implementation details, an array of programs to demonstrate how it can be effectively used as a learning tool, and a thorough comparison with other environments. DBSnap++ is publicly available and aims to enable learners to fully understand and utilize the capabilities of data-driven programs.",
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "50852504",
+                        "name": "A. Nieuwenhuyse"
+                    },
+                    {
+                        "s2_author_id": "2077117769",
+                        "name": "Thomas G. Schenk"
+                    },
+                    {
+                        "s2_author_id": "50856810",
+                        "name": "Alaura Symons"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "19c5dafb73463f972d1d5fdfbd7972f233df78b1",
+                "title": "Fast and Scalable Distributed Set Similarity Joins for Big Data Analytics",
+                "year": 2017,
+                "venue": "IEEE International Conference on Data Engineering",
+                "citation_count": 46,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3102649",
+                        "name": "Chuitian Rong"
+                    },
+                    {
+                        "s2_author_id": "49044428",
+                        "name": "Chunbin Lin"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2118443454",
+                        "name": "Jianguo Wang"
+                    },
+                    {
+                        "s2_author_id": "2153424524",
+                        "name": "Wei Lu"
+                    },
+                    {
+                        "s2_author_id": "144589756",
+                        "name": "Xiaoyong Du"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4e7c64f845b5ae449594f5ca2a4e060c75006562",
+                "title": "Comparing MapReduce-Based k-NN Similarity Joins on Hadoop for High-Dimensional Data",
+                "year": 2017,
+                "venue": "International Conference on Advanced Data Mining and Applications",
+                "citation_count": 9,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "30714105",
+                        "name": "Premysl Cech"
+                    },
+                    {
+                        "s2_author_id": "3463785",
+                        "name": "J. Marousek"
+                    },
+                    {
+                        "s2_author_id": "1693655",
+                        "name": "Jakub Loko\u010d"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "27704800",
+                        "name": "Jeremy Starks"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a42a4f4068b78bf6566efa18e56827e3543ebd9d",
+                "title": "String similarity join with different similarity thresholds based on novel indexing techniques",
+                "year": 2017,
+                "venue": "Frontiers of Computer Science",
+                "citation_count": 6,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3102649",
+                        "name": "Chuitian Rong"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2209543878",
+                        "name": "Chunqing Li"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "14f48711f4fcebf619e32960a3338e87724647ca",
+                "title": "BullyBlocker: Towards the identification of cyberbullying in social networking sites",
+                "year": 2016,
+                "venue": "International Conference on Advances in Social Networks Analysis and Mining",
+                "citation_count": 18,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "146422126",
+                        "name": "Christopher Rich"
+                    },
+                    {
+                        "s2_author_id": "6944261",
+                        "name": "Deborah L. Hall"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "25986ba2ca461d7d68fd480fa4ba9acab9caf057",
+                "title": "BullyBlocker: An app to identify cyberbullying in facebook",
+                "year": 2016,
+                "venue": "International Conference on Advances in Social Networks Analysis and Mining",
+                "citation_count": 12,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "146422126",
+                        "name": "Christopher Rich"
+                    },
+                    {
+                        "s2_author_id": "36303013",
+                        "name": "Jaime Chon"
+                    },
+                    {
+                        "s2_author_id": "3251841",
+                        "name": "Lisa M. Tsosie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "85d34710a8beeeb76ea320e6e0f4253a6d22e997",
+                "title": "SQL: From Traditional Databases to Big Data",
+                "year": 2016,
+                "venue": "Technical Symposium on Computer Science Education",
+                "citation_count": 57,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "145469746",
+                        "name": "Isadora Almeida"
+                    },
+                    {
+                        "s2_author_id": "33559782",
+                        "name": "Michell Queiroz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8975594ddec679db11aa4ac92611921214581467",
+                "title": "Learning SQL: Beyond Traditional Relational Databases",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "145469746",
+                        "name": "Isadora Almeida"
+                    },
+                    {
+                        "s2_author_id": "33559782",
+                        "name": "Michell Queiroz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1b877c900b2669ce1769c3e77ed4a145b568f4f",
+                "title": "Similarity Group-By operators for multi-dimensional relational data",
+                "year": 2016,
+                "venue": "IEEE International Conference on Data Engineering",
+                "citation_count": 6,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47605128",
+                        "name": "Mingjie Tang"
+                    },
+                    {
+                        "s2_author_id": "21527679",
+                        "name": "Ruby Y. Tahboub"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    },
+                    {
+                        "s2_author_id": "1719237",
+                        "name": "M. Atallah"
+                    },
+                    {
+                        "s2_author_id": "2404933",
+                        "name": "Q. Malluhi"
+                    },
+                    {
+                        "s2_author_id": "2168047",
+                        "name": "M. Ouzzani"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d6280375f5fbe928d19c166be438ec0d909cddec",
+                "title": "String similarity join with different similarity thresholds based on novel indexing techniques",
+                "year": 2016,
+                "venue": "Frontiers of Computer Science",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3102649",
+                        "name": "Chuitian Rong"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "48161677",
+                        "name": "C. Li"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ee7faa80f62576caa8b69920deb0406da316f843",
+                "title": "An Experimental Survey of MapReduce-Based Similarity Joins",
+                "year": 2016,
+                "venue": "Similarity Search and Applications",
+                "citation_count": 12,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2061160502",
+                        "name": "Jason M. Reed"
+                    },
+                    {
+                        "s2_author_id": "2117073482",
+                        "name": "Kyle Brown"
+                    },
+                    {
+                        "s2_author_id": "2059880512",
+                        "name": "Adelbert Wadsworth"
+                    },
+                    {
+                        "s2_author_id": "3102649",
+                        "name": "Chuitian Rong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "08762825d2d6b4a9676bee110be6cb77ab6a81bc",
+                "title": "Querying databases by snapping blocks",
+                "year": 2015,
+                "venue": "IEEE International Conference on Data Engineering",
+                "citation_count": 7,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "36303013",
+                        "name": "Jaime Chon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aabf7791575f8cc62432ca5e6289862eec0f6845",
+                "title": "DBSnap: Learning Database Queries by Snapping Blocks",
+                "year": 2015,
+                "venue": "Technical Symposium on Computer Science Education",
+                "citation_count": 20,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "36303013",
+                        "name": "Jaime Chon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c353b3bad6d85ab368bc8f72db0c98a3d593f5e8",
+                "title": "Similarity Joins: Their implementation and interactions with other database operators",
+                "year": 2015,
+                "venue": "Information Systems",
+                "citation_count": 24,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "40066153",
+                        "name": "Spencer Pearson"
+                    },
+                    {
+                        "s2_author_id": "36303013",
+                        "name": "Jaime Chon"
+                    },
+                    {
+                        "s2_author_id": "2113580559",
+                        "name": "R. Roberts"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "78f6b17838116c8f632fec6786cef0ab8813f018",
+                "title": "Integrating big data into the computing curricula",
+                "year": 2014,
+                "venue": "Technical Symposium on Computer Science Education",
+                "citation_count": 29,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "1800120",
+                        "name": "S. Dietrich"
+                    },
+                    {
+                        "s2_author_id": "2061160502",
+                        "name": "Jason M. Reed"
+                    },
+                    {
+                        "s2_author_id": "3251841",
+                        "name": "Lisa M. Tsosie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a65716c0a33c8bc67d478d1c60085f8a9b5827a0",
+                "title": "Similarity join for big geographic data",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2061160502",
+                        "name": "Jason M. Reed"
+                    },
+                    {
+                        "s2_author_id": "3251841",
+                        "name": "Lisa M. Tsosie"
+                    },
+                    {
+                        "s2_author_id": "1942932",
+                        "name": "Timothy Matti"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ebc64166cf2e8a12165aedef42a731996f9389d3",
+                "title": "Similarity Group-by Operators for Multi-Dimensional Relational Data",
+                "year": 2014,
+                "venue": "IEEE Transactions on Knowledge and Data Engineering",
+                "citation_count": 21,
+                "reference_count": 29,
+                "abstract": "The SQL group-by operator plays an important role in summarizing and aggregating large datasets in a data analytics stack. While the standard group-by operator, which is based on equality, is useful in several applications, allowing similarity aware grouping provides a more realistic view on real-world data that could lead to better insights. The Similarity SQL-based Group-By operator (SGB, for short) extends the semantics of the standard SQL Group-by by grouping data with similar but not necessarily equal values. While existing similarity-based grouping operators efficiently realize these approximate semantics, they primarily focus on one-dimensional attributes and treat multi-dimensional attributes independently. However, correlated attributes, such as in spatial data, are processed independently, and hence, groups in the multi-dimensional space are not detected properly. To address this problem, we introduce two new SGB operators for multi-dimensional data. The first operator is the clique (or distance-to-all) SGB, where all the tuples in a group are within some distance from each other. The second operator is the distance-to-any SGB, where a tuple belongs to a group if the tuple is within some distance from any other tuple in the group. Since a tuple may satisfy the membership criterion of multiple groups, we introduce three different semantics to deal with such a case: (i) eliminate the tuple, (ii) put the tuple in any one group, and (iii) create a new group for this tuple. We implement and test the new SGB operators and their algorithms inside PostgreSQL. The overhead introduced by these operators proves to be minimal and the execution times are comparable to those of the standard Group-by. The experimental study, based on TPC-H and a social check-in data, demonstrates that the proposed algorithms can achieve up to three orders of magnitude enhancement in performance over baseline methods developed to solve the same problem.",
+                "authors": [
+                    {
+                        "s2_author_id": "47605128",
+                        "name": "Mingjie Tang"
+                    },
+                    {
+                        "s2_author_id": "21527679",
+                        "name": "Ruby Y. Tahboub"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    },
+                    {
+                        "s2_author_id": "1719237",
+                        "name": "M. Atallah"
+                    },
+                    {
+                        "s2_author_id": "2404933",
+                        "name": "Q. Malluhi"
+                    },
+                    {
+                        "s2_author_id": "2168047",
+                        "name": "M. Ouzzani"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ed2330c6801ae74cdedaf3c1ab2d0351894e7986",
+                "title": "Index-Based R-S Similarity Joins",
+                "year": 2014,
+                "venue": "Similarity Search and Applications",
+                "citation_count": 20,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "40066153",
+                        "name": "Spencer Pearson"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "285a1e5ac9f88ec48d0afdd0d13b3e0d4bc39c61",
+                "title": "Similarity queries: their conceptual evaluation, transformations, and processing",
+                "year": 2013,
+                "venue": "The VLDB journal",
+                "citation_count": 60,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    },
+                    {
+                        "s2_author_id": "144014124",
+                        "name": "P. Larson"
+                    },
+                    {
+                        "s2_author_id": "40066153",
+                        "name": "Spencer Pearson"
+                    },
+                    {
+                        "s2_author_id": "2111126549",
+                        "name": "Mohamed H. Ali"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "36ea7265ee82dc5be1b9defd86daf42b136b2b51",
+                "title": "Facebully : Towards the Identification of Cyberbullying in Facebook",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3251841",
+                        "name": "Lisa M. Tsosie"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "425878d7f58b99ade07bd7cc0854fd02feab38b9",
+                "title": "Database Similarity Join for Metric Spaces",
+                "year": 2013,
+                "venue": "Similarity Search and Applications",
+                "citation_count": 21,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "40066153",
+                        "name": "Spencer Pearson"
+                    },
+                    {
+                        "s2_author_id": "46894339",
+                        "name": "Jason A. Cheney"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "61638da901270a8fafab67cd600fa9354f60d98e",
+                "title": "MapReduce-based similarity join for metric spaces",
+                "year": 2012,
+                "venue": "International Workshop on Cloud Intelligence",
+                "citation_count": 29,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2061160502",
+                        "name": "Jason M. Reed"
+                    },
+                    {
+                        "s2_author_id": "3251841",
+                        "name": "Lisa M. Tsosie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "645f7926278dfc6eadbe8eb6c2c6fd57d0d7dba3",
+                "title": "Exploiting Common Subexpressions for Cloud Query Processing",
+                "year": 2012,
+                "venue": "IEEE International Conference on Data Engineering",
+                "citation_count": 42,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "144014124",
+                        "name": "P. Larson"
+                    },
+                    {
+                        "s2_author_id": "1709595",
+                        "name": "Jingren Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "64c2a81740226b56e7a0fa1029be3058392347d3",
+                "title": "Query Processing with K-Anonymity",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1695161",
+                        "name": "M. Eltabakh"
+                    },
+                    {
+                        "s2_author_id": "2450887",
+                        "name": "J. Padma"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2112512861",
+                        "name": "Peijun He"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    },
+                    {
+                        "s2_author_id": "1743774",
+                        "name": "E. Bertino"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a876bb661bab1ad67aaab92b2d3b07f8938fbf9d",
+                "title": "Exploiting Database Similarity Joins for Metric Spaces",
+                "year": 2012,
+                "venue": "Proceedings of the VLDB Endowment",
+                "citation_count": 19,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "40066153",
+                        "name": "Spencer Pearson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b43444035ba1c2b8fbb7b74fa221706474db1eca",
+                "title": "Technical Report: MapReduce-based Similarity Joins",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2061160502",
+                        "name": "Jason M. Reed"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e26e6d6ad15a5edb7db0e04aed156a89d72a5c3e",
+                "title": "Similarity queries: their conceptual evaluation, transformations, and processing",
+                "year": 2012,
+                "venue": "The VLDB journal",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    },
+                    {
+                        "s2_author_id": "144014124",
+                        "name": "P. Larson"
+                    },
+                    {
+                        "s2_author_id": "40066153",
+                        "name": "Spencer Pearson"
+                    },
+                    {
+                        "s2_author_id": "2111126549",
+                        "name": "Mohamed H. Ali"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ebc8c9fb7992141b5c0da2b2ddb0704ee7bc91f7",
+                "title": "Exploiting MapReduce-based similarity joins",
+                "year": 2012,
+                "venue": "SIGMOD Conference",
+                "citation_count": 53,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2061160502",
+                        "name": "Jason M. Reed"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0acb4ebece0c2460c45d42e5ed23afaffca00992",
+                "title": "The similarity join database operator",
+                "year": 2010,
+                "venue": "IEEE International Conference on Data Engineering",
+                "citation_count": 70,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    },
+                    {
+                        "s2_author_id": "2111126549",
+                        "name": "Mohamed H. Ali"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "430c2878eb47332c6f96802b6fad89bae23360c4",
+                "title": "SimDB: a similarity-aware database system",
+                "year": 2010,
+                "venue": "SIGMOD Conference",
+                "citation_count": 44,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "145204762",
+                        "name": "Ahmed M. Aly"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    },
+                    {
+                        "s2_author_id": "144014124",
+                        "name": "P. Larson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e38d696ef08ec0c031bbbc53b8de3ff7ca3bdf03",
+                "title": "Supporting real-world activities in database management systems",
+                "year": 2010,
+                "venue": "IEEE International Conference on Data Engineering",
+                "citation_count": 5,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1695161",
+                        "name": "M. Eltabakh"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    },
+                    {
+                        "s2_author_id": "145188857",
+                        "name": "A. Elmagarmid"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "2168047",
+                        "name": "M. Ouzzani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "083ad093a69aec16bd72b7e27d6880a7af57c502",
+                "title": "Similarity-aware Query Processing and Optimization",
+                "year": 2009,
+                "venue": "VLDB PhD Workshop",
+                "citation_count": 5,
+                "reference_count": 55,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "32eda79d105d68aa43caff30c477ea9148b69926",
+                "title": "The RUM-tree: supporting frequent updates in R-trees using memos",
+                "year": 2009,
+                "venue": "The VLDB journal",
+                "citation_count": 59,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "1831264",
+                        "name": "Xiaopeng Xiong"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "479df6afc5453ba7fe53771ae0a3bf8b5cf16b13",
+                "title": "Exploiting similarity-aware grouping in decision support systems",
+                "year": 2009,
+                "venue": "International Conference on Extending Database Technology",
+                "citation_count": 7,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "48528884",
+                        "name": "M. Arshad"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9bdcceea6d5ddba3d3176a8d6de43ca17f049211",
+                "title": "Similarity Group-By",
+                "year": 2009,
+                "venue": "IEEE International Conference on Data Engineering",
+                "citation_count": 37,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    },
+                    {
+                        "s2_author_id": "2111126549",
+                        "name": "Mohamed H. Ali"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ac92d9643c47fb714d4f030b2ed3b23780345475",
+                "title": "Supporting annotations on relations",
+                "year": 2009,
+                "venue": "International Conference on Extending Database Technology",
+                "citation_count": 35,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1695161",
+                        "name": "M. Eltabakh"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    },
+                    {
+                        "s2_author_id": "145188857",
+                        "name": "A. Elmagarmid"
+                    },
+                    {
+                        "s2_author_id": "2168047",
+                        "name": "M. Ouzzani"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e41ac2f8b7dcb7c084106319744b187b882d5f82",
+                "title": "Hippocratic PostgreSQL",
+                "year": 2009,
+                "venue": "IEEE International Conference on Data Engineering",
+                "citation_count": 11,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2450887",
+                        "name": "J. Padma"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "48528884",
+                        "name": "M. Arshad"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a0dcaba4bc533386f356d6fbaee69608a5294401",
+                "title": "Managing Biological Data using bdbms",
+                "year": 2008,
+                "venue": "IEEE International Conference on Data Engineering",
+                "citation_count": 26,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1695161",
+                        "name": "M. Eltabakh"
+                    },
+                    {
+                        "s2_author_id": "2168047",
+                        "name": "M. Ouzzani"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    },
+                    {
+                        "s2_author_id": "145188857",
+                        "name": "A. Elmagarmid"
+                    },
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "48528884",
+                        "name": "M. Arshad"
+                    },
+                    {
+                        "s2_author_id": "2125258",
+                        "name": "D. Salt"
+                    },
+                    {
+                        "s2_author_id": "1963666",
+                        "name": "I. Baxter"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cb93eba5441aba3f2bffd48d4bf2f62f2045927b",
+                "title": "Realizing Privacy-Preserving Features in Hippocratic Databases",
+                "year": 2007,
+                "venue": "2007 IEEE 23rd International Conference on Data Engineering Workshop",
+                "citation_count": 11,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217032",
+                        "name": "Yasin N. Silva"
+                    },
+                    {
+                        "s2_author_id": "1709661",
+                        "name": "Walid G. Aref"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "1602874496",
+                "name": "Isaac Ahlgren"
+            },
+            {
+                "s2_author_id": "2205654115",
+                "name": "Victor Rakotondranoro"
+            },
+            {
+                "s2_author_id": "2314409508",
+                "name": "Eric Chan-Tin"
+            },
+            {
+                "s2_author_id": "145078593",
+                "name": "G. Thiruvathukal"
+            },
+            {
+                "s2_author_id": "2119764",
+                "name": "Neil Klingensmith"
+            },
+            {
+                "s2_author_id": "2166027823",
+                "name": "Alexis Loza"
+            },
+            {
+                "s2_author_id": "1852790",
+                "name": "H. Razente"
+            },
+            {
+                "s2_author_id": "144842921",
+                "name": "Lu Cheng"
+            },
+            {
+                "s2_author_id": "1380253791",
+                "name": "Ahmadreza Mosallanezhad"
+            },
+            {
+                "s2_author_id": "6944261",
+                "name": "Deborah L. Hall"
+            },
+            {
+                "s2_author_id": "2146398099",
+                "name": "Huan Liu"
+            },
+            {
+                "s2_author_id": "2635026",
+                "name": "M. Barioni"
+            },
+            {
+                "s2_author_id": "2047615548",
+                "name": "Mara Hamlett"
+            },
+            {
+                "s2_author_id": "118927161",
+                "name": "G. Powell"
+            },
+            {
+                "s2_author_id": "65867667",
+                "name": "Brittany Wheeler"
+            },
+            {
+                "s2_author_id": "2212210960",
+                "name": "Seong Jung"
+            },
+            {
+                "s2_author_id": "2212501605",
+                "name": "Monika Purohit"
+            },
+            {
+                "s2_author_id": "145896397",
+                "name": "Huan Liu"
+            },
+            {
+                "s2_author_id": "2265003129",
+                "name": "Kaitlyn B. Schodt"
+            },
+            {
+                "s2_author_id": "1665459757",
+                "name": "Selena I. Quiroz"
+            },
+            {
+                "s2_author_id": "2047616335",
+                "name": "Katie Baumel"
+            },
+            {
+                "s2_author_id": "2773849",
+                "name": "Ruocheng Guo"
+            },
+            {
+                "s2_author_id": "1398659765",
+                "name": "S. Marchand-Maillet"
+            },
+            {
+                "s2_author_id": "30714105",
+                "name": "Premysl Cech"
+            },
+            {
+                "s2_author_id": "1693655",
+                "name": "Jakub Loko\u010d"
+            },
+            {
+                "s2_author_id": "2128984",
+                "name": "M. Mancenido"
+            },
+            {
+                "s2_author_id": "2109990327",
+                "name": "Aabhaas Gupta"
+            },
+            {
+                "s2_author_id": "1557272646",
+                "name": "Wenxia Yang"
+            },
+            {
+                "s2_author_id": "2064650365",
+                "name": "Divya Sivakumar"
+            },
+            {
+                "s2_author_id": "1678146015",
+                "name": "M. N. Barioni"
+            },
+            {
+                "s2_author_id": "145800151",
+                "name": "Kai Shu"
+            },
+            {
+                "s2_author_id": "34962733",
+                "name": "Siqi Wu"
+            },
+            {
+                "s2_author_id": "3102649",
+                "name": "Chuitian Rong"
+            },
+            {
+                "s2_author_id": "2108435472",
+                "name": "Lili Chen"
+            },
+            {
+                "s2_author_id": "2056419777",
+                "name": "Manuel Sandoval"
+            },
+            {
+                "s2_author_id": "2992071",
+                "name": "Diana Benavides Prado"
+            },
+            {
+                "s2_author_id": "1380760824",
+                "name": "Xavier Wallace"
+            },
+            {
+                "s2_author_id": "2040455",
+                "name": "Jundong Li"
+            },
+            {
+                "s2_author_id": "38746648",
+                "name": "Huan Liu"
+            },
+            {
+                "s2_author_id": "146422126",
+                "name": "Christopher Rich"
+            },
+            {
+                "s2_author_id": "50852504",
+                "name": "A. Nieuwenhuyse"
+            },
+            {
+                "s2_author_id": "2077117769",
+                "name": "Thomas G. Schenk"
+            },
+            {
+                "s2_author_id": "50856810",
+                "name": "Alaura Symons"
+            },
+            {
+                "s2_author_id": "49044428",
+                "name": "Chunbin Lin"
+            },
+            {
+                "s2_author_id": "2118443454",
+                "name": "Jianguo Wang"
+            },
+            {
+                "s2_author_id": "2153424524",
+                "name": "Wei Lu"
+            },
+            {
+                "s2_author_id": "144589756",
+                "name": "Xiaoyong Du"
+            },
+            {
+                "s2_author_id": "3463785",
+                "name": "J. Marousek"
+            },
+            {
+                "s2_author_id": "27704800",
+                "name": "Jeremy Starks"
+            },
+            {
+                "s2_author_id": "2209543878",
+                "name": "Chunqing Li"
+            },
+            {
+                "s2_author_id": "36303013",
+                "name": "Jaime Chon"
+            },
+            {
+                "s2_author_id": "3251841",
+                "name": "Lisa M. Tsosie"
+            },
+            {
+                "s2_author_id": "145469746",
+                "name": "Isadora Almeida"
+            },
+            {
+                "s2_author_id": "33559782",
+                "name": "Michell Queiroz"
+            },
+            {
+                "s2_author_id": "47605128",
+                "name": "Mingjie Tang"
+            },
+            {
+                "s2_author_id": "21527679",
+                "name": "Ruby Y. Tahboub"
+            },
+            {
+                "s2_author_id": "1709661",
+                "name": "Walid G. Aref"
+            },
+            {
+                "s2_author_id": "1719237",
+                "name": "M. Atallah"
+            },
+            {
+                "s2_author_id": "2404933",
+                "name": "Q. Malluhi"
+            },
+            {
+                "s2_author_id": "2168047",
+                "name": "M. Ouzzani"
+            },
+            {
+                "s2_author_id": "48161677",
+                "name": "C. Li"
+            },
+            {
+                "s2_author_id": "2061160502",
+                "name": "Jason M. Reed"
+            },
+            {
+                "s2_author_id": "2117073482",
+                "name": "Kyle Brown"
+            },
+            {
+                "s2_author_id": "2059880512",
+                "name": "Adelbert Wadsworth"
+            },
+            {
+                "s2_author_id": "40066153",
+                "name": "Spencer Pearson"
+            },
+            {
+                "s2_author_id": "2113580559",
+                "name": "R. Roberts"
+            },
+            {
+                "s2_author_id": "1800120",
+                "name": "S. Dietrich"
+            },
+            {
+                "s2_author_id": "1942932",
+                "name": "Timothy Matti"
+            },
+            {
+                "s2_author_id": "144014124",
+                "name": "P. Larson"
+            },
+            {
+                "s2_author_id": "2111126549",
+                "name": "Mohamed H. Ali"
+            },
+            {
+                "s2_author_id": "46894339",
+                "name": "Jason A. Cheney"
+            },
+            {
+                "s2_author_id": "1709595",
+                "name": "Jingren Zhou"
+            },
+            {
+                "s2_author_id": "1695161",
+                "name": "M. Eltabakh"
+            },
+            {
+                "s2_author_id": "2450887",
+                "name": "J. Padma"
+            },
+            {
+                "s2_author_id": "2112512861",
+                "name": "Peijun He"
+            },
+            {
+                "s2_author_id": "1743774",
+                "name": "E. Bertino"
+            },
+            {
+                "s2_author_id": "145204762",
+                "name": "Ahmed M. Aly"
+            },
+            {
+                "s2_author_id": "145188857",
+                "name": "A. Elmagarmid"
+            },
+            {
+                "s2_author_id": "1831264",
+                "name": "Xiaopeng Xiong"
+            },
+            {
+                "s2_author_id": "48528884",
+                "name": "M. Arshad"
+            },
+            {
+                "s2_author_id": "2125258",
+                "name": "D. Salt"
+            },
+            {
+                "s2_author_id": "1963666",
+                "name": "I. Baxter"
+            }
+        ],
+        "total_co_authors": 82,
+        "papers_retrieved": 62
+    }
+}

@@ -1,0 +1,1442 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A0894",
+        "name": "Meisam Mohammady",
+        "primary_affiliation": "Iowa State University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Iowa State University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "IA"
+        ],
+        "perf_cities": [
+            "AMES"
+        ],
+        "org_names": [
+            "Iowa State University"
+        ],
+        "org_ueis": [
+            "DQDBM7FGJPC5"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "meisam@iastate.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2452749",
+                "title": "PDaSP Track 2: A Holistic Privacy Preserving Collaborative Data Sharing System for Intelligent Transportation",
+                "type": "Continuing Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-10-01",
+                "exp_date": "2028-09-30",
+                "award_amount": 76571.0,
+                "total_amount": 232000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "NSF-Intel Semiconductr Partnrs"
+                ],
+                "program_codes": [
+                    "241Y00"
+                ],
+                "program_references": [
+                    "EXP PROG TO STIM COMP RES"
+                ],
+                "program_ref_codes": [
+                    "9150"
+                ],
+                "dir_abbr": "TIP",
+                "div_abbr": "ITE",
+                "nsf_directorate": null,
+                "fund_division": "Innovation and Technology Ecosystems",
+                "cfda_num": "47.084",
+                "po_name": "Jemin George",
+                "keywords": [
+                    "privacy",
+                    "transportation",
+                    "preserving",
+                    "sharing",
+                    "traffic",
+                    "including",
+                    "driving",
+                    "datasets",
+                    "technologies",
+                    "secure"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "NSF-Intel Semiconductr Partnrs"
+        ],
+        "program_codes": [
+            "241Y00"
+        ],
+        "program_references": [
+            "EXP PROG TO STIM COMP RES"
+        ],
+        "program_ref_codes": [
+            "9150"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "TIP"
+        ],
+        "div_abbrs": [
+            "ITE"
+        ],
+        "fund_divisions": [
+            "Innovation and Technology Ecosystems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.084"
+        ],
+        "program_officers": [
+            "Jemin George"
+        ],
+        "keywords": [
+            "privacy",
+            "transportation",
+            "preserving",
+            "sharing",
+            "traffic",
+            "including",
+            "driving",
+            "datasets",
+            "technologies",
+            "secure",
+            "vehicle",
+            "through",
+            "intelligent",
+            "systems",
+            "conditions",
+            "road",
+            "videos",
+            "information",
+            "about",
+            "collected"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.38
+    },
+    "s2_profile": {
+        "s2_author_id": "31961516",
+        "name": "Meisam Mohammady",
+        "affiliations": [],
+        "paper_count": 30,
+        "citation_count": 212,
+        "h_index": 8,
+        "papers": [
+            {
+                "s2_paper_id": "140fe0093057fc3053e8139f75b6ea3a1d02b886",
+                "title": "PLRV-O: Advancing Differentially Private Deep Learning via Privacy Loss Random Variable Optimization",
+                "year": 2025,
+                "venue": "Conference on Computer and Communications Security",
+                "citation_count": 1,
+                "reference_count": 67,
+                "abstract": "Differentially Private Stochastic Gradient Descent (DP-SGD) is a standard method for enforcing privacy in deep learning, typically using the Gaussian mechanism to perturb gradient updates. However, conventional mechanisms such as Gaussian and Laplacian noise are parameterized only by variance or scale. This single degree of freedom ties the magnitude of noise directly to both privacy loss and utility degradation, preventing independent control of these two factors. The problem becomes more pronounced when the number of composition rounds T and batch size B vary across tasks, as these variations induce task-dependent shifts in the privacy\u2013utility trade-off, where small changes in noise parameters can disproportionately affect model accuracy. To address this limitation, we introduce PLRV-O, a framework that defines a broad search space of parameterized DP-SGD noise distributions, where privacy loss moments are tightly characterized yet can be optimized more independently with respect to utility loss. This formulation enables systematic adaptation of noise to task-specific requirements, including (i) model size, (ii) training duration, (iii) batch sampling strategies, and (iv) clipping thresholds under both training and fine-tuning settings. Empirical results demonstrate that PLRV-O substantially improves utility under strict privacy constraints. On CIFAR-10, a fine-tuned ViT achieves 94.03% accuracy at \u2208 \u2248 0.5, compared to 83.93% with Gaussian noise. On SST-2, RoBERTa-large reaches 92.20% accuracy at \u2208 \u2248 0.2, versus 50.25% with Gaussian. Source code is available at https://github.com/datasec-lab/plrvo.",
+                "authors": [
+                    {
+                        "s2_author_id": "2303854166",
+                        "name": "Qin Yang"
+                    },
+                    {
+                        "s2_author_id": "2379652753",
+                        "name": "Nicholas Stout"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2113289809",
+                        "name": "Han Wang"
+                    },
+                    {
+                        "s2_author_id": "30963072",
+                        "name": "A. Samreen"
+                    },
+                    {
+                        "s2_author_id": "2215826873",
+                        "name": "Christopher J. Quinn"
+                    },
+                    {
+                        "s2_author_id": "2336896493",
+                        "name": "Yan Yan"
+                    },
+                    {
+                        "s2_author_id": "2303655005",
+                        "name": "Ashish Kundu"
+                    },
+                    {
+                        "s2_author_id": "2296738596",
+                        "name": "Yuan Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "72f10c7981467497060fcedc4a12e4652f41602e",
+                "title": "FedSIG: Privacy-Preserving Federated Recommendation via Synthetic Interaction Generation",
+                "year": 2025,
+                "venue": "International Symposium on Recent Advances in Intrusion Detection",
+                "citation_count": 0,
+                "reference_count": 42,
+                "abstract": "Recommendation Systems (RS) play an important role in our everyday life in this data-driven digital era by providing users with the convenience of navigating the plethora of available choices. An RS collects user behavioural data to provide them with valuable suggestions. The growing privacy concerns regarding private data collection have led to the use of Federated Learning (FL) to implement RS. However, many research works have exposed the privacy leakages in FL gradient sharing. The embedding gradients shared by FL users during the RS model training can be used to infer the items that users have interacted with. Existing defences, such as random noise injection or pseudo-interaction sampling to obfuscate the privacysensitive information reflected by the shared gradients. However, these techniques provide limited protection and often result in substantial degradation of recommendation performance, leading to an unfavourable privacy\u2013utility trade-off. In this paper, we propose FedSIG (Federated Synthetic Interaction Generation), a defence mechanism that mitigates useritem interaction inference in federated recommendation systems by generating synthetic interaction data using generative models. The generated items are selectively used to replace or augment real user interactions, thereby obfuscating sensitive data while preserving user preference signals. To further enhance utility, we design an item selection module based on an attention mechanism to identify less contributive interactions for replacement. Extensive experiments conducted on five real-world datasets and two state-of-the-art recommendation models demonstrate that FedSIG achieves a significantly improved privacy\u2013utility balance compared to existing approaches, effectively reducing inference success rates while maintaining competitive recommendation accuracy.",
+                "authors": [
+                    {
+                        "s2_author_id": "1397291971",
+                        "name": "Thirasara Ariyarathna"
+                    },
+                    {
+                        "s2_author_id": "1733096",
+                        "name": "S. Kanhere"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2407738876",
+                        "name": "Hye-Young Helen Paik"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75c688d5e26c12931e0af3341397fbde28c810ae",
+                "title": "Towards Usability of Data with Privacy: A Unified Framework for Privacy-Preserving Data Sharing with High Utility",
+                "year": 2025,
+                "venue": "ACM Asia Conference on Computer and Communications Security",
+                "citation_count": 1,
+                "reference_count": 40,
+                "abstract": "Tabular data sharing serves as a common method for data exchange. However, sharing sensitive information without adequate privacy protection can compromise individual privacy. Thus, ensuring privacy-preserving data sharing is crucial. Differential privacy (DP) is regarded as the gold standard in data privacy. Despite this, current DP methods tend to generate privacy-preserving tabular datasets that often suffer from limited practical utility due to heavy perturbation and disregard for the tables\u2019 utility dynamics. Besides, there has not been much research on selective attribute release, particularly in the context of controlled, partially perturbed data sharing. This has significant implications for scenarios such as cross-agency data sharing in real-world situations. We introduce OptimShare, a utility-focused, multi-criteria solution designed to selectively perturb input datasets, optimized for specific real-world applications. OptimShare combines the principles of DP, fuzzy logic, and probability theory to establish an integrated tool for privacy-preserving data sharing. Empirical assessments confirm that OptimShare successfully strikes a balance between better data utility and robust privacy, effectively serving various real-world use cases.",
+                "authors": [
+                    {
+                        "s2_author_id": "2265340677",
+                        "name": "M.A.P. Chamikara"
+                    },
+                    {
+                        "s2_author_id": "2161856706",
+                        "name": "Seung Ick Jang"
+                    },
+                    {
+                        "s2_author_id": "2329972996",
+                        "name": "Ian Oppermann"
+                    },
+                    {
+                        "s2_author_id": "2107798642",
+                        "name": "Dongxi Liu"
+                    },
+                    {
+                        "s2_author_id": "2218933930",
+                        "name": "Musotto Roberto"
+                    },
+                    {
+                        "s2_author_id": "1727457",
+                        "name": "S. Ruj"
+                    },
+                    {
+                        "s2_author_id": "2268583305",
+                        "name": "Arindam Pal"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "1811469",
+                        "name": "Seyit Ahmet Camtepe"
+                    },
+                    {
+                        "s2_author_id": "2218980486",
+                        "name": "Sylvia Young"
+                    },
+                    {
+                        "s2_author_id": "2218989780",
+                        "name": "Chris Dorrian"
+                    },
+                    {
+                        "s2_author_id": "2218985533",
+                        "name": "Nasir David"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be7558608334c491b5f15ea5ac896d5bf9bd6252",
+                "title": "UD-LDP: A Technique for optimally catalyzing user driven Local Differential Privacy",
+                "year": 2025,
+                "venue": "Future generations computer systems",
+                "citation_count": 1,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2339918682",
+                        "name": "Gnanakumar Thedchanamoorthy"
+                    },
+                    {
+                        "s2_author_id": "2283956099",
+                        "name": "Michael Bewong"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2144255451",
+                        "name": "Tanveer A. Zia"
+                    },
+                    {
+                        "s2_author_id": "2280491115",
+                        "name": "Md Zahidul Islam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "09c52e67ac4ab1be075a268a0b6276c8e2ddafe1",
+                "title": "Optimally Mitigating Backdoor Attacks in Federated Learning",
+                "year": 2024,
+                "venue": "IEEE Transactions on Dependable and Secure Computing",
+                "citation_count": 4,
+                "reference_count": 44,
+                "abstract": "Federated learning (FL) is a distributed, privacy-preserving learning paradigm where a joint model is trained on private data stored on client devices. Data owners (clients) train models locally and then submit them to an aggregation server for incorporation into the joint model. Malicious clients can apply training time attacks, e.g., backdoor attacks, by submitting maliciously trained models. Prior work has shown that Differential Privacy (DP) can provide certified robustness to backdoor attacks; however, there are limited studies regarding DP parameter selection as a function of the model architecture. In this work, we show empirically that larger models (i.e., with more parameters) require stronger DP parameter settings to mitigate backdoor attacks. Furthermore, we present a framework that alters the FL training algorithm to preserve certified accuracy round-by-round and show empirically that it is superior to a model trainer selecting DP parameters ahead of time before training begins and with incomplete information about the attacker. Although tools from DP are used in our proposed framework, it is focused on backdoor attack mitigation and does not provide privacy guarantees.",
+                "authors": [
+                    {
+                        "s2_author_id": "2051295195",
+                        "name": "Kane Walter"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2162545036",
+                        "name": "Surya Nepal"
+                    },
+                    {
+                        "s2_author_id": "1733096",
+                        "name": "S. Kanhere"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2018a3842d069ebc7d272291e704d592d92e1e96",
+                "title": "FUD-LDP: Fully User Driven Local Differential Privacy",
+                "year": 2024,
+                "venue": "WISE",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1919263",
+                        "name": "Gnana Thedchanamoorthy"
+                    },
+                    {
+                        "s2_author_id": "2283956099",
+                        "name": "Michael Bewong"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "1739107",
+                        "name": "T. Zia"
+                    },
+                    {
+                        "s2_author_id": "2280491115",
+                        "name": "Md Zahidul Islam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "24758df0b87adc21f25e8326b9d635c0e3163b5e",
+                "title": "Optimization of UD-LDP with statistical prior knowledge",
+                "year": 2024,
+                "venue": "2024 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)",
+                "citation_count": 0,
+                "reference_count": 24,
+                "abstract": "In the realm of privacy preservation for the crowd-sourced data collection, Local Differential Privacy (LDP) has emerged as a standard for protecting user data. With the existing literature primarily focused on predefined privacy levels for all users, User Driven Local Differential Privacy (UD-LDP) provides a mechanism that allows users to choose the privacy level that best suits them. However, UD-LDP does not account for heterogeneity in Individual Privacy Needs (IPN) distribution, leading to a one-size-fits-all model that may not optimize data utility. This paper evaluates the shortfall in not accommodating diverse IPN distribution within the UD-LDP framework and proposes a method that recommends optimal number of cohorts and their sizes, that is, the Optimal Cohort Configurations (OCC) for different IPN distributions. The findings suggest OCCs for various privacy distribution types, marking a significant step towards a more personalized and efficient privacy-preserving model.",
+                "authors": [
+                    {
+                        "s2_author_id": "1919263",
+                        "name": "Gnana Thedchanamoorthy"
+                    },
+                    {
+                        "s2_author_id": "2283956099",
+                        "name": "Michael Bewong"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "1739107",
+                        "name": "T. Zia"
+                    },
+                    {
+                        "s2_author_id": "2280491115",
+                        "name": "Md Zahidul Islam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "65ea1f4ef5f90dc3d3a397e9a1e35518e144ef2a",
+                "title": "Universally Harmonizing Differential Privacy Mechanisms for Federated Learning: Boosting Accuracy and Convergence",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 5,
+                "reference_count": 102,
+                "abstract": "Differentially private federated learning (DP-FL) is a promising technique for collaborative model training while ensuring provable privacy for clients. However, optimizing the tradeoff between privacy and accuracy remains a critical challenge. To our best knowledge, we propose the first DP-FL framework (namely UDP-FL), which universally harmonizes any randomization mechanism (e.g., an optimal one) with the Gaussian Moments Accountant (viz. DP-SGD) to significantly boost accuracy and convergence. Specifically, UDP-FL demonstrates enhanced model performance by mitigating the reliance on Gaussian noise. The key mediator variable in this transformation is the R\\'enyi Differential Privacy notion, which is carefully used to harmonize privacy budgets. We also propose an innovative method to theoretically analyze the convergence for DP-FL (including our UDP-FL ) based on mode connectivity analysis. Moreover, we evaluate our UDP-FL through extensive experiments benchmarked against state-of-the-art (SOTA) methods, demonstrating superior performance on both privacy guarantees and model performance. Notably, UDP-FL exhibits substantial resilience against different inference attacks, indicating a significant advance in safeguarding sensitive data in federated learning environments.",
+                "authors": [
+                    {
+                        "s2_author_id": "2174198712",
+                        "name": "Shuya Feng"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "1845877536",
+                        "name": "Hanbin Hong"
+                    },
+                    {
+                        "s2_author_id": "2307902003",
+                        "name": "Shenao Yan"
+                    },
+                    {
+                        "s2_author_id": "2303655005",
+                        "name": "Ashish Kundu"
+                    },
+                    {
+                        "s2_author_id": "2274276456",
+                        "name": "Binghui Wang"
+                    },
+                    {
+                        "s2_author_id": "2296738596",
+                        "name": "Yuan Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8510a390c8510c91bb9ed49476c4225368ab995e",
+                "title": "LMO-DP: Optimizing the Randomization Mechanism for Differentially Private Fine-Tuning (Large) Language Models",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 2,
+                "reference_count": 27,
+                "abstract": "Differentially Private Stochastic Gradient Descent (DP-SGD) and its variants have been proposed to ensure rigorous privacy for fine-tuning large-scale pre-trained language models. However, they rely heavily on the Gaussian mechanism, which may overly perturb the gradients and degrade the accuracy, especially in stronger privacy regimes (e.g., the privacy budget $\\epsilon<3$). To address such limitations, we propose a novel Language Model-based Optimal Differential Privacy (LMO-DP) mechanism, which takes the first step to enable the tight composition of accurately fine-tuning (large) language models with a sub-optimal DP mechanism, even in strong privacy regimes (e.g., $0.1\\leq \\epsilon<3$). Furthermore, we propose a novel offline optimal noise search method to efficiently derive the sub-optimal DP that significantly reduces the noise magnitude. For instance, fine-tuning RoBERTa-large (with 300M parameters) on the SST-2 dataset can achieve an accuracy of 92.20% (given $\\epsilon=0.3$, $\\delta=10^{-10}$) by drastically outperforming the Gaussian mechanism (e.g., $\\sim 50\\%$ for small $\\epsilon$ and $\\delta$). We also draw similar findings on the text generation tasks on GPT-2. Finally, to our best knowledge, LMO-DP is also the first solution to accurately fine-tune Llama-2 with strong differential privacy guarantees. The code will be released soon and available upon request.",
+                "authors": [
+                    {
+                        "s2_author_id": "2303854166",
+                        "name": "Qin Yang"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2113289809",
+                        "name": "Han Wang"
+                    },
+                    {
+                        "s2_author_id": "2294757977",
+                        "name": "Ali Payani"
+                    },
+                    {
+                        "s2_author_id": "2303655005",
+                        "name": "Ashish Kundu"
+                    },
+                    {
+                        "s2_author_id": "2266839642",
+                        "name": "Kai Shu"
+                    },
+                    {
+                        "s2_author_id": "2336896493",
+                        "name": "Yan Yan"
+                    },
+                    {
+                        "s2_author_id": "2296738596",
+                        "name": "Yuan Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "91cfd28a0b609fdedf48959f7846ec2caf425ed2",
+                "title": "VLIA: Navigating Shadows with Proximity for Highly Accurate Visited Location Inference Attack against Federated Recommendation Models",
+                "year": 2024,
+                "venue": "ACM Asia Conference on Computer and Communications Security",
+                "citation_count": 1,
+                "reference_count": 55,
+                "abstract": "Personalized location recommendation allows users to enjoy a seamless travel experience by suggesting the optimal travel locations/routes based on user preferences. Most service providers collect users' location data centrally to develop accurate route recommendation applications. Federated learning (FL) can be used as an inherent privacy-preserving mechanism in these applications to prevent users from sharing private data. However, recent research shows that FL is still vulnerable to privacy leakages. Therefore, many FL-based recommendation systems use Local Differential Privacy (LDP) to defend against such attacks. In this paper, we propose the Visited Location Inference Attack (VLIA), a novel attack for federated location recommendation systems through the lens of Membership Inference Attack (MIA). Specifically, we focus on inferring user behaviour data (visited locations) even when the federated recommendation system is protected with LDP. We design and implement VLIA leveraging both embedding and proximity information of locations, making the inference more accurate. Our extensive experiments with two state-of-the-art personalized route recommendation (PRR) systems implemented in the FL setting and two real-world trajectory datasets showcase the effectiveness of the VLIA attack. Our results show that LDP cannot defend VLIA unless the recommendation performance is significantly compromised.",
+                "authors": [
+                    {
+                        "s2_author_id": "1397291971",
+                        "name": "Thirasara Ariyarathna"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2298495852",
+                        "name": "Hye-young Paik"
+                    },
+                    {
+                        "s2_author_id": "1733096",
+                        "name": "S. Kanhere"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bfb0e268701324f443befdf2d3aa6e6d0da0ced7",
+                "title": "Harmonizing Differential Privacy Mechanisms for Federated Learning: Boosting Accuracy and Convergence",
+                "year": 2024,
+                "venue": "Conference on Data and Application Security and Privacy",
+                "citation_count": 4,
+                "reference_count": 72,
+                "abstract": "Differentially private federated learning (DP-FL) offers a compelling approach to collaborative model training by ensuring robust privacy for clients. Despite its potential, current methods face challenges in effectively balancing privacy, utility, and performance across diverse federated learning scenarios. Addressing these challenges, we introduce UDP-FL, to our knowledge the first DP-FL framework that universally harmonizes any randomization mechanism, including those considered optimal, by employing the Gaussian Moments Accountant (viz. DP-SGD). Central to UDP-FL is the 'Harmonizer,' a dynamic module engineered to intelligently select and apply the most suitable DP mechanism tailored to each client's specific privacy requirements, data sensitivities, and computational capacities. This selection process is driven by the principle of R\u00e9nyi Differential Privacy, which serves as a crucial mediator for aligning privacy budgets effectively. Our comprehensive evaluation of UDP-FL, benchmarked against established baseline methods, demonstrates superior performance in upholding privacy guarantees and enhancing model functionality. The framework's robustness has been rigorously tested against a broad spectrum of privacy attacks, making it one of the most thorough validations of a DP-FL framework to date.",
+                "authors": [
+                    {
+                        "s2_author_id": "2174198712",
+                        "name": "Shuya Feng"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "1845877536",
+                        "name": "Hanbin Hong"
+                    },
+                    {
+                        "s2_author_id": "2307902003",
+                        "name": "Shenao Yan"
+                    },
+                    {
+                        "s2_author_id": "2308114534",
+                        "name": "Ashish Kundu"
+                    },
+                    {
+                        "s2_author_id": "2274276456",
+                        "name": "Binghui Wang"
+                    },
+                    {
+                        "s2_author_id": "2296738596",
+                        "name": "Yuan Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e520a1e10b69696366c29ab3ecf849e630cd97bf",
+                "title": "Mitigating Distributed Backdoor Attack in Federated Learning Through Mode Connectivity",
+                "year": 2024,
+                "venue": "ACM Asia Conference on Computer and Communications Security",
+                "citation_count": 2,
+                "reference_count": 39,
+                "abstract": "Federated Learning (FL) is a privacy-preserving, collaborative machine learning technique where multiple clients train a shared model on their private datasets without sharing the data. While offering advantages, FL is susceptible to backdoor attacks, where attackers insert malicious model updates into the model aggregation process. Compromised models predict attacker-chosen targets when presented with specific attacker-defined inputs. Backdoor defences generally rely on anomaly detection techniques based on Differential Privacy (DP) or require legitimate clean test examples at the server. Anomaly detection-based defences can be defeated by stealth techniques and generally require inspection of client-submitted model updates. DP-based approaches tend to degrade the performance of the trained model due to excessive noise addition during training. Methods that require legitimate clean data on the server require strong assumptions about the task and may not be applicable in real-world settings. In this work, we view the question of backdoor attack robustness through the lens of loss function optimal points to build a defence that overcomes these limitations. We propose Mode Connectivity Based Federated Learning (MCFL), which leverages the recently discovered property of neural network loss surfaces, mode connectivity. We simulate backdoor attack scenarios using computer vision benchmark datasets, including CIFAR10, Fashion MNIST, MNIST, and Federated EMNIST. Our findings show that MCFL converges to high-quality models and effectively mitigates backdoor attacks relative to baseline defences from the literature without requiring inspection of client model updates or assuming clean data at the server.",
+                "authors": [
+                    {
+                        "s2_author_id": "2051295195",
+                        "name": "Kane Walter"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2162545036",
+                        "name": "Surya Nepal"
+                    },
+                    {
+                        "s2_author_id": "1733096",
+                        "name": "S. Kanhere"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "255f9f4306716a6ce70a264d306d2e91d7536231",
+                "title": "OptimShare: A Unified Framework for Privacy Preserving Data Sharing - Towards the Practical Utility of Data with Privacy",
+                "year": 2023,
+                "venue": "arXiv.org",
+                "citation_count": 2,
+                "reference_count": 32,
+                "abstract": "Tabular data sharing serves as a common method for data exchange. However, sharing sensitive information without adequate privacy protection can compromise individual privacy. Thus, ensuring privacy-preserving data sharing is crucial. Differential privacy (DP) is regarded as the gold standard in data privacy. Despite this, current DP methods tend to generate privacy-preserving tabular datasets that often suffer from limited practical utility due to heavy perturbation and disregard for the tables' utility dynamics. Besides, there has not been much research on selective attribute release, particularly in the context of controlled partially perturbed data sharing. This has significant implications for scenarios such as cross-agency data sharing in real-world situations. We introduce OptimShare: a utility-focused, multi-criteria solution designed to perturb input datasets selectively optimized for specific real-world applications. OptimShare combines the principles of differential privacy, fuzzy logic, and probability theory to establish an integrated tool for privacy-preserving data sharing. Empirical assessments confirm that OptimShare successfully strikes a balance between better data utility and robust privacy, effectively serving various real-world problem scenarios.",
+                "authors": [
+                    {
+                        "s2_author_id": "2584232",
+                        "name": "Pathum Chamikara Mahawaga Arachchige"
+                    },
+                    {
+                        "s2_author_id": "2161856706",
+                        "name": "Seung Ick Jang"
+                    },
+                    {
+                        "s2_author_id": "2085845762",
+                        "name": "I. Oppermann"
+                    },
+                    {
+                        "s2_author_id": "2107798642",
+                        "name": "Dongxi Liu"
+                    },
+                    {
+                        "s2_author_id": "2218933930",
+                        "name": "Musotto Roberto"
+                    },
+                    {
+                        "s2_author_id": "1727457",
+                        "name": "S. Ruj"
+                    },
+                    {
+                        "s2_author_id": "144300092",
+                        "name": "Arindam Pal"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "1811469",
+                        "name": "Seyit Ahmet Camtepe"
+                    },
+                    {
+                        "s2_author_id": "2218980486",
+                        "name": "Sylvia Young"
+                    },
+                    {
+                        "s2_author_id": "2218989780",
+                        "name": "Chris Dorrian"
+                    },
+                    {
+                        "s2_author_id": "2218985533",
+                        "name": "Nasir David"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55a69f1d76c830efdd5e6fc0d04e69a6166ffcdc",
+                "title": "DPI: Ensuring Strict Differential Privacy for Infinite Data Streaming",
+                "year": 2023,
+                "venue": "IEEE Symposium on Security and Privacy",
+                "citation_count": 15,
+                "reference_count": 75,
+                "abstract": "Streaming data, crucial for applications like crowd-sourcing analytics, behavior studies, and real-time monitoring, faces significant privacy risks due to the large and diverse data linked to individuals. In particular, recent efforts to release data streams, using the rigorous privacy notion of differential privacy (DP), have encountered issues with unbounded privacy leakage. This challenge limits their applicability to only a finite number of time slots (\"finite data stream\") or relaxation to protecting the events (\"event or w-event DP\") rather than all the records of users. A persistent challenge is managing the sensitivity of outputs to inputs in situations where users contribute many activities and data distributions evolve over time. In this paper, we present a novel technique for Differentially Private data streaming over Infinite disclosure (DPI) that effectively bounds the total privacy leakage of each user in infinite data streams while enabling accurate data collection and analysis. Furthermore, we also maximize the accuracy of DPI via a novel boosting mechanism. Finally, extensive experiments across various streaming applications and real datasets (e.g., COVID-19, Network Traffic, and USDA Production), show that DPI maintains high utility for infinite data streams in diverse settings. Code for DPI is available at https://github.com/ShuyaFeng/DPI.",
+                "authors": [
+                    {
+                        "s2_author_id": "2174198712",
+                        "name": "Shuya Feng"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2113289809",
+                        "name": "Han Wang"
+                    },
+                    {
+                        "s2_author_id": "2145438037",
+                        "name": "Xiaochen Li"
+                    },
+                    {
+                        "s2_author_id": "2272854001",
+                        "name": "Zhan Qin"
+                    },
+                    {
+                        "s2_author_id": "2260856038",
+                        "name": "Yuan Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f6306e7caaed62db69d487bc57794b065989b751",
+                "title": "Efficient Privacy-Preserved Processing of Multimodal Data for Vehicular Traffic Analysis",
+                "year": 2023,
+                "venue": "VehicleSec",
+                "citation_count": 0,
+                "reference_count": 38,
+                "abstract": "We estimate vehicular traffic states from multimodal data collected by single-loop detectors while preserving the privacy of the individual vehicles contributing to the data. To this end, we propose a novel hybrid differential privacy (DP) approach that utilizes minimal randomization to preserve privacy by taking advantage of the relevant traffic state dynamics and the concept of DP sensitivity. Through theoretical analysis and experiments with real-world data, we show that the proposed approach significantly outperforms the related baseline non-private and private approaches in terms of accuracy and privacy preservation.",
+                "authors": [
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "1723652",
+                        "name": "R. Arablouei"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "10915c577b11af76d29ad016bcc04fb2c26ac232",
+                "title": "DPOAD: Differentially Private Outsourcing of Anomaly Detection through Iterative Sensitivity Learning",
+                "year": 2022,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 30,
+                "abstract": "Outsourcing anomaly detection to third-parties can allow data owners to overcome resource constraints (e.g., in lightweight IoT devices), facilitate collaborative analysis (e.g., under distributed or multi-party scenarios), and benefit from lower costs and specialized expertise (e.g., of Managed Security Service Providers). Despite such benefits, a data owner may feel reluctant to outsource anomaly detection without sufficient privacy protection. To that end, most existing privacy solutions would face a novel challenge, i.e., preserving privacy usually requires the difference between data entries to be eliminated or reduced, whereas anomaly detection critically depends on that difference. Such a conflict is recently resolved under a local analysis setting with trusted analysts (where no outsourcing is involved) through moving the focus of differential privacy (DP) guarantee from\"all\"to only\"benign\"entries. In this paper, we observe that such an approach is not directly applicable to the outsourcing setting, because data owners do not know which entries are\"benign\"prior to outsourcing, and hence cannot selectively apply DP on data entries. Therefore, we propose a novel iterative solution for the data owner to gradually\"disentangle\"the anomalous entries from the benign ones such that the third-party analyst can produce accurate anomaly results with sufficient DP guarantee. We design and implement our Differentially Private Outsourcing of Anomaly Detection (DPOAD) framework, and demonstrate its benefits over baseline Laplace and PainFree mechanisms through experiments with real data from different application domains.",
+                "authors": [
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2113289809",
+                        "name": "Han Wang"
+                    },
+                    {
+                        "s2_author_id": "145020180",
+                        "name": "Lingyu Wang"
+                    },
+                    {
+                        "s2_author_id": "50495505",
+                        "name": "Mengyuan Zhang"
+                    },
+                    {
+                        "s2_author_id": "1825183",
+                        "name": "Yosr Jarraya"
+                    },
+                    {
+                        "s2_author_id": "2877709",
+                        "name": "Suryadipta Majumdar"
+                    },
+                    {
+                        "s2_author_id": "1680923",
+                        "name": "M. Pourzandi"
+                    },
+                    {
+                        "s2_author_id": "1685782",
+                        "name": "M. Debbabi"
+                    },
+                    {
+                        "s2_author_id": "50569535",
+                        "name": "Yuan Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "79d3f5c01bb96bc51a72c34e3b6cb9d4822588ce",
+                "title": "A Generalized Framework for Preserving Both Privacy and Utility in Data Outsourcing (Extended Abstract)",
+                "year": 2022,
+                "venue": "IEEE International Conference on Data Engineering",
+                "citation_count": 0,
+                "reference_count": 6,
+                "abstract": "In this paper, we propose a prefix-preserving encryption based data outsourcing framework which is applicable to multiple different types of data, such as geo-locations, market basket data, DNA sequences, numerical data and timestamps. It enables accurate data analyses on the encrypted data while ensuring strong privacy against inference attacks. The basic idea is to generates multiple indistinguishable data views in which one view fully preserves the utility for data analysis, and its accurate analysis result can be obliviously retrieved. We empirically evaluate the performance of our outsourcing framework against two common inference attacks on two different real datasets: the check-in location dataset and network traffic dataset, respectively. The experimental results demonstrate that our proposed framework preserves both privacy (with bounded leakage and indistinguishability of data views) and utility.",
+                "authors": [
+                    {
+                        "s2_author_id": "12009223",
+                        "name": "Shangyu Xie"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2113289809",
+                        "name": "Han Wang"
+                    },
+                    {
+                        "s2_author_id": "145020180",
+                        "name": "Lingyu Wang"
+                    },
+                    {
+                        "s2_author_id": "145033630",
+                        "name": "Jaideep Vaidya"
+                    },
+                    {
+                        "s2_author_id": "50569535",
+                        "name": "Yuan Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b0a72b7d2fd3ea4b0d75200bdfc1125021ace56f",
+                "title": "Randomized Privacy Budget Differential Privacy",
+                "year": 2022,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 3,
+                "abstract": "While pursuing better utility by discovering knowledge from the data, individual's privacy may be compromised during an analysis. To that end, differential privacy has been widely recognized as the state-of-the-art privacy notion. By requiring the presence of any individual's data in the input to only marginally affect the distribution over the output, differential privacy provides strong protection against adversaries in possession of arbitrary background. However, the privacy constraints (e.g., the degree of randomization) imposed by differential privacy may render the released data less useful for analysis, the fundamental trade-off between privacy and utility (i.e., analysis accuracy) has attracted significant attention in various settings. In this report we present DP mechanisms with randomized parameters, i.e., randomized privacy budget, and formally analyze its privacy and utility and demonstrate that randomizing privacy budget in DP mechanisms will boost the accuracy in a humongous scale.",
+                "authors": [
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4fe3d70b8b4610bdae6bacfb06de7102dbb9254f",
+                "title": "SegGuard: Segmentation-Based Anonymization of Network Data in Clouds for Privacy-Preserving Security Auditing",
+                "year": 2021,
+                "venue": "IEEE Transactions on Dependable and Secure Computing",
+                "citation_count": 9,
+                "reference_count": 62,
+                "abstract": "Security auditing allows cloud tenants to verify the compliance of cloud infrastructure with respect to desirable security properties, e.g., whether a tenant\u2019s virtual network is properly isolated from other tenants\u2019 networks. However, the input to the auditing task, such as the detailed topology of the underlying cloud infrastructure, typically contains sensitive information which a cloud provider may be reluctant to hand over to a third party auditor. Additionally, auditing results intended for one tenant may inadvertently reveal private information about other tenants, e.g., another tenant\u2019s VM is reachable due to a misconfiguration. How to anonymize both the input data and the auditing results in order to prevent such information leakage is a novel challenge that has received little attention. Directly applying most of the existing anonymization techniques to such a context would either lead to insufficient protection or render the data unsuitable for auditing. In this article, we propose SegGuard, a novel anonymization approach that prevents cross-tenant information leakage through per-tenant encryption, and prevents information leakage to auditors through hiding real input segments among fake ones; in addition, applying property-preserving encryption in an innovative way enables SegGuard to preserve the data utility for auditing while mitigating semantic attacks. We implement SegGuard based on OpenStack, and evaluate its effectiveness and overhead using both synthetic and real data. Our experimental results demonstrate that SegGuard can reduce the information leakage to a negligible level (e.g., less than 1 percent for an adversary with 50 percent pre-knowledge) with a practical response time (e.g., 62 seconds to anonymize a cloud infrastructure with 25,000 virtual machines).",
+                "authors": [
+                    {
+                        "s2_author_id": "23670856",
+                        "name": "Momen Oqaily"
+                    },
+                    {
+                        "s2_author_id": "1825183",
+                        "name": "Yosr Jarraya"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2877709",
+                        "name": "Suryadipta Majumdar"
+                    },
+                    {
+                        "s2_author_id": "1680923",
+                        "name": "M. Pourzandi"
+                    },
+                    {
+                        "s2_author_id": "145020180",
+                        "name": "Lingyu Wang"
+                    },
+                    {
+                        "s2_author_id": "1685782",
+                        "name": "M. Debbabi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "58a3d30d3105a51c6e4facb5041cb14c30e7dc2e",
+                "title": "A Generalized Framework for Preserving Both Privacy and Utility in Data Outsourcing",
+                "year": 2021,
+                "venue": "IEEE Transactions on Knowledge and Data Engineering",
+                "citation_count": 19,
+                "reference_count": 61,
+                "abstract": "Property preserving encryption techniques have significantly advanced the utility of encrypted data in various data outsourcing settings (e.g., the cloud). However, while preserving certain properties (e.g., the prefixes or order of the data) in the encrypted data, such encryption schemes are typically limited to specific data types (e.g., prefix-preserved IP addresses) or applications (e.g., range queries over order-preserved data), and highly vulnerable to the emerging inference attacks which may greatly limit their applications in practice. In this paper, to the best of our knowledge, we make the first attempt to generalize the prefix preserving encryption via prefix-aware encoding that is not only applicable to more general data types (e.g., geo-locations, market basket data, DNA sequences, numerical data and timestamps) but also secure against the inference attacks. Furthermore, we present a generalized multi-view outsourcing framework that generates multiple indistinguishable data views in which one view fully preserves the utility for data analysis, and its accurate analysis result can be obliviously retrieved. Given any specified privacy leakage bound, the computation and communication overheads are minimized to effectively defend against different inference attacks. We empirically evaluate the performance of our outsourcing framework against two common inference attacks on two different real datasets: the check-in location dataset and network traffic dataset, respectively. The experimental results demonstrate that our proposed framework preserves both privacy (with bounded leakage and indistinguishability of data views) and utility (with 100 percent analysis accuracy).",
+                "authors": [
+                    {
+                        "s2_author_id": "12009223",
+                        "name": "Shangyu Xie"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2113289809",
+                        "name": "Han Wang"
+                    },
+                    {
+                        "s2_author_id": "40256874",
+                        "name": "Lingyu Wang"
+                    },
+                    {
+                        "s2_author_id": "145033630",
+                        "name": "Jaideep Vaidya"
+                    },
+                    {
+                        "s2_author_id": "50569535",
+                        "name": "Yuan Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "88f8f59892c2be16411aa07b4269a769d7a88ef5",
+                "title": "VTDP: Privately Sanitizing Fine-Grained Vehicle Trajectory Data With Boosted Utility",
+                "year": 2021,
+                "venue": "IEEE Transactions on Dependable and Secure Computing",
+                "citation_count": 13,
+                "reference_count": 0,
+                "abstract": "With the rapidly growing deployment of intelligent transportation systems (ITS) and smart traffic applications, vehicle trajectory data are ubiquitously generated, e.g., from GPS navigation systems, mobile applications, and urban traffic cameras. Analyzing such fine-grained data would greatly benefit the development of ITS and smart cities, yet pose severe privacy risks due to the recorded drivers\u2019 visited locations, routes, and driving habits. Recently, some privacy enhancing techniques were proposed to sanitize such data. However, such schemes have some major limitations\u2013they either lack formal privacy notions to quantify and bound the privacy risks, or result in very limited utility, e.g., only a sequence of locations or aggregated information can be released (without retaining the speeds, accelerations and the timestamps of vehicles). In this article, we propose a novel framework to sanitize the fine-grained vehicle trajectories with differential privacy (VTDP), which provides rigorous privacy protection against adversaries who possess arbitrary background knowledge. Our VTDP technique involves three phases of differentially private sampling, which sequentially generate all the three categories of data (besides a pseudo identity for each vehicle)\u2013position, moving, and timestamps. It also includes a vehicle trajectory interpolation procedure to further improve the output utility with the properties of fine-grained vehicle trajectory data. We conducted experiments on real vehicle trajectory datasets to validate the performance of our approach.",
+                "authors": [
+                    {
+                        "s2_author_id": "50678268",
+                        "name": "Bingyu Liu"
+                    },
+                    {
+                        "s2_author_id": "12009223",
+                        "name": "Shangyu Xie"
+                    },
+                    {
+                        "s2_author_id": "2113289809",
+                        "name": "Han Wang"
+                    },
+                    {
+                        "s2_author_id": "145770657",
+                        "name": "Yuan Hong"
+                    },
+                    {
+                        "s2_author_id": "98229668",
+                        "name": "X. Ban"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eeac8ea215c5f3a6057dcb327519af04fb5b88f4",
+                "title": "A Multi-view Approach to Preserve Privacy and Utility in Network Trace Anonymization",
+                "year": 2021,
+                "venue": "ACM Transactions on Privacy and Security",
+                "citation_count": 0,
+                "reference_count": 85,
+                "abstract": "As network security monitoring grows more sophisticated, there is an increasing need for outsourcing such tasks to third-party analysts. However, organizations are usually reluctant to share their network traces due to privacy concerns over sensitive information, e.g., network and system configuration, which may potentially be exploited for attacks. In cases where data owners are convinced to share their network traces, the data are typically subjected to certain anonymization techniques, e.g., CryptoPAn, which replaces real IP addresses with prefix-preserving pseudonyms. However, most such techniques either are vulnerable to adversaries with prior knowledge about some network flows in the traces or require heavy data sanitization or perturbation, which may result in a significant loss of data utility. In this article, we aim to preserve both privacy and utility through shifting the trade-off from between privacy and utility to between privacy and computational cost. The key idea is for the analysts to generate and analyze multiple anonymized views of the original network traces: Those views are designed to be sufficiently indistinguishable even to adversaries armed with prior knowledge, which preserves the privacy, whereas one of the views will yield true analysis results privately retrieved by the data owner, which preserves the utility. We formally analyze the privacy of our solution and experimentally evaluate it using real network traces provided by a major ISP. The experimental results show that our approach can significantly reduce the level of information leakage (e.g., less than 1% of the information leaked by CryptoPAn) with comparable utility.",
+                "authors": [
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "23670856",
+                        "name": "Momen Oqaily"
+                    },
+                    {
+                        "s2_author_id": "145020180",
+                        "name": "Lingyu Wang"
+                    },
+                    {
+                        "s2_author_id": "50569535",
+                        "name": "Yuan Hong"
+                    },
+                    {
+                        "s2_author_id": "2346526250",
+                        "name": "Habib Louafi"
+                    },
+                    {
+                        "s2_author_id": "1680923",
+                        "name": "M. Pourzandi"
+                    },
+                    {
+                        "s2_author_id": "2312130935",
+                        "name": "Mourad Debbabi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "408b860587c49067927bd5eb3df6ea7165d167de",
+                "title": "A Multi-view Approach to Preserve Both Privacy and Utility in Network Trace Anonymization",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 96,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "2285466917",
+                        "name": "Concordia University"
+                    },
+                    {
+                        "s2_author_id": "23670856",
+                        "name": "Momen Oqaily"
+                    },
+                    {
+                        "s2_author_id": "145020180",
+                        "name": "Lingyu Wang"
+                    },
+                    {
+                        "s2_author_id": "50569535",
+                        "name": "Yuan Hong"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bb1607222cb5b54f6be05dc63289a69c6879dfba",
+                "title": "R2DP: A Universal and Automated Approach to Optimizing the Randomization Mechanisms of Differential Privacy for Utility Metrics with No Known Optimal Distributions",
+                "year": 2020,
+                "venue": "Conference on Computer and Communications Security",
+                "citation_count": 22,
+                "reference_count": 91,
+                "abstract": "Differential privacy (DP) has emerged as a de facto standard privacy notion for a wide range of applications. Since the meaning of data utility in different applications may vastly differ, a key challenge is to find the optimal randomization mechanism, i.e., the distribution and its parameters, for a given utility metric. Existing works have identified the optimal distributions in some special cases, while leaving all other utility metrics (e.g., usefulness and graph distance) as open problems. Since existing works mostly rely on manual analysis to examine the search space of all distributions, it would be an expensive process to repeat such efforts for each utility metric. To address such deficiency, we propose a novel approach that can automatically optimize different utility metrics found in diverse applications under a common framework. Our key idea that, by regarding the variance of the injected noise itself as a random variable, a two-fold distribution may approximately cover the search space of all distributions. Therefore, we can automatically find distributions in this search space to optimize different utility metrics in a similar manner, simply by optimizing the parameters of the two-fold distribution. Specifically, we define a universal framework, namely, randomizing the randomization mechanism of differential privacy (R2DP), and we formally analyze its privacy and utility. Our experiments show that R2DP can provide better results than the baseline distribution (Laplace) for several utility metrics with no known optimal distributions, whereas our results asymptotically approach to the optimality for utility metrics having known optimal distributions. As a side benefit, the added degree of freedom introduced by the two-fold distribution allows R2DP to accommodate the preferences of both data owners and recipients.",
+                "authors": [
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "12009223",
+                        "name": "Shangyu Xie"
+                    },
+                    {
+                        "s2_author_id": "50569535",
+                        "name": "Yuan Hong"
+                    },
+                    {
+                        "s2_author_id": "50495505",
+                        "name": "Mengyuan Zhang"
+                    },
+                    {
+                        "s2_author_id": "145020180",
+                        "name": "Lingyu Wang"
+                    },
+                    {
+                        "s2_author_id": "1680923",
+                        "name": "M. Pourzandi"
+                    },
+                    {
+                        "s2_author_id": "1685782",
+                        "name": "M. Debbabi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ca244f909bda04307a8d076ea576282b0be68f4",
+                "title": "Proactivizer: Transforming Existing Verification Tools into Efficient Solutions for Runtime Security Enforcement",
+                "year": 2019,
+                "venue": "European Symposium on Research in Computer Security",
+                "citation_count": 8,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2877709",
+                        "name": "Suryadipta Majumdar"
+                    },
+                    {
+                        "s2_author_id": "51194365",
+                        "name": "Azadeh Tabiban"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "98224816",
+                        "name": "Alaa Oqaily"
+                    },
+                    {
+                        "s2_author_id": "1825183",
+                        "name": "Yosr Jarraya"
+                    },
+                    {
+                        "s2_author_id": "1680923",
+                        "name": "M. Pourzandi"
+                    },
+                    {
+                        "s2_author_id": "145020180",
+                        "name": "Lingyu Wang"
+                    },
+                    {
+                        "s2_author_id": "1685782",
+                        "name": "M. Debbabi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e2aaa37005a4c6b1a007ce13fa33ed84eab522d9",
+                "title": "Multi-Level Proactive Security Auditing for Clouds",
+                "year": 2019,
+                "venue": "International Conference on Data Science in Cyberspace",
+                "citation_count": 2,
+                "reference_count": 38,
+                "abstract": "Runtime cloud security auditing plays a vital role in mitigating security concerns in a cloud. However, there currently does not exist a comprehensive solution that can protect a cloud tenant against the threats rendered from the multiple levels (e.g., user, virtual, and physical) of the cloud design. Furthermore, most of the existing solutions suffer from slow response time and require significant manual efforts. Therefore, a simple integration of the existing solutions for different levels is not a practical solution. In this paper, we propose a multilevel proactive security auditing system, which overcomes all the above-mentioned limitations. To this end, our main idea is to automatically build a predictive model based on the dependency relationships between cloud events, proactively verify the security policies related to different levels of a cloud by leveraging this model, and finally enforce those policies on the cloud based on the verification results. Our experiments using both synthetic and real data show the practicality and effectiveness of this solution (e.g., responding in a few milliseconds to verify each level of the cloud).",
+                "authors": [
+                    {
+                        "s2_author_id": "2877709",
+                        "name": "Suryadipta Majumdar"
+                    },
+                    {
+                        "s2_author_id": "51194365",
+                        "name": "Azadeh Tabiban"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "98224816",
+                        "name": "Alaa Oqaily"
+                    },
+                    {
+                        "s2_author_id": "1825183",
+                        "name": "Yosr Jarraya"
+                    },
+                    {
+                        "s2_author_id": "1680923",
+                        "name": "M. Pourzandi"
+                    },
+                    {
+                        "s2_author_id": "40256874",
+                        "name": "Lingyu Wang"
+                    },
+                    {
+                        "s2_author_id": "1685782",
+                        "name": "M. Debbabi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c56d1d9df5579b72e5159feaf46767fa9dd790f5",
+                "title": "Preserving Both Privacy and Utility in Network Trace Anonymization",
+                "year": 2018,
+                "venue": "Conference on Computer and Communications Security",
+                "citation_count": 35,
+                "reference_count": 69,
+                "abstract": "As network security monitoring grows more sophisticated, there is an increasing need for outsourcing such tasks to third-party analysts. However, organizations are usually reluctant to share their network traces due to privacy concerns over sensitive information, e.g., network and system configuration, which may potentially be exploited for attacks. In cases where data owners are convinced to share their network traces, the data are typically subjected to certain anonymization techniques, e.g., CryptoPAn, which replaces real IP addresses with prefix-preserving pseudonyms. However, most such techniques either are vulnerable to adversaries with prior knowledge about some network flows in the traces, or require heavy data sanitization or perturbation, both of which may result in a significant loss of data utility. In this paper, we aim to preserve both privacy and utility through shifting the trade-off from between privacy and utility to between privacy and computational cost. The key idea is for the analysts to generate and analyze multiple anonymized views of the original network traces; those views are designed to be sufficiently indistinguishable even to adversaries armed with prior knowledge, which preserves the privacy, whereas one of the views will yield true analysis results privately retrieved by the data owner, which preserves the utility. We formally analyze the privacy of our solution and experimentally evaluate it using real network traces provided by a major ISP. The results show that our approach can significantly reduce the level of information leakage (e.g., less than 1% of the information leaked by CryptoPAn) with comparable utility.",
+                "authors": [
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    },
+                    {
+                        "s2_author_id": "40256874",
+                        "name": "Lingyu Wang"
+                    },
+                    {
+                        "s2_author_id": "50569535",
+                        "name": "Yuan Hong"
+                    },
+                    {
+                        "s2_author_id": "2346526250",
+                        "name": "Habib Louafi"
+                    },
+                    {
+                        "s2_author_id": "1680923",
+                        "name": "M. Pourzandi"
+                    },
+                    {
+                        "s2_author_id": "1685782",
+                        "name": "M. Debbabi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d6c02a6b74e603a82455598c38e23a0697b38383",
+                "title": "Differentially Private MIMO Filtering for Event Streams",
+                "year": 2018,
+                "venue": "IEEE Transactions on Automatic Control",
+                "citation_count": 46,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50286881",
+                        "name": "J\u00e9r\u00f4me Le Ny"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c57879e0ccda73515ab43cb04f0182c359eba53d",
+                "title": "Differentially Private Event Stream Filtering with an Application to Traffic Estimation",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "852705d57525b56be4a3246a468b23fb3a345bdd",
+                "title": "Differentially private MIMO filtering for event streams and spatio-temporal monitoring",
+                "year": 2014,
+                "venue": "IEEE Conference on Decision and Control",
+                "citation_count": 14,
+                "reference_count": 37,
+                "abstract": "Many large-scale systems such as intelligent transportation systems, smart grids or smart buildings collect data about the activities of their users to optimize their operations. In a typical scenario, signals originate from many sensors capturing events involving these users, and several statistics of interest need to be continuously published in real-time. Moreover, in order to encourage user participation, privacy issues need to be taken into consideration. This paper considers the problem of providing differential privacy guarantees for such multi-input multi-output systems operating continuously. We show in particular how to construct various extensions of the zero-forcing equalization mechanism, which we previously proposed for single-input single-output systems. We also describe an application to privately monitoring and forecasting occupancy in a building equipped with a dense network of motion detection sensors, which is useful for example to control its HVAC system.",
+                "authors": [
+                    {
+                        "s2_author_id": "1786838",
+                        "name": "J. L. Ny"
+                    },
+                    {
+                        "s2_author_id": "31961516",
+                        "name": "Meisam Mohammady"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2303854166",
+                "name": "Qin Yang"
+            },
+            {
+                "s2_author_id": "2379652753",
+                "name": "Nicholas Stout"
+            },
+            {
+                "s2_author_id": "2113289809",
+                "name": "Han Wang"
+            },
+            {
+                "s2_author_id": "30963072",
+                "name": "A. Samreen"
+            },
+            {
+                "s2_author_id": "2215826873",
+                "name": "Christopher J. Quinn"
+            },
+            {
+                "s2_author_id": "2336896493",
+                "name": "Yan Yan"
+            },
+            {
+                "s2_author_id": "2303655005",
+                "name": "Ashish Kundu"
+            },
+            {
+                "s2_author_id": "2296738596",
+                "name": "Yuan Hong"
+            },
+            {
+                "s2_author_id": "1397291971",
+                "name": "Thirasara Ariyarathna"
+            },
+            {
+                "s2_author_id": "1733096",
+                "name": "S. Kanhere"
+            },
+            {
+                "s2_author_id": "2407738876",
+                "name": "Hye-Young Helen Paik"
+            },
+            {
+                "s2_author_id": "2265340677",
+                "name": "M.A.P. Chamikara"
+            },
+            {
+                "s2_author_id": "2161856706",
+                "name": "Seung Ick Jang"
+            },
+            {
+                "s2_author_id": "2329972996",
+                "name": "Ian Oppermann"
+            },
+            {
+                "s2_author_id": "2107798642",
+                "name": "Dongxi Liu"
+            },
+            {
+                "s2_author_id": "2218933930",
+                "name": "Musotto Roberto"
+            },
+            {
+                "s2_author_id": "1727457",
+                "name": "S. Ruj"
+            },
+            {
+                "s2_author_id": "2268583305",
+                "name": "Arindam Pal"
+            },
+            {
+                "s2_author_id": "1811469",
+                "name": "Seyit Ahmet Camtepe"
+            },
+            {
+                "s2_author_id": "2218980486",
+                "name": "Sylvia Young"
+            },
+            {
+                "s2_author_id": "2218989780",
+                "name": "Chris Dorrian"
+            },
+            {
+                "s2_author_id": "2218985533",
+                "name": "Nasir David"
+            },
+            {
+                "s2_author_id": "2339918682",
+                "name": "Gnanakumar Thedchanamoorthy"
+            },
+            {
+                "s2_author_id": "2283956099",
+                "name": "Michael Bewong"
+            },
+            {
+                "s2_author_id": "2144255451",
+                "name": "Tanveer A. Zia"
+            },
+            {
+                "s2_author_id": "2280491115",
+                "name": "Md Zahidul Islam"
+            },
+            {
+                "s2_author_id": "2051295195",
+                "name": "Kane Walter"
+            },
+            {
+                "s2_author_id": "2162545036",
+                "name": "Surya Nepal"
+            },
+            {
+                "s2_author_id": "1919263",
+                "name": "Gnana Thedchanamoorthy"
+            },
+            {
+                "s2_author_id": "1739107",
+                "name": "T. Zia"
+            },
+            {
+                "s2_author_id": "2174198712",
+                "name": "Shuya Feng"
+            },
+            {
+                "s2_author_id": "1845877536",
+                "name": "Hanbin Hong"
+            },
+            {
+                "s2_author_id": "2307902003",
+                "name": "Shenao Yan"
+            },
+            {
+                "s2_author_id": "2274276456",
+                "name": "Binghui Wang"
+            },
+            {
+                "s2_author_id": "2294757977",
+                "name": "Ali Payani"
+            },
+            {
+                "s2_author_id": "2266839642",
+                "name": "Kai Shu"
+            },
+            {
+                "s2_author_id": "2298495852",
+                "name": "Hye-young Paik"
+            },
+            {
+                "s2_author_id": "2308114534",
+                "name": "Ashish Kundu"
+            },
+            {
+                "s2_author_id": "2584232",
+                "name": "Pathum Chamikara Mahawaga Arachchige"
+            },
+            {
+                "s2_author_id": "2085845762",
+                "name": "I. Oppermann"
+            },
+            {
+                "s2_author_id": "144300092",
+                "name": "Arindam Pal"
+            },
+            {
+                "s2_author_id": "2145438037",
+                "name": "Xiaochen Li"
+            },
+            {
+                "s2_author_id": "2272854001",
+                "name": "Zhan Qin"
+            },
+            {
+                "s2_author_id": "2260856038",
+                "name": "Yuan Hong"
+            },
+            {
+                "s2_author_id": "1723652",
+                "name": "R. Arablouei"
+            },
+            {
+                "s2_author_id": "145020180",
+                "name": "Lingyu Wang"
+            },
+            {
+                "s2_author_id": "50495505",
+                "name": "Mengyuan Zhang"
+            },
+            {
+                "s2_author_id": "1825183",
+                "name": "Yosr Jarraya"
+            },
+            {
+                "s2_author_id": "2877709",
+                "name": "Suryadipta Majumdar"
+            },
+            {
+                "s2_author_id": "1680923",
+                "name": "M. Pourzandi"
+            },
+            {
+                "s2_author_id": "1685782",
+                "name": "M. Debbabi"
+            },
+            {
+                "s2_author_id": "50569535",
+                "name": "Yuan Hong"
+            },
+            {
+                "s2_author_id": "12009223",
+                "name": "Shangyu Xie"
+            },
+            {
+                "s2_author_id": "145033630",
+                "name": "Jaideep Vaidya"
+            },
+            {
+                "s2_author_id": "23670856",
+                "name": "Momen Oqaily"
+            },
+            {
+                "s2_author_id": "40256874",
+                "name": "Lingyu Wang"
+            },
+            {
+                "s2_author_id": "50678268",
+                "name": "Bingyu Liu"
+            },
+            {
+                "s2_author_id": "145770657",
+                "name": "Yuan Hong"
+            },
+            {
+                "s2_author_id": "98229668",
+                "name": "X. Ban"
+            },
+            {
+                "s2_author_id": "2346526250",
+                "name": "Habib Louafi"
+            },
+            {
+                "s2_author_id": "2312130935",
+                "name": "Mourad Debbabi"
+            },
+            {
+                "s2_author_id": "2285466917",
+                "name": "Concordia University"
+            },
+            {
+                "s2_author_id": "51194365",
+                "name": "Azadeh Tabiban"
+            },
+            {
+                "s2_author_id": "98224816",
+                "name": "Alaa Oqaily"
+            },
+            {
+                "s2_author_id": "50286881",
+                "name": "J\u00e9r\u00f4me Le Ny"
+            },
+            {
+                "s2_author_id": "1786838",
+                "name": "J. L. Ny"
+            }
+        ],
+        "total_co_authors": 66,
+        "papers_retrieved": 30
+    }
+}

@@ -1,0 +1,1387 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A0YF3",
+        "name": "Anindya Bijoy Das",
+        "primary_affiliation": "University of Akron",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Akron"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "OH"
+        ],
+        "perf_cities": [
+            "AKRON"
+        ],
+        "org_names": [
+            "University of Akron"
+        ],
+        "org_ueis": [
+            "DFNLDECWM8J8"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "adas@uakron.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2503641",
+                "title": "Collaborative Research: CCSS: Practical Coded Matrix Computation",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-10-01",
+                "exp_date": "2028-09-30",
+                "award_amount": 128479.0,
+                "total_amount": 128479.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "CCSS-Comms Circuits & Sens Sys"
+                ],
+                "program_codes": [
+                    "756400"
+                ],
+                "program_references": [
+                    "Wireless comm & sig processing",
+                    "EXP PROG TO STIM COMP RES"
+                ],
+                "program_ref_codes": [
+                    "153E",
+                    "9150"
+                ],
+                "dir_abbr": "ENG",
+                "div_abbr": "ECCS",
+                "nsf_directorate": null,
+                "fund_division": "Division of Electrical, Communications and Cyber Systems",
+                "cfda_num": "47.041",
+                "po_name": "Huaiyu Dai",
+                "keywords": [
+                    "computation",
+                    "matrix",
+                    "workers",
+                    "input",
+                    "coded",
+                    "large",
+                    "computations",
+                    "overall",
+                    "models",
+                    "performed"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "CCSS-Comms Circuits & Sens Sys"
+        ],
+        "program_codes": [
+            "756400"
+        ],
+        "program_references": [
+            "Wireless comm & sig processing",
+            "EXP PROG TO STIM COMP RES"
+        ],
+        "program_ref_codes": [
+            "153E",
+            "9150"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "ENG"
+        ],
+        "div_abbrs": [
+            "ECCS"
+        ],
+        "fund_divisions": [
+            "Division of Electrical, Communications and Cyber Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.041"
+        ],
+        "program_officers": [
+            "Huaiyu Dai"
+        ],
+        "keywords": [
+            "computation",
+            "matrix",
+            "workers",
+            "input",
+            "coded",
+            "large",
+            "computations",
+            "overall",
+            "models",
+            "performed",
+            "distributed",
+            "tasks",
+            "slow",
+            "failed",
+            "ideas",
+            "submatrices",
+            "sparse",
+            "matrices",
+            "leverage",
+            "partial"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.38
+    },
+    "s2_profile": {
+        "s2_author_id": "50317243",
+        "name": "Anindya Bijoy Das",
+        "affiliations": [],
+        "paper_count": 45,
+        "citation_count": 778,
+        "h_index": 13,
+        "papers": [
+            {
+                "s2_paper_id": "0fc300d0fd54a97bfdf13953234d67d034fc6992",
+                "title": "Coded Matrix Computations for D2D-Enabled Linearized Federated Learning",
+                "year": 2023,
+                "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+                "citation_count": 4,
+                "reference_count": 23,
+                "abstract": "Federated learning (FL) is a popular technique for training a global model on data distributed across client devices. Like other distributed training techniques, FL is susceptible to straggler (slower or failed) clients. Recent work has proposed to address this through device-to-device (D2D) offloading, which introduces privacy concerns. In this paper, we propose a novel straggler-optimal approach for coded matrix computations which can significantly reduce the communication delay and privacy issues introduced from D2D data transmissions in FL. Moreover, our proposed approach leads to a considerable improvement of the local computation speed when the generated data matrix is sparse. Numerical evaluations confirm the superiority of our proposed method over baseline approaches.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    },
+                    {
+                        "s2_author_id": "1678418",
+                        "name": "D. Love"
+                    },
+                    {
+                        "s2_author_id": "145009961",
+                        "name": "Christopher G. Brinton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1f016681cd9f77d39fcde9eebc25711f3ae8e1c9",
+                "title": "A Reinforcement Learning-Based Approach to Graph Discovery in D2D-Enabled Federated Learning",
+                "year": 2023,
+                "venue": "Global Communications Conference",
+                "citation_count": 3,
+                "reference_count": 16,
+                "abstract": "Augmenting federated learning (FL) with direct device-to-device (D2D) communications can help improve conver-gence speed and reduce model bias through rapid local information exchange. However, data privacy concerns, device trust issues, and unreliable wireless channels each pose challenges to determining an effective yet resource efficient D2D structure. In this paper, we develop a decentralized reinforcement learning (RL) methodology for D2D graph discovery that promotes communication of non-sensitive yet impactful data-points over trusted yet reliable links. Each device functions as an RL agent, training a policy to predict the impact of incoming links. Local (device-level) and global rewards are coupled through message passing within and between device clusters. Numerical experiments confirm the advantages offered by our method in terms of convergence speed and straggler resilience across several datasets and FL schemes.",
+                "authors": [
+                    {
+                        "s2_author_id": "35204200",
+                        "name": "Satyavrat Wagle"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "1678418",
+                        "name": "D. Love"
+                    },
+                    {
+                        "s2_author_id": "145009961",
+                        "name": "Christopher G. Brinton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "202e7cb98c7ccdc7f9b8c40fb6ef9ce42fc21c5b",
+                "title": "A Decentralized Pilot Assignment Algorithm for Scalable O-RAN Cell-Free Massive MIMO",
+                "year": 2023,
+                "venue": "IEEE Journal on Selected Areas in Communications",
+                "citation_count": 19,
+                "reference_count": 50,
+                "abstract": "Radio access networks (RANs) in monolithic architectures have limited adaptability to supporting different network scenarios. Recently, open-RAN (O-RAN) techniques have begun adding enormous flexibility to RAN implementations. O-RAN is a natural architectural fit for cell-free massive multiple-input multiple-output (CFmMIMO) systems, where many geographically-distributed access points (APs) are employed to achieve ubiquitous coverage and enhanced user performance. In this paper, we address the decentralized pilot assignment (PA) problem for scalable O-RAN-based CFmMIMO systems. We propose a low-complexity PA scheme using a multi-agent deep reinforcement learning (MA-DRL) framework in which multiple learning agents perform distributed learning over the O-RAN communication architecture to suppress pilot contamination. Our approach does not require prior channel knowledge but instead relies on real-time interactions made with the environment during the learning procedure. In addition, we design a codebook search (CS) scheme that exploits the decentralization of our O-RAN CFmMIMO architecture, where different codebook sets can be utilized to further improve PA performance without any significant additional complexities. Numerical evaluations verify that our proposed scheme provides substantial computational scalability advantages and improvements in channel estimation performance compared to the state-of-the-art.",
+                "authors": [
+                    {
+                        "s2_author_id": "73540926",
+                        "name": "M. Oh"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "2911998",
+                        "name": "Seyyedali Hosseinalipour"
+                    },
+                    {
+                        "s2_author_id": "145207438",
+                        "name": "Taejoon Kim"
+                    },
+                    {
+                        "s2_author_id": "1678418",
+                        "name": "D. Love"
+                    },
+                    {
+                        "s2_author_id": "145009961",
+                        "name": "Christopher G. Brinton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8c66de14a892d9273f4183432d37659365fa90a0",
+                "title": "Distributed Matrix Computations With Low-Weight Encodings",
+                "year": 2023,
+                "venue": "IEEE Journal on Selected Areas in Information Theory",
+                "citation_count": 6,
+                "reference_count": 39,
+                "abstract": "Straggler nodes are well-known bottlenecks of distributed matrix computations which induce reductions in computation/communication speeds. A common strategy for mitigating such stragglers is to incorporate Reed-Solomon based MDS (maximum distance separable) codes into the framework; this can achieve resilience against an optimal number of stragglers. However, these codes assign dense linear combinations of submatrices to the worker nodes. When the input matrices are sparse, these approaches increase the number of non-zero entries in the encoded matrices, which in turn adversely affects the worker computation time. In this work, we develop a distributed matrix computation approach where the assigned encoded submatrices are random linear combinations of a small number of submatrices. In addition to being well suited for sparse input matrices, our approach continues to have the optimal straggler resilience in a certain range of problem parameters. Moreover, compared to recent sparse matrix computation approaches, the search for a \u201cgood\u201d set of random coefficients to promote numerical stability in our method is much more computationally efficient. We show that our approach can efficiently utilize partial computations done by slower worker nodes in a heterogeneous system which can enhance the overall computation speed. Numerical experiments conducted through Amazon Web Services (AWS) demonstrate up to 30% reduction in per worker node computation time and $100\\times $ faster encoding compared to the available methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    },
+                    {
+                        "s2_author_id": "1678418",
+                        "name": "D. Love"
+                    },
+                    {
+                        "s2_author_id": "145009961",
+                        "name": "Christopher G. Brinton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "94afe3d97b31c9878bb5b0d7e25f2381a6bd559d",
+                "title": "Distributed Matrix Computations with Low-weight Encodings",
+                "year": 2023,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 1,
+                "reference_count": 20,
+                "abstract": "Straggler nodes are well-known bottlenecks of distributed matrix computations which induce reductions in computation/communication speeds. A common strategy for mitigating such stragglers is to incorporate MDS (maximum distance separable) codes into the framework; this can achieve resilience against an optimal number of stragglers. However, these codes assign dense linear combinations of submatrices to the workers which increase the number of non-zero entries in the encoded matrices, and adversely affect the worker computation time. In this work, we develop a straggler-optimal distributed matrix computation approach where the assigned encoded submatrices are linear combinations of a small number of submatrices so that it is well suited for sparse input matrices. Numerical experiments conducted in Amazon Web Services (AWS) demonstrate up to 30% reduction in worker computation time and 100 times faster encoding compared to several recent methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "2242964248",
+                        "name": "Aditya Ramamoorthy"
+                    },
+                    {
+                        "s2_author_id": "2242953808",
+                        "name": "D. Love"
+                    },
+                    {
+                        "s2_author_id": "145009961",
+                        "name": "Christopher G. Brinton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "993988f2f20b8108a416ecf70218f502004cf1dc",
+                "title": "Preserving Sparsity and Privacy in Straggler-Resilient Distributed Matrix Computations",
+                "year": 2023,
+                "venue": "Allerton Conference on Communication, Control, and Computing",
+                "citation_count": 2,
+                "reference_count": 30,
+                "abstract": "Existing approaches to distributed matrix computations involve allocating coded combinations of submatrices to worker nodes, to build resilience to stragglers and/or enhance privacy. In this study, we consider the challenge of preserving input sparsity in such approaches to retain the associated computational efficiency enhancements. First, we find a lower bound on the weight of coding, i.e., the number of submatrices to be combined to obtain coded submatrices to provide the resilience to the maximum possible number of stragglers (for given number of nodes and their storage constraints). Next we propose a distributed matrix computation scheme which meets this exact lower bound on the weight of the coding. Further, we develop controllable trade-off between worker computation time and the privacy constraint for sparse input matrices in settings where the worker nodes are honest but curious. Numerical experiments conducted in Amazon Web Services (AWS) validate our assertions regarding straggler mitigation and computation speed for sparse matrices.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    },
+                    {
+                        "s2_author_id": "1678418",
+                        "name": "D. Love"
+                    },
+                    {
+                        "s2_author_id": "145009961",
+                        "name": "Christopher G. Brinton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5406a7392d6995d3c2c792340f59ec7248b0dd7f",
+                "title": "A Unified Treatment of Partial Stragglers and Sparse Matrices in Coded Matrix Computation",
+                "year": 2022,
+                "venue": "IEEE Journal on Selected Areas in Information Theory",
+                "citation_count": 2,
+                "reference_count": 35,
+                "abstract": "The overall execution time of distributed matrix computations is often dominated by slow worker nodes (stragglers) within the computation clusters. Recently, coding-theoretic techniques have been utilized to mitigate the effect of stragglers where worker nodes are assigned the job of processing encoded submatrices of the original matrices. In many machine learning or optimization problems the relevant matrices are often sparse. Several prior coded computation methods operate with dense linear combinations of the original submatrices; this can significantly increase the worker node computation times and consequently the overall job execution time. Moreover, several existing techniques treat the stragglers as failures (erasures) and discard their computations. In this work, we present a coding approach which operates with limited encoding of the original submatrices and utilizes the partial computations done by the slower workers. While our scheme can continue to have the optimal threshold of prior work, it also allows us to trade off the straggler resilience with the worker computation speed for sparse input matrices. Extensive numerical experiments done over cloud platforms confirm that the proposed approach enhances the speed of the worker computations (and thus the whole process) significantly.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "622cde38860beaa20e1678c49df5a0eb9151b74a",
+                "title": "An Integrated Method to Deal with Partial Stragglers and Sparse Matrices in Distributed Computations",
+                "year": 2022,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 3,
+                "reference_count": 6,
+                "abstract": "The speed of distributed matrix computations over large clusters is often dominated by the stragglers (slow or failed worker nodes). Several techniques based on coding theory have been introduced to mitigate the straggler issue where every worker node is assigned smaller task(s) of multiplying encoded submatrices of the original matrices. However, many of these methods consider the stragglers as erasures, i.e., they discard the potentially useful partial computations done by the slower workers. Moreover, the \"input\" matrices can be sparse in many scenarios. In this case encoding schemes that combine a large number of input submatrices can adversely affect the worker computation time.In this work, we proposed an integrated approach which addresses both of the issues mentioned above. We allow limited amount of encoding for the submatrices of both A and B; this helps us to preserve the sparsity of the encoded matrices, so that the worker computation can be fast. Our approach provides a trade-off between straggler resilience and worker computation speed, while utilizing partial computations at the workers. Crucially, at one operating point we can ensure that the failure resilience of the system is optimal. Comprehensive numerical analysis done in Amazon Web Services (AWS) cluster confirms the superiority of our approach when compared with previous methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3a64dd385be422e8c84709d5a2bcad3d872c186e",
+                "title": "Coded sparse matrix computation schemes that leverage partial stragglers",
+                "year": 2021,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "Coded matrix computation utilizes concepts from erasure coding to mitigate the effect of slow worker nodes (stragglers) in the distributed setting. While this is useful, there are issues with applying, e.g., MDS codes in a straightforward manner for this problem. Several practical scenarios involve sparse matrices. MDS codes typically require dense linear combinations of submatrices of the original matrices which destroy their inherent sparsity; this leads to significantly higher worker computation times. Moreover, treating slow nodes as erasures ignores the potentially useful partial computations performed by them. In this work we present schemes that allow us to leverage partial computation by stragglers while imposing constraints on the level of coding that is required in generating the encoded submatrices. This significantly reduces the worker computation time as compared to previous approaches and results in improved numerical stability in the decoding process. Exhaustive numerical experiments support our findings.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "49d5c8a97b0e83af7aae7df98d571ce0a75001c7",
+                "title": "Tightly linked Rps12 and Rps13 genes provide broad-spectrum Phytophthora resistance in soybean",
+                "year": 2021,
+                "venue": "Scientific Reports",
+                "citation_count": 16,
+                "reference_count": 75,
+                "abstract": "The Phytophtora root and stem rot is a serious disease in soybean. It is caused by the oomycete pathogen Phytophthora sojae. Growing Phytophthora resistant cultivars is the major method of controlling this disease. Resistance is race- or gene-specific; a single gene confers immunity against only a subset of the P. sojae isolates. Unfortunately, rapid evolution of new Phytophthora sojae virulent pathotypes limits the effectiveness of an Rps (\u201cresistance to Phytophthora sojae\u201d) gene to 8\u201315 years. The current study was designed to investigate the effectiveness of Rps12 against a set of P. sojae isolates using recombinant inbred lines (RILs) that contain recombination break points in the Rps12 region. Our study revealed a unique Rps gene linked to the Rps12 locus. We named this novel gene as Rps13 that confers resistance against P. sojae isolate V13, which is virulent to recombinants that contains Rps12 but lack Rps13. The genetic distance between the two Rps genes is 4 cM. Our study revealed that two tightly linked functional Rps genes with distinct race-specificity provide broad-spectrum resistance in soybean. We report here the molecular markers for incorporating the broad-spectrum Phytophthora resistance conferred by the two Rps genes in commercial soybean cultivars.",
+                "authors": [
+                    {
+                        "s2_author_id": "1810618",
+                        "name": "Dipak Kumar Sahoo"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "1699229",
+                        "name": "Xiaoqiu Huang"
+                    },
+                    {
+                        "s2_author_id": "145626367",
+                        "name": "S. Cianzio"
+                    },
+                    {
+                        "s2_author_id": "4059124",
+                        "name": "M. Bhattacharyya"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75a29d90a6857ad2ffc7dbf4f8bba18207125d99",
+                "title": "A Unified Treatment of Partial Stragglers and Sparse Matrices in Coded Matrix Computation",
+                "year": 2021,
+                "venue": "Information Theory Workshop",
+                "citation_count": 13,
+                "reference_count": 30,
+                "abstract": "The overall execution time of distributed matrix computations is often dominated by slow worker nodes (stragglers) over the clusters. Recently, different coding techniques have been utilized to mitigate the effect of stragglers where worker nodes are assigned the task of processing encoded submatrices of the original matrices. In many machine learning or optimization problems the relevant matrices are often sparse. Several coded computation methods operate with dense linear combinations of the original submatrices; this can significantly increase the worker node computation times and consequently the overall job execution time. Moreover, several existing techniques treat the stragglers as failures (erasures) and discard their computations. In this work, we present a coding approach which operates with limited encoding of the original submatrices and utilizes the partial computations done by the slower workers. Our scheme continues to have the optimal threshold of prior work. Extensive numerical experiments done in AWS (Amazon Web Services) cluster confirm that the proposed approach enhances the speed of the worker computations (and thus the whole process) significantly.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ce5967a51b1f790b53e8bcb6292a0f9f97907352",
+                "title": "Efficient and Robust Distributed Matrix Computations via Convolutional Coding",
+                "year": 2021,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": "Distributed matrix computations are well-recognized to suffer from the problem of stragglers (slow or failed worker nodes). The majority of prior work in this area has presented straggler mitigation strategies that are (i) either sub-optimal in terms of their straggler resilience, or (ii) suffer from numerical problems, i.e., there is a blow-up of round-off errors in the decoded result owing to the high condition numbers of the corresponding decoding matrices. This work introduces a novel solution framework, based on embedding the computations into the structure of a convolutional code, that removes these limitations. Our approach is provably optimal in terms of its straggler resilience, and has excellent numerical robustness which can be theoretically quantified by deriving a computable upper bound on the worst case condition number over all possible decoding matrices. All above claims are backed up by extensive experiments done on the AWS cloud platform.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    },
+                    {
+                        "s2_author_id": "1751096",
+                        "name": "Namrata Vaswani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e88f0ca8bd18fc8772f727cded7a53b28f1ffbd4",
+                "title": "Development of Immune System: Conservation of Species Identity",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 39,
+                "abstract": "Mutual survival among different species of living organisms is quite common in our living world. That mutual survival can produce symbiotic or parasitic relationship among different living organisms. But at the same time, some relationships are harmful to the living organisms creating pathogenic relationships. Why some mutual survivals are beneficial, whereas some relationships are harmful creating different diseases in the living world? That harmful or pathological relationship producing different diseases in both the animal and plant kingdom has been extensively studied by the scientific community several times under the heading of \u2018Hostpathogen interaction\u2019 and \u2018Disease pathogenesis\u2019. But it is still not clear why some mutual survivals are beneficial or non-harmful, whereas some co-survivals are harmful producing different disease conditions in the living world mainly due to different immune mediated reactions or direct toxic effect of substances produced by an organism. To find the answer to this question, we have to search retrospectively to the evolutionary pattern of our diverse living world. If it is assumed that we have originated from Last Universal Common Ancestor (LUCA) by different cumulative mutations, horizontal gene transfer, mobile genetic elements (MGE), transposition and natural selection, then it would be quite pragmatic to consider that two things were moving side by side in our ancient living world. On one hand it\u2019s purpose was to create the diversification of both unicellular and multi-cellular living world and on the other hand it\u2019s another purpose was to maintain the specific identity of the living organisms. It is the second purpose or the maintenance of specific identity that ultimately led to the development of Immune system.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "07819eac445feb90863cfc390999d06be9fcc3fa",
+                "title": "Straggler-Resistant Distributed Matrix Computation via Coding Theory: Removing a Bottleneck in Large-Scale Data Processing",
+                "year": 2020,
+                "venue": "IEEE Signal Processing Magazine",
+                "citation_count": 35,
+                "reference_count": 32,
+                "abstract": "The current big data era routinely requires the processing of large-scale data on massive distributed computing clusters. In these applications, data sets are often so large that they cannot be housed in the memory and/or the disk of any one computer. Thus, the data and the processing are typically distributed across multiple nodes. Distributed computation is thus a necessity rather than a luxury. The widespread use of such clusters presents several opportunities and advantages over traditional computing paradigms. However, it also presents newer challenges where coding-theoretic ideas have recently had a significant impact. Large-scale clusters (which can be heterogeneous in nature) suffer from the problem of stragglers, which are slow or failed worker nodes in the system. Thus, the overall speed of a computation is typically dominated by the slowest node in the absence of a sophisticated assignment of tasks to the worker nodes.",
+                "authors": [
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "51120682",
+                        "name": "Li Tang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1479f10e6360b8625201e35bebb8f9d8066aa8e9",
+                "title": "Coded Sparse Matrix Computation Schemes That Leverage Partial Stragglers",
+                "year": 2020,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 47,
+                "reference_count": 36,
+                "abstract": "Distributed matrix computations over large clusters can suffer from the problem of slow or failed worker nodes (called stragglers) which can dominate the overall job execution time. Coded computation utilizes concepts from erasure coding to mitigate the effect of stragglers by running \u201ccoded\u201d copies of tasks comprising a job; stragglers are typically treated as erasures. While this is useful, there are issues with applying, e.g., MDS codes in a straightforward manner. Several practical matrix computation scenarios involve sparse matrices. MDS codes typically require dense linear combinations of submatrices of the original matrices which destroy their inherent sparsity. This is problematic as it results in significantly higher worker computation times. Moreover, treating slow nodes as erasures ignores the potentially useful partial computations performed by them. Furthermore, some MDS techniques also suffer from significant numerical stability issues. In this work we present schemes that allow us to leverage partial computation by stragglers while imposing constraints on the level of coding that is required in generating the encoded submatrices. This significantly reduces the worker computation time as compared to previous approaches and results in improved numerical stability in the decoding process. Exhaustive numerical experiments on Amazon Web Services (AWS) clusters support our findings.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0bce91981fb38849b65100a80558d096a791faa8",
+                "title": "Hierarchical phylogeny construction",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 62,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3a7b9b5bceda22481c51137c96435cd972a2800d",
+                "title": "Efficient and Robust Distributed Matrix Computations via Convolutional Coding",
+                "year": 2019,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 32,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    },
+                    {
+                        "s2_author_id": "1751096",
+                        "name": "Namrata Vaswani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "59cb2ee2ca8ca1946d5a4b0629abbb358f179d8e",
+                "title": "Random Convolutional Coding for Robust and Straggler Resilient Distributed Matrix Computation",
+                "year": 2019,
+                "venue": "arXiv.org",
+                "citation_count": 9,
+                "reference_count": 18,
+                "abstract": "Distributed matrix computations (matrix-vector and matrix-matrix multiplications) are at the heart of several tasks within the machine learning pipeline. However, distributed clusters are well-recognized to suffer from the problem of stragglers (slow or failed nodes). Prior work in this area has presented straggler mitigation strategies based on polynomial evaluation/interpolation. However, such approaches suffer from numerical problems (blow up of round-off errors) owing to the high condition numbers of the corresponding Vandermonde matrices. In this work, we introduce a novel solution approach that relies on embedding distributed matrix computations into the structure of a convolutional code. This simple innovation allows us to develop a provably numerically robust and efficient (fast) solution for distributed matrix-vector and matrix-matrix multiplication.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    },
+                    {
+                        "s2_author_id": "1751096",
+                        "name": "Namrata Vaswani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b3e54d2f2ad63da4551c218123937726934ad266",
+                "title": "8-22-2019 HPC : Hierarchical phylogeny construction",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "81387247",
+                        "name": "Xiaoqiu"
+                    },
+                    {
+                        "s2_author_id": "2085454742",
+                        "name": "HuangID"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be5bad9cd97145050c3e0b7711dfce8a4a692150",
+                "title": "HPC: Hierarchical phylogeny construction",
+                "year": 2019,
+                "venue": "PLoS ONE",
+                "citation_count": 1,
+                "reference_count": 22,
+                "abstract": "Rapid improvements in DNA sequencing technology have resulted in long genome sequences for a large number of similar isolates with a wide range of single nucleotide polymorphism (SNP) rates, where some isolates can have thousands of times lower SNP rates than others. Genome sequences of this kind are a challenge to existing methods for construction of phylogenetic trees. We address the issues by developing a hierarchical approach to phylogeny construction. In this method, the construction is performed at multiple levels, where at each level, groups of isolates with similar levels of similarity are identified and their phylogenetic trees are constructed. Time savings are achieved by using a sufficiently large number of columns from the input alignment, instead of all its columns. Our results show that the new approach is 20-60 times more efficient than existing programs and more accurate in situations where highly similar isolates have a wide range of SNP rates.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "1699229",
+                        "name": "Xiaoqiu Huang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dae8952dc3a3ff1c82d99faae1b32d87d3ec6dce",
+                "title": "Classification of focal and non-focal EEG signals in VMD-DWT domain using ensemble stacking",
+                "year": 2019,
+                "venue": "Biomedical Signal Processing and Control",
+                "citation_count": 60,
+                "reference_count": 53,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "73777256",
+                        "name": "Md Mosheyur Rahman"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f416eda6eeb7c5e03a9bf5f80924da57b8de8559",
+                "title": "Distributed Matrix-Vector Multiplication: A Convolutional Coding Approach",
+                "year": 2019,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 35,
+                "reference_count": 14,
+                "abstract": "Distributed computing systems are well-known to suffer from the problem of slow or failed nodes; these are referred to as stragglers. Straggler mitigation (for distributed matrix computations) has recently been investigated from the standpoint of erasure coding in several works. In this work we present a strategy for distributed matrix-vector multiplication based on convolutional coding. Our scheme can be decoded using a lowcomplexity peeling decoder. The recovery process enjoys excellent numerical stability as compared to Reed-Solomon coding based approaches (which exhibit significant problems owing their badly conditioned decoding matrices). Finally, our schemes are better matched to the practically important case of sparse matrix-vector multiplication as compared to many previous schemes. Extensive simulation results corroborate our findings.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fe2834c0065bf6a55094af96075cd9a163473489",
+                "title": "Genome wide association study identifies novel single nucleotide polymorphic loci and candidate genes involved in soybean sudden death syndrome resistance",
+                "year": 2019,
+                "venue": "PLoS ONE",
+                "citation_count": 9,
+                "reference_count": 73,
+                "abstract": "Fusarium virguliforme is a soil borne root pathogen that causes sudden death syndrome (SDS) in soybean [Glycine max (L.) Merrill]. Once the fungus invades the root xylem tissues, the pathogen secretes toxins that cause chlorosis and necrosis in foliar tissues leading to defoliation, flower and pod drop and eventually death of plants. Resistance to F. virguliforme in soybean is partial and governed by over 80 quantitative trait loci (QTL). We have conducted genome-wide association study (GWAS) for a group of 254 plant introductions lines using a panel of approximately 30,000 SNPs and identified 19 single nucleotide polymorphic loci (SNPL) that are associated with 14 genomic regions encoding foliar SDS and eight SNPL associated with seven genomic regions for root rot resistance. Of the identified 27 SNPL, six SNPL for foliar SDS resistance and two SNPL for root rot resistance co-mapped to previously identified QTL for SDS resistance. This study identified 13 SNPL associated with eight novel genomic regions containing foliar SDS resistance genes and six SNPL with five novel regions for root-rot resistance. This study identified five genes carrying nonsynonymous mutations: (i) three of which mapped to previously identified QTL for foliar SDS resistance and (ii) two mapped to two novel regions containing root rot resistance genes. Of the three genes mapped to QTL for foliar SDS resistance genes, two encode LRR-receptors and third one encodes a novel protein with unknown function. Of the two genes governing root rot resistance, Glyma.01g222900.1 encodes a soybean-specific LEA protein and Glyma.10g058700.1 encodes a heparan-alpha-glucosaminide N-acetyltransferase. In the LEA protein, a conserved serine residue was substituted with asparagine; and in the heparan-alpha-glucosaminide N-acetyltransferase, a conserved histidine residue was substituted with an arginine residue. Such changes are expected to alter functions of these two proteins regulated through phosphorylation. The five genes with nonsynonymous mutations could be considered candidate SDS resistance genes and should be suitable molecular markers for breeding SDS resistance in soybean. The study also reports desirable plant introduction lines and novel genomic regions for enhancing SDS resistance in soybean.",
+                "authors": [
+                    {
+                        "s2_author_id": "31125686",
+                        "name": "S. Swaminathan"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "34761023",
+                        "name": "Teshale Assefa"
+                    },
+                    {
+                        "s2_author_id": "32635240",
+                        "name": "J. Knight"
+                    },
+                    {
+                        "s2_author_id": "80653168",
+                        "name": "Amilton Ferreira da Silva"
+                    },
+                    {
+                        "s2_author_id": "143921466",
+                        "name": "J. P. S. Carvalho"
+                    },
+                    {
+                        "s2_author_id": "3265257",
+                        "name": "G. Hartman"
+                    },
+                    {
+                        "s2_author_id": "1699229",
+                        "name": "Xiaoqiu Huang"
+                    },
+                    {
+                        "s2_author_id": "144102953",
+                        "name": "L. Leandro"
+                    },
+                    {
+                        "s2_author_id": "145626366",
+                        "name": "S. Cianzio"
+                    },
+                    {
+                        "s2_author_id": "4059124",
+                        "name": "M. Bhattacharyya"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02d328add2e7418dbc947c28b2724b5f14db6cea",
+                "title": "C3LES: Codes for Coded Computation that Leverage Stragglers",
+                "year": 2018,
+                "venue": "Information Theory Workshop",
+                "citation_count": 48,
+                "reference_count": 7,
+                "abstract": "In distributed computing systems, it is well recognized that worker nodes that are slow (called stragglers) tend to dominate the overall job execution time. Coded computation utilizes concepts from erasure coding to mitigate the effect of stragglers by running \u201ccoded\u201d copies of tasks comprising a job. Stragglers are typically treated as erasures in this process. While this is useful, there are issues with applying, e.g., MDS codes in a straightforward manner. Specifically, several applications such as matrix-vector products deal with sparse matrices. MDS codes typically require dense linear combinations of submatrices of the original matrix which destroy their inherent sparsity. This is problematic as it results in significantly higher processing times for computing the submatrix-vector products in coded computation. Furthermore, it also ignores partial computations at stragglers. In this work, we propose a fine-grained model that quantifies the level of non-trivial coding needed to obtain the benefits of coding in matrix-vector computation. Simultaneously, it allows us to leverage partial computations performed by the straggler nodes. For this model, we propose and evaluate several code designs and discuss their properties.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145849872",
+                        "name": "Li Tang"
+                    },
+                    {
+                        "s2_author_id": "145073507",
+                        "name": "A. Ramamoorthy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b3ac1985be9216b545b2f7e88688aab8e4cbd52c",
+                "title": "Classification of focal and non-focal epileptic EEG signals inEMD-wavelet domain",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1985d1dbebcea4684e5100cc4a8839686ab3b5c5",
+                "title": "Identification of Highly Variable Supernumerary Chromosome Segments in an Asexual Pathogen",
+                "year": 2016,
+                "venue": "PLoS ONE",
+                "citation_count": 15,
+                "reference_count": 52,
+                "abstract": "Supernumerary chromosome segments are known to harbor different transposons from their essential counterparts. The aim of this study was to investigate the role of transposons in the origin and evolution of supernumerary segments in the asexual fungal pathogen Fusarium virguliforme. We compared the genomes of 11 isolates comprising six Fusarium species that cause soybean sudden death syndrome (SDS) or bean root rot (BRR), and identified significant levels of genetic variation in A+T-rich repeat blocks of the essential chromosomes and in A+T-neutral regions of the supernumerary segments. The A+T-rich repeat blocks in the essential chromosomes were highly variable between F. virguliforme and non-F. virguliforme isolates, but were scarcely variable between F. virguliforme isolates. The A+T-neutral regions in the supernumerary segments, however, were highly variable between F. virguliforme isolates, with a statistically significant number (21 standard deviations above the mean) of single nucleotide polymorphisms (SNPs). And supernumerary sequence types and rearrangement patterns of some F. virguliforme isolates were present in an isolate of F. cuneirostrum but not in the other F. virguliforme isolates. The most variable and highly expressed region in the supernumerary segments contained an active DNA transposon that was a most conserved match between F. virguliforme and the unrelated fungus Tolypocladium inflatum. This transposon was absent from two of the F. virguliforme isolates. Furthermore, transposons in the supernumerary segments of some F. virguliforme isolates were present in non-F. virguliforme isolates, but were absent from the other F. virguliforme isolates. Two supernumerary P450 enzymes were 43% and 57% identical to their essential counterparts. This study has raised the possibility that transposons generate genetic variation in supernumerary chromosome segments by frequent horizontal transfer within and between closely related species.",
+                "authors": [
+                    {
+                        "s2_author_id": "1699229",
+                        "name": "Xiaoqiu Huang"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "40352494",
+                        "name": "B. B. Sahu"
+                    },
+                    {
+                        "s2_author_id": "152735948",
+                        "name": "S. Srivastava"
+                    },
+                    {
+                        "s2_author_id": "144102953",
+                        "name": "L. Leandro"
+                    },
+                    {
+                        "s2_author_id": "87419212",
+                        "name": "K. O\u2019Donnell"
+                    },
+                    {
+                        "s2_author_id": "4059124",
+                        "name": "M. Bhattacharyya"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "369c06b98a06ad6b997a77ca8f9f1133f4542b25",
+                "title": "Discrimination and classification of focal and non-focal EEG signals using entropy-based features in the EMD-DWT domain",
+                "year": 2016,
+                "venue": "Biomedical Signal Processing and Control",
+                "citation_count": 215,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "70e9e5aa2c6ba6cfd8a9d93b859c09530873ac51",
+                "title": "Classification of EEG signals using normal inverse Gaussian parameters in the dual-tree complex wavelet transform domain for seizure detection",
+                "year": 2016,
+                "venue": "Signal, Image and Video Processing",
+                "citation_count": 102,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    },
+                    {
+                        "s2_author_id": "2068850505",
+                        "name": "S. Alam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7ca26b93836892e5d719b99262d004add67e9419",
+                "title": "Discrimination of focal and non-focal EEG signals using entropy-based features in EEMD and CEEMDAN domains",
+                "year": 2016,
+                "venue": "International Conference on Electrical and Control Engineering",
+                "citation_count": 17,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "20a2ddbb025f1b3dd82586eae539c9d072111d22",
+                "title": "Discrimination of scalp EEG signals in wavelet transform domain and channel selection for the patient-invariant seizure detection",
+                "year": 2015,
+                "venue": "International Conference on E-Learning and E-Technologies in Education",
+                "citation_count": 10,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "3454677",
+                        "name": "Md Jubaer Hossain Pantho"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "717cf427578dcf6323efe05f3bcc9182c2ed0d20",
+                "title": "Motor imagery movements detection of EEG signals using statistical features in the Dual Tree Complex Wavelet Transform domain",
+                "year": 2015,
+                "venue": "International Conference on Electrical Engineering and Information Communication Technology",
+                "citation_count": 9,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50718963",
+                        "name": "S. Bashar"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8293b07180bd7b84ae0319f9843604a8d5ebce2a",
+                "title": "Reverse transcriptase-related enzymes are associated with horizontal chromosome transfer in an asexual pathogen",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1699229",
+                        "name": "Xiaoqiu Huang"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "40352494",
+                        "name": "B. B. Sahu"
+                    },
+                    {
+                        "s2_author_id": "152735948",
+                        "name": "S. Srivastava"
+                    },
+                    {
+                        "s2_author_id": "144102953",
+                        "name": "L. Leandro"
+                    },
+                    {
+                        "s2_author_id": "87419212",
+                        "name": "K. O\u2019Donnell"
+                    },
+                    {
+                        "s2_author_id": "4059124",
+                        "name": "M. Bhattacharyya"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "144333f7cd8c2bb741ec7495f44b26efefa44048",
+                "title": "Seizure detection using Bessel k-form parameters in the empirical mode decomposition domain",
+                "year": 2014,
+                "venue": "International Conference on Software, Knowledge, Information Management and Applications",
+                "citation_count": 2,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "2054473444",
+                        "name": "Faisal Ahmed"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "31b5ea2de36ea3ce59d86903b88f3217aa4c05b4",
+                "title": "Classification of EEG signals using normal inverse Gaussian parameters in the dual-tree complex wavelet transform domain for seizure detection",
+                "year": 2014,
+                "venue": "Signal, Image and Video Processing",
+                "citation_count": 0,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    },
+                    {
+                        "s2_author_id": "2068850505",
+                        "name": "S. Alam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3e715d6dfe5e042af3572b8c9c62162c719a6397",
+                "title": "Subband correlation for EEG data in the dual tree complex wavelet transform domain for the detection of epilepsy and seizure",
+                "year": 2014,
+                "venue": "2014 International Conference on Electrical Engineering and Information & Communication Technology",
+                "citation_count": 5,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "651bbfa9ac2766b2a57e55211d1885cf9b6daae7",
+                "title": "A subband correlation-based method for the automatic detection of epilepsy and seizure in the dual tree complex wavelet transform domain",
+                "year": 2014,
+                "venue": "IEEE Conference on Biomedical Engineering and Sciences",
+                "citation_count": 5,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "74b5bed5d47b406b50bd0cf07f634a959dfa4e7a",
+                "title": "Optimization of sum of product expressions in a novel quaternary algebra",
+                "year": 2014,
+                "venue": "International Conference on Informatics, Electronics and Vision",
+                "citation_count": 0,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "46949686",
+                        "name": "I. Jahangir"
+                    },
+                    {
+                        "s2_author_id": "2078333261",
+                        "name": "M. Hasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8c0486b70e77cef3c85380ed6810576d3c19d17f",
+                "title": "A statistical method for automatic detection of seizure and epilepsy in the dual tree complex wavelet transform domain",
+                "year": 2014,
+                "venue": "International Conference on Informatics, Electronics and Vision",
+                "citation_count": 24,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    },
+                    {
+                        "s2_author_id": "2068850505",
+                        "name": "S. Alam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8c201d8900a36c6ac924e8b528d4479fc4104b48",
+                "title": "Technical and economic assessment of biogas based electricity generation plant",
+                "year": 2014,
+                "venue": "International Conference on Electrical Information and Communication Technologies",
+                "citation_count": 5,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50124369",
+                        "name": "Niloy Talukder"
+                    },
+                    {
+                        "s2_author_id": "49175390",
+                        "name": "A. Talukder"
+                    },
+                    {
+                        "s2_author_id": "9448561",
+                        "name": "D. Barua"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cf4b8e402d29e83115a22146c3d19f2455d3f95c",
+                "title": "Normal inverse Gaussian parameters in the empirical mode decomposition domain for the detection of epilepsy and seizure",
+                "year": 2014,
+                "venue": "2014 17th International Conference on Computer and Information Technology (ICCIT)",
+                "citation_count": 1,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "2054473444",
+                        "name": "Faisal Ahmed"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d7757dce8f78311a687987dede169ef244d148fe",
+                "title": "Bessel k-form parameters in the dual tree complex wavelet transform domain for the detection of epilepsy and seizure",
+                "year": 2014,
+                "venue": "8th International Conference on Electrical and Computer Engineering",
+                "citation_count": 1,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "145274069",
+                        "name": "M. Bhuiyan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "50f051147564be39b8a47fa7fb104d2f93e893bd",
+                "title": "Formulation and Development of a Novel Quaternary Algebra",
+                "year": 2011,
+                "venue": "arXiv.org",
+                "citation_count": 7,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46949686",
+                        "name": "I. Jahangir"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "1893261",
+                        "name": "M. Hasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "980327fb86c590d7ce74d8c75c2d9c49d03bb6a1",
+                "title": "Facile Algebraic Representation of a Novel Quaternary Logic",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 29,
+                "abstract": "In this work, a novel quaternary algebra has been proposed that can be used to implement an arbitrary quaternary logic function in more than one systematic ways. The proposed logic has evolved from and is closely related to the Boolean algebra for binary domain; yet it does not lack the benefits of a higher-radix system. It offers seamless integration of the binary logic functions and expressions through a set of transforms and allows any binary logic simplification technique to be applied in quaternary domain. Since physical realization of the operators defined in this logic has recently been reported, it has become very important to have a well-defined algebra that will facilitate the algebraic manipulation of the novel quaternary logic and aid in designing various complex logic circuits. Therefore, based on our earlier works, here we describe the complete algebraic representation of this logic for the first time. The efficacy of the logic has been shown by designing and comparing several common logic circuits with existing designs in both binary and quaternary domain.",
+                "authors": [
+                    {
+                        "s2_author_id": "46949686",
+                        "name": "I. Jahangir"
+                    },
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "1893261",
+                        "name": "M. Hasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9ddd070f63e54aeec764bfbea68eb66f45e045da",
+                "title": "Design of quaternary serial and parallel adders",
+                "year": 2010,
+                "venue": "International Conference on Electrical and Control Engineering",
+                "citation_count": 6,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "46949686",
+                        "name": "I. Jahangir"
+                    },
+                    {
+                        "s2_author_id": "1893261",
+                        "name": "M. Hasan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e9190ad5b97ae20e13750fe2fb8b69aee2ee2616",
+                "title": "On the design and analysis of quaternary serial and parallel adders",
+                "year": 2010,
+                "venue": "IEEE Region 10 Conference",
+                "citation_count": 6,
+                "reference_count": 11,
+                "abstract": "Optimization techniques for decreasing the time and chip area of adder circuits have been thoroughly studied for years mostly in binary logic system. In this paper, we provide the necessary equations required to design a full adder in quaternary logic system. We provide the design of a logarithmic stage parallel adder which can compute the carries within log2(n) time delay for n qudits. At last, we compare the gate delays of full adder and logarithmic stage parallel adder with the help of mathematical expressions.",
+                "authors": [
+                    {
+                        "s2_author_id": "50317243",
+                        "name": "A. Das"
+                    },
+                    {
+                        "s2_author_id": "46949686",
+                        "name": "I. Jahangir"
+                    },
+                    {
+                        "s2_author_id": "1893261",
+                        "name": "M. Hasan"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "145073507",
+                "name": "A. Ramamoorthy"
+            },
+            {
+                "s2_author_id": "1678418",
+                "name": "D. Love"
+            },
+            {
+                "s2_author_id": "145009961",
+                "name": "Christopher G. Brinton"
+            },
+            {
+                "s2_author_id": "35204200",
+                "name": "Satyavrat Wagle"
+            },
+            {
+                "s2_author_id": "73540926",
+                "name": "M. Oh"
+            },
+            {
+                "s2_author_id": "2911998",
+                "name": "Seyyedali Hosseinalipour"
+            },
+            {
+                "s2_author_id": "145207438",
+                "name": "Taejoon Kim"
+            },
+            {
+                "s2_author_id": "2242964248",
+                "name": "Aditya Ramamoorthy"
+            },
+            {
+                "s2_author_id": "2242953808",
+                "name": "D. Love"
+            },
+            {
+                "s2_author_id": "1810618",
+                "name": "Dipak Kumar Sahoo"
+            },
+            {
+                "s2_author_id": "1699229",
+                "name": "Xiaoqiu Huang"
+            },
+            {
+                "s2_author_id": "145626367",
+                "name": "S. Cianzio"
+            },
+            {
+                "s2_author_id": "4059124",
+                "name": "M. Bhattacharyya"
+            },
+            {
+                "s2_author_id": "1751096",
+                "name": "Namrata Vaswani"
+            },
+            {
+                "s2_author_id": "51120682",
+                "name": "Li Tang"
+            },
+            {
+                "s2_author_id": "81387247",
+                "name": "Xiaoqiu"
+            },
+            {
+                "s2_author_id": "2085454742",
+                "name": "HuangID"
+            },
+            {
+                "s2_author_id": "73777256",
+                "name": "Md Mosheyur Rahman"
+            },
+            {
+                "s2_author_id": "145274069",
+                "name": "M. Bhuiyan"
+            },
+            {
+                "s2_author_id": "31125686",
+                "name": "S. Swaminathan"
+            },
+            {
+                "s2_author_id": "34761023",
+                "name": "Teshale Assefa"
+            },
+            {
+                "s2_author_id": "32635240",
+                "name": "J. Knight"
+            },
+            {
+                "s2_author_id": "80653168",
+                "name": "Amilton Ferreira da Silva"
+            },
+            {
+                "s2_author_id": "143921466",
+                "name": "J. P. S. Carvalho"
+            },
+            {
+                "s2_author_id": "3265257",
+                "name": "G. Hartman"
+            },
+            {
+                "s2_author_id": "144102953",
+                "name": "L. Leandro"
+            },
+            {
+                "s2_author_id": "145626366",
+                "name": "S. Cianzio"
+            },
+            {
+                "s2_author_id": "145849872",
+                "name": "Li Tang"
+            },
+            {
+                "s2_author_id": "40352494",
+                "name": "B. B. Sahu"
+            },
+            {
+                "s2_author_id": "152735948",
+                "name": "S. Srivastava"
+            },
+            {
+                "s2_author_id": "87419212",
+                "name": "K. O\u2019Donnell"
+            },
+            {
+                "s2_author_id": "2068850505",
+                "name": "S. Alam"
+            },
+            {
+                "s2_author_id": "3454677",
+                "name": "Md Jubaer Hossain Pantho"
+            },
+            {
+                "s2_author_id": "50718963",
+                "name": "S. Bashar"
+            },
+            {
+                "s2_author_id": "2054473444",
+                "name": "Faisal Ahmed"
+            },
+            {
+                "s2_author_id": "46949686",
+                "name": "I. Jahangir"
+            },
+            {
+                "s2_author_id": "2078333261",
+                "name": "M. Hasan"
+            },
+            {
+                "s2_author_id": "50124369",
+                "name": "Niloy Talukder"
+            },
+            {
+                "s2_author_id": "49175390",
+                "name": "A. Talukder"
+            },
+            {
+                "s2_author_id": "9448561",
+                "name": "D. Barua"
+            },
+            {
+                "s2_author_id": "1893261",
+                "name": "M. Hasan"
+            }
+        ],
+        "total_co_authors": 41,
+        "papers_retrieved": 45
+    }
+}

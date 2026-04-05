@@ -1,0 +1,2621 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000275141",
+        "name": "Peter A Cholak",
+        "primary_affiliation": "University of Notre Dame",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Notre Dame"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "IN"
+        ],
+        "perf_cities": [
+            "NOTRE DAME"
+        ],
+        "org_names": [
+            "University of Notre Dame"
+        ],
+        "org_ueis": [
+            "FPU6XGFXMBE9"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "Peter.Cholak.1@nd.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2502292",
+                "title": "MFAI: Logic and the Theory of Neural Language Models",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-08-15",
+                "exp_date": "2028-07-31",
+                "award_amount": 760000.0,
+                "total_amount": 760000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000071687",
+                    "000291322"
+                ],
+                "program_elements": [
+                    "MSPA-INTERDISCIPLINARY",
+                    "Special Projects - CCF",
+                    "Comm & Information Foundations"
+                ],
+                "program_codes": [
+                    "745400",
+                    "287800",
+                    "779700"
+                ],
+                "program_references": [
+                    "Artificial Intelligence (AI)",
+                    "Machine Learning Theory"
+                ],
+                "program_ref_codes": [
+                    "075Z",
+                    "079Z"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "DMS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Mathematical Sciences",
+                "cfda_num": "47.049, 47.070",
+                "po_name": "Stacey Levine",
+                "keywords": [
+                    "logic",
+                    "llms",
+                    "between",
+                    "neural",
+                    "theory",
+                    "networks",
+                    "scales",
+                    "mathematical",
+                    "connection",
+                    "language"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000291322",
+            "000071687"
+        ],
+        "program_elements": [
+            "MSPA-INTERDISCIPLINARY",
+            "Special Projects - CCF",
+            "Comm & Information Foundations"
+        ],
+        "program_codes": [
+            "745400",
+            "287800",
+            "779700"
+        ],
+        "program_references": [
+            "Artificial Intelligence (AI)",
+            "Machine Learning Theory"
+        ],
+        "program_ref_codes": [
+            "075Z",
+            "079Z"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "DMS"
+        ],
+        "fund_divisions": [
+            "Division Of Mathematical Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049, 47.070"
+        ],
+        "program_officers": [
+            "Stacey Levine"
+        ],
+        "keywords": [
+            "logic",
+            "llms",
+            "between",
+            "neural",
+            "theory",
+            "networks",
+            "scales",
+            "mathematical",
+            "connection",
+            "language",
+            "models",
+            "artificial",
+            "intelligence",
+            "expressivity",
+            "solve",
+            "those",
+            "particularly",
+            "guarantees",
+            "only",
+            "connections"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.51
+    },
+    "s2_profile": {
+        "s2_author_id": "3297528",
+        "name": "Peter A Cholak",
+        "affiliations": [],
+        "paper_count": 89,
+        "citation_count": 1111,
+        "h_index": 16,
+        "papers": [
+            {
+                "s2_paper_id": "114b733f6fff0c2b4f2b149d2265bc1c7496a3c9",
+                "title": "Tighter Bounds on the Expressivity of Transformer Encoders",
+                "year": 2023,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 73,
+                "reference_count": 32,
+                "abstract": "Characterizing neural networks in terms of better-understood formal systems has the potential to yield new insights into the power and limitations of these networks. Doing so for transformers remains an active area of research. Bhattamishra and others have shown that transformer encoders are at least as expressive as a certain kind of counter machine, while Merrill and Sabharwal have shown that fixed-precision transformer encoders recognize only languages in uniform $TC^0$. We connect and strengthen these results by identifying a variant of first-order logic with counting quantifiers that is simultaneously an upper bound for fixed-precision transformer encoders and a lower bound for transformer encoders. This brings us much closer than before to an exact characterization of the languages that transformer encoders recognize.",
+                "authors": [
+                    {
+                        "s2_author_id": null,
+                        "name": "David Chiang"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145000718",
+                        "name": "A. Pillay"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d3dd80269f2542cc173afb3a1df24b582a1e4af2",
+                "title": "Overcoming a Theoretical Limitation of Self-Attention",
+                "year": 2022,
+                "venue": "Annual Meeting of the Association for Computational Linguistics",
+                "citation_count": 110,
+                "reference_count": 21,
+                "abstract": "Although transformers are remarkably effective for many tasks, there are some surprisingly easy-looking regular languages that they struggle with. Hahn shows that for languages where acceptance depends on a single input symbol, a transformer\u2019s classification decisions get closer and closer to random guessing (that is, a cross-entropy of 1) as input strings get longer and longer. We examine this limitation using two languages: PARITY, the language of bit strings with an odd number of 1s, and FIRST, the language of bit strings starting with a 1. We demonstrate three ways of overcoming the limitation implied by Hahn\u2019s lemma. First, we settle an open question by constructing a transformer that recognizes PARITY with perfect accuracy, and similarly for FIRST. Second, we use layer normalization to bring the cross-entropy of both models arbitrarily close to zero. Third, when transformers need to focus on a single position, as for FIRST, we find that they can fail to generalize to longer strings; we offer a simple remedy to this problem that also improves length generalization in machine translation.",
+                "authors": [
+                    {
+                        "s2_author_id": null,
+                        "name": "David Chiang"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d531642299c1ca3df96790ec6a3a3aa25d01f667",
+                "title": "WINTER OF THE ASSOCIATION FOR SYMBOLIC LOGIC",
+                "year": 2022,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "40568778",
+                        "name": "Dana Bartosov\u00e1"
+                    },
+                    {
+                        "s2_author_id": "2997062",
+                        "name": "Kirsten Eisentr\u00e4ger"
+                    },
+                    {
+                        "s2_author_id": "35110993",
+                        "name": "J. Freitag"
+                    },
+                    {
+                        "s2_author_id": "2658848",
+                        "name": "Philipp Hieronymi"
+                    },
+                    {
+                        "s2_author_id": "103178117",
+                        "name": "N. Ackerman"
+                    },
+                    {
+                        "s2_author_id": "2334906370",
+                        "name": "Cameron E. Freer"
+                    },
+                    {
+                        "s2_author_id": "8639665",
+                        "name": "A. Kechris"
+                    },
+                    {
+                        "s2_author_id": "2144715212",
+                        "name": "Rehana Patel"
+                    },
+                    {
+                        "s2_author_id": "117336751",
+                        "name": "Alejandro Poveda"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "33262397",
+                        "name": "Franziska Jahnke"
+                    },
+                    {
+                        "s2_author_id": "2886146",
+                        "name": "Lynn Scow"
+                    },
+                    {
+                        "s2_author_id": "153387011",
+                        "name": "Sandra M\u00fcller"
+                    },
+                    {
+                        "s2_author_id": "1684632",
+                        "name": "J. Avigad"
+                    },
+                    {
+                        "s2_author_id": "1412645773",
+                        "name": "Athar Abdul-Quader"
+                    },
+                    {
+                        "s2_author_id": "2160157852",
+                        "name": "D. Turetsky"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "326082821be3c5095885f45341b05289699a2a3d",
+                "title": "2021 NORTH AMERICAN ANNUAL MEETING OF THE ASSOCIATION FOR SYMBOLIC LOGIC",
+                "year": 2021,
+                "venue": "Bulletin of Symbolic Logic",
+                "citation_count": 0,
+                "reference_count": 100,
+                "abstract": "of the invited 32nd Annual G\u00f6del Lecture MATTHEW FOREMAN, G\u00f6del diffeomorphisms. Department of Mathematics, University of California, Irvine, CA, USA. E-mail: mforeman@math.uci.edu Motivated by problems in physics, solutions to differential equations were studied in the late 19th and early 20th centuries by people like Birkhoff, Poincar\u00e9 and von Neumann. Poincar\u00e9\u2019s work was described by Smale in the 1960s as the qualitative study and von Neumann\u2019s own description was the study of the statistical aspects of differential equations. The explicit goal was to classify this behavior. A contemporaneous problem was whether time forwards could be distinguished from time backwards. The modern formulation of these problems is to classify diffeomorphisms of smooth manifolds up to topological conjugacy and measure isomorphism and to ask, for a given diffeomorphism, whether T \u223c= T \u20131. Very significant progress was made on both classes of problems, in the first case by people like Birkhoff, Morse and Smale and in the second case by Birkhoff, Poincare, von Neumann, Halmos, Kolmogorov, Sinai, Ornstein and Furstenberg. This talk applies techniques developed by Kechris, Louveau and Hjorth to these problems to show that the relevant equivalence relations are complete analytic. Moreover the collection of T that are measure theoretically isomorphic to their inverses is also complete analytic. Finally, the whole story can be miniaturized to show that the collection of diffeomorphisms of the two-torus that are measure theoretically isomorphic to their inverses is \u03a01-hard. 30",
+                "authors": [
+                    {
+                        "s2_author_id": "3173969",
+                        "name": "G. Bezhanishvili"
+                    },
+                    {
+                        "s2_author_id": "49726941",
+                        "name": "C. Franks"
+                    },
+                    {
+                        "s2_author_id": "2113593095",
+                        "name": "Selwyn Ng"
+                    },
+                    {
+                        "s2_author_id": "1862789",
+                        "name": "Dima Sinapova"
+                    },
+                    {
+                        "s2_author_id": "145245105",
+                        "name": "M. Thomas"
+                    },
+                    {
+                        "s2_author_id": "2113671684",
+                        "name": "Paddy Blanchette"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2490044",
+                        "name": "J. Knight"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c22bcacc657f9bedd81a74b65103a7c0019b6db3",
+                "title": "Extending properly n - REA sets",
+                "year": 2021,
+                "venue": "De Computis",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": "In 1982, Soare and Stob proved that if A is an r.e. set which isn\u2019t computable then there is a set of the form A \u2295 W e which isn\u2019t of r.e. Turing degree. If we define a properly n + 1 -REA set to be an n + 1 -REA set which isn\u2019t Turing equivalent to any n-REA set this result shows that every properly 1-REA set can be extended to a properly 2-REA set. This result was extended by Cholak and Hinman in 1994. They proved that every 2-REA set can be extended to a properly 3-REA set. This leads naturally to the hypothesis that every properly n-REA set can be extended to a properly n + 1 -REA set. Here we show this hypothesis is false and that there is a properly 3-REA set which can\u2019t be extended to a properly 4-REA set. Moreover we show this set A can be \u0394 2 0 .",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "8932579",
+                        "name": "Peter M. Gerdes"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1a3564c6964a3df190ec05bafc484b6718086074",
+                "title": "Some results concerning the SRT 2 2 vs. COH problem",
+                "year": 2020,
+                "venue": "De Computis",
+                "citation_count": 6,
+                "reference_count": 46,
+                "abstract": "The SRT 2 2 vs. COH problem is a central problem in computable combinatorics and reverse mathematics, asking whether every Turing ideal that satisfies the principle SRT 2 2 also satisfies the principle COH . This paper is a contribution towards further developing some of the main techniques involved in attacking this problem. We study several principles related to each of SRT 2 2 and COH , and prove results that highlight the limits of our current understanding, but also point to new directions ripe for further exploration.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2060624",
+                        "name": "D. Dzhafarov"
+                    },
+                    {
+                        "s2_author_id": "1989269",
+                        "name": "D. Hirschfeldt"
+                    },
+                    {
+                        "s2_author_id": "3210387",
+                        "name": "Ludovic Patey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6168fa3cd6cfb99c43d8d587dd7ddb03efb4bb4c",
+                "title": "Milliken\u2019s Tree Theorem and Its Applications: A Computability-Theoretic Perspective",
+                "year": 2020,
+                "venue": "Memoirs of the American Mathematical Society",
+                "citation_count": 8,
+                "reference_count": 51,
+                "abstract": "Milliken\u2019s tree theorem is a deep result in combinatorics that generalizes a vast number of other results in the subject, most notably Ramsey\u2019s theorem and its many variants and consequences. In this sense, Milliken\u2019s tree theorem is paradigmatic of structural Ramsey theory, which seeks to identify the common combinatorial and logical features of partition results in general. Its investigation in this area has consequently been extensive.\n\nMotivated by a question of Dobrinen, we initiate the study of Milliken\u2019s tree theorem from the point of view of computability theory. The goal is to understand how close it is to being algorithmically solvable, and how computationally complex are the constructions needed to prove it. This kind of examination enjoys a long and rich history, and continues to be a highly active endeavor. Applied to combinatorial principles, particularly Ramsey\u2019s theorem, it constitutes one of the most fruitful research programs in computability theory as a whole. The challenge to studying Milliken\u2019s tree theorem using this framework is its unusually intricate proof, and more specifically, the proof of the Halpern-La\u00fcchli theorem, which is a key ingredient.\n\nOur advance here stems from a careful analysis of the Halpern-La\u00fcchli theorem which shows that it can be carried out effectively (i.e., that it is computably true). We use this as the basis of a new inductive proof of Milliken\u2019s tree theorem that permits us to gauge its effectivity in turn. The key combinatorial tool we develop for the inductive step is a fast-growing computable function that can be used to obtain a finitary, or localized, version of Milliken\u2019s tree theorem. This enables us to build solutions to the full Milliken\u2019s tree theorem using effective forcing. The principal result of this is a full classification of the computable content of Milliken\u2019s tree theorem in terms of the jump hierarchy, stratified by the size of instance. As usual, this also translates into the parlance of reverse mathematics, yielding a complete understanding of the fragment of second-order arithmetic required to prove Milliken\u2019s tree theorem.\n\nWe apply our analysis also to several well-known applications of Milliken\u2019s tree theorem, namely Devlin\u2019s theorem, a partition theorem for Rado graphs, and a generalized version of the so-called tree theorem of Chubb, Hirst, and McNicholl. These are all certain kinds of extensions of Ramsey\u2019s theorem for different structures, namely the rational numbers, the Rado graph, and perfect binary trees, respectively. We obtain a number of new results about how these principles relate to Milliken\u2019s tree theorem and to each other, in terms of both their computability-theoretic and combinatorial aspects. In particular, we establish new structural Ramsey-theoretic properties of the Rado graph theorem and the generalized Chubb-Hirst-McNicholl tree theorem using Zucker\u2019s notion of big Ramsey structure.",
+                "authors": [
+                    {
+                        "s2_author_id": "1412339741",
+                        "name": "P. A. d'Auriac"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2060624",
+                        "name": "D. Dzhafarov"
+                    },
+                    {
+                        "s2_author_id": "2678456",
+                        "name": "B. Monin"
+                    },
+                    {
+                        "s2_author_id": "3210387",
+                        "name": "Ludovic Patey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8c336683d6354cff05c5cc96adc5f7111836ad5a",
+                "title": "Realizing Computably Enumerable Degrees in Separating Classes.",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 14,
+                "abstract": "We investigate what collections of c.e.\\ Turing degrees can be realised as the collection of elements of a separating $\\Pi^0_1$ class of c.e.\\ degree. We show that for every c.e.\\ degree $\\mathbf{c}$, the collection $\\{\\mathbf{c}, \\mathbf{0}'\\}$ can be thus realized. We also rule out several attempts at constructing separating classes realizing a unique c.e.\\ degree. For example, we show that there is no \\emph{super-maximal} pair: disjoint c.e.\\ sets $A$ and $B$ whose separating class is infinite, but every separator of c.e.\\ degree is a finite variant of either $A$ or $\\overline{B}$.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    },
+                    {
+                        "s2_author_id": "34695773",
+                        "name": "Noam Greenberg"
+                    },
+                    {
+                        "s2_author_id": "2102881",
+                        "name": "Daniel Turetsky"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e0d5501107ae28ee96ed4922886dca6c52d24890",
+                "title": "Reverse Mathematics of Combinatorial Principles (19w5111)",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a7093719bd4c71347f7c2ad48f770d4cd40eb314",
+                "title": "Some results concerning the $\\mathsf{SRT}^2_2$ vs. $\\mathsf{COH}$ problem",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 28,
+                "abstract": "The $\\mathsf{SRT}^2_2$ vs.\\ $\\mathsf{COH}$ problem is a central problem in computable combinatorics and reverse mathematics, asking whether every Turing ideal that satisfies the principle $\\mathsf{SRT}^2_2$ also satisfies the principle $\\mathsf{COH}$. This paper is a contribution towards further developing some of the main techniques involved in attacking this problem. We study several principles related to each of $\\mathsf{SRT}^2_2$ and $\\mathsf{COH}$, and prove results that highlight the limits of our current understanding, but also point to new directions ripe for further exploration.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2060624",
+                        "name": "D. Dzhafarov"
+                    },
+                    {
+                        "s2_author_id": "1989269",
+                        "name": "D. Hirschfeldt"
+                    },
+                    {
+                        "s2_author_id": "3210387",
+                        "name": "Ludovic Patey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0dbd170ef162533a6b6d42f45b42e95de5fc25ed",
+                "title": "ASSOCIATION FOR SYMBOLIC LOGIC",
+                "year": 2018,
+                "venue": "Bulletin of Symbolic Logic",
+                "citation_count": 0,
+                "reference_count": 1,
+                "abstract": "Toshiyasu Arai . . . . . . . . . . . . . 2019 Andrew Arana . . . . . . . . . . . . . 2020 Arnold Beckmann . . . . . . . . . 2019 Michael Benedikt . . . . . . . . . . 2020 Elisabeth Bouscaren* . . . . . . 2019 Peter Cholak . . . . . . . . . . . . . . . 2020 Natasha Dobrinen . . . . . . . . . 2021 Philip Ehrlich* . . . . . . . . . . . . . 2021 Rajeev Gor\u00e9 . . . . . . . . . . . . . . . 2021 Juliette Kennedy . . . . . . . . . . . 2020 Julia Knight* . . . . . . . . . . . . . . 2025 Peter Koellner . . . . . . . . . . . . . 2020 Ulrich Kohlenbach* . . . . . . . . 2025 Maryanthe Malliaris* . . . . . . 2021 Paolo Mancosu* . . . . . . . . . . . 2019 Russell Miller* . . . . . . . . . . . . . 2020 Justin Moore . . . . . . . . . . . . . . 2019 Andr\u00e9 Nies* . . . . . . . . . . . . . . . 2020 James Raftery . . . . . . . . . . . . . . 2020 Ricardo Rodriguez . . . . . . . . . 2019 Ernest Schimmerling . . . . . . . 2019 Richard A. Shore . . . . . . . . . . 2021 Reed Solomon* . . . . . . . . . . . . 2020 Mariya Soskova . . . . . . . . . . . . 2021 Ibrahim Mamane Souley . . . 2020 Akito Tsuboi . . . . . . . . . . . . . . 2019 Alasdair Urquhart . . . . . . . . . 2022 Boban Velickovic* . . . . . . . . . 2020 Frank Wagner . . . . . . . . . . . . . 2019 Philip Welch . . . . . . . . . . . . . . . 2020 Alex J. Wilkie . . . . . . . . . . . . . . 2019 Yang Yue . . . . . . . . . . . . . . . . . . 2021",
+                "authors": [
+                    {
+                        "s2_author_id": "143784774",
+                        "name": "Andrew P. Arana"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "3354447",
+                        "name": "Natasha Dobrinen"
+                    },
+                    {
+                        "s2_author_id": "39466888",
+                        "name": "J. Kennedy"
+                    },
+                    {
+                        "s2_author_id": "1866636",
+                        "name": "P. Koellner"
+                    },
+                    {
+                        "s2_author_id": "34695462",
+                        "name": "P. Mancosu"
+                    },
+                    {
+                        "s2_author_id": "2108856042",
+                        "name": "J. Moore"
+                    },
+                    {
+                        "s2_author_id": "2113500027",
+                        "name": "Ricardo Rodriguez"
+                    },
+                    {
+                        "s2_author_id": "1817824",
+                        "name": "R. Shore"
+                    },
+                    {
+                        "s2_author_id": "1774520",
+                        "name": "M. Soskova"
+                    },
+                    {
+                        "s2_author_id": "67334132",
+                        "name": "I. Souley"
+                    },
+                    {
+                        "s2_author_id": "34980855",
+                        "name": "Akito Tsuboi"
+                    },
+                    {
+                        "s2_author_id": "7186177",
+                        "name": "A. Urquhart"
+                    },
+                    {
+                        "s2_author_id": "3210789",
+                        "name": "B. Velickovic"
+                    },
+                    {
+                        "s2_author_id": "2064515201",
+                        "name": "Frank Wagner"
+                    },
+                    {
+                        "s2_author_id": "145618022",
+                        "name": "A. Wilkie"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7eb592a74578959d14f1c159d8b43f66f5580876",
+                "title": "Thin set theorems and cone avoidance",
+                "year": 2018,
+                "venue": "Transactions of the American Mathematical Society",
+                "citation_count": 7,
+                "reference_count": 25,
+                "abstract": "<p>The thin set theorem <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"sans-serif upper R sans-serif upper T Subscript greater-than normal infinity comma script l Superscript n\">\n  <mml:semantics>\n    <mml:msubsup>\n      <mml:mrow class=\"MJX-TeXAtom-OP MJX-fixedlimits\">\n        <mml:mrow class=\"MJX-TeXAtom-ORD\">\n          <mml:mi mathvariant=\"sans-serif\">R</mml:mi>\n          <mml:mi mathvariant=\"sans-serif\">T</mml:mi>\n        </mml:mrow>\n      </mml:mrow>\n      <mml:mrow class=\"MJX-TeXAtom-ORD\">\n        <mml:mo>></mml:mo>\n        <mml:mi mathvariant=\"normal\">\u221e<!-- \u221e --></mml:mi>\n        <mml:mo>,</mml:mo>\n        <mml:mi>\u2113<!-- \u2113 --></mml:mi>\n      </mml:mrow>\n      <mml:mi>n</mml:mi>\n    </mml:msubsup>\n    <mml:annotation encoding=\"application/x-tex\">\\operatorname {\\mathsf {RT}}^n_{>\\infty ,\\ell }</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula> asserts the existence, for every <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"k\">\n  <mml:semantics>\n    <mml:mi>k</mml:mi>\n    <mml:annotation encoding=\"application/x-tex\">k</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula>-coloring of the subsets of natural numbers of size <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"n\">\n  <mml:semantics>\n    <mml:mi>n</mml:mi>\n    <mml:annotation encoding=\"application/x-tex\">n</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula>, of an infinite set of natural numbers, all of whose subsets of size <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"n\">\n  <mml:semantics>\n    <mml:mi>n</mml:mi>\n    <mml:annotation encoding=\"application/x-tex\">n</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula> use at most <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"script l\">\n  <mml:semantics>\n    <mml:mi>\u2113<!-- \u2113 --></mml:mi>\n    <mml:annotation encoding=\"application/x-tex\">\\ell</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula> colors. Whenever <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"script l equals 1\">\n  <mml:semantics>\n    <mml:mrow>\n      <mml:mi>\u2113<!-- \u2113 --></mml:mi>\n      <mml:mo>=</mml:mo>\n      <mml:mn>1</mml:mn>\n    </mml:mrow>\n    <mml:annotation encoding=\"application/x-tex\">\\ell = 1</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula>, the statement corresponds to Ramsey\u2019s theorem. From a computational viewpoint, the thin set theorem admits a threshold phenomenon, in that whenever the number of colors <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"script l\">\n  <mml:semantics>\n    <mml:mi>\u2113<!-- \u2113 --></mml:mi>\n    <mml:annotation encoding=\"application/x-tex\">\\ell</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula> is sufficiently large with respect to the size <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"n\">\n  <mml:semantics>\n    <mml:mi>n</mml:mi>\n    <mml:annotation encoding=\"application/x-tex\">n</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula> of the tuples, the thin set theorem admits strong cone avoidance.</p>\n\n<p>Let <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"d 0 comma d 1 comma ellipsis\">\n  <mml:semantics>\n    <mml:mrow>\n      <mml:msub>\n        <mml:mi>d</mml:mi>\n        <mml:mn>0</mml:mn>\n      </mml:msub>\n      <mml:mo>,</mml:mo>\n      <mml:msub>\n        <mml:mi>d</mml:mi>\n        <mml:mn>1</mml:mn>\n      </mml:msub>\n      <mml:mo>,</mml:mo>\n      <mml:mo>\u2026<!-- \u2026 --></mml:mo>\n    </mml:mrow>\n    <mml:annotation encoding=\"application/x-tex\">d_0, d_1, \\dots</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula> be the sequence of Catalan numbers. For <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"n greater-than-or-equal-to 1\">\n  <mml:semantics>\n    <mml:mrow>\n      <mml:mi>n</mml:mi>\n      <mml:mo>\u2265<!-- \u2265 --></mml:mo>\n      <mml:mn>1</mml:mn>\n    </mml:mrow>\n    <mml:annotation encoding=\"application/x-tex\">n \\geq 1</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula>, <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"sans-serif upper R sans-serif upper T Subscript greater-than normal infinity comma script l Superscript n\">\n  <mml:semantics>\n    <mml:msubsup>\n      <mml:mrow class=\"MJX-TeXAtom-OP MJX-fixedlimits\">\n        <mml:mrow class=\"MJX-TeXAtom-ORD\">\n          <mml:mi mathvariant=\"sans-serif\">R</mml:mi>\n          <mml:mi mathvariant=\"sans-serif\">T</mml:mi>\n        </mml:mrow>\n      </mml:mrow>\n      <mml:mrow class=\"MJX-TeXAtom-ORD\">\n        <mml:mo>></mml:mo>\n        <mml:mi mathvariant=\"normal\">\u221e<!-- \u221e --></mml:mi>\n        <mml:mo>,</mml:mo>\n        <mml:mi>\u2113<!-- \u2113 --></mml:mi>\n      </mml:mrow>\n      <mml:mi>n</mml:mi>\n    </mml:msubsup>\n    <mml:annotation encoding=\"application/x-tex\">\\operatorname {\\mathsf {RT}}^n_{>\\infty , \\ell }</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula> admits strong cone avoidance if and only if <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"script l greater-than-or-equal-to d Subscript n\">\n  <mml:semantics>\n    <mml:mrow>\n      <mml:mi>\u2113<!-- \u2113 --></mml:mi>\n      <mml:mo>\u2265<!-- \u2265 --></mml:mo>\n      <mml:msub>\n        <mml:mi>d</mml:mi>\n        <mml:mi>n</mml:mi>\n      </mml:msub>\n    </mml:mrow>\n    <mml:annotation encoding=\"application/x-tex\">\\ell \\geq d_n</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula> and cone avoidance if and only if <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"script l greater-than-or-equal-to d Subscript n minus 1\">\n  <mml:semantics>\n    <mml:mrow>\n      <mml:mi>\u2113<!-- \u2113 --></mml:mi>\n      <mml:mo>\u2265<!-- \u2265 --></mml:mo>\n      <mml:msub>\n        <mml:mi>d</mml:mi>\n        <mml:mrow class=\"MJX-TeXAtom-ORD\">\n          <mml:mi>n</mml:mi>\n          <mml:mo>\u2212<!-- \u2212 --></mml:mo>\n          <mml:mn>1</mml:mn>\n        </mml:mrow>\n      </mml:msub>\n    </mml:mrow>\n    <mml:annotation encoding=\"application/x-tex\">\\ell \\geq d_{n-1}</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula>. We say that a set <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"upper A\">\n  <mml:semantics>\n    <mml:mi>A</mml:mi>\n    <mml:annotation encoding=\"application/x-tex\">A</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula> is <italic><inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"sans-serif upper R sans-serif upper T Subscript greater-than normal infinity comma script l Superscript n\">\n  <mml:semantics>\n    <mml:msubsup>\n      <mml:mrow class=\"MJX-TeXAtom-OP MJX-fixedlimits\">\n        <mml:mrow class=\"MJX-TeXAtom-ORD\">\n          <mml:mi mathvariant=\"sans-serif\">R</mml:mi>\n          <mml:mi mathvariant=\"sans-serif\">T</mml:mi>\n        </mml:mrow>\n      </mml:mrow>\n      <mml:mrow class=\"MJX-TeXAtom-ORD\">\n        <mml:mo>></mml:mo>\n        <mml:mi mathvariant=\"normal\">\u221e<!-- \u221e --></mml:mi>\n        <mml:mo>,</mml:mo>\n        <mml:mi>\u2113<!-- \u2113 --></mml:mi>\n      </mml:mrow>\n      <mml:mi>n</mml:mi>\n    </mml:msubsup>\n    <mml:annotation encoding=\"application/x-tex\">\\operatorname {\\mathsf {RT}}^n_{>\\infty , \\ell }</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula>-encodable</italic> if there is an instance of <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"sans-serif upper R sans-serif upper T Subscript greater-than normal infinity comma script l Superscript n\">\n  <mml:semantics>\n    <mml:msubsup>\n      <mml:mrow class=\"MJX-TeXAtom-OP MJX-fixedlimits\">\n        <mml:mrow class=\"MJX-TeXAtom-ORD\">\n          <mml:mi mathvariant=\"sans-serif\">R</mml:mi>\n          <mml:mi mathvariant=\"sans-serif\">T</mml:mi>\n        </mml:mrow>\n      </mml:mrow>\n      <mml:mrow class=\"MJX-TeXAtom-ORD\">\n        <mml:mo>></mml:mo>\n        <mml:mi mathvariant=\"normal\">\u221e<!-- \u221e --></mml:mi>\n        <mml:mo>,</mml:mo>\n        <mml:mi>\u2113<!-- \u2113 --></mml:mi>\n      </mml:mrow>\n      <mml:mi>n</mml:mi>\n    </mml:msubsup>\n    <mml:annotation encoding=\"application/x-tex\">\\operatorname {\\mathsf {RT}}^n_{>\\infty , \\ell }</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula> such that every solution computes <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"upper A\">\n  <mml:semantics>\n    <mml:mi>A</mml:mi>\n    <mml:annotation encoding=\"application/x-tex\">A</mml:annotation>\n  </mml:semantics>\n</mml:math>\n</inline-formula>. The <inline-formula content-type=\"math/mathml\">\n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" alttext=\"sans-serif upper R sans-serif upper T Subscript greater-than normal infinity comma script l Superscript n\">\n  <mml:semantics>\n    <mml:msubsup>\n      <mml:mrow class=\"MJX-TeXAtom-OP MJX-fixedlimits\">\n        <mml:mrow class=\"MJX-TeXAtom-ORD\">\n          <mml:mi mathvariant=\"sans-serif\">R</mml:mi>\n          <mml:mi mathvariant=\"sans-serif\">T</mml:mi>\n        </mml:mrow>\n      </mml:mrow>\n      <mml:mrow class=\"MJX-TeXAtom-ORD\">\n        <mml:mo>></mml:mo>\n        <mml:mi mathvariant=\"normal\">\u221e<!-- \u221e --></mml:mi>\n        <mml:mo>,</mml:mo>\n        <mml:mi>\u2113<!-- \u2113 --></mml:mi>\n      </mml:mrow>\n      <mml:mi>n</mml:mi>\n    </mml:msubsup>\n    <mml:annotation encoding=\"application/x-tex\">\\operatorname {\\mathsf {RT}}^n_{>\\infty , \\ell }</mml:annotation>\n  ",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "3210387",
+                        "name": "Ludovic Patey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "50a055e65855d0c7571e717b2106386d7d7e6a4a",
+                "title": "Countable models and the theory of Borel equivalence relations",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1834356",
+                        "name": "G. Hjorth"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "64923b9bb85eef485b16de6df06e2597113bff82",
+                "title": "The Rado path decomposition theorem",
+                "year": 2016,
+                "venue": "Israel Journal of Mathematics",
+                "citation_count": 2,
+                "reference_count": 20,
+                "abstract": "Let c : [\u03c9]2 \u2192 r. A path of color j is a listing (possibly empty) of integers {a0, a1, a2 ...} such that, for all i \u2265 0, if ai+1 exists then c(ai, ai+1) = j. A empty list can be a path of any color. A singleton can be a path of any color. Paths might be finite or infinite. The color is determined for paths of more than one node. Improving on a result of Erd\u0151s, in 1978, Rado published a theorem which implies Rado Path Decomposition: Let c : [\u03c9]2\u2192r. Then, for each j < r, there is a path of color j such that these r paths (as sets) partition \u03c9 (so they are pairwise disjoint sets and their union is everything). Here we will provide some results and proofs which allow us to analyze the effective content of this theorem.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2458838",
+                        "name": "Gregory Igusa"
+                    },
+                    {
+                        "s2_author_id": "3210387",
+                        "name": "Ludovic Patey"
+                    },
+                    {
+                        "s2_author_id": "28812407",
+                        "name": "M. Soskova"
+                    },
+                    {
+                        "s2_author_id": "2102881",
+                        "name": "Daniel Turetsky"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a0cbf6f6b9b72104e34c266b2f922a181bd8137",
+                "title": "The Notre Dame lectures",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "827b44f1e9cd97c308bbc50d8d9ec2f9e524acdf",
+                "title": "Weak fragments of Peano Arithmetic",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1398697692",
+                        "name": "P. D'Aquino"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "877a5685afa3fd726f58cfc995708b164c723114",
+                "title": "Genericity for Mathias forcing over general Turing ideals",
+                "year": 2016,
+                "venue": "Israel Journal of Mathematics",
+                "citation_count": 0,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2060624",
+                        "name": "D. Dzhafarov"
+                    },
+                    {
+                        "s2_author_id": "1774520",
+                        "name": "M. Soskova"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b43e41e167613989cde9c30eb53e79b9881c85a1",
+                "title": "On Splits of Computably Enumerable Sets",
+                "year": 2016,
+                "venue": "Computability and Complexity",
+                "citation_count": 1,
+                "reference_count": 22,
+                "abstract": "Our focus will be on the computably enumerable (c.e.) sets and trivial, non-trivial, Friedberg, and non-Friedberg splits of the c.e. sets. Every non-computable set has a non-trivial Friedberg split. Moreover, this theorem is uniform. V. Yu. Shavrukov recently answered the question which c.e. sets have a non-trivial non-Friedberg splitting and we provide a different proof of his result. We end by showing there is no uniform splitting of all c.e. sets such that all non-computable sets are non-trivially split and, in addition, all sets with a non-trivial non-Friedberg split are split accordingly.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6320ca1a1609b868688c185d2e51e3f0378605b4",
+                "title": "Genericity for Mathias forcing over general Turing ideals",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 17,
+                "abstract": "In Mathias forcing, conditions are pairs (D, S) of sets of natural numbers, in which D is finite, S is infinite, and max D < min S. The Turing degrees and computational characteristics of generics for this forcing in the special (but important) case where the infinite sets S are computable were thoroughly explored by Cholak, Dzhafarov, Hirst and Slaman [2]. In this paper, we undertake a similar investigation for the case where the sets S are members of general countable Turing ideals, and give conditions under which generics for Mathias forcing over one ideal compute generics for Mathias forcing over another. It turns out that if I does not contain only the computable sets, then non-trivial information can be encoded into the generics for Mathias forcing over I. We give a classification of this information in terms of computability-theoretic properties of the ideal, using coding techniques that also yield new results about introreducibility. In particular, we extend a result of Slaman and Groszek and show that there is an infinite \u039430 set with no introreducible subset of the same degree.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2060624",
+                        "name": "D. Dzhafarov"
+                    },
+                    {
+                        "s2_author_id": "1774520",
+                        "name": "M. Soskova"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7740681d32be4808fcc30810f9cb96642b73f34d",
+                "title": "Any FIP real computes a 1-generic",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 14,
+                "abstract": "We construct a computable sequence of computable reals $\\langle X_i\\rangle$ such that any real that can compute a subsequence that is maximal with respect to the finite intersection property can also compute a Cohen 1-generic. This is extended to establish the same result with 2IP in place of FIP.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    },
+                    {
+                        "s2_author_id": "2458838",
+                        "name": "Gregory Igusa"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "88bd922ab486f66735a6b693afa318ce871ab60d",
+                "title": "Computably enumerable sets that are automorphic to low sets",
+                "year": 2015,
+                "venue": "De Computis",
+                "citation_count": 0,
+                "reference_count": 15,
+                "abstract": "We work with the structure consisting of all computably enumerable (c.e.) sets ordered by set inclusion. The question we will partially address is which c.e. sets are autormorphic to low (or low2) sets. Using work of R. Miller, we can see that every set with semilow complement is \u0394 3 0 automorphic to a low set. While it remains open whether every set with semilow complement is effectively automorphic to a low set, we show that there are sets without semilow complement that are effectively automorphic to low sets. We also consider other lowness notions such as having a semilow1.5 complement, having the outer splitting property, and having a semilow2 complement. We show that in every nonlow c.e. degree, there are sets with semilow1.5 complements without semilow complements as well as sets with semilow2 complements and the outer splitting property that do not have semilow1.5 complements. We also address the question of which sets are automorphic to low2 sets.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2056976996",
+                        "name": "R. Epstein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c6d5947863ce7888fa6b693a541007ea93c3cdc8",
+                "title": "DENSITY-1-BOUNDING AND QUASIMINIMALITY IN THE GENERIC DEGREES",
+                "year": 2015,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 7,
+                "reference_count": 17,
+                "abstract": "Abstract We consider the question \u201cIs every nonzero generic degree a density-1-bounding generic degree?\u201d By previous results [8] either resolution of this question would answer an open question concerning the structure of the generic degrees: A positive result would prove that there are no minimal generic degrees, and a negative result would prove that there exist minimal pairs in the generic degrees. We consider several techniques for showing that the answer might be positive, and use those techniques to prove that a wide class of assumptions is sufficient to prove density-1-bounding. We also consider a historic difficulty in constructing a potential counterexample: By previous results [7] any generic degree that is not density-1-bounding must be quasiminimal, so in particular, any construction of a non-density-1-bounding generic degree must use a method that is able to construct a quasiminimal generic degree. However, all previously known examples of quasiminimal sets are also density-1, and so trivially density-1-bounding. We provide several examples of non-density-1 sets that are quasiminimal. Using cofinite and mod-finite reducibility, we extend our results to the uniform coarse degrees, and to the nonuniform generic degrees. We define all of the above terms, and we provide independent motivation for the study of each of them. Combined with a concurrently written paper of Hirschfeldt, Jockusch, Kuyper, and Schupp [4], this paper provides a characterization of the level of randomness required to ensure quasiminimality in the uniform and nonuniform coarse and generic degrees.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2458838",
+                        "name": "Gregory Igusa"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e66c7094006c2f1e392717dc703972e69da89e8f",
+                "title": "${\\cal D}$-MAXIMAL SETS",
+                "year": 2015,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 2,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "8932579",
+                        "name": "Peter M. Gerdes"
+                    },
+                    {
+                        "s2_author_id": "143953626",
+                        "name": "K. Lange"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6e091f2a22a6316b4c7146f84b6bba392ddc538f",
+                "title": "D-MAXIMAL SETS",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "8932579",
+                        "name": "Peter M. Gerdes"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab1314c661938f1c446e81a65f5b38cef4ad007b",
+                "title": "Effective Prime Uniqueness",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 9,
+                "abstract": "Assuming the obvious definitions (see paper) we show the a decidable model that is effectively prime is also effectively atomic. This implies that two effectively prime (decidable) models are computably isomorphic. This is in contrast to the theorem that there are two atomic decidable models which are not computably isomorphic. The implications of this work in reverse mathematics is that \"effectively prime implies effectively atomic\" holds in topped models. But due to an observation of David Belanger, \"effectively prime implies effectively atomic\" fails for some Scott sets. The reserve mathematical strength of \"Prime Uniqueness\" remains open.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "34662998",
+                        "name": "Charles F. D. McCoy"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d3ffa5d926ea5bf2205c2875292132c110d82c3c",
+                "title": "Generics for computable Mathias forcing",
+                "year": 2014,
+                "venue": "Annals of Pure and Applied Logic",
+                "citation_count": 14,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2060624",
+                        "name": "D. Dzhafarov"
+                    },
+                    {
+                        "s2_author_id": "2341771",
+                        "name": "J. Hirst"
+                    },
+                    {
+                        "s2_author_id": "2867082",
+                        "name": "T. Slaman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea51666813e5fd9748c7beff78fc17decbd13757",
+                "title": "$\\mathcal{D}$-maximal sets",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 22,
+                "abstract": "Soare proved that the maximal sets form an orbit in $\\mathcal{E}$. We consider here $\\mathcal{D}$-maximal sets, generalizations of maximal sets introduced by Herrmann and Kummer. Some orbits of $\\mathcal{D}$-maximal sets are well understood, e.g., hemimaximal sets, but many are not. The goal of this paper is to define new invariants on computably enumerable sets and to use them to give a complete nontrivial classification of the $\\mathcal{D}$-maximal sets. Although these invariants help us to better understand the $\\mathcal{D}$-maximal sets, we use them to show that several classes of $\\mathcal{D}$-maximal sets break into infinitely many orbits.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "8932579",
+                        "name": "Peter M. Gerdes"
+                    },
+                    {
+                        "s2_author_id": "143953626",
+                        "name": "K. Lange"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2273a6ed41a4115e269feae44213869a49d8dfdc",
+                "title": "Some Recent Research Directions in the Computably Enumerable Sets",
+                "year": 2013,
+                "venue": "The Incomputable",
+                "citation_count": 1,
+                "reference_count": 31,
+                "abstract": "As suggested by the title, this paper is a survey of recent results and questions on the collection of computably enumerable sets under inclusion. This is not a broad survey but one focused on the author\u2019s and a few others\u2019 current research.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c93dd46fee45feb046331ce1fce73c3e5c084d3f",
+                "title": "Abstracts of invited plenary speakers",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "103979546",
+                        "name": "R. Heck"
+                    },
+                    {
+                        "s2_author_id": "144118570",
+                        "name": "C. Henson"
+                    },
+                    {
+                        "s2_author_id": "3133056",
+                        "name": "Timothy Bays"
+                    },
+                    {
+                        "s2_author_id": "2772577",
+                        "name": "Patricia A. Blanchette"
+                    },
+                    {
+                        "s2_author_id": "2003298",
+                        "name": "S. Buechler"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "144357460",
+                        "name": "M. Detlefsen"
+                    },
+                    {
+                        "s2_author_id": "2851240",
+                        "name": "S. Starchenko"
+                    },
+                    {
+                        "s2_author_id": "7186177",
+                        "name": "A. Urquhart"
+                    },
+                    {
+                        "s2_author_id": "2772577",
+                        "name": "Patricia A. Blanchette"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "339bcaa5644091f49fb83e53857f69c171dc7ece",
+                "title": "Style Guide for Submission of Manuscripts to Notre Dame Journal of Formal Logic",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "69485257",
+                        "name": "M. Kummerer"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d2291cba9b13b42361959dcdbe73715a62bbdaea",
+                "title": "On Mathias Generic Sets",
+                "year": 2012,
+                "venue": "Conference on Computability in Europe",
+                "citation_count": 2,
+                "reference_count": 17,
+                "abstract": "We present some results about generics for computable Mathias forcing. The n-generics and weak n-generics in this setting form a strict hierarchy as in the case of Cohen forcing. We analyze the complexity of the Mathias forcing relation, and show that if G is any n-generic with n\u22653 then it satisfies the jump property G(n\u22121)=G\u2032\u2295\u2205(n). We prove that every such G has generalized high degree, and so cannot have even Cohen 1-generic degree. On the other hand, we show that G, together with any bi-immune A\u2264T\u2205(n\u22121), computes a Cohen n-generic.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2060624",
+                        "name": "D. Dzhafarov"
+                    },
+                    {
+                        "s2_author_id": "2341771",
+                        "name": "J. Hirst"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e95443450090f098cd9ab8649d9efd78d34ef77e",
+                "title": "Computably Enumerable Partial Orders",
+                "year": 2011,
+                "venue": "De Computis",
+                "citation_count": 8,
+                "reference_count": 16,
+                "abstract": "We study the degree spectra and reverse-mathematical applications of computably enumerable and co-computably enumerable partial orders. We formulate versions of the chain/antichain principle and ascending/descending sequence principle for such orders, and show that the former is strictly stronger than the latter. We then show that every $\\emptyset'$ -computable structure (or even just of c.e. degree) has the same degree spectrum as some computably enumerable (co-c.e.) partial order, and hence that there is a c.e. (co-c.e.) partial order with spectrum equal to the set of nonzero degrees.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2060624",
+                        "name": "D. Dzhafarov"
+                    },
+                    {
+                        "s2_author_id": "2433170",
+                        "name": "N. Schweber"
+                    },
+                    {
+                        "s2_author_id": "1817824",
+                        "name": "R. Shore"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "288b41a0420bc83c80103c58780db7f8be9738a6",
+                "title": "Algorithmically random closed sets and probability",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2938413",
+                        "name": "Logan M. Axon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8c78d27ddb17edc9f499b100d68d7326f9073fa4",
+                "title": "Reverse mathematics and infinite traceable graphs",
+                "year": 2010,
+                "venue": "Mathematical Logic Quarterly",
+                "citation_count": 1,
+                "reference_count": 8,
+                "abstract": "We analyze three applications of Ramsey\u2019s Theorem for 4\u2010tuples to infinite traceable graphs and finitely generated infinite lattices using the tools of reverse mathematics. The applications in graph theory are shown to be equivalent to Ramsey\u2019s Theorem while the application in lattice theory is shown to be provable in the weaker system RCA0.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145841050",
+                        "name": "David J. Galvin"
+                    },
+                    {
+                        "s2_author_id": "47115793",
+                        "name": "Reed Solomon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "309954710c111c9563d84d0f2bf1b38b54e7d906",
+                "title": "Corrigendum to: \u201cOn the strength of Ramsey's Theorem for pairs\u201d",
+                "year": 2009,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 17,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2867082",
+                        "name": "T. Slaman"
+                    },
+                    {
+                        "s2_author_id": "1888089",
+                        "name": "C. Jockusch"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7986621d9de9e40d04f3d9f146f635ce5bc025fb",
+                "title": "JSL volume 74 issue 1 Cover and Front matter",
+                "year": 2009,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "92cdf2940a5f900985431d45a22f41b7dd78e1af",
+                "title": "Computability, Reverse Mathematics and Combinatorics",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f5015f8a0256fea418ee058d3074be30c945447d",
+                "title": "JSL volume 74 issue 4 Cover and Back matter",
+                "year": 2009,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "03814b450e84264c2251a1c74d3aa89ea0d4ce11",
+                "title": "STRONG JUMP-TRACEABILITY I : THE COMPUTABLY ENUMERABLE CASE",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 43,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2134049919",
+                        "name": "R. Downey"
+                    },
+                    {
+                        "s2_author_id": "34695773",
+                        "name": "Noam Greenberg"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a2649adf2100882205c6e5c373a3d9c3a3935065",
+                "title": "JSL volume 73 issue 4 Cover and Back matter",
+                "year": 2008,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7ae7bcba9b4799e772dba8251ae41b54ec4d5e48",
+                "title": "ATOMLESS r-MAXIMAL SETS",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bd77ad53f022853ec595b1e81405c013113afdf7",
+                "title": "The Complexity of Orbits of Computably Enumerable Sets",
+                "year": 2007,
+                "venue": "Bulletin of Symbolic Logic",
+                "citation_count": 3,
+                "reference_count": 49,
+                "abstract": "Abstract The goal of this paper is to announce there is a single orbit of the c.e. sets with inclusion, \u03b5, such that the question of membership in this orbit is complete. This result and proof have a number of nice corollaries: the Scott rank of \u03b5 is + 1; not all orbits are elementarily definable; there is no arithmetic description of all orbits of \u03b5; for all finite \u03b1 \u2265 9, there is a properly orbit (from the proof).",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    },
+                    {
+                        "s2_author_id": "143955869",
+                        "name": "L. Harrington"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bf7dfca245290177e618ab1b9d2a8f72d5622510",
+                "title": "Introduction to the Special Issue on Vaught's Conjecture",
+                "year": 2007,
+                "venue": "Notre Dame J. Formal Log.",
+                "citation_count": 1,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "18bb08c3eec5007b18f423a7c306f049d6db9cf7",
+                "title": "On the Orbits of Computable Enumerable Sets",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    },
+                    {
+                        "s2_author_id": "143955869",
+                        "name": "L. Harrington"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1c2377bcfb98230d61988d76607b7936f37ae393",
+                "title": "A computably stable structure with no Scott family of finitary formulas",
+                "year": 2006,
+                "venue": "Archive for Mathematical Logic",
+                "citation_count": 7,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "1817824",
+                        "name": "R. Shore"
+                    },
+                    {
+                        "s2_author_id": "47115793",
+                        "name": "Reed Solomon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d6659ef8d442fafa1ce026ee5e0c204a39a5a9f",
+                "title": "On the Orbits of Computably Enumerable Sets",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 10,
+                "reference_count": 28,
+                "abstract": "The goal of this paper is to show there is a single orbit of the c.e. sets with inclusion, $\\mathcal{E}$, such that the question of membership in this orbit is $\\Sigma^1_1$-complete. This result and proof have a number of nice corollaries: The Scott rank of $\\mathcal{E}$ is $\\omega^{CK}_1+1; Not all orbits are elementarily definable; There is no arithmetic description of all orbits of $\\mathcal{E}$; For all finite $\\alpha \\geq 9$, there is a properly $\\Delta^0_\\alpha$ orbit (from the proof). \nApril 6, 2007, minor changes \nNov 20, 2007, minor changes",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2134049919",
+                        "name": "R. Downey"
+                    },
+                    {
+                        "s2_author_id": "143955869",
+                        "name": "L. Harrington"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "525314c0950dd0faf4e6112e9ba5a96e552f25f3",
+                "title": "LECTURES ON EFFECTIVE RANDOMNESS",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2807b7dd6ac0c46c727c47e6fc231e70c3289d3b",
+                "title": "Uniform almost everywhere domination",
+                "year": 2005,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 37,
+                "reference_count": 32,
+                "abstract": "Abstract We explore the interaction between Lebesgue measure and dominating functions. We show, via both a priority construction and a forcing construction, that there is a function of incomplete degree that dominates almost all degrees. This answers a question of Dobrinen and Simpson, who showed that such functions are related to the proof-theoretic strength of the regularity of Lebesgue measure for G\u03b4 sets. Our constructions essentially settle the reverse mathematical classification of this principle.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "34695773",
+                        "name": "Noam Greenberg"
+                    },
+                    {
+                        "s2_author_id": "2116336200",
+                        "name": "Joseph S. Miller"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c6e8099d6387aa07941776f35e894cb40c61349",
+                "title": "Review of Peter Cholak, \u201cAutomorphisms of the Lattice of Recursively Enumerable Sets \u201d Memoirs of the American Math. Soc. (1995) viii+151 pp and",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "143955869",
+                        "name": "L. Harrington"
+                    },
+                    {
+                        "s2_author_id": "1760293",
+                        "name": "R. Soare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c071a2b4504abdb1c7a81a53c2614df1e454417d",
+                "title": "The Notre Dame Lectures: Lecture Notes in Logic, 18",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d75ae7367cc4eab8ae3d29c569773ba69da96fd5",
+                "title": "Association for Symbolic Logic",
+                "year": 2005,
+                "venue": "Bulletin of Symbolic Logic",
+                "citation_count": 0,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2394982789",
+                        "name": "Mirna D\u017eamonja"
+                    },
+                    {
+                        "s2_author_id": "2294943567",
+                        "name": "Sergey S. Goncharov"
+                    },
+                    {
+                        "s2_author_id": "2295059262",
+                        "name": "Gerhard J\u00e4ger"
+                    },
+                    {
+                        "s2_author_id": "2286533736",
+                        "name": "Michael C. Laskowski"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "069a7b8a92339647dab767814a10c0e6b74e4bc2",
+                "title": "Reverse mathematics and the equivalence of definitions for well and better quasi-orders",
+                "year": 2004,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 34,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2493438",
+                        "name": "Alberto Marcone"
+                    },
+                    {
+                        "s2_author_id": "47115793",
+                        "name": "Reed Solomon"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "195b3820cee45618944ed207043a2d93eb5f1b8a",
+                "title": "A definable relation between c.e. sets and ideals",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "48953479",
+                        "name": "Rebecca Weber"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "509841ef4c375e0f7bc40b7668e09d2342c66bac",
+                "title": "Extension theorems, orbits, and automorphisms of the computably enumerable sets",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 30,
+                "abstract": "We prove an algebraic extension theorem for the computably enumerable sets, e. Using this extension theorem and other work we then show if A and \u00c2 are automorphic via \u03c8, then they are automorphic via A where \u03bb ? L *(A) = \u03c8 and \u039b e* (A) is \u0394 0 3 . We give an algebraic description of when an arbitrary set \u00c2 is in the orbit of a computably enumerable set A. We construct the first example of a definable orbit which is not a \u0394 0 3 orbit. We conclude with some results which restrict the ways one can increase the complexity of orbits. For example, we show that if A is simple and \u00c2 is in the same orbit as A, then they are in the same \u0394 0 6 -orbit and, furthermore, we provide a classification of when two simple sets are in the same orbit.",
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "143955869",
+                        "name": "L. Harrington"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "70d983339041d96257d3a7cdcd5393418c64ed44",
+                "title": "THE COMPUTABLY ENUMERABLE SETS : RECENT RESULTS AND FUTURE DIRECTIONS",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a09db10fca98b097e8d110e19000f6e3c71e1a2c",
+                "title": "Invariance and Noninvariance in the Lattice of \u03a000 Classes",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2134049919",
+                        "name": "R. Downey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1df16e98d7114e6813303f354c2483a9a14ac487",
+                "title": "Isomorphisms of splits of computably enumerable sets",
+                "year": 2003,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 11,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "143955869",
+                        "name": "L. Harrington"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d5f98e51267f97c91f2f12eecfa8d7a55b157ca6",
+                "title": "FREE SETS AND REVERSE MATHEMATICS",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 36,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "125593ca34fcb061d724fe93eb741801586f9532",
+                "title": "On the Definability of the double jump in the computably Enumerable Sets",
+                "year": 2002,
+                "venue": "Journal of Mathematical Logic",
+                "citation_count": 18,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "143955869",
+                        "name": "L. Harrington"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "df4b02fe2d1b66134ab40972d0d220960a3bfb5c",
+                "title": "Maximal contiguous degrees",
+                "year": 2002,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 10,
+                "reference_count": 62,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    },
+                    {
+                        "s2_author_id": "7475555",
+                        "name": "Stephen M. Walk"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "78823fa394af9067a258809c4fb664c33c7043b0",
+                "title": "On the strength of Ramsey's theorem for pairs",
+                "year": 2001,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 233,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "1888089",
+                        "name": "C. Jockusch"
+                    },
+                    {
+                        "s2_author_id": "2867082",
+                        "name": "T. Slaman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "afd53fb75249b0d700a19eb46195abf6d44bee9a",
+                "title": "An almost deep degree",
+                "year": 2001,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 20,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "1771978",
+                        "name": "M. Groszek"
+                    },
+                    {
+                        "s2_author_id": "2867082",
+                        "name": "T. Slaman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ef34255263db822fb308f0260ef2db84f1824407",
+                "title": "Some orbits for E",
+                "year": 2001,
+                "venue": "Annals of Pure and Applied Logic",
+                "citation_count": 12,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    },
+                    {
+                        "s2_author_id": "2065072453",
+                        "name": "E. Herrmann"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3689b51b96ca72ae6d1ac68bbba4e2a33d253d3f",
+                "title": "Computability Theory and Its Applications",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 25,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2805805",
+                        "name": "S. Lempp"
+                    },
+                    {
+                        "s2_author_id": "34564845",
+                        "name": "M. Lerman"
+                    },
+                    {
+                        "s2_author_id": "1817824",
+                        "name": "R. Shore"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "45ac1ef9e2d9f2131fc3277ea063d3cd61f6fba4",
+                "title": "Computability theory and its applications : current trends and open problems : proceedings of a 1999 AMS-IMS-SIAM Joint Summer Research Conference, Computability Theory and Applications, June 13-17, 1999, University of Colorado, Boulder",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2805805",
+                        "name": "S. Lempp"
+                    },
+                    {
+                        "s2_author_id": "34564845",
+                        "name": "M. Lerman"
+                    },
+                    {
+                        "s2_author_id": "1817824",
+                        "name": "R. Shore"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b526c96efe567cd34e494c23bd511ed0733dc517",
+                "title": "Free Sets and Reverse Mathematics Peter Cholak Mariagnese Giusto Jeffry",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "3175082",
+                        "name": "Mariagnese Giusto"
+                    },
+                    {
+                        "s2_author_id": "2341771",
+                        "name": "J. Hirst"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bf1e58d2ff429687d5cebf75e649da7d2176f1b2",
+                "title": "Definable Encodings in the Computably Enumerable Sets",
+                "year": 2000,
+                "venue": "Bulletin of Symbolic Logic",
+                "citation_count": 8,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "143955869",
+                        "name": "L. Harrington"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1f8eec8208149e38acaa754808f7220d4247c3ea",
+                "title": "1998\u20131999 Winter Meeting of the Association for Symbolic Logic",
+                "year": 1999,
+                "venue": "Bulletin of Symbolic Logic",
+                "citation_count": 0,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4c9aa4846d1232002f77666df7bf6bffd3c24632",
+                "title": "Toward the definability of the array noncomputable degrees",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7475555",
+                        "name": "Stephen M. Walk"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "caa04eb9e8bc5a4d1e167c061eb88d9eba413347",
+                "title": "Computably categorical structures and expansions by constants",
+                "year": 1999,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 50,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "15211179",
+                        "name": "S. Goncharov"
+                    },
+                    {
+                        "s2_author_id": "1703048",
+                        "name": "B. Khoussainov"
+                    },
+                    {
+                        "s2_author_id": "1817824",
+                        "name": "R. Shore"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d7297ababe2356f88d0a12428a5af839d19f34f7",
+                "title": "Review: Stephen G. Simpson, Subsystems of Second Order Arithmetic",
+                "year": 1999,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 42,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e9d261f1805a7b363c758c17267a05ffc205315f",
+                "title": "Atomlessr-maximal sets",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "102253480",
+                        "name": "A. Nies"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0db4b4f3bbda5d142dfaf30e27ff6472edac06db",
+                "title": "The Dense Simple Sets are Orbit Complete with Respect to the Simple Sets",
+                "year": 1998,
+                "venue": "Annals of Pure and Applied Logic",
+                "citation_count": 3,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e1b105b2960134014a1b6502793eb420cf9a98ec",
+                "title": "Participants and titles of lectures",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1398717883",
+                        "name": "K. Ambos-Spies"
+                    },
+                    {
+                        "s2_author_id": "2767539",
+                        "name": "M. Arslanov"
+                    },
+                    {
+                        "s2_author_id": "2275628",
+                        "name": "D. Cenzer"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "34580700",
+                        "name": "C. Chong"
+                    },
+                    {
+                        "s2_author_id": "38589453",
+                        "name": "Decheng Ding"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    },
+                    {
+                        "s2_author_id": "2788454",
+                        "name": "Peter A. Fejer"
+                    },
+                    {
+                        "s2_author_id": "15211179",
+                        "name": "S. Goncharov"
+                    },
+                    {
+                        "s2_author_id": "26945602",
+                        "name": "E. Griffor"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6f1ca3548519159010c866db2fa29dbf399064fa",
+                "title": "Permitting, Forcing, and Copying of a Given Recursive Relation",
+                "year": 1997,
+                "venue": "Annals of Pure and Applied Logic",
+                "citation_count": 21,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39372474",
+                        "name": "C. Ash"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2490044",
+                        "name": "J. Knight"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f1d3efb086dbf82a37299f26d43e08c6575e4f8",
+                "title": "Intervals Without Critical Triples",
+                "year": 1995,
+                "venue": "Logic Colloquium",
+                "citation_count": 4,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    },
+                    {
+                        "s2_author_id": "1817824",
+                        "name": "R. Shore"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "044dff6922899823360a92bf1ddc5553eb93122c",
+                "title": "Recursively Enumerable m\u2010 and tt\u2010Degrees III: Realizing all Finite Distributive Lattices",
+                "year": 1994,
+                "venue": "",
+                "citation_count": 5,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2134049919",
+                        "name": "R. Downey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "19fc1107cd1509c7adabdaf26e282792f0b685c7",
+                "title": "THE COMPLEXITY OF LOCAL STRATIFICATION",
+                "year": 1994,
+                "venue": "Fundamenta Informaticae",
+                "citation_count": 32,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145666005",
+                        "name": "H. A. Blair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "38b9713ab244b0218f64e2844915a355e5e43677",
+                "title": "The translation theorem",
+                "year": 1994,
+                "venue": "Archive for Mathematical Logic",
+                "citation_count": 7,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "62bec46abd90532730cfd610dc10653c201ce6a3",
+                "title": "Permutations and presentations",
+                "year": 1994,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6be4eb71e7743411b04d543d882e6a2e6fcaf99e",
+                "title": "Iterated relative recursive enumerability",
+                "year": 1994,
+                "venue": "Archive for Mathematical Logic",
+                "citation_count": 6,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2838233",
+                        "name": "P. Hinman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab7b7885270a0d5e2c581596d9686cecfb480870",
+                "title": "On the Cantor-Bendixon rank of recursively enumerable sets",
+                "year": 1993,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 8,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bd839d8628ac90b20b957ba7799145c4f1cdafaf",
+                "title": "Lattice Nonembeddings and Intervals of the Recursively Enumerable Degrees",
+                "year": 1993,
+                "venue": "Annals of Pure and Applied Logic",
+                "citation_count": 6,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2134049919",
+                        "name": "R. Downey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cebd9bb1b8b807b41ce589be61c2269515e87d6c",
+                "title": "Undecidability and Definability for Parametrized Polynomial Time m-Reducibilities",
+                "year": 1993,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dc269469fe27af34f2ec8f7c3ab1ecfe2446ed23",
+                "title": "The global structure of computably enumerable sets",
+                "year": 1993,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "30fcf78b6f86f282a0b9e07c9f78ea145a11347e",
+                "title": "Degrees of inferability",
+                "year": 1992,
+                "venue": "Annual Conference Computational Learning Theory",
+                "citation_count": 12,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "1744019",
+                        "name": "E. Kinber"
+                    },
+                    {
+                        "s2_author_id": "145948982",
+                        "name": "R. Downey"
+                    },
+                    {
+                        "s2_author_id": "144607616",
+                        "name": "M. Kummer"
+                    },
+                    {
+                        "s2_author_id": "1691447",
+                        "name": "L. Fortnow"
+                    },
+                    {
+                        "s2_author_id": "2578247",
+                        "name": "S. Kurtz"
+                    },
+                    {
+                        "s2_author_id": "1740486",
+                        "name": "W. Gasarch"
+                    },
+                    {
+                        "s2_author_id": "2867082",
+                        "name": "T. Slaman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5f7d5d5b3bbef36b8388fd9c4c3c7a93b2900b1b",
+                "title": "Automorphisms of the lattice of recursively enumerable sets: promptly simple sets",
+                "year": 1992,
+                "venue": "",
+                "citation_count": 56,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    },
+                    {
+                        "s2_author_id": "2305861371",
+                        "name": "Rod Downey"
+                    },
+                    {
+                        "s2_author_id": "2256375732",
+                        "name": "Michael Stob"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cb87304121bd49d146c5915e4c8c65ba74955b1e",
+                "title": "Boolean algebras and orbits of the lattice of r.e sets modulo the finite sets",
+                "year": 1990,
+                "venue": "Journal of Symbolic Logic (JSL)",
+                "citation_count": 3,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec938aceed46681c79e86ac74ac19f6f1c8bee0e",
+                "title": "Algorithmically Random Closed Sets and Probability Algorithmically Random Closed Sets and Probability",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2938413",
+                        "name": "Logan M. Axon"
+                    },
+                    {
+                        "s2_author_id": "3297528",
+                        "name": "Peter A. Cholak"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "145000718",
+                "name": "A. Pillay"
+            },
+            {
+                "s2_author_id": "40568778",
+                "name": "Dana Bartosov\u00e1"
+            },
+            {
+                "s2_author_id": "2997062",
+                "name": "Kirsten Eisentr\u00e4ger"
+            },
+            {
+                "s2_author_id": "35110993",
+                "name": "J. Freitag"
+            },
+            {
+                "s2_author_id": "2658848",
+                "name": "Philipp Hieronymi"
+            },
+            {
+                "s2_author_id": "103178117",
+                "name": "N. Ackerman"
+            },
+            {
+                "s2_author_id": "2334906370",
+                "name": "Cameron E. Freer"
+            },
+            {
+                "s2_author_id": "8639665",
+                "name": "A. Kechris"
+            },
+            {
+                "s2_author_id": "2144715212",
+                "name": "Rehana Patel"
+            },
+            {
+                "s2_author_id": "117336751",
+                "name": "Alejandro Poveda"
+            },
+            {
+                "s2_author_id": "33262397",
+                "name": "Franziska Jahnke"
+            },
+            {
+                "s2_author_id": "2886146",
+                "name": "Lynn Scow"
+            },
+            {
+                "s2_author_id": "153387011",
+                "name": "Sandra M\u00fcller"
+            },
+            {
+                "s2_author_id": "1684632",
+                "name": "J. Avigad"
+            },
+            {
+                "s2_author_id": "1412645773",
+                "name": "Athar Abdul-Quader"
+            },
+            {
+                "s2_author_id": "2160157852",
+                "name": "D. Turetsky"
+            },
+            {
+                "s2_author_id": "3173969",
+                "name": "G. Bezhanishvili"
+            },
+            {
+                "s2_author_id": "49726941",
+                "name": "C. Franks"
+            },
+            {
+                "s2_author_id": "2113593095",
+                "name": "Selwyn Ng"
+            },
+            {
+                "s2_author_id": "1862789",
+                "name": "Dima Sinapova"
+            },
+            {
+                "s2_author_id": "145245105",
+                "name": "M. Thomas"
+            },
+            {
+                "s2_author_id": "2113671684",
+                "name": "Paddy Blanchette"
+            },
+            {
+                "s2_author_id": "2490044",
+                "name": "J. Knight"
+            },
+            {
+                "s2_author_id": "8932579",
+                "name": "Peter M. Gerdes"
+            },
+            {
+                "s2_author_id": "2060624",
+                "name": "D. Dzhafarov"
+            },
+            {
+                "s2_author_id": "1989269",
+                "name": "D. Hirschfeldt"
+            },
+            {
+                "s2_author_id": "3210387",
+                "name": "Ludovic Patey"
+            },
+            {
+                "s2_author_id": "1412339741",
+                "name": "P. A. d'Auriac"
+            },
+            {
+                "s2_author_id": "2678456",
+                "name": "B. Monin"
+            },
+            {
+                "s2_author_id": "145948982",
+                "name": "R. Downey"
+            },
+            {
+                "s2_author_id": "34695773",
+                "name": "Noam Greenberg"
+            },
+            {
+                "s2_author_id": "2102881",
+                "name": "Daniel Turetsky"
+            },
+            {
+                "s2_author_id": "143784774",
+                "name": "Andrew P. Arana"
+            },
+            {
+                "s2_author_id": "3354447",
+                "name": "Natasha Dobrinen"
+            },
+            {
+                "s2_author_id": "39466888",
+                "name": "J. Kennedy"
+            },
+            {
+                "s2_author_id": "1866636",
+                "name": "P. Koellner"
+            },
+            {
+                "s2_author_id": "34695462",
+                "name": "P. Mancosu"
+            },
+            {
+                "s2_author_id": "2108856042",
+                "name": "J. Moore"
+            },
+            {
+                "s2_author_id": "2113500027",
+                "name": "Ricardo Rodriguez"
+            },
+            {
+                "s2_author_id": "1817824",
+                "name": "R. Shore"
+            },
+            {
+                "s2_author_id": "1774520",
+                "name": "M. Soskova"
+            },
+            {
+                "s2_author_id": "67334132",
+                "name": "I. Souley"
+            },
+            {
+                "s2_author_id": "34980855",
+                "name": "Akito Tsuboi"
+            },
+            {
+                "s2_author_id": "7186177",
+                "name": "A. Urquhart"
+            },
+            {
+                "s2_author_id": "3210789",
+                "name": "B. Velickovic"
+            },
+            {
+                "s2_author_id": "2064515201",
+                "name": "Frank Wagner"
+            },
+            {
+                "s2_author_id": "145618022",
+                "name": "A. Wilkie"
+            },
+            {
+                "s2_author_id": "1834356",
+                "name": "G. Hjorth"
+            },
+            {
+                "s2_author_id": "2458838",
+                "name": "Gregory Igusa"
+            },
+            {
+                "s2_author_id": "28812407",
+                "name": "M. Soskova"
+            },
+            {
+                "s2_author_id": "1398697692",
+                "name": "P. D'Aquino"
+            },
+            {
+                "s2_author_id": "2056976996",
+                "name": "R. Epstein"
+            },
+            {
+                "s2_author_id": "143953626",
+                "name": "K. Lange"
+            },
+            {
+                "s2_author_id": "34662998",
+                "name": "Charles F. D. McCoy"
+            },
+            {
+                "s2_author_id": "2341771",
+                "name": "J. Hirst"
+            },
+            {
+                "s2_author_id": "2867082",
+                "name": "T. Slaman"
+            },
+            {
+                "s2_author_id": "103979546",
+                "name": "R. Heck"
+            },
+            {
+                "s2_author_id": "144118570",
+                "name": "C. Henson"
+            },
+            {
+                "s2_author_id": "3133056",
+                "name": "Timothy Bays"
+            },
+            {
+                "s2_author_id": "2772577",
+                "name": "Patricia A. Blanchette"
+            },
+            {
+                "s2_author_id": "2003298",
+                "name": "S. Buechler"
+            },
+            {
+                "s2_author_id": "144357460",
+                "name": "M. Detlefsen"
+            },
+            {
+                "s2_author_id": "2851240",
+                "name": "S. Starchenko"
+            },
+            {
+                "s2_author_id": "69485257",
+                "name": "M. Kummerer"
+            },
+            {
+                "s2_author_id": "2433170",
+                "name": "N. Schweber"
+            },
+            {
+                "s2_author_id": "2938413",
+                "name": "Logan M. Axon"
+            },
+            {
+                "s2_author_id": "145841050",
+                "name": "David J. Galvin"
+            },
+            {
+                "s2_author_id": "47115793",
+                "name": "Reed Solomon"
+            },
+            {
+                "s2_author_id": "1888089",
+                "name": "C. Jockusch"
+            },
+            {
+                "s2_author_id": "2134049919",
+                "name": "R. Downey"
+            },
+            {
+                "s2_author_id": "143955869",
+                "name": "L. Harrington"
+            },
+            {
+                "s2_author_id": "2116336200",
+                "name": "Joseph S. Miller"
+            },
+            {
+                "s2_author_id": "1760293",
+                "name": "R. Soare"
+            },
+            {
+                "s2_author_id": "2394982789",
+                "name": "Mirna D\u017eamonja"
+            },
+            {
+                "s2_author_id": "2294943567",
+                "name": "Sergey S. Goncharov"
+            },
+            {
+                "s2_author_id": "2295059262",
+                "name": "Gerhard J\u00e4ger"
+            },
+            {
+                "s2_author_id": "2286533736",
+                "name": "Michael C. Laskowski"
+            },
+            {
+                "s2_author_id": "2493438",
+                "name": "Alberto Marcone"
+            },
+            {
+                "s2_author_id": "48953479",
+                "name": "Rebecca Weber"
+            },
+            {
+                "s2_author_id": "7475555",
+                "name": "Stephen M. Walk"
+            },
+            {
+                "s2_author_id": "1771978",
+                "name": "M. Groszek"
+            },
+            {
+                "s2_author_id": "2065072453",
+                "name": "E. Herrmann"
+            },
+            {
+                "s2_author_id": "2805805",
+                "name": "S. Lempp"
+            },
+            {
+                "s2_author_id": "34564845",
+                "name": "M. Lerman"
+            },
+            {
+                "s2_author_id": "3175082",
+                "name": "Mariagnese Giusto"
+            },
+            {
+                "s2_author_id": "15211179",
+                "name": "S. Goncharov"
+            },
+            {
+                "s2_author_id": "1703048",
+                "name": "B. Khoussainov"
+            },
+            {
+                "s2_author_id": "102253480",
+                "name": "A. Nies"
+            },
+            {
+                "s2_author_id": "1398717883",
+                "name": "K. Ambos-Spies"
+            },
+            {
+                "s2_author_id": "2767539",
+                "name": "M. Arslanov"
+            },
+            {
+                "s2_author_id": "2275628",
+                "name": "D. Cenzer"
+            },
+            {
+                "s2_author_id": "34580700",
+                "name": "C. Chong"
+            },
+            {
+                "s2_author_id": "38589453",
+                "name": "Decheng Ding"
+            },
+            {
+                "s2_author_id": "2788454",
+                "name": "Peter A. Fejer"
+            },
+            {
+                "s2_author_id": "26945602",
+                "name": "E. Griffor"
+            },
+            {
+                "s2_author_id": "39372474",
+                "name": "C. Ash"
+            },
+            {
+                "s2_author_id": "145666005",
+                "name": "H. A. Blair"
+            },
+            {
+                "s2_author_id": "2838233",
+                "name": "P. Hinman"
+            },
+            {
+                "s2_author_id": "1744019",
+                "name": "E. Kinber"
+            },
+            {
+                "s2_author_id": "144607616",
+                "name": "M. Kummer"
+            },
+            {
+                "s2_author_id": "1691447",
+                "name": "L. Fortnow"
+            },
+            {
+                "s2_author_id": "2578247",
+                "name": "S. Kurtz"
+            },
+            {
+                "s2_author_id": "1740486",
+                "name": "W. Gasarch"
+            },
+            {
+                "s2_author_id": "2305861371",
+                "name": "Rod Downey"
+            },
+            {
+                "s2_author_id": "2256375732",
+                "name": "Michael Stob"
+            }
+        ],
+        "total_co_authors": 105,
+        "papers_retrieved": 89
+    }
+}

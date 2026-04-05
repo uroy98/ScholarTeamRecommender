@@ -1,0 +1,598 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000301187",
+        "name": "Thomas Chun Man Lee",
+        "primary_affiliation": "University of California-Davis",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of California-Davis"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "CA"
+        ],
+        "perf_cities": [
+            "DAVIS"
+        ],
+        "org_names": [
+            "University of California-Davis"
+        ],
+        "org_ueis": [
+            "TX2DAGQPENZ5"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "tcmlee@ucdavis.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2515304",
+                "title": "Collaborative Research: Generalized Fiducial Inference in Complex Systems: Causal Inference, Networks, and Normalizing Flows",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-09-01",
+                "exp_date": "2028-08-31",
+                "award_amount": 125000.0,
+                "total_amount": 125000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "STATISTICS"
+                ],
+                "program_codes": [
+                    "126900"
+                ],
+                "program_references": [
+                    "Artificial Intelligence (AI)",
+                    "Machine Learning Theory"
+                ],
+                "program_ref_codes": [
+                    "075Z",
+                    "079Z"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "DMS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Mathematical Sciences",
+                "cfda_num": "47.049",
+                "po_name": "Yong Zeng",
+                "keywords": [
+                    "inference",
+                    "learning",
+                    "fiducial",
+                    "machine",
+                    "generalized",
+                    "causal",
+                    "science",
+                    "models",
+                    "collaborative",
+                    "complex"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "STATISTICS"
+        ],
+        "program_codes": [
+            "126900"
+        ],
+        "program_references": [
+            "Artificial Intelligence (AI)",
+            "Machine Learning Theory"
+        ],
+        "program_ref_codes": [
+            "075Z",
+            "079Z"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "DMS"
+        ],
+        "fund_divisions": [
+            "Division Of Mathematical Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049"
+        ],
+        "program_officers": [
+            "Yong Zeng"
+        ],
+        "keywords": [
+            "inference",
+            "learning",
+            "fiducial",
+            "machine",
+            "generalized",
+            "causal",
+            "science",
+            "models",
+            "collaborative",
+            "complex",
+            "normalizing",
+            "flows",
+            "accurate",
+            "statistical",
+            "making",
+            "forensic",
+            "economics",
+            "uncertainty",
+            "addressing",
+            "real"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.46
+    },
+    "s2_profile": {
+        "s2_author_id": "2110859142",
+        "name": "Thomas Chun Man Lee",
+        "affiliations": [],
+        "paper_count": 14,
+        "citation_count": 159,
+        "h_index": 4,
+        "papers": [
+            {
+                "s2_paper_id": "24fb6c9576a74bc7121b345bd34e86f294742d2b",
+                "title": "Low-rank Matrix Bandits with Heavy-tailed Rewards",
+                "year": 2024,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 4,
+                "reference_count": 40,
+                "abstract": "In stochastic low-rank matrix bandit, the expected reward of an arm is equal to the inner product between its feature matrix and some unknown $d_1$ by $d_2$ low-rank parameter matrix $\\Theta^*$ with rank $r \\ll d_1\\wedge d_2$. While all prior studies assume the payoffs are mixed with sub-Gaussian noises, in this work we loosen this strict assumption and consider the new problem of \\underline{low}-rank matrix bandit with \\underline{h}eavy-\\underline{t}ailed \\underline{r}ewards (LowHTR), where the rewards only have finite $(1+\\delta)$ moment for some $\\delta \\in (0,1]$. By utilizing the truncation on observed payoffs and the dynamic exploration, we propose a novel algorithm called LOTUS attaining the regret bound of order $\\tilde O(d^\\frac{3}{2}r^\\frac{1}{2}T^\\frac{1}{1+\\delta}/\\tilde{D}_{rr})$ without knowing $T$, which matches the state-of-the-art regret bound under sub-Gaussian noises~\\citep{lu2021low,kang2022efficient} with $\\delta = 1$. Moreover, we establish a lower bound of the order $\\Omega(d^\\frac{\\delta}{1+\\delta} r^\\frac{\\delta}{1+\\delta} T^\\frac{1}{1+\\delta}) = \\Omega(T^\\frac{1}{1+\\delta})$ for LowHTR, which indicates our LOTUS is nearly optimal in the order of $T$. In addition, we improve LOTUS so that it does not require knowledge of the rank $r$ with $\\tilde O(dr^\\frac{3}{2}T^\\frac{1+\\delta}{1+2\\delta})$ regret bound, and it is efficient under the high-dimensional scenario. We also conduct simulations to demonstrate the practical superiority of our algorithm.",
+                "authors": [
+                    {
+                        "s2_author_id": "2278791962",
+                        "name": "Yue Kang"
+                    },
+                    {
+                        "s2_author_id": "2298905945",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b2e15c5fae78e97ceca1916349c62853ea193b2f",
+                "title": "Efficient Frameworks for Generalized Low-Rank Matrix Bandit Problems",
+                "year": 2024,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 23,
+                "reference_count": 49,
+                "abstract": "In the stochastic contextual low-rank matrix bandit problem, the expected reward of an action is given by the inner product between the action's feature matrix and some fixed, but initially unknown $d_1$ by $d_2$ matrix $\\Theta^*$ with rank $r \\ll \\{d_1, d_2\\}$, and an agent sequentially takes actions based on past experience to maximize the cumulative reward. In this paper, we study the generalized low-rank matrix bandit problem, which has been recently proposed in \\cite{lu2021low} under the Generalized Linear Model (GLM) framework. To overcome the computational infeasibility and theoretical restrain of existing algorithms on this problem, we first propose the G-ESTT framework that modifies the idea from \\cite{jun2019bilinear} by using Stein's method on the subspace estimation and then leverage the estimated subspaces via a regularization idea. Furthermore, we remarkably improve the efficiency of G-ESTT by using a novel exclusion idea on the estimated subspace instead, and propose the G-ESTS framework. We also show that G-ESTT can achieve the $\\tilde{O}(\\sqrt{(d_1+d_2)MrT})$ bound of regret while G-ESTS can achineve the $\\tilde{O}(\\sqrt{(d_1+d_2)^{3/2}Mr^{3/2}T})$ bound of regret under mild assumption up to logarithm terms, where $M$ is some problem dependent value. Under a reasonable assumption that $M = O((d_1+d_2)^2)$ in our problem setting, the regret of G-ESTT is consistent with the current best regret of $\\tilde{O}((d_1+d_2)^{3/2} \\sqrt{rT}/D_{rr})$~\\citep{lu2021low} ($D_{rr}$ will be defined later). For completeness, we conduct experiments to illustrate that our proposed algorithms, especially G-ESTS, are also computationally tractable and consistently outperform other state-of-the-art (generalized) linear matrix bandit methods based on a suite of simulations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2278791962",
+                        "name": "Yue Kang"
+                    },
+                    {
+                        "s2_author_id": "1793529",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "701273333862623d23b5d87543528ee2ffff1910",
+                "title": "Fast block-wise partitioning for extreme multi-label classification",
+                "year": 2023,
+                "venue": "Data mining and knowledge discovery",
+                "citation_count": 1,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2157798741",
+                        "name": "Yuefeng Liang"
+                    },
+                    {
+                        "s2_author_id": "1793529",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e95127de6f5190577242231ff93d3d4e860b5fdb",
+                "title": "Online Continuous Hyperparameter Optimization for Contextual Bandits",
+                "year": 2023,
+                "venue": "Trans. Mach. Learn. Res.",
+                "citation_count": 2,
+                "reference_count": 45,
+                "abstract": "In stochastic contextual bandits, an agent sequentially makes actions from a time-dependent action set based on past experience to minimize the cumulative regret. Like many other machine learning algorithms, the performance of bandits heavily depends on the values of hyperparameters, and theoretically derived parameter values may lead to unsatisfactory results in practice. Moreover, it is infeasible to use offline tuning methods like cross-validation to choose hyperparameters under the bandit environment, as the decisions should be made in real-time. To address this challenge, we propose the first online continuous hyperparameter tuning framework for contextual bandits to learn the optimal parameter configuration in practice within a search space on the fly. Specifically, we use a double-layer bandit framework named CDT (Continuous Dynamic Tuning) and formulate the hyperparameter optimization as a non-stationary continuum-armed bandit, where each arm represents a combination of hyperparameters, and the corresponding reward is the algorithmic result. For the top layer, we propose the Zooming TS algorithm that utilizes Thompson Sampling (TS) for exploration and a restart technique to get around the \\textit{switching} environment. The proposed CDT framework can be easily utilized to tune contextual bandit algorithms without any pre-specified candidate set for multiple hyperparameters. We further show that it could achieve a sublinear regret in theory and performs consistently better than all existing methods on both synthetic and real datasets.",
+                "authors": [
+                    {
+                        "s2_author_id": "2278791962",
+                        "name": "Yue Kang"
+                    },
+                    {
+                        "s2_author_id": "1793529",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f5db5aee63f5e91dc3d36ad072fa580e2021efe6",
+                "title": "Robust Lipschitz Bandits to Adversarial Corruptions",
+                "year": 2023,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 14,
+                "reference_count": 42,
+                "abstract": "Lipschitz bandit is a variant of stochastic bandits that deals with a continuous arm set defined on a metric space, where the reward function is subject to a Lipschitz constraint. In this paper, we introduce a new problem of Lipschitz bandits in the presence of adversarial corruptions where an adaptive adversary corrupts the stochastic rewards up to a total budget $C$. The budget is measured by the sum of corruption levels across the time horizon $T$. We consider both weak and strong adversaries, where the weak adversary is unaware of the current action before the attack, while the strong one can observe it. Our work presents the first line of robust Lipschitz bandit algorithms that can achieve sub-linear regret under both types of adversary, even when the total budget of corruption $C$ is unrevealed to the agent. We provide a lower bound under each type of adversary, and show that our algorithm is optimal under the strong case. Finally, we conduct experiments to illustrate the effectiveness of our algorithms against two classic kinds of attacks.",
+                "authors": [
+                    {
+                        "s2_author_id": "2278791962",
+                        "name": "Yue Kang"
+                    },
+                    {
+                        "s2_author_id": "1793529",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9b55c006887308511809d053bd12a78f3219b390",
+                "title": "High-probability bounds for robust stochastic Frank-Wolfe algorithm",
+                "year": 2022,
+                "venue": "Conference on Uncertainty in Artificial Intelligence",
+                "citation_count": 3,
+                "reference_count": 79,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2093923290",
+                        "name": "Tongyi Tang"
+                    },
+                    {
+                        "s2_author_id": "152690102",
+                        "name": "K. Balasubramanian"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c197c8e6fb69afa1b2917e8287b8964f92bba959",
+                "title": "Deep Learning, Introduction To",
+                "year": 2022,
+                "venue": "Wiley StatsRef: Statistics Reference Online",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2154873537",
+                        "name": "Yao Li"
+                    },
+                    {
+                        "s2_author_id": "2110173700",
+                        "name": "Justin Wang"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "11318ceabf0ff609801a4ea5c996f9bf1ebceeed",
+                "title": "Towards Robustness of Deep Neural Networks via Regularization",
+                "year": 2021,
+                "venue": "IEEE International Conference on Computer Vision",
+                "citation_count": 4,
+                "reference_count": 57,
+                "abstract": "Recent studies have demonstrated the vulnerability of deep neural networks against adversarial examples. In-spired by the observation that adversarial examples often lie outside the natural image data manifold and the intrinsic dimension of image data is much smaller than its pixel space dimension, we propose to embed high-dimensional input images into a low-dimensional space and apply regularization on the embedding space to push the adversarial examples back to the manifold. The proposed framework is called Embedding Regularized Classifier (ER-Classifier), which improves the adversarial robustness of the classifier through embedding regularization. Besides improving classification accuracy against adversarial examples, the framework can be combined with detection methods to detect adversarial examples. Experimental results on several benchmark datasets show that, our proposed framework achieves good performance against strong adversarial at-tack methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "2154873537",
+                        "name": "Yao Li"
+                    },
+                    {
+                        "s2_author_id": "2279706022",
+                        "name": "Martin Renqiang Min"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    },
+                    {
+                        "s2_author_id": "2346677916",
+                        "name": "Wenchao Yu"
+                    },
+                    {
+                        "s2_author_id": "2301963624",
+                        "name": "Erik Kruus"
+                    },
+                    {
+                        "s2_author_id": "2346069756",
+                        "name": "Wei Wang"
+                    },
+                    {
+                        "s2_author_id": "2298905945",
+                        "name": "Cho-Jui Hsieh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4f6b22de134316ef025da1c73516580e946695f5",
+                "title": "Detecting Adversarial Examples with Bayesian Neural Network",
+                "year": 2021,
+                "venue": "arXiv.org",
+                "citation_count": 3,
+                "reference_count": 50,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2154873537",
+                        "name": "Yao Li"
+                    },
+                    {
+                        "s2_author_id": "2093923290",
+                        "name": "Tongyi Tang"
+                    },
+                    {
+                        "s2_author_id": "2298905945",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d468bd1e1e5b727521c4892f24e1c45c6b07140",
+                "title": "Adversarial Examples Detection With Bayesian Neural Network",
+                "year": 2021,
+                "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+                "citation_count": 3,
+                "reference_count": 88,
+                "abstract": "In this paper, we propose a new framework to detect adversarial examples motivated by the observations that random components can improve the smoothness of predictors and make it easier to simulate the output distribution of a deep neural network. With these observations, we propose a novel Bayesian adversarial example detector, short for BATer, to improve the performance of adversarial example detection. Specifically, we study the distributional difference of hidden layer output between natural and adversarial examples, and propose to use the randomness of the Bayesian neural network to simulate hidden layer output distribution and leverage the distribution dispersion to detect adversarial examples. The advantage of a Bayesian neural network is that the output is stochastic while a deep neural network without random components does not have such characteristics. Empirical results on several benchmark datasets against popular attacks show that the proposed BATer outperforms the state-of-the-art detectors in adversarial example detection.",
+                "authors": [
+                    {
+                        "s2_author_id": "2110974353",
+                        "name": "Yao Li"
+                    },
+                    {
+                        "s2_author_id": "2093923290",
+                        "name": "Tongyi Tang"
+                    },
+                    {
+                        "s2_author_id": "1793529",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6d0baf9508d9dea07259fbe50a8768268d3404f8",
+                "title": "A Review of Adversarial Attack and Defense for Classification Methods",
+                "year": 2021,
+                "venue": "American Statistician",
+                "citation_count": 93,
+                "reference_count": 121,
+                "abstract": "Abstract Despite the efficiency and scalability of machine learning systems, recent studies have demonstrated that many classification methods, especially Deep Neural Networks (DNNs), are vulnerable to adversarial examples; that is, examples that are carefully crafted to fool a well-trained classification model while being indistinguishable from natural data to human. This makes it potentially unsafe to apply DNNs or related methods in security-critical areas. Since this issue was first identified by Biggio et al. and Szegedy et al., much work has been done in this field, including the development of attack methods to generate adversarial examples and the construction of defense techniques to guard against such examples. This article aims to introduce this topic and its latest developments to the statistical community, primarily focusing on the generation and guarding of adversarial examples. Computing codes (in Python and R) used in the numerical experiments are publicly available for readers to explore the surveyed methods. It is the hope of the authors that this article will encourage more statisticians to work on this important and exciting field of generating and defending against adversarial examples.",
+                "authors": [
+                    {
+                        "s2_author_id": "2110974353",
+                        "name": "Yao Li"
+                    },
+                    {
+                        "s2_author_id": "2424698",
+                        "name": "Minhao Cheng"
+                    },
+                    {
+                        "s2_author_id": "1793529",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7cf7c4d8bc2a1b3bc6e3738055ab6aa13efddead",
+                "title": "Defending Against Adversarial Examples by Regularized Deep Embedding",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2154873537",
+                        "name": "Yao Li"
+                    },
+                    {
+                        "s2_author_id": "2984407",
+                        "name": "Martin Renqiang Min"
+                    },
+                    {
+                        "s2_author_id": "3007026",
+                        "name": "Wenchao Yu"
+                    },
+                    {
+                        "s2_author_id": "1793529",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    },
+                    {
+                        "s2_author_id": "3225643",
+                        "name": "E. Kruus"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c04c312f56da9ea6f6012009533596c557c34878",
+                "title": "Optimal Transport Classifier: Defending Against Adversarial Attacks by Regularized Deep Embedding",
+                "year": 2018,
+                "venue": "arXiv.org",
+                "citation_count": 7,
+                "reference_count": 29,
+                "abstract": "Recent studies have demonstrated the vulnerability of deep convolutional neural networks against adversarial examples. Inspired by the observation that the intrinsic dimension of image data is much smaller than its pixel space dimension and the vulnerability of neural networks grows with the input dimension, we propose to embed high-dimensional input images into a low-dimensional space to perform classification. However, arbitrarily projecting the input images to a low-dimensional space without regularization will not improve the robustness of deep neural networks. Leveraging optimal transport theory, we propose a new framework, Optimal Transport Classifier (OT-Classifier), and derive an objective that minimizes the discrepancy between the distribution of the true label and the distribution of the OT-Classifier output. Experimental results on several benchmark datasets show that, our proposed framework achieves state-of-the-art performance against strong adversarial attack methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "2110974353",
+                        "name": "Yao Li"
+                    },
+                    {
+                        "s2_author_id": "2984407",
+                        "name": "Martin Renqiang Min"
+                    },
+                    {
+                        "s2_author_id": "3007026",
+                        "name": "Wenchao Yu"
+                    },
+                    {
+                        "s2_author_id": "1793529",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    },
+                    {
+                        "s2_author_id": "3225643",
+                        "name": "E. Kruus"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c60cc4f91b596fbc37590eb304ba20a9b0932bd4",
+                "title": "Block-wise Partitioning for Extreme Multi-label Classification",
+                "year": 2018,
+                "venue": "arXiv.org",
+                "citation_count": 2,
+                "reference_count": 22,
+                "abstract": "Extreme multi-label classification aims to learn a classifier that annotates an instance with a relevant subset of labels from an extremely large label set. Many existing solutions embed the label matrix to a low-dimensional linear subspace, or examine the relevance of a test instance to every label via a linear scan. In practice, however, those approaches can be computationally exorbitant. To alleviate this drawback, we propose a Block-wise Partitioning (BP) pretreatment that divides all instances into disjoint clusters, to each of which the most frequently tagged label subset is attached. One multi-label classifier is trained on one pair of instance and label clusters, and the label set of a test instance is predicted by first delivering it to the most appropriate instance cluster. Experiments on benchmark multi-label data sets reveal that BP pretreatment significantly reduces prediction time, and retains almost the same level of prediction accuracy.",
+                "authors": [
+                    {
+                        "s2_author_id": "2117875447",
+                        "name": "Yuefeng Liang"
+                    },
+                    {
+                        "s2_author_id": "1793529",
+                        "name": "Cho-Jui Hsieh"
+                    },
+                    {
+                        "s2_author_id": "2110859142",
+                        "name": "T. C. Lee"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2278791962",
+                "name": "Yue Kang"
+            },
+            {
+                "s2_author_id": "2298905945",
+                "name": "Cho-Jui Hsieh"
+            },
+            {
+                "s2_author_id": "1793529",
+                "name": "Cho-Jui Hsieh"
+            },
+            {
+                "s2_author_id": "2157798741",
+                "name": "Yuefeng Liang"
+            },
+            {
+                "s2_author_id": "2093923290",
+                "name": "Tongyi Tang"
+            },
+            {
+                "s2_author_id": "152690102",
+                "name": "K. Balasubramanian"
+            },
+            {
+                "s2_author_id": "2154873537",
+                "name": "Yao Li"
+            },
+            {
+                "s2_author_id": "2110173700",
+                "name": "Justin Wang"
+            },
+            {
+                "s2_author_id": "2279706022",
+                "name": "Martin Renqiang Min"
+            },
+            {
+                "s2_author_id": "2346677916",
+                "name": "Wenchao Yu"
+            },
+            {
+                "s2_author_id": "2301963624",
+                "name": "Erik Kruus"
+            },
+            {
+                "s2_author_id": "2346069756",
+                "name": "Wei Wang"
+            },
+            {
+                "s2_author_id": "2110974353",
+                "name": "Yao Li"
+            },
+            {
+                "s2_author_id": "2424698",
+                "name": "Minhao Cheng"
+            },
+            {
+                "s2_author_id": "2984407",
+                "name": "Martin Renqiang Min"
+            },
+            {
+                "s2_author_id": "3007026",
+                "name": "Wenchao Yu"
+            },
+            {
+                "s2_author_id": "3225643",
+                "name": "E. Kruus"
+            },
+            {
+                "s2_author_id": "2117875447",
+                "name": "Yuefeng Liang"
+            }
+        ],
+        "total_co_authors": 18,
+        "papers_retrieved": 14
+    }
+}

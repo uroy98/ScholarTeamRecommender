@@ -1,0 +1,4060 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000557175",
+        "name": "Desh Ranjan",
+        "primary_affiliation": "Old Dominion University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Old Dominion University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "VA"
+        ],
+        "perf_cities": [
+            "NORFOLK"
+        ],
+        "org_names": [
+            "Old Dominion University Research Foundation"
+        ],
+        "org_ueis": [
+            "DSLXBD7UWRV6"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "dranjan@cs.odu.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2513760",
+                "title": "Elements: Cyber Infrastructure for Efficient, Large-Scale Simulation of Inverse Compton Sources",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-08-01",
+                "exp_date": "2028-07-31",
+                "award_amount": 600000.0,
+                "total_amount": 600000.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000658504",
+                    "000239017"
+                ],
+                "program_elements": [
+                    "Software Institutes",
+                    "PHYSICS AT THE INFO FRONTIER"
+                ],
+                "program_codes": [
+                    "800400",
+                    "755300"
+                ],
+                "program_references": [
+                    "CYBERINFRASTRUCTURE/SCIENCE",
+                    "Software Institutes",
+                    "INTERDISCIPLINARY PROPOSALS"
+                ],
+                "program_ref_codes": [
+                    "7569",
+                    "8004",
+                    "4444"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "OAC",
+                "nsf_directorate": null,
+                "fund_division": "Office of Advanced Cyberinfrastructure (OAC)",
+                "cfda_num": "47.049, 47.070",
+                "po_name": "Marlon Pierce",
+                "keywords": [
+                    "sources",
+                    "inverse",
+                    "compton",
+                    "rays",
+                    "technology",
+                    "producing",
+                    "hard",
+                    "simulations",
+                    "software",
+                    "large"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000658504",
+            "000239017"
+        ],
+        "program_elements": [
+            "Software Institutes",
+            "PHYSICS AT THE INFO FRONTIER"
+        ],
+        "program_codes": [
+            "800400",
+            "755300"
+        ],
+        "program_references": [
+            "CYBERINFRASTRUCTURE/SCIENCE",
+            "Software Institutes",
+            "INTERDISCIPLINARY PROPOSALS"
+        ],
+        "program_ref_codes": [
+            "7569",
+            "8004",
+            "4444"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "OAC"
+        ],
+        "fund_divisions": [
+            "Office of Advanced Cyberinfrastructure (OAC)"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049, 47.070"
+        ],
+        "program_officers": [
+            "Marlon Pierce"
+        ],
+        "keywords": [
+            "sources",
+            "inverse",
+            "compton",
+            "rays",
+            "technology",
+            "producing",
+            "hard",
+            "simulations",
+            "software",
+            "large",
+            "scale",
+            "simulation",
+            "enable",
+            "scientists",
+            "structure",
+            "modalities",
+            "there",
+            "performance",
+            "computer",
+            "cyberinfrastructure"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.55
+    },
+    "s2_profile": {
+        "s2_author_id": "1709179",
+        "name": "Desh Ranjan",
+        "affiliations": [],
+        "paper_count": 126,
+        "citation_count": 1865,
+        "h_index": 20,
+        "papers": [
+            {
+                "s2_paper_id": "51ead54a6182c507e0d50fe416d9b109e6277ccc",
+                "title": "An AD based library for Efficient Hessian and Hessian-Vector Product Computation on GPU",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 13,
+                "abstract": "The Hessian-vector product computation appears in many scientific applications such as in optimization and finite element modeling. Often there is a need for computing Hessian-vector products at many data points concurrently. We propose an automatic differentiation (AD) based method, CHESSFAD (Chunked HESSian using Forward-mode AD), that is designed with efficient parallel computation of Hessian and Hessian-Vector products in mind. CHESSFAD computes second-order derivatives using forward mode and exposes parallelism at different levels that can be exploited on accelerators such as NVIDIA GPUs. In CHESSFAD approach, the computation of a row of the Hessian matrix is independent of the computation of other rows. Hence rows of the Hessian matrix can be computed concurrently. The second level of parallelism is exposed because CHESSFAD approach partitions the computation of a Hessian row into chunks, where different chunks can be computed concurrently. CHESSFAD is implemented as a lightweight header-based C++ library that works both for CPUs and GPUs. We evaluate the performance of CHESSFAD for performing a large number of independent Hessian-Vector products on a set of standard test functions and compare its performance to other existing header-based C++ libraries such as {\\tt autodiff}. Our results show that CHESSFAD performs better than {\\tt autodiff}, on all these functions with improvement ranging from 5-50\\% on average.",
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "2263945494",
+                        "name": "Mohammad Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "27d4ca7825ff38a7e8ca254510ea545ea196ff0a",
+                "title": "Porting numerical integration codes from CUDA to oneAPI: a case study",
+                "year": 2023,
+                "venue": "Information Security Conference",
+                "citation_count": 5,
+                "reference_count": 25,
+                "abstract": "We present our experience in porting optimized CUDA implementations to oneAPI. We focus on the use case of numerical integration, particularly the CUDA implementations of PAGANI and $m$-Cubes. We faced several challenges that caused performance degradation in the oneAPI ports. These include differences in utilized registers per thread, compiler optimizations, and mappings of CUDA library calls to oneAPI equivalents. After addressing those challenges, we tested both the PAGANI and m-Cubes integrators on numerous integrands of various characteristics. To evaluate the quality of the ports, we collected performance metrics of the CUDA and oneAPI implementations on the Nvidia V100 GPU. We found that the oneAPI ports often achieve comparable performance to the CUDA versions, and that they are at most 10% slower.",
+                "authors": [
+                    {
+                        "s2_author_id": "100853870",
+                        "name": "Ioannis Sakiotis"
+                    },
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "31888471",
+                        "name": "M. Paterno"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f1b5dcf5a75bb008feefeec2023cfa1db65d7434",
+                "title": "Efficient GPU Implementation of Automatic Differentiation for Computational Fluid Dynamics",
+                "year": 2023,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 4,
+                "reference_count": 27,
+                "abstract": "Many scientific and engineering applications require repeated calculations of derivatives of output functions with respect to input parameters. Automatic Differentiation (AD) is a method that automates derivative calculations and can significantly speed up code development. In Computational Fluid Dynamics (CFD), derivatives of flux functions with respect to state variables (Jacobian) are needed for efficient solutions of the nonlinear governing equations. AD of flux functions on graphics processing units (GPUs) is challenging as flux computations involve many intermediate variables that create high register pressure and require significant memory traffic because of the need to store the derivatives. This paper presents a forward-mode AD method based on multivariate dual numbers that addresses these challenges and simultaneously reduces the floating-point operation count. The dimension of the multivariate dual numbers is optimized for performance. The flux computations are restructured to minimize the number of temporary variables and reduce register pressure. For effective utilization of memory bandwidth, shared memory is used to store the local flux Jaco-bian. This AD implementation is compared with several other Jacobian implementations on an NVIDIA V100 GPU (V100). For three-dimensional perfect-gas compressible-flow equations implemented in a practical CFD code, the AD implementation of a flux Jacobian based on multivariate dual numbers of dimension 5 outperforms all other GPU AD implementations on V100. Its performance is comparable with the optimized hand-differentiated version. The implementation achieves 75% of the peak floating-point throughput and 61 % of the peak global device memory bandwidth usage.",
+                "authors": [
+                    {
+                        "s2_author_id": "2263945494",
+                        "name": "Mohammad Zubair"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "34006482",
+                        "name": "Aaron C. Walden"
+                    },
+                    {
+                        "s2_author_id": "104442322",
+                        "name": "Gabriel Nastac"
+                    },
+                    {
+                        "s2_author_id": "2266402040",
+                        "name": "Eric Nielsen"
+                    },
+                    {
+                        "s2_author_id": "2406441",
+                        "name": "B. Diskin"
+                    },
+                    {
+                        "s2_author_id": "2295131773",
+                        "name": "Marc Paterno"
+                    },
+                    {
+                        "s2_author_id": "2295203683",
+                        "name": "Samuel Jung"
+                    },
+                    {
+                        "s2_author_id": "2295273269",
+                        "name": "Joshua Hoke Davis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "091d0fc616458f0f63261d40c3b4b1f5e373a1f5",
+                "title": "m-CUBES An efficient and portable implementation of multi-dimensional integration for gpus",
+                "year": 2022,
+                "venue": "Information Security Conference",
+                "citation_count": 2,
+                "reference_count": 12,
+                "abstract": "The task of multi-dimensional numerical integration is frequently encountered in physics and other scientific fields, e.g., in modeling the effects of systematic uncertainties in physical systems and in Bayesian parameter estimation. Multi-dimensional integration is often time-prohibitive on CPUs. Efficient implementation on many-core architectures is challenging as the workload across the integration space cannot be predicted a priori. We propose m-Cubes, a novel implementation of the well-known Vegas algorithm for execution on GPUs. Vegas transforms integration variables followed by calculation of a Monte Carlo integral estimate using adaptive partitioning of the resulting space. m-Cubes improves performance on GPUs by maintaining relatively uniform workload across the processors. As a result, our optimized Cuda implementation for Nvidia GPUs outperforms parallelization approaches proposed in past literature. We further demonstrate the efficiency of m-Cubes by evaluating a six-dimensional integral from a cosmology application, achieving significant speedup and greater precision than the CUBA library's CPU implementation of VEGAS. We also evaluate m-Cubes on a standard integrand test suite. m-Cubes outperforms the serial implementations of the Cuba and GSL libraries by orders of magnitude speedup while maintaining comparable accuracy. Our approach yields a speedup of at least 10 when compared against publicly available Monte Carlo based GPU implementations. In summary, m-Cubes can solve integrals that are prohibitively expensive using standard libraries and custom implementations. A modern C++ interface header-only implementation makes m-Cubes portable, allowing its utilization in complicated pipelines with easy to define stateful integrals. Compatibility with non-Nvidia GPUs is achieved with our initial implementation of m-Cubes using the Kokkos framework.",
+                "authors": [
+                    {
+                        "s2_author_id": "100853870",
+                        "name": "Ioannis Sakiotis"
+                    },
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "31888471",
+                        "name": "M. Paterno"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9d38efac5c5ce1c4b0c073757e357a24628178ee",
+                "title": "Multi-Dimensional Numerical Integration on Parallel Architectures",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100853870",
+                        "name": "Ioannis Sakiotis"
+                    },
+                    {
+                        "s2_author_id": "31888471",
+                        "name": "M. Paterno"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c6b3a04ca6f6f1e3fa8b2ac4ebe69312f705c9de",
+                "title": "PAGANI: A Parallel Adaptive GPU Algorithm for Numerical Integration",
+                "year": 2021,
+                "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "citation_count": 5,
+                "reference_count": 30,
+                "abstract": "We present a new adaptive parallel algorithm for the challenging problem of multi-dimensional numerical integration on massively parallel architectures. Adaptive algorithms have demonstrated the best performance, but efficient many-core utilization is difficult to achieve because the adaptive work-load can vary greatly across the integration space and is impossible to predict a priori. Existing parallel algorithms utilize sequential computations on independent processors, which results in bottlenecks due to the need for data redistribution and processor synchronization. Our algorithm employs a high-throughput approach in which all existing sub-regions are processed and sub-divided in parallel. Repeated sub-region classification and filtering improves upon a brute-force approach and allows the algorithm to make efficient use of computation and memory resources. A CUDA implementation shows orders of magnitude speedup over the fastest open-source CPU method and extends the achievable accuracy for difficult integrands. Our algorithm typically outperforms other existing deterministic parallel methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "100853870",
+                        "name": "Ioannis Sakiotis"
+                    },
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "31888471",
+                        "name": "M. Paterno"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "15e9b92e0526961fb3a02a5686c396f6a41991fd",
+                "title": "NPGREAT: Hybrid Assembly of Human Subtelomeres with the Use of Nanopore and Linked-Read Datasets",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1471718742",
+                        "name": "Eleni Adam"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "3685636",
+                        "name": "H. Riethman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6eb19a837ba471a6fe1c2a6ca079686ab291443a",
+                "title": "Analysis of Subtelomeric REXTAL Assemblies Using QUAST",
+                "year": 2019,
+                "venue": "IEEE/ACM Transactions on Computational Biology & Bioinformatics",
+                "citation_count": 5,
+                "reference_count": 18,
+                "abstract": "Genomic regions of high segmental duplication content and/or structural variation have led to gaps and misassemblies in the human reference sequence, and are refractory to assembly from whole-genome short-read datasets. Human subtelomere regions are highly enriched in both segmental duplication content and structural variations, and as a consequence are both impossible to assemble accurately and highly variable from individual to individual. Recently, we developed a pipeline for improved region-specific assembly called Regional Extension of Assemblies Using Linked-Reads (REXTAL). In this study, we evaluate REXTAL and genome-wide assembly (Supernova) approaches on 10X Genomics linked-reads data sets partitioned and barcoded using the Gel Bead in Emulsion (GEM) microfluidic method. Our results describe the accuracy and relative performance of these two approaches using the reference-based assessment module of QUAST. We show that REXTAL dramatically outperforms the Supernova whole genome assembler in subtelomeric segmental duplication regions, and results in highly accurate assemblies. Nearly all of the REXTAL \u201cmisassemblies\u201d identified using default QUAST parameters simply pinpoint locations of tandem repeat arrays in the reference sequence where the repeat array length differs from that in the cognate REXTAL assembly by <inline-formula><tex-math notation=\"LaTeX\">$>$</tex-math><alternatives><mml:math><mml:mo>></mml:mo></mml:math><inline-graphic xlink:href=\"islam-ieq1-2913845.gif\"/></alternatives></inline-formula> 1000 bp.",
+                "authors": [
+                    {
+                        "s2_author_id": "27425015",
+                        "name": "Tunazzina Islam"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "40596935",
+                        "name": "Eleanor Young"
+                    },
+                    {
+                        "s2_author_id": "2088891622",
+                        "name": "M. Xiao"
+                    },
+                    {
+                        "s2_author_id": "3685636",
+                        "name": "H. Riethman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9c940bf1f4789ef99be6f2b77678bbebe7a0dfbb",
+                "title": "Efficient Parallel Multi-bunch Beam-Beam Simulation in Particle Colliders",
+                "year": 2019,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 0,
+                "reference_count": 6,
+                "abstract": "Particle colliders are essential tools in the pursuit of understanding matter interactions in the universe. The tremendous cost of their operation and requirement for finetuning, make high-fidelity particle collider simulations essential in ensuring optimal operation. Simulations of the beam-beam effects of colliding particle bunches are extremely time-consuming since they include hundreds of billions of particles that collide millions of times per second. A high degree of parallelization is required to decrease the execution time of such simulations. GPUs present an opportunity towards making such simulations viable, though several challenges must be overcome in order to achieve efficient parallelization. One major challenge addressed in this paper is an efficient simulation of multiple bunch collision on a cluster of GPUs. The numerous colliding bunches are subject to scheduling constraints, which requires the utilization of an efficient collision schedule algorithm, all the while ensuring that the processors are not underutilized and communication overheads are low. We implemented two schemes on a 8-node cluster with four K40 GPUs on each node for a total of 32 GPUs. We demonstrated an almost linear speedup for large bunches with the number of GPUs.",
+                "authors": [
+                    {
+                        "s2_author_id": "100853870",
+                        "name": "Ioannis Sakiotis"
+                    },
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f5952bd887046aa0581ad1dd83cd0a9d8e3ef53b",
+                "title": "Nanopore Guided Assembly of Segmental Duplications Near Telomeres",
+                "year": 2019,
+                "venue": "International Conferences on Biological Information and Biomedical Engineering",
+                "citation_count": 4,
+                "reference_count": 18,
+                "abstract": "Human subtelomere regions are highly enriched in large segmental duplications and structural variants, leading to many gaps and misassemblies in these regions. We develop a novel method, NPGREAT (NanoPore Guided REgional Assembly Tool), which combines Nanopore ultralong read datasets and short-read assemblies derived from 10x linkedreads to efficiently assemble these subtelomere regions into a single continuous sequence. We show that with the use of ultralong Nanopore reads as a guide, the highly accurate shorter linked-read sequence contigs are correctly oriented, ordered, spaced and extended. In the rare cases where a linked-read sequence contig contains inaccurately assembled segments, the use of Nanopore reads allows for detection and correction of this error. We tested NPGREAT on four representative subtelomeres of the NA12878 human genome (10p, 16p, 19q and 20p). The results demonstrate that the final computed assembly of each subtelomere is accurate and complete.",
+                "authors": [
+                    {
+                        "s2_author_id": "1471718742",
+                        "name": "Eleni Adam"
+                    },
+                    {
+                        "s2_author_id": "27425015",
+                        "name": "Tunazzina Islam"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "3685636",
+                        "name": "H. Riethman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "68f08e8d0c607f9ef2aa28ceb8a8b31fa365d64f",
+                "title": "A Single Thread to Fortran Coarray Transition Process for the Control Algorithm in the Space Radiation Code HZETRN",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2096017940",
+                        "name": "R. Singleterry"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ac1932195d5aa87f48340dda2892487f4af84d9",
+                "title": "On Positive In uence and Negative Dependence",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1809979",
+                        "name": "Devdatt P. Dubhashi"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "88304ef5b0f27aae7317f7468cd32fe70793c2f9",
+                "title": "REXTAL: Regional Extension of Assemblies Using Linked-Reads",
+                "year": 2018,
+                "venue": "International Symposium on Bioinformatics Research and Applications",
+                "citation_count": 2,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "27425015",
+                        "name": "Tunazzina Islam"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "40596935",
+                        "name": "Eleanor Young"
+                    },
+                    {
+                        "s2_author_id": "2088891622",
+                        "name": "M. Xiao"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "3685636",
+                        "name": "H. Riethman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "527ed6272eee79fa199b948abebfd02a2ea53f3e",
+                "title": "GPU-accelerated high-fidelity simulation of beam-beam effects in particle colliders",
+                "year": 2017,
+                "venue": "Summer Simulation Multiconference",
+                "citation_count": 4,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "46674791",
+                        "name": "R. Majeti"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "1904190",
+                        "name": "A. Godunov"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5ac1282c5458706a830a4ca3019443021d60b563",
+                "title": "Simulations of Coherent Synchrotron Radiation on Parallel Hybrid GPU/CPU Platform",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "103424825",
+                        "name": "Dallan Duffin"
+                    },
+                    {
+                        "s2_author_id": "1904190",
+                        "name": "A. Godunov"
+                    },
+                    {
+                        "s2_author_id": "27425015",
+                        "name": "Tunazzina Islam"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "144050500",
+                        "name": "Sukesh Sangam"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a2005cf6137af9097192051a32a8fc34426eae0",
+                "title": "An Effective Computational Method Incorporating Multiple Secondary Structure Predictions in Topology Determination for Cryo-EM Images",
+                "year": 2017,
+                "venue": "IEEE/ACM Transactions on Computational Biology & Bioinformatics",
+                "citation_count": 20,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50628542",
+                        "name": "Abhishek Biswas"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "2635446",
+                        "name": "Stephanie Zeil"
+                    },
+                    {
+                        "s2_author_id": "1402691529",
+                        "name": "Kamal Al-Nasr"
+                    },
+                    {
+                        "s2_author_id": "143852604",
+                        "name": "Jing He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1d46ee0bf2bf4dc8a1ea67530f1e76f69584b3e",
+                "title": "A Machine Learning Approach for Efficient Parallel Simulation of Beam Dynamics on GPUs",
+                "year": 2017,
+                "venue": "International Conference on Parallel Processing",
+                "citation_count": 1,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "1904190",
+                        "name": "A. Godunov"
+                    },
+                    {
+                        "s2_author_id": "27425015",
+                        "name": "Tunazzina Islam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "df03bdeecc790b6258de1b3702c851ec46919491",
+                "title": "Near Real Time Damage Diagnosis Using Surrogate Modeling and High Performance Computing",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2053498701",
+                        "name": "James W. Warner"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fc26954b1f49d3c6fdf0cafe36960f8ba1f58963",
+                "title": "Near Real-Time Probabilistic Damage Diagnosis Using Surrogate Modeling and High Performance Computing",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "11211397",
+                        "name": "J. Warner"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fcc8c6ba8bc6d46a5d7bd09f4266bd65107e8a99",
+                "title": "Long-Term Simulations of Beam-Beam Dynamics on GPUs",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "17303798",
+                        "name": "C. Cotnoir"
+                    },
+                    {
+                        "s2_author_id": "1904190",
+                        "name": "A. Godunov"
+                    },
+                    {
+                        "s2_author_id": "13938956",
+                        "name": "F. Lin"
+                    },
+                    {
+                        "s2_author_id": "46674791",
+                        "name": "R. Majeti"
+                    },
+                    {
+                        "s2_author_id": "48380241",
+                        "name": "V. Morozov"
+                    },
+                    {
+                        "s2_author_id": "71661550",
+                        "name": "E. Nissen"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "100565885",
+                        "name": "Y. Roblin"
+                    },
+                    {
+                        "s2_author_id": "2905275",
+                        "name": "T. Satogata"
+                    },
+                    {
+                        "s2_author_id": "2068248822",
+                        "name": "M. Stefani"
+                    },
+                    {
+                        "s2_author_id": "2153525632",
+                        "name": "He Zhang"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "287d821179d238f8e6fe551a8922fdbd52a3160a",
+                "title": "Optimizing a Multiple Right-Hand Side Dslash Kernel for Intel Knights Corner",
+                "year": 2016,
+                "venue": "ISC Workshops",
+                "citation_count": 1,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34006482",
+                        "name": "Aaron C. Walden"
+                    },
+                    {
+                        "s2_author_id": "46883218",
+                        "name": "S. Khan"
+                    },
+                    {
+                        "s2_author_id": "1686452",
+                        "name": "B. Jo\u00f3"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c46ef1d0285e83af3af00a9c2dc76b3501c83f65",
+                "title": "Challenges in matching secondary structures in cryo-EM: An exploration",
+                "year": 2016,
+                "venue": "IEEE International Conference on Bioinformatics and Biomedicine",
+                "citation_count": 2,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46570850",
+                        "name": "Devin Haslam"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "50628542",
+                        "name": "Abhishek Biswas"
+                    },
+                    {
+                        "s2_author_id": "143852604",
+                        "name": "Jing He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e09a3297fe9e98da273897757b96827174a77316",
+                "title": "Memory-Efficient Parallel Simulation of Electron Beam Dynamics Using GPUs",
+                "year": 2016,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 3,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "1904190",
+                        "name": "A. Godunov"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "58afce4c21f799d7faecdb44929ee3c865d74214",
+                "title": "High-Performance Simulations of Coherent Synchrotron Radiation on Multicore GPU and CPU Platforms",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "1904190",
+                        "name": "A. Godunov"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ff40cf5f68e382744be7a0c501343fe5f97d9f7",
+                "title": "A Novel Computational Method for Deriving Protein Secondary Structure Topologies Using Cryo-EM Density Maps and Multiple Secondary Structure Predictions",
+                "year": 2015,
+                "venue": "International Symposium on Bioinformatics Research and Applications",
+                "citation_count": 3,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50628542",
+                        "name": "Abhishek Biswas"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "143852604",
+                        "name": "Jing He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c46af5b1cd38c326ab82a56808ff5f28e4e904c4",
+                "title": "A Dynamic Programming Algorithm for Finding the Optimal Placement of a Secondary Structure Topology in Cryo-EM Data",
+                "year": 2015,
+                "venue": "J. Comput. Biol.",
+                "citation_count": 10,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50628542",
+                        "name": "Abhishek Biswas"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "143852604",
+                        "name": "Jing He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "da73bf2004d8cc61717a5c0cb868066db24b318d",
+                "title": "ISQuest: finding insertion sequences in prokaryotic sequence fragment data",
+                "year": 2015,
+                "venue": "Bioinform.",
+                "citation_count": 17,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50628542",
+                        "name": "Abhishek Biswas"
+                    },
+                    {
+                        "s2_author_id": "7726197",
+                        "name": "D. Gauthier"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fd749ace49605dc2b384af14838be0ded90a4a61",
+                "title": "High-fidelity simulation of collective effects in electron beams using an innovative parallel method",
+                "year": 2015,
+                "venue": "Summer Simulation Multiconference",
+                "citation_count": 3,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "1904190",
+                        "name": "A. Godunov"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "15145a91591674c62545dfd24c75f5bab7fb8938",
+                "title": "Big data challenges for estimating genome assembler quality",
+                "year": 2014,
+                "venue": "ACM International Conference on Bioinformatics, Computational Biology and Biomedicine",
+                "citation_count": 1,
+                "reference_count": 55,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50628542",
+                        "name": "Abhishek Biswas"
+                    },
+                    {
+                        "s2_author_id": "7726197",
+                        "name": "D. Gauthier"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "18ecaf564e969838b3a34ed84f9fd646698cc9ca",
+                "title": "Maximal clique enumeration for large graphs on hadoop framework",
+                "year": 2014,
+                "venue": "PPAA '14",
+                "citation_count": 9,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709486",
+                        "name": "N. Dasari"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2a4bf9e12b17339e352d6be701c36b08b31f58b2",
+                "title": "Simultaneous optimization of the cavity heat load and trip rates in linacs using a genetic algorithm",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 6,
+                "abstract": "In this paper, a genetic algorithm-based optimization is used to simultaneously minimize two competing objectives guiding the operation of the Jefferson Lab\u2019s Continuous Electron Beam Accelerator Facility linacs: cavity heat load and radio frequency cavity trip rates. The results represent a significant improvement to the standard linac energy management tool and thereby could lead to a more efficient Continuous Electron Beam Accelerator Facility configuration. This study also serves as a proof of principle of how a genetic algorithm can be used for optimizing other linac-based machines.",
+                "authors": [
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "9569928",
+                        "name": "A. Hofler"
+                    },
+                    {
+                        "s2_author_id": "2061088930",
+                        "name": "Cody J. Reeves"
+                    },
+                    {
+                        "s2_author_id": "46883218",
+                        "name": "S. Khan"
+                    },
+                    {
+                        "s2_author_id": "49885012",
+                        "name": "G. Krafft"
+                    },
+                    {
+                        "s2_author_id": "101529909",
+                        "name": "J. Benesch"
+                    },
+                    {
+                        "s2_author_id": "5557151",
+                        "name": "A. Freyberger"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c67c63ce0c972bddc15dd26ace3f04905be51bc",
+                "title": "ParK: An efficient algorithm for k-core decomposition on multicore processors",
+                "year": 2014,
+                "venue": "2014 IEEE International Conference on Big Data (Big Data)",
+                "citation_count": 67,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709486",
+                        "name": "N. Dasari"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5bdcb7b4587c563864640ec4fa6fb88b9c1e9da1",
+                "title": "pbitMCE: A bit-based approach for maximal clique enumeration on multicore processors",
+                "year": 2014,
+                "venue": "International Conference on Parallel and Distributed Systems",
+                "citation_count": 18,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709486",
+                        "name": "N. Dasari"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cf0a03e0904c3feb1d0f9f09b5bc745d0055c8d6",
+                "title": "Solving the Secondary Structure Matching Problem in Cryo-EM De Novo Modeling Using a Constrained $K$-Shortest Path Graph Algorithm",
+                "year": 2014,
+                "venue": "IEEE/ACM Transactions on Computational Biology & Bioinformatics",
+                "citation_count": 37,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1402691529",
+                        "name": "Kamal Al-Nasr"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "2118537391",
+                        "name": "Lin Chen"
+                    },
+                    {
+                        "s2_author_id": "143852604",
+                        "name": "Jing He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e6578308ef9c88cfa007cb5369d26588c465bbfc",
+                "title": "GPU-ACCELERATED LONG-TERM SIMULATIONS OF BEAM-BEAM EFFECTS IN COLLIDERS \u2217",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "2400431",
+                        "name": "Mohamed Aturban"
+                    },
+                    {
+                        "s2_author_id": "2259075722",
+                        "name": "Fanglei Lin"
+                    },
+                    {
+                        "s2_author_id": "48380241",
+                        "name": "V. Morozov"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "100565885",
+                        "name": "Y. Roblin"
+                    },
+                    {
+                        "s2_author_id": "2259266355",
+                        "name": "He Zhang"
+                    },
+                    {
+                        "s2_author_id": "2263945494",
+                        "name": "Mohammad Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05d0a12bf403dd7bbd95ded734de499e870c25b9",
+                "title": "An Efficient Deterministic Parallel Algorithm for Adaptive Multidimensional Numerical Integration on GPUs",
+                "year": 2013,
+                "venue": "International Conference on Parallel Processing",
+                "citation_count": 13,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "1904190",
+                        "name": "A. Godunov"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "074f5a11fceecdff76fde5f90dd3c97376ca3bd1",
+                "title": "GPU OPTIMIZED CODE FOR LONG TERM SIMULATIONS OF BEAM-BEAM EFFECTS IN COLLIDERS \u2217",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "100565885",
+                        "name": "Y. Roblin"
+                    },
+                    {
+                        "s2_author_id": "48380241",
+                        "name": "V. Morozov"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "2400431",
+                        "name": "Mohamed Aturban"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229459",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6b6eec7aefc8c8868c651b2ac595e058da895a38",
+                "title": "Genome Assembly on a Multicore System",
+                "year": 2013,
+                "venue": "2013 12th IEEE International Conference on Trust, Security and Privacy in Computing and Communications",
+                "citation_count": 2,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50628542",
+                        "name": "Abhishek Biswas"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7b443178560050695c9edbb49459b34291ec8339",
+                "title": "Euclid \u2019 s Algorithm for the Greatest Common Divisor Jerry Lodder",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8238384",
+                        "name": "D. Pengelley"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c4f2b5ce962c688834a1728bea157c8f2ec1e20c",
+                "title": "A Constrained K-shortest Path Algorithm to Rank the Topologies of the Protein Secondary Structure Elements Detected in CryoEM Volume Maps",
+                "year": 2013,
+                "venue": "ACM International Conference on Bioinformatics, Computational Biology and Biomedicine",
+                "citation_count": 3,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1402691529",
+                        "name": "Kamal Al-Nasr"
+                    },
+                    {
+                        "s2_author_id": "2118537391",
+                        "name": "Lin Chen"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "2280706",
+                        "name": "Dong Si"
+                    },
+                    {
+                        "s2_author_id": "143852604",
+                        "name": "Jing He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d54431060f2167fce8285e5e5983862039d5d119",
+                "title": "A memory efficient algorithm for adaptive multidimensional integration with multiple GPUs",
+                "year": 2013,
+                "venue": "20th Annual International Conference on High Performance Computing",
+                "citation_count": 11,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50313970",
+                        "name": "K. Arumugam"
+                    },
+                    {
+                        "s2_author_id": "1904190",
+                        "name": "A. Godunov"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "11168509",
+                        "name": "B. Terzi\u0107"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d85365cd50fb7391f0c40ae3a51107a1c1db7733",
+                "title": "High\u2010performance implementation of planted motif problem on multicore and GPU",
+                "year": 2013,
+                "venue": "Concurrency and Computation",
+                "citation_count": 4,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709486",
+                        "name": "N. Dasari"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1214652fa9016bcdac55c705a01bed4b130d3757",
+                "title": "Vertex isoperimetric parameter of a Computation Graph",
+                "year": 2012,
+                "venue": "International Journal of Foundations of Computer Science",
+                "citation_count": 6,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3b367aec9b702b68c6b3a638e3c753e087291f8b",
+                "title": "Improved Efficiency in Cryo-EM Secondary Structure Topology Determination from Inaccurate Data",
+                "year": 2012,
+                "venue": "J. Bioinform. Comput. Biol.",
+                "citation_count": 17,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50628542",
+                        "name": "Abhishek Biswas"
+                    },
+                    {
+                        "s2_author_id": "2280706",
+                        "name": "Dong Si"
+                    },
+                    {
+                        "s2_author_id": "1402691529",
+                        "name": "Kamal Al-Nasr"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "143852604",
+                        "name": "Jing He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6e227f29cc3634abf01d1cb3b66074bb16fe9c2a",
+                "title": "Building the initial chain of the proteins through de novo modeling of the cryo-electron microscopy volume data at the medium resolutions",
+                "year": 2012,
+                "venue": "ACM International Conference on Bioinformatics, Computational Biology and Biomedicine",
+                "citation_count": 26,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1402691529",
+                        "name": "Kamal Al-Nasr"
+                    },
+                    {
+                        "s2_author_id": "2118537391",
+                        "name": "Lin Chen"
+                    },
+                    {
+                        "s2_author_id": "2280706",
+                        "name": "Dong Si"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "143852604",
+                        "name": "Jing He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0747cd74f3ea8d111c2d5e9699571b52244fd84d",
+                "title": "Recent Developments on Introducing a Historical Dimension in Mathematics Education: Designing Student Projects for Teaching and Learning Discrete Mathematics and Computer Science via Primary Historical Sources",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 29,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46253092",
+                        "name": "J. Barnett"
+                    },
+                    {
+                        "s2_author_id": "3024181",
+                        "name": "Jerry M. Lodder"
+                    },
+                    {
+                        "s2_author_id": "8238384",
+                        "name": "D. Pengelley"
+                    },
+                    {
+                        "s2_author_id": "1794363",
+                        "name": "I. Pivkina"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "29eb4a84857651bfb096ddea2e81f4efc0b3cb7b",
+                "title": "Strong I/O Lower Bounds for Binomial and FFT Computation Graphs",
+                "year": 2011,
+                "venue": "International Computing and Combinatorics Conference",
+                "citation_count": 29,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "34903521",
+                        "name": "J. Savage"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "706acc35fc5390054b2a1f6b1183050e3b1d6df6",
+                "title": "High performance implementation of planted motif problem using suffix trees",
+                "year": 2011,
+                "venue": "International Symposium on High Performance Computing Systems and Applications",
+                "citation_count": 13,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709486",
+                        "name": "N. Dasari"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "882a3bc116056c00cc7c5fae86978c0225793e0d",
+                "title": "Parallelization of MIRA Whole Genome and EST Sequence Assembler",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50628542",
+                        "name": "Abhishek Biswas"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ae973cacf791e79fc0d6fa19649d06a03b826489",
+                "title": "Ranking Valid Topologies of the Secondary Structure Elements Using a Constraint Graph",
+                "year": 2011,
+                "venue": "J. Bioinform. Comput. Biol.",
+                "citation_count": 38,
+                "reference_count": 48,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1402691529",
+                        "name": "Kamal Al-Nasr"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "143852604",
+                        "name": "Jing He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f83861a75dc6042bf82344a516bbe74e6c787a27",
+                "title": "A Constraint Dynamic Graph Approach to Identify the Secondary Structure Topology from cryoEM Density Data in Presence of Errors",
+                "year": 2011,
+                "venue": "IEEE International Conference on Bioinformatics and Biomedicine",
+                "citation_count": 2,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50628542",
+                        "name": "Abhishek Biswas"
+                    },
+                    {
+                        "s2_author_id": "2280706",
+                        "name": "Dong Si"
+                    },
+                    {
+                        "s2_author_id": "1402691529",
+                        "name": "Kamal Al-Nasr"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    },
+                    {
+                        "s2_author_id": "143852604",
+                        "name": "Jing He"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2f968a89ad5421b20d826da78aa638fdf0284ca6",
+                "title": "Upper and lower I/O bounds for pebbling r-pyramids",
+                "year": 2010,
+                "venue": "J. Discrete Algorithms",
+                "citation_count": 37,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "34903521",
+                        "name": "J. Savage"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5048b2ec8b56b54c3918a65c276f9e3e9aa2b51f",
+                "title": "An efficient multicore implementation of planted motif problem",
+                "year": 2010,
+                "venue": "International Symposium on High Performance Computing Systems and Applications",
+                "citation_count": 17,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709486",
+                        "name": "N. Dasari"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145229461",
+                        "name": "M. Zubair"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1caf2b96df0b8109a19780226d5ccf85ff888f9",
+                "title": "Computational and Biological Approach to Understand the 3' UTR-Mediated Posttranscriptional Regulation of Alfalfa Cytosolic Glutamine Synthetase Genes",
+                "year": 2010,
+                "venue": "Bioinformatics and Computational Biology",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2396562",
+                        "name": "B. Simon"
+                    },
+                    {
+                        "s2_author_id": "1403491445",
+                        "name": "C. Sengupta-Gopalan"
+                    },
+                    {
+                        "s2_author_id": "1931867",
+                        "name": "Pavan K. Yelavarthi"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "279d118ecd1c7f66f9072415033ac46a74f0ed34",
+                "title": "Resources for Teaching Discrete Mathematics: Counting Triangulations of a Convex Polygon",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3d3d495c8f8cd02e46ffea90053677648b2524bd",
+                "title": "Lower Bounds for Accessing Information on Pure Pointer Machines",
+                "year": 2009,
+                "venue": "International Conference on Foundations of Computer Science",
+                "citation_count": 0,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2816612",
+                        "name": "Brian Cloteaux"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8cd25ffa650abe3cbd787c0806b733709f676a26",
+                "title": "Computational analysis using CisFind of the 3'UTR of cytosolic Glutamine synthetase genes involved in posttranscriptional regulation",
+                "year": 2009,
+                "venue": "2009 IEEE International Conference on Bioinformatics and Biomedicine Workshop",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1438311003",
+                        "name": "Bindu Vasudevan-Simon"
+                    },
+                    {
+                        "s2_author_id": "1403491445",
+                        "name": "C. Sengupta-Gopalan"
+                    },
+                    {
+                        "s2_author_id": "1931867",
+                        "name": "Pavan K. Yelavarthi"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a159b5ea3e9615f6fd0896ee13b9f275ed86fb90",
+                "title": "Algorithms , Recursion and Induction : Euclid and Fibonacci",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b62e641c6548cd88f4a8fb6f2ca68489842cbafe",
+                "title": "Historical sources as a teaching tool",
+                "year": 2009,
+                "venue": "Technical Symposium on Computer Science Education",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1794363",
+                        "name": "I. Pivkina"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "3024181",
+                        "name": "Jerry M. Lodder"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "de9095fb0918c6538e2b71fe62d6fa579d436576",
+                "title": "Resources for Teaching Discrete Mathematics: Introduction",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46253092",
+                        "name": "J. Barnett"
+                    },
+                    {
+                        "s2_author_id": "3173969",
+                        "name": "G. Bezhanishvili"
+                    },
+                    {
+                        "s2_author_id": "145148959",
+                        "name": "H. Leung"
+                    },
+                    {
+                        "s2_author_id": "3024181",
+                        "name": "Jerry M. Lodder"
+                    },
+                    {
+                        "s2_author_id": "8238384",
+                        "name": "D. Pengelley"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a62d1c9ea426a8bc7634a0053245f4ca964e551",
+                "title": "Euclid \u2019 s Algorithm for the Greatest Common",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3c63bebdef254ecc2d0d91141a8e12921f1c9e63",
+                "title": "Computational Identification of Cis-regulatory Elements Associated with Pungency of Chili Peppers",
+                "year": 2007,
+                "venue": "2007 IEEE 7th International Symposium on BioInformatics and BioEngineering",
+                "citation_count": 1,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39644484",
+                        "name": "Tieming Ji"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "36734342",
+                        "name": "J. Curry"
+                    },
+                    {
+                        "s2_author_id": "2059522063",
+                        "name": "M. O'Connell"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "86b9c955660f577497eed0d32d53c55a3bca4abe",
+                "title": "An investigation of pointer machines",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "2816612",
+                        "name": "Brian Cloteaux"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a5c948ca899ac73175bdc34f2556fe81b3e9a6f3",
+                "title": "Collaborative Research: Learning Discrete Mathematics and Computer Science via Primary Historical Sources",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 71,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46253092",
+                        "name": "J. Barnett"
+                    },
+                    {
+                        "s2_author_id": "3173969",
+                        "name": "G. Bezhanishvili"
+                    },
+                    {
+                        "s2_author_id": "145148959",
+                        "name": "H. Leung"
+                    },
+                    {
+                        "s2_author_id": "3024181",
+                        "name": "Jerry M. Lodder"
+                    },
+                    {
+                        "s2_author_id": "8238384",
+                        "name": "D. Pengelley"
+                    },
+                    {
+                        "s2_author_id": "1794363",
+                        "name": "I. Pivkina"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "2059092800",
+                        "name": "Jan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d333462644893e6af14f50047370767099e90e2b",
+                "title": "Tools for Cis-element Recognition and Phylogenetic Tree Construction Based on Conserved Patterns",
+                "year": 2007,
+                "venue": "International Conference on Computers and Their Applications",
+                "citation_count": 3,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39644484",
+                        "name": "Tieming Ji"
+                    },
+                    {
+                        "s2_author_id": "1403831343",
+                        "name": "K. Gopavarapu"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "143874971",
+                        "name": "B. Vasudevan"
+                    },
+                    {
+                        "s2_author_id": "1403491445",
+                        "name": "C. Sengupta-Gopalan"
+                    },
+                    {
+                        "s2_author_id": "2059522063",
+                        "name": "M. O'Connell"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d3e6a339df8a036aa9ce89e763c3ebabadee426",
+                "title": "Some Separation Results Between Classes of Pointer Algorithms",
+                "year": 2006,
+                "venue": "Workshop on Descriptional Complexity of Formal Systems",
+                "citation_count": 5,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2816612",
+                        "name": "Brian Cloteaux"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53e7aed02b33d5ce53b8e0e209deef58f5ac1cb5",
+                "title": "Positive Influence and Negative Dependence",
+                "year": 2006,
+                "venue": "Combinatorics, probability & computing",
+                "citation_count": 28,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1809979",
+                        "name": "Devdatt P. Dubhashi"
+                    },
+                    {
+                        "s2_author_id": "3168252",
+                        "name": "J. Jonasson"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "95b45c9f43358438986db2bb81aee7b36ba2564b",
+                "title": "Historical Projects in Discrete Mathematics and Computer Science",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 63,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46253092",
+                        "name": "J. Barnett"
+                    },
+                    {
+                        "s2_author_id": "3173969",
+                        "name": "G. Bezhanishvili"
+                    },
+                    {
+                        "s2_author_id": "145148959",
+                        "name": "H. Leung"
+                    },
+                    {
+                        "s2_author_id": "3024181",
+                        "name": "Jerry M. Lodder"
+                    },
+                    {
+                        "s2_author_id": "8238384",
+                        "name": "D. Pengelley"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d7f897ad6c5935d459edee33579518e2318cdedb",
+                "title": "A project in algorithms based on a primary historical source about catalan numbers",
+                "year": 2006,
+                "venue": "Technical Symposium on Computer Science Education",
+                "citation_count": 3,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8238384",
+                        "name": "D. Pengelley"
+                    },
+                    {
+                        "s2_author_id": "1794363",
+                        "name": "I. Pivkina"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1680599",
+                        "name": "K. Villaverde"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e48e117b06e5c433e593b8adf41380b8ea47525b",
+                "title": "Sequential and parallel algorithms for the NCA problem on pure pointer machines",
+                "year": 2006,
+                "venue": "Theoretical Computer Science",
+                "citation_count": 1,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8507705",
+                        "name": "A. D. Pal\u00f9"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "458e2c29ac141adf9b9735c58669ff32dec7c201",
+                "title": "Identity orientation of complete bipartite graphs",
+                "year": 2005,
+                "venue": "Discrete Mathematics",
+                "citation_count": 4,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1750484",
+                        "name": "F. Harary"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6c4d1933dfb0055e74b1490d721371204f247bfe",
+                "title": "Computational Issues in Exploiting Dependent And-Parallelism in Logic Programming: Leftness Detection in Dynamic Search Trees",
+                "year": 2005,
+                "venue": "Logic Programming and Automated Reasoning",
+                "citation_count": 1,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2145046295",
+                        "name": "Yao Wu"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9efc5fd2acf6df7dea02bb8816f32cbc6060e12b",
+                "title": "A Simple Optimal Solution for the Temporal Precedence Problem\n on Pure Pointer Machines",
+                "year": 2004,
+                "venue": "Theory of Computing Systems",
+                "citation_count": 5,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b35a101d024dbad796a41d60eec75c83360e27fb",
+                "title": "Detecting Local Symmetry Axis in 3-dimensional Virus Structures",
+                "year": 2004,
+                "venue": "Asia-Pacific Bioinformatics Conference",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2158102297",
+                        "name": "Jing He"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "2116484836",
+                        "name": "Wen Jiang"
+                    },
+                    {
+                        "s2_author_id": "145770837",
+                        "name": "W. Chiu"
+                    },
+                    {
+                        "s2_author_id": "39721889",
+                        "name": "M. Schmid"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "47e09ef0c7474d0e56bef2be772afb58ed28f478",
+                "title": "An Agent-based Domain Specific Framework for Rapid Prototyping of Applications in Evolutionary Biology",
+                "year": 2003,
+                "venue": "International Workshop on Declarative Agent Languages and Technologies",
+                "citation_count": 6,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1776076",
+                        "name": "Tran Cao Son"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "36116278",
+                        "name": "B. Milligan"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b6fd1712b524b038d5a0c020239887c28c756f94",
+                "title": "Design and implementation of a domain specific language for phylogenetic inference.",
+                "year": 2003,
+                "venue": "Journal of Bioinformatics and Computational Biology",
+                "citation_count": 5,
+                "reference_count": 24,
+                "abstract": "Domain experts think and reason at a high level of abstraction when they solve problems in their domain of expertise. We present the design and motivation behind a domain specific language, called phi LOG, to enable biologists to program solutions to phylogenetic inference problems at a very high level of abstraction. The implementation infrastructure (interpreter, compiler, debugger) for the DSL is automatically obtained through a software engineering framework based on Denotational Semantics and Logic Programming.",
+                "authors": [
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    },
+                    {
+                        "s2_author_id": "36116278",
+                        "name": "B. Milligan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d60106fcd0631b187cb0c5363fdb5aa8c560f8ac",
+                "title": "The Level-Ancestor problem on Pure Pointer Machines",
+                "year": 2003,
+                "venue": "Information Processing Letters",
+                "citation_count": 1,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f50fb838ca38afabec53489154f79cb908c44ac4",
+                "title": "On the Complexity of Dependent And-Parallelism in Logic Programming",
+                "year": 2003,
+                "venue": "International Conference on Logic Programming",
+                "citation_count": 4,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2145046295",
+                        "name": "Yao Wu"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d03c654b2d06a62c70e711bf15ce45d8a0600d5",
+                "title": "Efficient Parallel Algorithms for Solvent Accessible Surface Area of Proteins",
+                "year": 2002,
+                "venue": "IEEE Trans. Parallel Distributed Syst.",
+                "citation_count": 18,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3256269",
+                        "name": "Natsuhiko Futamura"
+                    },
+                    {
+                        "s2_author_id": "143899699",
+                        "name": "S. Aluru"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "123882343",
+                        "name": "B. Hariharan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5f0a8632566f7ef84e5e7776dce692a5c6b32bbb",
+                "title": "Semantics-based filtering",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    },
+                    {
+                        "s2_author_id": "2218957473",
+                        "name": "Hai-Feng Guo"
+                    },
+                    {
+                        "s2_author_id": "1697500",
+                        "name": "A. Karshmer"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "152966732",
+                        "name": "Juan Raymundo Iglesias"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "36116278",
+                        "name": "B. Milligan"
+                    },
+                    {
+                        "s2_author_id": "30301928",
+                        "name": "N. Datta"
+                    },
+                    {
+                        "s2_author_id": "40978063",
+                        "name": "O. E. Khatib"
+                    },
+                    {
+                        "s2_author_id": "1726220",
+                        "name": "M. Noamany"
+                    },
+                    {
+                        "s2_author_id": "2148929386",
+                        "name": "Xinhong Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6399ae95c13f7c98941148c44af3d15bd7957be7",
+                "title": "Ancestor Problems on Pure Pointer Machines",
+                "year": 2002,
+                "venue": "Latin American Symposium on Theoretical Informatics",
+                "citation_count": 6,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "70d63576496385eca74339b1f66ad393487a3439",
+                "title": "An optimal data structure to handle dynamic environments in non-deterministic computations",
+                "year": 2002,
+                "venue": "Computer languages, systems & structures",
+                "citation_count": 9,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "8507705",
+                        "name": "A. D. Pal\u00f9"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "83765ed3c9becdc993a0a546a96e21ac73d2fdda",
+                "title": "An Optimal Algorithm for Finding NCA on Pure Pointer Machines",
+                "year": 2002,
+                "venue": "Scandinavian Workshop on Algorithm Theory",
+                "citation_count": 6,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8507705",
+                        "name": "A. D. Pal\u00f9"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1fac5ab014e80c1e01a6f169adf41aa1f0066ad",
+                "title": "/spl Phi/LOG: a domain specific language for solving phylogenetic inference problems",
+                "year": 2002,
+                "venue": "Proceedings. IEEE Computer Society Bioinformatics Conference",
+                "citation_count": 2,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "36116278",
+                        "name": "B. Milligan"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e509a31bfe6ff7c98e4eec5ca17ea400a65b1c13",
+                "title": "Semantics-Based Filtering: Logic Programming's Killer App?",
+                "year": 2002,
+                "venue": "International Symposium on Practical Aspects of Declarative Languages",
+                "citation_count": 9,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    },
+                    {
+                        "s2_author_id": "2218957473",
+                        "name": "Hai-Feng Guo"
+                    },
+                    {
+                        "s2_author_id": "1697500",
+                        "name": "A. Karshmer"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "152966732",
+                        "name": "Juan Raymundo Iglesias"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "36116278",
+                        "name": "B. Milligan"
+                    },
+                    {
+                        "s2_author_id": "30301928",
+                        "name": "N. Datta"
+                    },
+                    {
+                        "s2_author_id": "1398658604",
+                        "name": "Omar El-Khatib"
+                    },
+                    {
+                        "s2_author_id": "1726220",
+                        "name": "M. Noamany"
+                    },
+                    {
+                        "s2_author_id": "2148929386",
+                        "name": "Xinhong Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f48a2508bffb2246f1da387957fc78bd29ac9e31",
+                "title": "An Efficient Parallel Pointer Machine Algorithm for the NCA Problem",
+                "year": 2002,
+                "venue": "IFIP TCS",
+                "citation_count": 1,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8507705",
+                        "name": "A. D. Pal\u00f9"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "96af97d4679bfcee228975e75c02e0dae336ab3c",
+                "title": "Interoperability between bioinformatics tools",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "152966732",
+                        "name": "Juan Raymundo Iglesias"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "36116278",
+                        "name": "B. Milligan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "adcd3fd4359b773d5c2f0ad14cb3f4877c9875ff",
+                "title": "A tool for the analysis of rnanip ~ l ~ ti ~ ~",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145944286",
+                        "name": "D. Rus"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ee606aab885936ad8309d4318f162491dbd9858f",
+                "title": "Interoperability between Bioinformatics Tools: A Logic Programming Approach",
+                "year": 2001,
+                "venue": "International Symposium on Practical Aspects of Declarative Languages",
+                "citation_count": 6,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "152966732",
+                        "name": "Juan Raymundo Iglesias"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "36116278",
+                        "name": "B. Milligan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "37263b92bcbf5cd019e14d280cf12cdfff413101",
+                "title": "The Temporal Precedence Problem",
+                "year": 2000,
+                "venue": "Algorithmica",
+                "citation_count": 20,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    },
+                    {
+                        "s2_author_id": "2812071",
+                        "name": "L. Longpr\u00e9"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bd780a99bf53b5831f28d579af82d3fc5b253d3d",
+                "title": "Data structures for order-sensitive predicates in parallel nondeterministic systems",
+                "year": 2000,
+                "venue": "Acta Informatica",
+                "citation_count": 6,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4b572283e391a09b30203793a8d7fa5b7cca6f3a",
+                "title": "A Parallel Monte Carlo Algorithm for Protein Accessible Surface Area Computation",
+                "year": 1999,
+                "venue": "International Conference on High Performance Computing",
+                "citation_count": 0,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2249184866",
+                        "name": "Srinivas Aluru"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "3256269",
+                        "name": "Natsuhiko Futamura"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4dee419976860966a9d05ea97a6e0c1235c44e75",
+                "title": "Complexity Analysis of Late Binding in Dynamic Object-Oriented Languages",
+                "year": 1999,
+                "venue": "Journal of Functional and Logic Programming",
+                "citation_count": 4,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b257dec44178ebc9b0867b607a7c61d6d07c7037",
+                "title": "On the complexity of or-parallelism",
+                "year": 1999,
+                "venue": "New generation computing",
+                "citation_count": 5,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fd5fd375104ff3767b4f36ec7db857dcec6038bf",
+                "title": "On the Complexity of Or-parallelism on the Complexity of Or-parallelism",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "58046bbad9312f2e147c6b8d3012c31296b9f0ff",
+                "title": "Efficient Algorithms for the Temporal Precedence Problem",
+                "year": 1998,
+                "venue": "Information Processing Letters",
+                "citation_count": 5,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6d9684208391330438bff8b99ef42895ea1e697c",
+                "title": "The Complexity of Late-Binding in Dynamic Object-Oriented Languages",
+                "year": 1998,
+                "venue": "PLILP/ALP",
+                "citation_count": 3,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "71456f3e86d01fea7c40651ac1d43edd0cee8462",
+                "title": "Breaking Symmetry in Complete Graphs by Orienting Edges: Asymptotic Bounds",
+                "year": 1998,
+                "venue": "Information Processing Letters",
+                "citation_count": 2,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1750484",
+                        "name": "F. Harary"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "731d4fe769cf815dacd2dbe3764a010e538e498f",
+                "title": "On the Computational Complexity of Some Classical Equivalence Relations on Boolean Functions",
+                "year": 1998,
+                "venue": "Theory of Computing Systems",
+                "citation_count": 44,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2074160311",
+                        "name": "Bernd Borchert"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1699450",
+                        "name": "F. Stephan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "48141de1d4eaacfb466fde9faf540867a353175d",
+                "title": "On the Complexity of Parallel Implementation of Logic Programs",
+                "year": 1997,
+                "venue": "Foundations of Software Technology and Theoretical Computer Science",
+                "citation_count": 20,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1735551",
+                        "name": "Enrico Pontelli"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "144961671",
+                        "name": "G. Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b59ca5a5d375cfc4e6eeccba5a9fde863bcbc34c",
+                "title": "Space-Filling Curves and Their Use in the Design of Geometric Data Structures",
+                "year": 1997,
+                "venue": "Theoretical Computer Science",
+                "citation_count": 226,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1723255",
+                        "name": "T. Asano"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "40543830",
+                        "name": "T. Roos"
+                    },
+                    {
+                        "s2_author_id": "1717081",
+                        "name": "E. Welzl"
+                    },
+                    {
+                        "s2_author_id": "1692856",
+                        "name": "P. Widmayer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1c114fc5e901900ffc529c29f53a6b9d0187a51c",
+                "title": "Negative dependence through the FKG Inequality",
+                "year": 1996,
+                "venue": "",
+                "citation_count": 43,
+                "reference_count": 22,
+                "abstract": "We investigate random variables arising in occupancy problems, and show the variables to be negatively associated, that is, negatively dependent in a strong sense. Our proofs are based on the FKG correlation inequality, and they suggest a useful, general technique for proving negative dependence among random variables. We also show that in the special case of two binary random variables, the notions of negative correlation and negative association coincide.",
+                "authors": [
+                    {
+                        "s2_author_id": "1809979",
+                        "name": "Devdatt P. Dubhashi"
+                    },
+                    {
+                        "s2_author_id": "2546873",
+                        "name": "Volker Priebe"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1c549d6e4857939a7e0b62c8f516606a7aec148c",
+                "title": "Digital Halftoning Algorithms Based on Optimization Criteria and Their Experimental Evaluation (Special Section on Discrete Mathematics and Its Applications)",
+                "year": 1996,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1723255",
+                        "name": "T. Asano"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "40543830",
+                        "name": "T. Roos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8cbad9bdbf91f2704fa547ceb80256ef42c856ae",
+                "title": "Balls and Bins: A Study in Negative Dependence",
+                "year": 1996,
+                "venue": "",
+                "citation_count": 466,
+                "reference_count": 44,
+                "abstract": "This paper investigates the notion of negative dependence amongst random variables and attempts to advocate its use as a simple and unifying paradigm for the analysis of random structures and algorithms. The assumption of independence between random variables is often very convenient for the several reasons. Firstly, it makes analyses and calculations much simpler. Secondly, one has at hand a whole array of powerful mathematical concepts and tools from classical probability theory for the analysis, such as laws of large numbers, central limit theorems and large deviation bounds which are usually derived under the assumption of independence. Unfortunately, the analysis of most randomized algorithms involves random variables that are not independent. In this case, classical tools from standard probability theory like large deviation theorems, that are valid under the assumption of independence between the random variables involved, cannot be used as such. It is then necessary to determine under what conditions of dependence one can still use the classical tools. It has been observed before [32, 33, 38, 8], that in some situations, even though the variables involved are not independent, one can still apply some of the standard tools that are valid for independent variables (directly or in suitably modified form), provided that the variables are dependent in specific ways. Unfortunately, it appears that in most cases somewhat ad hoc strategems have been devised, tailored to the specific situation at hand, and that a unifying underlying theory that delves deeper into the nature of dependence amongst the variables involved is lacking. A frequently occurring scenario underlying the analysis of many randomised algorithms and processes involves random variables that are, intuitively, dependent in the following negative way: if one subset of the variables is \"high\" then a disjoint subset of the variables is \"low\". In this paper, we bring to the forefront and systematize some precise notions of negative dependence in the literature, analyse their properties, compare them relative to each other, and illustrate them with several applications. One specific paradigm involving negative dependence is the classical \"balls and bins\" experiment. Suppose we throw m balls into n bins independently at random. For i in [n], let Bi be the random variable denoting the number of balls in the ith bin. We will often refer to these variables as occupancy numbers. This is a classical probabilistic paradigm [16, 22, 26] (see also [31, sec. 3.1]) that underlies the analysis of many probabilistic algorithms and processes. In the case when the balls are identical, this gives rise to the well-known multinomial distribution [16, sec VI.9]: there are m repeated independent trials (balls) where each trial (ball) can result in one of the outcomes E1, ..., En (bins). The probability of the realisation of event Ei is pi for i in [n] for each trial. (Of course the probabilities are subject to the condition Sum_i pi = 1.) Under the multinomial distribution, for any integers m1, ..., mn such that Sum_i mi = m the probability that for each i in [n], event Ei occurs mi times is m! m1! : : :mn!pm1 1 : : :pmn n : The balls and bins experiment is a generalisation of the multinomial distribution: in the general case, one can have an arbitrary set of probabilities for each ball: the probability that ball k goes into bin i is pi;k, subject only to the natural restriction that for each ball k, P i pi;k = 1. The joint distribution function correspondingly has a more complicated form. A fundamental natural question of interest is: how are these Bi related? Note that even though the balls are thrown independently of each other, the Bi variables are not independent; in particular, their sum is fixed to m. Intuitively, the Bi's are negatively dependent on each other in the manner described above: if one set of variables is \"high\", a disjoint set is \"low\". However, establishing such assertions precisely by a direct calculation from the joint distribution function, though possible in principle, appears to be quite a formidable task, even in the case where the balls are assumed to be identical. One of the major contributions of this paper is establishing that the the Bi are negatively dependent in a very strong sense. In particular, we show that the Bi variables satisfy negative association and negative regression, two strong notions of negative dependence that we define precisely below. All the intuitively obvious assertions of negative dependence in the balls and bins experiment follow as easy corollaries. We illustrate the usefulness of these results by showing how to streamline and simplify many existing probabilistic analyses in literature.",
+                "authors": [
+                    {
+                        "s2_author_id": "1809979",
+                        "name": "Devdatt P. Dubhashi"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "de087538fe1575d62bcb588cda7defc58a253167",
+                "title": "Space Filling Curves and Their Use in the Design of Geometric Data Structures",
+                "year": 1995,
+                "venue": "Latin American Symposium on Theoretical Informatics",
+                "citation_count": 81,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1723255",
+                        "name": "T. Asano"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "40543830",
+                        "name": "T. Roos"
+                    },
+                    {
+                        "s2_author_id": "1717081",
+                        "name": "E. Welzl"
+                    },
+                    {
+                        "s2_author_id": "1692856",
+                        "name": "P. Widmayer"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e65054776e838ad1a9977c2d011ee415521ef876",
+                "title": "A Simple Proof on the Decidability of Equivalence Between Recursive and Nonrecursive Datalog Programs",
+                "year": 1995,
+                "venue": "Information Processing Letters",
+                "citation_count": 0,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145148959",
+                        "name": "H. Leung"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "143750276",
+                        "name": "H. J. Hern\u00e1ndez"
+                    },
+                    {
+                        "s2_author_id": "2787882",
+                        "name": "D. Tang"
+                    },
+                    {
+                        "s2_author_id": "145982276",
+                        "name": "A. Gonz\u00e1lez"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0dfc4f932d853a3d62da4921015c85bd2865a81a",
+                "title": "The Random Oracle Hypothesis Is False",
+                "year": 1994,
+                "venue": "Journal of computer and system sciences (Print)",
+                "citation_count": 57,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144705289",
+                        "name": "Richard Chang"
+                    },
+                    {
+                        "s2_author_id": "1722541",
+                        "name": "B. Chor"
+                    },
+                    {
+                        "s2_author_id": "1707322",
+                        "name": "Oded Goldreich"
+                    },
+                    {
+                        "s2_author_id": "1747181",
+                        "name": "J. Hartmanis"
+                    },
+                    {
+                        "s2_author_id": "1689438",
+                        "name": "J. H\u00e5stad"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1717108",
+                        "name": "P. Rohatgi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3050a647d987eff1590dddc36ccffc02da36b384",
+                "title": "Some correlation inequalities for probabilistic analysis of algorithms",
+                "year": 1994,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1809979",
+                        "name": "Devdatt P. Dubhashi"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2472a290733d764c95015e01aaf77853e8db7c7b",
+                "title": "A Tool for the Analysis of Manipulation",
+                "year": 1993,
+                "venue": "Information Processing Letters",
+                "citation_count": 0,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "145944286",
+                        "name": "D. Rus"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "56a149a5f745d47cd2c6e0f3193c42d429b7beb5",
+                "title": "The circuit subfunction relations are $sum^P_2$-complete",
+                "year": 1993,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2074160311",
+                        "name": "Bernd Borchert"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a046e090e37bfbb0d89030a4c53e2c94fc8f521e",
+                "title": "Searching, Sorting and Randomised Algorithms for Central Elements and Ideal Counting in Posets",
+                "year": 1993,
+                "venue": "Foundations of Software Technology and Theoretical Computer Science",
+                "citation_count": 8,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1809979",
+                        "name": "Devdatt P. Dubhashi"
+                    },
+                    {
+                        "s2_author_id": "1698752",
+                        "name": "K. Mehlhorn"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "48501908",
+                        "name": "C. Thiel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4edb8429f428951405fb6da92eb9ae68b2a5b49a",
+                "title": "Issues in NP-optimization and Approximation",
+                "year": 1992,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a01ae9428893ab27875a785aee9b5ad9497283c",
+                "title": "On the Complexity of Incremental Computation",
+                "year": 1992,
+                "venue": "International Symposium on Mathematical Foundations of Computer Science",
+                "citation_count": 1,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144905310",
+                        "name": "Suresh Chari"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1717108",
+                        "name": "P. Rohatgi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cafe64c65757ac48385b514beab73e533551bf69",
+                "title": "Relativization: a revisionistic retrospective",
+                "year": 1992,
+                "venue": "Bull. EATCS",
+                "citation_count": 26,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144705289",
+                        "name": "Richard Chang"
+                    },
+                    {
+                        "s2_author_id": "144905310",
+                        "name": "Suresh Chari"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1717108",
+                        "name": "P. Rohatgi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d0726c1c218dde70165589870b29bea8a8c4752d",
+                "title": "On randomized reductions to sparse sets",
+                "year": 1992,
+                "venue": "[1992] Proceedings of the Seventh Annual Structure in Complexity Theory Conference",
+                "citation_count": 28,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1717108",
+                        "name": "P. Rohatgi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "14c5e6e6d34bc8010c08e94a50d36c2061966f7a",
+                "title": "Space Bounded Computations: Review and New Separation Results",
+                "year": 1991,
+                "venue": "Theoretical Computer Science",
+                "citation_count": 43,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "144705289",
+                        "name": "Richard Chang"
+                    },
+                    {
+                        "s2_author_id": "1747181",
+                        "name": "J. Hartmanis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05cedbedb09d97611f8ca07481c3ef25ba4569d4",
+                "title": "Structural complexity theory: recent surprises (invited)",
+                "year": 1990,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1747181",
+                        "name": "J. Hartmanis"
+                    },
+                    {
+                        "s2_author_id": "144705289",
+                        "name": "Richard Chang"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1717108",
+                        "name": "P. Rohatgi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3557e3a2282181514aaabd1e699409c5b7837d9e",
+                "title": "Quantifiers and Approximation (Extended Abstract)",
+                "year": 1990,
+                "venue": "Symposium on the Theory of Computing",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1773845",
+                        "name": "A. Panconesi"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8ddd6b102aeb1919081292585837ecf7b411fcf8",
+                "title": "On Unique Staisfiability and Randomized Reductions",
+                "year": 1990,
+                "venue": "Bull. EATCS",
+                "citation_count": 4,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1747181",
+                        "name": "J. Hartmanis"
+                    },
+                    {
+                        "s2_author_id": "144705289",
+                        "name": "Richard Chang"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1717108",
+                        "name": "P. Rohatgi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a4eccfd2315f08328e26002c8dc23595f46a17e5",
+                "title": "Quantifiers and Approximat ion",
+                "year": 1990,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1773845",
+                        "name": "A. Panconesi"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a88aac16e05266ce67d538c1add5cc0dbe08b798",
+                "title": "On IP = PSPACE and Theorems with Narrow Proofs",
+                "year": 1990,
+                "venue": "Current Trends in Theoretical Computer Science",
+                "citation_count": 6,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1747181",
+                        "name": "J. Hartmanis"
+                    },
+                    {
+                        "s2_author_id": "144705289",
+                        "name": "Richard Chang"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1717108",
+                        "name": "P. Rohatgi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f5c25e25650494ffe8f6dc48547944c9d527c328",
+                "title": "Quantifiers and Approximation (Abstract)",
+                "year": 1990,
+                "venue": "Symposium on Computation Theory",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1773845",
+                        "name": "A. Panconesi"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f81d71d64dadc7feaa57eef51b70fc6b775e8cea",
+                "title": "Quantifiers and approximation",
+                "year": 1990,
+                "venue": "Proceedings Fifth Annual Structure in Complexity Theory Conference",
+                "citation_count": 91,
+                "reference_count": 15,
+                "abstract": "Summary form only given. An investigation is made of the relationship between logical expressibility of NP optimization problems and their approximation properties. It is shown that many important optimization problems do not belong to MAX NP and that in fact there are problems in P which are not in MAX NP. The problems considered fit naturally in a new complexity class called MAX II/sub 1/. It is proved that several natural optimization problems are complete for MAX II/sub 1/ under approximation preserving reductions. All these complete problems are nonapproximable unless P=NP. This motivates the definition of subclasses of MAX II/sub 1/ that only contain problems which are presumably easier with respect to approximation. In particular, the class called RMAX(2) contains approximable problems and problems like MAX CLIQUE that are not known to be nonapproximable. It is proven that MAX CLIQUE and several other optimization problems are complete for RMAX(2). All the complete problems in RMAX(2) share the interesting property that they either are nonapproximable or are approximable to any degree of accuracy.<<ETX>>",
+                "authors": [
+                    {
+                        "s2_author_id": "1773845",
+                        "name": "A. Panconesi"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ffcfef76d9bad082dc3bd5ee33bcbcfb0d4aafe5",
+                "title": "Structural Complexity Theory: recent Surprises",
+                "year": 1990,
+                "venue": "Scandinavian Workshop on Algorithm Theory",
+                "citation_count": 16,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1747181",
+                        "name": "J. Hartmanis"
+                    },
+                    {
+                        "s2_author_id": "144705289",
+                        "name": "Richard Chang"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "1717108",
+                        "name": "P. Rohatgi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a4f1b3171480f6a53a72d23f53dd0222cf0dcdd6",
+                "title": "ODU Digital",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50628542",
+                        "name": "Abhishek Biswas"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    },
+                    {
+                        "s2_author_id": "2263945494",
+                        "name": "Mohammad Zubair"
+                    },
+                    {
+                        "s2_author_id": "2384130845",
+                        "name": "HE Jing"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ed20bee1e8eff70556d871b95d6891419404b8e1",
+                "title": "The Circuit Subfunction Relations are \u03a3 p 2-complete",
+                "year": null,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2074160311",
+                        "name": "Bernd Borchert"
+                    },
+                    {
+                        "s2_author_id": "1709179",
+                        "name": "D. Ranjan"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2263945494",
+                "name": "Mohammad Zubair"
+            },
+            {
+                "s2_author_id": "100853870",
+                "name": "Ioannis Sakiotis"
+            },
+            {
+                "s2_author_id": "50313970",
+                "name": "K. Arumugam"
+            },
+            {
+                "s2_author_id": "31888471",
+                "name": "M. Paterno"
+            },
+            {
+                "s2_author_id": "11168509",
+                "name": "B. Terzi\u0107"
+            },
+            {
+                "s2_author_id": "145229461",
+                "name": "M. Zubair"
+            },
+            {
+                "s2_author_id": "34006482",
+                "name": "Aaron C. Walden"
+            },
+            {
+                "s2_author_id": "104442322",
+                "name": "Gabriel Nastac"
+            },
+            {
+                "s2_author_id": "2266402040",
+                "name": "Eric Nielsen"
+            },
+            {
+                "s2_author_id": "2406441",
+                "name": "B. Diskin"
+            },
+            {
+                "s2_author_id": "2295131773",
+                "name": "Marc Paterno"
+            },
+            {
+                "s2_author_id": "2295203683",
+                "name": "Samuel Jung"
+            },
+            {
+                "s2_author_id": "2295273269",
+                "name": "Joshua Hoke Davis"
+            },
+            {
+                "s2_author_id": "1471718742",
+                "name": "Eleni Adam"
+            },
+            {
+                "s2_author_id": "3685636",
+                "name": "H. Riethman"
+            },
+            {
+                "s2_author_id": "27425015",
+                "name": "Tunazzina Islam"
+            },
+            {
+                "s2_author_id": "40596935",
+                "name": "Eleanor Young"
+            },
+            {
+                "s2_author_id": "2088891622",
+                "name": "M. Xiao"
+            },
+            {
+                "s2_author_id": "2096017940",
+                "name": "R. Singleterry"
+            },
+            {
+                "s2_author_id": "1809979",
+                "name": "Devdatt P. Dubhashi"
+            },
+            {
+                "s2_author_id": "46674791",
+                "name": "R. Majeti"
+            },
+            {
+                "s2_author_id": "1904190",
+                "name": "A. Godunov"
+            },
+            {
+                "s2_author_id": "103424825",
+                "name": "Dallan Duffin"
+            },
+            {
+                "s2_author_id": "144050500",
+                "name": "Sukesh Sangam"
+            },
+            {
+                "s2_author_id": "50628542",
+                "name": "Abhishek Biswas"
+            },
+            {
+                "s2_author_id": "2635446",
+                "name": "Stephanie Zeil"
+            },
+            {
+                "s2_author_id": "1402691529",
+                "name": "Kamal Al-Nasr"
+            },
+            {
+                "s2_author_id": "143852604",
+                "name": "Jing He"
+            },
+            {
+                "s2_author_id": "2053498701",
+                "name": "James W. Warner"
+            },
+            {
+                "s2_author_id": "11211397",
+                "name": "J. Warner"
+            },
+            {
+                "s2_author_id": "17303798",
+                "name": "C. Cotnoir"
+            },
+            {
+                "s2_author_id": "13938956",
+                "name": "F. Lin"
+            },
+            {
+                "s2_author_id": "48380241",
+                "name": "V. Morozov"
+            },
+            {
+                "s2_author_id": "71661550",
+                "name": "E. Nissen"
+            },
+            {
+                "s2_author_id": "100565885",
+                "name": "Y. Roblin"
+            },
+            {
+                "s2_author_id": "2905275",
+                "name": "T. Satogata"
+            },
+            {
+                "s2_author_id": "2068248822",
+                "name": "M. Stefani"
+            },
+            {
+                "s2_author_id": "2153525632",
+                "name": "He Zhang"
+            },
+            {
+                "s2_author_id": "46883218",
+                "name": "S. Khan"
+            },
+            {
+                "s2_author_id": "1686452",
+                "name": "B. Jo\u00f3"
+            },
+            {
+                "s2_author_id": "46570850",
+                "name": "Devin Haslam"
+            },
+            {
+                "s2_author_id": "7726197",
+                "name": "D. Gauthier"
+            },
+            {
+                "s2_author_id": "1709486",
+                "name": "N. Dasari"
+            },
+            {
+                "s2_author_id": "9569928",
+                "name": "A. Hofler"
+            },
+            {
+                "s2_author_id": "2061088930",
+                "name": "Cody J. Reeves"
+            },
+            {
+                "s2_author_id": "49885012",
+                "name": "G. Krafft"
+            },
+            {
+                "s2_author_id": "101529909",
+                "name": "J. Benesch"
+            },
+            {
+                "s2_author_id": "5557151",
+                "name": "A. Freyberger"
+            },
+            {
+                "s2_author_id": "2118537391",
+                "name": "Lin Chen"
+            },
+            {
+                "s2_author_id": "2400431",
+                "name": "Mohamed Aturban"
+            },
+            {
+                "s2_author_id": "2259075722",
+                "name": "Fanglei Lin"
+            },
+            {
+                "s2_author_id": "2259266355",
+                "name": "He Zhang"
+            },
+            {
+                "s2_author_id": "145229459",
+                "name": "M. Zubair"
+            },
+            {
+                "s2_author_id": "8238384",
+                "name": "D. Pengelley"
+            },
+            {
+                "s2_author_id": "2280706",
+                "name": "Dong Si"
+            },
+            {
+                "s2_author_id": "46253092",
+                "name": "J. Barnett"
+            },
+            {
+                "s2_author_id": "3024181",
+                "name": "Jerry M. Lodder"
+            },
+            {
+                "s2_author_id": "1794363",
+                "name": "I. Pivkina"
+            },
+            {
+                "s2_author_id": "34903521",
+                "name": "J. Savage"
+            },
+            {
+                "s2_author_id": "2396562",
+                "name": "B. Simon"
+            },
+            {
+                "s2_author_id": "1403491445",
+                "name": "C. Sengupta-Gopalan"
+            },
+            {
+                "s2_author_id": "1931867",
+                "name": "Pavan K. Yelavarthi"
+            },
+            {
+                "s2_author_id": "2816612",
+                "name": "Brian Cloteaux"
+            },
+            {
+                "s2_author_id": "1438311003",
+                "name": "Bindu Vasudevan-Simon"
+            },
+            {
+                "s2_author_id": "3173969",
+                "name": "G. Bezhanishvili"
+            },
+            {
+                "s2_author_id": "145148959",
+                "name": "H. Leung"
+            },
+            {
+                "s2_author_id": "39644484",
+                "name": "Tieming Ji"
+            },
+            {
+                "s2_author_id": "36734342",
+                "name": "J. Curry"
+            },
+            {
+                "s2_author_id": "2059522063",
+                "name": "M. O'Connell"
+            },
+            {
+                "s2_author_id": "2059092800",
+                "name": "Jan"
+            },
+            {
+                "s2_author_id": "1403831343",
+                "name": "K. Gopavarapu"
+            },
+            {
+                "s2_author_id": "143874971",
+                "name": "B. Vasudevan"
+            },
+            {
+                "s2_author_id": "3168252",
+                "name": "J. Jonasson"
+            },
+            {
+                "s2_author_id": "1680599",
+                "name": "K. Villaverde"
+            },
+            {
+                "s2_author_id": "8507705",
+                "name": "A. D. Pal\u00f9"
+            },
+            {
+                "s2_author_id": "1735551",
+                "name": "Enrico Pontelli"
+            },
+            {
+                "s2_author_id": "1750484",
+                "name": "F. Harary"
+            },
+            {
+                "s2_author_id": "2145046295",
+                "name": "Yao Wu"
+            },
+            {
+                "s2_author_id": "2158102297",
+                "name": "Jing He"
+            },
+            {
+                "s2_author_id": "2116484836",
+                "name": "Wen Jiang"
+            },
+            {
+                "s2_author_id": "145770837",
+                "name": "W. Chiu"
+            },
+            {
+                "s2_author_id": "39721889",
+                "name": "M. Schmid"
+            },
+            {
+                "s2_author_id": "1776076",
+                "name": "Tran Cao Son"
+            },
+            {
+                "s2_author_id": "36116278",
+                "name": "B. Milligan"
+            },
+            {
+                "s2_author_id": "144961671",
+                "name": "G. Gupta"
+            },
+            {
+                "s2_author_id": "3256269",
+                "name": "Natsuhiko Futamura"
+            },
+            {
+                "s2_author_id": "143899699",
+                "name": "S. Aluru"
+            },
+            {
+                "s2_author_id": "123882343",
+                "name": "B. Hariharan"
+            },
+            {
+                "s2_author_id": "2218957473",
+                "name": "Hai-Feng Guo"
+            },
+            {
+                "s2_author_id": "1697500",
+                "name": "A. Karshmer"
+            },
+            {
+                "s2_author_id": "152966732",
+                "name": "Juan Raymundo Iglesias"
+            },
+            {
+                "s2_author_id": "30301928",
+                "name": "N. Datta"
+            },
+            {
+                "s2_author_id": "40978063",
+                "name": "O. E. Khatib"
+            },
+            {
+                "s2_author_id": "1726220",
+                "name": "M. Noamany"
+            },
+            {
+                "s2_author_id": "2148929386",
+                "name": "Xinhong Zhou"
+            },
+            {
+                "s2_author_id": "1398658604",
+                "name": "Omar El-Khatib"
+            },
+            {
+                "s2_author_id": "145944286",
+                "name": "D. Rus"
+            },
+            {
+                "s2_author_id": "2812071",
+                "name": "L. Longpr\u00e9"
+            },
+            {
+                "s2_author_id": "2249184866",
+                "name": "Srinivas Aluru"
+            },
+            {
+                "s2_author_id": "2074160311",
+                "name": "Bernd Borchert"
+            },
+            {
+                "s2_author_id": "1699450",
+                "name": "F. Stephan"
+            },
+            {
+                "s2_author_id": "1723255",
+                "name": "T. Asano"
+            },
+            {
+                "s2_author_id": "40543830",
+                "name": "T. Roos"
+            },
+            {
+                "s2_author_id": "1717081",
+                "name": "E. Welzl"
+            },
+            {
+                "s2_author_id": "1692856",
+                "name": "P. Widmayer"
+            },
+            {
+                "s2_author_id": "2546873",
+                "name": "Volker Priebe"
+            },
+            {
+                "s2_author_id": "143750276",
+                "name": "H. J. Hern\u00e1ndez"
+            },
+            {
+                "s2_author_id": "2787882",
+                "name": "D. Tang"
+            },
+            {
+                "s2_author_id": "145982276",
+                "name": "A. Gonz\u00e1lez"
+            },
+            {
+                "s2_author_id": "144705289",
+                "name": "Richard Chang"
+            },
+            {
+                "s2_author_id": "1722541",
+                "name": "B. Chor"
+            },
+            {
+                "s2_author_id": "1707322",
+                "name": "Oded Goldreich"
+            },
+            {
+                "s2_author_id": "1747181",
+                "name": "J. Hartmanis"
+            },
+            {
+                "s2_author_id": "1689438",
+                "name": "J. H\u00e5stad"
+            },
+            {
+                "s2_author_id": "1717108",
+                "name": "P. Rohatgi"
+            },
+            {
+                "s2_author_id": "1698752",
+                "name": "K. Mehlhorn"
+            },
+            {
+                "s2_author_id": "48501908",
+                "name": "C. Thiel"
+            },
+            {
+                "s2_author_id": "144905310",
+                "name": "Suresh Chari"
+            },
+            {
+                "s2_author_id": "1773845",
+                "name": "A. Panconesi"
+            },
+            {
+                "s2_author_id": "2384130845",
+                "name": "HE Jing"
+            }
+        ],
+        "total_co_authors": 120,
+        "papers_retrieved": 126
+    }
+}

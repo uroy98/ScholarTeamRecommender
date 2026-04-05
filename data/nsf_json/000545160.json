@@ -1,0 +1,2392 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000545160",
+        "name": "Kshitij Khare",
+        "primary_affiliation": "University of Florida",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of Florida"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "FL"
+        ],
+        "perf_cities": [
+            "GAINESVILLE"
+        ],
+        "org_names": [
+            "University of Florida"
+        ],
+        "org_ueis": [
+            "NNFQH1JAPEP3"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "kdkhare@stat.ufl.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2506059",
+                "title": "Collaborative Research: CDS&E: Array-Variate Models for Longitudinal Data: Scalable Mixed and Autoregressive Approaches",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-09-01",
+                "exp_date": "2028-08-31",
+                "award_amount": 90000.0,
+                "total_amount": 90000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "STATISTICS"
+                ],
+                "program_codes": [
+                    "126900"
+                ],
+                "program_references": [
+                    "EXP PROG TO STIM COMP RES"
+                ],
+                "program_ref_codes": [
+                    "9150"
+                ],
+                "dir_abbr": "MPS",
+                "div_abbr": "DMS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Mathematical Sciences",
+                "cfda_num": "47.049",
+                "po_name": "John Kolassa",
+                "keywords": [
+                    "biomedical",
+                    "statistical",
+                    "array",
+                    "methods",
+                    "variate",
+                    "models",
+                    "approaches",
+                    "investigators",
+                    "complex",
+                    "datasets"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "STATISTICS"
+        ],
+        "program_codes": [
+            "126900"
+        ],
+        "program_references": [
+            "EXP PROG TO STIM COMP RES"
+        ],
+        "program_ref_codes": [
+            "9150"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "MPS"
+        ],
+        "div_abbrs": [
+            "DMS"
+        ],
+        "fund_divisions": [
+            "Division Of Mathematical Sciences"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.049"
+        ],
+        "program_officers": [
+            "John Kolassa"
+        ],
+        "keywords": [
+            "biomedical",
+            "statistical",
+            "array",
+            "methods",
+            "variate",
+            "models",
+            "approaches",
+            "investigators",
+            "complex",
+            "datasets",
+            "variables",
+            "tools",
+            "graduate",
+            "students",
+            "applications",
+            "dimensional",
+            "longitudinal",
+            "scalable",
+            "mixed",
+            "autoregressive"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.46
+    },
+    "s2_profile": {
+        "s2_author_id": "3241507",
+        "name": "Kshitij Khare",
+        "affiliations": [],
+        "paper_count": 84,
+        "citation_count": 1235,
+        "h_index": 19,
+        "papers": [
+            {
+                "s2_paper_id": "2bd8cc557540252d9d3d9de335afe76cbde3c09c",
+                "title": "Recurrence and transience of a Markov chain on \n$\\mathbb Z$\n + and evaluation of prior distributions for a Poisson mean",
+                "year": 2024,
+                "venue": "Journal of Applied Probability",
+                "citation_count": 0,
+                "reference_count": 16,
+                "abstract": "Abstract Eaton (1992) considered a general parametric statistical model paired with an improper prior distribution for the parameter and proved that if a certain Markov chain, constructed using the model and the prior, is recurrent, then the improper prior is strongly admissible, which (roughly speaking) means that the generalized Bayes estimators derived from the corresponding posterior distribution are admissible. Hobert and Robert (1999) proved that Eaton\u2019s Markov chain is recurrent if and only if its so-called conjugate Markov chain is recurrent. The focus of this paper is a family of Markov chains that contains all of the conjugate chains that arise in the context of a Poisson model paired with an arbitrary improper prior for the mean parameter. Sufficient conditions for recurrence and transience are developed and these are used to establish new results concerning the strong admissibility of non-conjugate improper priors for the Poisson mean.",
+                "authors": [
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5636eb32b8d5437694f8268ec8f7449db39b5c73",
+                "title": "Scalable and non-iterative graphical model estimation",
+                "year": 2024,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 43,
+                "abstract": "Graphical models have found widespread applications in many areas of modern statistics and machine learning. Iterative Proportional Fitting (IPF) and its variants have become the default method for undirected graphical model estimation, and are thus ubiquitous in the field. As the IPF is an iterative approach, it is not always readily scalable to modern high-dimensional data regimes. In this paper we propose a novel and fast non-iterative method for positive definite graphical model estimation in high dimensions, one that directly addresses the shortcomings of IPF and its variants. In addition, the proposed method has a number of other attractive properties. First, we show formally that as the dimension p grows, the proportion of graphs for which the proposed method will outperform the state-of-the-art in terms of computational complexity and performance tends to 1, affirming its efficacy in modern settings. Second, the proposed approach can be readily combined with scalable non-iterative thresholding-based methods for high-dimensional sparsity selection. Third, the proposed method has high-dimensional statistical guarantees. Moreover, our numerical experiments also show that the proposed method achieves scalability without compromising on statistical precision. Fourth, unlike the IPF, which depends on the Gaussian likelihood, the proposed method is much more robust.",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "144468484",
+                        "name": "S. Rahman"
+                    },
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    },
+                    {
+                        "s2_author_id": "2310574006",
+                        "name": "Jiayuan Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "860b6bebc51e1c32f14232e6e5546bf1d0b9f374",
+                "title": "Response Variable Selection in Multivariate Linear Regression",
+                "year": 2024,
+                "venue": "Statistica sinica",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "3191319",
+                        "name": "Zhihua Su"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fd4d7ebb2cc8533ead5344958dec849e04549957",
+                "title": "A Bayesian Framework for Sparse Estimation in High-Dimensional Mixed Frequency Vector Autoregressive Models",
+                "year": 2024,
+                "venue": "Statistica sinica",
+                "citation_count": 3,
+                "reference_count": 25,
+                "abstract": ": The study considers a vector autoregressive model for high-dimensional mixed frequency data, where selective time series are collected at di\ufb00erent frequencies. The high-frequency series are expanded and modeled as multiple time series to match the low-frequency sampling of the corresponding low-frequency series. This leads to an expansion of the parameter space, and poses challenges for estimation and inference in settings with a limited number of observations. We address these challenges by considering speci\ufb01c structural relationships in the representation of the high-frequency series, together with the sparsity of the model parameters by introducing spike-and-Gaussian slab prior distributions. In contrast to existing observation-driven methods, the proposed Bayesian approach accommodates general sparsity patterns, and makes a data-driven choice of them. Under certain regularity conditions, we establish the consistency for the posterior distribution under high-dimensional scaling. Applications to synthetic and real data illustrate the e\ufb03cacy of the resulting estimates and corresponding credible intervals.",
+                "authors": [
+                    {
+                        "s2_author_id": "145688771",
+                        "name": "Nilanjana Chakraborty"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1742426",
+                        "name": "G. Michailidis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "80db947fe41a3bf929eb3fed561fd1f9bc38fdc7",
+                "title": "Estimation of Gaussian directed acyclic graphs using partial ordering information with applications to DREAM3 networks and dairy cattle data",
+                "year": 2023,
+                "venue": "Annals of Applied Statistics",
+                "citation_count": 2,
+                "reference_count": 57,
+                "abstract": "Estimating a directed acyclic graph (DAG) from observational data represents a canonical learning problem and has generated a lot of interest in recent years. Research has focused mostly on the following two cases: when no information regarding the ordering of the nodes in the DAG is available, and when a domain-speci\ufb01c complete ordering of the nodes is available. In this paper, motivated by a recent application in dairy science, we develop a method for DAG estimation for the middle scenario, where partition based partial ordering of the nodes is known based on domain-speci\ufb01c knowledge. We develop an e\ufb03cient algorithm that solves the posited problem, coined Partition-DAG. Through extensive simulations using the DREAM3 Yeast networks, we illustrate that Partition-DAG e\ufb00ectively incorporates the partial ordering information to improve both speed and accuracy. We then illustrate the usefulness of Partition-DAG by applying it to recently collected dairy cattle data, and inferring relationships between various variables involved in dairy agroecosystems.",
+                "authors": [
+                    {
+                        "s2_author_id": "144468484",
+                        "name": "S. Rahman"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1742426",
+                        "name": "G. Michailidis"
+                    },
+                    {
+                        "s2_author_id": "2105895816",
+                        "name": "C. Mart\u0301\u0131nez"
+                    },
+                    {
+                        "s2_author_id": "7159306",
+                        "name": "J. Carulla"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8de0d6e1de7ec7ac64ca5c3dad73a5b6a6e23da4",
+                "title": "Posterior consistency in multi-response regression models with non-informative priors for the error covariance matrix in growing dimensions",
+                "year": 2023,
+                "venue": "Bernoulli",
+                "citation_count": 2,
+                "reference_count": 35,
+                "abstract": "The Inverse-Wishart (IW) distribution is a standard and popular choice of priors for covariance matrices and has attractive properties such as conditional conjugacy. However, the IW family of priors has crucial drawbacks, including the lack of effective choices for non-informative priors. Several classes of priors for covariance matrices that alleviate these drawbacks, while preserving computational tractability, have been proposed in the literature. These priors can be obtained through appropriate scale mixtures of IW priors. However, in the era of increasing dimensionality, the posterior consistency of models that incorporate such priors has not been investigated. We address this issue for the multi-response regression setting ($q$ responses, $n$ samples) under a wide variety of IW scale mixture priors for the error covariance matrix. Posterior consistency and contraction rates for both the regression coefficient matrix and the error covariance matrix are established in the ``large $q$, large $n$'' setting under mild assumptions on the true data-generating covariance matrix and relevant hyperparameters. In particular, the number of responses $q_n$ is allowed to grow with $n$, but with $q_n = o(n)$. Also, some results related to the inconsistency of the posterior distribution and posterior mean for $q_n/n \\to \\gamma$, where $\\gamma \\in (0,\\infty)$ are provided.",
+                "authors": [
+                    {
+                        "s2_author_id": "2205201947",
+                        "name": "Partha Sarkar"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "143676590",
+                        "name": "M. Ghosh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e6dec982d198c7cdc784dd8b7585208c83177e3d",
+                "title": "The Bayesian nested lasso for mixed frequency regression models",
+                "year": 2023,
+                "venue": "Annals of Applied Statistics",
+                "citation_count": 0,
+                "reference_count": 40,
+                "abstract": "Even though many time series are sampled at di\ufb00erent frequencies, their joint evolution is usually modeled and analyzed at a common low frequency. The Mixed Data Sampling (MIDAS) framework was developed to enable joint modeling of mixed frequency tempo-rally evolving data, with GDP forecasting as a key motivating application. In this paper, we develop a fully Bayesian method to jointly estimate both the appropriate lag, as well as the regression coe\ufb03cients in linear models wherein the response is measured at a lower frequency than the predictors. This is accomplished through a novel prior distribution, coined the Bayesian Nested Lasso (BNL), that leads to principled selection of the lag of the predictors, reduces the e\ufb00ective number of model parameters through sparsity induced by the lasso component and \ufb01nally incorporates desirable decay patterns over time lags in the magnitude of the corresponding regression coe\ufb03cients. Further, it is easy to obtain samples from the posterior distribution due to the closed form expressions for the conditional distributions of the model parameters. Numerical results obtained from synthetic and macroeconomic data illustrate the good performance of the proposed Bayesian framework in parameter selection and estimation, and in the key task of GDP forecasting. How-ever, more timely and frequent forecasts would be highly bene\ufb01cial to both policy makers (central bankers, treasury o\ufb03cials) and other \ufb01nancial market participants.",
+                "authors": [
+                    {
+                        "s2_author_id": "152709643",
+                        "name": "Satyajit Ghosh"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1742426",
+                        "name": "G. Michailidis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4b9b2bebb3f102b5ad975a2d99e4f2f46abbffc4",
+                "title": "An epigenetic small molecule screen to target abnormal nuclear morphology in human cells",
+                "year": 2022,
+                "venue": "Molecular Biology of the Cell",
+                "citation_count": 7,
+                "reference_count": 30,
+                "abstract": "Irregular nuclear shapes are a hallmark of human cancers. Recent studies suggest that alterations to chromatin regulators may cause irregular nuclear morphologies. Here we screened an epigenetic small molecule library consisting of 145 compounds against chromatin regulators for their ability to revert abnormal nuclear shapes that were induced by gene knockdown in noncancerous MCF10A human mammary breast epithelial cells. We leveraged a previously validated quantitative Fourier approach to quantify the elliptical Fourier coefficient (EFC ratio) as a measure of nuclear irregularities, which allowed us to perform rigorous statistical analyses of screening data. Top hit compounds fell into three major mode of action categories, targeting three separate epigenetic modulation routes: 1) histone deacetylase inhibitors, 2) bromodomain and extraterminal domain protein inhibitors, and 3) methyl-transferase inhibitors. Some of the top hit compounds were also efficacious in reverting nuclear irregularities in MDA-MB-231 triple negative breast cancer cells and in PANC-1 pancreatic cancer cells in a cell-type-dependent manner. Regularization of nuclear shapes was compound-specific, cell-type specific, and dependent on the specific molecular perturbation that induced nuclear irregularities. Our approach of targeting nuclear abnormalities may be potentially useful in screening new types of cancer therapies targeted toward chromatin structure.",
+                "authors": [
+                    {
+                        "s2_author_id": "5895720",
+                        "name": "K. Atanasova"
+                    },
+                    {
+                        "s2_author_id": "152414828",
+                        "name": "Saptarshi Chakraborty"
+                    },
+                    {
+                        "s2_author_id": "144090073",
+                        "name": "R. Ratnayake"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "4411567",
+                        "name": "H. Luesch"
+                    },
+                    {
+                        "s2_author_id": "3139952",
+                        "name": "T. Lele"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7c247467b878676aa563ae5b3c7c994d36e17f96",
+                "title": "A generalized likelihood-based Bayesian approach for scalable joint regression and covariance selection in high dimensions",
+                "year": 2022,
+                "venue": "Statistics and computing",
+                "citation_count": 9,
+                "reference_count": 36,
+                "abstract": "The paper addresses joint sparsity selection in the regression coefficient matrix and the error precision (inverse covariance) matrix for high-dimensional multivariate regression models in the Bayesian paradigm. The selected sparsity patterns are crucial to help understand the network of relationships between the predictor and response variables, as well as the conditional relationships among the latter. While Bayesian methods have the advantage of providing natural uncertainty quantification through posterior inclusion probabilities and credible intervals, current Bayesian approaches either restrict to specific sub-classes of sparsity patterns and/or are not scalable to settings with hundreds of responses and predictors. Bayesian approaches that only focus on estimating the posterior mode are scalable, but do not generate samples from the posterior distribution for uncertainty quantification. Using a bi-convex regression-based generalized likelihood and spike-and-slab priors, we develop an algorithm called joint regression network selector (JRNS) for joint regression and covariance selection, which (a) can accommodate general sparsity patterns, (b) provides posterior samples for uncertainty quantification, and (c) is scalable and orders of magnitude faster than the state-of-the-art Bayesian approaches providing uncertainty quantification. We demonstrate the statistical and computational efficacy of the proposed approach on synthetic data and through the analysis of selected cancer data sets. We also establish high-dimensional posterior consistency for one of the developed algorithms.",
+                "authors": [
+                    {
+                        "s2_author_id": "2058380817",
+                        "name": "Srijata Samanta"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1742426",
+                        "name": "G. Michailidis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cc1c134ec01da7fd6bcb54dcd7739d414c726249",
+                "title": "MCMC Convergence for Global-Local Shrinkage Priors",
+                "year": 2022,
+                "venue": "Journal of Quantitative Economics",
+                "citation_count": 0,
+                "reference_count": 72,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "143676590",
+                        "name": "M. Ghosh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05fd6724d2103421473aa1169323db00c79efb39",
+                "title": "Strong selection consistency of Bayesian vector autoregressive models based on a pseudo-likelihood approach",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 15,
+                "reference_count": 35,
+                "abstract": "Vector autoregressive (VAR) models aim to capture linear temporal interdependencies among multiple time series. They have been widely used in macroeconomics and financial econometrics and more recently have found novel applications in functional genomics and neuroscience. These applications have also accentuated the need to investigate the behavior of the VAR model in a high dimensional regime, which will provide novel insights into the role of temporal dependence for regularized estimates of the models parameters. However, hardly anything is known regarding posterior model selection consistency for Bayesian VAR models in such regimes. In this work, we develop a pseudo-likelihood based Bayesian approach for consistent variable selection in high dimensional VAR models by considering hierarchical normal priors on the autoregressive coefficients, as well as on the model space. We establish strong selection consistency of the proposed method, namely that the posterior probability assigned to the true underlying VAR model converges to one under high-dimensional scaling where the dimension p of the VAR system grows nearly exponentially with the sample size n. Further, the result is established under mild regularity conditions on the problem parameters. Finally, as a by-product of these results, we also establish strong selection consistency for the sparse highdimensional linear regression model with serially correlated regressors and errors.",
+                "authors": [
+                    {
+                        "s2_author_id": "152709643",
+                        "name": "Satyajit Ghosh"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1742426",
+                        "name": "G. Michailidis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39c4ab1ce6653bd9b638b974ff4fdf35b859e570",
+                "title": "Estimating accuracy of the MCMC variance estimator: Asymptotic normality for batch means estimators",
+                "year": 2021,
+                "venue": "Statistics and Probability Letters",
+                "citation_count": 8,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2550163",
+                        "name": "Saptarshi Chakraborty"
+                    },
+                    {
+                        "s2_author_id": "2153403090",
+                        "name": "S. K. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "70663c8f6f391e06cda7357798b7cc7f6320fe8a",
+                "title": "Convergence properties of data augmentation algorithms for high-dimensional robit regression",
+                "year": 2021,
+                "venue": "Electronic Journal of Statistics",
+                "citation_count": 2,
+                "reference_count": 18,
+                "abstract": "Abstract: The logistic and probit link functions are the most common choices for regression models with a binary response. However, these choices are not robust to the presence of outliers/unexpected observations. The robit link function, which is equal to the inverse CDF of the Student\u2019s t-distribution, provides a robust alternative to the probit and logistic link functions. A multivariate normal prior for the regression coefficients is the standard choice for Bayesian inference in robit regression models. The resulting posterior density is intractable and a Data Augmentation (DA) Markov chain is used to generate approximate samples from the desired posterior distribution. Establishing geometric ergodicity for this DA Markov chain is important as it provides theoretical guarantees for asymptotic validity of MCMC standard errors for desired posterior expectations/quantiles. Previous work [1] established geometric ergodicity of this robit DA Markov chain assuming (i) the sample size n dominates the number of predictors p, and (ii) an additional constraint which requires the sample size to be bounded above by a fixed constant which depends on the design matrix X. In particular, modern highdimensional settings where n < p are not considered. In this work, we show that the robit DA Markov chain is trace-class (i.e., the eigenvalues of the corresponding Markov operator are summable) for arbitrary choices of the sample size n, the number of predictors p, the design matrix X, and the prior mean and variance parameters. The trace-class property implies geometric ergodicity. Moreover, this property allows us to conclude that the sandwich robit chain (obtained by inserting an inexpensive extra step in between the two steps of the DA chain) is strictly better than the robit DA chain in an appropriate sense, and enables the use of recent methods to estimate the spectral gap of trace class DA Markov chains.",
+                "authors": [
+                    {
+                        "s2_author_id": "2153291816",
+                        "name": "Sourav Mukherjee"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "2146373938",
+                        "name": "Saptarshi Chakraborty Department of Statistics"
+                    },
+                    {
+                        "s2_author_id": "88740970",
+                        "name": "U. Florida"
+                    },
+                    {
+                        "s2_author_id": "89065716",
+                        "name": "D. Biostatistics"
+                    },
+                    {
+                        "s2_author_id": "103293169",
+                        "name": "State University of New York at Buffalo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b31ec012593a6f74b830d251a4d5a6a1a519afb1",
+                "title": "Geometric ergodicity of Gibbs samplers for the Horseshoe and its regularized variants",
+                "year": 2021,
+                "venue": "Electronic Journal of Statistics",
+                "citation_count": 8,
+                "reference_count": 22,
+                "abstract": "The Horseshoe is a widely used and popular continuous shrinkage prior for high-dimensional Bayesian linear regression. Recently, regularized versions of the Horseshoe prior have also been introduced in the literature. Various Gibbs sampling Markov chains have been developed in the literature to generate approximate samples from the corresponding intractable posterior densities. Establishing geometric ergodicity of these Markov chains provides crucial technical justification for the accuracy of asymptotic standard errors for Markov chain based estimates of posterior quantities. In this paper, we establish geometric ergodicity for various Gibbs samplers corresponding to the Horseshoe prior and its regularized variants in the context of linear regression. First, we establish geometric ergodicity of a Gibbs sampler for the original Horseshoe posterior under strictly weaker conditions than existing analyses in the literature. Second, we consider the regularized Horseshoe prior introduced in Piironen and Vehtari (2017), and prove geometric ergodicity for a Gibbs sampling Markov chain to sample from the corresponding posterior without any truncation constraint on the global and local shrinkage parameters. Finally, we consider a variant of this regularized Horseshoe prior introduced in Nishimura and Suchard (2020), and again establish geometric ergodicity for a Gibbs sampling Markov chain to sample from the corresponding posterior.",
+                "authors": [
+                    {
+                        "s2_author_id": "2153403090",
+                        "name": "S. K. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "32053762",
+                        "name": "Subhadip Pal"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "da91a325fbefebeaabc46ac8b400c4e2e60a329b",
+                "title": "Asynchronous and Distributed Data Augmentation for Massive Data Settings",
+                "year": 2021,
+                "venue": "Journal of Computational And Graphical Statistics",
+                "citation_count": 4,
+                "reference_count": 72,
+                "abstract": "Abstract Data augmentation (DA) algorithms are slow in massive data settings due to multiple passes through the entire data. We address this problem by developing a DA extension that exploits asynchronous and distributed computing. The extended DA algorithm is called Asynchronous and Distributed (AD) DA with the original DA as its parent. Any ADDA is indexed by a parameter r\u2208(0,1) and starts by dividing the entire data into k disjoint subsets and storing them on k processes. Every iteration of ADDA augments only an r-fraction of the k data subsets with some positive probability and leaves the remaining (1\u2212r)-fraction of the augmented data unchanged. The parameter draws are obtained using the r-fraction of new and (1\u2212r)-fraction of old augmented data. We show that the ADDA Markov chain is Harris ergodic with the desired stationary distribution under mild conditions on the parent DA algorithm. We demonstrate that ADDA is significantly faster than its parent for many (k, r) choices in three representative models. We also establish the geometric ergodicity of the ADDA Markov chain for all the three models, which yields asymptotically valid standard errors for estimates of desired posterior quantities. Supplementary materials for this article are available online.",
+                "authors": [
+                    {
+                        "s2_author_id": "2310574006",
+                        "name": "Jiayuan Zhou"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "3147744",
+                        "name": "Sanvesh Srivastava"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dd7dd806ac7dc86590eb326a1f5b2f5768dfdb68",
+                "title": "B-CONCORD -- A scalable Bayesian high-dimensional precision matrix estimation procedure",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 39,
+                "abstract": "Sparse estimation of the precision matrix under high-dimensional scaling constitutes a canonical problem in statistics and machine learning. Numerous regression and likelihood based approaches, many frequentist and some Bayesian in nature have been developed. Bayesian methods provide direct uncertainty quantification of the model parameters through the posterior distribution and thus do not require a second round of computations for obtaining debiased estimates of the model parameters and their confidence intervals. However, they are computationally expensive for settings involving more than 500 variables. To that end, we develop B-CONCORD for the problem at hand, a Bayesian analogue of the CONvex CORrelation selection methoD (CONCORD) introduced by Khare et al. (2015). B-CONCORD leverages the CONCORD generalized likelihood function together with a spike-and-slab prior distribution to induce sparsity in the precision matrix parameters. We establish model selection and estimation consistency under high-dimensional scaling; further, we develop a procedure that refits only the non-zero parameters of the precision matrix, leading to significant improvements in the estimates in finite samples. Extensive numerical work illustrates the computational scalability of the proposed approach vis-a-vis competing Bayesian methods, as well as its accuracy.",
+                "authors": [
+                    {
+                        "s2_author_id": "9778298",
+                        "name": "P. Jalali"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1742426",
+                        "name": "G. Michailidis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "18d1942d913c611b61a12987a03c39c441c73a24",
+                "title": "Estimating accuracy of the MCMC variance estimator: a central limit theorem for batch means estimators",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 34,
+                "abstract": "The batch means estimator of the MCMC variance is a simple and effective measure of accuracy for MCMC based ergodic averages. Under various regularity conditions, the estimator has been shown to be consistent for the true variance. However, the estimator can be unstable in practice as it depends directly on the raw MCMC output. A measure of accuracy of the batch means estimator itself, ideally in the form of a confidence interval, is therefore desirable. The asymptotic variance of the batch means estimator is known; however, without any knowledge of asymptotic distribution, asymptotic variances are in general insufficient to describe variability. In this article we prove a central limit theorem for the batch means estimator that allows for the construction of asymptotically accurate confidence intervals for the batch means estimator. Additionally, our results provide a Markov chain analogue of the classical CLT for the sample variance parameter for i.i.d. observations. Our result assumes standard regularity conditions similar to the ones assumed in the literature for proving consistency. Simulated and real data examples are included as illustrations and applications of the CLT.",
+                "authors": [
+                    {
+                        "s2_author_id": "152414828",
+                        "name": "Saptarshi Chakraborty"
+                    },
+                    {
+                        "s2_author_id": "2153403090",
+                        "name": "S. K. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2ba2c62facbbfb6a689cd3bb62b25d2bbfd44f3e",
+                "title": "Consistent Bayesian sparsity selection for high-dimensional Gaussian DAG models with multiplicative and beta-mixture priors",
+                "year": 2019,
+                "venue": "Journal of Multivariate Analysis",
+                "citation_count": 8,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47300915",
+                        "name": "Xuan Cao"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "143676590",
+                        "name": "M. Ghosh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3362bde3804e91b5457d71468ed6158540b9225f",
+                "title": "High\u2010dimensional covariance estimation for Gaussian directed acyclic graph models with given order",
+                "year": 2019,
+                "venue": "WIREs Computational Statistics",
+                "citation_count": 0,
+                "reference_count": 19,
+                "abstract": "The covariance matrix is a fundamental quantity that helps us understand the nature of relationships among variables in a multivariate data set. Estimating the covariance matrix can be challenging in modern applications where the number of variables is often larger than the number of samples. In this paper, we review methods which tackle this challenge by inducing sparsity in the Cholesky parameter of the inverse covariance matrix.",
+                "authors": [
+                    {
+                        "s2_author_id": "2110030882",
+                        "name": "Jerome Taylor"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39bf7b699527a30ecd58378a5730cf30b63a5d29",
+                "title": "Estimation of Gaussian directed acyclic graphs using partial ordering information with an application to dairy cattle data",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 33,
+                "abstract": "Estimating a directed acyclic graph (DAG) from observational data represents a canonical learning problem and has generated a lot of interest in recent years. Research has focused mostly on the following two cases: when no information regarding the ordering of the nodes in the DAG is available, and when a domain-specific complete ordering of the nodes is available. In this paper, motivated by a recent application in dairy science, we develop a method for DAG estimation for the middle scenario, where partition based partial ordering of the nodes is known based on domain specific knowledge.We develop an efficient algorithm that solves the posited problem, coined Partition-DAG. Through extensive simulations using the DREAM3 Yeast data, we illustrate that Partition-DAG effectively incorporates the partial ordering information to improve both speed and accuracy. We then illustrate the usefulness of Partition-DAG by applying it to recently collected dairy cattle data, and inferring relationships between various variables involved in dairy agroecosystems.",
+                "authors": [
+                    {
+                        "s2_author_id": "144468484",
+                        "name": "S. Rahman"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1742426",
+                        "name": "G. Michailidis"
+                    },
+                    {
+                        "s2_author_id": "2105895816",
+                        "name": "C. Mart\u0301\u0131nez"
+                    },
+                    {
+                        "s2_author_id": "7159306",
+                        "name": "J. Carulla"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cf6c92bcc9c41055efaf936e4d32f7e9cc0e68c0",
+                "title": "A Bayesian Approach to Joint Estimation of Multiple Graphical Models.",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 27,
+                "abstract": "The problem of joint estimation of multiple graphical models from high dimensional data has been studied in the statistics and machine learning literature, due to its importance in diverse fields including molecular biology, neuroscience and the social sciences. This work develops a Bayesian approach that decomposes the model parameters across the multiple graphical models into shared components across subsets of models and edges, and idiosyncratic ones. Further, it leverages a novel multivariate prior distribution, coupled with a pseudo-likelihood that enables fast computations through a robust and efficient Gibbs sampling scheme. We establish strong posterior consistency for model selection, as well as estimation of model parameters under high dimensional scaling with the number of variables growing exponentially with the sample size. The efficacy of the proposed approach is illustrated on both synthetic and real data. \nKeywords: Pseudo-likelihood, Gibbs sampling, posterior consistency, Omics data",
+                "authors": [
+                    {
+                        "s2_author_id": "9778298",
+                        "name": "P. Jalali"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1742426",
+                        "name": "G. Michailidis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1528bfa6bc35d1afc5c8a741c55df3b2a87b710",
+                "title": "A scalable sparse Cholesky based approach for learning high-dimensional covariance matrices in ordered data",
+                "year": 2019,
+                "venue": "Machine-mediated learning",
+                "citation_count": 21,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "103048024",
+                        "name": "Sang-Yun Oh"
+                    },
+                    {
+                        "s2_author_id": "144468484",
+                        "name": "S. Rahman"
+                    },
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4ff0e0f244d6735b776ec13b6eee314721121202",
+                "title": "A Hybrid Alternative to Gibbs Sampling for Bayesian Latent Variable Models",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "89394269",
+                        "name": "Grant Backlund"
+                    },
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    },
+                    {
+                        "s2_author_id": "51256378",
+                        "name": "Yeun Ji Jung"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "771a563cec6da603babfdea0991e3a2049db562b",
+                "title": "Convergence Analysis of MCMC Algorithms for Bayesian Multivariate Linear Regression with Non\u2010Gaussian Errors",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    },
+                    {
+                        "s2_author_id": "51256378",
+                        "name": "Yeun Ji Jung"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "50086651",
+                        "name": "Qian Qin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8cc4287647121d01c84cbcaaf982b0420be42d73",
+                "title": "A Hybrid Scan Gibbs Sampler for Bayesian Models with Latent Variables",
+                "year": 2018,
+                "venue": "Statistical Science",
+                "citation_count": 2,
+                "reference_count": 35,
+                "abstract": "Gibbs sampling is a widely popular Markov chain Monte Carlo algorithm that can be used to analyze intractable posterior distributions associated with Bayesian hierarchical models. There are two standard versions of the Gibbs sampler: The systematic scan (SS) version, where all variables are updated at each iteration, and the random scan (RS) version, where a single, randomly selected variable is updated at each iteration. The literature comparing the theoretical properties of SS and RS Gibbs samplers is reviewed, and an alternative hybrid scan Gibbs sampler is introduced, which is particularly well suited to Bayesian models with latent variables. The word \"hybrid\" reflects the fact that the scan used within this algorithm has both systematic and random elements. Indeed, at each iteration, one updates the entire set of latent variables, along with a randomly chosen block of the remaining variables. The hybrid scan (HS) Gibbs sampler has important advantages over the two standard scan Gibbs samplers. Firstly, the HS algorithm is often easier to analyze from a theoretical standpoint. In particular, it can be much easier to establish the geometric ergodicity of a HS Gibbs Markov chain than to do the same for the corresponding SS and RS versions. Secondly, the sandwich methodology developed in Hobert and Marchev (2008), which is also reviewed, can be applied to the HS Gibbs algorithm (but not to the standard scan Gibbs samplers). It is shown that, under weak regularity conditions, adding sandwich steps to the HS Gibbs sampler always results in a theoretically superior algorithm. Three specific Bayesian hierarchical models of varying complexity are used to illustrate the results. One is a simple location-scale model for data from the Student's $t$ distribution, which is used as a pedagogical tool. The other two are sophisticated, yet practical Bayesian regression models.",
+                "authors": [
+                    {
+                        "s2_author_id": "89394269",
+                        "name": "Grant Backlund"
+                    },
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    },
+                    {
+                        "s2_author_id": "51256378",
+                        "name": "Yeun Ji Jung"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c8d6449e0c6c63301567222874e7a50df2d0d4f2",
+                "title": "Uncertainty Quantification for Modern High-Dimensional Regression via Scalable Bayesian Methods",
+                "year": 2018,
+                "venue": "Journal of Computational And Graphical Statistics",
+                "citation_count": 13,
+                "reference_count": 47,
+                "abstract": "ABSTRACT Tremendous progress has been made in the last two decades in the area of high-dimensional regression, especially in the \u201clarge p, small n\u201d setting. Such sample starved settings inevitably lead to models which are potentially very unstable and hence quite unreliable. To this end, Bayesian shrinkage methods have generated a lot of recent interest in the modern high-dimensional regression and model selection context. Such methods span the wide spectrum of modern regression approaches and include among others, spike-and-slab priors, the Bayesian lasso, ridge regression, and global-local shrinkage priors such as the Horseshoe prior and the Dirichlet\u2013Laplace prior. These methods naturally facilitate tractable uncertainty quantification and have thus been used extensively across diverse applications. A common unifying feature of these models is that the corresponding priors on the regression coefficients can be expressed as a scale mixture of normals. This property has been leveraged extensively to develop various three-step Gibbs samplers to explore the corresponding intractable posteriors. The convergence of such samplers however is very slow in high dimensions settings, making them disconnected to the very setting that they are intended to work in. To address this challenge, we propose a comprehensive and unifying framework to draw from the same family of posteriors via a class of tractable and scalable two-step blocked Gibbs samplers. We demonstrate that our proposed class of two-step blocked samplers exhibits vastly superior convergence behavior compared to the original three-step sampler in high-dimensional regimes on simulated data as well as data from a variety of applications including gene expression data, infrared spectroscopy data, and socio-economic/law enforcement data. We also provide a detailed theoretical underpinning to the new method by deriving explicit upper bounds for the (geometric) rate of convergence, and by proving that the proposed two-step sampler has superior spectral properties. Supplementary material for this article is available online.",
+                "authors": [
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    },
+                    {
+                        "s2_author_id": "51438117",
+                        "name": "Doug Sparks"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "2108871727",
+                        "name": "Liyuan Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d1cdcdb40a4cf87726265919a7327d563019c250",
+                "title": "Trace class Markov chains for the Normal-Gamma Bayesian shrinkage model",
+                "year": 2018,
+                "venue": "Electronic Journal of Statistics",
+                "citation_count": 5,
+                "reference_count": 36,
+                "abstract": "High-dimensional data, where the number of variables exceeds or is comparable to the sample size, is now pervasive in many scientific applications. In recent years, Bayesian shrinkage models have been developed as effective and computationally feasible tools to analyze such data, especially in the context of linear regression. In this paper, we focus on the Normal-Gamma shrinkage model developed by Griffin and Brown. This model subsumes the popular Bayesian lasso model, and a three-block Gibbs sampling algorithm to sample from the resulting intractable posterior distribution has been developed by Griffin and Brown. We consider an alternative two-block Gibbs sampling algorithm and rigorously demonstrate its advantage over the three-block sampler by comparing specific spectral properties. In particular, we show that the Markov operator corresponding to the two-block sampler is trace class (and hence Hilbert-Schmidt), whereas the operator corresponding to the three-block sampler is not even Hilbert-Schmidt. The trace class property for the two-block sampler implies geometric convergence for the associated Markov chain, which justifies the use of Markov chain CLT's to obtain practical error bounds for MCMC based estimates. Additionally, it facilitates theoretical comparisons of the two-block sampler with sandwich algorithms which aim to improve performance by inserting inexpensive extra steps in between the two conditional draws of the two-block sampler.",
+                "authors": [
+                    {
+                        "s2_author_id": "2116775766",
+                        "name": "Liyuan Zhang"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f009b2692bfc2f41e3f82283de1c97c8f4f4486b",
+                "title": "High-Dimensional Posterior Consistency in Bayesian Vector Autoregressive Models",
+                "year": 2018,
+                "venue": "Journal of the American Statistical Association",
+                "citation_count": 53,
+                "reference_count": 35,
+                "abstract": "ABSTRACT Vector autoregressive (VAR) models aim to capture linear temporal interdependencies among multiple time series. They have been widely used in macroeconomics and financial econometrics and more recently have found novel applications in functional genomics and neuroscience. These applications have also accentuated the need to investigate the behavior of the VAR model in a high-dimensional regime, which provides novel insights into the role of temporal dependence for regularized estimates of the model\u2019s parameters. However, hardly anything is known regarding properties of the posterior distribution for Bayesian VAR models in such regimes. In this work, we consider a VAR model with two prior choices for the autoregressive coefficient matrix: a nonhierarchical matrix-normal prior and a hierarchical prior, which corresponds to an arbitrary scale mixture of normals. We establish posterior consistency for both these priors under standard regularity assumptions, when the dimension p of the VAR model grows with the sample size n (but still remains smaller than n). A special case corresponds to a shrinkage prior that introduces (group) sparsity in the columns of the model coefficient matrices. The performance of the model estimates are illustrated on synthetic and real macroeconomic datasets. Supplementary materials for this article are available online.",
+                "authors": [
+                    {
+                        "s2_author_id": "152709643",
+                        "name": "Satyajit Ghosh"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1742426",
+                        "name": "G. Michailidis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "029fe5973d284a7e9e5537ad3544300f4ac26903",
+                "title": "BIBI: Bayesian inference of breed composition",
+                "year": 2017,
+                "venue": "Journal of animal breeding and genetics = Zeitschrift fur Tierzuchtung und Zuchtungsbiologie",
+                "citation_count": 3,
+                "reference_count": 31,
+                "abstract": "The aim of this paper was to develop statistical models to estimate individual breed composition based on the previously proposed idea of regressing discrete random variables corresponding to counts of reference alleles of biallelic molecular markers located across the genome on the allele frequencies of each marker in the pure (base) breeds. Some of the existing regression-based methods do not guarantee that estimators of breed composition will lie in the appropriate parameter space, and none of them account for uncertainty about allele frequencies in the pure breeds, that is, uncertainty about the design matrix. To overcome these limitations, we proposed two Bayesian generalized linear models. For each individual, both models assume that the counts of the reference allele at each marker locus follow independent Binomial distributions, use the logit link and pose a Dirichlet prior over the vector of regression coefficients (which corresponds to breed composition). This prior guarantees that point estimators of breed composition such as the posterior mean pertain to the appropriate space. The difference between these models is that model termed BIBI does not account for uncertainty about the design matrix, while model termed BIBI2 accounts for such an uncertainty by assigning independent Beta priors to the entries of this matrix. We implemented these models in a data set from the University of Florida's multibreed Angus-Brahman population. Posterior means were used as point estimators of breed composition. In addition, the ordinary least squares estimator proposed by Kuehn et\u00a0al. () (OLSK) was also computed. BIBI and BIBI2 estimated breed composition more accurately than OLSK, and BIBI2 had a 7.69% improvement in accuracy as compared to BIBI.",
+                "authors": [
+                    {
+                        "s2_author_id": "2105899091",
+                        "name": "C. Mart'inez"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "3771194",
+                        "name": "M. Elzo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "174b4fde729df1fd6e718c11be3046c37f1da47b",
+                "title": "A Bayesian approach for envelope models",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 44,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "32053762",
+                        "name": "Subhadip Pal"
+                    },
+                    {
+                        "s2_author_id": "3191319",
+                        "name": "Zhihua Su"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1bf3909290cb41c797fc10d7cc82fa723fc29cbb",
+                "title": "Tautomeric equilibria of isoguanine and related purine analogs",
+                "year": 2017,
+                "venue": "Nucleosides, Nucleotides & Nucleic Acids",
+                "citation_count": 11,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "15501140",
+                        "name": "N. Karalkar"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "9004819",
+                        "name": "Robert W. Molt"
+                    },
+                    {
+                        "s2_author_id": "39873024",
+                        "name": "S. Benner"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5748631a18a9792b66354fcb60e5378edaeb2f8b",
+                "title": "Algorithms for improving efficiency of discrete Markov chains",
+                "year": 2017,
+                "venue": "Indian journal of pure and applied mathematics",
+                "citation_count": 0,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "47611850",
+                        "name": "Nabanita Mukherjee"
+                    },
+                    {
+                        "s2_author_id": "144898907",
+                        "name": "G. Casella"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "595fc6dfd9a07079b66362266ba5d1b1b48739e8",
+                "title": "Consistent estimation of the spectrum of trace class Data Augmentation algorithms",
+                "year": 2017,
+                "venue": "Bernoulli",
+                "citation_count": 7,
+                "reference_count": 48,
+                "abstract": "Markov chain Monte Carlo is widely used in a variety of scientific applications to generate approximate samples from intractable distributions. A thorough understanding of the convergence and mixing properties of these Markov chains can be obtained by studying the spectrum of the associated Markov operator. While several methods to bound/estimate the second largest eigenvalue are available in the literature, very few general techniques for consistent estimation of the entire spectrum have been proposed. Existing methods for this purpose require the Markov transition density to be available in closed form, which is often not true in practice, especially in modern statistical applications. In this paper, we propose a novel method to consistently estimate the entire spectrum of a general class of Markov chains arising from a popular and widely used statistical approach known as Data Augmentation. The transition densities of these Markov chains can often only be expressed as intractable integrals. We illustrate the applicability of our method using real and simulated data.",
+                "authors": [
+                    {
+                        "s2_author_id": "152414828",
+                        "name": "Saptarshi Chakraborty"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "64a92dbb1d55f8ec02815c398dbf6c2be942c8ac",
+                "title": "Scalable Bayesian shrinkage and uncertainty quantification in high-dimensional regression",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 39,
+                "abstract": "Bayesian shrinkage methods have generated a lot of recent interest as tools for high-dimensional regression and model selection. These methods naturally facilitate tractable uncertainty quantification and incorporation of prior information. This benefit has led to extensive use of the Bayesian shrinkage methods across diverse applications. A common feature of these models is that the corresponding priors on the regression coefficients can be expressed as scale mixture of normals. While the three-step Gibbs sampler used to sample from the often intractable associated posterior density has been shown to be geometrically ergodic for several of these models, it has been demonstrated recently that convergence of this sampler can still be quite slow in modern high-dimensional settings despite this apparent theoretical safeguard. We propose a new method to draw from the same posterior via a tractable two-step blocked Gibbs sampler. We demonstrate that our proposed two-step blocked sampler exhibits vastly superior convergence behavior compared to the original three-step sampler in high-dimensional regimes on both real and simulated data. We also provide a detailed theoretical underpinning to the new method in the context of the Bayesian lasso. First, we prove that the proposed two-step sampler is geometrically ergodic, and derive explicit upper bounds for the (geometric) rate of convergence. Furthermore, we demonstrate theoretically that while the original Bayesian lasso chain is not Hilbert-Schmidt, the proposed chain is trace class (and hence Hilbert-Schmidt). The trace class property implies that the corresponding Markov operator is compact, and its (countably many) eigenvalues are summable. It also facilitates a rigorous comparison of the two-step blocked chain with \"sandwich\" algorithms which aim to improve performance of the two-step chain by inserting an inexpensive extra step.",
+                "authors": [
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    },
+                    {
+                        "s2_author_id": "51438117",
+                        "name": "Doug Sparks"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "2108871727",
+                        "name": "Liyuan Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bbafb6a8ef7ba400e503d1d5d6d2e7c14494df56",
+                "title": "Joint genome-wide prediction in several populations accounting for randomness of genotypes: A hierarchical Bayes approach. II: Multivariate spike and slab priors for marker effects and derivation of approximate Bayes and fractional Bayes factors for the complete family of models.",
+                "year": 2017,
+                "venue": "Journal of Theoretical Biology",
+                "citation_count": 2,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145934077",
+                        "name": "C. Mart\u00ednez"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "143946674",
+                        "name": "Arunava Banerjee"
+                    },
+                    {
+                        "s2_author_id": "3771194",
+                        "name": "M. Elzo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c16a027a723066667dc38cf08b363df21f4d1237",
+                "title": "Trace Class Markov Chains for Bayesian Inference with Generalized Double Pareto Shrinkage Priors",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2070067972",
+                        "name": "Subahdip Pal"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e1cd5c537d7ffef0bb2efa4d26c74ced9e71ace9",
+                "title": "Inferring the Partial Correlation Structure of Allelic Effects and Incorporating it in Genome-wide Prediction",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 36,
+                "abstract": "In this study, we addressed the problem of genome-wide prediction accounting for partial correlation of marker effects when the partial correlation structure, or equivalently, the pattern of zeros of the precision matrix is unknown. This problem requires estimating the partial correlation structure of marker effects, that is, learning the pattern of zeros of the corresponding precision matrix, estimating its non-null entries, and incorporating the inferred concentration matrix in the prediction of marker allelic effects. To this end, we developed a set of statistical methods based on Gaussian concentration graph models (GCGM) and Gaussian directed acyclic graph models (GDAGM) that adapt the existing theory to perform covariance model selection (GCGM) or DAG selection (GDAGM) to genome-wide prediction. Bayesian and frequentist approaches were formulated. Our frequentist formulations combined some existing methods with the EM algorithm and were termed Glasso-EM, CONCORD-EM and CSCS-EM, whereas our Bayesian formulations corresponded to hierarchical models termed Bayes G-Sel and Bayes DAG-Sel. Results from a simulation study showed that our methods can accurately recover the partial correlation structure and estimate the precision matrix. Methods CONCORD-EM and Bayes G-Sel had an outstanding performance in estimating the partial correlation structure and a method based on CONCORD-EM yielded the most accurate estimates of the precision matrix. Our methods can be used as predictive machines and as tools to learn about the covariation of effects of pairs of loci on a given phenotype conditioned on the effects of all the other loci considered in the model. Therefore, they are useful tools to learn about the underlying biology of a given trait because they help to understand relationships between different regions of the genome in terms of the partial correlations of their effects on that trait.",
+                "authors": [
+                    {
+                        "s2_author_id": "2105899091",
+                        "name": "C. Mart'inez"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "144468484",
+                        "name": "S. Rahman"
+                    },
+                    {
+                        "s2_author_id": "3771194",
+                        "name": "M. Elzo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e7e48d11374974a9c6585dcd49d4dfbf989c318f",
+                "title": "Gaussian covariance graph models accounting for correlated marker effects in genome\u2010wide prediction",
+                "year": 2017,
+                "venue": "Journal of animal breeding and genetics = Zeitschrift fur Tierzuchtung und Zuchtungsbiologie",
+                "citation_count": 2,
+                "reference_count": 50,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145934077",
+                        "name": "C. Mart\u00ednez"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "144468484",
+                        "name": "S. Rahman"
+                    },
+                    {
+                        "s2_author_id": "3771194",
+                        "name": "M. Elzo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ecbf10c21303803b2cefca8e25c7b10a31ebe79f",
+                "title": "Joint genome-wide prediction in several populations accounting for randomness of genotypes: A hierarchical Bayes approach. I: Multivariate Gaussian priors for marker effects and derivation of the joint probability mass function of genotypes.",
+                "year": 2017,
+                "venue": "Journal of Theoretical Biology",
+                "citation_count": 1,
+                "reference_count": 48,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145934077",
+                        "name": "C. Mart\u00ednez"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "143946674",
+                        "name": "Arunava Banerjee"
+                    },
+                    {
+                        "s2_author_id": "3771194",
+                        "name": "M. Elzo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f06edd6be63545749788220c98c3f03df30f4dd4",
+                "title": "High-Dimensional Posterior Consistency for Hierarchical Non-Local Priors in Regression",
+                "year": 2017,
+                "venue": "Bayesian Analysis",
+                "citation_count": 17,
+                "reference_count": 24,
+                "abstract": "The choice of tuning parameter in Bayesian variable selection is a critical problem in modern statistics. Especially in the related work of nonlocal prior in regression setting, the scale parameter reflects the dispersion of the non-local prior density around zero, and implicitly determines the size of the regression coefficients that will be shrunk to zero. In this paper, we introduce a fully Bayesian approach with the pMOM nonlocal prior where we place an appropriate Inverse-Gamma prior on the tuning parameter to analyze a more robust model that is comparatively immune to misspecification of scale parameter. Under standard regularity assumptions, we extend the previous work where $p$ is bounded by the number of observations $n$ and establish strong model selection consistency when $p$ is allowed to increase at a polynomial rate with $n$. Through simulation studies, we demonstrate that our model selection procedure outperforms commonly used penalized likelihood methods in a range of simulation settings.",
+                "authors": [
+                    {
+                        "s2_author_id": "47300915",
+                        "name": "Xuan Cao"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "143676590",
+                        "name": "M. Ghosh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f9c9e26e3a32dd560ad1d5131122f4035cbe885c",
+                "title": "Estimating the spectral gap of a trace-class Markov operator",
+                "year": 2017,
+                "venue": "Electronic Journal of Statistics",
+                "citation_count": 19,
+                "reference_count": 37,
+                "abstract": "The utility of a Markov chain Monte Carlo algorithm is, in large part, determined by the size of the spectral gap of the corresponding Markov operator. However, calculating (and even approximating) the spectral gaps of practical Monte Carlo Markov chains in statistics has proven to be an extremely difficult and often insurmountable task, especially when these chains move on continuous state spaces. In this paper, a method for accurate estimation of the spectral gap is developed for general state space Markov chains whose operators are non-negative and trace-class. The method is based on the fact that the second largest eigenvalue (and hence the spectral gap) of such operators can be bounded above and below by simple functions of the power sums of the eigenvalues. These power sums often have nice integral representations. A classical Monte Carlo method is proposed to estimate these integrals, and a simple sufficient condition for finite variance is provided. This leads to asymptotically valid confidence intervals for the second largest eigenvalue (and the spectral gap) of the Markov operator. In contrast with previously existing techniques, our method is not based on a near-stationary version of the Markov chain, which, paradoxically, cannot be obtained in a principled manner without bounds on the spectral gap. On the other hand, it can be quite expensive from a computational standpoint. The efficiency of the method is studied both theoretically and empirically.",
+                "authors": [
+                    {
+                        "s2_author_id": "50086651",
+                        "name": "Qian Qin"
+                    },
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02b24f4376e8ff17d6c4179b548b2c8d7934cce4",
+                "title": "A convex framework for high-dimensional sparse Cholesky based covariance estimation",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 12,
+                "reference_count": 25,
+                "abstract": "Covariance estimation for high-dimensional datasets is a fundamental problem in modern day statistics with numerous applications. In these high dimensional datasets, the number of variables p is typically larger than the sample size n. A popular way of tackling this challenge is to induce sparsity in the covariance matrix, its inverse or a relevant transformation. In particular, methods inducing sparsity in the Cholesky pa- rameter of the inverse covariance matrix can be useful as they are guaranteed to give a positive definite estimate of the covariance matrix. Also, the estimated sparsity pattern corresponds to a Directed Acyclic Graph (DAG) model for Gaussian data. In recent years, two useful penalized likelihood methods for sparse estimation of this Cholesky parameter (with no restrictions on the sparsity pattern) have been developed. How- ever, these methods either consider a non-convex optimization problem which can lead to convergence issues and singular estimates of the covariance matrix when p > n, or achieve a convex formulation by placing a strict constraint on the conditional variance parameters. In this paper, we propose a new penalized likelihood method for sparse estimation of the inverse covariance Cholesky parameter that aims to overcome some of the shortcomings of current methods, but retains their respective strengths. We ob- tain a jointly convex formulation for our objective function, which leads to convergence guarantees, even when p > n. The approach always leads to a positive definite and symmetric estimator of the covariance matrix. We establish high-dimensional estima- tion and graph selection consistency, and also demonstrate finite sample performance on simulated/real data.",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "103048024",
+                        "name": "Sang-Yun Oh"
+                    },
+                    {
+                        "s2_author_id": "144468484",
+                        "name": "S. Rahman"
+                    },
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2a18c6b1c1023dcd4dffc8048394c369945d7307",
+                "title": "SUPPLEMENT TO \\A BAYESIAN APPROACH FOR ENVELOPE MODELS\"",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "32053762",
+                        "name": "Subhadip Pal"
+                    },
+                    {
+                        "s2_author_id": "3191319",
+                        "name": "Zhihua Su"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "793a4ee1b19ed963fab8dd9647a1f0e3c06e5236",
+                "title": "Modeling correlated marker effects in genome-wide prediction via Gaussian concentration graph models.",
+                "year": 2016,
+                "venue": "Journal of Theoretical Biology",
+                "citation_count": 7,
+                "reference_count": 60,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145934077",
+                        "name": "C. Mart\u00ednez"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "144468484",
+                        "name": "S. Rahman"
+                    },
+                    {
+                        "s2_author_id": "3771194",
+                        "name": "M. Elzo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7c34d25bf2c0276bb1cac3706dde1191aa45745c",
+                "title": "RasGRP1 promotes amphetamine-induced motor behavior through a Rhes interaction network (\u201cRhesactome\u201d) in the striatum",
+                "year": 2016,
+                "venue": "Science Signaling",
+                "citation_count": 35,
+                "reference_count": 108,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5433049",
+                        "name": "N. Shahani"
+                    },
+                    {
+                        "s2_author_id": "5344379",
+                        "name": "Supriya Swarnkar"
+                    },
+                    {
+                        "s2_author_id": "2069121848",
+                        "name": "Vincenzo Giovinazzo"
+                    },
+                    {
+                        "s2_author_id": "6174952",
+                        "name": "J. Morgenweck"
+                    },
+                    {
+                        "s2_author_id": "5634784",
+                        "name": "L. Bohn"
+                    },
+                    {
+                        "s2_author_id": "1398818636",
+                        "name": "Catherina Scharager-Tapia"
+                    },
+                    {
+                        "s2_author_id": "81916274",
+                        "name": "B. Pascal"
+                    },
+                    {
+                        "s2_author_id": "1401634688",
+                        "name": "P. Mart\u00ednez-Acedo"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "90282516",
+                        "name": "S. Subramaniam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8d00107bb6073dce8834b324e0c4de89b17a072c",
+                "title": "Discussion",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "906aeeb21557e5c84df56bcb7de24a7905c2c650",
+                "title": "Introducing Gaussian covariance graph models in genome-wide prediction",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 33,
+                "abstract": "Several statistical models used in genome-wide prediction assume independence of marker allele substitution effects, but it is known that these effects might be correlated. In statistics, graphical models have been identified as a useful tool for covariance estimation in high dimensional problems and it is an area that has recently experienced a great expansion. In Gaussian covariance graph models (GCovGM), the joint distribution of a set of random variables is assumed to be Gaussian and the pattern of zeros of the covariance matrix is encoded in terms of an undirected graph G. In this study, methods adapting the theory of GCovGM to genome-wide prediction were developed (Bayes GCov, Bayes GCov-KR and Bayes GCov-H). In simulated and real datasets, improvements in correlation between phenotypes and predicted breeding values and accuracies of predicted breeding values were found. Our models account for correlation of marker effects and permit to accommodate general structures as opposed to models proposed in previous studies which consider spatial correlation only. In addition, they allow incorporation of biological information in the prediction process through its use when constructing graph G, and their extension to the multiallelic loci case is straightforward.",
+                "authors": [
+                    {
+                        "s2_author_id": "2105899091",
+                        "name": "C. Mart'inez"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "144468484",
+                        "name": "S. Rahman"
+                    },
+                    {
+                        "s2_author_id": "3771194",
+                        "name": "M. Elzo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b972005830f78f26c274f293e426eedafc89c14a",
+                "title": "Generalized Pseudolikelihood Methods for Inverse Covariance Estimation",
+                "year": 2016,
+                "venue": "International Conference on Artificial Intelligence and Statistics",
+                "citation_count": 16,
+                "reference_count": 26,
+                "abstract": "We introduce PseudoNet, a new pseudolikelihood-based estimator of the inverse covariance matrix, that has a number of useful statistical and computational properties. We show, through detailed experiments with synthetic and also real-world finance as well as wind power data, that PseudoNet outperforms related methods in terms of estimation error and support recovery, making it well-suited for use in a downstream application, where obtaining low estimation error can be important. We also show, under regularity conditions, that PseudoNet is consistent. Our proof assumes the existence of accurate estimates of the diagonal entries of the underlying inverse covariance matrix; we additionally provide a two-step method to obtain these estimates, even in a high-dimensional setting, going beyond the proofs for related methods. Unlike other pseudolikelihood-based methods, we also show that PseudoNet does not saturate, i.e., in high dimensions, there is no hard limit on the number of nonzero entries in the PseudoNet estimate. We present a fast algorithm as well as screening rules that make computing the PseudoNet estimate over a range of tuning parameters tractable.",
+                "authors": [
+                    {
+                        "s2_author_id": "2319704",
+                        "name": "Alnur Ali"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "103048024",
+                        "name": "Sang-Yun Oh"
+                    },
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "da9ac79d1e961702f83481c5075d4a5fc792c659",
+                "title": "Convergence properties of Gibbs samplers for Bayesian probit regression with proper priors",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 23,
+                "reference_count": 29,
+                "abstract": "The Bayesian probit regression model (Albert and Chib (1993)) is popular and widely used for binary regression. While the improper flat prior for the regression coefficients is an appropriate choice in the absence of any prior information, a proper normal prior is desirable when prior information is available or in modern high dimensional settings where the number of coefficients ($p$) is greater than the sample size ($n$). For both choices of priors, the resulting posterior density is intractable and a Data Dugmentation (DA) Markov chain is used to generate approximate samples from the posterior distribution. Establishing geometric ergodicity for this DA Markov chain is important as it provides theoretical guarantees for constructing standard errors for Markov chain based estimates of posterior quantities. In this paper, we first show that in case of proper normal priors, the DA Markov chain is geometrically ergodic *for all* choices of the design matrix $X$, $n$ and $p$ (unlike the improper prior case, where $n \\geq p$ and another condition on $X$ are required for posterior propriety itself). We also derive sufficient conditions under which the DA Markov chain is trace-class, i.e., the eigenvalues of the corresponding operator are summable. In particular, this allows us to conclude that the Haar PX-DA sandwich algorithm (obtained by inserting an inexpensive extra step in between the two steps of the DA algorithm) is strictly better than the DA algorithm in an appropriate sense.",
+                "authors": [
+                    {
+                        "s2_author_id": "152414828",
+                        "name": "Saptarshi Chakraborty"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e4aafdc8350d8e0a084d9b4e3befee94b453efdc",
+                "title": "Posterior graph selection and estimation consistency for high-dimensional Bayesian DAG models",
+                "year": 2016,
+                "venue": "Annals of Statistics",
+                "citation_count": 57,
+                "reference_count": 31,
+                "abstract": "Covariance estimation and selection for high-dimensional multivariate datasets is a fundamental problem in modern statistics. Gaussian directed acyclic graph (DAG) models are a popular class of models used for this purpose. Gaussian DAG models introduce sparsity in the Cholesky factor of the inverse covariance matrix, and the sparsity pattern in turn corresponds to specific conditional independence assumptions on the underlying variables. A variety of priors have been developed in recent years for Bayesian inference in DAG models, yet crucial convergence and sparsity selection properties for these models have not been thoroughly investigated. Most of these priors are adaptations or generalizations of the Wishart distribution in the DAG context. In this paper, we consider a flexible and general class of these 'DAG-Wishart' priors with multiple shape parameters. Under mild regularity assumptions, we establish strong graph selection consistency and establish posterior convergence rates for estimation when the number of variables p is allowed to grow at an appropriate sub-exponential rate with the sample size n.",
+                "authors": [
+                    {
+                        "s2_author_id": "47300915",
+                        "name": "Xuan Cao"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "143676590",
+                        "name": "M. Ghosh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d9c3a683729507f0f08765306a7f166acfea301",
+                "title": "High dimensional posterior convergence rates for decomposable graphical models",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 31,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "102738163",
+                        "name": "Ruoxuan Xiang"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "143676590",
+                        "name": "M. Ghosh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "161a79d14e085e3bb625bf67e3b8247c4332e9a2",
+                "title": "Consistency of Bayes factors under hyper g -priors with growing model size",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "102738163",
+                        "name": "Ruoxuan Xiang"
+                    },
+                    {
+                        "s2_author_id": "143676590",
+                        "name": "M. Ghosh"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "74173a50bc31af2f1afc51f02817822db7539c4f",
+                "title": "Convergence Analysis of the Data Augmentation Algorithm for Bayesian Linear Regression with Non-Gaussian Errors",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 18,
+                "abstract": "Gaussian errors are sometimes inappropriate in a multivariate linear regression setting because, for example, the data contain outliers. In such situations, it is often assumed that the error density is a scale mixture of multivariate normal densities that takes the form $f(\\varepsilon) = \\int_0^\\infty |\\Sigma|^{-\\frac{1}{2}} u^{\\frac{d}{2}} \\, \\phi_d \\big( \\Sigma^{-\\frac{1}{2}} \\sqrt{u} \\, \\varepsilon \\big) \\, h(u) \\, du$, where $d$ is the dimension of the response, $\\phi_d(\\cdot)$ is the standard $d$-variate normal density, $\\Sigma$ is an unknown $d \\times d$ positive definite scale matrix, and $h(\\cdot)$ is some fixed mixing density. Combining this alternative regression model with a default prior on the unknown parameters results in a highly intractable posterior density. Fortunately, there is a simple data augmentation (DA) algorithm and a corresponding Haar PX-DA algorithm that can be used to explore this posterior. This paper provides conditions (on $h$) for geometric ergodicity of the Markov chains underlying these Markov chain Monte Carlo (MCMC) algorithms. These results are extremely important from a practical standpoint because geometric ergodicity guarantees the existence of the central limit theorems that form the basis of all the standard methods of calculating valid asymptotic standard errors for MCMC-based estimators. The main result is that, if $h$ converges to 0 at the origin at an appropriate rate, and $\\int_0^\\infty u^{\\frac{d}{2}} \\, h(u) \\, du < \\infty$, then the DA and Haar PX-DA Markov chains are both geometrically ergodic. This result is quite far-reaching. For example, it implies the geometric ergodicity of the DA and Haar PX-DA Markov chains whenever $h$ is generalized inverse Gaussian, log-normal, inverted gamma (with shape parameter larger than $d/2$), or Fr\\'{e}chet (with shape parameter larger than $d/2$).",
+                "authors": [
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    },
+                    {
+                        "s2_author_id": "51256378",
+                        "name": "Yeun Ji Jung"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "50086651",
+                        "name": "Qian Qin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "920726fb6cbe9859909c44f02acd6c9c7a863083",
+                "title": "On the Bayesness, minimaxity and admissibility of point estimators of allelic frequencies.",
+                "year": 2015,
+                "venue": "Journal of Theoretical Biology",
+                "citation_count": 5,
+                "reference_count": 10,
+                "abstract": "In this paper, decision theory was used to derive Bayes and minimax decision rules to estimate allelic frequencies and to explore their admissibility. Decision rules with uniformly smallest risk usually do not exist and one approach to solve this problem is to use the Bayes principle and the minimax principle to find decision rules satisfying some general optimality criterion based on their risk functions. Two cases were considered, the simpler case of biallelic loci and the more complex case of multiallelic loci. For each locus, the sampling model was a multinomial distribution and the prior was a Beta (biallelic case) or a Dirichlet (multiallelic case) distribution. Three loss functions were considered: squared error loss (SEL), Kulback-Leibler loss (KLL) and quadratic error loss (QEL). Bayes estimators were derived under these three loss functions and were subsequently used to find minimax estimators using results from decision theory. The Bayes estimators obtained from SEL and KLL turned out to be the same. Under certain conditions, the Bayes estimator derived from QEL led to an admissible minimax estimator (which was also equal to the maximum likelihood estimator). The SEL also allowed finding admissible minimax estimators. Some estimators had uniformly smaller variance than the MLE and under suitable conditions the remaining estimators also satisfied this property. In addition to their statistical properties, the estimators derived here allow variation in allelic frequencies, which is closer to the reality of finite populations exposed to evolutionary forces.",
+                "authors": [
+                    {
+                        "s2_author_id": "145934077",
+                        "name": "C. Mart\u00ednez"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "3771194",
+                        "name": "M. Elzo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a0d3980f534580d38332405a85918c5cbb4f7231",
+                "title": "Bayesian inference for Gaussian graphical models beyond decomposable graphs",
+                "year": 2015,
+                "venue": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)",
+                "citation_count": 15,
+                "reference_count": 34,
+                "abstract": "Bayesian inference for graphical models has received much attention in the literature in recent years. It is well known that, when the graph G is decomposable, Bayesian inference is significantly more tractable than in the general non\u2010decomposable setting. Penalized likelihood inference in contrast has made tremendous gains in the past few years in terms of scalability and tractability. Bayesian inference, however, has not had the same level of success, though a scalable Bayesian approach has its strengths, especially in terms of quantifying uncertainty. To address this gap, we propose a scalable and flexible novel Bayesian approach for estimation and model selection in Gaussian undirected graphical models. We first develop a class of generalized G\u2010Wishart distributions with multiple shape parameters for an arbitrary underlying graph. This class contains the G\u2010Wishart distribution as a special case. We then introduce the class of generalized Bartlett graphs and derive an efficient Gibbs sampling algorithm to obtain posterior draws from generalized G\u2010Wishart distributions corresponding to a generalized Bartlett graph. The class of generalized Bartlett graphs contains the class of decomposable graphs as a special case but is substantially larger than the class of decomposable graphs. We proceed to derive theoretical properties of the proposed Gibbs sampler. We then demonstrate that the proposed Gibbs sampler is scalable to significantly higher dimensional problems compared with using an accept\u2013reject or a Metropolis\u2013Hasting algorithm. Finally, we show the efficacy of the proposed approach on simulated and real data. In particular, we demonstrate that our generalized Bartlett methodology can be used for efficient model selection by reducing the graph search space by using penalized likelihood and pseudolikelihood methods.",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    },
+                    {
+                        "s2_author_id": "38545427",
+                        "name": "A. Saha"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e6b8a57b1cffb7901c90faadd1ca7e88c1e22443",
+                "title": "Discussion : Posterior inference in Bayesian quantile regression with asymmetric Laplace likelihood",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea4a333383529350600e25096747d0e157b3f701",
+                "title": "Computable upper bounds on the distance to stationarity for Jovanovski and Madras\u2019s Gibbs sampler",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eba0addd8d5bf1d76d95f8272320e6d8d1cf44b3",
+                "title": "Scalable Bayesian shrinkage and uncertainty quantification for high-dimensional regression",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 48,
+                "abstract": "Bayesian shrinkage methods have generated a lot of recent interest as tools for high-dimensional regression and model selection. These methods naturally facilitate tractable uncertainty quantification and incorporation of prior information. This benefit has led to extensive use of the Bayesian shrinkage methods across diverse applications. A common feature of these models is that the corresponding priors on the regression coefficients can be expressed as scale mixture of normals. While the three-step Gibbs sampler used to sample from the often intractable associated posterior density has been shown to be geometrically ergodic for several of these models, it has been demonstrated recently that convergence of this sampler can still be quite slow in modern high-dimensional settings despite this apparent theoretical safeguard. We propose a new method to draw from the same posterior via a tractable two-step blocked Gibbs sampler. We demonstrate that our proposed two-step blocked sampler exhibits vastly superior convergence behavior compared to the original three-step sampler in high-dimensional regimes on both real and simulated data. We also provide a detailed theoretical underpinning to the new method in the context of the Bayesian lasso. First, we prove that the proposed two-step sampler is geometrically ergodic, and derive explicit upper bounds for the (geometric) rate of convergence. Furthermore, we demonstrate theoretically that while the original Bayesian lasso chain is not Hilbert-Schmidt, the proposed chain is trace class (and hence Hilbert-Schmidt). The trace class property implies that the corresponding Markov operator is compact, and its (countably many) eigenvalues are summable. It also facilitates a rigorous comparison of the two-step blocked chain with\"sandwich\"algorithms which aim to improve performance of the two-step chain by inserting an inexpensive extra step.",
+                "authors": [
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    },
+                    {
+                        "s2_author_id": "51438117",
+                        "name": "Doug Sparks"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "2108871727",
+                        "name": "Liyuan Zhang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f2eb3a4ccfd46d6ee2a1ce96b61481be258f77eb",
+                "title": "Improving the Data Augmentation Algorithm in the Two-Block Setup",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 23,
+                "abstract": "The data augmentation (DA) approach to approximate sampling from an intractable probability density fX is based on the construction of a joint density, fX, Y, whose conditional densities, fX|Y and fY|X, can be straightforwardly sampled. However, many applications of the DA algorithm do not fall in this \u201csingle-block\u201d setup. In these applications, X is partitioned into two components, X = (U, V), in such a way that it is easy to sample from fY|X, fU|V, Y, and fV|U, Y. We refer to this alternative version of DA, which is effectively a three-variable Gibbs sampler, as \u201ctwo-block\u201d DA. We develop two methods to improve the performance of the DA algorithm in the two-block setup. These methods are motivated by the Haar PX-DA algorithm, which has been developed in previous literature to improve the performance of the single-block DA algorithm. The Haar PX-DA algorithm, which adds a computationally inexpensive extra step in each iteration of the DA algorithm while preserving the stationary density, has been shown to be optimal among similar techniques. However, as we illustrate, the Haar PX-DA algorithm does not lead to the required stationary density fX in the two-block setup. Our methods incorporate suitable generalizations and modifications to this approach, and work in the two-block setup. A theoretical comparison of our methods to the two-block DA algorithm, a much harder task than the single-block setup due to nonreversibility and structural complexities, is provided. We successfully apply our methods to applications of the two-block DA algorithm in Bayesian robit regression and Bayesian quantile regression. Supplementary materials for this article are available online.",
+                "authors": [
+                    {
+                        "s2_author_id": "32053762",
+                        "name": "Subhadip Pal"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "03337317cc232ca7339e669e8c7836e3c77327f3",
+                "title": "Convergence of cyclic coordinatewise l1 minimization",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 38,
+                "abstract": "We consider the general problem of minimizing an objective function which is the sum of a convex function (not strictly convex) and absolute values of a subset of variables (or equivalently the l1-norm of the variables). This problem appears exten- sively in modern statistical applications associated with high-dimensional data or \"big data\", and corresponds to optimizing l1-regularized likelihoods in the context of model selection. In such applications, cyclic coordinatewise minimization (CCM), where the objective function is sequentially minimized with respect to each individual coordi- nate, is often employed as it offers a computationally cheap and effective optimization method. Consequently, it is crucial to obtain theoretical guarantees of convergence for the sequence of iterates produced by the cyclic coordinatewise minimization in this setting. Moreover, as the objective corresponds to at l1-regularized likelihoods of many variables, it is important to obtain convergence of the iterates themselves, and not just the function values. Previous results in the literature only establish either, (i) that every limit point of the sequence of iterates is a stationary point of the objective function, or (ii) establish convergence under special assumptions, or (iii) establish con- vergence for a different minimization approach (which uses quadratic approximation based gradient descent followed by an inexact line search), (iv) establish convergence of only the function values of the sequence of iterates produced by random coordinatewise minimization (a variant of CCM). In this paper, a rigorous general proof of convergence for the cyclic coordinatewise minimization algorithm is provided. We demonstrate the usefulness of our general results in contemporary applications.",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6e14e93887871a772f75e25e630147638e477986",
+                "title": "Geometric ergodicity for Bayesian shrinkage models",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 37,
+                "reference_count": 39,
+                "abstract": ": In recent years, a large variety of continuous shrinkage pri- ors have been developed for a Bayesian analysis of the standard linear regression model in high dimensional settings. We consider two such pri- ors, the Dirichlet-Laplace prior (developed in Bhattacharya et al. (2013)), and the Normal-Gamma prior (developed in (Gri\ufb03n and Brown, 2010)). For both Dirichlet-Laplace and Normal-Gamma priors, Gibbs sampling Markov chains have been developed to generate approximate samples from the cor- responding posterior distributions. We show by using a drift and minorization based analysis that the Gibbs sampling Markov chains corresponding to the aforementioned models are geometrically ergodic. Establishing geometric ergodicity of these Markov chains is crucial, as it provides theoretical justi\ufb01cation for the use of Markov chain CLT, which can then be used to obtain asymptotic standard errors for Markov chain based estimates of posterior quantities. Both Gibbs samplers in the paper use the Generalized Inverse Gaussian (GIG) distribution, as one of the conditional distribu- tions. A novel contribution of our convergence analysis is the use of drift functions which include terms that are negative fractional powers of normal random variables, to tackle the presence of the GIG distribution.",
+                "authors": [
+                    {
+                        "s2_author_id": "32053762",
+                        "name": "Subhadip Pal"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b424b68f4156103eedb07e4c343260656d8e13e4",
+                "title": "Optimization Methods for Sparse Pseudo-Likelihood Graphical Model Selection",
+                "year": 2014,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 28,
+                "reference_count": 12,
+                "abstract": "Sparse high dimensional graphical model selection is a popular topic in contemporary machine learning. To this end, various useful approaches have been proposed in the context of l1-penalized estimation in the Gaussian framework. Though many of these inverse covariance estimation approaches are demonstrably scalable and have leveraged recent advances in convex optimization, they still depend on the Gaussian functional form. To address this gap, a convex pseudo-likelihood based partial correlation graph estimation method (CONCORD) has been recently proposed. This method uses coordinate-wise minimization of a regression based pseudo-likelihood, and has been shown to have robust model selection properties in comparison with the Gaussian approach. In direct contrast to the parallel work in the Gaussian setting however, this new convex pseudo-likelihood framework has not leveraged the extensive array of methods that have been proposed in the machine learning literature for convex optimization. In this paper, we address this crucial gap by proposing two proximal gradient methods (CONCORD-ISTA and CONCORD-FISTA) for performing l1-regularized inverse covariance matrix estimation in the pseudo-likelihood framework. We present timing comparisons with coordinate-wise minimization and demonstrate that our approach yields tremendous payoffs for l1-penalized partial correlation graph estimation outside the Gaussian setting, thus yielding the fastest and most scalable approach for such problems. We undertake a theoretical analysis of our approach and rigorously demonstrate convergence, and also derive rates thereof.",
+                "authors": [
+                    {
+                        "s2_author_id": "103048024",
+                        "name": "Sang-Yun Oh"
+                    },
+                    {
+                        "s2_author_id": "1980160",
+                        "name": "Onkar Dalal"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec70f94d335c928d69709e5691782db060b8149e",
+                "title": "Asymptotic expansion of the posterior density in high dimensional generalized linear models",
+                "year": 2014,
+                "venue": "Journal of Multivariate Analysis",
+                "citation_count": 5,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2918050",
+                        "name": "Shibasish Dasgupta"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "143676590",
+                        "name": "M. Ghosh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0811e08e25a4000532efa50bd4ce863efb9a9867",
+                "title": "Convergence analysis of some multivariate Markov chains using stochastic monotonicity",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 20,
+                "abstract": "We provide a nonasymptotic analysis of convergence to stationarity for a collection of Markov chains on multivariate state spaces, from arbitrary starting points, thereby generalizing results in [Khare and Zhou Ann. Appl. Probab. 19 (2009) 737-777]. Our examples include the multi-allele Moran model in population genetics and its variants in community ecology, a generalized Ehrenfest urn model and variants of the Polya urn model. It is shown that all these Markov chains are stochastically monotone with respect to an appropriate partial ordering. Then, using a generalization of the results in [Diaconis, Khare and Saloff-Coste Sankhya 72 (2010) 45-76] and [Wilson Ann. Appl. Probab. 14 (2004) 274-325] (for univariate totally ordered spaces) to multivariate partially ordered spaces, we obtain explicit nonasymptotic bounds for the distance to stationarity from arbitrary starting points. In previous literature, bounds, if any, were available only from special starting points. The analysis also works for nonreversible Markov chains, and allows us to analyze cases of the multi-allele Moran model not considered in [Khare and Zhou Ann. Appl. Probab. 19 (2009) 737-777].",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "47611850",
+                        "name": "Nabanita Mukherjee"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "16bcac32a533de13bb5b7e57ccc8d6d00bfb3a12",
+                "title": "Geometric ergodicity of the Bayesian lasso",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 48,
+                "reference_count": 21,
+                "abstract": "Consider the standard linear model y = X +\u270f , where the components of \u270f are iid standard normal errors. Park and Casella [14] consider a Bayesian treatment of this model with a Laplace/Inverse-Gamma prior on (,). They introduce a Data Augmentation approach that can be used to explore the resulting intractable posterior density, and call it the Bayesian lasso algorithm. In this paper, the Markov chain underlying the Bayesian lasso algorithm is shown to be geometrically ergodic, for arbitrary values of the sample size n and the number of variables p. This is important, as geometric ergodicity provides theoretical justification for the use of Markov chain CLT, which can then be used to obtain asymptotic standard errors for Markov chain based estimates of posterior quantities. Kyung et al [12] provide a proof of geometric ergodicity for the restricted case n p, but as we explain in this paper, their proof is incorrect. Our approach is different and more direct, and enables us to establish geometric ergodicity for arbitrary n and p.",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5b573a9f42ec2e9c384be886a5b1eae688b8ba3c",
+                "title": "A convex pseudolikelihood framework for high dimensional partial correlation estimation with convergence guarantees",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 126,
+                "reference_count": 63,
+                "abstract": "Sparse high dimensional graphical model selection is a topic of much interest in modern day statistics. A popular approach is to apply l1\u2010penalties to either parametric likelihoods, or regularized regression/pseudolikelihoods, with the latter having the distinct advantage that they do not explicitly assume Gaussianity. As none of the popular methods proposed for solving pseudolikelihood\u2010based objective functions have provable convergence guarantees, it is not clear whether corresponding estimators exist or are even computable, or if they actually yield correct partial correlation graphs. We propose a new pseudolikelihood\u2010based graphical model selection method that aims to overcome some of the shortcomings of current methods, but at the same time retain all their respective strengths. In particular, we introduce a novel framework that leads to a convex formulation of the partial covariance regression graph problem, resulting in an objective function comprised of quadratic forms. The objective is then optimized via a co\u2010ordinatewise approach. The specific functional form of the objective function facilitates rigorous convergence analysis leading to convergence guarantees; an important property that cannot be established by using standard results, when the dimension is larger than the sample size, as is often the case in high dimensional applications. These convergence guarantees ensure that estimators are well defined under very general conditions and are always computable. In addition, the approach yields estimators that have good large sample properties and also respect symmetry. Furthermore, application to simulated and real data, timing comparisons and numerical convergence is demonstrated. We also present a novel unifying framework that places all graphical pseudolikelihood methods as special cases of a more general formulation, leading to important insights.",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "103048024",
+                        "name": "Sang-Yun Oh"
+                    },
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "60b429f2d78fa232390045e9bc4d40ebf5ac9127",
+                "title": "Geometric ergodicity of the Gibbs sampler for Bayesian quantile regression",
+                "year": 2012,
+                "venue": "Journal of Multivariate Analysis",
+                "citation_count": 32,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4b1f1e2bec4c5905d0411895557eb03faccec0b4",
+                "title": "Sparse Matrix Decompositions and Graph Characterizations",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "88daabf0702861e4ef0285db8ba773f8652edae3",
+                "title": "Wishart distributions for decomposable covariance graph models",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 71,
+                "reference_count": 29,
+                "abstract": "Gaussian covariance graph models encode marginal independence among the components of a multivariate random vector by means of a graph G. These models are distinctly different from the traditional concentration graph models (often also referred to as Gaussian graphical models or covariance selection models) since the zeros in the parameter are now reflected in the covariance matrix \u03a3, as compared to the concentration matrix \u03a9 = \u03a3 \u20151 . The parameter space of interest for covariance graph models is the cone P G of positive definite matrices with fixed zeros corresponding to the missing edges of G. As in Letac and Massam [Ann. Statist. 35 (2007) 1278\u20151323], we consider the case where G is decomposable. In this paper, we construct on the cone P G a family of Wishart distributions which serve a similar purpose in the covariance graph setting as those constructed by Letac and Massam [Ann. Statist. 35 (2007) 1278\u20151323] and Dawid and Lauritzen [Ann. Statist. 21 (1993) 1272\u20151317] do in the concentration graph setting. We proceed to undertake a rigorous study of these \"covariance\" Wishart distributions and derive several deep and useful properties of this class. First, they form a rich conjugate family of priors with multiple shape parameters for covariance graph models. Second, we show how to sample from these distributions by using a block Gibbs sampling algorithm and prove convergence of this block Gibbs sampler. Development of this class of distributions enables Bayesian inference, which, in turn, allows for the estimation of E, even in the case when the sample size is less than the dimension of the data (i.e., when \"n < p\"), otherwise not generally possible in the maximum likelihood framework. Third, we prove that when G is a homogeneous graph, our covariance priors correspond to standard conjugate priors for appropriate directed acyclic graph (DAG) models. This correspondence enables closed form expressions for normalizing constants and expected values, and also establishes hyper-Markov properties for our class of priors. We also note that when G is homogeneous, the family IW QG of Letac and Massam [Ann. Statist. 35 (2007) 1278\u20151323] is a special case of our covariance Wishart distributions. Fourth, and finally, we illustrate the use of our family of conjugate priors on real and simulated data.",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f7a8f0b243276c73eca0d52d04c0297bb974cbcf",
+                "title": "A spectral analytic comparison of trace-class data augmentation algorithms and their sandwich variants",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 49,
+                "reference_count": 38,
+                "abstract": "The data augmentation (DA) algorithm is a widely used Markov chain Monte Carlo algorithm that is easy to implement but often suffers from slow convergence. The sandwich algorithm is an alternative that can converge much faster while requiring roughly the same computational effort per iteration. Theoretically, the sandwich algorithm always converges at least as fast as the corresponding DA algorithm in the sense that $\\Vert {K^*}\\Vert \\le \\Vert {K}\\Vert$, where $K$ and $K^*$ are the Markov operators associated with the DA and sandwich algorithms, respectively, and $\\Vert\\cdot\\Vert$ denotes operator norm. In this paper, a substantial refinement of this operator norm inequality is developed. In particular, under regularity conditions implying that $K$ is a trace-class operator, it is shown that $K^*$ is also a positive, trace-class operator, and that the spectrum of $K^*$ dominates that of $K$ in the sense that the ordered elements of the former are all less than or equal to the corresponding elements of the latter. Furthermore, if the sandwich algorithm is constructed using a group action, as described by Liu and Wu [J. Amer. Statist. Assoc. 94 (1999) 1264--1274] and Hobert and Marchev [Ann. Statist. 36 (2008) 532--554], then there is strict inequality between at least one pair of eigenvalues. These results are applied to a new DA algorithm for Bayesian quantile regression introduced by Kozumi and Kobayashi [J. Stat. Comput. Simul. 81 (2011) 1565--1578].",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "3085250",
+                        "name": "J. Hobert"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "025651ad393305d3fca388679c29085874d631ff",
+                "title": "Stochastic Alternating Projections",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 24,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2796350",
+                        "name": "P. Diaconis"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1388401149",
+                        "name": "L. Saloff\u2010Coste"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "476172fa83147009345d087f0711133c92a21450",
+                "title": "Gibbs sampling, conjugate priors and coupling",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 26,
+                "reference_count": 47,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2796350",
+                        "name": "P. Diaconis"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1388401149",
+                        "name": "L. Saloff\u2010Coste"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "36fbe2ce0827442326c6a1ec23fa1895bcc96dcb",
+                "title": "Constructions of Gaussian fields from Markov processes, and related topics",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6b0719d5bbf0c2d4b42b15e6c25e38f09ea65c9b",
+                "title": "Wishart Distributions for Covariance Graph Models",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1694701",
+                        "name": "B. Rajaratnam"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "da79d7032789e2ef02354fc9475708d9b9d7658f",
+                "title": "RATES OF CONVERGENCE OF SOME MULTIVARIATE MARKOV CHAINS WITH POLYNOMIAL EIGENFUNCTIONS",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 47,
+                "reference_count": 56,
+                "abstract": "We provide a sharp nonasymptotic analysis of the rates of convergence for some standard multivariate Markov chains using spectral techniques. All chains under consideration have multivariate orthogonal polynomial as eigenfunctions. Our examples include the Moran model in population genetics and its variants in community ecology, the Dirichlet-multinomial Gibbs sampler, a class of generalized Bernoulli\u2013Laplace processes, a generalized Ehrenfest urn model and the multivariate normal autoregressive process. 1. Introduction. The theory of Markov chains is one of the most useful tools of applied probability and has numerous applications. Markov chains are used for modeling physical processes and evolution of a population in population genetics and community ecology. Another important use is simulating from an intractable probability distribution. It is a well-known fact that under mild conditions discussed in [2], a Markov chain converges to its stationary distribution. In the applications mentioned above, often it is useful to know exactly how many steps it takes for a Markov chain to be reasonably close to its stationary distribution. Answering this question as accurately as possible is what finding \u201crates of convergence\u201d of Markov chains is about. In the current paper, we provide a sharp nonasymptotic analysis of rates of convergence to stationarity for a variety of multivariate Markov chains. This helps determine exactly what number of steps is necessary and sufficient for convergence. These Markov chains appear as standard models in population genetics, ecology, statistics and image processing. Here is an example of our results. In community ecology, scientists study diversity and species abundances in ecological communities. The Unified",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "9142950",
+                        "name": "Hua Zhou"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6653e037f6508f823413db8fbdc723d87e811e54",
+                "title": "Gibbs Sampling, Exponential Families and Orthogonal Polynomials. Rejoinder.",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2796350",
+                        "name": "P. Diaconis"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1388401149",
+                        "name": "L. Saloff\u2010Coste"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ae86e468f4aac2fd5e994aa88e9b4b9fb07599da",
+                "title": "Rejoinder: Gibbs Sampling, Exponential Families and Orthogonal Polynomials",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 18,
+                "abstract": "We are thankful to the discussants for their hard, interesting work. The main purpose of our paper was to give reasonably sharp rates of convergence for some simple examples of the Gibbs sampler. We chose examples from expository accounts where direct use of available techniques gave practically useless answers. Careful treatment of these simple examples grew into bivariate modeling and Lancaster families. Since bounding rates of convergence is our primary focus, let us begin there. [arXiv:0808.3852]",
+                "authors": [
+                    {
+                        "s2_author_id": "2796350",
+                        "name": "P. Diaconis"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1388401149",
+                        "name": "L. Saloff\u2010Coste"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c2d948119805767565dd1caaec31c14f77a7f746",
+                "title": "Gibbs sampling, exponential families and orthogonal polynomials",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 149,
+                "reference_count": 116,
+                "abstract": "We give families of examples where sharp rates of convergence to stationarity of the widely used Gibbs sampler are available. The examples involve standard exponential families and their conjugate priors. In each case, the transition operator is explicitly diagonalizable with classical orthogonal polynomials as eigenfunctions.",
+                "authors": [
+                    {
+                        "s2_author_id": "2796350",
+                        "name": "P. Diaconis"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1388401149",
+                        "name": "L. Saloff\u2010Coste"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "208233b5da1a6eb674ba13003d0e76acb3fba2fb",
+                "title": "Dynkin's Isomorphism with Sign Structure",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": "The Dynkin isomorphism associates a Gaussian field to a Markov chain. These Gaussian fields can be used as priors for prediction and time series analysis. Dynkin's construction gives Gaussian fields with all non-negative covariances. We extend Dynkin's construction (by introducing a sign structure on the Markov chain) to allow general covariance sign patterns.",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fd04d0a2662a7c99a04b0986f6ce433a965620ce",
+                "title": "The joint distribution of occupation times of skip-free Markov processes and a class of multivariate exponential distributions",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": "For a skip-free Markov process on non-negative integers with generator matrix Q, we evaluate the joint Laplace transform of the occupation times before hitting the state n (starting at 0). This Laplace transform has a very straightforward and familiar expression. We investigate the properties of this Laplace transform, especially the conditions under which the occupation times form a Markov chain.",
+                "authors": [
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a66dda5257f3f14e80c46f0d8a5cd4c57ec134a",
+                "title": "Solution to tangles of mats and maths of rectangles",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2052143333",
+                        "name": "M. Joshi"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "2064013115",
+                        "name": "Arvind Narayanan"
+                    },
+                    {
+                        "s2_author_id": "2048022963",
+                        "name": "S. Varma"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3f4886324aa0e99c6ae767f3d48c1619a6179804",
+                "title": "Necessary and Su\ufb03cient Conditions for High-Dimensional Posterior Consistency under g -Priors",
+                "year": null,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "51438117",
+                        "name": "Doug Sparks"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "143676590",
+                        "name": "M. Ghosh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "60d311cdc8fd0ca38cb81cbdc44bc51e5f5a438d",
+                "title": "Discussion on the Paper: \" Gibbs Sampling, Exponential Families and Orthogonal Polynomials \"",
+                "year": null,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2796350",
+                        "name": "P. Diaconis"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    },
+                    {
+                        "s2_author_id": "1388401149",
+                        "name": "L. Saloff\u2010Coste"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6e32692a880aa1d329598afa1ad07cffda37bd45",
+                "title": "Statistica Sinica Preprint No: SS-2021-0245",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 5,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1742426",
+                        "name": "G. Michailidis"
+                    },
+                    {
+                        "s2_author_id": "9778298",
+                        "name": "P. Jalali"
+                    },
+                    {
+                        "s2_author_id": "3241507",
+                        "name": "K. Khare"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "3085250",
+                "name": "J. Hobert"
+            },
+            {
+                "s2_author_id": "144468484",
+                "name": "S. Rahman"
+            },
+            {
+                "s2_author_id": "1694701",
+                "name": "B. Rajaratnam"
+            },
+            {
+                "s2_author_id": "2310574006",
+                "name": "Jiayuan Zhou"
+            },
+            {
+                "s2_author_id": "3191319",
+                "name": "Zhihua Su"
+            },
+            {
+                "s2_author_id": "145688771",
+                "name": "Nilanjana Chakraborty"
+            },
+            {
+                "s2_author_id": "1742426",
+                "name": "G. Michailidis"
+            },
+            {
+                "s2_author_id": "2105895816",
+                "name": "C. Mart\u0301\u0131nez"
+            },
+            {
+                "s2_author_id": "7159306",
+                "name": "J. Carulla"
+            },
+            {
+                "s2_author_id": "2205201947",
+                "name": "Partha Sarkar"
+            },
+            {
+                "s2_author_id": "143676590",
+                "name": "M. Ghosh"
+            },
+            {
+                "s2_author_id": "152709643",
+                "name": "Satyajit Ghosh"
+            },
+            {
+                "s2_author_id": "5895720",
+                "name": "K. Atanasova"
+            },
+            {
+                "s2_author_id": "152414828",
+                "name": "Saptarshi Chakraborty"
+            },
+            {
+                "s2_author_id": "144090073",
+                "name": "R. Ratnayake"
+            },
+            {
+                "s2_author_id": "4411567",
+                "name": "H. Luesch"
+            },
+            {
+                "s2_author_id": "3139952",
+                "name": "T. Lele"
+            },
+            {
+                "s2_author_id": "2058380817",
+                "name": "Srijata Samanta"
+            },
+            {
+                "s2_author_id": "2550163",
+                "name": "Saptarshi Chakraborty"
+            },
+            {
+                "s2_author_id": "2153403090",
+                "name": "S. K. Bhattacharya"
+            },
+            {
+                "s2_author_id": "2153291816",
+                "name": "Sourav Mukherjee"
+            },
+            {
+                "s2_author_id": "2146373938",
+                "name": "Saptarshi Chakraborty Department of Statistics"
+            },
+            {
+                "s2_author_id": "88740970",
+                "name": "U. Florida"
+            },
+            {
+                "s2_author_id": "89065716",
+                "name": "D. Biostatistics"
+            },
+            {
+                "s2_author_id": "103293169",
+                "name": "State University of New York at Buffalo"
+            },
+            {
+                "s2_author_id": "32053762",
+                "name": "Subhadip Pal"
+            },
+            {
+                "s2_author_id": "3147744",
+                "name": "Sanvesh Srivastava"
+            },
+            {
+                "s2_author_id": "9778298",
+                "name": "P. Jalali"
+            },
+            {
+                "s2_author_id": "47300915",
+                "name": "Xuan Cao"
+            },
+            {
+                "s2_author_id": "2110030882",
+                "name": "Jerome Taylor"
+            },
+            {
+                "s2_author_id": "103048024",
+                "name": "Sang-Yun Oh"
+            },
+            {
+                "s2_author_id": "89394269",
+                "name": "Grant Backlund"
+            },
+            {
+                "s2_author_id": "51256378",
+                "name": "Yeun Ji Jung"
+            },
+            {
+                "s2_author_id": "50086651",
+                "name": "Qian Qin"
+            },
+            {
+                "s2_author_id": "51438117",
+                "name": "Doug Sparks"
+            },
+            {
+                "s2_author_id": "2108871727",
+                "name": "Liyuan Zhang"
+            },
+            {
+                "s2_author_id": "2116775766",
+                "name": "Liyuan Zhang"
+            },
+            {
+                "s2_author_id": "2105899091",
+                "name": "C. Mart'inez"
+            },
+            {
+                "s2_author_id": "3771194",
+                "name": "M. Elzo"
+            },
+            {
+                "s2_author_id": "15501140",
+                "name": "N. Karalkar"
+            },
+            {
+                "s2_author_id": "9004819",
+                "name": "Robert W. Molt"
+            },
+            {
+                "s2_author_id": "39873024",
+                "name": "S. Benner"
+            },
+            {
+                "s2_author_id": "47611850",
+                "name": "Nabanita Mukherjee"
+            },
+            {
+                "s2_author_id": "144898907",
+                "name": "G. Casella"
+            },
+            {
+                "s2_author_id": "145934077",
+                "name": "C. Mart\u00ednez"
+            },
+            {
+                "s2_author_id": "143946674",
+                "name": "Arunava Banerjee"
+            },
+            {
+                "s2_author_id": "2070067972",
+                "name": "Subahdip Pal"
+            },
+            {
+                "s2_author_id": "5433049",
+                "name": "N. Shahani"
+            },
+            {
+                "s2_author_id": "5344379",
+                "name": "Supriya Swarnkar"
+            },
+            {
+                "s2_author_id": "2069121848",
+                "name": "Vincenzo Giovinazzo"
+            },
+            {
+                "s2_author_id": "6174952",
+                "name": "J. Morgenweck"
+            },
+            {
+                "s2_author_id": "5634784",
+                "name": "L. Bohn"
+            },
+            {
+                "s2_author_id": "1398818636",
+                "name": "Catherina Scharager-Tapia"
+            },
+            {
+                "s2_author_id": "81916274",
+                "name": "B. Pascal"
+            },
+            {
+                "s2_author_id": "1401634688",
+                "name": "P. Mart\u00ednez-Acedo"
+            },
+            {
+                "s2_author_id": "90282516",
+                "name": "S. Subramaniam"
+            },
+            {
+                "s2_author_id": "2319704",
+                "name": "Alnur Ali"
+            },
+            {
+                "s2_author_id": "102738163",
+                "name": "Ruoxuan Xiang"
+            },
+            {
+                "s2_author_id": "38545427",
+                "name": "A. Saha"
+            },
+            {
+                "s2_author_id": "1980160",
+                "name": "Onkar Dalal"
+            },
+            {
+                "s2_author_id": "2918050",
+                "name": "Shibasish Dasgupta"
+            },
+            {
+                "s2_author_id": "2796350",
+                "name": "P. Diaconis"
+            },
+            {
+                "s2_author_id": "1388401149",
+                "name": "L. Saloff\u2010Coste"
+            },
+            {
+                "s2_author_id": "9142950",
+                "name": "Hua Zhou"
+            },
+            {
+                "s2_author_id": "2052143333",
+                "name": "M. Joshi"
+            },
+            {
+                "s2_author_id": "2064013115",
+                "name": "Arvind Narayanan"
+            },
+            {
+                "s2_author_id": "2048022963",
+                "name": "S. Varma"
+            }
+        ],
+        "total_co_authors": 67,
+        "papers_retrieved": 84
+    }
+}

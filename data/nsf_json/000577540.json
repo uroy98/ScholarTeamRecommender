@@ -1,0 +1,1938 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000577540",
+        "name": "Galen Reeves",
+        "primary_affiliation": "Duke University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Duke University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "NC"
+        ],
+        "perf_cities": [
+            "DURHAM"
+        ],
+        "org_names": [
+            "Duke University"
+        ],
+        "org_ueis": [
+            "TP7EK8DZV6N5"
+        ],
+        "inst_types": [
+            "R1_university"
+        ],
+        "emails": [
+            "galen.reeves@duke.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2444150",
+                "title": "Collaborative Research: CIF: Small: New Frontiers of Approximate Message Passing: Distributed Processing, Stochastic Updates, and Non-Asymptotic Bounds",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-06-15",
+                "exp_date": "2028-05-31",
+                "award_amount": 300000.0,
+                "total_amount": 300000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "Comm & Information Foundations"
+                ],
+                "program_codes": [
+                    "779700"
+                ],
+                "program_references": [
+                    "Machine Learning Theory",
+                    "SMALL PROJECT",
+                    "NETWORK CODING AND INFO THEORY"
+                ],
+                "program_ref_codes": [
+                    "079Z",
+                    "7923",
+                    "7937"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Phillip Regalia",
+                "keywords": [
+                    "distributed",
+                    "algorithms",
+                    "datasets",
+                    "iterative",
+                    "framework",
+                    "approximate",
+                    "message",
+                    "passing",
+                    "processing",
+                    "updates"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "Comm & Information Foundations"
+        ],
+        "program_codes": [
+            "779700"
+        ],
+        "program_references": [
+            "Machine Learning Theory",
+            "SMALL PROJECT",
+            "NETWORK CODING AND INFO THEORY"
+        ],
+        "program_ref_codes": [
+            "079Z",
+            "7923",
+            "7937"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Phillip Regalia"
+        ],
+        "keywords": [
+            "distributed",
+            "algorithms",
+            "datasets",
+            "iterative",
+            "framework",
+            "approximate",
+            "message",
+            "passing",
+            "processing",
+            "updates",
+            "massive",
+            "guarantees",
+            "analysis",
+            "design",
+            "small",
+            "stochastic",
+            "asymptotic",
+            "made",
+            "possible",
+            "many"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.68
+    },
+    "s2_profile": {
+        "s2_author_id": "145838359",
+        "name": "Galen Reeves",
+        "affiliations": [],
+        "paper_count": 74,
+        "citation_count": 1447,
+        "h_index": 22,
+        "papers": [
+            {
+                "s2_paper_id": "6cafe15746232758006c001720f0fc4f686ff29f",
+                "title": "Capacity on BMS Channels via Code Symmetry and Nesting",
+                "year": 2025,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 35,
+                "abstract": "The past decade has seen notable advances in our understanding of structured error-correcting codes, particularly binary Reed--Muller (RM) codes. While initial breakthroughs were for erasure channels based on symmetry, extending these results to the binary symmetric channel (BSC) and other binary memoryless symmetric (BMS) channels required new tools and conditions. Recent work uses nesting to obtain multiple weakly correlated\"looks\"that imply capacity-achieving performance under bit-MAP and block-MAP decoding. This paper revisits and extends past approaches, aiming to simplify proofs, unify insights, and remove unnecessary conditions. By leveraging powerful results from the analysis of boolean functions, we derive recursive bounds using two or three looks at each stage. This gives bounds on the bit error probability that decay exponentially in the number of stages. For the BSC, we incorporate level-k inequalities and hypercontractive techniques to achieve the faster decay rate required for vanishing block error probability. The results are presented in a semitutorial style, providing both theoretical insights and practical implications for future research on structured codes.",
+                "authors": [
+                    {
+                        "s2_author_id": "2343750442",
+                        "name": "Henry D. Pfister"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aaef308d8d65dad6a4adc640f45fa21ccae44d31",
+                "title": "Information-Theoretic Proofs for Diffusion Sampling",
+                "year": 2025,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 3,
+                "reference_count": 26,
+                "abstract": "This paper provides an elementary, self-contained analysis of diffusion-based sampling methods for generative modeling. In contrast to existing approaches that rely on continuous-time processes and then discretize, our treatment works directly with discrete-time stochastic processes and yields precise non-asymptotic convergence guarantees under broad assumptions. The key insight is to couple the sampling process of interest with an idealized comparison process that has an explicit Gaussian-convolution structure. We then leverage simple identities from information theory, including the I- MMSE relationship, to bound the discrepancy (in terms of the Kullback-Leibler divergence) between these two discrete-time processes. In particular, we show that, if the diffusion step sizes are chosen sufficiently small and one can approximate certain conditional mean estimators well, then the sampling distribution is provably close to the target distribution. Our results also provide a transparent view on how to accelerate convergence by using additional randomness in each step to match higher-order moments in the comparison process.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "2343750442",
+                        "name": "Henry D. Pfister"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0659afa404203bc3626ef9c392437dec862a89f4",
+                "title": "Linear Operator Approximate Message Passing: Power Method with Partial and Stochastic Updates",
+                "year": 2024,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 2,
+                "reference_count": 46,
+                "abstract": "This paper introduces a framework for approximate message passing (AMP) in dynamic settings where the data at each iteration is passed through a linear operator. This framework is motivated in part by applications in large-scale, distributed computing where only a subset of the data is available at each iteration. An autoregressive memory term is used to mitigate information loss across iterations and a specialized algorithm, called projection AMP, is designed for the case where each linear operator is an orthogonal projection. Precise theoretical guarantees are provided for a class of Gaussian matrices and non-separable denoising functions. Specifically, it is shown that the iterates can be well-approximated in the high-dimensional limit by a Gaussian process whose second-order statistics are defined recursively via state evolution. These results are applied to the problem of estimating a rank-one spike corrupted by additive Gaussian noise using partial row updates, and the theory is validated by numerical simulations.",
+                "authors": [
+                    {
+                        "s2_author_id": "2121440414",
+                        "name": "Riccardo Rossetti"
+                    },
+                    {
+                        "s2_author_id": "1771641",
+                        "name": "B. Nazer"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3f8b3963de2f5d34cfd605ba93130ec23172a421",
+                "title": "Approximate Message Passing for the Matrix Tensor Product Model",
+                "year": 2023,
+                "venue": "arXiv.org",
+                "citation_count": 12,
+                "reference_count": 39,
+                "abstract": "We propose and analyze an approximate message passing (AMP) algorithm for the matrix tensor product model, which is a generalization of the standard spiked matrix models that allows for multiple types of pairwise observations over a collection of latent variables. A key innovation for this algorithm is a method for optimally weighing and combining multiple estimates in each iteration. Building upon an AMP convergence theorem for non-separable functions, we prove a state evolution for non-separable functions that provides an asymptotically exact description of its performance in the high-dimensional limit. We leverage this state evolution result to provide necessary and sufficient conditions for recovery of the signal of interest. Such conditions depend on the singular values of a linear operator derived from an appropriate generalization of a signal-to-noise ratio for our model. Our results recover as special cases a number of recently proposed methods for contextual models (e.g., covariate assisted clustering) as well as inhomogeneous noise models.",
+                "authors": [
+                    {
+                        "s2_author_id": "2121440414",
+                        "name": "Riccardo Rossetti"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "85fe6dc03d90cf861888343e28a078d13200d87f",
+                "title": "Achieving Capacity on Non-Binary Channels with Generalized Reed\u2013Muller Codes",
+                "year": 2023,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 3,
+                "reference_count": 36,
+                "abstract": "Recently, the authors showed that Reed\u2013Muller (RM) codes achieve capacity on binary memoryless symmetric (BMS) channels with respect to bit error rate. This paper extends that work by showing that RM codes defined on non-binary fields, known as generalized RM codes, achieve capacity on sufficiently symmetric non-binary channels with respect to symbol error rate. The new proof also simplifies the previous approach (for BMS channels) in a variety of ways that may be of independent interest.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "143612347",
+                        "name": "H. Pfister"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "80370e914cd366c9b0f6810a53cb7a9566e6be0b",
+                "title": "Reed\u2013Muller Codes on BMS Channels Achieve Vanishing Bit-Error Probability for all Rates Below Capacity",
+                "year": 2021,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 39,
+                "reference_count": 71,
+                "abstract": "This paper considers the performance of Reed\u2013Muller (RM) codes transmitted over binary memoryless symmetric (BMS) channels under bitwise maximum-a-posteriori (bit-MAP) decoding. Its main result is that, for a fixed BMS channel, the family of binary RM codes can achieve a vanishing bit-error probability at rates approaching the channel capacity. This partially resolves a long-standing open problem that connects information theory and error-correcting codes. In contrast with the earlier result for the binary erasure channel, the new proof does not rely on hypercontractivity. Instead, it combines a nesting property of RM codes with new information inequalities relating the generalized extrinsic information transfer function and the extrinsic minimum mean-squared error.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "143612347",
+                        "name": "H. Pfister"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "98ecbd335ff0d2f91c230fa8fe8ff00bd2f54dc7",
+                "title": "Reed-Muller Codes Achieve Capacity on BMS Channels",
+                "year": 2021,
+                "venue": "arXiv.org",
+                "citation_count": 34,
+                "reference_count": 64,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "143612347",
+                        "name": "H. Pfister"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a6586a1048e54f5c29b0e90381bc90a72828f5fa",
+                "title": "Rank-one matrix estimation with groupwise heteroskedasticity",
+                "year": 2021,
+                "venue": "arXiv.org",
+                "citation_count": 0,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2114433402",
+                        "name": "Joshua K. Behne"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c3af183ff23ad5482146a7be6f418c6f6e358a1c",
+                "title": "Fundamental limits for rank-one matrix estimation with groupwise heteroskedasticity",
+                "year": 2021,
+                "venue": "International Conference on Artificial Intelligence and Statistics",
+                "citation_count": 15,
+                "reference_count": 56,
+                "abstract": "Low-rank matrix recovery problems involving high-dimensional and heterogeneous data appear in applications throughout statistics and machine learning. The contribution of this paper is to establish the fundamental limits of recovery for a broad class of these problems. In particular, we study the problem of estimating a rank-one matrix from Gaussian observations where different blocks of the matrix are observed under different noise levels. In the setting where the number of blocks is fixed while the number of variables tends to infinity, we prove asymptotically exact formulas for the minimum mean-squared error in estimating both the matrix and underlying factors. These results are based on a novel reduction from the low-rank matrix tensor product model (with homogeneous noise) to a rank-one model with heteroskedastic noise. As an application of our main result, we show that recently proposed methods based on applying principal component analysis (PCA) to weighted combinations of the data are optimal in some settings but sub-optimal in others. We also provide numerical results comparing our asymptotic formulas with the performance of methods based on weighted PCA, gradient descent, and approximate message passing.",
+                "authors": [
+                    {
+                        "s2_author_id": "2114433402",
+                        "name": "Joshua K. Behne"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fc0f349049d105c2b6426e05558824adbfe37cc7",
+                "title": "Convergence of Gaussian-smoothed optimal transport distance with sub-gamma distributions and dependent samples",
+                "year": 2021,
+                "venue": "International Conference on Artificial Intelligence and Statistics",
+                "citation_count": 11,
+                "reference_count": 55,
+                "abstract": "The Gaussian-smoothed optimal transport (GOT) framework, recently proposed by Goldfeld et al., scales to high dimensions in estimation and provides an alternative to entropy regularization. This paper provides convergence guarantees for estimating the GOT distance under more general settings. For the Gaussian-smoothed $p$-Wasserstein distance in $d$ dimensions, our results require only the existence of a moment greater than $d + 2p$. For the special case of sub-gamma distributions, we quantify the dependence on the dimension $d$ and establish a phase transition with respect to the scale parameter. We also prove convergence for dependent samples, only requiring a condition on the pairwise dependence of the samples measured by the covariance of the feature map of a kernel space. \nA key step in our analysis is to show that the GOT distance is dominated by a family of kernel maximum mean discrepancy (MMD) distances with a kernel that depends on the cost function as well as the amount of Gaussian smoothing. This insight provides further interpretability for the GOT framework and also introduces a class of kernel MMD distances with desirable properties. The theoretical results are supported by numerical experiments.",
+                "authors": [
+                    {
+                        "s2_author_id": "2135920661",
+                        "name": "Yixing Zhang"
+                    },
+                    {
+                        "s2_author_id": "1823644",
+                        "name": "Xiuyuan Cheng"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "30b46247f26cfa03e4c087c680cefb55a9b902aa",
+                "title": "Gaussian Approximation of Quantization Error for Estimation From Compressed Data",
+                "year": 2020,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 12,
+                "reference_count": 66,
+                "abstract": "We consider the distributional connection between the lossy compressed representation of a high-dimensional signal <inline-formula> <tex-math notation=\"LaTeX\">$X$ </tex-math></inline-formula> using a random spherical code and the observation of <inline-formula> <tex-math notation=\"LaTeX\">$X$ </tex-math></inline-formula> under an additive white Gaussian noise (AWGN). We show that the Wasserstein distance between a bitrate-<inline-formula> <tex-math notation=\"LaTeX\">$R$ </tex-math></inline-formula> compressed version of <inline-formula> <tex-math notation=\"LaTeX\">$X$ </tex-math></inline-formula> and its observation under an AWGN-channel of signal-to-noise ratio <inline-formula> <tex-math notation=\"LaTeX\">$2^{2R}-1$ </tex-math></inline-formula> is bounded in the problem dimension. We utilize this fact to connect the risk of an estimator based on the compressed version of <inline-formula> <tex-math notation=\"LaTeX\">$X$ </tex-math></inline-formula> to the risk attained by the same estimator when fed the AWGN-corrupted version of <inline-formula> <tex-math notation=\"LaTeX\">$X$ </tex-math></inline-formula>. We demonstrate the usefulness of this connection by deriving various novel results for inference problems under compression constraints, including minimax estimation, sparse regression, compressed sensing, and universality of linear estimation in remote source coding.",
+                "authors": [
+                    {
+                        "s2_author_id": "3104851",
+                        "name": "A. Kipnis"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "51acedeaaf06ade304bbc3179e073cb65b3da0a8",
+                "title": "Information-Theoretic Limits for the Matrix Tensor Product",
+                "year": 2020,
+                "venue": "IEEE Journal on Selected Areas in Information Theory",
+                "citation_count": 35,
+                "reference_count": 64,
+                "abstract": "This article studies a high-dimensional inference problem involving the matrix tensor product of random matrices. This problem generalizes a number of contemporary data science problems including the spiked matrix models used in sparse principal component analysis and covariance estimation and the stochastic block model used in network analysis. The main results are single-letter formulas (i.e., analytical expressions that can be approximated numerically) for the mutual information and the minimum mean-squared error (MMSE) in the Bayes optimal setting where the distributions of all random quantities are known. We provide non-asymptotic bounds and show that our formulas describe exactly the leading order terms in the mutual information and MMSE in the high-dimensional regime where the number of rows <inline-formula> <tex-math notation=\"LaTeX\">$n$ </tex-math></inline-formula> and number of columns <inline-formula> <tex-math notation=\"LaTeX\">$d$ </tex-math></inline-formula> scale with <inline-formula> <tex-math notation=\"LaTeX\">$d = O(n^{\\alpha })$ </tex-math></inline-formula> for some <inline-formula> <tex-math notation=\"LaTeX\">$\\alpha < 1/20$ </tex-math></inline-formula>. On the technical side, this article introduces some new techniques for the analysis of high-dimensional matrix-valued signals. Specific contributions include a novel extension of the adaptive interpolation method that uses order-preserving positive semidefinite interpolation paths, and a variance inequality between the overlap and the free energy that is based on continuous-time I-MMSE relations.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7f37755289083e59af10a57f4cc7e241b09afa0d",
+                "title": "The Gaussian equivalence of generative models for learning with two-layer neural networks",
+                "year": 2020,
+                "venue": "arXiv.org",
+                "citation_count": 33,
+                "reference_count": 91,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "4174818",
+                        "name": "Sebastian Goldt"
+                    },
+                    {
+                        "s2_author_id": "143616600",
+                        "name": "Bruno Loureiro"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "2065697125",
+                        "name": "M. M'ezard"
+                    },
+                    {
+                        "s2_author_id": "2909402",
+                        "name": "Florent Krzakala"
+                    },
+                    {
+                        "s2_author_id": "2065813820",
+                        "name": "Lenka Zdeborov'a"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "99f676b91679ff6c6856496b57953e1c3894443d",
+                "title": "A Two-Moment Inequality with Applications to R\u00e9nyi Entropy and Mutual Information",
+                "year": 2020,
+                "venue": "Entropy",
+                "citation_count": 2,
+                "reference_count": 36,
+                "abstract": "This paper explores some applications of a two-moment inequality for the integral of the rth power of a function, where 0<r<1. The first contribution is an upper bound on the R\u00e9nyi entropy of a random vector in terms of the two different moments. When one of the moments is the zeroth moment, these bounds recover previous results based on maximum entropy distributions under a single moment constraint. More generally, evaluation of the bound with two carefully chosen nonzero moments can lead to significant improvements with a modest increase in complexity. The second contribution is a method for upper bounding mutual information in terms of certain integrals with respect to the variance of the conditional density. The bounds have a number of useful properties arising from the connection with variance decompositions.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "da8b0dd1132f22f42df118d46dd2157e56a74848",
+                "title": "The Gaussian equivalence of generative models for learning with shallow neural networks",
+                "year": 2020,
+                "venue": "Mathematical and Scientific Machine Learning",
+                "citation_count": 120,
+                "reference_count": 96,
+                "abstract": "Understanding the impact of data structure on the computational tractability of learning is a key challenge for the theory of neural networks. Many theoretical works do not explicitly model training data, or assume that inputs are drawn component-wise independently from some simple probability distribution. Here, we go beyond this simple paradigm by studying the performance of neural networks trained on data drawn from pre-trained generative models. This is possible due to a Gaussian equivalence stating that the key metrics of interest, such as the training and test errors, can be fully captured by an appropriately chosen Gaussian model. We provide three strands of rigorous, analytical and numerical evidence corroborating this equivalence. First, we establish rigorous conditions for the Gaussian equivalence to hold in the case of single-layer generative models, as well as deterministic rates for convergence in distribution. Second, we leverage this equivalence to derive a closed set of equations describing the generalisation performance of two widely studied machine learning problems: two-layer neural networks trained using one-pass stochastic gradient descent, and full-batch pre-learned features or kernel methods. Finally, we perform experiments demonstrating how our theory applies to deep, pre-trained generative models. These results open a viable path to the theoretical study of machine learning models with realistic data.",
+                "authors": [
+                    {
+                        "s2_author_id": "4174818",
+                        "name": "Sebastian Goldt"
+                    },
+                    {
+                        "s2_author_id": "143616600",
+                        "name": "Bruno Loureiro"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "2909402",
+                        "name": "Florent Krzakala"
+                    },
+                    {
+                        "s2_author_id": "2065697125",
+                        "name": "M. M'ezard"
+                    },
+                    {
+                        "s2_author_id": "2065813820",
+                        "name": "Lenka Zdeborov'a"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "efaea5b7ae5dd27921011a41e628207cb3f2e761",
+                "title": "Information-theoretic limits of a multiview low-rank symmetric spiked matrix model",
+                "year": 2020,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 16,
+                "reference_count": 49,
+                "abstract": "We consider a generalization of an important class of high-dimensional inference problems, namely spiked symmetric matrix models, often used as probabilistic models for principal component analysis. Such paradigmatic models have recently attracted a lot of attention from a number of communities due to their phenomenological richness with statistical-to-computational gaps, while remaining tractable. We rigorously establish the information-theoretic limits through the proof of single-letter formulas for the mutual information and minimum mean-square error. On a technical side we improve the recently introduced adaptive interpolation method, so that it can be used to study low-rank models (i.e., estimation problems of \"tall matrices\") in full generality, an important step towards the rigorous analysis of more complicated inference and learning models.",
+                "authors": [
+                    {
+                        "s2_author_id": "144738540",
+                        "name": "Jean Barbier"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "075998e4dc1e865833c7513185e60632bac94bd9",
+                "title": "Gaussian Approximation of Quantization Error for Estimation from Compressed Data",
+                "year": 2019,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 3,
+                "reference_count": 26,
+                "abstract": "We consider the statistical connection between the quantized representation of a high dimensional signal X using a random spherical code and the observation of X under an additive white Gaussian noise (AWGN). We show that given X, the conditional Wasserstein distance between its bitrate-R quantized version and its observation under AWGN of signal-to-noise ratio 22R \u2212 1 is sub-linear in the problem dimension. We then utilize this fact to connect the mean squared error (MSE) attained by an estimator based on an AWGN-corrupted version of X to the MSE attained by the same estimator when fed with its bitrate-R quantized version.",
+                "authors": [
+                    {
+                        "s2_author_id": "3104851",
+                        "name": "A. Kipnis"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1d4f087217b816691254ef0d4377094ce16eea95",
+                "title": "Adversarially Learned Representations for Information Obfuscation and Inference",
+                "year": 2019,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 60,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37335063",
+                        "name": "Mart\u00edn Bertr\u00e1n"
+                    },
+                    {
+                        "s2_author_id": "144323649",
+                        "name": "Natalia Mart\u00ednez"
+                    },
+                    {
+                        "s2_author_id": "83557736",
+                        "name": "Afroditi Papadaki"
+                    },
+                    {
+                        "s2_author_id": "2077648",
+                        "name": "Qiang Qiu"
+                    },
+                    {
+                        "s2_author_id": "4838771",
+                        "name": "M. Rodrigues"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1699339",
+                        "name": "G. Sapiro"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "31f06fdb2688b22087a732c206fe13c142c4a061",
+                "title": "The All-or-Nothing Phenomenon in Sparse Linear Regression",
+                "year": 2019,
+                "venue": "Annual Conference Computational Learning Theory",
+                "citation_count": 50,
+                "reference_count": 46,
+                "abstract": "We study the problem of recovering a hidden binary $k$-sparse $p$-dimensional vector $\\beta$ from $n$ noisy linear observations $Y=X\\beta+W$ where $X_{ij}$ are i.i.d. $\\mathcal{N}(0,1)$ and $W_i$ are i.i.d. $\\mathcal{N}(0,\\sigma^2)$. A closely related hypothesis testing problem is to distinguish the pair $(X,Y)$ generated from this structured model from a corresponding null model where $(X,Y)$ consist of purely independent Gaussian entries. In the low sparsity $k=o(p)$ and high signal to noise ratio $k/\\sigma^2=\\Omega\\left(1\\right)$ regime, we establish an `All-or-Nothing' information-theoretic phase transition at a critical sample size $n^*=2 k\\log \\left(p/k\\right) /\\log \\left(1+k/\\sigma^2\\right)$, resolving a conjecture of \\cite{gamarnikzadik}. Specifically, we show that if $\\liminf_{p\\to \\infty} n/n^*>1$, then the maximum likelihood estimator almost perfectly recovers the hidden vector with high probability and moreover the true hypothesis can be detected with a vanishing error probability. Conversely, if $\\limsup_{p\\to \\infty} n/n^*<1$, then it becomes information-theoretically impossible even to recover an arbitrarily small but fixed fraction of the hidden vector support, or to test hypotheses strictly better than random guess. \nOur proof of the impossibility result builds upon two key techniques, which could be of independent interest. First, we use a conditional second moment method to upper bound the Kullback-Leibler (KL) divergence between the structured and the null model. Second, inspired by the celebrated area theorem, we establish a lower bound to the minimum mean squared estimation error of the hidden vector in terms of the KL divergence between the two models.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "2350860237",
+                        "name": "Jiaming Xu"
+                    },
+                    {
+                        "s2_author_id": "11629161",
+                        "name": "Ilias Zadik"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "595e8ab2969ba9ed09a656a7539e5dfb781eb917",
+                "title": "Mutual Information in Community Detection with Covariate Information and Correlated Networks",
+                "year": 2019,
+                "venue": "Allerton Conference on Communication, Control, and Computing",
+                "citation_count": 24,
+                "reference_count": 30,
+                "abstract": "We study the problem of community detection when there is covariate information about the node labels and one observes multiple correlated networks. We provide an asymptotic upper bound on the per-node mutual information as well as a heuristic analysis of a multivariate performance measure called the MMSE matrix. These results show that the combined effects of seemingly very different types of information can be characterized explicitly in terms of formulas involving low-dimensional estimation problems in additive Gaussian noise. Our analysis is supported by numerical simulations.",
+                "authors": [
+                    {
+                        "s2_author_id": "8801774",
+                        "name": "Vaishakhi Mayya"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9351c5e2b59b5d6c9cbd073b314d841a814e5cb6",
+                "title": "The Geometry of Community Detection via the MMSE Matrix",
+                "year": 2019,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 16,
+                "reference_count": 27,
+                "abstract": "The information-theoretic limits of community detection have been studied extensively for network models with high levels of symmetry or homogeneity. The contribution of this paper is to study a broader class of network models that allow for variability in the sizes and behaviors of the different communities, and thus better reflect the behaviors observed in real-world networks. Our results show that the ability to detect communities can be described succinctly in terms of a matrix of effective signal-to-noise ratios that provides a geometrical representation of the relationships between the different communities. This characterization follows from a matrix version of the I-MMSE relationship and generalizes the concept of an effective scalar signal-to-noise ratio introduced in previous work. We provide explicit formulas for the asymptotic per-node mutual information and upper bounds on the minimum mean-squared error. The theoretical results are supported by numerical simulations.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "8801774",
+                        "name": "Vaishakhi Mayya"
+                    },
+                    {
+                        "s2_author_id": "6974508",
+                        "name": "A. Volfovsky"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "98fec1b9945bc30e856b8673eba826a9e80e706c",
+                "title": "Gaussian Mixture Models for Stochastic Block Models with Non-Vanishing Noise",
+                "year": 2019,
+                "venue": "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing",
+                "citation_count": 5,
+                "reference_count": 18,
+                "abstract": "Community detection tasks have received a lot of attention across statistics, machine learning, and information theory with work concentrating on providing theoretical guarantees for different methodological approaches to the stochastic block model. Recent work on community detection has focused on modeling the spectral embedding of a network using Gaussian mixture models (GMMs) in scaling regimes where the ability to detect community memberships improves with the size of the network. However, these regimes are not very realistic. This paper provides tractable methodology motivated by new theoretical results for networks with non-vanishing noise. We present a procedure for community detection using novel GMMs that incorporate truncation and shrinkage effects. We provide empirical validation of this new representation as well as experimental results using a large email dataset.",
+                "authors": [
+                    {
+                        "s2_author_id": "102487149",
+                        "name": "Heather Mathews"
+                    },
+                    {
+                        "s2_author_id": "8801774",
+                        "name": "Vaishakhi Mayya"
+                    },
+                    {
+                        "s2_author_id": "6974508",
+                        "name": "A. Volfovsky"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dd4aa1603af09acafa6c81d45b8abd0f7d261d21",
+                "title": "Approximating posteriors with high-dimensional nuisance parameters via integrated rotated Gaussian approximation.",
+                "year": 2019,
+                "venue": "Biometrika",
+                "citation_count": 6,
+                "reference_count": 54,
+                "abstract": "Posterior computation for high-dimensional data with many parameters can be challenging. This article focuses on a new method for approximating posterior distributions of a low- to moderate-dimensional parameter in the presence of a high-dimensional or otherwise computationally challenging nuisance parameter. The focus is on regression models and the key idea is to separate the likelihood into two components through a rotation. One component involves only the nuisance parameters, which can then be integrated out using a novel type of Gaussian approximation. We provide theory on approximation accuracy that holds for a broad class of forms of the nuisance component and priors. Applying our method to simulated and real data sets shows that it can outperform state-of-the-art posterior approximation approaches.",
+                "authors": [
+                    {
+                        "s2_author_id": "2680701",
+                        "name": "W. V. Boom"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "39775017",
+                        "name": "D. Dunson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e06a34d5bbda0aa8fb56f673ab7cc8d7327b4a4b",
+                "title": "The Replica-Symmetric Prediction for Random Linear Estimation With Gaussian Matrices Is Exact",
+                "year": 2019,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 59,
+                "reference_count": 56,
+                "abstract": "This paper considers the fundamental limit of random linear estimation for i.i.d. signal distributions and i.i.d. Gaussian measurement matrices. Its main contribution is a rigorous characterization of the asymptotic mutual information (MI) and minimum mean-square error (MMSE) in this setting. Under mild technical conditions, our results show that the limiting MI and MMSE are equal to the values predicted by the replica method from statistical physics. This resolves a well-known problem that has remained open for over a decade.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "143612347",
+                        "name": "H. Pfister"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e57b4b3ef7f60b2935255b976ddd570722aa896e",
+                "title": "Understanding Phase Transitions via Mutual Information and MMSE",
+                "year": 2019,
+                "venue": "Information-Theoretic Methods in Data Science",
+                "citation_count": 8,
+                "reference_count": 63,
+                "abstract": "The ability to understand and solve high-dimensional inference problems is essential for modern data science. This article examines high-dimensional inference problems through the lens of information theory and focuses on the standard linear model as a canonical example that is both rich enough to be practically useful and simple enough to be studied rigorously. In particular, this model can exhibit phase transitions where an arbitrarily small change in the model parameters can induce large changes in the quality of estimates. For this model, the performance of optimal inference can be studied using the replica method from statistical physics but, until recently, it was not known if the resulting formulas were actually correct. In this chapter, we present a tutorial description of the standard linear model and its connection to information theory. We also describe the replica prediction for this model and outline the authors' recent proof that it is exact.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "143612347",
+                        "name": "H. Pfister"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ffd31dd07c558cf596bc4c75ce042b862102f855",
+                "title": "All-or-Nothing Phenomena: From Single-Letter to High Dimensions",
+                "year": 2019,
+                "venue": "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing",
+                "citation_count": 16,
+                "reference_count": 11,
+                "abstract": "We consider the problem of estimating a <tex>$p$</tex> -dimensional vector <tex>$\\beta$</tex> from <tex>$n$</tex> observations <tex>$Y=X\\beta+W$</tex>, where <tex>$\\beta_{j}\\mathop{\\sim}^{\\mathrm{i.i.d}.}\\pi$</tex> for a real-valued distribution <tex>$\\pi$</tex> with zero mean and unit variance\u2019 <tex>$X_{ij}\\mathop{\\sim}^{\\mathrm{i.i.d}.}\\mathcal{N}(0,1)$</tex>, and <tex>$W_{i}\\mathop{\\sim}^{\\mathrm{i.i.d}.}\\mathcal{N}(0,\\ \\sigma^{2})$</tex>. In the asymptotic regime where <tex>$n/p\\rightarrow\\delta$</tex> and <tex>$p/\\sigma^{2}\\rightarrow$</tex> snr for two fixed constants <tex>$\\delta,\\ \\mathsf{snr}\\in(0,\\ \\infty)$</tex> as <tex>$p\\rightarrow\\infty$</tex>, the limiting (normalized) minimum mean-squared error (MMSE) has been characterized by a single-letter (additive Gaussian scalar) channel. In this paper, we show that if the MMSE function of the single-letter channel converges to a step function, then the limiting MMSE of estimating <tex>$\\beta$</tex> converges to a step function which jumps from 1 to 0 at a critical threshold. Moreover, we establish that the limiting mean-squared error of the (MSE-optimal) approximate message passing algorithm also converges to a step function with a larger threshold, providing evidence for the presence of a computational-statistical gap between the two thresholds.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "2350860237",
+                        "name": "Jiaming Xu"
+                    },
+                    {
+                        "s2_author_id": "11629161",
+                        "name": "Ilias Zadik"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d33a3d242d8a9071960f15479cf9bc8e563f4a7",
+                "title": "Single Letter Formulas for Quantized Compressed Sensing with Gaussian Codebooks",
+                "year": 2018,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 16,
+                "reference_count": 23,
+                "abstract": "Theoretical and experimental results have shown that compressed sensing with quantization can perform well if the signal is very sparse, the noise is very low, and the bitrate is sufficiently large. However, a precise characterization of the fundamental tradeoffs between these quantities has remained elusive. In our previous work, we considered a quantization scheme that first computes the conditional expectation of the signal. In this paper, we focus on a different approach in which the measurements are encoded directly using Gaussian codebooks. We show that that mean-square error (MSE) distortion of this approach can be analyzed by studying a degraded measurement model without any bitrate constraints. Building upon ideas from statistical physics and random matrix theory, we then provide single-letter formulas for the reconstruction error associated with optimal decoding. These formulas provide an explicit characterization of the mean-squared error (MSE) as a function of: (1) the average quantization bitrate, (2) the prior distribution of the signal, and (3) the spectral distribution of the sensing matrix. These formulas provide upper bounds on the fundamental limits of compressed sensing with quantization. Interestingly, it is shown that in some problem regimes, this method achieves the best known performance, even though the encoding stage does not use any information about the signal distribution other than its mean and variance.",
+                "authors": [
+                    {
+                        "s2_author_id": "3104851",
+                        "name": "A. Kipnis"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "143783379",
+                        "name": "Yonina C. Eldar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8e04cac90ac88a0ae3c4edab2c56d8be1ed9c9fa",
+                "title": ": Lecture 7 \u2013 Di\ufb00erential Entropy",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a4f447bcaf49e560e9aa238e1533e5c6a5866ec1",
+                "title": "ECE 587 / STA 563: Lecture 9 \u2013 Rate Distortion Information Theory",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ad46410c5365a42a3bdd70cc024c765ebac42fed",
+                "title": "Mutual Information as a Function of Matrix SNR for Linear Gaussian Channels",
+                "year": 2018,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 21,
+                "reference_count": 25,
+                "abstract": "This paper focuses on the mutual information and minimum mean-squared error (MMSE) as a function a matrix-valued signal-to-noise ratio (SNR) for a linear Gaussian channel with arbitrary input distribution. As shown by Lamarca, the mutual-information is a concave function of a positive semidefinite matrix, which we call the matrix SNR. This implies that the mapping from the matrix SNR to the MMSE matrix is decreasing monotone. Building upon these functional properties, we start to construct a unifying framework that provides a bridge between classical information-theoretic inequalities, such as the entropy power inequality, and interpolation techniques used in statistical physics and random matrix theory. This framework provides new insight into the structure of phase transitions in coding theory and compressed sensing. In particular, it is shown that the parallel combination of linear channels with freely-independent matrices can be characterized succinctly via free convolution.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "143612347",
+                        "name": "H. Pfister"
+                    },
+                    {
+                        "s2_author_id": "2046786",
+                        "name": "Alex Dytso"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0185f0373a64ad2a1759268dab673f3f314674fe",
+                "title": "/ STA 563: Lecture 9 \u2013 Rate Distortion Information Theory",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02ff4b9d001f3bfa3b43b15b76c6d42bf582fc6f",
+                "title": "A performance-based approach to designing the stimulus presentation paradigm for the P300-based BCI by exploiting coding theory",
+                "year": 2017,
+                "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+                "citation_count": 0,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33412731",
+                        "name": "B. Mainsah"
+                    },
+                    {
+                        "s2_author_id": "1977697",
+                        "name": "L. Collins"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "2250543",
+                        "name": "C. Throckmorton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "03d1b240f24ac7983cef3b99f4282a315f8f813b",
+                "title": "ECE 587 / STA 563: Lecture 6 \u2013 Channel Coding Information Theory",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 6,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04e79f9554f154bc89321e1b90cb5b90819dd983",
+                "title": "Decoupling in random linear estimation",
+                "year": 2017,
+                "venue": "Annual Conference on Information Sciences and Systems",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "143612347",
+                        "name": "H. Pfister"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "281f1cc664070334341719addf9672ef2c3d9803",
+                "title": "Fundamental Limits of Compressed Sensing under Optimal Quantization",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3104851",
+                        "name": "A. Kipnis"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "143783379",
+                        "name": "Yonina C. Eldar"
+                    },
+                    {
+                        "s2_author_id": "1746299",
+                        "name": "A. Goldsmith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "50d4dcce96146307ada1ccbf341a5cb06897f488",
+                "title": "Optimizing the stimulus presentation paradigm design for the P300-based brain-computer interface using performance prediction",
+                "year": 2017,
+                "venue": "Journal of Neural Engineering",
+                "citation_count": 10,
+                "reference_count": 63,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33412731",
+                        "name": "B. Mainsah"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "2249888851",
+                        "name": "Leslie M. Collins"
+                    },
+                    {
+                        "s2_author_id": "2250543",
+                        "name": "C. Throckmorton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7f09b669f8f59fbe5ad065d621767d7d12ef9fbe",
+                "title": "Additivity of information in multilayer networks via additive Gaussian noise transforms",
+                "year": 2017,
+                "venue": "Allerton Conference on Communication, Control, and Computing",
+                "citation_count": 33,
+                "reference_count": 31,
+                "abstract": "Multilayer (or deep) networks are powerful probabilistic models based on multiple stages of a linear transform followed by a non-linear (possibly random) function. In general, the linear transforms are defined by matrices and the nonlinear functions are defined by information channels. These models have gained great popularity due to their ability to characterize complex probabilistic relationships arising in a wide variety of inference problems. The contribution of this paper is a new method for analyzing the fundamental limits of statistical inference in settings where the model is known. The validity of our method can be established in a number of settings and is conjectured to hold more generally. A key assumption made throughout is that the matrices are drawn randomly from orthogonally invariant distributions. Our method yields explicit formulas for 1) the mutual information; 2) the minimum mean-squared error (MMSE); 3) the existence and locations of certain phase-transitions with respect to the problem parameters; and 4) the stationary points for the state evolution of approximate message passing algorithms. When applied to the special case of models with multivariate Gaussian channels our method is rigorous and has close connections to free probability theory for random matrices. When applied to the general case of non-Gaussian channels, our method provides a simple alternative to the replica method from statistical physics. A key observation is that the combined effects of the individual components in the model (namely the matrices and the channels) are additive when viewed in a certain transform domain.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a336859144f008112b57f898fcb2e825df7f1e37",
+                "title": "Compressed sensing under optimal quantization",
+                "year": 2017,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 22,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3104851",
+                        "name": "A. Kipnis"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "143783379",
+                        "name": "Yonina C. Eldar"
+                    },
+                    {
+                        "s2_author_id": "1746299",
+                        "name": "A. Goldsmith"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ca7eff18d31f17ed115a71382b79270b8498815a",
+                "title": "Two-moment inequalities for R\u00e9nyi entropy and mutual information",
+                "year": 2017,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 0,
+                "reference_count": 25,
+                "abstract": "This paper explores some applications of a two-moment inequality for the integral of the r-th power of a function, where 0 < r < 1. The first contribution is an upper bound on the R\u00e9nyi entropy of a random vector in terms of the two different moments. When one of the moments is the zeroth moment, these bounds recover previous results based on maximum entropy distributions under a single moment constraint. More generally, evaluation of the bound with two carefully chosen nonzero moments can lead to significant improvements with a modest increase in complexity. The second contribution is a method for upper bounding mutual information in terms of certain integrals with respect to the variance of the conditional density. The bounds have a number of useful properties arising from the connection with variance decompositions.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cc9530b97f0d1546fcad0556a7dca82ab7a66bf7",
+                "title": "ECE 587 / STA 563: Lecture 8 \u2013 Gaussian Channel Information Theory",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1b4db752888078a970463939edcb0a71ab25cdb0",
+                "title": "Modeling the P300-based brain-computer interface as a channel with memory",
+                "year": 2016,
+                "venue": "Allerton Conference on Communication, Control, and Computing",
+                "citation_count": 2,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "8801774",
+                        "name": "Vaishakhi Mayya"
+                    },
+                    {
+                        "s2_author_id": "33412731",
+                        "name": "B. Mainsah"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a387af35e71d4639343dd82eb2538b5f14f60fa",
+                "title": "Information-theoretic analysis of refractory effects in the P300 speller",
+                "year": 2016,
+                "venue": "Asilomar Conference on Signals, Systems and Computers",
+                "citation_count": 1,
+                "reference_count": 20,
+                "abstract": "The P300 speller is a brain-computer interface that enables people with neuromuscular disorders to communicate based on eliciting event-related potentials (ERP) in electroencephalography (EEG) measurements. One challenge to reliable communication is the presence of refractory effects in the P300 ERP that induces temporal dependence in the user's EEG responses. We propose a model for the P300 speller as a communication channel with memory. By studying the maximum information rate on this channel, we gain insight into the fundamental constraints imposed by refractory effects. We construct codebooks based on the optimal input distribution, and compare them to existing codebooks in literature.",
+                "authors": [
+                    {
+                        "s2_author_id": "8801774",
+                        "name": "Vaishakhi Mayya"
+                    },
+                    {
+                        "s2_author_id": "33412731",
+                        "name": "B. Mainsah"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7be7468026f255ac03f1befbca2fbd0ef0159362",
+                "title": "A performance-based approach to design the stimulus presentation paradigm for the P300-based BCI",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33412731",
+                        "name": "B. Mainsah"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1977697",
+                        "name": "L. Collins"
+                    },
+                    {
+                        "s2_author_id": "2250543",
+                        "name": "C. Throckmorton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f7df223f78fddb352f5c49c8f170c6f1c4bd23a",
+                "title": "Performance Assessment of Image Translation-engineered Point Spread Functions",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 3,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2166779",
+                        "name": "P. Llull"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1741299",
+                        "name": "D. Brady"
+                    },
+                    {
+                        "s2_author_id": "145006560",
+                        "name": "L. Carin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a263d7f113e5aaa3035c48b8cafd6524f8a6e194",
+                "title": "Conditional central limit theorems for Gaussian projections",
+                "year": 2016,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 27,
+                "reference_count": 50,
+                "abstract": "This paper addresses the question of when projections of a high-dimensional random vector are approximately Gaussian. This problem has been studied previously in the context of high-dimensional data analysis, where the focus is on low-dimensional projections of high-dimensional point clouds. The focus of this paper is on the typical behavior when the projections are generated by an i.i.d. Gaussian projection matrix. The main results are bounds on the deviation between the conditional distribution of the projections and a Gaussian approximation, where the conditioning is on the projection matrix. The bounds are given in terms of the quadratic Wasserstein distance and relative entropy and are stated explicitly as a function of the number of projections and certain key properties of the random vector. The proof uses Talagrand's transportation inequality and a general integral-moment inequality for mutual information. Applications to random linear estimation and compressed sensing are discussed.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b92a5682f311cbf8a8df27ef111502612c2f50db",
+                "title": "The replica-symmetric prediction for compressed sensing with Gaussian matrices is exact",
+                "year": 2016,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 108,
+                "reference_count": 55,
+                "abstract": "This paper considers the fundamental limit of compressed sensing for i.i.d. signal distributions and i.i.d. Gaussian measurement matrices. Its main contribution is a rigorous characterization of the asymptotic mutual information (MI) and minimum mean-square error (MMSE) in this setting. Under mild technical conditions, our results show that the limiting MI and MMSE are equal to the values predicted by the replica method from statistical physics. This resolves a well-known problem that has remained open for over a decade.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "143612347",
+                        "name": "H. Pfister"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "023dfeb6e63037234bff7d35cb47c399d415a319",
+                "title": "Scalable Approximations of Marginal Posteriors in Variable Selection",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 27,
+                "abstract": "In many contexts, there is interest in selecting the most important variables from a very large collection, commonly referred to as support recovery or variable, feature or subset selection. There is an enormous literature proposing a rich variety of algorithms. In scientific applications, it is of crucial importance to quantify uncertainty in variable selection, providing measures of statistical significance for each variable. The overwhelming majority of algorithms fail to produce such measures. This has led to a focus in the scientific literature on independent screening methods, which examine each variable in isolation, obtaining p-values measuring the significance of marginal associations. Bayesian methods provide an alternative, with marginal inclusion probabilities used in place of p-values. Bayesian variable selection has advantages, but is impractical computationally beyond small problems. In this article, we show that approximate message passing (AMP) and Bayesian compressed regression (BCR) can be used to rapidly obtain accurate approximations to marginal inclusion probabilities in high-dimensional variable selection. Theoretical support is provided, simulation studies are conducted to assess performance, and the method is applied to a study relating brain networks to creative reasoning.",
+                "authors": [
+                    {
+                        "s2_author_id": "2680701",
+                        "name": "W. V. Boom"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "39775017",
+                        "name": "D. Dunson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a930e3d1f265de462ea41477658aa59fce9c2b5a",
+                "title": "Quantifying uncertainty in variable selection with arbitrary matrices",
+                "year": 2015,
+                "venue": "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing",
+                "citation_count": 9,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2680701",
+                        "name": "W. V. Boom"
+                    },
+                    {
+                        "s2_author_id": "39775017",
+                        "name": "D. Dunson"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ccc269d7e5254ee297e11b35c612ffd6c066393f",
+                "title": "Classification and reconstruction of compressed GMM signals with side information",
+                "year": 2015,
+                "venue": "International Symposium on Information Theory",
+                "citation_count": 5,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1797591",
+                        "name": "F. Renna"
+                    },
+                    {
+                        "s2_author_id": "2109120364",
+                        "name": "Liming Wang"
+                    },
+                    {
+                        "s2_author_id": "2115844400",
+                        "name": "Xin Yuan"
+                    },
+                    {
+                        "s2_author_id": "47988386",
+                        "name": "Jianbo Yang"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "120874496",
+                        "name": "R. Calderbank"
+                    },
+                    {
+                        "s2_author_id": "145006560",
+                        "name": "L. Carin"
+                    },
+                    {
+                        "s2_author_id": "4838771",
+                        "name": "M. Rodrigues"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "143d14f25aec5264e8a8baa5c5a6c515578a4012",
+                "title": "Classification and Reconstruction of High-Dimensional Signals From Low-Dimensional Features in the Presence of Side Information",
+                "year": 2014,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 45,
+                "reference_count": 92,
+                "abstract": "This paper offers a characterization of fundamental limits on the classification and reconstruction of high-dimensional signals from low-dimensional features, in the presence of side information. We consider a scenario where a decoder has access both to linear features of the signal of interest and to linear features of the side information signal; while the side information may be in a compressed form, the objective is recovery or classification of the primary signal, not the side information. The signal of interest and the side information are each assumed to have (distinct) latent discrete labels; conditioned on these two labels, the signal of interest and side information are drawn from a multivariate Gaussian distribution that correlates the two. With joint probabilities on the latent labels, the overall signal-(side information) representation is defined by a Gaussian mixture model. By considering bounds to the misclassification probability associated with the recovery of the underlying signal label, and bounds to the reconstruction error associated with the recovery of the signal of interest itself, we then provide sharp sufficient and/or necessary conditions for these quantities to approach zero when the covariance matrices of the Gaussians are nearly low rank. These conditions, which are reminiscent of the well-known Slepian-Wolf and Wyner-Ziv conditions, are the function of the number of linear features extracted from signal of interest, the number of linear features extracted from the side information signal, and the geometry of these signals and their interplay. Moreover, on assuming that the signal of interest and the side information obey such an approximately low-rank model, we derive the expansions of the reconstruction error as a function of the deviation from an exactly low-rank model; such expansions also allow the identification of operational regimes, where the impact of side information on signal reconstruction is most relevant. Our framework, which offers a principled mechanism to integrate side information in high-dimensional data problems, is also tested in the context of imaging applications. In particular, we report state-of-theart results in compressive hyperspectral imaging applications, where the accompanying side information is a conventional digital photograph.",
+                "authors": [
+                    {
+                        "s2_author_id": "1797591",
+                        "name": "F. Renna"
+                    },
+                    {
+                        "s2_author_id": "2109120364",
+                        "name": "Liming Wang"
+                    },
+                    {
+                        "s2_author_id": "2115844400",
+                        "name": "Xin Yuan"
+                    },
+                    {
+                        "s2_author_id": "47988386",
+                        "name": "Jianbo Yang"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "120874496",
+                        "name": "R. Calderbank"
+                    },
+                    {
+                        "s2_author_id": "145006560",
+                        "name": "L. Carin"
+                    },
+                    {
+                        "s2_author_id": "4838771",
+                        "name": "M. Rodrigues"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eaea7c39b5fafcd503f42aaa19fe2f8208fa622c",
+                "title": "The fundamental limits of stable recovery in compressed sensing",
+                "year": 2014,
+                "venue": "2014 IEEE International Symposium on Information Theory",
+                "citation_count": 8,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c91a06a37516e09f99d82e1ce8658f4084a273ed",
+                "title": "Achieving Bayes MMSE performance in the sparse signal + Gaussian white noise model when the noise level is unknown",
+                "year": 2013,
+                "venue": "2013 IEEE International Symposium on Information Theory",
+                "citation_count": 9,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709392",
+                        "name": "D. Donoho"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cf1a0850b8b88e1626fb122d211455e6a0193bd6",
+                "title": "Beyond sparsity: Universally stable compressed sensing when the number of \u2018free\u2019 values is less than the number of observations",
+                "year": 2013,
+                "venue": "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing",
+                "citation_count": 1,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dcd3ecded44a12d9a6608cbc067e40fa3f035dda",
+                "title": "The minimax noise sensitivity in compressed sensing",
+                "year": 2013,
+                "venue": "2013 IEEE International Symposium on Information Theory",
+                "citation_count": 13,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1709392",
+                        "name": "D. Donoho"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "83aa3a7a19edb49cc2464c88b0c4f4cdc686ba9a",
+                "title": "Compressed sensing phase transitions: Rigorous bounds versus replica predictions",
+                "year": 2012,
+                "venue": "Annual Conference on Information Sciences and Systems",
+                "citation_count": 10,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1792424",
+                        "name": "M. Gastpar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ca60a3c7c800fba9a23286d594b4a2c7253c68dd",
+                "title": "The sensitivity of compressed sensing performance to relaxation of sparsity",
+                "year": 2012,
+                "venue": "IEEE International Symposium on Information Theory. Proceedings",
+                "citation_count": 7,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1709392",
+                        "name": "D. Donoho"
+                    },
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "36c30d64a3da8e7bc5c7dce2263692aa420bb68d",
+                "title": "On the role of diversity in sparsity estimation",
+                "year": 2011,
+                "venue": "IEEE International Symposium on Information Theory. Proceedings",
+                "citation_count": 0,
+                "reference_count": 20,
+                "abstract": "A major challenge in sparsity pattern estimation is that small modes are difficult to detect in the presence of noise. This problem is alleviated if one can observe samples from multiple realizations of the nonzero values for the same sparsity pattern. We will refer to this as \u201cdiversity\u201d. Diversity comes at a price, however, since each new realization adds new unknown nonzero values, thus increasing uncertainty. In this paper, upper and lower bounds on joint sparsity pattern estimation are derived. These bounds, which improve upon existing results even in the absence of diversity, illustrate key tradeoffs between the number of measurements, the accuracy of estimation, and the diversity. It is shown, for instance, that diversity introduces a tradeoff between the uncertainty in the noise and the uncertainty in the nonzero values. Moreover, it is shown that the optimal amount of diversity significantly improves the behavior of the estimation problem for both optimal and computationally efficient estimators.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1792424",
+                        "name": "M. Gastpar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4a328804b548744bb8047178b56c7bebfdf71326",
+                "title": "Sparsity Pattern Recovery in Compressed Sensing - eScholarship",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b15e3142a5a589ea615e3fe8141641643730e695",
+                "title": "Sparsity Pattern Recovery in Compressed Sensing",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 84,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea24501fc0439984abadbf5b41baee7386a45af5",
+                "title": "A compressed sensing wire-tap channel",
+                "year": 2011,
+                "venue": "2011 IEEE Information Theory Workshop",
+                "citation_count": 25,
+                "reference_count": 13,
+                "abstract": "A multiplicative Gaussian wire-tap channel inspired by compressed sensing is studied. Lower and upper bounds on the secrecy capacity are derived, and shown to be relatively tight in the large system limit for a large class of compressed sensing matrices. Surprisingly, it is shown that the secrecy capacity of this channel is nearly equal to the capacity without any secrecy constraint provided that the channel of the eavesdropper is strictly worse than the channel of the intended receiver. In other words, the eavesdropper can see almost everything and yet learn almost nothing. This behavior, which contrasts sharply with that of many commonly studied wiretap channels, is made possible by the fact that a small number of linear projections can make a crucial difference in the ability to estimate sparse vectors.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1991721",
+                        "name": "Naveen Goela"
+                    },
+                    {
+                        "s2_author_id": "3000814",
+                        "name": "N. Milosavljevic"
+                    },
+                    {
+                        "s2_author_id": "1792424",
+                        "name": "M. Gastpar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b6e056ece2cf3f9a61c026ad085dd73cb4a49e0a",
+                "title": "\u201cCompressed\u201d compressed sensing",
+                "year": 2010,
+                "venue": "2010 IEEE International Symposium on Information Theory",
+                "citation_count": 33,
+                "reference_count": 17,
+                "abstract": "The field of compressed sensing has shown that a sparse but otherwise arbitrary vector can be recovered exactly from a small number of randomly constructed linear projections (or samples). The question addressed in this paper is whether an even smaller number of samples is sufficient when there exists prior knowledge about the distribution of the unknown vector, or when only partial recovery is needed. An information-theoretic lower bound with connections to free probability theory and an upper bound corresponding to a computationally simple thresholding estimator are derived. It is shown that in certain cases (e.g. discrete valued vectors or large distortions) the number of samples can be decreased. Interestingly though, it is also shown that in many cases no reduction is possible.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1792424",
+                        "name": "M. Gastpar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be2e258b15bcbae6d382b79cd276060de549fd76",
+                "title": "Fundamental Tradeoffs for Sparsity Pattern Recovery",
+                "year": 2010,
+                "venue": "arXiv.org",
+                "citation_count": 7,
+                "reference_count": 44,
+                "abstract": "Recovery of the sparsity pattern (or support) of an unknown sparse vector from a limited number of noisy linear measurements is an important problem in compressed sensing. In the high-dimensional setting, it is known that recovery with a vanishing fraction of errors is impossible if the measurement rate and the per-sample signal-to-noise ratio (SNR) are finite constants, independent of the vector length. In this paper, it is shown that recovery with an arbitrarily small but constant fraction of errors is, however, possible, and that in some cases computationally simple estimators are near-optimal. Bounds on the measurement rate needed to attain a desired fraction of errors are given in terms of the SNR and various key parameters of the unknown vector for several different recovery algorithms. The tightness of the bounds, in a scaling sense, as a function of the SNR and the fraction of errors, is established by comparison with existing information-theoretic necessary bounds. Near optimality is shown for a wide variety of practically motivated signal models.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1792424",
+                        "name": "M. Gastpar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d90199f223e270a23b76e838bd28c04cbe6e081b",
+                "title": "Approximate Sparsity Pattern Recovery: Information-Theoretic Lower Bounds",
+                "year": 2010,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 82,
+                "reference_count": 65,
+                "abstract": "Recovery of the sparsity pattern (or support) of an unknown sparse vector from a small number of noisy linear measurements is an important problem in compressed sensing. In this paper, the high-dimensional setting is considered. It is shown that if the measurement rate and per-sample signal-to-noise ratio (SNR) are finite constants independent of the length of the vector, then the optimal sparsity pattern estimate will have a constant fraction of errors. Lower bounds on the measurement rate needed to attain a desired fraction of errors are given in terms of the SNR and various key parameters of the unknown vector. The tightness of the bounds in a scaling sense, as a function of the SNR and the fraction of errors, is established by comparison with existing achievable bounds. Near optimality is shown for a wide variety of practically motivated signal models.",
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1792424",
+                        "name": "M. Gastpar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f223984f24dae1e6950ef21766764a57e269d8cc",
+                "title": "The Sampling Rate-Distortion Tradeoff for Sparsity Pattern Recovery in Compressed Sensing",
+                "year": 2010,
+                "venue": "IEEE Transactions on Information Theory",
+                "citation_count": 98,
+                "reference_count": 66,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1792424",
+                        "name": "M. Gastpar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6d91ceb0e58c6f82c6901ab1861bbb91332db2c8",
+                "title": "Managing Massive Time Series Streams with MultiScale Compressed Trickles",
+                "year": 2009,
+                "venue": "Proceedings of the VLDB Endowment",
+                "citation_count": 67,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Jie Liu"
+                    },
+                    {
+                        "s2_author_id": "39496676",
+                        "name": "Suman Nath"
+                    },
+                    {
+                        "s2_author_id": "2152226444",
+                        "name": "Feng Zhao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "89e45c8d8dcdc0338d3ba478725030fa0074f072",
+                "title": "A note on optimal support recovery in compressed sensing",
+                "year": 2009,
+                "venue": "2009 Conference Record of the Forty-Third Asilomar Conference on Signals, Systems and Computers",
+                "citation_count": 39,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1792424",
+                        "name": "M. Gastpar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "99f86f3f6cce16cd626d46463d35c4807f44ab1d",
+                "title": "Cypress : Managing Massive Time Series Streams with Multi-Scale Compressed Trickles",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 14,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "2146651037",
+                        "name": "Jie Liu"
+                    },
+                    {
+                        "s2_author_id": "39496676",
+                        "name": "Suman Nath"
+                    },
+                    {
+                        "s2_author_id": "2152226444",
+                        "name": "Feng Zhao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e565f17e6023e0d6dd56bb8567484ac2b5bc8e86",
+                "title": "2 Problem Formulation 2 . 1",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1792424",
+                        "name": "M. Gastpar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "13a8a66494a5513eb5c9d8a85601b9c7f1768f97",
+                "title": "Sparse Signal Sampling using Noisy Linear Projections",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 30,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ceca70071d3ff9f904d94dd971f6c56ce135662e",
+                "title": "Sampling bounds for sparse support recovery in the presence of noise",
+                "year": 2008,
+                "venue": "2008 IEEE International Symposium on Information Theory",
+                "citation_count": 81,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1792424",
+                        "name": "M. Gastpar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02f2e2b1b058937ce6aaf7b9079f80f1d426540b",
+                "title": "DIFFERENCESBETWEEN OBSERVATIONAND SAMPLINGERROR INSPARSESIGNAL RECONSTRUCTION",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 2,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "41cccf4170c736f54e15b6916ec64593b1b1e751",
+                "title": "Differences Between Observation and Sampling Error in Sparse Signal Reconstruction",
+                "year": 2007,
+                "venue": "2007 IEEE/SP 14th Workshop on Statistical Signal Processing",
+                "citation_count": 10,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "1792424",
+                        "name": "M. Gastpar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0179388f683179586327cf9f2d76b20678edcf2a",
+                "title": "Sparse Signal Representation: Image Compression using Sparse Bayesian Learning",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "3326895",
+                        "name": "V. Ullal"
+                    },
+                    {
+                        "s2_author_id": "5697774",
+                        "name": "Eric Battenberg"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "933df30be15c38c5b39db039079846f53e2a53e0",
+                "title": "LARGE-ARRAY SIGNAL AND NOISE ANALYSIS. WIENER NONTIME-STATIONARY PROCESSING",
+                "year": 1967,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145838359",
+                        "name": "G. Reeves"
+                    },
+                    {
+                        "s2_author_id": "96418058",
+                        "name": "A. Booker"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2343750442",
+                "name": "Henry D. Pfister"
+            },
+            {
+                "s2_author_id": "2121440414",
+                "name": "Riccardo Rossetti"
+            },
+            {
+                "s2_author_id": "1771641",
+                "name": "B. Nazer"
+            },
+            {
+                "s2_author_id": "143612347",
+                "name": "H. Pfister"
+            },
+            {
+                "s2_author_id": "2114433402",
+                "name": "Joshua K. Behne"
+            },
+            {
+                "s2_author_id": "2135920661",
+                "name": "Yixing Zhang"
+            },
+            {
+                "s2_author_id": "1823644",
+                "name": "Xiuyuan Cheng"
+            },
+            {
+                "s2_author_id": "3104851",
+                "name": "A. Kipnis"
+            },
+            {
+                "s2_author_id": "4174818",
+                "name": "Sebastian Goldt"
+            },
+            {
+                "s2_author_id": "143616600",
+                "name": "Bruno Loureiro"
+            },
+            {
+                "s2_author_id": "2065697125",
+                "name": "M. M'ezard"
+            },
+            {
+                "s2_author_id": "2909402",
+                "name": "Florent Krzakala"
+            },
+            {
+                "s2_author_id": "2065813820",
+                "name": "Lenka Zdeborov'a"
+            },
+            {
+                "s2_author_id": "144738540",
+                "name": "Jean Barbier"
+            },
+            {
+                "s2_author_id": "37335063",
+                "name": "Mart\u00edn Bertr\u00e1n"
+            },
+            {
+                "s2_author_id": "144323649",
+                "name": "Natalia Mart\u00ednez"
+            },
+            {
+                "s2_author_id": "83557736",
+                "name": "Afroditi Papadaki"
+            },
+            {
+                "s2_author_id": "2077648",
+                "name": "Qiang Qiu"
+            },
+            {
+                "s2_author_id": "4838771",
+                "name": "M. Rodrigues"
+            },
+            {
+                "s2_author_id": "1699339",
+                "name": "G. Sapiro"
+            },
+            {
+                "s2_author_id": "2350860237",
+                "name": "Jiaming Xu"
+            },
+            {
+                "s2_author_id": "11629161",
+                "name": "Ilias Zadik"
+            },
+            {
+                "s2_author_id": "8801774",
+                "name": "Vaishakhi Mayya"
+            },
+            {
+                "s2_author_id": "6974508",
+                "name": "A. Volfovsky"
+            },
+            {
+                "s2_author_id": "102487149",
+                "name": "Heather Mathews"
+            },
+            {
+                "s2_author_id": "2680701",
+                "name": "W. V. Boom"
+            },
+            {
+                "s2_author_id": "39775017",
+                "name": "D. Dunson"
+            },
+            {
+                "s2_author_id": "143783379",
+                "name": "Yonina C. Eldar"
+            },
+            {
+                "s2_author_id": "2046786",
+                "name": "Alex Dytso"
+            },
+            {
+                "s2_author_id": "33412731",
+                "name": "B. Mainsah"
+            },
+            {
+                "s2_author_id": "1977697",
+                "name": "L. Collins"
+            },
+            {
+                "s2_author_id": "2250543",
+                "name": "C. Throckmorton"
+            },
+            {
+                "s2_author_id": "1746299",
+                "name": "A. Goldsmith"
+            },
+            {
+                "s2_author_id": "2249888851",
+                "name": "Leslie M. Collins"
+            },
+            {
+                "s2_author_id": "2166779",
+                "name": "P. Llull"
+            },
+            {
+                "s2_author_id": "1741299",
+                "name": "D. Brady"
+            },
+            {
+                "s2_author_id": "145006560",
+                "name": "L. Carin"
+            },
+            {
+                "s2_author_id": "1797591",
+                "name": "F. Renna"
+            },
+            {
+                "s2_author_id": "2109120364",
+                "name": "Liming Wang"
+            },
+            {
+                "s2_author_id": "2115844400",
+                "name": "Xin Yuan"
+            },
+            {
+                "s2_author_id": "47988386",
+                "name": "Jianbo Yang"
+            },
+            {
+                "s2_author_id": "120874496",
+                "name": "R. Calderbank"
+            },
+            {
+                "s2_author_id": "1709392",
+                "name": "D. Donoho"
+            },
+            {
+                "s2_author_id": "1792424",
+                "name": "M. Gastpar"
+            },
+            {
+                "s2_author_id": "1991721",
+                "name": "Naveen Goela"
+            },
+            {
+                "s2_author_id": "3000814",
+                "name": "N. Milosavljevic"
+            },
+            {
+                "s2_author_id": "39496676",
+                "name": "Suman Nath"
+            },
+            {
+                "s2_author_id": "2152226444",
+                "name": "Feng Zhao"
+            },
+            {
+                "s2_author_id": "2146651037",
+                "name": "Jie Liu"
+            },
+            {
+                "s2_author_id": "3326895",
+                "name": "V. Ullal"
+            },
+            {
+                "s2_author_id": "5697774",
+                "name": "Eric Battenberg"
+            },
+            {
+                "s2_author_id": "96418058",
+                "name": "A. Booker"
+            }
+        ],
+        "total_co_authors": 52,
+        "papers_retrieved": 74
+    }
+}

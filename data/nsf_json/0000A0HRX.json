@@ -1,0 +1,1571 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "0000A0HRX",
+        "name": "Ernest K Ryu",
+        "primary_affiliation": "University of California-Los Angeles",
+        "primary_department": null,
+        "all_affiliations": [
+            "University of California-Los Angeles"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "CA"
+        ],
+        "perf_cities": [
+            "LOS ANGELES"
+        ],
+        "org_names": [
+            "University of California-Los Angeles"
+        ],
+        "org_ueis": [
+            "RN64EPNH8JC6"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "eryu@math.ucla.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2504627",
+                "title": "Collaborative Research: CIF: Medium: Post-Modern Min-Max Optimization Theory: Departure from Classical Minimization Theory",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-08-15",
+                "exp_date": "2028-07-31",
+                "award_amount": 375000.0,
+                "total_amount": 375000.0,
+                "is_collaborative": true,
+                "co_pi_ids": [],
+                "program_elements": [
+                    "Comm & Information Foundations"
+                ],
+                "program_codes": [
+                    "779700"
+                ],
+                "program_references": [
+                    "Machine Learning Theory",
+                    "MEDIUM PROJECT",
+                    "SIGNAL PROCESSING"
+                ],
+                "program_ref_codes": [
+                    "079Z",
+                    "7924",
+                    "7936"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CCF",
+                "nsf_directorate": null,
+                "fund_division": "Division of Computing and Communication Foundations",
+                "cfda_num": "47.070",
+                "po_name": "Phillip Regalia",
+                "keywords": [
+                    "optimization",
+                    "methods",
+                    "efficient",
+                    "algorithms",
+                    "theory",
+                    "learning",
+                    "medium",
+                    "minimization",
+                    "artificial",
+                    "intelligence"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [],
+        "program_elements": [
+            "Comm & Information Foundations"
+        ],
+        "program_codes": [
+            "779700"
+        ],
+        "program_references": [
+            "Machine Learning Theory",
+            "MEDIUM PROJECT",
+            "SIGNAL PROCESSING"
+        ],
+        "program_ref_codes": [
+            "079Z",
+            "7924",
+            "7936"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CCF"
+        ],
+        "fund_divisions": [
+            "Division of Computing and Communication Foundations"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Phillip Regalia"
+        ],
+        "keywords": [
+            "optimization",
+            "methods",
+            "efficient",
+            "algorithms",
+            "theory",
+            "learning",
+            "medium",
+            "minimization",
+            "artificial",
+            "intelligence",
+            "approach",
+            "unique",
+            "problems",
+            "theoretical",
+            "practical",
+            "applications",
+            "machine",
+            "foundations",
+            "conditions",
+            "through"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.51
+    },
+    "s2_profile": {
+        "s2_author_id": "3135071",
+        "name": "Ernest K Ryu",
+        "affiliations": [],
+        "paper_count": 53,
+        "citation_count": 2133,
+        "h_index": 21,
+        "papers": [
+            {
+                "s2_paper_id": "33fc1c0efa0cfe705ae501cb7a9d92b751e26334",
+                "title": "Rotation and Translation Invariant Representation Learning with Implicit Neural Representations",
+                "year": 2023,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 5,
+                "reference_count": 68,
+                "abstract": "In many computer vision applications, images are acquired with arbitrary or random rotations and translations, and in such setups, it is desirable to obtain semantic representations disentangled from the image orientation. Examples of such applications include semiconductor wafer defect inspection, plankton microscope images, and inference on single-particle cryo-electron microscopy (cryo-EM) micro-graphs. In this work, we propose Invariant Representation Learning with Implicit Neural Representation (IRL-INR), which uses an implicit neural representation (INR) with a hypernetwork to obtain semantic representations disentangled from the orientation of the image. We show that IRL-INR can effectively learn disentangled semantic representations on more complex images compared to those considered in prior works and show that these semantic representations synergize well with SCAN to produce state-of-the-art unsupervised clustering results.",
+                "authors": [
+                    {
+                        "s2_author_id": "92733084",
+                        "name": "Sehyun Kwon"
+                    },
+                    {
+                        "s2_author_id": "2155367203",
+                        "name": "Jooyoung Choi"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "34758c94b7e42cc60e83df194da26bc9566e112b",
+                "title": "Accelerating Value Iteration with Anchoring",
+                "year": 2023,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 14,
+                "reference_count": 104,
+                "abstract": "Value Iteration (VI) is foundational to the theory and practice of modern reinforcement learning, and it is known to converge at a $\\mathcal{O}(\\gamma^k)$-rate, where $\\gamma$ is the discount factor. Surprisingly, however, the optimal rate for the VI setup was not known, and finding a general acceleration mechanism has been an open problem. In this paper, we present the first accelerated VI for both the Bellman consistency and optimality operators. Our method, called Anc-VI, is based on an \\emph{anchoring} mechanism (distinct from Nesterov's acceleration), and it reduces the Bellman error faster than standard VI. In particular, Anc-VI exhibits a $\\mathcal{O}(1/k)$-rate for $\\gamma\\approx 1$ or even $\\gamma=1$, while standard VI has rate $\\mathcal{O}(1)$ for $\\gamma\\ge 1-1/k$, where $k$ is the iteration count. We also provide a complexity lower bound matching the upper bound up to a constant factor of $4$, thereby establishing optimality of the accelerated rate of Anc-VI. Finally, we show that the anchoring mechanism provides the same benefit in the approximate VI and Gauss--Seidel VI setups as well.",
+                "authors": [
+                    {
+                        "s2_author_id": "2154961243",
+                        "name": "Jongmin Lee"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3e9644b0cb6eb499dafefdc9698fb51047b98071",
+                "title": "Accelerated Infeasibility Detection of Constrained Optimization and Fixed-Point Iterations",
+                "year": 2023,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 5,
+                "reference_count": 122,
+                "abstract": "As first-order optimization methods become the method of choice for solving large-scale optimization problems, optimization solvers based on first-order algorithms are being built. Such general-purpose solvers must robustly detect infeasible or misspecified problem instances, but the computational complexity of first-order methods for doing so has yet to be formally studied. In this work, we characterize the optimal accelerated rate of infeasibility detection. We show that the standard fixed-point iteration achieves a $\\mathcal{O}(1/k^2)$ and $\\mathcal{O}(1/k)$ rates, respectively, on the normalized iterates and the fixed-point residual converging to the infimal displacement vector, while the accelerated fixed-point iteration achieves $\\mathcal{O}(1/k^2)$ and $\\tilde{\\mathcal{O}}(1/k^2)$ rates. We then provide a matching complexity lower bound to establish that $\\Theta(1/k^2)$ is indeed the optimal accelerated rate.",
+                "authors": [
+                    {
+                        "s2_author_id": "1736706793",
+                        "name": "Jisun Park"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bdfebfa663b31c02e3dfdb5bce37a723a09905f6",
+                "title": "Continuous-time Analysis of Anchor Acceleration",
+                "year": 2023,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 13,
+                "reference_count": 0,
+                "abstract": "Recently, the anchor acceleration, an acceleration mechanism distinct from Nesterov's, has been discovered for minimax optimization and fixed-point problems, but its mechanism is not understood well, much less so than Nesterov acceleration. In this work, we analyze continuous-time models of anchor acceleration. We provide tight, unified analyses for characterizing the convergence rate as a function of the anchor coefficient $\\beta(t)$, thereby providing insight into the anchor acceleration mechanism and its accelerated $\\mathcal{O}(1/k^2)$-convergence rate. Finally, we present an adaptive method inspired by the continuous-time analyses and establish its effectiveness through theoretical analyses and experiments.",
+                "authors": [
+                    {
+                        "s2_author_id": "2212806365",
+                        "name": "Jaewook J. Suh"
+                    },
+                    {
+                        "s2_author_id": "1736706793",
+                        "name": "Jisun Park"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "db423d0728aea7dc4280bebddd25fab052b3920e",
+                "title": "Coordinate-Update Algorithms can Efficiently Detect Infeasible Optimization Problems",
+                "year": 2023,
+                "venue": "Journal of Mathematical Analysis and Applications",
+                "citation_count": 0,
+                "reference_count": 122,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "4462394",
+                        "name": "J. Paeng"
+                    },
+                    {
+                        "s2_author_id": "1736706793",
+                        "name": "Jisun Park"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "df1c12b6bb0dea8b53c996ecce5a3a4dfe80eaaf",
+                "title": "Censored Sampling of Diffusion Models Using 3 Minutes of Human Feedback",
+                "year": 2023,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 12,
+                "reference_count": 50,
+                "abstract": "Diffusion models have recently shown remarkable success in high-quality image generation. Sometimes, however, a pre-trained diffusion model exhibits partial misalignment in the sense that the model can generate good images, but it sometimes outputs undesirable images. If so, we simply need to prevent the generation of the bad images, and we call this task censoring. In this work, we present censored generation with a pre-trained diffusion model using a reward model trained on minimal human feedback. We show that censoring can be accomplished with extreme human feedback efficiency and that labels generated with a mere few minutes of human feedback are sufficient. Code available at: https://github.com/tetrzim/diffusion-human-feedback.",
+                "authors": [
+                    {
+                        "s2_author_id": "50256953",
+                        "name": "Taeho Yoon"
+                    },
+                    {
+                        "s2_author_id": "2221227907",
+                        "name": "Kibeom Myoung"
+                    },
+                    {
+                        "s2_author_id": "2220896697",
+                        "name": "Keon Lee"
+                    },
+                    {
+                        "s2_author_id": "3443302",
+                        "name": "Jaewoong Cho"
+                    },
+                    {
+                        "s2_author_id": "2406396613",
+                        "name": "Albert No"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea4b1167baeb7c414cb68ef9cb674911b78b6af7",
+                "title": "Computer-assisted design of accelerated composite optimization methods: OptISTA",
+                "year": 2023,
+                "venue": "Mathematical programming",
+                "citation_count": 6,
+                "reference_count": 35,
+                "abstract": "The accelerated composite optimization method FISTA (Beck, Teboulle 2009) is suboptimal by a constant factor, and we present a new method OptISTA that improves FISTA by a constant factor of 2. The performance estimation problem (PEP) has recently been introduced as a new computer-assisted paradigm for designing optimal first-order methods. In this work, we present a double-function stepsize-optimization PEP methodology that poses the optimization over fixed-step first-order methods for composite optimization as a finite-dimensional nonconvex QCQP, which can be practically solved through spatial branch-and-bound algorithms, and use it to design the exact optimal method OptISTA for the composite optimization setup. We then establish the exact optimality of OptISTA under the large-scale assumption with a lower-bound construction that extends the semi-interpolated zero-chain construction (Drori, Taylor 2022) to the double-function setup of composite optimization. By establishing exact optimality, our work concludes the search for the fastest first-order methods, with respect to the performance measure of worst-case function value suboptimality, for the proximal, projected-gradient, and proximal-gradient setups involving a smooth convex function and a closed proper convex function.",
+                "authors": [
+                    {
+                        "s2_author_id": "2138867044",
+                        "name": "U. Jang"
+                    },
+                    {
+                        "s2_author_id": "2312581",
+                        "name": "Shuvomoy Das Gupta"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fb35e837464f40f218f00fea7a750479af3befe7",
+                "title": "Time-Reversed Dissipation Induces Duality Between Minimizing Gradient Norm and Function Value",
+                "year": 2023,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 12,
+                "reference_count": 56,
+                "abstract": "In convex optimization, first-order optimization methods efficiently minimizing function values have been a central subject study since Nesterov's seminal work of 1983. Recently, however, Kim and Fessler's OGM-G and Lee et al.'s FISTA-G have been presented as alternatives that efficiently minimize the gradient magnitude instead. In this paper, we present H-duality, which represents a surprising one-to-one correspondence between methods efficiently minimizing function values and methods efficiently minimizing gradient magnitude. In continuous-time formulations, H-duality corresponds to reversing the time dependence of the dissipation/friction term. To the best of our knowledge, H-duality is different from Lagrange/Fenchel duality and is distinct from any previously known duality or symmetry relations. Using H-duality, we obtain a clearer understanding of the symmetry between Nesterov's method and OGM-G, derive a new class of methods efficiently reducing gradient magnitudes of smooth convex functions, and find a new composite minimization method that is simpler and faster than FISTA-G.",
+                "authors": [
+                    {
+                        "s2_author_id": "2109223271",
+                        "name": "Jaeyeon Kim"
+                    },
+                    {
+                        "s2_author_id": "145744184",
+                        "name": "A. Ozdaglar"
+                    },
+                    {
+                        "s2_author_id": "48976455",
+                        "name": "Chanwoo Park"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1cbb51bfee801c1c55ec83d3522c38cd68300256",
+                "title": "Neural Tangent Kernel Analysis of Deep Narrow Neural Networks",
+                "year": 2022,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 15,
+                "reference_count": 0,
+                "abstract": "The tremendous recent progress in analyzing the training dynamics of overparameterized neural networks has primarily focused on wide networks and therefore does not sufficiently address the role of depth in deep learning. In this work, we present the first trainability guarantee of infinitely deep but narrow neural networks. We study the infinite-depth limit of a multilayer perceptron (MLP) with a specific initialization and establish a trainability guarantee using the NTK theory. We then extend the analysis to an infinitely deep convolutional neural network (CNN) and perform brief experiments.",
+                "authors": [
+                    {
+                        "s2_author_id": "2154961243",
+                        "name": "Jongmin Lee"
+                    },
+                    {
+                        "s2_author_id": "119675357",
+                        "name": "Jooyeon Choi"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "2406396613",
+                        "name": "Albert No"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d92b14669d005ab6aa970147066db8311b59922",
+                "title": "Continuous-Time Analysis of Accelerated Gradient Methods via Conservation Laws in Dilated Coordinate Systems",
+                "year": 2022,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 15,
+                "reference_count": 109,
+                "abstract": "We analyze continuous-time models of accelerated gradient methods through deriving conservation laws in dilated coordinate systems. Namely, instead of analyzing the dynamics of $X(t)$, we analyze the dynamics of $W(t)=t^\\alpha(X(t)-X_c)$ for some $\\alpha$ and $X_c$ and derive a conserved quantity, analogous to physical energy, in this dilated coordinate system. Through this methodology, we recover many known continuous-time analyses in a streamlined manner and obtain novel continuous-time analyses for OGM-G, an acceleration mechanism for efficiently reducing gradient magnitude that is distinct from that of Nesterov. Finally, we show that a semi-second-order symplectic Euler discretization in the dilated coordinate system leads to an $\\mathcal{O}(1/k^2)$ rate on the standard setup of smooth convex minimization, without any further assumptions such as infinite differentiability.",
+                "authors": [
+                    {
+                        "s2_author_id": "144422862",
+                        "name": "J. Suh"
+                    },
+                    {
+                        "s2_author_id": "2154418592",
+                        "name": "Gyumin Roh"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "708689cc3e5589ed28c4c0272e17ba62d43a1fe7",
+                "title": "Exact Optimal Accelerated Complexity for Fixed-Point Iterations",
+                "year": 2022,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 46,
+                "reference_count": 107,
+                "abstract": "Despite the broad use of fixed-point iterations throughout applied mathematics, the optimal convergence rate of general fixed-point problems with nonexpansive nonlinear operators has not been established. This work presents an acceleration mechanism for fixed-point iterations with nonexpansive operators, contractive operators, and nonexpansive operators satisfying a H\\\"older-type growth condition. We then provide matching complexity lower bounds to establish the exact optimality of the acceleration mechanisms in the nonexpansive and contractive setups. Finally, we provide experiments with CT imaging, optimal transport, and decentralized optimization to demonstrate the practical effectiveness of the acceleration mechanism.",
+                "authors": [
+                    {
+                        "s2_author_id": "1736706793",
+                        "name": "Jisun Park"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8d49aa31faa13efd826023aa48667ecd2489ca40",
+                "title": "Robust Probabilistic Time Series Forecasting",
+                "year": 2022,
+                "venue": "International Conference on Artificial Intelligence and Statistics",
+                "citation_count": 27,
+                "reference_count": 77,
+                "abstract": "Probabilistic time series forecasting has played critical role in decision-making processes due to its capability to quantify uncertainties. Deep forecasting models, however, could be prone to input perturbations, and the notion of such perturbations, together with that of robustness, has not even been completely established in the regime of probabilistic forecasting. In this work, we propose a framework for robust probabilistic time series forecasting. First, we generalize the concept of adversarial input perturbations, based on which we formulate the concept of robustness in terms of bounded Wasserstein deviation. Then we extend the randomized smoothing technique to attain robust probabilistic forecasters with theoretical robustness certificates against certain classes of adversarial perturbations. Lastly, extensive experiments demonstrate that our methods are empirically effective in enhancing the forecast quality under additive adversarial attacks and forecast consistency under supplement of noisy observations.",
+                "authors": [
+                    {
+                        "s2_author_id": "50256953",
+                        "name": "Taeho Yoon"
+                    },
+                    {
+                        "s2_author_id": "1845861038",
+                        "name": "Youngsuk Park"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "2145199388",
+                        "name": "Yuyang Wang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ac38a02052e2488a3946dfe9ecb61b2e9fdcc8ff",
+                "title": "Large-Scale Convex Optimization",
+                "year": 2022,
+                "venue": "",
+                "citation_count": 63,
+                "reference_count": 0,
+                "abstract": "Starting from where a first course in convex optimization leaves off, this text presents a unified analysis of first-order optimization methods \u2013 including parallel-distributed algorithms \u2013 through the abstraction of monotone operators. With the increased computational power and availability of big data over the past decade, applied disciplines have demanded that larger and larger optimization problems be solved. This text covers the first-order convex optimization methods that are uniquely effective at solving these large-scale optimization problems. Readers will have the opportunity to construct and analyze many well-known classical and modern algorithms using monotone operators, and walk away with a solid understanding of the diverse optimization algorithms. Graduate students and researchers in mathematical optimization, operations research, electrical engineering, statistics, and computer science will appreciate this concise introduction to the theory of convex optimization algorithms.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aea4a240a7c1aee3a4cd6aca9285116feca84c29",
+                "title": "Convergence analyses of Davis\u2013Yin splitting via scaled relative graphs II: convex optimization problems",
+                "year": 2022,
+                "venue": "Optimization",
+                "citation_count": 3,
+                "reference_count": 49,
+                "abstract": "The prior work of [SIAM J. Optim., 2025] used scaled relative graphs (SRG) to analyze the convergence of Davis--Yin splitting (DYS) iterations on monotone inclusion problems. In this work, we use this machinery to analyze DYS iterations on convex optimization problems and obtain state-of-the-art linear convergence rates.",
+                "authors": [
+                    {
+                        "s2_author_id": "2175590079",
+                        "name": "Soheun Yi"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bc6fd33d1bf6085711d25a24a3bad4455a65af2b",
+                "title": "Convergence Analyses of Davis-Yin Splitting via Scaled Relative Graphs",
+                "year": 2022,
+                "venue": "SIAM Journal on Optimization",
+                "citation_count": 7,
+                "reference_count": 53,
+                "abstract": "Davis-Yin splitting (DYS) has found a wide range of applications in optimization, but its linear rates of convergence have not been studied extensively. The scaled relative graph (SRG) simplifies the convergence analysis of operator splitting methods by mapping the action of the operator onto the complex plane, but the prior SRG theory did not fully apply to the DYS operator. In this work, we formalize an SRG theory for the DYS operator and use it to obtain tighter contraction factors.",
+                "authors": [
+                    {
+                        "s2_author_id": "2154961243",
+                        "name": "Jongmin Lee"
+                    },
+                    {
+                        "s2_author_id": "2175590079",
+                        "name": "Soheun Yi"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be1c7941ae5e48f0c4c43491ef5691bcd517b63e",
+                "title": "Accelerated Minimax Algorithms Flock Together",
+                "year": 2022,
+                "venue": "SIAM Journal on Optimization",
+                "citation_count": 14,
+                "reference_count": 108,
+                "abstract": "Several new accelerated methods in minimax optimization and fixed-point iterations have recently been discovered, and, interestingly, they rely on a mechanism distinct from Nesterov's momentum-based acceleration. In this work, we show that these accelerated algorithms exhibit what we call the merging path (MP) property; the trajectories of these algorithms merge quickly. Using this novel MP property, we establish point convergence of existing accelerated minimax algorithms and derive new state-of-the-art algorithms for the strongly-convex-strongly-concave setup and for the prox-grad setup.",
+                "authors": [
+                    {
+                        "s2_author_id": "50256953",
+                        "name": "Taeho Yoon"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d05fa2ec59022a0b3779a36042af9a0784ef390f",
+                "title": "Branch-and-bound performance estimation programming: a unified methodology for constructing optimal optimization methods",
+                "year": 2022,
+                "venue": "Mathematical programming",
+                "citation_count": 52,
+                "reference_count": 90,
+                "abstract": "We present the Branch-and-Bound Performance Estimation Programming (BnB-PEP), a unified methodology for constructing optimal first-order methods for convex and nonconvex optimization. BnB-PEP poses the problem of finding the optimal optimization method as a nonconvex but practically tractable quadratically constrained quadratic optimization problem and solves it to certifiable global optimality using a customized branch-and-bound algorithm. By directly confronting the nonconvexity, BnB-PEP offers significantly more flexibility and removes the many limitations of the prior methodologies. Our customized branch-and-bound algorithm, through exploiting specific problem structures, outperforms the latest off-the-shelf implementations by orders of magnitude, accelerating the solution time from hours to seconds and weeks to minutes. We apply BnB-PEP to several setups for which the prior methodologies do not apply and obtain methods with bounds that improve upon prior state-of-the-art results. Finally, we use the BnB-PEP methodology to find proofs with potential function structures, thereby systematically generating analytical convergence proofs.",
+                "authors": [
+                    {
+                        "s2_author_id": "2312581",
+                        "name": "Shuvomoy Das Gupta"
+                    },
+                    {
+                        "s2_author_id": "26365567",
+                        "name": "Bart P. G. Van Parys"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2677988d050cfa016ac90ac4a0825d8907ffd5df",
+                "title": "Factor-\n              \n                \n              \n              $$\\sqrt{2}$$\n              \n                \n                  2\n                \n              \n             Acceleration of Accelerated Gradient Methods",
+                "year": 2021,
+                "venue": "Applied Mathematics and Optimization",
+                "citation_count": 11,
+                "reference_count": 57,
+                "abstract": "The optimized gradient method (OGM) provides a factor- $$\\sqrt{2}$$ 2 speedup upon Nesterov\u2019s celebrated accelerated gradient method in the convex (but non-strongly convex) setup. However, this improved acceleration mechanism has not been well understood; prior analyses of OGM relied on a computer-assisted proof methodology, so the proofs were opaque for humans despite being verifiable and correct. In this work, we present a new analysis of OGM based on a Lyapunov function and linear coupling. These analyses are developed and presented without the assistance of computers and are understandable by humans. Furthermore, we generalize OGM\u2019s acceleration mechanism and obtain a factor- $$\\sqrt{2}$$ 2 speedup in other setups: acceleration with a simpler rational stepsize, the strongly convex setup, and the mirror descent setup.",
+                "authors": [
+                    {
+                        "s2_author_id": "48976455",
+                        "name": "Chanwoo Park"
+                    },
+                    {
+                        "s2_author_id": "1736706793",
+                        "name": "Jisun Park"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "744d510c7afe9730eb54e1dbcc5e84b0116d03df",
+                "title": "A Geometric Structure of Acceleration and Its Role in Making Gradients Small Fast",
+                "year": 2021,
+                "venue": "Neural Information Processing Systems",
+                "citation_count": 23,
+                "reference_count": 77,
+                "abstract": "Since Nesterov's seminal 1983 work, many accelerated first-order optimization methods have been proposed, but their analyses lacks a common unifying structure. In this work, we identify a geometric structure satisfied by a wide range of first-order accelerated methods. Using this geometric insight, we present several novel generalizations of accelerated methods. Most interesting among them is a method that reduces the squared gradient norm with $\\mathcal{O}(1/K^4)$ rate in the prox-grad setup, faster than the $\\mathcal{O}(1/K^3)$ rates of Nesterov's FGM or Kim and Fessler's FPGM-m.",
+                "authors": [
+                    {
+                        "s2_author_id": "2154961243",
+                        "name": "Jongmin Lee"
+                    },
+                    {
+                        "s2_author_id": "48976455",
+                        "name": "Chanwoo Park"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bfcbaa59df5ce8101d916a3e8868ea4cbc32b3f9",
+                "title": "Optimal First-Order Algorithms as a Function of Inequalities",
+                "year": 2021,
+                "venue": "Journal of machine learning research",
+                "citation_count": 8,
+                "reference_count": 37,
+                "abstract": "In this work, we present a novel algorithm design methodology that finds the optimal algorithm as a function of inequalities. Specifically, we restrict convergence analyses of algorithms to use a prespecified subset of inequalities, rather than utilizing all true inequalities, and find the optimal algorithm subject to this restriction. This methodology allows us to design algorithms with certain desired characteristics. As concrete demonstrations of this methodology, we find new state-of-the-art accelerated first-order gradient methods using randomized coordinate updates and backtracking line searches.",
+                "authors": [
+                    {
+                        "s2_author_id": "48976455",
+                        "name": "Chanwoo Park"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d444cf53d885ac21586da7659af94c0a1d14081b",
+                "title": "WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points",
+                "year": 2021,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 2,
+                "reference_count": 59,
+                "abstract": "Generative adversarial networks (GAN) are a widely used class of deep generative models, but their minimax training dynamics are not understood very well. In this work, we show that GANs with a 2-layer infinite-width generator and a 2-layer finite-width discriminator trained with stochastic gradient ascent-descent have no spurious stationary points. We then show that when the width of the generator is finite but wide, there are no spurious stationary points within a ball whose radius becomes arbitrarily large (to cover the entire parameter space) as the width goes to infinity.",
+                "authors": [
+                    {
+                        "s2_author_id": "2406396613",
+                        "name": "Albert No"
+                    },
+                    {
+                        "s2_author_id": "50256953",
+                        "name": "Taeho Yoon"
+                    },
+                    {
+                        "s2_author_id": "2262407001",
+                        "name": "Sehyun Kwon"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dcabd4cce126e272caab0e4fdae810f01698a019",
+                "title": "Accelerated Algorithms for Smooth Convex-Concave Minimax Problems with O(1/k^2) Rate on Squared Gradient Norm",
+                "year": 2021,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 132,
+                "reference_count": 97,
+                "abstract": "In this work, we study the computational complexity of reducing the squared gradient magnitude for smooth minimax optimization problems. First, we present algorithms with accelerated $\\mathcal{O}(1/k^2)$ last-iterate rates, faster than the existing $\\mathcal{O}(1/k)$ or slower rates for extragradient, Popov, and gradient descent with anchoring. The acceleration mechanism combines extragradient steps with anchoring and is distinct from Nesterov's acceleration. We then establish optimality of the $ \\mathcal{O}(1/k^2)$ rate through a matching lower bound.",
+                "authors": [
+                    {
+                        "s2_author_id": "50256953",
+                        "name": "Taeho Yoon"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1c1e663850d17f25e97687286e0a1f1c28a2e476",
+                "title": "Scaled Relative Graph of Normal Matrices",
+                "year": 2019,
+                "venue": "arXiv.org",
+                "citation_count": 15,
+                "reference_count": 13,
+                "abstract": "The Scaled Relative Graph (SRG) by Ryu, Hannah, and Yin (arXiv:1902.09788, 2019) is a geometric tool that maps the action of a multi-valued nonlinear operator onto the 2D plane, used to analyze the convergence of a wide range of iterative methods. As the SRG includes the spectrum for linear operators, we can view the SRG as a generalization of the spectrum to multi-valued nonlinear operators. In this work, we further study the SRG of linear operators and characterize the SRG of block-diagonal and normal matrices.",
+                "authors": [
+                    {
+                        "s2_author_id": "1441111040",
+                        "name": "Xinmeng Huang"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "40e64beb3e8a4c071a9bf690937f44e77c1341f6",
+                "title": "Finding the Forward-Douglas\u2013Rachford-Forward Method",
+                "year": 2019,
+                "venue": "Journal of Optimization Theory and Applications",
+                "citation_count": 57,
+                "reference_count": 36,
+                "abstract": "We consider the monotone inclusion problem with a sum of 3 operators, in which 2 are monotone and 1 is monotone-Lipschitz. The classical Douglas\u2013Rachford and forward\u2013backward\u2013forward methods, respectively, solve the monotone inclusion problem with a sum of 2 monotone operators and a sum of 1 monotone and 1 monotone-Lipschitz operators. We first present a method that naturally combines Douglas\u2013Rachford and forward\u2013backward\u2013forward and show that it solves the 3-operator problem under further assumptions, but fails in general. We then present a method that naturally combines Douglas\u2013Rachford and forward\u2013reflected\u2013backward, a recently proposed alternative to forward\u2013backward\u2013forward by Malitsky and Tam (A forward\u2013backward splitting method for monotone inclusions without cocoercivity, 2018. arXiv:1808.04162). We show that this second method solves the 3-operator problem generally, without further assumptions.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "2332627",
+                        "name": "B. Vu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "52ee8ab1c18b04282b6d8d09b9c4e7168c894ab0",
+                "title": "Decentralized Proximal Gradient Algorithms With Linear Convergence Rates",
+                "year": 2019,
+                "venue": "IEEE Transactions on Automatic Control",
+                "citation_count": 123,
+                "reference_count": 35,
+                "abstract": "This article studies a class of nonsmooth decentralized multiagent optimization problems where the agents aim at minimizing a sum of local strongly-convex smooth components plus a common nonsmooth term. We propose a general primal-dual algorithmic framework that unifies many existing state-of-the-art algorithms. We establish linear convergence of the proposed method to the exact minimizer in the presence of the nonsmooth term. Moreover, for the more general class of problems with agent specific nonsmooth terms, we show that linear convergence cannot be achieved (in the worst case) for the class of algorithms that uses the gradients and the proximal mappings of the smooth and nonsmooth parts, respectively. We further provide a numerical counterexample that shows how some state-of-the-art algorithms fail to converge linearly for strongly convex objectives and different local non smooth terms.",
+                "authors": [
+                    {
+                        "s2_author_id": "47678102",
+                        "name": "Sulaiman A. Alghunaim"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "1841311",
+                        "name": "K. Yuan"
+                    },
+                    {
+                        "s2_author_id": "1740506",
+                        "name": "A. H. Sayed"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b383c226795482a72b43801bff5f68da3c93fb5a",
+                "title": "Near-Circulant Splitting",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 66,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "2095300924",
+                        "name": "KO Seyoon"
+                    },
+                    {
+                        "s2_author_id": "2816315",
+                        "name": "Joong-Ho Won"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bfa6ffe9bbfc6c4e6c73daf40454b3091a3a664b",
+                "title": "ODE Analysis of Stochastic Gradient Methods with Optimism and Anchoring for Minimax Problems and GANs",
+                "year": 2019,
+                "venue": "arXiv.org",
+                "citation_count": 39,
+                "reference_count": 80,
+                "abstract": "Despite remarkable empirical success, the training dynamics of generative adversarial networks (GAN), which involves solving a minimax game using stochastic gradients, is still poorly understood. In this work, we analyze last-iterate convergence of simultaneous gradient descent (simGD) and its variants under the assumption of convex-concavity, guided by a continuous-time analysis with differential equations. First, we show that simGD, as is, converges with stochastic sub-gradients under strict convexity in the primal variable. Second, we generalize optimistic simGD to accommodate an optimism rate separate from the learning rate and show its convergence with full gradients. Finally, we present anchored simGD, a new method, and show convergence with stochastic subgradients.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "1841311",
+                        "name": "K. Yuan"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e573168a6dacbd7e55cfcf3c814f069e15401855",
+                "title": "Scaled relative graphs: nonexpansive operators via 2D Euclidean geometry",
+                "year": 2019,
+                "venue": "Mathematical programming",
+                "citation_count": 53,
+                "reference_count": 95,
+                "abstract": "Many iterative methods in applied mathematics can be thought of as fixed-point iterations, and such algorithms are usually analyzed analytically, with inequalities. In this paper, we present a geometric approach to analyzing contractive and nonexpansive fixed point iterations with a new tool called the scaled relative graph. The SRG provides a correspondence between nonlinear operators and subsets of the 2D plane. Under this framework, a geometric argument in the 2D plane becomes a rigorous proof of convergence.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "1411942031",
+                        "name": "Robert Hannah"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e74c8596ea08ef5e366ffdde330ccd6a13284f65",
+                "title": "Plug-and-Play Methods Provably Converge with Properly Trained Denoisers",
+                "year": 2019,
+                "venue": "International Conference on Machine Learning",
+                "citation_count": 418,
+                "reference_count": 86,
+                "abstract": "Plug-and-play (PnP) is a non-convex framework that integrates modern denoising priors, such as BM3D or deep learning-based denoisers, into ADMM or other proximal algorithms. An advantage of PnP is that one can use pre-trained denoisers when there is not sufficient data for end-to-end training. Although PnP has been recently studied extensively with great empirical success, theoretical analysis addressing even the most basic question of convergence has been insufficient. In this paper, we theoretically establish convergence of PnP-FBS and PnP-ADMM, without using diminishing stepsizes, under a certain Lipschitz condition on the denoisers. We then propose real spectral normalization, a technique for training deep learning-based denoisers to satisfy the proposed Lipschitz condition. Finally, we present experimental results validating the theory.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "1685638",
+                        "name": "Jialin Liu"
+                    },
+                    {
+                        "s2_author_id": "2116421914",
+                        "name": "Sicheng Wang"
+                    },
+                    {
+                        "s2_author_id": "66273769",
+                        "name": "Xiaohan Chen"
+                    },
+                    {
+                        "s2_author_id": "2969311",
+                        "name": "Zhangyang Wang"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f7da609a4b0a938fd53e100756ccecaeea5455be",
+                "title": "Tight coefficients of averaged operators via scaled relative graph",
+                "year": 2019,
+                "venue": "Journal of Mathematical Analysis and Applications",
+                "citation_count": 18,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1441111040",
+                        "name": "Xinmeng Huang"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0b8fac0be85078c3e158131b2b2ba93da6ea53b9",
+                "title": "Splitting with Near-Circulant Linear Systems: Applications to Total Variation CT and PET",
+                "year": 2018,
+                "venue": "SIAM Journal on Scientific Computing",
+                "citation_count": 1,
+                "reference_count": 70,
+                "abstract": "Many imaging problems, such as total variation reconstruction of X-ray computed tomography (CT) and positron-emission tomography (PET), are solved via a convex optimization problem with near-circulant, but not actually circulant, linear systems. The popular methods to solve these problems, alternating direction method of multipliers (ADMM) and primal-dual hybrid gradient (PDHG), do not directly utilize this structure. Consequently, ADMM requires a costly matrix inversion as a subroutine, and PDHG takes too many iterations to converge. In this paper, we present near-circulant splitting (NCS), a novel splitting method that leverages the near-circulant structure. We show that NCS can converge with an iteration count close to that of ADMM, while paying a computational cost per iteration close to that of PDHG. Through experiments on a CUDA GPU, we empirically validate the theory and demonstrate that NCS can effectively utilize the parallel computing capabilities of CUDA.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "37688730",
+                        "name": "Seyoon Ko"
+                    },
+                    {
+                        "s2_author_id": "2816315",
+                        "name": "Joong-Ho Won"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e7250e0c068e886d7555e0be1af85340dc45b17",
+                "title": "Douglas-Rachford Splitting for Pathological Convex Optimization",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 85,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "2108202961",
+                        "name": "Yanli Liu"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1b62350672d51cde8b33c2fe0b3bdac1220b041a",
+                "title": "Cosmic divergence, weak cosmic convergence, and fixed points at infinity",
+                "year": 2018,
+                "venue": "Journal of Fixed Point Theory and Applications",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3d7d19c99e881e8e6f0f7f9e9976b2442c39199f",
+                "title": "A new use of Douglas\u2013Rachford splitting for identifying infeasible, unbounded, and pathological conic programs",
+                "year": 2018,
+                "venue": "Mathematical programming",
+                "citation_count": 26,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108202961",
+                        "name": "Yanli Liu"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "453000c6ce511d027396b80a59d5a9d5585396e3",
+                "title": "A Parallel Method for Earth Mover\u2019s Distance",
+                "year": 2018,
+                "venue": "Journal of Scientific Computing",
+                "citation_count": 92,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2217054",
+                        "name": "Wuchen Li"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "1782265",
+                        "name": "S. Osher"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    },
+                    {
+                        "s2_author_id": "1997104",
+                        "name": "W. Gangbo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "49bd8d27f870fc771815e4a794301fbff25b737f",
+                "title": "Linear convergence of cyclic SAGA",
+                "year": 2018,
+                "venue": "Optimization Letters",
+                "citation_count": 13,
+                "reference_count": 43,
+                "abstract": "In this work, we present and analyze C-SAGA, a (deterministic) cyclic variant of SAGA. C-SAGA is an incremental gradient method that minimizes a sum of differentiable convex functions by cyclically accessing their gradients. Even though the theory of stochastic algorithms is more mature than that of cyclic counterparts in general, practitioners often prefer cyclic algorithms. We prove C-SAGA converges linearly under the standard assumptions. Then, we compare the rate of convergence with the full gradient method, (stochastic) SAGA, and incremental aggregated gradient (IAG), theoretically and experimentally.",
+                "authors": [
+                    {
+                        "s2_author_id": "1845861038",
+                        "name": "Youngsuk Park"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55c0ccded22f9a34b0070baa24fc24c457b0b35f",
+                "title": "Douglas\u2013Rachford splitting and ADMM for pathological convex optimization",
+                "year": 2018,
+                "venue": "Computational optimization and applications",
+                "citation_count": 18,
+                "reference_count": 99,
+                "abstract": "Despite the vast literature on DRS and ADMM, there has been very little work analyzing their behavior under pathologies. Most analyses assume a primal solution exists, a dual solution exists, and strong duality holds. When these assumptions are not met, i.e., under pathologies, the theory often breaks down and the empirical performance may degrade significantly. In this paper, we establish that DRS only requires strong duality to work, in the sense that asymptotically iterates are approximately feasible and approximately optimal.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "2108202961",
+                        "name": "Yanli Liu"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d22848570e5661a1e225a1c995571a503dc0f074",
+                "title": "Operator Splitting Performance Estimation: Tight Contraction Factors and Optimal Parameter Selection",
+                "year": 2018,
+                "venue": "SIAM Journal on Optimization",
+                "citation_count": 87,
+                "reference_count": 142,
+                "abstract": "We propose a methodology for studying the performance of common splitting methods through semidefinite programming. We prove tightness of the methodology and demonstrate its value by presenting two applications of it. First, we use the methodology as a tool for computer-assisted proofs to prove tight analytical contraction factors for Douglas--Rachford splitting that are likely too complicated for a human to find bare-handed. Second, we use the methodology as an algorithmic tool to computationally select the optimal splitting method parameters by solving a series of semidefinite programs.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "2110258113",
+                        "name": "Adrien B. Taylor"
+                    },
+                    {
+                        "s2_author_id": "102225275",
+                        "name": "Carolina Bergeling"
+                    },
+                    {
+                        "s2_author_id": "2047706",
+                        "name": "Pontus Giselsson"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d40fa7f5fa6ed7d70304e5ca0e7a487f95e9fd60",
+                "title": "Uniqueness of DRS as the 2 operator resolvent-splitting and impossibility of 3 operator resolvent-splitting",
+                "year": 2018,
+                "venue": "Mathematical programming",
+                "citation_count": 63,
+                "reference_count": 65,
+                "abstract": "Given the success of Douglas\u2013Rachford splitting (DRS), it is natural to ask whether DRS can be generalized. Are there other 2 operator resolvent-splittings sharing the favorable properties of DRS? Can DRS be generalized to 3 operators? This work presents the answers: no and no. In a certain sense, DRS is the unique 2 operator resolvent-splitting, and generalizing DRS to 3 operators is impossible without lifting, where lifting roughly corresponds to enlarging the problem size. The impossibility result further raises a question. How much lifting is necessary to generalize DRS to 3 operators? This work presents the answer by providing a novel 3 operator resolvent-splitting with provably minimal lifting that directly generalizes DRS.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4308e072aaa9e5f1f8c0dae080f1c2585dabd3ae",
+                "title": "A New Use of Douglas-Rachford Splitting and ADMM for Identifying Infeasible, Unbounded, and Pathological Conic Programs",
+                "year": 2017,
+                "venue": "arXiv.org",
+                "citation_count": 13,
+                "reference_count": 31,
+                "abstract": "In this paper, we present a method for identifying infeasible, unbounded, and pathological conic programs based on Douglas-Rachford splitting, or equivalently ADMM. When an optimization program is infeasible, unbounded, or pathological, the iterates of Douglas-Rachford splitting diverge. Somewhat surprisingly, such divergent iterates still provide useful information, which our method uses for identification. In addition, for strongly infeasible problems the method produces a separating hyperplane and informs the user on how to minimally modify the given problem to achieve strong feasibility. As a first-order method, the proposed algorithm relies on simple subroutines, and therefore is simple to implement and has low per-iteration cost.",
+                "authors": [
+                    {
+                        "s2_author_id": "2108202961",
+                        "name": "Yanli Liu"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "daca1637c7212bf56bfcfa424f93f10043a32872",
+                "title": "Vector and Matrix Optimal Mass Transport: Theory, Algorithm, and Applications",
+                "year": 2017,
+                "venue": "SIAM Journal on Scientific Computing",
+                "citation_count": 38,
+                "reference_count": 62,
+                "abstract": "In many applications such as color image processing, data has more than one piece of information associated with each spatial coordinate, and in such cases the classical optimal mass transport (OMT) must be generalized to handle vector-valued or matrix-valued densities. In this paper, we discuss the vector and matrix optimal mass transport and present three contributions. We first present a rigorous mathematical formulation for these setups and provide analytical results including existence of solutions and strong duality. Next, we present a simple, scalable, and parallelizable methods to solve the vector and matrix-OMT problems. Finally, we implement the proposed methods on a CUDA GPU and present experiments and applications.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "2372578722",
+                        "name": "Yongxin Chen"
+                    },
+                    {
+                        "s2_author_id": "2217054",
+                        "name": "Wuchen Li"
+                    },
+                    {
+                        "s2_author_id": "1782265",
+                        "name": "S. Osher"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e0c5d33bde5c53d467a11ec1ff8ce60c5b58aa54",
+                "title": "Unbalanced and Partial L1\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$L_1$$\\end{document} Monge\u2013Kantorovich Problem",
+                "year": 2017,
+                "venue": "Journal of Scientific Computing",
+                "citation_count": 18,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "2217054",
+                        "name": "Wuchen Li"
+                    },
+                    {
+                        "s2_author_id": "38577388",
+                        "name": "Penghang Yin"
+                    },
+                    {
+                        "s2_author_id": "1782265",
+                        "name": "S. Osher"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eb113d8aaa15a3dc25cf8542c1d941bfe23c81cb",
+                "title": "Cosmic divergence, weak cosmic convergence, and fixed points at infinity",
+                "year": 2017,
+                "venue": "Journal of Fixed Point Theory and Applications",
+                "citation_count": 6,
+                "reference_count": 12,
+                "abstract": "To characterize the asymptotic behavior of fixed-point iterations of non-expansive operators with no fixed points, Bauschke et al. (J Fixed Point Theory Appl 18(2):297\u2013307, 2016) recently studied cosmic convergence and conjectured that cosmic convergence always holds. This paper presents a cosmically divergent counterexample, which disproves this conjecture. This paper also demonstrates, with a counterexample, that cosmic convergence can be weak in infinite dimensions. Finally, this paper shows positive results relating to cosmic convergence that provide an interpretation of cosmic accumulation points as fixed points at infinity.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eb6dda5c914887f31f8e11e236641e53d7f58c65",
+                "title": "Proximal-Proximal-Gradient Method",
+                "year": 2017,
+                "venue": "Journal of Computational Mathematics",
+                "citation_count": 33,
+                "reference_count": 76,
+                "abstract": "In this paper, we present the proximal-proximal-gradient method (PPG), a novel optimization method that is simple to implement and simple to parallelize. PPG generalizes the proximal-gradient method and ADMM and is applicable to minimization problems written as a sum of many differentiable and many non-differentiable convex functions. The non-differentiable functions can be coupled. We furthermore present a related stochastic variation, which we call stochastic PPG (S-PPG). S-PPG can be interpreted as a generalization of Finito and MISO over to the sum of many coupled non-differentiable convex functions. We present many applications that can benefit from PPG and S-PPG and prove convergence for both methods. A key strength of PPG and S-PPG is, compared to existing methods, its ability to directly handle a large sum of non-differentiable non-separable functions with a constant stepsize independent of the number of functions. Such non-diminishing stepsizes allows them to be fast.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f93a6112800293d0b6fe45b97c1107dbb8aa25a1",
+                "title": "A Parallel Method for Earth Mover\u2019s Distance",
+                "year": 2017,
+                "venue": "Journal of Scientific Computing",
+                "citation_count": 0,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108767992",
+                        "name": "Wuchen Li"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "103583159",
+                        "name": "S. Osher"
+                    },
+                    {
+                        "s2_author_id": "6833606",
+                        "name": "W. Yin"
+                    },
+                    {
+                        "s2_author_id": "1997104",
+                        "name": "W. Gangbo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7c93a53c17748ea7cd58e7cfc9bb6d691798cebb",
+                "title": "Risk-Constrained Kelly Gambling",
+                "year": 2016,
+                "venue": "Journal of Investing",
+                "citation_count": 28,
+                "reference_count": 34,
+                "abstract": "The authors consider the classic Kelly gambling problem with general distribution of outcomes and an additional risk constraint that limits the probability of a drawdown of wealth to a given undesirable level. They develop a bound on the drawdown probability; using this bound instead of the original risk constraint yields a convex optimization problem that guarantees the drawdown risk constraint holds. Numerical experiments show that this bound on drawdown probability is reasonably close to the actual drawdown risk, as computed by Monte Carlo simulation. This method is parametrized by a single parameter that has a natural interpretation as a risk-aversion parameter, allowing the authors to systematically trade-off asymptotic growth rate and drawdown risk. Simulations show that this method yields bets that outperform fractional Kelly bets for the same drawdown risk level or growth rate. Finally, they show that a natural quadratic approximation of the convex problem is closely connected to the classical mean\u2013variance Markowitz portfolio selection problem.",
+                "authors": [
+                    {
+                        "s2_author_id": "70848040",
+                        "name": "Enzo Busseti"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "1843103",
+                        "name": "Stephen P. Boyd"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b94c8a4692d0be4c75bc039776c96f9dcab2600c",
+                "title": "A Primer on Monotone Operator Methods",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 372,
+                "reference_count": 130,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "1843103",
+                        "name": "Stephen P. Boyd"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e1378ed4155774e8857c89945a703dc5571e527",
+                "title": "Adaptive Importance Sampling via Stochastic Convex Programming",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 29,
+                "reference_count": 37,
+                "abstract": "We show that the variance of the Monte Carlo estimator that is importance sampled from an exponential family is a convex function of the natural parameter of the distribution. With this insight, we propose an adaptive importance sampling algorithm that simultaneously improves the choice of sampling distribution while accumulating a Monte Carlo estimate. Exploiting convexity, we prove that the method's unbiased estimator has variance that is asymptotically optimal over the exponential family.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "1843103",
+                        "name": "Stephen P. Boyd"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "55f7ed278d66a7bfadbba2dfa0afe2cc2670defb",
+                "title": "Extensions of Gauss Quadrature Via Linear Programming",
+                "year": 2014,
+                "venue": "Foundations of Computational Mathematics",
+                "citation_count": 0,
+                "reference_count": 34,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "1843103",
+                        "name": "Stephen P. Boyd"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e7dd17f6c3c78cae386c6369e55a40e8989b8c93",
+                "title": "Extensions of Gauss Quadrature Via Linear Programming",
+                "year": 2014,
+                "venue": "Foundations of Computational Mathematics",
+                "citation_count": 65,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "1843103",
+                        "name": "Stephen P. Boyd"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e8a3a9b349bc74a59a6c572f4243704684bd9d1",
+                "title": "Stochastic Kronecker Graph on Vertex-Centric BSP",
+                "year": 2012,
+                "venue": "arXiv.org",
+                "citation_count": 4,
+                "reference_count": 8,
+                "abstract": "Recently Stochastic Kronecker Graph (SKG), a network generation model, and vertex-centric BSP, a graph processing framework like Pregel, have attracted much attention in the network analysis community. Unfortunately the two are not very well-suited for each other and thus an implementation of SKG on vertex-centric BSP must either be done serially or in an unnatural manner. \nIn this paper, we present a new network generation model, which we call Poisson Stochastic Kronecker Graph (PSKG), that generate edges according to the Poisson distribution. The advantage of PSKG is that it is easily parallelizable on vertex-centric BSP, requires no communication between computational nodes, and yet retains all the desired properties of SKG.",
+                "authors": [
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "150293565",
+                        "name": "Sean Choi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "530964166463e2a30a2af72b89896b24e36e5295",
+                "title": "Computing reaction rates in bio-molecular systems using discrete macro-states",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 20,
+                "reference_count": 136,
+                "abstract": "Computing reaction rates in biomolecular systems is a common goal of molecular dynamics simulations. The reactions considered often involve conformational changes in the molecule, either changes in the structure of a protein or the relative position of two molecules, for example when modeling the binding of a protein and ligand. Here we will consider the general problem of computing the rate of transfer from a subset A of the conformational space Omega to a subset B of Omega. It is assumed that A and B are associated with minimum energy basins and are long-lived states. \nRates can be obtained using many different methods. We review some of the most popular approaches. We organize the different approaches roughly in chronological order and under four main categories: reactive flux, transition path sampling, conformation dynamics. The fourth class of methods, to which we do not give any specific name, in some sense attempts to combine features from transition path sampling and conformation dynamics. They include non-equilibrium umbrella sampling (Warmflash et al. [2007], Dickson et al. [2009b]), and weighted ensemble dynamics (Huber and Kim [1996]).",
+                "authors": [
+                    {
+                        "s2_author_id": "3195327",
+                        "name": "Eric F Darve"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e3d317e826c46890f8b8d53109c8f6cdcf09f2cf",
+                "title": "Yelp + + : 10 Times More Information per View",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "150293565",
+                        "name": "Sean Choi"
+                    },
+                    {
+                        "s2_author_id": "3135071",
+                        "name": "Ernest K. Ryu"
+                    },
+                    {
+                        "s2_author_id": "3340442",
+                        "name": "Yuekai Sun"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "92733084",
+                "name": "Sehyun Kwon"
+            },
+            {
+                "s2_author_id": "2155367203",
+                "name": "Jooyoung Choi"
+            },
+            {
+                "s2_author_id": "2154961243",
+                "name": "Jongmin Lee"
+            },
+            {
+                "s2_author_id": "1736706793",
+                "name": "Jisun Park"
+            },
+            {
+                "s2_author_id": "2212806365",
+                "name": "Jaewook J. Suh"
+            },
+            {
+                "s2_author_id": "4462394",
+                "name": "J. Paeng"
+            },
+            {
+                "s2_author_id": "50256953",
+                "name": "Taeho Yoon"
+            },
+            {
+                "s2_author_id": "2221227907",
+                "name": "Kibeom Myoung"
+            },
+            {
+                "s2_author_id": "2220896697",
+                "name": "Keon Lee"
+            },
+            {
+                "s2_author_id": "3443302",
+                "name": "Jaewoong Cho"
+            },
+            {
+                "s2_author_id": "2406396613",
+                "name": "Albert No"
+            },
+            {
+                "s2_author_id": "2138867044",
+                "name": "U. Jang"
+            },
+            {
+                "s2_author_id": "2312581",
+                "name": "Shuvomoy Das Gupta"
+            },
+            {
+                "s2_author_id": "2109223271",
+                "name": "Jaeyeon Kim"
+            },
+            {
+                "s2_author_id": "145744184",
+                "name": "A. Ozdaglar"
+            },
+            {
+                "s2_author_id": "48976455",
+                "name": "Chanwoo Park"
+            },
+            {
+                "s2_author_id": "119675357",
+                "name": "Jooyeon Choi"
+            },
+            {
+                "s2_author_id": "144422862",
+                "name": "J. Suh"
+            },
+            {
+                "s2_author_id": "2154418592",
+                "name": "Gyumin Roh"
+            },
+            {
+                "s2_author_id": "1845861038",
+                "name": "Youngsuk Park"
+            },
+            {
+                "s2_author_id": "2145199388",
+                "name": "Yuyang Wang"
+            },
+            {
+                "s2_author_id": "6833606",
+                "name": "W. Yin"
+            },
+            {
+                "s2_author_id": "2175590079",
+                "name": "Soheun Yi"
+            },
+            {
+                "s2_author_id": "26365567",
+                "name": "Bart P. G. Van Parys"
+            },
+            {
+                "s2_author_id": "2262407001",
+                "name": "Sehyun Kwon"
+            },
+            {
+                "s2_author_id": "1441111040",
+                "name": "Xinmeng Huang"
+            },
+            {
+                "s2_author_id": "2332627",
+                "name": "B. Vu"
+            },
+            {
+                "s2_author_id": "47678102",
+                "name": "Sulaiman A. Alghunaim"
+            },
+            {
+                "s2_author_id": "1841311",
+                "name": "K. Yuan"
+            },
+            {
+                "s2_author_id": "1740506",
+                "name": "A. H. Sayed"
+            },
+            {
+                "s2_author_id": "2095300924",
+                "name": "KO Seyoon"
+            },
+            {
+                "s2_author_id": "2816315",
+                "name": "Joong-Ho Won"
+            },
+            {
+                "s2_author_id": "1411942031",
+                "name": "Robert Hannah"
+            },
+            {
+                "s2_author_id": "1685638",
+                "name": "Jialin Liu"
+            },
+            {
+                "s2_author_id": "2116421914",
+                "name": "Sicheng Wang"
+            },
+            {
+                "s2_author_id": "66273769",
+                "name": "Xiaohan Chen"
+            },
+            {
+                "s2_author_id": "2969311",
+                "name": "Zhangyang Wang"
+            },
+            {
+                "s2_author_id": "37688730",
+                "name": "Seyoon Ko"
+            },
+            {
+                "s2_author_id": "2108202961",
+                "name": "Yanli Liu"
+            },
+            {
+                "s2_author_id": "2217054",
+                "name": "Wuchen Li"
+            },
+            {
+                "s2_author_id": "1782265",
+                "name": "S. Osher"
+            },
+            {
+                "s2_author_id": "1997104",
+                "name": "W. Gangbo"
+            },
+            {
+                "s2_author_id": "2110258113",
+                "name": "Adrien B. Taylor"
+            },
+            {
+                "s2_author_id": "102225275",
+                "name": "Carolina Bergeling"
+            },
+            {
+                "s2_author_id": "2047706",
+                "name": "Pontus Giselsson"
+            },
+            {
+                "s2_author_id": "2372578722",
+                "name": "Yongxin Chen"
+            },
+            {
+                "s2_author_id": "38577388",
+                "name": "Penghang Yin"
+            },
+            {
+                "s2_author_id": "2108767992",
+                "name": "Wuchen Li"
+            },
+            {
+                "s2_author_id": "103583159",
+                "name": "S. Osher"
+            },
+            {
+                "s2_author_id": "70848040",
+                "name": "Enzo Busseti"
+            },
+            {
+                "s2_author_id": "1843103",
+                "name": "Stephen P. Boyd"
+            },
+            {
+                "s2_author_id": "150293565",
+                "name": "Sean Choi"
+            },
+            {
+                "s2_author_id": "3195327",
+                "name": "Eric F Darve"
+            },
+            {
+                "s2_author_id": "3340442",
+                "name": "Yuekai Sun"
+            }
+        ],
+        "total_co_authors": 54,
+        "papers_retrieved": 53
+    }
+}

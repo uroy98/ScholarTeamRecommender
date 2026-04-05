@@ -1,0 +1,4239 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000537180",
+        "name": "Iulian Neamtiu",
+        "primary_affiliation": "Wichita State University",
+        "primary_department": null,
+        "all_affiliations": [
+            "Wichita State University"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "KS"
+        ],
+        "perf_cities": [
+            "WICHITA"
+        ],
+        "org_names": [
+            "Wichita State University"
+        ],
+        "org_ueis": [
+            "JKKNZLNYLJ19"
+        ],
+        "inst_types": [
+            "university"
+        ],
+        "emails": [
+            "ineamtiu@njit.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2452674",
+                "title": "SaTC: CORE: Small: Detecting Personal Information Abuse in Mobile Apps and Their Backend Servers",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-10-01",
+                "exp_date": "2028-09-30",
+                "award_amount": 590731.0,
+                "total_amount": 590731.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000764500"
+                ],
+                "program_elements": [
+                    "Special Projects - CNS",
+                    "Secure &Trustworthy Cyberspace"
+                ],
+                "program_codes": [
+                    "171400",
+                    "806000"
+                ],
+                "program_references": [
+                    "SaTC: Secure and Trustworthy Cyberspace",
+                    "SMALL PROJECT",
+                    "EXP PROG TO STIM COMP RES"
+                ],
+                "program_ref_codes": [
+                    "025Z",
+                    "7923",
+                    "9150"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CNS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Computer and Network Systems",
+                "cfda_num": "47.070",
+                "po_name": "Xiaogang (Cliff)  Wang",
+                "keywords": [
+                    "users",
+                    "information",
+                    "collection",
+                    "mobile",
+                    "servers",
+                    "personal",
+                    "apps",
+                    "exposes",
+                    "server",
+                    "unauthorized"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000764500"
+        ],
+        "program_elements": [
+            "Special Projects - CNS",
+            "Secure &Trustworthy Cyberspace"
+        ],
+        "program_codes": [
+            "171400",
+            "806000"
+        ],
+        "program_references": [
+            "SaTC: Secure and Trustworthy Cyberspace",
+            "SMALL PROJECT",
+            "EXP PROG TO STIM COMP RES"
+        ],
+        "program_ref_codes": [
+            "025Z",
+            "7923",
+            "9150"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CNS"
+        ],
+        "fund_divisions": [
+            "Division Of Computer and Network Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Xiaogang (Cliff)  Wang"
+        ],
+        "keywords": [
+            "users",
+            "information",
+            "collection",
+            "mobile",
+            "servers",
+            "personal",
+            "apps",
+            "exposes",
+            "server",
+            "unauthorized",
+            "secure",
+            "thrust",
+            "satc",
+            "small",
+            "privacy",
+            "risks",
+            "minimal",
+            "required",
+            "functioning",
+            "side"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.38
+    },
+    "s2_profile": {
+        "s2_author_id": "145722649",
+        "name": "Iulian Neamtiu",
+        "affiliations": [],
+        "paper_count": 129,
+        "citation_count": 5732,
+        "h_index": 36,
+        "papers": [
+            {
+                "s2_paper_id": "281f1445928d60884929227fba584764871234cd",
+                "title": "Artificial-Intelligence Generated Code Considered Harmful: A Road Map for Secure and High-Quality Code Generation",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 16,
+                "reference_count": 42,
+                "abstract": "Generating code via a LLM (rather than writing code from scratch), has exploded in popularity. However, the security implications of LLM-generated code are still unknown. We performed a study that compared the security and quality of human-written code with that of LLM-generated code, for a wide range of programming tasks, including data structures, algorithms, cryptographic routines, and LeetCode questions. To assess code security we used unit testing, fuzzing, and static analysis. For code quality, we focused on complexity and size. We found that LLM can generate incorrect code that fails to implement the required functionality, especially for more complicated tasks; such errors can be subtle. For example, for the cryptographic algorithm SHA1, LLM generated an incorrect implementation that nevertheless compiles. In cases where its functionality was correct, we found that LLM-generated code is less secure, primarily due to the lack of defensive programming constructs, which invites a host of security issues such as buffer overflows or integer overflows. Fuzzing has revealed that LLM-generated code is more prone to hangs and crashes than human-written code. Quality-wise, we found that LLM generates bare-bones code that lacks defensive programming constructs, and is typically more complex (per line of code) compared to human-written code. Next, we constructed a feedback loop that asked the LLM to re-generate the code and eliminate the found issues (e.g., malloc overflow, array index out of bounds, null dereferences). We found that the LLM fails to eliminate such issues consistently: while succeeding in some cases, we found instances where the re-generated, supposedly more secure code, contains new issues; we also found that upon prompting, LLM can introduce issues in files that were issues-free before prompting.",
+                "authors": [
+                    {
+                        "s2_author_id": "2315982184",
+                        "name": "Chun Jie Chong"
+                    },
+                    {
+                        "s2_author_id": "2305174208",
+                        "name": "Zhihao Yao"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "720fb60765ba556ce5ddd72e43c7fdce3949fcc3",
+                "title": "ACE: Algorithm-Independent Acceleration and Parallelization of Clustering Implementations",
+                "year": 2024,
+                "venue": "Parallel Processing and Applied Mathematics",
+                "citation_count": 0,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "25113654",
+                        "name": "Muyeed Ahmed"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8bb1cfc929bc2a1018c86825a0409280a5f04835",
+                "title": "Quantifying the Vulnerability of Anomaly Detection Implementations to Nondeterminism-based Attacks",
+                "year": 2024,
+                "venue": "International Conference on Artificial Intelligence Testing",
+                "citation_count": 0,
+                "reference_count": 42,
+                "abstract": "Anomaly Detection (AD) is widely used in security applications such as intrusion detection, but its vulnerability to nondeterminism attacks has not been noticed, and its robustness against such attacks has not been studied. Nondeterminism, i.e., output variation on the same input dataset, is a common trait of AD implementations. We show that nondeterminism can be exploited by an attacker that tries to have a malicious input point (outlier) classified as benign input (inlier). In our threat model, the attacker has extremely limited capabilities - they can only retry the attack; they cannot influence the model, manipulate the AD/IDS implementation, or insert noise. We focus on three concrete, orthogonal attack scenarios: (1) a restart attack that exploits a simple re-run, (2) a resource attack that exploits the use of less computationally-expensive parameter settings, and (3) an inconsistency attack that exploits the differences between toolkits implementing the same algorithm. We quantify attack vulnerability in popular implementations of four AD algorithms - IF, RobCov, LOF, and OCSVM - and offer mitigation strategies. We show that in each scenario, despite attackers' limited capabilities, attacks have a high likelihood of success.",
+                "authors": [
+                    {
+                        "s2_author_id": "25113654",
+                        "name": "Muyeed Ahmed"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8c4cbc76692bbdca201028e88ed3ae37fc222356",
+                "title": "Towards Precise Detection of Personal Information Leaks in Mobile Health Apps",
+                "year": 2024,
+                "venue": "arXiv.org",
+                "citation_count": 1,
+                "reference_count": 12,
+                "abstract": "Mobile apps are used in a variety of health settings, from apps that help providers, to apps designed for patients, to health and fitness apps designed for the general public. These apps ask the user for, and then collect and leak a wealth of Personal Information (PI). We analyze the PI that apps collect via their user interface, whether the app or third-party code is processing this information, and finally where the data is sent or stored. Prior work on leak detection in Android has focused on detecting leaks of (hardware) device-identifying information, or policy violations; however no work has looked at processing and leaking of PI in the context of health apps. The first challenge we tackle is extracting the semantic information contained in app UIs to discern the extent, and nature, of personal information. The second challenge we tackle is disambiguating between first-party, legitimate leaks (e.g,. the app storing data in its database) and third-party, problematic leaks, e.g., processing this information by, or sending it to, advertisers and analytics. We conducted a study on 1,243 Android apps: 623 medical apps and 621 health&fitness apps. We categorize PI into 16 types, grouped in 3 main categories: identity, medical, anthropometric. We found that the typical app has one first-party leak and five third-party leaks, though 221 apps had 20 or more leaks. Next, we show that third-party leaks (e.g., advertisers, analytics) are 5x more frequent than first-party leaks. Then, we show that 71% of leaks are to local storage (i.e., the phone, where data could be accessed by unauthorized apps) whereas 29% of leaks are to the network (e.g., Cloud). Finally, medical apps have 20% more PI leaks than health&fitness apps, due to collecting additional medical PI.",
+                "authors": [
+                    {
+                        "s2_author_id": "2323740422",
+                        "name": "Alireza Ardalani"
+                    },
+                    {
+                        "s2_author_id": "2323739552",
+                        "name": "Joseph Antonucci"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f7945829fdc1850867dede25b046693070ba24f0",
+                "title": "A STUDY OF PERSONAL INFORMATION LEAKS IN MOBILE MEDICAL, HEALTH, AND FITNESS APPS",
+                "year": 2024,
+                "venue": "IADIS International Journal on WWW/Internet",
+                "citation_count": 0,
+                "reference_count": 15,
+                "abstract": "There has been a proliferation of mobile apps in the Medical, as well as Health&Fitness categories. These apps have a wide audience, from medical providers, to patients, to end users who want to track their fitness goals. The low barrier to entry on mobile app stores raises questions about the diligence and competence of the developers who publish these apps, especially regarding the practices they use for user data collection, processing, and storage. To help understand the nature of data that is collected, and how it is processed, as well as where it is sent, we developed a tool named PIT (Personal Information Tracker) and made it available as open source. We used PIT to perform a multi-faceted study on 2832 Android apps: 2211 Medical apps and 621 Health&Fitness apps. We first define Personal Information (PI) as 17 different groups of sensitive information, e.g., user\u2019s identity, address and financial information, medical history or anthropometric data. PIT first extracts the elements in the app\u2019s User Interface (UI) where this information is collected. The collected information could be processed by the app\u2019s own code or third-party code; our approach disambiguates between the two. Next, PIT tracks, via static analysis, where the information is \u201cleaked\u201d, i.e., it escapes the scope of the app, either locally on the phone or remotely via the network. Then, we conduct a link analysis that examines the URLs an app connects with, to understand the origin and destination of data that apps collect and process. We found that most apps leak 1\u20135 PI items (email, credit card, phone number, address, name, being the most frequent). Leak destinations include the network (25%), local databases (37%), logs (23%), and files or I/O (15%). While Medical apps have more leaks overall, as they collect data on medical history, surprisingly, Health&Fitness apps also collect, and leak, medical data. We also found that leaks that are due to third-party code (e.g., code for ads, analytics, or user engagement) are much more numerous (2x\u201312x) than leaks due to app\u2019s own code. Finally, our link analysis shows that most apps access 20\u201380 URLs (typically third-party URLs and Cloud APIs) though some apps could access more than 1,000 URLs.",
+                "authors": [
+                    {
+                        "s2_author_id": "2323740422",
+                        "name": "Alireza Ardalani"
+                    },
+                    {
+                        "s2_author_id": "2323739552",
+                        "name": "Joseph Antonucci"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "40c4b5d5b3f9ce9e70fa7b369bb3b49908d435bd",
+                "title": "DeAnomalyzer: Improving Determinism and Consistency in Anomaly Detection Implementations",
+                "year": 2023,
+                "venue": "International Conference on Artificial Intelligence Testing",
+                "citation_count": 3,
+                "reference_count": 24,
+                "abstract": "Anomaly Detection (AD) is a popular unsupervised learning technique, but AD implementations are difficult to test, understand, and ultimately improve. Contributing factors for these difficulties include the lack of a specification to test against, output differences (on the same input) between toolkits that supposedly implement the same AD algorithm, and no linkage between learning parameters and undesirable outcomes. We have implemented DeAnomalyzer, a black-box tool that improves AD reliability by addressing two issues: nondeterminism (wide output variations across repeated runs of the same implementation on the same dataset) and inconsistency (wide output variations between toolkits on the same dataset). Specifically, DeAnomalyzer uses a feedback-directed, gradient descent-like approach to search for toolkit parameter settings that maximize determinism and consistency. DeAnomalyzer can operate in two modes: univariate, without ground truth, targeted to general users, and bivariate, with ground truth, targeted to algorithm designers and developers. We evaluated DeAnomalyzer on 54 AD datasets and the implementations of four AD algorithms in three popular ML toolkits: MATLAB, R, and Scikit-learn. The evaluation has revealed that DeAnomalyzer is effective at increasing determinism and consistency without sacrificing performance, and can even improve performance.",
+                "authors": [
+                    {
+                        "s2_author_id": "25113654",
+                        "name": "Muyeed Ahmed"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "883437fc8534138f45ec9b8d4b299d0cc5284a71",
+                "title": "Diagnosing Medical Score Calculator Apps",
+                "year": 2023,
+                "venue": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
+                "citation_count": 0,
+                "reference_count": 56,
+                "abstract": "Mobile medical score calculator apps are widely used among practitioners to help make decisions regarding patient treatment and diagnosis. Errors in score definition, input, or calculations can result in severe and potentially life-threatening situations. Despite these high stakes, there has been no systematic or rigorous effort to examine and verify score calculator apps. We address these issues via a novel, interval-based score checking approach. Based on our observation that medical reference tables themselves may contain errors (which can propagate to apps) we first introduce automated correctness checking of reference tables. Specifically, we reduce score correctness checking to partition checking (coverage and non-overlap) over score parameters' ranges. We checked 12 scoring systems used in emergency, intensive, and acute care. Surprisingly, though some of these scores have been used for decades, we found errors in 5 score specifications: 8 coverage violations and 3 non-overlap violations. Second, we design and implement an automatic, dynamic analysis-based approach for verifying score correctness in a given Android app; the approach combines efficient, automatic GUI extraction and app exploration with partition/consistency checking to expose app errors. We applied the approach to 90 Android apps that implement medical score calculators. We found 23 coverage violations in 11 apps; 32 non-overlap violations in 12 apps, and 16 incorrect score calculations in 16 apps. We reported all findings to developers, which so far has led to fixes in 6 apps.",
+                "authors": [
+                    {
+                        "s2_author_id": "46470193",
+                        "name": "Sydur Rahaman"
+                    },
+                    {
+                        "s2_author_id": "51049214",
+                        "name": "Raina Samuel"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f9c75f6348f6e529d23fdf3e75005a505162cfc0",
+                "title": "Detecting Potential User-data Save & Export Losses due to Android App Termination",
+                "year": 2023,
+                "venue": "International Conference/Workshop on Automation of Software Test",
+                "citation_count": 1,
+                "reference_count": 28,
+                "abstract": "A common feature in Android apps is saving, or exporting, user\u2019s work (e.g., a drawing) as well as data (e.g., a spreadsheet) onto local storage, as a file. Due to the volatile nature of the OS and the mobile environment in general, the system can terminate apps without notice, which prevents the execution of file write operations; consequently, user data that was supposed to be saved/exported is instead lost. Testing apps for such potential losses raises several challenges: how to identify data originating from user input or resulting from user action (then check whether it is saved), and how to reproduce a potential error by terminating the app at the exact moment when unsaved changes are pending. We address these challenges via an approach that finds potential \u201clost writes\u201d, i.e., user data supposed to be written to a file, but the file write does not take place due to system-initiated termination. Our approach consists of two phases: a static analysis that finds potential losses and a dynamic loss verification phase where we compare lossy and lossless system-level file write traces to confirm errors. We ran our analysis on 2,182 apps from Google Play and 38 apps from F-Droid. Our approach found 163 apps where termination caused losses, including losing user\u2019s app-specific data, notes, photos, user\u2019s work and settings. In contrast, two state-of-the-art tools aimed at finding volatility errors in Android apps failed to discover the issues we found.",
+                "authors": [
+                    {
+                        "s2_author_id": "46470193",
+                        "name": "Sydur Rahaman"
+                    },
+                    {
+                        "s2_author_id": "145112910",
+                        "name": "Umar Farooq"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "47122839",
+                        "name": "Zhijia Zhao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "13bc2142c0c09eff7565027a16682c3a8102e2a6",
+                "title": "CHARACTERIZING MEDICAL ANDROID APPS",
+                "year": 2022,
+                "venue": "Proceedings of the 15th International Conference on ICT,  Society and Human Beings (ICT 2022), the 19th International Conference Web Based  Communities and Social Media (WBCSM 2022) and 14th International Conference on e-Health (EH 2022)",
+                "citation_count": 1,
+                "reference_count": 20,
+                "abstract": "There is a proliferation of medical mobile apps: Google Play alone has thousands of apps in the \u201cMedical\u201d category. Many such apps perform critical tasks (e.g., are used with a medical device or in lieu of a device); handle sensitive patient related information; perform diagnosis; or treat diseases. However, there are wide gaps between an app\u2019s claims and users\u2019 expectations as well as between app implementations and regulatory frameworks\u2019 mandates. We perform the first study, based on analyzing more than 4,000 Android apps, that characterizes medical apps. We begin by introducing an automated classification scheme that integrates textual information extracted from multiple sources to establish the purpose and target audience for an app, based on fine-grained traits and high-level categories; we found that the most common functionalities involved connecting to medical devices (e.g., hearing aids, glucometers), offering tele-health services, or patient management. We then dive deeper into app nature and characterize according to the function and domain of the app. We reveal actionable findings found in various facets of medical applications, regulatory frameworks and user privacy and safety.",
+                "authors": [
+                    {
+                        "s2_author_id": "51049214",
+                        "name": "Raina Samuel"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "46470193",
+                        "name": "Sydur Rahaman"
+                    },
+                    {
+                        "s2_author_id": "144395353",
+                        "name": "J. Geller"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "40d197bd035b01b9aee8ef4f21eb8802e8162cd7",
+                "title": "COULD MEDICAL APPS KEEP THEIR PROMISES?",
+                "year": 2022,
+                "venue": "Proceedings of the 15th International Conference on ICT,  Society and Human Beings (ICT 2022), the 19th International Conference Web Based  Communities and Social Media (WBCSM 2022) and 14th International Conference on e-Health (EH 2022)",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": "Medical mobile apps are already in wide use, and their use, as well as user base are projected to grow even further. However, it is unknown whether medical apps achieve their claimed behavior effectively and accurately. To determine potential gaps between app claims and app behavior, as well as between app claims and user expectations, we conducted a study on over 2,000 Android apps. We first developed an information retrieval approach that maps an app\u2019s description to medical (ICD) terms, hence delineate the app\u2019s medical scope and stated goals; our analysis has revealed that weight management, heart rate measurement, blood sugar measurement and hearing aids constitute the most common conditions apps claim to address. Next, based on app functionality, we categorize apps into (a) apps that measure or manage a physiological parameter, (b) apps that claim to treat conditions, and (c) apps for self-assessment. Within these three categories, we establish fine-grained subcategories and for each subcategory we compare apps\u2019 claimed behavior with realizable behavior. We found that app widely overstate their behavior and functionality. We also found that apps employ disclaimers and misleading terms to lure users into installing/using the app yet avoid responsibility. Finally, based on our uncovered app behavior and claims, we outline actionable findings w.r.t app claims and actual vs. stated function, meant to make users safer and apps more forthright.",
+                "authors": [
+                    {
+                        "s2_author_id": "51049214",
+                        "name": "Raina Samuel"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "46470193",
+                        "name": "Sydur Rahaman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5def7e2faaa0c9d29d1d14fc526c1036421e9ca8",
+                "title": "A New Security Defense Approach for Android Via Proactive Restart",
+                "year": 2022,
+                "venue": "Journal of Computing and Communication",
+                "citation_count": 0,
+                "reference_count": 27,
+                "abstract": "ABSTRACT",
+                "authors": [
+                    {
+                        "s2_author_id": "36278004",
+                        "name": "Zhiyong Shan"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "adab512c376754c828b0ce41ab8ef7984b3a13a5",
+                "title": "Bddl: A Type System for Binary Decision Diagrams",
+                "year": 2022,
+                "venue": "TAP@STAF",
+                "citation_count": 0,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3134675",
+                        "name": "Yousra Lembachar"
+                    },
+                    {
+                        "s2_author_id": "2098448575",
+                        "name": "Ryan Rusich"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1725110",
+                        "name": "Gianfranco Ciardo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b2733de05db7967d0cd8db0dbcd8e2dcbe0b8e66",
+                "title": "Anomalous Anomaly Detection",
+                "year": 2022,
+                "venue": "International Conference on Artificial Intelligence Testing",
+                "citation_count": 2,
+                "reference_count": 21,
+                "abstract": "Anomaly Detection (AD) is an integral part of AI, with applications ranging widely from health to finance, manufacturing, and computer security. Though AD is popular and various AD algorithm implementations are found in popular toolkits, no attempt has been made to test the reliability of these implementations. More generally, AD verification and validation are lacking. To address this need, we introduce an approach and study on 4 popular AD algorithms as implemented in 3 popular tools, as follows. First, we checked whether implementations can perform their basic task of finding anomalies in datasets with known anomalies. Next, we checked two basic properties, determinism and consistency. Finally, we quantified differences in algorithms\u2019 outcome so users can get a idea of variations that can be expected when using different algorithms on the same dataset. We ran our suite of analyses on 73 datasets that contain anomalies. We found that, for certain implementations, validation can fail on 10\u201373% of datasets. Our analysis has revealed that five implementations suffer from nondeterminism (19\u201398% of runs are nondeterministic), and 10 out of 12 implementation pairs are inconsistent.",
+                "authors": [
+                    {
+                        "s2_author_id": "25113654",
+                        "name": "Muyeed Ahmed"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea23b82dc7ab0a6f14ddea503960d4135603aa38",
+                "title": "Scraping Sticky Leftovers: App User Information Left on Servers After Account Deletion",
+                "year": 2022,
+                "venue": "IEEE Symposium on Security and Privacy",
+                "citation_count": 5,
+                "reference_count": 38,
+                "abstract": "Sixty-five percent of mobile apps require user accounts for offering full-fledged functionality. Account information includes private data, e.g., address, phone number, credit card. Our concern is \u201cleftover\u201d account data kept on the server after account deletion, which can be a significant privacy violation. Specifically, we analyzed 1,435 popular apps from Google Play (and 771 associated websites), of which 678 have their own sign-up process, to answer questions such as: Can accounts be deleted at all? Following account deletion, will user data remain on the app\u2019s servers? If so, for how long? Do apps keep their promise to remove data? Answering these questions, and more generally, understanding and tackling the leftover account problem, is challenging. A fundamental obstacle is that leftover data is manipulated and retained in a private space, on the app\u2019s backend servers; we devised a novel, reverse-engineering approach to infer leftover data from app\u2013server communication. Another obstacle is the distributed nature of this data: program analysis as well as information retrieval are required on both the app and its website. We have developed an end-to-end solution (static analysis, dynamic analysis, natural language processing) to the leftover account problem. First, our toolchain checks whether an app, or its website, support account deletion; next, it checks whether the app/website have a data retention policy, and whether the account is left on servers after deletion, or after the specified retention period; finally, it automatically cleans up leftover accounts. We found that 64.45% of apps do not offer any means for users to delete accounts; 2.5% of apps still keep account data on app servers even after accounts are deleted by users. Only 5% of apps specify a retention period; some of these apps violate their own policy by still retaining data months after the period has ended. Experiments show that our approach is effective, with an F-measure $\\gt 88$%, and efficient, with a typical analysis time of 279 seconds per app/website.",
+                "authors": [
+                    {
+                        "s2_author_id": "2156717365",
+                        "name": "Preethi Santhanam"
+                    },
+                    {
+                        "s2_author_id": "143810251",
+                        "name": "Hoang Dang"
+                    },
+                    {
+                        "s2_author_id": "36278004",
+                        "name": "Zhiyong Shan"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "77970a436be268baee597b6fa4363a2e4230a4b2",
+                "title": "Algebraic-datatype taint tracking, with applications to understanding Android identifier leaks",
+                "year": 2021,
+                "venue": "ESEC/SIGSOFT FSE",
+                "citation_count": 6,
+                "reference_count": 50,
+                "abstract": "Current taint analyses track flow from sources to sinks, and report the results simply as source \u2192 sink pairs, or flows. This is imprecise and ineffective in many real-world scenarios; examples include taint sources that are mutually exclusive, or flows that combine sources (e.g., IMEI and MAC Address are concatenated, hashed, leaked vs. IMEI and MAC Address hashed separately and leaked separately). These shortcomings are particularly acute in the context of Android, where sensitive identifiers can be combined, processed, and then leaked, in complicated ways. To address these issues, we introduce a novel, algebraic-datatype taint analysis that generates rich yet concise taint signatures involving AND, XOR, hashing \u2013 akin to algebraic, product and sum, types. We implemented our approach as a static analysis for Android that derives app leak signatures \u2013 an algebraic representation of how, and where, hardware/software identifiers are manipulated before being exfiltrated to the network. We perform six empirical studies of algebraic-datatype taint tracking on 1,000 top apps from Google Play and their embedded libraries, including: discerning between \u201craw\u201d and hashed flows which eliminates a source of imprecision in current analyses; finding apps and libraries that go against Google Play\u2019s guidelines by (ab)using hardware identifiers; showing that third-party code, rather than app code, is the predominant source of leaks; exposing potential de-anonymization practices; and quantifying how apps have become more privacy-friendly over the past two years.",
+                "authors": [
+                    {
+                        "s2_author_id": "46470193",
+                        "name": "Sydur Rahaman"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2116947577",
+                        "name": "Xin Yin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ef65cde49a5c6b1be5a13c6bd7be9f377f780e45",
+                "title": "Quantifying Nondeterminism and Inconsistency in Self-organizing Map Implementations",
+                "year": 2021,
+                "venue": "International Conference on Artificial Intelligence Testing",
+                "citation_count": 3,
+                "reference_count": 27,
+                "abstract": "Self-organizing maps (SOMs) are a popular approach for neural network-based unsupervised learning. However the reliability of self-organizing map implementations has not been investigated. Using internal and external metrics, we define and check two basic SOM properties. First, determinism: a given SOM implementation should produce the same SOM when run repeatedly on the same training dataset. Second, consistency: two SOM implementations should produce similar SOMs when presented with the same training dataset. We check these properties in four popular SOM implementations. We ran our approach on 381 popular datasets used in health, medicine, and other critical domains. We found that implementations violate these basic properties. For example, 375 out of 381 datasets have nondeterministic outcomes; for 51\u201392% of datasets, toolkits yield significantly different SOM clusterings; and clustering accuracy might be so inconsistent as to vary by a factor of four between toolkits. This undermines SOM reliability, and the reliability of results obtained via SOMs. Our study shines a light on what to expect, in practice, when running actual SOM implementations. Our findings suggest that for critical applications, SOM users should not take reliability for granted; rather, multiple runs and different toolkits should be considered and compared.",
+                "authors": [
+                    {
+                        "s2_author_id": "46470193",
+                        "name": "Sydur Rahaman"
+                    },
+                    {
+                        "s2_author_id": "51049214",
+                        "name": "Raina Samuel"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0fc491c4527e519297b89b72c8fdef9d6fcfc657",
+                "title": "LiveDroid: identifying and preserving mobile app state in volatile runtime environments",
+                "year": 2020,
+                "venue": "Proc. ACM Program. Lang.",
+                "citation_count": 17,
+                "reference_count": 64,
+                "abstract": "Mobile operating systems, especially Android, expose apps to a volatile runtime environment. The app state that reflects past user interaction and system environment updates (e.g., battery status changes) can be destroyed implicitly, in response to runtime configuration changes (e.g., screen rotations) or memory pressure. Developers are therefore responsible for identifying app state affected by volatility and preserving it across app lifecycles. When handled inappropriately, the app may lose state or end up in an inconsistent state after a runtime configuration change or when users return to the app. To free developers from this tedious and error-prone task, we propose a systematic solution, LiveDroid, which precisely identifies the necessary part of the app state that needs to be preserved across app lifecycles, and automatically saves and restores it. LiveDroid consists of: (i) a static analyzer that reasons about app source code and resource files to pinpoint the program variables and GUI properties that represent the necessary app state, and (ii) a runtime system that manages the state saving and recovering. We implemented LiveDroid as a plugin in Android Studio and a patching tool for APKs. Our evaluation shows that LiveDroid can be successfully applied to 966 Android apps. A focused study with 36 Android apps shows that LiveDroid identifies app state much more precisely than an existing solution that includes all mutable program variables but ignores GUI properties. As a result, on average, LiveDroid is able to reduce the costs of state saving and restoring by 16.6X (1.7X - 141.1X) and 9.5X (1.1X - 43.8X), respectively. Furthermore, compared with the manual state handling performed by developers, our analysis reveals a set of 46 issues due to incomplete state saving/restoring, all of which can be successfully eliminated by LiveDroid.",
+                "authors": [
+                    {
+                        "s2_author_id": "145112910",
+                        "name": "Umar Farooq"
+                    },
+                    {
+                        "s2_author_id": "47122839",
+                        "name": "Zhijia Zhao"
+                    },
+                    {
+                        "s2_author_id": "34602042",
+                        "name": "Manu Sridharan"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "333a3c9d69fa0f6c7b6601f9ad259eb7c2a75f69",
+                "title": "Implementation-induced Inconsistency and Nondeterminism in Deterministic Clustering Algorithms",
+                "year": 2020,
+                "venue": "International Conference on Information Control Systems & Technologies",
+                "citation_count": 4,
+                "reference_count": 32,
+                "abstract": "A deterministic clustering algorithm is designed to always produce the same clustering solution on a given input. Therefore, users of clustering implementations (toolkits) naturally assume that implementations of a deterministic clustering algorithm A have deterministic behavior, that is: (1) two different implementations I1 and I2 of A are interchangeable, producing the same clustering on a given input D, and (2) an implementation produces the same clustering solution when run repeatedly on D. We challenge these assumptions. Specifically, we analyze clustering behavior on 528 datasets, three deterministic algorithms (Affinity Propagation, DBSCAN, Hierarchical Agglomerative Clustering) and the deterministic portion of a fourth (K-means), as implemented in various toolkits; in total, we examined 13 algorithm-toolkit combinations. We found that different implementations of deterministic clustering algorithms make different choices, e.g., default parameter settings, noise insertion, input dataset characteristics. As a result, clustering solutions for a fixed algorithm-dataset combination can differ across runs (nondeterminism) and across toolkits (inconsistency). We expose several root causes of such behavior. We show that remedying these root causes improves determinism, increases consistency, and can even improve efficiency. Our approach and findings can benefit developers, testers, and users of clustering algorithms.",
+                "authors": [
+                    {
+                        "s2_author_id": "2116947577",
+                        "name": "Xin Yin"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1874063132",
+                        "name": "Saketan Patil"
+                    },
+                    {
+                        "s2_author_id": "2054883081",
+                        "name": "Sean T. Andrews"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "83a4e91a2a978250570a18b0ac5f4a7efbc02ecc",
+                "title": "Knock, Knock. Who's There? On the Security of LG's Knock Codes",
+                "year": 2020,
+                "venue": "SOUPS @ USENIX Security Symposium",
+                "citation_count": 10,
+                "reference_count": 81,
+                "abstract": "Knock Codes are a knowledge-based unlock authentication scheme used on LG smartphones where a user enters a code by tapping or \"knocking\" a sequence on a 2x2 grid. While a lesser used authentication method, as compared to PINs or Android patterns, there is likely a large number of Knock Code users; we estimate, 700,000--2,500,000 in the US alone. In this paper, we studied Knock Codes security asking participants to select codes on mobile devices in three settings: a control treatment, a blocklist treatment, and a treatment with a larger, 2x3 grid. We find that Knock Codes are significantly weaker than other deployed authentication, e.g., PINs or Android patterns. In a simulated attacker setting, 2x3 grids offered no additional security, but blocklisting was more beneficial, making Knock Codes' security similar to Android patterns. Participants expressed positive perceptions of Knock Codes, but usability was challenged. SUS values were \"marginal\" or \"ok\" across treatments. Based on these findings, we recommend deploying blacklists for selecting a Knock Code because it improves security but has limited impact on usability perceptions.",
+                "authors": [
+                    {
+                        "s2_author_id": "51049214",
+                        "name": "Raina Samuel"
+                    },
+                    {
+                        "s2_author_id": "1557533872",
+                        "name": "Philipp Markert"
+                    },
+                    {
+                        "s2_author_id": "3076315",
+                        "name": "Adam J. Aviv"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "570966be180d84b4b4874723926c3a107d101180",
+                "title": "Device Administrator Use and Abuse in Android: Detection and Characterization",
+                "year": 2019,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 5,
+                "reference_count": 33,
+                "abstract": "Device Administrator (DA) capabilities for mobile devices, e.g., remote locking/wiping, or enforcing password strength, were originally introduced to help organizations manage phone fleets or enable parental control. However, DA capabilities have been subverted and abused: malicious apps have used DA to create ransomware or lock users out, while benign apps have used DA to prevent or hinder uninstallation; in certain cases the only remedy is to factory-reset the phone. We call these apps \"Deathless Device Administrator\" (DDA), i.e., apps that cannot be uninstalled. We provide the first systematic study of Android DA capabilities, DDA apps, DDA-attack resistance across Android versions, and DDA-induced families in malicious apps. To enable scalable studies of questionable DA behavior, we developed DAAX, a static analyzer which exposes potential DA abuse effectively and efficiently. In a corpus of 39,459 apps (20,467 malicious and 18,992 benign) DAAX has found 4,135 DA apps and 691 potential DDA apps. The static analysis results on the 4,135 apps were cross-checked via dynamic analysis on at least 3 phones, confirming 578 true DDAs, including apps currently on Google Play. The study has shown that DAAX is effective (84.8% F-measure) and efficient (analysis typically takes 205 seconds per app).",
+                "authors": [
+                    {
+                        "s2_author_id": "36278004",
+                        "name": "Zhiyong Shan"
+                    },
+                    {
+                        "s2_author_id": "51049214",
+                        "name": "Raina Samuel"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a356f0cf04deb979768abeb3235c40fa68619a7",
+                "title": "Elix: Path-Selective Taint Analysis for Extracting Mobile App Links",
+                "year": 2019,
+                "venue": "ACM SIGMOBILE International Conference on Mobile Systems, Applications, and Services",
+                "citation_count": 3,
+                "reference_count": 52,
+                "abstract": "App links, also known as mobile deep links, are URIs that point to specific pages in an app. App links are essential to many mobile experiences: Google and Bing use them to link search results directly to relevant pages in an app and apps use them for cross-app navigation. However, app links are hard to discover and, since they must be explicitly built into apps by developers, only exist for a small fraction of apps. To address these two problems, we propose Elix, an automated app link extractor. We define link extraction as a static information flow problem where a link, with its scheme and parameters, is synthesized by analyzing the data flow between subsequent pages in an app. As static analysis is prone to false positives, Elix adopts a novel, path-selective taint analysis that leverages symbolic execution to reason about path constraints and abandon infeasible paths. Elix can automatically and correctly discover links that are exposed by an app, and many others that are not explicitly exposed, thus increasing coverage of both link-enabled apps and link-enabled pages in an app. Elix also simplifies the scheme of extracted links by reducing complex types to a minimal set of primitive types. We have implemented Elix on Android and applied it to 1007 popular Android apps. Elix can extract 80-90% of an app's links, and above 80% of the extracted links are stable.",
+                "authors": [
+                    {
+                        "s2_author_id": "2118030207",
+                        "name": "Yongjian Hu"
+                    },
+                    {
+                        "s2_author_id": "1850512",
+                        "name": "Oriana Riva"
+                    },
+                    {
+                        "s2_author_id": "39496676",
+                        "name": "Suman Nath"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b347da5a66436bf1234385a48195758d61e5854a",
+                "title": "Statistically Rigorous Testing of Clustering Implementations",
+                "year": 2019,
+                "venue": "International Conference on Artificial Intelligence Testing",
+                "citation_count": 5,
+                "reference_count": 22,
+                "abstract": "Clustering is a widely-used and well-studied AI branch, but defining clustering correctness, as well as verifying and validating clustering implementations, remains a challenge. To address this, we propose a statistically rigorous approach that couples differential clustering with statistical hypothesis testing, namely we conduct statistical hypothesis testing on the outcome (distribution) of differential clustering to reveal problematic outcomes. We employed this approach on widely-used clustering algorithms implemented in popular ML toolkits; the toolkits were tasked with clustering datasets from the Penn Machine Learning Benchmark. The results indicate that there are statistically significant differences in clustering outcomes in a variety of scenarios where users might not expect clustering outcome variation.",
+                "authors": [
+                    {
+                        "s2_author_id": "2116947577",
+                        "name": "Xin Yin"
+                    },
+                    {
+                        "s2_author_id": "1784166",
+                        "name": "Vincenzo Musco"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2190158",
+                        "name": "Usman Roshan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c00e1c84e2020a572e970a994c09a1d30f3d1228",
+                "title": "SmokeOut: An Approach for Testing Clustering Implementations",
+                "year": 2019,
+                "venue": "International Conference on Information Control Systems & Technologies",
+                "citation_count": 8,
+                "reference_count": 16,
+                "abstract": "Clustering is a key Machine Learning technique, used in many high-stakes domains from medicine to self-driving cars. Many clustering algorithms have been proposed, and these algorithms have been implemented in many toolkits. Clustering users assume that clustering implementations are correct, reliable, and for a given algorithm, interchangeable. We challenge these assumptions. We introduce SmokeOut, an approach and tool that pits clustering implementations against each other (and against themselves) while controlling for algorithm and dataset, to find datasets where clustering outcomes differ when they shouldn't, and measure this difference. We ran SmokeOut on 7 clustering algorithms (3 deterministic and 4 nondeterministic) implemented in 7 widely-used toolkits, and run in a variety of scenarios on the Penn Machine Learning Benchmark (162 datasets). SmokeOut has revealed that clustering implementations are fragile: on a given input dataset and using a given clustering algorithm, clustering outcomes and accuracy vary widely between (1) successive runs of the same toolkit; (2) different input parameters for that tool; (3) different toolkits.",
+                "authors": [
+                    {
+                        "s2_author_id": "1784166",
+                        "name": "Vincenzo Musco"
+                    },
+                    {
+                        "s2_author_id": "2116947577",
+                        "name": "Xin Yin"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f537ecc234126f3e8e28738a2143f3aebfde3752",
+                "title": "Dynamic Slicing for Android",
+                "year": 2019,
+                "venue": "International Conference on Software Engineering",
+                "citation_count": 24,
+                "reference_count": 36,
+                "abstract": "Dynamic program slicing is useful for a variety of tasks, from testing to debugging to security. Prior slicing approaches have targeted traditional desktop/server platforms, rather than mobile platforms such as Android. Slicing mobile, event-based systems is challenging due to their asynchronous callback construction and the IPC (interprocess communication)- heavy, sensor-driven, timing-sensitive nature of the platform. To address these problems, we introduce AndroidSlicer1, the first slicing approach for Android. AndroidSlicer combines a novel asynchronous slicing approach for modeling data and control dependences in the presence of callbacks with lightweight and precise instrumentation; this allows slicing for apps running on actual phones, and without requiring the app's source code. Our slicer is capable of handling a wide array of inputs that Android supports without adding any noticeable overhead. Experiments on 60 apps from Google Play show that AndroidSlicer is effective (reducing the number of instructions to be examined to 0.3% of executed instructions) and efficient (app instrumentation and post-processing combined takes 31 seconds); all while imposing a runtime overhead of just 4%. We present three applications of AndroidSlicer that are particularly relevant in the mobile domain: (1) finding and tracking input parts responsible for an error/crash, (2) fault localization, i.e., finding the instructions responsible for an error/crash, and (3) reducing the regression test suite. Experiments with these applications on an additional set of 18 popular apps indicate that AndroidSlicer is effective for Android testing and debugging.",
+                "authors": [
+                    {
+                        "s2_author_id": "2006399",
+                        "name": "Tanzirul Azim"
+                    },
+                    {
+                        "s2_author_id": "6180123",
+                        "name": "Arash Alavi"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3b30a4412e496a246952049293128a8a39053387",
+                "title": "On the Effectiveness of Random Testing for Android: Or How I Learned to Stop Worrying and Love the Monkey",
+                "year": 2018,
+                "venue": "International Conference/Workshop on Automation of Software Test",
+                "citation_count": 46,
+                "reference_count": 13,
+                "abstract": "Random testing of Android apps is attractive due to ease-of-use and scalability, but its effectiveness could be questioned. Prior studies have shown that Monkey \u2013 a simple approach and tool for random testing of Android apps \u2013 is surprisingly effective, \"beating\" much more sophisticated tools by achieving higher coverage. We study how Monkey's parameters affect code coverage (at class, method, block, and line levels) and set out to answer several research questions centered around improving the effectiveness of Monkey-based random testing in Android, and how it compares with manual exploration. First, we show that random stress testing via Monkey is extremely efficient (85 seconds on average) and effective at crashing apps, including 15 widely-used apps that have millions (or even billions) of installs. Second, we vary Monkey's event distribution to change app behavior and measured the resulting coverage. We found that, except for isolated cases, altering Monkey's default event distribution is unlikely to lead to higher coverage. Third, we manually explore 62 apps and compare the resulting coverages; we found that coverage achieved via manual exploration is just 2-3% higher than that achieved via Monkey exploration. Finally, our analysis shows that coarse-grained coverage is highly indicative of fine-grained coverage, hence coarse-grained coverage (which imposes low collection overhead) hits a performance vs accuracy sweet spot.",
+                "authors": [
+                    {
+                        "s2_author_id": "2118547488",
+                        "name": "Priyam Patel"
+                    },
+                    {
+                        "s2_author_id": "2055653562",
+                        "name": "Gokul Srinivasan"
+                    },
+                    {
+                        "s2_author_id": "46470193",
+                        "name": "Sydur Rahaman"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6a86642f53aabfbaf0fd309377323a58f3c1d864",
+                "title": "Static Detection of Event-based Races in Android Apps",
+                "year": 2018,
+                "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+                "citation_count": 25,
+                "reference_count": 33,
+                "abstract": "Event-based races are the main source of concurrency errors in Android apps. Prior approaches for scalable detection of event-based races have been dynamic. Due to their dynamic nature, these approaches suffer from coverage and false negative issues. We introduce a precise and scalable static approach and tool, named SIERRA, for detecting Android event-based races. SIERRA is centered around a new concept of \"concurrency action\" (that reifies threads, events/messages, system and user actions) and statically-derived order (happens-before relation) between actions. Establishing action order is complicated in Android, and event-based systems in general, because of externally-orchestrated control flow, use of callbacks, asynchronous tasks, and ad-hoc synchronization. We introduce several novel approaches that enable us to infer order relations statically: auto-generated code models which impose order among lifecycle and GUI events; a novel context abstraction for event-driven programs named action-sensitivity and finally, on-demand path sensitivity via backward symbolic execution to further rule out false positives. We have evaluated SIERRA on 194 Android apps. Of these, we chose 20 apps for manual analysis and comparison with a state-of-the-art dynamic race detector. Experimental results show that SIERRA is effective and efficient, typically taking 960 seconds to analyze an app and revealing 43 potential races. Compared with the dynamic race detector, SIERRA discovered an average 29.5 true races with 3.5 false positives, where the dynamic detector only discovered 4 races (hence missing 25.5 races per app) -- this demonstrates the advantage of a precise static approach. We believe that our approach opens the way for precise analysis and static event race detection in other event-driven systems beyond Android.",
+                "authors": [
+                    {
+                        "s2_author_id": "2118030207",
+                        "name": "Yongjian Hu"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c5a702733203aef3455f43a347d5d39802ba3d5d",
+                "title": "Inter-Disciplinary Research Challenges in Computer Systems for the 2020s",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 20,
+                "reference_count": 92,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145509576",
+                        "name": "Albert Cohen"
+                    },
+                    {
+                        "s2_author_id": "37914192",
+                        "name": "Xipeng Shen"
+                    },
+                    {
+                        "s2_author_id": "1695950",
+                        "name": "J. Torrellas"
+                    },
+                    {
+                        "s2_author_id": "143973921",
+                        "name": "James Tuck"
+                    },
+                    {
+                        "s2_author_id": "145850061",
+                        "name": "Yuanyuan Zhou"
+                    },
+                    {
+                        "s2_author_id": "3196444",
+                        "name": "S. Adve"
+                    },
+                    {
+                        "s2_author_id": "40600553",
+                        "name": "Ismail Akturk"
+                    },
+                    {
+                        "s2_author_id": "2068683420",
+                        "name": "Saurabh Bagchi"
+                    },
+                    {
+                        "s2_author_id": "1777422",
+                        "name": "R. Balasubramonian"
+                    },
+                    {
+                        "s2_author_id": "1721712",
+                        "name": "R. Barik"
+                    },
+                    {
+                        "s2_author_id": "144979187",
+                        "name": "Micah Beck"
+                    },
+                    {
+                        "s2_author_id": "1991345",
+                        "name": "Rastislav Bod\u00edk"
+                    },
+                    {
+                        "s2_author_id": "3287952",
+                        "name": "A. Butt"
+                    },
+                    {
+                        "s2_author_id": "1717411",
+                        "name": "L. Ceze"
+                    },
+                    {
+                        "s2_author_id": "2145225884",
+                        "name": "Haibo Chen"
+                    },
+                    {
+                        "s2_author_id": "2154549134",
+                        "name": "Yiran Chen"
+                    },
+                    {
+                        "s2_author_id": "3191220",
+                        "name": "Trishul M. Chilimbi"
+                    },
+                    {
+                        "s2_author_id": "8200989",
+                        "name": "Mihai Christodorescu"
+                    },
+                    {
+                        "s2_author_id": "144618669",
+                        "name": "John Criswell"
+                    },
+                    {
+                        "s2_author_id": "2064887998",
+                        "name": "Chen Ding"
+                    },
+                    {
+                        "s2_author_id": "1766680",
+                        "name": "Yufei Ding"
+                    },
+                    {
+                        "s2_author_id": "1727597",
+                        "name": "S. Dwarkadas"
+                    },
+                    {
+                        "s2_author_id": "1685517",
+                        "name": "E. Elmroth"
+                    },
+                    {
+                        "s2_author_id": "2061126489",
+                        "name": "Phil Gibbons"
+                    },
+                    {
+                        "s2_author_id": "1933285409",
+                        "name": "Xiao Hua Guo"
+                    },
+                    {
+                        "s2_author_id": "2110340674",
+                        "name": "Rajesh K. Gupta"
+                    },
+                    {
+                        "s2_author_id": "1743811",
+                        "name": "Gernot Heiser"
+                    },
+                    {
+                        "s2_author_id": "144287769",
+                        "name": "H. Hoffman"
+                    },
+                    {
+                        "s2_author_id": "49024818",
+                        "name": "Jian Huang"
+                    },
+                    {
+                        "s2_author_id": "2740772",
+                        "name": "H. Hunter"
+                    },
+                    {
+                        "s2_author_id": "2109221338",
+                        "name": "John Kim"
+                    },
+                    {
+                        "s2_author_id": "1800500",
+                        "name": "Samuel T. King"
+                    },
+                    {
+                        "s2_author_id": "1752633",
+                        "name": "J. Larus"
+                    },
+                    {
+                        "s2_author_id": "2108118938",
+                        "name": "Chen Liu"
+                    },
+                    {
+                        "s2_author_id": "144134981",
+                        "name": "Shan Lu"
+                    },
+                    {
+                        "s2_author_id": "145449750",
+                        "name": "Brandon Lucia"
+                    },
+                    {
+                        "s2_author_id": "144834015",
+                        "name": "Saeed Maleki"
+                    },
+                    {
+                        "s2_author_id": "34462159",
+                        "name": "Somnath Mazumdar"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1776186",
+                        "name": "K. Pingali"
+                    },
+                    {
+                        "s2_author_id": "2290186",
+                        "name": "P. Rech"
+                    },
+                    {
+                        "s2_author_id": "145330388",
+                        "name": "M. Scott"
+                    },
+                    {
+                        "s2_author_id": "1717365",
+                        "name": "Yan Solihin"
+                    },
+                    {
+                        "s2_author_id": "143711382",
+                        "name": "D. Song"
+                    },
+                    {
+                        "s2_author_id": "1719766",
+                        "name": "Jakub Szefer"
+                    },
+                    {
+                        "s2_author_id": "3188958",
+                        "name": "Dan Tsafrir"
+                    },
+                    {
+                        "s2_author_id": "1684443",
+                        "name": "B. Urgaonkar"
+                    },
+                    {
+                        "s2_author_id": "3517655",
+                        "name": "M. Wolf"
+                    },
+                    {
+                        "s2_author_id": "144825236",
+                        "name": "Yuan Xie"
+                    },
+                    {
+                        "s2_author_id": "2109858015",
+                        "name": "Jishen Zhao"
+                    },
+                    {
+                        "s2_author_id": "2284363090",
+                        "name": "Lin Zhong"
+                    },
+                    {
+                        "s2_author_id": "2167019728",
+                        "name": "Yuhao Zhu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ef8e0db4dc78eac34764b106517c25c01a33aecc",
+                "title": "Self-Hiding Behavior in Android Apps: Detection and Characterization",
+                "year": 2018,
+                "venue": "International Conference on Software Engineering",
+                "citation_count": 29,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "36278004",
+                        "name": "Zhiyong Shan"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "51049214",
+                        "name": "Raina Samuel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "01a1c3dee64ca9615a38478b1a9ab3f7ad69b261",
+                "title": "Improving Smartphone Security and Reliability",
+                "year": 2017,
+                "venue": "J. Interconnect. Networks",
+                "citation_count": 0,
+                "reference_count": 81,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "144312519",
+                        "name": "Xuetao Wei"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    },
+                    {
+                        "s2_author_id": "144645041",
+                        "name": "L. Gomez"
+                    },
+                    {
+                        "s2_author_id": "2006399",
+                        "name": "Tanzirul Azim"
+                    },
+                    {
+                        "s2_author_id": "2118030207",
+                        "name": "Yongjian Hu"
+                    },
+                    {
+                        "s2_author_id": "36278004",
+                        "name": "Zhiyong Shan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f1da69f7428700d55c71456de13f47f0daed7389",
+                "title": "Characterizing the behavior of handheld devices and its implications",
+                "year": 2017,
+                "venue": "Comput. Networks",
+                "citation_count": 25,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144312519",
+                        "name": "Xuetao Wei"
+                    },
+                    {
+                        "s2_author_id": "2882794",
+                        "name": "Nicholas C. Valler"
+                    },
+                    {
+                        "s2_author_id": "1764637",
+                        "name": "H. Madhyastha"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f24094cfe4b43ff2402dbf25756db283b525ca40",
+                "title": "Defining and Detecting Environment Discrimination in Android Apps",
+                "year": 2017,
+                "venue": "Security and Privacy in Communication Networks",
+                "citation_count": 5,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "25855332",
+                        "name": "Yunfeng Hong"
+                    },
+                    {
+                        "s2_author_id": "2118030207",
+                        "name": "Yongjian Hu"
+                    },
+                    {
+                        "s2_author_id": "2912487",
+                        "name": "Chun-Ming Lai"
+                    },
+                    {
+                        "s2_author_id": "1718534",
+                        "name": "S. F. Wu"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "144061974",
+                        "name": "P. Mcdaniel"
+                    },
+                    {
+                        "s2_author_id": "98733587",
+                        "name": "Paul L. Yu"
+                    },
+                    {
+                        "s2_author_id": "144875287",
+                        "name": "H. \u00c7am"
+                    },
+                    {
+                        "s2_author_id": "1720429",
+                        "name": "Gail-Joon Ahn"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "01ab82b58b0991a9d1156c612ecd87d0f8d624dc",
+                "title": "Finding resume and restart errors in Android applications",
+                "year": 2016,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 47,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "36278004",
+                        "name": "Zhiyong Shan"
+                    },
+                    {
+                        "s2_author_id": "2006399",
+                        "name": "Tanzirul Azim"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04e8093f1a938dcb5f9a9fc8406cb4c6fc181845",
+                "title": "Safe and flexible adaptation via alternate data structure representations",
+                "year": 2016,
+                "venue": "International Conference on Compiler Construction",
+                "citation_count": 7,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2520898",
+                        "name": "Amlan Kusum"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a910d957084a45d7d1d5f36ce4f2494d84b21f5",
+                "title": "Efficient Processing of Large Graphs via Input Reduction",
+                "year": 2016,
+                "venue": "IEEE International Symposium on High-Performance Parallel Distributed Computing",
+                "citation_count": 29,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2520898",
+                        "name": "Amlan Kusum"
+                    },
+                    {
+                        "s2_author_id": "34986234",
+                        "name": "Keval Vora"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "57452245ef8339fe407abc03c65e33a081955e0b",
+                "title": "Automatic fault location for data structures",
+                "year": 2016,
+                "venue": "International Conference on Compiler Construction",
+                "citation_count": 3,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143806740",
+                        "name": "Vineet Singh"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "648d71f4074bfef571f9b3b5d34d1cf57b76612f",
+                "title": "Expertise and Behavior of Unix Command Line Users: an Exploratory Study",
+                "year": 2016,
+                "venue": "International Conference on Advances in Computer-Human Interaction",
+                "citation_count": 3,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3155647",
+                        "name": "Mohammad Gharehyazie"
+                    },
+                    {
+                        "s2_author_id": "2115370234",
+                        "name": "Bo Zhou"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8aefc31dd9c4275256645e28b424ae6a80a206eb",
+                "title": "Proving Concurrent Data Structures Linearizable",
+                "year": 2016,
+                "venue": "IEEE International Symposium on Software Reliability Engineering",
+                "citation_count": 6,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143806740",
+                        "name": "Vineet Singh"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a5596de49df4468f9364f8d6de3fe6139e2db9c8",
+                "title": "VALERA: An Effective and Efficient Record-and-Replay Tool for Android",
+                "year": 2016,
+                "venue": "International Conference on Mobile Software Engineering and Systems",
+                "citation_count": 10,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118030207",
+                        "name": "Yongjian Hu"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bf494e925c7cc7ce2d3bdbb857a3cc13258fe2f9",
+                "title": "Fuzzy and Cross-App Replay for Smartphone Apps",
+                "year": 2016,
+                "venue": "International Conference/Workshop on Automation of Software Test",
+                "citation_count": 12,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118030207",
+                        "name": "Yongjian Hu"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c87a687451637e183264c2b622506822c852a253",
+                "title": "Modeling cybersecurity risks: Proof of concept of a holistic approach for integrated risk quantification",
+                "year": 2016,
+                "venue": "IEEE International Conference on Technologies for Homeland Security",
+                "citation_count": 7,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1810515",
+                        "name": "D. Henshel"
+                    },
+                    {
+                        "s2_author_id": "145076251",
+                        "name": "A. Alexeev"
+                    },
+                    {
+                        "s2_author_id": "2047198",
+                        "name": "M. Cains"
+                    },
+                    {
+                        "s2_author_id": "144702965",
+                        "name": "J. Rowe"
+                    },
+                    {
+                        "s2_author_id": "144875287",
+                        "name": "H. \u00c7am"
+                    },
+                    {
+                        "s2_author_id": "49643049",
+                        "name": "Blaine Hoffman"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec0088096fb49226f403b083d687c071ad6a781c",
+                "title": "Automatically verifying and reproducing event-based races in Android apps",
+                "year": 2016,
+                "venue": "International Symposium on Software Testing and Analysis",
+                "citation_count": 37,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118030207",
+                        "name": "Yongjian Hu"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "6180123",
+                        "name": "Arash Alavi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e7319e23cffd76871cbd049f2fbb3b516abec61",
+                "title": "Versatile yet lightweight record-and-replay for Android",
+                "year": 2015,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 107,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118030207",
+                        "name": "Yongjian Hu"
+                    },
+                    {
+                        "s2_author_id": "2006399",
+                        "name": "Tanzirul Azim"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "24ce906cc9415c454007e85f96cbe9d46c294a69",
+                "title": "Experience report: How do bug characteristics differ across severity classes: A multi-platform study",
+                "year": 2015,
+                "venue": "IEEE International Symposium on Software Reliability Engineering",
+                "citation_count": 15,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115370234",
+                        "name": "Bo Zhou"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2c32589033a8ebdba068e4c99206bdb21c14f3b1",
+                "title": "A behavior-aware profiling of handheld devices",
+                "year": 2015,
+                "venue": "IEEE Conference on Computer Communications",
+                "citation_count": 10,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144312519",
+                        "name": "Xuetao Wei"
+                    },
+                    {
+                        "s2_author_id": "2882794",
+                        "name": "Nicholas C. Valler"
+                    },
+                    {
+                        "s2_author_id": "1764637",
+                        "name": "H. Madhyastha"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "33e389558a3b8721133914aba58646431c391fdc",
+                "title": "MG++: Memory graphs for analyzing dynamic data structures",
+                "year": 2015,
+                "venue": "IEEE International Conference on Software Analysis, Evolution, and Reengineering",
+                "citation_count": 8,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143806740",
+                        "name": "Vineet Singh"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "352a960bc9c4a8934e2d3208534d66dc9be29af7",
+                "title": "Proactive restart as cyber maneuver for Android",
+                "year": 2015,
+                "venue": "IEEE Military Communications Conference",
+                "citation_count": 16,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "36278004",
+                        "name": "Zhiyong Shan"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1794927",
+                        "name": "Zhiyun Qian"
+                    },
+                    {
+                        "s2_author_id": "1734166",
+                        "name": "D. Torrieri"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "35bc6be31f0a4748497c6833c1edf78bde77c794",
+                "title": "ZapDroid: Managing Infrequently Used Applications on Smartphones",
+                "year": 2015,
+                "venue": "IEEE Transactions on Mobile Computing",
+                "citation_count": 17,
+                "reference_count": 62,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "38390055",
+                        "name": "Indrajeet Singh"
+                    },
+                    {
+                        "s2_author_id": "38774813",
+                        "name": "S. Krishnamurthy"
+                    },
+                    {
+                        "s2_author_id": "1764637",
+                        "name": "H. Madhyastha"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "48823338501acab4633c8f098773192fd7b8ce10",
+                "title": "Improving the Android development lifecycle with the VALERA record-and-replay approach",
+                "year": 2015,
+                "venue": "MobileDeLi",
+                "citation_count": 1,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2118030207",
+                        "name": "Yongjian Hu"
+                    },
+                    {
+                        "s2_author_id": "2006399",
+                        "name": "Tanzirul Azim"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b0d737584c050c5c68c7555e71ecef0519f3936f",
+                "title": "A framework to evaluate cyber agility",
+                "year": 2015,
+                "venue": "IEEE Military Communications Conference",
+                "citation_count": 10,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1799217",
+                        "name": "L. Marvel"
+                    },
+                    {
+                        "s2_author_id": "2111099981",
+                        "name": "Scott E. Brown"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2584869",
+                        "name": "Richard E. Harang"
+                    },
+                    {
+                        "s2_author_id": "146497630",
+                        "name": "David Harman"
+                    },
+                    {
+                        "s2_author_id": "2190870",
+                        "name": "B. Henz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c0d4d8f7c26fbe39ba1700e9c18d424dfc84e7f2",
+                "title": "Predicting concurrency bugs: how many, what kind and where are they?",
+                "year": 2015,
+                "venue": "International Conference on Evaluation & Assessment in Software Engineering",
+                "citation_count": 17,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115370234",
+                        "name": "Bo Zhou"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d47584e03281dcf7b2cc3ca13cd506e2cea432ac",
+                "title": "A cross-platform analysis of bugs and bug-fixing in open source projects: desktop vs. Android vs. iOS",
+                "year": 2015,
+                "venue": "International Conference on Evaluation & Assessment in Software Engineering",
+                "citation_count": 39,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2115370234",
+                        "name": "Bo Zhou"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eb6a1cbae9bd4dfcb853cf7904f86d7d3dc62d2c",
+                "title": "Size Oblivious Programming with InfiniMem",
+                "year": 2015,
+                "venue": "International Workshop on Languages and Compilers for Parallel Computing",
+                "citation_count": 9,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2896346",
+                        "name": "Sai Charan Koduru"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fffcd74d00060031ff59239342805de063684732",
+                "title": "Proceedings of the 8th USENIX Conference on Cyber Security Experimentation and Test",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3076315",
+                        "name": "Adam J. Aviv"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0b897e0cb73d357c731bd546177a009dddc26809",
+                "title": "Determining Developers' Expertise and Role: A Graph Hierarchy-Based Approach",
+                "year": 2014,
+                "venue": "IEEE International Conference on Software Maintenance and Evolution",
+                "citation_count": 20,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "50b68412ce96d150f0615b535fc10c84b2f3314c",
+                "title": "DrDebug: Deterministic Replay based Cyclic Debugging with Dynamic Slicing",
+                "year": 2014,
+                "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+                "citation_count": 50,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2300486345",
+                        "name": "Yan Wang"
+                    },
+                    {
+                        "s2_author_id": "144578495",
+                        "name": "H. Patil"
+                    },
+                    {
+                        "s2_author_id": "144276789",
+                        "name": "C. Pereira"
+                    },
+                    {
+                        "s2_author_id": "40584737",
+                        "name": "G. Lueck"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "519becf78f41f68661425c2244eb8b916722be8f",
+                "title": "Security and Science of Agility",
+                "year": 2014,
+                "venue": "MTD '14",
+                "citation_count": 36,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144061974",
+                        "name": "P. Mcdaniel"
+                    },
+                    {
+                        "s2_author_id": "145971553",
+                        "name": "T. Jaeger"
+                    },
+                    {
+                        "s2_author_id": "145063891",
+                        "name": "T. L. Porta"
+                    },
+                    {
+                        "s2_author_id": "2367796356",
+                        "name": "Nicolas Papernot"
+                    },
+                    {
+                        "s2_author_id": "2329545",
+                        "name": "R. Walls"
+                    },
+                    {
+                        "s2_author_id": "144233778",
+                        "name": "A. Kott"
+                    },
+                    {
+                        "s2_author_id": "1799217",
+                        "name": "L. Marvel"
+                    },
+                    {
+                        "s2_author_id": "144231976",
+                        "name": "A. Swami"
+                    },
+                    {
+                        "s2_author_id": "144752813",
+                        "name": "P. Mohapatra"
+                    },
+                    {
+                        "s2_author_id": "38774813",
+                        "name": "S. Krishnamurthy"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "66ee91a7c2fb42fca879b4ce7dd2e2f0dc10a97e",
+                "title": "Whom Does Your Android App Talk To?",
+                "year": 2014,
+                "venue": "Global Communications Conference",
+                "citation_count": 5,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144312519",
+                        "name": "Xuetao Wei"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7abbae923ecfc96ada5fd679e7c5c75778e22665",
+                "title": "Adapting Graph Application Performance via Alternate Data Structure Representation",
+                "year": 2014,
+                "venue": "arXiv.org",
+                "citation_count": 6,
+                "reference_count": 33,
+                "abstract": "Graph processing is used extensively in areas from social networking mining to web indexing. We demonstrate that the performance and dependability of such applications critically hinges on the graph data structure used, because a fixed, compile-time choice of data structure can lead to poor performance or applications unable to complete. To address this problem, we introduce an approach that helps programmers transform regular, off-the-shelf graph applications into adaptive, more dependable applications where adaptations are performed via runtime selection from alternate data structure representations. Using our approach, applications dynamically adapt to the input graph's characteristics and changes in available memory so they continue to run when faced with adverse conditions such as low memory. Experiments with graph algorithms on real-world (e.g., Wikipedia metadata, Gnutella topology) and synthetic graph datasets show that our adaptive applications run to completion with lower execution time and/or memory utilization in comparison to their non-adaptive versions.",
+                "authors": [
+                    {
+                        "s2_author_id": "2520898",
+                        "name": "Amlan Kusum"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b9a07a9d8ac99a5ebec802a6d5696374fc25a333",
+                "title": "Towards self-healing smartphone software via automated patching",
+                "year": 2014,
+                "venue": "International Conference on Automated Software Engineering",
+                "citation_count": 41,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2006399",
+                        "name": "Tanzirul Azim"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1799217",
+                        "name": "L. Marvel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f1d4d0b91bea8f20c985696f42a823b8c39649e1",
+                "title": "Whom Does Your Android App Talk To",
+                "year": 2014,
+                "venue": "Global Communications Conference",
+                "citation_count": 3,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144312519",
+                        "name": "Xuetao Wei"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0195f5034ce011da2d38cdd60dfc68f4b3c52784",
+                "title": "RERAN: Timing- and touch-sensitive record and replay for Android",
+                "year": 2013,
+                "venue": "International Conference on Software Engineering",
+                "citation_count": 342,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144645041",
+                        "name": "L. Gomez"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2006399",
+                        "name": "Tanzirul Azim"
+                    },
+                    {
+                        "s2_author_id": "3105241",
+                        "name": "T. Millstein"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "07d19fd0d2080d843db0208d7556ace8b6e9d5c2",
+                "title": "Generating sound and effective memory debuggers",
+                "year": 2013,
+                "venue": "International Symposium on Mathematical Morphology and Its Application to Signal and Image Processing",
+                "citation_count": 5,
+                "reference_count": 36,
+                "abstract": "We present a new approach for constructing debuggers based on declarative specification of bug conditions and root causes, and automatic generation of debugger code. We illustrate our approach on several classes of bugs, memory or otherwise. For each bug class, bug conditions and their root cause are specified declaratively, in First-order logic, using 1 to 4 predicates. We employ a low-level operational semantics and abstract traces to permit concise bug specification and prove soundness. To facilitate locating bugs, we introduce a new concept of value propagation chains that reduce programmer burden by narrowing the fault to a handful of executed instructions (1 to 16 in our experiments). We employ automatic translation to generate the debugger implementation, which runs on top of the Pin infrastructure. Experiments with using our system on 7 versions of 4 real-world programs show that our approach is expressive, effective at finding bugs and their causes, and efficient. We believe that, using our approach, other kinds of declaratively-specified, provably-correct, auto-generated debuggers can be constructed with little effort.",
+                "authors": [
+                    {
+                        "s2_author_id": "2300486345",
+                        "name": "Yan Wang"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0f95ff262ff71a678e979211842381b057cd4e1a",
+                "title": "A state alteration and inspection-based interactive debugger",
+                "year": 2013,
+                "venue": "IEEE Working Conference on Source Code Analysis and Manipulation",
+                "citation_count": 3,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2300486345",
+                        "name": "Yan Wang"
+                    },
+                    {
+                        "s2_author_id": "2067622761",
+                        "name": "Min Feng"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "14780df9063a54eef5a4e1bca6f3d315035fef44",
+                "title": "Relevant inputs analysis and its applications",
+                "year": 2013,
+                "venue": "IEEE International Symposium on Software Reliability Engineering",
+                "citation_count": 3,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2300486345",
+                        "name": "Yan Wang"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2276067dcaa5fc9c240041a50a114a06a9636276",
+                "title": "Competing Memes Propagation on Networks: A Network Science Perspective",
+                "year": 2013,
+                "venue": "IEEE Journal on Selected Areas in Communications",
+                "citation_count": 101,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144312519",
+                        "name": "Xuetao Wei"
+                    },
+                    {
+                        "s2_author_id": "2882794",
+                        "name": "Nicholas C. Valler"
+                    },
+                    {
+                        "s2_author_id": "2242149413",
+                        "name": "B. Aditya Prakash"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    },
+                    {
+                        "s2_author_id": "1702392",
+                        "name": "C. Faloutsos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "346eb06a831aba1e6c85071ba502b24e13ffbaa0",
+                "title": "Improving Cloud Availability with On-the-fly Schema Updates",
+                "year": 2013,
+                "venue": "International Conference on Management of Data",
+                "citation_count": 12,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "145560883",
+                        "name": "J. Bardin"
+                    },
+                    {
+                        "s2_author_id": "38409277",
+                        "name": "R. Uddin"
+                    },
+                    {
+                        "s2_author_id": "2779736",
+                        "name": "Dien-Yen Lin"
+                    },
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4db4e7edb652b41e3b718b8814dc52753921172b",
+                "title": "Smartphone viruses propagation on heterogeneous composite networks",
+                "year": 2013,
+                "venue": "IEEE Network Science Workshop",
+                "citation_count": 4,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144312519",
+                        "name": "Xuetao Wei"
+                    },
+                    {
+                        "s2_author_id": "2882794",
+                        "name": "Nicholas C. Valler"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "144214525",
+                        "name": "B. Prakash"
+                    },
+                    {
+                        "s2_author_id": "1702392",
+                        "name": "C. Faloutsos"
+                    },
+                    {
+                        "s2_author_id": "2270322704",
+                        "name": "Virginia Tech"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "58a7896835773a1d16873f0dd09a8ecd35715027",
+                "title": "An Empirical Analysis of Bug Reports and Bug Fixing in Open Source Android Apps",
+                "year": 2013,
+                "venue": "European Conference on Software Maintenance and Reengineering",
+                "citation_count": 104,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "15499608",
+                        "name": "Liudmila Ulanova"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2896346",
+                        "name": "Sai Charan Koduru"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9b718c7ac2078f84c8c6b28b8b4b7afac1e89874",
+                "title": "Report on the fourth workshop on hot topics in software upgrades (HotSWUp 2012)",
+                "year": 2013,
+                "venue": "OPSR",
+                "citation_count": 1,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2341084601",
+                        "name": "Karla Saur"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9c9639eee92b77f9a5cfd0bce22752e3a60f80cb",
+                "title": "Programming Support for Speculative Execution with Software Transactional Memory",
+                "year": 2013,
+                "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+                "citation_count": 6,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2067622761",
+                        "name": "Min Feng"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "afc5b6d4b844003810fd8aaeb171f45918bfd546",
+                "title": "Targeted and depth-first exploration for systematic testing of android apps",
+                "year": 2013,
+                "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+                "citation_count": 481,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2006399",
+                        "name": "Tanzirul Azim"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1c3734df97ddf27e452b8b49273de40ea4c78172",
+                "title": "Graph-based analysis and prediction for software evolution",
+                "year": 2012,
+                "venue": "International Conference on Software Engineering",
+                "citation_count": 225,
+                "reference_count": 50,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "1856932",
+                        "name": "Marios Iliofotou"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "230863a379c8f0ee1d6fc2d36c0f74374ea53ae6",
+                "title": "Permission evolution in the Android ecosystem",
+                "year": 2012,
+                "venue": "Asia-Pacific Computer Systems Architecture Conference",
+                "citation_count": 204,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144312519",
+                        "name": "Xuetao Wei"
+                    },
+                    {
+                        "s2_author_id": "144645041",
+                        "name": "L. Gomez"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "28fb8ff12c2d427fc45960b814ce09fb71155eba",
+                "title": "Effective parallelization of loops in the presence of I/O operations",
+                "year": 2012,
+                "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+                "citation_count": 11,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2067622761",
+                        "name": "Min Feng"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2ba9a0f027a737bfb6678669c3e9f161e2ceb8c9",
+                "title": "Malicious Android Applications in the Enterprise: What Do They Do and How Do We Fix It?",
+                "year": 2012,
+                "venue": "2012 IEEE 28th International Conference on Data Engineering Workshops",
+                "citation_count": 40,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144312519",
+                        "name": "Xuetao Wei"
+                    },
+                    {
+                        "s2_author_id": "144645041",
+                        "name": "L. Gomez"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2e985064b912f575d6ce53e394bf4716ff22f1a8",
+                "title": "ProfileDroid: multi-layer profiling of android applications",
+                "year": 2012,
+                "venue": "ACM/IEEE International Conference on Mobile Computing and Networking",
+                "citation_count": 243,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144312519",
+                        "name": "Xuetao Wei"
+                    },
+                    {
+                        "s2_author_id": "144645041",
+                        "name": "L. Gomez"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4f7f32d98d9363ca055c070ff51c0c5707b900cc",
+                "title": "Report on the third workshop on hot topics in software upgrades (HotSWUp'11)",
+                "year": 2012,
+                "venue": "OPSR",
+                "citation_count": 1,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34893727",
+                        "name": "Christopher M. Hayden"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9a421ee282c6f8e129a1db91366e90d603b499a9",
+                "title": "Fourth Workshop on Hot Topics in Software Upgrades (HotSWUp 2012)",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "35064289",
+                        "name": "Karla Saur"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a231e7e215723ea8633529e16c65459f861f330a",
+                "title": "Automated, highly-accurate, bug assignment using machine learning and tossing graphs",
+                "year": 2012,
+                "venue": "Journal of Systems and Software",
+                "citation_count": 79,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2257308918",
+                        "name": "Christian R. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c38a2f8bdfbeca198e42fc54ec236b4acb96f23e",
+                "title": "utomated , highly-accurate , bug assignment using machine earning and tossing graphs",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 97,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2408542215",
+                        "name": "amela Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2257308918",
+                        "name": "Christian R. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d7e283c01ca18f48d54e8c3536d9e8bf0827a67b",
+                "title": "How to have your cake and eat it too: Dynamic software updating with just-in-time overhead",
+                "year": 2012,
+                "venue": "Workshop on Hot Topics in Software Upgrades",
+                "citation_count": 5,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2374496",
+                        "name": "R. Bazzi"
+                    },
+                    {
+                        "s2_author_id": "145033236",
+                        "name": "Bryan Topp"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f7ab9abcfa8ceba89cbcd4f715a6357c1057651f",
+                "title": "Competing memes propagation on networks: a case study of composite networks",
+                "year": 2012,
+                "venue": "CCRV",
+                "citation_count": 50,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2288098695",
+                        "name": "Augustin Chaintreau"
+                    },
+                    {
+                        "s2_author_id": "144312519",
+                        "name": "Xuetao Wei"
+                    },
+                    {
+                        "s2_author_id": "2882794",
+                        "name": "Nicholas C. Valler"
+                    },
+                    {
+                        "s2_author_id": "144214525",
+                        "name": "B. Prakash"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2771914",
+                        "name": "M. Faloutsos"
+                    },
+                    {
+                        "s2_author_id": "1702392",
+                        "name": "C. Faloutsos"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "126918048d88e73957d254e2049e40d283f00a83",
+                "title": "A prolog-based framework for search, integration and empirical analysis on software evolution data",
+                "year": 2011,
+                "venue": "ICSE Workshop on Search-driven Development: Users, Infrastructure, Tools and Evaluation",
+                "citation_count": 3,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1a54d102af8e7d7c8a7d5ea1463ae67e9b75a646",
+                "title": "Assessing programming language impact on development and maintenance: a study on c and c++",
+                "year": 2011,
+                "venue": "International Conference on Software Engineering",
+                "citation_count": 72,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "30c3a2a19c1c1dee7815d6381cabf7d09d498f55",
+                "title": "Schema evolution analysis for embedded databases",
+                "year": 2011,
+                "venue": "2011 IEEE 27th International Conference on Data Engineering Workshops",
+                "citation_count": 35,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2116564017",
+                        "name": "Shengfeng Wu"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4de4a827edc6d331632d99582064a2496db76bdd",
+                "title": "Elastic executions from inelastic programs",
+                "year": 2011,
+                "venue": "International Symposium on Software Engineering for Adaptive and Self-Managing Systems",
+                "citation_count": 16,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "680bdcc4e10694d20a2ad3cbf071c7957cbb3334",
+                "title": "A Characterization of Malicious Android Applications",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144645041",
+                        "name": "L. Gomez"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9ba90021011486591e1bb2949d4b32571fa2bb84",
+                "title": "Bug-fix time prediction models: can we do better?",
+                "year": 2011,
+                "venue": "IEEE Working Conference on Mining Software Repositories",
+                "citation_count": 132,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9e1687e8977b12f1937d6b9b5b45eb3311afcb67",
+                "title": "Experimental Challenges in Cyber Security: A Story of Provenance and Lineage for Malware",
+                "year": 2011,
+                "venue": "CSET",
+                "citation_count": 30,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3343194",
+                        "name": "Tudor Dumitras"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a5372bce78e0c363528e2edbc1a7eb111eefdc44",
+                "title": "Automating GUI testing for Android applications",
+                "year": 2011,
+                "venue": "International Conference/Workshop on Automation of Software Test",
+                "citation_count": 328,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2147488",
+                        "name": "Cuixiong Hu"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c547c75e55c8486a8b4c87236a1eedf99203e44f",
+                "title": "A GUI bug finding framework for Android applications",
+                "year": 2011,
+                "venue": "ACM Symposium on Applied Computing",
+                "citation_count": 18,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2147488",
+                        "name": "Cuixiong Hu"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e33fbb37e952ddafd0c75fd645a31f606785a63d",
+                "title": "Cloud software upgrades: Challenges and opportunities",
+                "year": 2011,
+                "venue": "2011 International Workshop on the Maintenance and Evolution of Service-Oriented and Cloud-Based Systems",
+                "citation_count": 49,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "3343194",
+                        "name": "Tudor Dumitras"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "38042713ddeaaacc345baa1a346f5b6e9d8ad987",
+                "title": "Studying Software Evolution for Taming Software Complexity",
+                "year": 2010,
+                "venue": "Australian Software Engineering Conference",
+                "citation_count": 20,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "153621195",
+                        "name": "Steve D. Suh"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3f51ca7381b245d10e3edcc72c286ea5830df3b6",
+                "title": "Fine-grained incremental learning and multi-feature tossing graphs to improve bug triaging",
+                "year": 2010,
+                "venue": "2010 IEEE International Conference on Software Maintenance",
+                "citation_count": 174,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4713df8df2c227556e6814aeb8d3e45cd5497f61",
+                "title": "Dynamic updates for web and cloud applications",
+                "year": 2010,
+                "venue": "APLWACA '10",
+                "citation_count": 28,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "825b37e60341281bd9f2d7ef27954adedae44cf2",
+                "title": "Report on the second ACM workshop on hot topics in software upgrades (HotSWUp'09): http://www.hotswup.org/2009/",
+                "year": 2010,
+                "venue": "OPSR",
+                "citation_count": 0,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3343194",
+                        "name": "Tudor Dumitras"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1682441",
+                        "name": "E. Tilevich"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "95036927b1011d3aedaf2f14dea32b9870b0e749",
+                "title": "Automated , Highly-accurate Bug Triaging Using Machine Learning",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "33559727",
+                        "name": "P. Bhattacharya"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "3564227",
+                        "name": "C. Shelton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "07ef19c8c2096a4a94c28febf00d9670ae41e4c7",
+                "title": "Towards a better understanding of software evolution: An empirical study on open source software",
+                "year": 2009,
+                "venue": "2009 IEEE International Conference on Software Maintenance",
+                "citation_count": 143,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2052381553",
+                        "name": "Guowu Xie"
+                    },
+                    {
+                        "s2_author_id": "144626708",
+                        "name": "Jianbo Chen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e827533b72e60ccd75ec1240433e740541fc57c",
+                "title": "Second ACM workshop on hot topics in software upgrades (HotSWUp 2009)",
+                "year": 2009,
+                "venue": "OOPSLA Companion",
+                "citation_count": 4,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3343194",
+                        "name": "Tudor Dumitras"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1682441",
+                        "name": "E. Tilevich"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "30b05abf0170eba36f071c1772549634eba222ae",
+                "title": "Collateral evolution of applications and databases",
+                "year": 2009,
+                "venue": "IWPSE-Evol '09",
+                "citation_count": 55,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2779736",
+                        "name": "Dien-Yen Lin"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3adf3a357aec2469c928e2731c125f7c76874488",
+                "title": "Safe and timely updates to multi-threaded programs",
+                "year": 2009,
+                "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+                "citation_count": 96,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "144578171",
+                        "name": "M. Hicks"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "61c7db17c89200db63b600d9b199ad6f06801053",
+                "title": "Proceedings of the 2nd ACM Workshop on Hot Topics in Software Upgrades, HotSWUp 2009, Orlando, FL, USA, October 25, 2009",
+                "year": 2009,
+                "venue": "Workshop on Hot Topics in Software Upgrades",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3343194",
+                        "name": "Tudor Dumitras"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1682441",
+                        "name": "E. Tilevich"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9d41d124628e83c1c072769b96636b83c65a5b3d",
+                "title": "First ACM Workshop on Hot Topics in Software Upgrades ( HotSWUp",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a72662ba17642e2de5f3596a1042a55507b0b77b",
+                "title": "Session details: Dynamic software updating",
+                "year": 2009,
+                "venue": "Proceedings of the 2nd International Workshop on Hot Topics in Software Upgrades",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cebb41c47baf719623314468a6b71d77ec42cb98",
+                "title": "Safe On-the-fly Relational Schema Evolution",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2779736",
+                        "name": "Dien-Yen Lin"
+                    },
+                    {
+                        "s2_author_id": "38409277",
+                        "name": "R. Uddin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d980d75e664f2dc63802aab3e78e8efa2fa5b490",
+                "title": "Safe and Timely Dynamic Updates for Multi-threaded Programs",
+                "year": 2009,
+                "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+                "citation_count": 46,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "144578171",
+                        "name": "M. Hicks"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0f101c0ed9bab1fbbcb52fdfe170940e485b34bb",
+                "title": "Session details: Upgrade mechanisms",
+                "year": 2008,
+                "venue": "Proceedings of the 1st International Workshop on Hot Topics in Software Upgrades",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1f886b9ed65e57fd75488a5288d6bec82a09c1cf",
+                "title": "Contextual effects for version-consistent dynamic software updatingalland safe concurrent programming",
+                "year": 2008,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 4,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "144578171",
+                        "name": "M. Hicks"
+                    },
+                    {
+                        "s2_author_id": "1775508",
+                        "name": "J. Foster"
+                    },
+                    {
+                        "s2_author_id": "2385564",
+                        "name": "Polyvios Pratikakis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53f7cfe6159d012396116fdde511f40f6f5b5f3b",
+                "title": "Practical Dynamic Software Updating",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 24,
+                "reference_count": 110,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "79d1cacb3565fa267aefc7ccafe2c47d97b4c96c",
+                "title": "Contextual effects for version-consistent dynamic software updating and safe concurrent programming",
+                "year": 2008,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 91,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "144578171",
+                        "name": "M. Hicks"
+                    },
+                    {
+                        "s2_author_id": "1775508",
+                        "name": "J. Foster"
+                    },
+                    {
+                        "s2_author_id": "2385564",
+                        "name": "Polyvios Pratikakis"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "94b6cb87f996c6a8c7a8d18bc4db07bc5b84fa2b",
+                "title": "1st ACM workshop on hot topics in software upgrades (HotSWUp 2008)",
+                "year": 2008,
+                "venue": "OOPSLA Companion",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3343194",
+                        "name": "Tudor Dumitras"
+                    },
+                    {
+                        "s2_author_id": "1687704",
+                        "name": "Danny Dig"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dee3adfb4fce47b7b89cd2ae73bab5d67fc80ad8",
+                "title": "Proceedings of the 1st ACM Workshop on Hot Topics in Software Upgrades, HotSWUp 2008, Nashville, TN, USA, October 20, 2008",
+                "year": 2008,
+                "venue": "Workshop on Hot Topics in Software Upgrades",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3343194",
+                        "name": "Tudor Dumitras"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f659099f2450818403528422762d609c1a1e2ced",
+                "title": "Formalizing Soundness of Contextual Effects",
+                "year": 2008,
+                "venue": "International Conference on Theorem Proving in Higher Order Logics",
+                "citation_count": 6,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2385564",
+                        "name": "Polyvios Pratikakis"
+                    },
+                    {
+                        "s2_author_id": "1775508",
+                        "name": "J. Foster"
+                    },
+                    {
+                        "s2_author_id": "144578171",
+                        "name": "M. Hicks"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f68a1814799628d3ecbb2e46746d9c28ebe2c069",
+                "title": "Finding and Reproducing Heisenbugs in Concurrent Programs",
+                "year": 2008,
+                "venue": "USENIX Symposium on Operating Systems Design and Implementation",
+                "citation_count": 619,
+                "reference_count": 51,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1702346",
+                        "name": "M. Musuvathi"
+                    },
+                    {
+                        "s2_author_id": "1686425",
+                        "name": "S. Qadeer"
+                    },
+                    {
+                        "s2_author_id": "144434028",
+                        "name": "T. Ball"
+                    },
+                    {
+                        "s2_author_id": "40486572",
+                        "name": "G\u00e9rard Basler"
+                    },
+                    {
+                        "s2_author_id": "3248390",
+                        "name": "Piramanayagam Arumuga Nainar"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4533f6d92884a3ee8c76e591f5c24abab0edbd55",
+                "title": "Mutatis Mutandis: Safe and predictable dynamic software updating",
+                "year": 2007,
+                "venue": "TOPL",
+                "citation_count": 50,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2437918",
+                        "name": "G. Stoyle"
+                    },
+                    {
+                        "s2_author_id": "144578171",
+                        "name": "M. Hicks"
+                    },
+                    {
+                        "s2_author_id": "1724401",
+                        "name": "G. Bierman"
+                    },
+                    {
+                        "s2_author_id": "144490973",
+                        "name": "Peter Sewell"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9a90e237240c5fd171dbee98a3e4c43d73c0f580",
+                "title": "Using Remote Memory Communication for Self-Healing Systems (cid:3)",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2386575",
+                        "name": "F. Sultan"
+                    },
+                    {
+                        "s2_author_id": "2869595",
+                        "name": "A. Bohra"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2345961",
+                        "name": "L. Iftode"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fa1c52836e7f912722acd54f92dc907098b92f1a",
+                "title": "Research Statement 1 Dynamic Software Updating",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "428028abfeff9f0de289390aa76254251e770bca",
+                "title": "Practical dynamic software updating for C",
+                "year": 2006,
+                "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+                "citation_count": 227,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "144578171",
+                        "name": "M. Hicks"
+                    },
+                    {
+                        "s2_author_id": "2437918",
+                        "name": "G. Stoyle"
+                    },
+                    {
+                        "s2_author_id": "144758742",
+                        "name": "M. Oriol"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "89a75b4fc379c8c34ef55925a206573d345367c0",
+                "title": "Dynamic Software Updating for the Linux Kernel",
+                "year": 2006,
+                "venue": "USENIX Symposium on Operating Systems Design and Implementation",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "144578171",
+                        "name": "M. Hicks"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "354ba3f4561cf725dc1f28dc48fd2ff955c64a07",
+                "title": "Mutatis mutandis: safe and predictable dynamic software updating",
+                "year": 2005,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 158,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2437918",
+                        "name": "G. Stoyle"
+                    },
+                    {
+                        "s2_author_id": "144578171",
+                        "name": "M. Hicks"
+                    },
+                    {
+                        "s2_author_id": "1724401",
+                        "name": "G. Bierman"
+                    },
+                    {
+                        "s2_author_id": "144490973",
+                        "name": "Peter Sewell"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "982a0276b8f5edbe2ab1c821ba12a5810ec29e16",
+                "title": "Toward Practical Dynamic Software Updating",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2437918",
+                        "name": "G. Stoyle"
+                    },
+                    {
+                        "s2_author_id": "144758742",
+                        "name": "M. Oriol"
+                    },
+                    {
+                        "s2_author_id": "144578171",
+                        "name": "M. Hicks"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d342c7cece558facc31dddec174478b606b732de",
+                "title": "Understanding source code evolution using abstract syntax tree matching",
+                "year": 2005,
+                "venue": "IEEE Working Conference on Mining Software Repositories",
+                "citation_count": 314,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1775508",
+                        "name": "J. Foster"
+                    },
+                    {
+                        "s2_author_id": "144578171",
+                        "name": "M. Hicks"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea423823d963949131ec10a602bef18dabf37ee1",
+                "title": "Recovering Internet service sessions from operating system failures",
+                "year": 2005,
+                "venue": "IEEE Internet Computing",
+                "citation_count": 38,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2386575",
+                        "name": "F. Sultan"
+                    },
+                    {
+                        "s2_author_id": "2869595",
+                        "name": "A. Bohra"
+                    },
+                    {
+                        "s2_author_id": "2702264",
+                        "name": "Stephen Smaldone"
+                    },
+                    {
+                        "s2_author_id": "2111415721",
+                        "name": "Yufei Pan"
+                    },
+                    {
+                        "s2_author_id": "1885426",
+                        "name": "Pascal Gallard"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2345961",
+                        "name": "L. Iftode"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "326d4bde76985ac4a98a85d64016027a4629c957",
+                "title": "Remote repair of operating system state using Backdoors",
+                "year": 2004,
+                "venue": "International Conference on Autonomic Computing, 2004. Proceedings.",
+                "citation_count": 57,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2869595",
+                        "name": "A. Bohra"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1885426",
+                        "name": "Pascal Gallard"
+                    },
+                    {
+                        "s2_author_id": "2386575",
+                        "name": "F. Sultan"
+                    },
+                    {
+                        "s2_author_id": "2345961",
+                        "name": "L. Iftode"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cb783438493393a48bf32f8f8abf4be1b9ff4693",
+                "title": "Nonintrusive Failure Detection and Recovery for Internet Services Using Backdoors \u2217",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 29,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2386575",
+                        "name": "F. Sultan"
+                    },
+                    {
+                        "s2_author_id": "2869595",
+                        "name": "A. Bohra"
+                    },
+                    {
+                        "s2_author_id": "2111415721",
+                        "name": "Yufei Pan"
+                    },
+                    {
+                        "s2_author_id": "2702264",
+                        "name": "Stephen Smaldone"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1885426",
+                        "name": "Pascal Gallard"
+                    },
+                    {
+                        "s2_author_id": "2345961",
+                        "name": "L. Iftode"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d88a9f38e8cd49795b86a4068fb28188e3a434a9",
+                "title": "Remote Repair of OS State Using Backdoors",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2869595",
+                        "name": "A. Bohra"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "1885426",
+                        "name": "Pascal Gallard"
+                    },
+                    {
+                        "s2_author_id": "2386575",
+                        "name": "F. Sultan"
+                    },
+                    {
+                        "s2_author_id": "2345961",
+                        "name": "L. Iftode"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bc2c94fadb9f49d25a306dd2ec3ab62dc1488a60",
+                "title": "Nonintrusive Remote Healing Using Backdoors",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 13,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2386575",
+                        "name": "F. Sultan"
+                    },
+                    {
+                        "s2_author_id": "2869595",
+                        "name": "A. Bohra"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2345961",
+                        "name": "L. Iftode"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "16605f892fc1ac9bc67299c9419a08ae8616ebb4",
+                "title": "EasyChair Preprint No 1024 Dynamic Slicing for Android",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2006399",
+                        "name": "Tanzirul Azim"
+                    },
+                    {
+                        "s2_author_id": "6180123",
+                        "name": "Arash Alavi"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2110340773",
+                        "name": "Rajiv Gupta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab56ba45d0921b1126d460c864b7a5447fa0e92c",
+                "title": "System Support for Nonintrusive Failure Detection and Recovery Using Backdoors \u2217",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2386575",
+                        "name": "F. Sultan"
+                    },
+                    {
+                        "s2_author_id": "2869595",
+                        "name": "A. Bohra"
+                    },
+                    {
+                        "s2_author_id": "1885426",
+                        "name": "Pascal Gallard"
+                    },
+                    {
+                        "s2_author_id": "145722649",
+                        "name": "Iulian Neamtiu"
+                    },
+                    {
+                        "s2_author_id": "2702264",
+                        "name": "Stephen Smaldone"
+                    },
+                    {
+                        "s2_author_id": "2111415721",
+                        "name": "Yufei Pan"
+                    },
+                    {
+                        "s2_author_id": "2345961",
+                        "name": "L. Iftode"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2315982184",
+                "name": "Chun Jie Chong"
+            },
+            {
+                "s2_author_id": "2305174208",
+                "name": "Zhihao Yao"
+            },
+            {
+                "s2_author_id": "25113654",
+                "name": "Muyeed Ahmed"
+            },
+            {
+                "s2_author_id": "2323740422",
+                "name": "Alireza Ardalani"
+            },
+            {
+                "s2_author_id": "2323739552",
+                "name": "Joseph Antonucci"
+            },
+            {
+                "s2_author_id": "46470193",
+                "name": "Sydur Rahaman"
+            },
+            {
+                "s2_author_id": "51049214",
+                "name": "Raina Samuel"
+            },
+            {
+                "s2_author_id": "145112910",
+                "name": "Umar Farooq"
+            },
+            {
+                "s2_author_id": "47122839",
+                "name": "Zhijia Zhao"
+            },
+            {
+                "s2_author_id": "144395353",
+                "name": "J. Geller"
+            },
+            {
+                "s2_author_id": "36278004",
+                "name": "Zhiyong Shan"
+            },
+            {
+                "s2_author_id": "3134675",
+                "name": "Yousra Lembachar"
+            },
+            {
+                "s2_author_id": "2098448575",
+                "name": "Ryan Rusich"
+            },
+            {
+                "s2_author_id": "1725110",
+                "name": "Gianfranco Ciardo"
+            },
+            {
+                "s2_author_id": "2156717365",
+                "name": "Preethi Santhanam"
+            },
+            {
+                "s2_author_id": "143810251",
+                "name": "Hoang Dang"
+            },
+            {
+                "s2_author_id": "2116947577",
+                "name": "Xin Yin"
+            },
+            {
+                "s2_author_id": "34602042",
+                "name": "Manu Sridharan"
+            },
+            {
+                "s2_author_id": "1874063132",
+                "name": "Saketan Patil"
+            },
+            {
+                "s2_author_id": "2054883081",
+                "name": "Sean T. Andrews"
+            },
+            {
+                "s2_author_id": "1557533872",
+                "name": "Philipp Markert"
+            },
+            {
+                "s2_author_id": "3076315",
+                "name": "Adam J. Aviv"
+            },
+            {
+                "s2_author_id": "2118030207",
+                "name": "Yongjian Hu"
+            },
+            {
+                "s2_author_id": "1850512",
+                "name": "Oriana Riva"
+            },
+            {
+                "s2_author_id": "39496676",
+                "name": "Suman Nath"
+            },
+            {
+                "s2_author_id": "1784166",
+                "name": "Vincenzo Musco"
+            },
+            {
+                "s2_author_id": "2190158",
+                "name": "Usman Roshan"
+            },
+            {
+                "s2_author_id": "2006399",
+                "name": "Tanzirul Azim"
+            },
+            {
+                "s2_author_id": "6180123",
+                "name": "Arash Alavi"
+            },
+            {
+                "s2_author_id": "2110340773",
+                "name": "Rajiv Gupta"
+            },
+            {
+                "s2_author_id": "2118547488",
+                "name": "Priyam Patel"
+            },
+            {
+                "s2_author_id": "2055653562",
+                "name": "Gokul Srinivasan"
+            },
+            {
+                "s2_author_id": "145509576",
+                "name": "Albert Cohen"
+            },
+            {
+                "s2_author_id": "37914192",
+                "name": "Xipeng Shen"
+            },
+            {
+                "s2_author_id": "1695950",
+                "name": "J. Torrellas"
+            },
+            {
+                "s2_author_id": "143973921",
+                "name": "James Tuck"
+            },
+            {
+                "s2_author_id": "145850061",
+                "name": "Yuanyuan Zhou"
+            },
+            {
+                "s2_author_id": "3196444",
+                "name": "S. Adve"
+            },
+            {
+                "s2_author_id": "40600553",
+                "name": "Ismail Akturk"
+            },
+            {
+                "s2_author_id": "2068683420",
+                "name": "Saurabh Bagchi"
+            },
+            {
+                "s2_author_id": "1777422",
+                "name": "R. Balasubramonian"
+            },
+            {
+                "s2_author_id": "1721712",
+                "name": "R. Barik"
+            },
+            {
+                "s2_author_id": "144979187",
+                "name": "Micah Beck"
+            },
+            {
+                "s2_author_id": "1991345",
+                "name": "Rastislav Bod\u00edk"
+            },
+            {
+                "s2_author_id": "3287952",
+                "name": "A. Butt"
+            },
+            {
+                "s2_author_id": "1717411",
+                "name": "L. Ceze"
+            },
+            {
+                "s2_author_id": "2145225884",
+                "name": "Haibo Chen"
+            },
+            {
+                "s2_author_id": "2154549134",
+                "name": "Yiran Chen"
+            },
+            {
+                "s2_author_id": "3191220",
+                "name": "Trishul M. Chilimbi"
+            },
+            {
+                "s2_author_id": "8200989",
+                "name": "Mihai Christodorescu"
+            },
+            {
+                "s2_author_id": "144618669",
+                "name": "John Criswell"
+            },
+            {
+                "s2_author_id": "2064887998",
+                "name": "Chen Ding"
+            },
+            {
+                "s2_author_id": "1766680",
+                "name": "Yufei Ding"
+            },
+            {
+                "s2_author_id": "1727597",
+                "name": "S. Dwarkadas"
+            },
+            {
+                "s2_author_id": "1685517",
+                "name": "E. Elmroth"
+            },
+            {
+                "s2_author_id": "2061126489",
+                "name": "Phil Gibbons"
+            },
+            {
+                "s2_author_id": "1933285409",
+                "name": "Xiao Hua Guo"
+            },
+            {
+                "s2_author_id": "2110340674",
+                "name": "Rajesh K. Gupta"
+            },
+            {
+                "s2_author_id": "1743811",
+                "name": "Gernot Heiser"
+            },
+            {
+                "s2_author_id": "144287769",
+                "name": "H. Hoffman"
+            },
+            {
+                "s2_author_id": "49024818",
+                "name": "Jian Huang"
+            },
+            {
+                "s2_author_id": "2740772",
+                "name": "H. Hunter"
+            },
+            {
+                "s2_author_id": "2109221338",
+                "name": "John Kim"
+            },
+            {
+                "s2_author_id": "1800500",
+                "name": "Samuel T. King"
+            },
+            {
+                "s2_author_id": "1752633",
+                "name": "J. Larus"
+            },
+            {
+                "s2_author_id": "2108118938",
+                "name": "Chen Liu"
+            },
+            {
+                "s2_author_id": "144134981",
+                "name": "Shan Lu"
+            },
+            {
+                "s2_author_id": "145449750",
+                "name": "Brandon Lucia"
+            },
+            {
+                "s2_author_id": "144834015",
+                "name": "Saeed Maleki"
+            },
+            {
+                "s2_author_id": "34462159",
+                "name": "Somnath Mazumdar"
+            },
+            {
+                "s2_author_id": "1776186",
+                "name": "K. Pingali"
+            },
+            {
+                "s2_author_id": "2290186",
+                "name": "P. Rech"
+            },
+            {
+                "s2_author_id": "145330388",
+                "name": "M. Scott"
+            },
+            {
+                "s2_author_id": "1717365",
+                "name": "Yan Solihin"
+            },
+            {
+                "s2_author_id": "143711382",
+                "name": "D. Song"
+            },
+            {
+                "s2_author_id": "1719766",
+                "name": "Jakub Szefer"
+            },
+            {
+                "s2_author_id": "3188958",
+                "name": "Dan Tsafrir"
+            },
+            {
+                "s2_author_id": "1684443",
+                "name": "B. Urgaonkar"
+            },
+            {
+                "s2_author_id": "3517655",
+                "name": "M. Wolf"
+            },
+            {
+                "s2_author_id": "144825236",
+                "name": "Yuan Xie"
+            },
+            {
+                "s2_author_id": "2109858015",
+                "name": "Jishen Zhao"
+            },
+            {
+                "s2_author_id": "2284363090",
+                "name": "Lin Zhong"
+            },
+            {
+                "s2_author_id": "2167019728",
+                "name": "Yuhao Zhu"
+            },
+            {
+                "s2_author_id": "144312519",
+                "name": "Xuetao Wei"
+            },
+            {
+                "s2_author_id": "2771914",
+                "name": "M. Faloutsos"
+            },
+            {
+                "s2_author_id": "144645041",
+                "name": "L. Gomez"
+            },
+            {
+                "s2_author_id": "2882794",
+                "name": "Nicholas C. Valler"
+            },
+            {
+                "s2_author_id": "1764637",
+                "name": "H. Madhyastha"
+            },
+            {
+                "s2_author_id": "25855332",
+                "name": "Yunfeng Hong"
+            },
+            {
+                "s2_author_id": "2912487",
+                "name": "Chun-Ming Lai"
+            },
+            {
+                "s2_author_id": "1718534",
+                "name": "S. F. Wu"
+            },
+            {
+                "s2_author_id": "144061974",
+                "name": "P. Mcdaniel"
+            },
+            {
+                "s2_author_id": "98733587",
+                "name": "Paul L. Yu"
+            },
+            {
+                "s2_author_id": "144875287",
+                "name": "H. \u00c7am"
+            },
+            {
+                "s2_author_id": "1720429",
+                "name": "Gail-Joon Ahn"
+            },
+            {
+                "s2_author_id": "2520898",
+                "name": "Amlan Kusum"
+            },
+            {
+                "s2_author_id": "34986234",
+                "name": "Keval Vora"
+            },
+            {
+                "s2_author_id": "143806740",
+                "name": "Vineet Singh"
+            },
+            {
+                "s2_author_id": "3155647",
+                "name": "Mohammad Gharehyazie"
+            },
+            {
+                "s2_author_id": "2115370234",
+                "name": "Bo Zhou"
+            },
+            {
+                "s2_author_id": "1810515",
+                "name": "D. Henshel"
+            },
+            {
+                "s2_author_id": "145076251",
+                "name": "A. Alexeev"
+            },
+            {
+                "s2_author_id": "2047198",
+                "name": "M. Cains"
+            },
+            {
+                "s2_author_id": "144702965",
+                "name": "J. Rowe"
+            },
+            {
+                "s2_author_id": "49643049",
+                "name": "Blaine Hoffman"
+            },
+            {
+                "s2_author_id": "1794927",
+                "name": "Zhiyun Qian"
+            },
+            {
+                "s2_author_id": "1734166",
+                "name": "D. Torrieri"
+            },
+            {
+                "s2_author_id": "38390055",
+                "name": "Indrajeet Singh"
+            },
+            {
+                "s2_author_id": "38774813",
+                "name": "S. Krishnamurthy"
+            },
+            {
+                "s2_author_id": "1799217",
+                "name": "L. Marvel"
+            },
+            {
+                "s2_author_id": "2111099981",
+                "name": "Scott E. Brown"
+            },
+            {
+                "s2_author_id": "2584869",
+                "name": "Richard E. Harang"
+            },
+            {
+                "s2_author_id": "146497630",
+                "name": "David Harman"
+            },
+            {
+                "s2_author_id": "2190870",
+                "name": "B. Henz"
+            },
+            {
+                "s2_author_id": "2896346",
+                "name": "Sai Charan Koduru"
+            },
+            {
+                "s2_author_id": "33559727",
+                "name": "P. Bhattacharya"
+            },
+            {
+                "s2_author_id": "2300486345",
+                "name": "Yan Wang"
+            },
+            {
+                "s2_author_id": "144578495",
+                "name": "H. Patil"
+            },
+            {
+                "s2_author_id": "144276789",
+                "name": "C. Pereira"
+            },
+            {
+                "s2_author_id": "40584737",
+                "name": "G. Lueck"
+            },
+            {
+                "s2_author_id": "145971553",
+                "name": "T. Jaeger"
+            },
+            {
+                "s2_author_id": "145063891",
+                "name": "T. L. Porta"
+            },
+            {
+                "s2_author_id": "2367796356",
+                "name": "Nicolas Papernot"
+            },
+            {
+                "s2_author_id": "2329545",
+                "name": "R. Walls"
+            },
+            {
+                "s2_author_id": "144233778",
+                "name": "A. Kott"
+            },
+            {
+                "s2_author_id": "144231976",
+                "name": "A. Swami"
+            },
+            {
+                "s2_author_id": "144752813",
+                "name": "P. Mohapatra"
+            },
+            {
+                "s2_author_id": "3105241",
+                "name": "T. Millstein"
+            },
+            {
+                "s2_author_id": "2067622761",
+                "name": "Min Feng"
+            },
+            {
+                "s2_author_id": "2242149413",
+                "name": "B. Aditya Prakash"
+            },
+            {
+                "s2_author_id": "1702392",
+                "name": "C. Faloutsos"
+            },
+            {
+                "s2_author_id": "145560883",
+                "name": "J. Bardin"
+            },
+            {
+                "s2_author_id": "38409277",
+                "name": "R. Uddin"
+            },
+            {
+                "s2_author_id": "2779736",
+                "name": "Dien-Yen Lin"
+            },
+            {
+                "s2_author_id": "144214525",
+                "name": "B. Prakash"
+            },
+            {
+                "s2_author_id": "2270322704",
+                "name": "Virginia Tech"
+            },
+            {
+                "s2_author_id": "15499608",
+                "name": "Liudmila Ulanova"
+            },
+            {
+                "s2_author_id": "2341084601",
+                "name": "Karla Saur"
+            },
+            {
+                "s2_author_id": "1856932",
+                "name": "Marios Iliofotou"
+            },
+            {
+                "s2_author_id": "34893727",
+                "name": "Christopher M. Hayden"
+            },
+            {
+                "s2_author_id": "35064289",
+                "name": "Karla Saur"
+            },
+            {
+                "s2_author_id": "2257308918",
+                "name": "Christian R. Shelton"
+            },
+            {
+                "s2_author_id": "2408542215",
+                "name": "amela Bhattacharya"
+            },
+            {
+                "s2_author_id": "2374496",
+                "name": "R. Bazzi"
+            },
+            {
+                "s2_author_id": "145033236",
+                "name": "Bryan Topp"
+            },
+            {
+                "s2_author_id": "2288098695",
+                "name": "Augustin Chaintreau"
+            },
+            {
+                "s2_author_id": "2116564017",
+                "name": "Shengfeng Wu"
+            },
+            {
+                "s2_author_id": "3343194",
+                "name": "Tudor Dumitras"
+            },
+            {
+                "s2_author_id": "2147488",
+                "name": "Cuixiong Hu"
+            },
+            {
+                "s2_author_id": "153621195",
+                "name": "Steve D. Suh"
+            },
+            {
+                "s2_author_id": "1682441",
+                "name": "E. Tilevich"
+            },
+            {
+                "s2_author_id": "3564227",
+                "name": "C. Shelton"
+            },
+            {
+                "s2_author_id": "2052381553",
+                "name": "Guowu Xie"
+            },
+            {
+                "s2_author_id": "144626708",
+                "name": "Jianbo Chen"
+            },
+            {
+                "s2_author_id": "144578171",
+                "name": "M. Hicks"
+            },
+            {
+                "s2_author_id": "1775508",
+                "name": "J. Foster"
+            },
+            {
+                "s2_author_id": "2385564",
+                "name": "Polyvios Pratikakis"
+            },
+            {
+                "s2_author_id": "1687704",
+                "name": "Danny Dig"
+            },
+            {
+                "s2_author_id": "1702346",
+                "name": "M. Musuvathi"
+            },
+            {
+                "s2_author_id": "1686425",
+                "name": "S. Qadeer"
+            },
+            {
+                "s2_author_id": "144434028",
+                "name": "T. Ball"
+            },
+            {
+                "s2_author_id": "40486572",
+                "name": "G\u00e9rard Basler"
+            },
+            {
+                "s2_author_id": "3248390",
+                "name": "Piramanayagam Arumuga Nainar"
+            },
+            {
+                "s2_author_id": "2437918",
+                "name": "G. Stoyle"
+            },
+            {
+                "s2_author_id": "1724401",
+                "name": "G. Bierman"
+            },
+            {
+                "s2_author_id": "144490973",
+                "name": "Peter Sewell"
+            },
+            {
+                "s2_author_id": "2386575",
+                "name": "F. Sultan"
+            },
+            {
+                "s2_author_id": "2869595",
+                "name": "A. Bohra"
+            },
+            {
+                "s2_author_id": "2345961",
+                "name": "L. Iftode"
+            },
+            {
+                "s2_author_id": "144758742",
+                "name": "M. Oriol"
+            },
+            {
+                "s2_author_id": "2702264",
+                "name": "Stephen Smaldone"
+            },
+            {
+                "s2_author_id": "2111415721",
+                "name": "Yufei Pan"
+            },
+            {
+                "s2_author_id": "1885426",
+                "name": "Pascal Gallard"
+            }
+        ],
+        "total_co_authors": 173,
+        "papers_retrieved": 129
+    }
+}

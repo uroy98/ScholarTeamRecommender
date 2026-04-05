@@ -1,0 +1,4030 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000486399",
+        "name": "Roman O Grigoriev",
+        "primary_affiliation": "Georgia Tech Research Corporation",
+        "primary_department": null,
+        "all_affiliations": [
+            "Georgia Tech Research Corporation"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "GA"
+        ],
+        "perf_cities": [
+            "ATLANTA"
+        ],
+        "org_names": [
+            "Georgia Tech Research Corporation"
+        ],
+        "org_ueis": [
+            "EMW9FC8J3HN4"
+        ],
+        "inst_types": [
+            "industry"
+        ],
+        "emails": [
+            "roman.grigoriev@physics.gatech.edu"
+        ],
+        "roles": [
+            "Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2450667",
+                "title": "CDS&E: Data-driven, physics-informed modeling of multiscale phenomena",
+                "type": "Standard Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-07-01",
+                "exp_date": "2028-06-30",
+                "award_amount": 630763.0,
+                "total_amount": 630763.0,
+                "is_collaborative": false,
+                "co_pi_ids": [
+                    "000402318"
+                ],
+                "program_elements": [
+                    "FD-Fluid Dynamics"
+                ],
+                "program_codes": [
+                    "144300"
+                ],
+                "program_references": [
+                    "CDS&E"
+                ],
+                "program_ref_codes": [
+                    "8084"
+                ],
+                "dir_abbr": "ENG",
+                "div_abbr": "CBET",
+                "nsf_directorate": null,
+                "fund_division": "Division of Chemical, Bioengineering, Environmental, and Transport Systems",
+                "cfda_num": "47.041",
+                "po_name": "Ron Joslin",
+                "keywords": [
+                    "modeling",
+                    "multiscale",
+                    "phenomena",
+                    "models",
+                    "applications",
+                    "grid",
+                    "scales",
+                    "physics",
+                    "dynamics",
+                    "simulations"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000402318"
+        ],
+        "program_elements": [
+            "FD-Fluid Dynamics"
+        ],
+        "program_codes": [
+            "144300"
+        ],
+        "program_references": [
+            "CDS&E"
+        ],
+        "program_ref_codes": [
+            "8084"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "ENG"
+        ],
+        "div_abbrs": [
+            "CBET"
+        ],
+        "fund_divisions": [
+            "Division of Chemical, Bioengineering, Environmental, and Transport Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.041"
+        ],
+        "program_officers": [
+            "Ron Joslin"
+        ],
+        "keywords": [
+            "modeling",
+            "multiscale",
+            "phenomena",
+            "models",
+            "applications",
+            "grid",
+            "scales",
+            "physics",
+            "dynamics",
+            "simulations",
+            "equations",
+            "systematic",
+            "learning",
+            "fluid",
+            "accurate",
+            "design",
+            "numerous",
+            "relevant",
+            "points",
+            "form"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.63
+    },
+    "s2_profile": {
+        "s2_author_id": "5535462",
+        "name": "Roman O Grigoriev",
+        "affiliations": [],
+        "paper_count": 149,
+        "citation_count": 1971,
+        "h_index": 25,
+        "papers": [
+            {
+                "s2_paper_id": "7b7d07d76106b3806a99783c7c8780eb802204dd",
+                "title": "Physics-informed data-driven inference of an interpretable equivariant LES model of incompressible fluid turbulence",
+                "year": 2026,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 48,
+                "abstract": "Restrictive phenomenological assumptions represent a major roadblock for the development of accurate subgrid-scale models of fluid turbulence. Specifically, these assumptions limit a model's ability to describe key quantities of interest, such as local fluxes of energy and enstrophy, in the presence of diverse coherent structures. This paper introduces a symbolic data-driven subgrid-scale model that requires no phenomenological assumptions and has no adjustable parameters, yet it outperforms leading LES models. A combination of a priori and a posteriori benchmarks shows that the model produces accurate predictions of various quantities including local fluxes across a broad range of two-dimensional turbulent flows. While the model is inferred using LES-style spatial coarse-graining, its structure is more similar to RANS models, as it employs an additional field to describe subgrid scales. We find that this field must have a rank-two tensor structure in order to correctly represent both the components of the subgrid-scale stress tensor and the various fluxes.",
+                "authors": [
+                    {
+                        "s2_author_id": "2392264266",
+                        "name": "Matteo Ugliotti"
+                    },
+                    {
+                        "s2_author_id": null,
+                        "name": "Brandon Choi"
+                    },
+                    {
+                        "s2_author_id": "2135016903",
+                        "name": "Mateo Reynoso"
+                    },
+                    {
+                        "s2_author_id": "15373618",
+                        "name": "Daniel R. Gurevich"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5b76d0d9628e799187a900ffb837857f83ed4967",
+                "title": "Data-driven discovery of the equations of turbulent convection",
+                "year": 2025,
+                "venue": "Geophysical &amp; Astrophysical Fluid Dynamics",
+                "citation_count": 1,
+                "reference_count": 37,
+                "abstract": "We compare the efficiency and ease-of-use of the Sparse Identification of Nonlinear Dynamics (SINDy) algorithm and Sparse Physics-Informed Discovery of Empirical Relations (SPIDER) framework in recovering the relevant governing equations and boundary conditions from data generated by direct numerical simulations (DNS) of turbulent convective flows. In the former case, a weak-form implementation pySINDy is used. Time-dependent data for two- (2D) and three-dimensional (3D) DNS simulation of Rayleigh-B\u00e9nard convection and convective plane Couette flow is generated using the Dedalus PDE framework for spectrally solving differential equations. Using pySINDy we are able to recover the governing equations of 2D models of Rayleigh-B\u00e9nard convection at Rayleigh numbers, R, from laminar, through transitional to moderately turbulent flow conditions, albeit with increasing difficulty with larger Rayleigh number, especially in recovery of the diffusive terms (with coefficient magnitude proportional to $ \\sqrt {1/R} $ 1/R). SPIDER requires a much smaller library of terms and we are able to recover more easily the governing equations for a wider range of R in 2D and 3D convection and plane flow models and go on to recover constraints (the incompressibility condition) and boundary conditions, demonstrating the benefits and capabilities of SPIDER to go beyond pySINDy for these fluid problems governed by second-order PDEs. At the highest values of R, discrepancies appear between the governing equations that are solved and those that are discovered by SPIDER. We find that this is likely associated with limited resolution of DNS, demonstrating the potential of machine-learning methods to validate numerical solvers and solutions for such flow problems. We also find that properties of the flow, specifically the correlation time and spatial scales, should inform the initial selection of spatiotemporal subdomain sizes for both pySINDy and SPIDER. Adopting this default position has the potential to reduce trial and error in selection of data parameters, saving considerable time and effort and allowing the end user of these or similar methods to focus on the importance of setting the power of the integrating polynomial in these weak-form methods and the tolerance of the optimiser technique selected.",
+                "authors": [
+                    {
+                        "s2_author_id": "6575056",
+                        "name": "C. Wareing"
+                    },
+                    {
+                        "s2_author_id": "2361666908",
+                        "name": "Alasdair T. Roy"
+                    },
+                    {
+                        "s2_author_id": "2294568248",
+                        "name": "Matthew Golden"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "2317113277",
+                        "name": "S. Tobias"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "906530433fec5fd32e2f303295ae1172b4151af1",
+                "title": "Data-driven modeling of multiscale phenomena with applications to fluid turbulence",
+                "year": 2025,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 33,
+                "abstract": "This letter introduces a novel data driven framework for constructing accurate and general equivariant models of multiscale phenomena which does not rely on specific assumptions about the underlying physics. This framework is illustrated using incompressible fluid turbulence as an example that is representative, practically important, reasonably simple, and exceedingly well studied. We use direct numerical simulations of freely decaying turbulence in two spatial dimensions to infer an effective field theory comprising explicit, interpretable evolution equations for both the large (resolved) and small (modeled) scales. The resulting closed system of equations is capable of accurately describing the effect of small scales, including backscatter -- the flow of energy from small to large scales, which is particularly pronounced in two dimensions -- which is an outstanding challenge that, to our knowledge, no existing alternative successfully tackles.",
+                "authors": [
+                    {
+                        "s2_author_id": "2392629225",
+                        "name": "Brandon Choi"
+                    },
+                    {
+                        "s2_author_id": "2392264266",
+                        "name": "Matteo Ugliotti"
+                    },
+                    {
+                        "s2_author_id": "2135016903",
+                        "name": "Mateo Reynoso"
+                    },
+                    {
+                        "s2_author_id": "15373618",
+                        "name": "Daniel R. Gurevich"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f8844c3b0f4375be7c34cd9a03ad1383e3e553a1",
+                "title": "Ultra-low-energy defibrillation through adjoint optimization.",
+                "year": 2024,
+                "venue": "Chaos",
+                "citation_count": 3,
+                "reference_count": 47,
+                "abstract": "This study investigates ultra-low-energy defibrillation protocols using a simple two-dimensional model of cardiac tissue. We find that, rather counter-intuitively, a single, properly timed, biphasic pulse can be more effective in defibrillating the tissue than low energy antitachycardia pacing (LEAP), which employs a sequence of such pulses, succeeding where the latter approach fails. Furthermore, we show that, with the help of adjoint optimization, it is possible to reduce the energy required for defibrillation even further, making it three orders of magnitude lower than that required by LEAP. Finally, we establish that this dramatic reduction is achieved through exploiting the sensitivity of the dynamics in vulnerable windows to promote the annihilation of pairs of nearby phase singularities.",
+                "authors": [
+                    {
+                        "s2_author_id": "32750714",
+                        "name": "Alejandro Garz\u00f3n"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "696e1ec108ea6ab3c8631d5a854cc3cf0f572bdf",
+                "title": "Computing chaotic time-averages from few periodic or non-periodic orbits.",
+                "year": 2023,
+                "venue": "Chaos",
+                "citation_count": 3,
+                "reference_count": 49,
+                "abstract": "For appropriately chosen weights, temporal averages in chaotic systems can be approximated as a weighted sum of averages over reference states, such as unstable periodic orbits. Under strict assumptions, such as completeness of the orbit library, these weights can be formally derived using periodic orbit theory. When these assumptions are violated, weights can be obtained empirically using a Markov partition of the chaotic set. Here, we describe an alternative, data-driven approach to computing weights that allows for an accurate approximation of temporal averages from a variety of reference states, including both periodic orbits and non-periodic trajectory segments embedded within the chaotic set. For a broad class of observables, we demonstrate that the resulting reduced-order statistical description significantly outperforms those based on periodic orbit theory or Markov models, achieving superior accuracy while requiring far fewer reference states-two critical properties for applications to high-dimensional chaotic systems.",
+                "authors": [
+                    {
+                        "s2_author_id": "1423229156",
+                        "name": "Joshua L. Pughe-Sanford"
+                    },
+                    {
+                        "s2_author_id": "4429954",
+                        "name": "Samuel Quinn"
+                    },
+                    {
+                        "s2_author_id": "2223970543",
+                        "name": "Teodor Balabanski"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c6cac1ee6d9cdcb6fab022bfa929fa08a869bbb4",
+                "title": "Self-similarity and the direct (enstrophy) cascade in forced two-dimensional fluid turbulence",
+                "year": 2023,
+                "venue": "Journal of Fluid Mechanics",
+                "citation_count": 2,
+                "reference_count": 47,
+                "abstract": "Abstract In the absence of large-scale coherent structures, a widely used statistical theory of two-dimensional turbulence developed by Kraichnan, Leith, and Batchelor (KLB) predicts a power-law scaling for the energy, $E(k)\\propto k^\\alpha$ with an integral exponent $\\alpha ={-3}$, in the inertial range associated with the direct cascade. A power-law scaling is also observed in the presence of coherent structures, but the scaling exponent becomes fractal and often differs substantially from the value predicted by the KLB theory. Here we present a dynamical theory that sheds new light on the relationship between the spatial and temporal structure of the large-scale flow and the scaling of small-scale structures representing filamentary vorticity. Specifically, we find hyperbolic regions of the large-scale flow to play a key role in the flux of enstrophy between scales. Small-scale vorticity in these regions can be described by dynamically self-similar solutions of the Euler equation, which explains the power-law scaling. Furthermore, we find that correlations between different hyperbolic regions are responsible for the emergence of fractal scaling exponents.",
+                "authors": [
+                    {
+                        "s2_author_id": "2135016903",
+                        "name": "Mateo Reynoso"
+                    },
+                    {
+                        "s2_author_id": "31050215",
+                        "name": "D. Zhigunov"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0d18ea5e7a3644d17a6b4826e92c18959ee4687f",
+                "title": "Observing a dynamical skeleton of turbulence in Taylor\u2013Couette flow experiments",
+                "year": 2022,
+                "venue": "Philosophical Transactions of the Royal Society A",
+                "citation_count": 8,
+                "reference_count": 58,
+                "abstract": "Recent work shows that recurrent solutions of the equations governing fluid flow play an important role in structuring the dynamics of turbulence. Here, an improved version of an earlier method (Krygier et al. 2021 J. Fluid. Mech. 923, A7 and Crowley et al. 2022 Proc. Natl Acad. Sci. USA 119, e2120665119) is used for detecting and analyzing intervals of time when turbulence \u2018shadows\u2019 (spatially and temporally mimics) recurrent solutions in both numerical simulations and laboratory experiments. We find that all the recurrent solutions shadowed in numerics are also shadowed in experiment, and the corresponding statistics of shadowing agree. Our results set the stage for experimentally grounded dynamical descriptions of turbulence in a variety of wall-bounded shear flows, enabling applications to forecasting and control. This article is part of the theme issue \u2018Taylor\u2013Couette and related flows on the centennial of Taylor\u2019s seminal Philosophical Transactions paper (part 1)\u2019.",
+                "authors": [
+                    {
+                        "s2_author_id": "29637689",
+                        "name": "C. Crowley"
+                    },
+                    {
+                        "s2_author_id": "1423229156",
+                        "name": "Joshua L. Pughe-Sanford"
+                    },
+                    {
+                        "s2_author_id": "2182137482",
+                        "name": "Wesley Toler"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6533e4e5f864a035dede84e7edd3ba40d826f0e3",
+                "title": "Physically informed data-driven modeling of active nematics",
+                "year": 2022,
+                "venue": "Science Advances",
+                "citation_count": 36,
+                "reference_count": 62,
+                "abstract": "A continuum description is essential for understanding a variety of collective phenomena in active matter. However, building quantitative continuum models of active matter from first principles can be extremely challenging due to both the gaps in our knowledge and the complicated structure of nonlinear interactions. Here, we use a physically informed data-driven approach to construct a complete mathematical model of an active nematic from experimental data describing kinesin-driven microtubule bundles confined to an oil-water interface. We find that the structure of the model is similar to the Leslie-Ericksen and Beris-Edwards models, but there are appreciable and important differences. Rather unexpectedly, elastic effects are found to play no role in the experiments considered, with the dynamics controlled entirely by the balance between active stresses and friction stresses.",
+                "authors": [
+                    {
+                        "s2_author_id": "1580578663",
+                        "name": "Matthew Golden"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1473098736",
+                        "name": "J. Nambisan"
+                    },
+                    {
+                        "s2_author_id": "1389092406",
+                        "name": "A. Fern\u00e1ndez-Nieves"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d301a9b4f568051812eabe8112e7f1f3092aecd2",
+                "title": "Exact coherent structures in fully developed two-dimensional turbulence",
+                "year": 2022,
+                "venue": "Journal of Fluid Mechanics",
+                "citation_count": 9,
+                "reference_count": 73,
+                "abstract": "Abstract This paper reports several new classes of unstable recurrent solutions of the two-dimensional Euler equation on a square domain with periodic boundary conditions. These solutions are in many ways analogous to recurrent solutions of the Navier\u2013Stokes equation which are often referred to as exact coherent structures. In particular, we find that recurrent solutions of the Euler equation are dynamically relevant: they faithfully reproduce large-scale flows in simulations of turbulence at very high Reynolds numbers. On the other hand, these solutions have a number of properties which distinguish them from their Navier\u2013Stokes counterparts. First of all, recurrent solutions of the Euler equation come in infinite-dimensional continuous families. Second, solutions of different types are connected, e.g. an equilibrium can be smoothly continued to a travelling wave or a time-periodic state. Third, and most important, they are only weakly unstable and, as a result, fully developed turbulence mimics some of these solutions remarkably frequently and over unexpectedly long temporal intervals.",
+                "authors": [
+                    {
+                        "s2_author_id": "31050215",
+                        "name": "D. Zhigunov"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "db2016aa2f57730048fcdf9f47489206f1e55e6c",
+                "title": "Turbulence tracks recurrent solutions",
+                "year": 2022,
+                "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+                "citation_count": 30,
+                "reference_count": 57,
+                "abstract": "Significance Nearly all fluid flows are turbulent, exhibiting diverse spatial and temporal structures. Turbulence is chaotic, where small external disturbances can lead to remarkably different behavior as time evolves. Despite these properties, turbulence can exhibit flow patterns that persist for substantial durations of time, known as coherent structures. Here, we develop a method for detecting when turbulence resembles these coherent flow structures. Using this method, we conclusively show that the organization of turbulence in both space and time is well captured by these structures. These results lay the foundation for representing turbulence in terms of coherent structures and leveraging their persistence in time to overcome the devastating effects of chaos on our ability to predict, control, and engineer fluid flows.",
+                "authors": [
+                    {
+                        "s2_author_id": "29637689",
+                        "name": "C. Crowley"
+                    },
+                    {
+                        "s2_author_id": "1423229156",
+                        "name": "Joshua L. Pughe-Sanford"
+                    },
+                    {
+                        "s2_author_id": "2182137482",
+                        "name": "Wesley Toler"
+                    },
+                    {
+                        "s2_author_id": "7846946",
+                        "name": "M. Krygier"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "60d0d998fa038182b3b69a57adb9b2f82d40589c",
+                "title": "Robust learning from noisy, incomplete, high-dimensional experimental data via physically constrained symbolic regression",
+                "year": 2021,
+                "venue": "Nature Communications",
+                "citation_count": 128,
+                "reference_count": 34,
+                "abstract": "Machine learning offers an intriguing alternative to first-principle analysis for discovering new physics from experimental data. However, to date, purely data-driven methods have only proven successful in uncovering physical laws describing simple, low-dimensional systems with low levels of noise. Here we demonstrate that combining a data-driven methodology with some general physical principles enables discovery of a quantitatively accurate model of a non-equilibrium spatially extended system from high-dimensional data that is both noisy and incomplete. We illustrate this using an experimental weakly turbulent fluid flow where only the velocity field is accessible. We also show that this hybrid approach allows reconstruction of the inaccessible variables \u2013 the pressure and forcing field driving the flow. Reinbold et al. propose a physics-informed data-driven approach that successfully discovers a dynamical model using high-dimensional, noisy and incomplete experimental data describing a weakly turbulent fluid flow. This approach is relevant to other non-equilibrium spatially-extended systems.",
+                "authors": [
+                    {
+                        "s2_author_id": "95929266",
+                        "name": "Patrick A. K. Reinbold"
+                    },
+                    {
+                        "s2_author_id": "104492681",
+                        "name": "Logan Kageorge"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8418f438396cfadbb98ce179ed7ae3b8105ad982",
+                "title": "Data-driven detection of drifting system parameters",
+                "year": 2021,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 44,
+                "abstract": "Data taken from observations of the natural world or laboratory measurements often depend on parameters which can vary in unexpected ways. In this paper we demonstrate how machine learning can be leveraged to detect changes in global parameters from variations in an identified model using only observational data. This capability, when paired with first principles analysis, can effectively distinguish the effects of these changing parameters from the intrinsic complexity of the system. Here we illustrate this by identifying a set of governing equations for an experiment generating a weakly turbulent fluid flow, then analyzing variation in the coefficients of these equations to unravel the drift in its physical parameters.",
+                "authors": [
+                    {
+                        "s2_author_id": "104492681",
+                        "name": "Logan Kageorge"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f7e66d1acc626f635624d915537e7503eabb5ab",
+                "title": "Learning fluid physics from highly turbulent data using sparse physics-informed discovery of empirical relations (SPIDER)",
+                "year": 2021,
+                "venue": "Journal of Fluid Mechanics",
+                "citation_count": 22,
+                "reference_count": 39,
+                "abstract": "Abstract We show how a complete mathematical model of a physical process can be learned directly from data via a hybrid approach combining three simple and general ingredients: physical assumptions of smoothness, locality and symmetry, a weak formulation of differential equations and sparse regression. To illustrate this, we extract a complete system of governing equations of fluid dynamics \u2013 the Navier\u2013Stokes equation, the continuity equation and the boundary conditions \u2013 as well as the pressure-Poisson and energy equations, from numerical data describing a highly turbulent channel flow in three dimensions. Whether they represent known or unknown physics, relations discovered using this approach take the familiar form of partial differential equations, which are easily interpretable and readily provide information about the relative importance of different physical effects. The proposed approach offers insight into the quality of the data, serving as a useful diagnostic tool. It is also remarkably robust, yielding accurate results for very high noise levels, and should thus be well suited for analysis of experimental data.",
+                "authors": [
+                    {
+                        "s2_author_id": "15373618",
+                        "name": "Daniel R. Gurevich"
+                    },
+                    {
+                        "s2_author_id": "2294568248",
+                        "name": "Matthew Golden"
+                    },
+                    {
+                        "s2_author_id": "95929266",
+                        "name": "Patrick A. K. Reinbold"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9905b39019ce9022a4a4ab87e3ebb65b38008c2d",
+                "title": "Exact coherent structures and shadowing in turbulent Taylor\u2013Couette flow",
+                "year": 2021,
+                "venue": "Journal of Fluid Mechanics",
+                "citation_count": 25,
+                "reference_count": 77,
+                "abstract": "Abstract We investigate a theoretical framework for modelling fluid turbulence based on the formalism of exact coherent structures (ECSs). Although highly promising, existing evidence for the role of ECSs in turbulent flows is largely circumstantial and comes primarily from idealized numerical simulations. In particular, it remains unclear whether three-dimensional turbulent flows in experiment shadow any ECSs. In order to conclusively answer this question, a hierarchy of ECSs should be computed on a domain and with boundary conditions exactly matching experiment. The present study makes the first step in this direction by investigating a small-aspect-ratio Taylor\u2013Couette flow with naturally periodic boundary conditions in the azimuthal direction. We describe the structure of the chaotic set underlying turbulent flow driven by counter-rotating cylinders and present direct numerical evidence for shadowing of a collection of unstable relative periodic orbits and a travelling wave, setting the stage for further experimental tests of the framework.",
+                "authors": [
+                    {
+                        "s2_author_id": "7846946",
+                        "name": "M. Krygier"
+                    },
+                    {
+                        "s2_author_id": "1423229156",
+                        "name": "Joshua L. Pughe-Sanford"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "07ea318e51c227760ad68c690bbd245ed3c9298c",
+                "title": "The effect of gas-phase transport on Marangoni convection in volatile binary fluids driven by a horizontal temperature gradient",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 37,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "59e82a1234c7706cf648bb95d86afb03e9759046",
+                "title": "Free-surface flow of confined volatile simple fluids driven by a horizontal temperature gradient: From a comprehensive numerical model to a simplified analytical description",
+                "year": 2020,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "aa2837efdb8a9490a5207d451a7552c8de24e588",
+                "title": "Capturing Turbulent Dynamics and Statistics in Experiments with Unstable Periodic Orbits.",
+                "year": 2020,
+                "venue": "Physical Review Letters",
+                "citation_count": 34,
+                "reference_count": 49,
+                "abstract": "In laboratory studies and numerical simulations, we observe clear signatures of unstable time-periodic solutions in a moderately turbulent quasi-two-dimensional flow. We validate the dynamical relevance of such solutions by demonstrating that turbulent flows in both experiment and numerics transiently display time-periodic dynamics when they shadow unstable periodic orbits (UPOs). We show that UPOs we computed are also statistically significant, with turbulent flows spending a sizable fraction of the total time near these solutions. As a result, the average rates of energy input and dissipation for the turbulent flow and frequently visited UPOs differ only by a few percent.",
+                "authors": [
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "104492681",
+                        "name": "Logan Kageorge"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "075227972d001d54d092835d3dd1604184201b6d",
+                "title": "Unstable Periodic Orbits in Experimental Kolmogorov-Like Flow",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "104492681",
+                        "name": "Logan Kageorge"
+                    },
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3154297b90fbd84549a15aede4907b9f1ce30143",
+                "title": "Energy cascades and the asymmetric motion of coherent structures",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50380085",
+                        "name": "D. H. Kelley"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "96433876",
+                        "name": "G. Horstmann"
+                    },
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "7261855",
+                        "name": "H. Aluie"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3487fdc344135632e53ed37d8c5131fcf05ed820",
+                "title": "Data-driven discovery of partial differential equation models with latent variables",
+                "year": 2019,
+                "venue": "Physical Review E",
+                "citation_count": 26,
+                "reference_count": 21,
+                "abstract": "In spatially extended systems, it is common to find latent variables that are hard, or even impossible, to measure with acceptable precision but are crucially important for the proper description of the dynamics. This substantially complicates construction of an accurate model for such systems using data-driven approaches. The present paper illustrates how physical constraints can be employed to overcome this limitation using the example of a weakly turbulent quasi-two-dimensional Kolmogorov flow driven by a steady Lorenz force with an unknown spatial profile. Specifically, the terms involving latent variables in the partial differential equations governing the dynamics can be eliminated at the expense of raising the order of that equation. We show that local polynomial interpolation combined with sparse regression can handle data on spatiotemporal grids that are representative of typical experimental measurement techniques such as particle image velocimetry. However, we also find that the reconstructed model is sensitive to measurement noise and trace this sensitivity to the presence of high-order spatial and/or temporal derivatives.",
+                "authors": [
+                    {
+                        "s2_author_id": "95929266",
+                        "name": "Patrick A. K. Reinbold"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "61d28a3bb0a58927f8bc72d3ca9057cec1e753e2",
+                "title": "Heteroclinic and homoclinic connections in a Kolmogorov-like flow.",
+                "year": 2019,
+                "venue": "Physical Review E",
+                "citation_count": 13,
+                "reference_count": 79,
+                "abstract": "Recent studies suggest that unstable recurrent solutions of the Navier-Stokes equation provide new insights into dynamics of turbulent flows. In this study, we compute an extensive network of dynamical connections between such solutions in a weakly turbulent quasi-two-dimensional Kolmogorov flow that lies in the inversion-symmetric subspace. In particular, we find numerous isolated heteroclinic connections between different types of solutions-equilibria, periodic, and quasiperiodic orbits-as well as continua of connections forming higher-dimensional connecting manifolds. We also compute a homoclinic connection of a periodic orbit and provide strong evidence that the associated homoclinic tangle forms the chaotic repeller that underpins transient turbulence in the symmetric subspace.",
+                "authors": [
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "102791410",
+                        "name": "Ravi Kumar Pallantla"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8c156d7dec3ac901a7fcc1ae8f47a2038df38158",
+                "title": "Robust and optimal sparse regression for nonlinear PDE models.",
+                "year": 2019,
+                "venue": "Chaos",
+                "citation_count": 66,
+                "reference_count": 21,
+                "abstract": "This paper investigates how models of spatiotemporal dynamics in the form of nonlinear partial differential equations can be identified directly from noisy data using a combination of sparse regression and weak formulation. Using the 4th-order Kuramoto-Sivashinsky equation for illustration, we show how this approach can be optimized in the limits of low and high noise, achieving accuracy that is orders of magnitude better than what existing techniques allow. In particular, we derive the scaling relation between the accuracy of the model, the parameters of the weak formulation, and the properties of the data, such as its spatial and temporal resolution and the level of noise.",
+                "authors": [
+                    {
+                        "s2_author_id": "15373618",
+                        "name": "Daniel R. Gurevich"
+                    },
+                    {
+                        "s2_author_id": "95929266",
+                        "name": "Patrick A. K. Reinbold"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "96b75ab6c2576f4d48d2d6c935b798dfe0041737",
+                "title": "Heteroclinic Connections as Predictors of Extreme Events in Weakly Turbulent Flow",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1753223356",
+                        "name": "J. Sanford"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "96fd2929f6aaec3d1b729ced51c7ed4b6de0d8bc",
+                "title": "Using noisy or incomplete data to discover models of spatiotemporal dynamics.",
+                "year": 2019,
+                "venue": "Physical Review E",
+                "citation_count": 113,
+                "reference_count": 29,
+                "abstract": "Sparse regression has recently emerged as an attractive approach for discovering models of spatiotemporally complex dynamics directly from data. In many instances, such models are in the form of nonlinear partial differential equations (PDEs); hence sparse regression typically requires the evaluation of various partial derivatives. However, accurate evaluation of derivatives, especially of high order, is infeasible when the data are noisy, which has a dramatic negative effect on the result of regression. We present an alternative and rather general approach that addresses this difficulty by using a weak formulation of the problem. For instance, it allows accurate reconstruction of PDEs involving high-order derivatives, such as the Kuramoto-Sivashinsky equation, from data with a considerable amount of noise. The flexibility of our approach also allows reconstruction of PDE models that involve latent variables which cannot be measured directly with acceptable accuracy. This is illustrated by reconstructing a model for a weakly turbulent flow in a thin fluid layer, where neither the forcing nor the pressure field is known.",
+                "authors": [
+                    {
+                        "s2_author_id": "95929266",
+                        "name": "Patrick A. K. Reinbold"
+                    },
+                    {
+                        "s2_author_id": "15373618",
+                        "name": "Daniel R. Gurevich"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c85fb3311309b3f4a8ed71dc76a18bc1825afab1",
+                "title": "Analytical solution for filmwise condensation in confined high-aspect ratio geometry",
+                "year": 2019,
+                "venue": "International Journal of Heat and Mass Transfer",
+                "citation_count": 4,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108771455",
+                        "name": "Jia Liu"
+                    },
+                    {
+                        "s2_author_id": "2142651793",
+                        "name": "Jia Liu"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c9e6d4d305e86a83efb59d0a3013a4b79a63a2dd",
+                "title": "A novel subcritical transition to turbulence in Taylor\u2013Couette flow with counter-rotating cylinders",
+                "year": 2019,
+                "venue": "Journal of Fluid Mechanics",
+                "citation_count": 11,
+                "reference_count": 81,
+                "abstract": "The transition to turbulence in Taylor\u2013Couette flow often occurs via a sequence of supercritical bifurcations to progressively more complex, yet stable, flows. We describe a subcritical laminar\u2013turbulent transition in the counter-rotating regime mediated by a transient intermediate state in a system with an axial aspect ratio of $\\unicode[STIX]{x1D6E4}=5.26$ and a radius ratio of $\\unicode[STIX]{x1D702}=0.905$. In this regime, flow visualization experiments and numerical simulations indicate the intermediate state corresponds to an aperiodic flow featuring interpenetrating spirals. Furthermore, the reverse transition out of turbulence leads first to the same intermediate state, which is now stable, before returning to an azimuthally symmetric laminar flow. Time-resolved tomographic particle image velocimetry is used to characterize the experimental flows; these measurements compare favourably to direct numerical simulations with axial boundary conditions matching those of the experiments.",
+                "authors": [
+                    {
+                        "s2_author_id": "29637689",
+                        "name": "C. Crowley"
+                    },
+                    {
+                        "s2_author_id": "7846946",
+                        "name": "M. Krygier"
+                    },
+                    {
+                        "s2_author_id": "1399191783",
+                        "name": "D. Borrero-Echeverry"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e1d22fefd01866a2c7c566ede29b30a7ee9dfa90",
+                "title": "Experimental Study of Roll-Hydrothermal Wave Coexistence in Convection Driven by Buoyancy and Thermocapillarity",
+                "year": 2019,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    },
+                    {
+                        "s2_author_id": "74600543",
+                        "name": "Brett Tregoning"
+                    },
+                    {
+                        "s2_author_id": "145258373",
+                        "name": "Joshua Barnett"
+                    },
+                    {
+                        "s2_author_id": "49138117",
+                        "name": "M. Yoda"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "04958e13bff7f393a530cfdbb29e1f072ae9dd02",
+                "title": "The effect of gas-phase transport on buoyancy-Marangoni convection in confined volatile binary fluids",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "242a2d0165010dd47a1d83516d805894124bd080",
+                "title": "Analytical solution for filmwise condensation in the presence of noncondensables",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2108771455",
+                        "name": "Jia Liu"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3fbb107bbba2dbcf8b20a9ddb5e505a22a2c0071",
+                "title": "A pr 2 00 7 Modal Extraction in Spatially Extended Systems",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5913991",
+                        "name": "K. Krishan"
+                    },
+                    {
+                        "s2_author_id": "1729074",
+                        "name": "A. Handel"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "557e162df28fde966b671a1f78bcf5a57ce0700b",
+                "title": "Robust approach for rotor mapping in cardiac tissue.",
+                "year": 2018,
+                "venue": "Chaos",
+                "citation_count": 14,
+                "reference_count": 49,
+                "abstract": "The motion of and interaction between phase singularities that lie at the centers of spiral waves capture many qualitative and, in some cases, quantitative features of complex dynamics in excitable systems. Being able to accurately reconstruct their position is thus quite important, even if the data are noisy and sparse, as in electrophysiology studies of cardiac arrhythmias, for instance. A recently proposed global topological approach [Marcotte and Grigoriev, Chaos 27, 093936 (2017)] promises to meaningfully improve the quality of the reconstruction compared with traditional, local approaches. Indeed, we found that this approach is capable of handling noise levels exceeding the range of the signal with minimal loss of accuracy. Moreover, it also works successfully with data sampled on sparse grids with spacing comparable to the mean separation between the phase singularities for complex patterns featuring multiple interacting spiral waves.",
+                "authors": [
+                    {
+                        "s2_author_id": "15373618",
+                        "name": "Daniel R. Gurevich"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "75013fbf06d5b80cae46c71659150a7837c0fa61",
+                "title": "Dynamical connections between Exact Coherent Structures in Kolmogorov flow",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "104492681",
+                        "name": "Logan Kageorge"
+                    },
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "102791410",
+                        "name": "Ravi Kumar Pallantla"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "83de3a60b63387af03355cab65545d2bdd7471ea",
+                "title": "Optical properties of phosphate glass with CdSe quantum dots in terahertz frequency range",
+                "year": 2018,
+                "venue": "Journal of Physics: Conference Series",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": "Optical properties and spectral characteristics of phosphate glasses with CdSe QDs were studied using time-domain terahertz spectroscopy in transmission mode in the frequency range of 0.2 - 1.0 THz. Concentration and size of QDs were varied by changing heat treatment conditions of initial glass samples containing components of the semiconductor phase. The change of refractive index and absorption coefficient at the high frequency edge of the investigated range at variation of secondary processing parameters was observed.",
+                "authors": [
+                    {
+                        "s2_author_id": "46329814",
+                        "name": "P. Demchenko"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "93249352",
+                        "name": "A. Denisultanov"
+                    },
+                    {
+                        "s2_author_id": "153868133",
+                        "name": "E. Sedykh"
+                    },
+                    {
+                        "s2_author_id": "102904468",
+                        "name": "A. A. Onushchenko"
+                    },
+                    {
+                        "s2_author_id": "9232183",
+                        "name": "M. Khodzitsky"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8fa920d108264df38971423d817a6514a13f3996",
+                "title": "Experimental study of compound convection patterns in a layer of volatile fluid driven by a horizontal temperature gradient",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145258373",
+                        "name": "Joshua Barnett"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "49138117",
+                        "name": "M. Yoda"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a86b6e609d384a206b74db47948b758b121eb628",
+                "title": "Unstable equilibria and invariant manifolds in quasi-two-dimensional Kolmogorov-like flow.",
+                "year": 2018,
+                "venue": "Physical Review E",
+                "citation_count": 18,
+                "reference_count": 73,
+                "abstract": "Recent studies suggest that unstable, nonchaotic solutions of the Navier-Stokes equation may provide deep insights into fluid turbulence. In this article, we present a combined experimental and numerical study exploring the dynamical role of unstable equilibrium solutions and their invariant manifolds in a weakly turbulent, electromagnetically driven, shallow fluid layer. Identifying instants when turbulent evolution slows down, we compute 31 unstable equilibria of a realistic two-dimensional model of the flow. We establish the dynamical relevance of these unstable equilibria by showing that they are closely visited by the turbulent flow. We also establish the dynamical relevance of unstable manifolds by verifying that they are shadowed by turbulent trajectories departing from the neighborhoods of unstable equilibria over large distances in state space.",
+                "authors": [
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ae2fe74c0dcc251228975c72506970f1a43b7431",
+                "title": "Coherent structures, instabilities, and the arrow of time",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50380085",
+                        "name": "D. H. Kelley"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e19ad5c58a2236bfc90996c646596dadade8efd5",
+                "title": "Recovering Quasi-2D Navier-Stokes Model Parameters via Weak Formulation",
+                "year": 2018,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "95929266",
+                        "name": "Patrick A. K. Reinbold"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ebb0cac3ec923c3f37e94eb322b0f140c4cf7ed6",
+                "title": "A numerical study of buoyancy-Marangoni convection of volatile binary fluids in confined geometries",
+                "year": 2018,
+                "venue": "International Journal of Heat and Mass Transfer",
+                "citation_count": 10,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "049628e255fad32a220fb140ca1bbc5af8d2b277",
+                "title": "Dynamical mechanism of atrial fibrillation: A topological approach.",
+                "year": 2017,
+                "venue": "Chaos",
+                "citation_count": 26,
+                "reference_count": 65,
+                "abstract": "While spiral wave breakup has been implicated in the emergence of atrial fibrillation, its role in maintaining this complex type of cardiac arrhythmia is less clear. We used the Karma model of cardiac excitation to investigate the dynamical mechanisms that sustain atrial fibrillation once it has been established. The results of our numerical study show that spatiotemporally chaotic dynamics in this regime can be described as a dynamical equilibrium between topologically distinct types of transitions that increase or decrease the number of wavelets, in general agreement with the multiple wavelets' hypothesis. Surprisingly, we found that the process of continuous excitation waves breaking up into discontinuous pieces plays no role whatsoever in maintaining spatiotemporal complexity. Instead, this complexity is maintained as a dynamical balance between wave coalescence-a unique, previously unidentified, topological process that increases the number of wavelets-and wave collapse-a different topological process that decreases their number.",
+                "authors": [
+                    {
+                        "s2_author_id": "10177795",
+                        "name": "C. Marcotte"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "050a4542af78c1533dae03f0da2a849605c035f4",
+                "title": "Memory effects, transient growth, and wave breakup in a model of paced atrium.",
+                "year": 2017,
+                "venue": "Chaos",
+                "citation_count": 3,
+                "reference_count": 72,
+                "abstract": "The mechanisms underlying cardiac fibrillation have been investigated for over a century, but we are still finding surprising results that change our view of this phenomenon. The present study focuses on the transition from normal rhythm to spiral wave chaos associated with a gradual increase in the pacing rate. While some of our findings are consistent with existing experimental, numerical, and theoretical studies of this problem, one result appears to contradict the accepted picture. Specifically we show that, in a two-dimensional model of paced homogeneous atrial tissue, transition from discordant alternans to conduction block, wave breakup, reentry, and spiral wave chaos is associated with the transient growth of finite amplitude disturbances rather than a conventional instability. It is mathematically very similar to subcritical, or bypass, transition from laminar fluid flow to turbulence, which allows many of the tools developed in the context of fluid turbulence to be used for improving our understanding of cardiac arrhythmias.",
+                "authors": [
+                    {
+                        "s2_author_id": "32750714",
+                        "name": "Alejandro Garz\u00f3n"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "14baf3f83e78264e01656772c12c522e05a639a2",
+                "title": "An adjoint-based method for identifying invariant solutions and dynamical connections in weakly turbulent flows",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "102791410",
+                        "name": "Ravi Kumar Pallantla"
+                    },
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "104492681",
+                        "name": "Logan Kageorge"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5ec008da37ae41d66e8feee5c35e7371ed2db167",
+                "title": "Buoyancy-Marangoni convection in confined volatile binary fluids subject to a horizontal temperature gradient",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b8f00f5d0bec9a095129a3ecf9d0e92ae58e9f46",
+                "title": "High-Energy, High-Pulse-Rate Light Sources for Enhanced Time-Resolved Tomographic PIV of Unsteady and Turbulent Flows",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2066124800",
+                        "name": "M. Schatz"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "8635227",
+                        "name": "S. Sponberg"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bd39b77bfef490a7e22e6f07bd0d578cd923d26d",
+                "title": "The effect of phase change on stability of convective flow in a layer of volatile liquid driven by a horizontal temperature gradient",
+                "year": 2017,
+                "venue": "Journal of Fluid Mechanics",
+                "citation_count": 22,
+                "reference_count": 41,
+                "abstract": "Buoyancy\u2013thermocapillary convection in a layer of volatile liquid driven by a horizontal temperature gradient arises in a variety of situations. Recent studies have shown that the composition of the gas phase, which is typically a mixture of vapour and air, has a noticeable effect on the critical Marangoni number describing the onset of convection as well as on the observed convection pattern. Specifically, as the total pressure or, equivalently, the average concentration of air is decreased, the threshold of the instability leading to the emergence of convective rolls is found to increase rather significantly. We present a linear stability analysis of the problem which shows that this trend can be readily understood by considering the transport of heat and vapour through the gas phase. In particular, we show that transport in the gas phase has a noticeable effect even at atmospheric conditions, when phase change is greatly suppressed.",
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c0f7b311f5915cb152b63f8a3e93a26c5011088e",
+                "title": "Dynamical Connections in a Turbulent Fluid: Experiment and Simulation",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "104492681",
+                        "name": "Logan Kageorge"
+                    },
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d49706489c79a1baef1c21d5e8f09e01947ad93b",
+                "title": "Level-set method for robust analysis of optical mapping recordings of fibrillation",
+                "year": 2017,
+                "venue": "2017 Computing in Cardiology (CinC)",
+                "citation_count": 3,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "15373618",
+                        "name": "Daniel R. Gurevich"
+                    },
+                    {
+                        "s2_author_id": "47719364",
+                        "name": "C. Herndon"
+                    },
+                    {
+                        "s2_author_id": "3886862",
+                        "name": "I. Uzelac"
+                    },
+                    {
+                        "s2_author_id": "2304972",
+                        "name": "F. Fenton"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "da160a3ca23d126bcb77abb302bec752c2a9651b",
+                "title": "Experimental search for Exact Coherent Structures in turbulent small aspect ratio Taylor-Couette flow",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "29637689",
+                        "name": "C. Crowley"
+                    },
+                    {
+                        "s2_author_id": "7846946",
+                        "name": "M. Krygier"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e0ce587a24b9cc0ba52367c8f89bd9eb3b793957",
+                "title": "Numerical investigation of exact coherent structures in turbulent small-aspect-ratio Taylor-Couette flow",
+                "year": 2017,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7846946",
+                        "name": "M. Krygier"
+                    },
+                    {
+                        "s2_author_id": "29637689",
+                        "name": "C. Crowley"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "35a46dc140784e6ae0e0d50996afa7ace5606bda",
+                "title": "Forecasting Fluid Flows Using the Geometry of Turbulence.",
+                "year": 2016,
+                "venue": "Physical Review Letters",
+                "citation_count": 61,
+                "reference_count": 8,
+                "abstract": "The existence and dynamical role of particular unstable solutions (exact coherent structures) of the Navier-Stokes equation is revealed in laboratory studies of weak turbulence in a thin, electromagnetically driven fluid layer. We find that the dynamics exhibit clear signatures of numerous unstable equilibrium solutions, which are computed using a combination of flow measurements from the experiment and fully resolved numerical simulations. We demonstrate the dynamical importance of these solutions by showing that turbulent flows visit their state space neighborhoods repeatedly. Furthermore, we find that the unstable manifold associated with one such unstable equilibrium predicts the evolution of turbulent flow in both experiment and simulation for a considerable period of time.",
+                "authors": [
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4426861dfb40646bc71fa593d690103be6e07467",
+                "title": "Experimental and numerical study of direct laminar-turbulent transition in Taylor-Couette flow",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "29637689",
+                        "name": "C. Crowley"
+                    },
+                    {
+                        "s2_author_id": "7846946",
+                        "name": "M. Krygier"
+                    },
+                    {
+                        "s2_author_id": "1399191783",
+                        "name": "D. Borrero-Echeverry"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5e1fd062208ef561ee76d2be04319bc1b8c55b63",
+                "title": "Bifurcations in a quasi-two-dimensional Kolmogorov-like flow",
+                "year": 2016,
+                "venue": "Journal of Fluid Mechanics",
+                "citation_count": 35,
+                "reference_count": 63,
+                "abstract": "We present a combined experimental and theoretical study of the primary and secondary instabilities in a Kolmogorov-like flow. The experiment uses electromagnetic forcing with an approximately sinusoidal spatial profile to drive a quasi-two-dimensional (Q2D) shear flow in a thin layer of electrolyte suspended on a thin lubricating layer of a dielectric fluid. Theoretical analysis is based on a two-dimensional (2D) model (Suri et al., Phys. Fluids, vol. 26 (5), 2014, 053601), derived from first principles by depth-averaging the full three-dimensional Navier\u2013Stokes equations. As the strength of the forcing is increased, the Q2D flow in the experiment undergoes a series of bifurcations, which is compared with results from direct numerical simulations of the 2D model. The effects of confinement and the forcing profile are studied by performing simulations that assume spatial periodicity and strictly sinusoidal forcing, as well as simulations with realistic no-slip boundary conditions and an experimentally validated forcing profile. We find that only the simulation subject to physical no-slip boundary conditions and a realistic forcing profile provides close, quantitative agreement with the experiment. Our analysis offers additional validation of the 2D model as well as a demonstration of the importance of properly modelling the forcing and boundary conditions.",
+                "authors": [
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "102791410",
+                        "name": "Ravi Kumar Pallantla"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "809c216b22960b59287dfbd31ae1deae0e9abb75",
+                "title": "Numerical studies of a confined volatile binary fluid subject to a horizontal temperature gradient",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "89c59a646052fc30215970b6fdbc11ecd096a5c5",
+                "title": "Streamwise asymptotics of spatially localized solutions in plane Pouseuille flow",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "145258373",
+                        "name": "Joshua Barnett"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ccc184255ebacc55ac48e808da78206132b74fb1",
+                "title": "An Experimental and Numerical Investigation of Bifurcations in a Kolmogorov-Like Flow",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "102791410",
+                        "name": "Ravi Kumar Pallantla"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d8b380d46c3371826c2122756b4e4f6db513ad11",
+                "title": "Adjoint eigenfunctions of temporally recurrent single-spiral solutions in a simple model of atrial fibrillation.",
+                "year": 2016,
+                "venue": "Chaos",
+                "citation_count": 26,
+                "reference_count": 55,
+                "abstract": "This paper introduces a numerical method for computing the spectrum of adjoint (left) eigenfunctions of spiral wave solutions to reaction-diffusion systems in arbitrary geometries. The method is illustrated by computing over a hundred eigenfunctions associated with an unstable time-periodic single-spiral solution of the Karma model on a square domain. We show that all leading adjoint eigenfunctions are exponentially localized in the vicinity of the spiral tip, although the marginal modes (response functions) demonstrate the strongest localization. We also discuss the implications of the localization for the dynamics and control of unstable spiral waves. In particular, the interaction with no-flux boundaries leads to a drift of spiral waves which can be understood with the help of the response functions.",
+                "authors": [
+                    {
+                        "s2_author_id": "10177795",
+                        "name": "C. Marcotte"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e8c6739ad2fa21eaa34d374eb095ef410559524c",
+                "title": "Streamwise localization of traveling wave solutions in channel flow.",
+                "year": 2016,
+                "venue": "Physical Review E",
+                "citation_count": 8,
+                "reference_count": 5,
+                "abstract": "Channel flow of an incompressible fluid at Reynolds numbers above 2400 possesses a number of different spatially localized solutions that approach laminar flow far upstream and downstream. We use one such relative time-periodic solution, which corresponds to a spatially localized version of a Tollmien-Schlichting wave, to illustrate how the upstream and downstream asymptotics can be computed analytically. In particular, we show that for these spanwise uniform states the asymptotics predict the exponential localization that has been observed for numerically computed solutions of several canonical shear flows but never properly understood theoretically.",
+                "authors": [
+                    {
+                        "s2_author_id": "145258373",
+                        "name": "Joshua Barnett"
+                    },
+                    {
+                        "s2_author_id": "15373618",
+                        "name": "Daniel R. Gurevich"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f2a35725655aeffe22e31b3667fd32bb5ac2dcdc",
+                "title": "Dynamically dominant exact coherent structures in turbulent Taylor-Couette flow",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7846946",
+                        "name": "M. Krygier"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f46f6397b815bd03ca459362296b0a9055bb5dbe",
+                "title": "Transitions to Turbulence in an Electromagnetically-Driven 2D Fluid",
+                "year": 2016,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "104492681",
+                        "name": "Logan Kageorge"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "102791410",
+                        "name": "Ravi Kumar Pallantla"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "070da0960bf52d9e2a83e270a8cb3cd8b2780af6",
+                "title": "Numerical investigation of direct laminar-turbulent transition in counter-rotating Taylor-Couette flow",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "7846946",
+                        "name": "M. Krygier"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9fe2d7b875b6a3d20f0c99dcf9980935e5bbb886",
+                "title": "Experimental observations of direct laminar-turbulent transition in counter-rotating Taylor-Couette flow",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "29637689",
+                        "name": "C. Crowley"
+                    },
+                    {
+                        "s2_author_id": "7846946",
+                        "name": "M. Krygier"
+                    },
+                    {
+                        "s2_author_id": "1399191783",
+                        "name": "D. Borrero-Echeverry"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a5c6c7779de90ba38c5a2f56b26e8d4aec11de11",
+                "title": "Linear Stability Analysis of Convective Flow in a Confined Layer of Volatile Liquid Driven by a Horizontal Temperature Gradient",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e5e06d7beea6dc30ab5cf8b7518299bb7e90f901",
+                "title": "The effect of noncondensables on buoyancy\u2013thermocapillary convection of volatile fluids in confined geometries",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 26,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ea4951e1765295919f6b3bcf0f343b27a0406b21",
+                "title": "Experimental Observation of Exact Coherent Structures in a Weakly Turbulent Quasi-Two-Dimensional Flow",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "102791410",
+                        "name": "Ravi Kumar Pallantla"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "eb358945f93e5fb4afcb23ae08ec1a8106783f20",
+                "title": "Buoyancy-thermocapillary convection of volatile fluids under their vapors",
+                "year": 2015,
+                "venue": "",
+                "citation_count": 47,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "70518635",
+                        "name": "\u017d. Tukovi\u0107"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "25b8472241f1aeeca51b245ebf80229ceea17a9c",
+                "title": "Unstable Nonchaotic Solutions and Local Euclidean Symmetry in a Model of Cardiac Tissue",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "10177795",
+                        "name": "C. Marcotte"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "465246722b37ca02314d3fa75653dec44a31febe",
+                "title": "The effect of noncondensables on the stability of buoyancy-thermocapillary convection",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110974696",
+                        "name": "Yaofa Li"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "49138117",
+                        "name": "M. Yoda"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4832e0c43cbeaa6ecb3f162c1932f8a0b8ffb44b",
+                "title": "Direct laminar-turbulent transition in Taylor-Couette flow: Experiments and simulations",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "29637689",
+                        "name": "C. Crowley"
+                    },
+                    {
+                        "s2_author_id": "7846946",
+                        "name": "M. Krygier"
+                    },
+                    {
+                        "s2_author_id": "66681858",
+                        "name": "Samuel G. Raben"
+                    },
+                    {
+                        "s2_author_id": "75077222",
+                        "name": "D. Borrero"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d6fd12e810517bfde1589ddad3d0fcb861e8851",
+                "title": "THE EFFECT OF NONCONDENSABLES ON THE BUOYANCY-THERMOCAPILLARY CONVECTION IN CONFINED AND VOLATILE FLUIDS",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "49138117",
+                        "name": "M. Yoda"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "791fe30495e5dc14154eef6a5097333ae4f47a65",
+                "title": "Exact coherent structures: from fluid turbulence to cardiac arrhythmias",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "10177795",
+                        "name": "C. Marcotte"
+                    },
+                    {
+                        "s2_author_id": "145010378",
+                        "name": "G. Byrne"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "811b38aac6201faa6f6ac868960d4aa83b604c85",
+                "title": "Unstable spiral waves and local Euclidean symmetry in a model of cardiac tissue.",
+                "year": 2014,
+                "venue": "Chaos",
+                "citation_count": 18,
+                "reference_count": 81,
+                "abstract": "This paper investigates the properties of unstable single-spiral wave solutions arising in the Karma model of two-dimensional cardiac tissue. In particular, we discuss how such solutions can be computed numerically on domains of arbitrary shape and study how their stability, rotational frequency, and spatial drift depend on the size of the domain as well as the position of the spiral core with respect to the boundaries. We also discuss how the breaking of local Euclidean symmetry due to finite size effects as well as the spatial discretization of the model is reflected in the structure and dynamics of spiral waves. This analysis allows identification of a self-sustaining process responsible for maintaining the state of spiral chaos featuring multiple interacting spirals.",
+                "authors": [
+                    {
+                        "s2_author_id": "10177795",
+                        "name": "C. Marcotte"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "87bc6b864ba74b45cb7fe83203684fc14428fba8",
+                "title": "Exact coherent structures and dynamics of cardiac tissue",
+                "year": 2014,
+                "venue": "2014 8th Conference of the European Study Group on Cardiovascular Oscillations (ESGCO)",
+                "citation_count": 0,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145010378",
+                        "name": "G. Byrne"
+                    },
+                    {
+                        "s2_author_id": "10177795",
+                        "name": "C. Marcotte"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab6d4aad77da7431691fed3d3eab16ce3d5a932c",
+                "title": "The effect of noncondensables on thermocapillary-buoyancy convection",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b5b68a8a4feaa45697cdc5472acd4eac42ec3a12",
+                "title": "The eect of noncondensables on buoyancy-thermocapillary convection in conned and volatile uids",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "bc0a88d921f06b623f08558d78423ec0b7bc3ce3",
+                "title": "Continuous-time control of alternans in long Purkinje fibers.",
+                "year": 2014,
+                "venue": "Chaos",
+                "citation_count": 23,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32750714",
+                        "name": "Alejandro Garz\u00f3n"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "2304972",
+                        "name": "F. Fenton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c12aa11be15d180e2b3d2b9e8f22400e31013e2b",
+                "title": "Experimental study of the effect of noncondensables on buoyancy-thermocapillary convection in a volatile low-viscosity silicone oil",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 43,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110974696",
+                        "name": "Yaofa Li"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "49138117",
+                        "name": "M. Yoda"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c6059a8c5c93c5496f6f5e7675b83d56780846a6",
+                "title": "Kolmogorov-like Flow: Effect of the Boundaries on Stability and Transition to Weak Turbulence",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "102791410",
+                        "name": "Ravi Kumar Pallantla"
+                    },
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "119841892",
+                        "name": "Schatz Michael"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cfa1d240f3fe71310e2326b191ff338c4f5425ea",
+                "title": "Exact coherent structures and chaotic dynamics in a model of cardiac tissue.",
+                "year": 2014,
+                "venue": "Chaos",
+                "citation_count": 14,
+                "reference_count": 43,
+                "abstract": "Unstable nonchaotic solutions embedded in the chaotic attractor can provide significant new insight into chaotic dynamics of both low- and high-dimensional systems. In particular, in turbulent fluid flows, such unstable solutions are referred to as exact coherent structures (ECS) and play an important role in both initiating and sustaining turbulence. The nature of ECS and their role in organizing spatiotemporally chaotic dynamics, however, is reasonably well understood only for systems on relatively small spatial domains lacking continuous Euclidean symmetries. Construction of ECS on large domains and in the presence of continuous translational and/or rotational symmetries remains a challenge. This is especially true for models of excitable media which display spiral turbulence and for which the standard approach to computing ECS completely breaks down. This paper uses the Karma model of cardiac tissue to illustrate a potential approach that could allow computing a new class of ECS on large domains of arbitrary shape by decomposing them into a patchwork of solutions on smaller domains, or tiles, which retain Euclidean symmetries locally.",
+                "authors": [
+                    {
+                        "s2_author_id": "145010378",
+                        "name": "G. Byrne"
+                    },
+                    {
+                        "s2_author_id": "10177795",
+                        "name": "C. Marcotte"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d04d360df33cb549e51eaeeffdead0452b4dbfa9",
+                "title": "Buoyancy-thermocapillary convection of volatile fluids under atmospheric conditions",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 65,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "70518635",
+                        "name": "\u017d. Tukovi\u0107"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "efa17694ea50e852e8881f1e2a103d6b80b9c384",
+                "title": "Search for Exact Coherent Structures in a Quasi-Two-Dimensional Kolmogorov-Like Flow",
+                "year": 2014,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "102791410",
+                        "name": "Ravi Kumar Pallantla"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "119841892",
+                        "name": "Schatz Michael"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "33ab5fb3ef7f724ca13607fbeff0bf68ff9909e2",
+                "title": "Shock-induced termination of reentrant cardiac arrhythmias: comparing monophasic and biphasic shock protocols.",
+                "year": 2013,
+                "venue": "Chaos",
+                "citation_count": 18,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2086125647",
+                        "name": "Jean Bragard"
+                    },
+                    {
+                        "s2_author_id": "2055779249",
+                        "name": "A. Simic"
+                    },
+                    {
+                        "s2_author_id": "144280726",
+                        "name": "J. Elorza"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "143608184",
+                        "name": "E. Cherry"
+                    },
+                    {
+                        "s2_author_id": "34880183",
+                        "name": "R. Gilmour"
+                    },
+                    {
+                        "s2_author_id": "32499224",
+                        "name": "N. Otani"
+                    },
+                    {
+                        "s2_author_id": "2304972",
+                        "name": "F. Fenton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "70d7f5ea4f659a858f397041e4c22933e746f430",
+                "title": "Experimental study of the effect of noncondensables on buoyancy- thermocapillary convection in a volatile silicone oil",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2110974696",
+                        "name": "Yaofa Li"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "49138117",
+                        "name": "M. Yoda"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "88a2c7db0b72996b01816dcd0dec33e7e31f7ddb",
+                "title": "Implementation of PDE models of cardiac dynamics on GPUs using OpenCL",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 9,
+                "abstract": "Graphical processing units (GPUs) promise to revolutionize scientific computing in the near future. Already, they allow almost real-time integration of simplified numerical models of cardiac tissue dynamics. However, the integration methods that have been developed so far are typically of low order and use single precision arithmetics. In this work, we describe numerical implementation of double precision integrators required by, e.g., matrix-free Newton-Krylov solvers and compare several higher order, fully explicit numerical methods using finite-di erence discretization of a range of models of two-dimensional cardiac tissue.",
+                "authors": [
+                    {
+                        "s2_author_id": "10177795",
+                        "name": "C. Marcotte"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a85879ae2f36cf98407fddc4a99719cd83159734",
+                "title": "Experimental and Numerical Study of Transition to Turbulence in a Kolmogorov-Like Flow",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "117901680",
+                        "name": "R. Mitchell"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b2435bef726633c666fe218a9369c6d01d8b36d4",
+                "title": "The effect of noncondensables on the thermocapillary-buoyancy convection in volatile fluids",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "117810510",
+                        "name": "Laura Anfinson"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d561fefa06d3e5822f717cb1d6d9a4d2c63b5cbf",
+                "title": "Exact coherent structures in 2D weakly turbulent flow",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "102791410",
+                        "name": "Ravi Kumar Pallantla"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e94a7909bbc7761db2afeda21aabf39f0d45c246",
+                "title": "Velocity profile in a two-layer Kolmogorov-like flow",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 35,
+                "reference_count": 35,
+                "abstract": "In this article, we discuss flows in shallow, stratified horizontal layers of two immiscible fluids. The top layer is an electrolyte which is electromagnetically driven and the bottom layer is a dielectric fluid. Using a quasi-two-dimensional approximation, which assumes a horizontal flow whose direction is independent of the vertical coordinate, we derive a generalized two-dimensional vorticity equation describing the evolution of the horizontal flow. Also, we derive an expression for the vertical profile of the horizontal velocity field. Measuring the horizontal velocity fields at the electrolyte-air and electrolyte-dielectric interfaces using particle image velocimetry, we validate the theoretical predictions of the horizontal velocity and its vertical profile for steady as well as for freely decaying Kolmogorov-like flows. Our analysis shows that by increasing the viscosity of the electrolyte relative to that of the dielectric, one may significantly improve the uniformity of the flow in the electrolyt...",
+                "authors": [
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "117901680",
+                        "name": "R. Mitchell"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2ebb70644a10a3c2cfa10903aa4a24932efae95d",
+                "title": "Convection, Evaporation, and Condensation of Simple and Binary Fluids in Confined Geometries",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 16,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4f20075b1b7843f57d92c868eb1f5a3a66e6bcad",
+                "title": "Abstract Submitted for the MAR10 Meeting of The American Physical Society Probing Instability using Pattern Control in Rayleigh-Be\u0301nard Convection1",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32437832",
+                        "name": "Adam Perkins"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8838652fb16362fd7eb5bf0322a311fdb91d70a7",
+                "title": "Instabilities and mixing in two-dimensional Kolmogorov flow",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 18,
+                "abstract": "This paper presents results of a theoretical investigation of transport in a numerical model of a two-dimensional Kolmogorov flow. We investigate the changes in its mixing properties associated with transition from laminar regime to turbulence. It is found that significant changes in the flow do not always lead to comparable changes in its transport properties. On the other hand, some very subtle changes in the flow can dramatically alter the degree of mixing. We show that interaction of multiple resonances can provide an explanation for many of these seemingly paradoxical results.",
+                "authors": [
+                    {
+                        "s2_author_id": "117901680",
+                        "name": "R. Mitchell"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e8bb08634ccfaf25d1809b290fc08a699436684e",
+                "title": "Experimental Study of Transition to Turbulence in a Kolmogorov-Like Flow",
+                "year": 2012,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "117901680",
+                        "name": "R. Mitchell"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "05467f16fff2df6a942016740a70db51bd4c244b",
+                "title": "Model-based control of cardiac alternans in Purkinje fibers.",
+                "year": 2011,
+                "venue": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+                "citation_count": 36,
+                "reference_count": 43,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32750714",
+                        "name": "Alejandro Garz\u00f3n"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "2304972",
+                        "name": "F. Fenton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0ecb92ad88407cb749369e77f46b4858be65da77",
+                "title": "Non-equilibrium Pattern Modes Extracted from Experimental Data",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": "We describe a method to extract from experimental data the important dynamical modes in spatio-temporal patterns in a system driven out of thermodynamic equilibrium. Using a novel optical technique for controlling fluid flow, we create an experimental ensemble of Rayleigh-B\\'{e}nard convection patterns with nearby initial conditions close to the onset of secondary instability. An analysis of the ensemble evolution reveals the spatial structure of the dominant modes of the system as well as the corresponding growth rates. The extracted modes are related to localized versions of instabilities found in the ideal unbounded system. The approach may prove useful in describing instability in experimental systems as a step toward prediction and control.",
+                "authors": [
+                    {
+                        "s2_author_id": "32437832",
+                        "name": "Adam Perkins"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "26d4ac894e2e1e3ffd578b8debfb1694160b50bb",
+                "title": "Transition to turbulence in a quasi-2D Kolmogorov flow",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50534820",
+                        "name": "J. Tithof"
+                    },
+                    {
+                        "s2_author_id": "39614486",
+                        "name": "B. Suri"
+                    },
+                    {
+                        "s2_author_id": "117901680",
+                        "name": "R. Mitchell"
+                    },
+                    {
+                        "s2_author_id": "92256920",
+                        "name": "A. J. Pryor"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4a94853df1e6b3397464fe5eb75444518fdac041",
+                "title": "Mixing in Laminar Fluid Flows: From Microfluidics to Oceanic Currents",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5a23e426b805cd7dedb535f1bd52348e21afcc2a",
+                "title": "Instabilities and mixing in a quasi-2D Lorentz-force driven flow",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "117901680",
+                        "name": "R. Mitchell"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "693ad17b260f232cc787f6aaade843da693852d7",
+                "title": "MODEL-BASED CONTROL OF CARDIAC ALTERNANS IN A MODEL OF PURKINJE FIBERS",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "32750714",
+                        "name": "Alejandro Garz\u00f3n"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c694d9dcdeb93b70b45014e916fb3814404b31e9",
+                "title": "Convection, evaporation, and condensation of binary fluids in confined geometries",
+                "year": 2011,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    },
+                    {
+                        "s2_author_id": "2110974696",
+                        "name": "Yaofa Li"
+                    },
+                    {
+                        "s2_author_id": "2054420360",
+                        "name": "Benjamin Chan"
+                    },
+                    {
+                        "s2_author_id": "49138117",
+                        "name": "M. Yoda"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "da6618920a2e7466f3d09dde0de62e14eb0cad1b",
+                "title": "Modal spectra extracted from nonequilibrium fluid patterns in laboratory experiments on Rayleigh-B\u00e9nard convection.",
+                "year": 2011,
+                "venue": "Physical Review Letters",
+                "citation_count": 5,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32437832",
+                        "name": "Adam Perkins"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "33b2489bf7aa81400bd2fb54703ef467d03713a2",
+                "title": "Confined two-phase flows in the presence of evaporation and condensation",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "92157440",
+                        "name": "T. Qin"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6557e7b39c5f9966b92160984ae544d1734b1aee",
+                "title": "Probing Instability using Pattern Control in Rayleigh-B\\'{e}nard Convection",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32437832",
+                        "name": "Adam Perkins"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c91648e4f95e97b2982af7d7645a96cbd25f86fe",
+                "title": "Erratum: Resonant mixing in perturbed action-action-angle flow [Phys. Rev. E78, 026302 (2008)]",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50457780",
+                        "name": "D. Vainchtein"
+                    },
+                    {
+                        "s2_author_id": "6952145",
+                        "name": "John Widloski"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dbcdcf378cb79d3471f93f17d1295580eb39c4e3",
+                "title": "Quantitative description of mixing in non-perturbative flows",
+                "year": 2010,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "117901680",
+                        "name": "R. Mitchell"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1dfbcd188b2958a7a6c707676714d4bfb5e24fb8",
+                "title": "Long-term description of chaotic mixing induced by resonance phenomena",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50457780",
+                        "name": "D. Vainchtein"
+                    },
+                    {
+                        "s2_author_id": "145635811",
+                        "name": "Sahand Akbari"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "45c12cd8559ff2ab13c7ac4cb5410897e5eb2f07",
+                "title": "Model-based control of cardiac dynamics in a ring geometry",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "32750714",
+                        "name": "Alejandro Garz\u00f3n"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c10d09b9489a0682aa8230b7e28ec520ba6b03fa",
+                "title": "Model-based control of cardiac alternans on a ring.",
+                "year": 2009,
+                "venue": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+                "citation_count": 24,
+                "reference_count": 52,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "32750714",
+                        "name": "Alejandro Garz\u00f3n"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "2304972",
+                        "name": "F. Fenton"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f5fc3589008cf29bc3418db66c0e9c2a56ee0445",
+                "title": "Thermocapillary migration of interfacial droplets",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 41,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "71203458",
+                        "name": "E. F. Greco"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5fdb46b0c48a0505f456f78f2c2cc16c8fcc80d6",
+                "title": "Localized Control of Spatiotemporal Chaos",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 46,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1729074",
+                        "name": "A. Handel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f732ec4fd16884ae8b3cebc736d46ef08e34ad5a",
+                "title": "Resonant mixing in perturbed action-action-angle flow.",
+                "year": 2008,
+                "venue": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+                "citation_count": 11,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50457780",
+                        "name": "D. Vainchtein"
+                    },
+                    {
+                        "s2_author_id": "6952145",
+                        "name": "John Widloski"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e4beb348d9f2a7b6c45efeca084ae4e4aaec60b",
+                "title": "Mixing properties of steady flow in thermocapillary driven droplets",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 19,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50457780",
+                        "name": "D. Vainchtein"
+                    },
+                    {
+                        "s2_author_id": "6952145",
+                        "name": "John Widloski"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "16ea8e525195f22e6dfd715636ca937990d35eea",
+                "title": "Optically-Controlled Thermocapillary Actuation of Microdroplets at a Fluid Interface",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "75077222",
+                        "name": "D. Borrero"
+                    },
+                    {
+                        "s2_author_id": "71203458",
+                        "name": "E. F. Greco"
+                    },
+                    {
+                        "s2_author_id": "6952145",
+                        "name": "John Widloski"
+                    },
+                    {
+                        "s2_author_id": "50457780",
+                        "name": "D. Vainchtein"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "78c8b4b13ac546f9043cd7d2a77c4788aa4e1932",
+                "title": "Resonant chaotic mixing in a cellular flow.",
+                "year": 2007,
+                "venue": "Physical Review Letters",
+                "citation_count": 11,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50457780",
+                        "name": "D. Vainchtein"
+                    },
+                    {
+                        "s2_author_id": "6952145",
+                        "name": "John Widloski"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab69c1f3f17541bf24afdc76013fd421756d2ecb",
+                "title": "Transient amplification and nonlinear stability of driven thin films",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "117901680",
+                        "name": "R. Mitchell"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be682d98ff57121e68296114357dad66b86a7a47",
+                "title": "Resonant chaotic mixing in cellular flows",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50457780",
+                        "name": "D. Vainchtein"
+                    },
+                    {
+                        "s2_author_id": "6952145",
+                        "name": "John Widloski"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "beaf96e876847d0a0c880c57596f4c892a07ff47",
+                "title": "Modal Extraction in Spatially Extended Systems",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 10,
+                "abstract": "We describe a practical procedure for extracting the spatial structure and the growth rates of slow eigenmodes of a spatially extended system, using a unique experimental capability both to impose and to perturb desired initial states. The procedure is used to construct experimentally the spectrum of linear modes near the secondary instability boundary in Rayleigh-B\\'{e}nard convection. This technique suggests an approach to experimental characterization of more complex dynamical states such as periodic orbits or spatiotemporal chaos.",
+                "authors": [
+                    {
+                        "s2_author_id": "5913991",
+                        "name": "K. Krishan"
+                    },
+                    {
+                        "s2_author_id": "1729074",
+                        "name": "A. Handel"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3ef4d7b3c372c9b9b7f1e05a673cd0a6a463d000",
+                "title": "Control of Spatially Extended Chaotic Systems",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "80259d1db009c9c1a4ab9cc41df73236349781c8",
+                "title": "Transient dynamics and nonlinear stability of spatially extended systems.",
+                "year": 2006,
+                "venue": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+                "citation_count": 5,
+                "reference_count": 39,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1729074",
+                        "name": "A. Handel"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "897f4c49575342d0043f0a58cf962c346213a62c",
+                "title": "Thermocapillary migration of a drop at a fluid interface",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "71203458",
+                        "name": "E. F. Greco"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b199990d85c6edb66044c74280e5ef9f774c1448",
+                "title": "Thermocapillary migration of a droplet along a free surface",
+                "year": 2006,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2d742d8be3e9c1b0cc2587156c45513b2ab50421",
+                "title": "Time evolution of transients in a thin liquid film",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145462214",
+                        "name": "Jennifer M. Rieser"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39d08f69eaffb57310aa1c6ebd673c74ed9cee6a",
+                "title": "Optical Manipulation and Chaotic Mixing in Micro-droplets: Theory and Experiment",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50633678",
+                        "name": "V. Sharma"
+                    },
+                    {
+                        "s2_author_id": "4866695",
+                        "name": "M. Srinivasarao"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5434fae25301d559286d01b72abcf4fed97c1263",
+                "title": "Pattern selection and control via localized feedback.",
+                "year": 2005,
+                "venue": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+                "citation_count": 10,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1729074",
+                        "name": "A. Handel"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6ffe5e73bd31b8700948f2c354e5e9d2992c8f34",
+                "title": "On Control of Chaos in the R\\\"{o}ssler system",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "102587095",
+                        "name": "Julian Antolin Camarena"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b6f0f366b0e7899feced80b64d84b77b110dd167",
+                "title": "Chaotic mixing in thermocapillary-driven microdroplets",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 58,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1bab98109433ed1a9ba92ea546cd6c6dea9515f2",
+                "title": "Quantitative Measurement of Transient Amplification of Rivulets in a Thin Liquid Film",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "49954583",
+                        "name": "K. Kamei"
+                    },
+                    {
+                        "s2_author_id": "145462214",
+                        "name": "Jennifer M. Rieser"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "229c4d0d80c8058515db7beeffe698a4a8d76811",
+                "title": "Chaotic mixing in microdropets: Theory and Experiment",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "50633678",
+                        "name": "V. Sharma"
+                    },
+                    {
+                        "s2_author_id": "4866695",
+                        "name": "M. Srinivasarao"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53f6e7e2106c82dcde1ec19e2d36038f4c935423",
+                "title": "Transient growth in driven contact lines",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 16,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f23fd33065d40bd7f868f51f8096b1fcbb7bee14",
+                "title": "Optically Controlled Mixing in Microdroplets",
+                "year": 2004,
+                "venue": "",
+                "citation_count": 9,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1fe0cb8fb79ebdb7b232fc5aaa29a54e7c81d7eb",
+                "title": "Optical manipulation of microscale fluid flow.",
+                "year": 2003,
+                "venue": "Physical Review Letters",
+                "citation_count": 127,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2092718458",
+                        "name": "N. Garnier"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3bfa488c0defa22e12f5930434801da7b2503b80",
+                "title": "Spatiotemporal coherent structures in spiral defect chaos",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5913991",
+                        "name": "K. Krishan"
+                    },
+                    {
+                        "s2_author_id": "1729074",
+                        "name": "A. Handel"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "719041ab56a572b2c655bf2b85e2b5d363d550d3",
+                "title": "Transient Amplification and Contact Line Instability",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1392252958",
+                        "name": "S. Rifkin"
+                    },
+                    {
+                        "s2_author_id": "49954583",
+                        "name": "K. Kamei"
+                    },
+                    {
+                        "s2_author_id": "2068976651",
+                        "name": "J. Carroll"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ff9bd942be981b00848b1762bff17141210389fa",
+                "title": "Chaotic mixing in microdroplets.",
+                "year": 2003,
+                "venue": "Lab on a Chip",
+                "citation_count": 83,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    },
+                    {
+                        "s2_author_id": "2112607898",
+                        "name": "Vivek Sharma"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "12e419dd0985dcc0f0710a19913a31103f490c83",
+                "title": "Optical Manipulation of Micro-scale Fluid Flow",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "2092718458",
+                        "name": "N. Garnier"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "13bf12ba6df119f7c66da2e7cbbc2703665d3953",
+                "title": "Non-normality and the localized control of extended systems.",
+                "year": 2002,
+                "venue": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+                "citation_count": 6,
+                "reference_count": 7,
+                "abstract": "The idea of controlling the dynamics of spatially extended systems using a small number of localized perturbations is very appealing-such a setup is easy to implement in practice. However, when the distance between controllers generating the perturbations becomes large, control fails due to extreme sensitivity of the system to noise. This sensitivity results from strong non-normality of the evolution operator governing the dynamics of disturbances in the controlled system. We investigate how non-normality can arise in an originally normal system and study how the noise amplification depends on the distance between controllers.",
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1729074",
+                        "name": "A. Handel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "583e8a5a6b44512b5781004f2a8cacf10c859184",
+                "title": "Spectral theory for the failure of linear control in a nonlinear stochastic system.",
+                "year": 2002,
+                "venue": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+                "citation_count": 7,
+                "reference_count": 0,
+                "abstract": "We consider the failure of localized control in a nonlinear spatially extended system caused by extremely small amounts of noise. It is shown that this failure occurs as a result of a nonlinear instability. Nonlinear instabilities can occur in systems described by linearly stable but strongly non-normal evolution operators. In spatially extended systems the non-normality manifests itself in two different but complementary ways: transient amplification and spectral focusing of disturbances. We show that temporal and spatial aspects of the non-normality and the type of nonlinearity are all crucially important to understand and describe the mechanism of nonlinear instability. Presented results are expected to apply equally to other physical systems where strong non-normality is due to the presence of mean flow rather than the action of control.",
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1729074",
+                        "name": "A. Handel"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d148d0deac6969eb6064e87a483d06fd494c8de",
+                "title": "FLUID-FLUID INTERFACE EXPERIMENTS AT THE UNIVERSITY OF CHICAGO",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "15023665",
+                        "name": "I. Cohen"
+                    },
+                    {
+                        "s2_author_id": "2252026",
+                        "name": "S. Nagel"
+                    },
+                    {
+                        "s2_author_id": "36397553",
+                        "name": "M. Brenner"
+                    },
+                    {
+                        "s2_author_id": "143919235",
+                        "name": "J. Eggers"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "2634226",
+                        "name": "T. Dupont"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8004a1b2b8ce0d297e55668a7d59b6ff16b0afc2",
+                "title": "Contact line instability and pattern selection in thermally driven liquid films",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 32,
+                "reference_count": 25,
+                "abstract": "Liquids spreading over a solid substrate under the action of various forces are known to exhibit a long wavelength contact line instability. We use an example of thermally driven spreading on a horizontal surface to study how the stability of the flow can be altered, or patterns selected, using feedback control. We show that thermal perturbations of certain spatial structure imposed behind the contact line and proportional to the deviation of the contact line from its mean position can completely suppress the instability. Due to the presence of mean flow and a spatially nonuniform nature of spreading liquid films the dynamics of disturbances is governed by a non-normal evolution operator, opening up a possibility of transient amplification and nonlinear instabilities. We show that in the case of thermal driving the non-normality can be significant, especially for small wavenumber disturbances, and trace the origin of transient amplification to a close alignment of a large group of eigenfunctions of the ev...",
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ab6d8df12a95715fc89c06f0cdb961c62dd04486",
+                "title": "Control of evaporatively driven instabilities of thin liquid films",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 50,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fa131e1654473344f851af09562ab37b7132e1c2",
+                "title": "LARGE FINITE-ELEMENT MODELING OF AXIALLY SYMMETRIC FREE-SURFACE FLOWS",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "2634226",
+                        "name": "T. Dupont"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "53b78ceb8b63b9f8a27876059bf91a987f3cc33a",
+                "title": "Active Control of Evaporative Instabilities of Thin Liquid Layers",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "84eecb4bfd10c5b9805ce89c36d469448c01408b",
+                "title": "Measuring Lyapunov exponents in a Rayleigh-Benard convection experiment using pulsed laser perturbations",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5913991",
+                        "name": "K. Krishan"
+                    },
+                    {
+                        "s2_author_id": "1729074",
+                        "name": "A. Handel"
+                    },
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1827310",
+                        "name": "M. Schatz"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4c453b7e69cbdeba79eea715d9a168947f00c11a",
+                "title": "Symmetry and control: spatially extended chaotic systems",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 11,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9b6c8fbb52867d490c21afbee7c4dfe127d97b9b",
+                "title": "Optimal Control of Spatiotemporal Chaos in Coupled Map Lattices",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1d39109057438e7d57dd62a286ec83dc9f4c9b14",
+                "title": "Identification and Control of Symmetric Systems",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 32,
+                "abstract": "In a recent paper [Phys. Rev. E 57, p. 1550 (1998)] we demonstrated that the symmetries of the evolution equation and the target state have a profound effect on the selection of the admissible control parameters. In the present paper we extend these results to the case of time-periodic target states and inexact symmetries. We also argue that the problem of phase space reconstruction is affected by the presence of symmetries similarly to the control problem.",
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c4d2961da6971d66aed5295baed276ecf15dc367",
+                "title": "Symmetry and localized control of extended chaotic systems",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 64,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "555da08e5fe5a0da782d9322dd002fd4193c2a9a",
+                "title": "Pinning control of spatiotemporal chaos",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 243,
+                "reference_count": 7,
+                "abstract": "Linear control theory is used to develop an improved localized control scheme for spatially extended chaotic systems, which is applied to a coupled map lattice as an example. The optimal arrangement of the control sites is shown to depend on the symmetry properties of the system, while their minimal density depends on the strength of noise in the system. The method is shown to work in any region of parameter space and requires a significantly smaller number of controllers compared to the method proposed earlier by Hu and Qu [Phys. Rev. Lett. 72, 68 (1994)]. A nonlinear generalization of the method for a 1D lattice is also presented.",
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1784469",
+                        "name": "M. Cross"
+                    },
+                    {
+                        "s2_author_id": "39198624",
+                        "name": "H. Schuster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "71a9276691d2a7f1693dbd1374b1eae3685dc5aa",
+                "title": "Controlling physical systems with symmetries",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 8,
+                "reference_count": 7,
+                "abstract": "Symmetry properties of the evolution equation and the state to be controlled are shown to determine the basic features of the linear control of unstable orbits. In particular the selection of control parameters and their minimal number are determined by the irreducible representations of the symmetry group of the linearization about the orbit to be controlled. We use the general results to demonstrate the effect of symmetry on the control of two sample physical systems: a coupled map lattice and a particle in a symmetric potential.",
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1784469",
+                        "name": "M. Cross"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b83c260fd085ce5fa3c4046493c96c38051719af",
+                "title": "Localized Optimal Control of Spatiotemporal Chaos",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 10,
+                "abstract": "A linear output feedback control scheme is developed for a coupled map lattice system. H-infinity control theory is used to make the scheme local: both the collection of information and the feedback are implemented through an array of locally coupled control sites. Robustness properties of the control scheme are discussed.",
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "145371473",
+                        "name": "S. Lall"
+                    },
+                    {
+                        "s2_author_id": "48834542",
+                        "name": "G. Dullerud"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d180d6e4881ebd7f5a33194f9ef464b2e07dccb8",
+                "title": "Dynamics of coupled maps with a conservation law.",
+                "year": 1997,
+                "venue": "Chaos",
+                "citation_count": 3,
+                "reference_count": 41,
+                "abstract": "A particularly simple model belonging to a wide class of coupled maps which obey a local conservation law is studied. The phase structure of the system and the types of the phase transitions are determined. It is argued that the structure of the phase diagram is robust with respect to mild violations of the conservation law. Critical exponents possibly determining a new universality class are calculated for a set of independent order parameters. Numerical evidence is produced suggesting that the singularity in the density of Lyapunov exponents at lambda=0 is a reflection of the singularity in the density of Fourier modes (a \"Van Hove\" singularity) and disappears if the conservation law is broken. Applicability of the Lyapunov dimension to the description of spatiotemporal chaos in a system with a conservation law is discussed. (c) 1997 American Institute of Physics.",
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "1784469",
+                        "name": "M. Cross"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d4e11f70a5510ad8ed26aa06f9c5ff08c64cf650",
+                "title": "Solvable model for spatiotemporal chaos",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 23,
+                "abstract": "We show that the dynamical behavior of a coupled map lattice where the individual maps are Bernoulli shift maps can be solved analytically for integer couplings. We calculate the invariant density of the system and show that it displays a nontrivial spatial behavior. We also introduce and calculate a generalized spatiotemporal correlation function.",
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    },
+                    {
+                        "s2_author_id": "39198624",
+                        "name": "H. Schuster"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0733ac2a637b7cd874b5112d2d1782fda2768fcd",
+                "title": "Transport and Mixing in Laminar Flows: From Microfluidics to Oceanic Currents",
+                "year": 1994,
+                "venue": "",
+                "citation_count": 50,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "5535462",
+                        "name": "R. Grigoriev"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "2392264266",
+                "name": "Matteo Ugliotti"
+            },
+            {
+                "s2_author_id": "2135016903",
+                "name": "Mateo Reynoso"
+            },
+            {
+                "s2_author_id": "15373618",
+                "name": "Daniel R. Gurevich"
+            },
+            {
+                "s2_author_id": "6575056",
+                "name": "C. Wareing"
+            },
+            {
+                "s2_author_id": "2361666908",
+                "name": "Alasdair T. Roy"
+            },
+            {
+                "s2_author_id": "2294568248",
+                "name": "Matthew Golden"
+            },
+            {
+                "s2_author_id": "2317113277",
+                "name": "S. Tobias"
+            },
+            {
+                "s2_author_id": "2392629225",
+                "name": "Brandon Choi"
+            },
+            {
+                "s2_author_id": "32750714",
+                "name": "Alejandro Garz\u00f3n"
+            },
+            {
+                "s2_author_id": "1423229156",
+                "name": "Joshua L. Pughe-Sanford"
+            },
+            {
+                "s2_author_id": "4429954",
+                "name": "Samuel Quinn"
+            },
+            {
+                "s2_author_id": "2223970543",
+                "name": "Teodor Balabanski"
+            },
+            {
+                "s2_author_id": "31050215",
+                "name": "D. Zhigunov"
+            },
+            {
+                "s2_author_id": "29637689",
+                "name": "C. Crowley"
+            },
+            {
+                "s2_author_id": "2182137482",
+                "name": "Wesley Toler"
+            },
+            {
+                "s2_author_id": "1827310",
+                "name": "M. Schatz"
+            },
+            {
+                "s2_author_id": "1580578663",
+                "name": "Matthew Golden"
+            },
+            {
+                "s2_author_id": "1473098736",
+                "name": "J. Nambisan"
+            },
+            {
+                "s2_author_id": "1389092406",
+                "name": "A. Fern\u00e1ndez-Nieves"
+            },
+            {
+                "s2_author_id": "7846946",
+                "name": "M. Krygier"
+            },
+            {
+                "s2_author_id": "95929266",
+                "name": "Patrick A. K. Reinbold"
+            },
+            {
+                "s2_author_id": "104492681",
+                "name": "Logan Kageorge"
+            },
+            {
+                "s2_author_id": "92157440",
+                "name": "T. Qin"
+            },
+            {
+                "s2_author_id": "39614486",
+                "name": "B. Suri"
+            },
+            {
+                "s2_author_id": "50380085",
+                "name": "D. H. Kelley"
+            },
+            {
+                "s2_author_id": "50534820",
+                "name": "J. Tithof"
+            },
+            {
+                "s2_author_id": "96433876",
+                "name": "G. Horstmann"
+            },
+            {
+                "s2_author_id": "7261855",
+                "name": "H. Aluie"
+            },
+            {
+                "s2_author_id": "102791410",
+                "name": "Ravi Kumar Pallantla"
+            },
+            {
+                "s2_author_id": "1753223356",
+                "name": "J. Sanford"
+            },
+            {
+                "s2_author_id": "2108771455",
+                "name": "Jia Liu"
+            },
+            {
+                "s2_author_id": "2142651793",
+                "name": "Jia Liu"
+            },
+            {
+                "s2_author_id": "1399191783",
+                "name": "D. Borrero-Echeverry"
+            },
+            {
+                "s2_author_id": "74600543",
+                "name": "Brett Tregoning"
+            },
+            {
+                "s2_author_id": "145258373",
+                "name": "Joshua Barnett"
+            },
+            {
+                "s2_author_id": "49138117",
+                "name": "M. Yoda"
+            },
+            {
+                "s2_author_id": "5913991",
+                "name": "K. Krishan"
+            },
+            {
+                "s2_author_id": "1729074",
+                "name": "A. Handel"
+            },
+            {
+                "s2_author_id": "46329814",
+                "name": "P. Demchenko"
+            },
+            {
+                "s2_author_id": "93249352",
+                "name": "A. Denisultanov"
+            },
+            {
+                "s2_author_id": "153868133",
+                "name": "E. Sedykh"
+            },
+            {
+                "s2_author_id": "102904468",
+                "name": "A. A. Onushchenko"
+            },
+            {
+                "s2_author_id": "9232183",
+                "name": "M. Khodzitsky"
+            },
+            {
+                "s2_author_id": "10177795",
+                "name": "C. Marcotte"
+            },
+            {
+                "s2_author_id": "2066124800",
+                "name": "M. Schatz"
+            },
+            {
+                "s2_author_id": "8635227",
+                "name": "S. Sponberg"
+            },
+            {
+                "s2_author_id": "47719364",
+                "name": "C. Herndon"
+            },
+            {
+                "s2_author_id": "3886862",
+                "name": "I. Uzelac"
+            },
+            {
+                "s2_author_id": "2304972",
+                "name": "F. Fenton"
+            },
+            {
+                "s2_author_id": "70518635",
+                "name": "\u017d. Tukovi\u0107"
+            },
+            {
+                "s2_author_id": "2110974696",
+                "name": "Yaofa Li"
+            },
+            {
+                "s2_author_id": "66681858",
+                "name": "Samuel G. Raben"
+            },
+            {
+                "s2_author_id": "75077222",
+                "name": "D. Borrero"
+            },
+            {
+                "s2_author_id": "145010378",
+                "name": "G. Byrne"
+            },
+            {
+                "s2_author_id": "119841892",
+                "name": "Schatz Michael"
+            },
+            {
+                "s2_author_id": "2086125647",
+                "name": "Jean Bragard"
+            },
+            {
+                "s2_author_id": "2055779249",
+                "name": "A. Simic"
+            },
+            {
+                "s2_author_id": "144280726",
+                "name": "J. Elorza"
+            },
+            {
+                "s2_author_id": "143608184",
+                "name": "E. Cherry"
+            },
+            {
+                "s2_author_id": "34880183",
+                "name": "R. Gilmour"
+            },
+            {
+                "s2_author_id": "32499224",
+                "name": "N. Otani"
+            },
+            {
+                "s2_author_id": "117901680",
+                "name": "R. Mitchell"
+            },
+            {
+                "s2_author_id": "117810510",
+                "name": "Laura Anfinson"
+            },
+            {
+                "s2_author_id": "32437832",
+                "name": "Adam Perkins"
+            },
+            {
+                "s2_author_id": "92256920",
+                "name": "A. J. Pryor"
+            },
+            {
+                "s2_author_id": "2054420360",
+                "name": "Benjamin Chan"
+            },
+            {
+                "s2_author_id": "50457780",
+                "name": "D. Vainchtein"
+            },
+            {
+                "s2_author_id": "6952145",
+                "name": "John Widloski"
+            },
+            {
+                "s2_author_id": "145635811",
+                "name": "Sahand Akbari"
+            },
+            {
+                "s2_author_id": "71203458",
+                "name": "E. F. Greco"
+            },
+            {
+                "s2_author_id": "145462214",
+                "name": "Jennifer M. Rieser"
+            },
+            {
+                "s2_author_id": "50633678",
+                "name": "V. Sharma"
+            },
+            {
+                "s2_author_id": "4866695",
+                "name": "M. Srinivasarao"
+            },
+            {
+                "s2_author_id": "102587095",
+                "name": "Julian Antolin Camarena"
+            },
+            {
+                "s2_author_id": "49954583",
+                "name": "K. Kamei"
+            },
+            {
+                "s2_author_id": "2092718458",
+                "name": "N. Garnier"
+            },
+            {
+                "s2_author_id": "1392252958",
+                "name": "S. Rifkin"
+            },
+            {
+                "s2_author_id": "2068976651",
+                "name": "J. Carroll"
+            },
+            {
+                "s2_author_id": "2112607898",
+                "name": "Vivek Sharma"
+            },
+            {
+                "s2_author_id": "15023665",
+                "name": "I. Cohen"
+            },
+            {
+                "s2_author_id": "2252026",
+                "name": "S. Nagel"
+            },
+            {
+                "s2_author_id": "36397553",
+                "name": "M. Brenner"
+            },
+            {
+                "s2_author_id": "143919235",
+                "name": "J. Eggers"
+            },
+            {
+                "s2_author_id": "2634226",
+                "name": "T. Dupont"
+            },
+            {
+                "s2_author_id": "1784469",
+                "name": "M. Cross"
+            },
+            {
+                "s2_author_id": "39198624",
+                "name": "H. Schuster"
+            },
+            {
+                "s2_author_id": "145371473",
+                "name": "S. Lall"
+            },
+            {
+                "s2_author_id": "48834542",
+                "name": "G. Dullerud"
+            }
+        ],
+        "total_co_authors": 88,
+        "papers_retrieved": 150
+    }
+}

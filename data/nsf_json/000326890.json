@@ -1,0 +1,3650 @@
+{
+    "nsf_profile": {
+        "nsf_pi_id": "000326890",
+        "name": "C. R Ramakrishnan",
+        "primary_affiliation": "SUNY at Stony Brook",
+        "primary_department": null,
+        "all_affiliations": [
+            "SUNY at Stony Brook"
+        ],
+        "all_departments": [],
+        "perf_states": [
+            "NY"
+        ],
+        "perf_cities": [
+            "STONY BROOK"
+        ],
+        "org_names": [
+            "SUNY at Stony Brook"
+        ],
+        "org_ueis": [
+            "M746VC6XMNH9"
+        ],
+        "inst_types": [
+            "unknown"
+        ],
+        "emails": [
+            "cram@cs.stonybrook.edu"
+        ],
+        "roles": [
+            "Co-Principal Investigator"
+        ],
+        "awards": [
+            {
+                "nsf_award_id": "2504621",
+                "title": "Collaborative Research: NeTS: Medium: Optimized Detection and Localization of Events in Quantum Sensor Networks",
+                "type": "Continuing Grant",
+                "tran_type": "Grant",
+                "start_date": "2025-10-01",
+                "exp_date": "2029-09-30",
+                "award_amount": 719948.0,
+                "total_amount": 719948.0,
+                "is_collaborative": true,
+                "co_pi_ids": [
+                    "000283600",
+                    "000630725"
+                ],
+                "program_elements": [
+                    "Networking Technology and Syst"
+                ],
+                "program_codes": [
+                    "736300"
+                ],
+                "program_references": [
+                    "MEDIUM PROJECT",
+                    "QUANTUM INFORMATION SCIENCE"
+                ],
+                "program_ref_codes": [
+                    "7924",
+                    "7203"
+                ],
+                "dir_abbr": "CSE",
+                "div_abbr": "CNS",
+                "nsf_directorate": null,
+                "fund_division": "Division Of Computer and Network Systems",
+                "cfda_num": "47.070",
+                "po_name": "Hang Liu",
+                "keywords": [
+                    "quantum",
+                    "sensors",
+                    "sensing",
+                    "network",
+                    "qsns",
+                    "distributed",
+                    "state",
+                    "develop",
+                    "over",
+                    "localization"
+                ]
+            }
+        ],
+        "award_count": 1,
+        "co_pi_ids": [
+            "000630725",
+            "000283600"
+        ],
+        "program_elements": [
+            "Networking Technology and Syst"
+        ],
+        "program_codes": [
+            "736300"
+        ],
+        "program_references": [
+            "MEDIUM PROJECT",
+            "QUANTUM INFORMATION SCIENCE"
+        ],
+        "program_ref_codes": [
+            "7924",
+            "7203"
+        ],
+        "nsf_directorates": [],
+        "dir_abbrs": [
+            "CSE"
+        ],
+        "div_abbrs": [
+            "CNS"
+        ],
+        "fund_divisions": [
+            "Division Of Computer and Network Systems"
+        ],
+        "fund_agencies": [
+            "NSF"
+        ],
+        "cfda_nums": [
+            "47.070"
+        ],
+        "program_officers": [
+            "Hang Liu"
+        ],
+        "keywords": [
+            "quantum",
+            "sensors",
+            "sensing",
+            "network",
+            "qsns",
+            "distributed",
+            "state",
+            "develop",
+            "over",
+            "localization",
+            "sensor",
+            "physical",
+            "phenomena",
+            "many",
+            "applications",
+            "measurement",
+            "protocols",
+            "initial",
+            "error",
+            "circuits"
+        ],
+        "leadership_score": 1,
+        "experience_years": 0.38
+    },
+    "s2_profile": {
+        "s2_author_id": "144325968",
+        "name": "C. R Ramakrishnan",
+        "affiliations": [],
+        "paper_count": 124,
+        "citation_count": 2828,
+        "h_index": 29,
+        "papers": [
+            {
+                "s2_paper_id": "92d763f7b28fed01c161356b1d39b5c284b8ce73",
+                "title": "Distribution of Quantum Circuits Over General Quantum Networks",
+                "year": 2022,
+                "venue": "International Conference on Quantum Computing and Engineering",
+                "citation_count": 37,
+                "reference_count": 26,
+                "abstract": "Near-term quantum computers can hold only a small number of qubits. One way to facilitate large-scale quantum computations is through a distributed network of quantum computers. In this work, we consider the problem of distributing quantum programs represented as quantum circuits across a quantum network of heterogeneous quantum computers, in a way that minimizes the overall communication cost required to execute the distributed circuit. We consider two ways of communicating: cat-entanglement that creates linked copies of qubits across pairs of computers, and teleportation. The heterogeneous computers impose constraints on cat-entanglement and teleportation operations that can be chosen by an algorithm. We first focus on a special case that only allows cat-entanglements and not teleportations for communication. We provide a two-step heuristic for solving this specialized setting: (i) finding an assignment of qubits to computers using Tabu search, and (ii) using an iterative greedy algorithm designed for a constrained version of the set cover problem to determine cat-entanglement operations required to execute gates locally.For the general case, which allows both forms of communication, we propose two algorithms that subdivide the quantum circuit into several portions and apply the heuristic for the specialized setting on each portion. Teleportations are then used to stitch together the solutions for each portion. Finally, we simulate our algorithms on a wide range of randomly generated quantum networks and circuits, and study the properties of their results with respect to several varying parameters.",
+                "authors": [
+                    {
+                        "s2_author_id": "1666329863",
+                        "name": "Ranjani G. Sundaram"
+                    },
+                    {
+                        "s2_author_id": "2055613464",
+                        "name": "Himanshu Gupta"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9747a408da83af6e1f4db6170cb8286bd60c2ebb",
+                "title": "Pre-Distribution of Entanglements in Quantum Networks",
+                "year": 2022,
+                "venue": "International Conference on Quantum Computing and Engineering",
+                "citation_count": 21,
+                "reference_count": 31,
+                "abstract": "Quantum network communication is challenging, as the No-Cloning theorem in quantum regime makes many classical techniques inapplicable. For long-distance communication, the only viable approach is teleportation of quantum states, which requires a prior distribution of entangled pairs (EPs) of qubits. Establishment of EPs across remote nodes can incur significant latency due to the low probability of success of the underlying physical processes. To reduce EP generation latency, prior works have looked at selection of efficient entanglement-routing paths and simultaneous use of multiple such paths for EP generation.In this paper, we propose and investigate a complementary technique to reduce EP generation latency\u2014to pre-distribute EPs over certain (pre-determined) pairs of network nodes; these pre-distributed EPs can then be used to generate EPs for the requested pairs, when needed, with lower generation latency. For such a pre-distribution approach to be most effective, we need to address an optimization problem of selection of node-pairs where the EPs should be pre-distributed to minimize the generation latency of expected EP requests, under a given cost constraint. In this paper, we appropriately formulate the above optimization problem and design two efficient algorithms, one of which is a greedy approach based on an approximation algorithm for a special case. Via extensive evaluations over the NetSquid simulator [1], we demonstrate the effectiveness of our approach and developed techniques; we show that our developed algorithms outperform a naive approach by up to an order of magnitude.",
+                "authors": [
+                    {
+                        "s2_author_id": "1471429289",
+                        "name": "Mohammad Ghaderibaneh"
+                    },
+                    {
+                        "s2_author_id": "2055613464",
+                        "name": "Himanshu Gupta"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2164383384",
+                        "name": "Ertai Luo"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "693cdc00a9f75ed4685be72af92272bae302ecb3",
+                "title": "Efficient Distribution of Quantum Circuits",
+                "year": 2021,
+                "venue": "International Symposium on Distributed Computing",
+                "citation_count": 55,
+                "reference_count": 20,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1666329863",
+                        "name": "Ranjani G. Sundaram"
+                    },
+                    {
+                        "s2_author_id": "2055613464",
+                        "name": "Himanshu Gupta"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6dfb928fdb35958303687b277c12d9e244229476",
+                "title": "Efficient Quantum Network Communication Using Optimized Entanglement Swapping Trees",
+                "year": 2021,
+                "venue": "IEEE Transactions on Quantum Engineering",
+                "citation_count": 44,
+                "reference_count": 60,
+                "abstract": "Quantum network communication is challenging, as the no-cloning theorem in the quantum regime makes many classical techniques inapplicable; in particular, the direct transmission of qubit states over long distances is infeasible due to unrecoverable errors. For the long-distance communication of unknown quantum states, the only viable communication approach (assuming local operations and classical communications) is the teleportation of quantum states, which requires a prior distribution of the entangled pairs (EPs) of qubits. The establishment of EPs across remote nodes can incur significant latency due to the low probability of success of the underlying physical processes. The focus of our work is to develop efficient techniques that minimize EP generation latency. Prior works have focused on selecting entanglement paths; in contrast, we select entanglement swapping trees\u2014a more accurate representation of the entanglement generation structure. We develop a dynamic programming algorithm to select an optimal swapping tree for a single pair of nodes, under the given capacity and fidelity constraints. For the general setting, we develop an efficient iterative algorithm to compute a set of swapping trees. We present simulation results, which show that our solutions outperform the prior approaches by an order of magnitude and are viable for long-distance entanglement generation.",
+                "authors": [
+                    {
+                        "s2_author_id": "1471429289",
+                        "name": "Mohammad Ghaderibaneh"
+                    },
+                    {
+                        "s2_author_id": "8774554",
+                        "name": "Caitao Zhan"
+                    },
+                    {
+                        "s2_author_id": "2055613464",
+                        "name": "Himanshu Gupta"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0bf6fd1a61c2dd7c782b5adb24eacea1ef8f9af5",
+                "title": "Optimizing Value of Information Over an Infinite Time Horizon",
+                "year": 2019,
+                "venue": "IEEE International Conference on Tools with Artificial Intelligence",
+                "citation_count": 1,
+                "reference_count": 22,
+                "abstract": "Decision-making based on probabilistic reasoning often involves selecting a subset of expensive observations that best predict the system state. In an earlier work, adopting the general notion of value of information (VoI) first introduced by Krause and Guestrin, Ghosh and Ramakrishnan considered the problem of determining optimal conditional observation plans in temporal graphical models, based on non-myopic (non-greedy) VoI, over a finite time horizon. They cast the problem as determining optimal policies in finite-horizon, non-discounted Markov Decision Processes (MDPs). However, there are many practical scenarios where a time horizon is undefinable. In this paper, we consider the VoI optimization problem over an infinite (or equivalently, undefined) time horizon. Adopting an approach similar to Ghosh and Ramakrishnan's, we cast this problem as determining optimal policies in infinite-horizon, finite-state, discounted MDPs. Although our MDP-based framework addresses Dynamic Bayesian Networks (DBNs) that are more restricted than those addressed by Ghosh and Ramakrishnan, we incorporate Krause and Guestrin's general idea of VoI even though it was fundamentally envisioned for finite-horizon settings. We establish the utility of our approach on two graphical models based on real-world datasets.",
+                "authors": [
+                    {
+                        "s2_author_id": "1500376988",
+                        "name": "Sarthak Ghosh"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b37f47bbcabb110caac20df5cb4e4d481a87f9e6",
+                "title": "Value of Information in Probabilistic Logic Programs",
+                "year": 2019,
+                "venue": "ICLP Technical Communications",
+                "citation_count": 1,
+                "reference_count": 28,
+                "abstract": "In medical decision making, we have to choose among several expensive diagnostic tests such that the certainty about a patient's health is maximized while remaining within the bounds of resources like time and money. The expected increase in certainty in the patient's condition due to performing a test is called the value of information (VoI) for that test. In general, VoI relates to acquiring additional information to improve decision-making based on probabilistic reasoning in an uncertain system. This paper presents a framework for acquiring information based on VoI in uncertain systems modeled as Probabilistic Logic Programs (PLPs). Optimal decision-making in uncertain systems modeled as PLPs have already been studied before. But, acquiring additional information to further improve the results of making the optimal decision has remained open in this context. \nWe model decision-making in an uncertain system with a PLP and a set of top-level queries, with a set of utility measures over the distributions of these queries. The PLP is annotated with a set of atoms labeled as \"observable\"; in the medical diagnosis example, the observable atoms will be results of diagnostic tests. Each observable atom has an associated cost. This setting of optimally selecting observations based on VoI is more general than that considered by any prior work. Given a limited budget, optimally choosing observable atoms based on VoI is intractable in general. We give a greedy algorithm for constructing a \"conditional plan\" of observations: a schedule where the selection of what atom to observe next depends on earlier observations. We show that, preempting the algorithm anytime before completion provides a usable result, the result improves over time, and, in the absence of a well-defined budget, converges to the optimal solution.",
+                "authors": [
+                    {
+                        "s2_author_id": "1500376988",
+                        "name": "Sarthak Ghosh"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "c9ae725f718a7bf0317be9f6c9f2c0bdb5e2a51e",
+                "title": "Separable GPL: Decidable Model Checking with More Non-Determinism",
+                "year": 2018,
+                "venue": "International Conference on Concurrency Theory",
+                "citation_count": 1,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37976901",
+                        "name": "A. Gorlin"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e25d9917b8c4722d72cf8d9d0332d51b1d02a792",
+                "title": "Constraint-Based Inference in Probabilistic Logic Programs",
+                "year": 2018,
+                "venue": "Theory and Practice of Logic Programming",
+                "citation_count": 3,
+                "reference_count": 33,
+                "abstract": "Abstract Probabilistic Logic Programs (PLPs) generalize traditional logic programs and allow the encoding of models combining logical structure and uncertainty. In PLP, inference is performed by summarizing the possible worlds which entail the query in a suitable data structure, and using this data structure to compute the answer probability. Systems such as ProbLog, PITA, etc., use propositional data structures like explanation graphs, BDDs, SDDs, etc., to represent the possible worlds. While this approach saves inference time due to substructure sharing, there are a number of problems where a more compact data structure is possible. We propose a data structure called Ordered Symbolic Derivation Diagram (OSDD) which captures the possible worlds by means of constraint formulas. We describe a program transformation technique to construct OSDDs via query evaluation, and give procedures to perform exact and approximate inference over OSDDs. Our approach has two key properties. Firstly, the exact inference procedure is a generalization of traditional inference, and results in speedup over the latter in certain settings. Secondly, the approximate technique is a generalization of likelihood weighting in Bayesian Networks, and allows us to perform sampling-based inference with lower rejection rate and variance. We evaluate the effectiveness of the proposed techniques through experiments on several problems.",
+                "authors": [
+                    {
+                        "s2_author_id": "2315847",
+                        "name": "Arun Nampally"
+                    },
+                    {
+                        "s2_author_id": "2265990377",
+                        "name": "Timothy Zhang"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e1af36f5c40ef5aafd456b46fdfb0493ceda81df",
+                "title": "Optimal Value of Information in Dynamic Bayesian Networks",
+                "year": 2017,
+                "venue": "IEEE International Conference on Tools with Artificial Intelligence",
+                "citation_count": 3,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1500376988",
+                        "name": "Sarthak Ghosh"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "84fdf5d2e1b44b9c524d52b95b142345d232220a",
+                "title": "Inference in Probabilistic Logic Programs using Lifted Explanations",
+                "year": 2016,
+                "venue": "International Conference on Logic Programming",
+                "citation_count": 2,
+                "reference_count": 24,
+                "abstract": "In this paper, we consider the problem of lifted inference in the context of Prism-like probabilistic logic programming languages. Traditional inference in such languages involves the construction of an explanation graph for the query and computing probabilities over this graph. When evaluating queries over probabilistic logic programs with a large number of instances of random variables, traditional methods treat each instance separately. For many programs and queries, we observe that explanations can be summarized into substantially more compact structures, which we call lifted explanation graphs. In this paper, we define lifted explanation graphs and operations over them. In contrast to existing lifted inference techniques, our method for constructing lifted explanations naturally generalizes existing methods for constructing explanation graphs. To compute probability of query answers, we solve recurrences generated from the lifted graphs. We show examples where the use of our technique reduces the asymptotic complexity of inference.",
+                "authors": [
+                    {
+                        "s2_author_id": "2315847",
+                        "name": "Arun Nampally"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9ced9a7e34dafb17b49577ca4a810459b490c310",
+                "title": "XPL: An extended probabilistic logic for probabilistic transition systems",
+                "year": 2016,
+                "venue": "arXiv.org",
+                "citation_count": 2,
+                "reference_count": 28,
+                "abstract": "Generalized Probabilistic Logic (GPL) is a temporal logic, based on the modal mu-calculus, for specifying properties of reactive probabilistic systems. We explore XPL, an extension to GPL allowing the semantics of nondeterminism present in Markov decision processes (MDPs). XPL is expressive enough that a number of independently studied problems--- such as termination of Recursive MDPs (RMDPs), PCTL* model checking of MDPs, and reachability for Branching MDPs--- can all be cast as model checking over XPL. Termination of multi-exit RMDPs is undecidable; thus, model checking in XPL is undecidable in general. We define a subclass, called separable XPL, for which model checking is decidable. Decidable problems such as termination of 1-exit RMDPs, PCTL* model checking of MDPs, and reachability for Branching MDPs can be reduced to model checking separable XPL. Thus, XPL forms a uniform framework for studying problems involving systems with non-deterministic and probabilistic behaviors, while separable XPL provides a way to solve decidable fragments of these problems.",
+                "authors": [
+                    {
+                        "s2_author_id": "37976901",
+                        "name": "A. Gorlin"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec280bdd14870c5625d037c6fdcd53bae7f27c04",
+                "title": "Preface of the special issue on Model Checking of Software",
+                "year": 2016,
+                "venue": "International Journal on Software Tools for Technology Transfer (STTT)",
+                "citation_count": 3,
+                "reference_count": 16,
+                "abstract": "Software Model Checking consists of a broad collection of techniques to tackle the complexity and the diversity in the use of software in safety-critical systems. The contributions in this special issue address some of the core problems in software model checking. The articles are based on papers selected from the 2013 SPIN Symposium on Model Checking of Software, an annual forum for practitioners and researchers interested in symbolic and state space-based techniques for the validation and analysis of software systems.",
+                "authors": [
+                    {
+                        "s2_author_id": "46289371",
+                        "name": "E. Bartocci"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1abfeae60e4f128ae6f37776f4930b62889dca5f",
+                "title": "Using Statistical Model Checking for Measuring Systems",
+                "year": 2014,
+                "venue": "Leveraging Applications of Formal Methods",
+                "citation_count": 23,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1787208",
+                        "name": "R. Grosu"
+                    },
+                    {
+                        "s2_author_id": "1714627",
+                        "name": "D. Peled"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    },
+                    {
+                        "s2_author_id": "2173602",
+                        "name": "S. Stoller"
+                    },
+                    {
+                        "s2_author_id": "2109805924",
+                        "name": "Junxing Yang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cbe4cce2187c97d5e595f0dca6e42b0b58b2fe7b",
+                "title": "Compositional Branching-Time Measurements",
+                "year": 2014,
+                "venue": "FPS@ETAPS",
+                "citation_count": 2,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1787208",
+                        "name": "R. Grosu"
+                    },
+                    {
+                        "s2_author_id": "1714627",
+                        "name": "D. Peled"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    },
+                    {
+                        "s2_author_id": "2173602",
+                        "name": "S. Stoller"
+                    },
+                    {
+                        "s2_author_id": "2109805924",
+                        "name": "Junxing Yang"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f10214ea9f9c857dccc601bb914df06071fab7f5",
+                "title": "Adaptive MCMC-Based Inference in Probabilistic Logic Programs",
+                "year": 2014,
+                "venue": "arXiv.org",
+                "citation_count": 8,
+                "reference_count": 21,
+                "abstract": "Probabilistic Logic Programming (PLP) languages enable programmers to specify systems that combine logical models with statistical knowledge. The inference problem, to determine the probability of query answers in PLP, is intractable in general, thereby motivating the need for approximate techniques. In this paper, we present a technique for approximate inference of conditional probabilities for PLP queries. It is an Adaptive Markov Chain Monte Carlo (MCMC) technique, where the distribution from which samples are drawn is modified as the Markov Chain is explored. In particular, the distribution is progressively modified to increase the likelihood that a generated sample is consistent with evidence. In our context, each sample is uniquely characterized by the outcomes of a set of random variables. Inspired by reinforcement learning, our technique propagates rewards to random variable/outcome pairs used in a sample based on whether the sample was consistent or not. The cumulative rewards of each outcome is used to derive a new \"adapted distribution\" for each random variable. For a sequence of samples, the distributions are progressively adapted after each sample. For a query with \"Markovian evaluation structure\", we show that the adapted distribution of samples converges to the query's conditional probability distribution. For Markovian queries, we present a modified adaptation process that can be used in adaptive MCMC as well as adaptive independent sampling. We empirically evaluate the effectiveness of the adaptive sampling methods for queries with and without Markovian evaluation structure.",
+                "authors": [
+                    {
+                        "s2_author_id": "2315847",
+                        "name": "Arun Nampally"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6bc89403441a1ec07162d6cfb559b30d813f3876",
+                "title": "Model Checking Software",
+                "year": 2013,
+                "venue": "Lecture Notes in Computer Science",
+                "citation_count": 2,
+                "reference_count": 44,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46289371",
+                        "name": "E. Bartocci"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fb1aaebae957c8f716cbc7ea1c358306091dfaa7",
+                "title": "Model Checking Software: 20th International Symposium, SPIN 2013, Stony Brook, NY, USA, July 8-9, 2013, Proceedings",
+                "year": 2013,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46289371",
+                        "name": "E. Bartocci"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "38b3a24526d0adc6bf3c37bd279f5bf32aa38bd5",
+                "title": "Parameter Learning in PRISM Programs with Continuous Random Variables",
+                "year": 2012,
+                "venue": "arXiv.org",
+                "citation_count": 7,
+                "reference_count": 28,
+                "abstract": "Probabilistic Logic Programming (PLP), exemplified by Sato and Kameya's PRISM, Poole's ICL, De Raedt et al's ProbLog and Vennekens et al's LPAD, combines statistical and logical knowledge representation and inference. Inference in these languages is based on enumerative construction of proofs over logic programs. Consequently, these languages permit very limited use of random variables with continuous distributions. In this paper, we extend PRISM with Gaussian random variables and linear equality constraints, and consider the problem of parameter learning in the extended language. Many statistical models such as finite mixture models and Kalman filter can be encoded in extended PRISM. Our EM-based learning algorithm uses a symbolic inference procedure that represents sets of derivations without enumeration. This permits us to learn the distribution parameters of extended PRISM programs with discrete as well as Gaussian variables. The learning algorithm naturally generalizes the ones used for PRISM and Hybrid Bayesian Networks.",
+                "authors": [
+                    {
+                        "s2_author_id": "3020758",
+                        "name": "M. Islam"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "01b96be999c543d6b78c93644034f4e95f71b440",
+                "title": "Inference in probabilistic logic programs with continuous random variables",
+                "year": 2011,
+                "venue": "Theory and Practice of Logic Programming",
+                "citation_count": 27,
+                "reference_count": 38,
+                "abstract": "Abstract Probabilistic Logic Programming (PLP), exemplified by Sato and Kameya's PRISM, Poole's ICL, Raedt et al.'s ProbLog and Vennekens et al.'s LPAD, is aimed at combining statistical and logical knowledge representation and inference. However, the inference techniques used in these works rely on enumerating sets of explanations for a query answer. Consequently, these languages permit very limited use of random variables with continuous distributions. In this paper, we present a symbolic inference procedure that uses constraints and represents sets of explanations without enumeration. This permits us to reason over PLPs with Gaussian or Gamma-distributed random variables (in addition to discrete-valued random variables) and linear equality constraints over reals. We develop the inference procedure in the context of PRISM; however the procedure's core ideas can be easily applied to other PLP languages as well. An interesting aspect of our inference procedure is that PRISM's query evaluation process becomes a special case in the absence of any continuous random variables in the program. The symbolic inference procedure enables us to reason over complex probabilistic models such as Kalman filters and a large subclass of Hybrid Bayesian networks that were hitherto not possible in PLP frameworks.",
+                "authors": [
+                    {
+                        "s2_author_id": "3020758",
+                        "name": "M. Islam"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4f5e0ed48327d64a02911806c813f75a93a820b0",
+                "title": "Model Repair for Probabilistic Systems",
+                "year": 2011,
+                "venue": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
+                "citation_count": 130,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "46289371",
+                        "name": "E. Bartocci"
+                    },
+                    {
+                        "s2_author_id": "1787208",
+                        "name": "R. Grosu"
+                    },
+                    {
+                        "s2_author_id": "1769355",
+                        "name": "P. Katsaros"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "172d0bfdb81d36f324530c8a9b53e9288530d82b",
+                "title": "Automated construction of web accessibility models from transaction click-streams",
+                "year": 2009,
+                "venue": "The Web Conference",
+                "citation_count": 11,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145359935",
+                        "name": "J. Mahmud"
+                    },
+                    {
+                        "s2_author_id": "2133004",
+                        "name": "Y. Borodin"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9e82aeeb1e9a00a37daf2aaa859508409ed13f79",
+                "title": "Symbolic reachability analysis for parameterized administrative role based access control",
+                "year": 2009,
+                "venue": "ACM Symposium on Access Control Models and Technologies",
+                "citation_count": 46,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2173602",
+                        "name": "S. Stoller"
+                    },
+                    {
+                        "s2_author_id": "145631820",
+                        "name": "Ping Yang"
+                    },
+                    {
+                        "s2_author_id": "17433005",
+                        "name": "M. Gofman"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a681a0ee9fadcf8c0c6543bbaf39f6b8ecfce0f1",
+                "title": "Query-Based Model Checking of Ad Hoc Network Protocols",
+                "year": 2009,
+                "venue": "International Conference on Concurrency Theory",
+                "citation_count": 32,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2200390952",
+                        "name": "Anu Singh"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "da38377b9b9f793e23698543ac841598053bd32c",
+                "title": "Modeling and verification techniques for ad hoc network protocols",
+                "year": 2009,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    },
+                    {
+                        "s2_author_id": "2200390952",
+                        "name": "Anu Singh"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0f81aa790a2cd7d178e1d27961d03e2dfefcac74",
+                "title": "Constraint-based Analysis of Security Properties",
+                "year": 2008,
+                "venue": "",
+                "citation_count": 3,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1403834578",
+                        "name": "B. Sarna-Starosta"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "593b7b2100632dc6ad306976475f2b26767c41e6",
+                "title": "Power Optimization in Fault-Tolerant Mobile Ad Hoc Networks",
+                "year": 2008,
+                "venue": "2008 11th IEEE High Assurance Systems Engineering Symposium",
+                "citation_count": 8,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3121105",
+                        "name": "O. Riganelli"
+                    },
+                    {
+                        "s2_author_id": "1787208",
+                        "name": "R. Grosu"
+                    },
+                    {
+                        "s2_author_id": "1691843",
+                        "name": "Samir R Das"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "800e899612ee5df73760a3b91bad3c5497d7fa15",
+                "title": "A process calculus for Mobile Ad Hoc Networks",
+                "year": 2008,
+                "venue": "Science of Computer Programming",
+                "citation_count": 140,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2200390952",
+                        "name": "Anu Singh"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "155493603ddfd0577103592dec995556ebd4b5f7",
+                "title": "Efficient policy analysis for administrative role based access control",
+                "year": 2007,
+                "venue": "Conference on Computer and Communications Security",
+                "citation_count": 135,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2173602",
+                        "name": "S. Stoller"
+                    },
+                    {
+                        "s2_author_id": "145631820",
+                        "name": "Ping Yang"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "17433005",
+                        "name": "M. Gofman"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3256f65e8e8761849c3e215a1498ef9ada67e80c",
+                "title": "Security policy analysis using deductive spreadsheets",
+                "year": 2007,
+                "venue": "Formal Methods in Security Engineering",
+                "citation_count": 10,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2200390952",
+                        "name": "Anu Singh"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2173602",
+                        "name": "S. Stoller"
+                    },
+                    {
+                        "s2_author_id": "2678443",
+                        "name": "D. Warren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "43462a64736b43eaf1f3122592b16b48a3d01914",
+                "title": "Precise specification matching for adaptive reuse in embedded systems",
+                "year": 2007,
+                "venue": "Journal of Applied Logic",
+                "citation_count": 1,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2218957473",
+                        "name": "Hai-Feng Guo"
+                    },
+                    {
+                        "s2_author_id": "2144067317",
+                        "name": "Miao Liu"
+                    },
+                    {
+                        "s2_author_id": "1737321",
+                        "name": "P. Roop"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5ff41d2d8e7f269dd3b54bbb22a4fd85ffaec1fb",
+                "title": "An Analysis Technique for ExtractingDeterminacy in Logic Programs ySteven",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2059260015",
+                        "name": "Dawson"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2237523136",
+                        "name": "C. R"
+                    },
+                    {
+                        "s2_author_id": "2103817256",
+                        "name": "SekarDept"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "603822b48ce9d84e31dc6ae7bfc5d34e622226e3",
+                "title": "Real-Time Veri ation Te hniquesfor Untimed",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2101419972",
+                        "name": "SystemsXiaoqun"
+                    },
+                    {
+                        "s2_author_id": "2057846189",
+                        "name": "Du"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "108691421",
+                        "name": "A. Sott"
+                    },
+                    {
+                        "s2_author_id": "2097550243",
+                        "name": "SmolkaDepartment"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8e4ecdfc28f8201d90a821b4a7e910a1b27b24dc",
+                "title": "XcelLog: a deductive spreadsheet system",
+                "year": 2007,
+                "venue": "Knowledge engineering review (Print)",
+                "citation_count": 6,
+                "reference_count": 32,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2678443",
+                        "name": "D. Warren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "96a312b0588d066b6b8ed84bbe147ba0e8a1e84a",
+                "title": "Compiling Constraint Handling Rules for Efficient Tabled Evaluation",
+                "year": 2007,
+                "venue": "International Symposium on Practical Aspects of Declarative Languages",
+                "citation_count": 27,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1403834578",
+                        "name": "B. Sarna-Starosta"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "96db4335e1a5abea902d6041635200e24e0242c3",
+                "title": "Region Graphs for In nite-State Systems",
+                "year": 2007,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2195582",
+                        "name": "Xiaoqun Du"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5d018a99e8b69f75e0bccc69ce1946f3231f9bc1",
+                "title": "Deductive Spreadsheets Using Tabled Logic Programming",
+                "year": 2006,
+                "venue": "International Conference on Logic Programming",
+                "citation_count": 12,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2678443",
+                        "name": "D. Warren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "750fba9db9d3c480b4b3bb3b05b8c2b4887cda8a",
+                "title": "MODELNG THE AODV ROUTING PROTOCOL IN THE \u03c9-CALCULUS",
+                "year": 2006,
+                "venue": "2006 IEEE Long Island Systems, Applications and Technology Conference",
+                "citation_count": 4,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2200390952",
+                        "name": "Anu Singh"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7d776667601cb7b30f27844a4838660d2734f71b",
+                "title": "Parameterized Verification of pi-Calculus Systems",
+                "year": 2006,
+                "venue": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
+                "citation_count": 6,
+                "reference_count": 45,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145631820",
+                        "name": "Ping Yang"
+                    },
+                    {
+                        "s2_author_id": "34718226",
+                        "name": "Samik Basu"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b812e6bbcd8f7e92fd66b0b7d40998f3c6a17519",
+                "title": "Policy analysis for administrative role based access control",
+                "year": 2006,
+                "venue": "19th IEEE Computer Security Foundations Workshop (CSFW'06)",
+                "citation_count": 137,
+                "reference_count": 57,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3063522",
+                        "name": "Amit Sasturkar"
+                    },
+                    {
+                        "s2_author_id": "145631820",
+                        "name": "Ping Yang"
+                    },
+                    {
+                        "s2_author_id": "2173602",
+                        "name": "S. Stoller"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d52bfa03a8d01c7f81e1fde3462c387ae2a47785",
+                "title": "Incremental Evaluation of Tabled Prolog: Beyond Pure Logic Programs",
+                "year": 2006,
+                "venue": "International Symposium on Practical Aspects of Declarative Languages",
+                "citation_count": 22,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39376048",
+                        "name": "Diptikalyan Saha"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "edc8f60e8c5417dbc17695c2bd54513d52dc6f72",
+                "title": "A Local Algorithm for Incremental Evaluation of Tabled Logic Programs",
+                "year": 2006,
+                "venue": "International Conference on Logic Programming",
+                "citation_count": 21,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39376048",
+                        "name": "Diptikalyan Saha"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "041dabfd575628ee46b300d1c6ead8346b5c35c9",
+                "title": "Incremental and demand-driven points-to analysis using logic programming",
+                "year": 2005,
+                "venue": "ACM-SIGPLAN International Conference on Principles and Practice of Declarative Programming",
+                "citation_count": 81,
+                "reference_count": 50,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39376048",
+                        "name": "Diptikalyan Saha"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1362c31ebbc232b5e43caafaed5b195ca8c05eef",
+                "title": "Symbolic Support Graph: A Space Efficient Data Structure for Incremental Tabled Evaluation",
+                "year": 2005,
+                "venue": "International Conference on Logic Programming",
+                "citation_count": 20,
+                "reference_count": 36,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39376048",
+                        "name": "Diptikalyan Saha"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "39e7f89088455d9392eeccfbba509c55e7f802ae",
+                "title": "Model-checking of distributed autonomous agents using logic programming",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "143919077",
+                        "name": "L. R. Pokorny"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "625f1eab3b81cdcdc2bbca61057ed8ab84157d76",
+                "title": "A Provably Correct Compiler for Efficient Model Checking of Mobile Processes",
+                "year": 2005,
+                "venue": "International Symposium on Practical Aspects of Declarative Languages",
+                "citation_count": 2,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145631820",
+                        "name": "Ping Yang"
+                    },
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8f68fa22f7c47713fb3250492aedd080c23f9590",
+                "title": "Efficient verification of concurrent systems with timed components",
+                "year": 2005,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1777645",
+                        "name": "Giridhar Pemmasani"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "02c852694a9c8a2c49700a5944b5237aca005b1c",
+                "title": "Unfold/Fold Transformations for Automated Verification of Parameterized Concurrent Systems",
+                "year": 2004,
+                "venue": "Program Development in Computational Logic",
+                "citation_count": 7,
+                "reference_count": 54,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1789700",
+                        "name": "Abhik Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "205d5edd82192731002a694d192158c187041d96",
+                "title": "Introduction to the special issue on Verification and Computational Logic",
+                "year": 2004,
+                "venue": "Theory and Practice of Logic Programming",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1729481",
+                        "name": "M. Leuschel"
+                    },
+                    {
+                        "s2_author_id": "1803881",
+                        "name": "A. Podelski"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1399330009",
+                        "name": "U. Ultes-Nitsche"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "b7efc4305c2a42bf7dd96470986ac4dd7c0ce117",
+                "title": "An unfold/fold transformation framework for definite logic programs",
+                "year": 2004,
+                "venue": "TOPL",
+                "citation_count": 28,
+                "reference_count": 49,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1789700",
+                        "name": "Abhik Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "144576381",
+                        "name": "K. Kumar"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0ff725c237905824babbb4aebab787b4e2588239",
+                "title": "Incremental Evaluation of Tabled Logic Programs",
+                "year": 2003,
+                "venue": "International Conference on Logic Programming",
+                "citation_count": 59,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "39376048",
+                        "name": "Diptikalyan Saha"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "11857fe5152d7656dfb3aa68e679179cfc026d5e",
+                "title": "Online Justification for Tabled Logic Programs",
+                "year": 2003,
+                "venue": "Fuji International Symposium on Functional and Logic Programming",
+                "citation_count": 41,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1777645",
+                        "name": "Giridhar Pemmasani"
+                    },
+                    {
+                        "s2_author_id": "2218957473",
+                        "name": "Hai-Feng Guo"
+                    },
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "12ff879b41a4ed6a35baff6b732d5a5bd56143fc",
+                "title": "Evidence Exploration for Model Checking",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "356c19ca59d03816fc69fcb773637c397cd79f18",
+                "title": "Justification Based on Program Transformation (Extended Abstract)",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 7,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2218957473",
+                        "name": "Hai-Feng Guo"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5ec7c11faae4f6e1b8069434b082243d62a51bd8",
+                "title": "Evidence Explorer: A Tool for Exploring Model-Checking Proofs",
+                "year": 2003,
+                "venue": "International Conference on Computer Aided Verification",
+                "citation_count": 10,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6f2b520b6a78e6dad9c82b4c62d0a8f2f9415595",
+                "title": "Model checking and evidence exploration",
+                "year": 2003,
+                "venue": "10th IEEE International Conference and Workshop on the Engineering of Computer-Based Systems, 2003. Proceedings.",
+                "citation_count": 23,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9a4546092e2aa534b7f97a4d9a2ca2b174db61d1",
+                "title": "Techniques for verification of infinite state systems",
+                "year": 2003,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "34718226",
+                        "name": "Samik Basu"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d0fe9d6bde8b2beab00d168676dbf9c6753da077",
+                "title": "Constraint-Based Model Checking of Data-Independent Systems",
+                "year": 2003,
+                "venue": "IEEE International Conference on Formal Engineering Methods",
+                "citation_count": 16,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1403834578",
+                        "name": "B. Sarna-Starosta"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0e2c345e2e0fbda8200dc1586da9042417040411",
+                "title": "Vacuity Checking in the Modal Mu-Calculus",
+                "year": 2002,
+                "venue": "International Conference on Algebraic Methodology and Software Technology",
+                "citation_count": 15,
+                "reference_count": 25,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "1403834578",
+                        "name": "B. Sarna-Starosta"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3548fea214d3451029e2c1d248ea24e3656ec352",
+                "title": "Resource-Constrained Model Checking of Recursive Programs",
+                "year": 2002,
+                "venue": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
+                "citation_count": 11,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34718226",
+                        "name": "Samik Basu"
+                    },
+                    {
+                        "s2_author_id": "144576381",
+                        "name": "K. Kumar"
+                    },
+                    {
+                        "s2_author_id": "143919077",
+                        "name": "L. R. Pokorny"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "93c5d6821c2faac14eef4a8862ec1c1bbd418ca3",
+                "title": "Efficient Real-Time Model Checking Using Tabled Logic Programming and Constraints",
+                "year": 2002,
+                "venue": "International Conference on Logic Programming",
+                "citation_count": 13,
+                "reference_count": 28,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1777645",
+                        "name": "Giridhar Pemmasani"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a406b4945ef47eb00d9caff6c6c21af58dea0115",
+                "title": "Justification Based on Program Transformation",
+                "year": 2002,
+                "venue": "International Workshop/Symposium on Logic-based Program Synthesis and Transformation",
+                "citation_count": 7,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2218957473",
+                        "name": "Hai-Feng Guo"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f2ebf555b54e826b36d8cbd11b86326e0dd0d02d",
+                "title": "Model-based analysis of configuration vulnerabilities",
+                "year": 2002,
+                "venue": "Journal of computing and security",
+                "citation_count": 130,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144790375",
+                        "name": "R. Sekar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f37cf07abc6d6a70cc1ca48717379ac7d0fe49af",
+                "title": "Model Checking with Tabled Logic Programming",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 35,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f3c18f89902d194687c3bc4723049398ee94fff2",
+                "title": "Practical aspects of declarative languages : 4th International Symposium, PADL 2002, Portland, OR, USA, January 19-20, 2002 : proceedings",
+                "year": 2002,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1724479",
+                        "name": "S. Krishnamurthi"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0a3c3cc3383d8741c1b499a295699ec595283174",
+                "title": "Proceedings of the Third International Symposium on Practical Aspects of Declarative Languages",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1724479",
+                        "name": "S. Krishnamurthi"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "0c1e0910d95d7f6e891a6c84d6db90e574921599",
+                "title": "Speculative Beats Conservative Justification",
+                "year": 2001,
+                "venue": "International Conference on Logic Programming",
+                "citation_count": 8,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2218957473",
+                        "name": "Hai-Feng Guo"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2238bd6ef2d3f31f1a3691188a4244f25977a463",
+                "title": "Local and Symbolic Bisimulation Using Tabled Constraint Logic Programming",
+                "year": 2001,
+                "venue": "International Conference on Logic Programming",
+                "citation_count": 30,
+                "reference_count": 12,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "34718226",
+                        "name": "Samik Basu"
+                    },
+                    {
+                        "s2_author_id": "2272478",
+                        "name": "Madhavan Mukund"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144686389",
+                        "name": "Rakesh M. Verma"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5a21fe447e33752087ee71370e49dd0c72b93d44",
+                "title": "Eeect of Time Delay in Network Traac Control",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1694760",
+                        "name": "S. Kalyanaraman"
+                    },
+                    {
+                        "s2_author_id": "1710313",
+                        "name": "J. Wen"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be684625aec9eb83a0db2285daedbd4cd422e90f",
+                "title": "Call for Papers Verification and Computational Logic Special Issue of Theory and Practice of Logic Programming",
+                "year": 2001,
+                "venue": "Theory and Practice of Logic Programming",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1729481",
+                        "name": "M. Leuschel"
+                    },
+                    {
+                        "s2_author_id": "1803881",
+                        "name": "A. Podelski"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1399330009",
+                        "name": "U. Ultes-Nitsche"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cfb7df3fa587465d5629e4c4441d0d68b34458f5",
+                "title": "Proceedings of the ACM Sigplan Workshop on Verification and Computational Logic VCL'2001",
+                "year": 2001,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1729481",
+                        "name": "M. Leuschel"
+                    },
+                    {
+                        "s2_author_id": "1803881",
+                        "name": "A. Podelski"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1399330009",
+                        "name": "U. Ultes-Nitsche"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "e8ef25a9c23b2cf1b1879822cd7abc25c0c2460a",
+                "title": "Alternating Fixed Points in Boolean Equation Systems as Preferred Stable Models",
+                "year": 2001,
+                "venue": "International Conference on Logic Programming",
+                "citation_count": 8,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144576381",
+                        "name": "K. Kumar"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "fdead5e46b3a325c23d00a5ae0eda39e54a32b79",
+                "title": "Model-Carrying Code (MCC): a new paradigm for mobile-code security",
+                "year": 2001,
+                "venue": "New Security Paradigms Workshop",
+                "citation_count": 61,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144790375",
+                        "name": "R. Sekar"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "123935c4e922e62562049ebb7d4997cb2b26e269",
+                "title": "Verification of Parameterized Systems Using Logic Program Transformations",
+                "year": 2000,
+                "venue": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
+                "citation_count": 56,
+                "reference_count": 40,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1789700",
+                        "name": "Abhik Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "144576381",
+                        "name": "K. Kumar"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1ba5e6e44edd972e420ad2a313df9d8a12e24bdb",
+                "title": "Tabled logic programming for verification and program analysis",
+                "year": 2000,
+                "venue": "SOEN",
+                "citation_count": 0,
+                "reference_count": 8,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "29557958445618d276d67eaaa643453c8d29ddfd",
+                "title": "Proceedings of the Workshop on Verification and Computational Logic VCL'2000",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1729481",
+                        "name": "M. Leuschel"
+                    },
+                    {
+                        "s2_author_id": "1803881",
+                        "name": "A. Podelski"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1399330009",
+                        "name": "U. Ultes-Nitsche"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2b28eed5d005084ef5b457ad72f70ad307d2bfff",
+                "title": "Real-Time Verification Techniques for Untimed Systems",
+                "year": 2000,
+                "venue": "MTCS",
+                "citation_count": 10,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2195582",
+                        "name": "Xiaoqun Du"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "34f5ccd75e29dc30e43a4fd5f98909d9550f3230",
+                "title": "Specification and evaluation of logic-based model checking",
+                "year": 2000,
+                "venue": "SOEN",
+                "citation_count": 2,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    },
+                    {
+                        "s2_author_id": "2678443",
+                        "name": "D. Warren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "3555895df163bb95cca05635342f6341e4584454",
+                "title": "Symboli Bisimulation using Tabled Constraint Logi",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2096898860",
+                        "name": "ProgrammingMadhavan"
+                    },
+                    {
+                        "s2_author_id": "47206940",
+                        "name": "Mukund"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1561734029",
+                        "name": "Rakesh M. Verma"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "57b430c1d87638d0d4a0dbdaba577357453b0322",
+                "title": "Model Checking Linear Temporal Logic Using Tabled Logic Programming",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 10,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143919077",
+                        "name": "L. R. Pokorny"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "91527dcef949d89bee4834e4ddb1ebf360608668",
+                "title": "Verification Using Tabled Logic Programming",
+                "year": 2000,
+                "venue": "International Conference on Concurrency Theory",
+                "citation_count": 0,
+                "reference_count": 22,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "95033e6e84ef12e64eef5aec897ffdbc957edb84",
+                "title": "Tabled resolution and constraints for model checking real-time systems and infinite-state systems",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 0,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2195582",
+                        "name": "Xiaoqun Du"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ad08225c4a75ec304d42d0985f874533cf71a177",
+                "title": "Tabled resolution + constraints: a recipe for model checking real-time systems",
+                "year": 2000,
+                "venue": "Proceedings 21st IEEE Real-Time Systems Symposium",
+                "citation_count": 29,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2195582",
+                        "name": "Xiaoqun Du"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "be65447e59ee58319d39d771c2c7680ee9c03fba",
+                "title": "Symbolic Bisimulation using Tabled Constraint Logic Programming",
+                "year": 2000,
+                "venue": "",
+                "citation_count": 7,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2272478",
+                        "name": "Madhavan Mukund"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144686389",
+                        "name": "Rakesh M. Verma"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "dc10e70affd3104100742467f91ebd14e79d4bcc",
+                "title": "XMC: A Logic-Programming-Based Verification Toolset",
+                "year": 2000,
+                "venue": "International Conference on Computer Aided Verification",
+                "citation_count": 72,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    },
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "2195582",
+                        "name": "Xiaoqun Du"
+                    },
+                    {
+                        "s2_author_id": "1789700",
+                        "name": "Abhik Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "1797303",
+                        "name": "V. Venkatakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ff8728c66d097abb84fe9df6594f74de9afdbdea",
+                "title": "Justifying proofs using memo tables",
+                "year": 2000,
+                "venue": "ACM-SIGPLAN International Conference on Principles and Practice of Declarative Programming",
+                "citation_count": 44,
+                "reference_count": 33,
+                "abstract": "Tableau-based proof systems can be elegantly speci ed and directly executed by a tabled Logic Programming (LP) system. Our experience with the XMC model checker shows that such an encoding can be used to search for the existence of a proof very eAEciently. However, the users of a tableau system are often interested in getting suAEcient evidence (in terms of the tableau proof rules) on why a proof does or does not exist. In this paper, we address the problem of constructing such an evidence without introducing any additional computational overhead to the proof search. A tabled LP system maintains a memo table of \\lemmas\" that were tried and possibly proved during query evaluation. We propose the concept of justi er for extracting suAEcient evidence for the truth or falsehood of literals in a logic program, by post-processing the memo tables created during query evaluation. Based on this logic program justi er, we show how to construct evidence for the presence/absence of tableau in a tableau-based proof system. We provide experimental results showing the e ectiveness of the justi er in constructing succinct evidence of the evaluation performed by the XMC model checker. Finally we discuss the role of the justi er as a programming abstraction for encoding efcient algorithms as tabled logic programs.",
+                "authors": [
+                    {
+                        "s2_author_id": "1789700",
+                        "name": "Abhik Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "03caf58fdfb64d7165dbf1ae17669ac2f6bc6ac2",
+                "title": "Optimal processor allocation for sort-last compositing under BSP-tree ordering",
+                "year": 1999,
+                "venue": "Electronic imaging",
+                "citation_count": 13,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2213758938",
+                        "name": "Cl\u00e1udio T. Silva"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "27441cbccede66ea2b9dbe36f2b8215953641c27",
+                "title": "Normalization via Rewrite Closures",
+                "year": 1999,
+                "venue": "International Conference on Rewriting Techniques and Applications",
+                "citation_count": 11,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1683055",
+                        "name": "L. Bachmair"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145219494",
+                        "name": "A. Tiwari"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4df3756de686fb34c29a4751084b0a42743c66ea",
+                "title": "Beyond Tamaki-Sato Style Unfold/Fold Transformations for Normal Logic Programs",
+                "year": 1999,
+                "venue": "International Journal of Foundations of Computer Science",
+                "citation_count": 27,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1789700",
+                        "name": "Abhik Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "144576381",
+                        "name": "K. Kumar"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4f2e919b775e46d07f7a27a1948ac29d30b2b3b9",
+                "title": "A Parameterized Unfold/Fold Transformation Framework for Definite Logic Programs",
+                "year": 1999,
+                "venue": "ACM-SIGPLAN International Conference on Principles and Practice of Declarative Programming",
+                "citation_count": 22,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1789700",
+                        "name": "Abhik Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "144576381",
+                        "name": "K. Kumar"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "522824df93f34d4b942b5de207c0901af7c8cb36",
+                "title": "A Space Efficient Engine for Subsumption-Based Tabled Evaluation of Logic Programs",
+                "year": 1999,
+                "venue": "Fuji International Symposium on Functional and Logic Programming",
+                "citation_count": 23,
+                "reference_count": 17,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145106643",
+                        "name": "Ernie Johnson"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "150264348",
+                        "name": "Prasad Rao"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6738c54bc5a3348e3327427bdd19373030c34eff",
+                "title": "Veri ation of Parameterized Systems UsingLogi Program Transformations ?",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 4,
+                "reference_count": 1,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2078826617",
+                        "name": "Abhik Roy houdhury"
+                    },
+                    {
+                        "s2_author_id": "144576381",
+                        "name": "K. Kumar"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8103e124ca9d496ae8f43eb4e19e1e9f9057dc6b",
+                "title": "Proofsby Program Transformations",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 57,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1789700",
+                        "name": "Abhik Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "71139165",
+                        "name": "K. NarayanKumar"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9a78a290c9d40c7252097bf95bc602891d323f6f",
+                "title": "Fighting Livelock in the i-Protocol: A Comparative Study of Verification Tools",
+                "year": 1999,
+                "venue": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
+                "citation_count": 60,
+                "reference_count": 21,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "2195582",
+                        "name": "Xiaoqun Du"
+                    },
+                    {
+                        "s2_author_id": "145467275",
+                        "name": "Y. S. Ramakrishna"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    },
+                    {
+                        "s2_author_id": "1681081",
+                        "name": "O. Sokolsky"
+                    },
+                    {
+                        "s2_author_id": "2761505",
+                        "name": "E. W. Stark"
+                    },
+                    {
+                        "s2_author_id": "2678443",
+                        "name": "D. Warren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "9f8fec81de781ba8f15a9b6f0dab944a167e9742",
+                "title": "An Optimizing Compiler for E cient Model CheckingYifei",
+                "year": 1999,
+                "venue": "",
+                "citation_count": 6,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "a3bcd1272b9fafdc074f3612ffee950dcceff216",
+                "title": "An Optimizing Compiler for Efficient Model Checking",
+                "year": 1999,
+                "venue": "Formal Techniques for (Networked and) Distributed Systems",
+                "citation_count": 26,
+                "reference_count": 30,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "17246960f3e6653fd676497f0be112c2bb4389e0",
+                "title": "On the Optimality of Scheduling Strategies in Subsumption-based Tabled Resolution",
+                "year": 1998,
+                "venue": "IJCSLP",
+                "citation_count": 1,
+                "reference_count": 11,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "150264348",
+                        "name": "Prasad Rao"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "212c30c46adf0b75d57ec4e81190b3ad914350d4",
+                "title": "Fully Local and Efficient Evaluation of Alternating Fixed Points (Extended Abstract)",
+                "year": 1998,
+                "venue": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
+                "citation_count": 65,
+                "reference_count": 27,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "2144482569",
+                        "name": "Xinxin Liu"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "289936719143b537614805df9bace3da72982ba2",
+                "title": "A conservative technique to improve deterministic evaluation of logic programs",
+                "year": 1998,
+                "venue": "Proceedings of the 1998 International Conference on Computer Languages (Cat. No.98CB36225)",
+                "citation_count": 2,
+                "reference_count": 37,
+                "abstract": "The performance of logic programs can be significantly improved by reducing nondeterminism in their evaluation using techniques for early pruning of computation paths that would eventually fail. Using static information gleaned from the program, we can identify (simple) conditions that must hold for certain computation paths to succeed, and test them before searching along those paths. However, naive introduction of such tests can actually lead to performance degradation since tests may be repeated along a branch, and also because the tests themselves may create additional choice points. We therefore develop a program transformation algorithm that enables us to introduce only those tests that facilitate early pruning of failure branches, while providing formal guarantees against any performance degradation. Our transformation is based on a novel polyvariant program specialization technique that can reason about the relative execution times of the original and transformed programs. We present results of a prototype implementation that shows the effectiveness of our approach.",
+                "authors": [
+                    {
+                        "s2_author_id": "1789700",
+                        "name": "Abhik Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144790375",
+                        "name": "R. Sekar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4458d9871f5ce69acbb5b36e70ff69fea5288e58",
+                "title": "Model-Based Vulnerability Analysis of Computer Systems",
+                "year": 1998,
+                "venue": "",
+                "citation_count": 45,
+                "reference_count": 19,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144790375",
+                        "name": "R. Sekar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "47dfc19cb181ee4e6fb75c397d58fba1035cc789",
+                "title": "Tabulation-based Induction Proofs with Application to Automated Verification",
+                "year": 1998,
+                "venue": "Tabulation in Parsing and Deduction",
+                "citation_count": 4,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1789700",
+                        "name": "Abhik Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "cee4ecb5d2048b94817f91b6c68b072c1155dae0",
+                "title": "Evaluating Inlining Techniques",
+                "year": 1998,
+                "venue": "Computer languages",
+                "citation_count": 30,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1693538",
+                        "name": "Owen Kaser"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "f21012f52b45f1cf8dade58f52f7e7b7194b71e7",
+                "title": "Logic Programming and Model Checking",
+                "year": 1998,
+                "venue": "PLILP/ALP",
+                "citation_count": 55,
+                "reference_count": 42,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "3242646",
+                        "name": "Baoqiu Cui"
+                    },
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "2195582",
+                        "name": "Xiaoqun Du"
+                    },
+                    {
+                        "s2_author_id": "144576381",
+                        "name": "K. Kumar"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1789700",
+                        "name": "Abhik Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    },
+                    {
+                        "s2_author_id": "2678443",
+                        "name": "D. Warren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "1614788c165e519f824dda61fa1d81261de6e894",
+                "title": "Efficient Model Checking Using Tabled Resolution",
+                "year": 1997,
+                "venue": "International Conference on Computer Aided Verification",
+                "citation_count": 229,
+                "reference_count": 33,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145467275",
+                        "name": "Y. S. Ramakrishna"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    },
+                    {
+                        "s2_author_id": "144463956",
+                        "name": "T. Swift"
+                    },
+                    {
+                        "s2_author_id": "2678443",
+                        "name": "D. Warren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2fede1c1cac5a571a02c9d138353bc1087e7a2f3",
+                "title": "EQUALS \u2013 a fast parallel implementation of a lazy language",
+                "year": 1997,
+                "venue": "Journal of functional programming",
+                "citation_count": 8,
+                "reference_count": 31,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1693538",
+                        "name": "Owen Kaser"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144790375",
+                        "name": "R. Sekar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7ed86a315bfe93995f28b108e8c4c73e8d860dc5",
+                "title": "Making a Success out of Early FailuresAbhik",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 2,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "29975770",
+                        "name": "Roychoudhury"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144790375",
+                        "name": "R. Sekar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "ec5a739abd7f83f34d04c2a1ef988367dbf37658",
+                "title": "Eecient Model Checking Using Tabled Resolution ?",
+                "year": 1997,
+                "venue": "",
+                "citation_count": 46,
+                "reference_count": 26,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "145467275",
+                        "name": "Y. S. Ramakrishna"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    },
+                    {
+                        "s2_author_id": "143928604",
+                        "name": "T. Swift"
+                    },
+                    {
+                        "s2_author_id": "2082537011",
+                        "name": "David S. WarrenDepartment"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "26528ff6fd623aba1d53eaa82df938f0b32c1c46",
+                "title": "Principles and practice of unification factoring",
+                "year": 1996,
+                "venue": "ACM Transactions on Programming Languages and Systems",
+                "citation_count": 17,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143992889",
+                        "name": "S. Dawson"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1721948",
+                        "name": "S. Skiena"
+                    },
+                    {
+                        "s2_author_id": "144463956",
+                        "name": "T. Swift"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "32f495387e7bb92fe73bd2ed777f5b426e8acc7a",
+                "title": "A Thread in Time Saves Tabling Time",
+                "year": 1996,
+                "venue": "Joint International Conference and Symposium on Logic Programming",
+                "citation_count": 22,
+                "reference_count": 10,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "150264348",
+                        "name": "Prasad Rao"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "830df1ebad35a2ef96d8d31f48a98924250a15dd",
+                "title": "Practical program analysis using general purpose logic programming systems\u2014a case study",
+                "year": 1996,
+                "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+                "citation_count": 124,
+                "reference_count": 41,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143992889",
+                        "name": "S. Dawson"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2678443",
+                        "name": "D. Warren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d5c4e3156918465a5fff8b5fb14b0a38fb0157d7",
+                "title": "Subsumption Algorithms Based on Search Trees",
+                "year": 1996,
+                "venue": "Colloquium on Trees in Algebra and Programming",
+                "citation_count": 5,
+                "reference_count": 4,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1683055",
+                        "name": "L. Bachmair"
+                    },
+                    {
+                        "s2_author_id": "2118213250",
+                        "name": "Ta Chen"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "2cf324ccd31e960948879dbf320eaa775bf014da",
+                "title": "Unification factoring for efficient execution of logic programs",
+                "year": 1995,
+                "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+                "citation_count": 22,
+                "reference_count": 14,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143992889",
+                        "name": "S. Dawson"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1748894",
+                        "name": "Konstantinos Sagonas"
+                    },
+                    {
+                        "s2_author_id": "1721948",
+                        "name": "S. Skiena"
+                    },
+                    {
+                        "s2_author_id": "144463956",
+                        "name": "T. Swift"
+                    },
+                    {
+                        "s2_author_id": "2678443",
+                        "name": "D. Warren"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "47c6092e76e15daf08ad3a6366d3d20288d3f531",
+                "title": "A symbolic constraint solving framework for analysis of logic programs",
+                "year": 1995,
+                "venue": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+                "citation_count": 9,
+                "reference_count": 38,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144790375",
+                        "name": "R. Sekar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "4de5903781cd13aade8fe04a688d5da09a242d20",
+                "title": "Design and Implementation of Jump Tables for Fast Indexing of Logic Programs",
+                "year": 1995,
+                "venue": "Symposium on Programming Language Implementation and Logic Programming",
+                "citation_count": 6,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143992889",
+                        "name": "S. Dawson"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "50ad881f0eaaec21a356e860740ce95dc9b4184a",
+                "title": "Optimizing Clause Resolution: Beyond Unification Factoring",
+                "year": 1995,
+                "venue": "ILPS",
+                "citation_count": 8,
+                "reference_count": 24,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143992889",
+                        "name": "S. Dawson"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144463956",
+                        "name": "T. Swift"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8002b863b228645aaf6ebf6139cc2e4f82a38056",
+                "title": "Uni cation Factoring for E cient Execution of Logic Programs",
+                "year": 1995,
+                "venue": "",
+                "citation_count": 13,
+                "reference_count": 16,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143992889",
+                        "name": "S. Dawson"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "1453070868",
+                        "name": "K."
+                    },
+                    {
+                        "s2_author_id": "2105404845",
+                        "name": "SagonasS"
+                    },
+                    {
+                        "s2_author_id": "2103180254",
+                        "name": "Skiena"
+                    },
+                    {
+                        "s2_author_id": "143928604",
+                        "name": "T. Swift"
+                    },
+                    {
+                        "s2_author_id": "1490540177",
+                        "name": "S. D."
+                    },
+                    {
+                        "s2_author_id": "2073101960",
+                        "name": "WarrenDepartment"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "10cbf224f9d6679cc8b62c2e293bbd0a7f00bdad",
+                "title": "A High Performance Runtime System for Parallel Evaluation of Lazy Languages",
+                "year": 1994,
+                "venue": "International Workshop on Parallel Symbolic Computation",
+                "citation_count": 4,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1693538",
+                        "name": "Owen Kaser"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144790375",
+                        "name": "R. Sekar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "58c1afdb7c13ccb44a0bb032322a026a4d1854c5",
+                "title": "Modelling techniques for evolving distributed applications",
+                "year": 1994,
+                "venue": "Formal Techniques for (Networked and) Distributed Systems",
+                "citation_count": 4,
+                "reference_count": 15,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144790365",
+                        "name": "R. Sekar"
+                    },
+                    {
+                        "s2_author_id": "3191704",
+                        "name": "Yow-Jian Lin"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "752aa5e65e320c5637b7cb0dbd3548b9e8a39c9a",
+                "title": "Extracting Determinacy in Logic Programs",
+                "year": 1993,
+                "venue": "International Conference on Logic Programming",
+                "citation_count": 37,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "143992889",
+                        "name": "S. Dawson"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144790375",
+                        "name": "R. Sekar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8fc6f4889554a886fb7432173b4b914a392599d1",
+                "title": "On the conversion of indirect to direct recursion",
+                "year": 1993,
+                "venue": "LOPLAS",
+                "citation_count": 34,
+                "reference_count": 18,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1693538",
+                        "name": "Owen Kaser"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2088222",
+                        "name": "S. Pawagi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "6360b21606ac56aacdae94588937c3e5817e919c",
+                "title": "Fast parallel implementation of lazy languages\u2014the EQUALS experience",
+                "year": 1992,
+                "venue": "LFP '92",
+                "citation_count": 21,
+                "reference_count": 23,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1693538",
+                        "name": "Owen Kaser"
+                    },
+                    {
+                        "s2_author_id": "2088222",
+                        "name": "S. Pawagi"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "144790375",
+                        "name": "R. Sekar"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "5ae25cd77d2c13202cf14860161c9a48ad10003d",
+                "title": "Inlining : A Tool for Eliminating Mutual Recursion",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 13,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1693538",
+                        "name": "Owen Kaser"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "2088222",
+                        "name": "S. Pawagi"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "7f801820aa3b1c4a3ad85bbf51c7f47039cb11eb",
+                "title": "Safe Execution of Mobile and Untrusted Code : The Model-Carrying Code Project",
+                "year": null,
+                "venue": "",
+                "citation_count": 0,
+                "reference_count": 67,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "144790375",
+                        "name": "R. Sekar"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145761288",
+                        "name": "I. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "48827908",
+                        "name": "S. Basu"
+                    },
+                    {
+                        "s2_author_id": "144122524",
+                        "name": "S. Bhatkar"
+                    },
+                    {
+                        "s2_author_id": "2052787625",
+                        "name": "Abhishek Chaturvedi"
+                    },
+                    {
+                        "s2_author_id": "2113984688",
+                        "name": "Daniel DuVarney Zhenkai Liang"
+                    },
+                    {
+                        "s2_author_id": "3191704",
+                        "name": "Yow-Jian Lin"
+                    },
+                    {
+                        "s2_author_id": "39376048",
+                        "name": "Diptikalyan Saha"
+                    },
+                    {
+                        "s2_author_id": "50287574",
+                        "name": "K. Murthy"
+                    },
+                    {
+                        "s2_author_id": "2105343348",
+                        "name": "Weiqing Sun Alok Tongaonkar"
+                    },
+                    {
+                        "s2_author_id": "32136289",
+                        "name": "P. Uppuluri"
+                    },
+                    {
+                        "s2_author_id": "2043199465",
+                        "name": "V. N. Padmanabhan"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "8410d6415878c75117097a10a4e8f608d032bfda",
+                "title": "Under Consideration for Publication in Theory and Practice of Logic Programming Model Checking with Probabilistic Tabled Logic Programming",
+                "year": null,
+                "venue": "",
+                "citation_count": 16,
+                "reference_count": 47,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "37976901",
+                        "name": "A. Gorlin"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    },
+                    {
+                        "s2_author_id": "145940172",
+                        "name": "S. Smolka"
+                    }
+                ]
+            },
+            {
+                "s2_paper_id": "d0a61c78a92dba4c99570c8409ebb7d720e6efe4",
+                "title": "Logic Programming Optimizations for Faster Model Checking",
+                "year": null,
+                "venue": "",
+                "citation_count": 1,
+                "reference_count": 9,
+                "abstract": null,
+                "authors": [
+                    {
+                        "s2_author_id": "1799291",
+                        "name": "Yifei Dong"
+                    },
+                    {
+                        "s2_author_id": "144325968",
+                        "name": "C. Ramakrishnan"
+                    }
+                ]
+            }
+        ],
+        "co_authors": [
+            {
+                "s2_author_id": "1666329863",
+                "name": "Ranjani G. Sundaram"
+            },
+            {
+                "s2_author_id": "2055613464",
+                "name": "Himanshu Gupta"
+            },
+            {
+                "s2_author_id": "1471429289",
+                "name": "Mohammad Ghaderibaneh"
+            },
+            {
+                "s2_author_id": "2164383384",
+                "name": "Ertai Luo"
+            },
+            {
+                "s2_author_id": "8774554",
+                "name": "Caitao Zhan"
+            },
+            {
+                "s2_author_id": "1500376988",
+                "name": "Sarthak Ghosh"
+            },
+            {
+                "s2_author_id": "37976901",
+                "name": "A. Gorlin"
+            },
+            {
+                "s2_author_id": "2315847",
+                "name": "Arun Nampally"
+            },
+            {
+                "s2_author_id": "2265990377",
+                "name": "Timothy Zhang"
+            },
+            {
+                "s2_author_id": "46289371",
+                "name": "E. Bartocci"
+            },
+            {
+                "s2_author_id": "1787208",
+                "name": "R. Grosu"
+            },
+            {
+                "s2_author_id": "1714627",
+                "name": "D. Peled"
+            },
+            {
+                "s2_author_id": "145940172",
+                "name": "S. Smolka"
+            },
+            {
+                "s2_author_id": "2173602",
+                "name": "S. Stoller"
+            },
+            {
+                "s2_author_id": "2109805924",
+                "name": "Junxing Yang"
+            },
+            {
+                "s2_author_id": "3020758",
+                "name": "M. Islam"
+            },
+            {
+                "s2_author_id": "145761288",
+                "name": "I. Ramakrishnan"
+            },
+            {
+                "s2_author_id": "1769355",
+                "name": "P. Katsaros"
+            },
+            {
+                "s2_author_id": "145359935",
+                "name": "J. Mahmud"
+            },
+            {
+                "s2_author_id": "2133004",
+                "name": "Y. Borodin"
+            },
+            {
+                "s2_author_id": "145631820",
+                "name": "Ping Yang"
+            },
+            {
+                "s2_author_id": "17433005",
+                "name": "M. Gofman"
+            },
+            {
+                "s2_author_id": "2200390952",
+                "name": "Anu Singh"
+            },
+            {
+                "s2_author_id": "1403834578",
+                "name": "B. Sarna-Starosta"
+            },
+            {
+                "s2_author_id": "3121105",
+                "name": "O. Riganelli"
+            },
+            {
+                "s2_author_id": "1691843",
+                "name": "Samir R Das"
+            },
+            {
+                "s2_author_id": "2678443",
+                "name": "D. Warren"
+            },
+            {
+                "s2_author_id": "2218957473",
+                "name": "Hai-Feng Guo"
+            },
+            {
+                "s2_author_id": "2144067317",
+                "name": "Miao Liu"
+            },
+            {
+                "s2_author_id": "1737321",
+                "name": "P. Roop"
+            },
+            {
+                "s2_author_id": "2059260015",
+                "name": "Dawson"
+            },
+            {
+                "s2_author_id": "2237523136",
+                "name": "C. R"
+            },
+            {
+                "s2_author_id": "2103817256",
+                "name": "SekarDept"
+            },
+            {
+                "s2_author_id": "2101419972",
+                "name": "SystemsXiaoqun"
+            },
+            {
+                "s2_author_id": "2057846189",
+                "name": "Du"
+            },
+            {
+                "s2_author_id": "108691421",
+                "name": "A. Sott"
+            },
+            {
+                "s2_author_id": "2097550243",
+                "name": "SmolkaDepartment"
+            },
+            {
+                "s2_author_id": "2195582",
+                "name": "Xiaoqun Du"
+            },
+            {
+                "s2_author_id": "34718226",
+                "name": "Samik Basu"
+            },
+            {
+                "s2_author_id": "3063522",
+                "name": "Amit Sasturkar"
+            },
+            {
+                "s2_author_id": "39376048",
+                "name": "Diptikalyan Saha"
+            },
+            {
+                "s2_author_id": "143919077",
+                "name": "L. R. Pokorny"
+            },
+            {
+                "s2_author_id": "1799291",
+                "name": "Yifei Dong"
+            },
+            {
+                "s2_author_id": "1777645",
+                "name": "Giridhar Pemmasani"
+            },
+            {
+                "s2_author_id": "1789700",
+                "name": "Abhik Roychoudhury"
+            },
+            {
+                "s2_author_id": "1729481",
+                "name": "M. Leuschel"
+            },
+            {
+                "s2_author_id": "1803881",
+                "name": "A. Podelski"
+            },
+            {
+                "s2_author_id": "1399330009",
+                "name": "U. Ultes-Nitsche"
+            },
+            {
+                "s2_author_id": "144576381",
+                "name": "K. Kumar"
+            },
+            {
+                "s2_author_id": "144790375",
+                "name": "R. Sekar"
+            },
+            {
+                "s2_author_id": "1724479",
+                "name": "S. Krishnamurthi"
+            },
+            {
+                "s2_author_id": "2272478",
+                "name": "Madhavan Mukund"
+            },
+            {
+                "s2_author_id": "144686389",
+                "name": "Rakesh M. Verma"
+            },
+            {
+                "s2_author_id": "1694760",
+                "name": "S. Kalyanaraman"
+            },
+            {
+                "s2_author_id": "1710313",
+                "name": "J. Wen"
+            },
+            {
+                "s2_author_id": "2096898860",
+                "name": "ProgrammingMadhavan"
+            },
+            {
+                "s2_author_id": "47206940",
+                "name": "Mukund"
+            },
+            {
+                "s2_author_id": "1561734029",
+                "name": "Rakesh M. Verma"
+            },
+            {
+                "s2_author_id": "1797303",
+                "name": "V. Venkatakrishnan"
+            },
+            {
+                "s2_author_id": "2213758938",
+                "name": "Cl\u00e1udio T. Silva"
+            },
+            {
+                "s2_author_id": "1683055",
+                "name": "L. Bachmair"
+            },
+            {
+                "s2_author_id": "145219494",
+                "name": "A. Tiwari"
+            },
+            {
+                "s2_author_id": "145106643",
+                "name": "Ernie Johnson"
+            },
+            {
+                "s2_author_id": "150264348",
+                "name": "Prasad Rao"
+            },
+            {
+                "s2_author_id": "2078826617",
+                "name": "Abhik Roy houdhury"
+            },
+            {
+                "s2_author_id": "71139165",
+                "name": "K. NarayanKumar"
+            },
+            {
+                "s2_author_id": "145467275",
+                "name": "Y. S. Ramakrishna"
+            },
+            {
+                "s2_author_id": "1681081",
+                "name": "O. Sokolsky"
+            },
+            {
+                "s2_author_id": "2761505",
+                "name": "E. W. Stark"
+            },
+            {
+                "s2_author_id": "2144482569",
+                "name": "Xinxin Liu"
+            },
+            {
+                "s2_author_id": "1693538",
+                "name": "Owen Kaser"
+            },
+            {
+                "s2_author_id": "3242646",
+                "name": "Baoqiu Cui"
+            },
+            {
+                "s2_author_id": "144463956",
+                "name": "T. Swift"
+            },
+            {
+                "s2_author_id": "29975770",
+                "name": "Roychoudhury"
+            },
+            {
+                "s2_author_id": "143928604",
+                "name": "T. Swift"
+            },
+            {
+                "s2_author_id": "2082537011",
+                "name": "David S. WarrenDepartment"
+            },
+            {
+                "s2_author_id": "143992889",
+                "name": "S. Dawson"
+            },
+            {
+                "s2_author_id": "1721948",
+                "name": "S. Skiena"
+            },
+            {
+                "s2_author_id": "2118213250",
+                "name": "Ta Chen"
+            },
+            {
+                "s2_author_id": "1748894",
+                "name": "Konstantinos Sagonas"
+            },
+            {
+                "s2_author_id": "1453070868",
+                "name": "K."
+            },
+            {
+                "s2_author_id": "2105404845",
+                "name": "SagonasS"
+            },
+            {
+                "s2_author_id": "2103180254",
+                "name": "Skiena"
+            },
+            {
+                "s2_author_id": "1490540177",
+                "name": "S. D."
+            },
+            {
+                "s2_author_id": "2073101960",
+                "name": "WarrenDepartment"
+            },
+            {
+                "s2_author_id": "144790365",
+                "name": "R. Sekar"
+            },
+            {
+                "s2_author_id": "3191704",
+                "name": "Yow-Jian Lin"
+            },
+            {
+                "s2_author_id": "2088222",
+                "name": "S. Pawagi"
+            },
+            {
+                "s2_author_id": "48827908",
+                "name": "S. Basu"
+            },
+            {
+                "s2_author_id": "144122524",
+                "name": "S. Bhatkar"
+            },
+            {
+                "s2_author_id": "2052787625",
+                "name": "Abhishek Chaturvedi"
+            },
+            {
+                "s2_author_id": "2113984688",
+                "name": "Daniel DuVarney Zhenkai Liang"
+            },
+            {
+                "s2_author_id": "50287574",
+                "name": "K. Murthy"
+            },
+            {
+                "s2_author_id": "2105343348",
+                "name": "Weiqing Sun Alok Tongaonkar"
+            },
+            {
+                "s2_author_id": "32136289",
+                "name": "P. Uppuluri"
+            },
+            {
+                "s2_author_id": "2043199465",
+                "name": "V. N. Padmanabhan"
+            }
+        ],
+        "total_co_authors": 96,
+        "papers_retrieved": 124
+    }
+}

@@ -6,7 +6,7 @@ This is a beginner-friendly starter project for a scholar recommendation UI that
 
 - shows the user name on the top right of the webpage
 - accepts a natural-language query in a text box
-- recommends a team of scholars from your NSF-funded PI dataset
+- recommends a team of scholars from NSF-funded PI dataset
 - reads scholar information from JSON files
 - optionally uses scholar embeddings from a `.npy` file
 - falls back to lexical ranking if the query encoder and scholar embeddings are not in the same vector space
@@ -135,7 +135,7 @@ The current UI is still useful even in that case, because it will fall back to l
 
 ## How to make it more advanced later
 
-Once the basic UI is running, you can improve it by adding:
+Once the basic UI is running, we can improve it by adding:
 
 - scholar profile pages
 - filtering by institution, program, or year

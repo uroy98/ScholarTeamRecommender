@@ -62,8 +62,8 @@ function renderCard(scholar) {
           </div>
           ${renderTags(scholar.research_keywords)}
           ${renderList("Why this scholar matches", scholar.match_reasons)}
-          ${renderList("Top NSF awards", scholar.top_awards)}
-          ${renderList("Top publications", scholar.top_papers)}
+          ${renderList("NSF awards", scholar.top_awards)}
+          ${renderList("Publications", scholar.top_papers)}
         </div>
         <div class="score-box">
           <div class="score-value">${scholar.score.toFixed(3)}</div>

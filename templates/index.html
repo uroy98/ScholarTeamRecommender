@@ -9,8 +9,8 @@
 <body>
   <header class="topbar">
     <div class="brand-area">
-      <div class="brand-logo">Scholar<span>Team</span></div>
-      <div class="brand-subtitle">Google-Scholar-style team recommendation UI</div>
+      <div class="brand-logo">ScholarTeam<span>Finder</span></div>
+      <div class="brand-subtitle">A Hypergraph-based scholar team recommendation system</div>
     </div>
     <div class="user-badge">{{ user_name }}</div>
   </header>
@@ -19,8 +19,8 @@
     <section class="hero">
       <h1>Find a scholar team from natural-language project needs</h1>
       <p>
-        This interface ranks and selects scholars from your NSF-funded PI dataset
-        using scholar profile text and optional <code>.npy</code> embeddings.
+        This interface ranks and selects scholars from 2025 NSF-funded PI dataset
+        using scholar profile text and scholar <code>.npy</code> embeddings.
       </p>
 
       <div class="search-panel">
@@ -41,11 +41,13 @@
         </div>
       </div>
 
+      <!--
       <div class="meta-row">
         <span class="pill">Indexed scholars: {{ scholar_count }}</span>
         <span class="pill">Backend: Flask</span>
         <span class="pill">Ranking: Hybrid / Lexical fallback</span>
       </div>
+      -->
 
       {% if startup_error %}
       <div class="warning-box">
